@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.ui.commands">
+      <!--MES-->
+      <category id="com.teamcenter.erp.integration.commands.category" name="ERP MES" />
+      <command name="MES Operation Transfer" categoryId="com.teamcenter.erp.integration.commands.category" id="com.teamcenter.erp.integration.commands.mesOpTrans" />
+      <command name="MES SW Operation Transfer" categoryId="com.teamcenter.erp.integration.commands.category" id="com.teamcenter.erp.integration.commands.mesOpSWTrans" />
+      <command name="MES Specific Operation Revision Transfer" categoryId="com.teamcenter.erp.integration.commands.category" id="com.teamcenter.erp.integration.commands.mesSpecificOpTrans" />
+      <command name="MES Plant Transfer" categoryId="com.teamcenter.erp.integration.commands.category" id="com.teamcenter.erp.integration.commands.mesPlantTrans" />
+      <command name="Scooter Plant Transfer" categoryId="com.teamcenter.erp.integration.commands.category" id="com.teamcenter.erp.integration.commands.scooterPlant" />
+      <command name="BOMLine ID" categoryId="com.teamcenter.erp.integration.commands.category" id="com.teamcenter.erp.integration.commands.BomCarLineID" />
+      <!--SAP-->
+      <!--SAP VINES-->
+      <command name="Family and Options" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.FamilyAndOptions" />
+      <command name="Vehicle Configuration" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.Configuration" />
+      <command name="Engineering Change" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.EngChange" />
+      <command name="BOM Tracking" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.BomTracking" />
+      <command name="Update Software BOM Suggestion" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.SwBOMSuggestion" />
+      <command name="BOM Import" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.BomTrackingImport" />
+      <command name="Finish Good" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.FinishGoodMaterial" />
+      <command name="Scooter Material Master" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.ScooterMaterialCommand" />
+      <command name="Assembly BOM" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.AssyBOM" />
+      <command name="Assembly BOM BOP" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.AssyBOMBOP" />
+      <command name="Super BOM BOP" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.SuperBOM" />
+      <command name="Software BOM BOP" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.SuperSwBOM" />
+      <command name="VF Scooter Assy Transfer" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.scooterAssyTransfer" />
+      <command name="Unit Phantom Transfer" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.unitPhantomTransfer" />
+      <command name="Scooter Super Transfer" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.scooterSuperTransfer" />
+      <command name="Report" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.exportReport" />
+      <command name="BOMBOPReport" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.BOMBOPReport" />
+      <command name="Excel Transfer" categoryId="com.teamcenter.erp.integration.commands.ves.category" id="com.teamcenter.erp.integration.commands.ves.ExcelTransfer" />
+      <!--SAP VINFAST-->
+      <command name="Family and Options" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.FamilyAndOptions" />
+      <command name="Vehicle Configuration" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.Configuration" />
+      <command name="Engineering Change" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.EngChange" />
+      <command name="BOM Tracking" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.BomTracking" />
+      <command name="Update Software BOM Suggestion" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.SwBOMSuggestion" />
+      <command name="BOM Import" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.BomTrackingImport" />
+      <command name="Material Master" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.MaterialCommand" />
+      <command name="Finish Good" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.FinishGoodMaterial" />
+      <command name="Scooter Material Master" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.ScooterMaterialCommand" />
+      <command name="Assembly BOM" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.AssyBOM" />
+      <command name="Assembly BOM BOP" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.AssyBOMBOP" />
+      <command name="Super BOM BOP" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.SuperBOM" />
+      <command name="Software BOM BOP" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.SuperSwBOM" />
+      <command name="Unit BOM BOP" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.unitBOM" />
+      <command name="Unit BOM BOP MA SHOP" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.unitBOMSHOPMA" />
+      <command name="Sub Contract BOM" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.subContract" />
+      <command name="VF Scooter Assy Transfer" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.scooterAssyTransfer" />
+      <command name="Unit Phantom Transfer" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.unitPhantomTransfer" />
+      <command name="Scooter Super Transfer" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.scooterSuperTransfer" />
+      <command name="Report" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.exportReport" />
+      <command name="BOMBOPReport" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.BOMBOPReport" />
+      <command name="Excel Transfer" categoryId="com.teamcenter.erp.integration.commands.vinfast.category" id="com.teamcenter.erp.integration.commands.vinfast.ExcelTransfer" />
+      <!--SAP VINFE-->
+      <command name="Family and Options" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.FamilyAndOptions" />
+      <command name="Vehicle Configuration" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.Configuration" />
+      <command name="Engineering Change" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.EngChange" />
+      <command name="BOM Tracking" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.BomTracking" />
+      <command name="Update Software BOM Suggestion" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.SwBOMSuggestion" />
+      <command name="BOM Import" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.BomTrackingImport" />
+      <command name="Material Master" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.MaterialCommand" />
+      <command name="Finish Good" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.FinishGoodMaterial" />
+      <command name="Scooter Material Master" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.ScooterMaterialCommand" />
+      <command name="Assembly BOM" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.AssyBOM" />
+      <command name="Assembly BOM BOP" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.AssyBOMBOP" />
+      <command name="Super BOM BOP" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.SuperBOM" />
+      <command name="Software BOM BOP" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.SuperSwBOM" />
+      <command name="Software BOM BOP" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.mesOpSWTrans" />
+      <command name="Unit BOM BOP" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.unitBOM" />
+      <command name="Sub Contract BOM" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.subContract" />
+      <command name="VF Scooter Assy Transfer" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.scooterAssyTransfer" />
+      <command name="Unit Phantom Transfer" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.unitPhantomTransfer" />
+      <command name="Scooter Super Transfer" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.scooterSuperTransfer" />
+      <command name="Report" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.exportReport" />
+      <command name="BOMBOPReport" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.BOMBOPReport" />
+      <command name="Excel Transfer" categoryId="com.teamcenter.erp.integration.commands.vfe.category" id="com.teamcenter.erp.integration.commands.vfe.ExcelTransfer" />
+      <command name="Version Info" categoryId="com.teamcenter.erp.integration.commands.general" id="com.teamcenter.vinfast.integration.commands.VersionInfo">
+         <commandParameter id="com.teamcenter.vinfast.commands.VersionInfo" name="23_CW46_01"/>
+      </command>
+      <!-- MBOM-->
+       <command name="Create Base MBOM" categoryId="com.teamcenter.erp.integration.commands.category" id="com.vinfast.manufacturing.createMBOMTemplate" />
+      <command name="Report PS" categoryId="com.teamcenter.erp.integration.commands.category" id="com.vinfast.manufacturing.reportPS" >
+      <commandParameter id="com.teamcenter.vinfast.commands.manufacturing.report" name="PAINT_SHOP" />
+       </command>
+      <command name="Report GA" categoryId="com.teamcenter.erp.integration.commands.category" id="com.vinfast.manufacturing.reportGA" >
+      <commandParameter id="com.teamcenter.vinfast.commands.manufacturing.report" name="GA_SHOP" />
+       </command>
+      <command name="Report BS" categoryId="com.teamcenter.erp.integration.commands.category" id="com.vinfast.manufacturing.reportBS" >
+      <commandParameter id="com.teamcenter.vinfast.commands.manufacturing.report" name="BODY_SHOP" />
+       </command>
+      <command name="Report PS" categoryId="com.teamcenter.erp.integration.commands.category" id="com.vinfast.manufacturing.reportSA" >
+      <commandParameter id="com.teamcenter.vinfast.commands.manufacturing.report" name="SA_SHOP" />
+       </command>
+      <command name="Update PS" categoryId="com.teamcenter.erp.integration.commands.category" id="com.vinfast.manufacturing.updateMBOMPS" >
+        <commandParameter id="com.teamcenter.vinfast.commands.manufacturing.shop" name="PAINT_SHOP" />
+       </command>
+      <command name="Update GA" categoryId="com.teamcenter.erp.integration.commands.category" id="com.vinfast.manufacturing.updateMBOMGA" >
+       <commandParameter id="com.teamcenter.vinfast.commands.manufacturing.shop" name="GA_SHOP" />
+       </command>
+      <command name="Update BS" categoryId="com.teamcenter.erp.integration.commands.category" id="com.vinfast.manufacturing.updateMBOMBS" >
+       <commandParameter id="com.teamcenter.vinfast.commands.manufacturing.shop" name="BODY_SHOP" />
+       </command>
+      <command name="Update SA" categoryId="com.teamcenter.erp.integration.commands.category" id="com.vinfast.manufacturing.updateMBOMSA" />
+           
+   </extension>
+   <extension point="org.eclipse.ui.handlers">
+	  <handler class="com.vinfast.sap.util.VersionInfo" commandId="com.teamcenter.vinfast.integration.commands.VersionInfo" />
+      <!--MES-->
+      <handler commandId="com.teamcenter.erp.integration.commands.scooterOperation" class="com.vinfast.scooter.mes.operation.ScooterOperationTransferHandler" />
+      <handler commandId="com.teamcenter.erp.integration.commands.scooterPlant" class="com.vinfast.car.mes.plantmodel.PlantStructure" />
+      <handler commandId="com.teamcenter.erp.integration.commands.mesOpTrans" class="com.vinfast.car.mes.operation.OperationTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.mesOpSWTrans" class="com.vinfast.car.mes.operation.OperationTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.mesSpecificOpTrans" class="com.vinfast.car.mes.operation.SpecificOperationRevisionTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.mesPlantTrans" class="com.vinfast.car.mes.plantmodel.PlantStructure" />
+      <handler commandId="com.teamcenter.erp.integration.commands.BomCarLineID" class="com.vinfast.sap.bomlineID.SetBOMLineID" />
+      <!--SAP-->
+      <!--SAP VINES-->
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.operationTransfer" class="com.vines.mes.operation.VESOperationTransferHandler" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.mesSpecificOpTrans" class="com.vinfast.car.mes.operation.SpecificOperationRevisionTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.mesPlantTrans" class="com.vinfast.car.mes.plantmodel.PlantStructure" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.FamilyAndOptions" class="com.vinfast.sap.variants.FamilyAndOptionsTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.Configuration" class="com.vinfast.sap.rules.VehicleConfiguration" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.EngChange" class="com.vinfast.sap.engchange.EngChangeTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.BomTrackingImport" class="com.vinfast.sap.bomtracking.BomTrackingImport" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.BomTracking" class="com.vinfast.sap.bomtracking.BomTrackingTranfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.MaterialCommand" class="com.vines.sap.material.VESMaterialTransferHandler" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.FinishGoodMaterial" class="com.vinfast.sap.material.FinishGoodTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.ScooterMaterialCommand" class="com.vinfast.sap.material.MaterialTransferHandler" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.SuperBOM" class="com.vinfast.car.sap.superbom.CarSuperBomBop" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.SuperSwBOM" class="com.vinfast.car.sap.superbom.CarSuperBomBop" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.AssyBOM" class="com.vinfast.car.sap.assybom.AssemblyBOM" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.AssyBOMBOP" class="com.vinfast.car.sap.assybom.AssemblyBOMBOP" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.subContract" class="com.vines.sap.subContract.VESSubContractHandler" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.unitBOMTransfer" class="com.vines.sap.unitBomBop.VESUnitBomBopTransferHandler" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.unitPhantomTransfer" class="com.vinfast.car.sap.unitbom.UnitPhantom" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.scooterPlant" class="com.vinfast.car.mes.plantmodel.PlantStructure" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.mesOpTrans" class="com.vinfast.car.mes.operation.OperationTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.mesOpSWTrans" class="com.vinfast.car.mes.operation.OperationTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.mesSpecificOpTrans" class="com.vinfast.car.mes.operation.SpecificOperationRevisionTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.mesPlantTrans" class="com.vinfast.car.mes.plantmodel.PlantStructure" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.exportReport" class="com.vinfast.sap.report.VariantExport" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.scooterAssyTransfer" class="com.vinfast.scooter.sap.assembly.Scooter" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.scooterSuperTransfer" class="com.vinfast.scooter.sap.superbom.SuperScooterBOM" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.BOMBOPReport" class="com.vinfast.sap.report.ReportBOMBOP" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.SwBOMSuggestion" class="com.vinfast.car.sap.sw.SoftwareBomSuggestion" />
+      <handler commandId="com.teamcenter.erp.integration.commands.ves.ExcelTransfer" class="com.vin.sap.excel.ExcelTransferSAP_Handler" />
+      <!--SAP VINFAST-->
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.FamilyAndOptions" class="com.vinfast.sap.variants.FamilyAndOptionsTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.Configuration" class="com.vinfast.sap.rules.VehicleConfiguration" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.afterSaleBOM" class="com.vinfast.car.sap.sbom.AftersaleBOMTransfer_Handler" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.EngChange" class="com.vinfast.sap.engchange.EngChangeTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.BomTrackingImport" class="com.vinfast.sap.bomtracking.BomTrackingImport" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.BomTracking" class="com.vinfast.sap.bomtracking.BomTrackingTranfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.MaterialCommand" class="com.vinfast.sap.material.MaterialTransferHandler" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.FinishGoodMaterial" class="com.vinfast.sap.material.FinishGoodTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.ScooterMaterialCommand" class="com.vinfast.sap.material.MaterialTransferHandler" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.SuperBOM" class="com.vinfast.car.sap.superbom.CarSuperBomBop" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.SuperSwBOM" class="com.vinfast.car.sap.superbom.CarSuperBomBop" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.AssyBOM" class="com.vinfast.car.sap.assybom.AssemblyBOM" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.AssyBOMBOP" class="com.vinfast.car.sap.assybom.AssemblyBOMBOP" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.subContract" class="com.vinfast.car.sap.subcontract.SubContractBOM" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.unitBOM" class="com.vinfast.car.sap.unitbom.Unit" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.unitBOMSHOPMA" class="com.vinfast.car.sap.unitbom.UnitShopMA" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.unitPhantomTransfer" class="com.vinfast.car.sap.unitbom.UnitPhantom" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.scooterPlant" class="com.vinfast.car.mes.plantmodel.PlantStructure" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.mesOpTrans" class="com.vinfast.car.mes.operation.OperationTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.mesOpSWTrans" class="com.vinfast.car.mes.operation.OperationTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.mesSpecificOpTrans" class="com.vinfast.car.mes.operation.SpecificOperationRevisionTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.mesPlantTrans" class="com.vinfast.car.mes.plantmodel.PlantStructure" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.exportReport" class="com.vinfast.sap.report.VariantExport" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.scooterAssyTransfer" class="com.vinfast.scooter.sap.assembly.Scooter" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.scooterSuperTransfer" class="com.vinfast.scooter.sap.superbom.SuperScooterBOM" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.BOMBOPReport" class="com.vinfast.sap.report.ReportBOMBOP" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.SwBOMSuggestion" class="com.vinfast.car.sap.sw.SoftwareBomSuggestion" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vinfast.ExcelTransfer" class="com.vin.sap.excel.ExcelTransferSAP_Handler" />
+      <!-- VFE -->
+      <!-- VFE / Product Configurator -->
+      <handler 
+                class="com.vinfast.sap.variants.FamilyAndOptionsTransfer"
+            commandId="com.teamcenter.erp.integration.commands.vfe.FamilyAndOptions"  />
+      <!-- VFE / MES -->
+      <handler 
+                class="com.vinfast.scooter.mes.operation.ScooterOperationTransferHandler"
+            commandId="com.teamcenter.integration.vfe.mes.operationTransfer.command" />
+      <handler 
+                class="com.vinfast.car.mes.operation.SpecificOperationRevisionTransfer"
+            commandId="com.teamcenter.integration.vfe.mes.specOperationTransfer.command" />
+      <handler 
+                class="com.vinfast.car.mes.plantmodel.PlantStructure"
+            commandId="com.teamcenter.integration.vfe.mes.plantModelTransfer.command" />
+      <!-- VFE / SAP-->
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.Configuration" class="com.vinfast.sap.rules.VehicleConfiguration" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.EngChange" class="com.vinfast.sap.engchange.EngChangeTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.BomTrackingImport" class="com.vinfast.sap.bomtracking.BomTrackingImport" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.BomTracking" class="com.vinfast.sap.bomtracking.BomTrackingTranfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.MaterialCommand" class="com.vinfast.sap.material.MaterialTransferHandler" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.FinishGoodMaterial" class="com.vinfast.sap.material.FinishGoodTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.ScooterMaterialCommand" class="com.vinfast.sap.material.MaterialTransferHandler" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.SuperBOM" class="com.vinfast.car.sap.superbom.CarSuperBomBop" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.SuperSwBOM" class="com.vinfast.car.sap.superbom.CarSuperBomBop" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.mesOpSWTrans" class="com.vinfast.car.mes.operation.OperationTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.AssyBOM" class="com.vinfast.car.sap.assybom.AssemblyBOM" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.AssyBOMBOP" class="com.vinfast.car.sap.assybom.AssemblyBOMBOP" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.subContract" class="com.vinfast.car.sap.subcontract.SubContractBOM" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.unitBOM" class="com.vinfast.car.sap.unitbom.Unit" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.unitPhantomTransfer" class="com.vinfast.car.sap.unitbom.UnitPhantom" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.scooterPlant" class="com.vinfast.car.mes.plantmodel.PlantStructure" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.mesOpTrans" class="com.vinfast.car.mes.operation.OperationTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.mesSpecificOpTrans" class="com.vinfast.car.mes.operation.SpecificOperationRevisionTransfer" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.mesPlantTrans" class="com.vinfast.car.mes.plantmodel.PlantStructure" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.exportReport" class="com.vinfast.sap.report.VariantExport" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.scooterAssyTransfer" class="com.vinfast.scooter.sap.assembly.Scooter" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.scooterSuperTransfer" class="com.vinfast.scooter.sap.superbom.SuperScooterBOM" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.BOMBOPReport" class="com.vinfast.sap.report.ReportBOMBOP" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.SwBOMSuggestion" class="com.vinfast.car.sap.sw.SoftwareBomSuggestion" />
+      <handler commandId="com.teamcenter.erp.integration.commands.vfe.ExcelTransfer" class="com.vin.sap.excel.ExcelTransferSAP_Handler" />
+      <!-- MBOM -->
+      		<!--Create-->
+       <handler class="com.vinfast.mbom.CreateBaseMBOM" commandId="com.vinfast.manufacturing.createMBOMTemplate" />
+       		<!--Updae-->
+       <handler class="com.vinfast.mbom.ExportReport" commandId="com.vinfast.manufacturing.reportPS" />
+       <handler class="com.vinfast.mbom.ExportReport" commandId="com.vinfast.manufacturing.reportGA" />
+       <handler class="com.vinfast.mbom.ExportReport" commandId="com.vinfast.manufacturing.reportBS" />
+       <handler class="com.vinfast.mbom.ExportReportSA" commandId="com.vinfast.manufacturing.reportSA" />
+       		<!--Report-->
+       <handler class="com.vinfast.mbom.UpdateBaseMBOM" commandId="com.vinfast.manufacturing.updateMBOMPS" />
+       <handler class="com.vinfast.mbom.UpdateBaseMBOM" commandId="com.vinfast.manufacturing.updateMBOMGA" />
+       <handler class="com.vinfast.mbom.UpdateBaseMBOM" commandId="com.vinfast.manufacturing.updateMBOMBS" />
+       <handler class="com.vinfast.mbom.UpdateMBOMSA" commandId="com.vinfast.manufacturing.updateMBOMSA" />
+      <!-- REPORTS -->
+      <!-- REPORTS / BOMBOP Report -->
+      <handler 
+                class="com.teamcenter.integration.report.StationReport_Handler"
+            commandId="com.teamcenter.integration.report.stationBOPReport.command" />
+      <handler 
+                class="com.teamcenter.integration.report.SuperBOMBOPReport_Handler"
+            commandId="com.teamcenter.integration.report.SuperBOMBOPReport.command" />
+      <handler 
+                class="com.teamcenter.integration.report.UnitBOMBOPReport_Handler"
+            commandId="com.teamcenter.integration.report.UnitBOMBOPReport.command" />
+      <handler 
+                class="com.teamcenter.integration.report.CompareBOMBOPReport_Handler"
+            commandId="com.teamcenter.integration.report.CompareBOMBOPReport.command" />
+      <!-- Admin -->
+      <!-- Admin / SAP -->
+      <handler 
+                class="com.vinfast.admin.sap.car.SubGroupDatasetCreate_Handler"
+            commandId="com.teamcenter.integration.admin.sap.subGroupDatasetCreate.command" />
+      <!-- Admin / MES -->
+   </extension>
+   <extension point="org.eclipse.ui.menus">
+      <menuContribution locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu label="ERP Transfer" id="com.teamcenter.erp.integration.menus.vinfast.erptransfer">
+            <menu label="Admin" id="com.teamcenter.integration.admin.menu">
+               <menu label="SAP" id="com.teamcenter.integration.admin.sap.menu">
+                  <command commandId="com.teamcenter.integration.admin.sap.subGroupDatasetCreate.command" label="Create Subgroup Dataset">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.integration.admin.sap.subGroupDatasetCreate.command" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+               </menu>
+            </menu>
+            <menu label="VINES" id="com.teamcenter.integration.vines.menu">
+               <menu label="Product Configurator" id="com.teamcenter.erp.integration.menus.ves.productConfigurator" icon="icons/variant_configuration.png">
+                  <command commandId="com.teamcenter.erp.integration.commands.ves.FamilyAndOptions" label="Family/Options Transfer" icon="icons/optionset_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.ves.FamilyAndOptions" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.ves.Configuration" label="Rules Transfer" icon="icons/rule_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.ves.Configuration" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+               </menu>
+               <menu label="MES" id="com.teamcenter.integration.vines.mes.menu" icon="icons/MES.png">
+                  <command commandId="com.teamcenter.erp.integration.commands.ves.operationTransfer" label="Operation Transfer" icon="icons/operation_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.integration.vines.mes.operationTransfer.command" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.ves.mesSpecificOpTrans" label="Specific Operation Revision Transfer" icon="icons/operation_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.ves.mesSpecificOpTrans" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.ves.mesPlantTrans" label="PlantModel Transfer" icon="icons/plant_bop_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.ves.mesPlantTrans" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+               </menu>
+               <menu label="SAP" id="com.teamcenter.erp.integration.menus.ves.carsapmenu" icon="icons/SAP.png">
+                  <command commandId="com.teamcenter.erp.integration.commands.ves.ExcelTransfer" label="Excel Transfer" icon="icons/Export_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.ves.ExcelTransfer" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.ves.EngChange" label="Change Transfer" icon="icons/Change_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.ves.EngChange" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.ves.MaterialCommand" label="Material Transfer" icon="icons/Material_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.ves.MaterialCommand" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.ves.SuperBOM" label="Super BOM/BOP Transfer" icon="icons/Super_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.ves.SuperBOM" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.ves.unitBOMTransfer" label="Unit BOM/BOP Transfer" icon="icons/Unit_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.integration.vines.sap.unitBOMTransfer.command" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.ves.subContract" label="Sub Contract BOM" icon="icons/Sub_Contract_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.integration.vines.sap.subContract.command" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+               </menu>
+            </menu>
+            <menu label="VINFAST" id="com.teamcenter.erp.integration.menus.vinfast.vinfast">
+               <menu label="Product Configurator" id="com.teamcenter.erp.integration.menus.vinfast.productConfigurator" icon="icons/variant_configuration.png">
+                  <command commandId="com.teamcenter.erp.integration.commands.vinfast.FamilyAndOptions" label="Family/Options Transfer" icon="icons/optionset_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.vinfast.FamilyAndOptions" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.vinfast.Configuration" label="Rules Transfer" icon="icons/rule_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.vinfast.Configuration" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+               </menu>
+               <menu label="Car" id="com.teamcenter.erp.integration.menus.vinfast.cartransfer" icon="icons/Car_16.png">
+                  <menu label="MES" id="com.teamcenter.erp.integration.menus.vinfast.carmesmenu" icon="icons/MES.png">
+                     <command commandId="com.teamcenter.erp.integration.commands.mesOpTrans" label="Operation Transfer" icon="icons/operation_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.mesOpTrans" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.mesOpSWTrans" label="Software BOM - Operation Transfer" icon="icons/operation_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.mesOpSWTrans" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.mesSpecificOpTrans" label="Specific Operation Revision Transfer" icon="icons/operation_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.mesSpecificOpTrans" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.mesPlantTrans" label="PlantModel Transfer" icon="icons/plant_bop_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.mesPlantTrans" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                  </menu>
+                  <menu label="SAP" id="com.teamcenter.erp.integration.menus.vinfast.carsapmenu" icon="icons/SAP.png">
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.afterSaleBOM" label="Aftersale BOM">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.afterSaleBOM" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.EngChange" label="Change Transfer" icon="icons/Change_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.EngChange" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.MaterialCommand" label="Material Transfer" icon="icons/Material_16.png" tooltip="Transfer Materials to SAP">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.MaterialCommand" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.AssyBOM" label="Assembly BOM Transfer" icon="icons/Assembly_16.jpg">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.AssyBOM" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.AssyBOMBOP" label="Assembly BOM/BOP Transfer" icon="icons/Assembly_16.jpg">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.AssyBOMBOP" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.SuperBOM" label="Super BOM/BOP Transfer" icon="icons/Super_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.SuperBOM" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.SuperSwBOM" label="Software BOM/BOP Transfer" icon="icons/Super_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.SuperSwBOM" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.unitBOM" label="Unit BOM/BOP" icon="icons/Unit_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.unitBOM" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.unitBOMSHOPMA" label="Unit BOP ONLY" icon="icons/Unit_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.unitBOMSHOPMA" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.subContract" label="Sub Contract BOM" icon="icons/Sub_Contract_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.subContract" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.BomTrackingImport" label="Bom Tracking Import" icon="icons/Change_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.BomTrackingImport" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.BomTracking" label="Bom Tracking Transfer" icon="icons/Change_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.BomTracking" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.SwBOMSuggestion" label="Update Software BOM Suggestion" icon="icons/Change_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or />
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.SwBOMSuggestion" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.ExcelTransfer" label="Excel Transfer" icon="icons/Export_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.ExcelTransfer" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                  </menu>
+               </menu>
+               <menu label="Scooter" id="com.teamcenter.erp.integration.menus.vinfast.scooterTransfer" icon="icons/Scooter_16.png">
+                  <menu label="MES" id="com.teamcenter.erp.integration.menus.vinfast.esmesmenu" icon="icons/MES.png">
+                     <command commandId="com.teamcenter.erp.integration.commands.scooterOperation" label="Operation Transfer" icon="icons/operation_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.scooterOperation" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.scooterPlant" label="PlantModel Transfer" icon="icons/plant_bop_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.scooterPlant" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                  </menu>
+                  <menu label="SAP" id="com.teamcenter.erp.integration.menus.vinfast.essapmenu" icon="icons/SAP.png">
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.EngChange" label="Change Transfer" icon="icons/Change_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.EngChange" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.ScooterMaterialCommand" label="Material Transfer" icon="icons/Material_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.ScooterMaterialCommand" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.AssyBOM" label="Assembly BOM Transfer" icon="icons/Assembly_16.jpg">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.AssyBOM" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.scooterAssyTransfer" label="Assembly BOM/BOP (Welding/Paint)" icon="icons/Unit_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.scooterAssyTransfer" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.scooterSuperTransfer" label="Super BOM/BOP (GA Shop)" icon="icons/Super_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.scooterSuperTransfer" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.unitPhantomTransfer" label="Unit BOM/BOP (Phantom)" icon="icons/Unit_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.unitPhantomTransfer" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                     <command commandId="com.teamcenter.erp.integration.commands.vinfast.FinishGoodMaterial" label="FinishGood Transfer (Mold)" icon="icons/Material_16.png" tooltip="Transfer Finish Good to SAP">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.vinfast.FinishGoodMaterial" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                  </menu>
+               </menu>
+               <menu label="Reports" id="com.teamcenter.erp.integration.menus.vinfast.reports" icon="icons/Export_16.png">
+                  <command commandId="com.teamcenter.erp.integration.commands.exportReport" label="Variant BOM Export" icon="icons/Export_16.png" />
+                  <command commandId="com.teamcenter.erp.integration.commands.BOMBOPReport" label="BOM BOP Export" icon="icons/Export_16.png">
+                     <visibleWhen>
+                        <iterate ifEmpty="false">
+                           <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                              <test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+                           </adapt>
+                        </iterate>
+                        <reference definitionId="com.teamcenter.rac.cme.mpp.MSEPerspective" />
+                     </visibleWhen>
+                  </command>
+               </menu>
+               <menu id="com.vinfast.manufacturing.menu" label="Automate MBOM" icon="icons/Manufacture_16.png">
+					<menu id="com.vinfast.manufacturing.menu.create" label="Create" icon="icons/newitem_16.png">
+						<command commandId="com.vinfast.manufacturing.createMBOMTemplate" label="Base MBOM Structure" icon="icons/structure.png">
+						<visibleWhen>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+								<test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+							</adapt>
+						</iterate>
+						<reference definitionId="com.teamcenter.rac.cme.mpp.MSEPerspective" />
+					</visibleWhen>
+					</command>
+					</menu>
+					<menu id="com.vinfast.manufacturing.menu.update" label="Update" icon="icons/edit_16.png">
+					<command commandId="com.vinfast.manufacturing.updateMBOMPS" label="Paint Shop" icon="icons/Paint_16.png">
+						<visibleWhen>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+								<test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+							</adapt>
+						</iterate>
+						<reference definitionId="com.teamcenter.rac.cme.mpp.MSEPerspective" />
+					</visibleWhen>
+					</command>
+					<command commandId="com.vinfast.manufacturing.updateMBOMGA" label="GA Shop" icon="icons/Super_16.png">
+						<visibleWhen>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+								<test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+							</adapt>
+						</iterate>
+						<reference definitionId="com.teamcenter.rac.cme.mpp.MSEPerspective" />
+					</visibleWhen>
+					</command>
+					<command commandId="com.vinfast.manufacturing.updateMBOMBS" label="Body Shop" icon="icons/Body_16.png">
+						<visibleWhen>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+								<test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+							</adapt>
+						</iterate>
+						<reference definitionId="com.teamcenter.rac.cme.mpp.MSEPerspective" />
+					</visibleWhen>
+					</command>
+					<command commandId="com.vinfast.manufacturing.updateMBOMSA" label="SA Shop" icon="icons/Unit_16.png">
+						<visibleWhen>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+								<test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+							</adapt>
+						</iterate>
+						<reference definitionId="com.teamcenter.rac.cme.mpp.MSEPerspective" />
+					</visibleWhen>
+					</command>
+					</menu>
+					<menu id="com.vinfast.manufacturing.menu.reports" label="Reports" icon="icons/Excel.png">
+					<command commandId="com.vinfast.manufacturing.reportPS" label="Paint Shop" icon="icons/Paint_16.png">
+						<visibleWhen>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+								<test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+							</adapt>
+						</iterate>
+						<reference definitionId="com.teamcenter.rac.cme.mpp.MSEPerspective" />
+						<reference definitionId="com.teamcenter.rac.pse.inMainView" />
+					</visibleWhen>
+					</command>
+					<command commandId="com.vinfast.manufacturing.reportGA" label="GA Shop" icon="icons/Super_16.png">
+						<visibleWhen>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+								<test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+							</adapt>
+						</iterate>
+						<reference definitionId="com.teamcenter.rac.cme.mpp.MSEPerspective" />
+					</visibleWhen>
+					</command>
+					<command commandId="com.vinfast.manufacturing.reportBS" label="Body Shop" icon="icons/Body_16.png">
+						<visibleWhen>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+								<test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+							</adapt>
+						</iterate>
+						<reference definitionId="com.teamcenter.rac.cme.mpp.MSEPerspective" />
+					</visibleWhen>
+					</command>
+					<command commandId="com.vinfast.manufacturing.reportSA" label="SA Shop" icon="icons/Unit_16.png">
+						<visibleWhen>
+						<iterate ifEmpty="false">
+							<adapt type="com.teamcenter.rac.kernel.TCComponent">
+								<test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+							</adapt>
+						</iterate>
+						<reference definitionId="com.teamcenter.rac.cme.mpp.MSEPerspective" />
+					</visibleWhen>
+					</command>
+					</menu>
+				</menu>
+            </menu>
+            <menu label="VFE" id="com.teamcenter.integration.vfe.menu">
+               <menu label="Product Configurator" id="com.teamcenter.erp.integration.menus.vfe.productConfigurator" icon="icons/variant_configuration.png">
+                  <command commandId="com.teamcenter.erp.integration.commands.vfe.FamilyAndOptions" label="Family/Options Transfer" icon="icons/optionset_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.vfe.FamilyAndOptions" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.vfe.Configuration" label="Rules Transfer" icon="icons/rule_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.vfe.Configuration" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+               </menu>
+               <menu label="MES" id="com.teamcenter.integration.vfe.mes.menu" icon="icons/MES.png">
+                  <command commandId="com.teamcenter.integration.vfe.mes.operationTransfer.command" label="Operation Transfer" icon="icons/meoperationrevision_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.integration.vfe.mes.operationTransfer.command" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.vfe.mesOpSWTrans" label="Software BOM - Operation Transfer" icon="icons/operation_16.png">
+                        <visibleWhen>
+                           <and>
+                              <or>
+                                 <iterate ifEmpty="false">
+                                    <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                       <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                    </adapt>
+                                 </iterate>
+                              </or>
+                              <with variable="rac_command_suppression">
+                                 <not>
+                                    <iterate operator="or">
+                                       <equals value="com.teamcenter.erp.integration.commands.mesOpSWTrans" />
+                                    </iterate>
+                                 </not>
+                              </with>
+                           </and>
+                        </visibleWhen>
+                     </command>
+                  <command commandId="com.teamcenter.integration.vfe.mes.specOperationTransfer.command" label="Specific Operation Revision Transfer" icon="icons/meoperationrevision_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.integration.vfe.mes.specOperationTransfer.command" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.integration.vfe.mes.plantModelTransfer.command" label="PlantModel Transfer" icon="icons/plant_bop_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.integration.vfe.mes.plantModelTransfer.command" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+               </menu>
+               <menu label="SAP" id="com.teamcenter.erp.integration.menus.vfe.carsapmenu" icon="icons/SAP.png">
+                  <command commandId="com.teamcenter.erp.integration.commands.vfe.EngChange" label="Change Transfer" icon="icons/Change_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.vfe.EngChange" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.vfe.MaterialCommand" label="Material Transfer" icon="icons/Material_16.png" tooltip="Transfer Materials to SAP">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.vfe.MaterialCommand" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.vfe.unitBOM" label="Unit BOM/BOP (Car)" icon="icons/Unit_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.vfe.unitBOM" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+                  <command commandId="com.teamcenter.erp.integration.commands.vfe.scooterAssyTransfer" label="Assembly BOM/BOP (Welding/Paint)" icon="icons/Unit_16.png">
+                     <visibleWhen>
+                        <and>
+                           <or>
+                              <iterate ifEmpty="false">
+                                 <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                    <test forcePluginActivation="true" property="com.teamcenter.rac.kernel.TCComponent.type" value="Vf6_MCNRevision" />
+                                 </adapt>
+                              </iterate>
+                           </or>
+                           <with variable="rac_command_suppression">
+                              <not>
+                                 <iterate operator="or">
+                                    <equals value="com.teamcenter.erp.integration.commands.vfe.scooterAssyTransfer" />
+                                 </iterate>
+                              </not>
+                           </with>
+                        </and>
+                     </visibleWhen>
+                  </command>
+               </menu>
+            </menu>
+            <menu label="REPORTS" id="com.teamcenter.integration.report.menu">
+               <command commandId="com.teamcenter.integration.report.stationBOPReport.command" label="Station BOP Report" icon="icons/Material_16.png">
+                  <visibleWhen>
+                     <and>
+                        <or>
+                           <iterate ifEmpty="false">
+                              <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                 <!-- <test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" /> -->
+                              </adapt>
+                           </iterate>
+                        </or>
+                        <with variable="rac_command_suppression">
+                           <not>
+                              <iterate operator="or">
+                                 <equals value="com.teamcenter.integration.report.stationBOPReport.command" />
+                              </iterate>
+                           </not>
+                        </with>
+                     </and>
+                  </visibleWhen>
+               </command>
+               <command commandId="com.teamcenter.integration.report.SuperBOMBOPReport.command" label="Super BOM/BOP Report" icon="icons/Material_16.png">
+                  <visibleWhen>
+                     <and>
+                        <or>
+                           <iterate ifEmpty="false">
+                              <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                 <!-- <test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" /> -->
+                              </adapt>
+                           </iterate>
+                        </or>
+                        <with variable="rac_command_suppression">
+                           <not>
+                              <iterate operator="or">
+                                 <equals value="com.teamcenter.integration.report.SuperBOMBOPReport.command" />
+                              </iterate>
+                           </not>
+                        </with>
+                     </and>
+                  </visibleWhen>
+               </command>
+               <command commandId="com.teamcenter.integration.report.UnitBOMBOPReport.command" label="Unit BOM/BOP Report" icon="icons/Material_16.png">
+                  <visibleWhen>
+                     <and>
+                        <or>
+                           <iterate ifEmpty="false">
+                              <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                 <!-- <test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" /> -->
+                              </adapt>
+                           </iterate>
+                        </or>
+                        <with variable="rac_command_suppression">
+                           <not>
+                              <iterate operator="or">
+                                 <equals value="com.teamcenter.integration.report.UnitBOMBOPReport.command" />
+                              </iterate>
+                           </not>
+                        </with>
+                     </and>
+                  </visibleWhen>
+               </command>
+               <command commandId="com.teamcenter.integration.report.CompareBOMBOPReport.command" label="Compare BOM/BOP Report" icon="icons/Material_16.png">
+                  <visibleWhen>
+                     <and>
+                        <or>
+                           <iterate ifEmpty="false">
+                              <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                 <!-- <test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" /> -->
+                              </adapt>
+                           </iterate>
+                        </or>
+                        <with variable="rac_command_suppression">
+                           <not>
+                              <iterate operator="or">
+                                 <equals value="com.teamcenter.integration.report.CompareBOMBOPReport.command" />
+                              </iterate>
+                           </not>
+                        </with>
+                     </and>
+                  </visibleWhen>
+               </command>
+            <command commandId="com.teamcenter.vinfast.integration.commands.VersionInfo" mnemonic="V" icon="icons/vf_16.png" />
+         </menu>
+         </menu>
+      </menuContribution>
+      <menuContribution locationURI="popup:org.eclipse.ui.popup.any?after=group.sendto">
+         <command commandId="com.teamcenter.erp.integration.commands.BomCarLineID" label="Set BOMlineID" icon="icons/ID_16.png">
+            <visibleWhen>
+               <iterate ifEmpty="false">
+                  <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                     <test property="com.teamcenter.rac.kernel.TCComponent.type" value="BOMLine" />
+                  </adapt>
+               </iterate>
+               <reference definitionId="com.teamcenter.rac.cme.mpp.MSEPerspective" />
+            </visibleWhen>
+         </command>
+      </menuContribution>
+   </extension>
+</plugin>
