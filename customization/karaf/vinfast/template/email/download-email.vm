@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<title>Vinfast Download Package</title>
+	<body>
+		<h2 style="display:none">Vinfast Download Package</h2>
+		<p>Dear Supplier,</p>
+		<p>Vinfast has sent the below package for you to download. </p>
+		<table border="1" cellpadding="5">
+			<tr style="padding:2px">
+				<td><b>Download ID</b></td>
+				<td>${headers.DownloadId}</td>
+			</tr>
+			<tr style="padding:2px">
+				<td><b>File Size</b></td>
+				<td>${headers.FileSize} Kb</td>
+			</tr>
+			<tr style="padding:2px">
+				<td><b>Supplier Code</b></td>
+				<td>${headers.SupplierCode}</td>
+			</tr>
+			<tr style="padding:2px">
+				<td><b>Supplier Name</b></td>
+				<td>${headers.SupplierName}</td>
+			</tr>
+			<tr style="padding:2px">
+				<td><b>Sender Name</b></td>
+				<td>${headers.SenderName}</td>
+			</tr>
+			<tr style="padding:2px">
+				<td><b>Sender Email</b></td>
+				<td>${headers.SenderEmail}</td>
+			</tr>
+			<tr style="padding:2px">
+				<td><b>Expiry Date</b></td>
+				<td>${headers.ExpiryDate}</td>
+			</tr>
+		</table>	
+		<br>
+		<p>Kindly download the package and perform the expected work. </p>
+		<font color='red' size='2'>Note:</font>
+		<font color='black' size='2'>This is an automatically generated email. Please do not reply, to this email. If you have any questions please email IT Service Desk (VinFast) itservicedesk@vinfast.vn.</font>
+			
+	</body>
+</html>

@@ -1,0 +1,117 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+   <bean id = "dataSource" class = "org.apache.commons.dbcp.BasicDataSource">
+      <property name = "driverClassName" value = "org.mariadb.jdbc.Driver"/>
+      <property name = "url" value = "jdbc:mariadb://10.128.12.45:3306/reportdb?useUnicode=yes"/>
+      <property name = "username" value = "reportuser1"/>
+      <property name = "password" value = "rptusr2022"/>
+   </bean>
+
+   <bean id="sqlComponent" class="org.apache.camel.component.sql.SqlComponent">
+      <property name="dataSource" ref="dataSource" />
+   </bean>
+   
+    <camelContext xmlns="http://camel.apache.org/schema/blueprint">
+       <propertyPlaceholder id="placeholder" location="file://data/installations/ApacheKaraf/vinfast/sql-dde/sql.properties" />
+       <dataFormats>
+            <jacksonxml id="jack" unmarshalType="java.util.Map"/>
+       </dataFormats>
+      
+      <route>
+          <from uri="file:/usr/sap_pr_po_transfer?move=/usr/backup_pr_po" />
+         <to uri="direct:vfreadcontent"/>
+      </route>
+      <route>
+          <from uri="file:/usr/VinES_sap_pr_po_transfer?move=/usr/backup_pr_po_vines" />
+         <to uri="direct:vfreadcontent"/>
+      </route>
+ 
+       <route id="read-pr-po-file-content">
+          <from uri="direct:vfreadcontent"/>
+             <unmarshal><custom ref="jack"/></unmarshal>
+             <setHeader name="PONumber"> <simple>${body.[poNumber]}</simple></setHeader>
+             <setHeader name="POType"> <simple>${body.[poType]}</simple></setHeader>
+             <setHeader name="ActualDate"> <simple>${body.[actualDate]}</simple></setHeader>
+             <setHeader name="PartNumber"> <simple>${body.[partNumber]}</simple></setHeader>
+             <setHeader name="SupplierCode"> <simple>${body.[supplierCode]}</simple></setHeader>
+             <setHeader name="SupplierName"> <simple>${body.[supplierName]}</simple></setHeader>
+             <choice>
+                <when>
+                   <simple>${body.[vehicleType]} == '' </simple>
+                   <setHeader name="VehicleType"><simple>NULL</simple></setHeader>
+                </when>
+                <otherwise><setHeader name="VehicleType"><simple>${body.[vehicleType]}</simple></setHeader></otherwise>
+            </choice>
+            <choice>
+               <when>
+                  <simple>${body.[incoTerm]} == '' </simple>
+                  <setHeader name="IncoTerm"><simple>NULL</simple></setHeader>
+               </when>
+               <otherwise><setHeader name="IncoTerm"><simple>${body.[incoTerm]}</simple></setHeader></otherwise>
+            </choice>
+            <choice>
+               <when>
+                  <simple>${body.[grossPrice]} == '' </simple>
+                  <setHeader name="GrossPrice"><simple>NULL</simple></setHeader>
+            </when>
+               <otherwise><setHeader name="GrossPrice"><simple>${body.[grossPrice]}</simple></setHeader></otherwise>
+            </choice>            
+            <choice>
+               <when>
+               <simple>${body.[grossUnit]} == '' </simple>
+              <setHeader name="GrossUnit"><simple>NULL</simple></setHeader>
+            </when>
+            <otherwise><setHeader name="GrossUnit"><simple>${body.[grossUnit]}</simple></setHeader></otherwise>
+         </choice>           
+         <choice>
+            <when>
+               <simple>${body.[freightPrice]} == '' </simple>
+               <setHeader name="FreightPrice"><simple>NULL</simple></setHeader>
+            </when>
+            <otherwise><setHeader name="FreightPrice"><simple>${body.[freightPrice]}</simple></setHeader></otherwise>
+         </choice> 
+          <choice>
+            <when>
+               <simple>${body.[freightUnit]} == '' </simple>
+              <setHeader name="FreightUnit"><simple>NULL</simple></setHeader>
+            </when>
+            <otherwise><setHeader name="FreightUnit"><simple>${body.[freightUnit]}</simple></setHeader></otherwise>
+         </choice> 
+          <choice>
+            <when>
+               <simple>${body.[insurancePrice]} == '' </simple>
+              <setHeader name="InsurancePrice"><simple>NULL</simple></setHeader>
+            </when>
+            <otherwise><setHeader name="InsurancePrice"><simple>${body.[insurancePrice]}</simple></setHeader></otherwise>
+         </choice> 
+          <choice>
+            <when>
+               <simple>${body.[insuranceUnit]} == '' </simple>
+              <setHeader name="InsuranceUnit"><simple>NULL</simple></setHeader>
+            </when>
+            <otherwise><setHeader name="InsuranceUnit"><simple>${body.[insuranceUnit]}</simple></setHeader></otherwise>
+         </choice> 
+          <choice>
+            <when>
+               <simple>${body.[importTax]} == '' </simple>
+              <setHeader name="ImportTax"><simple>NULL</simple></setHeader>
+            </when>
+            <otherwise><setHeader name="ImportTax"><simple>${body.[importTax]}</simple></setHeader></otherwise>
+         </choice> 
+          <choice>
+            <when>
+               <simple>${body.[quota]} == '' </simple>
+              <setHeader name="Quota"><simple>NULL</simple></setHeader>
+            </when>
+            <otherwise><setHeader name="Quota"><simple>${body.[quota]}</simple></setHeader></otherwise>
+         </choice>
+         <choice>
+            <when>
+               <simple>${body.[LOEKZ]} == '' </simple>
+              <setHeader name="LOEKZ"><simple>OK</simple></setHeader>
+            </when>
+            <otherwise><setHeader name="LOEKZ"><simple>${body.[LOEKZ]}</simple></setHeader></otherwise>
+         </choice>
+          <to uri="sqlComponent:{{sql.insertSapPrPoWip}}" />
+      </route>
+    </camelContext>
+</blueprint>

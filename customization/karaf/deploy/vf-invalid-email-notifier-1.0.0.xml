@@ -1,0 +1,32 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+   <bean id = "dataSource" class = "org.apache.commons.dbcp.BasicDataSource">
+      <property name = "driverClassName" value = "org.mariadb.jdbc.Driver"/>
+      <property name = "url" value = "jdbc:mariadb://10.128.12.45:3306/reportdb?useUnicode=yes&amp;allowPublicKeyRetrieval=true&amp;useSSL=false"/>
+      <property name = "username" value = "reportuser"/>
+      <property name = "password" value = "rptusr2020"/>
+   </bean>
+
+    <bean id="sqlComponent" class="org.apache.camel.component.sql.SqlComponent">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+   
+    <camelContext xmlns="http://camel.apache.org/schema/blueprint">
+       <propertyPlaceholder id="placeholder" location="file://data/installations/ApacheKaraf/vinfast/sql-dde/sql.properties" />
+	   
+       <route id="query-email-queue">
+          <from uri="timer://invalidemailqueuetimer?period=24h" />
+          <to uri="sqlComponent:{{sql.queryInvalidEmailQueue}}" />
+          <split>
+             <simple>${body}</simple>
+             <setHeader name="InvId"> <simple>${body['id']}</simple> </setHeader>
+             <setHeader name="InvTo"> <simple>${body['email_to']}</simple> </setHeader>
+             <setHeader name="InvSub"> <simple>${body['subject']}</simple> </setHeader>
+             <setHeader name="Subject"> <constant>[PLM]:INVALID EMAIL ADDRESS FOUND</constant> </setHeader>
+             <setHeader name="To"> <constant>itservicedesk@vinfast.vn</constant> </setHeader>
+             <to uri="velocity:file:/data/installations/ApacheKaraf/vinfast/template/email/invalid-email-notify.vm?allowTemplateFromHeader=true"/>
+             <setHeader name="Body"><simple>${body}</simple></setHeader>
+             <to uri="sqlComponent:{{sql.insertEmailQueue}}"/>
+          </split>
+       </route>
+   </camelContext>
+</blueprint>

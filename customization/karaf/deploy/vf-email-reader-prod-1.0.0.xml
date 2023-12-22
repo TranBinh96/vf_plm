@@ -1,0 +1,51 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+    <bean id = "dataSource" class = "org.apache.commons.dbcp.BasicDataSource">
+      <property name = "driverClassName" value = "org.mariadb.jdbc.Driver"/>
+      <property name = "url" value = "jdbc:mariadb://10.128.12.45:3306/reportdb?useUnicode=yes&amp;allowPublicKeyRetrieval=true&amp;useSSL=false"/>
+      <property name = "username" value = "reportuser"/>
+      <property name = "password" value = "rptusr2020"/>
+    </bean>
+
+    <bean id="sqlComponent" class="org.apache.camel.component.sql.SqlComponent">
+	<property name="dataSource" ref="dataSource" />
+    </bean>
+    <bean id="gson" class="org.apache.camel.component.gson.GsonDataFormat">
+	   <property name="unmarshalType" value="com.google.gson.JsonObject" />
+    </bean>
+
+    <camelContext xmlns="http://camel.apache.org/schema/blueprint">
+       <propertyPlaceholder id="placeholder" location="file://data/installations/ApacheKaraf/vinfast/sql-dde/sql.properties" />
+       <route>
+          <from uri="file:/usr/share/tc_production/tc_email?delete=true" />
+          <to uri="direct:vfreademailcontent"/>
+       </route>
+
+       <route>
+          <from uri="file:/usr/share/tc_production_39/tc_email?delete=true" />
+          <to uri="direct:vfreademailcontent"/>
+       </route>
+
+       <route>
+          <from uri="file:/usr/share/tc_production_42/tc_email?delete=true" />
+          <to uri="direct:vfreademailcontent"/>
+       </route>
+
+      <route id="file-read-email-content">
+         <from uri="direct:vfreademailcontent"/>
+	 <unmarshal><custom ref="gson"/></unmarshal>
+         <setHeader name="To"> <simple>${body.get('to').getAsString().replaceAll("headoffice09;", '').replaceAll(' ', '').replaceAll(";;", ";")}</simple> </setHeader>
+         <setHeader name="Subject"> <simple>${body.get('subject').getAsString()}</simple> </setHeader>
+         <setHeader name="Body"> <simple>${body.get('message').getAsString()}</simple> </setHeader>
+         <choice>
+            <when>
+               <simple>${headers.To} regex "^([\w+-.%]+@[\w-.]+\.[A-Za-z]{2,4};?)+$"</simple>
+               <to uri="sqlComponent:{{sql.insertEmailQueue}}" />
+            </when>
+            <otherwise>
+               <to uri="sqlComponent:{{sql.insertEmailQueueInValid}}" />
+            </otherwise>
+        </choice>
+      </route>
+
+    </camelContext>
+</blueprint>

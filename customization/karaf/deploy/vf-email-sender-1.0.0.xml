@@ -1,0 +1,39 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+    <bean id = "dataSource" class = "org.apache.commons.dbcp.BasicDataSource">
+      <property name = "driverClassName" value = "org.mariadb.jdbc.Driver"/>
+      <property name = "url" value = "jdbc:mariadb://10.128.12.45:3306/reportdb?useUnicode=yes&amp;allowPublicKeyRetrieval=true&amp;useSSL=false"/>
+      <property name = "username" value = "reportuser"/>
+      <property name = "password" value = "rptusr2020"/>
+    </bean>
+
+   <bean id="sqlComponent" class="org.apache.camel.component.sql.SqlComponent">
+      <property name="dataSource" ref="dataSource" />
+   </bean>
+
+   <camelContext xmlns="http://camel.apache.org/schema/blueprint">
+      <propertyPlaceholder id="placeholder" location="file://data/installations/ApacheKaraf/vinfast/sql-dde/sql.properties" />
+
+      <route id="query-email-queue">
+         <from uri="timer://emailqueuetimer?period=2s" />
+         <to uri="sqlComponent:{{sql.queryEmailQueue}}" />
+         <split>
+             <simple>${body}</simple>
+             <setHeader name="EmailID"> <simple>${body['id']}</simple> </setHeader>
+             <to uri="direct:vfsendemail"/>
+             <to uri="sqlComponent:{{sql.updateEmailSent}}" />
+          </split>
+       </route>
+
+       <route id="email-queue-send-email">
+          <from uri="direct:vfsendemail"/>
+          <setHeader name="from">
+              <constant>VinFast PLM Notification&lt;vf.plm.notification@vinfast.vn&gt;</constant>
+          </setHeader>
+          <setHeader name="to"> <simple>${body['email_to']}</simple> </setHeader>
+          <setHeader name="subject"> <simple>${body['subject']}</simple> </setHeader>
+          <setHeader name="contentType"> <constant>text/html;charset=UTF-8;</constant> </setHeader>
+          <setBody> <simple>${body['message']}</simple> </setBody>
+          <to uri="smtp://smtptls.vingroup.net:587?username=vf.plm.notification&amp;password=V!etN@m$69313"/>
+      </route>
+   </camelContext>
+</blueprint>

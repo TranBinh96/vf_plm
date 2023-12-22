@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<title>${headers.Subject}</title>
+	<body>
+		<h2 style="display:none">${headers.Subject}</h2>
+		<p>Dear PLMIT Team,</p>
+		<p>Karaf database has entry of invalid email address. Please manually clear the wrong email address.</p>
+		<table border="1" cellpadding="5">
+			<tr style="padding:2px">
+				<td><b>Email ID</b></td>
+				<td>${headers.InvId}</td>
+			</tr>
+			<tr style="padding:2px">
+				<td><b>Email address</b></td>
+				<td>${headers.InvTo}</td>
+			</tr>
+			<tr style="padding:2px">
+				<td><b>Email Subject</b></td>
+				<td>${headers.InvSub}</td>
+			</tr>
+		</table>	
+		<br>
+		<font color='red' size='2'>Note:</font>
+		<font color='black' size='2'>This is an automatically generated email. Please do not reply, to this email. If you have any questions please email IT Service Desk (VinFast) itservicedesk@vinfast.vn.</font>
+			
+	</body>
+</html>
