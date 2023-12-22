@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_allow_inherited_group_volume_access" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allows a group to inherit access to a Teamcenter volume from its parent group. That is, if a group is explicitly granted volume access, and this preference is set to a nonzero number, that group&apos;s subgroups (and the subgroup&apos;s children) are implicitly granted access to that volume.
+Inherited access applies to all volumes including default local volumes, also known as store and forward volumes.
+Valid Values:
+0 - Does not allow groups to inherit access to a volume from its parent group.
+Single positive integer - Allows groups to inherit access to a volume from its parent group.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

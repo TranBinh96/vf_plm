@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VF_Client_Customization">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VF_Process_Cell_Program_Assignment" type="String" array="true"
+      disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>AL config when trigger ECM process</preference_description>
+      <context name="Teamcenter">
+        <value>VES_ECM_Process==Cell Gen 1/1.5==VES_ECM_Release_Cell</value>
+        <value>VES_ECM_Process==Cell Gen 1.6==VES_ECM_Release_Cell</value>
+        <value>VES_ECM_Process==Cell Gen 1.8==VES_ECM_Release_Cell</value>
+        <value>VES_ECM_Process==Cell Gen 4==VES_ECM_Release_Cell</value>
+        <value>VES_ECM_Process==Cell Gen 5.1_Prismatic==VES_ECM_Release_Cell</value>
+        <value>VES_ECM_Process==Cell Gen 5.2_Prismatic==VES_ECM_Release_Cell</value>
+        <value>VES_ECM_Process==Cell Gen 6==VES_ECM_Release_Cell</value>
+        <value>VES_ECM_Process==Cell Gen PT_Cylindrical==VES_ECM_Release_Cell</value>
+      </context>
+    </preference>
+  </category>
+</preferences>
+               

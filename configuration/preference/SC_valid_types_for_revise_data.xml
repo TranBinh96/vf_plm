@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_valid_types_for_revise_data" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the object types for which suppliers can request Revise data from the Supplier Collaboration Framework (SCF) portal.
+The Revise command is visible only when the selected object is of the type mentioned in this preference.
+Valid values are type internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+        <value>Part Revision</value>
+        <value>Design Revision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

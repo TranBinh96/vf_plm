@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mail_server_port" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the port number used by the SMTP mail server to send OS mail. This preference must be used in conjunction with the Mail_server_name preference.
+Default value is 25.
+Valid Values:
+Must be a valid SMTP port number.</preference_description>
+      <context name="Teamcenter">
+        <value>587</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

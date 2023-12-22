@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Search_Results_Word_Proximity" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the proximity distance between two terms in a search. This boosts results where the terms searched for fall within the specified proximity distance of eachother.
+The value can be set between 5 and 500. Default value is set to 10.</preference_description>
+      <context name="Teamcenter">
+        <value>10</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

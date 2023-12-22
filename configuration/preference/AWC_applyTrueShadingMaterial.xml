@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_applyTrueShadingMaterial" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default &quot;Apply true shading material&quot; mode for the Viewer in the Active Workspace client.
+Valid values are:
+* true : applies true shading material. This is the default value.
+* false : true shading material is not applied.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

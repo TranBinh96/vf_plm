@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QRYColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the queries available for selection from the Find menu in both the rich client and the thin client.
+Valid Values:
+Valid Teamcenter query classes.</preference_description>
+      <context name="Teamcenter">
+        <value>General...</value>
+        <value>Item...</value>
+        <value>Item Revision...</value>
+        <value>Latest ME Part Revision</value>
+        <value>Source Part</value>
+        <value>Change Notice Revision...</value>
+        <value>Checked-Out Dataset...</value>
+        <value>Last Modified By...</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TWP.Tooltips" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the properties to be displayed as tooltips for the elements in the Time Way Planner view of the Manufacturing Process Planner application.
+Valid Values:
+object-name - Only the Operation object name is supported.
+property-name - The internal name of the operation. The property-name string is replaced by the property display name and its value, for example, the value Name: [bl_rev_object_name] is displayed as Name: Object Name. You can add multiple values using a separator, 
+for example, TooltipProperties:[property1],[property2],[property3].</preference_description>
+      <context name="Teamcenter">
+        <value>Object:Operation;TooltipProperties:[bl_rev_object_name],[Mfg0allocated_time],[Mfg0calc_start_time]</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

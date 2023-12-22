@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IncrementalChangeColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of column names that will be displayed in the IncrementalChange tree table in all applications.</preference_description>
+      <context name="Teamcenter">
+        <value>object_string</value>
+        <value>secondary_object</value>
+        <value>object_desc</value>
+        <value>change_type</value>
+        <value>object_type</value>
+        <value>rel_occ_type</value>
+        <value>absocc_attr_name</value>
+        <value>absocc_attr_value</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Tc_publish_pftemplate_with_pfmember" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether to publish corresponding part family templates when publishing part family member items. This preference can also be set by system administrators in the Options dialog box, accessed from the Edit menu. General users can set this preference from the Options dialog box only if the Tc_allow_users_edit_pfdata_options preference is set to TRUE.This preference is effective only when publishing part family member items.
+Valid Values:
+TRUE - Publishes the corresponding part family templates.
+FALSE - Does not publish the corresponding part family templates.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Header Footer Template Object Revision Summary. -->
+<rendering>
+  <header>
+    <image source="type"/>
+    <property name="owning_user"/>
+    <property name="last_mod_date"/>
+    <property name="release_status_list" renderingHint="overflow"/>
+    <property name="object_type"/>
+  </header>
+  
+  <page titleKey="tc_xrt_Overview" visibleWhen="ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+     <column>
+       <section titleKey="tc_xrt_properties">
+         <property name="item_id" renderingHint="label"/>
+         <property name="item_revision_id" renderingHint="label"/>
+         <property name="object_name"/>
+         <property name="object_desc"/>
+         <property name="object_type"/>
+         <property name="arm0IsGlobal"/>
+         <property name="release_status_list" renderingHint="label"/>
+         <property name="date_released" renderingHint="label"/>
+         <!-- Sub-rendering for Active workspace Program planning -->
+         <inject type="dataset" src="Pgp1TargetDefnSummary" />
+         <break/>
+         <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+         <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+         <property name="last_mod_user"/>
+         <property name="checked_out" renderingHint="label"/>
+         <property name="checked_out_user"/>
+         <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+       </section>
+       <inject type="dataset" src="S2clScalarRatingOverview"/>
+       <content visibleWhen="Cls0ClassifiedBy!=null">
+         <inject type="dataset" src="Lbr1LibraryInformation"/>
+         <inject type="dataset" src="Fnd0ClassificationSummary"/>
+       </content>
+       <content visibleWhen="Cls0ClassifiedBy==null and ics_classified!=null">
+         <inject type="dataset" src="Lbr1LibraryInformation"/>
+         <inject type="dataset" src="Fnd0ClassificationSummary"/>
+       </content>
+      <inject type="dataset" src="ProjectListInfo"/>
+    </column>
+    <column>
+      <section titleKey="tc_xrt_Preview">
+         <htmlPanel declarativeKey="Arm0HtmlHeaderFooterPreview"/>
+      </section>
+    </column>
+  </page>
+  
+  <page titleKey="tc_xrt_Documentation" visibleWhen="ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+    <htmlPanel declarativeKey="Arm0HtmlHeaderFooter"/>
+  </page>
+</rendering>

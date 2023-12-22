@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Project Level Security">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_allow_dba_modify_all_projects" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether DBA users can modify all TC_Project objects and the Project Teams, or only the projects in which they are administrators
+* true: The DBA users can modify all TC_Project objects and the Project Teams.
+* false: (Default) The DBA users can modify the TC_Projects that they own, and the Project Teams in which they are either Project Administrator or Project Team Administrator.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

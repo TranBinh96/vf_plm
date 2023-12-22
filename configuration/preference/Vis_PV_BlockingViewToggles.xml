@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ProductView">
+    <category_description>
+      Preferences affecting the behavior of Product views
+</category_description>
+    
+               <preference name="Vis_PV_BlockingViewToggles" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of view toggles preventing the creation of a Product view. Please refer to the description of the preference &quot;Vis_PV_InvalidConfigWarnLevel&quot; for more details.
+Valid Values:
+show_unconfigured_variants
+show_unconfigured_changes
+show_unconfigured_assignment
+fnd0show_uncnf_occ_eff
+show_suppressed_occurrences
+fnd0show_gcs_cps</preference_description>
+      <context name="Teamcenter">
+        <value>show_unconfigured_variants</value>
+        <value>show_unconfigured_changes</value>
+        <value>show_unconfigured_assignment</value>
+        <value>fnd0show_uncnf_occ_eff</value>
+        <value>show_suppressed_occurrences</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

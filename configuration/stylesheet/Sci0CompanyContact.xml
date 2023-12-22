@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+
+    Filename: Sci0CompanyContact.xml
+    Default style sheet for displaying CompanyContact poperties when IMDS is installed.
+
+ -->
+
+
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+        <property name="object_name" />
+        <property name="title" />
+        <property name="first_name" />
+        <property name="last_name" />
+        <property name="suffix" />
+        <property name="phone_business" />
+        <property name="phone_home" />
+        <property name="phone_mobile" />
+        <property name="fax_number" />
+        <property name="pager_number" />
+        <property name="email_address" />
+        <property name="object_desc" />
+        <property name="object_type" />
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+        <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+        <property name="last_mod_user" />
+    </page>
+
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="tc_xrt_Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+    <page title="IMDS Properties" titleKey="tc_xrt_IMDS">
+        <property name="sci0ContactId" />
+        <property name="sci0ContactMailbox" />
+        <property name="sci0IsDeleted" />
+        <property name="sci0IsIMDSContact" />
+        <property name="sci0IsReachContact" />
+    </page>
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

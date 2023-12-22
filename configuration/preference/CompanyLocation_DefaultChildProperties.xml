@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CompanyLocation_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be used as children for the CompanyLocation type. The format of the preference follows: &lt;TypeName&gt;_DefaultChildProperties=my_property.</preference_description>
+      <context name="Teamcenter">
+        <value>ContactInCompany</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

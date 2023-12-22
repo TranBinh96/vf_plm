@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_admin_pw" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the password for the LDAP_admin_dn user preference.
+Valid Values:
+Accepts a single string as a value.</preference_description>
+      <context name="Teamcenter">
+        <value>%REPLACE_ME%</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

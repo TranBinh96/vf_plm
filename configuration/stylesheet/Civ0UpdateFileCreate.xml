@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2013. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: Civ0UpdateFile4Create.xml  
+   
+     Default style sheet for displaying Civ0UpdateFile Create 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+======================================================================= 
+@<DEL>@  
+--> 
+<rendering>
+
+   <page title=" ">
+        <column>
+            <section titleKey="tc_xrt_References">
+                <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RefContentPanelCiv0UpdateFile"/>             
+            </section>
+            <section titleKey="tc_xrt_UpdateFileDetails">
+                <property name="revision:civ0ModelIC" />
+                <property name="revision:civ0SDC" />
+                <property name="revision:civ0SystemCode" />
+                <property name="revision:civ0SubSystemCode" />
+                <property name="revision:civ0SubSubSystemCode" />
+                <property name="revision:civ0AssemblyCode" />
+                <property name="revision:civ0DisCode" />
+                <property name="revision:civ0DisCodeV" />
+                <property name="revision:civ0InCode" />
+                <property name="revision:civ0InCodeV" />
+                <property name="revision:civ0ItemLoc" />
+                <property name="revision:civ0ExtensionProducer" />
+                <property name="revision:civ0ExtensionCode" />
+            </section>       
+        </column>
+        
+        <column>
+            <property name="object_name" renderingHint="textfield" />
+            <property name="revision:DocumentTitle" renderingHint="textfield" />
+            
+            <section titleKey="tc_xrt_OtherDetails">            
+                <property name="revision:civ0SecurityClass" />            
+                <property name="revision:civ0RPC" />            
+                <property name="revision:civ0Orig" />
+            </section>
+        </column>
+        <customPanel java="com.teamcenter.rac.contmgmts1000d40.wizards.LanguagePanel"/>
+        <separator/>  
+        <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RelationSelectionPanel"/> 
+   </page>
+   
+</rendering>

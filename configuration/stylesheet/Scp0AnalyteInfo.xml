@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+
+<!-- Default style sheet for displaying Scp0ReportedConcentration property on  Info Panel in Active Workspace Client. -->
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_properties" >
+            <property name="scp0AnalyteID" modifiable="false" width="150"/>
+            <property name="scp0AnalyteName" modifiable="false" width="200" />
+            <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0SampleID" modifiable="false" width="150" />
+            <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0LabReportTestMethod" modifiable="false" width="200"/>
+            <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0ReportTestSeq" modifiable="false" width="200"/>
+            <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0SampleAnalysisDate" modifiable="false" width="200"/>
+            <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0LabReportingLimit" modifiable="false" width="200"/>
+            <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0ReportedAmountValue" modifiable="false" width="200"/>
+            <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0ReportedAmountUOM" modifiable="false" width="200"/>
+        </section>
+    </page>
+    <page titleKey="scw0_xrt_ReportConclusionText" visibleWhen="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0ReportConclusionText!=null">
+        <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0ReportConclusionText" modifiable="false"/>       
+    </page>
+</rendering>

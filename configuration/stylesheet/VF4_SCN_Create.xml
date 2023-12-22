@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering> 
+   <page title="General Information" titleKey="tc_xrt_cm_general_information">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" renderingHint="textfield" />
+            <property name="object_desc" />
+            <property name="revision:vf4_model_arr" />
+            <property name="revision:vf4_model_year_pr" />
+            <property name="revision:vf4_disposal_code_pr" />
+            <property name="revision:vf4_impact_module_arr" />
+            <property name="revision:vf4_vehicle_programs" />
+            <property name="revision:vf4_change_reason_pr" />
+            <property name="revision:vf4_severity_pr"/>
+            <property name="revision:vf4_styling_affected_pr"/>
+            <property name="revision:vf4_veh_weight_affected_pr"/>
+            <property name="revision:vf4_target_release_date_pr" />
+            <property name="revision:vf4_classification_pr" />
+            <property name="revision:vf4_priority_pr" />
+            <property name="revision:vf4_exchangeability_new_pr" />
+            <property name="revision:vf4_exchangeability_old_pr" />
+         </section>
+   </page>
+</rendering>

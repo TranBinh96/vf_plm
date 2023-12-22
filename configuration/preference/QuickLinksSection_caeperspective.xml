@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QuickLinksSection_caeperspective" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the ordered list of RAC sections presented in the &quot;Quick Links&quot; navigator for the CAE Manager (Computer Aided Engineering Manager) application.
+User interface interactions should only be used to define the order, which would result in changes in this preference values. Manual setting is not encouraged.</preference_description>
+      <context name="Teamcenter">
+        <value>HomeSectionComponent</value>
+        <value>InboxSectionComponent</value>
+        <value>SavedSearchesSectionComponent</value>
+        <value>WebLinksSectionComponent</value>
+        <value>MyProjectsSectionComponent</value>
+        <value>MyViewMarkupSectionComponent</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

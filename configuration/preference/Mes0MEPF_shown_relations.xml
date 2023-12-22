@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mes0MEPF_shown_relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relations to show when expanding Mes0MEPF.</preference_description>
+      <context name="Teamcenter">
+        <value>Mes0MEPF_Details</value>
+        <value>Mes0MEPF_Override</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0LoadExpressionInfoForVR" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether only expressions should be loaded ignoring the configuration session information while loading the Variant Rule or Variant Criteria in the configuration view.
+The Valid Values:
+-true: While loading the variant rule in configuration view, do not load the configuration session information along with expressions.This is the default value.
+-false:While loading the variant rule in configuration view, load the configuration session information along with expressions.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

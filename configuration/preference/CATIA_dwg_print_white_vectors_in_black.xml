@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_dwg_print_white_vectors_in_black" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates whether to print the white vectors in auxiliary drawing files (.pdf, .tif, .jpg, .ps) in white or in black.
+For Pdf format support, Pdf Creator software is required for Operating Systems less than Windows 10, for Windows 10, Print to Pdf is used.
+Possible values:
+- TRUE = In black color
+- FALSE = In white color</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

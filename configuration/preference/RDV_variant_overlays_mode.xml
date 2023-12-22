@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_variant_overlays_mode" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Valid values for this preference are 0/1/2/4. 0 - Indicates dynamic mode which is the default mode.
+1 - Indicates static mode.
+2 - Indicates hybrid mode. Static if the number of variable options is greater that PortalDesignContextSetVariantRulesMaxVariantRules else dynamic.
+4 - Indicates tabular mode. Use the X-O Chart to calculate variant rules dynamically.
+
+When set to static mode valid overlay variant rules are taken as the (static) subset of all variant rules available for the top-level for which the target BOMLines configure. This can be useful if the set of saved variant rules covers all or close enough to all valid option value combinations. In this case static overlay variant rules produce acceptable results without having rule checks available in PSE. When set to dynamic, valid overlay variant rules are dynamically computed based on the variabilty model in PSE (options affecting the target BOMLines, option defaults, rule checks). The default value is dynamic mode (0).</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

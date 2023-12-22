@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.Mechatronics">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_objects_excluded_from_split" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains a list of object types and subtypes that are excluded from a Split Occurrence operation.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid Teamcenter object type or subtype.</preference_description>
+      <context name="Teamcenter">
+        <value>Connection</value>
+        <value>Signal</value>
+        <value>Software</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

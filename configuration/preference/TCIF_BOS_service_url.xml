@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="TCIF.Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCIF_BOS_service_url" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the path that is appended to the Teamcenter Integration Framework server URL for login and logout requests to the Teamcenter Integration Framework server. This value must match the Teamcenter Integration Framework configuration.</preference_description>
+      <context name="Teamcenter">
+        <value>BOSService</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

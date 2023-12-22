@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_MODEL_AND_PREFIX_NUMBER" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>model=number</preference_description>
+      <context name="Teamcenter">
+        <value>SnS=SnS=1</value>
+        <value>VF31=VFe34=2</value>
+        <value>Ebus10=Ebus10=1</value>
+        <value>VF32=VFe35/VF35=3</value>
+        <value>VF33=VFe36/VF36=8</value>
+        <value>VFe32=VFe32=72</value>
+        <value>VFe33=VFe33=70</value>
+        <value>VFe34NG=VFe34S=71</value>
+        <value>Scooter=Scooter=0</value>
+        <value>Ebus12=Ebus12=41</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEPerspectiveMode" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the behavior of how views open in manufacturing perspectives. You can specify a mode for each manufacturing perspective in the user interface using the Window-&gt;Perspective Mode menu command. You can set the default mode for each perspective using this preference.
+Valid Values:
+Accepts a list of strings separated by a colon as follows:
+perspective-id:mode
+
+perspective-id:
+Specifies the unique name of the manufacturing perspective. The following default perspectives are available by default:
+The Manufacturing Process Planner default perspective: com.teamcenter.rac.cme.mpp.MSEPerspectiveThe Manufacturing - Process Sequencing perspective: com.teamcenter.rac.cme.mpp.ProcessSequencing
+The Manufacturing - BOM Reconciliation perspective: com.teamcenter.rac.cme.mpp.BOMReconciliation
+If you create a new perspective by using the Save Perspective As menu command, you must select the mode using the Window-&gt;Perspective Mode menu command.
+
+mode:
+Specifies how the views open in the perspective. There are two options:
+
+OpenExplicitOnly :  Opens structures in existing views where available. Any other open but not yet loaded structures are only opened in a view when explicitly opened (for example,
+by right-clicking the structure in the Open Items list and choosing Activate). For example, if you send a product with an associated process and plant to the Manufacturing - Process Sequencing
+perspective, the following occurs:
+The process view is filled because the Manufacturing - Process Sequencing perspective contains an empty process view.
+The product opens in a new view because you opened it explicitly (sent the product to the perspective).
+The plant is loaded, but no view opens for it because it was implicitly opened and there was no empty plant view available for it in the perspective.
+Prior to Teamcenter 10.0, manufacturing perspectives open structures using the OpenExplicitOnly mode.
+
+OpenAllStrategy : Teamcenter opens a new view for each structure being opened. When objects are opened in another perspective,Teamcenter opens a new view for 
+them in this perspective as well.</preference_description>
+      <context name="Teamcenter">
+        <value>com.teamcenter.rac.cme.mpp.MSEPerspective:OpenAllStrategy</value>
+        <value>com.teamcenter.rac.se.ui.SystemsEngineeringPerspective:OpenAllStrategy</value>
+        <value>com.teamcenter.rac.cme.mbm.mbmPerspective:OpenAllStrategy</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Architecture_Overlapping_NVES" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether to prevent overlapping NVE&apos;s on Breakdown Elements or not.This Preference is valid only if &quot;Architecture_Breakdown_Default_Settings&quot; preference is set to TRUE.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

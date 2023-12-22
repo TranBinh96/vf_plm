@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CMMyChangesSublocationQuery" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Registers the saved queries for the contents of the tabs in &quot;My Changes&quot; Location.
+Valid values are in the format &quot;tab_name,saved_query_name&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Saved,MyChangesSaved</value>
+        <value>Submitted,MyChangesSubmitted</value>
+        <value>Approved,MyChangesApproved</value>
+        <value>Disapproved,MyChangesDisapproved</value>
+        <value>All,MyChangesAll</value>
+        <value>Closed,MyChangesClosed</value>
+        <value>Dashboard,MyChangesDashboard</value>
+        <value>Actionable,MyChangesActionable</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

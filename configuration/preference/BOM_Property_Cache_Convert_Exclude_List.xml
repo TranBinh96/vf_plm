@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE.Display">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_Property_Cache_Convert_Exclude_List" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the BOMLine properties that will not be converted from display value to internal value on rich client side.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_formula</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

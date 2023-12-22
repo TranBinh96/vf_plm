@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ConfigureToLoadEnableDefaultVariantConfig" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables or disables the Do not show this dialog automatically when opening BOM check box in the Variant Rule or Configure dialog box in Structure Manager. The selected BOM line must also have at least one child line and classic variants defined to enable the check box. This check box is displayed only if you have enabled the configure to load feature.
+Valid Values:
+True - Hides the Do not show this dialog automatically when opening BOM check box in Structure Manager.
+False - Shows the Do not show this dialog automatically when opening BOM check box in Structure Manager.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

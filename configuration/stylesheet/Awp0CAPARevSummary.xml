@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering>
+    <header>
+        <image source = "type"/>
+        <property name = "c2_capa_owner"/>
+        <property name = "last_mod_date"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="">
+            <column>
+                <section titleKey="tc_xrt_properties">
+                    <property name="object_name" />
+                    <property name="object_type" />
+                    <property name="item_id" />
+                    <property name="object_desc" />
+                    <break/>
+                    <property name="c2_capa_category" />
+                    <property name="c2_capa_subtype" />
+                    <break/>
+                    <property name="c2_Due_date" />
+                    <property name="owning_user" modifiable="false"/>
+                    <property name="creation_date" />
+                    <break/>
+                    <property name="last_mod_user" />
+                    <property name="last_mod_date" />
+                </section>
+                <section titleKey="tc_xrt_progress">
+                    <property name="CMClosure" />
+                    <property name="CMClosureDate" />
+                    <property name="CMClosureComments" />
+                    <property name="release_status_list" />
+                    <property name="date_released" />
+                    <property name="CMDisposition" />
+                    <property name="CMMaturity" />
+                    <property name="owning_group" modifiable="false"/>
+                </section>
+                <section titleKey="tc_xrt_risk_evaluation">
+                    <property name="c2_Severity" />
+                    <property name="c2_Probability" />
+                    <property name="c2_Detectability" />
+                    <property name="c2_Risk" modifiable="false" />
+                    <property name="c2_Priority" />
+                </section>
+                <section titleKey="tc_xrt_Schedules" initialstate="collapsed">
+                    <objectSet source="CMHasWorkBreakdown.Schedule" defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+                        <tableDisplay>
+                            <property name="object_string"/>
+                            <property name="object_type"/>
+                            <property name="fnd0status"/>
+                            <property name="fnd0SSTCompletePercent"/>
+                            <property name="owning_user"/>
+                        </tableDisplay>
+                        <treeDisplay>
+                            <property name="object_string"/>
+                            <property name="object_type"/>
+                            <property name="fnd0status"/>
+                            <property name="fnd0SSTCompletePercent"/>
+                            <property name="owning_user"/>
+                        </treeDisplay>
+                        <thumbnailDisplay/>
+                        <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="Caw0CreateScheduleGroup" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    </objectSet>
+                </section>
+            </column>
+            <column>
+                <section titleKey="tc_xrt_RelatedIssuesAndCAPAs">
+                    <objectSet source = "CMImplements.C2IssueRevision,C2HasRefersTo.C2CapaRevision" defaultdisplay = "tableDisplay" sortby = "item_id" sortdirection = "ascending">
+                        <tableDisplay>
+                            <property name = "item_id"/>
+                            <property name = "object_name"/>
+                            <property name = "object_desc"/>
+                            <property name = "object_type"/>
+                            <property name = "last_mod_date"/>
+                        </tableDisplay>
+                        <thumbnailDisplay/>
+                        <treeDisplay>
+                            <property name = "item_id"/>
+                            <property name = "object_name"/>
+                            <property name = "object_desc"/>
+                            <property name = "object_type"/>
+                            <property name = "last_mod_date"/>
+                        </treeDisplay>
+                        <listDisplay/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton">
+                            <parameter name="visibleTabs" value="palette,search"/>
+                        </command>
+                        <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                        <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                            <parameter name="localSelection" value="true"/>
+                        </command>
+                    </objectSet>
+                </section>
+                <section titleKey="tc_xrt_ProblemDefectOverview">
+                 <objectSet source = "CPA0ProblemDescription.CAW0Defect" defaultdisplay = "tableDisplay">
+                    <tableDisplay>
+                        <property name = "object_name" modifiable="false"/>
+                        <property name = "object_desc" modifiable="false"/>
+                        <property name = "caw0reoccuring" modifiable="false"/>
+                        <property name = "caw0category" modifiable="false"/>
+                        <property name = "caw0Evaluation" modifiable="false"/>
+                        <property name = "GRMREL(CAW0RelatedFailure,Qc0Failure).secondary_object" titleKey="FAILURE_TEXT" modifiable="false"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                </objectSet>
+                </section>
+                <section titleKey="tc_xrt_RootCausesOverview">
+                    <objectSet source = "CPA0RootCause.CAW0Defect" defaultdisplay = "tableDisplay">
+                    <tableDisplay>
+                        <property name = "object_name" modifiable="false"/>
+                        <property name = "object_desc" modifiable="false"/>
+                        <property name = "caw0AnalysisDimension" modifiable="false"/>
+                        <property name = "caw0AnalysisType" modifiable="false"/>
+                        <property name = "GRMREL(CAW0RelatedFailure,Qc0Failure).secondary_object" titleKey="FAILURE_TEXT" modifiable="false"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                </objectSet>
+                </section>                 
+                <section titleKey="tc_xrt_QualityActionsOverview">
+                    <objectSet source = "CPA0ContainmentAction.Qam0QualityAction,CPA0CorrectiveAction.Qam0QualityAction,CPA0ImplCorrAction.Qam0QualityAction,CPA0PreventiveAction.Qam0QualityAction" defaultdisplay = "tableDisplay">
+                        <tableDisplay>
+                            <property name = "object_name" modifiable="false"/>
+                            <property name = "qam0QualityActionSubtype" modifiable="false"/>
+                            <property name = "qam0Comment" modifiable="false"/>
+                            <property name = "fnd0ResponsibleUser" modifiable="false"/>
+                            <property name = "qam0DueDate" modifiable="false"/>
+                            <property name = "qam0QualityActionStatus" modifiable="false"/>
+                            <property name = "qam0CompletionDate" modifiable="false"/>
+                            <property name = "caw0visibleInReport" modifiable="false"/>
+                        </tableDisplay>
+                        <thumbnailDisplay/>
+                    </objectSet>
+                </section>
+            </column>
+            <column>
+                <section titleKey="tc_xrt_Preview">
+                    <inject type="dataset" src="Awp0GalleryViewer" module="js/aw-include.directive"/>
+                </section>    
+            </column>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_Team">
+        <section titleKey="tc_xrt_D1EstablishTheTeam" >
+            <objectSet source = "HasParticipant.CAW0Team" defaultdisplay = "tableDisplay">
+                <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton"/>
+                <tableDisplay>
+                    <property name="fnd0AssigneeUser"/>
+                    <property name="caw08DRole"/>
+                    <property name="caw0visibleInReport"/>
+                    <property name="fnd0AssigneeRole"  modifiable="false"/>
+                    <property name="fnd0AssigneeGroup" modifiable="false"/>
+                    <property name="fnd0AssigneeEmail" modifiable="false"/>
+                    <property name="fnd0AssigneePhone" modifiable="false"/>
+                    <property name="fnd0AssigneeOrganization" modifiable="false"/>
+                </tableDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section>
+            <column>
+                <section titleKey="tc_xrt_TeamLeader">
+                    <objectSet source = "HasParticipant.C2_CapaOwner" defaultdisplay = "listDisplay">
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneeEmail"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                    </objectSet>
+                </section>
+            </column>
+            <column>
+                <section titleKey="tc_xrt_Champion">
+                    <objectSet source = "HasParticipant.C2_CapaApprover" defaultdisplay = "listDisplay">
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneeEmail"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                    </objectSet>
+                </section>
+            </column>
+            <column>
+                <section titleKey="tc_xrt_CAPASupplier">
+                    <objectSet source = "HasParticipant.C2_CapaSuppliers" defaultdisplay = "listDisplay">
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneeEmail"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                    </objectSet>
+                </section>
+            </column>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_problem_description">
+        <column>
+            <section titleKey="tc_xrt_D2DescribetheProblem" >
+                 <objectSet source = "CPA0ProblemDescription.CAW0Defect" defaultdisplay = "tableDisplay">
+                    <command actionKey="newBusinessObjectContextualAction" commandId="CAW0AddDefectInPD" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton"/>
+                    <tableDisplay>
+                        <property name = "object_name"/>
+                        <property name = "object_desc"/>
+                        <property name = "caw0category"/>
+                        <property name = "caw0Evaluation"/>
+                        <property name = "GRMREL(CAW0RelatedFailure,Qc0Failure).secondary_object" titleKey="FAILURE_TEXT" modifiable="false"/>
+                        <property name = "caw0reoccuring"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_ProblemItems">
+                <objectSet source = "CMHasProblemItem.ItemRevision" defaultdisplay = "tableDisplay" sortby = "last_mod_date" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </tableDisplay>
+                    <treeDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+            <section titleKey = "tc_xrt_AffectedItems">
+                <objectSet source = "CMHasImpactedItem.ItemRevision" defaultdisplay = "tableDisplay" sortby = "last_mod_date" sortdirection = "ascending">
+                   <tableDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </tableDisplay>
+                    <treeDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                     <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+            <section titleKey = "tc_xrt_ReferenceItems">
+                <objectSet source = "CMReferences.WorkspaceObject" defaultdisplay = "tableDisplay" sortby = "last_mod_date" sortdirection = "ascending">
+                      <tableDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </tableDisplay>
+                    <treeDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                     <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+            <section titleKey="tc_xrt_WebLinks" >
+                <objectSet source = "C2RelatedWebLink.Web Link" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_desc"/>
+                        <property name = "url" renderingHint="objectlink" />
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_desc"/>
+                        <property name = "url" renderingHint="objectlink" />
+                    </treeDisplay>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <page titleKey="tc_xrt_ContainmentAction">
+        <section titleKey="tc_xrt_D3ContainmentActionPlan">
+            <objectSet source = "CPA0ContainmentAction.Qam0QualityAction" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <command actionKey="newBusinessObjectContextualAction" commandId="CAW0AddQualityAction" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton"/>
+                <tableDisplay>
+                    <property name = "object_name"/>
+                    <property name = "qam0QualityActionSubtype"/>
+                    <property name = "qam0Comment"/>
+                    <property name = "fnd0ResponsibleUser" modifiable="false"/>
+                    <property name = "qam0DueDate"/>
+                    <property name = "qam0QualityActionStatus"/>
+                    <property name = "qam0CompletionDate" modifiable="false"/>
+                    <property name = "caw0visibleInReport"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+            </objectSet>
+        </section>
+    </page>
+   <page titleKey="tc_xrt_RootCauseAnalysis" pageNameToken="CAW0RootCauseAnalysis"/>
+    <page titleKey="tc_xrt_CorrectiveAction">
+        <column>
+            <section>
+                <column width="50%">
+                    <section titleKey="tc_xrt_D5PlanPermanentCorrectiveActionandConfirmEffectiveness">
+                        <objectSet source = "CPA0CorrectiveAction.Qam0QualityAction" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                            <command actionKey="newBusinessObjectContextualAction" commandId="CAW0AddCorrectiveAction" renderingHint="commandbutton"/>
+                            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton"/>
+                            <tableDisplay>
+                                <property name = "object_name"/>
+                                <property name = "qam0QualityActionSubtype"/>                                
+                                <property name = "qam0QualityActionStatus"/>
+                                <property name = "qam0CompletionDate" modifiable="false"/>
+                                <property name = "caw0visibleInReport"/>
+                            </tableDisplay>
+                            <thumbnailDisplay/>
+                        </objectSet>
+                    </section>
+                </column>
+                <column width="50%">
+                    <section titleKey="tc_xrt_ConfirmationofEffectiveness">
+                        <htmlPanel declarativeKey="CAW0COEActionTable"/>
+                    </section>
+                </column>
+            </section>
+            <section titleKey="tc_xrt_D6ImplementCorrectiveActions">
+                <objectSet source = "CPA0ImplCorrAction.Qam0QualityAction" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                    <command actionKey="newBusinessObjectContextualAction" commandId="CAW0AddQualityAction" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton"/>
+                    <tableDisplay>
+                        <property name = "object_name"/>
+                        <property name = "qam0QualityActionSubtype"/>
+                        <property name = "qam0Comment"/>
+                        <property name = "fnd0ResponsibleUser" modifiable="false"/>
+                        <property name = "qam0DueDate"/>
+                        <property name = "qam0QualityActionStatus"/>
+                        <property name = "qam0CompletionDate" modifiable="false"/>
+                        <property name = "caw0visibleInReport"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <page titleKey="tc_xrt_PreventiveAction">
+        <section titleKey="tc_xrt_D7PreventRecurrence">
+            <objectSet source = "CPA0PreventiveAction.Qam0QualityAction" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <command actionKey="newBusinessObjectContextualAction" commandId="CAW0AddQualityAction" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton"/>
+                <tableDisplay>
+                    <property name = "object_name"/>
+                    <property name = "qam0QualityActionSubtype"/>
+                    <property name = "qam0Comment"/>
+                    <property name = "fnd0ResponsibleUser" modifiable="false"/>
+                    <property name = "qam0DueDate"/>
+                    <property name = "qam0QualityActionStatus"/>
+                    <property name = "qam0CompletionDate" modifiable="false"/>
+                    <property name = "caw0visibleInReport"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_ImplementByChangeRequestChangeNotice">
+            <objectSet source = "CMImplementedBy.ChangeRequestRevision,CMImplementedBy.C2IssueRevision,CMImplementedBy.ChangeNoticeRevision" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton">
+                    <parameter name="visibleTabs" value="palette,search"/>
+                </command>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton"/>
+                <tableDisplay>
+                    <property name = "object_name"/>
+                    <property name = "CMClosure"/>
+                    <property name = "CMDisposition"/>
+                    <property name = "CMMaturity"/>
+                    <property name = "cm0Requestor"/>
+                    <property name = "CMHasSolutionItem"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+            </objectSet>
+        </section>
+    </page>
+    <inject type="dataset" src="WorkflowSummary" />
+    <page titleKey="tc_xrt_Relations" >
+        <htmlPanel declarativeKey="CAW0CAPARelation" enableresize="true" />
+    </page>
+    <page titleKey="tc_xrt_Attachments">
+        <column>
+            <section titleKey="tc_xrt_Files">
+                <objectSet source = "CMReferences.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,IMAN_specification.Dataset,CPA0CapaReports.Dataset" defaultdisplay = "tableDisplay" sortby = "creation_date" sortdirection = "descending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_type"/>
+                        <property name = "relation" modifiable="false"/>
+                        <property name = "object_desc"/>
+                        <property name = "creation_date"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_type"/>
+                        <property name = "relation" modifiable="false"/>
+                        <property name = "object_desc"/>
+                        <property name = "creation_date"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+            <section titleKey="tc_xrt_OverallFiles">
+                <htmlPanel declarativeKey="CAW0RelatedAttachmentTable"/>
+            </section>
+            <section titleKey="tc_xrt_Thumbnail">
+               <objectSet source="Thumbnail.Dataset" defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+                   <tableDisplay>
+                       <property name="object_string" width="300"/>
+                       <property name="object_type" width="160"/>
+                   </tableDisplay>
+                   <thumbnailDisplay/>
+                   <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+               </objectSet>
+           </section>
+           <section titleKey="tc_xrt_LegacySchedulesAndForms">
+                <objectSet source = "C2HasActionPlan.Form,C2HasActionPlan.Schedule,C2HasActionPlan.Dataset,C2RelatedResolution.Form,C2RelatedRootCause.Form" defaultdisplay = "tableDisplay" sortby = "creation_date" sortdirection = "descending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_type"/>
+                        <property name = "object_desc"/>
+                        <property name = "creation_date"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_type"/>
+                        <property name = "object_desc"/>
+                        <property name = "creation_date"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <inject type="dataset" src="Rb0InContextReportsSubLocation" />
+</rendering>

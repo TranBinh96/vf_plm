@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Business Modeler">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Live Update" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the data model elements to enable for live update. Select the Allow Live Updates check box to set the BMIDE_ALLOW_LIVE_UPDATES preference and allow live update deployment from the Business Modeler IDE and Teamcenter Environment Manager (TEM).
+Valid Values:
+To select the elements to allow for live update, move them from the Available list on the left to the Selected for Live Updates list on the right:
+Alias ID 
+RuleAlternate ID Rule
+Application Extension Point
+Application Extension Rule
+Business Context
+Business Object Constant
+Business 
+Object Constant Value Override
+Change
+Condition
+Deep Copy Rule
+Dispatcher Service Config
+Display Rule
+EDA Derived Data
+Event TypeEvent Type Mapping
+Functionality
+GRM RuleGlobal Constant
+Global Constant Value Override
+Icon
+ID Context
+IRDC
+LOV
+LOV Attachment
+Localization
+Naming Rule
+Naming Rule Attachment
+Occurrence Type
+Print Configuration
+Property Constant
+Property Constant Value Override
+Property Renderer
+Revision Naming Rule
+Status
+Storage Media
+System Stamp Configuration
+Tool
+Unit of Measure
+Verification Rule
+View Type</preference_description>
+      <context name="Teamcenter">
+        <value>TcAliasIdRule</value>
+        <value>TcAlternateIdRule</value>
+        <value>TcAppExtensionPoint</value>
+        <value>TcAppExtensionRule</value>
+        <value>TcBusinessContext</value>
+        <value>TcTypeConstant</value>
+        <value>TcTypeConstantAttach</value>
+        <value>TcChange</value>
+        <value>Condition</value>
+        <value>TcDeepCopyRule</value>
+        <value>DispatcherServiceConfig</value>
+        <value>TcTypeDisplayRule</value>
+        <value>EDADerivedDataConfig</value>
+        <value>EventType</value>
+        <value>EventTypeMapping</value>
+        <value>Functionality</value>
+        <value>TcGRMRule</value>
+        <value>TcGlobalConstant</value>
+        <value>TcGlobalConstantAttach</value>
+        <value>TcIdContext</value>
+        <value>IdGenerationRule</value>
+        <value>IdGenerationRuleAttaches</value>
+        <value>IRDC</value>
+        <value>IconElement</value>
+        <value>TcLOV</value>
+        <value>TcLOVAttach</value>
+        <value>Localization</value>
+        <value>TcNamingRule</value>
+        <value>TcNamingRuleAttach</value>
+        <value>TcPSOccurrenceType</value>
+        <value>PrintConfiguration</value>
+        <value>PropagationRule</value>
+        <value>TcPropertyConstant</value>
+        <value>TcPropertyConstantAttach</value>
+        <value>PropertyFormatter</value>
+        <value>PropertyFormatterAttach</value>
+        <value>PropertyRenderer</value>
+        <value>TcRevNamingRule</value>
+        <value>TcStatus</value>
+        <value>TcStorageMedia</value>
+        <value>SystemStampConfiguration</value>
+        <value>TcTool</value>
+        <value>TcUnitOfMeasure</value>
+        <value>VerificationRule</value>
+        <value>TcViewType</value>
+        <value>LOVDynamic</value>
+        <value>TcLOVExtent</value>
+        <value>TcLOVValueAttach</value>
+        <value>TcSubLOVAttach</value>
+        <value>TcToolInputFormatAttach</value>
+        <value>TcToolOutputFormatAttach</value>
+        <value>TcFormTypeAttach</value>
+        <value>TcProcessTemplateAttach</value>
+        <value>TcChangeIdFormatAttach</value>
+        <value>TcChangeRevIdFormatAttach</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

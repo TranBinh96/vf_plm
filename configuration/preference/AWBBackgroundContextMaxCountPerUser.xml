@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWBBackgroundContextMaxCountPerUser" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the maximum number of BackgroundContext objects that can be created by a given user.</preference_description>
+      <context name="Teamcenter">
+        <value>50</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

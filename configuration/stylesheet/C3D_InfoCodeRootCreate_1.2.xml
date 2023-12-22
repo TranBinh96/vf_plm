@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering>
+    <page title="Cortona3D">
+	    <view name="properties">
+			<property name="object_name" />
+			<property name="object_desc" />
+		</view>
+		<view name="properties.s1000d">
+			<customPanel java="com.teamcenter.rac.cortona3d.s1000d.infoCode.InfoCodeRootCreatePanel" />
+		</view>
+	</page>
+</rendering>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TcAllowedImportExportPeakSpecObject" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies which business object subclasses can occupy the top level in Systems Engineering structures that are imported and exported.
+Valid Values:
+Accepts one or more strings as values. Each string must contain the following:
+The name of a valid subclass of the Item business object.
+One of the following parameters:
+true - The subclass and its child subclasses can occupy the top level.
+false - Only the subclass can occupy the top level.
+
+For example: subclass_name:true
+Do not enter multiple values from the same subclass hierarchy. Otherwise, only the parent&apos;s value is recognized.
+For example, assume that the following values are entered:
+Document:true
+Specification:false
+
+Because the Document subclass is the parent of the Specification subclass, the Specification value is ignored.</preference_description>
+      <context name="Teamcenter">
+        <value>Specification:true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

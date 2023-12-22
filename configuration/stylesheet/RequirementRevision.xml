@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright 2011.
+       Siemens Product Lifecycle Management Software Inc.
+       All Rights Reserved.
+===============================================================================
+
+    Filename: RequirementRevision.xml
+
+    Default style sheet for displaying RequirementRevision poperties.
+ -->
+
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <property name="object_string" column="32"/>
+            <separator/>
+            <property name="object_name" column="32"/>
+            <property name="item_id" column="32"/>
+            <property name="item_revision_id" column="32"/>
+            <property name="object_desc" />
+            <property name="items_tag" />
+            <separator/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+            <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+            <property name="last_mod_user" />
+        </column>
+        <column>
+            <image/>
+        </column>
+    </page>
+
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="tc_xrt_Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

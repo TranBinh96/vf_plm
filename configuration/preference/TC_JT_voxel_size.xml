@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_JT_voxel_size" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the size of the voxels, in millimeters, used to save the spatial representation of the product when spatial data is generated from JT files.Users should base this setting upon their knowledge of the model&apos;s geometry. Smaller values provide a higher quality of results with less false positives but increase disk space requirements and may increase search times. Larger values improve performance but can degrade quality.
+Appearance spatial cache supports mixed-size components spatial maps. Users must modify this value depending upon actual geometry size.
+Valid Values:
+A positive real number.</preference_description>
+      <context name="Teamcenter">
+        <value>12.75</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

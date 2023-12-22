@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VES_General">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VES_MEPART_MODEL_PREFIX_NUMBER" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>Use VES ME Part</preference_description>
+      <context name="Teamcenter">
+        <value>Gen 1/1.5=15001</value>
+        <value>Battery VFe33=70001</value>
+        <value>Battery Escooter C1.6=12008</value>
+        <value>Gen 1.6=15008</value>
+      </context>
+    </preference>
+  </category>
+</preferences>
+               

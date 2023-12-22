@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WSOM_find_set_total_limit" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the total number of objects that can be returned in My Teamcenter for any given search operation. This site-wide preference limits the total return count, not the per-page count determined by the WSOM_find_set_search_limit user preference.
+Valid Values:
+0 - No limit
+A single positive integer. - The total number of objects to be returned to My Teamcenter for any given search operation.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

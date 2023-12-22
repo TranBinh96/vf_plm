@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_preselect_first_task" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether in Active Workspace client the first task is pre-selected when user goes to Inbox.
+Valid values are:
+* true: First task in inbox will be pre-selected. This is the default value.
+* false: First task in inbox will not be pre-selected.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

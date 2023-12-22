@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Context Definition">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextProductItemQuery" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Identifies a query that corresponds to the configurable definition of product item characteristics. Specifies the name of a saved query that allows Teamcenter to find product items based on configurable criteria. You can use the Query Builder application to create and save this query.Siemens PLM Software recommends that you create a query with built-in constraints according to the settings of the PortalDesignContextProductItemProperties preference.Teamcenter refers to this preference to find or filter for product items in one of the following applications:Product Configurator (Teamcenter variant and effectivity configurators)Design ContextPlatform Designer
+Valid Values:
+Name of any saved query. Use Query Builder to list available saved queries.</preference_description>
+      <context name="Teamcenter">
+        <value>Item Revision...</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Awp0CompanyLocationCreate.xml
+
+    Style sheet rendering for CompanyLocation creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="Properties" titleKey="tc_xrt_properties">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="fnd0LocationCode" />
+            <property name="fnd0LocationType" />
+            <inject type="dataset" src="Vm1CompanyLocationCreate" />
+            <property name="street" />
+            <property name="city" />
+            <property name="state_province" />
+            <property name="postal_code" />
+            <property name="country" />
+            <property name="region" />
+            <property name="url" />
+            <property name="object_desc" />
+        </section>
+    </page>
+</rendering>

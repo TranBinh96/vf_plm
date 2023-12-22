@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SourcingTemplates" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the values for Supplier Collaboration Templates for Direct Materials Sourcing.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

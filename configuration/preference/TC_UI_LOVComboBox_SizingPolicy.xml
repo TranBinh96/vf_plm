@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_UI_LOVComboBox_SizingPolicy" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the sizing policy of the LOVComboBox in the Rich client.
+Valid Values:
+- Default: Uses a default width of 32 characters
+- FitToLength: The size of the LOVComboBox is determined based on the width of the selected value. If the width required to accomodate the selected value exceeds the threshold width, the system uses the threshold width. The threshold width is defined to be 70 percent of the ScreenSize or ParentSize which is specified in the preference TC_UI_LOVComboBox_SizingBasedOn.
+The default value for this user preference is &quot;FitToLength&quot;</preference_description>
+      <context name="Teamcenter">
+        <value>FitToLength</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

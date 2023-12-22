@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_indexed_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies types whose objects can be indexed. The FTS framework uses this preference to determine if a given object should be indexed. If this preference is not defined, the FTS framework does not filter out any objects.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid object type name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_convert_to_jt_with_product" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of additional elements managed when a product is converted to a JT. By default, only the product is converted.
+Possible values:
+ASR = convert product with its alternate shape representation.
+CSR = convert product with its component shape representation 
+SP = convert product with its secondary parts and secondary products</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

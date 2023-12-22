@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Maintenance.File Caching">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Cache_Protection" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the operating system protection applied to the files stored in the file cache.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

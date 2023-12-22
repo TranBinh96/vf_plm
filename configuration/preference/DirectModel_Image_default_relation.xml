@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DirectModel_Image_default_relation" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default relation created between an Image Dataset object and a Direct Model Dataset object when the former is pasted under the latter.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_capture</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

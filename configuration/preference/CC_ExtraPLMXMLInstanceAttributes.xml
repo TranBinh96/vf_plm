@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CC_ExtraPLMXMLInstanceAttributes" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines any additional options to be used when exporting a tool design package to NX or when using the cc_writer command line utility. 
+Valid Values:
+KeyEntry - Specifies the string that appears as the title attribute in the PLM XML code for the UserValue element.
+PropEntry - Specifies the string that appears as the value attribute in the PLM XML code for the UserValue element.</preference_description>
+      <context name="Teamcenter">
+        <value>target:Instance,key:__PLM_CLONE_STABLE_INST_UID,prop:bl_clone_stable_occurrence_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

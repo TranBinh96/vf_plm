@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Variant_config_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMLine.bl_level_starting_0</value>
+        <value>BOMLine.bl_item_item_id</value>
+        <value>BOMLine.bl_formula</value>
+        <value>BOMLine.bl_item_object_name</value>
+        <value>BOMLine.VF3_module_group</value>
+        <value>BOMLine.VF5_module_group</value>
+        <value>BOMLine.VF3_vehicle_type_car</value>
+        <value>BOMLine.VF5_vehicle_type</value>
+        <value>BOMLine.bl_quantity</value>
+        <value>BOMLine.bl_uom</value>
+        <value>BOMLine.bl_rev_vf5_weight</value>
+        <value>BOMLine.VF3_purchase_lvl_vf</value>
+        <value>BOMLine.VF5_purchase_lvl_vf</value>
+        <value>BOMLine.vf3_viet_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

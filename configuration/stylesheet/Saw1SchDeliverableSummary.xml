@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Schedule Deliverable Summary Panel in Revolution Client. -->
+
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/> 
+        <property name="last_mod_date"/> 
+        <property name="release_status_list"/> 
+        <property name="object_type"/>
+    </header>
+    <page title="Summary" titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="deliverable_type"/>
+            <property name="release_status_list" modifiable="false"/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="saw1ScheduleFinishDate"/>
+        </section>
+    </page>
+    <inject type="dataset" src="AuditLogForScheduleMgmt"/>
+ </rendering>

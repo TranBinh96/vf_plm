@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_bomline_flag_names" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maintains the order and names of bom flag properties to combine. This preference is not intended for customer use.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_has_children</value>
+        <value>bl_is_variant</value>
+        <value>bl_has_substitutes</value>
+        <value>bl_is_packed</value>
+        <value>bl_is_orphan</value>
+        <value>bl_is_all_history_line</value>
+        <value>bl_is_vi</value>
+        <value>bl_is_pending_cut</value>
+        <value>bl_is_precise</value>
+        <value>bl_is_classified</value>
+        <value>bl_has_module</value>
+        <value>bl_is_occ_configured</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Next Generation Classification">
+    <category_description>Active Workspace preferences</category_description>
+    
+               <preference name="Cls0Context.CellProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of properties that are to be displayed under a cell for objects of type of Cls0Context element in the Active Workspace client.
+Valid values are property internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>object_type</value>
+        <value>last_mod_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

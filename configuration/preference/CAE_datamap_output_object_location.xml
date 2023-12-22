@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_datamap_output_object_location" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the folder where data map will place the output root item revision.
+The Valid Values:
+* &quot;Newstuff&quot;: the data will be in the user&apos;s&quot;Newstuff&quot; folder. This is the default value.
+* The UID of an alternative folder: For this, use the Rich client user interface through the Edit/Options panel.
+* &quot;None&quot;: output objects will not be placed in any folder.</preference_description>
+      <context name="Teamcenter">
+        <value>Newstuff</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

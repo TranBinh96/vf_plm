@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PTN_IntroSavedQueryTypeList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the saved query types that Teamcenter uses for the quick search within the partitionable model Content Explorer introduction panel.
+Valid Values:
+Any valid saved query types that teamcenter can use for the quick search within the partitionable model content explorer introduction panel.
+Example:
+__PartitionTemplate
+__ProductArchModel</preference_description>
+      <context name="Teamcenter">
+        <value>__PartitionTemplate</value>
+        <value>__ProductArchModel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

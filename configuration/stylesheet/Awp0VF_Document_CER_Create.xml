@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for special Document creation (#1). -->
+<rendering>
+  <page>
+    <section>
+      <property name="item_id" renderingHint="textfield" modifiable="false" />
+      <property name="revision:item_revision_id" modifiable="false" />
+      <property name="object_name"/>
+    </section>
+  </page>
+</rendering>

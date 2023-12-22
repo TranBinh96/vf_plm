@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINFAST_SPBDVP_REPORT_CONFIG" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>User for SPB-DVP Report</preference_description>
+      <context name="Teamcenter">
+        <value>Module,%item%.vf3_module_name</value>
+        <value>Spec Doc ID,item_id</value>
+        <value>Ver,current_revision_id</value>
+        <value>Spec Doc Name,current_name</value>
+        <value>Car Program,</value>
+        <value>IsDVP,</value>
+        <value>Owner,owning_user</value>
+        <value>Group ID,owning_group</value>
+        <value>Uploaded date,creation_date</value>
+        <value>Release Status,release_status_list</value>
+        <value>Date Released,date_released</value>
+        <value>ECR Number,</value>
+        <value>ECR Release Status,</value>
+        <value>ECR Release Date,</value>
+        <value>SOR Number,%item%.vf3_SOR_doc</value>
+        <value>DVPR Number,%item%.vf3_DVPR_doc</value>
+        <value>VFTE Number,</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

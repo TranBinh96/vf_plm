@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDSM_permitted_transfer_sites" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines which sites are authorized to transfer ownership of objects owned by the site served by an IDSM server. If not defined, no site is allowed to transfer ownership of any object from this site.
+Valid Values:
+One or more strings; each string must be a valid Teamcenter site name.</preference_description>
+      <context name="Teamcenter">
+        <value>VINFAST</value>
+        <value>MS_GRZ_VINF</value>
+        <value>MS_EDAG_VINF</value>
+        <value>TLL_PRD</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

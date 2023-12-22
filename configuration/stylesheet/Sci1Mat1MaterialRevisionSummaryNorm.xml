@@ -1,0 +1,23 @@
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+    <content visibleWhen="sci0IsIMDSObject==True">
+        <section titleKey="sci1_xrt_imdsnorms" title="Norms">
+            <objectSet source="sci0Norms.Sci0Norm" defaultdisplay="tableDisplay" sortby="sci0NormCode" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="sci0NormCode"/>
+                    <property name="sci0NormInstitute"/>
+                </tableDisplay>
+               <!-- <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>-->
+                 <command actionKey="newBusinessObjectContextualAction" commandId="Sci1AddNormsInfo" renderingHint="commandbutton" />
+            </objectSet>
+        </section>
+    </content>
+</subRendering>

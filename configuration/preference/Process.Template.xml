@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Process.Template" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the process templates used in creating a process structure. Each process template contains the action rules used in creating a process structure from the process template.Definition of individual templates must be created first using the Process.Template.Mapping_Consumes, Process.Template.Referencing_Consumes, and Process.Template.Ignoring_Consumes preferences.
+Valid Values:
+Accepts multiple strings as values. Each string must be the template name suffix of each Process.Template.template name preference name.</preference_description>
+      <context name="Teamcenter">
+        <value>Mapping_Consumes</value>
+        <value>Referencing_Consumes</value>
+        <value>Ignoring_Consumes</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METimeAnalysisReportStylesheet" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the name of the XSL style sheet used for the Time Analysis report.
+Valid Values:
+Accepts a valid style sheet name.</preference_description>
+      <context name="Teamcenter">
+        <value>TimeAnalysisReport.xsl</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

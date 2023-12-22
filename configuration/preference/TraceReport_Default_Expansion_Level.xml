@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Cross Probing.Search Mechanism">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TraceReport_Default_Expansion_Level" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default level of expansion for trace report tree.
+If the traceability report is also showing trace link objects, the depth of the report will be multiplied by 2. For example, if the preference value is 3 and the traceability report will contain 6-level deep trace report for trace links.
+For single-object trace reports, the tree is expanded to the mentioned level.
+For multiple-objects trace reports, each tree node is expanded to the specified level in each root.
+The default value is 2. Positive integer value greater than 0 are valid values for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

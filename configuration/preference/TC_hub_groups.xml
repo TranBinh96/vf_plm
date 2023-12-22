@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_hub_groups" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines replication behavior for sharing data via Multi-Site Collaboration hubs. The replication behavior is managed by assigning hub clients (sites connected to a hub for data sharing purposes) to arbitrary hub groups.The following rules govern behavior of hub group memberships. Given the following example:TC_hub_groups=
+Company 1:partner
+Company 2:partner
+Company 3:supplier
+Company 4:supplier
+When the site importing from the hub, and the real owning site of the replica being imported from the hub, are in the same hub group, then the requesting site receives its copy directly from the real owning site. In the above example, assume Company 1 sends a replica of Item 1 to the hub. If Company 2 replicates Item 1 from the hub, the hub does not send Item 1 to Company 2, but redirects the request to Company 1 because Company 1 and Company 2 are in the same hub group.This behavior applies to components when importing a whole assembly. However, for Company 2 to automatically receive components owned by Company 1, the
+Include Distributed Components import/export command must be selected; otherwise, the components owned by Company 1 are stubbed at Company 2.When the site importing from the hub and the real owning site of the replica being imported from the hub are in different hub groups, then the requesting site receives its copy from the hub (which is normal hub replication behavior). In the above example, assume that Company 1 sends a replica of Item 1 to the hub. If Company 3 tries to replicate Item 1 from the hub, the hub sends a replica of Item 1 to Company 3 because Company 1 and Company 3 are in different hub groups.When publishing
+a replica that resides on the hub when the owning site of the replica and the target ODS are in the same hub group, the publication is not allowed. If the owning site and the target ODS are in different hub groups, the publication is allowed.In the above example, assume each site has its own ODS that is accessible from the hub. Also assume that Company 1 sends a replica of Item 1 to the hub. If a user logged onto the hub tries to publish Item 1 to the ODS of Company 2 the publication is not allowed because Company 1 and Company 2 are in the same hub group. Presumably, Company 1 and Company 2 are already sharing data directly 
+with each other and there is no need to share replicas via the hub. Alternatively, if the user is logged onto the hub and tries to publish Item 1 to the ODS of Company 3, then the publication is allowed. This enables Company 1 to search Company 3&apos;s ODS and still receive its replicas from the hub and not from Company 3.
+Valid Values:
+Accepts one or more strings as values. Define the preference only in the hub database, using the following format:
+TC_hub_groups=
+site1:hub group1
+site2:hub group2
+site3:hub group3
+Where site is the name of the hub client site. Do not enter the hub site itself as a value.And where hub group is a user-assigned name (maximum 32 characters) used for grouping client sites; such customer-defined grouping is the suggested method of managing replication and publication behavior for data shared via Multi-Site Collaboration hubs.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

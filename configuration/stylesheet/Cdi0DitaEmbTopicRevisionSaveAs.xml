@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: Cdi0DitaEmbTopicRevisionSaveAs.xml
+
+    Default style sheet for displaying Cdi0DitaEmbTopic Revision save as
+=======================================================================
+-->
+
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name" />  
+            <property name="DocumentTitle" />
+            <property name="isTemplate" />
+            <property name="referenceOnly"  />        
+        </section>
+  </page>
+   
+</rendering>

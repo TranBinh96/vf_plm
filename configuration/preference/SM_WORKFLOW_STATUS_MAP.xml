@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_WORKFLOW_STATUS_MAP" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the workflow status rules mapping between the Workflow Task and Schedule Task statuses.
+Valid Values:
+workflow-task-status.schedule-task-status
+Valid values for workflow-task-status:
+In Process
+Completed
+Late
+Aborted
+Valid values for schedule-task-status:
+in_progress
+complete
+late
+aborted</preference_description>
+      <context name="Teamcenter">
+        <value>In Process.in_progress</value>
+        <value>Completed.complete</value>
+        <value>Late.late</value>
+        <value>Aborted.aborted</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

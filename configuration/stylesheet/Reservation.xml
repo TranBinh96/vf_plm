@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Reservation.xml
+
+    Style sheet rendering for Reservation properties.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General" >
+        <property name="change_id" />
+        <property name="date" />
+        <property name="reason" />
+        <separator />
+        <property name="object_restore_ptr"/>
+        <separator />
+        <property name="notification_list"/>
+    </page>
+
+    <page title="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>
+

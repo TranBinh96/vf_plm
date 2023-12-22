@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="NX_Supports_VISSC" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Activates NX support of configuration using the VisStructureContext object during a Send to NX operation.
+Valid Values:
+true - Activates NX support.
+false - Deactivates NX support. The value must be set to false if using a version prior to NX 8.5.1.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

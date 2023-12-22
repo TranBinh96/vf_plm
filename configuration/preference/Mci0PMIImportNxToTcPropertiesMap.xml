@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mci0PMIImportNxToTcPropertiesMap" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maps the NX product manufacturing information (PMI) properties to the Teamcenter PMI properties.
+Valid Values:
+Accepts two property names separated by a colon, as follows:
+NX-property-name:Teamcenter-property-name</preference_description>
+      <context name="Teamcenter">
+        <value>K2101:mci0NominalValue</value>
+        <value>K2111:mci0UpperSpecLimit</value>
+        <value>K2110:mci0LowerSpecLimit</value>
+        <value>K2900:mci0GDandTText</value>
+        <value>K2802:mci0GDandTCode</value>
+        <value>B2009:mci0DimensionType</value>
+        <value>K2504:mci0ChangeStatusText</value>
+        <value>K2091:mci0AccountabilityID</value>
+        <value>BCT_UNIQUE_OBJ_HANDLE:mci0BCTUniqueObjHandle</value>
+        <value>BCT_CHX_UID:mci0PMICharacteristicsUid</value>
+        <value>K1001:mci0PMIBctPartId</value>
+        <value>K1004:mci0PMIBctPartRevId</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

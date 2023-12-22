@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_auto_name_option" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set to true to toggle on Auto Name check box , set to false to toggle off.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

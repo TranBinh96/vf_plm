@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ItemRevision_group_order" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the order by types of children components to be displayed when expanding the node of objects of type &quot;ItemRevision&quot; in the &quot;My Teamcenter&quot; perspective of the rich client.
+Other children components whose types are not in the list will be displayed after the children components whose types are specified here.  
+The valid values are Business Object type name. 
+If this preference is not configured, then the children components will be displayed based on ItemRevision_DefaultChildProperties preference values.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision Master</value>
+        <value>BOMView Revision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

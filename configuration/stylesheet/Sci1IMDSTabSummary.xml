@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Sci1IMDSTabSummary.xml
+Default activeworkspace style sheet for displaying IMDS tab summary
+ -->
+<subRendering>
+   <page titleKey="sci1_xrt_imdstab" title="IMDS">
+        <section titleKey="sci1_xrt_imdsupplierinfo" title="Supplier Information">
+                   <property name="REF(sci0ItemRevHelperObject,Sci0ItemRevHelperObject).sci0Company"/>
+                   <property name="REF(sci0ItemRevHelperObject,Sci0ItemRevHelperObject).sci0CompanyLocation"/>
+                   <property name="REF(sci0ItemRevHelperObject,Sci0ItemRevHelperObject).sci0CompanyContact"/>
+         </section>
+         <break/>
+         <break/>
+         <break/>
+         <break/>
+       <section titleKey="sci1_xrt_imdsrecipientinfo" title="Recipient Information">
+              <objectSet source="sci0RecipientInfoForIMDSObj.Sci0RecipientData" defaultdisplay="tableDisplay" > 
+                <tableDisplay>
+                    <property name="sci0OrganizationUnit" modifiable="false"/>
+                    <property name="sci0PartNumber" modifiable="false"/>
+                    <property name="sci0RecipientStatus" modifiable="false"/>
+               </tableDisplay>
+             <command actionKey="newBusinessObjectContextualAction" commandId="Sci1AddRecipientInfo" renderingHint="commandbutton" />
+               </objectSet>
+        </section>
+
+      <inject type="dataset" src="Sci1Mat1MaterialRevisionSummaryNorm"/>
+   </page>
+</subRendering>

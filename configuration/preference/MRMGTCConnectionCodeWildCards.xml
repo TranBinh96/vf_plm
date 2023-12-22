@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMGTCConnectionCodeWildCards" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the wild characters that are used in vendor Generic Tool Catalogs (GTCs).
+Those wild characters will be converted to Teamcenter supported wild cards, when the ICO is mapped into Manufacturing Resource Library (MRL) classes.
+The default values are *, ? and $.</preference_description>
+      <context name="Teamcenter">
+        <value>*</value>
+        <value>?</value>
+        <value>$</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

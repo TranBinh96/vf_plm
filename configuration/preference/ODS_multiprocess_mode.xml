@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ODS_multiprocess_mode" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables or suppresses multiprocess Object Directory Services (ODS) operations, providing improved service when the ODS server process is being monopolized by remote operations such as report generation and object publication. Multiprocess mode can also be used to improve performance when service from the ODS server is slow due to high numbers of operations running at multiple remote sites.
+Valid Values:
+TRUE - Enables multiprocess Object Directory Services (ODS) operations.
+FALSE - Suppresses multiprocess Object Directory Services (ODS) operations.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

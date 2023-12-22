@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VIS_LAUNCH_LOGIN_PROMPT" type="Logical" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Indicates if the user needs to login when launching the standalone viewer from Teamcenter unless TcSS (Single Sign On) is enabled.
+It is recommended to keep this preference set to true.
+Valid Values:
+*true: Users need to identify. If TcSS (Single Sign On) is enabled, no identification is required. This is the default value.
+*false: Users do not need to identify.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_workflow_name_after_matml_import" type="String" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Specifies the name of the workflow to run after importing the material.</preference_description>
+      <context name="Teamcenter">
+        <value>None</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="MATERIALMGMT_substance_composition_tolerance_upper" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the value of the percentage deviation in which the substance composition of a material is allowed to be greater than full (100%).
+This value will also be used to determine the actual composition deficit for a material.
+The default value is 0.0000001%.</preference_description>
+      <context name="Teamcenter">
+        <value>1e-07</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying a EPM Task template. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_type" modifiable="false"/>
+    </header>
+    <page  titleKey="tc_xrt_Workflow">
+        <htmlPanel declarativeKey="Awp0WorkflowDesignerGraph" enableresize="true"/>
+    </page>
+</rendering>

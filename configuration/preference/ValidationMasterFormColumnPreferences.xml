@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Validation Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ValidationMasterFormColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of property names to be displayed as columns in the ValidationMasterForm table.
+Valid Values:
+validation_target
+validation_name
+validation_application
+validation_utility_name
+validation_user
+validation_date
+result_state_flag
+validation_result
+override_to_state
+override_request_state</preference_description>
+      <context name="Teamcenter">
+        <value>validation_target</value>
+        <value>validation_name</value>
+        <value>fnd0_final_val_result</value>
+        <value>override_request_state</value>
+        <value>result_state_flag</value>
+        <value>validation_application</value>
+        <value>validation_user</value>
+        <value>validation_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

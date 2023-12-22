@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_support_generic_and_need" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls support of generic and need objects in the Classification application for the rich client.
+Valid Values:
+true - You can create, update, and search generic and need objects.
+false - You cannot create, update, and search generic or need objects.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

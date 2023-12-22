@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BMF_CLASS_AND_TYPE_DISPLAY_LIST" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of values to display in the tree of the Extension Point Selection panel. Workspace is always defaulted (internally).</preference_description>
+      <context name="Teamcenter">
+        <value>Appearance</value>
+        <value>BOMLine</value>
+        <value>ERP</value>
+        <value>File</value>
+        <value>FileServer</value>
+        <value>ImanQuery</value>
+        <value>ImanRelation</value>
+        <value>PLMXML</value>
+        <value>PublicationRecord</value>
+        <value>PSOccurrence</value>
+        <value>Report</value>
+        <value>Session</value>
+        <value>SingleFileRecovery</value>
+        <value>Site</value>
+        <value>StorageMedia</value>
+        <value>User</value>
+        <value>ValidationResult</value>
+        <value>View</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

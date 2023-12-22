@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_show_digital_signature_icon" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables the display of the Digital Signature icon as trailing icon on components listed in the &quot;Home&quot; view.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

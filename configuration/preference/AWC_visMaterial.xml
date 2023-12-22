@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_visMaterial" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default object material for the Viewer in the Active Workspace client.
+Valid values are integers from 0 to 29.
+* 0 : SHINY METAL : Sets the object material to SHINY METAL
+* 1 : BRUSHED METAL : Sets the object material to BRUSHED METAL
+* 2 : SHINY PLASTIC : Sets the object material to SHINY PLASTIC
+* 3 : ANALYSIS : Sets the object material to ANALYSIS
+* 4 : FLAT : Sets the object material to FLAT. This is the default value.
+* 5 : RED GLOSSY PLASTIC : Sets the object material to RED GLOSSY PLASTIC
+* 6 : BLUE GLOSSY PLASTIC : Sets the object material to BLUE GLOSSY PLASTIC
+* 7 : GREEN GLOSSY PLASTIC : Sets the object material to GREEN GLOSSY PLASTIC
+* 8 : GRAY GLOSSY PLASTIC : Sets the object material to GRAY GLOSSY PLASTIC
+* 9 : BLACK GLOSSY PLASTIC : Sets the object material to BLACK GLOSSY PLASTIC
+* 10 : BROWN GLOSSY PLASTIC : Sets the object material to BROWN GLOSSY PLASTIC
+* 11 : YELLOW GLOSSY PLASTIC : Sets the object material to YELLOW GLOSSY PLASTIC
+* 12 : TEAL GLOSSY PLASTIC : Sets the object material to TEAL GLOSSY PLASTIC
+* 13 : WHITE GLOSSY PLASTIC : Sets the object material to WHITE GLOSSY PLASTIC
+* 14 : CLEAR PLASTIC : Sets the object material to CLEAR PLASTIC
+* 15 : CHROME : Sets the object material to CHROME
+* 16 : COPPER : Sets the object material to COPPER
+* 17 : GOLD : Sets the object material to GOLD
+* 18 : BRASS : Sets the object material to BRASS
+* 19 : STEEL : Sets the object material to STEEL
+* 20 : BRUSHED CHROME : Sets the object material to BRUSHED CHROME
+* 21 : BRUSHED ALUMINUM : Sets the object material to BRUSHED ALUMINUM
+* 22 : BRUSHED TITANIUM : Sets the object material to BRUSHED TITANIUM
+* 23 : GLASS : Sets the object material to GLASS
+* 24 : SMOKEY GLASS : Sets the object material to SMOKEY GLASS
+* 25 : RED PAINT : Sets the object material to RED PAINT
+* 26 : GRAY PAINT : Sets the object material to GRAY PAINT
+* 27 : BLACK PAINT : Sets the object material to BLACK PAINT
+* 28 : BLUE PAINT : Sets the object material to BLUE PAINT
+* 29 : RUBBER   : Sets the object material to RUBBER</preference_description>
+      <context name="Teamcenter">
+        <value>4</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_relation_excluded_on_export" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Prevents the given relation types from being exported to another site during the import/export operation. 
+Valid Values:
+A list of valid relation type names, one name per line. The database name, not the display name, of a relation type must be given. Invalid values in the list are ignored.</preference_description>
+      <context name="Teamcenter">
+        <value>TC_bounding_box</value>
+        <value>TC_box_derived_from</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

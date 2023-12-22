@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPMTask_ColumnWidthPreferences" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the width of columns in the details tab for workflow tasks.</preference_description>
+      <context name="Teamcenter">
+        <value>32</value>
+        <value>18</value>
+        <value>18</value>
+        <value>18</value>
+        <value>32</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

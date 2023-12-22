@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Global_transfer_access" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Setting for global_transfer utilityall users regardless of this preference settings can use the Global transferfunctionality to transfer their own tasks to someone else. This preferenceconfigures who can assign other users task to someone else.0--&gt; System Administrator can also transer tasks assigned to other users1--&gt; System &amp; Group Administrators can also transfer tasks assigned to others, for group admin     it&apos;ll only enable this for users within the respective group2--&gt; Every body can transfer tasks assigned to others.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

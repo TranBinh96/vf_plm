@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client.Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Admin - Employee Information_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>No description available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>User.user_name</value>
+        <value>User.person</value>
+        <value>User.user_id</value>
+        <value>User.os_username</value>
+        <value>User.default_group</value>
+        <value>User.volume</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

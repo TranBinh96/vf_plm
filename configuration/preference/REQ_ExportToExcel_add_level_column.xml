@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="REQ_ExportToExcel_add_level_column" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether Teamcenter inserts the Level column in Microsoft Excel output files for structures that exceed eight levels. In these files, Excel&apos;s Outline features are disabled and all objects occupy the same level. The Level column references each object&apos;s structure level in Teamcenter.
+Valid Values:
+false - The Level column is suppressed.
+true - The Level column is inserted in the leftmost position.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

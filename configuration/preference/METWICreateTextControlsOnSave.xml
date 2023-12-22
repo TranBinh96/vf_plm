@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METWICreateTextControlsOnSave" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether content controls are created automatically for free text in work instructions documents.
+Valid Values:
+true - Content controls are created automatically.
+false - Content controls are not created automatically.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

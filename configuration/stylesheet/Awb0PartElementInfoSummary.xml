@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+==================================================
+Copyright 2019.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<rendering>
+    <header>
+        <property name = "awb0Name"/>
+    </header>
+    <content>
+        <inject type="dataset" src="Awb0PartElementInfoSummaryForAssemblyBOM"/>
+    </content>
+</rendering>

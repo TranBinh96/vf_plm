@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Fnd0ScheduleAudit. -->
+
+<subRendering>
+        <section titleKey="tc_xrt_ScheduleLogs">
+            <objectSet source="fnd0ScheduleAuditLogs.Fnd0ScheduleAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="descending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="fnd0UserId"/>
+                    <property name="task_type"/>
+                    <property name="schedule_type"/>
+                    <property name="start_date"/>
+                    <property name="finish_date"/>
+                    <property name="work_estimate"/>
+                    <property name="work_complete"/>
+                    <property name="complete_percent"/>
+                    <property name="actual_start_date"/>
+                    <property name="actual_finish_date"/>
+                    <property name="fnd0state"/>
+                    <property name="fnd0status"/>
+                    <property name="workflow_processDisp"/>
+                    <property name="fnd0SecondaryObjDispName"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+</subRendering>

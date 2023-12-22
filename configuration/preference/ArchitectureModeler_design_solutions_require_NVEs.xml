@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ArchitectureModeler_design_solutions_require_NVEs" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the number of Authorizing Named Variant Expressions the user needs to select to be able to Add/Replace design solutions.
+0 - Allow Add/Replace even if no Authorizing NVE is selected.
+1 - Allow Add/Replace if only one Authorizing NVE is selected.
+Any other value (other than 0 and 1) - Allow Add/Replace if atleast one Authorizing NVE is selected.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VariantRule.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of properties to be displayed under a cell for objects of type Variant Rule (VariantRule) in the Active Workspace.
+Valid values are property internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>object_string</value>
+        <value>object_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

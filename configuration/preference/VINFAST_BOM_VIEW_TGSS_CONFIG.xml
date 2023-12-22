@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="AW Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="VINFAST_BOM_VIEW_TGSS_CONFIG" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VINFAST_BOM_VIEW_TGSS_CONFIG</preference_description>
+      <context name="Teamcenter">
+        <value>1,Item ID,item_id</value>
+        <value>2,Object,object_string</value>
+        <value>3,Revision,item_revision_id</value>
+        <value>4,TGSS Document Number,vf4_tgss_doc_number</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

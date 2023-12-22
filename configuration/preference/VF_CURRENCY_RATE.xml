@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_CURRENCY_RATE" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>%Currency Name%;%Currency Code%;%Rate%</preference_description>
+      <context name="Teamcenter">
+        <value>AUSTRALIAN DOLLAR;AUD;1.4</value>
+        <value>CANADIAN DOLLAR;CAD;1.38</value>
+        <value>YUAN RENMINBI;CNY;6.93</value>
+        <value>EURO;EUR;0.87</value>
+        <value>POUND STERLING;GBP;0.77</value>
+        <value>INDIAN RUPEE;INR;75.038</value>
+        <value>YEN;JPY;105.957</value>
+        <value>SINGAPORE DOLLAR;SGD;1.38</value>
+        <value>THAILAND BAHT;THB;31.1</value>
+        <value>UNITED ARAB EMIRATES DIRHAM;AED;3.67</value>
+        <value>BRAZILIAN REAL;BRL;5.32</value>
+        <value>MALAYSIAN RINGGIT;MYR;4.222</value>
+        <value>SOUTH KOREAN WON;KRW;1108.62</value>
+        <value>VIETNAME DONG;VND;23500</value>
+        <value>UNITED STATE DOLLAR;USD;1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

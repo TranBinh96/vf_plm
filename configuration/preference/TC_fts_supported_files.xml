@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_supported_files" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies types of files that can be indexed.
+Valid Values:
+File extensions, for example, txt.</preference_description>
+      <context name="Teamcenter">
+        <value>.as</value>
+        <value>.aw</value>
+        <value>.csv</value>
+        <value>.dat</value>
+        <value>.dc</value>
+        <value>.dif</value>
+        <value>.doc</value>
+        <value>.docm</value>
+        <value>.docx</value>
+        <value>.dot</value>
+        <value>.dotm</value>
+        <value>.dotx</value>
+        <value>.eml</value>
+        <value>.epub</value>
+        <value>.fff</value>
+        <value>.htm</value>
+        <value>.html</value>
+        <value>.ip</value>
+        <value>.mdb</value>
+        <value>.mif</value>
+        <value>.msg</value>
+        <value>.ods</value>
+        <value>.pdf</value>
+        <value>.ppt</value>
+        <value>.pptx</value>
+        <value>.rtf</value>
+        <value>.stc</value>
+        <value>.sxc</value>
+        <value>.txt</value>
+        <value>.various</value>
+        <value>.vdx</value>
+        <value>.wo</value>
+        <value>.wpd</value>
+        <value>.xml</value>
+        <value>.xla</value>
+        <value>.xlam</value>
+        <value>.xls</value>
+        <value>.xlsm</value>
+        <value>.xlsx</value>
+        <value>.xlt</value>
+        <value>.xltm</value>
+        <value>.xltx</value>
+        <value>.xlw</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

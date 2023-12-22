@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_Design_Exchange_Site_Checkout_Relation_List" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of relation which need to be considered to get related datasets for site checkout in the Supplier Collaboration application. 
+Valid values are relation names.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_manifestation</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

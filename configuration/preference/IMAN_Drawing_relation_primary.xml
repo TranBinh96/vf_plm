@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Relations">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IMAN_Drawing_relation_primary" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines primary relation objects for IMAN_drawing relations. Must include Item, ItemRevision and Dataset for Dispatcher to support NX drawings.Use only a single instance of this preference in the database.All relation_business_object_relation_primary preferences are obsolete and are replaced by relation properties. Use the Business Modeler IDE to create and manage relation properties.
+Valid Values:
+Accepts multiple strings as values. Each value must be a valid Teamcenter object.</preference_description>
+      <context name="Teamcenter">
+        <value>UGMASTER</value>
+        <value>UGPART</value>
+        <value>UGALTREP</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

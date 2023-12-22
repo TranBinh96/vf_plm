@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TraceReportTable_ColumnWidthPreferences" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the column width for the list of columns defined in the TraceReportTable_ColumnPreferences preference.
+Valid Values:
+Integer values.</preference_description>
+      <context name="Teamcenter">
+        <value>31</value>
+        <value>17</value>
+        <value>12</value>
+        <value>12</value>
+        <value>13</value>
+        <value>9</value>
+        <value>17</value>
+        <value>6</value>
+        <value>26</value>
+        <value>26</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

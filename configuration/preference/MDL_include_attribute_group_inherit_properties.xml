@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MDL_include_attribute_group_inherit_properties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines a list of inherited properties available when viewing attribute groups and managed attribute groups in the Content Explorer. By default, the Content Explorer displays only the properties directly defined on an attribute group or managed attribute group. Use this preference to list additional properties from the parent hierarchy of attribute group or managed attribute group. The defined properties are available in the Column Management wizard of the Content Explorer, allowing you to add them to your display.For example, the object_string property is inherited from the workspace object. To make object_string available for attribute groups, add the property name to this preference.
+Valid Values:
+A list of valid property names.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

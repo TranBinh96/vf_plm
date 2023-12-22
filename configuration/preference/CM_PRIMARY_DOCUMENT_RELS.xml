@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_PRIMARY_DOCUMENT_RELS" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the relations by which document is attached to an Item Revision. If document is primary and Item Revision is sceondary in the relationship than &quot;S2P:&quot; prefix should be provided.</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0IsDescribedByDocument</value>
+        <value>FND_TraceLink</value>
+        <value>Fnd0DesignToBomRelation</value>
+        <value>S2P:IMAN_METarget</value>
+        <value>IMAN_specification</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

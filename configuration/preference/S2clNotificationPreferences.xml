@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="SocialCollaboration.AWC">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="S2clNotificationPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the notification category and preferences. 
+The format of this multi-value preference is as follows :&quot;category name=pref value;pref name^pref value;pref name^pref value&quot; 
+New categories can to be added with a set of values to the multi-value preference.</preference_description>
+      <context name="Teamcenter">
+        <value>Commentary=New_Comment^false;New_Question^false;New_Answer^false;New_Experience^false;New_Rating^false;Found_Helpful^false</value>
+        <value>Updates=Update_Comment^false;Update_Question^false;Update_Answer^false;Update_Experience^false;Update_Rating^false</value>
+        <value>Misc=Best_Answer^false;Is_Following^false;Stopped_Following^false;Saved_Search^false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    <preference name="ICS_classifiable_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of Teamcenter types that can be classified. If you create new child business objects or new business objects and want to be able to classify them, you must add their names to this preference.
+Valid Values:
+Valid Teamcenter types. The two default values, Item and ItemRevision, are considered a set. Therefore, if the item is classified the item revision cannot be classified, but it inherits the classification record from the item.
+This also works in the reverse; if the item revision is classified, the item cannot be classified, but inherits the classification record. Any types defined for the following preferences should be also defined for this preference:
+MRMClassifyResource
+ICS_classify_new
+GCS_classify_type</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+        <value>ItemRevision</value>
+        <value>Mfg0MEResource</value>
+        <value>Mfg0MEResourceRevision</value>
+        <value>Mfg0MEEquipment</value>
+        <value>Mfg0MEEquipmentRevision</value>
+        <value>Mfg0MENCMachine</value>
+        <value>Mfg0MENCMachineRevision</value>
+        <value>Mfg0Conveyor</value>
+        <value>Mfg0ConveyorRevision</value>
+        <value>Mfg0MERobot</value>
+        <value>Mfg0MERobotRevision</value>
+        <value>Mfg0MESensor</value>
+        <value>Mfg0MESensorRevision</value>
+        <value>Mfg0MEPLC</value>
+        <value>Mfg0MEPLCRevision</value>
+        <value>Mfg0MENCTool</value>
+        <value>Mfg0MENCToolRevision</value>
+        <value>Mfg0MENCMMachine</value>
+        <value>Mfg0MENCMMachineRevision</value>
+        <value>MENCMachining</value>
+        <value>MENCMachining Revision</value>
+        <value>MEStationRevision</value>
+        <value>CPMarketingBrief</value>
+        <value>CPMarketingBriefRevision</value>
+        <value>CPThemeBoard</value>
+        <value>CPThemeBoardRevision</value>
+        <value>Signal</value>
+        <value>SignalRevision</value>
+        <value>PSSignal</value>
+        <value>PSSignalRevision</value>
+        <value>Message</value>
+        <value>Message Revision</value>
+        <value>CommercialPart</value>
+        <value>CommercialPart Revision</value>
+        <value>ManufacturerPart</value>
+        <value>ManufacturerPart Revision</value>
+        <value>Vendor</value>
+        <value>CompanyContact</value>
+        <value>VF9_D_StandardRevision</value>
+        <value>VF4_StandardPartRevision</value>
+        <value>VF4_DesignRevision</value>
+        <value>VF9_D_CertificatRevision</value>
+        <value>VF9_D_RegulationRevision</value>
+        <value>VF9_D_TestReportRevision</value>
+        <value>VF3_Scooter_partRevision</value>
+      </context>
+    </preference>
+  </category>
+</preferences>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_solution_items_relation" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>CM_solution_items_relation has been deprecated and will be removed in a future version of Teamcenter. Keep the preference set to its default value until it is removed. Defines the relation containing the objects which are identified as solution objects by the change process.
+Valid Values:
+Change Manager relation that identifies the solution object. It can be any of the following relations:
+CMHasSolutionItem
+CMImplements
+CMHasImpactedItem
+CMReferences
+CMHasProblemItem
+CMHasWorkBreakdown</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasSolutionItem</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

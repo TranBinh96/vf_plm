@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_show_targets_on_results_dialog" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if the target parts table is displayed in the results dialog box after a proximity search. Applies to spatial searches in the Structure Manager and Multi Structure Manager applications. This preference is also applicable to the Manufacturing Process Planner application but only honored when searching filtered in-process assemblies. It is not honored in the structure search. The target parts table is visible at all times on the Structure Search Results view.
+Valid Values:
+true - The target parts table is displayed.
+false - The target parts table is not displayed.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWS_SearchPreFilter_Property2" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains the required information needed to display the second pre-filter in the Search panel of the Active Workspace client (AWC).
+Valid values are in the format:
+* The first value is the type and property internal names in the format &quot;type.property&quot; (e.g. &quot;WorkspaceObject.object_type&quot;).
+* The second value onwards is the internal values for the property 
+[For example,  &quot;ItemRevision&quot;].</preference_description>
+      <context name="Teamcenter">
+        <value>Categorization.category</value>
+        <value>Files</value>
+        <value>Documents</value>
+        <value>Parts</value>
+        <value>Changes</value>
+        <value>ScheduleTask</value>
+        <value>Schedule</value>
+        <value>WorkspaceObject.object_type</value>
+        <value>DocumentRevision</value>
+        <value>ItemRevision</value>
+        <value>Requirement Revision</value>
+        <value>EngChange Revision</value>
+        <value>Part Revision</value>
+        <value>C2CapaRevision</value>
+        <value>C2IssueRevision</value>
+        <value>C2IssueComplaintRevision</value>
+        <value>C2IssueNonConfRevision</value>
+        <value>HomoDocuments</value>
+        <value>Vendor</value>
+        <value>CommercialPart Revision</value>
+        <value>Mat1MaterialRevision</value>
+        <value>Mat1Substance</value>
+        <value>ManufacturerPart</value>
+        <value>Mat1MatCatalogRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

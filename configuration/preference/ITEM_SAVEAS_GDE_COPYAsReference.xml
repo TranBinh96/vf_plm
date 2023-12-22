@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.Mechatronics">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ITEM_SAVEAS_GDE_COPYAsReference" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>When a Save As operation is performed on an item that has GDE objects, new GDE objects are created for the new item. This is the default behavior.  Use this preference to reference the GDE objects in the existing item instead of creating new GDE objects as a result of the Save As of an item. Specify the item types in the preference. When Save As operation is performed, existing GDE objects are referenced for these item types. For other item types, new GDE objects are created.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

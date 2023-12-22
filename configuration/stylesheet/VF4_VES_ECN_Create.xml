@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering> 
+   <page title="General Information" titleKey="tc_xrt_cm_general_information">
+         <section titleKey="tc_xrt_properties">
+			<property name="fnd0IdGenerator:vf4_vehicle_type" />
+            
+			<property name="fnd0IdGenerator:vf4_vehicle_programs" />
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="vf4_vehicle_group" renderingHint="textfield" />
+            <property name="revision:vf4_new_parts_status" />
+			<property name="revision:vf4_change_reason" />
+			<property name="vf4_coordinated_change" />
+			<property name="revision:vf4_is_sendAllPartToSupp" />
+            <property name="revision:ppap" />
+			<property name="revision:vf4_is_mcn_required" />
+            <property name="revision:vf4_shop" />
+            <property name="vf6_effective_proposal" />
+
+            <customPanel java="com.teamcenter.rac.cm.wizards.ui.PropsPageRelationshipPanel" js="displayCMCustomePanel"/> 
+         </section>
+   </page>
+</rendering>

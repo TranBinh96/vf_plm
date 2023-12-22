@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+=======================================================================
+
+Copyright 2019.
+
+Siemens Product Lifecycle Management Software Inc.
+
+All Rights Reserved.
+
+=======================================================================
+
+     Filename: Awp0CAPARevInfoSummary.xml
+
+     Registers the information stylesheet for objects of type C2CapaRevision.
+
+=======================================================================
+
+-->
+
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+      <page titleKey="tc_xrt_caw0Summary">
+            <section titleKey="tc_xrt_properties">
+                <property name="object_name" />
+                <property name="object_type" />
+                <property name="item_id" />
+                <property name="object_desc" />
+                <break/>
+                <property name="c2_Priority" />
+                <property name="c2_capa_category" />
+                <property name="c2_capa_subtype" />
+                <break/>
+                <property name="c2_Due_date" />
+                <property name="owning_user" modifiable="false"/>
+                <property name="creation_date" />
+                <break/>
+                <property name="last_mod_user" />
+                <property name="last_mod_date" />
+            </section>
+            <section titleKey="tc_xrt_progress">
+                <property name="CMClosure" />
+                <property name="CMClosureDate" />
+                <property name="CMClosureComments" />
+                <property name="release_status_list" />
+                <property name="date_released" />
+                <property name="CMDisposition" />
+                <property name="CMMaturity" />
+            </section>
+      </page>
+      <page titleKey="tc_xrt_caw0ProbDefect">
+            <section titleKey="tc_xrt_properties">
+                <property name="GRM(CPA0ProblemDescription,CAW0Defect).object_name"/>
+                <property name="GRM(CPA0ProblemDescription,CAW0Defect).object_desc"/>
+                <property name="GRM(CPA0ProblemDescription,CAW0Defect).caw0category"/>
+                <property name="GRM(CPA0ProblemDescription,CAW0Defect).caw0reoccuring"/>
+                <property name="GRM(CPA0ProblemDescription,CAW0Defect).caw0Evaluation"/>
+                <property name="GRM(CPA0ProblemDescription,CAW0Defect).GRMREL(CAW0RelatedFailure,Qc0Failure).secondary_object" titleKey="Failure" modifiable="false"/>
+            </section>
+            <section titleKey="tc_xrt_caw0Details">
+                <property name="GRM(CPA0ProblemDescription,CAW0Defect).owning_user" renderingHint="objectlink" modifiable="false" />
+                <property name="GRM(CPA0ProblemDescription,CAW0Defect).creation_date" />
+                <property name="GRM(CPA0ProblemDescription,CAW0Defect).last_mod_date"/>
+            </section>
+      </page>
+      <page titleKey="tc_xrt_caw0RootCauses">
+        <section>
+            <objectSet source = "CPA0RootCause.CAW0Defect" defaultdisplay = "listDisplay">
+                <listDisplay>
+                    <property name = "object_name" modifiable="false"/>
+                    <property name = "object_desc" modifiable="false"/>
+                    <property name = "caw0category" modifiable="false"/>
+                    <property name = "caw0reoccuring" modifiable="false"/>
+                </listDisplay>
+            </objectSet>             
+        </section>
+    </page>
+</rendering>
+
+
+

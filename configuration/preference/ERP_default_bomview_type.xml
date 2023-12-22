@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ERP_default_bomview_type" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference is used to set default PS View Type to be used for Tc-OraMfg Integration</preference_description>
+      <context name="Teamcenter">
+        <value>view</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

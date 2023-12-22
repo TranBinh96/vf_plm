@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="FORM_text_field_shown_NULL" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Configures the default value for numeric text fields (of short, integer, float or double types) in forms.
+Valid values are TRUE for a blank field, and FALSE for a 0 value(default).</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

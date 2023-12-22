@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.DIS Adapter">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MetaDataStamp_template" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the Item ID of the Item Revision that provides the MetaDataStamp Template dataset. The MetaDataStamp Template drives the formatting styles used in rendering the text and watermark stamp content.</preference_description>
+      <context name="Teamcenter">
+        <value>MDS_default_styles_template</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

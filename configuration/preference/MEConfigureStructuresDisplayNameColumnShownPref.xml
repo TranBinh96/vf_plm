@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEConfigureStructuresDisplayNameColumnShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the columns displayed in &quot;Configure Structures&quot; dialog in the Manufacturing Process Planner (MPP) application.
+The valid column names are: revision_rule, variant_rules, Mfg0VisibilityUncnfVar, Mfg0VisibilitySuppOcc, Mfg0VisibilityUncnfChanges, Mfg0VisibilityUncnfOccEff, Mfg0VisibilityUncnfAssgnOcc, Fnd0EffectvtyGrpList, Fnd0Effectvty.
+The column names are the internal names of the properties.</preference_description>
+      <context name="Teamcenter">
+        <value>revision_rule</value>
+        <value>variant_rules</value>
+        <value>Mfg0VisibilityUncnfVar</value>
+        <value>Mfg0VisibilitySuppOcc</value>
+        <value>Mfg0VisibilityUncnfChanges</value>
+        <value>Mfg0VisibilityUncnfOccEff</value>
+        <value>Mfg0VisibilityUncnfAssgnOcc</value>
+        <value>Fnd0EffectvtyGrpList</value>
+        <value>Fnd0Effectvty</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

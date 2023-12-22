@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_use_item_not_configured_rev" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of business object types for which system should use their Item object and not the configured revision.
+Business object types defined in this preference would be excluded to switch to the configured revision while dealing with the favorites and the tiles.
+Valid values are: Internal names of the business object of type Item or its subtype.</preference_description>
+      <context name="Teamcenter">
+        <value>ManufacturerPart</value>
+        <value>Vendor</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

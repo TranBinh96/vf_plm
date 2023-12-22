@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PertChartCreationLayout" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines where newly created nodes are placed in the PERT chart. If the value is Horizontal, all newly created nodes are put at the top right corner; otherwise, they are placed at the bottom left corner.
+Valid Values:
+Horizontal - All newly created nodes are placed at the top right corner of the PERT chart.</preference_description>
+      <context name="Teamcenter">
+        <value>Vertical</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

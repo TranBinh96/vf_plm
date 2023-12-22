@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Office Integration">
+    <category_description>Teamcenter Client for Office Integration</category_description>
+    
+               <preference name="Word_Office_Launchable_TcTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies business object types required to launch documents from Client for Office in Microsoft  Word.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid Office dataset type.</preference_description>
+      <context name="Teamcenter">
+        <value>MSExcel</value>
+        <value>MSExcelX</value>
+        <value>MSExcelTemplateX</value>
+        <value>MSExcelTemplate</value>
+        <value>Outlook</value>
+        <value>MSPowerPointX</value>
+        <value>MSPowerPoint</value>
+        <value>MSPowerPointTemplate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

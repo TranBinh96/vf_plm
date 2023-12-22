@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEDoNotUseSCTypeForColumns" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies item revision business object types that have their own preferences to define columns in the primary view of a structure context. Other business object types displayed in the primary view of a structure context use structure context column preferences.In other words, when a structure context is opened in a BOM primary view in Manufacturing Process Planner or Part Planner, a tree table displays the data. The columns in this tree table are controlled by preferences. The preference names can be prefixed by the structure context business object type or by the top line item revision business object type. The default preference is the structure context type, unless the type of the item revision appears in this preference, in which case, the item revision preferences are used.For example, if there is a structure context that is a MySC business object type and the top line item revision is a MyItemRev business object type, the following occurs:If the MyItemRev type appears in the MEDoNotUseSCTypeForColumns preference, the preferences that are used for the columns in the BOM tree table are: MyItemRevColumnsShownPrefMyItemRevDisplayNameColumnsShownPrefMyItemRevShownColumnWidthsPrefIf the MyItemRev type does not appear in the MEDoNotUseSCTypeForColumns preference, the preferences that are used for the columns in the BOM tree table are: MySCColumnsShownPref MySCDisplayNameColumnsShownPref MySCShownColumnWidthsPref
+Valid Values::
+Subtypes of the ItemRevision business object.</preference_description>
+      <context name="Teamcenter">
+        <value>MEGenericBOPRevision</value>
+        <value>MEProductBOPRevision</value>
+        <value>Mfg0MEPlantBOPRevision</value>
+        <value>Mes0MESTXLibraryRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

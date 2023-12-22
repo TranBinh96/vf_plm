@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ItemCreate.xml
+
+    Style sheet rendering for Item creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">            
+        <section title="Item Information" titleKey="tc_xrt_ItemInformation">
+            <property name="object_name" renderingHint="textfield" column="32" />
+            <property name="object_desc" />
+            <property name="item_id" />
+            <property name="vf4_vf_code" />
+			<property name="vf4_workplace_sequence" />
+            <property name="vf4_TRX_HEX" />
+            <property name="vf4_max_torque" />
+            <property name="vf4_min_torque" />
+            <property name="vf4_nominal_torque" />
+            <property name="vf4_extension" />        
+            <separator/>
+            <property name="uom_tag" /> 
+           
+        </section>
+		 
+       
+    </page>
+
+</rendering>

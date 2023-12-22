@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Validation Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_VALIDATION_unify_itemrev_validation_form_ownership" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the owner of the Validation Results Summary form and associated report datasets is changed to the same owner of their associated item revision after its owner is changed.
+Valid Values:
+true - Sets the owner of the Validation Results Summary form and validation report datasets to the new owner of their associated item revision after the item revision&apos;s owner is changed.
+false - Leaves the owner of the Validation Results Summary form and validation report datasets unchanged following a change in their associated item revision&apos;s owner.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

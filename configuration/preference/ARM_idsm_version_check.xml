@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ARM_idsm_version_check" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Activates the performance monitoring of the Multi-Site Collaboration internal version check function.
+For the client process, the transaction reports the duration of time required to perform a version request of the IDSM server at a remote node.
+For the IDSM process, the transaction reports the time required to respond to the version check request.
+Valid Values:
+* ON: Enables performance monitoring of the Multi-Site Collaboration internal version check function.
+* OFF: Suppresses performance monitoring of the Multi-Site Collaboration internal version check function.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

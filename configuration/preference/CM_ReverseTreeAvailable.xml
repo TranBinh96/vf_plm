@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_ReverseTreeAvailable" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>If this preference is set to true, it will show the &quot;In Use of Structures&quot; section under the &quot;Where Used&quot; tab of Active Workspace. This is an internal preference and not to be modified by the admin.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

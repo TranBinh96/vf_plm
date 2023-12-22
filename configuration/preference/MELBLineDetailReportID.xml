@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MELBLineDetailReportID" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the ID of the report definition used for the Balancing Line Detail report.
+Valid Values:
+Accepts the ID of an existing Balancing Line Detail report.</preference_description>
+      <context name="Teamcenter">
+        <value>TC_LB_LINE_DETAIL</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

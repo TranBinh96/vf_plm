@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VES_BP_DESIGN_PART_ID_GENERATOR" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>VFe32;11004</value>
+        <value>VFe33;11005</value>
+        <value>VFe34;11001</value>
+        <value>VFe35;11002</value>
+        <value>VFe36;11003</value>
+        <value>VFe34S;11006</value>
+        <value>VFe34R;11007</value>
+        <value>VFe35P;11008</value>
+        <value>VFe36P;11009</value>
+        <value>A1;12004</value>
+        <value>B1;12005</value>
+        <value>C1.6;12008</value>
+        <value>Ebike;12007</value>
+        <value>Escooter KLN;12009</value>
+        <value>Escooter 48V;12011</value>
+        <value>Escooter 72V;12010</value>
+        <value>LFP1;12006</value>
+        <value>P1L;12001</value>
+        <value>P1S;12002</value>
+        <value>P2;12003</value>
+        <value>Eboat;15002</value>
+        <value>ESS;15001</value>
+        <value>ESS PowerWall;15004</value>
+        <value>ESS 20 FT;15005</value>
+        <value>Golf cart;15003</value>
+        <value>Battery Pack 12V;11010</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

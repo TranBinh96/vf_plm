@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="LSDYNA_PRINT_COMMENTS" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Flag to control comments in exported lsdyna xml. 
+Valid values are:
+* false: Exported lsdyna file will NOT have comments. This is the default value.
+* true: Exported lsdyna file will have comments.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

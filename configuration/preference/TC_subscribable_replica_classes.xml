@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_subscribable_replica_classes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of WorkspaceObject classes whose replicas can be subscribed to for update notification. When users subscribe to the Replica Updated event for a replica object at a replica site, they are notified when the replica is updated due to re-import or synchronization. The notification is sent only for the objects of classes defined by this preference.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid workspace object implementation class, such as ItemImpl, ItemRevisionImpl, DatasetImpl, DocumentImpl, DocumentRevisonImpl.In the case of the item and item revision classes, Teamcenter accepts the object class (Item, ItemRevision) in addition to the object implementation class.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.AIE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AIE_import_master" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates if the user has permissions to modify import information in the xml files when importing them back to Teamcenter. Valid values are Application/both. Application - User is not allowed to change the import information from Teamcenter. both - User is allowed to modify import information from Teamcenter.</preference_description>
+      <context name="Teamcenter">
+        <value>both</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

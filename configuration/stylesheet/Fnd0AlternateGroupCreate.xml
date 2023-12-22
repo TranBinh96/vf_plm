@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright 2019.
+       Siemens Product Lifecycle Management Software Inc.
+       All Rights Reserved.
+===============================================================================
+
+    Filename: fnd0AlternateGroup.xml
+
+    Default style sheet for displaying Alternate Group poperties.
+ -->
+<rendering>
+    <page title="Alternate Group Information" titleKey="tc_xrt_General">
+        <section titleKey="tc_xrt_properties">
+          <property name="fnd0id"/>
+          <property name="object_name"/>
+          <property name="object_desc"/>
+          <property name="fnd0SourceItemList" renderingHint ="interchangeitemsbutton"/>
+          <property name="fnd0AlternateItemList" renderingHint ="interchangeitemsbutton"/>        
+        </section>
+    </page>
+</rendering>

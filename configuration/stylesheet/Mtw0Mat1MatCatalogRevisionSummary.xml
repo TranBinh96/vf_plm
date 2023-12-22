@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2012 Siemens PLM Software
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Mat1MatCatalogRevisionSummary.xml
+
+    Style sheet for displaying Catalog Revision summary from Material Management template.
+@<DEL>@
+=======================================================================
+Date         Name                    Description of Change
+$HISTORY$
+29-Nov-2016  Khaled Abda                 initial creation
+=======================================================================
+@<DEL>@
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name="item_id"/>
+                <property name = "item_revision_id"/>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+            </section>
+            <section titleKey = "tc_xrt_Mat1Materials" title = "Materials">
+                <objectSet source="mat1MaterialRevisions.Mat1MaterialRevision" defaultdisplay="tableDisplay" sortby="object_name" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_name"/>
+                        <property name="object_desc"/>
+                        <property name="release_status_list"/>
+                        <property name="mat1MatClassifications"/>
+                        <property name="mat1ExtendsMaterial"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+
+    <page titleKey="mtw0_xrt_parameterdescriptors" title="Parameter Descriptors">
+        <column>
+            <section titleKey = "mtw0_xrt_singleparameterdescriptors" title = "Parameter Descriptors">
+                <objectSet source="mat1MetaParameters.Mat1MetaSingleParameter" defaultdisplay="tableDisplay" sortby="object_name" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_name"/>
+                        <property name="mat1Category"/>
+                        <property name="mat1DataType"/>
+                        <property name="mat1UnitAliasName"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton"/>
+                </objectSet>
+            </section>
+            <section titleKey = "mtw0_xrt_smarttabledescriptors" title = "Smart Table Descriptors">
+                <objectSet source="mat1MetaParameters.Mat1MetaSmartTable" defaultdisplay="tableDisplay" sortby="object_name" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_name"/>
+                        <property name="mat1Category"/>
+                        <property name="mat1RealName"/>
+                        <property name="mat1XQualifier"/>
+                        <property name="mat1UnitXAliasName"/>
+                        <property name="mat1UnitYAliasName"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton"/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <page titleKey="mtw0_xrt_materialclasses" title="Material Classes">
+        <column>
+          <section titleKey = "mtw0_xrt_materialclasses" title = "Material Classes">
+                <objectSet source="mat1MatClassifications.Mat1MatClassification" defaultdisplay="tableDisplay" sortby="object_name" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_name"/>
+                        <property name="mat1ParentClassification"/>
+                        <property name="mat1RealName"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+</rendering>

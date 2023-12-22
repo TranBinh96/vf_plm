@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="FindCheckedOutColumnsShownWidthPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the width of the columns displayed in the dialog of the Find Checked Out Objects command, as defined by the FindCheckedOutColumnsShownPref preference.
+Valid Values:
+Accepts positive integers. The number of values should be the same as the number of values in the FindCheckedOutColumnsShownPref preference.</preference_description>
+      <context name="Teamcenter">
+        <value>22</value>
+        <value>18</value>
+        <value>22</value>
+        <value>18</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

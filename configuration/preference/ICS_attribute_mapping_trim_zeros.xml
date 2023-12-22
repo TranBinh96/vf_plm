@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_attribute_mapping_trim_zeros" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether, during attribute mapping between NX and Classification, leading and/or trailing zeros are stripped from Classification attribute values when they are sent to NX.
+Valid Values:
+keep - Does not change the Classification attribute value. For example, 001.3400 is transferred as 001.3400 to NX.
+leading - Leading zeros are stripped from the Classification attribute value. For example, 001.3400 is transferred as 1.3400 to NX.
+both - Leading and trailing zeros are stripped from the Classification attribute value. For example, 001.3400 is transferred as 1.34 to NX.</preference_description>
+      <context name="Teamcenter">
+        <value>keep</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

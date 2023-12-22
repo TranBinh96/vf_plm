@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ASYNC_connection_retry_interval" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the number of seconds to delay before retrying (in background mode) after a connection error.</preference_description>
+      <context name="Teamcenter">
+        <value>60</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

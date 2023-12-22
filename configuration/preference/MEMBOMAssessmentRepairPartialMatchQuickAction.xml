@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMBOMAssessmentRepairPartialMatchQuickAction" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the name of the default repair action that can be automatically set for &quot;Partial Match&quot; lines with a single candidate in the MBOM Assessment Repair view.
+If no action is specified, the checkbox for &quot;Partial Match&quot; lines will not appear in the view.
+The default value is &quot;Propagate&quot;.
+Valid names are the values of the Fnd0BOMRepairAction LOV.</preference_description>
+      <context name="Teamcenter">
+        <value>Propagate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

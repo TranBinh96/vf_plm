@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Variant Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PersistFullyExpandedSVR" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates the capture of all the values of a Variant Rule (which includes Default, Derived Default) when setting a Saved Variant Rule (creation or update).
+This is required if the Saved Variant Rule is used in Active Workspace BOM Indexing generation.
+Valid Values:
+* true: all values are captured.
+* false: only user set values are captured in a Saved Variant Rule during creation or update. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

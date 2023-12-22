@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPM_ARG_target_user_group_list_separator" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates what separator to user when a list of groups or users are returned. This preference is related to $TARGETGROUP/$TARGETOWNER keywords used in the handlers such as CR-fill-in-reviewers. Default value is &quot;,&quot;.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

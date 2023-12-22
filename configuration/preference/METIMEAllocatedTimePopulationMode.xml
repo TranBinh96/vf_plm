@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METIMEAllocatedTimePopulationMode" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies which mode is used in the Populate allocated time command in the Time pane.
+Valid Values:
+0 - Estimated time
+1 - Simulated time
+2 - Time analysis duration
+3 - Customized</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

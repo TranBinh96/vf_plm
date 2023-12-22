@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAccountabilityMarkBrokenLinksClosureRule" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the name of the closure rule used by the Mark Broken Links command in the Manufacturing Process Planner application. This command is used to find broken links in process structures. 
+Valid Values:
+Accepts a valid Teamcenter closure rule.</preference_description>
+      <context name="Teamcenter">
+        <value>MarkBrokenLinks</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Schedule Task's Affected Items in Revolution Client. -->
+<subRendering>
+<page titleKey="tc_xrt_AffectedItems" visibleWhen = "saw1IsScheduleChangePlanItem==true">
+        <section titleKey="tc_xrt_SolutionItems">
+            <label textKey="tc_xrt_SolutionItemsInfo"/>
+            <objectSet source="CMHasSolutionItem.ItemRevision,CMHasSolutionItem.Mdl0ModelElement,CMHasSolutionItem.Cfg0AbsConfiguratorWSO,CMHasSolutionItem.Bom0ConfigurableBomElement" defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="CMHasSolutionItem.cm0LineageGroupId"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="CMHasSolutionItem.cm0LineageGroupId"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_ImpactedItems">
+            <label textKey="tc_xrt_ImpactedItemsInfo"/>
+            <objectSet source="CMHasImpactedItem.ItemRevision,CMHasImpactedItem.Mdl0ModelElement,CMHasImpactedItem.Cfg0AbsConfiguratorWSO,CMHasImpactedItem.Bom0ConfigurableBomElement" defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="CMHasImpactedItem.cm0LineageGroupId"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                    <property name="CMHasImpactedItem.cm0Disposition"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="CMHasImpactedItem.cm0LineageGroupId"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_ProblemItems">
+            <label textKey="tc_xrt_ProblemItemsInfo"/>
+            <objectSet source="CMHasProblemItem.ItemRevision,CMHasProblemItem.Mdl0ModelElement,CMHasProblemItem.Cfg0AbsConfiguratorWSO,CMHasProblemItem.Bom0ConfigurableBomElement" defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            </objectSet>
+        </section>
+    </page>
+</subRendering>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWS_Discovery_FullTextSearch_FacetFilters_Occurrence" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the list of Occurrence notes and properties facet filters to be used during Smart Discovery search. The preference should contain facade object properties which are relevant for Smart Discovery search. The property with Awp0SearchCanFilter and Awp0SearchIsIndexed property constants are set to TRUE will be considered as a valid property.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

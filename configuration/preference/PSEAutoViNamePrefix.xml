@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEAutoViNamePrefix" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>If the PSEAutoViNewItemPopup preference is set to false, this preference defines the naming prefix scheme used for automatic variant item creation.
+Valid Values:
+Accepts a single string as a value. The value is used as the prefix of the automatically created variant item. For example, if you set this preference to VI_, when users create a generic item called Wheel, the name of the variant item is VI_Wheel.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

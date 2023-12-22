@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_AR_Excluded_Objs_Folder" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the name of the folder that contains objects of type &quot;Item&quot; that need to be excluded during the &quot;Archive&quot; operation.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

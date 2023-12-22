@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Site.xml
+
+    Style sheet rendering for Site properties.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General">
+        <property name="name" />
+        <separator/>
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>
+

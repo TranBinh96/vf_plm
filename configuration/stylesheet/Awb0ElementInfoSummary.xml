@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+==================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<rendering>
+    <header>
+        <property name = "awb0Name"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_Preview">
+            <image source = "thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_Properties">
+            <property name = "awb0Parent"/>
+            <property name = "awb0OccName"/>
+        </section>
+    </page>
+</rendering>

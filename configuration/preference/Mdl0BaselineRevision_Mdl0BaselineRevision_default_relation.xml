@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mdl0BaselineRevision_Mdl0BaselineRevision_default_relation" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default paste relation between Baseline revision and Baseline revision.</preference_description>
+      <context name="Teamcenter">
+        <value>Mdl0SupportingBaseline</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

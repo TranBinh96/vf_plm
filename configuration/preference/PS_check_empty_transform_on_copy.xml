@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_check_empty_transform_on_copy" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Influences the copy of an occurrence&apos;s position data, in the specific scenario where the occurrence to be copied has no position data (i.e. its relative transformation data field is empty) but position data does exist on one or more occurrences higher in the structure.
+Valid Values:
+- true: The system will check for position data on parent occurrences of the occurrence to be copied. If found, the occurrence will be treated as if it contained an identity matrix for its relative transformation field.
+- false: The system will not check any further for position data if the occurrence to be copied has no position data (i.e. empty relative transformation data field). This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

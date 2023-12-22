@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_dataset_vers_export" type="Logical" array="false" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Prevents a user from exporting all dataset versions (unless transferring site ownership) by disabling the Include All Versions button in the Import/Export Options dialog box. This role-based preference applies even when running command-line utilities such as the item_export or the data_share utility.
+Valid Values:
+Accepts the value FALSE. If set to any other value, the system ignores the preference setting.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

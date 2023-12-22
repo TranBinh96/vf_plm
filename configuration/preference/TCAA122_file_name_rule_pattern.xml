@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA122_file_name_rule_pattern" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible specify a custom file name pattern to be applied for file renaming.
+The value of this option is taken into consideration only if custom file renaming is enabled (i.e. TCAA_file_rename is set to 1 and TCAA_file_name_rule is set to 2).
+The file name pattern consists of any literal text string(s) combined with one or more of the following tokens: ${MFK}, ${Item.item_id}, ${Item.object_name}, ${Item.object_desc}, ${ItemRevision.object_name}, ${ItemRevision.object_desc} and ${OriginalFileName}.
+The file name pattern must not include the file extension.
+Example: ${OriginalFileName}-${Item.object_name}
+The default value of the preference is the empty string. In this case, the file name is retained as equal to the original file name.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

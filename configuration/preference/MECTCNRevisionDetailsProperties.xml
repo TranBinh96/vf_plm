@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECTCNRevisionDetailsProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of properties to be compared on revisions in a Change Notice folder when searching by Change Notice in the Change Tracker.
+If the values are different, the property is listed in the Change Tracker Details panel. In the Change Tracker Details panel, properties of child lines are also compared.
+Valid values are internal names of Item Revision properties.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_rev_object_name</value>
+        <value>bl_rev_object_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

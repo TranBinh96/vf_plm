@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_ifs_catalog_query_attr" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of attributes to use for a catalog import query.</preference_description>
+      <context name="Teamcenter">
+        <value>OEM_filePath</value>
+        <value>OEM_dlname</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

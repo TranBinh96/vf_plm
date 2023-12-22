@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_member_type_attr" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the LDAP group object attribute that contains the membership type (direct or indirect) for this object.
+Valid values:
+TRUE - Specifies indirect group membership. If this setting is used, the LDAP_member_list_attr preference must also be set.
+FALSE - Specifies direct group membership.</preference_description>
+      <context name="Teamcenter">
+        <value>%REPLACE_ME%</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

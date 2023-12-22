@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: S2clCommentaryCreate.xml
+
+    Style sheet rendering for S2clCommentaryCreate creation.
+=======================================================================
+-->
+
+<rendering>
+    <views>properties</views>
+
+    <page text="Comment Information">
+         <view name="properties">
+            <property name="object_name"/>
+            <property name="s2clCommentPlainText"/>
+            <property name="s2clCommentRichText"/>
+            <property name="s2clTargetObject"/>
+        </view>
+    </page>
+</rendering>

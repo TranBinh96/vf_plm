@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA117_saveasnewitem_preserve_bomlines_info" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls how the BVRs are initially created during save as new item operations. Up to TCAA 11.6, BVRs are created from scratch and then populated with the information coming from the assemblies being cloned. 
+Starting from TCAA 11.7, by default BVRs are initially copied from the original item revisions to the new items. The clone operation is then completed by adding, removing or modifying existing BOM lines, where required. In this way, all the attribute values for reused BOM lines (e.g. find numbers, custom attributes, etc.) are inherited from the original BVRs.
+For backward compatibility it is possible to restore the old behavior changing the value of this preference.
+Possible values:
+0 - BVRs are created from scratch
+1 - BVRs are copied from original item revision (Default)</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

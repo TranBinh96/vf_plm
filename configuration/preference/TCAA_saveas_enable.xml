@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA_saveas_enable" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls whether new items can be created in TCAA. If set to 0 all the commands that let the user to create new items in AutoCAD environment are disabled. PLM-oriented companies may have this option set to 0 in order to ensure that all items are created in Teamcenter environment.  
+Default Value: 1</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

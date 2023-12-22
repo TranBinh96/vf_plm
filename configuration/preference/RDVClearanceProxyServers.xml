@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Clearance Integration">
+    <category_description>Defines preferences for clearance proxies in a site</category_description>
+    
+               <preference name="RDVClearanceProxyServers" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the database connection used by the clearance proxy server to connect to the clearance database.
+Valid Values:
+DATASOURCE=System-running-clearanceDB-proxy:
+Port-for-clearanceDB-proxy-server:CONNECT_DATA=Oracle-connection-name:FILTER_NAME=blank
+An example value is cleardb:7206:CLDB:xyzFilter.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="DecisionApps.RelationBrowser">
+    <category_description>Preferences for Decision Apps Relation Browser.</category_description>
+    
+               <preference name="RV1_DARB_Expansion_timeout" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the time-out in seconds for network expansion in the Relation Browser server in the Active Workspace client.</preference_description>
+      <context name="Teamcenter">
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

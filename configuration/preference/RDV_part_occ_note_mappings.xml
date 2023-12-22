@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_part_occ_note_mappings" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies a multivalue property that contains the lists of values that prepopulate the notes displayed in the Enter Part Data step of the Add Part to Product wizard or the Replace Part in Product wizard. The note types are specified in RDV_auto_populate_occ_notes preference.
+Valid Values:
+Accepts one or more strings as values.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

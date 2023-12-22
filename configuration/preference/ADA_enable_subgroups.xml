@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ADA_enable_subgroups" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether selection of sub-groups is enabled when associating with ADA licenses. This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

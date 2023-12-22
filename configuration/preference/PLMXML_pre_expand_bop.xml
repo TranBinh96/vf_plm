@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PLMXML_pre_expand_bop" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if the pre-expand functionality is run prior to a PLMXML expand operation.
+If the value of the PLMXML_pre_expand_max_line_limit preference is 0 and this preference value is true, the pre-expansion will happen (the PLMXML_pre_expand_batch_size preference will be set to its maximum value and the value of the PLMXML_pre_expand_max_line_limit preference will be disregarded).</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright 2012 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+===============================================================================
+
+Filename: S2clUserSummary.xml
+
+10/31/2012      Initial Release
+
+Default style sheet for displaying user summary.
+
+-->
+<rendering>
+	<header>
+		<property name = "s2clTagName"/>
+	</header>
+
+	<page titleKey = "tc_xrt_Summary" format = "TwoColumn">
+		<firstcolumn>
+			<section titleKey = "tc_xrt_TagInformation">
+				<property name = "s2clTagName"/>
+			</section>
+		</firstcolumn>
+		<secondcolumn>
+			<section titleKey = "tc_xrt_TagFollowedBy">
+				<objectSet source = "s2clSubscribersFromSummary.User" sortdirection = "descending" sortby = "user_name" defaultdisplay = "listDisplay">
+					<tableDisplay>
+						<property name = "user_name"/>
+						<property name = "login_group"/>
+					</tableDisplay>
+					<thumbnailDisplay/>
+					<treeDisplay>
+						<property name = "user_name"/>
+						<property name = "login_group"/>
+					</treeDisplay>
+					<listDisplay/>
+
+					<command actionKey = "newBusinessObjectContextualAction" commandId = "com.siemens.splm.client.social.manualUnFollow" renderingHint = "commandbutton"/>
+				</objectSet>
+			</section>
+		</secondcolumn>
+	</page>
+</rendering>

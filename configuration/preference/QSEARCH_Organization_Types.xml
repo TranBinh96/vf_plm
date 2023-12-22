@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QSEARCH_Organization_Types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of Item types that are considered as organization types while generating qsearch indexes.
+Valid values are any valid Item types.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="deploy_absolute_path" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the file path to the folder specified in the publish_to_file_system_loc preference for published content. This path is platform-specific.
+Specifies the file path to the folder specified in the publish_to_file_system_loc preference for published content. This path is platform-specific.
+Valid Values:
+Accepts a single string as value. If publishing for a Web server distribution, this must be the valid path to the distribution Web application autodeploy publish directory. This must be a path available to the dispatcher publish module host. It can be a UNC path or a local directory path.
+The UNC path can also be used to specify a shared directory on a different computer for this preference. You can use a forward slash (/) or backward slash (\) when specifying path names for both Windows and UNIX.
+Examples:
+deploy_absolute_path=//hostname/shared-directory/CMPublishTest
+deploy_absolute_path=\\hostname\shared-directory\CMPublishTest
+For a local directory example, a valid value is:
+C:\bea\user_projects\domains\YourWebApp_domain\autodeploy\publish</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="VES_General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VES_ECM_APPROVAL" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VES ECM assignment list</preference_description>
+      <context name="Teamcenter">
+        <value>Cell Gen 1/1.5;Cell=VES_ECM_Release_Cell</value>
+        <value>Cell Gen 1/1.5;CEL_SPEC_DOC=VES_ECM_CEL_SPEC_DOC</value>
+        <value>Cell Gen 1.6;Cell=VES_ECM_Release_Cell</value>
+        <value>Cell Gen 1.6;CEL_SPEC_DOC=VES_ECM_CEL_SPEC_DOC</value>
+        <value>Cell Gen 1.8;Cell=VES_ECM_Release_Cell</value>
+        <value>Cell Gen 1.8;CEL_SPEC_DOC=VES_ECM_CEL_SPEC_DOC</value>
+        <value>Cell Gen 2;Cell=VES_ECM_Release_Cell</value>
+        <value>Cell Gen 2;CEL_SPEC_DOC=VES_ECM_CEL_SPEC_DOC</value>
+        <value>Cell Gen 5.1_Prismatic;Cell=VES_ECM_Release_Cell</value>
+        <value>Cell Gen 5.1_Prismatic;CEL_SPEC_DOC=VES_ECM_CEL_SPEC_DOC</value>
+        <value>Cell Gen 5.2_Prismatic;Cell=VES_ECM_Release_Cell</value>
+        <value>Cell Gen 5.2_Prismatic;CEL_SPEC_DOC=VES_ECM_CEL_SPEC_DOC</value>
+        <value>Cell Gen 6;Cell=VES_ECM_Release_Cell</value>
+        <value>Cell Gen 6;CEL_SPEC_DOC=VES_ECM_CEL_SPEC_DOC</value>
+        <value>Cell Gen PT_Cylindrical;Cell=VES_ECM_Release_Cell</value>
+        <value>Cell Gen PT_Cylindrical;CEL_SPEC_DOC=VES_ECM_CEL_SPEC_DOC</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

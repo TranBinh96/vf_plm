@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AbsOccGrmSecondaryCopyRules" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines system behavior when revising a context BOM view revision (BVR) that is copying absolute occurrence General Relationship Management (GRM) relation overrides forward to the new item revision.
+Use this preference to specify a reverse lookup for absolute occurrence GRM relation overrides by identifying the class of the GRM relation, the class of the primary object, the relation type, and the action taken during the revision.An assembly with trace links to absolute occurrence objects is required to test this preference. When adding new values (copy rules) to this preference, verify the rule by revising an item revision object related to the trace link at least once. Then, check the syslog file to verify no errors are thrown while reading the preference.
+Valid Values:
+Accepts multiple strings as values. Strings are case sensitive and trailing blanks are not allowed. Each string is a concatenation of class, relation, and action values that
+must be in the following format:
+class-name-1:class.AbsOccData:Relation:relation-type:action
+
+class-name-1 - Specifies the class of the primary object, for example, class.ItemRevision.
+class.AbsOccData - Specifies the class of the secondary object. This class name must always be class.AbsOccData.
+Relation - The relation must always be Relation. All other types are ignored.
+relation-type - Specifies the relation type used when applying the action. It must be a valid relation type.
+action - Specifies the action that is performed on the primary object. It must be one of the following values:
+Ignore - The GRM relation is not copied to the new BOM view revision.
+Reference - Creates a new GRM relation that points to the same primary object that was defined on the original absolute occurrence GRM relation object.
+Note:
+The following rule example reflects the default COTS behavior for the carry forward of trace links on item revision objects to the latest revision.
+*:class.AbsOccData:Relation.FND_Tracelink:Reference</preference_description>
+      <context name="Teamcenter">
+        <value>*:class.AbsOccData:Relation.FND_TraceLink:Reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

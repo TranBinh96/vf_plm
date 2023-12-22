@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEAutoViNewItemPopup" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether users are prompted for an item identifier, item revision identifier and item name each time the automatic creation process creates a variant item.
+Valid Values:
+true - Users are prompted for this information each time a variant item is created via the Item Creation dialog box.
+false - The system automatically assigns values according to predefined numbering and naming schemes. For example, if you have a generic item called 00100/A Generic Wheel, Teamcenter creates a generic item called 00200/A VI_Generic Wheel.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

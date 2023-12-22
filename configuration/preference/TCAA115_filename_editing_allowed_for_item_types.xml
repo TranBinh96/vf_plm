@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA115_filename_editing_allowed_for_item_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>through this option it is possible configure the list of item types for which the user is allowed to edit the file name during first save and save as new item.
+This preference is taken into consideration only when TCAI115_filename_editing_mode is set to 2.
+Possible values (multiple values): each value corresponds to an item type name (or pattern).</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

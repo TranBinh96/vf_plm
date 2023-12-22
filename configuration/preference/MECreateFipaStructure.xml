@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECreateFipaStructure" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the type of &quot;Filtered In Process Assembly&quot; structure to be created in a Process structure.
+Valid values are &quot;Nested&quot; (default) and &quot;Flat&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Nested</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

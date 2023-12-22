@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Maintenance.Subscription Monitor">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_subscription_available_subscription_handlers" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of Action Handlers that the user can select when creating a Subscription object from a client.
+If the handler does not appear in this list, the user cannot select it as part of a Subscription.
+Valid values are the IDs of the handlers.
+If no handlers are specified, the handler &quot;IMAN_Smtp_Mail_Notify&quot; will be used by default. This handler will always be included even if it is not present in the list.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_Smtp_Mail_Notify</value>
+        <value>vf_generic_handler</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

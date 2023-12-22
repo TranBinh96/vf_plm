@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ================================================
+// Copyright 2020.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Bill of material Info Panel in Active Workspace Client. -->
+<rendering>
+  <header>
+    <property name="object_string"/>
+  </header>
+  <page titleKey="tc_xrt_Summary" visibleWhen="mtw0Material!=null">
+    <section titleKey="tc_xrt_Preview">
+      <image source="thumbnail"/>
+    </section>
+    <section titleKey="Material" >
+      <property name="mtw0Material"  />
+      <property name="mtw0MaterialMassInGram"/>
+      <property name="mtw0MaterialComposition"/>
+    </section>
+  </page>
+  <page titleKey="tc_xrt_Summary" visibleWhen="mtw0Substance!=null">
+    <section titleKey="tc_xrt_Preview">
+      <image source="thumbnail"/>
+    </section>
+    <section titleKey="Substance" >
+      <property name="mtw0Substance"/>
+      <property name="REF(mtw0Substance,Mat1Substance).mat1cas_number"/>
+      <property name="mtw0SubstanceMassInGram"/>
+      <property name="mtw0SubstanceComposition"/>
+    </section>
+  </page>
+  <page titleKey="mtw0_xrt_Partsection">
+    <objectSet source="mtw0Parts.ItemRevision" defaultdisplay="listDisplay">
+      <listDisplay>
+        <property name="item_id"/>
+        <property name="object_name"/>
+        <property name="object_desc"/>
+      </listDisplay>
+    </objectSet>
+  </page>
+</rendering>

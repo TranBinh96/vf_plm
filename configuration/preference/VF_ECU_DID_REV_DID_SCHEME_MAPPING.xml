@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_ECU_DID_REV_DID_SCHEME_MAPPING" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>ECU DSA Mapping</preference_description>
+      <context name="Teamcenter">
+        <value>PURCHASE;0xF103;0xF143</value>
+        <value>HW;0xF191;0xF141</value>
+        <value>SW;0xF188;0xF148</value>
+        <value>SW_APP;0xF104;0xF144</value>
+        <value>SW_BASIC;0xF105;0xF145</value>
+        <value>CAL;0xF102;0xF142</value>
+        <value>CAL2;NA;NA</value>
+        <value>HMI;0xF106;0xF146</value>
+        <value>TBOX;0xF16F;0xF149</value>
+        <value>FONT;0xF109;0xF149</value>
+        <value>SW2-10;0xF198;0xF158</value>
+        <value>FDRV;NA;NA</value>
+        <value>XML;NA;NA</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_shapeProperties_form" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>form type to use to contain active shapes representations names</preference_description>
+      <context name="Teamcenter">
+        <value>catia_shapeProperties</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

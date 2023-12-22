@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WsoInsertSelectionsPref" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>When a new object is created, which folders/objects should have a reference to it. Valid values are 1/3/4.
+1 - All selected Folders.
+3 - Newstuff folder.
+4 - None (place in database, but with no references to it).</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

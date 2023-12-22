@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+
+<!--
+=======================================================================
+    Filename: Sci0Mat1SubstanceSummary.xml
+
+    Style sheet for displaying Mat1Substance summary from Material Management template.
+=======================================================================
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_desc"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey = "tc_xrt_Overview" title = "Overview">
+          <column>
+              <section titleKey = "tc_xrt_properties" title = "Properties">
+                  <property name="object_name" modifiable="false"/>
+                  <property name="object_desc" modifiable="false"/>
+                  <property name="mat1cas_number" modifiable="false"/>
+                  <property name="mat1unique_identifier" modifiable="false"/>
+                  <property name="mat1external_identifier" modifiable="false"/>
+                  <property name="mat1is_wildcard" modifiable="false"/>
+                  <property name="mat1IsInActive" modifiable="false"/>
+                  <separator/>
+                  <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                  <property name="owning_site" renderingHint="objectlink" modifiable="false"/>
+                  <property name="checked_out" modifiable="false"/>
+                  <property name="checked_out_user" renderingHint="objectlink" modifiable="false"/>
+                  <separator/>
+                  <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+              </section>
+          </column>
+          <column>
+               <section titleKey="tc_xrt_Preview">
+                   <image source="preview"/>
+               </section>
+               <section titleKey="tc_xrt_actions">
+                    <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" />
+               </section>
+          </column>
+    </page>
+    <page titleKey = "tc_xrt_AuditLogs" title = "Audit Logs" visibleWhen="{pref:TC_audit_manager_version}==3">
+        <command titleKey="tc_xrt_ExportToExcel"  actionKey="exportExcelAction" commandId = "com.teamcenter.rac.exportAuditSummaryToExcel" renderingHint="commandbutton"/>
+        <command titleKey="tc_xrt_ExportToCSV" actionKey="exportCSVAction" commandId = "com.teamcenter.rac.exportAuditSummaryToCSV" renderingHint="commandbutton"/>
+        <section titleKey = "tc_xrt_GeneralLogs" title = "General Logs" initialstate="collapsed">
+            <customPanel java="com.teamcenter.rac.auditmanager.CheckoutHistoyLinkPanel"/>
+            <objectSet source="fnd0GeneralAuditLogs.Fnd0GeneralAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="object_type"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="object_name"/>
+                    <property name="fnd0PrimaryObjectID"/>
+                    <property name="fnd0PrimaryObjectRevID"/>
+                    <property name="fnd0UserId"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>
+                    <property name="sequence_id"/>
+                    <property name="fnd0ChangeID"/>
+                    <property name="fnd0Reason"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </page>
+    <page title="IMDS Integration" titleKey = "tc_xrt_sci0IMDSIntegration" >
+        <column>
+        <section title="IMDS Properties" titleKey="tc_xrt_IMDS">
+            <property name="mat1cas_number" />
+            <property name="mat1external_identifier" /> 
+            <property name="mat1unique_identifier" />
+            <property name="mat1IsInActive" />        
+            <property name="sci0Duty_To_Declare" />
+            <property name="sci0IsDeleted" />
+            <property name="sci0IsHidden" />
+            <property name="sci0IsReach" />
+            <property name="sci0IsUnwanted" />
+            <property name="sci0NodeId" />
+            <property name="sci0ObjectNameOverflow" />
+            <property name="sci0SubstanceGroup" />
+            <property name="scp0parent_material" />
+        </section>
+        </column>    
+    </page>    
+</rendering>

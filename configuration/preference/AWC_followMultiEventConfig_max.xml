@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_followMultiEventConfig_max" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maximum number of events to be configured for batch subscription creation in Active Workspace. Valid value is number greater than 1. Default value is 5.</preference_description>
+      <context name="Teamcenter">
+        <value>5</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

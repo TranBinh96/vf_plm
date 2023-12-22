@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Civ0SNSRootNodeRevision_Civ0InfoCode_default_relation" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>When a relation is created between Civ0SNSRootNode and Civ0InfoCode using paste, use the relation Civ0SNSRootNodeInfoCodeR</preference_description>
+      <context name="Teamcenter">
+        <value>Civ0SNSRootNodeInfoCodeR</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

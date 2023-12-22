@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Workspace Object Info Panel in Revolution Client. -->
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="object_type"/>
+            <property name="release_status_list" renderingHint="label"/>
+            <property name="date_released" renderingHint="label"/>
+            <property name="effectivity_text" renderingHint="label"/>
+			<break/>
+			<property name="vl5_material_type"/>
+			<property name="vf4_q_checker"/>
+			<property name="vf4_long_short_lead"/>
+			<property name="vl5_make_buy"/>
+			<property name="vf4_sor_number_rev"/> 
+			<property name="vf4_sor_name"/> 
+			<property name="vf4_sor_rel_date"/> 
+			<property name="vf4_donor_veh"/>
+			<property name="vf4_cuv_veh_type"/>
+			<property name="vf4_ebus_veh_type"/>
+			<property name="vf4_cuv_mule_veh_type"/>
+			<property name="vf4_multi_purchase_veh_type"/>
+			<property name="vf4_supplier_type"/>
+            <break/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_date"/>
+            <property name="last_mod_user"/>
+            <property name="checked_out" renderingHint="label"/>
+            <property name="checked_out_user"/>
+        </section>
+    </page>
+</rendering>

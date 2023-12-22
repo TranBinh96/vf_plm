@@ -1,0 +1,11 @@
+<subRendering>
+  <content visibleWhen="{pref:ICS_classifiable_types}=={prop:object_type}"> 
+  <page titleKey="tc_xrt_ClassificationInformation" visibleWhen="ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation" title="Classification">
+        <column>
+            <section>
+               <inject type="dataset" src="Ics1ClassificationTabViewer" module="js/aw-include.directive"/>
+            </section>
+        </column>
+    </page>
+  </content>
+</subRendering>

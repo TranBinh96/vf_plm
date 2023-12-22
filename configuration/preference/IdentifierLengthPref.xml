@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Business Modeler">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IdentifierLengthPref" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Restricts the maximum length of the ID Context Name in the object_str property of an identifier.
+Valid Values:
+Accepts a single string as a value. Must be a positive integer. The maximum value is 240. (The maximum length of the ID Context Name is 32 characters.)</preference_description>
+      <context name="Teamcenter">
+        <value>7</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

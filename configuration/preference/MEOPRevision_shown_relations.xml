@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEOPRevision_shown_relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relations to show when expanding MEOPRevision.</preference_description>
+      <context name="Teamcenter">
+        <value>PSBOMViewRevision</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_reference</value>
+        <value>IMAN_Rendering</value>
+        <value>IMAN_MEOutput</value>
+        <value>IMAN_MEMfgModel</value>
+        <value>IMAN_METarget</value>
+        <value>IMAN_MEWorkArea</value>
+        <value>IMAN_3D_snap_shot</value>
+        <value>TC_Attaches</value>
+        <value>ProcessSimulate_Details</value>
+        <value>METimeAnalysisRelation</value>
+        <value>KinematicsRelation</value>
+        <value>VisItemRevCreatedSnapshot2D</value>
+        <value>Mes0MEWIPreviewRelation</value>
+        <value>Mes0MEWIAssetsRelation</value>
+        <value>Mes0PDFReportRel</value>
+        <value>Mes0PDFInputsRel</value>
+        <value>Mei0WIMESRepresentationRel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

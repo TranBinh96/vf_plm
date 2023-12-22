@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.ODBC Driver">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_ODBC_release_status" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This file can be found in the /vobs/src/tc/data/teamcenter_env_wnt.default directory.This is a file that the tc_preferences.xml preference file links to for a Windows-only application. Before starting the application, set the option to ALL or LATEST to retrieve 
+either all the release statuses or the latest release status in the list, respectively.There is a new preference file in the \vobs\src\tc\data_odbc_exclude_tcbomlist directory. Before starting the application, move the columns you do not want to see in the BOM table in this file.
+The format of the file is as follows:
+EXCLUDED_LIST_START
+bl_formatted_title
+bl_indended_title
+#bl_line_name
+#bl_config_string
+#bl_variant_state
+Each line contains the name of a column (a BOM property). Remove the comment symbol (#) to add the name. Add the query criteria Parent_Item_Rev_Id like xxx after specifying the Parent_Item_Id criteria, using the standard query interface in the application.The WhereUsed table in the table list, has six column attributes for a user to report. The columns are:
+Child_Item_Id
+Child_Item_Rev_Id
+level_of_search
+item_id
+item_rev_id
+object_name
+Add Child_Item_Id criteria and after that, add Child_Item_Rev_Id criteria, using the standard query interface in the application.
+Valid Values:
+ALL - Outputs all in the release status list.
+LATEST - Outputs the latest one in the release status list.</preference_description>
+      <context name="Teamcenter">
+        <value>LATEST</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MPP_InContextIDCandidateSearchCriteria" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains a stored criterion used for searching candidates in Repair Broken Link dialog. The values are property names and options.</preference_description>
+      <context name="Teamcenter">
+        <value>Mandatory.bl_item_item_id</value>
+        <value>Mandatory.bl_abs_occ_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

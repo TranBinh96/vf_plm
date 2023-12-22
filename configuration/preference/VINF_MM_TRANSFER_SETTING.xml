@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_MM_TRANSFER_SETTING" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>User config mm transfer
+Syntac: Program;Purchase Level;Plant Form;AL
+Note: Program &lt;= Donor Vehicle</preference_description>
+      <context name="Teamcenter">
+        <value>Make;H,S,D==Buy;P,BL,DPT,DPS,S,D</value>
+        <value>Ebus10;P,DPT,DPS,BL;3092-F;</value>
+        <value>Ebus12;P,DPT,DPS,BL;3092-F;</value>
+        <value>SnS;DPT,DPS,BL;3001-F;</value>
+        <value>SnS;P;;VFAL_MM_TRANSFER_UNKNOWN_PLANT</value>
+        <value>VF31;DPT,DPS,BL;3001-F;</value>
+        <value>VF31;P;;VFAL_MM_TRANSFER_UNKNOWN_PLANT_VFe34</value>
+        <value>VF32;DPT,DPS,BL;3001-F;</value>
+        <value>VF32;P;;VFAL_MM_TRANSFER_UNKNOWN_PLANT_VFe35</value>
+        <value>VF33;DPT,DPS,BL;3001-F;</value>
+        <value>VF33;P;;VFAL_MM_TRANSFER_UNKNOWN_PLANT_VFe36</value>
+        <value>VFe32;DPT,DPS,BL;3001-F;</value>
+        <value>VFe32;P;;VFAL_MM_TRANSFER_UNKNOWN_PLANT_VFe32</value>
+        <value>VFe33;DPT,DPS,BL;3001-F;</value>
+        <value>VFe33;P;;VFAL_MM_TRANSFER_UNKNOWN_PLANT_VFe33</value>
+        <value>VFe34NG;DPT,DPS,BL;3001-F;</value>
+        <value>VFe34NG;P;;VFAL_MM_TRANSFER_UNKNOWN_PLANT_VFe34NG</value>
+        <value>3IN1;DPT,DPS,BL;3001-F;</value>
+        <value>3IN1;P;;VFAL_MM_TRANSFER_UNKNOWN_PLANT_VFe3N1</value>
+        <value>Emotor;P,DPT,DPS,BL;3096-F;</value>
+        <value>AFS;P,DPT,DPS,BL,S,D,I;4002-F,4005-F;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

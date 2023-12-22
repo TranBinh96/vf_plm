@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_msd_exemption_validation_regulation_list" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of regulations which are considered for exemption validation.
+Valid values are in the format &quot;RegulationName:RegulationVersion&quot;. 
+If no value is specified, the exemption validation fails.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

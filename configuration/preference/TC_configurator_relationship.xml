@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_configurator_relationship" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relationship used to navigate from an application model (for example, a collaborative design) to a related item revision. Teamcenter uses this relationship to derive information about the relevant product name (item ID) and product namespace (item revision ID) from the item revision. It uses this information to initialize the internal effectivity configurator.If you use an external configurator, Teamcenter associates an Effectivity In Model object with the application model and it is not necessary to set this preference.
+Valid Values:
+The name of any valid relation between an Application Model and an Item Revision that represents a Variant Configurator context.</preference_description>
+      <context name="Teamcenter">
+        <value>Mdl0HasConfiguratorContext</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

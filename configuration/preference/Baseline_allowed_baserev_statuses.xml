@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Baseline_allowed_baserev_statuses" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which status types permit a baseline to be performed on an item revision. For example, if you set this preference with Design Approved and QA Approved statuses, but not Released status, users could create baselines from item revisions which had received design and QA approval status, but they could not create baselines for released item revisions.
+If no status types are defined, baselines cannot be created for any item revisions that have been granted any status.
+When doing smart baseline, revisions with the status in the preference will be reused. If precise baseline is enabled, the assembly will be changed from imprecise to precise. 
+Valid Values:
+Valid Teamcenter status types.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

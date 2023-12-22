@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_windows_autonomy_server" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether the Autonomy server is installed on a Windows platform.
+Valid Values:
+true - The Autonomy server is installed on a Windows platform.
+false - The Autonomy server is not installed on a Windows platform.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

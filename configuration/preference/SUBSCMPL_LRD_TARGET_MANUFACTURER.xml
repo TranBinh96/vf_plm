@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_LRD_TARGET_MANUFACTURER" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the name and input attribute count (delimited by a colon (:)) of the query that Teamcenter uses to search for a manufacturer when importing a lab report declaration (LRD).
+Default value: 
+Substance Compliance LRD - Get Manufacturer:2
+Parameters: 
+ID and Type</preference_description>
+      <context name="Teamcenter">
+        <value>Substance Compliance LRD - Get Manufacturer:2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

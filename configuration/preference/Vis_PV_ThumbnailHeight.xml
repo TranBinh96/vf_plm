@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ProductView">
+    <category_description>
+      Preferences affecting the behavior of Product views
+</category_description>
+    
+               <preference name="Vis_PV_ThumbnailHeight" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the height in pixels of thumbnails created for Product view in the Lifecycle Visualization application.
+Valid values are positive integer from 1 to 1040.</preference_description>
+      <context name="Teamcenter">
+        <value>80</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

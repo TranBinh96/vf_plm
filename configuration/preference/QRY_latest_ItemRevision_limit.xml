@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QRY_latest_ItemRevision_limit" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls the maximum number of objects that can be loaded for Revision check to retrieve the latest Item Revision of the search results.
+The default value is 3000.
+If defined too large, more memory is required to load all objects and process the Revision check.</preference_description>
+      <context name="Teamcenter">
+        <value>50000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

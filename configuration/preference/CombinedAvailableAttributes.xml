@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="CombinedAvailableAttributes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of common Schedule and Schedule Task object attributes displayed in the Column Chooser dialog box of the Schedule Manager application when a Program View is opened.
+Valid Values:
+Combined.object_desc - Displays object description in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+Combined.start_date - Displays start date in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+Combined.finish_date - Displays finish date in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+Combined.fnd0status - Displays status in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+Combined.priority - Displays priority in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.</preference_description>
+      <context name="Teamcenter">
+        <value>Combined.object_desc</value>
+        <value>Combined.start_date</value>
+        <value>Combined.finish_date</value>
+        <value>Combined.fnd0status</value>
+        <value>Combined.priority</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

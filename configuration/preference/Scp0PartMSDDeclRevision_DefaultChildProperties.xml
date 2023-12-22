@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="Scp0PartMSDDeclRevision_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be used as child properties of the Scp0PartMSDDeclRevision object type.
+
+The format of the preference follows: 
+&lt;TypeName&gt;_DefaultChildProperties=my_property. 
+
+The following child properties are available OOTB:
+IMAN_reference
+Mat1UsesMaterial
+Scp0UsesSubstanceCategory
+Scp0AbstractDeclResponse
+Scp0PartToSubsCmplResult
+Scp0SubsCmplDocs
+Scp0UsesExemption
+Scp0BOMSnapshot</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_reference</value>
+        <value>Mat1UsesMaterial</value>
+        <value>Scp0UsesSubstanceCategory</value>
+        <value>Scp0AbstractDeclResponse</value>
+        <value>Scp0PartToSubsCmplResult</value>
+        <value>Scp0SubsCmplDocs</value>
+        <value>Scp0UsesExemption</value>
+        <value>Scp0BOMSnapshot</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

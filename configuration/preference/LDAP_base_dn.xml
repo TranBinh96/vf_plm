@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_base_dn" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the distinguished name (DN) of the top-level entry under which all user entries to be checked are defined. Use this preference to limit which part of the LDAP directory the synchronization tool examines when searching for Teamcenter users. This functionality can also be used to partition users within a single LDAP database across several Teamcenter installations.If a site does not have this degree of organization in its LDAP directory, this value should be set to the lowest level in the directory that would encompass all of the Engineering users.
+Following is an example of how a high-level value might appear:dc=ugs,dc=com
+A more specific entry would look as follows:ou=Engineering Users,ou=special users,dc=ugs,dc=com
+Valid values:
+Accepts one or more strings as a value. Must be a valid LDAP directory name.</preference_description>
+      <context name="Teamcenter">
+        <value>ou=Engineering Users,ou=special users,dc=ugs,dc=com</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

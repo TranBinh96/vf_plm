@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalPSEColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of Structure Manager columns displayed from left-to-right. To display the Explore Checked Out property, add the bl_rev_expl_checkout value to this list. Depending on your system configuration, you may also have to set the PSEDisplayNameWithTypeColumnsShownPref preference.
+Valid Values:
+Accepts multiple strings as values. It must be a valid BOM line property.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_indented_title</value>
+        <value>bl_occurrence_uid</value>
+        <value>bl_item_object_type</value>
+        <value>bl_config_string</value>
+        <value>bl_rev_release_status_list</value>
+        <value>bl_sequence_no</value>
+        <value>bl_part_source</value>
+        <value>bl_uom</value>
+        <value>bl_ref_designator</value>
+        <value>bl_all_notes</value>
+        <value>bl_variant_state</value>
+        <value>bl_rev_has_variants</value>
+        <value>bl_variant_condition</value>
+        <value>bl_is_occ_configured</value>
+        <value>bl_has_date_effectivity</value>
+        <value>bl_rev_checked_out</value>
+        <value>fnd0bl_has_active_markup</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

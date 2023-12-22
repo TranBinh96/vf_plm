@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.eIntegrator">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EINT_max_num_rows" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the number of external data rows results after performing an SQL query before asking for user confirmation.
+Valid Values:
+Single, positive integer.</preference_description>
+      <context name="Teamcenter">
+        <value>30</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

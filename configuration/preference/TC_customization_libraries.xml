@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_customization_libraries" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the name of custom libraries to be loaded, so that the custom extensions defined in the library can be 
+executed. The preference values should match the library name.</preference_description>
+      <context name="Teamcenter">
+        <value>libcatia_tc_custom</value>
+        <value>IC_VinFast_Custom</value>
+        <value>libt4ea</value>
+        <value>libt4x_query</value>
+        <value>Schedule_Post</value>
+        <value>Vinfast_Update_Schedule</value>
+        <value>libSc0suppliercollaboration</value>
+        <value>CapaServices</value>
+        <value>VF_custom</value>
+        <value>VF_Runtime_Custom</value>
+        <value>VF_handlers</value>
+        <value>SCP_Namming_Pattern_Check</value>
+        <value>libAwb0entcba</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

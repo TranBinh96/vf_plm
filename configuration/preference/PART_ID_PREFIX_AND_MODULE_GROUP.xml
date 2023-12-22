@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PART_ID_PREFIX_AND_MODULE_GROUP" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>PART_ID_PREFIX_AND_MODULE_GROUP</preference_description>
+      <context name="Teamcenter">
+        <value>BEX=EXTERIOR</value>
+        <value>INT=INTERIOR</value>
+        <value>BIW=BODY_IN_WHITE</value>
+        <value>CHS=CHASSIS</value>
+        <value>PWT=POWERTRAIN</value>
+        <value>EEP=ELECTRIC_ELECTRONICS</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

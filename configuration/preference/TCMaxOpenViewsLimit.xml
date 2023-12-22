@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCMaxOpenViewsLimit" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the maximum number of views that can be opened at a time in Teamcenter Rich Application Client.
+The default value is 30, which shall be the maximum. Increasing the default limit would result in memory over-consumption, which can result in Teamcenter closing automatically.</preference_description>
+      <context name="Teamcenter">
+        <value>30</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_UI_SmartNavigator_Pagination_Enabled" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates if pagination is enabled inside the Smart Navigator tree.
+The default value for this Site preference is false.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

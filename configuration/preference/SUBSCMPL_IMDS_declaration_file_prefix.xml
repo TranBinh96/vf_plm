@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="SUBSCMPL_IMDS_declaration_file_prefix" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the International Material Data Sheet (IMDS) file identifier.
+The default value is &quot;CMSDAILY_&quot;, which means that all files starting with the mentioned (CMSDAILY_*.*) are picked up for processing.</preference_description>
+      <context name="Teamcenter">
+        <value>CMSDAILY_</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

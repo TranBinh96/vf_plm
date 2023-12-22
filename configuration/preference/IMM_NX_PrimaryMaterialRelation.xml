@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_NX_PrimaryMaterialRelation" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the relation to be used to attach the material revision to the part revision when saving from NX back to TC.
+The default value is &quot;Mat1UsesMaterial&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Mat1UsesMaterial</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.DIS Adapter">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VMU_Datasets" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of Datasets that can be directly launched in VisMockup by performing &quot;File-&gt;Open In VMU&quot; in the Teamcenter Rich Client. If a site wishes to open PDF, Tiff etc type of data in VisMockup, then the DatasetTypes used to manage these files, would need to be added to this list. Web Note: In Teamcenter Thin Client, the corresponding syntax is the Dataset&apos;s &quot;View&quot; link.</preference_description>
+      <context name="Teamcenter">
+        <value>DirectModel</value>
+        <value>DirectModelMarkup</value>
+        <value>DirectModelSession</value>
+        <value>DrawingSheet</value>
+        <value>Image</value>
+        <value>Markup</value>
+        <value>DirectModelAssembly</value>
+        <value>DirectModel3DMarkup</value>
+        <value>VSAProcessDoc</value>
+        <value>VSAMeasurementDoc</value>
+        <value>DirectModelFlowChart</value>
+        <value>DirectModelAnimation</value>
+        <value>DirectModelIllustrationBook</value>
+        <value>DirectModelIllustrationSheet</value>
+        <value>VisJackEnvironment</value>
+        <value>VisJackFigure</value>
+        <value>VisJackPsurf</value>
+        <value>VisJackPosture</value>
+        <value>Nastran</value>
+        <value>VisPublishTechnicalPortfolio</value>
+        <value>VisPublishTechnicalIllustration</value>
+        <value>VisPublishGeometryAsset</value>
+        <value>VisPublishVisioTemplate</value>
+        <value>VisPublishVisioStencil</value>
+        <value>PADImage</value>
+        <value>PADReport</value>
+        <value>ClearanceResults</value>
+        <value>ClearanceDBReport</value>
+        <value>ClearanceResultsFilter</value>
+        <value>ClearanceDBConnection</value>
+        <value>Zone</value>
+        <value>VisQualityCluster</value>
+        <value>VisMovieCapture</value>
+        <value>SnapShotViewData</value>
+        <value>JtSimplification</value>
+        <value>PCBFATF</value>
+        <value>SCHFATF</value>
+        <value>PCBMarkup</value>
+        <value>ECADDFX</value>
+        <value>Vis_Session</value>
+        <value>Text</value>
+        <value>DirectModelMotion</value>
+        <value>PortfolioHFT</value>
+        <value>JPEG</value>
+        <value>GIF</value>
+        <value>TIF</value>
+        <value>Bitmap</value>
+        <value>Vis_Snapshot_2D_View_Data</value>
+        <value>PDF</value>
+        <value>HPGL</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

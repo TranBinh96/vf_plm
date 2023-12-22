@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+=======================================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Sci0Mat1UsesMaterial.xml
+
+    Style sheet rendering for Mat1UsesMaterial relation properties.
+
+
+-->
+
+<rendering>
+  <page title="General" titleKey="General" >
+    <property name="primary_object"/>
+    <property name="secondary_object"/>
+    <property name="relation_type"/>
+    <property name="user_data"/>
+    <property name="owning_site"/>
+    <property name="mat1active_in_external_tool"/>
+    <property name="mat1mass"/>
+    <property name="mat1uom_tag"/>
+    <property name="mat1external_import"/>
+    <property name="mat1is_preferred"/>
+    <separator/>
+    <property name="scp0country_of_origin"/>
+    <property name="scp0sub_item"/>
+  </page>
+  <page title="IMDS Properties" titleKey="tc_xrt_IMDS">
+    <property name="mat1IsRecylateable"/>
+    <property name="mat1PostConsumerRecylFrom"/>
+    <property name="mat1PostConsumerRecylTo"/>
+    <property name="mat1PreConsumerRecylFrom"/>
+    <property name="mat1PreConsumerRecylTo"/>
+    <property name="sci0ApplicationCodes"/>
+  </page>
+</rendering>

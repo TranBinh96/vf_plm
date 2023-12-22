@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: DefaultSummary.xml
+
+    Style sheet rendering for default summary.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="Summary" titleKey="tc_xrt_Summary">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="object_type" />
+            <separator/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+            <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+            <property name="last_mod_user" />
+         </section>
+         <section titleKey="tc_xrt_actions" commandLayout="vertical">
+            <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" titleKey="tc_xrt_Copy" />
+            <command actionKey="propertiesAction" commandId="com.teamcenter.rac.properties" title="Properties..." />
+         </section>
+    </page>
+</rendering>
+

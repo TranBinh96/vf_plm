@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Diagramming">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SEVisio2007IntegrationToolbar" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies which toolbar is presented in MSVisio 2007 in the &quot;Visio Diagram view&quot; in the RM/SE (Requirements Management/Systems Engineering) application.
+Valid values are &quot;Native&quot; and &quot;Custom&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Native</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_PV_FILTER_SHOW_SCHEDULES_ON_EMPTY" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines if schedule nodes are displayed when no tasks are returned from a filter-only criteria in the Program View. This preference comes into play when a filter is applied but has no grouping condition.
+Valid Values:
+true
+false</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

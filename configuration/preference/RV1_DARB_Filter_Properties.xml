@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="DecisionApps.RelationBrowser">
+    <category_description>Preferences for Decision Apps Relation Browser.</category_description>
+    
+               <preference name="RV1_DARB_Filter_Properties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of properties for the &quot;Filter&quot; panel in Relation Browser. If the property is defined on a sub-type of WorkspaceObject type,
+prefix the property with the type name e.g. ItemRevision:current_id.</preference_description>
+      <context name="Teamcenter">
+        <value>object_type</value>
+        <value>owning_user</value>
+        <value>owning_group</value>
+        <value>release_status_list</value>
+        <value>date_released</value>
+        <value>last_mod_user</value>
+        <value>last_mod_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

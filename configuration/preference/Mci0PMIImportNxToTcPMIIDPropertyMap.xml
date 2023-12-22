@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mci0PMIImportNxToTcPMIIDPropertyMap" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maps the NX product manufacturing information (PMI) ID property to the Teamcenter PMI ID property.
+Changing the value of this preference can lead to a loss of data created in either NX or Teamcenter when synchronizing between the two.
+Valid Values:
+Accepts two property names separated by a colon, as follows:
+NX-property-name:Teamcenter-property-name</preference_description>
+      <context name="Teamcenter">
+        <value>K2001:mci0PmiID</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

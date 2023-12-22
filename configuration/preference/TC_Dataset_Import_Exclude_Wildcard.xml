@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Dataset_Import_Exclude_Wildcard" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether dataset types are listed in the types list if the type has only one named reference defined and if that is associated with a *.* file format.
+Valid Values:
+TRUE - A dataset type is not listed in the types list if it has only has one named reference defined and if that is associated with a *.* file format.
+FALSE - Dataset types are listed in the types list even if they have only has one named reference defined and if that is associated with a *.* file format.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

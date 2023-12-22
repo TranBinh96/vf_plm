@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCVIS_allow_NGC_expand" type="Logical" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Flag to allow Non Geometry Component (NGC) to be expaned and visualized. The default values is TRUE.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

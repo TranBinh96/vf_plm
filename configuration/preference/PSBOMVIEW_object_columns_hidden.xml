@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSBOMVIEW_object_columns_hidden" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of column names that will be hidden for BOMView objects.</preference_description>
+      <context name="Teamcenter">
+        <value>revision_number</value>
+        <value>archive_info</value>
+        <value>last_mod_user</value>
+        <value>creation_date</value>
+        <value>archive_date</value>
+        <value>last_mod_date</value>
+        <value>backup_date</value>
+        <value>date_released</value>
+        <value>owning_group</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

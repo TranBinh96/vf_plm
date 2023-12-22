@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEDataSetsToBeCheckoutForProcessSimulate" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates which datasets to check out when running any of the scenarios that include datasets. It stores pairs of dataset types and relations.
+Valid Values:
+Accepts string values with the following format:
+Dataset type:Relation</preference_description>
+      <context name="Teamcenter">
+        <value>ProcessSimulateSceneDetails:IMAN_specification</value>
+        <value>ProcessSimulateSimDetails:IMAN_specification</value>
+        <value>ProcessSimulate3DRep:IMAN_specification</value>
+        <value>ProcessSimulateSceneDetails:IMAN_reference</value>
+        <value>ProcessSimulateSimDetails:IMAN_reference</value>
+        <value>ProcessSimulate3DRep:IMAN_reference</value>
+        <value>ProcessSimulateSceneDetails:ProcessSimulate_Details</value>
+        <value>ProcessSimulateSimDetails:ProcessSimulate_Details</value>
+        <value>ProcessSimulate3DRep:ProcessSimulate_Details</value>
+        <value>Cps0ProcessSimulateRobotInfo:ProcessSimulate_Details</value>
+        <value>ProcessSimulatePLCDetails:Cps0OpDetailsRel</value>
+        <value>ProcessSimulatePLCInfo:Cps0PLCInfoRel</value>
+        <value>ProcessSimulatePLCResConTab:Cps0ConnectivityDefRel</value>
+        <value>ProcessSimulatePLCRobotProgram:Cps0RobotProgRel</value>
+        <value>ProcessSimulatePLCToolInfo:Cps0ToolInfoRel</value>
+        <value>Cps0ProcessSimulateHumanLoadData:IMAN_specification</value>
+        <value>ProcessSimulatePLCModuleInf:Cps0ModulesInfoRel</value>
+        <value>ProcessSimulatePLCSignalTab:ProcessSimulate_Details</value>
+        <value>ProcessSimulatePLCSignalTab:IMAN_specification</value>
+        <value>ProcessSimulateHumanModel:IMAN_specification</value>
+        <value>ProcessSimulateImage:ProcessSimulate_Details</value>
+        <value>ProcessSimulateImage:IMAN_specification</value>
+        <value>ProcessSimulateMovie:IMAN_specification</value>
+        <value>ProcessSimulateMovie:ProcessSimulate_Details</value>
+        <value>ProcessSimulateSweptVolume:IMAN_specification</value>
+        <value>Mes0PDFInputs:Mes0PDFInputsRel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

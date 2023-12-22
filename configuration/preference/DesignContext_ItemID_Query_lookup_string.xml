@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Filter Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DesignContext_ItemID_Query_lookup_string" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the I18n key used to retrieve the internationalized name of the saved query used to find work parts. Design Context evaluates this preference when the PortalDesignContextProductItemQuery preference is not set or points to an inaccessible query.
+Valid Values:
+Accepts a single string as a value. Must be a valid user entry name which matches the internationalized name for the ItemID lookup key.</preference_description>
+      <context name="Teamcenter">
+        <value>k_find_item_name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

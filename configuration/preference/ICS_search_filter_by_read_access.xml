@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_search_filter_by_read_access" type="Logical" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Specifies whether the classification search filters out the ICOs for which the user does not have read access on the classified object while performing the search. Privileges on the class definition are not honored when this preference is set. Setting this preference to true has a negative performance impact on the search mechanism.
+Valid Values:
+true - The classification search returns only those ICOs for which the user has read access.
+false - The classification search returns all ICOs. When paging through the results, the user receives a message each time an ICO is reached for which there is no read access.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

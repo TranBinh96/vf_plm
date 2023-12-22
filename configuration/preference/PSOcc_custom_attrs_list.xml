@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="TC XML Import Export.Import">
+    <category_description>Preferences that control import of data in TC XML.</category_description>
+    
+               <preference name="PSOcc_custom_attrs_list" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Updates the custom attributes during the import of data in the TC XML format.
+A valid value is a comma-separated list of the custom attributes defined on the PSOccurrence (e.g. &quot;ATTR1,ATTR2,ATTR3&quot;).</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

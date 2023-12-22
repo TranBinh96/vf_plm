@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDVReleasedPartsCollectorServer" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the host name and port number of the machine on which the Released Parts Collector server is running.
+Valid Values:
+Accepts a single string as a value. Must define the host name and port number in the following format:
+host-name:port-number
+For example:
+trysun12:1551</preference_description>
+      <context name="Teamcenter">
+        <value>&lt;your released parts collector server&gt;:&lt;port no&gt;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

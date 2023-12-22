@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ODS_multiprocess_initial_subprocess_count" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the number of subprocesses created and logged into the database by the parent Object Directory Services (ODS) process at startup.If too few subprocesses are created, remote users may notice a delay due to the time required to create a subprocess and log on to the database. If too many subprocesses are created, strain may be placed on system resources, resulting in slow performance.
+Valid Values:
+Any positive integer.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

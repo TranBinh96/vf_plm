@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_attribute_propagate_summary_dataset_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the name of the dataset in which the Attribute Propagate Summary is saved as a named reference.The attribute compare feature in CAE Manager is used to compare attribute values between related instances of a model structure and a product structure and the analyst can optionally propagate these changes. If an analyst runs an attribute compare and chooses to propagate the results, these results are available in an HTML dataset. By default, the name of the HTML dataset starts with Attribute Propagate Summary depending on how you (as administrator) specify the name.
+Valid Values:
+A nonempty, multicharacter string not greater than 128 characters in length.This preference cannot have an empty value. If the value is left blank, the default value is used.</preference_description>
+      <context name="Teamcenter">
+        <value>Attribute Propagate Summary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

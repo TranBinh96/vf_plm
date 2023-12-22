@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_remote_checkin_exclude_relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which relations prompt the system not to transfer attachments as part of the replica when a parent object is remotely checked in.How the system checks in locally attached objects is determined both by this preference and the relations added to the Include Reference list. The Include Reference list defines the types of related objects to be imported and exported. The list displays in the Advanced tab of the Multi-Site Collaboration, Import Remote section of the Options dialog box, accessed from the Edit menu.
+Valid Values:
+Accepts one or more strings as values; each string must be a valid Teamcenter relation.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

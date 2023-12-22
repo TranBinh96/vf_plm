@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_aqa_initial_validation_worthiness" type="Double" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Finding out which haven&apos;t been checked recently is done by using the ApprQueryAudit&apos;s lastWorthinessUpdateDate and validationWorthiness. When such an object is created, its lastWorthinessUpdateDate is set to its creation-date and its validationWorthiness is given an initial value.</preference_description>
+      <context name="Teamcenter">
+        <value>10</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

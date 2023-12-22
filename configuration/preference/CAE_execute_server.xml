@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_execute_server" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Identifies the Server for Batch Mesh functionality,following the format &quot;Toolname::Server&quot;.This Preference is deprecated in Teamcenter version TC2007.1 MP2 and no longer supported in TC2008.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

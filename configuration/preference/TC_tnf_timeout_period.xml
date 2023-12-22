@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_tnf_timeout_period" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the time (in seconds) allocated for Teamcenter server to generate Teamcenter Normal Form (TNF).
+If the TNF generation takes more than the specified value, the Teamcenter server will give up automatic TNF generation.
+Valid Values:
+* -1 : No time-out. This results in one TNF clause to be generated regardless how long it takes.
+* 0 : Immediate time-out. No TNF is ever generated.
+* Any positive value.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

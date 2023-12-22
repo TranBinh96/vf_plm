@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_port_number" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the port number used when connecting to the hosts defined in the LDAP_service_hosts preference. This preference works with the LDAP_use_ssl preference. 
+If this preference is set to the SSL port on the directory server, but the LDAP_use_ssl preference is set to FALSE, the directory server ignores the connection request from the synchronization tool, making it appear that the tool has hung. 
+When configuring the LDAP synchronization tool to use the SSL, make certain the LDAP_use_ssl preference is set to TRUE.
+Valid Values:
+Accepts a single string as a value. Must be a single positive integer. Define the Security Services server port to enable synchronization.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

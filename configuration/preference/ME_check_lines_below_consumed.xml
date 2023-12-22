@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ME_check_lines_below_consumed" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Activates the Product BOM traversal while processing the children of consumed lines in Bill Of Process (BOP).
+This would be needed if a line below a consumed line is suppressed in BOM and is not expected to be visible in BOP. 
+A noticeable performance impact exists if the value is set to true. The default value is false.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

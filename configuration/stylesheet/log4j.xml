@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+   <!--
+   bcprt
+   This software and related documentation are proprietary to UGS Corp.
+   COPYRIGHT 2006 UGS CORP.  ALL RIGHTS RESERVED
+   ecprt
+   -->
+
+   <!-- ========== Start of Appenders section ==========  -->
+
+   <!-- the console -->
+
+   <appender name="ProcessConsoleAppender" class="org.apache.log4j.ConsoleAppender">
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+   <!-- Appenders for MLD Performance instrumentation -->
+
+   <appender name="ProcessAppender" class="org.apache.log4j.RollingFileAppender">
+      <param name="Append"         value="true"/>
+      <param name="File"           value="${java.io.tmpdir}/Process.log"/>
+      <param name="MaxBackupIndex" value="5"/>
+      <param name="MaxFileSize"    value="10MB"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+   <appender name="TaskAppender" class="org.apache.log4j.FileAppender">
+      <param name="Append" value="true"/>
+      <param name="File"   value="${java.io.tmpdir}/Task.log"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" 
+                value="%-5p %d - %m%n"/>
+      </layout>
+   </appender>
+
+   <appender name="AccessAppender" class="org.apache.log4j.RollingFileAppender">
+      <param name="Append"         value="true"/>
+      <param name="File"           value="${java.io.tmpdir}/Access.log"/>
+      <param name="MaxBackupIndex" value="5"/>
+      <param name="MaxFileSize"    value="10MB"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+   <!-- daily rolling files.... time limited -->
+
+   <appender name="PLM2" class="org.apache.log4j.DailyRollingFileAppender">
+      <param name="File" value="${java.io.tmpdir}/RTTraces.txt"/>
+      <param name="Append" value="true"/>
+      <param name="bufferSize" value="8192"/>
+      <param name="bufferedIO" value="false"/>
+      <param name="immediateFlush" value="true"/>
+      <param name="datePattern" value="'.'yyyy-MM-dd"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+   <appender name="PLM3" class="org.apache.log4j.DailyRollingFileAppender">
+      <param name="File" value="${java.io.tmpdir}/RTRemotes.txt"/>
+      <param name="Append" value="true"/>
+      <param name="bufferSize" value="8192"/>
+      <param name="bufferedIO" value="false"/>
+      <param name="immediateFlush" value="true"/>
+      <param name="datePattern" value="'.'yyyy-MM-dd"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+   <appender name="PLM4" class="org.apache.log4j.DailyRollingFileAppender">
+      <param name="File" value="${java.io.tmpdir}/RTEvents.txt"/>
+      <param name="Append" value="true"/>
+      <param name="bufferSize" value="8192"/>
+      <param name="bufferedIO" value="false"/>
+      <param name="immediateFlush" value="true"/>
+      <param name="datePattern" value="'.'yyyy-MM-dd"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+
+   <!-- Appender for Middle Tier Logs -->
+   <appender name="WebTierAppender" class="org.apache.log4j.RollingFileAppender">
+      <param name="Append"         value="true"/>
+      <param name="File"           value="${java.io.tmpdir}/Process.log"/>
+      <param name="MaxBackupIndex" value="5"/>
+      <param name="MaxFileSize"    value="10MB"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+   <!-- =============== End of Appenders section ============= -->
+
+   <!-- +++++++++++++++ Category section +++++++++++++++++++++ -->
+
+   <logger name="com.teamcenter.mld" additivity="false">
+      <level value="error" />
+      <appender-ref ref="ProcessAppender"/>
+      <appender-ref ref="ProcessConsoleAppender"/>
+   </logger>
+
+   <logger name="com.teamcenter.mld.healthmonitoring">
+      <level value="warn" />
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx">
+      <level value="warn" />
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx.RTGaugeMonitor">
+      <level value="warn" />
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx.ResponseTimeTraceListener" additivity="false">
+      <level value="warn" />
+      <appender-ref ref="PLM2" />
+   </logger>
+
+   <!-- To log response times, set this level to "warn" -->
+   <logger name="com.teamcenter.mld.jmx.ResponseTimeGaugeListener" additivity="false">
+      <level value="error" />
+      <appender-ref ref="PLM4" />
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx.ConfigurationListener">
+      <level value="warn" />
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx.NotificationLogger" additivity="false" >
+      <level value="warn" />
+      <appender-ref ref="PLM3" />
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx.NotificationLoggerServer">
+      <level value="warn" />
+   </logger>
+
+   <logger name="Process">
+      <level value="warn"/>
+      <appender-ref ref="ProcessAppender"/>
+      <appender-ref ref="ProcessConsoleAppender"/>
+   </logger>
+
+   <logger name="Task">
+      <level value="warn"/>
+      <appender-ref ref="TaskAppender"/>
+   </logger> 
+   
+   <logger name="LoggerResponder">
+      <level value="info"/>
+   </logger>
+
+   <!-- PTier Configurations -->
+   <!-- com.teamcenter.presentation code uses one logger per Java package -->
+
+    <logger name="com.teamcenter.presentation">
+        <level value="warn"/>
+        <appender-ref ref="WebTierAppender"/>
+        <appender-ref ref="ProcessConsoleAppender"/>
+    </logger>
+
+    <!-- Teamcenter Communications Configurations -->
+    <logger name="com.teamcenter.tctp" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="WebTierAppender"/>
+        <appender-ref ref="ProcessConsoleAppender"/>
+    </logger>
+    <logger name="com.teamcenter.io" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="WebTierAppender"/>
+        <appender-ref ref="ProcessConsoleAppender"/>
+    </logger>
+    <logger name="com.teamcenter.tecs" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="WebTierAppender"/>
+        <appender-ref ref="ProcessConsoleAppender"/>
+    </logger>
+    <logger name="com.teamcenter.mux" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="WebTierAppender"/>
+        <appender-ref ref="ProcessConsoleAppender"/>
+    </logger>
+
+    <logger name="com.teamcenter.micro" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="WebTierAppender"/>
+        <appender-ref ref="ProcessConsoleAppender"/>
+    </logger>
+
+   <!-- jeti Configurations -->
+   <!-- jeti code uses a separate logger per class -->
+
+    <logger name="com.teamcenter.jeti" additivity="false">
+        <level value="info"/>
+        <appender-ref ref="WebTierAppender"/>
+        <appender-ref ref="ProcessConsoleAppender"/>
+    </logger>
+
+    <!-- Third Party software used by teamcenter -->
+    <logger name="org" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="WebTierAppender"/>
+        <appender-ref ref="ProcessConsoleAppender"/>
+    </logger>
+
+    <logger name="org.apache.axis">
+        <level value="warn"/>
+    </logger>
+
+    <!-- Set to warn to suppress manager logs of publish, assignment, and termination -->
+    <logger name="com.teamcenter.jeti.SessionLog">
+        <level value="info"/>
+    </logger>
+
+    <!-- Set to debug to show manager logs of transaction boundaries -->
+    <logger name="com.teamcenter.jeti.TransactionLog">
+        <level value="info"/>
+    </logger>
+
+    <!-- Enable (info) this logger to record each service request processed -->
+    <logger name="com.teamcenter.jeti.access" additivity="false">
+        <level value="off"/>
+        <appender-ref ref="AccessAppender"/>
+    </logger>
+
+
+    
+    <!-- 
+    Any of the following optional constructs can be activated for
+    producing logging.  You can tailor the settings (level and
+    appender-ref) based on your actual point of interests.  Note that here
+    no appender-ref is set, which implies parent-level's setting is
+    used. (com.teamcenter.jeti)
+    -->
+
+    <!-- ***************** Start of optional logging constructs ****************
+
+    ==== Optional Presentation Tier constructs =====
+
+    <logger name="com.teamcenter.presentation.gateway">
+        <level value="debug"/>
+    </logger>
+
+    <logger name="com.teamcenter.presentation.gateway.actions">
+        <level value="debug"/>
+    </logger>
+    <logger name="com.teamcenter.presentation.gateway.filters">
+        <level value="debug"/>
+    </logger>
+    <logger name="com.teamcenter.presentation.gateway.login">
+        <level value="debug"/>
+    </logger>
+    <logger name="com.teamcenter.presentation.gateway.util">
+        <level value="debug"/>
+    </logger>
+    <logger name="com.teamcenter.presentation.wae.internal.ctrl">
+        <level value="debug"/>
+    </logger>
+    <logger name="com.teamcenter.presentation.wae.internal.ctrl.context">
+        <level value="debug"/>
+    </logger>
+    <logger name="com.teamcenter.presentation.wae.internal.ctrl.injector">
+        <level value="debug"/>
+    </logger>
+    <logger name="com.teamcenter.presentation.wae.internal.ctrl.parse">
+        <level value="debug"/>
+    </logger>
+    <logger name="com.teamcenter.presentation.wae.internal.i18n">
+        <level value="debug"/>
+    </logger>
+    <logger name="com.teamcenter.presentation.wae.internal.prefs">
+        <level value="debug"/>
+    </logger>
+    <logger name="com.teamcenter.presentation.wae.internal.util">
+        <level value="debug"/>
+    </logger>
+    <logger name="com.teamcenter.presentation.wae.util">
+        <level value="debug"/>
+    </logger>
+
+    <logger name="com.teamcenter.presentation.webclient.actions">
+        <level value="debug"/>
+    </logger>
+
+
+    ==== Optional JETI web tier constructs =====
+
+    <logger name="com.teamcenter.jeti.resourceadapter">
+      <level value="debug" />
+    </logger>
+    <logger name="com.teamcenter.jeti.resourceadapter.spi.impl.ConnectionFactoryImpl">
+      <level value="debug" />
+    </logger>
+    <logger name="com.teamcenter.jeti.resourceadapter.spi.impl.ConnectionImpl">
+      <level value="debug" />
+    </logger>
+    <logger name="com.teamcenter.jeti.resourceadapter.spi.impl.ConnectionManagerImpl">
+      <level value="debug" />
+    </logger>
+    <logger name="com.teamcenter.jeti.resourceadapter.spi.impl.LocalTransactionImpl">
+      <level value="debug" />
+    </logger>
+    <logger name="com.teamcenter.jeti.resourceadapter.spi.impl.ManagedConnectionImpl">
+      <level value="debug" />
+    </logger>
+
+    <logger name="com.teamcenter.jeti.serveraccessor">
+      <level value="debug" />
+    </logger>
+    <logger name="com.teamcenter.jeti.serveraccessor.ServerAccessor">
+      <level value="debug" />
+    </logger>
+
+    <logger name="com.teamcenter.jeti.serverassigner">
+      <level value="debug" />
+    </logger>
+    <logger name="com.teamcenter.jeti.serverassigner.ServerAssigner">
+      <level value="debug" />
+    </logger>
+
+    ===== Optional logging constructs for the pool manager  =====
+
+    <logger name="com.teamcenter.jeti.serversubpoolmanager">
+      <level value="debug" />
+    </logger>
+
+    <logger name="com.teamcenter.jeti.serversubpoolmanager.ServerPoolManager">
+        <level value="debug"/>
+    </logger>
+
+    <category name="com.teamcenter.jeti.serversubpoolmanager.ServerPoolManager$ServerStarter">
+        <level value="debug"/>
+    </category>
+
+    <category name="com.teamcenter.jeti.serversubpoolmanager.ServerPoolManager$TimeoutHandler">
+        <level value="debug"/>
+    </category>
+
+    <category name="com.teamcenter.jeti.serversubpoolmanager.ServerPoolManager$HeartbeatHandler">
+        <level value="debug"/>
+    </category>
+
+    <category name="com.teamcenter.jeti.serversubpoolmanager.ServerPoolManager$CrashedServerHandler">
+        <level value="debug"/>
+    </category>
+
+    <category name="com.teamcenter.jeti.serversubpoolmanager.ServerPoolManager$PoolInfoUpdater">
+        <level value="debug"/>
+    </category>
+
+    <category name="com.teamcenter.jeti.serversubpoolmanager.ServerHealthMetrics">
+        <level value="debug"/>
+    </category>
+
+    <category name="com.teamcenter.jeti.serversubpoolmanager.HttpServer">
+        <level value="debug"/>
+    </category>
+
+    <category name="com.teamcenter.jeti.serversubpoolmanager.HealthNotifierServer">
+        <level value="debug"/>
+    </category>
+
+    ===== Optional logging constructs for TECS and MUX  =====
+
+    <logger name="com.teamcenter.tecs.component">
+      <level value="debug" />
+    </logger>
+
+    <logger name="com.teamcenter.mux.component">
+      <level value="debug" />
+    </logger>
+
+    ***************** End of optional logging constructs **************** -->
+
+    <!-- Note: HeathNotifer debug logs are very voluminous, especially for Rich Client -->
+    <logger name="com.teamcenter.jeti.serversubpoolmanager.HealthNotifierServer">
+        <level value="info"/>
+    </logger>
+
+
+   <!-- +++++++++++++++ End of Category section +++++++++++++ -->
+
+   <root> 
+      <priority value="error" /> 
+      <appender-ref ref="ProcessAppender"/>
+      <appender-ref ref="ProcessConsoleAppender"/>
+   </root> 
+
+</log4j:configuration>
+

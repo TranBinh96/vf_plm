@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Gateway Foundation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="T4X_Property2ProcessList4view" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Generic white-list for view</preference_description>
+      <context name="Teamcenter">
+        <value>bom_view</value>
+        <value>is_precise</value>
+        <value>struct_last_mod_date</value>
+        <value>creation_date</value>
+        <value>date_released</value>
+        <value>gov_classification</value>
+        <value>last_mod_date</value>
+        <value>object_name</value>
+        <value>object_string</value>
+        <value>owning_site</value>
+        <value>object_type</value>
+        <value>release_status_list</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

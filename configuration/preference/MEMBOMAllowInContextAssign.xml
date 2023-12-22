@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMBOMAllowInContextAssign" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables considering the active context line of the Manufacturing Bill Of Material (MBOM) window during assignment the BOMLine from Engineering BOM to MBOM.
+When set to &quot;true&quot;, the ID In Context (IDIC) value is created in context of the active context line and not the default top line.
+The default value is false.
+
+Teamcenter needs to be restarted for any value change to take effect.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

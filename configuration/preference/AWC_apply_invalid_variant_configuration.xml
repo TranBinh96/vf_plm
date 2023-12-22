@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWC_apply_invalid_variant_configuration" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference will be used to decide whether to apply invalid Variant Configuration on the structure in Active Workspace for Configure Based on Selection (CBOS) feature.
+Valid Values:
+* true: apply invalid Variant Configuration
+* false: do not apply invalid Variant Configuration</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_reference_update_lmd" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the last modified date of a locally owned item revision is updated when an object with an associated reference relation is modified.The last modified date of the parent item is automatically updated as a consequence of the associated item revision update.
+Valid Values:
+TRUE - The last modified date of the item revision is modified when an object with an associated reference relation is modified.
+FALSE - The last modified date of the item revision is not modified when an object with an associated reference relation is modified.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE.Behavior">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BVRManagement" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether the Cut/Delete/Remove commands on a BOM View Revision (BVR) should be enabled or not. For values false/False/FALSE the commands will show the default behavior of Manufacturing Process Planner (MPP) for BVR i.e. the commands will be enabled.
+The default value is false.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

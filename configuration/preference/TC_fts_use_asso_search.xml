@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_use_asso_search" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates the Full Text Search (FTS) searches metadata against associated objects or not.
+Valid Values:
+* false: The Full Text Search (FTS) engine will search metadata against main objects. This is default value.
+* true: The Full Text Search (FTS) engine will search metadata against associated object.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

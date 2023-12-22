@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2013 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: SourcingExchangeRevisionSummary.xml
+
+New style sheet for displaying item Sourcing Exchange Revision Summary
+Rohit Pandey 2013-10-10
+===============================================================================
+-->
+<rendering>
+    <header>
+        <image source = "thumbnail"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "vm0Status" renderingHint = "label"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name = "object_name"/>
+                <property name = "object_desc"/>
+                <property name = "vm0PostDate"/>
+                <property name = "vm0CloseDate"/>
+                <property name = "vm0StatusReason"/>
+                <separator/>                
+                <command titleKey = "tc_xrt_moreProperties" commandId = "com.teamcenter.rac.properties"/>
+            </section>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                <command commandId = "com.teamcenter.rac.imdsintegration.views.imdsExchangeView"/>
+                <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy"/>
+                <command actionKey = "reviseAction" commandId = "com.teamcenter.rac.revise"/>
+                <command actionKey = "saveAsAction" commandId = "org.eclipse.ui.file.saveAs"/>                
+            </section>
+        </column>
+    </page>
+    <page title = "Attachments" titleKey="tc_xrt_attachments">
+        <section titleKey = "tc_xrt_Files" title = "Files">
+            <objectSet source = "IMAN_specification.Dataset" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Filter Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DesignContextIncludeSubComponentsForSpatialSearch" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether proximity searches should include or exclude the subcomponents of a subassembly. It is useful in cases when the subassemblies may not have geometry of their own.
+Valid Values:
+TRUE - The search is executed on the subcomponents in the subassembly, as well as the subassembly itself.
+FALSE - The search is executed only on the subassembly, not on the subcomponents.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

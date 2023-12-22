@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_copy_security_data_exclusion_list" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of security properties that are not copied over to the new object during the &quot;Save As&quot;, &quot;Revise&quot; and &quot;Baseline&quot; operations.
+The default values are &quot;project_list&quot; and &quot;owning_project&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>project_list</value>
+        <value>owning_project</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

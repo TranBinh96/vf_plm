@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying SSS0SvcWorkOrderRevisionSummary in Active Workspace Client. -->
+
+<rendering>
+    <page titleKey="tc_xrt_properties">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_type" />
+            <property name="item_id" />
+            <property name="item_revision_id" />
+            <break/>
+            <property name="CMClosure" />
+            <property name="CMDisposition" />
+            <property name="CMMaturity" />
+            <break/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+            <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+            <property name="last_mod_user" />
+            <break/>
+            <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties" />
+        </section>
+        <section titleKey="tc_xrt_srp0ContactInfo">
+            <objectSet source="SSS0WkOrderCustomerContact.CompanyContact,LocationInCompany.CompanyLocation,Sam0WorkPerformedAt.PhysicalLocation" defaultdisplay="tableDisplay">
+                <tableDisplay>
+                    <property name="object_string" />
+                    <property name="object_type" />
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

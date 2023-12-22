@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering>
+	<views>properties</views>
+	<page title="Cortona3D">
+		<view name="References">
+			<customPanel java="com.teamcenter.cortona3d.wizards.CortonaItemContentPanel" />
+		</view>
+		<view name="properties">
+			<property name="object_name" />
+			<property name="revision:item_revision_id" renderingHint="textfield" />
+			<property name="revision:c3d_audience"/>
+			<property name="c3d_product" />
+            <property name="object_desc" />
+		</view>
+	</page>
+
+</rendering>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2018 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Sub0SubscriptionDigestMessageSummary.xml
+
+Default style sheet for displaying Digest Message Object Summary Active Workspace.
+
+-->
+<subRendering>
+ <column>
+      <section titleKey="tc_xrt_Properties">
+      <property name="fnd0Subject"/>
+        <property name="fnd0SentDate"/>
+        <property name="fnd0Receiver"/>
+      </section>
+      <section titleKey="tc_xrt_MessageBody">
+        <inject type="dataset" src="Awp0GalleryViewer" module="js/aw-include.directive"/>
+       </section>
+    </column>
+</subRendering>

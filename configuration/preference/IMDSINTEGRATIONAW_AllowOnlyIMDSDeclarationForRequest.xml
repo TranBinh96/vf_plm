@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Substance Compliance IMDS Integration">
+    <category_description>Substance Compliance IMDS Integration Active Workspace preferences</category_description>
+    
+               <preference name="IMDSINTEGRATIONAW_AllowOnlyIMDSDeclarationForRequest" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates if only IMDS request should be allowed for IMDS objects.
+Valid values are:
+true : Allow only IMDS request. This is the default value.
+false: Allow IMDS, MSD and CMD request</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="UNLOAD_TRIGGER_CEILING" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Initiates the automatic cleanup of unused objects from the server memory. Specifies (in kilobytes) what memory size must be reached to initiate the unloading of unused objects from server memory.Automatic cleanup is performed 
+during the operation occurring after the specified ceiling is reached. Thus, the specified memory size might be exceeded if the final loading action uploads a large amount of data.For example, if this preference is set to 12000 and memory 
+consumption is at 11900 KB, at least one more load operation is required before the ceiling is reached. If the next load operation adds a large amount of data, such as 20000 KB, total memory consumption is 31900 KB when the automatic cleanup 
+begins.Automatic cleanup of unused objects is enabled by default. This cleanup alleviates increased memory issues.Setting the value very low reduces the memory server footprint, but decreases performance.
+Valid Values:
+Accepts any positive integer. The number must be higher than the value set for the UNLOAD_TRIGGER_FLOOR preference. If an invalid value is set, the default value is used. InValid Values:
+A negative number. 
+A number lower than the value set for the UNLOAD_TRIGGER_FLOOR preference
+Non-numerical characters
+Setting the value very low reduces the memory server footprint but decreases performance because most loaded objects are quickly unloaded, and when reloaded, must be unloaded again.</preference_description>
+      <context name="Teamcenter">
+        <value>12000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

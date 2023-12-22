@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="MATERIALMGMT_material_creator_groups" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the groups that are allowed to create materials.
+Valid Values:
+Valid values are the internal names of the groups allowed to create the material.</preference_description>
+      <context name="Teamcenter">
+        <value>dba</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2015 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Awp0ProjectSummaryForShowObjectLocation.xml
+
+Default style sheet for displaying Project summary for show object location 
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+    </header>
+   <page titleKey="tc_xrt_Contents" title="Contents"  pageNameToken="ProjectContents">
+   </page>  
+        <page titleKey="tc_xrt_Overview">
+            <section titleKey="tc_xrt_Properties">           
+                <property name="object_name"/>
+                <property name="project_id"/>
+                <property name="project_desc"/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+                <property name="last_mod_user"/>
+                <property name="fnd0ProjectCategory" />
+                <property name="is_active"/>
+                <property name="is_visible"/>
+                <property name="use_program_security"/>
+                <property name="fnd0CollaborationCategories"/>
+            </section>
+            <content visibleWhen="{pref:TC_show_ProjectTeamTableTreeView}==true">
+                <section titleKey="tc_xrt_Project_Team">
+                    <htmlPanel declarativeKey="Aut0ProjectTeamTableTree"/>
+                </section>
+            </content>
+            <content visibleWhen="{pref:TC_show_ProjectTeamTableTreeView}!=true">
+                <section titleKey="tc_xrt_Project_Team">
+                    <objectSet source="awp0ProjectTeamMembers.GroupMember,awp0ProjectTeamMembers.Group" sortdirection="ascending" sortby="object_string" defaultdisplay="tableDisplay">
+                        <tableDisplay>
+                            <property name="object_string"/>
+                            <property name="object_type"/>
+                            <property name="user"/>
+                            <property name="group"/>
+                            <property name="role"/>
+                        </tableDisplay>
+                        <thumbnailDisplay/>
+                        <treeDisplay>
+                            <property name="object_string"/>
+                            <property name="object_type"/>
+                            <property name="user"/>
+                            <property name="group"/>
+                            <property name="role"/>
+                        </treeDisplay>
+                        <listDisplay/>
+                    </objectSet>
+                </section>
+            </content>
+    </page>
+</rendering>
+
+

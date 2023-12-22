@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scp0RegExemptionsGroupSummary.xml
+
+Default activeworkspace style sheet for displaying Exemptions Group properties.
+
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="label"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+            <property name = "object_type"/>
+            <property name = "object_name"/>
+            <break/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+        </section>
+        <section titleKey="scw0_xrt_exemptions">
+            <objectSet source="scp0Exemptions.Scp0Exemption" defaultdisplay="tableDisplay" sortby = "object_name" sortdirection = "ascending">
+               <tableDisplay>
+                    <property titleKey="scw0_xrt_exemption" name="object_string"/>
+                    <property name="scp0ExpiryDate"/>
+                    <property name="scp0text"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </page>   
+</rendering>

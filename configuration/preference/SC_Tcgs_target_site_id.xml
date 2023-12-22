@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_Tcgs_target_site_id" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the target Site ID to which the ExchangeObjects and Briefcases are to be exported. It should be an Unmanaged and Offline Site ID.</preference_description>
+      <context name="Teamcenter">
+        <value>-1868837782</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

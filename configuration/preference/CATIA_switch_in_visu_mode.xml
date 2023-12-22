@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_switch_in_visu_mode" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set the CATIA_switch_in_visu_mode variable to return to the original mode (Visualization or Design Mode) at the end of the Save process. 
+If a part was in Visualization Mode at the beginning of the Save process, it is switched to Design Mode to retrieve information. 
+Use this variable to indicate whether the part/assembly should remain in Design Mode or return to Visualization Mode at the end of the Save process.
+Parts in Visualization Mode or Design Mode at the beginning of the Save process are in Visualization Mode or Design Mode, respectively, at the end of the Save process when this variable is set to true. 
+The assembly is always in Design Mode at the end of the Save process when this variable is set to false.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

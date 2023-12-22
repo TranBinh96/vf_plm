@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Business Modeler">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_dataset_deep_copy_rules" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines which dataset business objects are deep copied when using either the Save As or Revise command on the primary dataset. A deep copy creates copies of not only the primary dataset, but also secondary datasets. Use this preference to define the deep copy of 
+the primary dataset business object, the secondary dataset business object, and the relation with which the latter is attached to the former.This preference is deprecated. The recommended best practice is to replace this preference with deep copy rules in the Business Modeler IDE. 
+Although a deep copy during the revise action continues to process this preference, the system ignores preferences with conflicting deep copy rule configurations.
+Valid Values:
+Accepts multiple strings as values. Each value must specify a valid primary dataset, secondary dataset, and relation in the following format:
+primary dataset type:relation type:secondary dataset type
+primary dataset type is the dataset attached to the item revision, secondary dataset type is the dataset business object associated with the primary dataset type, and relation type is the relation with which the secondary dataset is associated with the primary dataset. F
+or example:
+UGMASTER:IMAN_Rendering:DirectModel
+This value specifies that when the Save As or Revise command is performed on a UGMASTER dataset, any secondary IMAN_Rendering datasets attached with the DirectModel relation are also copied.This preference accepts the asterisk (*) character as a wildcard. Use the following setting to allow deep 
+copy of all primary datasets with any attached secondary dataset using any relation:*:*:*</preference_description>
+      <context name="Teamcenter">
+        <value>UGMASTER:IMAN_Rendering:DirectModel</value>
+        <value>UGPART:IMAN_Rendering:DirectModel</value>
+        <value>UGALTREP:IMAN_Rendering:DirectModel</value>
+        <value>DirectModel:TC_Derived:NXDerived</value>
+        <value>FullText:Fnd0_Symbolic_Link:Image</value>
+        <value>FullText:DMI_markup:Markup</value>
+        <value>FullText:DMI_markup:Fnd0ReqMarkup</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Fnd0FasnGrpAttrFormSummary.xml
+
+    Style sheet rendering for Fastener Group Attribute Form properties.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="Fastener Group" titleKey="tc_xrt_FastenerGroup" >
+        <property name="object_name" />
+        <property name="object_desc" />
+        <property name="object_type" />
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+        <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+        <property name="last_mod_user" />
+        <separator/>
+        <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+    </page>
+
+  <page title="All" titleKey="tc_xrt_All">
+    <all type="property"/>
+  </page>
+
+  <page title="Hardware">
+    <objectSet source="fnd0Hardware.Fnd0FasnGroupHardwareRow" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+      <tableDisplay>
+        <property name="fnd0ItemRevision"/>
+        <property name="fnd0HardwareQuantity"/>
+      </tableDisplay>
+      <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddReference" renderingHint="commandbutton"/>
+      <command actionKey="deleteAction" commandId="com.teamcenter.rac.deleteReference" renderingHint="commandbutton">
+        <parameter name="localSelection" value="true"/>
+      </command>
+    </objectSet>
+  </page>
+
+</rendering>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_manage_configurations_on_load_from_CATIA" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Manage configurations on open BOM windows during the Load from CATIA or Update Status processes.  
+Possible values: 
+- YES: Use Configuration defined in the dat file if it exists; else if Client_0 is running, use the opened BOM window and its corresponding configurations; else create a new BOM window using default configurations.
+- YES_BLOCKER: When Client_0 is running, use Configuration defined in the dat file if it exists; else use the opened BOM window and its corresponding configurations; else stop the process. When Client_0 is no running, use Configuration defined in the dat file if it exists; else create a new BOM window using default configurations.
+- NO: Create a new BOM window using default configurations.
+- NO_CONFIG: Create a new BOM window without any configurations.
+- TC_CONFIG: Use the opened BOM window and its corresponding configurations; else use Configuration defined in the dat file if it exists; else create a new BOM window with default configurations.</preference_description>
+      <context name="Teamcenter">
+        <value>YES</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

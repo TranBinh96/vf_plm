@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Gateway Foundation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="T4X_Property2IgnoreList4$Item" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Default black-list for all Item based Item types</preference_description>
+      <context name="Teamcenter">
+        <value>acl_bits</value>
+        <value>bom_view_tags</value>
+        <value>ContactInCompany</value>
+        <value>current_job</value>
+        <value>item_revision</value>
+        <value>item_master_tag</value>
+        <value>license_list</value>
+        <value>more_revisions</value>
+        <value>revision_list</value>
+        <value>fnd0Configurator</value>
+        <value>wso_thread</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

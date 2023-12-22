@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDVArchMaxNVEsAllowed" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the maximum number of Named Variant Expressions to be displayed in the form of XO chart (wherein the contents of the Named Variant Expression are represented by &apos;X&apos;s and &apos;O&apos;s in tabular form) without user confirmation.</preference_description>
+      <context name="Teamcenter">
+        <value>30</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

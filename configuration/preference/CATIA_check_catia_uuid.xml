@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_check_catia_uuid" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the behavior when a UUID conflict is detected during all load and save processes.
+- Do not display a message and continue the process (NONE)
+- Display a warning and provide a prompt to continue or stop the process (WARNING)
+- Display an error and cancel the process (ERROR)</preference_description>
+      <context name="Teamcenter">
+        <value>NONE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Audit Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_audit_manager_version" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates a particular version of auditing.
+Valid Values:
+* 1 - Legacy auditing mechanism is enabled
+* 2 - Audit Manager is enabled
+* 3 - New Audit Manager is enabled. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

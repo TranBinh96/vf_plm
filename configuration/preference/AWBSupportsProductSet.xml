@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWBSupportsProductSet" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Provides list of Business Objects supports set of products.</preference_description>
+      <context name="Teamcenter">
+        <value>Awb0SavedBookmark</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

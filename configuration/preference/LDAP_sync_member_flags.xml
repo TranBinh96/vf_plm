@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_sync_member_flags" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the group member synchronization setting flags in a chmod-style character string format.Group member synchronization requires both user synchronization and group synchronization to be enabled. If group member synchronization is enabled but either user or group synchronization is not, then group member synchronization is skipped.
+Valid Values:
+s (synchronize) - If set, enables group member synchronization.
+c (create) - If set, allows new externally managed group member objects to be created in Teamcenter during group member synchronization.
+d (deactivate) - If set, allows externally managed group member objects to be deactivated in Teamcenter during user synchronization.
+e (externalize) - If set, any internally managed group objects found in Teamcenter to have the same user ID, group name, and role name as a group member relationship in LDAP is converted to externally managed during group member synchronization.</preference_description>
+      <context name="Teamcenter">
+        <value>scde</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

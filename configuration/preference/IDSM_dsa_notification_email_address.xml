@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDSM_dsa_notification_email_address" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which administrators are notified by e-mail when system administration data (such as organization data, relation types, revision rules) is received from a remote site with the dsa_util utility.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid Teamcenter e-mail address, separated by a semicolon.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: ScheduleTask.xml
+
+    Default style sheet for displaying Schedule Task properties.
+ -->
+
+<rendering>
+     <page title="General" titleKey="tc_xrt_General">
+         <property name="object_name"/>
+         <property name="object_desc"/>
+         <property name="start_date" renderingHint="sm_propertydatebutton"/>
+         <property name="actual_start_date" renderingHint="sm_propertydatebutton"/>
+         <property name="finish_date" renderingHint="sm_propertydatebutton"/>
+         <property name="actual_finish_date" renderingHint="sm_propertydatebutton"/>
+         <property name="duration" renderingHint="propertyformattedtextfield"/>
+         <property name="work_estimate" renderingHint="propertyformattedtextfield"/>
+         <property name="work_complete" renderingHint="propertyformattedtextfield"/>
+         <property name="complete_percent" renderingHint="propertyformattedtextfield"/>
+         <property name="constraint" renderingHint="smpropertylovcombobox"/>
+         <property name="priority" renderingHint="smpropertylovcombobox"/>
+         <property name="fnd0state" renderingHint="label" /> 
+         <property name="fnd0status" renderingHint="SMStringPropertyLOVCombobox"/> 
+         <property name="task_type" renderingHint="disabletasktype" column="15"/>
+         <property name="fixed_type" renderingHint="smpropertylovcombobox"/>
+         <property name="auto_complete" renderingHint="enableautocomplete"/>
+         <property name="sch_task_deliverable_list" renderingHint="taskdelpropertybutton"/>
+         <property name="workflow_trigger_type" renderingHint="smpropertylovcombobox"/>
+         <property name="workflow_template" renderingHint="wftemplate"/>
+     </page>
+      
+    <page title="All" titleKey="tc_xrt_All">
+      <all type="property"/>
+    </page>    
+
+ </rendering>

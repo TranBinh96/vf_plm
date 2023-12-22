@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_DATASET_TYPES" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Capa Dataset types. These are the dataset types that capa user will see while creating Datset in CAPA Application.</preference_description>
+      <context name="Teamcenter">
+        <value>TEXT</value>
+        <value>PDF</value>
+        <value>HTML</value>
+        <value>MSWord</value>
+        <value>MSWordX</value>
+        <value>MSExcel</value>
+        <value>MSExcelX</value>
+        <value>MSPowerPoint</value>
+        <value>MSPowerPointX</value>
+        <value>Zip</value>
+        <value>JPEG</value>
+        <value>Bitmap</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="awb0Name"/>
+        <property name="awb0ArchetypeName"/>
+    </header>
+    <content  visibleWhen="awb0UnderlyingObjectType != Bhm0CollectionRevision">
+        <page titleKey="tc_xrt_Overview">
+            <column width="55%">
+                <section titleKey="tc_xrt_Properties">
+                    <property name="awb0ArchetypeId"/>
+                    <property name="awb0ArchetypeRevId"/>
+                    <property name="awb0ArchetypeRevName"/>
+                    <property name="awb0ArchetypeRevDescription"/>
+                    <property name="awb0OccName"/>
+                    <property name="awb0LogicalDesignator"/>
+                    <property name="awb0Sequence"/>
+                <content visibleWhen="awb0Parent==null and awb0UnderlyingObjectType==ItemRevision and REF(awb0UnderlyingObject,ItemRevision).awb0IsDiscoveryIndexed==true" >
+                <property name="REF(awb0UnderlyingObject,ItemRevision).awb0IsDiscoveryIndexed" renderingHint="label"/>
+                <property name="REF(awb0UnderlyingObject,ItemRevision).awb0DiscoveryIndexTime" renderingHint="label"/>
+                </content>
+                <property name="awb0Quantity"/>
+                <property name="awb0UoM" renderingHint="lovcombobox"/>
+                <break/>
+                <property name="awb0ArchetypeRevRelStatus" renderingHint="label"/>
+                <property name="awb0ArchetypeRevReleaseDate" renderingHint="label"/>
+                <property name="awb0ArchetypeRevEffText" renderingHint="label"/>
+                <property name="awb0ElementEffId" renderingHint="label"/>
+                <property name="awb0EffectivityFormula" renderingHint="label"/>
+                <break/>
+                <property name="awb0ArchetypeRevOwningUser" renderingHint="objectlink" modifiable="false"/>
+                <property name="awb0ArchetypeRevOwningGroup" renderingHint="objectlink" modifiable="false"/>
+                <break/>
+                <property name="awb0ArchetypeRevLastModUser"/>
+                <property name="awb0IsPrecise"/>
+                <inject type="dataset" src="Pma1Awb0DesignElementSummary"/>
+             </section>
+        </column>
+        <content  visibleWhen ="awb0UnderlyingObjectType != null">
+            <column width="45%">
+                <section titleKey="tc_xrt_Preview">
+                    <image source="thumbnail"/>
+                </section>
+                <view name="actions">
+                    <command actionKey="reviseAction" commandId="com.teamcenter.rac.revise"/>
+                    <command actionKey="saveAsAction" commandId="org.eclipse.ui.file.saveAs"/>
+                </view>
+            </column>
+        </content>
+        <content  visibleWhen ="awb0UnderlyingObjectType != null">
+            <column width="100%">
+                <content visibleWhen="awb0UnderlyingObjectType==Design Revision">
+                    <inject type="dataset" src="Fnd0AlignedPartsProvider" />
+                </content>
+                <inject type="dataset" src="Wnb1CenterOfMassLimitPropertiesView"/>
+                <content visibleWhen="awb0Parent!=null">
+                    <section titleKey="tc_xrt_Substitutes">
+                        <objectSet source="Awb0SubstitutesProvider.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending" showDropArea="false">
+                           <tableDisplay>
+                               <property name="object_string"/>
+                               <property name="object_type"/>
+                               <property name="release_status_list"/>
+                               <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                           </tableDisplay>
+                           <treeDisplay>
+                               <property name="object_string"/>
+                           </treeDisplay>
+                           <listDisplay/>
+                           <thumbnailDisplay/>
+                           <command actionKey="addSubstitutes" commandId="Awb0AddSubstitutes"/>
+                           <command actionKey="removeSubstitutes" commandId="Awb0RemoveSubstitutes"/>
+                           <command actionKey="preferSubstitute" commandId="Awb0PreferSubstitute"/>
+                       </objectSet>
+                    </section>
+                </content>
+                <inject type="dataset" src="Awp0GlobalAlternatesProvider"/>
+            </column>            
+        </content>
+        </page>
+    </content>
+    <content  visibleWhen="{pref:AWB_ShowMarkup}==true">
+      <page titleKey="tc_xrt_Markup">
+       <section titleKey="tc_xrt_MarkupsForThisLevel">
+        <objectSet source="Awb0MarkupForLevelProvider.Fnd0MarkupChange"  sortdirection="ascending" sortby="last_mod_date" defaultdisplay="tableDisplay">
+               <tableDisplay>
+                       <property name="fnd0line_id"/>
+                       <property name="fnd0line_name"/>
+                       <property name="fnd0markup_type"/>
+                       <property name="object_string"/>
+                       <property name="last_mod_date"/>
+                       <property name="last_mod_user"/>
+                       <property name="fnd0note"/>
+                   </tableDisplay>
+                    <treeDisplay>
+                        <property name="fnd0line_id"/>
+                        <property name="fnd0line_name"/>
+                        <property name="fnd0markup_type"/>
+                        <property name="object_string"/>
+                        <property name="last_mod_date"/>
+                        <property name="last_mod_user"/>
+                        <property name="fnd0note"/>
+                     </treeDisplay>
+              <listDisplay/>
+             <thumbnailDisplay/>
+          <command actionKey="applyMarkup" commandId="Awb0ApplyMarkup"/>
+          <command actionKey="cancelMarkupLevel" commandId="Awb0CancelMarkupLevel"/>
+        </objectSet>
+       </section>
+             <section titleKey="tc_xrt_MarkupsForThisElement">
+                <objectSet source="Awb0MarkupProvider.Fnd0MarkupChange" sortdirection="ascending" sortby="last_mod_date" defaultdisplay="tableDisplay">
+                    <tableDisplay>
+                        <property name="fnd0line_id"/>
+                        <property name="fnd0line_name"/>
+                        <property name="fnd0markup_type"/>
+                        <property name="object_string"/>
+                        <property name="last_mod_date"/>
+                        <property name="last_mod_user"/>
+                        <property name="fnd0note"/>
+                    </tableDisplay>
+                    <treeDisplay>
+                        <property name="fnd0line_id"/>
+                        <property name="fnd0line_name"/>
+                        <property name="fnd0markup_type"/>
+                        <property name="object_string"/>
+                        <property name="last_mod_date"/>
+                        <property name="last_mod_user"/>
+                        <property name="fnd0note"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                    <thumbnailDisplay/>
+          <command actionKey="cancelMarkupElement" commandId="Awb0CancelMarkupElement"/>
+         </objectSet>
+       </section>
+    </page>
+  </content>
+  <inject type="dataset" src="Nxs0AttributesTableSummaryAwb0Element"/>
+  <content  visibleWhen ="awb0UnderlyingObjectType != null">
+    <inject type="evaluate" src="awb0UnderlyingObject"/>
+  </content>
+</rendering>

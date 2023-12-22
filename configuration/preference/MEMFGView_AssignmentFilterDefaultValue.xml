@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMFGView_AssignmentFilterDefaultValue" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the filter type to be used when opening an assignment filter in the MFG View. The value of the filter type previously selected by the user in the MFG View is stored in the preference for the next session.
+Valid Values:
+ASSIGNED - The MFG View opens in assigned mode.
+UNASSIGNED - The MFG View opens in unassigned mode.</preference_description>
+      <context name="Teamcenter">
+        <value>ASSIGNED</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: QuoteCreate.xml
+
+    Style sheet rendering for Quote creation.
+=======================================================================
+-->
+
+<rendering>
+
+    <page title="Properties" titleKey="tc_xrt_properties">
+        <section titleKey="tc_xrt_properties">
+        <property name="object_name"/>
+        <property name="object_desc"/>
+        <property name="quoted_quantity"/>
+        <property name="unit_price"/>
+        <property name="tooling_cost"/>
+        <property name="currency"/>
+        <property name="vendor"/>
+        </section>
+    </page>
+
+</rendering>
+

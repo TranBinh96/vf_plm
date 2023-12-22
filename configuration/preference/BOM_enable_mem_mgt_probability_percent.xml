@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_enable_mem_mgt_probability_percent" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Teamcenter can determine whether a product structure should be fully or partially expanded, depending on the quantity of server memory used. This preference specifies a percentage of free server memory, which (if exceeded) causes Teamcenter to limit structure expansion to conserve memory. It is effective for structure expansions initiated by the bomwriter and plmxml_export utilities, but not for expansions initiated in Structure Manager.
+Valid Values:
+Accepts a single integer in the range 0 to 100 as its value. If set to 0, there no limit on the use of available system memory for expansion.The following examples show the effect of different settings:
+Example 1:
+Total system memory - 4 GB 
+Total available system memory - 2.5 GB
+BOM_enable_mem_mgt_probability_percent= 50
+Total system memory used for BOM expansion = 1.25 GB approximately
+Example 2:
+Total system memory - 4 GB
+Total available system memory - 2.5 GB
+BOM_enable_mem_mgt_probability_percent= 25
+Total system memory used for BOM expansion = 0.625 GB (625 MB) approximately
+The formula it utilizes to calculate the total system memory used is:
+(BOM_enable_mem_mgt_probability_percent X Available System Memory)</preference_description>
+      <context name="Teamcenter">
+        <value>20</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

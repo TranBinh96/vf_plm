@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VF_LIST_AUTO_ASSIGN_SHOP_MANAGER" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>structure
+        account teamcenter;__;group;__;role;__;user sẽ assign cho shop nào
+        2001 - E-Scooter
+        2002 - Battery Charging Station
+        3001 - Car
+        3002 - Engine
+        3003 - Press
+        3004 - Sub Assembly
+        3011 - Battery Cell
+        3051 - Ha Tinh Battery Packing
+        3087 - Cell Shop
+        3088 - Electronics and Electricity
+        3089 - Mold
+        3092 - EBUS
+        3093 - APICO
+        3094 - Battery Packing
+        3095 - Die Casting
+        3096 - EMotor
+        3097 - Interior
+        3098 - Mechanical
+        3099 - VAPA
+        4001 - E-Scooter Trading Shipping Yard
+        4002 - Car Trading Shipping Yard
+        4005 - GLOBAL PDC
+        5000 - Product Engineering
+        5002 - Pack Pin 2
+        6006 - Sale Hub
+        VES1 - VES1
+      </preference_description>
+      <context name="Teamcenter">
+        <!-- <value></value> -->
+      </context>
+    </preference>
+
+  </category>
+</preferences>

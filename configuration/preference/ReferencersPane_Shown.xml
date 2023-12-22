@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ReferencersPane_Shown" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates if Referencers option is listed in data pane option combo box in my teamcenter application. With this preference, Rich Client UI can have control to allow user to open Referencers data pane. True means Referencers option is in the combo box; False means Referencers option is not in the combo box.</preference_description>
+      <context name="Teamcenter">
+        <value>True</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

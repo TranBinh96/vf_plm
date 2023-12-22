@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Gateway Foundation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="T4X_Property2ProcessList4Fnd0TableRow" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Generic white-list for Fnd0TableRow</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_based_on</value>
+        <value>fnd0ContextContrast</value>
+        <value>fnd0CurrentEditContext</value>
+        <value>fnd0OwningObject</value>
+        <value>fnd0OwningPropName</value>
+        <value>fnd0RowIndex</value>
+        <value>fnd0mfkinfo</value>
+        <value>fnd0objectId</value>
+        <value>is_modifiable</value>
+        <value>lsd</value>
+        <value>object_properties</value>
+        <value>object_string</value>
+        <value>owning_site</value>
+        <value>pid</value>
+        <value>timestamp</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_async_error_notifyees" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference is used to determine the recipients of an asynchronous Workflow error notification. When an error occurs in a background session a notification is sent to inform the recipients of the error.
+
+Any combination of the values described below may be used to identify the notification recipients. Invalid values will be ignored. If there are no values or all values are invalid or this preference is missing then the recipient will default to $USER.
+
+The Valid Values:
+* $USER  - The current user. This is the default setting.
+* user:&lt;user ID&gt;  - The user specified by the Teamcenter user ID.
+* allmembers:&lt;group&gt;::&lt;role&gt;  - All members of the group/role combination.
+May be defined in the form of allmembers:&lt;group&gt;::,
+allmembers:&lt;group&gt;::&lt;role&gt;, or allmembers:&lt;role&gt;.
+* $PROCESS_OWNER  - The Workflow process owner.
+* $RESPONSIBLE_PARTY  - The Workflow task responsible party.</preference_description>
+      <context name="Teamcenter">
+        <value>$USER</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

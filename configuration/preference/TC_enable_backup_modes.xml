@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_enable_backup_modes" type="Logical" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether backup functionality is enabled. The integrated backup and recovery feature facilitates third-party backup systems to perform online backup, allowing Teamcenter to operate continually.
+This functionality focuses on the area of backing up metadata and file, and recovering that data in different restoration scenarios. To accomplish this, the integrated backup feature places Teamcenter in different operation modes using the backup_modes utility.
+Valid Values:
+true - Enables backup functionality.
+false - Disables backup functionality.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

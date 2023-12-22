@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering> 
+	<page title="General Information" titleKey="tc_xrt_cm_general_information">
+		<section titleKey="tc_xrt_properties">
+			<property name="object_name" renderingHint="textfield" />
+			<property name="object_desc" />
+			<property name="fnd0IdGenerator:vf6_vehicle_type" />
+			<property name="vf6_vehicle_group" />
+			<property name="vf6_sap_plant" />
+			<!--<property name="vf6_action" />-->
+			<property name="vf6_change_type" />
+			<property name="vf6_model_year" /> 
+			<property name="vf6_effectivity_date_2" />
+			<property name="vf6_effective_proposal" />
+
+			<customPanel java="com.teamcenter.rac.cm.wizards.ui.PropsPageRelationshipPanel" js="displayCMCustomePanel"/> 
+		</section>
+	</page>
+</rendering>

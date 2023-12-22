@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2014 Siemens PLM Software
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: UiE-AwardRevisionSummary10.xml
+
+    Style sheet rendering for Award Revision summary.
+
+-->
+<rendering>
+    <header>
+        <image source = "type"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "sc0Status"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name = "object_name"/>
+                <property name = "object_desc"/>
+                <property name = "sc0Status"/>
+                <property name = "sc0ExchangeObjectRef"/>
+                <property name = "sc0AuditMessage"/>
+                <separator/>
+                <command titleKey = "tc_xrt_moreProperties" commandId = "com.teamcenter.rac.properties"/>
+            </section>
+            <section titleKey = "tc_xrt_Quotes" title = "Quotes">
+                <objectSet source = "sc0QuoteRels.TC_part_quote_rel" defaultdisplay = "tableDisplay" sortby = "secondary_object" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "secondary_object"/>
+                        <property name = "sc0Company"/>
+                        <property name = "sc0Status"/>
+                        <property name = "primary_object"/>
+                        <property name = "sc0part_no"/>
+                        <property name = "sc0Contact"/>
+                        <property name = "sc0RequiredQuantity"/>
+                        <property name = "sc0AllocatedQuantity"/>
+                        <property name = "sc0Currency"/>
+                        <property name = "sc0ToolingCost"/>
+                        <property name = "sc0UnitPrice"/>
+                    </tableDisplay>
+                </objectSet>
+            </section>
+            <section titleKey = "tc_xrt_SupplierAttachments" title = "Attachments">
+                <objectSet source = "sc0SuppAttRels.Sc0SupAttachmentsRelation" defaultdisplay = "tableDisplay" sortby = "secondary_object" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "secondary_object"/>
+                        <property name = "sc0TargetObject"/>
+                    </tableDisplay>
+                    <command commandId = "com.teamcenter.rac.openSupplierAttachments" renderingHint="commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                    </command>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <page title = "History" titleKey = "tc_xrt_History">
+        <section titleKey = "tc_xrt_History" title = "History">
+            <objectSet source = "revision_list.ItemRevision" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

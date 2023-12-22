@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECustomViewConsumedItemsOccTypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the occurrence types for each table that is displayed on the right side on the Custom Process View   in Manufacturing Process Planner. Each entry in this preference creates a new table on the right side of the view. see Manufacturing Process Planner.
+Valid Values:
+Accepts valid Manufacturing Process Planner occurrence types in the order the tables should appear.</preference_description>
+      <context name="Teamcenter">
+        <value>Mfg0consumed_material:MEConsumed</value>
+        <value>Mfg0used_equipment:MEResource</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

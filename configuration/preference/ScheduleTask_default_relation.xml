@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="ScheduleTask_default_relation" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the relation created between the source and the target when an object is pasted under a ScheduleTask.
+The default value is &quot;IMAN_reference&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

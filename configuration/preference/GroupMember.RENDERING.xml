@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="GroupMember.RENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of properties stylesheet for GroupMember objects.</preference_description>
+      <context name="Teamcenter">
+        <value>GroupMember</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

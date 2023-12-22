@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_visProductViewOpenConfiguration" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the configuration setting used while loading product views (SnapshotViewDataset objects) in 3D mode. 
+The valid values are:
+Static:  The product structure is not reconfigured while loading the product view. Any modifications in the structure made after saving the product view are not visible. 
+Dynamic: The product structure is reconfigured while loading the product view. The 3D viewer displays the current state of the product with this mode. This is default value.</preference_description>
+      <context name="Teamcenter">
+        <value>Dynamic</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="DecisionApps.RelationBrowser">
+    <category_description>Preferences for Decision Apps Relation Browser.</category_description>
+    
+               <preference name="RV1_DARB_Sorted_Layouts" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the layout mode for cells in Relation Browser.
+A value of true will indicate that as cells are expanded, they will be displayed in a sorted order.
+The only layouts available for this mode are: Top-to-Bottom, Right-to-Left, Left-to-Right, Bottom-to-Top.
+The default value is false.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

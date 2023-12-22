@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="view_view_valid_occurrence_types" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the list of valid occurrence types.</preference_description>
+      <context name="Teamcenter">
+        <value>MEWorkpiece</value>
+        <value>MEWorkArea</value>
+        <value>METarget</value>
+        <value>MEConsumed</value>
+        <value>MEResource</value>
+        <value>MEOther</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

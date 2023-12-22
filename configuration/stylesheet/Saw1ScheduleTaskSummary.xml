@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Schedule Task Info Panel in Revolution Client. -->
+
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+  <header>
+    <image source="type"/>
+    <property name="owning_user"/>
+    <property name="last_mod_date"/>
+    <property name="release_status_list"/>
+    <property name="object_type"/>
+  </header>
+  <content visibleWhen='ActiveWorkspace:xrtContext=={"ganttWithDetails":true}'>
+       <inject type="dataset" src="Saw1ScheduleTaskGanttSummary"/>
+  </content>
+  <content visibleWhen='ActiveWorkspace:xrtContext!={"ganttWithDetails":true}'>
+       <inject type="dataset" src="Saw1ScheduleTaskMainSummary"/>
+  </content>
+</rendering>

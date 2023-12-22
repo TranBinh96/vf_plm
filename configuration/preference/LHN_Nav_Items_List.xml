@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LHN_Nav_Items_List" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies rich client navigation pane section order and whether each section is expanded, collapsed, or displayed at startup.
+Valid Values:
+SearchSection:[true/false]
+QuickLinksSection:[true/false]
+OpenItemsSection:[true/false]
+HistorySection:[true/false]
+FavoritesSection:[true/false]
+IWantToSection:[true/false]</preference_description>
+      <context name="Teamcenter">
+        <value>SearchSection:true</value>
+        <value>QuickLinksSection:true</value>
+        <value>OpenItemsSection:true</value>
+        <value>HistorySection:true</value>
+        <value>FavoritesSection:true</value>
+        <value>IWantToSection:true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

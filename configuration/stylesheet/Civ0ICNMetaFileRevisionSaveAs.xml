@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2019. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: Civ0ICNMetaFile4RevisionSaveAs.xml  
+   
+     Default style sheet for displaying Cic0ICNMetaFileRevision Save As 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+======================================================================= 
+@<DEL>@  
+--> 
+<rendering>
+
+   <page title=" ">
+         <column>
+             <property name="item_id" />
+             <property name="DocumentTitle" />
+
+             <property name="civ0InWork" />
+             <property name="civ0IssueNumber" />
+             <property name="civ0SecurityClass" />
+
+             <property name="isTemplate" />
+             <property name="referenceOnly"  />        
+         </column>
+
+   </page>
+   
+</rendering>

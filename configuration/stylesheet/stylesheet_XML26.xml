@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering> 
+   <page title="General Information" titleKey="tc_xrt_cm_general_information">
+         <section titleKey="tc_xrt_properties">
+             <property name="item_id" />
+             <property name="revision:item_revision_id" /> 
+             <property name="object_name" renderingHint="textfield" />
+            <property name="object_desc" />
+             <property name="vf4_donor_vehicle" /> 
+            <property name="uom_tag" />
+         </section>
+   </page>
+</rendering>

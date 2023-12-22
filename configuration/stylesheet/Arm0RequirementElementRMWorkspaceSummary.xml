@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="awb0Name"/>
+        <property name="awb0ArchetypeName"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" format="TwoColumn" visibleWhen="awb0UnderlyingObjectType!=IAV0MeasureReqmtRevision and awb0UnderlyingObjectType!=IAV0TestCondRevision and awb0UnderlyingObjectType!=IAV0InspectReqmtRevision">
+        <firstcolumn>
+            <section titleKey="tc_xrt_Properties">
+                <property name = "awb0ArchetypeId"/>
+                <property name = "awb0ArchetypeRevId"/>
+                <property name = "awb0ArchetypeRevName"/>
+                <property name = "awb0ArchetypeRevRelStatus" renderingHint = "label"/>
+                <property name = "awb0IsSuspect"/>
+                <property name = "awb0ArchetypeRevOwningUser" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "awb0Sequence"/>                
+                <property name = "REF(awb0UnderlyingObject,Requirement Revision).REF(items_tag,Item).GRM(IMAN_based_on,Requirement).object_string" titleKey="tc_xrt_based_on" />
+                <property name = "REF(awb0UnderlyingObject,Requirement Revision).REF(items_tag,Item).GRM(Arm0DerivedFrom,Requirement).object_string" titleKey="tc_xrt_derived_from" />
+                <property name = "REF(awb0UnderlyingObject,SpecElementRevision).REF(items_tag,SpecElement).Fnd0SourceParagraph" titleKey="tc_xrt_source_paragraph" />
+             </section>
+        </firstcolumn>
+        <secondcolumn>
+            <section titleKey="tc_xrt_existing_trace_link">
+                  <htmlPanel declarativeKey="Arm0ExistingTraceLinkOverviewTab" />
+            </section>
+        </secondcolumn>
+        <section>
+            <htmlPanel declarativeKey="Att1ShowMappedAttribute" />
+        </section>
+    </page>
+    <page titleKey="tc_xrt_summary_table" visibleWhen="ActiveWorkspace:SubLocation == com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+      <htmlPanel declarativeKey="Arm0RequirementSummaryTable" />
+    </page>
+    <inject type="evaluate" src="awb0UnderlyingObject"/>
+</rendering>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_solverparam_form_suffix" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the suffix used in the naming convention followed for solver parameter form types which can be created using the command line utility.</preference_description>
+      <context name="Teamcenter">
+        <value>SolverParam Form</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

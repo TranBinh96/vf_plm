@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ImanItemLine_bl_indented_title_expression" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the expression value of the run-time property bl_indented_title for ImanItemLine Business Object.
+Valid values should be determined after careful reading of the technical documentation.
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>$bl_line_name+(If($bl_parent=NULLTAG,&quot;&quot;,If($bl_quantity&gt;&quot;0&quot;,((&quot; &quot;+getLocalizedText(&quot;k_xSymbol&quot;)+&quot; &quot;)+$bl_quantity),&quot;&quot;)))</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

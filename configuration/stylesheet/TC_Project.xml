@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: TC_Project.xml
+
+    Style sheet rendering for TC_Project properties.
+=======================================================================
+-->
+<rendering>
+   <header>
+        <command commandId="org.eclipse.ui.file.refresh"/>
+    </header>
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <property name="project_id"/>
+            <property name="project_name"/>
+            <property name="project_desc" />
+            <separator/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+            <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+            <property name="last_mod_user" />
+        </column>
+    </page>
+</rendering>

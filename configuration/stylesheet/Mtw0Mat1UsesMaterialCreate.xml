@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+===============================================================================
+Filename: Mtw0Mat1UsesMaterialCreate.xml
+Default activeworkspace style sheet rendering for Mat1UsesMaterial creation.
+-->
+<rendering>
+    <page>
+        <section>
+            <property name="mat1mass" />
+            <property name="mat1uom_tag" />
+            <property name="mat1IsRecylateable" />
+            <property name="mat1PreConsumerRecylFrom" />
+            <property name="mat1PreConsumerRecylTo" />
+            <property name="mat1PostConsumerRecylFrom" />
+            <property name="mat1PostConsumerRecylTo" />
+      </section>
+    </page>
+</rendering>

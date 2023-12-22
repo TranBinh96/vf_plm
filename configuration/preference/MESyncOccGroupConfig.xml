@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MESyncOccGroupConfig" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the synchronization of the configurations between the Occurrence Group window and the base view.
+
+Valid Values::
+- true: when the user changes the configuration of an Occurrence Group tab, the system will immediately apply the same configuration to the base view.
+- false: the configuration will only be copied from the Occurrence Group tab to the base view the next time the base view becomes visible. This will improve the performance when working with large structures in the base view, but has the side effect that other structures linked to the base view (like a process structure associated with a product) will only be updated when switching to the base view tab.
+
+The default is true.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

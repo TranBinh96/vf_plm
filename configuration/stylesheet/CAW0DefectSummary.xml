@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+
+=======================================================================
+
+Copyright 2019.
+
+Siemens Product Lifecycle Management Software Inc.
+
+All Rights Reserved.
+
+=======================================================================
+
+     Filename: CAW0DefectSummary.xml
+
+
+
+    Style sheet rendering for WorkspaceObject summary in Active Workspace.
+
+=======================================================================
+
+-->
+
+<rendering>
+    <page titleKey="tc_xrt_Overview">
+        <section> 
+            <column>
+                <content visibleWhen="caw0Context==Capa">
+                    <section titleKey="tc_xrt_properties">
+                        <property name="object_name" modifiable="true"/>
+                        <property name="object_desc" modifiable="true"/>
+                        <property name="caw0category" />
+                        <property name="caw0reoccuring"/>
+                        <property name="caw0Evaluation"/>
+                        <property name="caw0ProblemContext" modifiable="false" renderingHint="objectlink" />
+                        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+                        <property name="last_mod_date"/>
+                    </section>
+                </content>
+                <content visibleWhen="caw0Context==NULL">
+                    <section titleKey="tc_xrt_properties">
+                        <property name="object_name" modifiable="true"/>
+                        <property name="object_desc" modifiable="true"/>
+                        <property name="caw0category" />
+                        <property name="caw0reoccuring"/>
+                        <property name="caw0Evaluation"/>
+                        <content visibleWhen="GRMS2P(CAW0CausedBy,CAW0Defect).caw0Context==Capa">
+                            <property name="caw0AnalysisDimension" modifiable="true"/>
+                        </content>
+                        <content visibleWhen="GRMS2P(CAW0CausedBy,CAW0Defect).caw0Context!=Capa">
+                            <property name="caw0AnalysisDimension" modifiable="false"/>
+                        </content>
+                        <property name="caw0AnalysisType" modifiable="true" />
+                        <property name="caw0rootCause" modifiable="false"/>
+                        <property name="caw0ProblemContext" modifiable="false" renderingHint="objectlink" />
+                        <break/>
+                        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+                        <property name="last_mod_date"/>
+                    </section>
+                </content>
+                <content visibleWhen="caw0Context==Issue">
+                    <section titleKey="tc_xrt_properties">
+                        <property name="object_name" modifiable="true"/>
+                        <property name="object_desc" modifiable="true"/>
+                        <property name="caw0category" />
+                        <property name="caw0reoccuring"/>
+                        <property name="caw0Evaluation"/>
+                        <break/>
+                        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+                        <property name="last_mod_date"/>
+                    </section>
+                </content>
+                <content visibleWhen="caw0Context==5Why">
+                    <section titleKey="tc_xrt_properties">
+                        <property name="object_name"/>
+                        <property name="object_desc"/>                        
+                        <property name="caw0WhySequence" modifiable="false"/>                    
+                        <property name="caw0Evaluation"/>
+                        <content visibleWhen="caw0rootCause==True">
+                            <property name="caw0AnalysisDimension" modifiable="false"/>
+                            <property name="caw0AnalysisType" modifiable="false" />
+                        </content>
+                        <property name="caw0rootCause" modifiable="false"/>
+                        <property name="caw0ProblemContext" modifiable="false" renderingHint="objectlink" />
+                        <break/>
+                        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+                        <property name="last_mod_date"/>
+                    </section>
+                </content>
+                <content visibleWhen="caw0Context==Ishikawa">
+                    <section titleKey="tc_xrt_properties">
+                        <property name="object_name"/>
+                        <property name="object_desc"/>
+                        <htmlPanel declarativeKey="CAW0causeGroup" modifiable="true"/>
+                        <property name="caw0Evaluation"/>
+                        <content visibleWhen="caw0rootCause==True">
+                            <property name="caw0AnalysisDimension" modifiable="false"/>
+                        </content>
+                        <property name="caw0rootCause" modifiable="false"/>
+                        <property name="caw0ProblemContext" modifiable="false" renderingHint="objectlink" />
+                        <break/>
+                        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+                        <property name="last_mod_date"/>
+                    </section>
+                </content>
+                <section titleKey="tc_xrt_Failure_Code_from_Catalog" >
+                    <objectSet source="CAW0RelatedFailure.Qc0Failure" defaultdisplay="listDisplay" sortby="object_name" sortdirection="ascending" > 
+                        <tableDisplay>
+                            <property name = "qc0FailureCode"/>
+                            <property name = "object_name"/>
+                            <property name = "object_desc"/>
+                            <property name = "qc0FailurePath"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="CAW0AddFailureToDefect" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="CAW0ReplaceFailureToDefect" renderingHint="commandbutton"/>
+                    </objectSet>
+                </section>
+            </column>
+            <column>
+                <section titleKey="tc_xrt_Preview">
+                 <inject type="dataset" src="Awp0GalleryViewer" module="js/aw-include.directive"/>
+            </section>
+            </column>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_Attachments">
+        <section titleKey="tc_xrt_Files">
+            <objectSet source="CAW0DefectAttachment.Dataset,CAW0DefectAttachment.ItemRevision,IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="relation" modifiable="false"/>
+                    <property name="CAW0DefectAttachment.caw0VisibleInReport" modifiable="true"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_QualityAction">
+            <objectSet source = "CAW0QualityActionRel.Qam0QualityAction" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <command actionKey="newBusinessObjectContextualAction" commandId="CAW0AddQADefect5Why" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>    
+                <tableDisplay>
+                    <property name = "object_name"/>
+                    <property name = "qam0QualityActionSubtype"/>
+                    <property name = "qam0Comment"/>
+                    <property name = "fnd0ResponsibleUser" modifiable="false"/>
+                    <property name = "qam0DueDate"/>
+                    <property name = "qam0QualityActionStatus"/>
+                    <property name = "qam0CompletionDate" modifiable="false"/>
+                    <property name = "caw0visibleInReport"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+            </objectSet>
+    </page>
+    <page titleKey="tc_xrt_Relations" visibleWhen="caw0Context==NULL">
+        <htmlPanel declarativeKey="CAW0CAPARelation" enableresize="true" />
+    </page>
+    <page titleKey="tc_xrt_Relations" visibleWhen="caw0Context==Issue">
+        <htmlPanel declarativeKey="CAW0CAPARelation" enableresize="true" />
+    </page>
+    <page titleKey="tc_xrt_Relations" visibleWhen="caw0Context==Capa">
+        <htmlPanel declarativeKey="CAW0CAPARelation" enableresize="true" />
+    </page>
+</rendering>

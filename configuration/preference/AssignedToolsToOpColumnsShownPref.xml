@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AssignedToolsToOpColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the default columns of the resources on operation table in Edit Resource Dialog in MSE.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_indented_title</value>
+        <value>bl_sequence_no</value>
+        <value>bl_occ_type</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

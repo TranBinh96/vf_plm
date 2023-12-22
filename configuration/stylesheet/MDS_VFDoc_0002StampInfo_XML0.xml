@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pdfCommandInputs xmlns="http://plm.siemens.com/PDFCommandTemplate"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://plm.siemens.com/PDFCommandTemplate PDFCommandTemplate.xsd"
+          xmlns:cmd="http://plm.siemens.com/PDFCommandTemplate">
+
+  <!-- a list of properties that can be insert into text stamps and watermarks. Currently only pre-defined
+    system properties can be used.
+    -->
+  <cmd:propertyDefinitions>
+    <!-- the following properties are pre-defined system values that can be used to add individualized text
+      to the document. The property values can be placed in the text by using a '\' in front of the property
+      name. For example:
+      <cmd:textStamp>
+        ...
+        <cmd:text>Submitted by \FullUserName on \DateAndTime</cmd:text>
+        ... 
+      </cmd:textStamp>
+	  <cmd:watermark>
+      would insert the active user's name and the current date & time into the specified string as part of 
+      a text stamp.
+      -->
+    <cmd:propertyDefinition key="FullUserName" />
+    <cmd:propertyDefinition key="DateAndTime" />
+    <cmd:propertyDefinition key="OSUserName" />
+    <cmd:propertyDefinition key="TCUserName" />
+    <cmd:propertyDefinition key="SystemStamp" />
+    <cmd:propertyDefinition key="SystemUserStamp" />
+    <cmd:propertyDefinition key="UserStamp" />
+    <cmd:propertyDefinition key="Watermark" />
+  </cmd:propertyDefinitions>
+  
+  <!-- PDF edit commands -->
+  <cmd:commandInputs>
+
+	    <!-- add a text stamp to the lower right corner of each page -->
+    <cmd:watermark>
+      <cmd:text>[  E X P I R E D  ]</cmd:text>
+      <cmd:font>Arial</cmd:font>
+	  <cmd:color>RED</cmd:color>
+      <cmd:size>50</cmd:size>
+      <cmd:opacity>0.9</cmd:opacity>
+      <cmd:rotation>
+        <cmd:upperLeftToLowerRight/>
+      </cmd:rotation>
+    </cmd:watermark>
+	
+  </cmd:commandInputs>
+
+
+</pdfCommandInputs>

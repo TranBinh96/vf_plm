@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Disclosure">
+    <category_description>
+     Represent 3D equivalent of the 2D drawing.
+</category_description>
+    
+               <preference name="DIS_reconcile_model_view_proxies_batch_size" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the batch size of Model Views to reconcile in a Model View Palette for all Teamcenter Disclosure &quot;Reconcile&quot; operations.
+The reconciliation operations reconciles the Model Views in the given Model View Palette in batches, with the batch size defined by this preference.
+A value of -1 indicates that there is no maximum batch size and that all Model Views in the Model View Palette will be reconciled in one batch.
+The default value is 20.
+This is a user preference.</preference_description>
+      <context name="Teamcenter">
+        <value>20</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

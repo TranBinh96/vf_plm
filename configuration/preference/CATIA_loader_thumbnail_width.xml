@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_loader_thumbnail_width" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the width in pixels of thumbnails display in the Teamcenter Integration for CATIA V5 Loader.
+A valid value is a positive integer from 1 to 1040.</preference_description>
+      <context name="Teamcenter">
+        <value>305</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

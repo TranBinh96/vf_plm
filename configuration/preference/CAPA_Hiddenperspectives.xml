@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_Hiddenperspectives" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This contains the list of the property names which are hidden</preference_description>
+      <context name="Teamcenter">
+        <value>url</value>
+        <value>relation_direction</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

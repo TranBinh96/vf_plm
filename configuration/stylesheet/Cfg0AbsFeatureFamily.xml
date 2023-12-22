@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright 2022 Siemens Digital Industries Software
+================================================================================
+Copyright 2019.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2022 Siemens Digital Industries Software
+
+    Filename: Cfg0AbsFeatureFamily.xml
+
+       Default style sheet for displaying Cfg0AbsFeatureFamily properties.
+-->
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">
+        <property name="cfg0FamilyNamespace"/>        
+        <property name="cfg0ObjectId"/>
+        <property name="object_desc"/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+        <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+        <property name="owning_site" renderingHint="objectlink" modifiable="false"/>
+        <property name="last_mod_date"/>
+        <property name="last_mod_user"/>
+        <property name="release_status_list"/>
+        <separator/>
+        <property name="cfg0ProductItems"/>
+        <property name="cfg0FamilyGroups"/>
+        <separator/>
+        <property name="cfg0ValueDataType"/>
+        <property name="cfg0UOM"/>
+        <property name="cfg0HasFreeFormValues"/>
+        <property name="cfg0IsMultiselect"/>
+        <property name="cfg0Features"/>
+    </page>
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

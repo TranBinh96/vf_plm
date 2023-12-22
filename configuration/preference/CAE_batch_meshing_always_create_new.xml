@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_batch_meshing_always_create_new" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies that the re-use check should be done when set to &quot;false&quot;. Command creates a new CAEModel object when set to &quot;true&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

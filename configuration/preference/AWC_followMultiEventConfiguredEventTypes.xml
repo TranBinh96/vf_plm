@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_followMultiEventConfiguredEventTypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Default configured event types for multi event follow in Active Workspace.</preference_description>
+      <context name="Teamcenter">
+        <value>__Attained_Release_Status</value>
+        <value>__Attach</value>
+        <value>__Item_Rev_Create</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

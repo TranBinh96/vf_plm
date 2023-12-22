@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Awp0WhereUsedTab.xml
+Default activeworkspace style sheet for displaying Where Used Tab.
+ -->
+<subRendering> 
+    <page titleKey="web_whereused">
+        <section titleKey="tc_xrt_References">
+            <objectSet source="Awp0ReferencesProvider.WorkspaceObject" sortdirection="ascending" sortby="object_string" defaultdisplay="tableDisplay">
+                <thumbnailDisplay/>
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                </tableDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</subRendering>  

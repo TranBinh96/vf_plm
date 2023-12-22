@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_SPBDVP_APPROVAL" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>User for workflow</preference_description>
+      <context name="Teamcenter">
+        <value>VF3_AT_ESOM_DocRevision</value>
+        <value>%item%.vf3_model_code;%item%.vf3_module_name</value>
+        <value>VF Engineer Leader;ESP Engineer Leader;VF I&amp;S Lead Engineer;MML;VF Quality Expert;T&amp;V Review;CE;Notify</value>
+        <value>AB;CVC=VF_SPB_DVP_Release_Process_VFe32_CVC</value>
+        <value>AB;BIW=VF_SPB_DVP_Release_Process_VFe32_BIW</value>
+        <value>AB;DCL=VF_SPB_DVP_Release_Process_VFe32_DCL</value>
+        <value>AB;BIN=VF_SPB_DVP_Release_Process_VFe32_BIN</value>
+        <value>AB;BEX=VF_SPB_DVP_Release_Process_VFe32_BEX</value>
+        <value>AB;CHS=VF_SPB_DVP_Release_Process_VFe32_CHS</value>
+        <value>AB;PWT=VF_SPB_DVP_Release_Process_VFe32_PWT</value>
+        <value>AB;EEP=VF_SPB_DVP_Release_Process_VFe32_EEP</value>
+        <value>AB;BAT=VF_SPB_DVP_Release_Process_VFe32_BAT</value>
+        <value>AB;EDS=VF_SPB_DVP_Release_Process_VFe32_EDS</value>
+        <value>AC;CVC=VF_SPB_DVP_Release_Process_VFe33_CVC</value>
+        <value>AC;BIW=VF_SPB_DVP_Release_Process_VFe33_BIW</value>
+        <value>AC;DCL=VF_SPB_DVP_Release_Process_VFe33_DCL</value>
+        <value>AC;BIN=VF_SPB_DVP_Release_Process_VFe33_BIN</value>
+        <value>AC;BEX=VF_SPB_DVP_Release_Process_VFe33_BEX</value>
+        <value>AC;CHS=VF_SPB_DVP_Release_Process_VFe33_CHS</value>
+        <value>AC;PWT=VF_SPB_DVP_Release_Process_VFe33_PWT</value>
+        <value>AC;EEP=VF_SPB_DVP_Release_Process_VFe33_EEP</value>
+        <value>AC;BAT=VF_SPB_DVP_Release_Process_VFe33_BAT</value>
+        <value>AC;EDS=VF_SPB_DVP_Release_Process_VFe33_EDS</value>
+        <value>XN;CVC=VF_SPB_DVP_Release_Process_VFe34S_CVC</value>
+        <value>XN;BIW=VF_SPB_DVP_Release_Process_VFe34S_BIW</value>
+        <value>XN;DCL=VF_SPB_DVP_Release_Process_VFe34S_DCL</value>
+        <value>XN;BIN=VF_SPB_DVP_Release_Process_VFe34S_BIN</value>
+        <value>XN;BEX=VF_SPB_DVP_Release_Process_VFe34S_BEX</value>
+        <value>XN;CHS=VF_SPB_DVP_Release_Process_VFe34S_CHS</value>
+        <value>XN;PWT=VF_SPB_DVP_Release_Process_VFe34S_PWT</value>
+        <value>XN;EEP=VF_SPB_DVP_Release_Process_VFe34S_EEP</value>
+        <value>XN;BAT=VF_SPB_DVP_Release_Process_VFe34S_BAT</value>
+        <value>XN;EDS=VF_SPB_DVP_Release_Process_VFe34S_EDS</value>
+        <value>XV;CVC=VF_SPB_DVP_Release_Process_VFe35_CVC</value>
+        <value>XV;BIW=VF_SPB_DVP_Release_Process_VFe35_BIW</value>
+        <value>XV;DCL=VF_SPB_DVP_Release_Process_VFe35_DCL</value>
+        <value>XV;BIN=VF_SPB_DVP_Release_Process_VFe35_BIN</value>
+        <value>XV;BEX=VF_SPB_DVP_Release_Process_VFe35_BEX</value>
+        <value>XV;CHS=VF_SPB_DVP_Release_Process_VFe35_CHS</value>
+        <value>XV;PWT=VF_SPB_DVP_Release_Process_VFe35_PWT</value>
+        <value>XV;EEP=VF_SPB_DVP_Release_Process_VFe35_EEP</value>
+        <value>XV;BAT=VF_SPB_DVP_Release_Process_VFe35_BAT</value>
+        <value>XV;EDS=VF_SPB_DVP_Release_Process_VFe35_EDS</value>
+        <value>XX;CVC=VF_SPB_DVP_Release_Process_VFe36_CVC</value>
+        <value>XX;BIW=VF_SPB_DVP_Release_Process_VFe36_BIW</value>
+        <value>XX;DCL=VF_SPB_DVP_Release_Process_VFe36_DCL</value>
+        <value>XX;BIN=VF_SPB_DVP_Release_Process_VFe36_BIN</value>
+        <value>XX;BEX=VF_SPB_DVP_Release_Process_VFe36_BEX</value>
+        <value>XX;CHS=VF_SPB_DVP_Release_Process_VFe36_CHS</value>
+        <value>XX;PWT=VF_SPB_DVP_Release_Process_VFe36_PWT</value>
+        <value>XX;EEP=VF_SPB_DVP_Release_Process_VFe36_EEP</value>
+        <value>XX;BAT=VF_SPB_DVP_Release_Process_VFe36_BAT</value>
+        <value>XX;EDS=VF_SPB_DVP_Release_Process_VFe36_EDS</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

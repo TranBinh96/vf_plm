@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAccountabilityKeepNonDynIdicCriteria" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines whether Accountability Check should remove all other criteria when dynamic equivalence mode is choosen.
+Under the hood, if there is no equivalence set found for a line by one criteria, other criteria can be used. Sometimes this could lead to problem if both IDIC (ID In Context) and dynamic equivalence are used. To avoid such problem, the Accountability check removes all other criteria if dynamic equivalence is used.
+If the value is &quot;true&quot;, the criteria are kept. The default value is false.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

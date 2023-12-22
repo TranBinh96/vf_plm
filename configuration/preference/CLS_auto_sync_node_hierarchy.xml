@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CLS_auto_sync_node_hierarchy" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allows the system to mirror operations performed on Classification storage class hierarchy onto the Node hierarchy.
+Valid values are:
+* true: The system will mirror Storage class hierarchy operations onto the Node hierarchy.
+* false: No mirroring will take place. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

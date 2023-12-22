@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="Mat1MaterialRevision_sci0ImdsSupplier_expression" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Represents the Supplier Information related to International Material Data System (IMDS) material. It combines the values of sci0Supplier (IMDS Material Supplier Information) and sci0SupplierOverflow (IMDS Material Supplier Information Overflow), and provides the complete string.</preference_description>
+      <context name="Teamcenter">
+        <value>$sci0Supplier+$sci0SupplierOverflow</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

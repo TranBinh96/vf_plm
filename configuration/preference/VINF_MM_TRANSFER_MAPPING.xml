@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VINF_MM_TRANSFER_MAPPING" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>Mapping Sourcing Program with Donor Vehicle
+        Synctax: Sourcing Program Real Value;Donor Vehicle Real Value</preference_description>
+      <context name="Teamcenter">
+        <value>AF S&amp;S;AFS</value>
+        <value>AFS EBUS;AFS</value>
+        <value>AFS Escooter;AFS</value>
+        <value>AFS VFe34;AFS</value>
+        <value>AFS VFe35;AFS</value>
+        <value>AFS VFe36;AFS</value>
+        <value>AFS V8;AFS</value>
+        <value>EBUS;Ebus10</value>
+        <value>EBUS12;Ebus12</value>
+        <value>Emotor;Emotor</value>
+        <value>S&amp;S;SnS</value>
+        <value>VFe32;VFe32</value>
+        <value>VFe33;VFe33</value>
+        <value>VF31;VF31</value>
+        <value>VFe34NG;VF31</value>
+        <value>VF3;VF3</value>
+        <value>VF32;VF32</value>
+        <value>VF33;VF33</value>
+        <value>V8;SnS</value>
+        <value>3IN1;3IN1</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

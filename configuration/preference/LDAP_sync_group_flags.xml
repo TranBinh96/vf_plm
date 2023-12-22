@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP.Synchronization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_sync_group_flags" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the group synchronization setting flags in a chmod-style character string format.
+Valid Values:
+s (synchronize) - If set, enables group synchronization.
+c (create) - If set, allows new externally managed group objects to be created in Teamcenter during group synchronization.
+u (update) - If set, allows externally managed group objects to be updated in Teamcenter during group synchronization.
+e (externalize) - If set, any internally managed group objects found in Teamcenter to have the same group name as a group object in LDAP is converted to externally managed during group synchronization.</preference_description>
+      <context name="Teamcenter">
+        <value>scue</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

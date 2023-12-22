@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Mtw0ParametersTab.xml
+Default activeworkspace style sheet for displaying Parameters Tab.
+ -->
+<subRendering> 
+    <page titleKey="mtw0_xrt_materialparameters" title="Parameters">
+        <column>
+            <section titleKey="mtw0_xrt_materialparameters" title="Parameters">
+                <objectSet source="mat1Parameters.Mat1ParameterDouble,mat1Parameters.Mat1ParameterString,mat1Parameters.Mat1ParameterSmartTable" defaultdisplay="tableDisplay" sortby="object_name" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_name"/>
+                        <property name="mat1Value"/>
+                        <property name="mat1ValueMax"/>
+                        <property name="mat1UnitAliasName"/>
+                        <property name="mat1Category"/>
+                        <property name="mat1ListOfRefParameters"/>
+                        <property name="object_desc"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+            <section titleKey="mtw0_xrt_materialinheritedparameters" title="Inherited Parameters">
+                <objectSet source="mat1InheritedParameters.Mat1InheritedParamDouble,mat1InheritedParameters.Mat1InheritedParamString,mat1InheritedParameters.Mat1InheritedParamSmrtTbl" defaultdisplay="tableDisplay" sortby="object_name" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_name"/>
+                        <property name="mat1Value"/>
+                        <property name="mat1ValueMax"/>
+                        <property name="mat1UnitAliasName"/>
+                        <property name="mat1Category"/>
+                        <property name="mat1ListOfRefParameters"/>
+                        <property name="object_desc"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+</subRendering> 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: ReportDefinition.xml
+
+    Default style sheet for displaying Report Definition poperties.
+@<DEL>@
+=======================================================================
+Date         Name                    Description of Change
+09-May-2011  huangq                   initial creation
+$HISTORY$
+=======================================================================
+@<DEL>@ -->
+
+<rendering>
+    
+    <page title="General" titleKey="General">
+        <property name="rd_source" renderingHint="reporttextfield" modifiable="false"/>
+    </page>
+
+    <page title="All" titleKey="All">
+        <all type="property"/>
+    </page>
+</rendering>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+================================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: EPMJobSummary.xml
+
+    Default style sheet for displaying EPMJob summary
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+2/20/12      Venu Vytla              Initial Version
+=======================================================================
+@<DEL>@ 
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_desc"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page title="Overview" titleKey="tc_xrt_Overview">
+          <column>
+              <section title="Properties" titleKey="tc_xrt_properties">
+                  <property name="object_name"/>
+                  <property name="object_desc"/>
+                  <separator/>
+                  <property name="owning_user" renderingHint="objectlink"/>
+                  <property name="checked_out"/>
+                  <property name="checked_out_user" renderingHint="objectlink"/>
+                  <separator/>
+                  <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+              </section>
+          </column>
+          <column>
+               <section titleKey="tc_xrt_Preview">
+                <image source="preview"/>
+               </section>
+               <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                    <command actionKey="newProcessAction" commandId="com.teamcenter.rac.newProcess" titleKey="tc_xrt_newProc" />
+                    <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" />
+               </section>
+          </column>
+    </page>
+    <page title="Audit Logs" titleKey="tc_xrt_AuditLogs" visibleWhen="{pref:TC_audit_manager_version}==3">
+        <command titleKey="tc_xrt_ExportToExcel"  actionKey="exportExcelAction" commandId = "com.teamcenter.rac.exportAuditSummaryToExcel" renderingHint="commandbutton"/>    
+        <command titleKey="tc_xrt_ExportToCSV" actionKey="exportCSVAction" commandId = "com.teamcenter.rac.exportAuditSummaryToCSV" renderingHint="commandbutton"/>       
+        <section title="Workflow Logs" titleKey="tc_xrt_WorkflowLogs" initialstate="collapsed">
+        <customPanel java="com.teamcenter.rac.auditmanager.WorkflowLegacyAuditLinkPanel"/>
+            <objectSet source="fnd0WorkflowAuditLogs.Fnd0WorkflowAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="object_type"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="object_name"/>
+                    <property name="job_name"/>
+                    <property name="process_templateDisp"/>
+                    <property name="fnd0UserId"/>
+                    <property name="fnd0SponsoringUserID"/>
+                    <property name="task_state"/>
+                    <property name="task_result"/>
+                    <property name="fnd0Comments"/>
+                    <property name="responsible_party"/>
+                    <property name="fnd0SignoffUserID"/>
+                    <property name="fnd0SignoffGroupName"/>
+                    <property name="fnd0SignoffRoleName"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                    <property name="fnd0SecondaryObjDispName"/>
+                    <property name="fnd0SecondaryObjQualifier"/>
+                </tableDisplay>
+            </objectSet>
+            <customPanel java="com.teamcenter.rac.auditmanager.WorkflowSecondaryAuditPanel" js="displayWorkflowCustomPanel" />
+        </section>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+        <objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="lis0site"/>
+                <property name="lis0serviceProvider"/>
+                <property name="relation"/>
+                <property name="last_mod_date"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out_user"/>
+            </tableDisplay>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+            <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </page>
+</rendering>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Gateway Foundation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="T4X_Property2ProcessList4Person" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Generic white-list for Person</preference_description>
+      <context name="Teamcenter">
+        <value>PA1</value>
+        <value>PA10</value>
+        <value>PA2</value>
+        <value>PA3</value>
+        <value>PA4</value>
+        <value>PA5</value>
+        <value>PA6</value>
+        <value>PA7</value>
+        <value>PA8</value>
+        <value>PA9</value>
+        <value>user_name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

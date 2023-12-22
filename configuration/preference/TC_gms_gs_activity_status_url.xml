@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Global Services.Options">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_gms_gs_activity_status_url" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the path for the Teamcenter Integration Framework Activity Status user interface.
+In cases involving Teamcenter Global Services, use value &quot;controller/search-form?Object=AuditActivity&quot; instead.</preference_description>
+      <context name="Teamcenter">
+        <value>controller/webclient?ActivityStatus</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

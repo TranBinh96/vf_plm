@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+================================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: BOMLineSummary.xml
+
+    Default style sheet for displaying BOMLine summary
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+2/20/12      Venu Vytla              Initial Version
+=======================================================================
+@<DEL>@ 
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_desc"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page title="Overview" titleKey="tc_xrt_Overview">
+          <column>
+              <section title="Properties" titleKey="tc_xrt_properties">
+                  <property name="object_name"/>
+                  <property name="object_desc"/>
+                  <separator/>
+                  <property name="owning_user" renderingHint="objectlink"/>
+                  <property name="checked_out"/>
+                  <property name="checked_out_user" renderingHint="objectlink"/>
+                  <separator/>
+                  <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+              </section>
+          </column>
+          <column>
+               <section titleKey="tc_xrt_Preview">
+                   <image source="preview"/>
+               </section>
+               <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                    <command actionKey="newProcessAction" commandId="com.teamcenter.rac.newProcess" titleKey="tc_xrt_newProc" />
+                    <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" />
+               </section>
+          </column>
+    </page>
+    <page title="Audit Logs" titleKey="tc_xrt_AuditLogs" visibleWhen="{pref:TC_audit_manager_version}==3">
+        <section title="Structure Logs" titleKey="tc_xrt_StructureLogs" initialstate="collapsed">
+            <objectSet source="fnd0StructureAuditLogs.Fnd0StructureAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="object_type"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="object_name"/>
+                    <property name="fnd0UserId"/>
+                    <property name="fnd0SponsoringUserID"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>
+                    <property name="fnd0SecondaryObjectID"/>
+                    <property name="fnd0SecondaryObjectRevID"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                    <property name="fnd0SecondaryObjectName"/>
+                    <property name="fnd0SecondaryObjDispName"/>
+                    <property name="fnd0SecondaryObjectSeqID"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

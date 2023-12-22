@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_realtime_index_dt_cache_size" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the cache size (number of objects) for the real-time, full-text search dataset index actions.
+Valid Values:
+Any positive integer. Increase the value to cause fewer Autonomy calls to generate indexing and potentially remove duplicated objects.</preference_description>
+      <context name="Teamcenter">
+        <value>10</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

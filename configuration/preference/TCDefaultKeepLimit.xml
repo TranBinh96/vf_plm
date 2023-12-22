@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCDefaultKeepLimit" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the number of sequences the system maintains as an Item revision is checked in and out of the database. Sequences are subrevisions of item revisions that document the content of a revision during its evolution. Checking out an Item revision increments the sequence ID.
+At logon, the system automatically removes the oldest sequence when the limit specified with this preference is reached.
+Valid Values:
+Accepts a single string as a value. Must be a single, positive integer.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

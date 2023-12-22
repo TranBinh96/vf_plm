@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SIGNOFF_required_group_and_role" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Setting for SIGNOFF_required_group_and_role
+0--&gt; User must be a registered member of the signoff required group and role, but doesn&apos;t have to be logged in as a member of that group or role to perform the signoff. (Default)
+1--&gt; User must be a registered member of the signoff required group and role, and must be currently logged in as a member of that group or role to perform the signoff.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

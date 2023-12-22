@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CFMEffConfigItemProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the properties and values that define when an item is a configuration item. If this preference is not set, the system uses the default property of the is_configuration_item POM_attribute.You specify one or more properties and values that identify an item as an effectivity configuration item. A configuration item defines an effectivity boundary in a product structure, that is, a point at which the product context is modified. (This is point at which the revision rule end item changes.)
+Valid Values:
+Any item property with its value on the following line prefixed with == characters. To use a simple logical property to define configuration items, configure this preference in the following format:
+is_configuration_item == Y
+For example, to use items of the Product type as configuration items, configure this preference in the following format:
+object_type == Product</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

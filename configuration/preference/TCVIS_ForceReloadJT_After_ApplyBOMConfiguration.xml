@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCVIS_ForceReloadJT_After_ApplyBOMConfiguration" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates if should force reload JT for involved BOM lines after apply BOM configuration change.
+Valid Values:
+* true: Force reload JT data for involved BOM lines after applying BOM configuration change.  
+* false: Do not reload JT data for involved BOM lines after applying BOM configuration change. This is the default value.
+Please note: Force reload JT for BOM lines are based on current graphics viewer session&apos;s loading history, only those that were previously loaded on graphics viewer can be force reloaded. For now this behavior only applies to Variant Configuration change on leaf BOM lines.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

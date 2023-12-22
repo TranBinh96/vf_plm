@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_enable_audit_criteria" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Added as part of  GRDVA Phase 3. Scope of the candidate lines to be considered for Audit can be widened using this preference variable.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Appearance Configuration Background">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="APPR_background_updater_gap_between_tries" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Deprecated. How long (in seconds) a background updater should wait between attempts
+(successful or otherwise) to look for packages to process.</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_deliverable_class_list" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the types allowed for the schedule deliverables within Schedule Manager.Do not use this preference. Use the ScheduleDeliverableWSOTypes preference instead.When adding a type, subtypes are not considered. For example, adding the Dataset type allows you to use Microsoft Word, Microsoft WordX, and Microsoft Excel.However, adding the Item type does not allow you to use the Document subtype of Item.
+Valid Values:
+The type of internal storage class names for any subtype of (and including) WorkspaceObject business object.</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+        <value>Folder</value>
+        <value>Form</value>
+        <value>Dataset</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

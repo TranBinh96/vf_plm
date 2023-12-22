@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="EA Gateway">
+    <category_description>Preferences for the Teamcenter Gateway for Enterprise Applications (T4EA)</category_description>
+    
+               <preference name="T4EA.UI.PromptEaConnectionData.Attributes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Fields of the T4EA Login dialog. Note that there a three predefined IDs:
+1) Identifier (Field that displays the ID of the connection.)
+2) User (Field to type in the user name)
+3) Password ()Field to type in the password. The characters typed in here are not echoed in clear text and the content will not appear in the log files.)
+The attributes will appear in the login dialog with default labels which are derived from the IDs.</preference_description>
+      <context name="Teamcenter">
+        <value>Identifier</value>
+        <value>User</value>
+        <value>Password</value>
+        <value>Language</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

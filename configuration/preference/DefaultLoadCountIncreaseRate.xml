@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DefaultLoadCountIncreaseRate" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Sets the percentage increase of the size of each successive page in a result set from a 4GD cacheless search. The percentage is a ratio of each page to its successive page. For example, 120 (e.g. ratio of 100:120) will mean a 20% increase in results in each successive page.
+Valid Values:
+Any valid integer. 100 maintains the same page size.</preference_description>
+      <context name="Teamcenter">
+        <value>150</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

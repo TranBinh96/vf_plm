@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ME3DPDFAllowedImageDatasetTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies a list of 2D product views and dataset types that are available to choose from when creating new 2D PDF reports.
+Valid Values:
+Accepts one or more strings which are valid dataset types.</preference_description>
+      <context name="Teamcenter">
+        <value>JPEG</value>
+        <value>Bitmap</value>
+        <value>GIF</value>
+        <value>SnapShotViewData</value>
+        <value>TIF</value>
+        <value>Image</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

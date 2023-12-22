@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+@<COPYRIGHT>@
+
+    Filename: TimeSheetEntry.xml
+
+    Default style sheet for displaying TimeSheetEntry poperties.
+@<DEL>@
+=======================================================================
+Date         Name                    Description of Change
+18-Feb-2010  avular                   initial creation
+$HISTORY$
+=======================================================================
+@<DEL>@ -->
+<rendering>
+ 
+  <page title="General" titleKey="tc_xrt_General">
+     <property name="object_name" renderingHint="textarea"  column="25" row="5" />      
+     <property name="object_desc" renderingHint="propertyformattedtextfield"  column="25" row="5" />
+     <property name="user_tag" />
+     <property name="scheduletask_tag" />
+     <property name="minutes" renderingHint="propertyformattedtextfield" />
+     <property name="date" /> 
+     <property name="bill_code" />
+     <property name="billrate_tag" />
+     <property name="bill_sub_code" />
+     <property name="bill_type" />     
+  </page>     
+   
+  <page title="All" titleKey="tc_xrt_All">
+	  <all type="property"/>
+  </page>   
+    
+</rendering>

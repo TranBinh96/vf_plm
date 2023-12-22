@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ITEM_autopublish" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables or suppresses the automatic publication of all newly created items and the automatic republication of items when the item ID is modified. Newly created items are published to the ODS site specified by the ITEM_autopublish_sites site preference.When an existing item ID is modified, it is republished only if it is already currently published and then only to the ODS sites to which it has already been published. The ITEM_autopublish_sites site preference does not determine which ODS site to use for republication.
+Valid Values:
+TRUE - Enables the automatic publication of all newly created items and the automatic republication of items when the item ID is modified.
+FALSE - Suppresses the automatic publication of all newly created items and the automatic republication of items when the item ID is modified.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

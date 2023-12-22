@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WSOM_report_add_duplicate_rows" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Add duplicate rows to report VLA attributes. Valid values are ON/OFF. ON - Display in multiple rows. OFF - Display in a single row.</preference_description>
+      <context name="Teamcenter">
+        <value>ON</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FolderPermissions">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="FolderPermissions_ValidRolesForAccess" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference specifies the valid Teamcenter User roles to be considered for setting access permissions for the folder on the Operating System containing Teamcenter managed data. If no values are mentioned, by default all roles would be considered for setting access permissions.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

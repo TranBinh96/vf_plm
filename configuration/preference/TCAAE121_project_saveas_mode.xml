@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAAE121_project_saveas_mode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to have the save action of the AutoCAD Electrical project propagated as default save action to drawings belonging to the project but stored under separate item revisions. This behavior is applied during save as new item and save as new revision operations, either via save table or clone wizard.
+Note: the save action of the drawing stored under a separate item revision can follow the save action of the project only if the drawing item revision does not contain another AutoCAD Electrical project.
+Possible values:
+0 - the save action of the project is not propagated to drawings stored under separate item revisions
+1 - the save action of the project is propagated (Default)</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

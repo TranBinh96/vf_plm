@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MES_3DPDF_UPDATE_WORKFLOW_LOG_FOLDER" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the folder name where all log file datasets are created when updating 3D PDF documents. If any 3D PDF request fails during the workflow, a new dataset is created in this folder with the generated log file.
+Valid Values:
+Accepts an existing Teamcenter folder name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

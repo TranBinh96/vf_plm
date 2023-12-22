@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Performance Tuning">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextMaxMatchingBOMLines" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the maximum search limit for searches in Design Context&apos;s Filter Configuration pane. If the number of matches exceed this number a confirmation window appears. The user can cancel or proceed at this point. Use this preference is to avoid long searches that accidentally match a very large number of components.If the number of matching components exceeds the limit, Design Context displays a confirmation message allowing users to either continue or cancel the query. Users can view this preference and set it for their environments by choosing the Edit-&gt;Options-&gt;Design Context-&gt;General menu command.
+Valid Values:
+Accepts any positive integer. Siemens PLM Software recommends using the default initially and not exceeding 1000.</preference_description>
+      <context name="Teamcenter">
+        <value>300</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

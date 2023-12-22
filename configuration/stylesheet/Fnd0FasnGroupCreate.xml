@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Fnd0FasnGroupCreate.xml
+
+    Style sheet rendering for Fastener Group creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="Fastener Group" titleKey="tc_xrt_FastenerGroup">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name" />
+            <property name="object_desc" />
+        </section>
+        <section title="Feature Version Information" titleKey="tc_xrt_FeatureVersionInformation">
+            <property name="revision:IMAN_master_form_rev:fnd0MajorFeatureVersion"/>
+            <property name="revision:IMAN_master_form_rev:fnd0MinorFeatureVersion"/>
+        </section>
+        <section title="Fastener Group Attribute Form" titleKey="tc_xrt_FastenerGroupAttributeForm">
+            <property name="revision:fnd0TC_Feature_Form_Relation:fnd0HoleSummary" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:fnd0FastenerQuantity"  />
+        </section>
+    </page>
+</rendering>
+

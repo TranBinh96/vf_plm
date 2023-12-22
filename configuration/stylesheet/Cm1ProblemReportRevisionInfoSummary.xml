@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright 2012 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+===============================================================================
+
+Filename: Cm1ProblemReportRevisionInfoSummary.xml
+06/24/2013      Initial Release
+
+Default style sheet for displaying PR rev info summary.
+
+-->
+<rendering>
+    <header>
+        <image source = "type"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "release_status_list" renderingHint = "label"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey = "">
+        <section titleKey = "tc_xrt_properties">
+            <property name="item_id" renderingHint="label"/>
+            <property name="item_revision_id" renderingHint="label"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="object_type"/>
+            <break/>
+            <property name="release_status_list" renderingHint="label"/>
+            <property name="date_released" renderingHint="label"/>
+            <break/>
+            <property name="CMTechReviewPriority"/>
+            <property name="CMEnvironmentDescription" renderingHint="textarea" column="10" row="5"/>
+            <property name="CMSequenceOfEvents" renderingHint="textarea" column="10" row="5"/>
+            <property name="CMVerification" renderingHint="textarea" column="10" row="5"/>
+            <property name="CMRamification" renderingHint="textarea" column="10" row="5"/>
+            <property name="CMSeverityRating"/>
+        </section>
+        <section titleKey="tc_xrt_status">            
+            <property name="CMMaturity"/>
+            <property name="CMDisposition"/>
+            <property name="CMClosure"/>
+        </section>                
+        <section titleKey="tc_xrt_relatedChanges">    
+            <property name="CMImplementedBy"/>
+            <command commandId = "com.teamcenter.rac.properties" titleKey = "moreProperties"/> 
+        </section>
+        <section titleKey = "tc_xrt_AssignedParticipants">
+            <command commandId = "com.teamcenter.rac.assignparticipants" actionKey = "assignParticipantsAction" titleKey = "AssignParticipants" title = "Assign Participants..."/>
+            <property name = "Requestor" modifiable = "false"/>
+            <property name = "ChangeSpecialist1" modifiable = "false"/>
+            <property name = "Analyst" modifiable = "false"/>
+        </section>
+        <section titleKey = "tc_xrt_ProblemItems">
+            <objectSet source = "CMHasProblemItem.ItemRevision,CMHasProblemItem.Mdl0ModelElement,CMHasProblemItem.Cfg0AbsConfiguratorWSO,CMHasProblemItem.Bom0ConfigurableBomElement" defaultdisplay = "listDisplay" sortdirection = "ascending" sortby = "object_string">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_CMImplementedBy">
+           <objectSet source = "CMImplementedBy.ItemRevision" defaultdisplay = "listDisplay">
+                <tableDisplay>
+                  <property name="object_string"/>
+                  <property name="object_type"/>
+                  <property name="release_status_list"/>
+                  <property name="date_released"/>
+                  <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_ReferenceItems">
+            <objectSet source = "CMReferences.WorkspaceObject,CMReferences.ItemRevision" defaultdisplay = "listDisplay" sortdirection = "ascending" sortby = "object_string">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>        
+    </page>
+
+</rendering>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_always_export_user_data_for_relation_type" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of relations whose User Data will always be exported, even when relations are to Stubs.</preference_description>
+      <context name="Teamcenter">
+        <value>catiaV5_MML</value>
+        <value>catiaV5_MMLAssy</value>
+        <value>catiaV5_DWGLink</value>
+        <value>catia_auxiliaryLink</value>
+        <value>catia_shapeProperties_link</value>
+        <value>catia_alternateShapeRep</value>
+        <value>catia_componentShapeRep</value>
+        <value>catia_MFGLink</value>
+        <value>catia_analysisLink</value>
+        <value>catia_analysisFilesLink</value>
+        <value>catia_cache_link</value>
+        <value>catia_designtable_link</value>
+        <value>catia_designtable_context_link</value>
+        <value>catia_designtable_config_link</value>
+        <value>catia_secondary_link</value>
+        <value>catia_importform_link</value>
+        <value>catia_componentShapeRep</value>
+        <value>Cat2_EHFLink</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_relation_required_on_transfer" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which relation types are included when an object is exported/imported with transfer of site ownership. If the exporting site and the importing site have conflicting rules, the rule at the exporting site prevails. For example, if the importing site does not require the manifestation relation but the exporting site does, manifestations are included. Use this preference for relation types that are required for ownership transfer. Do not include any relation type required for ownership transfer in the TC_relation_export_on_transfer preference.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid Teamcenter relation. Excepting the IMAN_RES_checkout relation, which is not a valid value for this preference.NONE is also a valid value, indicating there are no required relation types for export, except for the implied relation types listed above.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_master_form</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_RES_audit</value>
+        <value>IMAN_ic_intent</value>
+        <value>IMAN_CCContext</value>
+        <value>IMAN_StructureContent</value>
+        <value>IMAN_SCTypeData</value>
+        <value>TC_Attaches</value>
+        <value>TCCalendar_Rel_Type</value>
+        <value>IMAN_vi_linked_module</value>
+        <value>IMAN_vi_sos</value>
+        <value>IMAN_classification</value>
+        <value>Fnd0ShapeRelation</value>
+        <value>Fnd0DigitalSignatureRel</value>
+        <value>Fnd0DigitalSignIncludeRel</value>
+        <value>Fnd0DigitalSignObsoleteRel</value>
+        <value>IMAN_gde_type_definition_rel</value>
+        <value>NX0BookletRule</value>
+        <value>IMAN_Rendering</value>
+        <value>VL5_plant_rel</value>
+        <value>TC_Feature_Form_Relation</value>
+        <value>Fnd0FasnGroupDefinitionRel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

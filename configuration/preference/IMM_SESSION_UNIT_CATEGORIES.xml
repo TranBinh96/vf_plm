@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_SESSION_UNIT_CATEGORIES" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference as well as the IMM_SESSION_UNIT_ALIASNAMES should be configured by the material admin according to the preferred default way of displaying the UNITS for the site, if the user uses the UI to configure the display units, a user preference IMM_SESSION_UNIT_CATEGORIES_USER will be created with user scope</preference_description>
+      <context name="Teamcenter">
+        <value>Energy|Work|QuantityOfHeat,Time,Pressure|Stress,Length,SpecificHeat,Volume,Mass,ElectricCurrent,Percentage,ThermodynamicTemperature,Area,Power|RadiantFlux,ThermalConductivity,Strain,Force,Angle,AmountOfSubstance,UNITLESS,Voltage,MassDensity,MolarMass</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

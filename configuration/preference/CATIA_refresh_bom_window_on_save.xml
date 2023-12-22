@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_refresh_bom_window_on_save" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines which BOM window should be refreshed at the end of a Save process.
+Possible values:
+- ACTIVE: Refresh the active BOM window
+- OF_TOP_LEVEL: Refresh the BOM window corresponding to the saved assembly
+- IF_SAVE_PROD: Refresh the BOM window corresponding to the saved assembly only when products are saved
+- NONE: No refresh is done at the end of a save process</preference_description>
+      <context name="Teamcenter">
+        <value>OF_TOP_LEVEL</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

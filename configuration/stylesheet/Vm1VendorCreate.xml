@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+//File Name: Vm1VendorCreate
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Vendor Item creation. -->
+<rendering>
+    <page titleKey="tc_xrt_CreateItem">
+        <section titleKey="tc_xrt_properties">
+            <property name="item_id"/>
+            <property name="revision:item_revision_id"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="supplier_addr"/>
+            <property name="supplier_phone"/>
+            <property name="email_addr"/>
+            <property name="web_site"/>
+        </section>
+    </page>
+</rendering>

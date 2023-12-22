@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AM_enable_RIP_for_child_groups" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables Role in Project of Object (RIP) accessor to evaluate the roles under the groups which are not directly added to the project team, but their parent or ancestor groups are. 
+Valid values are:
+* true: RIP accessor for the roles under the sub-groups in projects are evaluated. (the RIP accessor has to exist)
+* false: (default) Only the roles under the top-level groups in projects are evaluated.
+When the preference is set to true, Login may slow down if the number of groups in the project team which the user is in, is very large</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

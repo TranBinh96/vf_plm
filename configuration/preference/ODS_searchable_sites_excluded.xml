@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ODS_searchable_sites_excluded" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the sites that Teamcenter does not include in searches for published remote objects during a remote search. The sites set in this preference are listed in the Shown column for the ODS Searchable Sites Excluded section in the Options dialog box. Nonadministrator users can create an instance at the user location in the Details pane of the Options dialog and add or remove values to override any site location settings.
+Valid Values:
+One or more strings as values; each string must be a valid Teamcenter site name as defined in the Organization application.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

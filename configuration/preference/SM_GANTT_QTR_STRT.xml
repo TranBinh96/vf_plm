@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_GANTT_QTR_STRT" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the starting month of the first quarter of the year.
+Valid Values:
+Any number between 1 (January) and 12 (December).</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

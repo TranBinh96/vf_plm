@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_search_mmlassy_links_on_save" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set to true to search MMLAssy Links between two parts in a same assembly (ref-inst relationships) and to expose links in Teamcenter during the Save process.
+Set to false, to prevent searching for ref-inst relationships.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

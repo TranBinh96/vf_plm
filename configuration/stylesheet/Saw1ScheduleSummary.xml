@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Schedule Summary Task Info Panel in Revolution Client. -->
+
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+        <property name="fnd0Schmgt_Lock"/>
+    </header>
+  <content visibleWhen='ActiveWorkspace:xrtContext=={"ganttWithDetails":true}'>
+       <inject type="dataset" src="Saw1ScheduleGanttSummary"/>
+  </content>
+  <content visibleWhen='ActiveWorkspace:xrtContext!={"ganttWithDetails":true}'>
+    <page title="Overview" titleKey="tc_xrt_Overview">
+         <firstcolumn width="28%">
+              <section title="Planning Properties" titleKey="tc_xrt_PlanningProperties">
+                  <property name="object_name" />
+                  <property name="object_desc"/>
+                  <property name="project_list"/>
+                  <property name="saw1MasterSchedules" modifiable="false" />
+                  <property name="fnd0PriorityString"/>
+                  <property name="saw1BudgetedEffort"/>
+                  <property name="saw1SSTWorkEffort"/>
+                  <property name="start_date"/>
+                  <property name="finish_date" />
+                  <property name="earliest_finish_date"/>
+                  <property name="fnd0ScheduleTypeString" modifiable="false" />
+                  <property name="saw1UnitOfTimeMeasure" />
+                  <property name= "GRMREL(IMAN_based_on, Schedule).secondary_object" titleKey="tc_xrt_TemplateUsed"/>
+              </section>
+              <section title=" Execution Properties" titleKey="tc_xrt_ExecutionProperties">
+                  <property name="fnd0state"/>
+                  <property name="fnd0status"/>
+                  <property name="saw1SSTWorkComplete" />
+                  <property name="fnd0SSTCompletePercent" modifiable="false" />
+                  <property name="fnd0ForecastStartDate" />
+                  <property name="fnd0SSTActualStart" modifiable="false"/>
+                  <property name="fnd0ForecastEndDate" />
+                  <property name="fnd0SSTActualFinish" modifiable="false" />
+              </section>
+              <section title="Flags" titleKey="tc_xrt_Flags">
+                  <property name="published"/>
+                  <property name="is_public"/>
+                  <property name="is_template" />
+                  <property name="fnd0IsExternal"/>
+                  <property name="dates_linked"/>
+                  <property name="percent_linked" />
+                  <property name="notifications_enabled" />
+                  <property name="end_date_scheduling"/>
+              </section>
+              <section title="Stakeholders" titleKey="tc_xrt_Stakeholders">
+                  <property name="owning_user" />
+                  <property name="customer_name" />
+                  <property name="customer_number"/>
+              </section>         
+       </firstcolumn>
+       <column>
+           <section title = "Deliverables" titleKey ="tc_xrt_Deliverables"> 
+               <objectSet source="schedule_deliverable_list.SchDeliverable" defaultdisplay="tableDisplay" maxRowCount="7">
+                   <tableDisplay>
+                        <property name = "object_name"/>
+                        <property name = "deliverable_type" modifiable="false" />
+                        <property name = "deliverable_inst" />
+                        <property name = "fnd0InstanceReleaseStatus"/>
+                        <property name = "fnd0InstanceLastModfiedDate"/>
+                        <property name = "fnd0InstanceOwningUser"/>
+                   </tableDisplay>
+                   <thumbnailDisplay/>
+                  <listDisplay>
+                        <property name = "object_name"/>
+                        <property name = "deliverable_type" modifiable="false" />
+                        <property name = "deliverable_inst" modifiable="false" />
+                        <property name = "fnd0InstanceReleaseStatus"/>
+                        <property name = "fnd0InstanceLastModfiedDate"/>
+                        <property name = "fnd0InstanceOwningUser"/>
+                   </listDisplay>
+                   <command actionKey="newBusinessObjectContextualAction" commandId="Saw1AddSchDeliverable" renderingHint="commandbutton" />
+           </objectSet>
+           </section>
+           <section title = "Members" titleKey ="tc_xrt_ScheduleMembers"> 
+         <objectSet source="saw1ScheduleMembers.ScheduleMember" defaultdisplay="tableDisplay" maxRowCount="7">
+            <tableDisplay>
+                <property name = "object_name" modifiable="false"/>
+                <property name = "saw1RoleInSchedule" modifiable="true"/>
+                <property name = "fnd0MemberTypeString" modifiable="false"/>
+                <property name = "saw1UserStatus" modifiable="false"/>
+           </tableDisplay>
+           <thumbnailDisplay/>
+           <listDisplay>
+              <property name = "object_name" modifiable="false"/>
+              <property name = "saw1RoleInSchedule" modifiable="true"/>
+              <property name = "fnd0MemberTypeString" modifiable="false"/>
+          </listDisplay>
+          <command actionKey="newBusinessObjectContextualAction" commandId="Saw1AddMember" renderingHint="commandbutton" />
+        </objectSet>
+       </section>
+       <inject type="dataset" src="Cm1ChangeItemOnScheduleSummaryOverview"/>       
+       </column>
+   </page>
+   <page title="Tasks" titleKey="tc_xrt_Tasks">
+      <objectSet source="Saw1TaskSearchProvider.WorkspaceObject" defaultdisplay="tableDisplay" sortby="" sortdirection="" maxRowCount="18" filterable="false">
+          <tableDisplay>
+               <property name="object_name"/>
+               <property name="object_desc"/>
+               <inject type="dataset" src="Adc1ScheduleTaskPlanning"/>
+               <inject type="dataset" src="Adc1ScheduleTaskFlags"/>
+               <property name="fnd0TaskTypeString" modifiable="false"/>
+               <property name="start_date"/>
+               <property name="finish_date"/>
+               <property name="saw1Duration"/>
+               <property name="ResourceAssignment" modifiable="false"/>
+               <property name="sch_task_deliverable_list" modifiable="false"/>
+               <property name="saw1WorkEffort"/>
+               <property name="saw1WorkComplete"/>
+               <property name="fnd0PercentCompleteString"/>
+               <property name="fnd0state"/>
+               <property name="fnd0status"/>
+               <property name="fnd0PriorityString" />
+               <property name="schedule_tag"  modifiable="false"/>
+               <property name="fnd0task_tag" modifiable="false"/>
+          </tableDisplay>
+          <thumbnailDisplay/>
+          <listDisplay>
+              <property name="object_name"/>
+               <property name="object_desc"/>
+               <inject type="dataset" src="Adc1ScheduleTaskPlanning"/>
+               <inject type="dataset" src="Adc1ScheduleTaskFlags"/>
+               <property name="fnd0TaskTypeString" modifiable="false"/>
+               <property name="start_date"/>
+               <property name="finish_date"/>
+               <property name="saw1Duration"/>
+               <property name="ResourceAssignment" modifiable="false"/>
+               <property name="sch_task_deliverable_list" modifiable="false"/>
+               <property name="saw1WorkEffort"/>
+               <property name="saw1WorkComplete"/>
+               <property name="fnd0PercentCompleteString"/>
+               <property name="fnd0state"/>
+               <property name="fnd0status"/>
+               <property name="fnd0PriorityString" />
+               <property name="schedule_tag"  modifiable="false"/>
+              <property name="item_id" modifiable="false"/>
+         </listDisplay>
+          <command actionKey="newBusinessObjectContextualAction" commandId="Saw1CreateScheduleTask" renderingHint="commandbutton" />
+     </objectSet>
+  </page>
+  <page title="Gantt" titleKey="tc_xrt_Gantt">
+  <section>
+     <htmlPanel declarativeKey="Saw1GanttBreadcrumbPanel"/>
+     <htmlPanel declarativeKey="Saw1SchGantt"/>
+</section>
+  </page>
+  <page title= "Resource Load" titleKey="tc_xrt_ResourceLoad">
+    <section>
+        <htmlPanel declarativeKey="Saw1ResourceChart"/>
+    </section>
+  </page>
+
+  <inject type="dataset" src="AuditLogForSchedule"/>
+  <inject type="dataset" src="Psi0ProgramRelationSummary"/>
+</content>
+</rendering>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_CAD_CATALOGS_ALLOWED_FOR_SEARCH" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Specifies the valid catalog entries and their formats to use when searching for materials:
+*CatalogName(CatalogUID): To use the last catalog revision.
+*CatalogName(CatalogRevisionUID): To use the specified catalog revision.
+*database(-): To search the entire database for materials.
+*any: To search for materials in any catalog defined in this list.
+If you do not specify a value for this preference, all the catalogs to which the user has access will be displayed.
+The first entry in the list is the default one selected on the UI.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

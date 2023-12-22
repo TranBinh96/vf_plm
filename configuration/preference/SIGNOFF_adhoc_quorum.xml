@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SIGNOFF_adhoc_quorum" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates if the task quorum modifiable by Teamcenter user in select-signoff-team can be set lower than that defined by the task template when adhoc signoffs functionality is enabled (EPM_adhoc_signoffs=ON). Valid values are 1/2.
+1 - User can set signoff quorum value either less than or greater than that set by task template.
+2 - User can set signoff quorum value only greater that that set by task template.
+
+NOTE: For setting 2, if the signoff-quorum is set as -1 (ALL), in that case, the user cannot modify the signoff quorum through select-signoff-team task.
+
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="OCS_company_email_domain" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>For the Teamcenter integration with Microsoft Office Communicator, specifies the company domain name for messages, but only when the OCS_use_email_property preference value is false.
+Valid Values:
+Any valid e-mail domain.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

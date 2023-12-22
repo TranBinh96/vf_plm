@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_PARAMETER_DENSITY" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the names of material density parameter to use when searching for the material density of type double. This density is required to calculate the mass for coating materials.</preference_description>
+      <context name="Teamcenter">
+        <value>mass density</value>
+        <value>massdensity</value>
+        <value>density</value>
+        <value>dichte</value>
+        <value>dens</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

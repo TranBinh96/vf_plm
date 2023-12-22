@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Language">
+    <category_description>Defines parameters for the session langage.</category_description>
+    
+               <preference name="TC_language_search" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the locale used in doing search operations. The search criteria specified by the user is assumed to be in this locale. If the value is not set, the search locale defaults to the client locale. If localization for Classification is enabled, selecting the search language in the attribute dictionary in the Classification Admin application changes the value of the TC_language_search preference interactively for all Teamcenter applications.
+Valid Values:
+cs_CZ - Czech
+de_DE - German
+en_US - English
+es_ES - Spanish
+fr_FR - French
+it_IT - Italian
+ja_JP - Japanese
+ko_KR - Korean
+ru_RU - Russian
+zh_CN - Chinese (as spoken in China)
+zh_TW - Chinese (as spoken in Taiwan)</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

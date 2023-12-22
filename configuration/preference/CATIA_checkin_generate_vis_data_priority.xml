@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_checkin_generate_vis_data_priority" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>The scheduling priority for Catia V5 to JT check-in and/or save translations. The valid values of this preference are 0, 1, 2, and 3 corresponding to OFF, low, medium, and high priority. If this preference is not specified, no visualization data will be generated for check-in and/or save.</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

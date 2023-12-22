@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+================================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+@<COPYRIGHT>@
+
+
+@Auther Nagesh Vashist
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+	 <!--      MEOP    -->
+	<page  visibleWhen="bl_item_object_type==MEOP">
+		 <column>
+						<property name="bl_item_object_type" />
+						<property name="bl_item_object_desc" />
+		 </column>
+		 <column>
+						<property name="bl_rev_date_released" />
+						<property name="bl_rev_owning_user" />
+		 </column>
+		 <column>
+						<property name="bl_sequence_no"/>
+		 </column>
+	</page>
+ <!--      Continuous Join Operation     -->
+  <page visibleWhen="bl_item_object_type==Mfg0MEContJoinOP">
+     <column>
+						<property name="bl_item_object_type" />
+						<property name="bl_item_object_desc" />
+		 </column>
+		 <column>
+						<property name="bl_rev_date_released" />
+						<property name="bl_rev_owning_user" />
+		 </column>
+		 <column>
+						<property name="bl_sequence_no"/>
+		 </column>
+ </page>
+ <!--      Discrete Join Operation     -->
+  <page visibleWhen="bl_item_object_type==Mfg0MEDiscreteOP">
+     <column>
+						<property name="bl_item_object_type" />
+						<property name="bl_item_object_desc" />
+		 </column>
+		 <column>
+						<property name="bl_rev_date_released" />
+						<property name="bl_rev_owning_user" />
+		 </column>
+		 <column>
+						<property name="bl_sequence_no"/>
+		 </column>
+ </page>
+ <!--      MEDrill   -->
+ <page visibleWhen="bl_item_object_type==MEDrill">
+     <column>
+						<property name="bl_item_object_type" />
+						<property name="bl_item_object_desc" />
+		 </column>
+		 <column>
+						<property name="bl_rev_date_released" />
+						<property name="bl_rev_owning_user" />
+		 </column>
+		 <column>
+						<property name="bl_sequence_no"/>
+		 </column>
+ </page>
+  <!--      MEMilling   -->
+ <page visibleWhen="bl_item_object_type==MEMilling">
+     <column>
+						<property name="bl_item_object_type" />
+						<property name="bl_item_object_desc" />
+		 </column>
+		 <column>
+						<property name="bl_rev_date_released" />
+						<property name="bl_rev_owning_user" />
+		 </column>
+		 <column>
+						<property name="bl_sequence_no"/>
+		 </column>
+ </page>
+  <!--      MEMillTurn   -->
+ <page visibleWhen="bl_item_object_type==MEMillTurn">
+     <column>
+						<property name="bl_item_object_type" />
+						<property name="bl_item_object_desc" />
+		 </column>
+		 <column>
+						<property name="bl_rev_date_released" />
+						<property name="bl_rev_owning_user" />
+		 </column>
+		 <column>
+						<property name="bl_sequence_no"/>
+		 </column>
+ </page>
+  <!--      MENCMachining   -->
+ <page visibleWhen="bl_item_object_type==MENCMachining">
+     <column>
+						<property name="bl_item_object_type" />
+						<property name="bl_item_object_desc" />
+		 </column>
+		 <column>
+						<property name="bl_rev_date_released" />
+						<property name="bl_rev_owning_user" />
+		 </column>
+		 <column>
+						<property name="bl_sequence_no"/>
+		 </column>
+ </page>
+  <!--      METurning   -->
+ <page visibleWhen="bl_item_object_type==METurning">
+     <column>
+						<property name="bl_item_object_type" />
+						<property name="bl_item_object_desc" />
+		 </column>
+		 <column>
+						<property name="bl_rev_date_released" />
+						<property name="bl_rev_owning_user" />
+		 </column>
+		 <column>
+						<property name="bl_sequence_no"/>
+		 </column>
+ </page>
+  <!--      MEWEDM   -->
+ <page visibleWhen="bl_item_object_type==MEWEDM">
+     <column>
+						<property name="bl_item_object_type" />
+						<property name="bl_item_object_desc" />
+		 </column>
+		 <column>
+						<property name="bl_rev_date_released" />
+						<property name="bl_rev_owning_user" />
+		 </column>
+		 <column>
+						<property name="bl_sequence_no"/>
+		 </column>
+ </page>
+  <!--      MEEDM   -->
+ <page visibleWhen="bl_item_object_type==MEEDM">
+     <column>
+						<property name="bl_item_object_type" />
+						<property name="bl_item_object_desc" />
+		 </column>
+		 <column>
+						<property name="bl_rev_date_released" />
+						<property name="bl_rev_owning_user" />
+		 </column>
+		 <column>
+						<property name="bl_sequence_no"/>
+		 </column>
+ </page>
+</rendering>

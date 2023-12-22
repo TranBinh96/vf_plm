@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DisableSaveSos" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the saving of saved option sets (SOSs). Use this preference to manage the transition of variant data from SOSs to variant rules. If you set this preference to true, you should update all external references (for example, briefcases and Multi-Site replications) to the corresponding variant rules.
+Valid Values:
+true - Users may create new SOSs or modify existing SOSs.
+false - Users cannot create new SOSs or modify existing SOSs.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

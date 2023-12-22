@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =======================================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved. =======================================================================
+     Filename: Sci0ItemCreate.xml
+
+    Style sheet rendering for Item creation.
+
+
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">
+        <!-- <section title="Item Information" titleKey="tc_xrt_ItemInformation">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name" />
+            <property name="object_desc" />
+            <separator/>
+            <property name="uom_tag" /> 
+        </section>
+
+        <section title="IMDS Properties" titleKey="tc_xrt_IMDS">
+            <property name="sci0IsIMDSObject" />
+            <property name="Sci0ItemHelperObject:sci0IsSemicomponent" />
+            <property name="Sci0ItemHelperObject:sci0ObjectNameOverflow" />
+            <property name="revision:sci0MeasuredWeight" />
+            <property name="revision:sci0UOMTag" />
+            <property name="revision:sci0UnitType" />
+            <property name="revision:sci0PolymericPartMarking" />
+        </section>
+            
+        <section title="Additional Item Information" titleKey="tc_xrt_AdditionalItemInformation" initialstate="collapsed">
+            <property name="IMAN_master_form:project_id" />
+            <property name="IMAN_master_form:previous_item_id" />
+            <property name="IMAN_master_form:serial_number" />
+            <property name="IMAN_master_form:item_comment" />
+            <property name="IMAN_master_form:user_data_1" />
+            <property name="IMAN_master_form:user_data_2" />
+            <property name="IMAN_master_form:user_data_3" />
+        </section>
+
+        <section title="Item Revision Information" titleKey="tc_xrt_ItemRevisionInformation" initialstate="collapsed">
+            <property name="revision:IMAN_master_form_rev:project_id" />
+            <property name="revision:IMAN_master_form_rev:previous_version_id" />
+            <property name="revision:IMAN_master_form_rev:serial_number" />
+            <property name="revision:IMAN_master_form_rev:item_comment" />
+            <property name="revision:IMAN_master_form_rev:user_data_1" />
+            <property name="revision:IMAN_master_form_rev:user_data_2" />
+            <property name="revision:IMAN_master_form_rev:user_data_3" />
+        </section> -->
+       
+        <label text= "NOTE: This function no longer avaiblable to create Item."/>
+        <label text= "For more information or you want to create this object type, please contact the administrator."/>
+    </page>
+
+</rendering>
+

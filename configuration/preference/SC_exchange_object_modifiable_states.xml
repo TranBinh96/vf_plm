@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_exchange_object_modifiable_states" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of exchange statuses for which modification is allowed for Exchange objects.
+Valid values are the internal names of the LOV &quot;Sc0ExchangeObjectStatusLOV&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Created</value>
+        <value>Send Failed</value>
+        <value>Approved</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

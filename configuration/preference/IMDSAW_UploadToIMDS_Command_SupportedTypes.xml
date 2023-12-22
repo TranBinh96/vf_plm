@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Substance Compliance IMDS Integration">
+    <category_description>Substance Compliance IMDS Integration Active Workspace preferences</category_description>
+    
+               <preference name="IMDSAW_UploadToIMDS_Command_SupportedTypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the types of objects to which Upload To IMDS command is visible in the Active Workspace client. Valid values are internal names of the types.</preference_description>
+      <context name="Teamcenter">
+        <value>Part Revision</value>
+        <value>Mat1MaterialRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

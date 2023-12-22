@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2011. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: Civ0SCOCntPkgRevisionSaveAs.xml  
+   
+     Default style sheet for displaying Civ0SCOCntPkgCreateRevision Save As 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+======================================================================= 
+@<DEL>@  
+-->
+
+
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+      <column>
+        <property name="DocumentTitle" />
+        <separator/>
+        <property name="civ0dmeproducer" />
+        <property name="civ0dmecode" />
+        <property name="skdmodelic" />
+        <property name="skdpmissuer" />
+        <property name="skdpmnumber" />
+        <property name="skdpmvolume" />
+        <separator/>
+        <property name="skdexportfilename" />
+        <property name="isTemplate" />
+        <property name="referenceOnly" />
+      </column>
+      <column>
+         <section titleKey="tc_xrt_IssueDetails">
+            <property name="skdissno" />
+            <property name="civ0inwork" />
+            <property name="skdiss_type" />
+            <property name="skdissdate_day" />
+            <property name="skdissdate_month" />
+            <property name="skdissdate_year" />
+        </section>
+        <section titleKey="tc_xrt_Details">
+            <property name="skdsecurity_class" />
+            <property name="skdrpc" />
+            <property name="skdorig" />
+            <property name="skdqa" />
+            <property name="skdsbc" />
+            <property name="skdremarks" />
+            <property name="skdskill" />
+            <property name="c1k0skdmediacode" />
+            <property name="c1k0skdmediatype" />
+            <property name="skdfic" />
+            <property name="skdrfu" />
+        </section>
+      </column>
+   </page>
+</rendering>

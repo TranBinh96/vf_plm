@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Search_Enable_Snippets" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>A logical preference when set to true will return snippets in Search location Primary work area( object tile ).
+Before this, need to set global constant &quot;Awp0StoreDatasetContent&quot; in BMIDE to true and re-index all the datasets.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

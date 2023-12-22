@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_CM_AutomatedDecision_Actions" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>The preference value describes the customizable behavior for a given object type with associated reason and actions.
+Values are in the format &quot;ObjectType=object_type;Reason=reason;Actions=commands&quot;, where:
+object_type is the internal type
+reason associated with the modification on the object
+commands is the comma-separated list of commands.</preference_description>
+      <context name="Teamcenter">
+        <value>ObjectType=Item;Actions=Save,Revise,SaveAs,Ignore</value>
+        <value>ObjectType=Item;Reason=Released;Actions=Revise,SaveAs,Save,Ignore</value>
+        <value>ObjectType=Mdl0ConditionalElement;Actions=Save,Revise,SaveAs,Ignore</value>
+        <value>ObjectType=Mdl0ConditionalElement;Reason=Released;Actions=Revise,SaveAs,Save,Ignore</value>
+        <value>ObjectType=Mdl0ConditionalElement;Reason=EffectivitySplit;Actions=SaveAs,Revise,Save,Ignore</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

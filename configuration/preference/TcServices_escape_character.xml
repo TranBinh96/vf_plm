@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TcServices_escape_character" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>TcServices condensed property XML sends XML property data as a single string with separators.  The TcServices_escape_character is the character used to escape the property value strings containing the separator values. This preference is not intended for customer use.</preference_description>
+      <context name="Teamcenter">
+        <value>\</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

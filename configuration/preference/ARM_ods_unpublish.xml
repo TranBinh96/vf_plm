@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ARM_ods_unpublish" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Activates the performance monitoring of the Multi-Site Collaboration unpublish object function in both the Teamcenter server and the ODS service.
+For client processes, the transaction reports the duration of time required to perform an unpublish object operation on the selected objects.
+For ODS processes, the transaction reports the time required to remove the publication records for the objects and to report operation status back to the
+requesting client process.
+Operation status or error code metrics can also be reported for both client and server processes.
+Valid Values:
+* ON: Enables performance monitoring of the Multi-Site Collaboration unpublish object function in both the Teamcenter server and the ODS service.
+* OFF: Suppresses performance monitoring of the Multi-Site Collaboration unpublish object function in both the Teamcenter server and the ODS service.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

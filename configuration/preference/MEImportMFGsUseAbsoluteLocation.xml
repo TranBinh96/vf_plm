@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEImportMFGsUseAbsoluteLocation" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates how the Import Manufacturing Features command applies the transformation to manufacturing features, as written in the PLM XML.
+Valid Values:
+true - The transformation is applied as absolute location.
+false - The transformation is applied as relative location.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mail_server_authentication_activated" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines if the Mail sent from Teamcenter needs to be Authenticated.
+Valid Values:
+* true: The authentication will be performed while sending an email. An admin will need to update Mail_server_authentication_id, Mail_server_connection_security,
+Mail_server_authentication_passwd_location and Mail_server_ssl_protocol if authentication is true.
+* false: The email will be sent without authentication. An admin may need to update the Mail_server_port if authentication is false. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

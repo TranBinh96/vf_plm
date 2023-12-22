@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_show_multiple_classification_tooltip" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the attribute IDs displayed in the multiple classification tab tooltips.
+In addition to the common ICO attributes, the following internal attributes can be used:
+-570 WSO Type
+-572 WSO Name
+-599 ICO Object ID
+-600 Class ID
+-607 Class Name
+-630 Class Unit
+-732 ICO Type
+If an attribute is specified in this preference but is not available in the ICO, it is ignored in the tooltip.
+The values are displayed in the following format:
+Attribute Name: Attribute Value
+The default value is: -600</preference_description>
+      <context name="Teamcenter">
+        <value>-600</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

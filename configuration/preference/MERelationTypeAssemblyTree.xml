@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MERelationTypeAssemblyTree" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the relation type that indicates that the assigned occurrence group is an assembly type when creating in-process assemblies in Manufacturing Process Planner.
+Valid Values:
+A single string.</preference_description>
+      <context name="Teamcenter">
+        <value>MEWorkpiece</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_BOM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINFAST_BOM_EXPORT_EXTRA_INFO" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Usage for BOM Export plugin</preference_description>
+      <context name="Teamcenter">
+        <value>0,Maturity Level</value>
+        <value>1,Costing</value>
+        <value>2,Vehicle Usage</value>
+        <value>3,Plant Information</value>
+        <value>4,TGSS Document Number</value>
+        <value>5,IMDS</value>
+        <value>6,PFEP</value>
+        <value>7,CAD</value>
+        <value>8,Have Drawing</value>
+        <value>9,Save Variants</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

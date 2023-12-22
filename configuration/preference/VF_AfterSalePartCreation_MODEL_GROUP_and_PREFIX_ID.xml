@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="VF_Client_Customization">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VF_AfterSalePartCreation_MODEL_GROUP_and_PREFIX_ID" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF_AfterSalePartCreation_MODEL_GROUP_and_PREFIX_ID</preference_description>
+      <context name="Teamcenter">
+        <value>EBUS=4000</value>
+        <value>FADIL=6000</value>
+        <value>LUX=1000</value>
+        <value>Scooter=0000</value>
+        <value>V8=1003</value>
+        <value>VF32=7300</value>
+        <value>VF33=7000</value>
+        <value>VF34=2000</value>
+        <value>VFe34S=7100</value>
+        <value>VF35=3000</value>
+        <value>VF36=8000</value>
+      </context>
+    </preference>
+  </category>
+</preferences>
+               

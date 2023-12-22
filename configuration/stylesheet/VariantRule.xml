@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+@<COPYRIGHT>@
+
+    Filename: VariantRuleRule.xml
+
+       Default style sheet for displaying VariantRule properties.
+-->
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">
+        <property name="object_name"/>
+        <property name="object_desc"/>
+        <property name="object_type"/>
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+        <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+        <property name="last_mod_date"/>
+        <property name="last_mod_user" />
+        <property name="release_status_list"/>
+    </page>
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

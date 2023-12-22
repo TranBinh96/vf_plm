@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEShowConfigurationHeader" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether to show the configuration header in manufacturing views in Manufacturing Process Planner, Part Planner, and Plant Designer. The header shows configuration information such as revision rule, variant rule, effectivity, and incremental change context.
+Valid Values:
+true - The configuration header is shown in primary views.
+false - The configuration header is not shown in primary views.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

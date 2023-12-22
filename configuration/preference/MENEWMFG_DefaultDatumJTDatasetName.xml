@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MENEWMFG_DefaultDatumJTDatasetName" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the name of the JT dataset that is attached by default to every newly created datum at import.
+Valid Values:
+The Teamcenter business object type, followed by the control direction and dataset name, in the following format:
+type:control_direction:datasetname</preference_description>
+      <context name="Teamcenter">
+        <value>MeasurementDatum:default:datum_measurement</value>
+        <value>SphereDatum:default:mpaw_datumlocfea</value>
+        <value>PinDatum:default:mpaw_datumlocfea</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

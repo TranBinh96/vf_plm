@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAccountabilityUseCacheless" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Accelerates the accountability check when part of a BOM source is compared to an entire bill of process (BOP) target and the Missing in Source option is not selected. This functionality relies on the cacheless search in a bill of process. In some cases, such as when using generic design elements (GDEs), this is not supported. If the data has such lines, set the preference value to false.
+Valid Values:
+true - The accountability check uses the cacheless search to accelerate the check.
+false - The accountability does not use the cacheless search to accelerate the check.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

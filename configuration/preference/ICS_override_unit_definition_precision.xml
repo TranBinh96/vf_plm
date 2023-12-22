@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_override_unit_definition_precision" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether Teamcenter overrides the precision defined in the Decimal Places attribute in the unit definition ICO while displaying the attribute value of the attributes for which optimized display is turned on.
+Valid Values:
+true - Teamcenter overrides the number of decimal places specified in the unit definition.
+false - Teamcenter displays the number of decimal places specified in the unit definition.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

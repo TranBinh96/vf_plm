@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VF_Client_Customization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_AfterSalePartCreation_MATERIAL_GROUP" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF_AfterSalePartCreation_MATERIAL_GROUP</preference_description>
+      <context name="Teamcenter">
+        <value>SVC</value>
+        <value>SVK</value>
+        <value>SST</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

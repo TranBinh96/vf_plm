@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VF_PART_CREATE_PURCHASELEVEL_VALIDATE" type="String" array="true"
+      disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Used in VF Design Dialog to load Purchase Level based on Make/Buy</preference_description>
+      <context name="Teamcenter">
+        <value>Make;IB,H,I</value>
+        <value>Buy;P,D,DPT,DPS,S,BL,AXS</value>
+        <value>Information;I</value>
+        <value>Sell;H</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

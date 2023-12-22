@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_check_remote_user_priv_from_sites" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether individual remote user privileges are checked before remote users are allowed to perform the remote operations listed below. Use this preference to list the remote sites included in this security check. Whenever remote operations are attempted from any remote site named in this preference, the system evaluates current AM rules for the IDSM site for the remote user ID. The security check is implemented on the IDSM 
+server and applies to any remote site named by the local site. If this preference is not set, the system applies AM rules only at the site level. In this situation, only the remote site&apos;s AM privileges are checked against the AM rule tree of the owning site; access to individual objects at the owning site are not validated against individual remote user privileges. In this scenario, the IDSM_permitted_users_from_site_sitename, 
+IDSM_permitted_transfer_users_from_site_sitename and IDSM_permitted_checkout_users_from_site_sitename preferences can be used to determine remote user access to replicate, transfer, and to check in or to check out remote data. You will override these three preferences if you set the TC_check_remote_user_priv_from_sites preference.The remote operations affected are:
+Remote import
+Remote import with transfer of ownership
+Remote check outRemote export 
+Remote export with transfer of ownership
+Data share utilities
+Pull synchronization
+On demand synchronization
+Valid Values:
+Accepts one or more strings as values. Each string must be the name of a valid remote site.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

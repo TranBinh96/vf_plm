@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_unknown_substance_cas" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the Chemical Abstracts Service number of unknown Substance.</preference_description>
+      <context name="Teamcenter">
+        <value>0000-00-0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

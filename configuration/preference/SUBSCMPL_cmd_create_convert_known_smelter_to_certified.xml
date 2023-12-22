@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_cmd_create_convert_known_smelter_to_certified" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allows to create new smelters in Teamcenter database, which is unknown and uncertified, and then convert these smelters into known and certified smelters during smelter validation.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

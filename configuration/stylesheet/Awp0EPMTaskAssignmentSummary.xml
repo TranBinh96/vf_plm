@@ -1,0 +1,12 @@
+<subRendering>
+    <page titleKey="tc_xrt_Assignments" visibleWhen="{pref:WRKFLW_show_deferred_participant_assignments}!=true and awp0ShowParticipants==null and fnd0FirstTargetParticipants!=undefined">
+        <content>
+                <htmlPanel declarativeKey="Awp0TaskAssignment"/>
+        </content>
+    </page>
+    <page titleKey="tc_xrt_Assignments" visibleWhen="{pref:WRKFLW_show_deferred_participant_assignments}==true">
+      <content>
+        <htmlPanel declarativeKey="Awp0TaskAssignment"/>
+      </content>
+    </page>
+</subRendering>

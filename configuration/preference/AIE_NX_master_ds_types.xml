@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.AIE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AIE_NX_master_ds_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Preference to indicate the list of valid master dataset types for NX family in AIE.</preference_description>
+      <context name="Teamcenter">
+        <value>MUGPART</value>
+        <value>MUGMASTER</value>
+        <value>MUGALTREP</value>
+        <value>MNXMotion</value>
+        <value>MUGSCENARIO</value>
+        <value>MNXSimulation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

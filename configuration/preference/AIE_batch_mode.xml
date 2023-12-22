@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.AIE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AIE_batch_mode" type="Logical" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Indicates if the execution needs to be done in a batch mode with AIE. Valid values are YES/NO.</preference_description>
+      <context name="Teamcenter">
+        <value>YES</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

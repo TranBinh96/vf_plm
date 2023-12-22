@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="StudyAllowedTemplates" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the names of the cloning rules to be used when cloning one study to another study.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter cloning rule.</preference_description>
+      <context name="Teamcenter">
+        <value>StudyTemplate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_EMAIL_AFTER_BACKGROUND_REMOTE_IMPORT" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls whether an e-mail notification is sent after completion of a background remote import operation. The e-mail address must be defined in the person object of the user who started the remote import. Otherwise, an e-mail is not sent.
+Valid Values:
+TRUE - An e-mail notification is sent after completion of a background remote import operation.
+FALSE - An e-mail notification is not sent after completion of a background remote import operation.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

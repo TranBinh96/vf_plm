@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_ifs_foreignfile_query_attr" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the import attributes list used for foreign files</preference_description>
+      <context name="Teamcenter">
+        <value>OEM_partNumber</value>
+        <value>OEM_definition</value>
+        <value>OEM_revision</value>
+        <value>OEM_nomenclature</value>
+        <value>OEM_description</value>
+        <value>OEM_filePath</value>
+        <value>OEM_dlname</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

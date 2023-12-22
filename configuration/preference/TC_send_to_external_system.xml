@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.TCAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_send_to_external_system" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>If this option is OFF, &quot;Send to External System&quot; in PSE-&gt;Menubar is unavailable</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

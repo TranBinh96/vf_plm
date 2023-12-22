@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CPD.Bounding Box Update">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CPD_execute_dataset_save_post_action" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates dataset save post action that updates the Positioned Geometry for a Design Component object whenever a dataset of type UGMASTER, UGALTREP or DirectModel is attached to an Item Revision, which is referenced by that Design Component.
+The update action may modify one or more of the following depending on the information available from the dataset being attached on the Item Revision:
+* bounding box coordinates
+* Trueshape Data
+* Direct Model Data
+The default value is false, which disables the above action if only appmodel is installed.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

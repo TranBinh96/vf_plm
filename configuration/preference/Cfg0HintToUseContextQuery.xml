@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configurator Services">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0HintToUseContextQuery" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specified list of hints that is used to optimize the context specific staleness check query.
+Alias can be changed based on the requirements.</preference_description>
+      <context name="Teamcenter">
+        <value>LEADING(t_04 t_03)</value>
+        <value>LEADING(t_07 t_06)</value>
+        <value>LEADING(t_010 t_09)</value>
+        <value>LEADING(t_013 t_011)</value>
+        <value>LEADING(t_015 t_014)</value>
+        <value>LEADING(t_019 t_018)</value>
+        <value>LEADING(t_023 t_021)</value>
+        <value>no_merge</value>
+        <value>opt_param(&apos;_hash_join_enabled&apos;,&apos;FALSE&apos;) opt_param(&apos;_optimizer_sortmerge_join_enabled&apos;,&apos;FALSE&apos;) OPT_PARAM(&apos;_B_TREE_BITMAP_PLANS&apos;,&apos;FALSE&apos;)</value>
+        <value>NO_INDEX(t_027 PIPPOM_APPLICAT_3)</value>
+        <value>DYNAMIC_SAMPLING(t_025 4)</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

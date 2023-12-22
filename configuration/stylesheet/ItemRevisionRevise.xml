@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+======================================================================= 
+    Copyright 2018. 
+    Siemens Product Lifecycle Management Software Inc. 
+    All Rights Reserved.
+======================================================================= 
+    Filename: ItemRevisionRevise.xml 
+    
+    Style sheet rendering for Item Revision revise in revise dialog. 
+======================================================================= 
+-->
+
+<rendering>
+   <page title="Item Revision Information" titleKey="tc_xrt_ItemInformation">
+      <property name="item_revision_id" renderingHint="autoassignrevid" />
+      <property name="object_name" />
+      <property name="object_desc" />
+   </page>
+</rendering>   

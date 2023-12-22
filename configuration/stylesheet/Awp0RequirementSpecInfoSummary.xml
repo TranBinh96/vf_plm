@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying requirement spec Info Panel in Revolution Client. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+            <property name="item_id" renderingHint="label"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="object_type"/>
+            <property name="release_status_list" renderingHint="label"/>
+            <property name="date_released" renderingHint="label"/>
+            <property name="effectivity_text" renderingHint="label"/>
+            <break/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_user"/>
+            <property name="checked_out" renderingHint="label"/>
+            <property name="checked_out_user"/>
+        </section>
+        <section titleKey="revision_list">
+            <objectSet source="revision_list.ItemRevision" defaultdisplay="listDisplay" sortdirection="descending" sortby="last_mod_date">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="item_revision_id"/>
+                    <property name="release_status_list"/>
+                    <property name="last_mod_date"/>
+                    <property name="last_mod_user"/>
+                    <property name="checked_out_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="item_revision_id"/>
+                    <property name="release_status_list"/>
+                    <property name="last_mod_date"/>
+                    <property name="last_mod_user"/>
+                    <property name="checked_out_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

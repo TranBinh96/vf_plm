@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDSIntegration_semicomponent_material_type" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the Compound Material type which will be created under the semi-component.</preference_description>
+      <context name="Teamcenter">
+        <value>Mat1CompMaterial</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

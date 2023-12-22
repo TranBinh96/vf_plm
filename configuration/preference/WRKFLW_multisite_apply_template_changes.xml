@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_multisite_apply_template_changes" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the application of template changes in a replica site after synchronization.
+If a replica template has active workflow processes, this preference will be consulted before applying the template changes to the active workflow processes when the replica template is synchronized with changes made to the master template.
+Valid Values:
+true: Template changes will be applied to the active workflow processes after synchronizing the template changes.
+false:Template changes will not be applied to the active workflow processes after synchronizing the template changes.  This is the default value.
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

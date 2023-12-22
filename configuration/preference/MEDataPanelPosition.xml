@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEDataPanelPosition" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies where to open the data pane of a structure, either to the right of the structure or below the structure.
+Valid Values:
+right - Displays the data pane to the right of the structure.
+bottom - Displays the data pane below the structure.</preference_description>
+      <context name="Teamcenter">
+        <value>right</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

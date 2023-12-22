@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_create_OEMForms_option" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set the following variable within Teamcenter Preferences to specify whether an OEM form should be created and attached to any types of dataset when an item revision is created.
+The default value is false
+This setting is ignored when the Import feature is used, and OEM forms will still be created for each dataset types.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

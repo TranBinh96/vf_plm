@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ImpactAnalysisViewWhereUsedBatchSize" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the number of WhereUsed nodes which will be sent to the server SOA in a single request.
+These nodes are displayed in the Where Used pane of the Impact Analysis View.
+A valid value is a strictly positive integer.
+The default value is set to 5000.
+Increasing the value might negatively affect the UI rendering performance of the Impact Analysis View for Teamcenter Rich Client.
+Reducing the value increases the client/server chattiness, which might also negatively affect the performance.</preference_description>
+      <context name="Teamcenter">
+        <value>5000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

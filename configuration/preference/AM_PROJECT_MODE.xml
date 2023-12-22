@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AM_PROJECT_MODE" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the system evaluates the roles in all the active projects of the logged in user, or just the role of the current project, when processing the Role in Project and Role in Projects of Object accessors.The Teamcenter servers must be restarted after setting this site preference, for the setting to become effective in Access Manager evaluation.
+Valid Values:
+true - System evaluates the roles in all active projects of the logged in user while processing the Role in Project and Role in Projects of Object accessors.
+false - System evaluates only the roles of the current project of the logged in user while processing the Role in Project and Role in Projects of Object accessors.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

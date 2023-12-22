@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client.Effectivity">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="APS_Effectivity_View_Column_Property" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains the object property name to be shown as a first column in the Effectivity View. 
+Valid value is internal name of the any property.
+The default value is &quot;object_string&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>object_string</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

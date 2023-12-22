@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="Mat1MatCatalogRevision_ItemRevision_default_relation" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default relationship to use when pasting a material revision under an object of the Mat1MatCatalogRevision type. Note that the relation mat1UsesMaterial must be avoided. 
+Default value: Hyphen (-)</preference_description>
+      <context name="Teamcenter">
+        <value>-</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

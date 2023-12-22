@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Audit Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_audit_track_changed_properties_only" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies if audit logs are written when there are no changes to any tracked attribute value. This preference applies to the Modify event type only.
+Valid Values:
+True - Audit logs are written only when a tracked attribute value changes.
+False - Audit logs are written irrespective of changes in tracked attribute values.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

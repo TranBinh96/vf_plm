@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ECR_View_Columns_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>Vf6_ECRRevision.object_string</value>
+        <value>Vf6_ECRRevision.awp0Item_item_id</value>
+        <value>Vf6_ECRRevision.item_revision_id</value>
+        <value>Vf6_ECRRevision.object_name</value>
+        <value>ItemRevision.release_status_list</value>
+        <value>Vf6_ECRRevision.vf6_module_group_comp</value>
+        <value>Vf6_ECRRevision.vf6_effective_proposal</value>
+        <value>Vf6_ECRRevision.vf6_model</value>
+        <value>Vf6_ECRRevision.vf6_initiator</value>
+        <value>ImanQuery.creation_date</value>
+        <value>Vf6_ECRRevision.process_stage_list</value>
+        <value>Vf6_ECRRevision.vf6_change_reason</value>
+        <value>Vf6_ECRRevision.vf6_capa_number</value>
+        <value>Vf6_ECRRevision.object_type</value>
+        <value>Vf6_ECRRevision.owning_user</value>
+        <value>ItemRevision.owning_group</value>
+        <value>ImanQuery.last_mod_date</value>
+        <value>Vf6_ECRRevision.CMImplementedBy</value>
+        <value>Vf6_ECRRevision.vf6_coordinated_change</value>
+        <value>Vf6_ECRRevision.vf6_impacted_module_comp</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

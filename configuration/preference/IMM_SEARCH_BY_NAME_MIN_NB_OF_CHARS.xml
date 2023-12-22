@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_SEARCH_BY_NAME_MIN_NB_OF_CHARS" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the minimum number Of Characters allowed to search for materials by Name, without concidering the * wildcard. 
+Without a catalog and for performance reasons it is recommended to avoid search for materials based on the name with 0 characters.</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

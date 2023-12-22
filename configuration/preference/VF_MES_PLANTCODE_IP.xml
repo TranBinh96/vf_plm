@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client.SAP_MES">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_MES_PLANTCODE_IP" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Transfer to SERVER based on PLANT CODE</preference_description>
+      <context name="Teamcenter">
+        <value>2001=10.128.11.183</value>
+        <value>2002=10.128.11.183</value>
+        <value>3004=10.128.11.133,10.128.11.183</value>
+        <value>3002=10.128.11.116</value>
+        <value>3003=10.128.11.133,10.128.11.183</value>
+        <value>3001=10.128.11.128,10.128.11.133,10.128.11.183</value>
+        <value>3092=10.128.11.183</value>
+        <value>3094=10.128.11.133</value>
+        <value>3095=10.128.11.133,10.128.11.183</value>
+        <value>3096=10.128.11.116,10.128.11.133</value>
+        <value>3097=10.128.11.183</value>
+        <value>3098=10.128.11.133,10.128.11.183</value>
+        <value>3099=10.128.11.133,10.128.11.183</value>
+        <value>3093=10.128.11.133,10.128.11.183</value>
+        <value>3088=10.128.11.116</value>
+        <value>3087=10.128.45.24</value>
+        <value>3089=10.128.11.183</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

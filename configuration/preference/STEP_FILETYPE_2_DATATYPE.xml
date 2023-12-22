@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.STEP Translator">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="STEP_FILETYPE_2_DATATYPE" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Serves as an error recovery mechanism when a dataset cannot be created because the descriptive_representation_item field either  does not contain the name of a tool in the list of Teamcenter tools, or the named tool is not associated to a dataset type.Pre-V7.0.2, the STEP AP214 processor used the descriptive_representation_item field to determine which dataset 
+type is associated to external files. If this field did not contain the name of a tool in the list of tools, or if the named tool was not associated to a dataset type, the dataset is not created and the external file is dropped. In these circumstances, use this preference as an error recovery method.If the STEP AP214 translator cannot find an appropriate tool, it try to infer the 
+correct tool from the file extension. Use this preference to define a list of file types and tool names that the AP214 translator use to assign the appropriate tool and dataset type.
+Valid Values:
+One or more strings, in the following format:
+extension_name1 whitespace tool_name1
+extension_name2 whitespace tool_name2
+extension_name3 whitespace tool_name3
+extension_name* is a file extension without the dot character, whitespace is any amount of space without a new line character, and tool_name is a valid Teamcenter tool that is associated with a dataset type.The string NULL_EXTENSION is a special extension name and is reserved for files that may not have an extension. For example:
+STEP_FILETYPE_2_DATATYPE=
+doc Text
+model CATIA_Part
+prt UGMASTER
+NULL_EXTENSION UGPART</preference_description>
+      <context name="Teamcenter">
+        <value>doc MSWord</value>
+        <value>dat Text</value>
+        <value>model CATIA_Part</value>
+        <value>prt UGPART</value>
+        <value>jt DirectModel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

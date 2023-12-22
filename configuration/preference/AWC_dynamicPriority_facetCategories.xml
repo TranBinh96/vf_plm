@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_dynamicPriority_facetCategories" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the facet categories that can be used to determine whether dynamic prioritization of facet categories is required.
+Valid values are the properties defined as facet-able in BMIDE.
+The default value is &quot;Lbr0LibraryElement.lbr0Ancestors&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Lbr0LibraryElement.lbr0Ancestors</value>
+        <value>Classification.type</value>
+        <value>CLS.type</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

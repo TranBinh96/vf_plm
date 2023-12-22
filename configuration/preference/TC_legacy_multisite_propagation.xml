@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_legacy_multisite_propagation" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates legacy (CMS) multisite behavior for TcXML mode. Default value is false.
+Valid Values: 
+* true:  force re-propagation for replicated objects at remote site during TcXML multisite import operation and enforce CMS behavior post import.
+* false: no re-propagation for replicated objects during TcXML multisite import operation, just replication. Skip propagation over replica object, if the object is not checked out by login user.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

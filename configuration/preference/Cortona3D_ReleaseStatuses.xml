@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General.Cortona3D">
+    <category_description>Cortona3D Rapid Author Preferences</category_description>
+    
+               <preference name="Cortona3D_ReleaseStatuses" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines Release Statuses to check before Import/Edit.</preference_description>
+      <context name="Teamcenter">
+        <value>TCM Released</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

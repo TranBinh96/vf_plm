@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Fnd0AdminLOVValue.xml
+
+    Style sheet rendering for Fnd0AdminLOVValue properties.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">
+       <property name="object_name" column="32"/>
+       <property name="object_desc" />
+       <property name="fnd0lov_value" />
+       <property name="fnd0lov_description"/>
+       <property name="fnd0lov_category" />  
+    </page>
+</rendering>

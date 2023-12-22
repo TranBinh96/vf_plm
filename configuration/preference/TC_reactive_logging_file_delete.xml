@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ReactiveLogging">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_reactive_logging_file_delete" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>The PJL and JNL files will be removed from the temporary directory.
+This preference is only meant for reactive logging.
+Valid values are:
+* true: Deletes the PJL and JNL files from the temporary directory.
+* false: Does not delete the PJL and JNL file from the temporary directory.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

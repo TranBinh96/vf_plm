@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2009. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: TransltnOfficeCreate.xml  
+   
+     Default style sheet for displaying TransltnOffice Create 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+08/25/10     desouza                 Initial Version 
+======================================================================= 
+@<DEL>@  
+--> 
+
+<rendering>
+   <page title=" ">
+         <section titleKey="tc_xrt_properties">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name"/>          
+            <property name="revision:translOfficeTitle" />
+            <property name="revision:Address" />
+            <property name="revision:ContactName" />
+            <property name="revision:Phone" />
+            <property name="revision:Website" renderingHint="textfield" />
+            <property name="revision:emailInbox" />
+            <property name="revision:deliverComposedContent"  />
+            <property name="revision:deliverDecomposedContent"  />
+            <property name="revision:includeSupportingData" />
+         </section>
+   </page>
+   
+</rendering>

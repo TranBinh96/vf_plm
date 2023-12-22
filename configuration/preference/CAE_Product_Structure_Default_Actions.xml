@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_Product_Structure_Default_Actions" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default actions for a criteria executed in the CAE Manager&apos;s Inspector view on the simulation structure.
+The format for the default value is &quot;Criteria::DefaultAction&quot; where the valid values for the criteria are &quot;Model With Different Product Revision Target&quot;,
+&quot;Model With No Product&quot; and &quot;Extra Model Components&quot;.
+The valid values for Criteria &quot;Model With Different Product Revision Target&quot; are &quot;Do Nothing&quot;, &quot;Use New Model&quot;, &quot;Use Model Related to Product Item&quot;, &quot;Use Model Related to Product Revision&quot;, &quot;Use Revised Model&quot;, &quot;Replace Relationship&quot; and &quot;Add Relationship&quot;.
+The valid values for Criteria &quot;Model With No Product&quot; are &quot;Do Nothing&quot;, &quot;Add Relationship&quot; and &quot;Remove Model&quot;.
+The valid values for Criteria &quot;Extra Model Components&quot; are &quot;Do Nothing&quot; and &quot;Remove Model&quot;.
+The default value for all the Criteria is &quot;Do Nothing&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Product with no Model::Do Nothing</value>
+        <value>Missing Model Components::Do Nothing</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

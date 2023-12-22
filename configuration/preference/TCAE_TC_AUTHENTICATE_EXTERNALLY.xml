@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAE_TC_AUTHENTICATE_EXTERNALLY" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>To enable Authentication of Tc User&apos;s password through LDAP, set this preference to TRUE. If the value is set to FALSE (default value), then the authentication would be done through Tc.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

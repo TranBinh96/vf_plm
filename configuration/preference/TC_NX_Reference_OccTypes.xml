@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_Reference_OccTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the occurrence type names that need to be treated as reference geometry by NX.
+Valid Values:
+Any occurrence type name that needs to be treated as reference geometry.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

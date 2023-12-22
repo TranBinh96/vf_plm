@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_3DViewerDisplayUnit" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Sets the display unit for the 3D viewer.
+The valid values for display unit will be:
+1: Millimeters.
+2: Centimeters.
+3: Meters.
+4: Inches.
+5: Feet.
+6: Yards.
+7: Micrometers.
+8: Decimeters.
+9: Kilometers.
+10: Mils.</preference_description>
+      <context name="Teamcenter">
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

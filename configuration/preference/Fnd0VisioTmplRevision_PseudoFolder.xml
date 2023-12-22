@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Diagramming">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Fnd0VisioTmplRevision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of Visio Template Revision relations which need to be shown as &quot;pseudo-folder&quot;.
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0DiagramTmplRelation</value>
+        <value>CAEAnalysis</value>
+        <value>MEProcess</value>
+        <value>MESetup</value>
+        <value>view</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

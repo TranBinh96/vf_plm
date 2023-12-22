@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_platformdesigner_assign_bulk_variability" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if the user can add and remove variability on the product context in bulk with Platform Designer.
+Valid Values:
+true - The user can add and remove variability on the product context in bulk.
+false - The user cannot add and remove variability on the product context in bulk.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

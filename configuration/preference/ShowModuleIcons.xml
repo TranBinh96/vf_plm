@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ShowModuleIcons" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Determines whether modular variants are indicated in item and item revision icons. If set to true, the icon of items and item revisions containing a module are displayed in gray scale.This preference can be set using the preference name as an environment variable.Setting this preference to true impacts performance. Siemens PLM Software recommends that if modular variants are not used at your site, the default setting is kept.For information about indicating if an item or item revision is a variant item in item and item revision icons, see the  preference.
+Valid Values:
+true - Displays icons of items and item revision containing modular variants in gray scale.
+false - Does not display icons of items and item revision containing modular variants in gray scale.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

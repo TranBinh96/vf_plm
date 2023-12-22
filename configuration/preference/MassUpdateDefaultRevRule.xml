@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Mass Update">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MassUpdateDefaultRevRule" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the revision rule that is used to perform a where-used search on the target part of a mass update 
+to find the impacted assemblies (parents of the target). This is one of several preferences used to configure mass update 
+functionality. Use mass updates to perform bulk updates to multiple assemblies, including designating or replacing substitutes 
+for parts. For example, you can identify and automatically replace every occurrence of an impacted part with its solution item.
+Valid Values:
+Accepts one or more strings as values; each string must be a revision rule.</preference_description>
+      <context name="Teamcenter">
+        <value>Latest Working</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

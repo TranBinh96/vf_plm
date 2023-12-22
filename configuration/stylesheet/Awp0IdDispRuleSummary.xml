@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+
+Filename: Awp0IdDispRuleSummary.xml
+Default activeworkspace style sheet for displaying Id Display Rule.
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column width="60%">
+            <section titleKey="tc_xrt_properties">
+                <property name="iddisp_name"/>
+                <property name="iddisp_disp_name"/>
+                <property name="object_type"/>
+                <property name="idcontext_list"/>
+                <break/>
+                <property name="owning_user"/>
+                <property name="last_mod_date"/>
+            </section>
+        </column>
+        <column width="40%">
+            <section titleKey="tc_xrt_Preview">
+                <image source="thumbnail"/>
+            </section>
+        </column>
+    </page>
+</rendering>

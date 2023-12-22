@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0SupplierExemptionSummary.xml
+
+Default activeworkspace style sheet for displaying Supplier Exemption properties.
+
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="label"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+             <property name="object_name" modifiable="false"/>
+             <property name="scp0ExemptionText" modifiable="false"/>
+             <property name="scp0identifier" modifiable="false"/>
+             <property name="scp0is_active" modifiable="false"/>
+             <property name="scp0ContextualID" modifiable="false"/>
+        </section>
+    </page>
+</rendering>

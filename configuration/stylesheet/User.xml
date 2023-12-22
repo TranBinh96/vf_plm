@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: User.xml
+
+    Style sheet rendering for User properties.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <property name="user_name" />
+            <property name="user_id" />
+            <property name="person" />
+            <separator />
+            <property name="default_group"/>
+            <property name="volume"/>
+        </column>
+        <column>
+            <property name="is_out_of_office" renderingStyle="Titled" border="true"/>
+            <property name="is_member_of_dba" renderingStyle="Titled" border="true"/>
+        </column>
+    </page>
+
+    <page title="Workflow" titleKey="tc_xrt_Workflow">
+        <property name="taskinbox" />
+        <property name="is_out_of_office" />
+        <property name="subscribed_inboxes" />
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_datamap_files_location" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Specifies the unique ID (UID) of the item revision used to manage the data map definition files. The administrator must specify this preference for analysts to use data map or CAE Structure Map functions.
+Valid Values:
+Accepts one string as value; the string must be a valid Teamcenter object, where the value is single object string, object is a UID value (for example, 34526).</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

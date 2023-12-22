@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ActiveWorkspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWS_FullTextSearch_Solr_URL" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the list of URLs to the Solr installation for the Active Workspace full text search functionality.</preference_description>
+      <context name="Teamcenter">
+        <value>http://10.128.11.161:8983/solr</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

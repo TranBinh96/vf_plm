@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Search_Filter_Values_Sort_Order" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if the search filters are to be sorted by count or in a lexicographical order.
+If the value is TRUE, the filters are sorted by count.
+If the value is FALSE, the filters are sorted in a lexicographical order.
+Out of the box, the value is TRUE which implies the filters are sorted by count.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

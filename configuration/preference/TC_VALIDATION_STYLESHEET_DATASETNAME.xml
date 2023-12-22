@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Validation Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_VALIDATION_STYLESHEET_DATASETNAME" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies a list of style sheet datasets information. This is a blank separated list containing the dataset type, reference type name, named reference name, style sheet file name, and validation result log file extension that is used to match this style sheet dataset.For example, the NX Check-Mate result log is in PLM XMLformat with .xml as an extension. It needs a style sheet (checkmat_log.xsl) for a tool (Internet Explorer for instance) to display its contents in a pre-defined format.This preference is also used to import style sheet files into the database as style sheet datasets during installation or the upgrade (post schema) process.
+Valid Values:
+The format is: 
+dataset-type  dataset-reference-type-name  dataset-name stylesheet-name.extension  
+validation-result-file-extension.</preference_description>
+      <context name="Teamcenter">
+        <value>XMLReportFormatter  XSL ValidationResultMQCXML  checkmate_log.xsl  *.xml</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Search_result_load_all_limit" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the maximum number of found objects for &quot;Load All&quot; operation in &quot;Search Result&quot; view.
+Setting a larger value will have performance impact when clicking &quot;Load All&quot; button in &quot;Search Result&quot; view.</preference_description>
+      <context name="Teamcenter">
+        <value>1000000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_EXCHANGE_RATE" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>%source currency%_%dest currency%</preference_description>
+      <context name="Teamcenter">
+        <value>USD_VND=23500</value>
+        <value>USD_EUR=0.87</value>
+        <value>USD_CNY=6.927</value>
+        <value>USD_RMB=6.927</value>
+        <value>USD_AED=3.67</value>
+        <value>USD_CAD=1.38</value>
+        <value>USD_GBP=0.765</value>
+        <value>USD_INR=75.038</value>
+        <value>USD_SGD=1.375</value>
+        <value>USD_MYR=4.222</value>
+        <value>USD_JPY=105.957</value>
+        <value>USD_BRL=5.320</value>
+        <value>USD_THB=31.100</value>
+        <value>USD_AUD=1.400</value>
+        <value>USD_USD=1</value>
+        <value>USD_KRW=1108.62</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Internal_VariantRuleConfiguration_MultipleOptionValueSupport" type="String" array="true" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Holds the list of rich client applications that support multiple values for a variant option during variant rule configuration.
+Valid Values: rich client application IDs. An application ID can be found in an application&apos;s plugin.xml under the extension point com.teamcenter.rac.aifrcp.perspectiveDefs. Look for the property value of legacyAppId under the perspective definition.
+The values are set by Teamcenter development and should not be altered by customers.</preference_description>
+      <context name="Teamcenter">
+        <value>com.teamcenter.rac.pse.PSEApplication</value>
+        <value>com.teamcenter.rac.cme.mpp.MPPApplication</value>
+        <value>com.teamcenter.rac.cme.cc.CCApplication</value>
+        <value>com.teamcenter.rac.cme.fse.FSEApplication</value>
+        <value>com.teamcenter.rac.cme.pmp.PMPApplication</value>
+        <value>com.teamcenter.rac.tcsim.caeperspective</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

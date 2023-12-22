@@ -1,0 +1,97 @@
+<subRendering>
+   <page title="Overview" titleKey="tc_xrt_Overview">
+        <firstcolumn width="28%">
+            <section title="Planning Properties" titleKey="tc_xrt_PlanningProperties">
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="schedule_tag" modifiable="false"/>
+                <property name="fnd0PriorityString"/>
+                <property name="saw1Duration"/>
+                <property name="saw1WorkEffort"/>
+                <property name="start_date"/>
+                <property name="finish_date"/>
+                <property name="fnd0FixedTypeString"/>
+                <property name="fnd0TaskTypeString" modifiable="false"/>
+                <property name="fnd0ConstraintString"/>
+                <property name="saw1WorkflowTriggerType"/>
+                <property name="saw1WorkflowTemplate"/>
+                <inject type="dataset" src="Adc1ScheduleTaskPlanning"/>
+            </section>
+            <section title="Flags" titleKey="tc_xrt_Flags">
+                <property name="wbs_code" modifiable="false"/>
+                <property name="auto_complete" modifiable="false"/>
+                <inject type="dataset" src="Adc1ScheduleTaskFlags"/>
+            </section>
+        </firstcolumn>
+        <secondcolumn width="28%">
+            <section title="Execution Properties" titleKey="tc_xrt_ExecutionProperties">
+                <property name="fnd0state" />
+                <property name="fnd0status" />
+                <property name="saw1WorkComplete"/>
+                <property name="complete_percent"/>
+                <property name="work_remaining"/>
+                <property name="fnd0ForecastStartDate"/>
+                <property name="actual_start_date"/>
+                <property name="fnd0ForecastEndDate"/>
+                <property name="actual_finish_date"/>
+            </section>
+        </secondcolumn>
+    </page>
+    <page title="Deliverables" titleKey="Deliverables">
+         <inject type="dataset" src="Saw1ScheduleTaskDeliverables"/>
+    </page>
+    <page title="Resources" titleKey="tc_xrt_ScheduleTaskResources">
+        <objectSet source="ResourceAssignment.POM_object" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending" maxRowCount="4">
+            <tableDisplay height="95%">
+                <property name = "object_string"/>
+                <property name ="ResourceAssignment.saw1AssigneeName" modifiable="false"/>
+                <property name ="ResourceAssignment.saw1AssigneeType" modifiable="false"/>
+                <property name ="ResourceAssignment.discipline" modifiable="false"/>
+                <property name ="ResourceAssignment.resource_level"/>
+                <property name ="ResourceAssignment.saw1IsPrivilegedUser" modifiable="false"/>
+            </tableDisplay>
+            <listDisplay/>
+        </objectSet>
+    </page>
+       <page title="Dependencies" titleKey="tc_xrt_Dependencies" >
+        <firstcolumn width="50%">
+            <section title="Predecessor Tasks" titleKey="tc_xrt_PredecessorTasks">
+                  <objectSet source="TaskDependency.ScheduleTask,TaskDependency.Fnd0ProxyTask" defaultdisplay="tableDisplay" maxRowCount="20">
+                      <tableDisplay>
+                        <property name= "object_name" />
+                        <property name="TaskDependency.saw1DependencyType"/>
+                        <property name="TaskDependency.saw1LagTime"/>
+                        <property name= "saw1DeliverablesCount"/>
+                        <property name= "schedule_tag"/>
+                        <property name= "saw1WorkComplete"/>
+                        <property name= "start_date"/>
+                        <property name= "finish_date"/>
+                        <property name= "fnd0state"/>
+                        <property name= "fnd0status"/>
+                      </tableDisplay>
+                      <listDisplay/>
+                  </objectSet>
+               </section>
+         </firstcolumn>
+        <secondcolumn width="50%">
+            <section title="Successor Tasks" titleKey="tc_xrt_SuccessorTasks">
+                  <objectSet source="S2P:TaskDependency.ScheduleTask, S2P:TaskDependency.Fnd0ProxyTask" defaultdisplay="tableDisplay" maxRowCount="20">
+                      <tableDisplay>
+                        <property name= "object_name" />
+                        <property name="TaskDependency.saw1DependencyType"/>
+                        <property name="TaskDependency.saw1LagTime"/>
+                        <property name= "saw1DeliverablesCount"/>
+                        <property name= "schedule_tag"/>
+                        <property name= "saw1WorkComplete"/>
+                        <property name= "start_date"/>
+                        <property name= "finish_date"/>
+                        <property name= "fnd0state"/>
+                        <property name= "fnd0status"/>                       
+                      </tableDisplay>
+                      <listDisplay/>
+                  </objectSet>
+               </section>
+         </secondcolumn>
+
+    </page>
+</subRendering>

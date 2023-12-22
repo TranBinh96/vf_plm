@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_file_upload_default_conflict_resolution_option" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the options available when there is a name conflict while uploading a file from a dataset. The system provides an interactive dialog while the other options are automatically applied.
+Valid Values:
+Upload: This option will automatically upload the file.Versioning rules of named references will apply to archiving.
+Rename and Upload: This option will rename the file and upload in the defined dataset.
+Skip: This option will skip the file and not upload it into Teamcenter.</preference_description>
+      <context name="Teamcenter">
+        <value>Upload</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

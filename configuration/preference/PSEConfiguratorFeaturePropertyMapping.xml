@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Configurator Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEConfiguratorFeaturePropertyMapping" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates for what Occ Notes or Property on which mapped properties are authored, so that the system reads the mapped properties and
+displays the corresponding feature selection for each corresponding configured BOMlines.For example, the preference value can be AIE_OCC_NAME.
+The mapped property exmaples are
+bl_occurrence_name=[Teamcenter]family1
+bl_quantity=[Teamcenter]family2</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

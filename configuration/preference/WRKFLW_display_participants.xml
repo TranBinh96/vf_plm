@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_display_participants" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Decides which participant types will be shown while assigning dynamic participants for an object.
+Valid Values:
+* allowable: Show all the dynamic participant types associated with the target object type. This is the default value.
+* assignable: Show all the dynamic participant types which are assignable by the current user and used in any of the in-progress workflows on the target object. If there is no in-progress workflow; all the assignable dynamic participant types will be shown.</preference_description>
+      <context name="Teamcenter">
+        <value>allowable</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

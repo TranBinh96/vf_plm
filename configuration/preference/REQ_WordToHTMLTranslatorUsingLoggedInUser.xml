@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="REQ_WordToHTMLTranslatorUsingLoggedInUser" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls if the login user will be used to run the word to HTML conversion utility, the default is true.
+* true: the login user will be the user that runs the word to HTML conversion utility
+* false: the user designated during the installation will be the user that runs the word to HMTL conversion utility</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

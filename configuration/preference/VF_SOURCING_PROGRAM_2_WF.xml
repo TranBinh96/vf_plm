@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VF_SOURCING_PROGRAM_2_WF" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>Workflow template for each car program</preference_description>
+      <context name="Teamcenter">
+        <value>VFe35/VF35;VFe35/VF35_SOR_Release_Process</value>
+        <value>VFe36/VF36;D-SUV_SOR_Release_Process</value>
+        <value>VFe33;VFe33_SOR_Release_Process</value>
+        <value>VFe34S;VFe34NG_SOR_Release_Process</value>
+        <value>VFe34;VFe34_SOR_Release_Process</value>
+        <value>VFe32;VFe32_SOR_Release_Process</value>
+        <value>VF3;VF3_SOR_Release_Process</value>
+        <value>EBUS;EBUS_SOR_Release_Process</value>
+        <value>EBUS12;EBUS12_SOR_Release_Process</value>
+        <value>Emotor;Emotor_SOR_Release_Process</value>
+        <value>AFS VFe32;AFS_SOR_Release_Process</value>
+        <value>AFS VFe33;AFS_SOR_Release_Process</value>
+        <value>AFS VFe34;AFS_SOR_Release_Process</value>
+        <value>AFS VFe34S;AFS_SOR_Release_Process</value>
+        <value>AFS VFe35;AFS_SOR_Release_Process</value>
+        <value>AFS VFe36;AFS_SOR_Release_Process</value>
+        <value>AFS EBUS;AFS_SOR_Release_Process</value>
+        <value>AFS EBUS12;AFS_SOR_Release_Process</value>
+        <value>AFS V8;AFS_SOR_Release_Process</value>
+        <value>AF S&amp;S;AFS_SOR_Release_Process</value>
+        <value>AFS EScooter;AFS_SOR_Release_Process_EScooter</value>
+        <value>AFS EBIKE;AFS_SOR_Release_Process</value>
+        <value>BP VFe32;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP VFe33;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP VFe34;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP VF7;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP VFe35/VF35;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP VFe36/VF36;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP EScooter;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP Escooter KLN;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP Escooter 12V;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP Escooter 48V;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP Escooter 72V;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP ESS PowerWall;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP Golf cart;VINES_SOR_RELEASE_PROCESS</value>
+        <value>BP LFP Escooter;BP_LFP_Escooter_SOR_Release_Process</value>
+        <value>ESS;VINES_SOR_RELEASE_PROCESS</value>
+        <value>ESS 20 FT;VINES_SOR_RELEASE_PROCESS</value>
+        <value>ESS 20 FT 1500V;VINES_SOR_RELEASE_PROCESS</value>
+        <value>3IN1;3IN1_SOR_Release_Process</value>
+        <value>CPDU;CPDU_SOR_Release_Process</value>
+        <value>VF New;EScooter_SOR_Release_Process</value>
+        <value>VK CITY;EScooter_SOR_Release_Process</value>
+        <value>VK SPORT;EScooter_SOR_Release_Process</value>
+        <value>V5 CITY;EScooter_SOR_Release_Process</value>
+        <value>V5 CITY LFP;EScooter_SOR_Release_Process</value>
+        <value>V5 LITE LFP;EScooter_SOR_Release_Process</value>
+        <value>V7 SPORT LFP;EScooter_SOR_Release_Process</value>
+        <value>V9 SPORT LFP;EScooter_SOR_Release_Process</value>
+        <value>NC1;EScooter_SOR_Release_Process</value>
+        <value>NB1;EScooter_SOR_Release_Process</value>
+        <value>VF NEW GSM;EScooter_SOR_Release_Process</value>
+        <value>VF NEW 2024;EScooter_SOR_Release_Process</value>
+        <value>V5 LITE LFP 2024;EScooter_SOR_Release_Process</value>
+        <value>Cell Gen 1/1.5;VINES_SOR_RELEASE_PROCESS</value>
+        <value>Cell Gen 1.6;VINES_SOR_RELEASE_PROCESS</value>
+        <value>Cell Gen 1.8;VINES_SOR_RELEASE_PROCESS</value>
+        <value>Cell Gen 2;VINES_SOR_RELEASE_PROCESS</value>
+        <value>Cell Gen 5.1_Prismatic;VINES_SOR_RELEASE_PROCESS</value>
+        <value>Cell Gen 5.2_Prismatic;VINES_SOR_RELEASE_PROCESS</value>
+        <value>Cell Gen PT_Cylindrical;VINES_SOR_RELEASE_PROCESS</value>
+        <value>Cell Gen 6;VINES_SOR_RELEASE_PROCESS</value>
+        <value>Portable Charger;EE_Components_SOR_Release_Process</value>
+        <value>Home Charger;EE_Components_SOR_Release_Process</value>
+        <value>MCU;EE_Components_SOR_Release_Process</value>
+        <value>SCU;EE_Components_SOR_Release_Process</value>
+        <value>DCDC;EE_Components_SOR_Release_Process</value>
+        <value>HMI;EE_Components_SOR_Release_Process</value>
+        <value>VCU;EE_Components_SOR_Release_Process</value>
+        <value>IPDU;EE_Components_SOR_Release_Process</value>
+        <value>Emotor Scooter;Emotor_ES_SOR_Release_Process</value>
+        <value>MHU;SIC_SOR_Release_Process</value>
+        <value>XGW;SIC_SOR_Release_Process</value>
+        <value>VF3;VINFAST_SOR_RELEASE_PROCESS</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

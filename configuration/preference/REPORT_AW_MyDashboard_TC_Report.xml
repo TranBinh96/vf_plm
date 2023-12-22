@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Reports">
+    <category_description>Active Workspace preferences
+</category_description>
+    
+               <preference name="REPORT_AW_MyDashboard_TC_Report" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference is used to define list of Teamcenter Reports to be displayed in My Dashboard. List will have Report ID value. Only Advance Summary Reports are currently supported for My Dashboard.
+e.g.
+TC_SUM_001</preference_description>
+      <context name="Teamcenter">
+        <value>AW_43_00_ADV_SUM_RPT_001:{&quot;ID&quot;:&quot;AW_43_00_ADV_SUM_RPT_001&quot;}</value>
+        <value>AW_43_00_ADV_SUM_RPT_002:{&quot;ID&quot;:&quot;AW_43_00_ADV_SUM_RPT_002&quot;}</value>
+        <value>AW_51_00_ADV_WKF_RPT_001:{&quot;ID&quot;:&quot;AW_51_00_ADV_WKF_RPT_001&quot;}</value>
+        <value>AW_51_00_ADV_WKF_RPT_002:{&quot;ID&quot;:&quot;AW_51_00_ADV_WKF_RPT_002&quot;}</value>
+        <value>AW_51_00_ADV_WKF_RPT_003:{&quot;ID&quot;:&quot;AW_51_00_ADV_WKF_RPT_003&quot;}</value>
+        <value>AW_51_00_ADV_WKF_RPT_004:{&quot;ID&quot;:&quot;AW_51_00_ADV_WKF_RPT_004&quot;}</value>
+        <value>AW_51_00_ADV_WKF_RPT_005:{&quot;ID&quot;:&quot;AW_51_00_ADV_WKF_RPT_005&quot;}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

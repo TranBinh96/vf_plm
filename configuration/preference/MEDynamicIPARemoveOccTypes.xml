@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEDynamicIPARemoveOccTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which occurrence types to consider for removal from aggregated parts of the predecessors in the given process structure to generate the dynamic in-process assembly (DIPA).
+Valid Values:
+Accepts the name of a valid Teamcenter occurrence type.</preference_description>
+      <context name="Teamcenter">
+        <value>MEDisassemble</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

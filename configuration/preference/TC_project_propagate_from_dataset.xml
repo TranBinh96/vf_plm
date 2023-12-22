@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Project Level Security">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_project_propagate_from_dataset" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relation types available for level two propagation in the &quot;update_project_bom&quot; utility.
+
+Level-two propagation processes dependent objects related to the datasets associated with level one objects. The following data model is supported for level-two propagation:
+* Item
+* Item revision
+* Dataset Item Revision (associated with the dataset by a specified relation type)
+* Dataset Dataset (associated with the dataset by a specified relation type)
+* Dataset Item (associated with the dataset by a specified relation type)
+Dependent objects assigned through level-two propagation are explicitly assigned to the project. Objects that are explicitly assigned to projects must also be explicitly removed. If the BOM object to which the secondary object is removed from the project, the dependent object remains.
+
+Valid values are valid Relation types.
+
+Note: For detailed information about assigning objects to projects using propagation rules, and the differences between level-one propagation and level-two propagation, see Project and Program.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

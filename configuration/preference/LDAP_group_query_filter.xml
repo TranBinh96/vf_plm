@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_group_query_filter" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines a set of conditions that an LDAP object must satisfy to be matched as a group object for synchronizing with Teamcenter.
+If you are familiar with LDAP query filter syntax, use this optional preference, which is a more sophisticated object matching mechanism.
+Valid value:
+Accepts a single string in LDAP query filter syntax.</preference_description>
+      <context name="Teamcenter">
+        <value>(cn=*)</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

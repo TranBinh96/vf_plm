@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Mtw0MaterialInfo.xml
+Default activeworkspace style sheet for displaying Material Info.
+ -->
+<subRendering> 
+     <section  titleKey="mtw0_xrt_materialsection">
+        <objectSet source="Mat1MadeFromMaterial.Mat1MaterialRevision" defaultdisplay="tableDisplay" sortby="object_name" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_name"/>
+                <property name="Mat1MadeFromMaterial.mat1composition"/>
+            </tableDisplay>
+            <listDisplay/>
+            <content visibleWhen="{pref:IMDSIntegration_feature_installed}!=true">
+                <command actionKey="newBusinessObjectContextualAction" commandId="Mtw0ShowAddObject" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </content>
+            <content visibleWhen="{pref:IMDSIntegration_feature_installed}==true and sci0NodeId ==null">
+                <command actionKey="newBusinessObjectContextualAction" commandId="Mtw0ShowAddObject" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </content>
+        </objectSet>
+    </section>
+</subRendering> 

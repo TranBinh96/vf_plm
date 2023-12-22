@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_engine" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the search engine used by Teamcenter&apos;s full text search (FTS) framework.
+Search engines are used for searching within text documents such as Microsoft Word documents, PDF files, and HTML files. An opportunity to install the Autonomy search engine (includes the IDOL server and the File System Fetch connector) is provided during installation using the Teamcenter Environment Manager (TEM). Alternatively, you can define a different plug-and-play search engine using this preference.
+This preference works in conjunction with the following preferences. Each preference must be defined correctly to use the Autonomy search engine for indexing and searching:
+TC_fts_host
+TC_fts_aci_port
+TC_fts_index_port
+TC_fts_fsf_host
+TC_fts_fsf_port
+TC_fts_database_name
+
+Valid Values:
+Accepts a single string as a value.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

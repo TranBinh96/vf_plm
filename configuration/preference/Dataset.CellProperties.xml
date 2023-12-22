@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Dataset.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Active Workspace Tile Properties</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>object_type</value>
+        <value>release_status_list</value>
+        <value>owning_user</value>
+        <value>last_mod_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

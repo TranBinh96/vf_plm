@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_LRD_expiry_duration" type="Integer" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Specifies the duration, in days, after which the lab report declaration (LRD) provided by the supplier will expire.</preference_description>
+      <context name="Teamcenter">
+        <value>180</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

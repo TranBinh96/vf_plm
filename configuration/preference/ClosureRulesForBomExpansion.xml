@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ClosureRulesForBomExpansion" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Structure Manager allows the user to limit expansion of the product structure if a full expansion is not required. 
+For example, you may not want to expand a subassembly if it is not assigned to your current project. Use this preference to specify one or more existing closure rules containing expansion constraints from which the user can select when expanding the structure.
+Valid Values:
+Accepts one or more strings as values. Each string must be the name of a valid closure rule of type export.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMExpandSkipByProjAssignment</value>
+        <value>BOMExpandProcessByProjectAssign</value>
+        <value>BOMExpandSkipByItemType</value>
+        <value>BOMExpandProcessByItemType</value>
+        <value>BOMExpandSkipByVariableItemType</value>
+        <value>BOMExpProcessVariableItemType</value>
+        <value>BOMExpandSkipByPartSource</value>
+        <value>BOMExpandProcessByPartSource</value>
+        <value>BOMExpandAlternativeScope</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

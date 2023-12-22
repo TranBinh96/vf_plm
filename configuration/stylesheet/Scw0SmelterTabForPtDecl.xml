@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0SmelterTabForPtDecl.xml
+
+Default activeworkspace stylesheet for Smelter tab.
+-->
+<subRendering> 
+    <page titleKey = "tc_xrt_Smelters" title = "Smelters" visibleWhen="Scp0PartToSmelterRel!=null">
+        <section titleKey= "tc_xrt_Smelters" title = "Smelters">
+            <objectSet source = "Scp0PartToSmelterRel.Scp0Smelter" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "scp0Metal"/>
+                    <property name = "object_name"/>
+                    <property name = "scp0Identity"/>
+                    <property name = "scp0City"/>
+                    <property name = "scp0StateOrProvince"/>
+                    <property name = "scp0SmelterCountry"/>
+                    <property name = "scp0ContactName"/>
+                    <property name = "scp0EmailAddress"/>
+                    <property name = "scp0AuditedStatus"/>
+                    <property name = "scp0CertificationValidUntil"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+    <page title = "Smelters" visibleWhen="Scp0VendorToSmelterRel!=null">
+        <section titleKey = "tc_xrt_SmeltersOnVendors" title = "Smelters on Vendor">
+            <objectSet source = "Scp0VendorToSmelterRel.Scp0Smelter" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "scp0Metal"/>
+                    <property name = "object_name"/>
+                    <property name = "scp0Identity"/>
+                    <property name = "scp0City"/>
+                    <property name = "scp0StateOrProvince"/>
+                    <property name = "scp0SmelterCountry"/>
+                    <property name = "scp0ContactName"/>
+                    <property name = "scp0EmailAddress"/>
+                    <property name = "scp0AuditedStatus"/>
+                    <property name = "scp0CertificationValidUntil"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</subRendering> 

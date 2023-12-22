@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSBOMVIEWREVISION_object_widths_shown" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the widths of the shown columns for BOMView Revision objects (identified by PSBOMVIEWREVISION_object_columns_shown).</preference_description>
+      <context name="Teamcenter">
+        <value>20</value>
+        <value>18</value>
+        <value>16</value>
+        <value>32</value>
+        <value>32</value>
+        <value>32</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

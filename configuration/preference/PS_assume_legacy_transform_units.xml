@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_assume_legacy_transform_units" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Determines how Teamcenter interprets the unit of measure for legacy transform data. Teamcenter and NX currently use meters for transform units of measure; legacy measurements were in inches or millimeters. This preference affects all data using legacy transforms which have no database-resident indication of the unit measurement with which they were stored.
+This preference can be set using the preference name as an environment variable.
+Valid Values:
+Inches - Assumes transform data is measured in inches.
+Millimeters - Assumes transform data is measured in millimeters.
+Unknown - No assumption made. User has to set the valid value either Inches or Millimeters.</preference_description>
+      <context name="Teamcenter">
+        <value>Unknown</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

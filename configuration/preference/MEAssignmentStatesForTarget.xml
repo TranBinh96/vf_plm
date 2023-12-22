@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAssignmentStatesForTarget" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the assignment states that are considered to reference the consumed parts in the target structure when cloning or allocating a process structure. When cloning or allocating a process or operation, only the parts that have the assigned states specified in this preference are carried over and consumed by the cloned process or operation.If no value is specified, all the consumed parts are referenced in the target structure.
+Valid Values:
+Accepts any of the following values:
+No State
+Pending
+Accepted
+Rejected</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

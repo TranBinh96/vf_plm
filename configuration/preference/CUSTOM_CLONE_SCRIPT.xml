@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context.Interoperability">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CUSTOM_CLONE_SCRIPT" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the custom clone utility to be called from &quot;Export Configured UG Assembly&quot; functionality from DesignContext application. If the value is not specified for this preference, the standard ugmanager_clone utility is used</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

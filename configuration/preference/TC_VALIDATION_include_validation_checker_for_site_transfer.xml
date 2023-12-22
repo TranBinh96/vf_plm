@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_VALIDATION_include_validation_checker_for_site_transfer" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines if the Validation Checker object referenced by a Validation Result will be included for export when the Validation Result is being exported with site ownership transfer.
+Valid values for this site preference are true and false (default value).</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

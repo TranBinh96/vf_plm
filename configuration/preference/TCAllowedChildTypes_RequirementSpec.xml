@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAllowedChildTypes_RequirementSpec" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the item types permitted in a requirement specification parent structure. This preference is valid only when the TCEnforceSingleType preference is set to false. Requirement specification objects are defined by the RequirementSpec business object type.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter business object internal name.</preference_description>
+      <context name="Teamcenter">
+        <value>Requirement</value>
+        <value>Paragraph</value>
+        <value>DesignReq</value>
+        <value>ValidationReq</value>
+        <value>RequirementSpec</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

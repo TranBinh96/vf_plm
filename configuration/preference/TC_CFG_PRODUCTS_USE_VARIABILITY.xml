@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_CFG_PRODUCTS_USE_VARIABILITY" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Manually enforces or disables the evaluation of variability allocation statements if they exist for a given item revision.
+Variability allocation statements allow Teamcenter to import only some of the values of a variant option family in a product. If you leave this
+preference unset, Teamcenter dynamically determines this configuration setting. The performance of this dynamic configuration is impacted by the
+value set for the PortalDesignContextProductItemQuery preference. You can view and manage variability allocation statements with the Product Configurator
+or Platform Designer applications. Technically, variability allocation statements are specialized VariantExpression objects using the corresponding operator
+code, for example, PS_variant_operator_assy_uses+BOM_variant_op_rhs_is_string = 1002. For more information about these objects, see the $TC_INCLUDE/bom/bom_tokens.h file.
+If an item revision has variability allocation statements and their evaluation is not disabled, the Teamcenter variant configurators recognize only explicitly allocated
+variant option values. Otherwise, they recognize all variant option values that exist on the declared variant option family revision.Setting this preference is recommended
+but not required. If you are unsure, set this preference to TRUE.
+Valid Values:
+
+Effect on classic variant                Effect on item                              Effect on item revisions
+configurator initialization              revisions with variability                  without variability allocations
+Preference value                                                             allocation statements                       statements
+
+TRUE                                 No database query is executed           Teamcenetr configurators                    Teamcenter configurators
+when initializing a Teamcenter          recognize only allocated                    recognize all variant or effectivity
+variant or effectivity                  variant or effectivity                      option values of all declared option 
+configurator                            configuration option                        families
+values
+
+FALSE                                No database query is executed           Teamcenter configurators recognize          Teamcenter configurators recognize 
+when initializing a classic             all variant or effectivity configuration    all variant or effectivity option 
+variant configurator.                   option values of declared option            values of all declared option 
+families.                                   families
+
+UNSET                                A database query is executed            Teamcenter configurators recognize          Teamcenter configurators recognize                               
+once when initializing a                only allocated variant or effectivity       all variant or effectivity option 
+Teamcenter configurator(variant         configuration option values.                values of all declared option 
+or effectivity). If at least one                                                    families. 
+product item exists with variability 
+allocation statements,the system 
+behaves as if set to TRUE,otherwise 
+it behaves as if set to FALSE</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_ReqEditor" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the type of editor allowed to be used for the life of created objects in the Active Workspace client.
+Note that any change of value does not retroactively change the allowed editors associated to already created objects.
+Valid values are:
+* Plain: only plain text editors are allowed.
+* HTML: only Rich Text File (RTF) editors are allowed. This is the default value.
+* Word: only Word document editors are allowed.</preference_description>
+      <context name="Teamcenter">
+        <value>HTML</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

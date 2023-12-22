@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering>
+
+   <page title="NX Check-Mate Checker Information" titleKey="tc_xrt_NXCMValDataCreateInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="item_id" renderingHint="textfield" />
+            <property name="revision:item_revision_id" renderingHint="textfield" />
+            <property name="object_name" renderingHint="textfield" />
+            <property name="object_desc" />
+            <property name="valdata_name" renderingHint="textfield" />
+         </section>
+   </page>
+   
+   <page title="NX Check-Mate Checker Revision Information" titleKey="tc_xrt_NXCMValDataRevCreateInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="revision:is_mandatory" renderingHint="logical" />
+            <property name="revision:validation_category" renderingHint="textfield" />
+            <property name="revision:validation_parameters" renderingHint="validationparametertable" />
+         </section>
+   </page>
+   
+</rendering>

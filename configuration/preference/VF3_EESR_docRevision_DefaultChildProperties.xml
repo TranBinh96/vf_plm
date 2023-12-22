@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF3_EESR_docRevision_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>TC_Attaches</value>
+        <value>IMAN_classification</value>
+        <value>Cls0ClassifiedBy</value>
+        <value>VF4_DFMEA_Items</value>
+        <value>IMAN_reference</value>
+        <value>release_status_list</value>
+        <value>EC_solution_item_rel</value>
+        <value>VF4_SpecItem</value>
+        <value>IMAN_specification</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

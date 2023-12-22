@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ImanRelation_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of columns to be displayed for objects of type ImanRelation.</preference_description>
+      <context name="Teamcenter">
+        <value>ImanRelation.primary_object</value>
+        <value>ImanRelation.secondary_object</value>
+        <value>ImanRelation.relation_type</value>
+        <value>ImanRelation.user_data</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

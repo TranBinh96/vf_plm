@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cm0ImpactedItemReleasedStatuses" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference holds the list of possible release statuses to be considered for an item revision to be added as an impacted revision for the corresponding solutions added to a Change Notice.</preference_description>
+      <context name="Teamcenter">
+        <value>TCM Released</value>
+        <value>Released</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEConfiguringStructuresMode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines what configuring structures mode is used when loading structures into Manufacturing Process Planner. By default, the loaded composition structures (for example, processes) are only configured by their related loaded BOM structures. 
+Examples of related structures are: Associated product and plant of a process which were loaded together per the MSE_load_related_product_process_plant preference.Structures contained in a loaded collaboration context.
+Valid Values:
+AllToAll - All loaded BOM structures configure all loaded composition structures.
+RelatedStructuresOnly - Only the product or plant structures related to a specific process structure configure it. Examples of related structures are:Associated product and plant of a process that were loaded together per the MSE_load_related_product_process_plant preference.Structures contained in a loaded collaboration context configure processes from the same collaboration context.</preference_description>
+      <context name="Teamcenter">
+        <value>AllToAll</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

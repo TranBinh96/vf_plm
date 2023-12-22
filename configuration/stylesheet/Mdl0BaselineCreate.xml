@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Mdl0BaselineCreate.xml
+
+    Style sheet rendering for Mdl0Baseline creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="Baseline Information" titleKey="tc_xrt_BaselineInfo">
+            <property name="item_id"/>
+            <property name="revision:item_revision_id"/> 
+            <property name="object_name"/>
+            <property name="object_desc"/>
+        </section>
+    </page>
+</rendering>

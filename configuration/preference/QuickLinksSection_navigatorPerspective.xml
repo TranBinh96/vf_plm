@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QuickLinksSection_navigatorPerspective" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the entries in the &quot;MyTeamcenterQuickLinks&quot; section, in the order that they will be presented from top to bottom.
+Values for this preference should be set through user interface interaction to customize this section. Manual setting is not encouraged.</preference_description>
+      <context name="Teamcenter">
+        <value>HomeSectionComponent</value>
+        <value>InboxSectionComponent</value>
+        <value>MyProjectsSectionComponent</value>
+        <value>WebLinksSectionComponent</value>
+        <value>SavedSearchesSectionComponent</value>
+        <value>MyViewMarkupSectionComponent</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

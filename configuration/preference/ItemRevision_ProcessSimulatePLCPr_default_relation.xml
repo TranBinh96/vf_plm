@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ItemRevision_ProcessSimulatePLCPr_default_relation" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default relation created between the 2 objects, when pasting an object of type &quot;ProcessSimulatePLCPr&quot; under an Item Revision.
+It will be the default relation created between the object and the target Item Revision.</preference_description>
+      <context name="Teamcenter">
+        <value>Cps0PropertiesRel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

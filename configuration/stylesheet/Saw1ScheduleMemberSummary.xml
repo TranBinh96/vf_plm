@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Schedule Member Summary Panel in Revolution Client. -->
+
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page title="Summary" titleKey="tc_xrt_Summary">
+        <section title="Properties" titleKey="tc_xrt_properties">
+            <property name="object_name"  modifiable="false"/>
+            <property name="fnd0ScheduleTag"  modifiable="false"/>
+            <property name="owning_group" modifiable="false"/>
+            <property name="owning_user" modifiable="false"/>
+            <property name="last_mod_user" modifiable="false"/>
+        </section>
+    </page>
+    <inject type="dataset" src="AuditLogForScheduleMgmt"/>
+ </rendering>

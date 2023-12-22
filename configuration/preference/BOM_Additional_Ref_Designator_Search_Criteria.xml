@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Product Structure Synchronization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_Additional_Ref_Designator_Search_Criteria" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which properties users can add to the search criteria for the reference designator, within the same parent. Users can add any properties defined by this preference to search criteria within the same parent.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid BOM line property name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

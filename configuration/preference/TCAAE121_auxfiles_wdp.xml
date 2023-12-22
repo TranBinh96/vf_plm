@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAAE121_auxfiles_wdp" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Through this option it is possible to specify the list of auxiliary file types to be created in Teamcenter together with the related AutoCAD Electrical project files. 
+For each value specified in the list a dataset of the given type will be created/updated under the same item revision of the drawing being saved.    
+Possible values:
+dwf
+dwfx
+pdf
+Values are considered as case-insensitive.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

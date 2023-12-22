@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_user_delimiters" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the delimiters used between the user name and ID in the Organization application of the rich client.</preference_description>
+      <context name="Teamcenter">
+        <value>(</value>
+        <value>)</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

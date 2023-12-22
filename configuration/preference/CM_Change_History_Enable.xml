@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_Change_History_Enable" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if the Summary view displays the Change History tab for items, item revisions, and change notice revisions.
+Valid Values:
+TRUE - The Summary view displays the Change History tab for items, item revisions, and change notice revisions.
+FALSE - The Summary view does not display the Change History tab for items, item revisions, and change notice revisions.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

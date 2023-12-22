@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_display_warning_messages" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set the CATIA_display_warning_messages to true to display a warning message, There are less/more child components for MyComponent in CATIA than in Teamcenter during the Save process. 
+Set this variable to false to write the messages in the command log file.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

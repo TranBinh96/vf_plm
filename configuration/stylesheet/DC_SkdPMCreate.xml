@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2010. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: DC_SkdPMCreate.xml  
+   
+     Default style sheet for displaying DC_SkdPM Create 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+10/14/10     mierwald                Initial Version 
+======================================================================= 
+@<DEL>@  
+-->
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+      <column>
+         <section titleKey="tc_xrt_References">
+            <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RefContentPanelSkdPM"/>             
+         </section> 
+         <property name="revision:item_revision_id" renderingHint="textfield" /> 
+         <property name="object_name" renderingHint="textfield" />          
+         <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.LanguagePanel"/>
+        <property name="revision:DocumentTitle" renderingHint="textfield" />
+        
+        <separator/>
+        <property name="revision:skdmodelic" />
+        <property name="revision:skdpmissuer" />
+        <property name="revision:skdpmnumber" />
+        <property name="revision:skdpmvolume" />
+        <property name="revision:c1k0dmecode" />
+        <property name="revision:c1k0dmeproducer" />
+        <section titleKey="tc_xrt_IssueDetails">            
+            <property name="revision:skdissno" />
+            <property name="revision:skdiss_type" />
+            <property name="revision:skdissdate_day" />
+            <property name="revision:skdissdate_month" />
+            <property name="revision:skdissdate_year" />
+        </section>
+      </column>
+      
+      <column>                
+        <section titleKey="tc_xrt_PublicationDetails">            
+            <property name="revision:skdsecurity_class" />
+            <property name="revision:skdrpc" />
+            <property name="revision:skdorig" />
+            <property name="revision:skdqa" />
+            <property name="revision:skdsbc" />
+            <property name="revision:skdremarks" />
+            <property name="revision:skdeffect" />
+            <property name="revision:skdmedia" />
+            <property name="revision:c1k0skdmediatype" />
+            <property name="revision:c1k0skdmediacode" />
+            <property name="revision:skdfic" />
+            <property name="revision:skdrfu" />
+        </section>            
+        <property name="revision:skdexportfilename" />
+        <property name="revision:isTemplate" />
+        <property name="revision:referenceOnly"  />
+      </column>
+      <separator/>
+    <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RelationSelectionPanel"/>
+  </page>
+</rendering>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_real_time_indexing" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether object indices are created or updated into the FTS index database in real time, when the objects are created, modified, or deleted.
+Valid Values:
+TRUE - Performs a real-time index on the objects listed in the TC_fts_indexed_types preference.
+FALSE - Does not perform a real-time index on the objects listed in the TC_fts_indexed_types preference.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

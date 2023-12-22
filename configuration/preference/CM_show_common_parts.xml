@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_show_common_parts" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether or not common parts display during the initial loading of graphical compare in the rich client interface.
+Valid Values:
+TRUE - Common parts are initially displayed when a graphical compare is loaded.
+FALSE - Common parts are not initially displayed when a graphical compare is loaded.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

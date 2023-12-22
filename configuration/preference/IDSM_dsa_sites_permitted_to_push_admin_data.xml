@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDSM_dsa_sites_permitted_to_push_admin_data" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the remote sites that are permitted to distribute system administration data to the local site. This enforces site-level security; if a remote site is not defined in this preference, that site cannot perform distributed system administration functions that affect the local site. This is the first preference to be checked whenever a remote site tries to send system administration data to the local site. If this initial check results in a rejection of the request, the other distributed system administration preferences are not checked.
+Valid Values:
+One or more strings; each string must be a valid Teamcenter site name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

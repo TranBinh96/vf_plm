@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Product Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextProductContextColumnsHiddenPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the widths of the columns for the product context properties.
+Valid Values:
+Composite properties on product item revision objects. Composite properties accept any attribute that the Java API getProperty method on the rich client IMANComponent class accepts. For standard Teamcenter the valid values are the 
+default values shown in the example below. Other valid attributes, such as attributes on item revision master forms, depend on the attributes your site exposes in UID files.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision.IMAN_specification</value>
+        <value>ItemRevision.IMAN_master_form</value>
+        <value>ItemRevision.item_revision_id</value>
+        <value>ItemRevision.archive_date</value>
+        <value>ItemRevision.backup_date</value>
+        <value>ItemRevision.checked_out</value>
+        <value>ItemRevision.expl_checkout</value>
+        <value>ItemRevision.export_sites</value>
+        <value>ItemRevision.has_variants</value>
+        <value>ItemRevision.ics_classified</value>
+        <value>ItemRevision.ics_subclass_name</value>
+        <value>ItemRevision.IMAN_requirement</value>
+        <value>ItemRevision.IMAN_manifestation</value>
+        <value>ItemRevision.IMAN_reference</value>
+        <value>ItemRevision.IMAN_Rendering</value>
+        <value>ItemRevision.IMAN_UG_altrep</value>
+        <value>ItemRevision.IMAN_UG_expression</value>
+        <value>ItemRevision.IMAN_UG_promotion</value>
+        <value>ItemRevision.IMAN_UG_scenario</value>
+        <value>ItemRevision.IMAN_Simulation</value>
+        <value>ItemRevision.IMAN_UG_udf</value>
+        <value>ItemRevision.IMAN_UG_wave_geometry</value>
+        <value>ItemRevision.IMAN_UG_wave_part_link</value>
+        <value>ItemRevision.IMAN_UG_wave_position</value>
+        <value>ItemRevision.is_frozen</value>
+        <value>ItemRevision.is_modifiable</value>
+        <value>ItemRevision.item_master_tag</value>
+        <value>ItemRevision.last_release_status</value>
+        <value>ItemRevision.object_type</value>
+        <value>ItemRevision.owning_group</value>
+        <value>ItemRevision.owning_site</value>
+        <value>ItemRevision.owning_user</value>
+        <value>ItemRevision.process_stage</value>
+        <value>ItemRevision.protection</value>
+        <value>ItemRevision.publication_sites</value>
+        <value>ItemRevision.release_status_list</value>
+        <value>ItemRevision.release_statuses</value>
+        <value>ItemRevision.reservation</value>
+        <value>ItemRevision.structure_revisions</value>
+        <value>Item.items_tag:object_desc</value>
+        <value>Item.items_tag:object_name</value>
+        <value>Item.items_tag:object_string</value>
+        <value>Item.items_tag:object_type</value>
+        <value>Item.items_tag:owning_group</value>
+        <value>Item.items_tag:owning_site</value>
+        <value>Item.items_tag:owning_user</value>
+        <value>Item.items_tag:archive_date</value>
+        <value>Item.items_tag:backup_date</value>
+        <value>Item.items_tag:based_on</value>
+        <value>Item.items_tag:checked_out</value>
+        <value>Item.items_tag:configuration_object_tag</value>
+        <value>Item.items_tag:creation_date</value>
+        <value>Item.items_tag:date_released</value>
+        <value>Item.items_tag:expl_checkout</value>
+        <value>Item.items_tag:export_sites</value>
+        <value>Item.items_tag:has_variants</value>
+        <value>Item.items_tag:ics_classified</value>
+        <value>Item.items_tag:ics_subclass_name</value>
+        <value>Item.items_tag:is_frozen</value>
+        <value>Item.items_tag:is_modifiable</value>
+        <value>Item.items_tag:item_id</value>
+        <value>Item.items_tag:last_mod_date</value>
+        <value>Item.items_tag:last_mod_user</value>
+        <value>Item.items_tag:last_release_status</value>
+        <value>Item.items_tag:bom_view_tags</value>
+        <value>Item.items_tag:IMAN_manifestation</value>
+        <value>Item.items_tag:IMAN_master_form</value>
+        <value>Item.items_tag:IMAN_reference</value>
+        <value>Item.items_tag:IMAN_Rendering</value>
+        <value>Item.items_tag:IMAN_requirement</value>
+        <value>Item.items_tag:item_master_tag</value>
+        <value>Item.items_tag:process_stage</value>
+        <value>Item.items_tag:protection</value>
+        <value>Item.items_tag:publication_sites</value>
+        <value>Item.items_tag:release_status_list</value>
+        <value>Item.items_tag:release_statuses</value>
+        <value>Item.items_tag:reservation</value>
+        <value>Item.items_tag:revision_list</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

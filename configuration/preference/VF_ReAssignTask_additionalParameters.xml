@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VF_AWC">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_ReAssignTask_additionalParameters" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use for function Re-assign task</preference_description>
+      <context name="Teamcenter">
+        <value>Engineering Change Request Revision--Vinfast Validation I Release,Vinfast Validation PR Release,VinFast ECR_After PR,VinFast ECN_After PR,VinFast ECR_Before PR,VinFast ECN_Before PRVinfast Validation P Release,VinFast ECR,VinFast ECN</value>
+        <value>Spec Document Revision-VF3_spec_docRevision-AFS_SOR_Release_Process,BPI_SOR_Release_Process,D-SUV_SOR_Release_Process,VF_SOR_Release</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

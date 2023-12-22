@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2013. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: Civ0UpdateFile4RevisionSaveAs.xml  
+   
+     Default style sheet for displaying Cic0UpdateFileRevision Save As 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+======================================================================= 
+@<DEL>@  
+--> 
+<rendering>
+
+   <page title=" ">
+         <column>
+            <property name="DocumentTitle" />
+
+             <section titleKey="tc_xrt_DataModuleCode">
+                <property name="civ0ExtensionProducer" />
+                <property name="civ0ExtensionCode" />
+                <property name="civ0ModelIC" />
+                <property name="civ0SDC" />
+                <property name="civ0SystemCode" />
+                <property name="civ0SubSystemCode" />
+                <property name="civ0SubSubSystemCode" />
+                <property name="civ0AssemblyCode" />
+                <property name="civ0DisCode" />
+                <property name="civ0DisCodeV" />
+                <property name="civ0InCode" />
+                <property name="civ0InCodeV" />
+                <property name="civ0ItemLoc" />								
+             </section>                         
+              <property name="civ0InWork" />				
+             <property name="skdexportfilename" />
+             <property name="isTemplate" />
+             <property name="referenceOnly"  />        
+         </column>
+         <column>
+             <section titleKey="tc_xrt_IssueDetails">
+                <property name="civ0IssNo" />
+                <property name="civ0IssType" />
+                <property name="civ0IssDateDay" />
+                <property name="civ0IssDateMonth" />
+                <property name="civ0IssDateYear" />
+             </section>
+             <section titleKey="tc_xrt_OtherDataModuleDetails">			
+                <property name="civ0SecurityClass" />
+                <property name="civ0RPC" />
+                <property name="civ0Orig" />
+                <property name="civ0QA" />
+             </section>
+
+         </column>
+   </page>
+   
+</rendering>

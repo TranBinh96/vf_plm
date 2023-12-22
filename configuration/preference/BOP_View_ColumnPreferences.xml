@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOP_View_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMLine.bl_level_starting_0</value>
+        <value>BOMLine.bl_indented_title</value>
+        <value>BOMLine.bl_quantity</value>
+        <value>BOMLine.vf4_operation_type</value>
+        <value>BOMLine.bl_item_vf4_key_data_group1</value>
+        <value>BOMLine.VF3_torque_info</value>
+        <value>BOMLine.bl_sequence_no</value>
+        <value>BOMLine.VF3_purchase_lvl_vf</value>
+        <value>BOMLine.bl_item_vf4_sw_part_number_bl</value>
+        <value>BOMLine.bl_item_vf4_sw_version</value>
+        <value>BOMLine.bl_item_vf4_hw_part_number_bl</value>
+        <value>BOMLine.bl_item_vf4_hw_version</value>
+        <value>BOMLine.VF3_mounting_comment</value>
+        <value>BOMLine.bl_formula</value>
+        <value>BOMLine.bl_item_object_type</value>
+        <value>BOMLine.VF4_program_id_new</value>
+        <value>BOMLine.bl_abs_occ_all_ids</value>
+        <value>BOMLine.bl_item_object_desc</value>
+        <value>BOMLine.bl_rev_vf4_mes_bop_indicator_op</value>
+        <value>BOMLine.bl_rev_awp0Item_item_id</value>
+        <value>BOMLine.VF3_bom_comments</value>
+        <value>BOMLine.bl_rev_vl5_comment</value>
+        <value>BOMLine.bl_item_object_name</value>
+        <value>BOMLine.awb0BomLineItemId</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

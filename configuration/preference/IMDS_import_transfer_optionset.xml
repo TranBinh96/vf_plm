@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_import_transfer_optionset" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default option for International Material Data System (IMDS) files import into Teamcenter.
+A valid value is the name of a &quot;Transfer Option Set&quot;, which can be found in the &quot;PLM XML Import Export Administration&quot; application.</preference_description>
+      <context name="Teamcenter">
+        <value>IMDSImportOptionSetDefault</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

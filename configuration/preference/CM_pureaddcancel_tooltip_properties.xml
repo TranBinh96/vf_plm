@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_pureaddcancel_tooltip_properties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the pure add and cancel properties displayed in the genealogy watch box.
+Valid Values:
+Accepts one or more strings as values in the form of bomedit-object.property-name. The bomedit-object string is the internal name of BOM edit object. The property-name string is a valid Teamcenter internal property name. Both internal names can be retrieved from the Business Modeler IDE.</preference_description>
+      <context name="Teamcenter">
+        <value>CMBvrTag.object_name</value>
+        <value>CMProblemBvr.object_name</value>
+        <value>CMChangeRevTag.owning_user</value>
+        <value>CMOccurenceTag.seq_no</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

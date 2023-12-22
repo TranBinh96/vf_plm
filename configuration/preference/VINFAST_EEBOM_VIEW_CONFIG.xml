@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_BOM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINFAST_EEBOM_VIEW_CONFIG" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Use on EE BOM report</preference_description>
+      <context name="Teamcenter">
+        <value>0,Level,bl_level_starting_0</value>
+        <value>1,Find No,bl_sequence_no</value>
+        <value>2,Item ID,bl_item_item_id</value>
+        <value>3,Description / Spec,bl_item_object_name</value>
+        <value>4,Type,vf4_type</value>
+        <value>5,Substitute,bl_substitute_list</value>
+        <value>6,Quantity,bl_quantity</value>
+        <value>7,Purchase Level,VL5_purchase_lvl_vf</value>
+        <value>8,Unit,bl_item_uom_tag</value>
+        <value>9,Process,vf4_process</value>
+        <value>10,Reference,VF4_ECPartDesignator</value>
+        <value>11,Ratings,vf4_ratings</value>
+        <value>12,Operating Temperature,vf4_temperature</value>
+        <value>13,RoHS,vf4_RoHS</value>
+        <value>14,Sourcing List,</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

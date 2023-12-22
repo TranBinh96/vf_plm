@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Reports">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CRF_PLMXML_export_supported_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the list of types which are supported for PLMXML Reports.
+The purpose of this preference is to work with PLMXML_export_supported_types to define supported types for Item Reports with PLMXML format.
+If some unsupported type is added, the behavior is undefined.</preference_description>
+      <context name="Teamcenter">
+        <value>WorkspaceObject</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

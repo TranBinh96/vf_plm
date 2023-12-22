@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_force_remote_sites_exclude_files" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if the exporting site sends replica files to the file server cache (FSC) or stores it in the volume. The exporting site interrogates the importing site for the this preference value. Therefore, this preference impacts the exporting site only for online cases.
+Valid Values:
+TRUE - Stores the replica files in the FSC.
+FALSE - Stores the replica files in the volume.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

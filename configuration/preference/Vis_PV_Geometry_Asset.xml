@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ProductView">
+    <category_description>
+      Preferences affecting the behavior of Product views
+</category_description>
+    
+               <preference name="Vis_PV_Geometry_Asset" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates whether a 3D Geometry Asset should be captured when a Product View is created.
+It also specifies if an Outline Capture should be included with the 3D Geometry Asset.
+Valid values are &quot;NoGeoAsset&quot;, &quot;GeoAssetWithOutline&quot;, &quot;GeoAssetWithoutOutline&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>NoGeoAsset</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

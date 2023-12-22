@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client.Effectivity">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="APS_Tabular_Effectivity_View_Default_Units_Column" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains the range of unit columns (&quot;From&quot; and &quot;To&quot; units) to be shown in the &quot;Effectivity Tabular&quot; view. 
+The first value is used for &quot;From Units&quot; and second value is used for &quot;To Units&quot;.  
+If the number of unit columns specified in From-To range is greater than the value specified in the preference &quot;Tabular_Effectivity_View_Max_Units_Column&quot;, the default unit columns to be created would be &quot;From Unit value&quot; - &quot;From Unit value&quot; + value defined in the preference &quot;Tabular_Effectivity_View_Max_Units_Column&quot;.
+The default values are 1 and 10.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+        <value>10</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

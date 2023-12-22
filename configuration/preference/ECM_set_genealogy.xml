@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ECM_set_genealogy" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>The genealogy tab is visible only when this preference is set to ON. Valid values are ON/OFF.</preference_description>
+      <context name="Teamcenter">
+        <value>ON</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

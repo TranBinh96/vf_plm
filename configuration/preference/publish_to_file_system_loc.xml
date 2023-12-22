@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="publish_to_file_system_loc" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the name of the parent folder to store published content.
+Valid Values:
+Accepts a single string as a value. This directory is relative to the path defined in the deploy_absolute_path preference, unless it begins with a forward slash (/) on UNIX or Linux or drive:\ on Windows. In those cases, it becomes an absolute path.
+For example, 
+dataDirectory</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

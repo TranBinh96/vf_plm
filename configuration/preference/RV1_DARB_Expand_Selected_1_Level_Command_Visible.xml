@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="DecisionApps.RelationBrowser">
+    <category_description>Preferences for Decision Apps Relation Browser.</category_description>
+    
+               <preference name="RV1_DARB_Expand_Selected_1_Level_Command_Visible" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether to enable the Expand Selected 1 Level command in Relation Browser. The default value is false.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

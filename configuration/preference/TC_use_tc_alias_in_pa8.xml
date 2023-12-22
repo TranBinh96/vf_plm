@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_use_tc_alias_in_pa8" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allows the use of e-mail addresses longer than 32 characters. If set to ON, the user&apos;s e-mail attribute is assumed to be an address list. The name of this address list must be less than 32 characters, but the e-mail addresses of list members may exceed 32 characters.
+Valid Values:
+* ON: Allows e-mail addresses of address list members to exceed 32 characters.
+* OFF: Does not allow e-mail addresses to exceed 32 characters.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

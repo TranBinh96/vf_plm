@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEOperationIconPropertyNames" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether plant BOP structures display an allocation indication symbol for operations if they were allocated from a product BOP.
+Valid Values:
+No value. - The linked symbols are not displayed.
+Mfg0has_origin - The symbol is displayed on operations in plant BOP structures if they are allocated from a product BOPAssigning a value to this preference slows the structure loading.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

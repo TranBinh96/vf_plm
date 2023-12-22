@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Duplicate">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DuplicateValidApps" type="String" array="true" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Specifies the list of rich client applications that allow running Duplicate operations in the background.
+The valid value is &quot;com.teamcenter.rac.se.ui.SystemsEngineeringApplication&quot;.
+This is an internal preference that should not be modified by end users.</preference_description>
+      <context name="Teamcenter">
+        <value>com.teamcenter.rac.se.ui.SystemsEngineeringApplication</value>
+        <value>com.teamcenter.rac.pse.PSEApplication</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

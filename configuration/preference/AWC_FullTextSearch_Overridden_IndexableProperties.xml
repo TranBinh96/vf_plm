@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_FullTextSearch_Overridden_IndexableProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the list of indexable properties overridding the parent property&apos;s display name.</preference_description>
+      <context name="Teamcenter">
+        <value>VF4_EC_Supp_PartRevision.object_name:WorkspaceObject.object_name</value>
+        <value>ChangeItemRevision.object_name:WorkspaceObject.object_name</value>
+        <value>C2CapaRevision.owning_user:POM_application_object.owning_user</value>
+        <value>C2IssueRevision.object_name:WorkspaceObject.object_name</value>
+        <value>VF4_line_itemRevision.owning_user:POM_application_object.owning_user</value>
+        <value>Scp0PartDeclRevision.creation_date:POM_application_object.creation_date</value>
+        <value>VF4_ChangeReq_ESRevision.object_name:WorkspaceObject.object_name</value>
+        <value>VF4_ChangeReq_ESRevision.owning_user:POM_application_object.owning_user</value>
+        <value>Scp0SmelterMine.country:CompanyLocation.country</value>
+        <value>Scp0SmelterMine.object_name:WorkspaceObject.object_name</value>
+        <value>ManufacturerPart.object_name:WorkspaceObject.object_name</value>
+        <value>S2clCommentary.object_name:WorkspaceObject.object_name</value>
+        <value>S2clCommentary.owning_user:POM_application_object.owning_user</value>
+        <value>S2clAnswer.creation_date:POM_application_object.creation_date</value>
+        <value>S2clToggleRating.creation_date:POM_application_object.creation_date</value>
+        <value>S2clQuestion.creation_date:POM_application_object.creation_date</value>
+        <value>S2clScalarRating.creation_date:POM_application_object.creation_date</value>
+        <value>S2clExperience.creation_date:POM_application_object.creation_date</value>
+        <value>Scp0Exemption.object_name:WorkspaceObject.object_name</value>
+        <value>Scp0Exemption.object_desc:WorkspaceObject.object_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

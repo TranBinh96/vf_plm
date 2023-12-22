@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_LRD_declaration_file_prefix" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Specifies the lab report declaration (LRD) file prefix identifier to be used to identify the files to be processed.
+The default value is &quot;LRD_&quot;.
+This means that all files starting with &quot;LRD_&quot; (for example, LRD_partName.xml) are to be processed.</preference_description>
+      <context name="Teamcenter">
+        <value>LRD_</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

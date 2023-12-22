@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ProductView">
+    <category_description>
+      Preferences affecting the behavior of Product views
+</category_description>
+    
+               <preference name="Vis_PV_capture3DGeomAssetAsOutline" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates the creation of outline capture during Product view save in the Lifecycle Visualization application.
+This is only used if 3D Geometry Asset Capture is enabled for Product View save with no menus.
+Starting with Teamcenter 10.0 this preference is no longer used but remains in order to maintain backwards compatibility with Teamcenter Visualization 9 releases.
+Valid values are true or false (default value).</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

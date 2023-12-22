@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: MEDurationDCDCreate.xml
+
+    Style sheet rendering for the creation of Mes0MEDurationDCDFrm.
+=======================================================================
+-->
+
+<rendering>
+
+    <page title="DurationDCD Information" titleKey="tc_xrt_DurationDCDInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="mes0isOptional" />
+            <property name="mes0ValuePlaceholder" />
+        </section>
+    </page>
+
+</rendering>

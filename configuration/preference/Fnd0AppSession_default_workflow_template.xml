@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Fnd0AppSession_default_workflow_template" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the default workflow template to be used for submitting Session to the workflow.</preference_description>
+      <context name="Teamcenter">
+        <value>Session Collaboration Workflow</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

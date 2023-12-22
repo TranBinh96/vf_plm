@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Import>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Awb0OccMgmtDuplicate" uri="Awb0OccMgmtDuplicate">
+      <ColumnConfig columnConfigId="contentColConfigDuplicate" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="object_string" filterable="true" hidden="false" objectType="Awb0Element" propertyName="object_string" width="400"/>
+        <ColumnDef columnName="awb0PendingAction" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0PendingAction" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevName" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevName" width="300"/>
+        <ColumnDef columnName="awb0ArchetypeRevDescription" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevDescription" width="300"/>
+        <ColumnDef columnName="awb0Quantity" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Quantity" width="100"/>
+        <ColumnDef columnName="awb0UoM" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0UoM" width="100"/>
+        <ColumnDef columnName="awb0Sequence" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Sequence" width="100"/>
+        <ColumnDef columnName="awb0LogicalDesignator" filterable="true" hidden="false" objectType="Awb0PositionedElement" propertyName="awb0LogicalDesignator" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevRelStatus" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevRelStatus" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Content" uri="Awb0OccurrenceManagement">
+      <ColumnConfig columnConfigId="contentColConfig" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="object_string" filterable="true" hidden="false" objectType="Awb0Element" propertyName="object_string" width="400"/>
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Awb0SavedBookmark" propertyName="object_name" width="400"/>
+        <ColumnDef columnName="awb0PendingAction" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0PendingAction" width="100"/>
+        <ColumnDef columnName="awb0HasElementEffectivity" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0HasElementEffectivity" width="50"/>
+        <ColumnDef columnName="awb0HasInContextOverrides" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0HasInContextOverrides" width="50"/>
+        <ColumnDef columnName="awb0HasVariant" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0HasVariant" width="50"/>
+        <ColumnDef columnName="awb0HasAlternates" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0HasAlternates" width="50"/>
+        <ColumnDef columnName="awb0HasSubstitues" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0HasSubstitues" width="50"/>
+        <ColumnDef columnName="awb0VariantFormula" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0VariantFormula" width="100"/>
+        <ColumnDef columnName="awb0RuleConfigBy" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0RuleConfigBy" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevName" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevName" width="300"/>
+        <ColumnDef columnName="awb0ArchetypeRevDescription" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevDescription" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="Awb0SavedBookmark" propertyName="object_desc" width="100"/>
+        <ColumnDef columnName="awb0LogicalDesignator" filterable="true" hidden="false" objectType="Awb0PositionedElement" propertyName="awb0LogicalDesignator" width="100"/>
+        <ColumnDef columnName="awb0Sequence" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Sequence" width="100"/>
+        <ColumnDef columnName="awb0Quantity" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Quantity" width="100"/>
+        <ColumnDef columnName="awb0UoM" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0UoM" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevRelStatus" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevRelStatus" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevReleaseDate" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevReleaseDate" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevEffText" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevEffText" width="300"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningUser" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningGroup" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningGroup" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevLastModUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevLastModUser" width="100"/>
+        <ColumnDef columnName="awb0IsPrecise" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0IsPrecise" width="100"/>
+        <ColumnDef columnName="awb0SubstituteList" filterable="true" hidden="true" objectType="Awb0PositionedElement" propertyName="awb0SubstituteList" width="300"/>
+        <ColumnDef columnName="awb0Level" filterable="true" hidden="true" objectType="Awb0Element" propertyName="awb0Level" width="50"/>
+        <ColumnDef columnName="awb0IsVi" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0IsVi" width="50"/>
+        <ColumnDef columnName="awb0PackCount" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0PackCount" width="50"/>
+        <ColumnDef columnName="awb0IPClassification" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0IPClassification" width="50"/>
+        <ColumnDef columnName="awb0ProjectList" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0ProjectList" width="100"/>
+        <ColumnDef columnName="awb0AlternateList" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0AlternateList" width="100"/>
+        <ColumnDef columnName="awb0UsedArrangement" filterable="true" hidden="true" objectType="Awb0PositionedElement" propertyName="awb0UsedArrangement" width="100"/>
+        <ColumnDef columnName="awb0PartSource" filterable="true" hidden="true" objectType="Awb0PartElement" propertyName="awb0PartSource" width="100"/>
+        <ColumnDef columnName="awb0TraceLinkFlag" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0TraceLinkFlag" width="100"/>
+        <ColumnDef columnName="arm1ParaNumber" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="arm1ParaNumber" width="100"/>
+        <ColumnDef columnName="arm0ClearText" filterable="true" hidden="false" objectType="Arm0ParagraphElement" propertyName="arm0ClearText" width="100"/>
+        <ColumnDef columnName="arm0ClearText" filterable="true" hidden="false" objectType="Arm0RequirementElement" propertyName="arm0ClearText" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Awb0OccurrenceManagement.Design Revision" uri="Awb0OccurrenceManagement.Design Revision">
+      <ColumnConfig columnConfigId="contentColConfig.Design Revision" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="object_string" filterable="true" hidden="false" objectType="Awb0Element" propertyName="object_string" width="400"/>
+        <ColumnDef columnName="awb0PendingAction" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0PendingAction" width="100"/>
+        <ColumnDef columnName="awb0UnderlyingObjectType" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0UnderlyingObjectType" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevRelStatus" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevRelStatus" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevDescription" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevDescription" width="300"/>
+        <ColumnDef columnName="awb0ArchetypeRevReleaseDate" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevReleaseDate" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevEffText" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevEffText" width="300"/>
+        <ColumnDef columnName="awb0EffectivityFormula" filterable="true" hidden="false" objectType="Awb0DesignElement" propertyName="awb0EffectivityFormula" width="100"/>
+        <ColumnDef columnName="awb0VariantFormula" filterable="true" hidden="false" objectType="Awb0DesignElement" propertyName="awb0VariantFormula" width="100"/>
+        <ColumnDef columnName="awb0RuleConfigBy" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0RuleConfigBy" width="100"/>
+        <ColumnDef columnName="awb0OccName" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0OccName" width="200"/>
+        <ColumnDef columnName="awb0OccType" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0OccType" width="200"/>
+        <ColumnDef columnName="awb0IsPrecise" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0IsPrecise" width="100"/>
+        <ColumnDef columnName="awb0LogicalDesignator" filterable="true" hidden="false" objectType="Awb0PositionedElement" propertyName="awb0LogicalDesignator" width="100"/>
+        <ColumnDef columnName="awb0Sequence" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Sequence" width="100"/>
+        <ColumnDef columnName="awb0Quantity" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Quantity" width="100"/>
+        <ColumnDef columnName="awb0UoM" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0UoM" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningUser" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningGroup" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningGroup" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevLastModDate" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevLastModDate" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevLastModUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevLastModUser" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Advanced Search" uri="Awp0AdvancedSearch">
+      <ColumnConfig columnConfigId="advancedSearchResultsColConfig" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_string" filterable="true" hidden="false" objectType="POM_object" propertyName="object_string" width="300"/>
+        <ColumnDef columnName="vf4cp_itm_supplier_name" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_itm_supplier_name" width="300"/>
+        <ColumnDef columnName="vf4cp_itm_supplier_name" filterable="true" hidden="true" objectType="VF4_BatteryLineRevision" propertyName="vf4cp_itm_supplier_name" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="ItemRevision" propertyName="item_id" width="300"/>
+        <ColumnDef columnName="owning_user" filterable="true" hidden="false" objectType="POM_application_object" propertyName="owning_user" width="300"/>
+        <ColumnDef columnName="last_mod_user" filterable="true" hidden="false" objectType="POM_application_object" propertyName="last_mod_user" width="300"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="POM_application_object" propertyName="last_mod_date" width="300"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="POM_application_object" propertyName="creation_date" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="release_status_list" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="release_status_list" width="300"/>
+        <ColumnDef columnName="vf4_bom_vfPartNumber" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_bom_vfPartNumber" width="300"/>
+        <ColumnDef columnName="vf4_ecr_number" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_ecr_number" width="300"/>
+        <ColumnDef columnName="vf4_ecn_number" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_ecn_number" width="300"/>
+        <ColumnDef columnName="vf4_purchasing_level" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_purchasing_level" width="300"/>
+        <ColumnDef columnName="vf4_module_group_bom" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_module_group_bom" width="300"/>
+        <ColumnDef columnName="vf4_main_module_bom" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_main_module_bom" width="300"/>
+        <ColumnDef columnName="vf4_module_name" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_module_name" width="300"/>
+        <ColumnDef columnName="vf4_bom_change_index" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_bom_change_index" width="300"/>
+        <ColumnDef columnName="vf4_bom_vehicle_type" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_bom_vehicle_type" width="300"/>
+        <ColumnDef columnName="vf4_reference_number_bom" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_reference_number_bom" width="300"/>
+        <ColumnDef columnName="vf4_maturity_level_cp" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_maturity_level_cp" width="300"/>
+        <ColumnDef columnName="vf4cp_itm_supplier_code" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_itm_supplier_code" width="300"/>
+        <ColumnDef columnName="vf4cp_supplier_country" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_supplier_country" width="300"/>
+        <ColumnDef columnName="vf4cp_manuf_location" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_manuf_location" width="300"/>
+        <ColumnDef columnName="vf4_mpa_bail_agree_st" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_mpa_bail_agree_st" width="300"/>
+        <ColumnDef columnName="vf4_clPlan_nda_signed" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_clPlan_nda_signed" width="300"/>
+        <ColumnDef columnName="vf4_buyerPlan_NDASIGNED" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_buyerPlan_NDASIGNED" width="300"/>
+        <ColumnDef columnName="vf4_plan_rfi" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_plan_rfi" width="300"/>
+        <ColumnDef columnName="vf4_forecast_rfi_date" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_forecast_rfi_date" width="300"/>
+        <ColumnDef columnName="vf4_actual_rfi" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_actual_rfi" width="300"/>
+        <ColumnDef columnName="vf4_quote_received" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_quote_received" width="300"/>
+        <ColumnDef columnName="vf4_actual_quote_received" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_actual_quote_received" width="300"/>
+        <ColumnDef columnName="vf4_sourcing_recommendation" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_sourcing_recommendation" width="300"/>
+        <ColumnDef columnName="vf4_sourcing_recommendAppr" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_sourcing_recommendAppr" width="300"/>
+        <ColumnDef columnName="vf4_plan_award_supplier" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_plan_award_supplier" width="300"/>
+        <ColumnDef columnName="vf4_actual_award_supplier" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_actual_award_supplier" width="300"/>
+        <ColumnDef columnName="vf4_string12" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_string12" width="300"/>
+        <ColumnDef columnName="vf4_ednd_order_plan_d" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_ednd_order_plan_d" width="300"/>
+        <ColumnDef columnName="vf4_actual_eddorder" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_actual_eddorder" width="300"/>
+        <ColumnDef columnName="vf4_eddorder_currency" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_eddorder_currency" width="300"/>
+        <ColumnDef columnName="vf4_eddorder_value_2" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_eddorder_value_2" width="300"/>
+        <ColumnDef columnName="vf4_eddorder" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_eddorder" width="300"/>
+        <ColumnDef columnName="vf4_ednd_contract_status" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_ednd_contract_status" width="300"/>
+        <ColumnDef columnName="vf4_ednd_comment" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_ednd_comment" width="300"/>
+        <ColumnDef columnName="vf4_String13" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_String13" width="300"/>
+        <ColumnDef columnName="vf4_tooling_type" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_tooling_type" width="300"/>
+        <ColumnDef columnName="vf4_tooling_order_2" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_tooling_order_2" width="300"/>
+        <ColumnDef columnName="vf4_tool_order_release_plan" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_tool_order_release_plan" width="300"/>
+        <ColumnDef columnName="vf4_actual_tooling_order" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_actual_tooling_order" width="300"/>
+        <ColumnDef columnName="vf4_string2" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_string2" width="300"/>
+        <ColumnDef columnName="Tooling Investment Currency Status(*)" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_tooling_currency" width="300"/>
+        <ColumnDef columnName="vf4cp_ToolingOrderNumber" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_ToolingOrderNumber" width="300"/>
+        <ColumnDef columnName="vf4cp_RefurOrderNumber" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_RefurOrderNumber" width="300"/>
+        <ColumnDef columnName="vf4_tooling_contract_status" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_tooling_contract_status" width="300"/>
+        <ColumnDef columnName="vf4_faci_order_number" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_faci_order_number" width="300"/>
+        <ColumnDef columnName="vf4_facility_investment_cur" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_facility_investment_cur" width="300"/>
+        <ColumnDef columnName="vf4_supplier_piece_cost_exw" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_supplier_piece_cost_exw" width="300"/>
+        <ColumnDef columnName="vf4_piece_currency" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_piece_currency" width="300"/>
+        <ColumnDef columnName="vf4_supplier_pkg_amount" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_supplier_pkg_amount" width="300"/>
+        <ColumnDef columnName="vf4_incoterm_buyer_input" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_incoterm_buyer_input" width="300"/>
+        <ColumnDef columnName="Incoterm from sap" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_Incoterm_from_sap" width="300"/>
+        <ColumnDef columnName="vf4_Supplier_logistic_cost" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_Supplier_logistic_cost" width="300"/>
+        <ColumnDef columnName="vf4_piece_cost_auto" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_piece_cost_auto" width="300"/>
+        <ColumnDef columnName="vf4_piece_cost_status" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_piece_cost_status" width="300"/>
+        <ColumnDef columnName="vf4_cost_approval_date" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_cost_approval_date" width="300"/>
+        <ColumnDef columnName="vf4_sched_agree_plan_d" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_sched_agree_plan_d" width="300"/>
+        <ColumnDef columnName="vf4cp_SACostReleaseDate" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_SACostReleaseDate" width="300"/>
+        <ColumnDef columnName="vf4cp_SAOrderNumber" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_SAOrderNumber" width="300"/>
+        <ColumnDef columnName="vf4_sched_agreement_status" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_sched_agreement_status" width="300"/>
+        <ColumnDef columnName="vf4_is_proto_tooling_requ" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_is_proto_tooling_requ" width="300"/>
+        <ColumnDef columnName="vf4_proto_tooling_order" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_proto_tooling_order" width="300"/>
+        <ColumnDef columnName="vf4_soft_tooling_currency_t" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_soft_tooling_currency_t" width="300"/>
+        <ColumnDef columnName="vf4_proto_pi_price" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_proto_pi_price" width="300"/>
+        <ColumnDef columnName="vf4_string4" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_string4" width="300"/>
+        <ColumnDef columnName="vf4_proto_contract_status" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_proto_contract_status" width="300"/>
+        <ColumnDef columnName="vf4_edd_cost_parent_part" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_edd_cost_parent_part" width="300"/>
+        <ColumnDef columnName="vf4_isToolingCostInParent" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_isToolingCostInParent" width="300"/>
+        <ColumnDef columnName="vf4_tool_cost_parent_part" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_tool_cost_parent_part" width="300"/>
+        <ColumnDef columnName="vf4_miscellaneous_cost2" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_miscellaneous_cost2" width="300"/>
+        <ColumnDef columnName="vf4_pto1_order_method" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_pto1_order_method" width="300"/>
+        <ColumnDef columnName="vf4cp_PTO1OrderNumber" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_PTO1OrderNumber" width="300"/>
+        <ColumnDef columnName="vf4_pto1_order_status" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_pto1_order_status" width="300"/>
+        <ColumnDef columnName="vf4_pp_order_method" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_pp_order_method" width="300"/>
+        <ColumnDef columnName="vf4_pp_order_status" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_pp_order_status" width="300"/>
+        <ColumnDef columnName="vf4cp_PPCost" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_PPCost" width="300"/>
+        <ColumnDef columnName="vf4cp_PPCostCurrency" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_PPCostCurrency" width="300"/>
+        <ColumnDef columnName="vf4_ls_order_method" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_ls_order_method" width="300"/>
+        <ColumnDef columnName="vf4cp_LSOrderNumber" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_LSOrderNumber" width="300"/>
+        <ColumnDef columnName="vf4_ls_order_status" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_ls_order_status" width="300"/>
+        <ColumnDef columnName="vf4cp_LSCost" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_LSCost" width="300"/>
+        <ColumnDef columnName="vf4cp_LSCostCurrency" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4cp_LSCostCurrency" width="300"/>
+        <ColumnDef columnName="CO Agreement Status(*)" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_co_agreement_status" width="300"/>
+        <ColumnDef columnName="vf4_purchasing_comments" filterable="true" hidden="false" objectType="VF4_line_itemRevision" propertyName="vf4_purchasing_comments" width="300"/>
+        <ColumnDef columnName="vf4_piece_cost_value_target" filterable="true" hidden="false" objectType="VF4_DesignRevision" propertyName="GRM(VF4_Costing_Reference2,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).vf4_piece_cost_value_target" width="300"/>
+        <ColumnDef columnName="vf4_ednd_cost_value_target" filterable="true" hidden="false" objectType="VF4_DesignRevision" propertyName="GRM(VF4_Costing_Reference2,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).vf4_ednd_cost_value_target" width="300"/>
+        <ColumnDef columnName="vf4_misce_piece_cost_target" filterable="true" hidden="false" objectType="VF4_DesignRevision" propertyName="GRM(VF4_Costing_Reference2,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).vf4_misce_piece_cost_target" width="300"/>
+        <ColumnDef columnName="vf4_tooling_invest_target" filterable="true" hidden="false" objectType="VF4_DesignRevision" propertyName="GRM(VF4_Costing_Reference2,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).vf4_tooling_invest_target" width="300"/>
+        <ColumnDef columnName="object_string" filterable="true" hidden="false" objectType="VF4_DesignRevision" propertyName="object_string" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="VF4_DesignRevision" propertyName="item_id" width="300"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="VF4_DesignRevision" propertyName="item_revision_id" width="300"/>
+        <ColumnDef columnName="vf4_tgss_doc_number" filterable="true" hidden="false" objectType="VF4_DesignRevision" propertyName="vf4_tgss_doc_number" width="300"/>
+        <ColumnDef columnName="vf4_moq_2" filterable="true" hidden="true" objectType="VF4_line_itemRevision" propertyName="vf4_moq_2" width="300"/>
+        <ColumnDef columnName="vf4_order_lead_time" filterable="true" hidden="true" objectType="VF4_line_itemRevision" propertyName="vf4_order_lead_time" width="300"/>
+        <ColumnDef columnName="fnd0InProcess" filterable="true" hidden="false" objectType="DocumentRevision" propertyName="fnd0InProcess" width="190"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="AvailableTemplateLists" uri="Awp0AvailableTemplateLists">
+      <ColumnConfig columnConfigId="Awp0AvailableTemplateLists" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="EPMTaskTemplate" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="template_classification" filterable="true" hidden="false" objectType="EPMTaskTemplate" propertyName="template_classification" width="110"/>
+        <ColumnDef columnName="stage" filterable="true" hidden="false" objectType="EPMTaskTemplate" propertyName="stage" width="95"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="EPMTaskTemplate" propertyName="creation_date" width="125"/>
+        <ColumnDef columnName="owning_user" filterable="true" hidden="false" objectType="EPMTaskTemplate" propertyName="owning_user" width="200"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="MyActiveFolders" uri="Awp0MyActiveFolders">
+      <ColumnConfig columnConfigId="myActiveFoldersColConfig" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_name" width="190"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_desc" width="200"/>
+        <ColumnDef columnName="owning_user" filterable="true" hidden="false" objectType="POM_application_object" propertyName="owning_user" width="190"/>
+        <ColumnDef columnName="owning_group" filterable="true" hidden="false" objectType="POM_application_object" propertyName="owning_group" width="190"/>
+        <ColumnDef columnName="awp0IsShared" filterable="true" hidden="false" objectType="Awp0SearchFolder" propertyName="awp0IsShared" width="100"/>
+        <ColumnDef columnName="release_status_list" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="release_status_list" width="190"/>
+        <ColumnDef columnName="checked_out" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="checked_out" width="190"/>
+        <ColumnDef columnName="awp0Item_item_id" filterable="true" hidden="false" objectType="ItemRevision" propertyName="awp0Item_item_id" width="190"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="ItemRevision" propertyName="item_revision_id" width="190"/>
+        <ColumnDef columnName="fnd0InProcess" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="fnd0InProcess" width="190"/>
+        <ColumnDef columnName="ics_subclass_name" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="ics_subclass_name" width="190"/>
+        <ColumnDef columnName="po_object_name" filterable="true" hidden="false" objectType="PublishedObject" propertyName="po_object_name" width="190"/>
+        <ColumnDef columnName="po_group_id" filterable="true" hidden="false" objectType="PublishedObject" propertyName="po_group_id" width="190"/>
+        <ColumnDef columnName="po_object_creation_date" filterable="true" hidden="false" objectType="PublishedObject" propertyName="po_object_creation_date" width="190"/>
+        <ColumnDef columnName="po_object_type" filterable="true" hidden="false" objectType="PublishedObject" propertyName="po_object_type" width="190"/>
+        <ColumnDef columnName="awp0AliasID" filterable="true" hidden="true" objectType="Item" propertyName="awp0AliasID" width="190"/>
+        <ColumnDef columnName="awp0AlternateID" filterable="true" hidden="true" objectType="Item" propertyName="awp0AlternateID" width="190"/>
+        <ColumnDef columnName="awp0AliasID" filterable="true" hidden="true" objectType="ItemRevision" propertyName="awp0AliasID" width="190"/>
+        <ColumnDef columnName="awp0AlternateID" filterable="true" hidden="true" objectType="ItemRevision" propertyName="awp0AlternateID" width="190"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="My Favorites" uri="Awp0MyFavorites">
+      <ColumnConfig columnConfigId="favoritesColConfig" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="CMImpactedObjectName" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_string" width="200"/>
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_name" width="200"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_desc" width="190"/>
+        <ColumnDef columnName="release_status_list" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="release_status_list" width="190"/>
+        <ColumnDef columnName="awp0Item_item_id" filterable="true" hidden="false" objectType="ItemRevision" propertyName="awp0Item_item_id" width="190"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="ItemRevision" propertyName="item_revision_id" width="190"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="last_mod_date" width="190"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="creation_date" width="190"/>
+        <ColumnDef columnName="owning_user" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="owning_user" width="190"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="MyGroupAssignmentList" uri="Awp0MyGroupPalLists">
+      <ColumnConfig columnConfigId="Awp0MyGroupPalLists" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="list_name" filterable="true" hidden="false" objectType="EPMAssignmentList" propertyName="list_name" width="300"/>
+        <ColumnDef columnName="shared" filterable="true" hidden="false" objectType="EPMAssignmentList" propertyName="shared" width="300"/>
+        <ColumnDef columnName="list_desc" filterable="true" hidden="false" objectType="EPMAssignmentList" propertyName="list_desc" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="MyAssignmentList" uri="Awp0MyPalLists">
+      <ColumnConfig columnConfigId="Awp0MyPalLists" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="list_name" filterable="true" hidden="false" objectType="EPMAssignmentList" propertyName="list_name" width="300"/>
+        <ColumnDef columnName="shared" filterable="true" hidden="false" objectType="EPMAssignmentList" propertyName="shared" width="300"/>
+        <ColumnDef columnName="list_desc" filterable="true" hidden="false" objectType="EPMAssignmentList" propertyName="list_desc" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Recent" uri="Awp0MyRecent">
+      <ColumnConfig columnConfigId="myRecentsColConfig" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="CMImpactedObjectName" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_string" width="200"/>
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_name" width="200"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_desc" width="190"/>
+        <ColumnDef columnName="release_status_list" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="release_status_list" width="190"/>
+        <ColumnDef columnName="awp0Item_item_id" filterable="true" hidden="false" objectType="ItemRevision" propertyName="awp0Item_item_id" width="190"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="ItemRevision" propertyName="item_revision_id" width="190"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="last_mod_date" width="190"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="creation_date" width="190"/>
+        <ColumnDef columnName="owning_user" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="owning_user" width="190"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Navigate" uri="Awp0ObjectNavigation">
+      <ColumnConfig columnConfigId="searchResultsColConfig" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="release_status_list" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="release_status_list" width="250"/>
+        <ColumnDef columnName="checked_out" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="checked_out" width="250"/>
+        <ColumnDef columnName="awp0Item_item_id" filterable="true" hidden="false" objectType="ItemRevision" propertyName="awp0Item_item_id" width="250"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="ItemRevision" propertyName="item_revision_id" width="250"/>
+        <ColumnDef columnName="fnd0InProcess" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="fnd0InProcess" width="250"/>
+        <ColumnDef columnName="ics_subclass_name" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="ics_subclass_name" width="250"/>
+        <ColumnDef columnName="po_object_name" filterable="true" hidden="false" objectType="PublishedObject" propertyName="po_object_name" width="250"/>
+        <ColumnDef columnName="po_group_id" filterable="true" hidden="false" objectType="PublishedObject" propertyName="po_group_id" width="250"/>
+        <ColumnDef columnName="po_object_creation_date" filterable="true" hidden="false" objectType="PublishedObject" propertyName="po_object_creation_date" width="250"/>
+        <ColumnDef columnName="po_object_type" filterable="true" hidden="false" objectType="PublishedObject" propertyName="po_object_type" width="250"/>
+        <ColumnDef columnName="awp0AliasID" filterable="true" hidden="true" objectType="Item" propertyName="awp0AliasID" width="250"/>
+        <ColumnDef columnName="awp0AlternateID" filterable="true" hidden="true" objectType="Item" propertyName="awp0AlternateID" width="250"/>
+        <ColumnDef columnName="awp0AliasID" filterable="true" hidden="true" objectType="ItemRevision" propertyName="awp0AliasID" width="250"/>
+        <ColumnDef columnName="awp0AlternateID" filterable="true" hidden="true" objectType="ItemRevision" propertyName="awp0AlternateID" width="250"/>
+        <ColumnDef columnName="awp0IsShared" filterable="true" hidden="true" objectType="Awp0SearchFolder" propertyName="awp0IsShared" width="100"/>
+        <ColumnDef columnName="awb0IsDiscoveryIndexed" filterable="true" hidden="true" objectType="ItemRevision" propertyName="awb0IsDiscoveryIndexed" width="250"/>
+        <ColumnDef columnName="awb0ProductIDsInSession" filterable="true" hidden="true" objectType="Fnd0AppSession" propertyName="awb0ProductIDsInSession" width="250"/>
+        <ColumnDef columnName="awb0ProductNamesInSession" filterable="true" hidden="true" objectType="Fnd0AppSession" propertyName="awb0ProductNamesInSession" width="250"/>
+        <ColumnDef columnName="awb0ProductsInSession" filterable="true" hidden="true" objectType="Fnd0AppSession" propertyName="awb0ProductsInSession" width="250"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="OtherAssignmentList" uri="Awp0OtherPalLists">
+      <ColumnConfig columnConfigId="Awp0OtherPalLists" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="list_name" filterable="true" hidden="false" objectType="EPMAssignmentList" propertyName="list_name" width="300"/>
+        <ColumnDef columnName="shared" filterable="true" hidden="false" objectType="EPMAssignmentList" propertyName="shared" width="300"/>
+        <ColumnDef columnName="list_desc" filterable="true" hidden="false" objectType="EPMAssignmentList" propertyName="list_desc" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Printouts" uri="Awp0PrintOuts">
+      <ColumnConfig columnConfigId="printoutsResultsColConfig" sortBy="2" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="CrfOutputHtml" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="CrfOutputHtml" propertyName="creation_date" width="250"/>
+        <ColumnDef columnName="owning_group" filterable="true" hidden="false" objectType="CrfOutputHtml" propertyName="owning_group" width="250"/>
+        <ColumnDef columnName="object_type" filterable="true" hidden="false" objectType="CrfOutputHtml" propertyName="object_type" width="250"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Results" uri="Awp0SearchResults">
+      <ColumnConfigRef columnConfigId="searchResultsColConfig"/>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Tracking" uri="Awp0TasksToTrack">
+      <ColumnConfig columnConfigId="trackingColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="fnd0Priority" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0Priority" width="200"/>
+        <ColumnDef columnName="job_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="job_name" width="300"/>
+        <ColumnDef columnName="fnd0Assignee" filterable="true" hidden="false" objectType="Signoff" propertyName="fnd0Assignee" width="200"/>
+        <ColumnDef columnName="fnd0WorkflowInitiator" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0WorkflowInitiator" width="200"/>
+        <ColumnDef columnName="due_date" filterable="true" hidden="false" objectType="EPMTask" propertyName="due_date" width="200"/>
+        <ColumnDef columnName="fnd0StartDate" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0StartDate" width="200"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Team" uri="Awp0TeamTasks">
+      <ColumnConfig columnConfigId="teamColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="fnd0Priority" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0Priority" width="200"/>
+        <ColumnDef columnName="job_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="job_name" width="300"/>
+        <ColumnDef columnName="fnd0Assignee" filterable="true" hidden="false" objectType="Signoff" propertyName="fnd0Assignee" width="200"/>
+        <ColumnDef columnName="fnd0WorkflowInitiator" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0WorkflowInitiator" width="200"/>
+        <ColumnDef columnName="due_date" filterable="true" hidden="false" objectType="EPMTask" propertyName="due_date" width="200"/>
+        <ColumnDef columnName="fnd0StartDate" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0StartDate" width="200"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Bill of Material Scope" uri="BillOfMaterialColConfig">
+      <ColumnConfig columnConfigId="BillOfMaterialColConfig" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="mtw0Material" filterable="true" hidden="false" objectType="Mtw0BillOfMaterialInfo" propertyName="mtw0Material" width="150"/>
+        <ColumnDef columnName="mtw0MaterialMassInGram" filterable="true" hidden="false" objectType="Mtw0BillOfMaterialInfo" propertyName="mtw0MaterialMassInGram" width="150"/>
+        <ColumnDef columnName="mtw0MaterialComposition" filterable="true" hidden="false" objectType="Mtw0BillOfMaterialInfo" propertyName="mtw0MaterialComposition" width="150"/>
+        <ColumnDef columnName="mtw0Substance" filterable="true" hidden="false" objectType="Mtw0BillOfMaterialInfo" propertyName="mtw0Substance" width="150"/>
+        <ColumnDef columnName="mat1cas_number" filterable="true" hidden="false" objectType="Mtw0BillOfMaterialInfo" propertyName="REF(mtw0Substance,Mat1Substance).mat1cas_number" width="150"/>
+        <ColumnDef columnName="mtw0SubstanceMassInGram" filterable="true" hidden="false" objectType="Mtw0BillOfMaterialInfo" propertyName="mtw0SubstanceMassInGram" width="150"/>
+        <ColumnDef columnName="mtw0SubstanceComposition" filterable="true" hidden="false" objectType="Mtw0BillOfMaterialInfo" propertyName="mtw0SubstanceComposition" width="150"/>
+        <ColumnDef columnName="mtw0Parts" filterable="true" hidden="false" objectType="Mtw0BillOfMaterialInfo" propertyName="mtw0Parts" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Bill of Substance Scope" uri="BillOfSubstanceColConfig">
+      <ColumnConfig columnConfigId="BillOfSubstanceColConfig" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="mtw0Substance" filterable="true" hidden="false" objectType="Mtw0BillOfSubstanceInfo" propertyName="mtw0Substance" width="150"/>
+        <ColumnDef columnName="mat1cas_number" filterable="true" hidden="false" objectType="Mtw0BillOfSubstanceInfo" propertyName="REF(mtw0Substance,Mat1Substance).mat1cas_number" width="150"/>
+        <ColumnDef columnName="mtw0SubstanceMassInGram" filterable="true" hidden="false" objectType="Mtw0BillOfSubstanceInfo" propertyName="mtw0SubstanceMassInGram" width="150"/>
+        <ColumnDef columnName="mtw0SubstanceComposition" filterable="true" hidden="false" objectType="Mtw0BillOfSubstanceInfo" propertyName="mtw0SubstanceComposition" width="150"/>
+        <ColumnDef columnName="mtw0Materials" filterable="true" hidden="false" objectType="Mtw0BillOfSubstanceInfo" propertyName="mtw0Materials" width="300"/>
+        <ColumnDef columnName="mtw0Parts" filterable="true" hidden="false" objectType="Mtw0BillOfSubstanceInfo" propertyName="mtw0Parts" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="CAW0COEQAColumns" uri="CAW0COEQAColumns">
+      <ColumnConfig columnConfigId="CAW0COEQAColumns" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="qam0QualityActionSubtype" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0QualityActionSubtype" width="100"/>
+        <ColumnDef columnName="qam0Comment" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0Comment" width="250"/>
+        <ColumnDef columnName="fnd0ResponsibleUser" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="fnd0ResponsibleUser" width="250"/>
+        <ColumnDef columnName="qam0DueDate" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0DueDate" width="250"/>
+        <ColumnDef columnName="qam0QualityActionStatus" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0QualityActionStatus" width="250"/>
+        <ColumnDef columnName="qam0CompletionDate" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0CompletionDate" width="250"/>
+        <ColumnDef columnName="caw0visibleInReport" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="caw0visibleInReport" width="250"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="CAW0CorrectiveQAColumns" uri="CAW0CorrectiveQAColumns">
+      <ColumnConfig columnConfigId="CAW0CorrectiveQAColumns" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="Root Cause" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="GRMS2PREL(CPA0CorrectiveAction,C2CapaRevision).caw0RootCause" width="100"/>
+        <ColumnDef columnName="qam0QualityActionSubtype" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0QualityActionSubtype" width="100"/>
+        <ColumnDef columnName="qam0Comment" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0Comment" width="250"/>
+        <ColumnDef columnName="fnd0ResponsibleUser" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="fnd0ResponsibleUser" width="250"/>
+        <ColumnDef columnName="qam0DueDate" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0DueDate" width="250"/>
+        <ColumnDef columnName="qam0QualityActionStatus" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0QualityActionStatus" width="250"/>
+        <ColumnDef columnName="qam0CompletionDate" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0CompletionDate" width="250"/>
+        <ColumnDef columnName="caw0visibleInReport" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="caw0visibleInReport" width="250"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="CAW0ImplCorrectiveQAColumns" uri="CAW0ImplCorrectiveQAColumns">
+      <ColumnConfig columnConfigId="CAW0ImplCorrectiveQAColumns" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="Root Cause" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="GRMS2PREL(CPA0ImplCorrAction,C2CapaRevision).caw0RootCause" width="100"/>
+        <ColumnDef columnName="qam0QualityActionSubtype" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0QualityActionSubtype" width="100"/>
+        <ColumnDef columnName="qam0ExecutionType" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0ExecutionType" width="250"/>
+        <ColumnDef columnName="qam0ExecutionReference" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0ExecutionReference" width="250"/>
+        <ColumnDef columnName="qam0Comment" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0Comment" width="250"/>
+        <ColumnDef columnName="fnd0ResponsibleUser" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="fnd0ResponsibleUser" width="250"/>
+        <ColumnDef columnName="qam0DueDate" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0DueDate" width="250"/>
+        <ColumnDef columnName="qam0QualityActionStatus" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0QualityActionStatus" width="250"/>
+        <ColumnDef columnName="qam0CompletionDate" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="qam0CompletionDate" width="250"/>
+        <ColumnDef columnName="caw0visibleInReport" filterable="true" hidden="false" objectType="Qam0QualityAction" propertyName="caw0visibleInReport" width="250"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="CAW0RepeatedProbDefects" uri="CAW0RepeatedProbDefects">
+      <ColumnConfig columnConfigId="CAW0RepeatedProbDefects" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="C2CapaRevision" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="C2CapaRevision" propertyName="item_id" width="100"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="C2CapaRevision" propertyName="object_desc" width="250"/>
+        <ColumnDef columnName="c2_capa_category" filterable="true" hidden="false" objectType="C2CapaRevision" propertyName="c2_capa_category" width="250"/>
+        <ColumnDef columnName="CMMaturity" filterable="true" hidden="false" objectType="C2CapaRevision" propertyName="CMMaturity" width="250"/>
+        <ColumnDef columnName="CMDisposition" filterable="true" hidden="false" objectType="C2CapaRevision" propertyName="CMDisposition" width="250"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="C2CapaRevision" propertyName="creation_date" width="250"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="C2CapaRevision" propertyName="last_mod_date" width="250"/>
+        <ColumnDef columnName="c2_capa_owner" filterable="true" hidden="false" objectType="C2CapaRevision" propertyName="c2_capa_owner" width="250"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="CAW0RootCause" uri="CAW0RootCause">
+      <ColumnConfig columnConfigId="rootCauseColConfig" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="caw0rootCause" filterable="true" hidden="false" objectType="CAW0Defect" propertyName="caw0rootCause" width="100"/>
+        <ColumnDef columnName="caw0WhySequence" filterable="true" hidden="false" objectType="CAW0Defect" propertyName="caw0WhySequence" width="250"/>
+        <ColumnDef columnName="caw0CauseGroup" filterable="true" hidden="false" objectType="CAW0Defect" propertyName="caw0CauseGroup" width="250"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_desc" width="250"/>
+        <ColumnDef columnName="caw0category" filterable="true" hidden="false" objectType="CAW0Defect" propertyName="caw0category" width="250"/>
+        <ColumnDef columnName="caw0reoccuring" filterable="true" hidden="false" objectType="CAW0Defect" propertyName="caw0reoccuring" width="250"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="cmImpactedTable" uri="CMImpactedTable">
+      <ColumnConfig columnConfigId="CMImpactedTableColConfig" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="CMImpactedObjectName" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_string" width="300"/>
+        <ColumnDef columnName="object_type" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_type" width="140"/>
+        <ColumnDef columnName="release_status_list" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="release_status_list" width="88"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="cmProbableImpactedTable" uri="CMProbableImpactedTable">
+      <ColumnConfig columnConfigId="CMProbableImpactedTableColConfig" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="CMImpactedObjectName" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="REF(cm0ProposedImpactedObject,WorkspaceObject).object_string" width="445"/>
+        <ColumnDef columnName="CMImpactedObjectType" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="REF(cm0ProposedImpactedObject,WorkspaceObject).object_type" width="150"/>
+        <ColumnDef columnName="CMImpactedObjectSourceType" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="cm0SourceObjectType" width="150"/>
+        <ColumnDef columnName="CMImpactedObjectReleaseStatus" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="REF(cm0ProposedImpactedObject,WorkspaceObject).release_status_list" width="88"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="cmRelationImpactedTable" uri="CMRelationImpactedTable">
+      <ColumnConfig columnConfigId="CMRelationImpactedTableColConfig" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="CMImpactedObjectName" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="REF(cm0ProposedImpactedObject,WorkspaceObject).object_string" width="400"/>
+        <ColumnDef columnName="CMImpactedObjectType" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="REF(cm0ProposedImpactedObject,WorkspaceObject).object_type" width="150"/>
+        <ColumnDef columnName="CMImpactedObjectRelation" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="REF(cm0Relation,ImanRelation).type_string" width="150"/>
+        <ColumnDef columnName="CMImpactedObjectReleaseStatus" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="REF(cm0ProposedImpactedObject,WorkspaceObject).release_status_list" width="92"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Actionable Changes" uri="Cm1ActionableChanges">
+      <ColumnConfig columnConfigId="Cm1ActionableChangesColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_name" width="200"/>
+        <ColumnDef columnName="awp0Item_item_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="awp0Item_item_id" width="100"/>
+        <ColumnDef columnName="fnd0InProcess" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="fnd0InProcess" width="100"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_desc" width="200"/>
+        <ColumnDef columnName="CMMaturity" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMMaturity" width="100"/>
+        <ColumnDef columnName="CMDisposition" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMDisposition" width="100"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="creation_date" width="150"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="last_mod_date" width="150"/>
+        <ColumnDef columnName="cm0Requestor" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="cm0Requestor" width="300"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="item_revision_id" width="80"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Approved" uri="Cm1ApprovedChanges">
+      <ColumnConfig columnConfigId="Cm1ApprovedChangeColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_name" width="200"/>
+        <ColumnDef columnName="awp0Item_item_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="awp0Item_item_id" width="100"/>
+        <ColumnDef columnName="fnd0InProcess" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="fnd0InProcess" width="100"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_desc" width="200"/>
+        <ColumnDef columnName="CMMaturity" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMMaturity" width="100"/>
+        <ColumnDef columnName="CMDisposition" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMDisposition" width="100"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="creation_date" width="150"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="last_mod_date" width="150"/>
+        <ColumnDef columnName="cm0Requestor" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="cm0Requestor" width="300"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="item_revision_id" width="80"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Closed Changes" uri="Cm1ClosedChanges">
+      <ColumnConfig columnConfigId="Cm1ClosedChangesColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_name" width="200"/>
+        <ColumnDef columnName="awp0Item_item_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="awp0Item_item_id" width="100"/>
+        <ColumnDef columnName="fnd0InProcess" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="fnd0InProcess" width="100"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_desc" width="200"/>
+        <ColumnDef columnName="CMMaturity" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMMaturity" width="100"/>
+        <ColumnDef columnName="CMDisposition" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMDisposition" width="100"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="creation_date" width="150"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="last_mod_date" width="150"/>
+        <ColumnDef columnName="cm0Requestor" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="cm0Requestor" width="300"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="item_revision_id" width="80"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Disapproved" uri="Cm1DisapprovedChanges">
+      <ColumnConfig columnConfigId="Cm1DisapprovedChangeColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_name" width="200"/>
+        <ColumnDef columnName="awp0Item_item_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="awp0Item_item_id" width="100"/>
+        <ColumnDef columnName="fnd0InProcess" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="fnd0InProcess" width="100"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_desc" width="200"/>
+        <ColumnDef columnName="CMMaturity" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMMaturity" width="100"/>
+        <ColumnDef columnName="CMDisposition" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMDisposition" width="100"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="creation_date" width="150"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="last_mod_date" width="150"/>
+        <ColumnDef columnName="cm0Requestor" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="cm0Requestor" width="300"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="item_revision_id" width="80"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Saved" uri="Cm1SavedChanges">
+      <ColumnConfig columnConfigId="Cm1SavedChangeColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_name" width="200"/>
+        <ColumnDef columnName="awp0Item_item_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="awp0Item_item_id" width="100"/>
+        <ColumnDef columnName="fnd0InProcess" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="fnd0InProcess" width="100"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_desc" width="200"/>
+        <ColumnDef columnName="CMMaturity" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMMaturity" width="100"/>
+        <ColumnDef columnName="CMDisposition" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMDisposition" width="100"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="creation_date" width="150"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="last_mod_date" width="150"/>
+        <ColumnDef columnName="cm0Requestor" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="cm0Requestor" width="300"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="item_revision_id" width="80"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Submitted" uri="Cm1SubmittedChanges">
+      <ColumnConfig columnConfigId="Cm1SubmittedChangeColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_name" width="200"/>
+        <ColumnDef columnName="awp0Item_item_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="awp0Item_item_id" width="100"/>
+        <ColumnDef columnName="fnd0InProcess" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="fnd0InProcess" width="100"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_desc" width="200"/>
+        <ColumnDef columnName="CMMaturity" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMMaturity" width="100"/>
+        <ColumnDef columnName="CMDisposition" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMDisposition" width="100"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="creation_date" width="150"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="last_mod_date" width="150"/>
+        <ColumnDef columnName="cm0Requestor" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="cm0Requestor" width="300"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="item_revision_id" width="80"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Compliance Dashboard Scope" uri="ComplianceDashboardColConfig">
+      <ColumnConfig columnConfigId="ComplianceDashboardColConfig" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="scw0Regulation" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="scw0Regulation" width="240"/>
+        <ColumnDef columnName="scw0Status" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="scw0Status" width="150"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="REF(scw0CmplResult,Scp0SubstanceCmplResult).creation_date" width="150"/>
+        <ColumnDef columnName="scp0FailureReasons" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="REF(scw0CmplResult,Scp0SubstanceCmplResult).scp0FailureReasons" width="300"/>
+        <ColumnDef columnName="scp0remarks" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="REF(scw0CmplResult,Scp0SubstanceCmplResult).scp0remarks" width="300"/>
+        <ColumnDef columnName="scw0Exemption" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="scw0Exemption" width="330"/>
+        <ColumnDef columnName="scp0ExpiryDates" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="REF(scw0AppliedExemptions,Scp0SubsCmplToExemption).scp0ExpiryDates" width="240"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Compliance Dashboard Scope" uri="ComplianceDashboardColConfigOld">
+      <ColumnConfig columnConfigId="ComplianceDashboardColConfigOld" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="scw0Regulation" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="scw0Regulation" width="240"/>
+        <ColumnDef columnName="scw0Status" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="scw0Status" width="150"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="REF(scw0CmplResult,Scp0SubstanceCmplResult).creation_date" width="150"/>
+        <ColumnDef columnName="scw0FailureReason" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="scw0FailureReason" width="300"/>
+        <ColumnDef columnName="scw0Exemption" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="scw0Exemption" width="330"/>
+        <ColumnDef columnName="scw0ExemptionExpires" filterable="true" hidden="false" objectType="Scw0ComplianceInfo" propertyName="scw0ExemptionExpires" width="240"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Composition Tab Scope" uri="CompostionTabColConfig">
+      <ColumnConfig columnConfigId="CompostionTabColConfig" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="mtw0Part" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0Part" width="200"/>
+        <ColumnDef columnName="scp0mass_in_grams" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="REF(mtw0Part,ManufacturerPart).scp0mass_in_grams" width="120"/>
+        <ColumnDef columnName="scp0mass" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="REF(mtw0Part,ManufacturerPart).scp0mass" width="120"/>
+        <ColumnDef columnName="vm0vendor_ref" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="REF(mtw0Part,ManufacturerPart).vm0vendor_ref" width="200"/>
+        <ColumnDef columnName="mtw0Material" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0Material" width="200"/>
+        <ColumnDef columnName="mtw0MaterialMassInGram" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0MaterialMassInGram" width="120"/>
+        <ColumnDef columnName="mtw0MaterialComposition" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0MaterialComposition" width="120"/>
+        <ColumnDef columnName="mtw0Substance" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0Substance" width="120"/>
+        <ColumnDef columnName="mtw0CASNumber" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0CASNumber" width="120"/>
+        <ColumnDef columnName="mtw0SubstanceMassInGram" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0SubstanceMassInGram" width="120"/>
+        <ColumnDef columnName="mtw0SubstanceCompInMaterial" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0SubstanceCompInMaterial" width="120"/>
+        <ColumnDef columnName="mtw0SubstanceComposition" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0SubstanceComposition" width="120"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Composition Tab Scope" uri="CompostionTabColConfig113B">
+      <ColumnConfig columnConfigId="CompostionTabColConfig113B" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="mtw0Material" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0Material" width="200"/>
+        <ColumnDef columnName="mtw0MaterialMassInGram" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0MaterialMassInGram" width="120"/>
+        <ColumnDef columnName="mtw0MaterialComposition" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0MaterialComposition" width="120"/>
+        <ColumnDef columnName="mtw0Substance" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0Substance" width="120"/>
+        <ColumnDef columnName="mtw0CASNumber" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0CASNumber" width="120"/>
+        <ColumnDef columnName="mtw0SubstanceMassInGram" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0SubstanceMassInGram" width="120"/>
+        <ColumnDef columnName="mtw0SubstanceCompInMaterial" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0SubstanceCompInMaterial" width="120"/>
+        <ColumnDef columnName="mtw0SubstanceComposition" filterable="true" hidden="false" objectType="Mtw0MaterialSubstanceInfo" propertyName="mtw0SubstanceComposition" width="120"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Report" uri="Fnd0Report">
+      <ColumnConfig columnConfigId="reportColConfig" sortBy="2" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Dataset" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="Dataset" propertyName="creation_date" width="250"/>
+        <ColumnDef columnName="owning_group" filterable="true" hidden="false" objectType="Dataset" propertyName="owning_group" width="250"/>
+        <ColumnDef columnName="object_type" filterable="true" hidden="false" objectType="Dataset" propertyName="object_type" width="250"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="parentTraversalTable" uri="ParentTraversalTable">
+      <ColumnConfig columnConfigId="ParentTraversalTableColConfig" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="CMImpactedObjectName" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="REF(cm0ProposedImpactedObject,WorkspaceObject).object_string" width="445"/>
+        <ColumnDef columnName="CMImpactedObjectType" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="REF(cm0ProposedImpactedObject,WorkspaceObject).object_type" width="150"/>
+        <ColumnDef columnName="CMImpactedObjectReleaseStatus" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="REF(cm0ProposedImpactedObject,WorkspaceObject).release_status_list" width="150"/>
+        <ColumnDef columnName="CMImpactedOwningUser" filterable="true" hidden="false" objectType="Cm0ProposedImpactedObject" propertyName="REF(cm0ProposedImpactedObject,WorkspaceObject).owning_user" width="150"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="reqdashboardtablecolumns" uri="ReqDashboardTable">
+      <ColumnConfig columnConfigId="reqDashboardTableColConfig" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="awb0ArchetypeId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevName" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevName" width="200"/>
+        <ColumnDef columnName="awb0ArchetypeRevId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevId" width="100"/>
+        <ColumnDef columnName="tc_xrt_text" filterable="true" hidden="false" objectType="Awb0Element" propertyName="REF(awb0UnderlyingObject,SpecElementRevision).body_cleartext" width="250"/>
+        <ColumnDef columnName="awb0TraceLinkFlag" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0TraceLinkFlag" width="75"/>
+        <ColumnDef columnName="awb0IsSuspect" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0IsSuspect" width="75"/>
+        <ColumnDef columnName="release_status_list" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="REF(awb0UnderlyingObject,WorkspaceObject).release_status_list" width="125"/>
+        <ColumnDef columnName="awb0UnderlyingObjectType" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0UnderlyingObjectType" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevLastModDate" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevLastModDate" width="150"/>
+        <ColumnDef columnName="awb0ArchetypeRevLastModUser" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevLastModUser" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningUser" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningUser" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevDescription" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevDescription" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningGroup" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningGroup" width="100"/>
+        <ColumnDef columnName="awb0Parent" filterable="true" hidden="true" objectType="Awb0Element" propertyName="awb0Parent" width="100"/>
+        <ColumnDef columnName="awb0NumberOfChildren" filterable="true" hidden="true" objectType="Awb0Element" propertyName="awb0NumberOfChildren" width="100"/>
+        <ColumnDef columnName="awb0Quantity" filterable="true" hidden="true" objectType="Awb0Element" propertyName="awb0Quantity" width="100"/>
+        <ColumnDef columnName="awb0Level" filterable="true" hidden="true" objectType="Awb0Element" propertyName="awb0Level" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="requirementsummarytabcolumns" uri="ReqSummaryTable">
+      <ColumnConfig columnConfigId="reqSummaryTableColConfig" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="arm1ParaNumber" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="arm1ParaNumber" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevName" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevName" width="200"/>
+        <ColumnDef columnName="awb0ArchetypeId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeId" width="100"/>
+        <ColumnDef columnName="arm0ClearText" filterable="true" hidden="false" objectType="Arm0RequirementElement" propertyName="arm0ClearText" width="200"/>
+        <ColumnDef columnName="awb0TraceLinkFlag" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0TraceLinkFlag" width="100"/>
+        <ColumnDef columnName="awb0IsSuspect" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0IsSuspect" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevLastModUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevLastModUser" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevLastModDate" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevLastModDate" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningUser" width="100"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="Awb0Element" propertyName="REF(awb0UnderlyingObject,POM_application_object).creation_date" width="100"/>
+        <ColumnDef columnName="awb0Parent" filterable="true" hidden="true" objectType="Awb0Element" propertyName="awb0Parent" width="100"/>
+        <ColumnDef columnName="awb0Level" filterable="true" hidden="true" objectType="Awb0Element" propertyName="awb0Level" width="100"/>
+        <ColumnDef columnName="awb0NumberOfChildren" filterable="true" hidden="true" objectType="Awb0Element" propertyName="awb0NumberOfChildren" width="100"/>
+        <ColumnDef columnName="awb0UnderlyingObjectType" filterable="true" hidden="true" objectType="Awb0Element" propertyName="awb0UnderlyingObjectType" width="100"/>
+        <ColumnDef columnName="awb0Quantity" filterable="true" hidden="true" objectType="Awb0Element" propertyName="awb0Quantity" width="100"/>
+        <ColumnDef columnName="awb0ElementReleaseStatus" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0ElementReleaseStatus" width="75"/>
+        <ColumnDef columnName="awb0ArchetypeRevDescription" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevDescription" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningGroup" filterable="true" hidden="true" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningGroup" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="resourcePool" uri="ResourcePool">
+      <ColumnConfig columnConfigId="ResourcePool" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="group" filterable="true" hidden="false" objectType="ResourcePool" propertyName="group" width="300"/>
+        <ColumnDef columnName="role" filterable="true" hidden="false" objectType="ResourcePool" propertyName="role" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Closed Aborted Schedule Tasks" uri="Saw1ClosedAbortedScheduleTasks">
+      <ColumnConfig columnConfigId="Saw1ClosedAbortedScheduleTasks" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="actual_start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="actual_start_date" width="300"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="actual_finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="actual_finish_date" width="300"/>
+        <ColumnDef columnName="fnd0WorkEffortString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkEffortString" width="300"/>
+        <ColumnDef columnName="fnd0WorkCompleteString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkCompleteString" width="300"/>
+        <ColumnDef columnName="fnd0state" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0state" width="300"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0status" width="300"/>
+        <ColumnDef columnName="fnd0TaskTypeString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0TaskTypeString" width="300"/>
+        <ColumnDef columnName="schedule_tag" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="schedule_tag" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Closed Aborted Schedules" uri="Saw1ClosedAbortedSchedules">
+      <ColumnConfig columnConfigId="Saw1ClosedAbortedSchedules" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Schedule" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="Schedule" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="fnd0SSTActualStart" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTActualStart" width="300"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="Schedule" propertyName="start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="Schedule" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0SSTActualFinish" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTActualFinish" width="300"/>
+        <ColumnDef columnName="fnd0SSTWorkEstimate" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTWorkEstimate" width="300"/>
+        <ColumnDef columnName="fnd0SSTWorkComplete" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTWorkComplete" width="300"/>
+        <ColumnDef columnName="fnd0SSTState" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTState" width="300"/>
+        <ColumnDef columnName="fnd0SSTStatus" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTStatus" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="Schedule" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Complete Schedule Tasks" uri="Saw1CompleteScheduleTasks">
+      <ColumnConfig columnConfigId="Saw1CompleteScheduleTasks" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="actual_start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="actual_start_date" width="300"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="actual_finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="actual_finish_date" width="300"/>
+        <ColumnDef columnName="fnd0WorkEffortString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkEffortString" width="300"/>
+        <ColumnDef columnName="fnd0WorkCompleteString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkCompleteString" width="300"/>
+        <ColumnDef columnName="fnd0state" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0state" width="300"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0status" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="fnd0TaskTypeString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0TaskTypeString" width="300"/>
+        <ColumnDef columnName="schedule_tag" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="schedule_tag" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Complete Schedules" uri="Saw1CompleteSchedules">
+      <ColumnConfig columnConfigId="Saw1CompleteSchedules" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Schedule" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="Schedule" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="fnd0SSTActualStart" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTActualStart" width="300"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="Schedule" propertyName="start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="Schedule" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0SSTActualFinish" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTActualFinish" width="300"/>
+        <ColumnDef columnName="fnd0SSTWorkEstimate" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTWorkEstimate" width="300"/>
+        <ColumnDef columnName="fnd0SSTWorkComplete" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTWorkComplete" width="300"/>
+        <ColumnDef columnName="fnd0SSTStatus" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTStatus" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="Schedule" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Saw1GanttColumns" uri="Saw1GanttColumns">
+      <ColumnConfig columnConfigId="Saw1GanttColumns" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="saw1RowNumberInGantt" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1RowNumberInGantt" width="28"/>
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="180"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="start_date" width="100"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="100"/>
+        <ColumnDef columnName="saw1WorkEffort" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1WorkEffort" width="110"/>
+        <ColumnDef columnName="saw1Predecessors" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1Predecessors" width="100"/>
+        <ColumnDef columnName="saw1Successors" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1Successors" width="100"/>
+        <ColumnDef columnName="actual_start_date" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="actual_start_date" width="160"/>
+        <ColumnDef columnName="actual_finish_date" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="actual_finish_date" width="160"/>
+        <ColumnDef columnName="fnd0PercentCompleteString" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="fnd0PercentCompleteString" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Saw1GanttResourceAssignments" uri="Saw1GanttResourceAssignments">
+      <ColumnConfig columnConfigId="Saw1GanttResourceAssignments" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="saw1AssigneeName" filterable="true" hidden="false" objectType="ResourceAssignment" propertyName="saw1AssigneeName" width="180"/>
+        <ColumnDef columnName="saw1AssigneeType" filterable="true" hidden="false" objectType="ResourceAssignment" propertyName="saw1AssigneeType" width="100"/>
+        <ColumnDef columnName="discipline" filterable="true" hidden="false" objectType="ResourceAssignment" propertyName="discipline" width="100"/>
+        <ColumnDef columnName="resource_level" filterable="true" hidden="false" objectType="ResourceAssignment" propertyName="resource_level" width="110"/>
+        <ColumnDef columnName="saw1IsPrivilegedUser" filterable="true" hidden="false" objectType="ResourceAssignment" propertyName="saw1IsPrivilegedUser" width="160"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Saw1GanttTaskDeliverables" uri="Saw1GanttTaskDeliverables">
+      <ColumnConfig columnConfigId="Saw1GanttTaskDeliverables" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="object_name" width="180"/>
+        <ColumnDef columnName="fnd0DeliverableType" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="fnd0DeliverableType" width="100"/>
+        <ColumnDef columnName="fnd0SubmitTypeString" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="fnd0SubmitTypeString" width="100"/>
+        <ColumnDef columnName="fnd0DeliverableInstance" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="fnd0DeliverableInstance" width="110"/>
+        <ColumnDef columnName="fnd0InstanceReleaseStatus" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="fnd0InstanceReleaseStatus" width="160"/>
+        <ColumnDef columnName="fnd0InstanceLastModfiedDate" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="fnd0InstanceLastModfiedDate" width="160"/>
+        <ColumnDef columnName="fnd0InstanceOwningUser" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="fnd0InstanceOwningUser" width="160"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="In Progress Schedule Tasks" uri="Saw1InProgressScheduleTasks">
+      <ColumnConfig columnConfigId="Saw1InProgressScheduleTasks" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="fnd0StartDateVariance" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0StartDateVariance" width="300"/>
+        <ColumnDef columnName="actual_start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="actual_start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0PercentCompleteString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PercentCompleteString" width="300"/>
+        <ColumnDef columnName="fnd0WorkEffortString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkEffortString" width="300"/>
+        <ColumnDef columnName="fnd0WorkCompleteString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkCompleteString" width="300"/>
+        <ColumnDef columnName="fnd0state" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0state" width="300"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0status" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="fnd0TaskTypeString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0TaskTypeString" width="300"/>
+        <ColumnDef columnName="schedule_tag" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="schedule_tag" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="In Progress Schedules" uri="Saw1InProgressSchedules">
+      <ColumnConfig columnConfigId="Saw1InProgressSchedules" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Schedule" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="Schedule" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="Schedule" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0SSTActualStart" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTActualStart" width="300"/>
+        <ColumnDef columnName="fnd0ForecastEndDate" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0ForecastEndDate" width="300"/>
+        <ColumnDef columnName="fnd0SSTCompletePercent" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTCompletePercent" width="300"/>
+        <ColumnDef columnName="fnd0SSTWorkEstimate" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTWorkEstimate" width="300"/>
+        <ColumnDef columnName="fnd0SSTWorkComplete" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTWorkComplete" width="300"/>
+        <ColumnDef columnName="fnd0SSTStatus" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTStatus" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="Schedule" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Late Finish Schedule Tasks" uri="Saw1LateFinishScheduleTasks">
+      <ColumnConfig columnConfigId="Saw1LateFinishScheduleTasks" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="fnd0StartDateVariance" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0StartDateVariance" width="300"/>
+        <ColumnDef columnName="actual_start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="actual_start_date" width="300"/>
+        <ColumnDef columnName="fnd0DaysLateFinish" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0DaysLateFinish" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0PercentCompleteString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PercentCompleteString" width="300"/>
+        <ColumnDef columnName="fnd0WorkEffortString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkEffortString" width="300"/>
+        <ColumnDef columnName="fnd0WorkCompleteString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkCompleteString" width="300"/>
+        <ColumnDef columnName="fnd0state" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0state" width="300"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0status" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="fnd0TaskTypeString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0TaskTypeString" width="300"/>
+        <ColumnDef columnName="schedule_tag" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="schedule_tag" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Late Finish Schedules" uri="Saw1LateFinishSchedules">
+      <ColumnConfig columnConfigId="Saw1LateFinishSchedules" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Schedule" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="Schedule" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="Schedule" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0SSTActualStart" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTActualStart" width="300"/>
+        <ColumnDef columnName="fnd0DaysLateFinish" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0DaysLateFinish" width="300"/>
+        <ColumnDef columnName="fnd0SSTCompletePercent" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTCompletePercent" width="300"/>
+        <ColumnDef columnName="fnd0SSTWorkEstimate" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTWorkEstimate" width="300"/>
+        <ColumnDef columnName="fnd0SSTWorkComplete" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTWorkComplete" width="300"/>
+        <ColumnDef columnName="fnd0SSTState" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTState" width="300"/>
+        <ColumnDef columnName="fnd0SSTStatus" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTStatus" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="Schedule" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Late Start Schedule Tasks" uri="Saw1LateStartScheduleTasks">
+      <ColumnConfig columnConfigId="Saw1LateStartScheduleTasks" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="fnd0DaysLateStart" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0DaysLateStart" width="300"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0WorkEffortString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkEffortString" width="300"/>
+        <ColumnDef columnName="fnd0state" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0state" width="300"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0status" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="fnd0TaskTypeString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0TaskTypeString" width="300"/>
+        <ColumnDef columnName="schedule_tag" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="schedule_tag" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Late Start Schedules" uri="Saw1LateStartSchedules">
+      <ColumnConfig columnConfigId="Saw1LateStartSchedules" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Schedule" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="Schedule" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="fnd0DaysLateStart" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0DaysLateStart" width="300"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="Schedule" propertyName="start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="Schedule" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0SSTWorkEstimate" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTWorkEstimate" width="300"/>
+        <ColumnDef columnName="fnd0SSTStatus" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTStatus" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="Schedule" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Not Started Schedule Tasks" uri="Saw1NotStartedScheduleTasks">
+      <ColumnConfig columnConfigId="Saw1NotStartedScheduleTasks" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0WorkEffortString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkEffortString" width="300"/>
+        <ColumnDef columnName="fnd0state" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0state" width="300"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0status" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="fnd0TaskTypeString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0TaskTypeString" width="300"/>
+        <ColumnDef columnName="schedule_tag" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="schedule_tag" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Not Started Schedules" uri="Saw1NotStartedSchedules">
+      <ColumnConfig columnConfigId="Saw1NotStartedSchedules" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Schedule" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="Schedule" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="Schedule" propertyName="start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="Schedule" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0SSTWorkEstimate" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTWorkEstimate" width="300"/>
+        <ColumnDef columnName="fnd0SSTStatus" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTStatus" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="Schedule" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Saw1ProgramViewColumns" uri="Saw1ProgramViewColumns">
+      <ColumnConfig columnConfigId="Saw1ProgramViewColumns" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="180"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="start_date" width="100"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="100"/>
+        <ColumnDef columnName="saw1WorkEffort" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1WorkEffort" width="110"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="object_desc" width="100"/>
+        <ColumnDef columnName="saw1Duration" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="saw1Duration" width="100"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="fnd0PriorityString" width="100"/>
+        <ColumnDef columnName="fnd0TaskTypeString" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="fnd0TaskTypeString" width="100"/>
+        <ColumnDef columnName="fnd0ConstraintString" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="fnd0ConstraintString" width="100"/>
+        <ColumnDef columnName="actual_start_date" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="actual_start_date" width="160"/>
+        <ColumnDef columnName="actual_finish_date" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="actual_finish_date" width="160"/>
+        <ColumnDef columnName="saw1WorkComplete" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="saw1WorkComplete" width="100"/>
+        <ColumnDef columnName="fnd0PercentCompleteString" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="fnd0PercentCompleteString" width="100"/>
+        <ColumnDef columnName="fnd0state" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="fnd0state" width="100"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="fnd0status" width="100"/>
+        <ColumnDef columnName="schedule_tag" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="schedule_tag" width="100"/>
+        <ColumnDef columnName="ResourceAssignment" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="ResourceAssignment" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="ProgramViews" uri="Saw1ProgramViews">
+      <ColumnConfig columnConfigId="Saw1ProgramViews" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ProgramView" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ProgramView" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="ProgramView" propertyName="last_mod_date" width="300"/>
+        <ColumnDef columnName="owning_user" filterable="true" hidden="false" objectType="ProgramView" propertyName="owning_user" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Saw1ResourceChartTasks" uri="Saw1ResourceChartTasks">
+      <ColumnConfig columnConfigId="Saw1ResourceChartTasks" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="180"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="fnd0TaskTypeString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0TaskTypeString" width="100"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PriorityString" width="160"/>
+        <ColumnDef columnName="ResourceAssignment" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="ResourceAssignment" width="160"/>
+        <ColumnDef columnName="sch_task_deliverable_list" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="sch_task_deliverable_list" width="160"/>
+        <ColumnDef columnName="saw1WorkEffort" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1WorkEffort" width="110"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="start_date" width="100"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="100"/>
+        <ColumnDef columnName="saw1Duration" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1Duration" width="110"/>
+        <ColumnDef columnName="fnd0state" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0state" width="110"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0status" width="160"/>
+        <ColumnDef columnName="saw1WorkComplete" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1WorkComplete" width="100"/>
+        <ColumnDef columnName="fnd0PercentCompleteString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PercentCompleteString" width="100"/>
+        <ColumnDef columnName="schedule_tag" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="schedule_tag" width="160"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Saw1SchTaskDeliverables" uri="Saw1SchTaskDeliverables">
+      <ColumnConfig columnConfigId="Saw1SchTaskDeliverables" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="object_name" width="120"/>
+        <ColumnDef columnName="fnd0DeliverableType" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="fnd0DeliverableType" width="110"/>
+        <ColumnDef columnName="fnd0DeliverableInstance" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="fnd0DeliverableInstance" width="110"/>
+        <ColumnDef columnName="fnd0InstanceReleaseStatus" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="fnd0InstanceReleaseStatus" width="100"/>
+        <ColumnDef columnName="fnd0InstanceLastModfiedDate" filterable="true" hidden="false" objectType="SchTaskDeliverable" propertyName="fnd0InstanceLastModfiedDate" width="140"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Saw1ScheduleGantt" uri="Saw1ScheduleGantt">
+      <ColumnConfig columnConfigId="Saw1ScheduleGantt" sortBy="-1" sortDirection="">
+        <ColumnDef columnName="saw1RowNumberInGantt" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1RowNumberInGantt" width="50"/>
+        <ColumnDef columnName="CMImpactedObjectName" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_string" width="180"/>
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_name" width="180"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="start_date" width="130"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="130"/>
+        <ColumnDef columnName="saw1Duration" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1Duration" width="120"/>
+        <ColumnDef columnName="saw1WorkEffort" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1WorkEffort" width="120"/>
+        <ColumnDef columnName="fnd0ConstraintString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0ConstraintString" width="120"/>
+        <ColumnDef columnName="saw1Predecessors" filterable="false" hidden="false" objectType="ScheduleTask" propertyName="saw1Predecessors" width="130"/>
+        <ColumnDef columnName="saw1Successors" filterable="false" hidden="false" objectType="ScheduleTask" propertyName="saw1Successors" width="130"/>
+        <ColumnDef columnName="sch_task_deliverable_list" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="sch_task_deliverable_list" width="150"/>
+        <ColumnDef columnName="ResourceAssignment" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="ResourceAssignment" width="150"/>
+        <ColumnDef columnName="actual_start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="actual_start_date" width="130"/>
+        <ColumnDef columnName="actual_finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="actual_finish_date" width="130"/>
+        <ColumnDef columnName="saw1WorkComplete" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="saw1WorkComplete" width="120"/>
+        <ColumnDef columnName="fnd0PercentCompleteString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PercentCompleteString" width="125"/>
+        <ColumnDef columnName="fnd0state" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0state" width="120"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0status" width="120"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="object_desc" width="130"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="fnd0PriorityString" width="120"/>
+        <ColumnDef columnName="fnd0TaskTypeString" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="fnd0TaskTypeString" width="120"/>
+        <ColumnDef columnName="saw1WorkflowTemplate" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="saw1WorkflowTemplate" width="140"/>
+        <ColumnDef columnName="saw1WorkflowTriggerType" filterable="true" hidden="true" objectType="ScheduleTask" propertyName="saw1WorkflowTriggerType" width="140"/>
+        <ColumnDef columnName="fnd0task_tag" filterable="true" hidden="true" objectType="Fnd0ProxyTask" propertyName="fnd0task_tag" width="130"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Saw1ScheduleTemplates" uri="Saw1ScheduleTemplates">
+      <ColumnConfig columnConfigId="Saw1ScheduleTemplates" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Schedule" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="Schedule" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="owning_user" filterable="true" hidden="false" objectType="Schedule" propertyName="owning_user" width="300"/>
+        <ColumnDef columnName="published" filterable="true" hidden="false" objectType="Schedule" propertyName="published" width="300"/>
+        <ColumnDef columnName="is_public" filterable="true" hidden="false" objectType="Schedule" propertyName="is_public" width="300"/>
+        <ColumnDef columnName="end_date_scheduling" filterable="true" hidden="false" objectType="Schedule" propertyName="end_date_scheduling" width="300"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="Schedule" propertyName="start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="Schedule" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0BudgetedEffortInt" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0BudgetedEffortInt" width="300"/>
+        <ColumnDef columnName="fnd0IsExternal" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0IsExternal" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="Schedule" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="TeamScheduleTasks" uri="Saw1TeamScheduleTasks">
+      <ColumnConfig columnConfigId="Saw1TeamScheduleTasks" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0WorkEffortString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkEffortString" width="300"/>
+        <ColumnDef columnName="fnd0state" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0state" width="300"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0status" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="fnd0TaskTypeString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0TaskTypeString" width="300"/>
+        <ColumnDef columnName="schedule_tag" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="schedule_tag" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Upcoming Schedule Tasks" uri="Saw1UpcomingScheduleTasks">
+      <ColumnConfig columnConfigId="Saw1UpcomingScheduleTasks" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="fnd0DaysUntilStart" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0DaysUntilStart" width="300"/>
+        <ColumnDef columnName="start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="start_date" width="300"/>
+        <ColumnDef columnName="finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="finish_date" width="300"/>
+        <ColumnDef columnName="fnd0DaysUntilFinish" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0DaysUntilFinish" width="300"/>
+        <ColumnDef columnName="fnd0WorkEffortString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkEffortString" width="300"/>
+        <ColumnDef columnName="fnd0state" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0state" width="300"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0status" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="fnd0TaskTypeString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0TaskTypeString" width="300"/>
+        <ColumnDef columnName="schedule_tag" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="schedule_tag" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Upcoming Schedules" uri="Saw1UpcomingSchedules">
+      <ColumnConfig columnConfigId="Saw1UpcomingSchedules" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="Schedule" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="Schedule" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="fnd0DaysUntilStart" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0DaysUntilStart" width="300"/>
+        <ColumnDef columnName="fnd0SSTActualStart" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTActualStart" width="300"/>
+        <ColumnDef columnName="fnd0SSTWorkEstimate" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTWorkEstimate" width="300"/>
+        <ColumnDef columnName="fnd0SSTStatus" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0SSTStatus" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="Schedule" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="item_id" filterable="true" hidden="false" objectType="Schedule" propertyName="item_id" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="ScheduleTask" uri="ScheduleTask">
+      <ColumnConfig columnConfigId="ScheduleTaskColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_desc" width="300"/>
+        <ColumnDef columnName="object_type" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="object_type" width="300"/>
+        <ColumnDef columnName="fnd0status" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0status" width="300"/>
+        <ColumnDef columnName="fnd0PriorityString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PriorityString" width="300"/>
+        <ColumnDef columnName="fnd0PercentCompleteString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0PercentCompleteString" width="300"/>
+        <ColumnDef columnName="fnd0WorkEffortString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkEffortString" width="300"/>
+        <ColumnDef columnName="fnd0WorkCompleteString" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="fnd0WorkCompleteString" width="300"/>
+        <ColumnDef columnName="actual_start_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="actual_start_date" width="300"/>
+        <ColumnDef columnName="actual_finish_date" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="actual_finish_date" width="300"/>
+        <ColumnDef columnName="pid" filterable="true" hidden="false" objectType="ScheduleTask" propertyName="pid" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Declarations Client Scope" uri="Scw0CMDImportDeclarations">
+      <ColumnConfig columnConfigId="Scw0CMDImportDeclarations" sortBy="6" sortDirection="Descending">
+        <ColumnDef columnName="scw0Part" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scw0Part" width="240"/>
+        <ColumnDef columnName="scw0PartDesc" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scw0PartDesc" width="360"/>
+        <ColumnDef columnName="scw0Supplier" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scw0Supplier" width="240"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="creation_date" width="130"/>
+        <ColumnDef columnName="scp0LatestResults" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scp0LatestResults" width="300"/>
+        <ColumnDef columnName="scw0_xrt_Declaration" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="REF(scp0DeclarationDocument,Scp0DeclarationRevision).IMAN_specification" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Decl Import Failure Queue Client Scope" uri="Scw0DeclImportFailureQueueCs">
+      <ColumnConfig columnConfigId="declImportFailureQueueColConfig" sortBy="4" sortDirection="Descending">
+        <ColumnDef columnName="scp0DeclarationFile" filterable="true" hidden="false" objectType="Scp0DeclImportFailureRecord" propertyName="scp0DeclarationFile" width="360"/>
+        <ColumnDef columnName="scp0FailureLogs" filterable="true" hidden="false" objectType="Scp0DeclImportFailureRecord" propertyName="scp0FailureLogs" width="360"/>
+        <ColumnDef columnName="scw0_xrt_TargetDescriptors" filterable="true" hidden="false" objectType="Scp0DeclImportFailureRecord" propertyName="scp0TargetDescriptors" width="240"/>
+        <ColumnDef columnName="scw0_xrt_CreationDate" filterable="true" hidden="false" objectType="Scp0DeclImportFailureRecord" propertyName="creation_date" width="130"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Declaration Request Client Scope" uri="Scw0DeclarationRequestQueueCs">
+      <ColumnConfig columnConfigId="declarationRequestQueueColConfig" sortBy="6" sortDirection="Descending">
+        <ColumnDef columnName="scw0_xrt_vendor_part_id" filterable="true" hidden="false" objectType="Scp0EmlXChngeRevision" propertyName="REF(vm0ExchangeLines,Vm0ExchangeLine).vm0SentObjectRef" width="230"/>
+        <ColumnDef columnName="scw0_xrt_vendor_part_desc" filterable="true" hidden="false" objectType="Scp0EmlXChngeRevision" propertyName="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(vm0SentObjectRef,WorkspaceObject).object_desc" width="230"/>
+        <ColumnDef columnName="scw0_xrt_vendor_id" filterable="true" hidden="false" objectType="Scp0EmlXChngeRevision" propertyName="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(vm0SentObjectRef,ManufacturerPart).vm0vendor_ref" width="230"/>
+        <ColumnDef columnName="scw0_xrt_declaration_type" filterable="true" hidden="false" objectType="Scp0EmlXChngeRevision" propertyName="scp0declarationType" width="80"/>
+        <ColumnDef columnName="scp0ExchangeStatus" filterable="true" hidden="false" objectType="Scp0EmlXChngeRevision" propertyName="REF(vm0ExchangeLines,Vm0ExchangeLine).scp0ExchangeStatus" width="130"/>
+        <ColumnDef columnName="scp0DueDate" filterable="true" hidden="false" objectType="Scp0EmlXChngeRevision" propertyName="REF(vm0ExchangeLines,Vm0ExchangeLine).scp0DueDate" width="130"/>
+        <ColumnDef columnName="scw0_xrt_reminder_dates" filterable="true" hidden="false" objectType="Scp0EmlXChngeRevision" propertyName="REF(vm0ExchangeLines,Vm0ExchangeLine).scp0ReminderDates" width="130"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Declarations Client Scope" uri="Scw0Declarations">
+      <ColumnConfig columnConfigId="declarationQueueColConfig" sortBy="6" sortDirection="Descending">
+        <ColumnDef columnName="scw0Part" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scw0Part" width="240"/>
+        <ColumnDef columnName="scw0PartDesc" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scw0PartDesc" width="360"/>
+        <ColumnDef columnName="scw0Supplier" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scw0Supplier" width="240"/>
+        <ColumnDef columnName="object_type" filterable="true" hidden="false" objectType="ItemRevision" propertyName="object_type" width="360"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="creation_date" width="130"/>
+        <ColumnDef columnName="scp0LatestResults" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scp0LatestResults" width="300"/>
+        <ColumnDef columnName="scw0_xrt_Declaration" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="REF(scp0DeclarationDocument,Scp0DeclarationRevision).IMAN_specification" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Declarations Client Scope" uri="Scw0LRDImportDeclarations">
+      <ColumnConfig columnConfigId="Scw0LRDImportDeclarations" sortBy="6" sortDirection="Descending">
+        <ColumnDef columnName="scp0LabReportID" filterable="true" hidden="false" objectType="Scp0PartLRDDeclRevision" propertyName="scp0LabReportID" width="240"/>
+        <ColumnDef columnName="scp0LabReportType" filterable="true" hidden="false" objectType="Scp0PartLRDDeclRevision" propertyName="scp0LabReportType" width="240"/>
+        <ColumnDef columnName="scw0_xrt_Laboratory" filterable="true" hidden="false" objectType="Scp0PartLRDDeclRevision" propertyName="GRM(Scp0UsesLaboratory,Item).object_name" width="240"/>
+        <ColumnDef columnName="scw0_xrt_Manufacturer" filterable="true" hidden="false" objectType="Scp0PartLRDDeclRevision" propertyName="GRM(Scp0UsesMaterialMapping,Scp0MaterialMfgMapping).REF(scp0ReferenceManufacturer,WorkspaceObject).object_name" width="240"/>
+        <ColumnDef columnName="scw0_xrt_Submitter" filterable="true" hidden="false" objectType="Scp0PartLRDDeclRevision" propertyName="GRM(Scp0UsesSupplier,Item).object_name" width="240"/>
+        <ColumnDef columnName="scw0_xrt_Declaration" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="REF(scp0DeclarationDocument,Scp0DeclarationRevision).IMAN_specification" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Declarations Client Scope" uri="Scw0MSDImportDeclarations">
+      <ColumnConfig columnConfigId="Scw0MSDImportDeclarations" sortBy="6" sortDirection="Descending">
+        <ColumnDef columnName="scw0Part" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scw0Part" width="240"/>
+        <ColumnDef columnName="scw0PartDesc" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scw0PartDesc" width="360"/>
+        <ColumnDef columnName="scw0Supplier" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scw0Supplier" width="240"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="creation_date" width="130"/>
+        <ColumnDef columnName="scp0LatestResults" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="scp0LatestResults" width="300"/>
+        <ColumnDef columnName="scw0_xrt_Declaration" filterable="true" hidden="false" objectType="Scp0PartDeclRevision" propertyName="REF(scp0DeclarationDocument,Scp0DeclarationRevision).IMAN_specification" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Added As Follower" uri="Sub0FollowedSubscriptions">
+      <ColumnConfig columnConfigId="followedSubscriptionsColConfig" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="fnd0Name" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="fnd0Name" width="300"/>
+        <ColumnDef columnName="target" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="target" width="300"/>
+        <ColumnDef columnName="event_type" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="event_type" width="300"/>
+        <ColumnDef columnName="subscriber" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="subscriber" width="300"/>
+        <ColumnDef columnName="expiration_date" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="expiration_date" width="300"/>
+        <ColumnDef columnName="fnd0Frequency" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="fnd0Frequency" width="300"/>
+        <ColumnDef columnName="fnd0Priority" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="fnd0Priority" width="300"/>
+        <ColumnDef columnName="fnd0IsActive" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="fnd0IsActive" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Um0ShowGroup" uri="Um0ShowGroup">
+      <ColumnConfig columnConfigId="groupGroupColConfig" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="name" filterable="true" hidden="false" objectType="Group" propertyName="name" width="100"/>
+        <ColumnDef columnName="description" filterable="true" hidden="false" objectType="Group" propertyName="description" width="200"/>
+        <ColumnDef columnName="security" filterable="true" hidden="false" objectType="Group" propertyName="security" width="100"/>
+        <ColumnDef columnName="parent" filterable="true" hidden="false" objectType="Group" propertyName="parent" width="200"/>
+        <ColumnDef columnName="privilege" filterable="true" hidden="false" objectType="Group" propertyName="privilege" width="100"/>
+        <ColumnDef columnName="volume" filterable="true" hidden="false" objectType="Group" propertyName="volume" width="100"/>
+        <ColumnDef columnName="local_volume" filterable="true" hidden="false" objectType="Group" propertyName="local_volume" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Um0ShowOrganization" uri="Um0ShowOrganization">
+      <ColumnConfig columnConfigId="groupOrganizationColConfig" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="name" filterable="true" hidden="false" objectType="Group" propertyName="name" width="100"/>
+        <ColumnDef columnName="description" filterable="true" hidden="false" objectType="Group" propertyName="description" width="200"/>
+        <ColumnDef columnName="security" filterable="true" hidden="false" objectType="Group" propertyName="security" width="100"/>
+        <ColumnDef columnName="parent" filterable="true" hidden="false" objectType="Group" propertyName="parent" width="200"/>
+        <ColumnDef columnName="privilege" filterable="true" hidden="false" objectType="Group" propertyName="privilege" width="100"/>
+        <ColumnDef columnName="volume" filterable="true" hidden="false" objectType="Group" propertyName="volume" width="100"/>
+        <ColumnDef columnName="local_volume" filterable="true" hidden="false" objectType="Group" propertyName="local_volume" width="100"/>
+        <ColumnDef columnName="role_name" filterable="true" hidden="false" objectType="Role" propertyName="role_name" width="100"/>
+        <ColumnDef columnName="description" filterable="true" hidden="false" objectType="Role" propertyName="description" width="200"/>
+        <ColumnDef columnName="user_name" filterable="true" hidden="false" objectType="User" propertyName="user_name" width="100"/>
+        <ColumnDef columnName="user_id" filterable="true" hidden="false" objectType="User" propertyName="user_id" width="200"/>
+        <ColumnDef columnName="os_username" filterable="true" hidden="false" objectType="User" propertyName="os_username" width="100"/>
+        <ColumnDef columnName="default_group" filterable="true" hidden="false" objectType="User" propertyName="default_group" width="200"/>
+        <ColumnDef columnName="last_login_time" filterable="true" hidden="false" objectType="User" propertyName="last_login_time" width="100"/>
+        <ColumnDef columnName="volume" filterable="true" hidden="false" objectType="User" propertyName="volume" width="100"/>
+        <ColumnDef columnName="local_volume" filterable="true" hidden="false" objectType="User" propertyName="local_volume" width="100"/>
+        <ColumnDef columnName="status" filterable="true" hidden="false" objectType="User" propertyName="status" width="100"/>
+        <ColumnDef columnName="license_level" filterable="true" hidden="false" objectType="User" propertyName="license_level" width="100"/>
+        <ColumnDef columnName="fnd0LicenseServer" filterable="true" hidden="false" objectType="User" propertyName="fnd0LicenseServer" width="100"/>
+        <ColumnDef columnName="fnd0license_bundles" filterable="true" hidden="false" objectType="User" propertyName="fnd0license_bundles" width="100"/>
+        <ColumnDef columnName="owning_site" filterable="true" hidden="false" objectType="User" propertyName="owning_site" width="100"/>
+        <ColumnDef columnName="geography" filterable="true" hidden="false" objectType="User" propertyName="geography" width="100"/>
+        <ColumnDef columnName="nationality" filterable="true" hidden="false" objectType="User" propertyName="nationality" width="100"/>
+        <ColumnDef columnName="fnd0citizenships" filterable="true" hidden="false" objectType="User" propertyName="fnd0citizenships" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Um0ShowRole" uri="Um0ShowRole">
+      <ColumnConfig columnConfigId="roleRoleColConfig" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="role_name" filterable="true" hidden="false" objectType="Role" propertyName="role_name" width="100"/>
+        <ColumnDef columnName="description" filterable="true" hidden="false" objectType="Role" propertyName="description" width="200"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Um0ShowUser" uri="Um0ShowUser">
+      <ColumnConfig columnConfigId="userUserColConfig" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="user_name" filterable="true" hidden="false" objectType="User" propertyName="user_name" width="100"/>
+        <ColumnDef columnName="user_id" filterable="true" hidden="false" objectType="User" propertyName="user_id" width="200"/>
+        <ColumnDef columnName="os_username" filterable="true" hidden="false" objectType="User" propertyName="os_username" width="100"/>
+        <ColumnDef columnName="default_group" filterable="true" hidden="false" objectType="User" propertyName="default_group" width="200"/>
+        <ColumnDef columnName="last_login_time" filterable="true" hidden="false" objectType="User" propertyName="last_login_time" width="100"/>
+        <ColumnDef columnName="volume" filterable="true" hidden="false" objectType="User" propertyName="volume" width="100"/>
+        <ColumnDef columnName="local_volume" filterable="true" hidden="false" objectType="User" propertyName="local_volume" width="100"/>
+        <ColumnDef columnName="status" filterable="true" hidden="false" objectType="User" propertyName="status" width="100"/>
+        <ColumnDef columnName="license_level" filterable="true" hidden="false" objectType="User" propertyName="license_level" width="100"/>
+        <ColumnDef columnName="fnd0LicenseServer" filterable="true" hidden="false" objectType="User" propertyName="fnd0LicenseServer" width="100"/>
+        <ColumnDef columnName="fnd0license_bundles" filterable="true" hidden="false" objectType="User" propertyName="fnd0license_bundles" width="100"/>
+        <ColumnDef columnName="owning_site" filterable="true" hidden="false" objectType="User" propertyName="owning_site" width="100"/>
+        <ColumnDef columnName="geography" filterable="true" hidden="false" objectType="User" propertyName="geography" width="100"/>
+        <ColumnDef columnName="nationality" filterable="true" hidden="false" objectType="User" propertyName="nationality" width="100"/>
+        <ColumnDef columnName="fnd0citizenships" filterable="true" hidden="false" objectType="User" propertyName="fnd0citizenships" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="awb0ContentTable.Awb0SavedBookmark" uri="awb0ContentTable.Awb0SavedBookmark">
+      <ColumnConfig columnConfigId="contentSBMColConfig" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="awb0Name" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Name" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevName" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevName" width="300"/>
+        <ColumnDef columnName="awb0NumberOfChildren" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0NumberOfChildren" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Content Table Design Revision" uri="awb0ContentTable.Design Revision">
+      <ColumnConfig columnConfigId="contentDesignRevColConfig" sortBy="6" sortDirection="Descending">
+        <ColumnDef columnName="awb0ArchetypeId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevName" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevName" width="300"/>
+        <ColumnDef columnName="awb0ArchetypeRevDescription" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevDescription" width="300"/>
+        <ColumnDef columnName="awb0LogicalDesignator" filterable="true" hidden="false" objectType="Awb0PositionedElement" propertyName="awb0LogicalDesignator" width="100"/>
+        <ColumnDef columnName="awb0Sequence" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Sequence" width="50"/>
+        <ColumnDef columnName="awb0Quantity" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Quantity" width="50"/>
+        <ColumnDef columnName="awb0UoM" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0UoM" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevRelStatus" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevRelStatus" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevReleaseDate" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevReleaseDate" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevEffText" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevEffText" width="300"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningUser" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningGroup" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningGroup" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevLastModUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevLastModUser" width="100"/>
+        <ColumnDef columnName="awb0Parent" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Parent" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="awb0ContentTable.ItemRevision" uri="awb0ContentTable.ItemRevision">
+      <ColumnConfig columnConfigId="contentItemRevColConfig" sortBy="6" sortDirection="Descending">
+        <ColumnDef columnName="awb0ArchetypeId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevName" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevName" width="300"/>
+        <ColumnDef columnName="awb0ArchetypeRevDescription" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevDescription" width="300"/>
+        <ColumnDef columnName="awb0LogicalDesignator" filterable="true" hidden="false" objectType="Awb0PositionedElement" propertyName="awb0LogicalDesignator" width="100"/>
+        <ColumnDef columnName="awb0Sequence" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Sequence" width="50"/>
+        <ColumnDef columnName="awb0Quantity" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Quantity" width="50"/>
+        <ColumnDef columnName="awb0UoM" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0UoM" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevRelStatus" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevRelStatus" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevReleaseDate" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevReleaseDate" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevEffText" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevEffText" width="300"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningUser" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningGroup" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningGroup" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevLastModUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevLastModUser" width="100"/>
+        <ColumnDef columnName="awb0Parent" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Parent" width="100"/>
+        <ColumnDef columnName="awb0IsPrecise" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0IsPrecise" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Content Table Part Revision" uri="awb0ContentTable.Part Revision">
+      <ColumnConfig columnConfigId="contentPartRevColConfig" sortBy="6" sortDirection="Descending">
+        <ColumnDef columnName="awb0ArchetypeId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevId" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevId" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevName" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevName" width="300"/>
+        <ColumnDef columnName="awb0ArchetypeRevDescription" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevDescription" width="300"/>
+        <ColumnDef columnName="awb0LogicalDesignator" filterable="true" hidden="false" objectType="Awb0PositionedElement" propertyName="awb0LogicalDesignator" width="100"/>
+        <ColumnDef columnName="awb0Sequence" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Sequence" width="50"/>
+        <ColumnDef columnName="awb0Quantity" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Quantity" width="50"/>
+        <ColumnDef columnName="awb0UoM" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0UoM" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevRelStatus" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevRelStatus" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevReleaseDate" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevReleaseDate" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevEffText" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevEffText" width="300"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningUser" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevOwningGroup" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevOwningGroup" width="100"/>
+        <ColumnDef columnName="awb0ArchetypeRevLastModUser" filterable="true" hidden="false" objectType="Awb0ConditionalElement" propertyName="awb0ArchetypeRevLastModUser" width="100"/>
+        <ColumnDef columnName="awb0Parent" filterable="true" hidden="false" objectType="Awb0Element" propertyName="awb0Parent" width="100"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="awb0Structure" uri="awb0Structure">
+      <ColumnConfig columnConfigId="WhereUsedColConfig" sortBy="1" sortDirection="Descending">
+        <ColumnDef columnName="CMImpactedObjectName" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_string" width="445"/>
+        <ColumnDef columnName="object_type" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="object_type" width="150"/>
+        <ColumnDef columnName="release_status_list" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="release_status_list" width="150"/>
+        <ColumnDef columnName="owning_user" filterable="true" hidden="false" objectType="WorkspaceObject" propertyName="owning_user" width="150"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="All" uri="fnd0Change">
+      <ColumnConfig columnConfigId="fnd0ChangeColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_name" width="200"/>
+        <ColumnDef columnName="awp0Item_item_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="awp0Item_item_id" width="100"/>
+        <ColumnDef columnName="fnd0InProcess" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="fnd0InProcess" width="100"/>
+        <ColumnDef columnName="object_desc" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="object_desc" width="200"/>
+        <ColumnDef columnName="CMMaturity" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMMaturity" width="100"/>
+        <ColumnDef columnName="CMDisposition" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="CMDisposition" width="100"/>
+        <ColumnDef columnName="creation_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="creation_date" width="150"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="last_mod_date" width="150"/>
+        <ColumnDef columnName="cm0Requestor" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="cm0Requestor" width="300"/>
+        <ColumnDef columnName="item_revision_id" filterable="true" hidden="false" objectType="ChangeItemRevision" propertyName="item_revision_id" width="80"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Inbox" uri="fnd0Inbox">
+      <ColumnConfig columnConfigId="inboxColConfig" sortBy="6" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="job_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="job_name" width="300"/>
+        <ColumnDef columnName="fnd0Assignee" filterable="true" hidden="false" objectType="Signoff" propertyName="fnd0Assignee" width="200"/>
+        <ColumnDef columnName="fnd0WorkflowInitiator" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0WorkflowInitiator" width="200"/>
+        <ColumnDef columnName="due_date" filterable="true" hidden="false" objectType="EPMTask" propertyName="due_date" width="200"/>
+        <ColumnDef columnName="fnd0StartDate" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0StartDate" width="200"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="News Feed" uri="fnd0MySubscriptionMessages">
+      <ColumnConfig columnConfigId="mySubscriptionMessagesColConfig" sortBy="3" sortDirection="Descending">
+        <ColumnDef columnName="fnd0Subject" filterable="true" hidden="false" objectType="Fnd0Message" propertyName="fnd0Subject" width="300"/>
+        <ColumnDef columnName="fnd0TargetObject" filterable="true" hidden="false" objectType="Fnd0Message" propertyName="fnd0TargetObject" width="300"/>
+        <ColumnDef columnName="fnd0SentDate" filterable="true" hidden="false" objectType="Fnd0Message" propertyName="fnd0SentDate" width="300"/>
+        <ColumnDef columnName="fnd0Priority" filterable="true" hidden="false" objectType="Fnd0Message" propertyName="fnd0Priority" width="300"/>
+        <ColumnDef columnName="fnd0EventType" filterable="true" hidden="false" objectType="Fnd0Message" propertyName="fnd0EventType" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="Following" uri="fnd0MySubscriptions">
+      <ColumnConfig columnConfigId="mySubscriptionsColConfig" sortBy="1" sortDirection="Ascending">
+        <ColumnDef columnName="fnd0Name" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="fnd0Name" width="300"/>
+        <ColumnDef columnName="target" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="target" width="300"/>
+        <ColumnDef columnName="event_type" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="event_type" width="300"/>
+        <ColumnDef columnName="expiration_date" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="expiration_date" width="300"/>
+        <ColumnDef columnName="fnd0Frequency" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="fnd0Frequency" width="300"/>
+        <ColumnDef columnName="fnd0Priority" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="fnd0Priority" width="300"/>
+        <ColumnDef columnName="fnd0IsActive" filterable="true" hidden="false" objectType="ImanSubscription" propertyName="fnd0IsActive" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="InboxAllTasks" uri="fnd0alltasks">
+      <ColumnConfig columnConfigId="fnd0alltasks" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="job_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="job_name" width="300"/>
+        <ColumnDef columnName="fnd0Priority" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0Priority" width="200"/>
+        <ColumnDef columnName="fnd0Assignee" filterable="true" hidden="false" objectType="Signoff" propertyName="fnd0Assignee" width="200"/>
+        <ColumnDef columnName="fnd0WorkflowInitiator" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0WorkflowInitiator" width="200"/>
+        <ColumnDef columnName="due_date" filterable="true" hidden="false" objectType="EPMTask" propertyName="due_date" width="200"/>
+        <ColumnDef columnName="fnd0StartDate" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0StartDate" width="200"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="InboxMyTasks" uri="fnd0mytasks">
+      <ColumnConfig columnConfigId="myTasksColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="fnd0Priority" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0Priority" width="200"/>
+        <ColumnDef columnName="job_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="job_name" width="300"/>
+        <ColumnDef columnName="fnd0Assignee" filterable="true" hidden="false" objectType="Signoff" propertyName="fnd0Assignee" width="200"/>
+        <ColumnDef columnName="fnd0WorkflowInitiator" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0WorkflowInitiator" width="200"/>
+        <ColumnDef columnName="due_date" filterable="true" hidden="false" objectType="EPMTask" propertyName="due_date" width="200"/>
+        <ColumnDef columnName="fnd0StartDate" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0StartDate" width="200"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="RemoteInbox" uri="fnd0remotetinboxes">
+      <ColumnConfig columnConfigId="fnd0remotetinboxes" sortBy="3" sortDirection="Descending">
+        <ColumnDef columnName="owning_site" filterable="true" hidden="false" objectType="TaskInbox" propertyName="owning_site" width="300"/>
+        <ColumnDef columnName="new_tasks_count" filterable="true" hidden="false" objectType="TaskInbox" propertyName="new_tasks_count" width="300"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="TaskInbox" propertyName="last_mod_date" width="300"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="InboxSurrogateTasks" uri="fnd0surrogatescope">
+      <ColumnConfig columnConfigId="surrogateTasksColConfig" sortBy="7" sortDirection="Descending">
+        <ColumnDef columnName="object_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="object_name" width="300"/>
+        <ColumnDef columnName="fnd0Priority" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0Priority" width="200"/>
+        <ColumnDef columnName="job_name" filterable="true" hidden="false" objectType="EPMTask" propertyName="job_name" width="300"/>
+        <ColumnDef columnName="fnd0Assignee" filterable="true" hidden="false" objectType="Signoff" propertyName="fnd0Assignee" width="200"/>
+        <ColumnDef columnName="fnd0WorkflowInitiator" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0WorkflowInitiator" width="200"/>
+        <ColumnDef columnName="due_date" filterable="true" hidden="false" objectType="EPMTask" propertyName="due_date" width="200"/>
+        <ColumnDef columnName="fnd0StartDate" filterable="true" hidden="false" objectType="EPMTask" propertyName="fnd0StartDate" width="200"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+  <Client abbreviation="AWClient" name="AWClient">
+    <ClientScope hostingClientName="" name="occurrenceManagementMarkup" uri="occurrenceManagementMarkup">
+      <ColumnConfig columnConfigId="contentColConfigBOMMarkup" sortBy="2" sortDirection="Ascending">
+        <ColumnDef columnName="fnd0line_id" filterable="true" hidden="false" objectType="Fnd0MarkupChange" propertyName="fnd0line_id" width="100"/>
+        <ColumnDef columnName="fnd0line_name" filterable="true" hidden="false" objectType="Fnd0MarkupChange" propertyName="fnd0line_name" width="150"/>
+        <ColumnDef columnName="fnd0markup_type" filterable="true" hidden="false" objectType="Fnd0MarkupChange" propertyName="fnd0markup_type" width="100"/>
+        <ColumnDef columnName="object_string" filterable="true" hidden="false" objectType="Fnd0MarkupChange" propertyName="object_string" width="250"/>
+        <ColumnDef columnName="last_mod_date" filterable="true" hidden="false" objectType="Fnd0MarkupChange" propertyName="last_mod_date" width="125"/>
+        <ColumnDef columnName="last_mod_user" filterable="true" hidden="false" objectType="Fnd0MarkupChange" propertyName="last_mod_user" width="125"/>
+        <ColumnDef columnName="fnd0note" filterable="true" hidden="false" objectType="Fnd0MarkupChange" propertyName="fnd0note" width="250"/>
+      </ColumnConfig>
+    </ClientScope>
+  </Client>
+
+</Import>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Always_show_incremental_change_line_icons" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates if we need to show special icons for lines under existing incremental changes even when Incremental_Change_Management is turned off for the current session. Valid values are true/false. Defaulted to false.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

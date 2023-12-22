@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Data Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AE_default_dataset_type" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of preferred dataset types per file extensions.
+These dataset types will be listed first before any other matching dataset types, when retrieving them by file extension.
+Note that currently this preference is not used in Rich Application Client(RAC).
+Valid values have the following pattern: &quot;file_extension:dataset_type&quot; (e.g. &quot;doc:MSWORD&quot;).</preference_description>
+      <context name="Teamcenter">
+        <value>doc:MSWORD</value>
+        <value>docx:MSWORDX</value>
+        <value>txt:TEXT</value>
+        <value>pptx:MSPOWERPOINTX</value>
+        <value>xls:MSEXCEL</value>
+        <value>png:IMAGE</value>
+        <value>zip:ZIP</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

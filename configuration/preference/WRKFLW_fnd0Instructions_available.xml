@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_fnd0Instructions_available" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Preference to enable/disable &quot;fnd0Instructions&quot; property in stylesheet.
+Valid Values:
+* true: Enables the &quot;fnd0Instructions&quot; property and disables property &quot;object_desc&quot;in stylesheets.This is the default value.
+* false: Disables the &quot;fnd0Instructions&quot; property and enables property &quot;object_desc&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

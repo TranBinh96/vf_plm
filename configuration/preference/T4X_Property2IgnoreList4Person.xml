@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Gateway Foundation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="T4X_Property2IgnoreList4Person" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Generic black-list for Person</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_based_on</value>
+        <value>PA1</value>
+        <value>PA10</value>
+        <value>PA2</value>
+        <value>PA3</value>
+        <value>PA4</value>
+        <value>PA5</value>
+        <value>PA6</value>
+        <value>PA7</value>
+        <value>PA8</value>
+        <value>PA9</value>
+        <value>acl_bits</value>
+        <value>archive_date</value>
+        <value>archive_info</value>
+        <value>backup_date</value>
+        <value>creation_date</value>
+        <value>data_source</value>
+        <value>fnd0export_sites</value>
+        <value>fnd0objectId</value>
+        <value>form_name</value>
+        <value>last_mod_date</value>
+        <value>last_mod_user</value>
+        <value>last_sync_date</value>
+        <value>locale</value>
+        <value>lsd</value>
+        <value>object_properties</value>
+        <value>owning_group</value>
+        <value>owning_site</value>
+        <value>owning_user</value>
+        <value>pid</value>
+        <value>timestamp</value>
+        <value>timezone</value>
+        <value>user_name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

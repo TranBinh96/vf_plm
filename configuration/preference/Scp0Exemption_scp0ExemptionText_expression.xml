@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="Scp0Exemption_scp0ExemptionText_expression" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Represents the Exemption description related to Supplier Exemption. It combines the values of scp0text (Description Of The Exemption) and scp0text_overflow_1 (Description Of The Exemption (Continued)), and returns the complete string.</preference_description>
+      <context name="Teamcenter">
+        <value>$scp0text+$scp0text_overflow_1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

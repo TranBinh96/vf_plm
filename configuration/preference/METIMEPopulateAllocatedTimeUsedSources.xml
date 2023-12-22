@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METIMEPopulateAllocatedTimeUsedSources" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies which time sources are used in which order when using the custom allocated time population mode in the Time pane. The order of sources in this preference defines the precedence in which they are used.
+Valid Values:
+0 - Allocated time
+1 - Simulated time
+2 - Time analysis duration
+3 - Estimated time</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

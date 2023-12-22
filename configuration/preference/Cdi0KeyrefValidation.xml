@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management DITA">
+    <category_description>Content Management DITA Preferences</category_description>
+    
+               <preference name="Cdi0KeyrefValidation" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Activates the validation in the Content Management application of key references in a map during import and after &quot;Save and Close&quot; in an edit session. 
+The validation is deactivated by default.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

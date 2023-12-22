@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: LineItemConfigContextCreate.xml
+
+    Style sheet rendering for LineItemConfigContext creation.
+=======================================================================
+-->
+
+<rendering>
+
+    <page title="Properties" titleKey="tc_xrt_properties">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="revision_rule"/>
+            <property name="variant_rule"/>
+            <property name="closure_rule"/>
+            <property name="view_type"/>
+        </section>
+    </page>
+
+</rendering>
+

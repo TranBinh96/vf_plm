@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="TCIF.Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCIF_REST_BASE_URL" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Base REST URL for Teamcenter Integration Framework.</preference_description>
+      <context name="Teamcenter">
+        <value>http://localhost:8090/tcif/rest</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

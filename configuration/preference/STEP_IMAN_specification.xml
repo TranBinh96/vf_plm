@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="STEP_IMAN_specification" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maps Teamcenter dataset types to the STEP IMAN_specification file classification.
+Valid Values:
+One or more strings; each string must be a valid Teamcenter dataset type name.</preference_description>
+      <context name="Teamcenter">
+        <value>Specs</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

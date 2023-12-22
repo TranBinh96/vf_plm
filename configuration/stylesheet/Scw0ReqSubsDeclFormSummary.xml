@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+    Filename: Scw0ReqSubsDeclFormSummary.xml
+    Stylesheet rendering for Scp0ReqSubsDeclForm summary.
+=======================================================================
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="thumbnail"/>
+        <classificationTrace/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_PerformTask" >
+        <objectSet source="scp0vendor_part.ManufacturerPart,scp0vendor.Vendor" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+            <listDisplay>
+                 <property name="scp0vendor_part"/>
+            </listDisplay>
+        </objectSet>
+    </page>
+</rendering>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_VIS_OpenSupportedTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables opening the specified object types in Teamcenter Visualization Client when selected in the Active Workspace.</preference_description>
+      <context name="Teamcenter">
+        <value>Dataset</value>
+        <value>Item</value>
+        <value>ItemRevision</value>
+        <value>BOMVIEW_REVISION</value>
+        <value>BOMView</value>
+        <value>BOMLine</value>
+        <value>Awb0DesignElement</value>
+        <value>Fnd0DisclosedModelViewData</value>
+        <value>Fnd0ModelViewPalette</value>
+        <value>DirectModel</value>
+        <value>DirectModelMarkup</value>
+        <value>DirectModelSession</value>
+        <value>DrawingSheet</value>
+        <value>Image</value>
+        <value>Markup</value>
+        <value>DirectModelAssembly</value>
+        <value>DirectModel3DMarkup</value>
+        <value>VSAProcessDoc</value>
+        <value>VSAMeasurementDoc</value>
+        <value>DirectModelFlowChart</value>
+        <value>DirectModelAnimation</value>
+        <value>VisJackEnvironment</value>
+        <value>VisJackFigure</value>
+        <value>VisJackPsurf</value>
+        <value>VisJackPosture</value>
+        <value>Nastran</value>
+        <value>VisPublishTechnicalPortfolio</value>
+        <value>VisPublishTechnicalIllustration</value>
+        <value>VisPublishGeometryAsset</value>
+        <value>VisPublishVisioTemplate</value>
+        <value>VisPublishVisioStencil</value>
+        <value>PADImage</value>
+        <value>PADReport</value>
+        <value>ClearanceResults</value>
+        <value>ClearanceDBReport</value>
+        <value>ClearanceResultsFilter</value>
+        <value>ClearanceDBConnection</value>
+        <value>Zone</value>
+        <value>VisQualityCluster</value>
+        <value>VisMovieCapture</value>
+        <value>SnapShotViewData</value>
+        <value>JtSimplification</value>
+        <value>PCBFATF</value>
+        <value>SCHFATF</value>
+        <value>PCBMarkup</value>
+        <value>ECADDFX</value>
+        <value>Vis_Session</value>
+        <value>Text</value>
+        <value>DirectModelMotion</value>
+        <value>JPEG</value>
+        <value>GIF</value>
+        <value>TIF</value>
+        <value>Bitmap</value>
+        <value>Vis_Snapshot_2D_View_Data</value>
+        <value>Awb0PartElement</value>
+        <value>Fnd0AppSession</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

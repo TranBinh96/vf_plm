@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AW_TypeAheadFacetSearch_Delay" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the delay in type-ahead facet search (in millseconds).
+The type-ahead facet search will be delayed by the specified milliseconds. This is to reduce the performance issue caused by otherwise frequent search and rendering of the facets.
+Any invalid values (including zero or negative), will cause the value set to 500 milliseconds.
+The default value is 500 millseconds.</preference_description>
+      <context name="Teamcenter">
+        <value>500</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

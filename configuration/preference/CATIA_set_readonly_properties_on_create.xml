@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_set_readonly_properties_on_create" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Creates through mapping a new property, during Save/Load process, with ReadOnly mode.
+Example of possible values:
+- QC_MODEL_ASSESSMENT
+- QC_TOTAL_WEIGHT_SUM
+- QC_CHECKING_TOOL
+- QC_CHECKING_DATE
+- QC_CHECKING_TIME
+- QC_CHECKING_TIMEZONE
+- QC_PROFILE_NAME
+- QC_MODEL_CAD_VERSION
+- QC_RETURN_CODE</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

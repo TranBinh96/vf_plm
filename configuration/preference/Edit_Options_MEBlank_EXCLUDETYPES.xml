@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Edit_Options_MEBlank_EXCLUDETYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of object types not to be displayed in the &quot;Edit-&gt;Options-&gt;MEBlank&quot; dialog.
+For a given value, its associated subtypes will also to be considered for the exclusion.</preference_description>
+      <context name="Teamcenter">
+        <value>MEOP</value>
+        <value>MEProcess</value>
+        <value>MEWorkarea</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

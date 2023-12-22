@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2013 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: ImanQuerySummary.xml
+
+New style sheet for displaying ImanQuery Summary 
+===============================================================================
+-->
+<rendering>
+    <header>
+        <image source = "thumbnail"/>
+        <property name = "query_name"/>
+        <property name = "query_desc"/>
+     </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name = "query_name"/>
+                <property name = "query_desc"/>
+                 <property name = "query_clauses"/>
+                 <property name = "query_class"/>   
+                 <property name = "query_flag"/>
+                 <separator/>  
+                 <property name = "owning_user"/>
+                 <property name = "owning_group"/>
+                 <property name = "last_mod_user"/>
+                 <property name = "last_mod_date"/>
+            </section>
+        </column>
+        <column>
+          <section titleKey ="tc_xrt_assignedVendorContacts" title= "Assigned Vendor Contacts" >
+            <objectSet source = "Sc0ContactQueries.CompanyContact" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay maxRowCount = "3">
+                    <property name = "object_name"/>
+                    <property name = "sc0VendorName"/>
+                    <property name = "fnd0CompanyLocations"/>
+                </tableDisplay>
+                <command actionKey = "addAction" commandId = "com.teamcenter.rac.AssignVendorContacts" renderingHint = "commandbutton"/> 
+                <command actionKey = "removeAction" commandId = "com.teamcenter.rac.RemoveVendorContacts" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+          </section>
+       </column>
+         <separator/>
+       <command titleKey = "tc_xrt_moreProperties" commandId = "com.teamcenter.rac.properties"/>
+    </page>
+</rendering>

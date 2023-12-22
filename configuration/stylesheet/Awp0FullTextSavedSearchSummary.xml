@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+=======================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Awp0FullTextSavedSearchSummary.xml
+
+    Style sheet rendering for Awp0FullTextSavedSearch summary in Active Workspace.
+=======================================================================
+-->
+<rendering>
+  <header>
+    <image source="type"/>
+    <property name="object_name"/>
+    <property name="object_type"/>
+  </header>
+  <page titleKey="tc_xrt_Overview">
+    <section titleKey="tc_xrt_properties">
+      <property name="object_name" modifiable="false"/>
+      <property name="object_type" modifiable="false"/>
+      <property name="last_mod_date" modifiable="false"/>
+      <property name="awp0search_string"/>
+      <property name="awp0SearchFilterArray" maxRowCount="20"/>
+    </section>
+  </page>
+</rendering>

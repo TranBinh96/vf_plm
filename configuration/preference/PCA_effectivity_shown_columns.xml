@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PCA_effectivity_shown_columns" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if unit only or date only or all columns are to be displayed in the &quot;Effectivity&quot; view.
+Valid values are &quot;DateOnly&quot;, &quot;UnitOnly&quot; or &quot;All&quot;.
+Values specified in this preference are case insensitive.</preference_description>
+      <context name="Teamcenter">
+        <value>DateOnly</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

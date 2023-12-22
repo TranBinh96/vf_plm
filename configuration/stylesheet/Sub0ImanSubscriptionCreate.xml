@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for ImanSubscription creation. -->
+<rendering>
+    <page titleKey="tc_xrt_LogicalBlockInformation">
+        <section titleKey="tc_xrt_properties">
+            <property name="fnd0Name"/>
+            <property name="event_type"/>
+            <property name="fnd0Frequency"/>
+            <property name="fnd0Priority"/>
+        </section>
+    </page>
+</rendering>

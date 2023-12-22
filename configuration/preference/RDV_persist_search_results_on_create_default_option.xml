@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Product Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_persist_search_results_on_create_default_option" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default mode to be shown to the users while creating a Session object from a filtered assembly. Based on this input the system will decide whether to persist the filtered results into the Structure Context Object or not. 
+Following are valid values:
+0 - Persist search results by default and allow users to change the selection.
+1 - Persist search results by default and DO NOT allow users to change the selection.
+2 - DO NOT persist the search results by default and allow users to change the selection.
+3 - DO NOT persist the search results and DO NOT allow users to change the selection.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

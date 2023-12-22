@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_ST_Replicate_Scooter" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF_ST_Replicate_Scooter</preference_description>
+      <context name="Teamcenter">
+        <value>vf4_cost_approval_date</value>
+        <value>vf4_sourcing_recommendAppr</value>
+        <value>vf4_string12</value>
+        <value>vf4_String13</value>
+        <value>vf4_tooling_type</value>
+        <value>vf4_eddorder_value_2</value>
+        <value>vf4_eddorder_currency</value>
+        <value>vf4_eddorder</value>
+        <value>vf4_tooling_order_2</value>
+        <value>vf4_tooling_currency</value>
+        <value>vf4_tooling_contract_status</value>
+        <value>vf4_supplier_piece_cost_exw</value>
+        <value>vf4_piece_currency</value>
+        <value>vf4_supplier_pkg_amount</value>
+        <value>vf4_incoterm_buyer_input</value>
+        <value>vf4_Supplier_logistic_cost</value>
+        <value>vf4_co_agreement_status</value>
+        <value>vf4_cost_approval_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

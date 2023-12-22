@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VendorRevision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Specifies the list of properties that can be displayed as a pseudo folder under a node for VendorRevision objects. This preference can be set using the preference name as an environment variable.
+Valid Values:
+Accepts one or more strings as values; each string must be a property of VendorRevision.</preference_description>
+      <context name="Teamcenter">
+        <value>LocationInCompany</value>
+        <value>ContactInCompany</value>
+        <value>TC_Quality_Document</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

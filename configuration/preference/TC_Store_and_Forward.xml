@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Store_and_Forward" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether store and forward functionality is enabled, improving upload performance for remote users. This functionality improves end-user file upload times from clients by uploading files to a temporary volume. Users can continue to work on their files from the temporary location. The system moves the files to its final destination according to administer-defined criteria. Files are accessible to 
+FMS at all times. Enable this functionality by defining a default local volume (an initial upload volume) for users or groups and setting this preference to true. When users upload files, the files are temporarily uploaded to the defined initial FMS volume, returning control to the user in the client. In the background, the files are transferred to the final destination volume. This allows you to place an FMS volume on the 
+remote users LAN, ensuring quick uploads into the FMS of this temporary volume. All file transfers are transparent to end users.You can view the status of file transfers from the Dispatcher request administration console.By default, the store and forward functionality moves files from the local volume to their final destination volume one at a time (using the fmstranslator Dispatcher translator). If you set the 
+FMS_SAF_Batch_Transfer_Enabled preference to true, you can use the store_and_forward Dispatcher translator to upload files in batch.
+Valid Values:
+true - Enables store and forward functionality.
+false - Disables store and forward functionality by instructing the system to ignore the default local volume setting, uploading files directly to the destination volume.This setting is useful to quickly disable store and forward functionality. For example, if the scheduler or initial volume at a site goes offline unexpectedly, you can use this setting to quickly disable store and forward. The alternative is to alter the initial volume settings of all impacted users, which is a lengthy task.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

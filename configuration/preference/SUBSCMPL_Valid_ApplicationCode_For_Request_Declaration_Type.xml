@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_Valid_ApplicationCode_For_Request_Declaration_Type" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of valid application codes for a request declaration type.
+Valid values have the following pattern: &quot;request declaration type:application code&quot;
+For example, &quot;MSD:SUBS_CMPL&quot;</preference_description>
+      <context name="Teamcenter">
+        <value>MSD:SUBS_CMPL</value>
+        <value>CMD:SUBS_CMPL</value>
+        <value>IMDS:IMDS_INT</value>
+        <value>LRD:SUBS_CMPL</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

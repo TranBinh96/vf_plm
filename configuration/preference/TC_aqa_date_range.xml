@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_aqa_date_range" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Several tuning parameters used when auditing the querying of appearances and checking appearances based on the audit statistics. The statistics take the form of histograms along the lines of &quot;N queries have been performed (on a given AppearanceRoot) for a date between D1 and D2 and/or a unit-no between U1 and U2&quot;. The width of each histogram block (D2-D1) and (U2-U1) is specified by TC_aqa_date_range and TC_aqa_unit_no_range.</preference_description>
+      <context name="Teamcenter">
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

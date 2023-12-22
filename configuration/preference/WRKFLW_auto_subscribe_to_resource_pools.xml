@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_auto_subscribe_to_resource_pools" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates the display of the inbox content of all the Resource pools which Group and/or Role match the Group and/or Role of the logged-in user.
+Valid Values:
+* true: Show the inbox content of Resource pools. This is the default value.
+* false: Show the inbox content of manually subcribed Resource pools.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

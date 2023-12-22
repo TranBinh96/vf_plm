@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ETS_trans_rqst_referenced_dataset_types" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies which dataset type names may be referenced by translation requests as primary or secondary objects. A pre-delete action is registered for each of these dataset types to support deletion of CAD data while a translation is in process.
+Valid Values:
+Accepts multiple strings as values. Must be a valid dataset type name.</preference_description>
+      <context name="Teamcenter">
+        <value>IdeasPart</value>
+        <value>IdeasAssembly</value>
+        <value>IdeasDrawing</value>
+        <value>catia</value>
+        <value>CATPart</value>
+        <value>CATProduct</value>
+        <value>UGPART</value>
+        <value>UGMASTER</value>
+        <value>UGALTREP</value>
+        <value>UGSCENARIO</value>
+        <value>ProPrt</value>
+        <value>MSWord</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

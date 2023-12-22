@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.TCAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_external_system_url_value_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>To mention the variable to retrieve the information posted. This variable can be used by the URL script to retrieve the information</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

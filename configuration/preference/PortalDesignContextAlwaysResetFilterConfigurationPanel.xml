@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Performance Tuning">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextAlwaysResetFilterConfigurationPanel" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether the third window is always reset when transitioning from the second window of Design Context.
+Valid Values:
+TRUE - The third window is always reset when transitioning from the second window.
+FALSE - The third window is not reset when transitioning from the second window.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

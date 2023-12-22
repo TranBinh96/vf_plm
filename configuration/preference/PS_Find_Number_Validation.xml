@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Product Structure Synchronization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_Find_Number_Validation" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the system validates find numbers. If validation is enabled with this preference, an error displays when the find number is zero or is not unique within the parent structure.A find number is a unique number assigned to each line in the product structure. When users add an item to the product structure, 
+the line receives the next available find number in the defined sequence. Users can rearrange the structure in find numbers by clicking the Find Number column header. This rearrangement persists for future Structure Manager sessions.
+Valid Values:
+true - The system validates the Find Number.
+false - The system does not validate the Find Number.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

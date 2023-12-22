@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright 2022 Siemens Digital Industries Software
+================================================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2022 Siemens Digital Industries Software
+
+    Filename: Cfg0AbsModel.xml
+
+       Default style sheet for displaying Cfg0AbsModel properties.
+-->
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">
+        <property name="cfg0ObjectId"/>
+        <property name="object_desc"/>
+        <property name="object_type"/>
+        <separator/>
+        <property name="cfg0OwningProductItem"/>
+        <property name="cfg0ModelFamily"/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+        <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+        <property name="last_mod_date"/>
+        <property name="last_mod_user" />
+        <property name="release_status_list"/>
+        <separator/>
+    </page>
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

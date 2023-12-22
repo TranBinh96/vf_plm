@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+ ==================================================
+Copyright 2019.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<subRendering>
+    <content visibleWhen="CMHasProblemItem!=null and {pref:CM_ImpactAnalysis_Available}==true">
+        <page titleKey="tc_xrt_ImpactAnalysis">
+            <htmlPanel declarativeKey="Cm1ImpactWidget"/>
+        </page>
+    </content>
+</subRendering>

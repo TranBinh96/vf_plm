@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Quality_Management_Security" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if TC_Projects are propagated to Quality Action.  
+Valid values are:
+0: Quality Management Security is turned OFF. No TC_Project is propagated to Quality Action.
+1: Quality Management Security is turned ON. TC_Project is propagated to Quality Action.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

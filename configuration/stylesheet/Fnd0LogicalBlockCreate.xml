@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Fnd0LogicalBlockCreate.xml
+
+    Style sheet rendering for Fnd0LogicalBlock creation.
+=======================================================================
+-->
+
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+         <section titleKey="tc_xrt_properties">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" />
+            <property name="object_name" />
+            <property name="object_desc" />
+        </section>
+    </page>
+
+</rendering>

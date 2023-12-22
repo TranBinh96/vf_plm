@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+=======================================================================
+
+Copyright 2018.
+
+Siemens Product Lifecycle Management Software Inc.
+
+All Rights Reserved.
+
+=======================================================================
+
+     Filename: CAW0DefectInformationSummary.xml
+
+     Registers the stylesheet for Defect Inforamtion Summary in Active Workspace.
+
+=======================================================================
+
+-->
+
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+      <page visibleWhen="caw0Context==NULL">      
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_Properties">
+             <property name="object_name"/>
+             <property name="object_desc"/>
+             <property name="caw0category"/>
+             <property name="caw0reoccuring"/>
+            <property name="caw0Evaluation"/>
+            <content visibleWhen="GRMS2P(CAW0CausedBy,CAW0Defect).caw0Context==Capa">
+                <property name="caw0AnalysisDimension" modifiable="true"/>
+            </content>
+            <content visibleWhen="GRMS2P(CAW0CausedBy,CAW0Defect).caw0Context!=Capa">
+                <property name="caw0AnalysisDimension" modifiable="false"/>
+            </content>
+            <property name="caw0AnalysisType" modifiable="false" />
+            <property name="caw0rootCause" modifiable="false"/>
+            <property name="caw0ProblemContext" modifiable="false" renderingHint="objectlink" />
+        </section>
+    <break>
+    </break>
+    <section titleKey="tc_xrt_Details">
+            <property name="owning_user"/>
+            <property name="creation_date"/>
+            <property name="last_mod_user"/>
+    </section>
+    </page>
+    <page visibleWhen="caw0Context==Capa">      
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_Properties">
+             <property name="object_name"/>
+             <property name="object_desc"/>
+             <property name="caw0category"/>
+             <property name="caw0reoccuring"/>
+             <property name="caw0Evaluation"/>             
+        </section>
+    <break>
+    </break>
+    <section titleKey="tc_xrt_Details">
+            <property name="owning_user"/>
+            <property name="creation_date"/>
+            <property name="last_mod_user"/>
+    </section>
+    </page>
+    <page visibleWhen="caw0Context==Issue">      
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_Properties">
+             <property name="object_name"/>
+             <property name="object_desc"/>
+             <property name="caw0reoccuring"/>
+             <property name="caw0category"/>
+             <property name="caw0Evaluation"/>
+        </section>
+    <break>
+    </break>
+    <section titleKey="tc_xrt_Details">
+            <property name="owning_user"/>
+            <property name="creation_date"/>
+            <property name="last_mod_user"/>
+    </section>
+    </page>
+    <page visibleWhen="caw0Context==5Why">      
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_Properties">
+                    <property name="object_name"/>
+                    <property name="object_desc"/>
+                    <property name="caw0WhySequence" modifiable="false"/>
+                    <property name="caw0Evaluation"/>
+                    <content visibleWhen="caw0rootCause==True">
+                        <property name="caw0AnalysisDimension" modifiable="false"/>
+                        <property name="caw0AnalysisType" modifiable="false" />
+                    </content>
+                    <property name="caw0rootCause" modifiable="false"/>
+                    <property name="caw0ProblemContext" modifiable="false" renderingHint="objectlink" />
+        </section>
+    <break>
+    </break>
+    <section titleKey="tc_xrt_Details">
+            <property name="owning_user"/>
+            <property name="creation_date"/>
+            <property name="last_mod_user"/>
+    </section>
+    </page>
+    <page visibleWhen="caw0Context==Ishikawa">
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_Properties">
+                    <property name="object_name"/>
+                    <property name="object_desc"/>
+                    <htmlPanel declarativeKey="CAW0causeGroupEdit" modifiable="true"/>
+                    <property name="caw0Evaluation"/>
+                    <content visibleWhen="caw0rootCause==True">
+                        <property name="caw0AnalysisDimension" modifiable="false"/>
+                    </content>
+                    <property name="caw0rootCause" modifiable="false"/>
+                    <property name="caw0ProblemContext" modifiable="false" renderingHint="objectlink" />
+                    <break/>
+                    <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+                    <property name="last_mod_date"/>
+        </section>
+    <break>
+    </break>
+    <section titleKey="tc_xrt_Details">
+            <property name="owning_user"/>
+            <property name="creation_date"/>
+            <property name="last_mod_user"/>
+    </section>
+    </page>
+</rendering>

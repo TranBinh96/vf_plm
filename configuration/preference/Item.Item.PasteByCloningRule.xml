@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Item.Item.PasteByCloningRule" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the cloning rule names to be used when copying a sub-assembly within a Bill Of Material(BOM) structures.</preference_description>
+      <context name="Teamcenter">
+        <value>*:*:Attribute.items_tag:Clone</value>
+        <value>*:*:Attribute.structure_revisions:Clone</value>
+        <value>*:*:Attribute.bom_view:Clone</value>
+        <value>*:*:Attribute.parent_item:Clone</value>
+        <value>*:*:Attribute.variant_expression_block:Clone</value>
+        <value>*:*:OccType.*:Reference</value>
+        <value>*:*:Relation.*:Reference</value>
+        <value>class.Folder:*:Attribute.contents:Reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

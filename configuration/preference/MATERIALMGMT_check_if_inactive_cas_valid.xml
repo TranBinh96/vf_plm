@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="MATERIALMGMT_check_if_inactive_cas_valid" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies if the Chemical Abstract Service (CAS) numbers for inactive substances are to be checked for validity while creating the substances in the Material Management application.
+This is required to control if substances with invalid CAS numbers need to be maintained in the system for legacy, record or legal purposes.
+The default value is true.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

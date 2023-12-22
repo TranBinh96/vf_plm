@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="scheduling_graph_domain_interval" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Used with Schedule Manager resource graphs. Determines the marked intervals on the domain axis. Set this preference with any segmented time line value such as day (default) or week, or with integer values such as 1 for a day or 7 for a week.
+Valid Values:
+Accepts multiple strings as values. Each string must be a segmented time line value or positive integer. For example:
+day
+week
+1440
+10080</preference_description>
+      <context name="Teamcenter">
+        <value>day</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

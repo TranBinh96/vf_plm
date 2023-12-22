@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ME3DPDFAllowedReportTemplates" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>List of PDF templates, which are available to choose from, for Generate 3D PDF Report command. According to their order, the default template is defined.</preference_description>
+      <context name="Teamcenter">
+        <value>3DPDF Work instructions</value>
+        <value>3DPDF Rich textual work instructions</value>
+        <value>2DPDF Work-instructions</value>
+        <value>3DPDF Work instructions with 2D images</value>
+        <value>3DPDF Work instructions (Process Simulate)</value>
+        <value>Animated PDF Work-instructions</value>
+        <value>2DPDF Work Instruction with activities</value>
+        <value>3DPDF Work Instructions with activities</value>
+        <value>Part list with 3D</value>
+        <value>Part List</value>
+        <value>Tool List</value>
+        <value>2DPDF Multipage work instructions</value>
+        <value>2DPDF Work Instructions - Paper Based</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

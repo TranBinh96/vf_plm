@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Baseline_omitted_occurrence_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which BOM lines display when building a manufacturing baseline. BOM lines containing occurrence notes defined in this preference are omitted.Manufacturing baselines are a convenient method of releasing composition/process structures whose contents do not change over time.
+Valid Values:
+Accepts multiple strings as values; each string must be a valid occurrence type.</preference_description>
+      <context name="Teamcenter">
+        <value>MEResource</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

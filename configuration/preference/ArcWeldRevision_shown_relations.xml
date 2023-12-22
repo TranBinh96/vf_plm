@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ArcWeldRevision_shown_relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relations to show when expanding ArcWeldRevision object. 
+Valid Values:
+One or more strings representing valid Teamcenter relations.</preference_description>
+      <context name="Teamcenter">
+        <value>Mfg0TCContextFeatureFormRel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+=======================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: SavedSearchSummary.xml
+
+    Style sheet rendering for SavedSearch summary in Active Workspace.
+=======================================================================
+-->
+<rendering>
+  <header>
+    <image source="type"/>
+    <property name="object_name"/>
+    <property name="object_type"/>
+    <property name="owning_user"/>    
+    <property name="last_mod_date"/>    
+    <property name="savedsearch_query"/>
+    
+  </header>
+  <page titleKey="tc_xrt_Overview">
+    <section titleKey="tc_xrt_properties">
+      <property name="object_name" modifiable="false"/>
+      <property name="object_type" modifiable="false"/>
+      <property name="owning_user" modifiable="false"/>    
+      <property name="last_mod_date" modifiable="false"/>
+      <property name="savedsearch_query" modifiable="false"/>        
+      </section>
+  </page>
+</rendering>

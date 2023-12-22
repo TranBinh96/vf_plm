@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change and Schedule Management Interface">
+    <category_description>Change and Schedule Management Interface Preferences</category_description>
+    
+               <preference name="ScheduleTask.CHGDETAILRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Registration of the Change Details style sheet for schedule task objects.
+Valid values:
+ScheduleTaskChgDetails
+Specifies the xml filename that contains the Change Details style sheet.</preference_description>
+      <context name="Teamcenter">
+        <value>ScheduleTaskChgDetails</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

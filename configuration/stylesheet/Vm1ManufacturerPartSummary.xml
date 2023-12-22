@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Vm1ManufacturerPartSummary.xml
+
+Default stylesheet for display Vendor Part properties.
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="label"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name="item_id"/>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+                <break/>
+                <content>
+                    <inject type="dataset" src="Scw0Mass"/>
+                </content>
+                <property name="vm0vendor_ref"/>
+                <break/>
+                <content visibleWhen="sci0IsIMDSObject==Y">
+                    <inject type="dataset" src="Sci1ItemCreate"/>
+                    <inject type="dataset" src="Sci1ItemCreateSemiComponentAttribute"/>
+                </content>
+            </section>
+            <section titleKey="revision_list" title="Revisions">
+                 <objectSet source="revision_list.ManufacturerPart Revision" defaultdisplay="tableDisplay" sortdirection="descending" sortby="object_name">
+                    <tableDisplay>
+                        <property name ="object_string"/>
+                        <property name ="current_revision_id"/>
+                        <property name ="release_status_list"/>
+                        <property name="last_mod_date"/>
+                        <property name="last_mod_user"/>
+                        <property name="checked_out"/>
+                    </tableDisplay>
+                 </objectSet>
+            </section>
+            <section titleKey="tc_xrt_vendorLocation">
+                <objectSet source="vm0company_location.CompanyLocation" defaultdisplay="tableDisplay" sortdirection="descending" sortby="last_mod_date">
+                    <tableDisplay>
+                        <property name="object_name" modifiable="false"/>
+                        <property name="object_desc" modifiable="false"/>
+                        <property name="vm0DUNSNumber" modifiable="false"/>
+                        <property name="city" modifiable="false"/>
+                        <property name="state_province" modifiable="false"/>
+                        <property name="country" modifiable="false"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="Vm1AddVendorLocation" renderingHint="commandbutton"/>
+                </objectSet>
+            </section>
+            <content visibleWhen = "scp0DeclarationRevisions == null">
+                <inject type="dataset" src="Mtw0Mat1MaterialSection"/>
+            </content>
+            <inject type="dataset" src="Scw0LatestComplianceResults"/>
+            <inject type="dataset" src="Sci1SubstanceApplicationCodes"/>
+            <inject type="dataset" src="Sci1SupplierPartHierarchy"/>
+            <inject type="dataset" src="Scw0SupplierPartHierarchy"/>
+            <section titleKey="tc_xrt_CommercialParts" title="Commercial Parts">
+                <objectSet source="commercialparts.CommercialPart Revision" defaultdisplay="tableDisplay" sortdirection="descending" sortby="last_mod_date">
+                    <tableDisplay>
+                        <property name="item_id"/>
+                        <property name="object_name"/>
+                        <property name="object_desc"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <inject type="dataset" src="Vm1PartnerContracts"/>
+    <inject type="dataset" src="Mtw0CompositionTabForItemRevSummary"/>
+    <inject type="dataset" src="Scw0ComplianceCategoriesTabForVP"/>
+    <inject type="dataset" src="Scw0ComplianceInfo"/>
+    <inject type="dataset" src="Scw0QueryListTabForVP"/>
+    <inject type="dataset" src="Scw0SubstanceCatTabForVP"/>
+    <inject type="dataset" src="Scw0SmelterTabForVP"/>
+    <inject type="dataset" src="Cm1ChangeRelationSummary"/>
+    <page titleKey="tc_xrt_attachments" title="Attachments">
+        <inject type="dataset" src="SubscmplDeclarationDocs"/>
+        <section titleKey="tc_xrt_Files">
+            <objectSet source="IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset,IMAN_UG_altrep.Dataset,IMAN_UG_scenario.Dataset,IMAN_Simulation.Dataset" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="relation" modifiable="true"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>
+        <inject type="dataset" src="SubscmplDocs"/>
+    </page>
+    <page titleKey="web_whereused">
+        <section titleKey="tc_xrt_References">
+            <objectSet source="Awp0ReferencesProvider.WorkspaceObject" sortdirection="ascending" sortby="object_string" defaultdisplay="tableDisplay">
+                <thumbnailDisplay/>
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                </tableDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+    <inject src="WorkflowSummary" type="dataset"/>
+</rendering>

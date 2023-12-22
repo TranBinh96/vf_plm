@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Fnd0StructureAudit. -->
+
+<subRendering>
+        <section titleKey="tc_xrt_StructureLogs">
+            <objectSet source="fnd0StructureAuditLogs.Fnd0StructureAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="descending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="fnd0UserId"/>                    
+                    <property name="fnd0SecondaryObjDispName"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>                  
+                </tableDisplay>
+            </objectSet>
+        </section>
+</subRendering>

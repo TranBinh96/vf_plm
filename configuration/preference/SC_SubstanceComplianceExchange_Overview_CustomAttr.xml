@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_SubstanceComplianceExchange_Overview_CustomAttr" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of Substance Compliance Exchange properties displayed in the &quot;Overview&quot; tab of the &quot;Exchange View&quot; in the Supplier Collaboration application. 
+Valid values are property internal names.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

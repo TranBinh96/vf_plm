@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_partnumber_separator" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use the Part Number Separator variable to define the separator used when building the part number; it is also used in CAA for the name of PDF files. 
+This character is used as a separator to build the default reference name, i.e, ItemID_ItemRevID_ItemRevName.</preference_description>
+      <context name="Teamcenter">
+        <value>_</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

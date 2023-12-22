@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MELBChartStationNameDisplayPattern" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the display pattern of the station line names in the Line Balancing Chart view in Manufacturing Process Planner.The Line Balancing Chart view uses regular expressions as patterns to display only particular portions of the station line names. The parts to be displayed are marked by groups. The corresponding part strings of the names are displayed.For example, when applying the pattern .*([sS]t)ation([ .0-9]*).* to station line name 000140/A;1-station 1.1 for the assembling front axle, the string st matches the regular expression group ([sS]t), and the string 1.1 matches the regular expression group ([ .0-9]*).The result is that the display string is st 1.1 for this pattern.
+Valid Values:
+Accepts a valid regular expression that matches the station line names. The regular expression must contain at least one group.If the pattern is not defined correctly or if no group is defined, Teamcenter displays the original line name text.The following examples shows some patterns and corresponding results for the line name 000140/A;1-station 1.1 for assembling front axle.PatternResult[ 0]*([0-9]*)/.*140.*(station.*)station 1.1 for assembling front axle.*([sS]t)ation([ .0-9]*).*st 1.1</preference_description>
+      <context name="Teamcenter">
+        <value>[ 0]*([0-9a-zA-Z]*)/.*</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

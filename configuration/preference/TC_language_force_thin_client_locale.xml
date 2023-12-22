@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Language">
+    <category_description>Defines parameters for the session langage.</category_description>
+    
+               <preference name="TC_language_force_thin_client_locale" type="Logical" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Forces the thin client to start up with the default language as defined by the TC_language_default environment variable. The TC_language_force_thin_client_locale_no_warning preference can be used to suppress a warning message about the default locale being used when the TC_language_force_thin_client_locale preference is set to true.
+Valid Values:
+true - The thin client always starts with the default locale.
+false - The thin client starts with the language specified by the ?lang= URL parameter and the browser preferences.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

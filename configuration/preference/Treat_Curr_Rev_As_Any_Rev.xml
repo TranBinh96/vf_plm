@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Treat_Curr_Rev_As_Any_Rev" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the current revision letter for a new revision in a revision naming rule. This preference applies to CurrentRevLetter revision naming rules.
+Valid Values:
+* True - Allows the administrator creating a revision naming rule to type any letter to override the current revision letter (except the letters controlled by the TcRevisionSkipLetters LOV).
+* False - Prevents administrators from changing the current revision letter.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

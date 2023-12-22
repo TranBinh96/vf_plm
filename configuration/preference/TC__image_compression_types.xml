@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ImageCompression">
+    <category_description>Preferences required for imagecompression feature.</category_description>
+    
+               <preference name="TC__image_compression_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of height of the derived image in pixels and the name of the derived image type.
+This list is used by image translation service to translate the original high resolution image to specified lower resolutions.
+The width of the image would be assigned by the image translation service based on the aspect ratio of the original image.</preference_description>
+      <context name="Teamcenter">
+        <value>600px::High</value>
+        <value>300px::Medium</value>
+        <value>64px::Low</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

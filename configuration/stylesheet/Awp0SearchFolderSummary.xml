@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2020.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Search Folder poperties and it sub search folders and search results associated with it. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+            <column>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            </column>
+            <column>
+                <htmlPanel declarativeKey="Awp0SearchFolderOverviewRule"/>
+            </column>
+        </section>
+        <htmlPanel declarativeKey="Awp0SearchFolderContents"/>
+    </page>
+    <page titleKey="tc_xrt_SearchFolderRule">       
+        <htmlPanel declarativeKey="Awp0SearchFolderRule"/>
+    </page>
+    <page titleKey="tc_xrt_SearchFolderShareRule">       
+        <htmlPanel declarativeKey="Awp0SearchFolderShareRule"/>
+    </page>
+</rendering>

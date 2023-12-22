@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_identify_plmxml_import_dataset" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relation name, dataset type, and the named reference that identifies the dataset used to parse the named reference PLM XML file and identify the item revisions to be imported.
+Valid Values:
+Although this preference accepts multiple string values, this to allow importing any PLM XML file. For use with controlled replication of structured context objects, this preference must be a single string containing the dataset type, relation name, and named reference type.Multiple string values delimited by colons (:) representing any existing dataset type, relation name, and named reference type in the following format:dataset-type:relation:named-reference-type  
+If a named reference type is not specified, ConfiguredAssembly is used.</preference_description>
+      <context name="Teamcenter">
+        <value>DirectModelAssembly:IMAN_reference:ConfiguredAssembly</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

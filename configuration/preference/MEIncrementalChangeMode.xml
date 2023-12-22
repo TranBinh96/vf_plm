@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEIncrementalChangeMode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether incremental change is applied per application or per structure in Manufacturing Process Planner, Part Planner, and Plant Designer. 
+Valid Values:
+application - Incremental change works per application. If you set an incremental change, it is set for all the loaded structures.
+structure - Incremental change works per structure. If you set an incremental change, it is relevant only for the selected structure and for the secondary views connected to the selected structure. In this mode, each structure can use its own incremental change.</preference_description>
+      <context name="Teamcenter">
+        <value>application</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

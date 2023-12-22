@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="BOM Markup Space">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EDITCONTEXT_query_to_execute" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the name of the saved query to be used for Edit context objects.
+The default value is &quot;Edit Context...&quot;
+If modified, the new query must have at least one attribute named &apos;userID&apos; as criteria.
+For more information, follow the &apos;Edit Context...&apos; query.</preference_description>
+      <context name="Teamcenter">
+        <value>Edit Context...</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

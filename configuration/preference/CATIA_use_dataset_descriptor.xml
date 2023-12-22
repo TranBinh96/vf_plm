@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_use_dataset_descriptor" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use CATIA_use_dataset_descriptor to apply CreateInput on the Operation Descriptor of the dataset. When false (default) the primary dataset is created without using the Create Descriptor. When true the Create Descriptor creates the primary dataset.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

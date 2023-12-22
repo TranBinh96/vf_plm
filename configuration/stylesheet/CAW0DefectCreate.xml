@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: CAW0DefectCreate.xml 
+     Registers the stylesheet for creation of Defect(CAW0Defect) objects in Active Workspace.
+=======================================================================
+-->
+<rendering>
+    <page titleKey="tc_xrt_CondValDataCreate_general_information">
+        <section titleKey="tc_xrt_properties">                
+             <property name="object_name"/>
+             <property name="object_desc"/>
+             <property name="caw0reoccuring"/>
+             <property name="caw0category"/>            
+        </section>
+    </page>
+</rendering>

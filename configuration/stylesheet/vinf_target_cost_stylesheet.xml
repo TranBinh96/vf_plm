@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <page titleKey="tc_xrt_Overview">
+	<section title="Target Cost">
+		<label text="* Currency: USD"  style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+		<property name="vf4_piece_cost_value_target"  column="16" />
+		<property name="vf4_isPieceCostInParentPart"  column="16" renderingHint="checkbox"/>		
+		<property name="vf4_ednd_cost_value_target" column="16" />
+		<property name="vf4_isEDDCostInParentPart" column="16" renderingHint="checkbox"/>
+		<property name="vf4_tooling_invest_target" column="16"/>
+		<property name="vf4_isToolCostInParentPart" column="16" renderingHint="checkbox"/>
+		<property name="vf4_misce_piece_cost_target" column="16"/>
+	</section>
+	<separator/>		
+	<section title="General Info">
+		<property name="owning_group" column="16"/>
+		<property name="last_mod_date" column="16"/>
+		<property name="last_mod_user" column="16"/>
+		<property name="checked_out_user" column="16"/>
+	</section>
+    </page>
+  
+</rendering>

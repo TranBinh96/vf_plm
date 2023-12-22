@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: DCt_XmlAttrMapSummary.xml
+
+    Default style sheet for displaying DCt_XmlAttrMap summary
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+08/26/2010   tomaszew                Initial Version
+=======================================================================
+@<DEL>@ 
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+
+    <page titleKey="tc_xrt_Overview" >
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name"/>
+            <property name="object_type" />
+            <property name="adminComment"/>
+            <separator/>
+            <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+        </section>
+        <section titleKey="tc_xrt_ctm0NamspaceTblKey">
+            <objectSet source="namespacesTbl.DC_NamspacesTbl" defaultdisplay="tableDisplay">
+            <tableDisplay>
+                <property name="nsPrefix"/>
+                <property name="nsNamespaceUri"/>
+            </tableDisplay>
+            <command commandId="com.teamcenter.rac.contmgmtbase.newDC_NamspacesTblRow" renderingHint="commandbutton"/>
+            <command commandId="com.teamcenter.rac.contmgmtbase.DeleteTableItem" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_ctm0XmlAttrMapTblKey">
+            <objectSet source="xmlAttrMapTbl.DCt_XmlAttrMapTbl" defaultdisplay="tableDisplay">
+            <tableDisplay>
+                <property name="xamAttributeName"/>
+                <property name="xamFunction"/>
+                <property name="xamPath"/>
+                <property name="xamFieldSeparator"/>          
+                <property name="xamFixedFieldLength"/>          
+                <property name="xamConstantValue"/>          
+                <property name="ctm0ProcedureTagref"/>
+                <property name="xamOmitEmptyAttribute"/>
+                <property name="ctm0xamCallbackName"/>
+            </tableDisplay>
+            <command commandId="com.teamcenter.rac.contmgmtbase.newDCt_XmlAttrMapTblRow" renderingHint="commandbutton"/>
+            <command commandId="com.teamcenter.rac.contmgmtbase.DeleteTableItem" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+            </objectSet>
+        </section>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+        <objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="lis0site"/>
+                <property name="lis0serviceProvider"/>
+                <property name="relation"/>
+                <property name="last_mod_date"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out_user"/>
+            </tableDisplay>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+            <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </page>
+
+</rendering>

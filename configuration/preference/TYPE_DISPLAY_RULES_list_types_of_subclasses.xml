@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Business Modeler">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TYPE_DISPLAY_RULES_list_types_of_subclasses" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Shows business object display rules propagated from the sub-business objects defined in the list of business objects in the preference.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid primary type.</preference_description>
+      <context name="Teamcenter">
+        <value>Identifier</value>
+        <value>CAEItem</value>
+        <value>CAEAnalysis</value>
+        <value>CAEModel</value>
+        <value>CAEGeometry</value>
+        <value>Drawing</value>
+        <value>FND_TraceLink</value>
+        <value>CCObject</value>
+        <value>StructureContext</value>
+        <value>ConfigurationContext</value>
+        <value>MEActivity</value>
+        <value>AppearanceGroup</value>
+        <value>Dataset</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

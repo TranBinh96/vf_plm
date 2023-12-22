@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Filename: C2CapaRevisionProperty.xml -->
+
+<rendering>
+
+	<views>
+	</views>
+
+	<page title="Problem Description" titleKey="Problem Description">
+		<view name="properties">
+			<property name="item_id" />
+			<property name="item_revision_id" />
+			<property name="object_name" />
+			<property name="object_desc" />
+			<property name="c2_capa_category" />
+			<property name="c2_capa_subtype" />
+			<property name="owning_user" modifiable="false" />	<!--Created By -->
+			<property name="creation_date" />
+			<!--property name="c2_Severity" /-->
+			<!--property name="c2_Detectability" /-->	<!--Detectability(1-10 rating) -->
+			<!--  property name="c2_Probability" /-->	<!--Probability(1-10 rating) -->
+			<!--property name="c2_Risk" modifiable="false" /-->	
+			<property name="c2_relatedIssueCount" modifiable="false"  />	
+			<property name="c2_Occurence" />
+			<property name="c2_Impact" />	
+			<property name="c2_Effort" />	
+			<property name="c2_SeverityScore" modifiable="false" />	
+			<property name="c2_Plant" />	
+		
+		</view>
+	</page>
+
+	<page title="Status" titleKey="Status">
+		<view name="properties">
+			<property name="CMMaturity" />  <!-- CAPA Maturity-->
+			<property name="c2_LCStatus" modifiable="false"/>			
+			<property name="c2_is_escalated" />
+			<property name="c2_Due_date" />	<!--Proposed Due Date -->
+			<property name="c2_investigation_req" />
+			<property name="c2_ECR_required" />	<!--ECR Required? -->
+			<property name="CMClosureComments" />
+			<property name="release_statuses" />
+			<property name="date_released" />
+			<property name="c2_approval_req" />
+		</view>
+	</page>
+
+	<page title="Team" titleKey="Team">
+		<view name="properties">			
+			<property name="c2_capa_owner" />
+			<property name="c2_capa_approver" />
+			<separator />
+			<property name="checked_out" />
+			<property name="checked_out_user" />
+			<property name="checked_out_date" />
+			<property name="last_mod_user" />
+			<property name="last_mod_date" />
+			<property name="owning_group" modifiable="false" />
+			
+		</view>
+	</page>
+    <page title="Preview" titleKey="Preview">
+	        
+            		<view name="tc_xrt_Preview">
+                		<image source="preview"/>
+            	      </view>
+	</page>
+</rendering>

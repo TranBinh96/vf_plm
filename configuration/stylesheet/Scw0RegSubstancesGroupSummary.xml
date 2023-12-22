@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0RegSubstancesGroupSummary.xml
+
+Default activeworkspace style sheet for displaying Substances Group properties.
+
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="label"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+            <property name = "object_type"/>
+            <property name = "object_name"/>
+            <break/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+        </section>
+        <section titleKey="scw0_xrt_substance">
+            <objectSet source="scp0Substances.Mat1Substance" defaultdisplay="tableDisplay" sortby = "object_name" sortdirection = "ascending">
+               <tableDisplay>
+                    <property name="mat1cas_number"/>
+                    <property name="object_name"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </page>    
+</rendering>

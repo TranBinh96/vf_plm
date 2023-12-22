@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Authorization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_authorization_mode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether to evaluate all the group memberships of a user and the user&apos;s role in those groups when authorizing access to an application or to evaluate the user&apos;s current group logon and role in that group.For information about configuring access to an application, see Application Administration.To access the Organization application, a user must have dba privileges (be a member of dba with the role of DBA). If the user is a member of both the dba and the Engineering groups and logs on under the Engineering group, the user may or may not have access to the Organization application depending on how TC_authorization_mode is set:If set to on (evaluate all group memberships and the roles in the groups), the user has administration privileges based on membership in the dba group, even though the user is not currently logged on under that group. The user can access the Organization application.If set to off  (evaluate only the current logon group and the role in that group), the user does not have administration privileges through the Engineering group. Therefore, the user cannot access the Organization application.
+Valid values are
+on - Evaluates all the group memberships of a user and the user&apos;s roles in those groups to determine the user&apos;s access to an application.
+off - Evaluates only the user&apos;s current logon group and the user&apos;s role in that group to determine the user&apos;s access to an application.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

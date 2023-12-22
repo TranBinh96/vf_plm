@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEProcessResourcesViewColumnsShownWidthPref" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the width in pixels of the columns displayed in the Process Resources view of Manufacturing Process Planner, as defined by the MEProcessResourcesViewDisplayNameColumnsShownPref preference. This setting affects each column defined in the MEProcessResourcesViewDisplayNameColumnsShownPref preference.
+Valid Values:
+Accepts one or more integers as values. The number of integers should match the number of columns in the MEProcessResourcesViewDisplayNameColumnsShownPref preference.</preference_description>
+      <context name="Teamcenter">
+        <value>45</value>
+        <value>25</value>
+        <value>25</value>
+        <value>25</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

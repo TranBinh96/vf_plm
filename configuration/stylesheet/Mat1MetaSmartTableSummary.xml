@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2012 Siemens PLM Software
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: Mat1MetaSmartTableSummary.xml
+
+    Style sheet for displaying Mat1Material summary from Material Management template.
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_desc"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey = "tc_xrt_Overview" title = "Overview">
+          <column>
+              <section titleKey = "tc_xrt_properties" title = "Properties">
+                  <property name="object_name"/>
+                  <property name="object_desc"/>
+                  <property name="mat1Category"/>
+                  <property name="mat1DataIdentityInSource"/>
+                  <property name="mat1DataSource"/>
+                  <property name="mat1RealName"/>
+                  <property name="mat1UnitXAliasName"/>
+                  <property name="mat1UnitYAliasName"/>
+                  <property name="mat1XQualifier"/> 
+                  <separator/>
+                  <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                  <property name="owning_site" renderingHint="objectlink" modifiable="false"/>
+                  <property name="checked_out" modifiable="false"/>
+                  <property name="checked_out_user" renderingHint="objectlink" modifiable="false"/>
+                  <separator/>
+                  <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+              </section>
+          </column>
+          <column>
+               <section titleKey="tc_xrt_Preview">
+                   <image source="preview"/>
+               </section>
+               <section titleKey="tc_xrt_actions">
+                    <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" />
+               </section>
+          </column>
+    </page>
+</rendering>

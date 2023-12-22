@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_replica_volume" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Identifies the volume where replica files are placed upon import. Use to direct all replica files into a specific volume. This volume does not need to be backed up because they are replica files, you can retrieve a copy from the owning site if you lose any of the files. You can also use operating system facilities to determine which files have not been accessed for a certain period of time, thereby determining unnecessary replicas.
+Valid Values:
+Single valid volume name.</preference_description>
+      <context name="Teamcenter">
+        <value>OWNING_USER_DEFAULT_VOLUME</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

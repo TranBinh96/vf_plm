@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_variant_configurator_relationship" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relationship between an Application Model (for example, a Collaborative Design) and the related Item when using a variant configurator such as the Product Configurator.
+Valid Values:
+The name of any valid relation between an Application Model and an Item Revision that represents a Variant Configurator context.</preference_description>
+      <context name="Teamcenter">
+        <value>Mdl0HasVarConfiguratorCxt</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+================================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+    Filename: TaskToPerformSummary.xml
+
+    Default style sheet for displaying a Task Inbox.
+=======================================================================
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_properties">
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+                <separator/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+                <property name="last_mod_user"/>
+                <separator/>
+                <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+            </section>
+            <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                <command actionKey="copyAction" commandId="com.teamcenter.rac.copy"/>
+            </section>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_Contents">
+                <objectSet source="contents.WorkspaceObject" sortby="object_name" sortdirection="ascending">
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>        
+    </page>
+</rendering>

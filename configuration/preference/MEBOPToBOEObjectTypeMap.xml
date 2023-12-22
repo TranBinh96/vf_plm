@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEBOPToBOEObjectTypeMap" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the XML dataset name which has the object type mappings and their attribute mappings. These details are used while creating a Bill of Equipment (BOE) structure from a Plant Bill of Process (BOP) structure or vice versa.</preference_description>
+      <context name="Teamcenter">
+        <value>BOEPlantBOPTypeAndPropertyMap</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

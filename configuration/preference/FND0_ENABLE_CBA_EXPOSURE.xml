@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.CAD BOM Alignment">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="FND0_ENABLE_CBA_EXPOSURE" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Enables the exposure of Part-CAD alignment user interface in Acitve Workspace.
+If true, Active Workspace UI will show aligned design for parts and will allow user to align designs to part.
+If false, the aligned designs section will not be presented in the user interface.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

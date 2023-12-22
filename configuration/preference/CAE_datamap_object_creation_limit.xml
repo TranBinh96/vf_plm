@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_datamap_object_creation_limit" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the limit of objects that can be created in memory before committing the objects to the database.
+Valid Values:
+Any integer.</preference_description>
+      <context name="Teamcenter">
+        <value>5000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

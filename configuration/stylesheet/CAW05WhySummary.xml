@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+=======================================================================
+Copyright 2019.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: CAW05WhySummary.xml
+    Style sheet rendering for WorkspaceObject summary in Active Workspace.
+=======================================================================
+-->
+<rendering>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_properties">
+                <property name="object_name" modifiable="false"/>
+                <property name="caw0ProbDefinition" modifiable="true"/>
+                <property name="object_desc" modifiable="true"/>
+                <content visibleWhen="GRMS2P(CAW0Related5Why,CAW0Defect).caw0Context==Capa">
+                    <property name="caw0AnalysisDimension" modifiable="true"/>
+                </content>
+                <content visibleWhen="GRMS2P(CAW0Related5Why,CAW0Defect).caw0Context!=Capa">
+                    <property name="caw0AnalysisDimension" modifiable="false"/>
+                </content>
+                <property name="caw05WhyType" />
+                <property name="caw0ProblemContext" modifiable="false" renderingHint="objectlink" />
+                <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+                <property name="last_mod_date"/>
+            </section>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_Preview">
+                 <inject type="dataset" src="Awp0GalleryViewer" module="js/aw-include.directive"/>
+            </section>
+        </column>
+    </page>
+    <page titleKey="tc_xrt_Methodology" >
+        <htmlPanel declarativeKey="5WhyMethodology" enableresize="true" />
+    </page>
+    <page titleKey="tc_xrt_Attachments">
+        <section titleKey="tc_xrt_Files">
+            <objectSet source="CAW05WhyAttachment.Dataset,CAW05WhyAttachment.ItemRevision,IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="relation" modifiable="false"/>
+                    <property name="CAW05WhyAttachment.caw0VisibleInReport" modifiable="true"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_QualityAction">
+            <objectSet source = "CAW0QualityActionRel.Qam0QualityAction" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <command actionKey="newBusinessObjectContextualAction" commandId="CAW0AddQADefect5Why" renderingHint="commandbutton" />
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton"/>
+                <tableDisplay>
+                    <property name = "object_name"/>
+                    <property name = "qam0QualityActionSubtype"/>
+                    <property name = "qam0Comment"/>
+                    <property name = "fnd0ResponsibleUser" modifiable="false"/>
+                    <property name = "qam0DueDate"/>
+                    <property name = "qam0QualityActionStatus"/>
+                    <property name = "qam0CompletionDate" modifiable="false"/>
+                    <property name = "caw0visibleInReport"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+            </objectSet>
+    </page>
+</rendering>

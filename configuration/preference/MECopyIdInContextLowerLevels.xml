@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECopyIdInContextLowerLevels" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if the in-context ID is copied to the assigned line for the subprocesses and suboperations during an assignment operation.See also the MECopyIdInContextToAssignedLine preference.
+Valid Values:
+True - The in-context ID is copied only for the items that are assigned to the subprocesses and suboperations during an assignment operation. The in-context ID of the subprocess or suboperation is not copied.
+False - The in-context ID is not copied to the assigned line for the subprocesses and suboperations during an assignment operation.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

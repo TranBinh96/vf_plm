@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Performance Tuning">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_turn_audit_logging_on" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether audit logging for global RDV is enabled. These audit logs contain information about the changes in the vehicle assembly structure (VAS) over a period of time, including logging changes to the assembly structure from sources other than Teamcenter (such as NX or other CAD application integrations).
+Valid Values:
+true - The audit log file is updated whenever the Replace Design in Product wizard and the Add design to Product wizard are run by users.
+false - The audit log file is not updated.</preference_description>
+      <context name="Teamcenter">
+        <value>False</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

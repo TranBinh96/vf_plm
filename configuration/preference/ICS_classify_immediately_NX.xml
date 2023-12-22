@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_classify_immediately_NX" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if new Items or ItemRevisions are classified when they are saved from NXManager Unigraphics. Valid values are 0/1. If a value 1 is specified and NXManager Unigraphics is started from Teamcenter Rich Client and save a newly created part in Unigraphics, the user will be asked in Rich Client to classify the new item / item revision.
+0 - Do not classify from Unigraphics (default value).
+1 - Classify from Unigraphics.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

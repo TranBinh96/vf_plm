@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.DIS Adapter">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_DIS_2D_named_ref" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>2D file custom reference names can be added from VMU_FileSearchOrder list to this list so as to enable markup functionality for these 2D files when loaded in the Viewer.</preference_description>
+      <context name="Teamcenter">
+        <value>Image</value>
+        <value>Quickshade-Image</value>
+        <value>PLT</value>
+        <value>BMP</value>
+        <value>CAL</value>
+        <value>TIFF</value>
+        <value>Graphics-Interface</value>
+        <value>Sheet</value>
+        <value>PDF</value>
+        <value>JPEG</value>
+        <value>TIF</value>
+        <value>GIF</value>
+        <value>JPEG_Reference</value>
+        <value>TIF_Reference</value>
+        <value>GIF_Reference</value>
+        <value>ALSG</value>
+        <value>PDF_Reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

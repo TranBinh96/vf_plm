@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_allow_checked_out_targets" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the workflow handler to attach checked-out objects as targets.
+This is currently supported for the &quot;EPM-attach-related-objects&quot; handler.
+Valid Values:
+* true: Enables adding checked-out targets as attachments.
+* false: Disables adding checked-out targets as attachments.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

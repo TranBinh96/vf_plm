@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DesignContext_ItemID_Revision_Query_lookup_string" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This is used for defining the look-up string corresponding to the saved query to find - EngChange Revisions (if &quot;PortalDesignContextECObject.TYPE&quot; defines an ItemRevision type) and/or - QPL-searchable ItemRevisions by &quot;ItemID&quot; and &quot;Revision&quot; entries. The default search used by DesignContext is &quot;Item Revision...&quot;, which corresponds to the lookup string &quot;k_find_itemrevision_name&quot;. The Saved Query corresponding to this string is looked up from TC_ROOT/lang/textserver/&lt;language&gt;/qry_text_locale.xml file. If the User desires to use a separate Query for this purpose, the user should ensure that the query corresponds to the String defined for the following Preference and that it contains entries for &quot;ItemID&quot; and &quot;Revision&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>k_find_itemrevision_name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

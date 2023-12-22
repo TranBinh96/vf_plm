@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCM_DISPATCHER_CLIENT_TIMEOUT" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the time-out duration (in minutes) for dispatcher requests to start being processed in the Manufacturing application.
+Valid values are any positive integer greater than zero (0).
+The default value is 15.</preference_description>
+      <context name="Teamcenter">
+        <value>15</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

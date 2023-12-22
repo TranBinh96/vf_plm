@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AllocationsNavigatorShownColumnWidthsPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Preference that holds the list of column widths (for column names identified by AllocationsNavigatorColumnsShownPref) that will be used in the Allocation tree table in CC Application.</preference_description>
+      <context name="Teamcenter">
+        <value>20</value>
+        <value>15</value>
+        <value>15</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

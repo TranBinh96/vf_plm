@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ARM_tcfs_open_close" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Enables or suppresses performance monitoring of FMS file open and close operations in the Teamcenter server.
+Valid Values:
+ON to enable performance monitoring of FMS file open and close operations in the Teamcenter server.
+OFF to suppress performance monitoring of FMS file open and close operations in the Teamcenter server.  This is the default value.
+The preference scope is All (the value can also be supplied using an environment variable).</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

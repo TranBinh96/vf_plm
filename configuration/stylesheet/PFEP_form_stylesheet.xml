@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+	<page title="PFEP Information">
+		<section title="P Release">
+			<property name="vf4_P_release_plan_date"/>
+			<property name="vf4_isNotRequired_P"/>
+			<property name="vf4_why_notRequired_P"/>
+        </section>
+        <separator/>
+        <section title="I Release">
+			<property name="vf4_I_release_plan_date"/>
+			<property name="vf4_isNotRequired_I"/>
+			<property name="vf4_why_notRequired_I" />
+        </section>
+        <separator/>
+        <section title="PR Release">
+			<property name="vf4_PR_release_plan_date"/>
+			<property name="vf4_isNotRequired_PR"/>
+			<property name="vf4_why_notRequired_PR" />
+        </section>
+        <separator/>
+        <section title="Prototype Tooling">
+			<property name="vf4_prototype_tooling" renderingHint="checkbox"/>
+			<property name="vf4_prototype_tool_plan"   />
+			<property name="vf4_protoToolPlan_comment"  renderingHint="textfield" />
+        </section>
+        <separator/>
+        <section title="Serial Tool">
+			<property name="vf4_serial_tool" renderingHint="checkbox"/>
+			<property name="vf4_serial_tool_plan" />
+			<property name="vf4_serialToolPlan_comment"  renderingHint="textfield"  />
+			<property name="vf4_tooling_lead_time"  renderingHint="textfield"  />
+        </section>
+        <separator/>
+        <section title="Soft Tooling">
+			<property name="vf4_soft_tooling" renderingHint="checkbox"/>
+			<property name="vf4_softtool_build_phase_ar"/>
+			<property name="vf4_soft_tool_others_build"/>
+			<property name="vf4_soft_tool_plan_date"/>
+			<property name="vf4_soft_tool_supplier"/>
+			<property name="vf4_soft_tool_data_used"/>
+			<property name="vf4_soft_tool_is_assembly"/>
+			<property name="vf4_softToolPlan_comment"  renderingHint="textfield"  />
+        </section>
+        <separator/>
+        <section title="Supplier Prototype">
+			<property name="vf4_supplier_prototype" renderingHint="checkbox"/>
+		</section>
+	</page>
+	<page title="Extra Information">
+			<property name="owning_group" column="16"/>
+			<property name="last_mod_date" column="16"/>
+			<property name="last_mod_user" column="16"/>
+			<property name="checked_out_user" column="16"/>
+	</page>
+</rendering>

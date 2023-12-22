@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Volume_Failover_Trigger" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the percentage full a volume must reach to trigger volume failover behavior for importing files. When volume capacity reaches the percentage full specified by this preference, importing files are directed to the failover volume specified by the TC_Volume_Failover_Volume_Name preference.This preference setting is used by the system only when the TC_Volume_Failover_Volume_Name preference is set.
+Valid values are
+Accepts a single float value, from 0-100.Siemens PLM Software recommends setting this preference between 80 and 95. Setting this value too low triggers failover behavior too often. Setting this value too high prevents failover behavior from initiating.</preference_description>
+      <context name="Teamcenter">
+        <value>90</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

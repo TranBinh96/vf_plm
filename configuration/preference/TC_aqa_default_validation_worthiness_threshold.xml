@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_aqa_default_validation_worthiness_threshold" type="Double" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>When looking for ones to check, the code starts by searching for those with a validationWorthiness above the default_validation_worthiness_threshold.</preference_description>
+      <context name="Teamcenter">
+        <value>50</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

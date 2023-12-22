@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=====================================================
+==========================
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+=====================================================
+==========================
+
+    Filename: Schedule.xml
+
+    Default style sheet for displaying Schedule properties.
+ -->
+
+<rendering>
+ 
+   <page title="General" titleKey="tc_xrt_General">
+       <property name="object_name" />
+       <property name="object_desc" />
+       <property name="start_date" renderingHint="sm_propertydatebutton"/>
+       <property name="finish_date" renderingHint="sm_propertydatebutton"/>
+       <property name="customer_name" />
+       <property name="customer_number" /> 
+       <property name="fnd0state" renderingHint="label" />       
+       <property name="fnd0status" renderingHint="SMStringPropertyLOVCombobox"/> 
+       <property name="priority" renderingHint="smpropertylovcombobox"/>
+       <property name="is_template" renderingHint="sm_propertylogicalpanel"/>
+       <property name="fnd0allowExecUpdates" renderingHint="enablescheduleexecoverride"/>
+       <property name="is_public" renderingHint="sm_propertylogicalpanel"/>
+       <property name="percent_linked" renderingHint="sm_propertylogicalpanel"/>
+       <property name="published" renderingHint="sm_propertylogicalpanel"/>
+       <property name="dates_linked" renderingHint="sm_propertylogicalpanel"/>
+       <property name="notifications_enabled" renderingHint="sm_propertylogicalpanel"/>
+       <property name="fnd0IsExternal" renderingHint="sm_propertylogicalpanel"/>
+       <property name="end_date_scheduling" renderingHint="sm_propertylogicalpanel"/>
+       <property name="schedule_deliverable_list" renderingHint="scheduledelpropertybutton"/> 
+   </page>
+     
+   
+   <page title="All" titleKey="tc_xrt_All">
+       <all type="property"/>
+   </page>   
+    
+</rendering>

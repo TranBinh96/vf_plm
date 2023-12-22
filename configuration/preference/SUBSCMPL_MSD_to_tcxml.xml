@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_MSD_to_tcxml" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the xsl file used for msd import.</preference_description>
+      <context name="Teamcenter">
+        <value>msd_to_tcxml.xsl</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

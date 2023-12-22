@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_SchedulingEngineOptions" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Manages the deactivation of scheduling and execution validations.
+Valid Values:
+* 0: Both scheduling and execution validations are disabled. This is the default value.
+* 1: Only the scheduling validation is disabled.
+The default value is 1.
+If the preference does not have any value, both scheduling and execution validations are enabled. System throws an error if the preference value is set to anything other than 0 or 1.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

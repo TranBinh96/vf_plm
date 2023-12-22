@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Relations">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_relation_type_delegation" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Configures the Access Manager delegation for relation object BO to primary or secondary object.
+Note that primary or secondary is just string literal to indicate if access is delegated to either primary or secondary.
+The following formats are supported:
+relationBOName1:primary
+relationBOName2:secondary
+myRelationBOName
+For value with just relationBOName, delegation would be to primary object, this is same as putting entry like relationBOName:primary.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

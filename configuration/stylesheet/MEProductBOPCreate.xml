@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: MEProductBOPCreate.xml
+
+    Style sheet rendering for MEProductBOP creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="ProductBOP Information" titleKey="tc_xrt_ProductBOPInformation">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name" />
+            <property name="object_desc" />
+            <separator/>
+            <property name="uom_tag" /> 
+        </section>
+
+    </page>
+
+</rendering>

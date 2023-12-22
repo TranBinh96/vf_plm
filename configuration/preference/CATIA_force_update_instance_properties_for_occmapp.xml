@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_force_update_instance_properties_for_occmapp" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates if CATIA instance properties should be updated for legacy data.
+Values:
+True: CATIA instance properties should be updated for legacy data
+False: CATIA instance properties should not be updated for legacy data</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

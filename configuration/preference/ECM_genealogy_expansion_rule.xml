@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ECM_genealogy_expansion_rule" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Expansion rule for genealogy display Possible values are NEW - Supercedure already displayed are ignored ALL - All supercedures are displayed irrespective of       whether it is already displayed or not.</preference_description>
+      <context name="Teamcenter">
+        <value>NEW</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

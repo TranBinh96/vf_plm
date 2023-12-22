@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAlignmentCheckReportStylesheet" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the name of the Microsoft Excel style sheet on which the EBOM-MBOM alignment check report is based. A default style sheet is provided, but you can supply a custom style sheet if necessary.
+Valid Values:
+A single character string that contains the name of an existing Microsoft Excel style sheet.</preference_description>
+      <context name="Teamcenter">
+        <value>AlignmentCheckReport.xsl</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

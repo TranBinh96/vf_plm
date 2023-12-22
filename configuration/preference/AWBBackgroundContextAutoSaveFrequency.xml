@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWBBackgroundContextAutoSaveFrequency" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>BackgroundContext object is saved in two ways - one way is via explicit actions like, configuration change and other way is to automatically save it in certain intervals. 
+This preference specifies the frequency (in seconds) for a BackgroundContext object to be automatically saved. If a 0 or negative value is provided, the BackgroundContext will not be saved automatically and will only be saved on explicit actions, like, configuration change. 
+However, BackgroundContext will always be created, irrespective of the value of this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>30</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

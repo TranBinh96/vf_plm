@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ItemRevision_TCPublishingPage_default_relation" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Used for configuring Teamcenter manufacturing process management technical portfolios. Defines the default relation created when a publishing page is pasted within an item revision.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter relation.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_MEWorkInstruction</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

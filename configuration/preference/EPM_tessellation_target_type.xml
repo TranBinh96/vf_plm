@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPM_tessellation_target_type" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Identifies potential NX datasets for tessellation as part of a workflow process. The RDV-tessellation-handler handler compares the targets set in this preference with the targets identified for the workflow process.
+Valid Values:
+Valid NX dataset types.</preference_description>
+      <context name="Teamcenter">
+        <value>UGMASTER</value>
+        <value>UGALTREP</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

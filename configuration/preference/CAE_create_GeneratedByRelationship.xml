@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_create_GeneratedByRelationship" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an optional preference. It allows an administrator to control whether a CAE Structure Map relationship is maintained between the root item revision of the created structure and the defining CAE Structure Map.This option activates the creation of a CAE-specific relationship between the CAEModel/CAEGeometry item revision (or any of its subtypes) and a referenced CAE Structure Map item revision where the CAEModel item revision is the primary contributor to the relationship. This does not apply to creation of CAE structures using data maps.
+Valid Values:
+0 - CAE Structure Map relationship is not maintained.
+1 - CAE Structure Map relationship is maintained by default.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Data Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ITEM_smart_baseline" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Valid values are 0/1:
+0 to create new baselines,
+1 to allow smart copy between baselines.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

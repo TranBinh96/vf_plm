@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0ConfigurationViewDisplayColumn" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>(Deprecated) Specifies if only the ID column, or only the Name column is to be displayed in the &quot;Variant Configuration&quot; view in the Product Configurator application.
+Valid values are &quot;NameOnly&quot; or &quot;IDOnly&quot; (default value).
+Values specified in this preference are case insensitive.</preference_description>
+      <context name="Teamcenter">
+        <value>IDOnly</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ECM_change_name_is_mandatory" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Importance of the Name field to Create an EngChange Item (through UI). Valid values are TRUE/FALSE.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Mtw0Mat1MaterialRevisionSummary.xml
+Default activeworkspace style sheet for displaying Material Revision.
+ -->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name="item_id"/>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+                <inject type="dataset" src="Sci1Mat1MaterialRevisionSummary"/>
+            </section>
+            <inject type="dataset" src="Mtw0Mat1UsesSubstance"/>
+        </column>
+    </page>
+    <inject type="dataset" src="Mtw0ParametersTab"/>
+    <inject type="dataset" src="Scp0MaterialLabReportTab"/>
+    <content  visibleWhen="{pref:SubstanceCompliance_feature_installed}!= true">     
+        <inject type="dataset" src="Awp0AttachmentsTab"/>
+    </content>
+    <content  visibleWhen="{pref:SubstanceCompliance_feature_installed}== true">     
+        <inject type="dataset" src="Scw0AttachmentsTab"/>
+    </content>
+    <inject type="dataset" src="Awp0WhereUsedTab"/>
+    <inject type="dataset" src="AuditLogForItemRev"/>
+    <content  visibleWhen="sci0IsIMDSObject == True and {pref:IMDSIntegration_feature_installed}==true">
+        <inject type="dataset" src="Sci1IMDSTabSummary"/>
+    </content>
+</rendering>

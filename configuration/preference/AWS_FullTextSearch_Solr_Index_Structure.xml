@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWS_FullTextSearch_Solr_Index_Structure" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the collection name that holds the logical index of structure data.</preference_description>
+      <context name="Teamcenter">
+        <value>collection2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

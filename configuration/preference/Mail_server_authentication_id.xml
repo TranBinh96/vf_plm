@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Mail Gateway">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mail_server_authentication_id" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the email id or user id for Email Authentication.
+Make sure you specify the password location and email id/user id if Mail_server_authentication_activated is true.</preference_description>
+      <context name="Teamcenter">
+        <value>vf.plm.notification</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="INBOXColumnsHiddenPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>In-Box Columns not displayed</preference_description>
+      <context name="Teamcenter">
+        <value>relation</value>
+        <value>owning_user</value>
+        <value>creation_date</value>
+        <value>last_mod_date</value>
+        <value>item_revision_id</value>
+        <value>item_id</value>
+        <value>date_released</value>
+        <value>revision_number</value>
+        <value>ds_ver_limit</value>
+        <value>owning_group</value>
+        <value>archive_date</value>
+        <value>backup_date</value>
+        <value>release_status_list</value>
+        <value>last_mod_user</value>
+        <value>checked_out</value>
+        <value>owning_site</value>
+        <value>object_string</value>
+        <value>object_desc</value>
+        <value>has_variants</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEShowUnconfigdVarPref" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether to display BOM lines containing variant conditions that are not configured for the current variant rule, by default, when a structure is opened in Structure Manager. This preference is relevant for both modular and legacy variant functionality.This site preference has a corresponding user preference of the same name. Users can set the user preference through the View-&gt;Show Unconfigured Variants menu command. The first time a user selects this option, a PSEShowUnconfigdVarPref user preference instance is created and stored in the user&apos;s BLOB file. User preferences take precedence over site preferences.There are some cases where you may want BOM lines to display at your site regardless of whether their variant conditions are configured for the current variant rule, and yet you want to determine whether a given BOM line is configured. To do so, set the following properties in the Properties table as indicated to display an unconfigured BOM line:bl_is_variant is set to Ybl_variant_state is blank
+Valid Values:
+true - BOM lines are displayed regardless of whether their variant conditions are configured for the current variant rule. For example, use this setting when you want to write the entire Structure Manager window to a tab-delimited file in order to import the BOM into an Excel spreadsheet.
+false - BOM lines are hidden if their variant conditions are not configure for the current variant rule.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

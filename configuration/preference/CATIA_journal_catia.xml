@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_journal_catia" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set the CATIA_journal_catia Teamcenter preference to YES to activate the catia_trace file creation in the WORK_DIR/tmp directory for each macro launched. 
+Set this variable to false to prevent the catia_trace file from being activated.</preference_description>
+      <context name="Teamcenter">
+        <value>NO</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

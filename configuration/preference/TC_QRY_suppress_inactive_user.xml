@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client.Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_QRY_suppress_inactive_user" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Suppresses the visibility of inactive users in queries.
+Valid Values:
+* 0: Users can see both active and inactive users in user LOV for query.
+* 1: Users cannot see the inactive users in user LOV for query. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

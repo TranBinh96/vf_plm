@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_allow_deprecated_lovs_on_copy" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether users can copy classification objects (ICOs) that use deprecated LOV values for classification properties. This preference applies for users performing the following actions in Teamcenter: Performing a Revise or SaveAs operation on an Item or Item Revision from anywhere outside Classification. Revising product structure that contains the classified objects.
+Valid Values:
+True - Allows users to create copies of ICOs that use deprecated LOV values for classification properties.
+False - Prevents users from copying ICOs that use deprecated LOV values for classification properties.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

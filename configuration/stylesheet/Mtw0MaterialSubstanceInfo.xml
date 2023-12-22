@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying MaterialSubstance Info Panel in Active Workspace Client. -->
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page titleKey="tc_xrt_Summary" visibleWhen="mtw0Material!=null">
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="Material" >
+                    <property name="mtw0Material"  />
+                    <property name="mtw0MaterialMassInGram"/>
+                    <property name="mtw0MaterialComposition"/>
+        </section> 
+    </page>
+    <page titleKey="tc_xrt_Summary" visibleWhen="mtw0Substance!=null">
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="Substance" >
+                    <property name="mtw0Substance"/> 
+                    <property name="mtw0CASNumber"/>
+                    <property name="mtw0SubstanceMassInGram"/>
+                    <property name="mtw0SubstanceCompInMaterial"/>
+                    <property name="mtw0SubstanceComposition"/>
+        </section> 
+    </page>
+</rendering>

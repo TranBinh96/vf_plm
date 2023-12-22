@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_Hours_Per_Year_Preference" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the number of work hours per year, as used for calculating calendar end dates.
+The value can vary depending on the site (e.g 52 weeks * 40 hrs for the US, 52 weeks * 37.5 hrs for the UK).
+The default value is 2080.</preference_description>
+      <context name="Teamcenter">
+        <value>8760</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

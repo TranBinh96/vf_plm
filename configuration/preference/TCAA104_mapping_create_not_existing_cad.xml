@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA104_mapping_create_not_existing_cad" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible enable/suppress the creation in the AutoCAD file of missing custom attributes mapped with master=cad directive. The creation of missing cad-mapped custom attributes in the AutoCAD file takes place upon save operations.
+By default missing cad-mapped custom attributes are created in the AutoCAD file.
+Possible values:
+0 - suppress the creation of missing cad-mapped custom attributes
+1 - enable the creation of missing cad-mapped custom attributes (Default)</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEGANTTPropagateDurationUpToLevelEnabled" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if the Propagate up to level option is enabled in the Duration Propagation dialog box in the Gantt view and whether the value of the MEGANTTPropagateDurationUpToLevel preference is used. In other words, if this preference is set to False, and the value of MEGANTTPropagateDurationUpToLevel is set to 3, Teamcenter propagates up to level 0, as it ignores the value set in MEGANTTPropagateDurationUpToLevel.
+Valid Values:
+True - The Propagate up to level option is enabled in the Duration Propagation dialog box.
+False - The Propagate up to level option is not enabled in the Duration Propagation dialog box.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

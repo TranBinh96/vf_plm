@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_show_option_item_prefix" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the visibility of the owning Item information in the Variant Condition returned by the Variant Configurator in the Product Structure application.
+Valid Values:
+- false: Hides the owning Item object for the option.
+- true: Displays the owning Item object for the option. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

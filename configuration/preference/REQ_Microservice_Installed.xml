@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="REQ_Microservice_Installed" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates the  micro-services based features of &quot;Import Specification using Preview&quot;, &quot;Round-trip Import&quot;, &quot;Export to PDF&quot; and &quot;Reqiurements History&quot; in Active Workspace.
+Valid values are:
+true : User should be able to use all micro-service based features.
+false: User will not be able to use any of the micro-service based features and import from word and export will follow the traditional way. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

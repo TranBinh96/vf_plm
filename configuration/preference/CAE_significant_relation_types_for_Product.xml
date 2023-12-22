@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_significant_relation_types_for_Product" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relationship types that are considered when checking an Item Revision, or its subtypes, for changes.
+The default values are &quot;TC_CAE_Target&quot; (CAE Target Relationship), &quot;TC_CAE_Include&quot; (CAE Include Relationship), &quot;TC_CAE_Defining&quot; (CAE Defining Relationship).</preference_description>
+      <context name="Teamcenter">
+        <value>TC_CAE_Target</value>
+        <value>TC_CAE_Defining</value>
+        <value>TC_CAE_Include</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

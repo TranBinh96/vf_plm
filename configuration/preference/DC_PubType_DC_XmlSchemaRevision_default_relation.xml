@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DC_PubType_DC_XmlSchemaRevision_default_relation" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>When a relation is created between DC_PubType and DC_XmlSchemaRevision using paste, use the relation DC_TopicTypeSchemaR</preference_description>
+      <context name="Teamcenter">
+        <value>DC_TopicTypeSchemaR</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

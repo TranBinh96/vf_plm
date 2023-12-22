@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Show_session_loccode_as_companyloc_displayname" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the display format to be used for &quot;Location Code&quot; in the User Session dialog of the Rich Client. 
+If set to false the value of the property fnd0LocationCode of Company Location business object will be displayed. 
+If set to true the value of the property object_string of Company Location business object will be displayed.
+Default value is false.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

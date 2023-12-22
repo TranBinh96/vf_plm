@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_project_validate_conditions" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines how the ASSIGN_TO_PROJECT and REMOVE_FROM_PROJECT access privileges are validated in conjunction with privileged membership validation. 
+The behavior of this preference is overruled by the value of the &quot;TC_multi_site_project_member_bypass&quot; preference
+Valid values are: 
+* 0: The system confirms the user is a privileged member of the project before allowing the user to assign/remove objects to/from a project. This is the default value. 
+* 1: The system confirms the user is either a privileged member of the project, or that the user is a regular project member who is granted the ASSIGN_TO_PROJECT privilege before allowing the user to assign object to a project. Likewise, a user must be either a privileged member of the project or be a regular project member and who is granted the REMOVE_FROM_PROJECT privilege to remove an object from a project. 
+* 2: The system confirms the user is a regular project member and has the ASSIGN_TO_PROJECT privilege before allowing the user to assign object to a project. Likewise, a user must have the REMOVE_FROM_PROJECT privilege to remove an object from a project. 
+* 3: The system confirms the user is a privileged member of the project and that the user has the ASSIGN_TO_PROJECT privilege before allowing the user to assign object to a project. Likewise, a user must be a privileged member of the project and have the REMOVE_FROM_PROJECT privilege to remove an object from a project. 
+* 4: Allows the current user to assign users to a project if the current user is not a member of the project team. This must be done programmatically using ITK. You cannot do this through the user interface. The system confirms that the user has ASSIGN_TO_PROJECT privilege before allowing the user to assign objects to a project. Likewise, the user must have REMOVE_FROM_PROJECT privilege to move an object from a project. 
+
+Note: This preference has no effect on which projects are displayed in the Teamcenter interface. Therefore, it is possible that users see projects displayed in the interface, for example, in the User Settings dialog box, that they do not have access to.</preference_description>
+      <context name="Teamcenter">
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Project_default_relation" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default relation between source and target when an object is pasted under a TC_Project object.</preference_description>
+      <context name="Teamcenter">
+        <value>project_data</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

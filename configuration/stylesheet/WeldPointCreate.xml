@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: WeldPointCreate.xml
+
+    Style sheet rendering for WeldPoint creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="WeldPoint Information" titleKey="tc_xrt_WeldPointInformation">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name" />
+            <property name="object_desc" />
+            <separator/>
+            <property name="uom_tag" /> 
+        </section>
+        <section title="SpotWeld Attribute Form" titleKey="tc_xrt_SpotWeldAttributeForm">
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_1"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_2" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_3"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_4" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Cool_time1" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Cool_time2"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Feat_comment"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Gov_mtl_thk"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Group_id"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Hold_time"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Id"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Max_current"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Metal_comb"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Min_current1"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Min_current2"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Nugget_dia"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Number_of_sheets_welded"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Number_of_welds_in_group"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Output_type"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Pulse_num1"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Pulse_num2"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Pulse_time1"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Pulse_time2"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Resistance"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Spot_dimensional_ctrl"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:SPOT_KPC"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Spot_kpc_justification"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Spot_process_ctrl"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Squeeze_time"/>
+            <property name="revision:fnd0TC_Feature_Form_Relation:Stackup"/>
+            <property name="revision:fnd0TC_Feature_Form_Relation:Standard"/>
+            <property name="revision:fnd0TC_Feature_Form_Relation:Tol"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_class"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_designation"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_type"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_i_value"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_j_value"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_k_value"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_force"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_group_min"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_group_total"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_time"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:X_pos"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Y_pos"/>
+            <property name="revision:fnd0TC_Feature_Form_Relation:Z_pos"/>
+        </section>
+    </page>
+</rendering>
+

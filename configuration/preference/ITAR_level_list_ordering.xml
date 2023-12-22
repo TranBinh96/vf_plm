@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ITAR_level_list_ordering" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>International Trade in Arms Regulations (ITAR) clearance/classification levels.</preference_description>
+      <context name="Teamcenter">
+        <value>secret</value>
+        <value>super-secret,top-secret</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="EA Gateway">
+    <category_description>Preferences for the Teamcenter Gateway for Enterprise Applications (T4EA)</category_description>
+    
+               <preference name="T4EA_DocumentMapping2ItemRevision" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the navigation paths for the reverse mapping (from the ERP system to Teamcenter).
+It must include the revision itself, if you want to write attributes on the revision.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+        <value>items_tag:Item</value>
+        <value>IMAN_master_form_rev:ItemRevision Master</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

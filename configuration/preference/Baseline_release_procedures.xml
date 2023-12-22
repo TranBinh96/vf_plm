@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Baseline_release_procedures" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists all possible baseline release processes. A baseline release process must adhere to a quick release template. Quick release templates are process templates that define a zero-step release procedure, allowing the baseline to become a released object that cannot be modified.
+Once the baseline process templates are created in Workflow Designer, the process template names are listed in this preference.
+Valid Values:
+Valid Teamcenter baseline process templates.</preference_description>
+      <context name="Teamcenter">
+        <value>VF Baseline Process Status VPT-TA</value>
+        <value>VF Baseline Process Status LS2</value>
+        <value>VF Baseline Process Status PP</value>
+        <value>VF Baseline Process Status LS</value>
+        <value>VF Baseline Process Status PT</value>
+        <value>VF Baseline Process Status X</value>
+        <value>VF Baseline Process Status PTO</value>
+        <value>VF Baseline Status PR Check</value>
+        <value>VF Baseline Status PPR Check</value>
+        <value>VF Baseline Status I Check</value>
+        <value>VF Baseline Status P Check</value>
+        <value>VF Baseline Process Status VPT1</value>
+        <value>VF Baseline Process Status VPT2</value>
+        <value>VF Baseline Process Status VPT3</value>
+        <value>VF Baseline Process Status VPT4</value>
+        <value>VF Baseline Process Status VPT6</value>
+        <value>VF Cost Baseline</value>
+        <value>VF Baseline COP For MULE</value>
+        <value>VF Baseline Process Status VPT7</value>
+        <value>VF Baseline Process Status VPT8</value>
+        <value>VF Baseline Process Status VPT9</value>
+        <value>IT_BL_Frozen</value>
+        <value>VINFAST BASELINE SAMPLE A</value>
+        <value>VINFAST BASELINE SAMPLE B</value>
+        <value>VINFAST BASELINE SAMPLE C</value>
+        <value>VINFAST BASELINE SAMPLE D</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

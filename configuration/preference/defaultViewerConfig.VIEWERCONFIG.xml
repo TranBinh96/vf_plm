@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="defaultViewerConfig.VIEWERCONFIG" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default viewer configuration.
+This is a user preference.
+
+Valid values are in the following format: DATATYPE.VIEWERID=OPTIONAL_NAMED_REF_TYPES.
+
+Entries are in order of priority, with the exception of SEARCHORDER.ITEMREV2DATASET.
+
+In order to enable Viewing NX .prt files please add the following lines:
+UGMASTER.DirectModelViewer=UGPART
+UGPART.DirectModelViewer=UGPART
+UGALTREP.DirectModelViewer=UGPART</preference_description>
+      <context name="Teamcenter">
+        <value>Alias.AliasViewer</value>
+        <value>AppInterface.AppInterfaceViewer</value>
+        <value>AppearanceGroup.AppearanceGroupViewer</value>
+        <value>Bitmap.TCTwoDViewer=Image</value>
+        <value>Cba0PartProxy.PartProxyViewer</value>
+        <value>DirectModel.DirectModelViewer=JTPART,UGPART,3DModel</value>
+        <value>DirectModel3DMarkup.DirectModelViewer=3DModel,3DMarkup</value>
+        <value>DirectModelMarkup.TCTwoDViewer=Image,Markup</value>
+        <value>DirectModelMotion.ExtendedDirectModelViewer=JTPART</value>
+        <value>Drawing.DrawingViewer</value>
+        <value>DrawingSheet.TCTwoDViewer=Sheet</value>
+        <value>DrawingSheetProxy.DrawingViewer</value>
+        <value>EPMJob.ProcessViewer</value>
+        <value>EPMTask.ProcessViewer</value>
+        <value>EngChange Revision.ChangeViewer</value>
+        <value>GIF.TCTwoDViewer=GIF_Reference</value>
+        <value>Group.GroupViewer</value>
+        <value>GroupMember.UserViewer</value>
+        <value>HTML.HTMLViewer=HTML</value>
+        <value>Identifier.IdentifierViewer</value>
+        <value>IdentifierRev.IdentifierViewer</value>
+        <value>Image.TCTwoDViewer=Image</value>
+        <value>JPEG.TCTwoDViewer=JPEG_Reference</value>
+        <value>JtSimplification.DirectModelViewer=ALSG</value>
+        <value>MENXObject.MENXObjectViewer</value>
+        <value>MSExcel.MSExcelViewer=excel</value>
+        <value>MSExcelX.MSExcelViewer=excel</value>
+        <value>MSWord.MSWordViewer=word</value>
+        <value>MSWordX.MSWordViewer=word</value>
+        <value>Markup.TCTwoDViewer=Image,Markup</value>
+        <value>NetworkImage.TCTwoDViewer=Image</value>
+        <value>PADImage.PADImageViewer=JPEG,TIF,GIF,JPEG_Reference,TIF_Reference,GIF_Reference</value>
+        <value>PCBFATF.TCPCBViewer=XFatf</value>
+        <value>PCBMarkup.TCPCBViewer=markup</value>
+        <value>Part Revision.PartViewer</value>
+        <value>Process.ProcessViewer</value>
+        <value>ReleaseStatus.EffectivityEndItemViewer</value>
+        <value>RequestObject.RequestObjectViewer</value>
+        <value>RevisionRule.RevisionRuleViewer</value>
+        <value>Role.RoleViewer</value>
+        <value>SCHFATF.TCPCBViewer=XSCH</value>
+        <value>SE Draft.TCTwoDViewer=SE-draft_image-emf,SE-draft_image-dxf,SE-draft_image-tif,SE-draft_image-jpg,SE-draft_image-bmp,SE-draft</value>
+        <value>SEARCHORDER.ITEMREV2DATASET=IMAN_manifestation,SimplifiedRendering,IMAN_Rendering,IMAN_specification,IMAN_Motion,IMAN_3D_snap_shot,TC_Attaches,Fnd0DiagramSnapshot</value>
+        <value>SEARCHORDER.ITEMREV2ITEMREV=Part Revision.TC_Primary_Design_Representation.Design Revision</value>
+        <value>Schedule.SwingDefaultViewer</value>
+        <value>ScheduleTask.SwingDefaultViewer</value>
+        <value>Sheet.TCTwoDViewer=Image</value>
+        <value>SnapShotViewData.Snapshot3DViewer</value>
+        <value>StoredOptionSet.SelectedOptionSetViewer</value>
+        <value>TCPublishingPage.PublishingPageViewer</value>
+        <value>TCPublishingTechnicalPortfolio.PublishingPortfolioViewer</value>
+        <value>TIF.TCTwoDViewer=TIF_Reference</value>
+        <value>User.UserViewer</value>
+        <value>VariantRule.VariantRuleViewer</value>
+        <value>Vis_Snapshot_2D_View_Data.TCTwoDViewer=AssetImage,ThumbnailImage</value>
+        <value>Web Link.URLViewer</value>
+        <value>XMLRenderingStylesheet.StyleSheetViewer</value>
+        <value>icm0.TCClassificationViewer</value>
+        <value>Text.TextViewer=Text.HelloWorldViewer</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_default_image_resolution" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default resolution to use to render images across Active Workspace client.
+Valid values are name of the derived image type as defined in the preference TC__image_compression_types.
+* Low: Indicates low resolution translated version of the source image.
+* Medium: Indicates Medium resolution translated version of the source image.
+* High: Indicates High resolution translated version of the source image.</preference_description>
+      <context name="Teamcenter">
+        <value>Medium</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

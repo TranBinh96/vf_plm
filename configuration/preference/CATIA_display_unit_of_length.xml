@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_display_unit_of_length" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Length unit used for mass properties form display.
+The value must exist within the units.txt file, within the &apos;length&apos; tags. If it does not, the default value is used</preference_description>
+      <context name="Teamcenter">
+        <value>mm</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

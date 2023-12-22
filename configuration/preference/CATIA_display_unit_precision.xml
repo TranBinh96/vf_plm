@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_display_unit_precision" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Number of significant digits for mass properties form display (between 3 and 15)</preference_description>
+      <context name="Teamcenter">
+        <value>6</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

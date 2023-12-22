@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMCN_release_revision_mode" type="String" array="false" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Controls how statuses are created on ItemRevisions being tracked by a Change Notice Revision.
+The &quot;preferred&quot; ReleaseStatus will be one of statuses in preference &quot;MEMCN_release_statuses&quot; that is found on the ChangeNoticeRevision.
+Valid values are (case sensitive):
+* Share: The ItemRevisions share the &quot;preferred&quot; status with the ChangeNoticeRevision.
+* None: The ItemRevisions will not get a status.
+* ShareEffectivityOnly: The ItemRevisions will each have a new ReleaseStatus, all of which will share Effectivity with the Change Notice Revision &quot;preferred&quot; ReleaseStatus.
+* Clone: The ItemRevisions will get new ReleaseStatuses and Effectivities that are clones of the &quot;preferred&quot; ReleaseStatus.
+The default value is Share.</preference_description>
+      <context name="Teamcenter">
+        <value>Share</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_View_Type" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the BOM view type that Teamcenter Integration for NX uses to read and write product structure information.
+Valid Values:
+A single string as a value; the string must be a valid Teamcenter BOM view type.</preference_description>
+      <context name="Teamcenter">
+        <value>view</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

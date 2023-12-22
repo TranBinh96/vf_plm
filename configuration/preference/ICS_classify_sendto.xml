@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_classify_sendto" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls which of the available applications are displayed when you use the Send To command in Classification and Resource Manager.
+Valid Values:
+List of strings as values. Each string must be a valid Teamcenter application ID or application name.</preference_description>
+      <context name="Teamcenter">
+        <value>com.teamcenter.rac.ui.perspectives.navigatorPerspective</value>
+        <value>com.teamcenter.rac.pse.PSEApplication</value>
+        <value>com.teamcenter.rac.designcontext.DesignContextApplication</value>
+        <value>com.teamcenter.rac.cme.mrm.MRMApplication</value>
+        <value>com.teamcenter.rac.classification.icm.ICMApplication</value>
+        <value>com.teamcenter.rac.cme.fse.FSEApplication</value>
+        <value>com.teamcenter.rac.cme.pmp.PMPApplication</value>
+        <value>com.teamcenter.rac.cme.mpp.MPPApplication</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

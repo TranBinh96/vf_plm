@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_nonmaster_additional_forms" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the named references forms to include when creating or updating specific NX nonmaster dataset types (UGPART, UGALTREP, or UGSCENARIO). Format for the values is NX-Dataset-type-name:NamedRef-Name. For example:UGPART:UGPART-BBOX
+This preference affects the behavior of NX 18.0 and later versions only and is irrelevant to the earlier versions. Also, the named reference forms considered have nothing to do with the regular NX Integration attributes synchronization.
+Valid Values:
+UGALTREP:UGPART-BBOX
+UGALTREP:UGPART-MASSPR
+UGALTREP:UGPART-ATTRIBUTES</preference_description>
+      <context name="Teamcenter">
+        <value>UGALTREP:UGPART-BBOX</value>
+        <value>UGALTREP:UGPART-MASSPR</value>
+        <value>UGALTREP:UGPART-ATTRIBUTES</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

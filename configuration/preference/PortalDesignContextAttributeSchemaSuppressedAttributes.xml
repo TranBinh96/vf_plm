@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context.Filter Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextAttributeSchemaSuppressedAttributes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Used for the Attribute suppression in the Filter Configuration (3rd) Screen.</preference_description>
+      <context name="Teamcenter">
+        <value>UGOCC_SUBFILEID</value>
+        <value>UGOCC_SFID</value>
+        <value>UGOCC_XFM</value>
+        <value>UGOCC_TREE_L</value>
+        <value>UGOCC_TREE_R</value>
+        <value>UGOCC_PARENT</value>
+        <value>UGOCC_PATH</value>
+        <value>UGOCC_JTFILE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

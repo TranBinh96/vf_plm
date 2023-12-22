@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: BidPackageLineItemCreate.xml
+
+    Style sheet rendering for BidPackageLineItem creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="Properties" titleKey="tc_xrt_properties">
+        <section titleKey="tc_xrt_properties">
+        <property name="object_name"/>
+        <property name="object_desc"/>
+        <property name="part"/>
+        <property name="quantity"/>
+        <property name="configuration_context"/>
+        </section>
+    </page>
+
+</rendering>
+

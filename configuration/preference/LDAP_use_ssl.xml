@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_use_ssl" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the connection to the LDAP server uses Security Services. If the LDAP_port_number preference is set to the SSL port on the directory server, but this preference is set to FALSE, 
+the directory server ignores the connection request from the synchronization tool, making it appear that the tool has hung. When configuring the LDAP synchronization tool to use the SSL, make certain this preference is set to TRUE.
+Valid Values:
+TRUE - The LDAP server connection uses Security Services. If this setting is used, the LDAP_cert_db_path preference must also be set.
+FALSE - The LDAP server connection does not use Security Services.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

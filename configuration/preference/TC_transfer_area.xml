@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_transfer_area" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the directory for temporarily storing data during import and export. If not set, the current working directory is used to store data during import and export.
+Valid Values:
+Full OS path to the directory.This string can be a single line value, for example:
+TC_transfer_area=
+/tmp
+This string can also contain multiple lines to support a heterogeneous site. In this case, Teamcenter uses the first valid value for the platform (UNIX or Windows). Validity is determined by the presence of a backslash (\). For example, where the Windows path uses C: as the drive letter, the preference is set for both UNIX and Windows as:
+TC_transfer_area=
+/tmp
+c:\temp
+UNC paths are specified with a triple backslash. When the Windows path is specified in UNC format, the preference for both UNIX and Windows is defined as:
+TC_transfer_area=
+/tmp
+\\\hostx\share_area</preference_description>
+      <context name="Teamcenter">
+        <value>C:\Temp</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

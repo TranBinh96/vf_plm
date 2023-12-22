@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMPropagationRevisionRule" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the revision rule used during the propagation of attributes. For example, when the user saves a resource assembly and there is a propagation start point (PSP) defined in the assembly, the system propagates the attribute values to the assembly level. The specified revision rule configures the component revisions that are used during this propagation.
+Valid Values:
+Accepts a single string as value. The string must be a valid revision rule defined in the database, such as Latest Working or Latest by Alpha Rev Order.</preference_description>
+      <context name="Teamcenter">
+        <value>Latest Working</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

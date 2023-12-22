@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Manufacturing_cost.xml
+
+    Style sheet rendering for Form properties.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General" >
+		<property name="vf6_manufacturing_remark"/>
+<property name="vf6_manufacturing_time"/>
+					<property name="vf6_plant_equipment"/>
+					<property name="vf6_manu_piece_costs"/>
+					<property name="vf6_manu_scrap_costs"/>
+					<property name="vf6_manu_sunk_costs"/>
+					<property name="vf6_manu_supplier_eng_costs"/>
+					<property name="vf6_manu_tooling_costs"/>
+					<property name="vf6_feasibility_confirmed_m"/>
+					<property name="vf6_lead_time_m"/>
+		
+		
+		<label text= "NOTE: PLEASE ENTER ALL COSTS IN USD"/>
+    </page>
+	
+
+</rendering>

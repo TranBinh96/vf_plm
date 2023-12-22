@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ODS_suppress_pubrec_if_no_access" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Prevents users at remote sites from knowing about publication records to which their site has no access, and is used only at Object Directory Services (ODS) sites.This preference is used only at ODS sites.
+Valid Values:
+TRUE - Protected publication records are invisible, (that is, they do not exist for those users that do not have access). For remote sites running pre-V6.0 software, protected publication records are automatically invisible.
+FALSE - Users at remote sites that do not have read access to a publication record see an Access Denied message in the object list window. Find Remote produces this message.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

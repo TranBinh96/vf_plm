@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ProductRelation_PseudoFolder" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the pseudo folderds to show when expanding a ProductRelation.</preference_description>
+      <context name="Teamcenter">
+        <value>PR_references</value>
+        <value>PR_owning_part</value>
+        <value>PR_context_assembly</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

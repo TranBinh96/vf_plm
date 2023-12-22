@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_analysis_external_types" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of external file types available for CATAnalysis:
+- NOTYPE: external files without an extension
+- All possible file extensions (txt, xls, ...)</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Multisite_tcxml_TOS_Mapping" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the maps for Transfer Option Sets (TOSs) between the exporting site and the importing site.
+Currently, the primary use of the preference is for TC XML based Multi-Site post-action support during import to execute the actions registered in the import transfer mode.
+Valid values are in the format &quot;ExportingSiteOptionSet,ImportingSiteOptionSet&quot;, where:
+* ExportingSiteOptionSet is the option set to be used for export.
+* ImportingSiteOptionSet is the option set to be used during import.</preference_description>
+      <context name="Teamcenter">
+        <value>MultiSiteExpOptSet,MultiSiteImpOptSet</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

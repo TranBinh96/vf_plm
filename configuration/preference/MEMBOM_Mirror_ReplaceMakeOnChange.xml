@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMBOM_Mirror_ReplaceMakeOnChange" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>When running the me_create_mbom utility, enables the replacement of manufacturing BOM (MBOM) lines that were changed from Make to Buy in the engineering BOM (EBOM) during the MBOM update from the EBOM.
+Valid Values:
+TRUE - Teamcenter replaces the Make part in the MBOM with a Buy part from the EBOM during the update.
+FALSE - Teamcenter does not replace the Make part with a Buy part from the EBOM. It adds the EBOM Buy part to the MBOM structure without removing the original Make part.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

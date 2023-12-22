@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDSM_exclude_unpublished_components" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Prevents replication of unpublished components when a published assembly is replicated.This preference can be used only in conjunction with remote imports; it is not used when you choose Tools-&gt;Export-&gt;Objects from the My Teamcenter menu to export components.
+Valid Values:
+TRUE - Unpublished components are not included when you perform a remote import of a published assembly and the Include Entire BOM command is enabled.
+FALSE - All components published and unpublished are included.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAllowedChildTypes_Functionality" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the item types permitted in a function parent structure. This preference is valid only when the TCEnforceSingleType preference is set to false.Function objects are defined by the Functionality business object type.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter business object internal name.</preference_description>
+      <context name="Teamcenter">
+        <value>Functionality</value>
+        <value>PSConnection</value>
+        <value>Connection</value>
+        <value>GCS_CP</value>
+        <value>GCS_CP_Plug</value>
+        <value>GCS_CP_Socket</value>
+        <value>Network</value>
+        <value>ArcWeld</value>
+        <value>DatumPoint</value>
+        <value>WeldPoint</value>
+        <value>ProductRelation</value>
+        <value>InterpartEquation</value>
+        <value>InterpartLink</value>
+        <value>MatingConstraint</value>
+        <value>TC_Link</value>
+        <value>Connection_Terminal</value>
+        <value>Network_Port</value>
+        <value>ProductInterface</value>
+        <value>CsysProductInterface</value>
+        <value>GeoProductInterface</value>
+        <value>ParProductInterface</value>
+        <value>PSSignal</value>
+        <value>Message</value>
+        <value>Signal</value>
+        <value>Fnd0Fastener</value>
+        <value>Fnd0FasnGroup</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

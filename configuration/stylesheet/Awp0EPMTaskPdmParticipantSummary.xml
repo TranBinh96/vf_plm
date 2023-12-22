@@ -1,0 +1,204 @@
+<subRendering>
+    <page titleKey="tc_xrt_Assignments" visibleWhen="awp0ShowParticipants!=null and {pref:WRKFLW_fnd0Instructions_available}==true">
+        <content visibleWhen="fnd0StoreParticipantsOnJob==true">
+            <content visibleWhen="awp0ShowParticipants==ProposedReviewer">
+                <section titleKey="tc_xrt_ProposedReviewers">
+                    <content visibleWhen="awp0RequiredParticipants==ProposedReviewer">
+                        <htmlPanel declarativeKey="Awp0RequiredParticipantTile"/>
+                    </content>
+                    <objectSet source="fnd0Participants.ProposedReviewer" defaultdisplay="listDisplay"> 
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddTaskParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceTaskParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                    </objectSet>            
+                </section>
+            </content>
+            <content  visibleWhen="awp0ShowParticipants==ProposedResponsibleParty">
+                <section titleKey="tc_xrt_ProposedResponsibleParty">
+                    <content visibleWhen="awp0RequiredParticipants==ProposedResponsibleParty">
+                        <htmlPanel declarativeKey="Awp0RequiredParticipantTile"/>
+                    </content>
+                    <objectSet source="fnd0Participants.ProposedResponsibleParty" defaultdisplay="listDisplay"> 
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddTaskParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceTaskParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                    </objectSet>
+                </section>
+            </content>
+        </content>
+        <content visibleWhen="fnd0StoreParticipantsOnJob==false">
+            <content visibleWhen="awp0ShowParticipants==ProposedReviewer">
+                <section titleKey="tc_xrt_ProposedReviewers">
+                    <content visibleWhen="awp0RequiredParticipants==ProposedReviewer">
+                        <htmlPanel declarativeKey="Awp0RequiredParticipantTile"/>
+                    </content>
+                    <objectSet source="fnd0FirstTargetParticipants.ProposedReviewer" defaultdisplay="listDisplay"> 
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                    </objectSet>            
+                </section>
+            </content>
+            <content  visibleWhen="awp0ShowParticipants==ProposedResponsibleParty">
+                <section titleKey="tc_xrt_ProposedResponsibleParty">
+                    <content visibleWhen="awp0RequiredParticipants==ProposedResponsibleParty">
+                        <htmlPanel declarativeKey="Awp0RequiredParticipantTile"/>
+                    </content>
+                    <objectSet source="fnd0FirstTargetParticipants.ProposedResponsibleParty" defaultdisplay="listDisplay"> 
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                    </objectSet>
+                </section>
+            </content>
+            <content visibleWhen="awp0ShowParticipants==Requestor">
+                <section titleKey="tc_xrt_Requestor">
+                    <content visibleWhen="awp0RequiredParticipants==Requestor">
+                        <htmlPanel declarativeKey="Awp0RequiredParticipantTile"/>
+                    </content>
+                    <objectSet source="fnd0FirstTargetParticipants.Requestor" defaultdisplay="listDisplay">
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneeEmail"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                    </objectSet>
+                </section>
+            </content>
+            <content visibleWhen="awp0ShowParticipants==ChangeSpecialist1">
+                <section titleKey="tc_xrt_Pdm1ResponsibleUser">
+                    <content visibleWhen="awp0RequiredParticipants==ChangeSpecialist1">
+                        <htmlPanel declarativeKey="Awp0RequiredParticipantTile"/>
+                    </content>
+                    <objectSet source="fnd0FirstTargetParticipants.ChangeSpecialist1" defaultdisplay="listDisplay">
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneeEmail"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                    </objectSet>
+                </section>
+            </content>
+            <content visibleWhen="awp0ShowParticipants==Analyst">
+                <section titleKey="tc_xrt_Pdm1Implementer">
+                    <content visibleWhen="awp0RequiredParticipants==Analyst">
+                        <htmlPanel declarativeKey="Awp0RequiredParticipantTile"/>
+                    </content>
+                    <objectSet source="fnd0FirstTargetParticipants.Analyst" defaultdisplay="listDisplay">
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneeEmail"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                    </objectSet>
+                </section>
+            </content>            
+            <content visibleWhen="awp0ShowParticipants==Cm0ChangeContributors">
+                <section titleKey="tc_xrt_ChangeContributors">
+                    <content visibleWhen="awp0RequiredParticipants==Cm0ChangeContributors">
+                        <htmlPanel id = "com.siemens.splm.client.workflow.requiredParticipantTile"/>
+                    </content>
+                    <objectSet source="fnd0FirstTargetParticipants.Cm0ChangeContributors" defaultdisplay="listDisplay">
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneeEmail"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                        <listDisplay/>
+                    </objectSet>
+                </section>
+            </content>
+            <content visibleWhen="awp0ShowParticipants==ChangeImplementationBoard">
+                <section titleKey="tc_xrt_ChangeImplementationBoard">
+                    <content visibleWhen="awp0RequiredParticipants==ChangeImplementationBoard">
+                        <htmlPanel declarativeKey="Awp0RequiredParticipantTile"/>
+                    </content>
+                    <objectSet source="fnd0FirstTargetParticipants.ChangeImplementationBoard" defaultdisplay="listDisplay">
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneeEmail"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                       <listDisplay/>
+                    </objectSet>
+                </section>
+            </content>
+            <content visibleWhen="awp0ShowParticipants==ChangeReviewBoard">
+                <section titleKey="tc_xrt_ChangeReviewBoard">
+                    <content visibleWhen="awp0RequiredParticipants==ChangeReviewBoard">
+                        <htmlPanel declarativeKey="Awp0RequiredParticipantTile"/>
+                    </content>
+                    <objectSet source="fnd0FirstTargetParticipants.ChangeReviewBoard" defaultdisplay="listDisplay">
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                        <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                        <tableDisplay>
+                            <property name="fnd0AssigneeUser"/>
+                            <property name="fnd0AssigneeRole"/>
+                            <property name="fnd0AssigneeGroup"/>
+                            <property name="fnd0AssigneeEmail"/>
+                            <property name="fnd0AssigneePhone"/>
+                            <property name="fnd0AssigneeOrganization"/>
+                        </tableDisplay>
+                       <listDisplay/>
+                    </objectSet>
+                </section>
+            </content>
+        </content>
+    </page>
+</subRendering>

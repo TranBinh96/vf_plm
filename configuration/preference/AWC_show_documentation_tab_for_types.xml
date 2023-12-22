@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.REQ">
+    <category_description>Active Workspace preferences</category_description>
+    
+               <preference name="AWC_show_documentation_tab_for_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of Item revision types for which documentation tab will be displayed in the Active Workspace Requirements Content Viewer.</preference_description>
+      <context name="Teamcenter">
+        <value>RequirementSpec Revision</value>
+        <value>Requirement Revision</value>
+        <value>Paragraph Revision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

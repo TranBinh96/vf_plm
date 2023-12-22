@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="deploy_link_prefix" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the URL to connect to the folder storing published content.
+Valid Values:
+Accepts a single string as a value. If set, it should be the valid URL to the folder storing published content. The result is written in the publish log to allow administrators to verify the Web access for a distribution Web server.
+For example, 
+http://localhost:7070/publish/</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

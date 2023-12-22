@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ARM_session_login" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines if Teamcenter login transaction should be enabled for Application Response Measurement (ARM).
+Valid Values:
+ON to enable login transaction for ARM.
+OFF to disable login transaction for ARM. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

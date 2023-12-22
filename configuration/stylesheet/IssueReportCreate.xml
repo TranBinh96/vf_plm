@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering>
+
+   <page title="General Information" titleKey="tc_xrt_issuemgmt_general_information">
+         <section titleKey="tc_xrt_properties">
+            <property name="item_id" renderingHint="textfield" />
+            <property name="revision:item_revision_id" renderingHint="textfield" /> 
+            <property name="object_name" renderingHint="textfield" />
+            <property name="object_desc" row="8" column="40" renderingHint="textarea" />
+            <property name="revision:design_review_gate" />
+            <property name="revision:issue_category" />
+            <property name="revision:assigned_user" />
+            <property name="revision:due_date" />
+            <customPanel java="com.teamcenter.rac.issuemanager.dialogs.wizards.PropsPageRelationshipPanel" js="displayCreateIssueCustomPanel" />
+         </section>
+   </page>
+</rendering>

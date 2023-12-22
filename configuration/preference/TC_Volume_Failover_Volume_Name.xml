@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Volume_Failover_Volume_Name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the volume to use in failover situations during file import. Setting this preference with a volume name prompts the system to check the original target volume before import. If the target volume is filled beyond the capacity specified by the TC_Volume_Failover_Trigger preference, the imported file is directed to the failover volume specified by this preference.
+Valid Values:
+Accepts a single string as a value; the string must be a valid volume name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

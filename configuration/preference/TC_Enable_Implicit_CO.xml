@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Enable_Implicit_CO" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies if a user can edit an object without explicitly checking out an object. Allows different users to simultaneously edit the same object. In such a concurrent editing scenario, when saving the changes, if changes by another user have already been committed, then the TC_overwrite_protection,preference determines if the changes by the current user should overwrite the other user&apos;s changes or if the current user must redo the changes.
+Valid Values:
+True - Enables users to edit an object without using the Check-out menu.
+False - Enables users to edit an object by clicking Check-Out and Edit.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

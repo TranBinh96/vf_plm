@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="ScheduleTaskAvailableAttributes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the Schedule Task object attributes displayed in the Available Columns list in the Column Chooser dialog box of the Schedule Manager application when a Program View is opened.
+Valid Values:
+ScheduleTask.object_desc - Displays Description in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.start_date - Displays Start Date in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.finish_date - Displays Finish Date in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.duration - Displays Duration in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.work_estimate - Displays Work Estimate in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.priority - Displays Priority in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.task_type - Displays Task Type in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.constraint - Displays Constraint in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.actual_start_date - Displays Actual Start Date in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.actual_finish_date - Displays Actual Finish Date in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.work_complete - Displays Work Complete in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.complete_percent - Displays Work Complete Percent in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.fnd0state - Displays State in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.fnd0status - Displays Status in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.SI - Displays Status Indicator in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.schedule_tag - Displays Schedule in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.
+ScheduleTask.ResourceAssignment - Displays ResourceAssignment in the Column Chooser dialog box of the Schedule Manager application when a program view is opened.</preference_description>
+      <context name="Teamcenter">
+        <value>ScheduleTask.object_desc</value>
+        <value>ScheduleTask.start_date</value>
+        <value>ScheduleTask.finish_date</value>
+        <value>ScheduleTask.duration</value>
+        <value>ScheduleTask.work_estimate</value>
+        <value>ScheduleTask.priority</value>
+        <value>ScheduleTask.task_type</value>
+        <value>ScheduleTask.constraint</value>
+        <value>ScheduleTask.actual_start_date</value>
+        <value>ScheduleTask.actual_finish_date</value>
+        <value>ScheduleTask.work_complete</value>
+        <value>ScheduleTask.complete_percent</value>
+        <value>ScheduleTask.fnd0state</value>
+        <value>ScheduleTask.fnd0status</value>
+        <value>ScheduleTask.SI</value>
+        <value>ScheduleTask.schedule_tag</value>
+        <value>ScheduleTask.ResourceAssignment</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

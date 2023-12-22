@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_color_of_common" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default color to represent common components in the rich client interface. Colors must be specified in RGB format. Red, green, and blue can be combined in various proportions to obtain any color in the visible spectrum. Levels of R, G, and B can each range from 0 to 100 percent of full intensity. Each color level is represented by the range of decimal numbers from 0 to 255. The total number of available colors is 256 x 256 x 256, or 16,777,216 possible colors.
+Valid Values:
+Decimal numbers from 0 to 255.</preference_description>
+      <context name="Teamcenter">
+        <value>135,135,135</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

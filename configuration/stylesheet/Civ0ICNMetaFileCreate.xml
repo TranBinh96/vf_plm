@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2019. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: Civ0ICNMetaFile4Create.xml  
+   
+     Default style sheet for displaying Civ0ICNMetaFile Create 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+======================================================================= 
+@<DEL>@  
+--> 
+<rendering>
+
+   <page title=" ">
+        <column>
+            <section titleKey="tc_xrt_References">
+                <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RefContentPanelCiv0ICNMetaFile"/>             
+            </section>
+            <property name="revision:item_id" />
+            <property name="object_name" renderingHint="textfield" />
+            <property name="revision:DocumentTitle" renderingHint="textfield" />
+            <property name="revision:civ0InWork" />
+            <property name="revision:civ0IssueNumber" />
+            <property name="revision:civ0SecurityClass" />     
+        </column>
+        
+        <column>
+
+
+        </column>
+        <customPanel java="com.teamcenter.rac.contmgmts1000d40.wizards.LanguagePanel"/>
+        <separator/>  
+        <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RelationSelectionPanel"/> 
+   </page>
+   
+</rendering>

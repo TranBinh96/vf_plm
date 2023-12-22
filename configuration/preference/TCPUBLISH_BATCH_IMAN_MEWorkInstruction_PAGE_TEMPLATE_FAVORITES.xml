@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCPUBLISH_BATCH_IMAN_MEWorkInstruction_PAGE_TEMPLATE_FAVORITES" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Defines the list of favorite TCPublish batch templates associated with Teamcenter classes.
+These templates are used for the create task.</preference_description>
+      <context name="Teamcenter">
+        <value>TCActivityDetails</value>
+        <value>TCActivityToolList</value>
+        <value>TCAssemblyOperation</value>
+        <value>TCOperationRouting</value>
+        <value>TCActivityRoutingReport</value>
+        <value>TCPartList</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

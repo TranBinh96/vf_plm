@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AE_dataset_id_separator" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the character used to separate the variables that form the dataset ID (item ID and sequence number) when a parent item or item revision is selected.
+For example, if the value is set to a dash (-), the selected item is UG001, and the next available sequence number for the dataset type (within the UG001) is 3, the dataset ID UG001-3 is generated. This preference is deprecated. Use the DisplayName business object constant to specify separators instead.</preference_description>
+      <context name="Teamcenter">
+        <value>_</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

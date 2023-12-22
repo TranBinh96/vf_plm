@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="UGPART_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of properties that can be used as children for the indicated type i.e. UGPART. The format of the preference follows: &lt;TypeName&gt;_DefaultChildProperties=my_property.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_Rendering</value>
+        <value>IMAN_capture</value>
+        <value>IMAN_Drawing</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_specification</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

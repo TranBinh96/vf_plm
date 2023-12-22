@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QRY_pff_merge_multiple_lines" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Activates the function for pff to merge multiple lines of a single object to a single line.
+The default value is true (merge multiple lines).</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

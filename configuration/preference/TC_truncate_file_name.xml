@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_truncate_file_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if truncation of an original file name is necessary. Implement so Multi-Site Collaboration can transport data between releases.
+Valid Values:
+TRUE - Truncates the original file name to the length of 30.
+FALSE - Does not truncate the original file name to the length of 30. Only set to FALSE if all sites are running V7.0 or higher.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

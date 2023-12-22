@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Thin Client.Image">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WEB_thumbnail_image_generate_type" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>All image types should be specified as MIME type/subtype. examples: (image/jpeg, image/tiff, image/gif, image/cgm, x-world/x-vrml, media/x-3dx, media/x-am3) thumbnail image type (in MIME format) to be generated. Only one type.</preference_description>
+      <context name="Teamcenter">
+        <value>image/gif</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

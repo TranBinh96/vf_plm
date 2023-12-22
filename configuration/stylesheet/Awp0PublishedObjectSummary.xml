@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying PublishedObject in Active Workspace client. -->
+<rendering>
+    <!--header>
+        <property name="object_string"/>
+    </header-->
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_properties">
+            <property name="po_object_name"/>
+            <property name="po_object_id"/>
+            <property name="po_object_type"/>
+            <property name="po_pub_date"/>
+            <property name="po_object_desc"/>
+            <property name="po_object_class"/>
+            <property name="po_object_tag"/>
+            <property name="po_object_rev_id"/>
+            <property name="po_owner_id"/>
+            <property name="po_owning_site"/>
+            <property name="po_group_id"/>
+        </section>
+    </page>
+</rendering>

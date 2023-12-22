@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDVReleasedPartsProcessAssemType" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Item types which can be processed during the structure update process. When an installation assembly is modified and released, it is added to the queue and updated asynchronously. The system uses the RDV-add-released-parts-queue workflow handler to pass the installation assembly to the list of assemblies for processing. This preference determines which Item types the handler is allowed to process.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter item type. For example:
+RDVReleasedPartsProcessAssemType=CORP_Install</preference_description>
+      <context name="Teamcenter">
+        <value>&lt;Item Type&gt;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

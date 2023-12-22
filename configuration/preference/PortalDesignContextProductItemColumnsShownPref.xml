@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextProductItemColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of attributes displayed in Design Context and the order in which they are displayed in the table displaying selected product items.
+Valid Values:
+Composite properties on product item objects. Composite properties accept any attribute that the Java API getProperty method on the rich client IMANComponent class accepts. For standard Teamcenter, the valid values are the default values shown in the following example. 
+Other valid attributes, such as attributes on Item Master Forms, depend on the attributes your site exposes in UID files.</preference_description>
+      <context name="Teamcenter">
+        <value>Item.object_string</value>
+        <value>Item.object_name</value>
+        <value>Item.object_desc</value>
+        <value>Item.process_stage</value>
+        <value>Item.object_type</value>
+        <value>Item.owning_user</value>
+        <value>Item.owning_group</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

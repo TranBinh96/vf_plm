@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_mapping_target_type" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the mapping target item or item revision is classified. Siemens PLM Software recommends you set this preference to ItemRevision.
+You can map classification objects (ICOs) from one class of your class structure to another as needed, such as when converting catalog data to customer data. To make the target object a classified resource, the target ICO must classify a newly created object, usually an item revision or a similar classified object type. Use this preference to define the target objects type.
+Siemens PLM Software recommends you set the following preferences to the same value as this preference:MRMClassifyResourceICS_classify_newGCS_classify_type
+Valid Values:
+Single string as a value. Must be Item, ItemRevision, or a valid custom item or item revision type.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+        <value>VF9_D_StandardRevision</value>
+        <value>VF4_StandardPartRevision</value>
+        <value>VF4_DesignRevision</value>
+        <value>VF9_D_CertificatRevision</value>
+        <value>VF9_D_RegulationRevision</value>
+        <value>VF9_D_TestReportRevision</value>
+        <value>VF3_Scooter_partRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

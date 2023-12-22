@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Substance Compliance">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_DisplayableDeclarationTypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of &quot;Scp0PartDeclRevision&quot; Valid values are types internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>Scp0PartCMDDeclRevision</value>
+        <value>Scp0PartMSDDeclRevision</value>
+        <value>Scp0PartLRDDeclRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

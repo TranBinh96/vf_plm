@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_WBS_FORMAT_PREF" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default work breakdown structure (WBS) format to be used by schedules when they are created. The format used by the individual schedules can be changed at the schedule level.For more information on setting the default format for new schedules, see Schedule Manager Guide.
+Valid Values:
+
+[?N,?A,?a]{[.,-,/,+][?N,?A,?a]}*
+? - Whole number representing the minimum character length of a given section. If no number is provided, then 1 is assumed.
+N - Whole number.
+A - Uppercase English alphabet character (A-Z).
+a - Lowercase English alphabet character (a-z).
+. - Valid separation character.
+- - Valid separation character.
+/ - Valid separation character.
++ - Valid separation character.</preference_description>
+      <context name="Teamcenter">
+        <value>N.N</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PLMXML_IC_Delta_export_transfermodes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of transfer modes that can be used for incremental change (IC) based PLM XML exports and the mode of export (Delta or Full) to use with each transfer mode.
+When a user selects any of the listed transfer modes when performing a PLM XML export, instead of full assembly, only the objects that are directly/indirectly affected by IC objects along with the object&apos;s parental hierarchy and descendants are exported.
+Both the Delta and Full modes initiate the export of ICs, but the Delta mode filters out the lines that are not affected by ICs, whereas the Full mode does no filtering.
+Valid Values:
+Multiple strings containing a transfer mode name and the export mode separated by a colon, 
+for example:
+ICDeltaExportDefault:Delta
+The name can be any transfer mode for IC-based delta export that includes the basic minimum closure rules required for IC-based delta export to work properly. The export mode valid values are Delta or Full.</preference_description>
+      <context name="Teamcenter">
+        <value>ICDeltaExportDefault:Delta</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.AIE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AIE_no_BVR_edit" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether a particular BOM view revision is changed during an NX Remote Manager import operation from defined CAD system. If any dataset types defined in this preference appears together with a dataset type registered with NX Remote Manager (for example, with ACADDWG specifying AutoCAD Manager, or SE Part specifying Specification Manager), then the BOM view revision is not changed during the NX Remote Manager import.
+Valid Values:
+Accepts any or all of the dataset types defined by default by the system. This preference is defined during NX Remote Manager installation.</preference_description>
+      <context name="Teamcenter">
+        <value>UGPART</value>
+        <value>UGMASTER</value>
+        <value>UGALTREP</value>
+        <value>UGSCENARIO</value>
+        <value>NXSimulation</value>
+        <value>NXMotion</value>
+        <value>CAESolution</value>
+        <value>CAEMesh</value>
+        <value>CAEGeom</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

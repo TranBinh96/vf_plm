@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+
+<!-- Default style sheet for displaying Compliance Info Panel in Active Workspace Client. -->
+<rendering>
+  <page titleKey="tc_xrt_Summary">
+    <header>
+        <property name="object_string"/>
+    </header>
+    
+    <section titleKey="tc_xrt_properties">
+        <content visibleWhen="scw0CmplResult!=null">
+            <property name="scw0Regulation"/>
+            <property name="scw0CmplResult"/>
+            <property name="scw0Threshold"/> 
+            <property name="scw0Status"/>
+           <!-- <property name="REF(scw0CmplResult,Scp0SubstanceCmplResult).scp0FailureReasons"/>-->
+            <property name="REF(scw0CmplResult,Scp0SubstanceCmplResult).scp0IsOverridden"/>
+            <property name="REF(scw0CmplResult,Scp0SubstanceCmplResult).scp0OverrideReason"/>
+            <property name="REF(scw0CmplResult,Scp0SubstanceCmplResult).scp0OverrideNotes"/>
+            <property name="scw0DateCalculated"/>
+        </content>
+        <content visibleWhen="scw0Exemption!=null">
+            <property name="scw0Exemption"/> 
+            <property name="REF(scw0Exemption,Scp0SpecializedExemption).scp0Substance"/>
+            <property name="REF(scw0Exemption,Scp0SpecializedExemption).scp0SubstanceCategory"/>
+            <property name="REF(scw0Exemption,Scp0SpecializedExemption).scp0Exemption"/>
+            <property name="scw0ExemptionExpires"/> 
+        </content>
+    </section>
+   </page>
+   <page titleKey="scw0_xrt_FailureReasons">
+        <section titleKey="scw0_xrt_FailureReasons">
+          <content visibleWhen="scw0CmplResult!=null">
+            <property name="REF(scw0CmplResult,Scp0SubstanceCmplResult).scp0FailureReasons"/>
+        </content>
+        </section>
+    </page>
+</rendering>

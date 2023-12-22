@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ArchitectureModeler_multiple_installation_assemblies_condition" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the behavior of the ArchitectureModeler_use_all_installation_assemblies preference.
+Valid Values:
+NONE - The system refers to the value of the ArchitectureModeler_use_all_installation_assemblies preference.
+Warning - The system refers to the value of the ArchitectureModeler_use_all_installation_assemblies preference. If more than one installation assembly is found, a warning displays to the user.
+Error - If more than one installation assembly is found, the system stops searching and displays an error to the user.</preference_description>
+      <context name="Teamcenter">
+        <value>WARNING</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

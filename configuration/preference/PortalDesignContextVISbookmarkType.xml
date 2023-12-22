@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Interoperability">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextVISbookmarkType" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies a bookmark type for the visualization application used with Design Context. Users can view this preference and set it for their environments using the Edit-&gt;Options-&gt;Design Context-&gt;General menu command.
+Valid Values:
+1 - Generates a bookmark file that can be read by a CAD application.
+2 - Generates a bookmark that can be read by both a CAD application and a visualization application. This setting expands the entire assembly structure into the bookmark, but marks all but the selected BOM lines with the VISUALIZE=NO flag.
+16 - Generates a bookmark that can be read by a visualization application and contains only the selected BOM lines and traverses the entire assembly but adds the children of selected assemblies to the bookmark for display by the visualization application. Use this bookmark type for visualizing very large assemblies. You can use OR 16 with 2.
+32 - Generates a bookmark that excludes children of explicitly selected children in a visualization application. The visualization application displays a tree that does not have the children of the selected subassemblies. If 32 is specified without 16, 32 is ignored. You can use OR 32 with 18.
+64 - Generates a bookmark that includes the children of explicitly selected assemblies but marks them with the VISUALIZE=NO flag so they are not loaded in the visualization application.</preference_description>
+      <context name="Teamcenter">
+        <value>50</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

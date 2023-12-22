@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ACBatchPropagation_AdditionalAccountabilityCheckProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Additional list of properties for accountability check asynchronous propagation.
+The user can choose to ignore this list from the UI.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_item_item_id</value>
+        <value>bl_rev_item_revision_id</value>
+        <value>bl_rev_object_name</value>
+        <value>bl_rev_object_type</value>
+        <value>bl_plmxml_abs_xform</value>
+        <value>fnd0bl_real_quantity</value>
+        <value>bl_sequence_no</value>
+        <value>bl_abs_occ_id</value>
+        <value>bl_jt_refsetname</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_LoadUpdateSave_modified_file_option" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set the CATIA_LoadUpdateSave_modified_file_option preference to:
+- NONE to save modified files only (default value) or 
+- ALL to save both modified and unmodified files or
+- PARENTS to only save both modified files and their parents hierarchy 
+This preference has an interaction on the Load Update Save option in the CATIA V5 menus.</preference_description>
+      <context name="Teamcenter">
+        <value>NONE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

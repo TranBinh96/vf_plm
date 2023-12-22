@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SCP_BOMLine_Property_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMLine.bl_level_starting_0</value>
+        <value>BOMLine.bl_item_item_id</value>
+        <value>BOMLine.bl_indented_title</value>
+        <value>BOMLine.VL5_module_group</value>
+        <value>BOMLine.VL5_main_module</value>
+        <value>BOMLine.VL5_module_name</value>
+        <value>BOMLine.VL5_purchase_lvl_vf</value>
+        <value>BOMLine.vl5_sor_number_bl</value>
+        <value>BOMLine.bl_rev_item_revision_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

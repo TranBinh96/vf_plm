@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA112_cadext_2_itemtype_map" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to specify the item type assigned by default to AutoCAD files being saved in Teamcenter for the first time.
+The preference can contain multiple string values, each one in the form:
+&lt;file extension pattern&gt;=&lt;item type&gt; 
+where &lt;file extension pattern&gt; can be one of *.dwg, *.dwt or *.*.
+Example:
+*.*=Document        =&gt; all the not explicitly declared AutoCAD files will be created as type Document
+*.dwt =MEResource   =&gt; the *.dwt files will be created as items of type MEResource</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

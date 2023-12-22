@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Default_StructureContext_Type" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which type of structure context is created when saving a loaded object as a context.
+Valid Values:
+Accepts one or more strings as values; each string must be a valid type and be of the following format:
+item_type:structure_context_type</preference_description>
+      <context name="Teamcenter">
+        <value>MEProcess:MEProcessContext</value>
+        <value>MEOP:MEProcessContext</value>
+        <value>MEWorkarea:MEPlantContext</value>
+        <value>Item:MEProductContext</value>
+        <value>MEGenericBOP:MEProcessContext</value>
+        <value>MEProductBOP:MEProcessContext</value>
+        <value>Mes0MESTXLibrary:MEProcessContext</value>
+        <value>Mfg0MEProdPrgCol:Mfg0MEProdPrgContext</value>
+        <value>Mfg0MEStudy:CompositionContext</value>
+        <value>Mfg0MELocResLib:MEResourceContext</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

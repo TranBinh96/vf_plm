@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_ImanSubscription.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the create stylesheet for IMANSubscription objects.This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>Sub0ImanSubscriptionCreate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

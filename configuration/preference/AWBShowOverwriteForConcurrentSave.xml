@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWBShowOverwriteForConcurrentSave" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference is to control the presence of overwrite option during concurrent save of a Fnd0AppSession object. The default value is true.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

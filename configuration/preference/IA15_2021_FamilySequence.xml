@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IA15_2021_FamilySequence" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Teamcenter Product Configurator Sequencing to support Salesforce / Yana sequencing</preference_description>
+      <context name="Teamcenter">
+        <value>MDL=010</value>
+        <value>SMD=020</value>
+        <value>CE1=030</value>
+        <value>ENG=040</value>
+        <value>PAA=050</value>
+        <value>BXQ=060</value>
+        <value>WHL=070</value>
+        <value>PAB=080</value>
+        <value>PAC=090</value>
+        <value>CCM=100</value>
+        <value>PAD=110</value>
+        <value>PRK=120</value>
+        <value>PAF=130</value>
+        <value>AU4=140</value>
+        <value>UTJ=150</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

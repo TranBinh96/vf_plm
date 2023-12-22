@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_enforce_min_max_constraints_on_copy" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether Classification allows copying existing classification objects (ICOs) whose property values do not conform to the minimum and/or maximum constraints. This preference applies for users performing the following actions in Teamcenter : Performing a Revise or SaveAs operation on a classified item or item revision from anywhere outside Classification. Revising a product structure that contains the classified objects. If you revise an item revision but the item is classified, the new item revision does not contain any classification information so the revise action does not honor the maximum and minimum constraints.
+Valid Values:
+True - Classification does not allow copying existing ICOs whose property values do not conform to the minimum and/or maximum constraints.
+False - Classification allows copying existing ICOs whose property values do not conform to the minimum and/or maximum constraints.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LHN_Applications_List" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the applications displayed in the Left Hand Navigation (LHN) pane.
+The format of values for this preference is &quot;perspectiveId:DisplayMode&quot;.
+For example, for setting the &quot;My Teamcenter&quot; perspective as primary and the &quot;Getting Started&quot; perspective as secondary, the preference values would be:
+com.teamcenter.rac.ui.perspectives.navigatorPerspective:primary
+com.teamcenter.rac.gettingstarted.GettingStartedPerspective:secondary
+If any conflict is found in the preference values then that value will be skipped.
+The preference does not have any value by default, which means that all applications are loaded as default in Teamcenter.
+If the value is &quot;EMPTY&quot;, no application is displayed in the LHN. 
+After modifying the preference, the rich client needs to be restarted.
+Preference values are only to be configured by a system administrator.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

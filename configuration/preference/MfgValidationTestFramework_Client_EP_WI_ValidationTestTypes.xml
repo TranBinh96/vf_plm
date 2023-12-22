@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MfgValidationTestFramework_Client_EP_WI_ValidationTestTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the validation test types this client can handle.
+The format of this preference is as follows: &quot;MfgValidationTestFramework_Client_&lt;ClientIdentifier&gt;_ValidationTestTypes&quot;
+This preference needs to be an entry in the preference: &quot;MfgValidationTestFramework_Clients&quot;.    
+Each entry is a Manufacturing Validation Test Type that this client can present and handle.
+Each entry must match the -type argument used during the &apos;install_callback&apos; for a Validation Test Suite.
+Required if specified in &quot;MfgValidationTestFramework_Clients&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>MyMfgValidationsType</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

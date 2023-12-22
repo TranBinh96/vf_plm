@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextProcess.WorkPartProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies a list of properties for finding associated work parts related to a workflow process. If the object in process is added to the RDV context, the associated work parts are automatically added to the RDV context. Engineering change requests are automatically added if they are attached as reference attachments.
+Valid Values:
+Valid Teamcenter properties.</preference_description>
+      <context name="Teamcenter">
+        <value>root_task:root_target_attachments</value>
+        <value>root_task:root_reference_attachments</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

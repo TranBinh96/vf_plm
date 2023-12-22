@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+	<page titleKey="tc_xrt_Overview"> 
+		<section>
+			<column> 
+				<section title="CUV">
+					<label text="CUV" style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+					<property name="vf4_vn_asean_base_ice" column="16" renderingHint="checkbox"/>
+					<property name="vf4_vn_asean_middle_ice" column="16" renderingHint="checkbox"/>
+					<property name="vf4_vn_asean_high_ice" column="16" renderingHint="checkbox"/>
+					<property name="vf4_vn_asean_base_bev" column="16" renderingHint="checkbox"/>
+					<property name="vf4_vn_asean_middle_bev" column="16" renderingHint="checkbox"/>
+					<property name="vf4_vn_asean_high_bev" column="16" renderingHint="checkbox"/>
+					<property name="vf4_us_high_bev" column="16" renderingHint="checkbox"/>
+					<property name="vf4_boolean_1" column="16" renderingHint="checkbox"/>
+					<property name="vf4_boolean_2" column="16"  renderingHint="checkbox"/>
+<break />	
+<separator />
+<label text="Platform part (common across all programs)" style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+					<property name="vf4_platform_part" column="16" renderingHint="checkbox"/>	
+				</section> 
+			</column>
+
+			<column>
+				<section title="EBUS">
+					<label text="EBUS" style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+					<property name="vf4_ebus_10m_base" column="16" renderingHint="checkbox"/>
+					<property name="vf4_ebus_10m_high" column="16" renderingHint="checkbox"/>
+					<property name="vf4_ebus_10m_vinbus" column="16" renderingHint="checkbox"/>
+					<property name="vf4_ebus_common_part" column="16" renderingHint="checkbox"/>
+
+				</section>
+			</column>
+
+
+			<column>	
+				<section title="SCP">
+					<label text="SCP" style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+					<property name="vf4_bbev_base" column="16" renderingHint="checkbox"/>
+					<property name="vf4_bbev_option_1" column="16" renderingHint="checkbox"/>
+					<property name="vf4_bbev_option_2" column="16" renderingHint="checkbox"/>
+					<property name="vf4_bbev_option_3" column="16" renderingHint="checkbox"/>
+					<property name="vf4_scp_common_part" column="16" renderingHint="checkbox"/>
+
+				</section>
+			</column>
+			<column>
+				<section title="SEDAN">
+					<label text="SEDAN" style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+					<property name="vf4_sedan_standard"  column="16" renderingHint="checkbox"/>	
+					<property name="vf4_sedan_plus" column="16" renderingHint="checkbox"/>
+					<property name="vf4_sedan_premium" column="16" renderingHint="checkbox"/>
+					<property name="vf4_sedan_common_part" column="16" renderingHint="checkbox"/>
+
+				</section>
+			</column>
+			<column>
+				<section title="SUV">
+					<label text="SUV" style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+					<property name="vf4_suv_standard"  column="16" renderingHint="checkbox"/>	
+					<property name="vf4_suv_plus" column="16" renderingHint="checkbox"/>
+
+					<property name="vf4_suv_premium" column="16" renderingHint="checkbox"/>
+					<property name="vf4_suv_common_part" column="16" renderingHint="checkbox"/>
+
+				</section>
+			</column>
+		</section>
+		
+		
+	
+</page>
+	<page title="Information">
+		<section >
+
+			<property name="owning_group" column="16"/>
+			<property name="last_mod_date" column="16"/>
+			<property name="last_mod_user" column="16"/>
+			<property name="checked_out_user" column="16"/>
+
+		</section>	
+	</page>
+
+</rendering>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MENEWMFG_DefaultWeldPointJTDatasetName" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the name of the JT dataset that is attached by default to every newly created manufacturing feature.
+Valid Values:
+A single character string that represents the name of a dataset that contains a JT file of the same name.</preference_description>
+      <context name="Teamcenter">
+        <value>rswp_2t</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

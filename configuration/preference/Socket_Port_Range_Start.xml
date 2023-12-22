@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Socket_Port_Range_Start" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This number is used as Start of Port range</preference_description>
+      <context name="Teamcenter">
+        <value>4000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

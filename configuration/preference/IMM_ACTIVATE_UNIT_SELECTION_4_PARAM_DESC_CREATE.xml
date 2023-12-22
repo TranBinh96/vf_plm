@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_ACTIVATE_UNIT_SELECTION_4_PARAM_DESC_CREATE" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables or disables the unit dropdown list to select the required unit when creating a property descriptor. If disabled, the SI Basic unit is selected as the default unit.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

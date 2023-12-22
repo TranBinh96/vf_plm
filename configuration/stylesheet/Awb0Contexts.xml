@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Where Used Context Section. -->
+<subRendering>
+    <section titleKey="tc_xrt_Contexts">
+        <objectSet source="Awb0ContextProvider.WorkspaceObject" sortdirection="ascending" sortby="object_string" defaultdisplay="tableDisplay">
+            <thumbnailDisplay/>
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+            <listDisplay/>
+        </objectSet>
+    </section>
+</subRendering>

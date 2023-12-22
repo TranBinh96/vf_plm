@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Material Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Mtw0BillOfMaterialInfo.INFORENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the info stylesheet for Mtw0BillOfMaterialInfo objects.</preference_description>
+      <context name="Teamcenter">
+        <value>Mtw0BillOfMaterialInfo</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

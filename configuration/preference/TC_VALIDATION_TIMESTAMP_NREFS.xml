@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Validation Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_VALIDATION_TIMESTAMP_NREFS" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Timestamp on a validation result and dataset is compared to decide whether the result is up-to-date. The following list is an extension to this logic. The list gives the Namedref list against each dataset type. For the following dataset types, instead of the dataset timestamp, the named reference timestamp is used to compare the dates.
+Valid Values:
+TRUE - Enables the named reference timestamp.
+FALSE - Disables the named reference timestamp.</preference_description>
+      <context name="Teamcenter">
+        <value>UGMASTER   UGPART  *.prt</value>
+        <value>UGPART     UGPART  *.prt</value>
+        <value>UGALTREP   UGPART  *.prt</value>
+        <value>UGSCENARIO UGPART  *.prt</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

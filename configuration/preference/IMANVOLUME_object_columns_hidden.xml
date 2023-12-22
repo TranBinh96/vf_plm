@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IMANVOLUME_object_columns_hidden" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of column names that will be hidden for Volume objects.</preference_description>
+      <context name="Teamcenter">
+        <value>last_mod_date</value>
+        <value>archive_date</value>
+        <value>creation_date</value>
+        <value>backup_date</value>
+        <value>shadow_node_name</value>
+        <value>shadow_vms_path_name</value>
+        <value>users</value>
+        <value>shadow_unix_path_name</value>
+        <value>vms_path_name</value>
+        <value>machine_type</value>
+        <value>archive_info</value>
+        <value>last_mod_user</value>
+        <value>owning_user</value>
+        <value>owning_group</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

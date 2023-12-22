@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_QRY_display_latest_dataset_only" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the display of only the latest version of dataset objects in results of queries with search class as the super class of dataset or its descendant classes (for example, queries with search class as WorkspaceObject).
+Valid Values:
+0 - Displays all versions of the dataset.
+1 - Displays only the latest version of dataset objects.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

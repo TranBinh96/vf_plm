@@ -1,0 +1,327 @@
+Configuration path: fmsmaster_FSC_VFS_PLMVL01_VP.xml
+Contents:
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fmsworld SYSTEM "fmsmasterconfig.dtd">
+<fmsworld>
+   <multisiteimport siteid="-1854330394">
+      <defaultfscimport fscid="FSC_TLLPRD1" fscaddress="http://10.12.16.207:4544" transport="lan" priority="0" />
+   </multisiteimport>
+   <multisiteimport siteid="-1877143987">
+      <defaultfscimport fscid="FSC_w06_vfapp01_06_vinfast_svc" fscaddress="http://193.22.176.9:4544" transport="lan" priority="0" />
+   </multisiteimport>
+   <multisiteimport siteid="-1881306352">
+      <defaultfscimport fscid="FSC_GRZMSAPPCLR01_infodba" fscaddress="http://10.128.198.145:4544" transport="lan" priority="0" />
+   </multisiteimport>
+   <fmsenterprise id="-1880356079" volumestate="normal">
+      <fccdefaults>
+         <property name="FCC_CacheLocation" value="$HOME/FCCCache|/tmp/$USER/FCCCache" overridable="true" />
+         <property name="FCC_EnableDirectFSCRouting" value="false" overridable="false" />
+         <property name="FCC_HashBlockPages" value="35200" overridable="true" />
+         <property name="FCC_LogFile" value="$HOME/fcc.log|/tmp/$USER/fcc.log" overridable="true" />
+         <property name="FCC_MaxExtentFileSizeMegabytes" value="256" overridable="true" />
+         <property name="FCC_MaxExtentFiles" value="40" overridable="true" />
+         <property name="FCC_MaxReadCacheSize" value="10G" overridable="true" />
+         <property name="FCC_MaxWriteCacheSize" value="10G" overridable="true" />
+         <property name="FCC_MaximumNumberOfFilePages" value="450560" overridable="true" />
+         <property name="FCC_MaximumNumberOfSegments" value="1024" overridable="true" />
+      </fccdefaults>
+      <fscgroup id="ati2_group">
+         <fsc id="FSC_VFS_ATI2CAC1_VP_AUFscCache" address="http://VFS-ATI2CAC1-VP:4545" ismaster="false" />
+         <fsc id="FSC_VFS_ATI2CAC1_VP_AUFscVol" address="http://VFS-ATI2CAC1-VP:4544" ismaster="false">
+            <volume id="1b74003eb7ee8fec0b11" enterpriseid="-1880356079" root="\\10.133.33.26\PLMVolumesAU\AULocalVolume" priority="0" />
+         </fsc>
+         <clientmap cidr="10.133.34.0/24">
+            <assignedfsc fscid="FSC_VFS_ATI2CAC1_VP_AUFscCache" priority="0" />
+         </clientmap>
+         <grouproute destination="edg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="hxg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="mgn_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tata_uk_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tll_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="ttl_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="vf_grp_times">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+      </fscgroup>
+      <fscgroup id="edg_group">
+         <fsc id="FSCEDAG01" address="http://w06-vffsc01:4545" ismaster="false" />
+         <fsc id="FSCEDAG02" address="http://w06-vffsc02:4545" ismaster="false" />
+         <fsc id="VFVSEDAG01" address="http://w06-vffsc01:4544" ismaster="false">
+            <volume id="1d9f0043d8b28fec0b11" enterpriseid="-1880356079" root="\\na0601.win.edag.de\services\teamcenter\VF\LocalEDAGVolume" priority="0" />
+         </fsc>
+         <grouproute destination="ati2_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="hxg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="mgn_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tata_uk_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tll_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="ttl_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="vf_grp_times">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+      </fscgroup>
+      <fscgroup id="hxg_group">
+         <fsc id="FSC_HXG_VolumeCache" address="http://HEXTCVINFAST01:4546" ismaster="false">
+            <volume id="3d88000c18708fec0b11" enterpriseid="-1880356079" root="D:\Siemens\HexagonVolume" priority="0" />
+         </fsc>
+         <fsc id="FSC_hextcvinfast01_HexagonFscCache" address="http://HEXTCVINFAST01:4545" ismaster="false" />
+         <grouproute destination="ati2_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="edg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="mgn_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tata_uk_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tll_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="ttl_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="vf_grp_times">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+      </fscgroup>
+      <fscgroup id="mgn_group">
+         <fsc id="FSC_grzwinsv2585_svc_tcvinf" address="http://GRZWINSV2585:4544" ismaster="false" />
+         <fsc id="FSC_grzwinsv2585_svc_tcvinf_volume" address="http://GRZWINSV2585:4545" ismaster="false">
+            <volume id="213f003a36fe8fec0b11" enterpriseid="-1880356079" root="C:\tc\cache_volume" priority="0" />
+         </fsc>
+         <grouproute destination="ati2_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="edg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="hxg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tata_uk_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tll_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="ttl_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="vf_grp_times">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+      </fscgroup>
+      <fscgroup id="tata_uk_group">
+         <fsc id="FSC_UKVINFASTFCS_TUKFscCache" address="http://UKVINFASTFCS:4545" ismaster="false" />
+         <fsc id="FSC_UKVINFASTFCS_TUKFscVol" address="http://UKVINFASTFCS:4544" ismaster="false">
+            <volume id="1e21004c233e8fec0b11" enterpriseid="-1880356079" root="D:\VINFAST_VOL_TC\TATAUK_VOL" priority="0" />
+         </fsc>
+         <grouproute destination="edg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="hxg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="mgn_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tll_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="ttl_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="vf_grp_times">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+      </fscgroup>
+      <fscgroup id="tll_group">
+         <fsc id="FSC_CACHE_TLLPRD" address="http://WIN-QUORQES81QC:4543" ismaster="false" />
+         <fsc id="FSC_TLL_VolumeCache" address="http://WIN-QUORQES81QC:4546" ismaster="false">
+            <volume id="1e33000c01e98fec0b11" enterpriseid="-1880356079" root="D:\Vinfast_CacheServer\TV11_TLL\USER" priority="0" />
+         </fsc>
+         <clientmap cidr="10.128.198.137/32">
+            <assignedfsc fscid="FSC_CACHE_TLLPRD" priority="0" />
+         </clientmap>
+         <clientmap cidr="10.128.198.136/32">
+            <assignedfsc fscid="FSC_CACHE_TLLPRD" priority="0" />
+         </clientmap>
+         <grouproute destination="ati2_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="edg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="hxg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="mgn_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tata_uk_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="ttl_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="vf_grp_times">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+      </fscgroup>
+      <fscgroup id="ttl_group">
+         <fsc id="FSC_INBR1WKS_195609_Administrator" address="http://INBR1WKS-195609:4544" ismaster="false" />
+         <fsc id="FSC_TTL_VolumeCache" address="http://INBR1WKS-195609:4546" ismaster="false">
+            <volume id="1fb6000f68b48fec0b11" enterpriseid="-1880356079" root="D:\Cache_Server\TTL_Local_Volume\USER" priority="0" />
+         </fsc>
+         <clientmap cidr="10.128.198.115/32">
+            <assignedfsc fscid="FSC_INBR1WKS_195609_Administrator" priority="0" />
+         </clientmap>
+         <grouproute destination="ati2_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="edg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="hxg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="mgn_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tata_uk_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tll_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="vf_grp_times">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+      </fscgroup>
+      <fscgroup id="vf_grp_central">
+         <fsc id="FSC_VFNH_PLMCACHE_VP_GMCache" address="http://10.128.250.21:4545" ismaster="false">
+            <volume id="1e13000bbe218fec0b11" enterpriseid="-1880356079" root="\\VFNH-PLMLV-VP\Siemens\GMLocalVolume" priority="0" />
+         </fsc>
+         <fsc id="FSC_VFS_PLMAPP1_PP" address="http://vfs-plmapp1-pp:4544" ismaster="false">
+            <transientvolume id="4f5a858a00bbad7e477ab9bb40084096" enterpriseid="-1880356079" root="C:\\Temp\\transientVolume_infodba" priority="0" />
+         </fsc>
+         <fsc id="FSC_VFS_PLMAPP2_VP" address="http://vfs-plmapp2-vp:4544" ismaster="false">
+            <transientvolume id="efa226df5f228b9c0201152b0808c708" enterpriseid="-1880356079" root="C:\\Temp\\transientVolume_infodba" priority="0" />
+         </fsc>
+         <fsc id="FSC_VFS_PLMVL01_VP" address="http://VFS-PLMVL01-VP:4544" ismaster="true">
+            <volume id="00ea0000000f8fec0b11" enterpriseid="-1880356079" root="\\vfs-plmapp1-pp\TV11\DBA" priority="0" />
+            <volume id="081b0000015e8fec0b11" enterpriseid="-1880356079" root="\\vfs-plmapp1-pp\TV11\USER" priority="0" />
+            <volume id="1e98000cd6b88fec0b11" enterpriseid="-1880356079" root="\\vingroup.local\PLMVolume\USER_VOL2" priority="0" />
+            <volume id="1f8e000ceeab8fec0b11" enterpriseid="-1880356079" root="\\vingroup.local\PLMVolume\DBA_VOL2" priority="0" />
+            <volume id="2212004c233e8fec0b11" enterpriseid="-1880356079" root="\\vingroup.local\PLMVolume\TTLUK_in_HP" priority="0" />
+            <volume id="235d003ec1ce8fec0b11" enterpriseid="-1880356079" root="D:\PLMVolume\Aus_in_HP" priority="0" />
+            <volume id="28300043d8b28fec0b11" enterpriseid="-1880356079" root="D:\PLMVolume\EDG_in_HP" priority="0" />
+            <volume id="324d003a36fe8fec0b11" enterpriseid="-1880356079" root="D:\PLMVolume\MAGNA_in_HP" priority="0" />
+            <volume id="4e09000fe2f88fec0b11" enterpriseid="-1880356079" root="\\vingroup.local\PLMVolume\TimesCity_in_HP" priority="0" />
+            <volume id="500a000fe2f88fec0b11" enterpriseid="-1880356079" root="\\vingroup.local\PLMVolume\TLL_in_HP" priority="0" />
+            <volume id="500d000fe2f88fec0b11" enterpriseid="-1880356079" root="\\vingroup.local\PLMVolume\HXG_in_HP" priority="0" />
+            <volume id="5010000fe2f88fec0b11" enterpriseid="-1880356079" root="\\vingroup.local\PLMVolume\TTL_in_HP" priority="0" />
+         </fsc>
+         <clientmap cidr="0.0.0.0/0">
+            <assignedfsc fscid="FSC_VFS_PLMVL01_VP" priority="0" />
+         </clientmap>
+         <exitfsc fscid="FSC_VFS_PLMVL01_VP" priority="0" />
+         <entryfsc fscid="FSC_VFS_PLMVL01_VP" priority="0" />
+      </fscgroup>
+      <fscgroup id="vf_grp_times">
+         <fsc id="FSC_LB_VolumeCache" address="http://SDC2-VF-FSC-VP:4544" ismaster="false">
+            <volume id="1ee9000be82d8fec0b11" enterpriseid="-1880356079" root="\\SDC2-VF-LV-VP\TimesCityVolume" priority="0" />
+         </fsc>
+         <fsc id="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" address="http://SDC2-VF-FSC-VP:4545" ismaster="false" />
+         <clientmap cidr="10.208.200.0/23">
+            <assignedfsc fscid="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" priority="0" />
+         </clientmap>
+         <clientmap cidr="10.208.203.0/24">
+            <assignedfsc fscid="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" priority="0" />
+         </clientmap>
+         <clientmap cidr="10.208.122.0/22">
+            <assignedfsc fscid="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" priority="0" />
+         </clientmap>
+         <clientmap cidr="10.208.121.0/24">
+            <assignedfsc fscid="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" priority="0" />
+         </clientmap>
+         <clientmap cidr="10.150.70.0/23">
+            <assignedfsc fscid="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" priority="0" />
+         </clientmap>
+         <clientmap cidr="10.150.72.0/21">
+            <assignedfsc fscid="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" priority="0" />
+         </clientmap>
+         <clientmap cidr="10.150.80.0/23">
+            <assignedfsc fscid="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" priority="0" />
+         </clientmap>
+         <clientmap cidr="10.150.82.0/23">
+            <assignedfsc fscid="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" priority="0" />
+         </clientmap>
+         <clientmap cidr="10.150.84.0/22">
+            <assignedfsc fscid="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" priority="0" />
+         </clientmap>
+         <clientmap cidr="10.150.90.0/23">
+            <assignedfsc fscid="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" priority="0" />
+         </clientmap>
+         <clientmap cidr="10.150.92.0/23">
+            <assignedfsc fscid="FSC_SDC2_VF_FSC_VP_TimeCityFscCache" priority="0" />
+         </clientmap>
+         <grouproute destination="ati2_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="edg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="hxg_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="mgn_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tata_uk_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="tll_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+         <grouproute destination="ttl_group">
+            <routethrough groups="vf_grp_central" priority="0" />
+         </grouproute>
+      </fscgroup>
+      <linkparameters fromgroup="ati2_group" togroup="vf_grp_central" transport="wan" maxpipes="8" />
+      <linkparameters fromgroup="edg_group" togroup="vf_grp_central" transport="wan" maxpipes="8" />
+      <linkparameters fromgroup="hxg_group" togroup="vf_grp_central" transport="wan" maxpipes="8" />
+      <linkparameters fromgroup="mgn_group" togroup="vf_grp_central" transport="wan" maxpipes="8" />
+      <linkparameters fromgroup="tata_uk_group" togroup="vf_grp_central" transport="wan" maxpipes="8" />
+      <linkparameters fromgroup="tll_group" togroup="vf_grp_central" transport="wan" maxpipes="8" />
+      <linkparameters fromgroup="ttl_group" togroup="vf_grp_central" transport="wan" maxpipes="8" />
+      <linkparameters fromgroup="vf_grp_times" togroup="vf_grp_central" transport="wan" maxpipes="8" />
+   </fmsenterprise>
+</fmsworld>
+

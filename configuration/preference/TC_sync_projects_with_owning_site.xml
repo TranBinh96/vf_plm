@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_sync_projects_with_owning_site" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the synchronization of the project list of replicas with the project list of the master object when projects are removed at the owning site. By default, when a project is removed from the master object, the project for the replica object is not removed. This allows the replica to maintain a project list that is independent of the master object.
+By default, removing all projects from the master object removes all projects from the replica object.
+Use this preference to enable the importing site to override the default behavior. It must be defined at the importing site and has no impact on the exporting site. Define this preference at the importing site.
+Valid Values:
+ALL:       Indicates that for all owning sites, when a project is removed from the master object, that project is also removed from the replica object; and when all projects are removed from the master object, all projects are removed from the replica object. ALL must be the only entry for the preference.
+FALSE:     When a project is removed from the master object, the project is not removed from the replica object. This is the same as the default behavior. However, if all projects are removed from the master object, unlike the default behavior, projects are not removed from the replica object, allowing the replica to maintain a project list independent of the master object. FALSE must be the only entry for the preference.
+site-name: Indicates the ALL value behavior applies to the specified site. You can enter a list of sites, one site name per line. Invalid site names are ignored. The default behavior applies to all sites not specified.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

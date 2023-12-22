@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Appearance Configuration Background">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="APPR_background_updater_interval" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Deprecated. How often (in minutes) to expect a background appearance updater to be run (for example
+in a cron job or equivalent).
+When a new package is placed on the update queue, then if background updaters are expected to be running
+(as specified by the supervisor preference being 0) and such an updater has not recently enough, then an email
+is sent to the recipient specified by the Site Preference &quot;APPR_background_updater_admin_email_address&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>5</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

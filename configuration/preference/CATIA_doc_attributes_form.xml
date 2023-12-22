@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_doc_attributes_form" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Form type to use, attached in named reference of type catia_doc_attributes to datasets
+The catia_doc_attributes is created in Teamcenter during CatiaDBConfig. This setting must contain at least two fields:
+OEM_CATIA_Version
+OEM_CATIA_ENV
+You can choose to use another form, but it must contain two required fields listed above.</preference_description>
+      <context name="Teamcenter">
+        <value>catia_doc_attributes</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

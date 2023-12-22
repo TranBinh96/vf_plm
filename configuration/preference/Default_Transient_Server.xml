@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Default_Transient_Server" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Specifies the default transient file server location. Environment variable settings override this FCC configuration file setting.
+Valid Values:
+Accepts a single value. Must be a valid transient file server location. For example:
+Default_Transient_Serrver = http://www.transientserver.com</preference_description>
+      <context name="Teamcenter">
+        <value>http://vfs-plmapp1-pp:4544</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

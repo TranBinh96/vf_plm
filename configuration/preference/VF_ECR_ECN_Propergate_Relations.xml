@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_ECR_ECN_Propergate_Relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>relation to be copied to new change object</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasProblemItem</value>
+        <value>Cm0HasProposal</value>
+        <value>CMReferences</value>
+        <value>CMHasImpactedItem</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

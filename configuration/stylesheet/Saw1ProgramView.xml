@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet for displaying Program View Info panel. -->
+<rendering>
+
+    <page titleKey="tc_xrt_Summary">
+        <section>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+        </section>
+      
+    </page>
+</rendering>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Substance Compliance">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SUBSCMPLAW_AllowOnlyCMDForRequest" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates if only CMD request should be allowed for objects to which CMD applicable.
+Valid values are:
+true: Request allows only for CMD objects.This is the default value.
+false: Request allows for both MSD and CMD objects.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

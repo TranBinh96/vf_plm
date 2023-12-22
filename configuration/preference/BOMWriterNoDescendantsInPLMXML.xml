@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOMWriterNoDescendantsInPLMXML" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Used with the bomwriter utility. Controls export of descendants (children and grandchildren) of selected BOM lines when Teamcenter lifecycle visualization or NX is launched from the Teamcenter rich client.
+This preference determines whether the bomwriter utility generates PLM XML files which include descendants of the selected BOM lines.
+Set this preference to TRUE (suppressing descendants) if the application for which the PLM XML file is intended supports navigating Teamcenter structures (such as NX).
+If the file is intended for other applications (such as Teamcenter lifecycle visualization mockup) you may want to include descendents as they cannot load substructures on demand.
+Valid Values:
+TRUE - Descendents of selected BOM lines are not exported in the PLM XML file, and are not displayed in Teamcenter lifecycle visualization or NX.
+FALSE - Descendents of selected BOM lines are exported in the PLM XML file, and are displayed in Teamcenter lifecycle visualization or NX.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

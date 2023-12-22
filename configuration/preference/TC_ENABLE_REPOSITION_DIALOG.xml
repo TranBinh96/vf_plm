@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_ENABLE_REPOSITION_DIALOG" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the visibility in graphics menu of the dialog for the &quot;Reposition&quot; command.
+Valid Values:
+* true: Only the &quot;Reposition&quot; dialog is visible in graphics menu.
+* false: Only the &quot;Transformation&quot; dialog is visible in graphics menu. This is the default value.
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

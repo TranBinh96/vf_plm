@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Context Definition">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextExcludedWorkPart.Types" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the item types excluded from the Work Part list in Design Context. For sites that have not yet migrated to Teamcenter Change Viewer, Siemens PLM Software recommends excluding EngChange items.
+Valid Values:
+Any Teamcenter item type.</preference_description>
+      <context name="Teamcenter">
+        <value>EngChange</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IMAN_UG_wave_part_link_relation_primary" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the list of valid primary object types for the relation IMAN_UG_wave_part_link. Format is &lt;Relation Name&gt;_relation_primary=List of valid primary object types.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+        <value>UGMASTER</value>
+        <value>UGALTREP</value>
+        <value>UGPART</value>
+        <value>UGSCENARIO</value>
+        <value>NXSimulation</value>
+        <value>NXMotion</value>
+        <value>CAESolution</value>
+        <value>CAEMesh</value>
+        <value>CAEGeom</value>
+        <value>NXAFEM</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

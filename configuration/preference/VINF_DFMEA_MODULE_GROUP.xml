@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_DFMEA_MODULE_GROUP" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>User for DFMEA Workflow</preference_description>
+      <context name="Teamcenter">
+        <value>BIW</value>
+        <value>D&amp;C</value>
+        <value>INT</value>
+        <value>SEAT</value>
+        <value>EXT</value>
+        <value>CHS</value>
+        <value>PWT</value>
+        <value>EE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

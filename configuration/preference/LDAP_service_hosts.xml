@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_service_hosts" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of hosts providing LDAP directory service for the synchronization installation.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid host name. Define hosts running the LDAP directory that you want to use for synchronization.</preference_description>
+      <context name="Teamcenter">
+        <value>%REPLACE_ME%</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDVIgnoreErrorConnectReleasedPartsServer" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the RDV-add-released-parts-queue workflow handler checks if the Released Parts Collector server is running.
+Valid Values:
+True - Allows the RDV-add-released-parts-queue workflow handler to check if the Released Parts Collector server is running. If the server is running, the item types defined in the RDVReleasedPartsProcessAssemType preference are released. If the server is not running, the item types are not released.
+False - The item types defined in the RDVReleasedPartsProcessAssemType preference are released, regardless of whether the Released Parts Collector server is running.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_changehome_folders_site" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the system-defined saved searches currently located under the Change Home folder.
+Use the &quot;Manage saved searches...&quot; command in the Change Home view menu to manage the values of this site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>My Open Changes/1/My Open Changes/NO_QUERY_CRITERIA_OR_VALUE,/NO_QUERY_CRITERIA_OR_VALUE,/NOT_SAVED_SEARCH/</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

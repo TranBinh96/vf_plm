@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="DecisionApps.ShapeSearch">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SS1_DASS_cert_path" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the path to the certification file of Geolus server.
+The value should be a local path and does not include the name of the certification file.
+The value pointed by the environment variable TC_DATA is used if the value is not set.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="Vf6_ECRRevision_PseudoFolder" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>C3D_View</value>
+        <value>CAEAnalysis</value>
+        <value>CMReferences</value>
+        <value>Vf6_change_forms</value>
+        <value>Sci0IMDSView</value>
+        <value>CMHasImpactedItem</value>
+        <value>CMImplementedBy</value>
+        <value>MEProcess</value>
+        <value>MESetup</value>
+        <value>PR4D_cad</value>
+        <value>CMHasProblemItem</value>
+        <value>Cm0HasProposal</value>
+        <value>view</value>
+        <value>catia</value>
+        <value>catia_multi_model</value>
+        <value>Vf6_CoordinatedChange</value>
+        <value>vf6_dde_store_table</value>
+        <value>Vf6_ecn_data_exchange</value>
+        <value>Vf6_DMU_Relation</value>
+        <value>Vf6_folder_gate_review</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

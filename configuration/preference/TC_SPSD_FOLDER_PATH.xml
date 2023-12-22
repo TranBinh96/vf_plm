@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_SPSD_FOLDER_PATH" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines multiple folders in the Teamcenter database where authors can create processes for testing and verification. All processes can be accessed via Teamcenter Integration for NX, allowing authors to test, validate, and finalize the processes.
+Valid Values:
+Accepts multiple strings as values; each string must be a valid Teamcenter folder name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

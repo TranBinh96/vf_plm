@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.Mechatronics">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Implemented_ByRules" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines any supported valid primary/secondary object combination allowed for the Implemented_By Generic Relationship Management (GRM) relation. GRM rules contain a primary type, a relation type, and multiple secondary types. If no rules are found for any of the super types, the primary-secondary combination is considered invalid for Implemented_By relationship.
+The rules listed for this preference should not be removed. If required, sites should append the secondary list OR add rules for their particular primary types.
+Valid Values:
+Accepts multiple strings as values.Constraints are defined in the following format:
+primaryObjectType:secondaryObjectType1,secondaryObjectType2
+The object types are any valid ImanType type.</preference_description>
+      <context name="Teamcenter">
+        <value>Connection_Terminal:Item</value>
+        <value>Connection:Item</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

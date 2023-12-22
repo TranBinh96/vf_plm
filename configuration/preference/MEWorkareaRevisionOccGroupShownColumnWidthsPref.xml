@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEWorkareaRevisionOccGroupShownColumnWidthsPref" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the widths for the columns displayed (identified by MEPlantContextOccGroupColumnsShownPref) for occurrence group tab of Plant Structure objects in Collaboration Manufacturing Engineering applications.</preference_description>
+      <context name="Teamcenter">
+        <value>27</value>
+        <value>8</value>
+        <value>50</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

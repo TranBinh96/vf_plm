@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PCA_RuleSearch_TypeOptions" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the Constraint type options displayed in the &quot;Search Options&quot; panel, for Context Independent searches of Constraints in the Product Configurator application.
+Valid values are internal names of Constraint types.</preference_description>
+      <context name="Teamcenter">
+        <value>Cfg0IncludeRule</value>
+        <value>Cfg0ExcludeRule</value>
+        <value>Cfg0AvailabilityRule</value>
+        <value>Cfg0DefaultRule</value>
+        <value>Cfg0FreeFormRule</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

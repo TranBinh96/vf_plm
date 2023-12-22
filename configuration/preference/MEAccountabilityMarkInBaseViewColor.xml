@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAccountabilityMarkInBaseViewColor" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the background color used by the Mark In Base View command in the Manufacturing Process Planner application to mark lines in the base view.
+Valid Values:
+Accepts a valid RGB (red green blue) code representing a color. This code represents any color as a combination of three digits, each of which is between 0 and 255. The three digits are separated by commas.</preference_description>
+      <context name="Teamcenter">
+        <value>153,153,255</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

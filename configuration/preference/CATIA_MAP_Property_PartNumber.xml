@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_MAP_Property_PartNumber" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Declare two Teamcenter attributes to define the Nomenclature and PartNumber properties in CATIA by setting the following variables within Teamcenter Preferences.
+CATIA_MAP_Property_Nomenclature=
+Dataset.object_name
+CATIA_MAP_Property_PartNumber=
+Item.object_name
+A blank line marks the end of the definition.
+In this example, dataset name (Dataset.object_name) defines a value of the Nomenclature property in CATIA and item name (Item.object_name) defines a value of the PartNumber property in CATIA.
+A list of attributes can be defined for both values to define their properties. Attribute values are separated by the value of theCATIA_reference_product_partnumber Teamcenter Preference.
+The attribute name corresponds to the Teamcenter Property Display Name which depends on Teamcenter localization.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

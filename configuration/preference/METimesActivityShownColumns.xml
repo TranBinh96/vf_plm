@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METimesActivityShownColumns" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Lists the column names of the attributes that are shown in the Activity table in the operation Times pane in Manufacturing Process Planner.
+Valid Values:
+Accepts one or more strings as values; each string must be a valid property of CfgActivityLine.</preference_description>
+      <context name="Teamcenter">
+        <value>me_cl_display_string</value>
+        <value>al_activity_time_system_code</value>
+        <value>al_activity_time_system_unit_time</value>
+        <value>al_activity_time_system_frequency</value>
+        <value>al_activity_work_time</value>
+        <value>al_activity_time_system_category</value>
+        <value>al_activity_long_description</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

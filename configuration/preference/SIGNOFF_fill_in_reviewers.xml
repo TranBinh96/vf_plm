@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SIGNOFF_fill_in_reviewers" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines how group members are selected by the EPM-fill-in-reviewers handler when attempting to assign un-staffed sign-off profiles. Preference values 1, 2 or 3 only effect the behavior of the $USER handler argument. Preference value 4 effects the behavior of all the arguments, and in organizations with many group memberships per user will perform better as it does not exhaustively attempt to match the user to an un-staffed sign-off profile using all their group memberships.
+1 --&gt; For the $USER handler argument only,it will first attempt to assign un-staffed sign-off profiles using group member from the user&apos;s current log-in setting. If no match is found, it will next attempt to assign group member from the user&apos;s default group setting.If then also no match is found, it will exhaustively attempt to assign a single group member from any other group membership to which the user belongs.
+2 --&gt; For the $USER handler argument only,it will first attempt to assign un-staffed sign-off profiles using group member from the user&apos;s current log-in setting. If no match is found, it will next attempt to assign group member from the user&apos;s default group setting.
+3 --&gt; For the $USER handler argument only,it will attempt to assign un-staffed sign-off profiles using group member from the user&apos;s current log-in setting.
+4 --&gt; For the $USER handler argument only,it will attempt to assign un-staffed sign-off profile using group member from the user&apos;s current log-in setting.For all other handler arguments, It will use the group member the handler argument resolves to.But for cases where the handler argument resolves to a user only, It will use the default group member for that user to assign un-staffed sign-off profiles.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_display_AWcomponent_in_catia" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Define if AW component is displayed in CATIA.
+Possible values:
+- true: Tooltip AW is displayed in CATIA.
+- false: Tooltip AW is not displayed in CATIA.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

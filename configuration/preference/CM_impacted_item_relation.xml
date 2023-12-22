@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_impacted_item_relation" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of relations that contain the target of a change process where workflow handlers attach the objects.
+Valid Values:
+Change Manager relations that contain the target object of a change process. It can be any of the following relations:
+CMHasImpactedItem
+CMHasSolutionItem
+CMImplements
+CMReferences
+CMHasProblemItem
+CMHasWorkBreakdown</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasImpactedItem</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

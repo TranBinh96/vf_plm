@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering> 
+
+	<header>
+
+		<image source="type"/>
+
+		<property name="owning_user"/>
+
+		<property name="last_mod_date"/>
+
+		<property name="release_status_list" renderingHint="label"/>
+
+		<property name="object_type"/>
+
+	</header>
+
+	<page titleKey="tc_xrt_Overview" title="Overview">
+
+		<column>
+
+			<section titleKey="General Info" title="General Info">
+
+				<property name="object_name"/>
+
+				<property name="object_desc"/>
+
+				<property name="vf4_change_type"/>
+
+				<property name="release_status_list" renderingHint="label"/>
+
+				<property name="date_released" renderingHint="label"/>
+
+				<property name="effectivity_text" renderingHint="label"/>
+
+				<property name="CMMaturity"/>
+
+				<property name="CMDisposition"/>
+
+				<property name="CMClosure"/>
+        				<property name="vf4_includes_new_part" />
+        				<property name="vf4_shop" />
+				<property name="vf4_sor_name_rev" />
+        				<property name="vf4_sor_number_rev" />
+       				 <property name="vf4_sor_release_date_rev" />
+
+			</section>     
+
+		</column>
+
+		<column>
+			<section title="Sourcing Properties">
+
+				<property name="vf4_car_program"/>
+
+				<separator/>
+
+				<command commandId="com.teamcenter.vinfast.commands.AddProposalInfo" renderingHint="commandbutton"/>
+				<command commandId="com.teamcenter.vinfast.commands.ClearProposalInfo" renderingHint="commandbutton"/>
+				<objectSet source = "vf4_bom_attributes.VF4_bom_attributes" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+					<tableDisplay>
+						<property name = "vf4_part_revision"/>
+						<property name = "vf4_change_index"/>
+						<property name = "vf4_purchase_level"/>
+					</tableDisplay>
+				</objectSet>
+
+			</section> 
+
+		</column>
+
+		<section title="MCR Request">
+			<objectSet source = "vf4_request_input.VF4_MCR_Input" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+				<tableDisplay>
+					<property name="vf4_action"/>
+
+					<property name="vf4_bop"/>
+
+					<property name="vf4_line"/>
+
+					<property name="vf4_workstation"/>
+
+					<property name="vf4_workstation_name"/>
+
+					<property name="vf4_op"/>
+
+					<property name="vf4_op_name"/>
+
+					<property name="vf4_op_type"/>
+
+					<property name="vf4_op_viet_name"/>
+
+					<property name="vf4_key_data_group"/>
+
+					<property name="vf4_part"/>
+
+					<property name="vf4_uom_tag"/>
+
+					<property name="vf4_part_name"/>
+
+					<property name="vf4_quantity"/>
+
+					<property name="vf4_find_no"/>
+
+					<property name="vf4_pos_id"/>
+
+					<property name="vf4_program_id"/>
+
+					<property name="vf4_plan_effective_date"/>
+
+					<property name="vf4_note"/> 
+				</tableDisplay>
+			</objectSet> 
+
+		</section>
+
+
+
+	</page>
+	<!-- <page titleKey="tc_xrt_ChangeProperties" title="Change Properties">
+		<column>
+			<property name="vf4_is_eng_review_req" />
+			<property name="vf4_is_finance_review_req" />
+			<property name="vf4_is_logistics_review_req" />
+			<property name="vf4_is_mbom_review"/>
+			<property name="vf4_is_purchase_review_req" />
+			<property name="vf4_is_sq_review_required" />
+		</column>
+	</page>  -->
+	<page titleKey="tc_xrt_ReferenceItems">        
+
+		<section titleKey="tc_xrt_ReferenceItems">
+
+			<label textKey="tc_xrt_ReferenceItemsInfo"/>
+
+			<objectSet source="CMReferences.WorkspaceObject,CMReferences.Dataset" defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+
+				<tableDisplay>
+
+					<property name="object_string"/>
+
+
+					<property name="object_name"/>
+
+
+					<property name="object_type"/>
+
+					<property name="release_status_list"/>
+
+					<property name="date_released"/>
+
+					<property name="owning_user"/>
+
+				</tableDisplay>
+
+				<treeDisplay>
+
+					<property name="object_string"/>
+
+					<property name="object_type"/>
+
+					<property name="release_status_list"/>
+
+					<property name="date_released"/>
+
+					<property name="owning_user"/>
+
+				</treeDisplay>
+
+				<thumbnailDisplay/>
+
+				<listDisplay/>
+
+				<command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+
+				<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+
+					<parameter name="localSelection" value="true"/>
+
+				</command>
+
+				<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+
+			</objectSet>
+
+		</section>
+
+		<inject type="dataset" src="RemoteLinksSummary"/>
+
+	</page>
+	<page titleKey="Process Info" title="Process" >
+		<section titleKey="tc_xrt_WorkflowInfo" title="Active Process Information">
+
+			<customPanel java="com.teamcenter.rac.cm.views.WorkflowTasksView" />
+
+		</section>
+	</page>
+
+</rendering>

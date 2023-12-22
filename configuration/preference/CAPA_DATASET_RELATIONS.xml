@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_DATASET_RELATIONS" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Capa Dataset Relation. 
+							These are Relation values that Capa user will see while creating Dataset in CAPA Application.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

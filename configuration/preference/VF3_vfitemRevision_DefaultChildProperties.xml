@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF3_vfitemRevision_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_master_form_rev</value>
+        <value>structure_revisions</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_reference</value>
+        <value>release_status_list</value>
+        <value>PR4D_cad</value>
+        <value>IMAN_snapshot</value>
+        <value>EC_reference_item_rel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

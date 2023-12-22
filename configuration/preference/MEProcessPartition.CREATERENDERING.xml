@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEProcessPartition.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the MEProcessPartitionCreate process stylesheet.</preference_description>
+      <context name="Teamcenter">
+        <value>MEProcessPartitionCreate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

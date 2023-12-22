@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Store_and_Forward_Transfer_Delay" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines (in minutes) how long file transfer is delayed between file upload to the initial volume and file upload to the final destination volume.Use this preference to improve performance if you have a large amount of revisions created, cached, and purged at your site. Because the transfer task does not transfer purged filed, if numerous file revisions are saved frequently at your site, a delay time long enough to allow revisions to be purged before the transfer to the final 
+destination volume reduces network traffic. For example, consider a site where all user files are automatically saved every 15 minutes, and purged after every third revision. If store and forward functionality is enabled, and this preference is set to 46, the transfer task activates every 46 minutes, sees that the revisions have been purged, and does not attempt the transfer. Only files not purged are transferred to the destination volume, decreasing network traffic.
+Valid Values:
+Any positive integer.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_thumbnails_store_file_in_source_vol" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies that Thumbnails visualization data files for a source dataset will be
+stored in the same volume as the associated source dataset data files.
+The default value is true. If the value of this property is set to false, visualization data files will be stored in the TS Proxy User
+default volume.
+The TS Proxy User MUST be granted access to all volumes where source dataset data files are stored unless the value of this property is false.
+This property must be specified such that it applies to all Services.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

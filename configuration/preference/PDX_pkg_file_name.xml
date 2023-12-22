@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PDX Offline.Export">
+    <category_description>Extends data export capabilities to export Teamcenter data as PDX package.</category_description>
+    
+               <preference name="PDX_pkg_file_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the format for the name of the PDX package file when exported from Teamcenter. The format of the preference value is (all values are optional): 
+PDX-string:ItemId:RevId:ItemName:TargetSite:TimeStamp
+You can use the following keywords in this preference.
+ItemId
+ItemNameRevId
+TargetSite
+TimeStamp
+Valid Values:
+PDX-string - PDX-string is a string constant prefixed to the package file name of each exported package. You can use this to identify the package as desired, such as by the originating site.
+ItemId - Includes the item ID of the exported object as part of the package file name.
+ItemName - Includes the item name of the exported object as part of the package file name.
+RevId - Includes the revision ID of the exported object as part of the package file name.
+TargetSite - Includes the site name the object exported to as part of the package file name.
+TimeStamp - Includes the time stamp information at the time the object is exported as part of the package file name.</preference_description>
+      <context name="Teamcenter">
+        <value>PDX:ItemId:RevId:TargetSite:TimeStamp</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

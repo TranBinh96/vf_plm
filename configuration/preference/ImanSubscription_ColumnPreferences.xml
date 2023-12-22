@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Maintenance.Subscription Monitor">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ImanSubscription_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>The list of property names to be displayed as columns in ImanSubscription table.</preference_description>
+      <context name="Teamcenter">
+        <value>ImanSubscription.subscriber</value>
+        <value>ImanSubscription.target</value>
+        <value>ImanSubscription.event_type</value>
+        <value>ImanSubscription.logic_operators</value>
+        <value>ImanSubscription.attribute_names</value>
+        <value>ImanSubscription.attribute_values</value>
+        <value>ImanSubscription.math_operators</value>
+        <value>ImanSubscription.fnd0Condition</value>
+        <value>ImanSubscription.execution_time</value>
+        <value>ImanSubscription.expiration_date</value>
+        <value>ImanSubscription.fnd0EventHandlers</value>
+        <value>ImanSubscription.handler_parameters</value>
+        <value>ImanSubscription.fnd0TransferState</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

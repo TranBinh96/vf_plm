@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+ ==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<!--Style sheet rendering for DESIGNS section. -->
+<subRendering>
+    <content  visibleWhen="{pref:FND0_ENABLE_CBA_EXPOSURE}==true">
+        <section titleKey="tc_xrt_AlignedDesigns">
+            <objectSet source="Fnd0AlignedDesignsProvider.Fnd0AlignedDesign" defaultdisplay="listDisplay" sortby="" sortdirection="">
+                <tableDisplay>
+                    <property name="object_string" modifiable="false"/>
+                    <property name="fnd0IsPrimary" modifiable="false"/>
+                    <property name="fnd0Type"/>
+                    <property name="fnd0ReleaseStatusList"/>
+                    <property name="fnd0RenderingDatasets"/>
+                    <property name="fnd0OwningUser" renderingHint="objectlink" modifiable="false"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name="object_string"/>
+                </treeDisplay>
+                <listDisplay/>
+                <thumbnailDisplay/>
+                <command actionKey="alignDesign" commandId="Awp0AlignDesign"/>
+                <command commandId="Awp0SetPrimaryDesign"/>
+                <command commandId="Awp0UnAlignDesign"/>
+            </objectSet>
+        </section>
+    </content>
+</subRendering>

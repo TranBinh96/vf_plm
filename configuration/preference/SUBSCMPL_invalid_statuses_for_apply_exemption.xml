@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_invalid_statuses_for_apply_exemption" type="Integer" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the invalid statuses of the compliance result for which exemptions are not required.
+Valid values are the internal values for the LOV &quot;Scp0SubstanceComplianceStatus&quot;. Its out-of-the-box values are:
+* 0: PASS.
+* 1: FAIL.
+* 3: Unapproved FAIL.
+* 4: Approved PASS.
+* 6: Invalid.
+* 7: No Data.
+* 8: Supplier Pass.
+* 9: Supplier Fail.
+* 10: Supplier Unknown.
+* 11: Error Zero Mass Provided.
+* 13: Declarable.</preference_description>
+      <context name="Teamcenter">
+        <value>5</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

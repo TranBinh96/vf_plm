@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="com.teamcenter.rac.pse.PSEApplication\\Manufacturing\\*\\HIDDEN_COMMANDS" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>com.ebsolutions.tmcv5.exportAsReferenceFromPSEAction,com.teamcenter.rac.exportToPLMXML,com.ebsolutions.tmcv5.loadAsReferenceFromPSEAction,com.teamcenter.rac.exportConfiguredNXAssembly,deleteAction,com.ebsolutions.tmcv5.saveActiveShapeName,exportOfflineGmsAction,com.teamcenter.rac.sourcingCreateLineItems,com.teamcenter.rac.express.RPExport,com.ebsolutions.tmcv5.exportAssemblyFromPseAction,com.teamcenter.rac.deXchngSendSelected,exportObjectsAction,com.teamcenter.rac.deXchngAddtoExisting,com.ebsolutions.tmcv5.loadConsultingAction,com.ebsolutions.tmcv5.catPvCatia2JtAction,com.ebsolutions.tmcv5.loadForCompareAction,com.ebsolutions.tmcv5.loadAsCGRAction,com.ebsolutions.tmcv5.saveAssyConfigAction,exportToWordAction,com.teamcenter.rac.substanceComplAddtoExisting,com.teamcenter.rac.substanceComplSendSelected,exportRemoteGmsAction,com.ebsolutions.tmcv5.createSprdSheetAction,exportToConnectionAction</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

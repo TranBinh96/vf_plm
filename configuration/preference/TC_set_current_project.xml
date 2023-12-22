@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_set_current_project" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the project saved in the previous Teamcenter session for a particular user is set as the current project in a new session for the same user.
+Valid values are:
+* true: The project saved in the previous Teamcenter session is set as the current project in the new Teamcenter session. This is the default value.
+* false: The project saved in the previous Teamcenter session is not set as the current project in the new Teamcenter session.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_view_selection_order" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the order in which Classification views are searched, based on the current user ID.
+Valid Values:
+Any of following strings as values. The order of the values determines the order in which the views are searched.
+USER
+PROJECT
+ROLE
+GROUP</preference_description>
+      <context name="Teamcenter">
+        <value>USER</value>
+        <value>PROJECT</value>
+        <value>ROLE</value>
+        <value>GROUP</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

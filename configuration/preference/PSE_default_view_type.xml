@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Behavior">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSE_default_view_type" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which view type preference Design Context and Structure Manager queries use. By default, the system uses the TC_NX_View_Type preference, which in turn, is set to view by default.
+Valid Values:
+A single string as a value; the string must be a valid Teamcenter preference, set to a valid query type.</preference_description>
+      <context name="Teamcenter">
+        <value>PR4D_cad</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

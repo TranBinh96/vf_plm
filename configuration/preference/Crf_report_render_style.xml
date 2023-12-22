@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Reports">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Crf_report_render_style" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the rendering CSS style of the html reports. The styles are the values of xml attribute &quot;category&quot; defined in the file &quot;TC_DATA/crf/CrfReportRenderStyles.xml&quot;.
+User can modify the existing styles or create own styles.
+Following are the OOTB valid values:
+* AW: The reports are generated with AW look. This is the default value.
+* Classic: The reports are generated with classic look.</preference_description>
+      <context name="Teamcenter">
+        <value>AW</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

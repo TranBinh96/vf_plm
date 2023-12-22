@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_translation_service_name" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>The TSTK provider name and service name of the translator to be used for Catia V5 to JT translation. This preference value is specified using the provider and service attribute values from the corresponding translator element in the TSTK Module configuration translator.xml file (e.g. SIEMENS.catiav5tojt). WARNING: If this preference is not specified, requests for Catia V5 to JT translations will be ignored.</preference_description>
+      <context name="Teamcenter">
+        <value>SIEMENS.catiav5tojt</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

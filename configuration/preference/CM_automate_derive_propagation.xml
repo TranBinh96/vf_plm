@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_automate_derive_propagation" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Automates the propagation of relations from source to derived objects for a derive change operation.
+Valid Values:
+* true: For a derive change operation, relations are propagated from source to derived objects. This is the default value.
+* false: For a derive change operation, relations are not propagated from source to derived objects.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

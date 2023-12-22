@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ARM_cut_objects" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Activates the system&apos;s cut objects performance transaction. 
+This measures the elapsed time from the beginning of operation to the display of remaining objects.
+Valid Values:
+* ON: Enables performance monitoring of the cut objects performance transaction.
+* OFF: Suppresses performance monitoring of the cut objects performance transaction.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

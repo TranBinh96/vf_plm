@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering>
+   <page title="General Information" titleKey="tc_xrt_cm_general_information">
+      <section titleKey="tc_xrt_properties">
+         <label text="NOTE: Since 06 Oct 2023, this function no longer avaiblable to create Cell Design Part." />
+         <label
+            text="For new function please use “Tools VES => General => Create” to create Cell Design Part." />
+         <!-- <property name="item_id" renderingHint="textfield" />
+         <property name="object_name" renderingHint="textfield" />
+         <property name="object_desc" />
+         <property name="vf4_item_make_buy" />
+         <property name="vf4_is_finished_good" />
+         <property name="fnd0IdGenerator:vf4_model" />
+         <property name="fnd0IdGenerator:vf4_group_name" />
+         <separator />
+         <property name="uom_tag" /> -->
+         <!--<customPanel
+         java="com.teamcenter.rac.cm.wizards.ui.PropsPageRelationshipPanel"
+         js="displayCMCustomePanel"/>-->
+      </section>
+   </page>
+</rendering>

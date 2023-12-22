@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_ChangeRequestRevision_Relations_To_Propagate" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of relations to be propagated when deriving a change from a change request revision.
+Valid Values:
+One or more strings representing a valid Change Manager relation.</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasProblemItem</value>
+        <value>CMHasImpactedItem</value>
+        <value>CMReferences</value>
+        <value>IMAN_reference</value>
+        <value>Cm0HasProposal</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

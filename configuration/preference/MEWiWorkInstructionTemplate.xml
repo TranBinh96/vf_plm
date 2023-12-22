@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEWiWorkInstructionTemplate" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies a name of a specification template that contains a Microsoft Word document used as a work instruction template. The template is used as a starting point for work instruction documents.
+Valid Values:
+Accepts a valid Teamcenter specification template name.</preference_description>
+      <context name="Teamcenter">
+        <value>TWI_TC1017OOTB_spec_template</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

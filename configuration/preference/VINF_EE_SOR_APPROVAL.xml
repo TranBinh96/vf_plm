@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_EE_SOR_APPROVAL" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Use set AL for EE SOR Process</preference_description>
+      <context name="Teamcenter">
+        <value>VF4_Compo_DesignRevision</value>
+        <value>Program;Model;Module</value>
+        <value>Module Leader Review;Update Piece Cost (Make Part);Chief Engineer Review;CL pre-approval;CL final approval;R&amp;D Director Review;R&amp;D Head Review;Update Target Cost (Buy Part)</value>
+        <value>CPDU;AA;BIW=admin.thuy;admin.thuy;admin.nguyen;admin.nguyen,admin.thuy;;;;admin.thuy</value>
+        <value>CPDU;AB;BIW=admin.nguyen;admin.nguyen;admin.thuy;admin.nguyen,admin.thuy;;;;admin.nguyen</value>
+        <value>CPDU;AC;BIW=admin.thuy;admin.thuy;admin.thuy;admin.nguyen,admin.thuy;;;;admin.thuy</value>
+        <value>CPDU;XN;BIW=admin.nguyen;admin.nguyen;admin.nguyen;admin.nguyen,admin.thuy;;;;admin.nguyen</value>
+        <value>CPDU;XV;BIW=admin.truong;admin.truong;admin.truong;admin.nguyen,admin.thuy;;;;admin.truong</value>
+        <value>CPDU;XX;BIW=admin.huy;admin.huy;admin.huy;admin.nguyen,admin.thuy;;;;admin.huy</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

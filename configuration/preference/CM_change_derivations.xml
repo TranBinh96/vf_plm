@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Issue Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_change_derivations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the type of change to create from a given source type during the derive change process.
+Valid Values:
+source-type/derived-type
+source-type is the type of change from which to derive the change; derived-type is the type of change to be created.</preference_description>
+      <context name="Teamcenter">
+        <value>ProblemReport/ChangeRequest</value>
+        <value>ProblemReport/Cm0DevRqst</value>
+        <value>ChangeRequest/ChangeNotice</value>
+        <value>Cm0DevRqst/ChangeNotice</value>
+        <value>Cm0ActionItem/ChangeRequest</value>
+        <value>Cm0ActionItem/Cm0DevRqst</value>
+        <value>IssueReport/ChangeRequest</value>
+        <value>PnM0Penetration/ChangeRequest</value>
+        <value>C2Capa/ChangeRequest</value>
+        <value>C2Capa/ChangeNotice</value>
+        <value>C2Capa/ProblemReport</value>
+        <value>C2Issue/ChangeNotice</value>
+        <value>C2Issue/ChangeRequest</value>
+        <value>C2Issue/ProblemReport</value>
+        <value>C2Issue/C2Capa</value>
+        <value>C2IssueNonConf/ChangeRequest</value>
+        <value>C2IssueNonConf/ChangeNotice</value>
+        <value>C2IssueNonConf/ProblemReport</value>
+        <value>C2IssueNonConf/C2Capa</value>
+        <value>C2IssueComplaint/ChangeRequest</value>
+        <value>C2IssueComplaint/ChangeNotice</value>
+        <value>C2IssueComplaint/ProblemReport</value>
+        <value>C2IssueComplaint/C2Capa</value>
+        <value>C2Capa/Vf6_ECR</value>
+        <value>Vf6_ECR/Vf6_ECN</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

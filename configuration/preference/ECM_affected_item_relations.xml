@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ECM_affected_item_relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>The list of relations that are considered to be affected items of an EC Used by workflow handlers to attach the objects under these relations as target of a EC process.</preference_description>
+      <context name="Teamcenter">
+        <value>EC_affected_item_rel</value>
+        <value>EC_solution_item_rel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

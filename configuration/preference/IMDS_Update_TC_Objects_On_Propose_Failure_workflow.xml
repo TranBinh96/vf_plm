@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_Update_TC_Objects_On_Propose_Failure_workflow" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the name of the workflow to instantiate when an International Material Data System (IMDS) object data requires custom validation by custom handler before importing the International Material Data System (IMDS) objects to Teamcenter when the &quot;Propose&quot; action is not successful.
+If no value is provided, the value for the preference &quot;IMDS_Update_TC_Objects_On_Upload_Failure_workflow&quot; is used instead.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

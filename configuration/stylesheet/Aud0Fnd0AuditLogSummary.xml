@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Fnd0AuditLogl object in Active Workspace Client. -->
+<rendering>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+            <property name="fnd0LoggedDate"/>
+            <property name="fnd0EventTypeName"/>
+            <property name="fnd0UserId"/>
+            <property name="fnd0GroupName"/>
+            <property name="fnd0RoleName"/>
+            <property name="fnd0Object"/>
+            <property name="object_name"/>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_AllProperties">
+             <all type="property"/>
+    </page>
+</rendering>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Collaboration Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ALLOC_Product_Representation_Types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>For use with allocation functionality. Specifies which BOM view types can be used to create allocations in the specified allocation map. For example, ensure allocations are created only between MEProcess and View types for the AllocationMap_one allocation context by setting this preference to:AllocationMap_one:MEProcess,View
+Valid Values:
+Allocation map type:View type1,View type2
+Where Allocation map type is a valid Teamcenter allocation map type, and all View type entries are valid subtypes of Teamcenter views.</preference_description>
+      <context name="Teamcenter">
+        <value>AllocationMap:view,CAEAnalysis,MEProcess,MESetup,ElectricalHarness</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

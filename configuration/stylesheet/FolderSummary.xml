@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+================================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+     Filename: FolderSummary.xml
+
+    Style sheet rendering for Folder summary.
+=======================================================================
+-->
+
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+       <column>
+            <section titleKey="tc_xrt_properties">
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+                <separator/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+                <property name="last_mod_user"/>
+                <separator/>
+                <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+            </section>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                <command actionKey="copyAction" commandId="com.teamcenter.rac.copy"/>
+            </section>
+        </column>
+    </page>
+    <page titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+        <objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link,contents.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="lis0site"/>
+                <property name="lis0serviceProvider"/>
+                <property name="relation"/>
+                <property name="last_mod_date"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out_user"/>
+            </tableDisplay>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+            <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </page>
+    <page titleKey="tc_xrt_AuditLogs" visibleWhen="{pref:TC_audit_manager_version}==3">
+        <command titleKey="tc_xrt_ExportToExcel"  actionKey="exportExcelAction" commandId = "com.teamcenter.rac.exportAuditSummaryToExcel" renderingHint="commandbutton"/>
+        <command titleKey="tc_xrt_ExportToCSV" actionKey="exportCSVAction" commandId = "com.teamcenter.rac.exportAuditSummaryToCSV" renderingHint="commandbutton"/>
+        <section titleKey="tc_xrt_GeneralLogs" initialstate="collapsed">
+        <customPanel java="com.teamcenter.rac.auditmanager.CheckoutHistoyLinkPanel"/>
+            <objectSet source="fnd0GeneralAuditLogs.Fnd0GeneralAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="object_type"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="object_name"/>
+                    <property name="fnd0PrimaryObjectID"/>
+                    <property name="fnd0PrimaryObjectRevID"/>
+                    <property name="fnd0UserId"/>
+                    <property name="fnd0SponsoringUserID"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>
+                    <property name="item_id"/>
+                    <property name="item_revision_id"/>
+                    <property name="sequence_id"/>
+                    <property name="fnd0ChangeID"/>
+                    <property name="fnd0Reason"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

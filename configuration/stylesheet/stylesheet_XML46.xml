@@ -1,0 +1,101 @@
+ <!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>	
+<column width="30%">
+	<section titleKey="tc_xrt_properties">
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).item_id" renderingHint="label"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).item_revision_id" renderingHint="label"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).object_name"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).object_desc"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).object_type"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_supplier_code"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_supplier_country"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_manuf_location"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_bmw_nominated_supplier" />
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_time"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_cad_sor_rel_date"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_plan_rfi"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_sor_actual_date"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_forecast_rfi_date"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_quote_received"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_actual_rfi"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_date1"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_sourcing_recommendation"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_actual_quote_received"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_date2"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_plan_award_supplier"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_sourcing_recommendAppr"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_date3"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_ednd_order_plan_d"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_actual_award_supplier"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_forcecast_date_ednd_ord"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_tool_order_release_plan"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).vf4_forecastDateToolOrderRe"/>
+                <content visibleWhen="structure_revisions==null">
+                    <inject type="dataset" src="Ads1BlankLine" />
+                </content>  
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).release_status_list" renderingHint="label"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).date_released" renderingHint="label"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).effectivity_text" renderingHint="label"/>           
+                <break/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).owning_group" renderingHint="objectlink" modifiable="false"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).last_mod_user"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).checked_out" renderingHint="label"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).checked_out_user"/>
+                <content visibleWhen="structure_revisions==null">
+                    <inject type="dataset" src="Ads1BlankLine" />
+                </content>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).fnd0CurrentLocationCode"/>
+                <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+            </section>
+           
+            <section titleKey="tc_xrt_Projects" visibleWhen="structure_revisions==null">
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).owning_project" renderingHint="label"/>
+                <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).project_list"/>
+            </section>
+     <section titleKey="tc_xrt_Licenses" visibleWhen="structure_revisions==null">
+        <property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).license_list"/>
+    </section>
+           </column>
+         <column width="25%">
+              <section titleKey="tc_xrt_GlobalAlternates">
+                  
+        <objectSet source="Awp0AlternatesProvider.Item" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="object_type"/>
+                <property name="release_status_list"/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            </tableDisplay>
+            <treeDisplay>
+                <property name="object_string"/>
+            </treeDisplay>
+            <listDisplay/>
+            <thumbnailDisplay/>
+            <command actionKey="addAlternate" commandId="ps0AddAlternate"/>
+            <command actionKey="removeAlternate" commandId="ps0RemoveAlternate"/>
+        </objectSet>
+        
+    </section>
+       
+        </column>
+         <column width="45%">
+            <section titleKey="tc_xrt_Preview"/>
+<property name="GRMS2P(VF4_SourcingCostFormRela,VF4_CostRevision).GRMS2P(VF4_Costing_Reference,VF4_DesignRevision).GRMREL(IMAN_Rendering,DirectModel).secondary_object" titleKey="JT File"/>
+                   <inject type="dataset" src="Awp0GalleryViewer" module="js/aw-include.directive" />
+            </section>
+            <view name="actions">
+                <command actionKey="copyAction" commandId="com.teamcenter.rac.copy"/>
+                <command actionKey="reviseAction" commandId="com.teamcenter.rac.revise"/>
+                <command actionKey="saveAsAction" commandId="org.eclipse.ui.file.saveAs"/>
+            </view>
+        </column>
+</subRendering>	

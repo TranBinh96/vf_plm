@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEPasteByRuleOccProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the BOM Line properties to be included during a &quot;Paste By Rule&quot; operation between a Bill Of Process (BOP) and a Plant BOP.
+Valid values are BOM Line property internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_abs_occ_id</value>
+        <value>bl_all_notes</value>
+        <value>bl_occ_type</value>
+        <value>bl_plmxml_abs_xform</value>
+        <value>bl_quantity</value>
+        <value>bl_condition_tag</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

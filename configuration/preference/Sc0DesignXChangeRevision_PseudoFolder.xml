@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Sc0DesignXChangeRevision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that are displayed as a pseudo-folder under a node for Sc0DesignXChangeRevision object.</preference_description>
+      <context name="Teamcenter">
+        <value>vm0ExchangeLines</value>
+        <value>vm0ResponseLines</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

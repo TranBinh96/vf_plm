@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: MEIntegerDCDCreate.xml
+
+    Style sheet rendering for the creation of Mes0MEIntegerDCDForm.
+=======================================================================
+-->
+
+<rendering>
+
+    <page title="IntegerDCD Information" titleKey="tc_xrt_IntegerDCDInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="mes0isOptional" />
+            <property name="mes0MinValue" />
+            <property name="mes0MaxValue" />
+            <property name="mes0AlertMinValue" />
+            <property name="mes0AlertMaxValue" />
+            <property name="mes0CautionMinValue" />
+            <property name="mes0CautionMaxValue" />
+            <property name="mes0OutOfRangeBhr" />
+            <property name="mes0DataAcquisitionMethod" />
+            <property name="mes0ValuePlaceholder" />
+        </section>
+    </page>
+
+</rendering>

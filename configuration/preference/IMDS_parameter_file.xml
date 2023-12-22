@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_parameter_file" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the International Material Data System (IMDS) parameter file to be used by International Material Data System (IMDS) dat to XSL transformation utility.</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">$TC_DATA/tcsc_imds_integration/configuration/imds_parameter_file.txt</value>
+        <value platform="WNT">%TC_DATA%\tcsc_imds_integration\configuration\imds_parameter_file.txt</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

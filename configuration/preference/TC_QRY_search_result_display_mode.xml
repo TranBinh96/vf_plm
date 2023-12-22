@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_QRY_search_result_display_mode" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the search result display mode.
+Valid Values:
+* 1: The total number of found objects is not displayed. This is the default value.
+* 2: The total number of found objects only accounts for objects for which the user has access privileges.</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.TCAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_usage_synchronized_architecture_type" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>For Global RDV Automation default is Architecture</preference_description>
+      <context name="Teamcenter">
+        <value>Architecture</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

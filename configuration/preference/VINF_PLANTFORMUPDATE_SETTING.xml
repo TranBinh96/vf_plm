@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_PLANTFORMUPDATE_SETTING" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>No description is available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>VF_Transfer_SAP_MM_Car_Unknown_Plant;RTMS;VF_MM_TRANSFER_UNKNOWN_PLANT;</value>
+        <value>VF4_Design,VF4_plant_form;VF3_manuf_part,VF3_plant_form;VF4_Compo_Design,VF4_plant_form;VF3_Scooter_part,VF3_plant_form;VF4_BP_Design,VF4_plant_form;Design,VF4_plant_form;VF4_Cell_Design,VF4_plant_form;VF4_VES_ME_Part,VF3_plant_form;VF3_me_scooter,VF3_plant_form</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

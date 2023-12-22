@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCIC_co_warn_link_types" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of link types between a source object and its target.
+Use the TCIC_co_warn_on_linked_doc preference to display a warning message during Check Out, if necessary, based on the links defined in this preference.
+Available Link Types:
+- To manage catia link type REF- REF: Content of CATIA_mml_link_type
+- To manage catia link type Ref-Inst: Content of CATIA_mmlassy_link_type
+- To manage catia link type DWG: Content of CATIA_drawing_link_type
+- To manage catia link type Process: Content of CATIA_manufacturing_link_type
+- To manage catia link type Analysis: Content of CATIA_analysis_link_type
+- To manage catia link type Flattening: Content of CATIA_flattening_link_type
+All others values are ignored</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

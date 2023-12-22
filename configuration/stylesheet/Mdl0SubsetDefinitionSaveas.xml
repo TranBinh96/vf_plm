@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2011.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Mdl0SubsetDefinitionSaveas.xml
+
+    Style sheet rendering for Mdl0SubsetDefinition save as.
+=======================================================================
+-->
+
+<rendering>   
+    <page title="Subset Definition Information" titleKey="tc_xrt_SubsetInfo">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name"/>
+            <property name="object_desc" />
+        </section>
+    </page>      
+</rendering>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2015 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Awp0ImanSubscriptionInfoSummary.xml
+
+Default style sheet for displaying Subscription Object Summary Active Workspace.
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+  <header>
+    <image source = "type"/>
+  </header>
+  <page titleKey="tc_xrt_Overview" >
+    <section titleKey="tc_xrt_Properties">
+      <property name="fnd0Name" />
+      <property name="event_type" modifiable="false"/>
+      <property name="fnd0Frequency"/>
+      <property name="fnd0Priority"/>
+      <property name="expiration_date"/>
+      <property name="fnd0IsActive"/>
+      <property name="subscriber" modifiable="false"/>
+      <property name="fnd0TemporaryNotifier" modifiable="false"/>
+      <property name="fnd0TempNotifyStartDate" modifiable="false"/>
+      <property name="fnd0TempNotifyEndDate" modifiable="false"/>
+      <property name="fnd0TransferState" modifiable="false"/>
+    </section>
+    <section titleKey="tc_xrt_TargetObject">
+      <property name="target"  modifiable="false" />
+    </section>
+  </page>
+</rendering>

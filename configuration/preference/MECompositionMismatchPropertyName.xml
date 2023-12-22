@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECompositionMismatchPropertyName" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference indicate whether the current revision of the underlying component is different than the revision during assignment.
+Valid Values:
+&quot;fnd0CompositionRevMismatch&quot;: an indication icon will be shown
+All other values: no indication icon will be shown.
+The default value is empty.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

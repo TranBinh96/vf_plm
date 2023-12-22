@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configurator Services">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0_Content_Solve_Service_Batch_Size" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the target size of a Content Solve request that should not be undershot unless the task is smaller than these many variant conditions to solve. Teamcenter will fill up requests according to the target request size. When it makes sense the task will be broken up into multiple requests each having the target size. These requests can be processed in parallel according to preference Cfg0_Service_Connections_Count.</preference_description>
+      <context name="Teamcenter">
+        <value>128</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

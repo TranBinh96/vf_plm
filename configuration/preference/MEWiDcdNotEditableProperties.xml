@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEWiDcdNotEditableProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of data collection properties (DCDs) that cannot be edited in the Properties dialog box of the Work Instructions view.
+Valid Values:
+Accepts strings of the following format:DCD_type:att1,att2...
+DCD_type is a descendant type of the DCD base form.</preference_description>
+      <context name="Teamcenter">
+        <value>Mes0MEIntegerDCDForm:mes0ValuePlaceholder</value>
+        <value>Mes0MERealDCDForm:mes0ValuePlaceholder</value>
+        <value>Mes0MEStringDCDForm:mes0ValuePlaceholder</value>
+        <value>Mes0MEBooleanDCDForm:mes0ValuePlaceholder</value>
+        <value>Mes0METimeDCDForm:mes0ValuePlaceholder</value>
+        <value>Mes0MEEndTimeDCDForm:mes0ValuePlaceholder</value>
+        <value>Mes0MEBuyoffDCDForm:mes0ValuePlaceholder</value>
+        <value>Mes0MEDurationDCDFrm:mes0ValuePlaceholder</value>
+        <value>Mes0MEImageDCDForm:mes0ValuePlaceholder</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

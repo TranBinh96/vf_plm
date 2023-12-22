@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+===============================================================================
+Filename: Mtw0Mat1SubstanceCreate.xml
+Default activeworkspace style sheet rendering for Substance creation.
+-->
+<rendering>
+    <page>
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="mat1cas_number" />
+            <property name="object_desc" />
+        </section>
+    </page>
+</rendering>

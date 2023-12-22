@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Filter Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextSearchEnginePreference" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the search engine referenced by Design Context.
+Valid Values:
+CachelessSearchEngineFactory
+The value must match one of the keywords defined in the \com.teamcenter.rac.tcapps\com\teamcenter\rac\designcontext\ designcontext.properties file. If the value set for this preference is not found in the designcontext.properties file, the default value for this preference is used.</preference_description>
+      <context name="Teamcenter">
+        <value>QPLSearchEngineFactory</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

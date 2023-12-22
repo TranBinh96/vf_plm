@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ctm0GraphicClassPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Displays installed graphic classes for selection during import.
+Valid Values:
+Accepts one or more strings as values.
+For example, 
+Graphic
+S1000D Graphic</preference_description>
+      <context name="Teamcenter">
+        <value>Graphic</value>
+        <value>S1000D Graphic</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

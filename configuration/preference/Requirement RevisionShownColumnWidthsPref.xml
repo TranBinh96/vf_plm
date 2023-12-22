@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Requirement RevisionShownColumnWidthsPref" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the widths in pixel for the columns displayed in the Systems Engineering application.
+The list of columns is defined by the &quot;Requirement RevisionColumnsShownPref&quot; preference.</preference_description>
+      <context name="Teamcenter">
+        <value>15</value>
+        <value>14</value>
+        <value>12</value>
+        <value>6</value>
+        <value>6</value>
+        <value>12</value>
+        <value>16</value>
+        <value>9</value>
+        <value>9</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

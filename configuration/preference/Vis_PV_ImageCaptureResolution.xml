@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ProductView">
+    <category_description>
+      Preferences affecting the behavior of Product views
+</category_description>
+    
+               <preference name="Vis_PV_ImageCaptureResolution" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the resolution of the preview image created when saving a Product View from the Lifecycle Visualization application.
+A valid value is any positive integer from 1 (lowest) to 1040 (highest resolution).</preference_description>
+      <context name="Teamcenter">
+        <value>250</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

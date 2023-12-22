@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="LRD_Response_Record_Object" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the name of the business object that must be created to record details when the email polling functionality generates a response of type &quot;LRD&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Scp0EmailResponseRecord</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

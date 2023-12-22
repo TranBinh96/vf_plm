@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2013 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: VisStructureContextSummary.xml
+
+New style sheet for displaying Structure Context Object Summary 
+===============================================================================
+-->
+<rendering>
+    <header>
+        <image source = "thumbnail"/>
+        <property name = "object_name"/>
+        <property name = "object_type"/>
+     </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name = "object_name"/>
+                <property name = "object_desc"/>
+                <property name = "object_type"/>
+                <property name = "object_properties"/>
+                <separator/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+                <property name="last_mod_user"/>
+                <property name="last_mod_date"/>
+            </section>
+        </column>
+        <column>    
+         <section titleKey ="tc_xrt_assignedVendorContacts" title= "Assigned Vendor Contacts">
+            <objectSet source = "Sc0ContactSCO.CompanyContact" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay maxRowCount = "3">
+                    <property name = "object_name"/>
+                    <property name = "sc0VendorName"/>
+                    <property name = "fnd0CompanyLocations"/>
+                </tableDisplay>
+               <command actionKey = "addAction" commandId = "com.teamcenter.rac.AssignVendorContacts" renderingHint = "commandbutton" align="right"/>
+                <command actionKey = "removeAction" commandId = "com.teamcenter.rac.RemoveVendorContacts" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+       </column>
+       <separator/>
+                <command titleKey = "tc_xrt_moreProperties" commandId = "com.teamcenter.rac.properties"/>
+    </page>
+
+    <page title="Attachments" titleKey="tc_xrt_attachments">
+        <section titleKey ="tc_xrt_Files" title= "Files">
+            <objectSet source = "Sc0ImageForSupplier.Dataset" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay maxRowCount = "3">
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "object_desc"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+               <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Volume Info Panel in Revolution Client. -->
+<rendering>
+    <!--header>
+        <property name="object_string"/>
+    </header-->
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_properties">
+            <property name="volume_name"/>
+            <property name="creation_date"/>
+            <property name="last_mod_date"/>
+            <property name="node_name"/>
+            <property name="owning_user"/>
+            <property name="owning_group"/>
+            <property name="owning_site"/>
+        </section>
+    </page>
+    <inject type="dataset" src="AuditLogForOrg"/>
+</rendering>

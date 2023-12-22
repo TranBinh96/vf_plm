@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Teamcenter Microservices">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Microservices_Base_URL" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference defines how Teamcenter can connect to the docker stack deployed to the Teamcenter Service environment. Assuming Service Dispatcher is deployed at &quot;tcServices.company.com&quot; on port 9090 then specify http://tcServices.company.com:9090. Use https (e.g. https://tcServices.company.com:9090) if Service Dispatcher supports https communication. There should be no slash at the end of URL string.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

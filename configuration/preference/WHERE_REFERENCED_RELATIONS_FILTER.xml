@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WHERE_REFERENCED_RELATIONS_FILTER" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relations displayed in the &quot;Where-Referenced&quot; relation filter combo box, which is used to select relation filter criteria.
+This enables showing such relations in the combo box, while preventing them to be displayed in the &quot;Paste As&quot; dialog or in defined as child relations. Vertical industry solutions can leverage this preference by adding relations.
+Valid value of relations are relation internal names (e.g. CP_Has_Has_Copy_Element, CP_Has_Package_Concept).</preference_description>
+      <context name="Teamcenter">
+        <value>CP_Has_ThemeBoard</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

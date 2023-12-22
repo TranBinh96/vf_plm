@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Commercial Part Revision Info Panel in Active Workspace Client. -->
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page titleKey="tc_xrt_Summary" visibleWhen="structure_revisions==null and ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_properties">
+            <property name="item_id" renderingHint="label"/>
+            <property name="item_revision_id" renderingHint="label"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="object_type"/>
+            <inject type="dataset" src="Pma1PartRevSummary"/>
+            <break/>
+            <property name="release_status_list" renderingHint="label"/>
+            <property name="date_released" renderingHint="label"/>
+            <property name="effectivity_text" renderingHint="label"/>
+            <break/>
+            <inject type="dataset" src="Ads1ProjectListInfoRendering"/>
+            <break/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_user"/>
+            <property name="last_mod_date"/>
+            <property name="checked_out" renderingHint="label"/>
+            <property name="checked_out_user"/>
+            <break/>
+            <property name="fnd0CurrentLocationCode"/>
+            <property name="REF(items_tag,CommercialPart).fnd0OriginalLocationCode"/>
+            <break/>
+        </section>
+    </page>
+    <page titleKey="attachments" visibleWhen="structure_revisions==null and ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+        <section titleKey="tc_xrt_Files">
+            <objectSet source="IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset,IMAN_UG_altrep.Dataset,IMAN_UG_scenario.Dataset,IMAN_Simulation.Dataset" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                <listDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </listDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_Documents">
+            <objectSet source="IMAN_specification.DocumentRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                <listDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </listDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+            </objectSet>
+        </section>
+    </page>
+    <content visibleWhen="object_type==CommercialPart Revision" >
+        <page titleKey="tc_xrt_VendorParts">
+            <column>
+                <objectSet source="VMRepresents.ManufacturerPart" defaultdisplay="tableDisplay" sortdirection="descending" sortby="item_id">
+                    <listDisplay>
+                        <property name="item_id"/>
+                        <property name="object_name"/>
+                        <property name="object_desc"/>
+                        <property name="vm0vendor_ref"/>
+                        <property name="vendor_name"/>
+                        <property name="vm0company_location"/>
+                        <property name="VMRepresents.preferred_status" />
+                    </listDisplay>
+                </objectSet>
+            </column>
+        </page>
+    </content>
+</rendering>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_cmd_vendor_part_request_xsl_file" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the path to the XSL file used to convert convert TC-XML file into conflict mineral declaration request XML file for vendor part.</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">$TC_DATA/subscmpl_data/xsl/tcxml_to_cmd_request_1755.xsl</value>
+        <value platform="WNT">%TC_DATA%\subscmpl_data\xsl\tcxml_to_cmd_request_1755.xsl</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

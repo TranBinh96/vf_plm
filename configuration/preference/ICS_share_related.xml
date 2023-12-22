@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_share_related" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which related objects of a Classification class/view are shared when the class/view is shared. Use this preference with shared Classification functionality.
+Valid Values:
+classImage - Shares class images.
+viewImage - Shares view images.
+partFamilyTemplates - Shares part family templates.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_graph_presentation_rules_file_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Registers the name of dataset which stores an XML file containing the Presentation Rules of the shapes.
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>ChangeGraphPresentationRules</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

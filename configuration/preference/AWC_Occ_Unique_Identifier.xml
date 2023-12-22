@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWC_Occ_Unique_Identifier" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of properties to uniquely identify occurrence. This will be used during import bom operation to import reused occurrences under same parent.
+Valid values are occurrence property internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_ref_designator</value>
+        <value>bl_occurrence_name</value>
+        <value>bl_sequence_no</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

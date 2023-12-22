@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Product Item">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextProductItemProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the standard for identifying a product item, that is, the top-level item of the assembly structure from a product perspective. The product item represents a long-term engineering project, for example, a washing machine or refrigerator program.The Design Context application displays items matching all PortalDesignContextProductItemProperties properties in the Product Items table in the Context Definition pane. The Platform Designer application filters the result of the saved query specified with the PortalDesignContextProductItemQuery preference down to those items matching all PortalDesignContextProductItemProperties properties.Setting this preference is required.For each composite property specified in the list, you must also set a PortalDesignContextProductItemProperties.property-value preference.
+Valid Values:
+Any composite property. For examples of composite properties, see the default values for the  and  preferences. Other valid properties, such as properties on item or item revision master forms, may depend on customization at your site.In the following example, the setting item_master_tag:Project_ID is a composite property:
+PortalDesignContextProductItemProperties=
+object_type
+item_master_tag:Project_ID
+PortalDesignContextProductItemProperties.object_type=
+Product
+PortalDesignContextProductItemProperties.item.master_tag:Project_ID=
+Approved
+In the following example, specifying process_stage implies that a workflow process was started on the product item based on a process template named ProductProcess. Specifying owning_group implies the owning group of the item is Product Group.
+PortalDesignContextProductItemProperties=
+process_stage_list
+owning_group
+PortalDesignContextProductItemProperties.process_stage_list=
+ProductProcess
+PortalDesignContextProductItemProperties.owning_group=
+Product Group</preference_description>
+      <context name="Teamcenter">
+        <value>object_type</value>
+        <value>object_desc</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

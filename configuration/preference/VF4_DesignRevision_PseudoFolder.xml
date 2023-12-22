@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VF4_DesignRevision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_UG_altrep</value>
+        <value>C3D_View</value>
+        <value>CAEAnalysis</value>
+        <value>IMAN_classification</value>
+        <value>Cls0ClassifiedBy</value>
+        <value>VF4_Costing_Reference2</value>
+        <value>Sci0IMDSView</value>
+        <value>MEProcess</value>
+        <value>MESetup</value>
+        <value>PR4D_cad</value>
+        <value>EC_reference_item_rel</value>
+        <value>representation_for</value>
+        <value>TC_Is_Represented_By</value>
+        <value>IMAN_snapshot</value>
+        <value>VF4_Sourcing_Reference</value>
+        <value>view</value>
+        <value>catia</value>
+        <value>catia_cache_link</value>
+        <value>catia_multi_model</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

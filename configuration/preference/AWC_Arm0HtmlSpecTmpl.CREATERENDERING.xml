@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.REQ">
+    <category_description>Active Workspace preferences</category_description>
+    
+               <preference name="AWC_Arm0HtmlSpecTmpl.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the creation stylesheet for objects of type Html Specification Template.</preference_description>
+      <context name="Teamcenter">
+        <value>Arm0HtmlSpecTemplateCreate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

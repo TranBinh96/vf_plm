@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Collaboration Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ALLOC_map_copy_allocations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>For use with allocation functionality. Determines whether the allocation set is carried forward when the allocation map is saved as a new allocation map, or revised. By default, the allocation set is carried forward during either of these actions. To prevent the allocation set from being carried forward, remove  from preference values the names of the revision action (copy, SaveAs, or Revise) for which you do not want to carry forward the allocation set.
+Valid Values:
+saveAs - The allocation set is carried forward when the allocation map is saved as a new allocation map.
+Revise - The allocation set is carried forward when the allocation map is revised.</preference_description>
+      <context name="Teamcenter">
+        <value>SaveAs</value>
+        <value>Revise</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

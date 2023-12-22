@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_QSEARCH_REFINE" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables the use of TruShape data to refine Design Context searches. This preference applies only if you use the cacheless search engine. Users can select the Refine Cacheless Search-&gt; Use True Shape Search user option to change this setting for their own searches.
+Valid Values:
+true - Spatial searches in Design Context use TruShape and bounding box data.
+false - Spatial searches in Design Context use bounding box data, not TruShape data.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

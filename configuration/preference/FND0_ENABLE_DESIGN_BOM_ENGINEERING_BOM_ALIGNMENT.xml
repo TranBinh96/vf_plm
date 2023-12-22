@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.CAD BOM Alignment">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="FND0_ENABLE_DESIGN_BOM_ENGINEERING_BOM_ALIGNMENT" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables Design - Engineering BOM alignment in Teamcenter. By default this is disabled.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

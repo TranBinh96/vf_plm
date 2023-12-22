@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Duplicate">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DuplicateRunInBackground" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines if the duplicating process for Systems Engineering requirement structures runs in the background (asynchronous).  If the preference is set to true, the Run in Background check box is selected in the Duplicate... dialog box.
+Valid Values:
+true
+false</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

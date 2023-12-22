@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_CFG_CONTEXT_DEFINITION">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_CFG_CONTEXT_BODY_STYLE" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use to create cfg context</preference_description>
+      <context name="Teamcenter">
+        <value>2-2 door sports coupe=Car</value>
+        <value>3-3 door hatchback=Car</value>
+        <value>4-4 door notchback=Car</value>
+        <value>5-5 door hatchback=Car</value>
+        <value>U-Sport utility=Car</value>
+        <value>R-Pickup regular cab=Car</value>
+        <value>E-Pickup extended cab=Car</value>
+        <value>L-Bus (10 meters)=Bus</value>
+        <value>P-Moped=Scooter</value>
+        <value>M-Motorcycle=Scooter</value>
+        <value>B-Body=EE Components=O</value>
+        <value>C-Chassis=EE Components=O</value>
+        <value>I-Infotainment=EE Components=O</value>
+        <value>A-ADAS=EE Components=O</value>
+        <value>A-AC=EE Components=A</value>
+        <value>D-DC=EE Components=A</value>
+        <value>W-Wireless=EE Components=A</value>
+        <value>P-Power train (3IN1, CPDU, 2IN1, BMS,...)=EE Components=O</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

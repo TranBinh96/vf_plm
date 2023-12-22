@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="Scp0MaterialLabReport_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed as children of the material lab report node in Teamcenter.
+
+Available OOTB properties:
+Scp0UsesMaterialMapping
+Scp0UsesLaboratory
+Scp0UsesSupplier
+Scp0UsesAnalyte
+Scp0LRDContactInCompany</preference_description>
+      <context name="Teamcenter">
+        <value>Scp0UsesMaterialMapping</value>
+        <value>Scp0UsesLaboratory</value>
+        <value>Scp0UsesSupplier</value>
+        <value>Scp0UsesAnalyte</value>
+        <value>Scp0LRDContactInCompany</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

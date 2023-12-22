@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context.Performance Tuning">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CLR_Timeout_Limit" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the maximum time a user should wait for results in the clearance analysis for batch process (In Seconds).</preference_description>
+      <context name="Teamcenter">
+        <value>240</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

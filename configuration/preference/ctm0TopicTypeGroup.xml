@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ctm0TopicTypeGroup" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Limits the topic types that are used for creating new topics. Only topic types in the topic type group are available for selection when new topics are created.
+Valid Values:
+A valid topic type group.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

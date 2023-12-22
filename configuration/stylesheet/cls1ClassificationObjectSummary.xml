@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2012 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2012 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+
+    Filename: cls1ClassificationElementSummary.xml
+
+    Default style sheet for displaying Classification Element Summary.
+-->
+
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="thumbnail"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey = "tc_xrt_Overview">
+        <column>
+            <section titleKey = "tc_xrt_properties">
+                <property name="object_name"/>
+            </section>
+            <section titleKey="tc_xrt_ClassificationProperties">
+                <classificationProperties/>
+            </section>
+        </column>
+    </page>
+</rendering>

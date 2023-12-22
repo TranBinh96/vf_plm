@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Volume.xml
+
+    Style sheet rendering for Volume properties.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General">
+        <property name="volume_name" renderingHint="textfield" column="32"/>
+        <separator/>
+        <property name="node_name" renderingHint="textfield" column="48"/>
+        <property name="wnt_path_name" renderingHint="textfield" column="48"/>
+        <property name="unix_path_name" renderingHint="textfield" column="48"/>
+    </page>
+
+    <page title="Shadow" titleKey="tc_xrt_Shadow">
+        <property name="shadow_node_name" renderingHint="textfield" column="32"/>
+        <separator/>
+        <property name="shadow_wnt_path_name" renderingHint="textfield" column="48"/>
+        <property name="shadow_unix_path_name" renderingHint="textfield" column="48"/>
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>
+

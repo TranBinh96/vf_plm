@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2010. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: DC_DitaTopicCreate.xml  
+   
+     Default style sheet for displaying DC_DitaTopic Create 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+10/15/10     tyger                   Initial Version 
+12/12/11     tyger                   Added Reference Topic Type combo
+======================================================================= 
+@<DEL>@  
+--> 
+
+<rendering>
+
+   <page title=" ">
+         <section titleKey="tc_xrt_References">
+            <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RefContentPanelDitaTopic"/>
+         </section>
+         <section titleKey="tc_xrt_properties">
+            <property name="item_id" renderingHint="textfield" />
+            <property name="revision:item_revision_id" renderingHint="textfield" /> 
+            <property name="object_name" renderingHint="textfield" />          
+            <property name="revision:DocumentTitle" renderingHint="textfield" />
+            <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.LanguagePanel"/>
+            <property name="revision:isTemplate"  />
+            <property name="revision:referenceOnly"  />        
+            <property name="revision:ditaAudience"  />     
+            <property name="revision:ditaImportance"  />     
+            <property name="revision:ditaOtherprops"  />     
+            <property name="revision:ditaPlatform"  />     
+            <property name="revision:ditaProduct"  />     
+         </section>
+         <separator/>  
+         <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RelationSelectionPanel"/>
+         <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.ReferenceTopicTypePanel"/>
+   </page>
+   
+</rendering>

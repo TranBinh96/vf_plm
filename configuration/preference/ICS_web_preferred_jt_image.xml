@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_web_preferred_jt_image" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines which JT image is displayed in the Classification thin client when users select TcVis from the View menu. Use this preference to determine which image (single JT or JTs of BOM lines) displays when the classification object&apos;s contains both a single JT image and is a BOM assembly with JTs in the BOM lines. When the classification object contains only one image, the JT displays as follows:
+When the classified object contains a single JT file (as a direct model dataset) the JT file appears.
+When the classified object is a BOM assembly, the JTs of the BOM lines display.
+Valid Values:
+BOM_Assembly - Displays BOM assembly JTs.
+Single_JT - Displays single JT.</preference_description>
+      <context name="Teamcenter">
+        <value>BOM_Assembly</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

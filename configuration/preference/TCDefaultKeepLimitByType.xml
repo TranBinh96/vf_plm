@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCDefaultKeepLimitByType" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the number of sequences the system maintains for the specified business object as it is checked in and out of the database. Sequences are subrevisions of a business object that document the content of a revision during its evolution.
+Checking out a business object increments the sequence ID. At checkin, the system automatically removes the oldest sequence when the limit specified with this preference is reached.
+When an item revision is checked out, a new sequence is created. Therefore, when the number of item revisions sequences is defined as 1, the system keeps two versions during checkout.
+When the object is checked in, the system purges sequences to comply with the keep limit.
+Valid Values:
+Accepts multiple string pairs as values. Each string must be a space-delineated pair consisting of a valid business object and a positive integer more than zero.
+For example:
+ItemRevision 3</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision 1</value>
+        <value>VF4_DesignRevision 1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

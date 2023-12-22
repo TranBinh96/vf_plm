@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_pv_relation_type" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Customize the link type between the item revision/Dataset CATPart/Shape Representation dataset and the dataset containing JT file.
+The default value is IMAN_Rendering.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_Rendering</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

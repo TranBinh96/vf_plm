@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMMappingSourceICOAttributeID" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the attribute ID of the source instance classified object (ICO) that is used to name the target instance. 
+This algorithm is used when multiple ICOs are mapping in the Classification table.
+The default value is -40219.</preference_description>
+      <context name="Teamcenter">
+        <value>-40219</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

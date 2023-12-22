@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMSetupSheetTemplatesInch" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies what inch drawing parts are used as templates to generate setup sheets for resources.
+Each valid value is defined as a pair of preference entries: the first entry must be a valid Classification class ID; 
+the second entry must be an existing item revision (for example, &quot;MRM_DRW_resources_general_inch/A&quot;, where &quot;/A&quot; is the revision ID)
+which contains the desired setup sheet template part file as a UGPart dataset.
+There can be any number of pairs.
+It is possible to specify a parent class for the Classification class ID, in which case the template is inherited to all child classes.
+It can, however, be overwritten for specific subclasses.
+Note: This preference defines only the inch template parts. 
+Metric template parts need to be defined using the &quot;MRMSetupSheetTemplatesMetric&quot; preference.</preference_description>
+      <context name="Teamcenter">
+        <value>MRM</value>
+        <value>MRM_DRW_resources_general_inch/A</value>
+        <value>TOOL_MRL</value>
+        <value>MRM_DRW_tool_general_inch/A</value>
+        <value>TAG001_TURN</value>
+        <value>MRM_DRW_tool_assy_turn_inch/A</value>
+        <value>TAG002_MILL</value>
+        <value>MRM_DRW_tool_assy_mill_inch/A</value>
+        <value>TAG003_DRILL</value>
+        <value>MRM_DRW_tool_assy_drill_inch/A</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

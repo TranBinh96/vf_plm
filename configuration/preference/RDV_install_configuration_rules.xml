@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_install_configuration_rules" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the revision rules used to configure the installation assembly in a product.The Add Design To Product wizard creates new occurrences in the Installation Assembly revision that is configured by the revision rule defined in this preference.If your site chooses to grant write access only to Work In Process (WIP) revisions this would be a WIP revision rule. For example, Latest Working. This includes user-defined revision rules set with the RDV_authoring_override_user preference.
+Valid Values:
+Accepts one or more strings; each string must be a valid Teamcenter revision rule.</preference_description>
+      <context name="Teamcenter">
+        <value>Latest Working</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

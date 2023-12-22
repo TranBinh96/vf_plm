@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="API_ugpart_attr_titles" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists NX attributes to synchronize with Teamcenter. This preference requires the TC_NX_UPDATE_ATTRIBUTES preference to be set.This preference is enabled only when the newer method of NX/Teamcenter attribute synchronization is disabled by setting the UGII _UGMGR_ATTR_SYNC NX environment variable to OLD.
+Valid Values:
+One or more strings as values; each string must be a valid NX attribute name.</preference_description>
+      <context name="Teamcenter">
+        <value>TITLE</value>
+        <value>CREATOR</value>
+        <value>PART_TYPE</value>
+        <value>PART_NO</value>
+        <value>MODEL</value>
+        <value>MATERIAL</value>
+        <value>ASSEMB_NO</value>
+        <value>WEIGHT</value>
+        <value>TASK_NO</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

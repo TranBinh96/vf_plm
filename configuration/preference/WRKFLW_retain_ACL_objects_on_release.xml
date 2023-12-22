@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_retain_ACL_objects_on_release" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the state of Access Control List objects on a target when a release status is applied.
+Valid Values:
+true: Any pre-existing ACL objects will not be removed when the release status is applied.
+false:Any pre-existing ACL objects will be removed when the release status is applied. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

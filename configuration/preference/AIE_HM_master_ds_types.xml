@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.AIE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AIE_HM_master_ds_types" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Preference to indicate the list of valid master dataset types for HM family in AIE.</preference_description>
+      <context name="Teamcenter">
+        <value>MHYPERMESH</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

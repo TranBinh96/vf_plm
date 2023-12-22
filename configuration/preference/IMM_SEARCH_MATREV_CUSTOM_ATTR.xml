@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_SEARCH_MATREV_CUSTOM_ATTR" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Specifies a list of customized material revision persistent attributes to be used in an extended search functionality.
+* Each entry in this list must be the name of a single attribute and its type (double, string, integer, boolean, date) separated by a semi-column (;):  AttributeRealName;string
+* If a classic LOV is attached to the attribute, the entry must be: AttrRealName;lov
+* Each entry in the list can have a display name by concatenating it at the beginning with a hashtag (#) separator: DisplayName#RealNameOfPersistentAttr;string</preference_description>
+      <context name="Teamcenter">
+        <value>Material Designations#mat1AlternateNames;string</value>
+        <value>Creation Date#creation_date;date</value>
+        <value>Applications#mat1Applications;string</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

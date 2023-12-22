@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+=======================================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+    Filename: Cm1LegendConfiguration.xml
+
+    Change graph legend configuration file.
+=======================================================================
+-->
+<Change>
+    <OptionPanel>
+        <view name="Change">
+          <defaultLayout>IncrementalHierarchic</defaultLayout>
+             <group name="objects">
+             </group>
+             <group name="relations">
+             </group>
+         </view>
+    </OptionPanel>
+    <parameterSets>
+        <parameterSet name="Structure"/>    
+    </parameterSets>
+</Change>

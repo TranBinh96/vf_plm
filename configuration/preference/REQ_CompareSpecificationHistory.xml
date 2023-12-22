@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="REQ_CompareSpecificationHistory" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls if the user can compare the Requirement Specification history in Active Workspace client.
+The default value is true.
+To view the Requirement Specification history, &quot;REQ_Microservice_Installed&quot; also needs to be set to true.
+
+Valid Values:
+* true: User will be able to see Requirement Specification history.
+* false: User will not be able to see Requirement Specification history.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

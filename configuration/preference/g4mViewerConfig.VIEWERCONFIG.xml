@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Viewer">
+    <category_description>Viewer-specific preferences.</category_description>
+    
+               <preference name="g4mViewerConfig.VIEWERCONFIG" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies an alternate Viewer view configuration to use for the Classification (g4m) application, and is used in place of the viewer_config_id.VIEWERCONFIG preference. This preference defines which Generic Relationship Management (GRM) rules to expand for the Classification application only.The Classification application provides a key to Teamcenter Services so that it can use the g4mKey.VIEWERCONFIGTOLOAD preference to load the viewer configuration set in this preference.
+Valid Values:
+teamcenter-type.viewer-ID = named-references 
+Indicates the viewer to use for each Teamcenter type. 
+SEARCHORDER.ITEMREV2DATASET = GRMs-list
+Specifies the Generic Relationship Management rules (GRMs) to expand from item revision to dataset.
+SEARCHORDER.ITEMREV2ITEMREV = 
+item-revision-type-for-primary-side-of-relation . 
+GRM-relation- name.item-revision-type-for-secondary-side-of-relation 
+Specifies the Generic Relationship Management rules (GRMs) to expand from item revision to item revision, for example:
+SEARCHORDER.ITEMREV2ITEMREV = Part Revision.TC_Primary_Design_Representation.Design Revision
+The limitation with this value is that only a single hop from an item revision to another item revision is allowed. Indefinite expansion is not supported because there could be issues with circular rules.</preference_description>
+      <context name="Teamcenter">
+        <value>SEARCHORDER.ITEMREV2DATASET=IMAN_manifestation,IMAN_Rendering,IMAN_specification,IMAN_Motion,IMAN_3D_snap_shot,SimplifiedRendering,TC_Attaches,Fnd0DiagramSnapshot</value>
+        <value>SEARCHORDER.ITEMREV2ITEMREV=Part Revision.TC_Primary_Design_Representation.Design Revision</value>
+        <value>Item.DefaultViewer</value>
+        <value>ItemRevision.DefaultViewer</value>
+        <value>DirectModel.DirectModelViewer=JTPART,UGPART,3DModel</value>
+        <value>DirectModelMotion.ExtendedDirectModelViewer=JTPART</value>
+        <value>DirectModelMarkup.TCTwoDViewer=Image,Markup</value>
+        <value>DirectModel3DMarkup.DirectModelViewer=3DModel,3DMarkup</value>
+        <value>SnapShotViewData.RequestObjectViewer</value>
+        <value>Vis_Snapshot_2D_View_Data.TCTwoDViewer=AssetImage,ThumbnailImage</value>
+        <value>Sheet.TCTwoDViewer=Image</value>
+        <value>DrawingSheet.TCTwoDViewer=Sheet</value>
+        <value>Image.TCTwoDViewer=Image</value>
+        <value>Markup.TCTwoDViewer=Image,Markup</value>
+        <value>MSWord.MSWordViewer=word</value>
+        <value>MSWordX.MSWordViewer=word</value>
+        <value>MSExcel.MSExcelViewer=excel</value>
+        <value>MSExcelX.MSExcelViewer=excel</value>
+        <value>Text.TextViewer=Text</value>
+        <value>WPPSession.SessionViewer</value>
+        <value>NetworkImage.TCTwoDViewer=Image</value>
+        <value>TCPublishingPage.PublishingPageViewer</value>
+        <value>TCPublishingTechnicalPortfolio.PublishingPortfolioViewer</value>
+        <value>PCBCircuit.TCPCBViewer</value>
+        <value>PCBPanel.TCPCBViewer</value>
+        <value>PCBFATF.TCPCBViewer=XFatf</value>
+        <value>PCBMarkup.TCPCBViewer=markup</value>
+        <value>SCHFATF.TCPCBViewer=XSCH</value>
+        <value>SE Draft.TCTwoDViewer=SE-draft_image-emf,SE-draft_image-dxf,SE-draft_image-tif,SE-draft_image-jpg,SE-draft_image-bmp,SE-draft</value>
+        <value>JtSimplification.DirectModelViewer=ALSG</value>
+        <value>PDF.PDFViewer=PDF_Reference,PDF</value>
+        <value>HTML.HTMLViewer=HTML</value>
+        <value>JPEG.TCTwoDViewer=JPEG_Reference</value>
+        <value>TIF.TCTwoDViewer=TIF_Reference</value>
+        <value>GIF.TCTwoDViewer=GIF_Reference</value>
+        <value>Bitmap.TCTwoDViewer=Image</value>
+        <value>PADImage.PADImageViewer=JPEG,TIF,GIF,JPEG_Reference,TIF_Reference,GIF_Reference</value>
+        <value>XMLRenderingStylesheet.StyleSheetViewer</value>
+        <value>MENXObject.MENXObjectViewer</value>
+        <value>Web Link.URLViewer</value>
+        <value>Alias.AliasViewer</value>
+        <value>Identifier.IdentifierViewer</value>
+        <value>IdentifierRev.IdentifierViewer</value>
+        <value>RevisionRule.RevisionRuleViewer</value>
+        <value>VariantRule.VariantRuleViewer</value>
+        <value>StoredOptionSet.SelectedOptionSetViewer</value>
+        <value>icm0.TCClassificationViewer</value>
+        <value>ReleaseStatus.EffectivityEndItemViewer</value>
+        <value>AppearanceGroup.AppearanceGroupViewer</value>
+        <value>User.UserViewer</value>
+        <value>GroupMember.UserViewer</value>
+        <value>Group.GroupViewer</value>
+        <value>Role.RoleViewer</value>
+        <value>Process.ProcessViewer</value>
+        <value>EPMTask.ProcessViewer</value>
+        <value>EPMJob.ProcessViewer</value>
+        <value>RequestObject.RequestObjectViewer</value>
+        <value>AppInterface.AppInterfaceViewer</value>
+        <value>Cba0PartProxy.PartProxyViewer</value>
+        <value>Part Revision.PartViewer=JTPART,Text</value>
+        <value>DrawingSheetProxy.DrawingViewer=Image</value>
+        <value>Drawing.DrawingViewer</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2015 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: fnd0MessageSummary.xml
+
+Default style sheet for displaying Message Object Summary Active Workspace.
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+  <header>
+    <image source = "type"/>
+  </header>
+  <page titleKey="tc_xrt_Overview" visibleWhen="fnd0ApplicationType!=EPM_WORKFLOW and fnd0ApplicationType!=ACE and fnd0ApplicationType!=SUB_MAN and fnd0ApplicationType!=BRIEFCASE">
+    <inject type="dataset" src="Sub0DefaultMessageSummary"/>
+  </page>
+  <page titleKey="tc_xrt_Overview" visibleWhen="fnd0ApplicationType==SUB_MAN and {pref:SCM_notification_digest}==null">
+    <inject type="dataset" src="Sub0DefaultMessageSummary"/>
+  </page>
+  <page titleKey="tc_xrt_Overview" visibleWhen="fnd0ApplicationType==SUB_MAN and fnd0PeriodicDigestType==0">
+    <inject type="dataset" src="Sub0DefaultMessageSummary"/>
+  </page>
+  <page titleKey="tc_xrt_Overview" visibleWhen="fnd0ApplicationType==SUB_MAN and fnd0PeriodicDigestType!=0">
+    <inject type="dataset" src="Sub0SubscriptionDigestMessageSummary"/>
+  </page>
+  <page titleKey="tc_xrt_Overview" visibleWhen="fnd0ApplicationType==EPM_WORKFLOW">
+    <column>
+      <section titleKey="tc_xrt_Properties">
+      <property name="fnd0Subject"/>
+        <property name="fnd0Priority"/>
+        <property name="fnd0EventType"/>
+        <property name="fnd0SentDate"/>
+        <property name="fnd0Receiver"/>
+        <property name="fnd0MessageBody"/>
+      </section>
+      <section titleKey="tc_xrt_WorkflowTask">
+        <objectSet source="fnd0TargetObject.POM_object" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+          <thumbnailDisplay/>
+           <treeDisplay>
+            <property name="object_string"/>
+          </treeDisplay>
+          <listDisplay/>
+        </objectSet>
+      </section>  
+    </column>
+  </page>  
+  <inject type="dataset" src="Awb0MessageSummary"/>
+  <inject type="dataset" src="Awp0BriefcaseMessageSummary"/>
+</rendering>

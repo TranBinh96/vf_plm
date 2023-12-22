@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ECM_track_variant_condition_changes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This site preference controls whether Variant condition changes to be tracked for a specified change type. This preference is shipped as blank.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

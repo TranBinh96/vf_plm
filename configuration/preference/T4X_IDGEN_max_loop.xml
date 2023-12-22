@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="EA Gateway">
+    <category_description>Preferences for the Teamcenter Gateway for Enterprise Applications (T4EA)</category_description>
+    
+               <preference name="T4X_IDGEN_max_loop" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>If the function T4X_IDGEN_EXTERNAL_VERIFY_OF_NUMBER is used, the T4X_IDGEN_max_loop
+preference defines how often the Teamcenter Gateway tries to get the next free Id.</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

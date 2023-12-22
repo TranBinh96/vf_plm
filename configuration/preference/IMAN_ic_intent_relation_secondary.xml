@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IMAN_ic_intent_relation_secondary" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of valid secondary object types for the relation IMAN_ic_intent. Format is &lt;relation type&gt;_relation_secondary= followed by a list of valid secondary object types.</preference_description>
+      <context name="Teamcenter">
+        <value>Intent</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Copyright 2011 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2011 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+
+<!--
+    Filename: icm0Summary.xml
+
+    Default style sheet for displaying ICO poperties.
+    
+    The following properties can be used: object_string,object_type_id,object_type,creation_date,last_mod_date,last_mod_user,object_unit_system,class_unit_system,cid,sid,id
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <classificationTrace/>
+    </header>
+    <page titleKey="tc_xrt_General">	    
+        <classificationProperties hideTrace="true"/>
+    </page>
+</rendering>

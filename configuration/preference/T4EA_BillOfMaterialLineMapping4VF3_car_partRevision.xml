@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="EA Gateway">
+    <category_description>Preferences for the Teamcenter Gateway for Enterprise Applications (T4EA)</category_description>
+    
+               <preference name="T4EA_BillOfMaterialLineMapping4VF3_car_partRevision" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Lists the navigation paths for the mapping to the ERP system.</preference_description>
+      <context name="Teamcenter">
+        <value>items_tag:VF3_car_part</value>
+        <value>#__getAllProperties__#:Properties</value>
+        <value>IMAN_master_form_rev:VF3_car_partRevisionMaster</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

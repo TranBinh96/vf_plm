@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Filename: UiE-ChangeNoticeRevisionSummary.xml
+Dave McLaughlin 2012-02-26
+-->
+<rendering>
+	<header>
+		<image source="type" />
+		<property name="owning_user" />
+		<property name="last_mod_date" />
+		<property name="release_status_list" renderingHint="label" />
+		<property name="object_type" />
+	</header>
+	<page titleKey="tc_xrt_Overview" title="Overview">
+		<column>
+			<!-- <section titleKey="tc_xrt_ChangeProperties" title="Change Properties">
+				<property name="object_name"/>
+				<property name="object_desc"/>
+				<property name="vf4_change_type"/>
+				<property name="release_status_list" renderingHint="label"/>
+				<property name="date_released" renderingHint="label"/>
+				<property name="effectivity_text" renderingHint="label"/>
+				<property name="CMMaturity"/>
+				<property name="CMDisposition"/>
+				<property name="CMClosure"/>
+				<separator/>
+				<property name="CMImplements"/>
+				<separator/>
+				<command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+			</section>      -->
+			<section titleKey="Proposal">
+				<objectSet source="Cm0HasProposal.WorkspaceObject,Cm0HasProposal.Dataset"
+					defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+					<tableDisplay>
+						<property name="object_string" />
+						<property name="object_type" />
+						<property name="release_status_list" />
+						<property name="date_released" />
+						<property name="owning_user" />
+					</tableDisplay>
+					<treeDisplay>
+						<property name="object_string" />
+						<property name="object_type" />
+						<property name="release_status_list" />
+						<property name="date_released" />
+						<property name="owning_user" />
+					</treeDisplay>
+					<thumbnailDisplay />
+					<listDisplay />
+					<command actionKey="newBusinessObjectContextualAction"
+						commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+					<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+						renderingHint="commandbutton">
+						<parameter name="localSelection" value="true" />
+					</command>
+					<command actionKey="pasteAction"
+						commandId="com.teamcenter.rac.viewer.pastewithContext"
+						renderingHint="commandbutton" />
+				</objectSet>
+			</section>
+		</column>
+		<column>
+			<section title="Sourcing Properties">
+				<property name="vf4cp_vehicle_type_arr" />
+				<separator />
+				<tableProperty name="vf4_bom_attributes">
+					<property name="vf4_part_revision" />
+					<property name="vf4_change_index" />
+					<property name="vf4_purchase_level" />
+				</tableProperty>
+			</section>
+		</column>
+		<section title="MCR Request">
+			<tableProperty name="vf4_request_input">
+				<property name="vf4_action" />
+				<property name="vf4_bop" />
+				<property name="vf4_line" />
+				<property name="vf4_workstation" />
+				<property name="vf4_workstation_name" />
+				<property name="vf4_op" />
+				<property name="vf4_op_name" />
+				<property name="vf4_op_type" />
+				<property name="vf4_op_viet_name" />
+				<property name="vf4_key_data_group" />
+				<property name="vf4_part" />
+				<property name="vf4_uom_tag" />
+				<property name="vf4_part_name" />
+				<property name="vf4_quantity" />
+				<property name="vf4_find_no" />
+				<property name="vf4_pos_id" />
+				<property name="vf4_program_id" />
+				<property name="vf4_plan_effective_date" />
+				<property name="vf4_note" />
+			</tableProperty>
+		</section>
+	</page>
+	<page titleKey="tc_xrt_ChangeProperties" title="Change Properties">
+		<column>
+			<property name="vf4_is_eng_review_req" />
+			<property name="vf4_is_finance_review_req" />
+			<property name="vf4_is_logistics_review_req" />
+			<property name="vf4_is_mbom_review" />
+			<property name="vf4_is_purchase_review_req" />
+			<property name="vf4_is_sq_review_required" />
+		</column>
+	</page>
+	<page titleKey="tc_xrt_ReferenceItems">
+		<section titleKey="tc_xrt_ReferenceItems">
+			<label textKey="tc_xrt_ReferenceItemsInfo" />
+			<objectSet source="CMReferences.WorkspaceObject,CMReferences.Dataset"
+				defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+				<tableDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</tableDisplay>
+				<treeDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</treeDisplay>
+				<thumbnailDisplay />
+				<listDisplay />
+				<command actionKey="newBusinessObjectContextualAction"
+					commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+				<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+					renderingHint="commandbutton">
+					<parameter name="localSelection" value="true" />
+				</command>
+				<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"
+					renderingHint="commandbutton" />
+			</objectSet>
+		</section>
+		<inject type="dataset" src="RemoteLinksSummary" />
+	</page>
+	<page titleKey="Cost Impact">
+		<!--<section
+		title="TOTAL ECR COST IMPACT" >
+           <label text= "NOTE: PLEASE ENTER ALL COSTS IN USD"/>
+           <break />
+          <property name="vf6_delta_piece_cost" />
+           <property name="vf6_delta_tooling_cost" />
+           <property name="vf6_delta_edd_cost" />
+           <break />
+                   <property name="vf6_plant_equipment_cost"/>
+                    <property name="vf6_sunk_cost" />
+                    <property name="vf6_scrap_cost" />
+               
+        </section> -->
+		<content visibleWhen="VF4_Cost_Impact==null">
+			<label text="(No Cost Impact)" />
+		</content>
+		<content visibleWhen="GRM(VF4_Cost_Impact,Vf6_engineering).object_name!=null">
+			<section titleKey="Engineering Cost Impact" initialstate="collapsed">
+				<objectSet source="VF4_Cost_Impact.Vf6_engineering" defaultdisplay="tableDisplay"
+					sortdirection="ascending" sortby="object_string">
+					<tableDisplay>
+						<property name="object_string" />
+						<property name="vf6_feasibility_confirmed_e" />
+						<property name="vf6_lead_time_e" />
+						<property name="vf6_engineering_costs" />
+						<property name="last_mod_date" />
+						<property name="last_mod_user" />
+					</tableDisplay>
+					<treeDisplay />
+					<thumbnailDisplay />
+					<listDisplay />
+				</objectSet>
+			</section>
+		</content>
+		<content visibleWhen="GRM(VF4_Cost_Impact,Vf6_logistics).object_name!=null">
+			<section titleKey="Logistic Cost Impact" initialstate="collapsed">
+				<label text="NOTE: PLEASE ENTER ALL COSTS IN USD" />
+				<objectSet source="VF4_Cost_Impact.Vf6_logistics" defaultdisplay="tableDisplay"
+					sortdirection="ascending" sortby="object_string">
+					<tableDisplay>
+						<property name="object_string" />
+						<property name="vf6_logistics_remarks" />
+						<property name="vf6_carrier_costs" />
+						<property name="vf6_feasibility_confirmed_l" />
+						<property name="vf6_lead_time_l" />
+						<property name="last_mod_date" />
+						<property name="last_mod_user" />
+					</tableDisplay>
+					<treeDisplay />
+					<thumbnailDisplay />
+					<listDisplay />
+				</objectSet>
+			</section>
+		</content>
+		<content visibleWhen="GRM(VF4_Cost_Impact,Vf6_manufacturing).object_name!=null">
+			<section titleKey="Manufacturing Cost Impact" initialstate="collapsed">
+				<label text="NOTE: PLEASE ENTER ALL COSTS IN USD" />
+				<objectSet source="VF4_Cost_Impact.Vf6_manufacturing" defaultdisplay="tableDisplay"
+					sortdirection="ascending" sortby="object_string" maxRowCount="200">
+					<tableDisplay>
+						<property name="object_string" />
+						<property name="vf6_manuf_packing_cost" />
+						<property name="vf6_manuf_logistic_cost" />
+						<property name="vf6_manu_piece_costs" />
+						<property name="vf6_manuf_total_piece_cost" hidden="true" />
+						<property name="vf6_manu_supplier_eng_costs" />
+						<property name="vf6_manu_tooling_costs" />
+						<property name="vf6_manuf_transfer_edd_cost" />
+						<property name="vf6_manuf_transfer_toolCost" />
+						<property name="vf6_manu_scrap_costs" />
+						<property name="vf6_manu_sunk_costs" />
+						<property name="vf6_manuf_quantity_before" />
+						<property name="vf6_manuf_quantity_after" />
+						<property name="vf6_manuf_delta_piece_cost" />
+						<property name="vf6_plant_equipment" />
+						<property name="vf6_manufacturing_time" />
+						<property name="vf6_feasibility_confirmed_m" />
+						<property name="vf6_lead_time_m" />
+						<property name="vf6_manufacturing_remark" />
+						<property name="last_mod_date" />
+						<property name="last_mod_user" />
+					</tableDisplay>
+					<treeDisplay />
+					<thumbnailDisplay />
+					<listDisplay />
+				</objectSet>
+			</section>
+		</content>
+		<content visibleWhen="GRM(VF4_Cost_Impact,Vf6_purchasing).object_name!=null">
+			<section titleKey="Purchasing Cost Impact" initialstate="collapsed">
+				<label text="NOTE: PLEASE ENTER ALL COSTS IN USD" />
+				<objectSet source="VF4_Cost_Impact.Vf6_purchasing" defaultdisplay="tableDisplay"
+					sortdirection="ascending" sortby="object_string" maxRowCount="200">
+					<tableDisplay>
+						<property name="object_string" />
+						<property name="vf6_pur_packing_cost" />
+						<property name="vf6_pur_logistic_cost" />
+						<property name="vf6_material_costs" />
+						<property name="vf6_pur_total_piece_cost" hidden="true" />
+						<property name="vf6_supplier_eng_costs" />
+						<property name="vf6_tooling_costs" />
+						<property name="vf6_pur_transfer_edd_cost" />
+						<property name="vf6_pur_transfer_tool_cost" />
+						<property name="vf6_scrap_costs" />
+						<property name="vf6_pu_sunk_costs" />
+						<property name="vf6_pur_quantity_before" />
+						<property name="vf6_pur_quantity_after" />
+						<property name="vf6_pur_delta_piece_cost" />
+						<property name="vf6_purchasing_remarks" />
+						<property name="vf6_feasibility_confirmed_p" />
+						<property name="vf6_lead_time_p" />
+						<property name="vf6_fixtures" />
+						<property name="last_mod_date" />
+						<property name="last_mod_user" />
+					</tableDisplay>
+					<treeDisplay />
+					<thumbnailDisplay />
+					<listDisplay />
+				</objectSet>
+			</section>
+		</content>
+		<inject type="dataset" src="RemoteLinksSummary" />
+	</page>
+	<page titleKey="Process Info" title="Process">
+		<section titleKey="tc_xrt_WorkflowInfo" title="Active Process Information">
+			<customPanel java="com.teamcenter.rac.cm.views.WorkflowTasksView" />
+		</section>
+	</page>
+	 <page titleKey="tc_xrt_AuditLogs" visibleWhen="{pref:TC_audit_manager_version}==3">
+      <command titleKey="tc_xrt_ExportToExcel" actionKey="exportExcelAction" commandId="com.teamcenter.rac.exportAuditSummaryToExcel" renderingHint="commandbutton"/>
+      <command titleKey="tc_xrt_ExportToCSV" actionKey="exportCSVAction" commandId="com.teamcenter.rac.exportAuditSummaryToCSV" renderingHint="commandbutton"/>
+      <section title="Workflow Logs" titleKey="tc_xrt_WorkflowLogs" initialstate="collapsed">
+         <customPanel java="com.teamcenter.rac.auditmanager.WorkflowLegacyAuditLinkPanel"/>
+         <objectSet source="fnd0WorkflowAuditLogs.Fnd0WorkflowAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+            <tableDisplay>
+               <property name="fnd0LoggedDate"/>
+               <property name="object_type"/>
+               <property name="fnd0EventTypeName"/>
+               <property name="object_name"/>
+               <property name="job_name"/>
+               <property name="process_templateDisp"/>
+               <property name="fnd0UserId"/>
+               <property name="task_state"/>
+               <property name="task_result"/>
+               <property name="fnd0Comments"/>
+               <property name="responsible_party"/>
+               <property name="fnd0SignoffUserID"/>
+               <property name="fnd0SignoffGroupName"/>
+               <property name="fnd0SignoffRoleName"/>
+               <property name="fnd0SecondaryObjectType"/>
+               <property name="fnd0SecondaryObjDispName"/>
+               <property name="fnd0SecondaryObjQualifier"/>
+            </tableDisplay>
+         </objectSet>
+         <customPanel java="com.teamcenter.rac.auditmanager.WorkflowSecondaryAuditPanel" js="displayWorkflowCustomPanel"/>
+      </section>
+      <section title="General Logs" titleKey="tc_xrt_GeneralLogs" initialstate="collapsed">
+         <customPanel java="com.teamcenter.rac.auditmanager.CheckoutHistoyLinkPanel"/>
+         <objectSet source="fnd0GeneralAuditLogs.Fnd0GeneralAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+            <tableDisplay>
+               <property name="fnd0LoggedDate"/>
+               <property name="object_type"/>
+               <property name="fnd0EventTypeName"/>
+               <property name="object_name"/>
+               <property name="fnd0PrimaryObjectID"/>
+               <property name="fnd0PrimaryObjectRevID"/>
+               <property name="fnd0UserId"/>
+               <property name="fnd0GroupName"/>
+               <property name="fnd0RoleName"/>
+               <property name="sequence_id"/>
+               <property name="fnd0ChangeID"/>
+               <property name="fnd0Reason"/>
+               <property name="fnd0SecondaryObjectType"/>
+               <property name="fnd0SecondaryObjDispName"/>
+            </tableDisplay>
+         </objectSet>
+      </section>
+      <section title="License Export Logs" titleKey="tc_xrt_LicenseExportLogs" initialstate="collapsed">
+         <objectSet source="fnd0LicenseExportAuditLogs.Fnd0LicenseExportAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+            <tableDisplay>
+               <property name="fnd0LoggedDate"/>
+               <property name="object_type"/>
+               <property name="fnd0EventTypeName"/>
+               <property name="object_name"/>
+               <property name="fnd0UserId"/>
+               <property name="fnd0GroupName"/>
+               <property name="fnd0RoleName"/>
+               <property name="id"/>
+               <property name="fnd0SecondaryObjectID"/>
+               <property name="fnd0SecondaryObjectRevID"/>
+               <property name="fnd0SecondaryObjectType"/>
+               <property name="fnd0SecondaryObjectName"/>
+               <property name="fnd0SecondaryObjDispName"/>
+               <property name="fnd0SecondaryObjectSeqID"/>
+               <property name="ead_paragraph"/>
+            </tableDisplay>
+         </objectSet>
+         <customPanel java="com.teamcenter.rac.auditmanager.LicenseExportSecondaryAuditPanel" js="displayLicenseExportCustomPanel"/>
+      </section>
+      <section title="Structure Logs" titleKey="tc_xrt_StructureLogs" initialstate="collapsed">
+         <objectSet source="fnd0StructureAuditLogs.Fnd0StructureAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+            <tableDisplay>
+               <property name="fnd0LoggedDate"/>
+               <property name="object_type"/>
+               <property name="fnd0EventTypeName"/>
+               <property name="object_name"/>
+               <property name="fnd0UserId"/>
+               <property name="fnd0GroupName"/>
+               <property name="fnd0RoleName"/>
+               <property name="item_id"/>
+               <property name="item_revision_id"/>
+               <property name="sequence_id"/>
+               <property name="fnd0SecondaryObjectID"/>
+               <property name="fnd0SecondaryObjectRevID"/>
+               <property name="fnd0SecondaryObjectType"/>
+               <property name="fnd0SecondaryObjectName"/>
+               <property name="fnd0SecondaryObjDispName"/>
+               <property name="fnd0SecondaryObjectSeqID"/>
+               <property name="comp_position"/>
+            </tableDisplay>
+         </objectSet>
+         <customPanel java="com.teamcenter.rac.auditmanager.StructureSecondaryAuditPanel" js="displayStructureCustomPanel"/>
+      </section>
+   </page>
+	<inject type="dataset" src="WorkflowSummary" />
+</rendering>

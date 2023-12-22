@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSM_classic_variants_date_families" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Manually controls variant option value mode detection for select variant option families in configurators &quot;Teamcenter Classic Variant&quot; or &quot;Teamcenter Classic Effectivity&quot;.
+By default, a classic option family is recognized as a date family if all values are formatted as a date (as specified by ISO-8601).
+A value is considered to be formatted as a date if it matches the following pattern:
+dddd [{-}] dd [{-}] dd T dd [{:}] dd [{:}] ddZ, where d stands for a digit (e.g. &quot;1975-04-28T02:20:00Z&quot;).
+
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>[Teamcenter::]Date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

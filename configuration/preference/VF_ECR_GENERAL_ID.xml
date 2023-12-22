@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VF_ECR_GENERAL_ID" type="String" array="true"
+      disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Gen ID for ECR</preference_description>
+      <context name="Teamcenter">
+        <value>EBUS=4</value>
+        <value>EBUS12=41</value>
+        <value>Car=0</value>
+        <value>S&amp;S=0</value>
+        <value>Scooter=2</value>
+        <value>V8=0</value>
+        <value>VF35=6</value>
+        <value>C-SUV=6</value>
+        <value>VF36=8</value>
+        <value>D-SUV=8</value>
+        <value>VFe32=73</value>
+        <value>VFe33=70</value>
+        <value>SCP=5</value>
+        <value>VFe34NG=71</value>
+        <value>VFe35=6</value>
+        <value>VFe36=8</value>
+        <value>VinES Project=1</value>
+        <value>BP - Car=11</value>
+        <value>BP - Escooter=12</value>
+        <value>BP - Other=15</value>
+        <value>ESS=16</value>
+        <value>CELL=17</value>
+        <value>VF8NP=66</value>
+        <value>VF9NP=85</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>

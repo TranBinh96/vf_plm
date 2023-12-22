@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_ifs_qry_revision_rule_for_item" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the revision rule to apply to the import query and filter the returned item revision in the Import Spreadsheet file.
+Possible values are an existing revision rule name and following keywords:
+- NONE: Do not apply a filter; return all revisions by the import query in the spreadsheet file.
+- LATEST: Keep only the latest revision in the Import Spreadsheet when many revisions are returned by the import query regardless of the revision status
+- LATEST_WORKING: Keep only the latest revision with no status in the Import Spreadsheet when many revisions are returned by the import query. If all the returned revisions have a status, keep only the latest one in the Import Spreadsheet, regardless of the revision status.
+- LATEST_STATUS: Keep only the latest revision with a status in the Import Spreadsheet when many revisions are returned by the Import Query. If all the returned revisions have no status, keep only the latest one in the Import Spreadsheet.
+If an existing revision rule is set in this preference, no filter is applied in the Import Spreadsheet when the revision rule returns an item revision which is not in the list of revisions returned by the import query</preference_description>
+      <context name="Teamcenter">
+        <value>NONE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

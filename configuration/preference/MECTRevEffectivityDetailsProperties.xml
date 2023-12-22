@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECTRevEffectivityDetailsProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of properties to be compared on Revised Lines in addition to &quot;bl_rev_item_revision_id&quot; (Revision), &quot;bl_rev_last_release_status&quot; (Release Status), and &quot;bl_revision_effectivity&quot; (Revision Effectivity).
+If the values are different, the property is listed in the &quot;Change Tracker Details&quot; panel, in the &quot;Change Tracker Revision Details Report&quot;, and in the &quot;MESINTEG_ValidateReleaseAndExport&quot; and &quot;ME-create-revision-change-xml-AH&quot; workflow handlers delta XML.  In the &quot;Change Tracker Details&quot; panel, properties of child lines are also compared.
+Valid values are property internal names for a BOM Line.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_sequence_no</value>
+        <value>bl_variant_condition</value>
+        <value>bl_item_object_name</value>
+        <value>bl_plmxml_abs_xform</value>
+        <value>bl_all_notes</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

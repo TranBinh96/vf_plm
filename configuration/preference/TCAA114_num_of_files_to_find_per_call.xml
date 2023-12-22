@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA114_num_of_files_to_find_per_call" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to limit the number of files to be searched by file name. If the number of files to be searched in a single operation exceeds the number specified in this option, multiple SOA calls will be performed. Searches by file name are typically executed in order to reconnect non-managed files to datasets already stored in Teamcenter (e.g. via TCAA COM API).
+Possible values:
+- 0 or any negative number: all the files involved in the operation are searched with a single SOA call.
+- Any positive number: this will be the maximum number of files searched by file name in a single SOA call.
+The default value is: 500.</preference_description>
+      <context name="Teamcenter">
+        <value>500</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

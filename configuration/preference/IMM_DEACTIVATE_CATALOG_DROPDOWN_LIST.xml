@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_DEACTIVATE_CATALOG_DROPDOWN_LIST" type="String" array="false" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Specifies whether to disable or enable the catalog dropdown list in the IMM NX UI.
+Valid values:
+* true: Disables the catalog dropdown list.
+* false: Enables the catalog dropdown list.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

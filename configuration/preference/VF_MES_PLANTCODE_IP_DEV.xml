@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client.SAP_MES">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_MES_PLANTCODE_IP_DEV" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Transfer server IP</preference_description>
+      <context name="Teamcenter">
+        <value>2001=10.128.11.100</value>
+        <value>3001=10.128.11.100</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context.Performance Tuning">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_convert_ves_to_new_variant_model_by_default" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allows the conversion or migration of old format VES (Variant Expressions) to new variant model VES by default.
+If the value is set to &quot;true&quot;, the old format VES will be converted into new variant model VES. The default value is &quot;false&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

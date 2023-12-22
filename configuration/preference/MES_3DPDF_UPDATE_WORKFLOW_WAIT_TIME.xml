@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MES_3DPDF_UPDATE_WORKFLOW_WAIT_TIME" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the total time in seconds for completing all requests when updating 3D PDF reports in preparation for transferring them to an external manufacturing execution system. If all requests do not complete in this time frame, the MES-Update3DPDFReports action handler returns an error message.
+Valid Values:
+Accepts a positive integer value.</preference_description>
+      <context name="Teamcenter">
+        <value>600</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_propagation_exclusion_list" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the list of valid workspace object types which are excluded from propagation i.e. data from this objects will not be propagated to or from where this objects are referenced.</preference_description>
+      <context name="Teamcenter">
+        <value>Tool</value>
+        <value>SavedSearch</value>
+        <value>ADA_License</value>
+        <value>DistributionList</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

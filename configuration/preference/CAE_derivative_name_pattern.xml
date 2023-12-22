@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_derivative_name_pattern" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Specifies the naming pattern with a counter for generating the names of each output structure during a &quot;derive&quot; operation in the CAE Manager.
+The pattern can be specified as a combination of fixed strings in double quotes and keywords. The keywords are &quot;BASENAME&quot; (corresponding to the base name specified by the user when deriving) and N (digit). 
+The pattern must contain both keywords only once. Fixed strings are optional and can appear more than once in double quotes.      
+Examples of pattern are:
+* BASENAME&quot;-Deck&quot;NNNN
+* NNN&quot;-&quot;BASENAME&quot;-Deck&quot; 
+* NNNN&quot;-&quot;BASENAME            
+The default value is BASENAME&quot;-&quot;NNNN.</preference_description>
+      <context name="Teamcenter">
+        <value>BASENAME&quot;-&quot;NNNN</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

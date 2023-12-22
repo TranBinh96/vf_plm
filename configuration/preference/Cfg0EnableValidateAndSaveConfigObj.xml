@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0EnableValidateAndSaveConfigObj" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the validation of the configurator rules and variant expressions in the Product Configurator. If enabled then on the completion of the save operation Product Configurator would validate the configurator rules and expressions otherwise it would do nothing.
+The Valid Values:
+-true: Performs the validation after the save operation. This is the default value.
+-false: Performs only the save operation.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

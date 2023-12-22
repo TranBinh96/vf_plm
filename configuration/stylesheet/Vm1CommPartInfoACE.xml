@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+==================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<!-- Style sheet rendering for Commercial Part information. -->
+<subRendering>
+    <content  visibleWhen ="awb0UnderlyingObjectType==CommercialPart Revision">
+        <inject type="evaluate" src="awb0UnderlyingObject"/>
+    </content>
+</subRendering>

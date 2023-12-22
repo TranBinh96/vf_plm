@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Teamcenter Microservices">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Microservices_Installed_Services" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of installed services (e.g. configurator). Teamcenter needs to know whether a service is deployed in order to decide whether or not to send tasks to the service. If the service name appears in this preference some tasks will be sent to the docker stack deployed to the Teamcenter Service environment, otherwise these tasks are performed in the Teamcenter process.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

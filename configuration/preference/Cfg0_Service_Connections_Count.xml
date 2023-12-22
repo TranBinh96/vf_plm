@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configurator Services">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0_Service_Connections_Count" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Setting this number to a value that is higher than the actual number of containers in the docker stack causes a serialization of requests without getting the advantage of parallel processing. If there was only a single user in the system set this number to match the nominal container count. In practice containers will be shared across many users. It is therefor expected to deploy more containers than a single user should connect to in parallel. If you don&apos;t know leave this preference to default value 16. Depending on the size of a task Teamcenter may decide to open fewer parallel connections, but never more.</preference_description>
+      <context name="Teamcenter">
+        <value>16</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

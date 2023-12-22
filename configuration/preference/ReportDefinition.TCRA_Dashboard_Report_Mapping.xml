@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Reports">
+    <category_description>Active Workspace preferences
+</category_description>
+    
+               <preference name="ReportDefinition.TCRA_Dashboard_Report_Mapping" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference is used to configure TcRA Report display for selected Business Objects. This Reports will be shown in seperate page named as &apos;Dashboard&apos;. Stylesheet for the BO needs to be modified to inject a new page which can then render the TcRA Report viewer.
+BOType:{Report1Information}
+e.g.
+Schedule:{&quot;name&quot;:&quot;Schdule object Dashboard&quot;, &quot;type&quot;:&quot;Report&quot;}</preference_description>
+      <context name="Teamcenter">
+        <value>Schedule:{&quot;name&quot;: &quot;Schedule Dashboard&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+        <value>Prg0Event:{&quot;name&quot;: &quot;Event Dashboard&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+        <value>Prg0ProgramPlan:{&quot;name&quot;: &quot;Program Dashboard&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+        <value>Prg0SubProjectPlan:{&quot;name&quot;: &quot;SubProject Dashboard&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+        <value>Prg0ProjectPlan:{&quot;name&quot;: &quot;Project Dashboard&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

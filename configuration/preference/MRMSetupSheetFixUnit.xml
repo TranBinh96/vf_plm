@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMSetupSheetFixUnit" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies which unit system&apos;s setup sheet templates are used to generate setup sheets for resources.
+Valid values for this preference are &quot;off&quot;, &quot;metric&quot;, and &quot;inch&quot;. The default value is &quot;off&quot;.
+The different values lead to the following behavior:
+off: Based on the resource&apos;s ICO unit, the preference &quot;MRMSetupSheetTemplatesMetric&quot; or &quot;MRMSetupSheetTemplatesInch&quot; is used to determine the setup sheet template.
+metric: Only metric templates specified in the &quot;MRMSetupSheetTemplatesMetric&quot; preference are used. Inch ICO values are converted to metric when used in the setup sheet.
+inch: Only the inch templates specified in the &quot;MRMSetupSheetTemplatesInch&quot; preference are used. Metric ICO values are converted to inch when used in the setup sheet.</preference_description>
+      <context name="Teamcenter">
+        <value>off</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

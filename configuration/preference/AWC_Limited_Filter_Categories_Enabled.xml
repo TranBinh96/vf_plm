@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Limited_Filter_Categories_Enabled" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether the categories defined in AWC_Limited_Filter_Categories_Expanded are the only ones returned as expanded after a search.
+Out of the box, this feature will be turned off.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

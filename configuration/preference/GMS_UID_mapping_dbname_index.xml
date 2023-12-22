@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="GMS_UID_mapping_dbname_index" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the databases for remote Teamcenter Enterprise sites involved in data exchange. The indices of the databases specified are used for generating unique object UIDs in PLM XML.
+Valid Values:
+Enter values as instance-name:dbname1, dbname2, for example, svli60:sum501a.
+To determine these values, search the Teamcenter Enterprise fmsmaster.xml file for the accesson id value, for example, accesson id = &quot;rhgtpqksvli60sum501a-aaG &quot;. Split this value as follows:Drop the last three characters (aaG).
+In the remaining string, record the last eight characters (ignore any hyphens) as the dbname value, for this example, sum501a.Record the next six characters as the instance name, for this example, svli60.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

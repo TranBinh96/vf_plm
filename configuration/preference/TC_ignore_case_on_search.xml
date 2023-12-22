@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_ignore_case_on_search" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines if object searches are case sensitive.
+Valid Values:
+0 - Object searches are case sensitive.
+1 - Mapped attribute searches and saved query searches are case insensitive when using an appearance set-based search engine (see ).Work part, engineering change, and workflow process searches are case insensitive when using the Context Definition pane in Design Context.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

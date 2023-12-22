@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CHECK_BASELINE_MANDATORY_FIELDS_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMLine.bl_level_starting_0</value>
+        <value>BOMLine.bl_indented_title</value>
+        <value>BOMLine.bl_config_string</value>
+        <value>BOMLine.bl_item_fnd0InProcess</value>
+        <value>BOMLine.awb0RevisionRelStatusList</value>
+        <value>BOMLine.awb0RevisionOwningUser</value>
+        <value>BOMLine.awb0RevisionOwningGroup</value>
+        <value>BOMLine.bl_item_project_list</value>
+        <value>BOMLine.awb0BomLineItemId</value>
+        <value>BOMLine.bl_has_children</value>
+        <value>BOMLine.awb0BomLineRevId</value>
+        <value>BOMLine.bl_item_vf4_item_make_buy</value>
+        <value>BOMLine.vf4_DsnRev_donor_veh_type</value>
+        <value>BOMLine.bl_item_vf4_part_category</value>
+        <value>BOMLine.bl_item_object_type</value>
+        <value>BOMLine.awb0RevisionReleaseDate</value>
+        <value>BOMLine.bl_formatted_parent_name</value>
+        <value>BOMLine.bl_occ_int_order_no</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

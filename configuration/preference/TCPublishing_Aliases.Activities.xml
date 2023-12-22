@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCPublishing_Aliases.Activities" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Determines which alias file dataset names appear when users load alias files for activity pages. If left undefined, all alias files appear. This preference is used for Manufacturing Process Planner.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid alias file dataset.</preference_description>
+      <context name="Teamcenter">
+        <value>Installed Aliases</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

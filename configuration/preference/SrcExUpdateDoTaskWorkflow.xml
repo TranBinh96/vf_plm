@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SrcExUpdateDoTaskWorkflow" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the name of the Workflow Template used for updating a rejected Direct Materials Sourcing Revisiona by Program buyer in the Supplier Collaboration Foundation application.
+The default value is &quot;Update Direct Materials Sourcing&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Update Direct Materials Sourcing</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

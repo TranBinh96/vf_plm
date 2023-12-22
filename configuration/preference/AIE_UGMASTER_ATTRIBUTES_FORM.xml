@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.AIE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AIE_UGMASTER_ATTRIBUTES_FORM" type="String" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Specifies the form to be used for each AIE supported dataset type. The format is AIE_&lt;dataset type&gt;_ATTRIBUTES_FORM=&lt;form name&gt;</preference_description>
+      <context name="Teamcenter">
+        <value>UG_attr</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

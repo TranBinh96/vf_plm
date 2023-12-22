@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_LABORATORY_SERVER_DETAILS" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Specifies the details of the server to use for a laboratory extension. Only the following values are required.
+*First Entry  : Full URL of server for eg. https://&lt;host_name&gt;:&lt;server_port&gt;/en/db/app/plugins.tcmaster.tcslave/
+*Second Entry : CURL Bearer token to connect to server i.e. Authorization: Bearer &lt;ACCESS_TOKEN&gt;</preference_description>
+      <context name="Teamcenter">
+        <value>&lt;SERVER_URL&gt;</value>
+        <value>&lt;ACCESS_TOKEN&gt;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

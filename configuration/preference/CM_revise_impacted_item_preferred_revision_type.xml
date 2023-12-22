@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_revise_impacted_item_preferred_revision_type" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether supplemental revision types are preferred or if the initial/secondary revision rules they supplement are preferred for the Solution Item when executing the Revise Impacted Item function in Change Manager. Revision Naming Rules must be defined in BMIDE and attached to the ItemRevision, or a given subtype, for this preference to apply.
+Valid Values:
+* &quot;supplemental&quot;: Supplemental revision types are preferred and will be used over the initial/secondary revision types they supplement if available. This is the default rule.
+* &quot;initial_or_secondary&quot;: Initial or secondary revision types are preferred and will be used over any corresponding supplemental revision type if available.
+* &quot;none&quot;: No specific revision type is preferred. Uses revision type of Impacted Item for Solution Item.</preference_description>
+      <context name="Teamcenter">
+        <value>supplemental</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2003-2005 UGS Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Awp0C2CapaCauseInfoSummary.xml
+
+
+17/March/2016 	  Sprint44 Release Adding localization on the labels
+Default style sheet for displaying CAPARevision Info Panel in Active Workspace Client.
+
+-->
+<rendering>
+    <header>
+        <property name = "object_string"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+        <section title = "Properties">
+            <property name = "object_name"/>
+            <property name = "object_desc"/>
+			<property name = "object_type"/>
+			<break/>
+			<property name = "c2_Category"/>
+			<property name = "c2_IsRootCause"/>
+			<property name = "c2_IsReoccurring"/>
+            <property name = "owning_user" renderingHint = "objectlink" modifiable = "false"/>
+            <property name = "owning_group" renderingHint = "objectlink" modifiable = "false"/>
+            <property name = "last_mod_user"/>
+            <property name = "checked_out" renderingHint = "label"/>
+            <property name = "checked_out_user"/>
+        </section>
+    </page>
+</rendering>

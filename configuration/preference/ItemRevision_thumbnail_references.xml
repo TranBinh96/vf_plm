@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ItemRevision_thumbnail_references" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list in descending order of priority of reference types for Datasets in an Item Revision, used to determine which Dataset will be used to create a Thumbnail for the Item Revision.
+The ordered list of Datasets is first obtained through the value of the preference ItemRevision_thumbnail_relations, and then filtered using the values entered for this preference.
+Valid values are for instance TIF_Reference, JPEG_Reference, etc.</preference_description>
+      <context name="Teamcenter">
+        <value>TIF_Reference</value>
+        <value>JPEG_Reference</value>
+        <value>AI_Reference</value>
+        <value>PDF_Reference</value>
+        <value>JTPART</value>
+        <value>UGPART</value>
+        <value>Image</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

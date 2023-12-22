@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ActivityColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Preference that holds the list of column names that will be displayed in the Activity tree table in Manufacturing MSE application.</preference_description>
+      <context name="Teamcenter">
+        <value>me_cl_display_string</value>
+        <value>me_cl_object_desc</value>
+        <value>al_activity_long_description</value>
+        <value>al_activity_start_time</value>
+        <value>al_activity_time</value>
+        <value>al_activity_calc_start_time</value>
+        <value>al_activity_calc_time</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

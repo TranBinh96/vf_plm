@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mfg0ProcResource.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the creation stylesheet for Mfg0ProcResource objects.</preference_description>
+      <context name="Teamcenter">
+        <value>ProcessResourceCreate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

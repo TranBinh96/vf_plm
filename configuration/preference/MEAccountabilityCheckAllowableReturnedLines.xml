@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAccountabilityCheckAllowableReturnedLines" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the maximum number of lines that can be returned by the accountability check. This includes all the source and target lines to be colored, as well as their parent lines.
+Valid Values:
+Accepts a positive integer less than or equal to 10,000.</preference_description>
+      <context name="Teamcenter">
+        <value>150000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

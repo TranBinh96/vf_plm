@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WSOM_find_set_pff_displaydata_limit" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Limits the number of objects displayed in the Print dialog box that Teamcenter displays when a user selects a property finder formatter (PFF) object in the Search Results view, right-clicks, and chooses Print Table (HTML/TEXT).For information about PFF objects, see Teamcenter Basics.
+Valid values are
+Any positive integer.Performance may become unacceptable if you enter a value exceeding 1000.</preference_description>
+      <context name="Teamcenter">
+        <value>500</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPM_task_execution_mode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which task execution mode should be used to process a Workflow task.
+Valid Values:
+* FOREGROUND: Processes all tasks in foreground mode. This is the default value.
+* BACKGROUND: Processes all tasks in background mode.
+* CONFIGURABLE: Processes a task according to its task template&apos;s &quot;ExecuteAsync&quot; property setting. If the property is set to &quot;ON&quot;, the task will be processed in background mode. If the property is set to &quot;OFF&quot;, the task will be processed in foreground mode.</preference_description>
+      <context name="Teamcenter">
+        <value>CONFIGURABLE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

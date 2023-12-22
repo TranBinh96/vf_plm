@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_line_contains_IC_Absoc" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if structure lines have additional data such as incremental change information or absolute occurrence information. Use this preference with the BOM_enable_mem_mgt_probability_percent preference for better memory management of structure expansions initiated by the bomwriter and plmxml_export utilities. It does not affect expansions initiated in Structure Manager.
+Valid Values:
+true - Lines in the structure have incremental change information, absolute occurrence information, or both.
+false - Lines in the structure do not have incremental change information or absolute occurrence information.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

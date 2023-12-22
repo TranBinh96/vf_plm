@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VINF_SPECBOOK_MODULE_NAME" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>No description is available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>RAW=AUTOMOBILE=Raw Material</value>
+        <value>CLP=AUTOMOBILE=Color Part</value>
+        <value>FLU=AUTOMOBILE=Fluid, Glues, Oils, Paint</value>
+        <value>BIW=AUTOMOBILE=Body In White</value>
+        <value>CHS=AUTOMOBILE=Chassis</value>
+        <value>EEP=AUTOMOBILE=Electrical and Electronics Part</value>
+        <value>BEX=AUTOMOBILE=Body Exterior</value>
+        <value>BIN=AUTOMOBILE=Body Interior</value>
+        <value>PWT=AUTOMOBILE=Power Train</value>
+        <value>ENG=AUTOMOBILE=Engine</value>
+        <value>BLA=AUTOMOBILE=Book and Label</value>
+        <value>STD=AUTOMOBILE=Standard Part (Screw, Bolt, Nut etc)</value>
+        <value>SOW=AUTOMOBILE=Software</value>
+        <value>ACC=AUTOMOBILE=Accessory</value>
+        <value>BLN=AUTOMOBILE=Blank</value>
+        <value>TWB=AUTOMOBILE=Tailor Welded Blank</value>
+        <value>CVC=AUTOMOBILE=Complete Vehicle</value>
+        <value>DCL=AUTOMOBILE=Doors Closures</value>
+        <value>GNR=AUTOMOBILE=General</value>
+        <value>EEH=AUTOMOBILE=Electrical Electronic for High voltage</value>
+        <value>BAT=AUTOMOBILE=Battery Pack</value>
+        <value>EDS=AUTOMOBILE=Electric Drive System</value>
+        <value>CEL=AUTOMOBILE=Battery Cell</value>
+        <value>DRT=E-SCOOTER=Drivertrain</value>
+        <value>ELE=E-SCOOTER=Basic EL</value>
+        <value>LID=E-SCOOTER=Light/ Display</value>
+        <value>FRA=E-SCOOTER=Frame assy.</value>
+        <value>SUS=E-SCOOTER=Suspension</value>
+        <value>BRA=E-SCOOTER=Brake</value>
+        <value>SAE=E-SCOOTER=Saddle</value>
+        <value>BDP=E-SCOOTER=Body plastic</value>
+        <value>FWH=E-SCOOTER=Front wheel assy.</value>
+        <value>RWH=E-SCOOTER=Rear wheel assy.</value>
+        <value>MEC=E-SCOOTER=Another mechanical</value>
+        <value>BOL=E-SCOOTER=Book, label,…</value>
+        <value>LIQ=E-SCOOTER=Fluid, liquid,…</value>
+        <value>RWT=E-SCOOTER=Raw material</value>
+        <value>ASY=E-SCOOTER=Assembly drawing</value>
+        <value>CNI=E-SCOOTER=Connectivity &amp; Interface</value>
+        <value>TRS=E-SCOOTER=Trasmission</value>
+        <value>ACP=E-SCOOTER=Accessory</value>
+        <value>SVC=E-SCOOTER=Service Part</value>
+        <value>PCB=E-SCOOTER=Printed Circuit Board</value>
+        <value>SOF=E-SCOOTER=Software</value>
+        <value>PBA=E-SCOOTER=Printed Board Accessory</value>
+        <value>CHG=E-SCOOTER=Charging Station</value>
+        <value>FIR=E-SCOOTER=Firmware</value>
+        <value>APP=E-SCOOTER=Application</value>
+        <value>BTP=E-SCOOTER=Battery Pack</value>
+        <value>CVC=E-SCOOTER=Complete Vehicle</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

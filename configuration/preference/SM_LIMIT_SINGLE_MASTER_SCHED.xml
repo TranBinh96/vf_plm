@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_LIMIT_SINGLE_MASTER_SCHED" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Limits the schedule to one master schedule.
+Valid Values:
+true
+false</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

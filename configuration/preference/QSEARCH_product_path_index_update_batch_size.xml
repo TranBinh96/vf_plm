@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QSEARCH_product_path_index_update_batch_size" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the maximum number of BOMViewRevisions that should be processed in a single batch.
+A higher value will be more efficient, but will consume more memory.
+Any value less than one is considered to mean an unlimited batch size.</preference_description>
+      <context name="Teamcenter">
+        <value>100</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

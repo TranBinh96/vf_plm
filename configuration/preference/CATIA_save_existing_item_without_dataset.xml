@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_save_existing_item_without_dataset" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set the CATIA_save_existing_item_without_dataset preference to false to prevent items in an assembly, that do not have a related CATIA V5 dataset in Teamcenter, from being saved from CATIA to Teamcenter.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

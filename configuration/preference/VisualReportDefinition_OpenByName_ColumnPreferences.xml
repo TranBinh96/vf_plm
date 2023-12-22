@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VisualReportDefinition_OpenByName_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the columns to be displayed for the dialog &quot;Open By Name&quot; for Visual Report Definitions.
+The format for valid values is &quot;TypeName.PropertyName&quot;, where &quot;TypeName&quot; is the Visual Report Definition internal name (VisualReportDefinition) and &quot;PropertyName&quot; is the internal name of the property to be displayed.</preference_description>
+      <context name="Teamcenter">
+        <value>VisualReportDefinition.object_string</value>
+        <value>VisualReportDefinition.full_name</value>
+        <value>VisualReportDefinition.owning_user</value>
+        <value>VisualReportDefinition.creation_date</value>
+        <value>VisualReportDefinition.last_mod_date</value>
+        <value>VisualReportDefinition.release_status_list</value>
+        <value>VisualReportDefinition.owning_group</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

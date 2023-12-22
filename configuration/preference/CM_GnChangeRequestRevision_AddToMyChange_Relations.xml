@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_GnChangeRequestRevision_AddToMyChange_Relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines list of relations which needs to be presented when object of type &quot;ChangeRequestRevision&quot; or &quot;DeviationRequestRevision&quot; is selected on &quot;Add To My Changes&quot; panel in Active Workspace Client (AWC).
+Valid values are internal of relation types.</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasProblemItem</value>
+        <value>CMHasImpactedItem</value>
+        <value>CMReferences</value>
+        <value>CMHasWorkBreakdown</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

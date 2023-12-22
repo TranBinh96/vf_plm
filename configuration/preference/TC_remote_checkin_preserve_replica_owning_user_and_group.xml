@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_remote_checkin_preserve_replica_owning_user_and_group" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines how ownership is assigned to replica revisions upon checkin. This preference must be set at both sites to take effect.If this preference is set at only the owning site (and not also at the remote site), the preference acts as if it was not set.Do not set this preference to TRUE at the remote site and FALSE at the owning site. In this situation, the system displays an error.
+Valid Values:
+TRUE - The ownership assigned to the replica revision is preserved, regardless of which user checks in the replica.For example, consider an item created at Site A by User 1. A remote export is performed on the item with transfer of ownership to Site B User 1.User 1 at Site A then checks out the item, revises Rev1 of the item, and checks it back in. User 1 at Site A then checks out Rev2 of the item, changes ownership of the item to User 2 at Site B, and checks it back in. Both Site A and Site B see the ownership of Rev2 is User 2.In this example, User 1 must be a valid user at both sites and User 2 must be a valid user at both sites.
+FALSE - The user checking in the replica is assigned ownership, regardless of any ownership assignments made by the user. This preserves the concept of unified ownership.For example, consider an item created at Site A by User 1. A remote export is performed on the item with transfer of ownership to Site B by User 1.User 1 at Site A then checks out the item, revises Rev1 of the item, and checks it back in. User 1 at Site A then checks out Rev2 of the item, changes ownership of the item to User 2 at Site B, and checks it back in. Site A sees the ownership of Rev2 as User 2, but Site B sees the ownership of Rev2 as User 1.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

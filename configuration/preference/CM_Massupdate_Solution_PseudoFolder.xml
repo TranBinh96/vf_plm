@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_Massupdate_Solution_PseudoFolder" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Generic Relationship Management (GRM) rule to use when adding solution items to a Change Manager change object during a mass update.This is one of several preferences used to configure mass update functionality.Use mass updates to perform bulk updates to multiple assemblies, including designating or replacing substitutes for parts. For example, you can identify and automatically replace every occurrence of an impacted part with its solution item.</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasSolutionItem</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEAutoViCreateEmptyVI" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether a variant item is created when a non-module is encountered during automatic variant item creation.
+Valid Values:
+true - A variant item is created for a given BOM line when a non-module is encountered. The system continues to the bottom of the generic structure, assigning empty variant items (variant items with no variant configuration) for each item that is not a module.
+false - A variant item is not created for a given BOM line when a non-module is encountered.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

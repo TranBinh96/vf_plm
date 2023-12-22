@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_MBOM_Group_material" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Group Material</preference_description>
+      <context name="Teamcenter">
+        <value>ACC-Accessory</value>
+        <value>BEX-Body Exterior</value>
+        <value>BIN-Body Interior</value>
+        <value>BIW-Body In White</value>
+        <value>BLA-Book &amp; Label</value>
+        <value>CHS-Chassis</value>
+        <value>CLP-Color Part</value>
+        <value>EEP-Electrical &amp; Electronics part</value>
+        <value>ENG-Engine</value>
+        <value>FLU-Fluid, Glues, Oils, Paint</value>
+        <value>PWT-Powertrain</value>
+        <value>RAW-Raw Material</value>
+        <value>SOW-Software</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

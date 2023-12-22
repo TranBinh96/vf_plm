@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_days_non_login_timeout" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Used to disable the inactive use accounts. This option determines whether to allow user logon, based on the number of days that have passed since the user&apos;s last recorded logon. This is used as a security method to disable logon for users who have not logged into the system for a specified number of days. This is site preference only.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

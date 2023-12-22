@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSE_enable_related_substitutes" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether the Related Substitutes menu command displays in Structure Manager. Substitute part relationships are used to manage dependencies between substitute part selections. When there are dependencies between substitute part selections, you can relate the substitute part of one occurrence with substitute parts of the other occurrence. You can define these relationships for any occurrence in any BOM view revision.
+Valid Values:
+True - The Related Substitutes menu command displays in Structure Manager.
+False - The Related Substitutes menu command does not display in Structure Manager.</preference_description>
+      <context name="Teamcenter">
+        <value>False</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

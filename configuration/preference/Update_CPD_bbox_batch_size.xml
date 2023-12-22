@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CPD.Bounding Box Update">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Update_CPD_bbox_batch_size" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Defines the batch size to process bounding boxes in one iteration.
+This preference value is used by the &quot;mdl0_update_bbox&quot; utility.
+A valid value can be any integer greater than zero. The default value is 25000.</preference_description>
+      <context name="Teamcenter">
+        <value>25000</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

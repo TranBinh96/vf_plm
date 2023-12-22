@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_relation_export_on_transfer" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which interpart relation types are included when an object is exported/imported regardless of whether the export is a replica or with transfer of ownership. If the exporting site and the importing site have conflicting rules, the rule at the exporting site prevails. For example, if the importing site does not require the manifestation relation but the exporting site does, manifestations are included. Relations that are in this preference override relations that are also included in the TC_relation_required_on_transfer preference.To avoid having replicated participants missing in the Assign Participants dialog box, do not include the HasParticipant relation in this preference value.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid Teamcenter relation. An exception is the IMAN_RES_checkout relation, which is not a valid value for this preference.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

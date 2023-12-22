@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TechnicalPortfolioTransferMode_IMAN_MEWorkInstruction" type="String" array="false" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Used for configuring Teamcenter manufacturing process management technical portfolios. Defines the transfer mode of the specified technical portfolio. TransferMode objects control the related data exported into a PLM XML document.
+Valid values are
+Accepts a single string as a value. Must be a valid Teamcenter TransferMode object.</preference_description>
+      <context name="Teamcenter">
+        <value>portfolio_workinstruction</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

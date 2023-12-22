@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_tcxml_multisite_default_transfer_optionset" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default transfer optionset to be used when exporting and inporting objects using TcXML multisite.
+The Default value is MultiSiteExpOptSet&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>MultiSiteExpOptSet</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

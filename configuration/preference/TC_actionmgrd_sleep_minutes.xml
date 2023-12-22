@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Action Manager Daemon">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_actionmgrd_sleep_minutes" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the number of minutes in the sleep period of the &quot;actionmgrd&quot; process daemon between the dispatching of Subscription events.
+Low values can be used when a large number of events are expected, or to ensure events are processed close to their scheduled time.
+Large values can be used if few events are expected and their execution time is of lower importance.
+Valid Values:
+Positive integer up to 1440 (the number of minutes in a 24-hour day).</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECustomViewPropertiesToEdit" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the BOM line properties that can be edited in the main and child header sections in the Custom view in the Manufacturing Process Planner (MPP) application.
+Valid values are the internal name of the BOM line property. Only string type properties are supported.
+Examples: &quot;bl_rev_object_desc&quot;, &quot;bl_item_object_desc&quot;, &quot;bl_sequence_no&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_rev_object_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

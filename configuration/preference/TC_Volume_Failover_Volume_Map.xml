@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Volume_Failover_Volume_Map" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies a mapping of failover (alternate) volumes. This preference can be used when a volume is marked as read-only or is otherwise inaccessible for write operations. Specifying the alternate volume using this preference ensures that future write operations are done to the alternate volume.
+Valid Values:
+Accepts a single string as a value. The string must include valid volume names. Each value should be of the form: 
+source-volume:destination-volume
+The mappings can be cascaded such that an entry of the form VolA:VolB and VolB:VolC indicates that the system should use VolC when VolA is the current volume.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

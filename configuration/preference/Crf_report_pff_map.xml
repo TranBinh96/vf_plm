@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Reports">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Crf_report_pff_map" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Stores the report builder reports ID/PFF (Property Finder Formatter) name pair.
+Values are in the format &quot;&lt;report_ID&gt;&lt;Delimiter&gt;&lt;PFF_name&gt;&quot; (e.g. &quot;TC_9_00_SUM_RPT_0003#ItemOwnership&quot;).
+The delimiter is defined by the preference &quot;Crf_report_pff_delimit&quot;.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

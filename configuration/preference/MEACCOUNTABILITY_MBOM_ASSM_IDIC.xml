@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEACCOUNTABILITY_MBOM_ASSM_IDIC" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the accountability check optimization for closure rules like AccountabilityLinkedAssmOrLeaves between 2 BOM structures is enabled. These closure rules consider prior assignment to target structure to traverse the source structure.
+Valid values:
+0 - no optimization for closure rules like AccountabilityLinkedAssmOrLeaves.
+1 - optimization for closure rules like AccountabilityLinkedAssmOrLeaves.
+2 - in addition to optimization just as value 1, provides support for lines with IDIC (ID In Context) which are in lower level contexts as long as those assemblies are linked to the source structure.
+
+The default value is 1.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

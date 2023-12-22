@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_PROGRAMS_MODULES_ATTRIBUTES_NAME" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF_PROGRAMS_MODULES_ATTRIBUTES_NAME</preference_description>
+      <context name="Teamcenter">
+        <value>DEFAULT=VL5_module_group</value>
+        <value>Car Battery.Battery Program=VL5_module_group</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

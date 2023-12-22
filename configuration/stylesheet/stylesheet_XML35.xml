@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ItemCreate.xml
+
+    Style sheet rendering for Item creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">
+            <label text= "NOTE:  This function is deprecated." style="font-size:12pt;font-style:plain;font-family:Tahoma;font-weight:bold"/>
+            <label text= "Please create ME Scooter by clicking the menu Tools (VF) -> General -> Create ME Part, and select “Scooter” as module."/>      
+    </page>
+</rendering>

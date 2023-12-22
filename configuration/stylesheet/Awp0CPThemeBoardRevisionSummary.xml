@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+
+    Filename: Awp0CPThemeBoardRevisionSummary.xml
+
+    Default style sheet for displaying Theme Board Revision summary in Active Workspace Client.
+
+================================================================================
+-->
+
+<rendering>
+    <header>
+        <image source = "type"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "release_status_list" renderingHint = "label"/>
+        <property name = "object_type"/>
+    </header>
+
+    <page titleKey = "tc_xrt_Overview">
+        <column>
+            <section text = "tc_xrt_properties">
+                <property name="item_id" renderingHint="label"/>
+                <property name="item_revision_id" renderingHint="label"/>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+                <property name="release_status_list" renderingHint="label"/>
+                <property name="date_released" renderingHint="label"/>
+                <property name="effectivity_text" renderingHint="label"/>
+                <break/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out" renderingHint="label"/>
+                <property name="checked_out_user"/>
+                <break/>
+                <property name="DocumentTitle"/>
+                <property name="DocumentSubject"/>
+                <property name="DocumentAuthor"/>
+                <property name="proj_assign_mod_date"/>
+                <property name="project_ids"/>
+                <property name="project_list"/>
+            </section>
+            <inject type="dataset" src="Fnd0ClassificationSummary"/>
+        </column>
+        <column>
+            <section titleKey = "tc_xrt_Preview">
+                <image source = "thumbnail"/>
+            </section>
+            <inject src="S2clScalarRatingOverview" type="dataset"/>
+        </column>
+    </page>
+    <inject type="preference" src="ClassificationStylesheetTab"/>
+    <page titleKey="tc_xrt_GraphicalElements">
+            <objectSet source="CP_Has_Graphical_Element.CPGraphicElementRevision" defaultdisplay="tableDisplay" sortby="object_type" sortdirection="ascending">
+                    <tableDisplay>
+                            <property name="object_string"/>
+                            <property name="object_type"/>
+                            <property name="release_status_list"/>
+                            <property name="graphic_element_type"/>
+                            <property name="clearance_required"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                            <property name="object_string"/>
+                            <property name="object_type"/>
+                            <property name="release_status_list"/>
+                            <property name="graphic_element_type"/>
+                            <property name="clearance_required"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                                    <parameter name="localSelection" value="true"/>
+                    </command>
+            </objectSet>
+    </page>
+    <page titleKey="tc_xrt_Briefs">
+            <section titleKey="tc_xrt_MarketingBriefs">
+                    <objectSet source="CP_marketing_briefs.CPMarketingBriefRevision" defaultdisplay="tableDisplay" sortby="object_type" sortdirection="ascending">
+                            <tableDisplay>
+                                    <property name="object_string"/>
+                                    <property name="object_type"/>
+                                    <property name="release_status_list"/>
+                                    <property name="product_category"/>
+                                    <property name="region"/>
+                                    <property name="target_market"/>
+                                    <property name="initiative_target_date"/>
+                                    <property name="target_cost"/>
+                                    <property name="currency"/>
+                                    <property name="competition"/>
+                                    <property name="primary_contact_person"/>
+                            </tableDisplay>
+                            <thumbnailDisplay/>
+                            <treeDisplay>
+                                    <property name="object_string"/>
+                                    <property name="object_type"/>
+                                    <property name="release_status_list"/>
+                                    <property name="product_category"/>
+                                    <property name="region"/>
+                                    <property name="target_market"/>
+                                    <property name="initiative_target_date"/>
+                                    <property name="target_cost"/>
+                                    <property name="currency"/>
+                                    <property name="competition"/>
+                                    <property name="primary_contact_person"/>
+                            </treeDisplay>
+                            <listDisplay/>
+                    </objectSet>
+            </section>
+    </page>
+    <page titleKey = "tc_xrt_attachments">
+        <section titleKey = "tc_xrt_Files">
+            <objectSet source = "IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset,IMAN_UG_altrep.Dataset,IMAN_UG_scenario.Dataset,IMAN_Simulation.Dataset" defaultdisplay="tableDisplay" sortby="object_type" sortdirection="ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_Documents">
+            <objectSet source = "IMAN_specification.DocumentRevision,IMAN_reference.DocumentRevision" defaultdisplay = "tableDisplay"  sortby="object_type" sortdirection="ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+    <content visibleWhen="structure_revisions==null and ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+        <inject type="dataset" src="S2clItemRevSummary"/>
+    </content>
+<!--
+================================================================================
+
+General pages
+
+================================================================================
+-->
+    <inject type="dataset" src="RelationsSummary" />
+    <page titleKey = "tc_xrt_Workflow" visibleWhen="fnd0AllWorkflows!=null">
+        <htmlPanel declarativeKey="Awp0WorkflowViewer"/>
+    </page>
+    <page titleKey = "tc_xrt_Signoffs" visibleWhen="fnd0AllWorkflows!=null">
+        <objectSet source="fnd0ActuatedInteractiveTsks.POM_application_object,fnd0ActuatedInteractiveTsks.EPMTask,fnd0ActuatedInteractiveTsks.Signoff" defaultdisplay="tableDisplay">
+            <tableDisplay>
+                <property name="fnd0AliasTaskName"/>
+                <property name="fnd0Assignee"/>
+                <property name="fnd0Status"/>
+                <property name="fnd0EndDate"/>
+                <property name="comments"/>
+            </tableDisplay>
+        </objectSet>
+    </page>
+    <page titleKey = "tc_xrt_Participants" visibleWhen="fnd0AllWorkflows!=null">
+        <section titleKey = "tc_xrt_ProposedReviewers">
+            <objectSet source = "HasParticipant.ProposedReviewer" defaultdisplay = "tableDisplay">
+                    <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                <tableDisplay>
+                    <property name = "fnd0AssigneeUser"/>
+                    <property name = "fnd0AssigneeRole"/>
+                    <property name = "fnd0AssigneeGroup"/>
+                    <property name = "fnd0AssigneeEmail"/>
+                    <property name = "fnd0AssigneePhone"/>
+                    <property name = "fnd0AssigneeOrganization"/>
+                </tableDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_ProposedResponsibleParty">
+           <objectSet source = "HasParticipant.ProposedResponsibleParty" defaultdisplay = "tableDisplay">
+                    <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant" renderingHint="commandbutton"/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ReplaceParticipant" renderingHint="commandbutton"/>
+                <tableDisplay>
+                    <property name = "fnd0AssigneeUser"/>
+                    <property name = "fnd0AssigneeRole"/>
+                    <property name = "fnd0AssigneeGroup"/>
+                    <property name = "fnd0AssigneeEmail"/>
+                    <property name = "fnd0AssigneePhone"/>
+                    <property name = "fnd0AssigneeOrganization"/>
+                </tableDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

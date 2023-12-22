@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Licensing">
+    <category_description>Configuration for Teamcenter feature licensing.</category_description>
+    
+               <preference name="license_warning_level" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies a threshold number of remaining licenses. When an administrator assigns license levels or license bundles, the system displays a warning when the number of remaining licenses is equal to, or lower than, the value of this preference. License levels and license bundles are assigned using either the Organization application or the make_user utility. When assigning a license to a user, the following message appears when a threshold set to 5 is reached: The number of available licenses is running low: 5 licenses are left. When assigning a license bundle to a user, the following message appears when a threshold set to 5 is crossed: The number of available licenses is running low: 5 licenses of bundle bundle-name are left.
+Valid Values:
+Any single string. Must be a single, positive integer more than zero.</preference_description>
+      <context name="Teamcenter">
+        <value>5</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

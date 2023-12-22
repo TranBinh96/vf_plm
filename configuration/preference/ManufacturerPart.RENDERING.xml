@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Style Sheets">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ManufacturerPart.RENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Registers the properties style sheet for vendor part objects.Modify to use a new style sheet.
+Valid Values:
+Accepts one string as a value; it must be a valid dataset name.</preference_description>
+      <context name="Teamcenter">
+        <value>ManufacturerPart</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

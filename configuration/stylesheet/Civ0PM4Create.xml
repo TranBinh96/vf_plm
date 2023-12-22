@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2014. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: Civ0PM4Create.xml  
+   
+     Default style sheet for displaying DC_SkdPM Create 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+======================================================================= 
+@<DEL>@  
+-->
+
+
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <section titleKey="tc_xrt_References">
+                <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RefContentPanelSkdPM4"/>             
+            </section>
+            <section titleKey="tc_xrt_PublicationDetails">
+                <property name="revision:skdmodelic" />
+                <property name="revision:skdpmissuer" />
+                <property name="revision:skdpmnumber" />
+                <property name="revision:skdpmvolume" />
+                <property name="revision:c1k0dmeproducer" />
+                <property name="revision:c1k0dmecode" />          
+            </section>
+            <separator/>
+            <property name="object_name" renderingHint="textfield" />
+            <property name="revision:DocumentTitle" renderingHint="textfield" />
+        </column>
+      
+        <column>                
+            <section titleKey="tc_xrt_OtherPublicationDetails">            
+                <property name="revision:skdsecurity_class" />
+                <property name="revision:skdrpc" />
+                <property name="revision:skdorig" />
+                <property name="revision:skdsbc" />
+                <property name="revision:skdremarks" />
+                <property name="revision:skdeffect" />
+                <property name="revision:skdmedia" />
+                <property name="revision:c1k0skdmediatype" />
+                <property name="revision:c1k0skdmediacode" />
+                <property name="revision:skdfic" />
+            </section> 
+        </column>
+        <customPanel java="com.teamcenter.rac.contmgmts1000d40.wizards.LanguagePanel"/>
+        <separator/>  
+        <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RelationSelectionPanel"/> 
+    </page>
+   
+</rendering>
+
+

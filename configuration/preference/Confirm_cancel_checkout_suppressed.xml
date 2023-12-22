@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Confirm_cancel_checkout_suppressed" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether the Don&apos;t show confirmation dialog again check box is selected in the Cancel Check-Out dialog box in the rich client and thin client.
+Valid Values:
+true - The check box is selected and cancel checkout proceeds without confirmation.
+false - The check box is not selected and cancel checkout requires confirmation.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

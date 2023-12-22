@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+==================================================
+Copyright 2019.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<!-- Default style sheet for displaying Fnd0AppSession Info Panel in Active Workspace Client. -->
+<rendering>
+    <header>
+        <property name = "object_name"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_Preview">
+            <image source = "thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_Properties">
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="object_type"/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_user"/>
+        </section>
+    </page>
+</rendering>

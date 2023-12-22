@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_partnumber_validation_rule" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies a single-value property that determines if a design solution has a valid part number. A naming rule has to be created in Business Modeler IDE and the pattern specified for this naming rule determines what is a valid part number. The name of this naming rule must be set in this preference.
+Valid Values:
+Accepts a string as a value. This string represents the name of the naming rule.</preference_description>
+      <context name="Teamcenter">
+        <value>partnumber_rule</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

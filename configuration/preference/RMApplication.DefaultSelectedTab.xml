@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RMApplication.DefaultSelectedTab" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the default selected tab in the data panel for Requirements Management Application. This value can be altered with the internal name of any valid tabs. The internal names can be found in file cc_locale.properties in portal.jar (look for entries [internal name].TABLABEL=[locale name]). Use a preceding *back slash* symbol for any empty space in the string value.</preference_description>
+      <context name="Teamcenter">
+        <value>PropertiesViewer</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

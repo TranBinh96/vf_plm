@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cls0HierarchyNode_dataset_search_order" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the dataset types (in order of preference) used to obtain the preview image for Classification Hierarchy nodes. 
+Valid values are dataset named references, in order of priority, separated by a comma (,).</preference_description>
+      <context name="Teamcenter">
+        <value>Image,ICS-ClassImage,ICS-ClassImage1,ICS-ClassImage2,ICS-ClassImage3,ICS-ClassImage4,ICS-ClassImage5,ICS-ClassImage6,ICS-ClassImage7,ICS-ClassImage8,ICS-ClassImage9,ICS-ClassIcon</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

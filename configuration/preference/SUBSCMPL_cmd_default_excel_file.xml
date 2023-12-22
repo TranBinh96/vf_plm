@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_cmd_default_excel_file" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default IPC excel file name for conflict mineral declaration requests.
+The system will search for this file in the Teamcenter server TC_DATA directory.
+The valid values are:
+* CFSI_CMRT5-01.xlsx: IPC 1755 format Excel template. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>CFSI_CMRT5-01.xlsx</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

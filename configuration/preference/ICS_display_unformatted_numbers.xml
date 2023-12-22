@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_display_unformatted_numbers" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether Teamcenter shows leading zeros when displaying attribute values.
+Valid Values:
+True or a list of attributes IDs for which the leading zeros should be shown.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

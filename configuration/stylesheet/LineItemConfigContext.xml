@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2022 Siemens Digital Industries Software
+================================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2022 Siemens Digital Industries Software
+
+    Filename: LineItemConfigContext.xml
+
+    Default style sheet for displaying LineItemConfigContext properties.
+ -->
+<rendering>
+    <page title="General" titleKey="General">
+        <property name="object_name" modifiable="false"/>
+        <property name="object_desc"/>
+        <property name="revision_rule"/>
+        <property name="variant_rule"/>
+        <property name="closure_rule"/>
+        <property name="view_type"/>
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+        <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+        <property name="last_mod_user"/>
+    </page>
+    <page title="Reservation" titleKey="Reservation">
+        <property name="checked_out"/>
+        <property name="checked_out_user"/>
+        <separator/>
+        <property name="checked_out_date"/>
+        <property name="checked_out_change_id"/>
+        <separator/>
+        <property name="reservation"/>
+    </page>
+    <page title="Project" titleKey="Project">
+        <property name="proj_assign_mod_date"/>
+        <property name="project_ids"/>
+        <separator/>
+        <property name="project_list"/>
+    </page>
+    <page title="All" titleKey="All">
+        <all type="property"/>
+    </page>
+</rendering>

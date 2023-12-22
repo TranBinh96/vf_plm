@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Audit Log Page for Workspace Object and its subtype. -->
+
+<subRendering>
+<page titleKey="tc_xrt_AuditLogs" visibleWhen="{pref:TC_audit_manager_version}==3 and {pref:AWC_show_audit_logs}==true">
+    <inject type="dataset" src="GeneralAuditLogs"/>
+</page>
+</subRendering>

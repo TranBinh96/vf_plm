@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ODS_publication_sites" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists Object Directory Services (ODS) sites that can be used to publish an object simultaneously. The list serves as the recommended ODS list when publishing to multiple sites using Commands-&gt;Publish-&gt;To ODS Publication List menu commands.This list plus the default ODS comprise the list of authorized ODS sites to which users can publish.
+Valid Values:
+One or more strings as values; each string must be a valid Teamcenter site name and must be designated as providing ODS.</preference_description>
+      <context name="Teamcenter">
+        <value>VINFAST</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

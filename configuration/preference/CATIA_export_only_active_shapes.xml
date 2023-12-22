@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_export_only_active_shapes" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Customize the export only active and default shapes setting used during the Load process. 
+This value is modified when the Export Only Active Shapes option in the CATIA (V5) menu is toggled on or off.
+The default value for this setting is 0. This setting is ignored when Activate Latest Active Shapes option is toggled off.
+The default value can also be set in Global Preferences (Site or Group Preferences) but the value will always be updated in the User Preferences.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

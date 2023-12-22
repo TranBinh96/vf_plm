@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Appearance Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextUseUnconfigurableSearchResults" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether unconfigurable search results display in search results. Unconfigurable search results always prompt an error message (such as No revision found for current revision rule). This preference determines whether, after the error message displays, the unconfigurable search results display in the search results list.
+Valid Values:
+TRUE - Unconfigurable search results display.
+FALSE - Unconfigurable search results do not display.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

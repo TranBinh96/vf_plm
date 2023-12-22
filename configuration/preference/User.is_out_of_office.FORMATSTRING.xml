@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="User.is_out_of_office.FORMATSTRING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the property formatter for the &quot;is_out_of_office&quot; boolean property on User business object.
+Using this property formatter, the boolean property is displayed as the localized values of the keys &quot;k_yes&quot; for &quot;True&quot; and &quot;k_no&quot; for &quot;False&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>T(k_yes);T(k_no)</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

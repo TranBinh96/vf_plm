@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Style Sheets">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Ptn0PartitionTemplateModel.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the XML rendering dataset used by the 4G Designer application to render the properties shown in the New Business Object - Partition Template dialog box.
+Valid Values:
+The name of any valid dataset containing rendering XML.</preference_description>
+      <context name="Teamcenter">
+        <value>Ptn0PartitionTemplateModelCreate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

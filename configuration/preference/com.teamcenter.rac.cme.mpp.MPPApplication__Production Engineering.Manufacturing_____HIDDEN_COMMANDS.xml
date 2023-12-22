@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="com.teamcenter.rac.cme.mpp.MPPApplication\\Production Engineering.Manufacturing\\*\\HIDDEN_COMMANDS" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>newFormAction,deleteAction,skipAction,com.teamcenter.rac.help.library,exportOfflineGmsAction,com.teamcenter.rac.cme.mcnmanagement.RemoveFromChangeNotice,com.teamcenter.rac.express.RPExport,newURLAction,openInUGAction,exportObjectsAction,namedReferencesAction,completeAction,com.teamcenter.rac.compTraceabilityReport,com.teamcenter.rac.ui.commands.changeLocale,com.teamcenter.rac.cme.mcnmanagement.AddToChangeNotice,suspendAction,com.teamcenter.rac.defTraceabilityReport,newEnvelopeAction,com.teamcenter.rac.claimAssignment,targetTracelinkAsTypeAction,com.teamcenter.rac.cme.mcnmanagement.SetChangeNotice,standinAction,autosetCurrentWCAction,newSCAction,com.ic.siemens.scheduleRepAdmin.commands.sampleCommand,com.teamcenter.rac.exportToPLMXML,sourceTracelinkAction,removeFromLicenseAction,abortAction,removeFromProjectAction,com.teamcenter.rac.processviewer.demote,newCCAction,com.teamcenter.rac.schedule.claimAssignment,com.teamcenter.rac.help.application,assignToLicenseAction,exportToWordAction,newConfigContextAction,com.teamcenter.rac.cme.mcnmanagement.UnsetChangeNotice,resumeAction,printAsAction,org.eclipse.ui.openLocalFile,exportRemoteGmsAction,targetTracelinkAction,assignToProjectAction,aboutAction,org.eclipse.ui.actions.showKeyAssistHandler</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

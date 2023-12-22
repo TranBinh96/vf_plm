@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Global Services.Options">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_gms_server_ca_path" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the path to the directory with trusted certificates of the Certificate Authorities (CAs) for servers including Global Services server.
+This preference is applicable only when the Global Services is deployed in HTTPS mode.
+The value of this preference is optional and can be left blank if server certificate validation is not required.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

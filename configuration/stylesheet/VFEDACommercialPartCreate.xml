@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: VFEDACommercialPartCreate.xml
+
+    Style sheet rendering for VF EDA Commercial Part creation for TC 13.3.0.7.
+=======================================================================
+-->
+
+<rendering>
+	<page title="General" titleKey="tc_xrt_General">      
+		<section title="Item Information" titleKey="tc_xrt_ItemInformation">
+			<property name="item_id" />
+			<property name="revision:item_revision_id" />
+			<property name="object_name" />
+			<property name="object_desc" />
+            <separator/>
+			<!--property name="uom_tag" /-->
+            <property name="vf4_Main_Category" />
+            <property name="revision:vf4_Supplier_Main_Item" />
+			<property name="revision:vf4_Component_Categroy" />
+			<property name="revision:vf4_Foot_Print" />
+			<property name="revision:vf4_Symbol_Name" />
+			<property name="revision:vf4_Type" />
+			<property name="revision:vf4_Package" />
+			<property name="revision:vf4_Uom" />
+			<property name="revision:vf4_Process" />
+			<property name="revision:vf4_Current" />
+			<property name="revision:vf4_Voltage" />
+			<property name="revision:vf4_Part" />
+			<property name="revision:vf4_Tolerance" />
+			<property name="revision:vf4_Power" />
+			<property name="revision:vf4_Isolation_Voltage" />
+			<property name="revision:vf4_Surge_Voltage" />
+			<property name="revision:vf4_Ratings" />
+			<property name="revision:vf4_Temperature_Coefficient" />
+			<property name="revision:vf4_Wavelength" />
+			<property name="revision:vf4_Operating_Temperature" />
+			<property name="revision:vf4_Rohs" />
+			<property name="revision:vf4_Applications" />
+			<property name="revision:vf4_Polar" />
+			<property name="revision:vf4_Status_Check" />
+			<property name="revision:vf4_Applications1" />
+			<property name="revision:vf4_Benchmarchs0" />
+            <!-- OOTB configuration item check box is not visibile, you can remove the comment once is_configuration_item in createInput is turned on in BMIDE -->
+            <!--
+            <property name="is_configuration_item" renderingHint="checkbox" />
+            -->
+		</section>
+
+        <!--<section title="Additional Item Information" titleKey="tc_xrt_AdditionalItemInformation" initialstate="collapsed">
+            <property name="IMAN_master_form:project_id" />
+            <property name="IMAN_master_form:previous_item_id"  />
+            <property name="IMAN_master_form:serial_number" />
+            <property name="IMAN_master_form:item_comment" />
+            <property name="IMAN_master_form:user_data_1"  />
+            <property name="IMAN_master_form:user_data_2"  />
+            <property name="IMAN_master_form:user_data_3"  />
+        </section>
+
+        <section title="Item Revision Information" titleKey="tc_xrt_ItemRevisionInformation" initialstate="collapsed">
+            <property name="revision:IMAN_master_form_rev:project_id" />
+            <property name="revision:IMAN_master_form_rev:previous_version_id" />
+            <property name="revision:IMAN_master_form_rev:serial_number" />
+            <property name="revision:IMAN_master_form_rev:item_comment" />
+            <property name="revision:IMAN_master_form_rev:user_data_1"  />
+            <property name="revision:IMAN_master_form_rev:user_data_2"  />
+            <property name="revision:IMAN_master_form_rev:user_data_3"  />
+        </section>-->
+    </page>
+
+</rendering>

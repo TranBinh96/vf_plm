@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Fnd0JoinedPartsTableRowCreate.xml
+
+    Style sheet rendering for Joined Parts Table Row creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="Joined Parts" titleKey="tc_xrt_JoinedParts">
+      <property name="fnd0Part"/>
+      <property name="fnd0Material"/>
+      <property name="fnd0XEntry"/>
+      <property name="fnd0YEntry"/>
+      <property name="fnd0ZEntry"/>
+      <property name="fnd0XExit"/>
+      <property name="fnd0YExit"/>
+      <property name="fnd0ZExit"/>
+    </page>
+</rendering>
+

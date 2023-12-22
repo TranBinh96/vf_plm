@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_export_child_groups" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether child groups are exported along with the selected group during PLM XML export. Set this preference to OFF to improve performance if groups at your site contain a large number of child groups.
+Valid Values:
+ON - Enables export of child groups when exporting groups using PLM XML.
+OFF - Disables export of child groups when exporting groups using PLM XML.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

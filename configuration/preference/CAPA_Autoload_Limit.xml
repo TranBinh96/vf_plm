@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_Autoload_Limit" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>If the preference value is lesser than the objects present in the Database then the UI loads all the objects silently otherwise it will pop up an warning message to the end user</preference_description>
+      <context name="Teamcenter">
+        <value>200</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

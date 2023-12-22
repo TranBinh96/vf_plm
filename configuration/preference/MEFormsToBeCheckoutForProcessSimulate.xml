@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEFormsToBeCheckoutForProcessSimulate" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates which forms to check out. It stores pairs of form types and the relation.
+Valid Values:
+Accepts string values with the following format:
+Type:Relation</preference_description>
+      <context name="Teamcenter">
+        <value>ProcessSimulateActivity:*</value>
+        <value>MEOpTimeAnalysis:METimeAnalysisRelation</value>
+        <value>MEProcessTimeAnalysis:METimeAnalysisRelation</value>
+        <value>Cps0ProjectionInfo:Cps0ProjectionInfoRel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_config_condition_max_normalization_effort" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Selects the strategy for normalizing configuration expressions such as variant conditions.
+This nornalization process is executed as part of saving the expression and automatically transforms the configuration expression into one or more Normal Forms (Conjunctive Normal Form - CNF or Disjunctive Normal Form - DNF). A CNF based normalization strategy is used if the estimated number of DNF terms (without removing redundancy) is less than the value defined by this preference.
+If the estimated number of DNF terms exceeds the preference value a DNF based strategy is selected, which is expected to result in a (usually significantly) smaller normalization result, but which is less optimal when evaluating configuration criteria.
+Since the estimate cannot take the effect of redundancy removal into account (a welcome by-product of the normalization process), the preference value significally overshoots the actual result.
+However, how much overshoot is acceptable depends on the nature and complexity of the configuration expression.
+Empirical analysis suggests that a good value is 30000 to reach a reasonable balance between save performance and configuration criteria evaluation performance.
+Valid values are all positive integer numbers greater or equal to 2. However, values less than the value for the preference &quot;TC_max_cnf_count_for_condition_normalization&quot; are not practical.</preference_description>
+      <context name="Teamcenter">
+        <value>30000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_DEFAULT_MATERIAL_CATALOG" type="String" array="false" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Specifies the item ID or the object name of the preferred existing catalog to be used when creating materials if no catalog is selected.
+Valid values are in the format object_name#&lt;catalog_name&gt; or item_id#&lt;catalog_id&gt;. 
+For example: object_name#default_catalog</preference_description>
+      <context name="Teamcenter">
+        <value>object_name#default_catalog</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

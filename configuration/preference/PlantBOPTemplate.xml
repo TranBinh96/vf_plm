@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PlantBOPTemplate" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default cloning rule when using a plant BOP as the template for creating another plant BOP.
+Valid Values:
+Accepts a valid cloning rule name.</preference_description>
+      <context name="Teamcenter">
+        <value>*:*:Attribute.items_tag:Clone</value>
+        <value>*:*:Attribute.structure_revisions:Clone</value>
+        <value>*:*:Attribute.bom_view:Clone</value>
+        <value>*:*:Attribute.parent_item:Clone</value>
+        <value>*:*:Attribute.variant_expression_block:Clone</value>
+        <value>*:*:OccType.Null:Clone</value>
+        <value>*:*:OccType.MEWorkArea:Map.Reference</value>
+        <value>*:*:OccType.MEConsumed:Map.Reference</value>
+        <value>*:*:OccType.*:Reference</value>
+        <value>*:*:Relation.IMAN_Rendering:Clone</value>
+        <value>*:*:Relation.Mfg0MELogicalDesignatorRel:Clone</value>
+        <value>*:*:Relation.IMAN_specification:Clone</value>
+        <value>*:*:Relation.IMAN_MEView:Clone</value>
+        <value>*:*:Relation.IMAN_classification:Clone</value>
+        <value>*:class.MEActivity:Relation.IMAN_MEFolder:Clone</value>
+        <value>class.MEActivity:*:Attribute.contents:Clone</value>
+        <value>class.Folder:*:Attribute.contents:Reference</value>
+        <value>*:*:Relation.METimeAnalysisRelation:Clone</value>
+        <value>*:*:Relation.Mfg0TCContextFeatureFormRel:Clone</value>
+        <value>*:*:Relation.IMAN_3D_snap_shot:Clone</value>
+        <value>*:*:Relation.VISTopLevelRef:Clone</value>
+        <value>*:*:Relation.Mfg0METraceOriginRel:EBOPReference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

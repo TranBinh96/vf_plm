@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Classification">
+    <category_description>Active Workspace preferences for Classification application</category_description>
+    
+               <preference name="CLS_search_similar_wso_props_enabled" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the list of workspace object facet&apos;s names which will be applicable during Search Similar use case.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

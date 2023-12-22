@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Office Integration">
+    <category_description>Teamcenter Client for Office Integration</category_description>
+    
+               <preference name="DM_Display_Null_Value_As_Error" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if invalid Teamcenter reference for Office Client attribute mapping will result in an error or not. The default value is true which means the error will be displayed.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

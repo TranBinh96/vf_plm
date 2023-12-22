@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEProcess.MEProductBOP.PasteDuplicateTemplate" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the cloning rules to be used when pasting from a regular Process structure to a Product Bill Of Process (Product BOP).
+Valid values are in the following format: &quot;primary:secondary:attribute_key.attribute_value:action&quot;, where:
+* the primary can be &quot;*&quot; for any class, &quot;class.&lt;class name&gt;&quot; for specific class or &quot;type.&lt;type name&gt;&quot; for specific type.
+* the secondary is the same format as primary.
+* the attribute_key must be one of the following: &quot;Attribute&quot;, &quot;OccType&quot;, &quot;Relation&quot;.
+If the value is &quot;Attribute&quot;, the attribute_value must be the name of an attribute on the primary object.
+If the value is &quot;OccType&quot;, the attribute_value must be &quot;Null&quot; (no Occurrence Type) or &quot;*&quot; (any Occurrence Type) or the name of specific Occurrence Type.
+If the value is &quot;Relation&quot;, the attribute_value must be the internal name of a Relation Type.
+* the action must be one of the following: &quot;Clone&quot;, &quot;Reference&quot;, &quot;Ignore&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>*:*:Attribute.items_tag:Clone</value>
+        <value>*:*:Attribute.structure_revisions:Clone</value>
+        <value>*:*:Attribute.bom_view:Clone</value>
+        <value>*:*:Attribute.parent_item:Clone</value>
+        <value>*:*:Attribute.variant_expression_block:Clone</value>
+        <value>*:*:OccType.Null:Clone</value>
+        <value>*:*:OccType.MEConsumed:Map.Reference</value>
+        <value>*:*:OccType.MEWorkArea:Map.Reference</value>
+        <value>*:*:OccType.*:Reference</value>
+        <value>*:*:Relation.IMAN_Rendering:Clone</value>
+        <value>*:*:Relation.IMAN_specification:Clone</value>
+        <value>*:class.MEActivity:Relation.IMAN_MEFolder:Clone</value>
+        <value>class.MEActivity:*:Attribute.contents:Clone</value>
+        <value>class.Folder:*:Attribute.contents:Reference</value>
+        <value>*:*:Relation.METimeAnalysisRelation:Clone</value>
+        <value>*:*:Relation.Mfg0TCContextFeatureFormRel:Clone</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

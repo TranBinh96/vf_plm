@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_KPI_Table_AttributeSupport_for_AW_stylesheet" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference to enable the appropriate KPI page for the CAE Analysis Revision and CAE Analysis Template Revision in Active Workspace as per the Teamcenter release. In order to show the appropriate properties for CAE KPI table in minor release and enable the newly added properties on KPI page for the current release, the preference value (&quot;NodeIDElementID&quot;) is used in the Active Workspace stylesheet (Cae1CAE0AnaTemplateRevSummary.xml, Cae1CAEAnalysisRevSummary.xml). If any new properties are adding in the CAE KPI table (cae0KPITable) in the future release then the value will be changed and need to update the stylesheet condition accordingly. If the user changes the default value, then the KPI page for CAE Analysis Revision and CAE Analysis Template Revision in Active Workspace will also need to be updated.</preference_description>
+      <context name="Teamcenter">
+        <value>NodeIDElementID</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

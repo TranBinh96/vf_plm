@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TWP.AppearanceColors" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the colors to be shown for various elements in the Time Way Planner view of the Manufacturing Process Planner application.
+Valid Values:
+Object:object-name - Specifies the object whose appearance is customized. The value is Operation, Station, or ProductionZoneLine.
+BackgroundColor:RGB-code - Specifies the background color of the object specified in the Object parameter. For ProductionZoneLine, this is the boundary color.
+ConflictColor:RGB-code - Applicable to operations only, specifies the color when a conflict is detected, for example, overlapping operations, or operations starting at the same position.
+DuplicateColor:RGB-code - Applicable to operations only, specifies the color whenever an operation occurs in multiple execution positions.
+ExceedingColor:RGB-code - Applicable to operations only, specifies the color whenever an operation exceeds the cycle time of station.
+ForegroundColor:RGB-code - Applicable to process zone and line boundaries only (ProductionZoneLine), specifies the color for text.</preference_description>
+      <context name="Teamcenter">
+        <value>Object:Operation;BackgroundColor:0,255,64;ConflictColor:255,0,0;DuplicateColor:255,255,0;ExceedingColor:0,255,255</value>
+        <value>Object:ProductionZoneLine;BackgroundColor:255,0,128;ForegroundColor:0,0,0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

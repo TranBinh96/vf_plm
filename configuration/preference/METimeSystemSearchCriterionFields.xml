@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METimeSystemSearchCriterionFields" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the time system fields that can be searched for. The fields can be grouped in different configurations.
+Each value (or configuration) must have the format &quot;configuration:field_1,field_2,...,field_n&quot;, where &quot;configuration&quot; is the configuration name and &quot;field_i&quot; is the time system field.
+The fields appear in the default configuration if the &quot;configuration&quot; section of the preference value is empty.</preference_description>
+      <context name="Teamcenter">
+        <value>:code,index,variant,dataareaid</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

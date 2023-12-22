@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_load_for_compare_prefix" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>When loading an assembly for Compare in CATIA, all files are renamed to avoid opening the same file names with different part numbers. 
+Define the prefix added to the new file name by modifying the following variable within Teamcenter Preferences 
+The default prefix value is comp_.</preference_description>
+      <context name="Teamcenter">
+        <value>COMP_</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_store_occ_uid_path_in_teamcenter" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use CATIA_store_occ_uid_path_in_teamcenter(=false) to improve performance on save with assemblies containing a lot of publications. 
+However, this implies that data used to identify instances for the Read Linked Documents process are not saved: it could lead to misleading instances activation.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

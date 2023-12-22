@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_pedigree_analysis_relationships" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Identifies the valid relationships between CAEAnalysis objects and CAEModel, CAEResults or Product objects to apply pedigree operations.
+The default relationship values are &quot;TC_CAE_Target&quot; (CAE Target Relationship), &quot;TC_CAE_Defining&quot; (CAE Defining Relationship) and &quot;TC_CAE_Results&quot; (CAE Results Relationship).</preference_description>
+      <context name="Teamcenter">
+        <value>TC_CAE_Target</value>
+        <value>TC_CAE_Defining</value>
+        <value>TC_CAE_Results</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

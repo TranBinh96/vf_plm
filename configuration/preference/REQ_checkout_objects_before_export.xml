@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="REQ_checkout_objects_before_export" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the default condition of the Check out objects before export check box under Live options in the Export to Word dialog box.
+Valid Values:
+default - The check box can be selected and cleared.
+default_hide - The check box is cleared and unavailable. Objects are exported to live Word but not checked out.
+default_checkout - The check box is selected and unavailable. Objects exported to live Word are explicitly checked out before the output document is generated.</preference_description>
+      <context name="Teamcenter">
+        <value>default_checkout</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

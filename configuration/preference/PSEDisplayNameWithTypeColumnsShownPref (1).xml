@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEDisplayNameWithTypeColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the internal names of BOM line properties whose display names appear as columns from left-to-right in the Structure Manager application. This preference must contain the same set of BOM line properties that are specified in the PortalPSEColumnsShownPref preference. The only difference is that the property names in this preference must be prefixed with the type name.
+Valid Values:
+Accepts multiple strings as values. Each value must be a valid BOM line property prefixed with a valid type. Each value must correspond with a value defined in the PortalPSEColumnsShownPref preference. Values must be listed in the same order in both preferences.The default type for Structure Manager properties is BOMLine.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMLine.bl_indented_title</value>
+        <value>BOMLine.bl_occurrence_uid</value>
+        <value>BOMLine.bl_item_object_type</value>
+        <value>BOMLine.bl_config_string</value>
+        <value>BOMLine.bl_rev_release_status_list</value>
+        <value>BOMLine.bl_sequence_no</value>
+        <value>BOMLine.bl_part_source</value>
+        <value>BOMLine.bl_uom</value>
+        <value>BOMLine.bl_ref_designator</value>
+        <value>BOMLine.bl_all_notes</value>
+        <value>BOMLine.bl_variant_state</value>
+        <value>BOMLine.bl_rev_has_variants</value>
+        <value>BOMLine.bl_variant_condition</value>
+        <value>BOMLine.bl_is_occ_configured</value>
+        <value>BOMLine.bl_has_date_effectivity</value>
+        <value>BOMLine.bl_rev_checked_out</value>
+        <value>BOMLine.fnd0bl_has_active_markup</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

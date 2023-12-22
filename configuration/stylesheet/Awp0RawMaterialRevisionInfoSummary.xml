@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+
+Filename: Awp0RawMaterialRevisionInfoSummary.xml
+
+Overriden style sheet for displaying Raw Material Revision Info Panel.
+-->
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_properties">
+            <property name="item_id" renderingHint="label"/>
+            <property name="item_revision_id" renderingHint="label"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="object_type"/>
+            <property name="release_status_list" renderingHint="label"/>
+            <property name="date_released" renderingHint="label"/>
+            <property name="effectivity_text" renderingHint="label"/>
+            <break/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_user"/>
+            <property name="checked_out" renderingHint="label"/>
+            <property name="checked_out_user"/>
+            <break/>
+            <property name="material_function" />
+            <property name="material_characteristic" />
+            <property name="kosher" />
+            <property name="shelf_life" />
+            <property name="CAS_name" />
+            <property name="CAS_name_alternative" />
+            <property name="CAS_number" />
+            <property name="CAS_number_alternative" />
+            <property name="catalog_number" />
+            <property name="EC_name" />
+            <property name="EC_number" />
+            <property name="INCI_name_EC" />
+            <property name="INCI_name_Japan" />
+            <property name="INCI_name_US" />
+            <property name="IUPAC_name" />
+            <property name="Japan_tricode" />
+            <property name="trade_name" />
+            <property name="product_number" />
+            <property name="color_index" />
+            <property name="cost" />
+            <property name="experimental_id" />
+            <property name="expiry_date" />
+            <property name="projected_volume" />
+            <property name="feedstock_origin" />
+            <break/>
+            <property name="boiling_point" />
+            <property name="flash_point" />
+            <property name="vapor_pressure" />
+            <property name="water_solubility" />
+            <property name="pH_value" />
+            <property name="specific_gravity" />
+            <break/>
+            <property name="molecular_formula" />
+            <property name="molecular_structure" />
+            <property name="molecular_weight" />
+            <property name="oil_water_ratio" />
+            <break/>
+            <property name="max_ingredient_level" />
+            <property name="REACH_number" />
+            <property name="regulatory_restrictions" />
+            <property name="TSCA_bans_restrictions" />
+            <break/>
+            <property name="r_s_phrases_internal" />
+            <property name="r_s_phrases_manufacturer" />
+            <property name="NFPA_HFR_rating" />
+            <property name="supplier_transport" />
+            <property name="transport_information" />
+            <property name="reservation" />
+        </section>
+    </page>
+    <page titleKey="tc_xrt_attachments">
+        <section titleKey="tc_xrt_Files">
+            <objectSet source="IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset,IMAN_UG_altrep.Dataset,IMAN_UG_scenario.Dataset,IMAN_Simulation.Dataset" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                <listDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </listDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_Documents">
+            <objectSet source="IMAN_specification.DocumentRevision,IMAN_reference.DocumentRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                <listDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </listDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

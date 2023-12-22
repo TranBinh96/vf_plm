@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+ ==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<!--Style sheet rendering for PARTS section. -->
+<subRendering>
+    <content  visibleWhen="{pref:FND0_ENABLE_CBA_EXPOSURE}==true">
+        <section titleKey="tc_xrt_AlignedParts">
+            <objectSet source="Fnd0AlignedPartsProvider.Fnd0AlignedPart" defaultdisplay="listDisplay" sortby="" sortdirection="">
+                <tableDisplay>
+                    <property name="object_string" modifiable="false"/>
+                    <property name="fnd0IsPrimary" modifiable="false"/>
+                    <property name="fnd0Type"/>
+                    <property name="fnd0ReleaseStatusList"/>
+                    <property name="fnd0OwningUser" renderingHint="objectlink" modifiable="false"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name="object_string"/>
+                </treeDisplay>
+                <listDisplay/>
+                <thumbnailDisplay/>
+                <command actionKey="alignPart" commandId="Awp0AlignPart"/>
+                <command commandId="Awp0UnAlignPart"/>
+            </objectSet>
+        </section>
+    </content>    
+</subRendering>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_load_unconfigured_displayed_bomlines" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>TRUE : all parts and products with Variant and Effectivity Conditions are loaded, when used in conjunction with the following menu options:
+All parts and products containing Effectivity Conditions are loaded when the Show Unconfigured by Occurrence Effectivity menu option is activated. Parts/products that do not contain Effectivity conditions will not be loaded and display a broken icon. 
+All parts and products containing Variant Conditions are loaded when the Show Unconfigured Variants menu option is activated. Parts/products that do not contain Variant Conditions will not be loaded and display a broken icon. 
+FALSE : parts and products containing Variant and Effectivity Conditions are never loaded and display a broken icon</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

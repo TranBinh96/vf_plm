@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: TCFile.xml
+
+    Default style sheet for displaying TCFile properties.
+@<DEL>@
+=======================================================================
+Date         Name                    Description of Change
+30-Sep-2004  wangp                   initial creation
+08-Oct-2004  Rob McColl              mrege out from peiyi
+11-Apr-2005  roudebus                Update copyright, block out history
+$HISTORY$
+=======================================================================
+@<DEL>@ -->
+
+<rendering>
+    
+    <page title="General" titleKey="General">
+        <property name="file_name" renderingHint="textfield" column="32"/>
+        <property name="volume_tag" />
+        <property name="file_size" />
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+        <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+    </page>
+
+    <page title="All" titleKey="All">
+        <all type="property"/>
+    </page>
+</rendering>
+

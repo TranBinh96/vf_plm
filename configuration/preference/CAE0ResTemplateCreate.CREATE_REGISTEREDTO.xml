@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE0ResTemplateCreate.CREATE_REGISTEREDTO" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the type to which the CAE Result Template (CAE0ResTemplate) create stylesheet can be applied.</preference_description>
+      <context name="Teamcenter">
+        <value>CAE0ResTemplate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

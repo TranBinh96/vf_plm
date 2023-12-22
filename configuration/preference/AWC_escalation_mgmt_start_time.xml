@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_escalation_mgmt_start_time" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the start time (to create first dispatcher request) in days for Reminder and Escalation Management. 
+If the value is 0, dispatcher requests are executed immediately. If the value is n (greater than 0),  dispatcher requests are executed on nth day.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

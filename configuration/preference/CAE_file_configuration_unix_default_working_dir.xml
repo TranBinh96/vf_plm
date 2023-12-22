@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_file_configuration_unix_default_working_dir" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the default working directory for file upload rules on UNIX.
+Valid Values:
+Any valid linux directory path.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

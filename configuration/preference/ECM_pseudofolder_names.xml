@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ECM_pseudofolder_names" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>List of relations for the EC Object</preference_description>
+      <context name="Teamcenter">
+        <value>affected_items/EC_affected_item_rel</value>
+        <value>solution_items/EC_solution_item_rel</value>
+        <value>problem_items/EC_problem_item_rel</value>
+        <value>reference_items/EC_reference_item_rel</value>
+        <value>addressed_by/EC_addressed_by_rel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

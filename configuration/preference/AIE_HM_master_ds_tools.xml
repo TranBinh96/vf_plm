@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.AIE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AIE_HM_master_ds_tools" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Preference to indicate the Teamcenter tools that correspond to each AIE_&lt;APP&gt;_master_ds_types listed in the preference AIE_HM_master_ds_types. There must be one and only one for each master dataset type and have to be in the same order. APP must match one of the values in AIE_master_family_list.</preference_description>
+      <context name="Teamcenter">
+        <value>MeshingTool</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

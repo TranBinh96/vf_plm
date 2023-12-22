@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_open_catalog_in_browser" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates whether referenced documents selected in the Catalog Browser should be refreshed.
+Values:
+True: Open catalogs in the Catalog Browser in CATIA.
+False: Open catalogs in the Catalog Editor in CATIA.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

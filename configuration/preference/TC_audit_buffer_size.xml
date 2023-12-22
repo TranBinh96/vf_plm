@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Maintenance.Audit Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_audit_buffer_size" type="Integer" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Specifies the maximum number of audit records in the buffer.</preference_description>
+      <context name="Teamcenter">
+        <value>1000</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

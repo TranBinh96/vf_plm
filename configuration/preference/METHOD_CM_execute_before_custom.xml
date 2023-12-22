@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Business Modeler">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METHOD_CM_execute_before_custom" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether all canned methods are executed at a site before site custom methods or after site custom methods.
+Valid Values:
+0 - All canned methods are registered after site custom methods are registered.
+1 - All canned methods are registered before site custom methods are registered.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

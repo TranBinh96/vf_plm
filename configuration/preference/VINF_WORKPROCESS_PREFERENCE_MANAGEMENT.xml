@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_WORKPROCESS_PREFERENCE_MANAGEMENT" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Workprocess name;Preference name</preference_description>
+      <context name="Teamcenter">
+        <value>VF_CMFS_Release_Process;VINF_CMF_APPROVAL</value>
+        <value>VF_ES_DFMEA_Release_Process;VINF_ES_DFMEA_APPROVAL</value>
+        <value>EE_Components_SOR_Release_Process;VINF_EE_SOR_APPROVAL</value>
+        <value>VF_MP_Release_Process;VINF_MPPART_APPROVAL</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

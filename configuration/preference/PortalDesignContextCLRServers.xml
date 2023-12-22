@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context.Performance Tuning">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextCLRServers" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Used to Locate the clearance Server and its port. e.g. hostabc:14740, hostdef:14740</preference_description>
+      <context name="Teamcenter">
+        <value>&lt;your clearance sever 1&gt;:&lt;port no&gt;</value>
+        <value>&lt;your clearance sever 2&gt;:&lt;port no&gt;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

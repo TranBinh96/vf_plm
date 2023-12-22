@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+ ==================================================
+Copyright 2019.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<subRendering>
+    <section titleKey="tc_xrt_AliasIds" >
+        <objectSet source="IMAN_aliasid.Identifier" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+            <thumbnailDisplay/>
+            <treeDisplay>
+                <property name="object_string"/>
+                <property name="object_type"/>
+                <property name="release_status_list"/>
+                <property name="date_released"/>
+                <property name="owning_user"/>
+            </treeDisplay>
+            <listDisplay/>
+        </objectSet>
+    </section>
+</subRendering> 

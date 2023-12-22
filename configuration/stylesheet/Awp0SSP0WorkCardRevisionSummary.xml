@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Work Card Revision Summary in Active Workspace Client. -->
+
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="thumbnail"/>
+        <classificationTrace/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_ItemProperties">
+                <property name="object_desc"/>
+                <property name="items_tag"/>
+                <property name="ssp0ActivityExecutionType"/>
+                <property name="ssp0LaborCost"/>
+                <property name="ssp0MaterialCost"/>
+                <break/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+                <break/>
+                <property name="last_mod_user"/>
+                <property name="checked_out"/>
+                <property name="checked_out_user"/>
+                <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+            </section>
+            <inject type="dataset" src="Fnd0ClassificationSummary"/>
+        </column>
+    </page>
+    <inject type="preference" src="ClassificationStylesheetTab"/>
+</rendering>

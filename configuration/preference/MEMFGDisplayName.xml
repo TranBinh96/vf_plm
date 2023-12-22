@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMFGDisplayName" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the customized display name in the tree structure for weld points, arc welds, and datum points.
+Valid Values:
+Accepts the five following Teamcenter properties.
+bl_item_item_id
+bl_item_object_name
+bl_rev_item_revision_id
+bl_rev_object_name
+bl_occurrence_name
+You can use multiple properties, for example:
+bl_item_item_id
+bl_item_object_name
+The weld point display name is then 000171;WP1</preference_description>
+      <context name="Teamcenter">
+        <value>bl_occurrence_name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

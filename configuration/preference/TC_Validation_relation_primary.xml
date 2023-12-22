@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Validation Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Validation_relation_primary" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Displays validation results under the specified item revision types.All relation_business_object_relation_primary preferences are obsolete and are replaced by relation properties. Use the Business Modeler IDE to create and manage relation properties.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid item revision type.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+        <value>ValidationResult</value>
+        <value>ValidationData</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

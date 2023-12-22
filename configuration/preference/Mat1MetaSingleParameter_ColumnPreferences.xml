@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="Mat1MetaSingleParameter_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the columns to be displayed by default in the viewer when the object type Mat1MetaSingleParameter is selected.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>mat1DataType</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

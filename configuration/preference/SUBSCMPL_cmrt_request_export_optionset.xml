@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_cmrt_request_export_optionset" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default option for TC XML export of conflict mineral declaration data for vendor or vendor part.
+A valid value is the name of a &quot;Transfer Option Set&quot;, which can be found in the &quot;PLM XML Import Export Administration&quot; application.</preference_description>
+      <context name="Teamcenter">
+        <value>CMRTReqExportOptionSet</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying a workflow Review task. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_type" modifiable="false"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" visibleWhen="object_name!=Change Notice Review">
+        <column>
+            <section titleKey="tc_xrt_Instructions">
+                <property name="object_desc"/>
+                <property name="comments"/>
+                <property name="task_state"/>
+                <property name="due_date"/>
+            </section>
+            <section titleKey="tc_xrt_Background">
+                <property name="fnd0Assignee"/>
+                <property name="fnd0StartDate"/>
+                <property name="last_mod_user" renderingHint="objectlink" modifiable="false"/>
+            </section>
+
+            <section titleKey="tc_xrt_Data">
+                <objectSet source="root_target_attachments.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="last_mod_date"/>
+                        <property name="release_status_list"/>
+                        <property name="owning_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+            <section titleKey="tc_xrt_sss0SupportingInfo">
+                <objectSet source="root_reference_attachments.ItemRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="last_mod_date"/>
+                        <property name="release_status_list"/>
+                        <property name="owning_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <!--
+    <page titleKey="tc_xrt_AllTargets">
+        <section titleKey="tc_xrt_TargetItems">
+            <objectSet source="root_target_attachments.WorkspaceObject" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="last_mod_date"/>
+                    <property name="release_status_list"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+-->
+    <page titleKey="tc_xrt_Reviewers">
+        <section title=" ">
+            <objectSet source="signoff_attachments.Signoff" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_name"/>
+                    <property name="decision_date" modifiable="false"/>
+                    <property name="comments"/>
+                </tableDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+    <page  titleKey="tc_xrt_ProcessInfo">
+        <htmlPanel declarativeKey="Awp0WorkflowViewer"/>
+    </page>
+</rendering>

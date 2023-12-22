@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METWIShowPreviewFile" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the default display mode of the Textual Work Instruction view in the Manufacturing Process Planner (MPP) application.
+The display is done according to the format specified by the preference &quot;MEWiPreviewFormat&quot;.
+Valid Values:
+* true: to activate the view mode. This is the default value.
+* false: to activate the edit mode.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

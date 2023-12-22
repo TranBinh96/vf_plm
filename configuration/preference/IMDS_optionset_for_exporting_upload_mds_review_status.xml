@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_optionset_for_exporting_upload_mds_review_status" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default transfer option set to be used when exporting the TC XML file that is generated after the material data sheet review task is completed.
+A valid value is any internal name of a transfer option set available in the PLM XML Import Export Administration application.</preference_description>
+      <context name="Teamcenter">
+        <value>IMDSStatusUploadExportDefault</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

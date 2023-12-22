@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ctm0GraphicPref.values" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the values listed in the Graphic Link Clipboard preference list. The values are the publication_standard part of the ctm0GraphicPref.publication_standard.name preferences that are used to define the default XML tagging used when adding graphics to content when working with specific technical publication standards.
+Valid Values:
+Accepts one or more strings as values.</preference_description>
+      <context name="Teamcenter">
+        <value>docBook</value>
+        <value>dita</value>
+        <value>s1000d</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

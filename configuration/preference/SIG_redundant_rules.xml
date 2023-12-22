@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.Mechatronics">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SIG_redundant_rules" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines which Teamcenter types can be associated with the signal as a redundant signals (or frames) type. If this preference is not set, users can associate a signal to any Teamcenter object that can participate in a relation.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter type corresponding to the secondary object for the desired association. For example, to restrict valid redundants for a frame and its subtypes to Frame and its subtypes, and valid redundants for a signal and its subtypes to Signal and its subtypes, set the values as:
+Frame:Frame
+Signal:Signal</preference_description>
+      <context name="Teamcenter">
+        <value>PSSignal:PSSignal</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

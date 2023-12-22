@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEWiEnableAddSymbolCommand" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether the Add Symbol and Remove Symbol buttons are displayed in the Standard Text view or the Work Instruction view.
+Valid Values:
+STXView - The Add Symbol and Remove Symbol buttons are displayed in the Standard Text view.
+TWIView - The Add Symbol and Remove Symbol buttons are displayed in the Work Instruction view.</preference_description>
+      <context name="Teamcenter">
+        <value>STXView</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCVIS_JTLoader_max_batch_size" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the batch size of BOM Lines to be loaded in the viewer.
+This operation calls into the viewer to create maximun mumber of nodes at a time defined by this preference.
+The default value is 2000.
+This is a user preference.</preference_description>
+      <context name="Teamcenter">
+        <value>2000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

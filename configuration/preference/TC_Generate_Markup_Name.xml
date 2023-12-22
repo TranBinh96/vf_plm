@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Generate_Markup_Name" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates newly created markup dataset name use generated name or hard-coded name. Valid values are TRUE for using generated markup name in format of user ID plus current datetime stamp plus user display name, this format is same as used in standalone TcVis; and FALSE for using hard-coded markup name (default).</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2010. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: DC_SkdCOMCreate.xml  
+   
+     Default style sheet for displaying DC_SkdCOM Create 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+10/14/10     mierwald                Initial Version 
+======================================================================= 
+@<DEL>@  
+--> 
+
+
+<rendering>
+
+   <page title="General" titleKey="tc_xrt_General">
+      <column>
+         <section titleKey="tc_xrt_References">
+            <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RefContentPanelSkdCOM"/>             
+         </section>
+         <property name="revision:item_revision_id" renderingHint="textfield" /> 
+         <property name="object_name" renderingHint="textfield" />          
+         <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.LanguagePanel"/>
+         <property name="revision:DocumentTitle" renderingHint="textfield" />
+         <separator/>
+         <property name="revision:skdmodelic" />
+         <property name="revision:skdsendid" />
+         <property name="revision:skddiyear" />    
+         <property name="revision:skdseqnum" />
+         <property name="revision:skdctype" />
+        
+         <section titleKey="tc_xrt_IssueDetails">    
+            <property name="revision:skdiss_type" />
+            <property name="revision:skdissdate_day" />
+            <property name="revision:skdissdate_month" />
+            <property name="revision:skdissdate_year" />
+            <property name="revision:skdissno" />
+            <property name="revision:skdpriority" />
+            <property name="revision:skdremarks" />
+            <property name="revision:skdresponse" />
+            <property name="revision:skdsecurity_class" />
+            
+         </section>            
+         <property name="revision:skdexportfilename" />
+         <property name="revision:isTemplate" />
+         <property name="revision:referenceOnly"  />        
+      </column>
+      <column>
+         <section titleKey="tc_xrt_DispatchTo">
+            <property name="revision:c1k0skddispto_ent_name" />
+            <property name="revision:c1k0skddispto_ent_unit" />
+            <property name="revision:c1k0skddispto_div_name" />
+            <section titleKey="tc_xrt_Contact">    
+                <property name="revision:skddispto_firstname" />
+                <property name="revision:skddispto_lastname" />
+                <property name="revision:skddispto_jobtitle" />
+                <property name="revision:skddispto_email" />
+                <property name="revision:skddispto_phone" />
+                <property name="revision:skddispto_fax" />
+                <property name="revision:skddispto_internet" />
+                <property name="revision:skddispto_dept" />
+                <property name="revision:skddispto_building" />
+                <property name="revision:skddispto_room" />
+            </section>
+            <section titleKey="tc_xrt_Address">    
+                <property name="revision:skddispto_street" />
+                <property name="revision:skddispto_pobox" />
+                <property name="revision:skddispto_city" />
+                <property name="revision:skddispto_state" />
+                <property name="revision:skddispto_zip" />
+                <property name="revision:skddispto_province" />
+                <property name="revision:skddispto_postcode" />
+                <property name="revision:skddispto_country" />
+            </section>
+         </section>
+      </column>         
+      <separator/>  
+      <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RelationSelectionPanel"/>
+   </page>
+   
+</rendering>
+
+

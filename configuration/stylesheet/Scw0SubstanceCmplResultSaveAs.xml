@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0SubstanceCmplResultSaveAs.xml
+
+Default activeworkspace style sheet for displaying Substance Compliance Result SAVEAS summary.
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+   <page title="Compliance Status Override Panel">
+        <section>
+                  <property name="scp0status"/>
+                   <break/>
+                  <property name="scp0OverrideReason"/>
+                    <break/>
+                  <property name="scp0OverrideNotes"/>
+        </section>
+    </page>
+</rendering>

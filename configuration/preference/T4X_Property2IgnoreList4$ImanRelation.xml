@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Gateway Foundation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="T4X_Property2IgnoreList4$ImanRelation" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Generic black-list for ImanRelation</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_based_on</value>
+        <value>awb0SupportsStructure</value>
+        <value>awp0CellProperties</value>
+        <value>awp0ThumbnailImageTicket</value>
+        <value>fnd0ContextContrast</value>
+        <value>fnd0CopyStableDate</value>
+        <value>fnd0CopyStableId</value>
+        <value>fnd0CurrentEditContext</value>
+        <value>fnd0IsCsIdMigratedOnly</value>
+        <value>fnd0IsPrimaryInSync</value>
+        <value>fnd0RequiresDigitalSign</value>
+        <value>fnd0mfkinfo</value>
+        <value>fnd0objectId</value>
+        <value>is_modifiable</value>
+        <value>lsd</value>
+        <value>object_properties</value>
+        <value>owning_site</value>
+        <value>pid</value>
+        <value>timestamp</value>
+        <value>type_string</value>
+        <value>user_data</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

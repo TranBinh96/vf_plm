@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Traceability Matrix Summary. -->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="object_type"/>
+        <property name="owning_user"/>
+    </header>
+    <page titleKey="tc_xrt_Traceability">
+        <htmlPanel declarativeKey="Arm0TraceabilityMatrix"/>
+     </page>
+</rendering>

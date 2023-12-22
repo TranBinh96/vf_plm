@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Word_Show_Display_Name" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls how requirement object names are displayed in the Requirements pane in a Microsoft Word document in the Client for Office application. This preference only applies to the following cases: Exporting Teamcenter requirement structures to live Word using the Export for structure editing and work offline option.Opening and loading Teamcenter requirement structures from the Teamcenter ribbon in Microsoft Word.
+Valid Values:
+true - The name of the requirement object is displayed as the DisplayName property configured in the Business Modeler IDE.
+false - The name of the requirement object is displayed as a combination of the object ID and name.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

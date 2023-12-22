@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Filename: Awp0C2IssueComplaintCreate.xml 
+01/july/2015      Sprint40 Release
+17/March/2016       Sprint44 Release Adding localization on the labels
+Default style sheet for displaying C2IssueComplaint Create .
+-->
+<rendering>
+    <page titleKey="tc_xrt_CondValDataCreate_general_information"> 
+        <section titleKey="tc_xrt_Properties">
+                 <property name="item_id" renderingHint="textfield"/>                  
+                 <property name="object_name"/>
+                 <property name="object_desc"/>                 
+                 <property name="revision:c2_Priority" />
+                 <property name="revision:c2Category"/>
+                 <property name="revision:c2_IssueSubcategory"/>
+                 <property name="revision:c2_CustomerName" />
+                 <property name="revision:c2_CustomerTelephone"/>
+                 <property name="revision:c2_CustomerEmailID"/>
+                 <property name="revision:c2_CustomerAddress"/>
+                 <property name="revision:c2_IncidentDetails"/>
+                 <property name="revision:c2_IncidentDateAndTime"/>
+                 <property name="revision:c2_IncidentLocation"/>
+         </section>
+    </page>
+</rendering>

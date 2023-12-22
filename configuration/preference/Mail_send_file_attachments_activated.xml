@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mail_send_file_attachments_activated" type="Logical" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Activates sending dataset attachments as email file attachments. This takes effect when the envelope functionality sends messages directly to an email address instead of a Teamcenter user. When the mail is sent to a Teamcenter user, this preference has no impact, and the user always receives links to the envelope object.
+Valid Values:
+* true: Activates sending dataset attachments as email file attachments. The external recipient can open the attached files without requiring a Teamcenter logon or privileges. Consider site security guidelines before setting this preference to true.
+* false: Deactivates sending dataset attachments as email file attachments. External recipients of emails receive only Teamcenter client links to the attached datasets and not the actual files.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

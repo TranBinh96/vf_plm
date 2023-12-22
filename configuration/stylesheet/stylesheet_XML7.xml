@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering> 
+   <page title="General Information" titleKey="tc_xrt_cm_general_information">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" renderingHint="textfield" />
+            <property name="object_desc" />
+            <property name="vf4_item_make_buy" />
+<property name="vf4_is_finished_good" />
+			<property name="fnd0IdGenerator:vf4_model" />
+			<property name="fnd0IdGenerator:vf4_group_name" />
+            <separator/>
+            <property name="uom_tag" />
+            <!--<customPanel java="com.teamcenter.rac.cm.wizards.ui.PropsPageRelationshipPanel" js="displayCMCustomePanel"/>-->
+         </section>
+   </page>
+</rendering>

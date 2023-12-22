@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="scheduling_graph_dataSource_filter" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Used with Schedule Manager resource graphs. Specifies the filtering method used when creating resource graphs.
+Valid Values:
+none - No filter is applied.
+selection - Users can select which schedules are used to create the resource graph.
+current - The current schedule is used to create the resource graph.</preference_description>
+      <context name="Teamcenter">
+        <value>none</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

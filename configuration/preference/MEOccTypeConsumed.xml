@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEOccTypeConsumed" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies valid relation (occurrence) types for consumed relations.
+Valid Values:
+An array of strings, where each string represents a relation (occurrence) type.</preference_description>
+      <context name="Teamcenter">
+        <value>MEConsumed</value>
+        <value>UserConsumed</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

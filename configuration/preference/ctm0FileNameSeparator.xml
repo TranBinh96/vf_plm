@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ctm0FileNameSeparator" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the separator that is used in between the Revision ID and Item ID when creating file names for the files representing Content Management topics and graphics. Example: A$100123.xml.
+Note: This value should not be the same value used in any item ID, graphic name, or file name imported into Content Management. For example, the value &quot;_&quot; should not be used if a file is being imported as &quot;engine_stand.xml&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>$</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

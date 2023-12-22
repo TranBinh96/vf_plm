@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.APS">
+    <category_description>Active Workspace APS preferences</category_description>
+    
+               <preference name="Aps1EffectivitySupportedTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains a list of Business Object types that are currently supported for Advanced PLM Services (APS) effectivity command visibility.</preference_description>
+      <context name="Teamcenter">
+        <value>GnChangeNoticeRevision</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

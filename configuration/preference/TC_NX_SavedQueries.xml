@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_SavedQueries" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies all queries available in NX Advanced Search functionality. Possible values are query names on the Teamcenter side, like &quot;Item...&quot;, &quot;Dataset...&quot;, etc. For a complete list, refer to the user documentation.</preference_description>
+      <context name="Teamcenter">
+        <value>Item...</value>
+        <value>General...</value>
+        <value>Item Revision...</value>
+        <value>Checked-Out Dataset...</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

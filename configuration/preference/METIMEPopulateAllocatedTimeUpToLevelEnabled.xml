@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METIMEPopulateAllocatedTimeUpToLevelEnabled" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether the option to update the allocated time to a certain level (Populate up to level) is active in the Populate Allocated Time dialog box in the Time pane.
+Valid Values:
+True - The Populate up to level option is available.
+False - The Populate up to level option is not available.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

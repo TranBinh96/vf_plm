@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA83_create_ACAD_attr_Form" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This option can be used for enabling the automatic creation of the Named Reference ACAD_attr form.
+The ACAD_attr form can be used to implement attribute mapping.
+Enabling the creation of the ACAD_attr form will impact save and update operation performance.
+Possible values:
+0 - ACAD_attr form is not created (Default)
+1 - ACAD_attr form is created</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

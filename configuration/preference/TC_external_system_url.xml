@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.TCAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_external_system_url" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Preference to post the bom attribute information. For Ex: http://www.test.com/cgi-bin/printenv.pl/</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

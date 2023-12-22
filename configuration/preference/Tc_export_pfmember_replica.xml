@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Tc_export_pfmember_replica" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether part family member replicas can be exported, or remote imported, from a remote site to another remote site. This preference applies when exporting or remote importing assemblies containing the part family member replica components.
+Valid values are
+TRUE - Allows the export of part family member replica components.
+FALSE - Does not allow the export of part family member replica components.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

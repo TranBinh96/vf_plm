@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_journal_server" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Use the CATIA_journal_server Teamcenter Preference to enable the Server Journaling option, based on three levels.
+YES : Enable high-level tracing. Detailed journaling traces are written to a .syslog file and an .xml file. Tracing includes function calls, errors, comments, return values, etc.
+NO : Enable low-level tracing such as hardware configuration and library versions. Error traces are written to a.syslog file.
+SYSLOG : Export all high-level traces to the original Teamcenter Syslog.</preference_description>
+      <context name="Teamcenter">
+        <value>NO</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright 2011.
+       Siemens Product Lifecycle Management Software Inc.
+       All Rights Reserved.
+===============================================================================
+
+    Filename: Fnd0RequirementBOMLine.xml
+
+    Default style sheet for displaying Fnd0RequirementBOMLine poperties.
+ -->
+
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <property name="bl_rev_object_name" column="32"/>
+            <property name="bl_rev_object_desc" />
+            <property name="bl_fulltext_body_cleartext" />
+        </column>
+        <column>
+            <image/>
+        </column>
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

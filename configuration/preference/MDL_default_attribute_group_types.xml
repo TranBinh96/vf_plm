@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MDL_default_attribute_group_types" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Specifies the list of managed attribute group types available to a specific user role.
+Valid Values:
+A list of internal type names of attribute groups and managed attribute groups that are defined in the 4G Designer application. For example:
+Cpd9PipingManagedAttrGrp
+Cpd9HVacManagedAttrGrp
+Cpd9CabinManagedAttrGrp
+Cpd9DeckManagedAttrGrp
+Mdl9AttributeGroup</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

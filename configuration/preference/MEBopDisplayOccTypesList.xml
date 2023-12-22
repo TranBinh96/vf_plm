@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEBopDisplayOccTypesList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of Occurrence types which can be marked as End Item when expanding the Bill Of Process (BOP) or openend in Teamcenter Visualization.
+The defaule value is MEConsumed.</preference_description>
+      <context name="Teamcenter">
+        <value>MEConsumed</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

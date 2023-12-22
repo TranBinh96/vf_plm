@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ScheduleCreate.xml
+
+    Style sheet rendering for Schedule creation. Custom sub classes of
+    Schedule can add their Business Object to the preference 
+    TC_CreateRenderingInheritTypeList to inherit this style sheet rendering
+    or define custom style sheet of its own to display custom attributes.
+=======================================================================
+-->
+<rendering>
+    <page titleKey="tc_xrt_ScheduleNameandDescription">
+        <section titleKey="tc_xrt_Schedule">
+            <property name="item_id" renderingHint="schautoitemid" />
+            <property name="object_name"  renderingHint="textfield"/>
+            <property name="object_desc" />
+            <property name="customer_name"  renderingHint="textfield" />
+            <property name="customer_number" renderingHint="textfield" />
+        </section>
+        <section titleKey="tc_xrt_ScheduleOptions" initialstate="collapsed">
+            <property name="is_template" />
+            <property name="published"/>
+            <property name="notifications_enabled" />
+            <property name="end_date_scheduling" renderingHint="schlogicalprop" />
+            <property name="fnd0allowExecUpdates" />
+            <property name="is_public" />
+            <property name="percent_linked" />
+            <property name="dates_linked" renderingHint="schlogicalprop" />
+        </section>
+    </page>
+</rendering>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering>
+    <views>properties</views>
+    <page title="Cortona3D DMRL" titleKey="CortonaItemInformation">
+         <view name="properties">
+            <property name="item_id" renderingHint="textfield" />
+			<property name="object_name" />
+            <property name="object_desc" />
+            <property name="revision:item_revision_id" renderingHint="textfield" /> 
+         </view>
+		 <view name="properties.s1000d">
+            <customPanel java="com.teamcenter.rac.cortona3d.s1000d.dmrl.C3D_DMRL4CreatePanel"/>             
+         </view>
+    </page>
+</rendering>

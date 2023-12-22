@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_ACTIVE_SESSIONUNITS" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the object name of the selected SessionUnits. This is set when the user selects a SessionUnits object, in Active Workspace or Teamcenter, to set the prefered default display units.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

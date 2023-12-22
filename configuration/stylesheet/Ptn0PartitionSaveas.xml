@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Ptn0PartitionSaveas.xml
+
+    Style sheet rendering for Ptn0Partition save as.
+=======================================================================
+-->
+
+<rendering>
+    <page title="Partition Information" titleKey="tc_xrt_PartitionInfo">
+        <section titleKey="tc_xrt_properties">
+            <property name="ptn0partition_id"/>
+            <property name="object_name"/>
+            <property name="object_desc" />
+            <property name="fnd0CheckoutOnSaveAs" renderingHint="checkbox"/>
+        </section>
+    </page>
+</rendering>

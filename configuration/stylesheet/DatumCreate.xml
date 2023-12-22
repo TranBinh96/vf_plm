@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: DatumCreate.xml
+
+    Style sheet rendering for Datum creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="DatumPoint Information" titleKey="tc_xrt_DatumInformation">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name" />
+            <property name="object_desc" />
+            <separator/>
+            <property name="uom_tag" /> 
+        </section>
+        <section title="DLF Attribute Form" titleKey="tc_xrt_DLFAttributeForm">
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mfg0Datum_Type"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Dlf_i_value" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Dlf_j_value"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Dlf_k_value" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Type" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Section_plane_name"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Id"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Fixed_location"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mature"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Direction_of_check"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Body_section_line"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_1"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_2"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_3"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_4"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_5"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_6"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_7"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_8"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_9"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mfg0CSYS_i_value"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mfg0CSYS_j_value"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mfg0CSYS_k_value"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mfg0Major_cntl_coordinate"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mfg0x_pos"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mfg0y_pos"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mfg0z_pos"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Control_direction"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mfg0cntrl_i_direction"/>
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mfg0cntrl_j_direction"/>
+            <property name="revision:fnd0TC_Feature_Form_Relation:Mfg0cntrl_k_direction"/>
+        </section>
+    </page>
+</rendering>
+

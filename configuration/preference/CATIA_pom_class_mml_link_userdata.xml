@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_pom_class_mml_link_userdata" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Customize the POM class names used by Teamcenter Integration for CATIA for Reference/Reference Multi-Models Link:
+The default value is POM_catia_mml_userdata</preference_description>
+      <context name="Teamcenter">
+        <value>POM_catia_mml_userdata</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Audit Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_audit_append_lov_display_value" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies if display value of LOV properties being audited be appended to its real value. Display value recorded on audit log will be in master locale. 
+Valid values :
+true - Append display values of LOVs in master locale on audit log.
+false - Keeps original behavior of recording real value of LOV property being audited on audit log.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

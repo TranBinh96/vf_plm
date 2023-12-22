@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ReportXMLGenerationRules" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the specific components of a BOM to be included or excluded in an XML report.
+Valid Values:
+The preference syntax contains the following four fields. The primary, secondary, and relation fields accept an asterisk (*) as a wildcard.
+primary: secondary: relation: action
+These fields must be set in the following format:
+class.name/type.name:class.name/type.name:relation.name/attribute.name:Ignore/PublishCurrent/PublishChildren/PublishBOM
+Latter fields are subservient to former fields, allowing specific primary rules to override general rules set using wildcards.The relation.name/attribute.name specification must be one of the following:Teamcenter relation type: either a wildcard or a Teamcenter relation type name.
+BOM structure occurrence type: either a wildcard, null entry (for no occurrence type), or the occurrence type name.Folder content: specified with the string contents.The action setting must be one of the following:
+Ignore: does not publish the specified component.
+PublishCurrent: publishes only the current BOM line or attachment.
+PublishChildren: publishes only the current BOM line or attachment and its respective children.
+PublishBOM: publishes the entire BOM structure defined by the default revision rule, with the current component as the top line.
+The following examples illustrate valid settings for this preference:
+Publish the entire BOM structure:
+*:*:OccType.*:PublishChildren:
+Publish the entire, current, BOM structure, except for any BOM lines containing the MEConsumed and MEResource occurrence types (The specific rules of the first two lines override the general rule of the third line.):
+*:*:OccType.MEConsumed:PublishCurrent
+*:*:OccType.MEResource:PublishCurrent
+*:*:OccType.*:PublishChildren
+Publish the entire attachment structure:
+*:*:Relation.*:PublishChildren
+Publish the entire attachment structure, except any attachment with a IMAN_METarget orIMAN_MEWorkArea relation. In the first case, publish the entire BOM structure with the defined attachment as the top line of the structure. In the second case, 
+publish only the current attachment without its children. (The specific rules of the first two lines override the general rule of the third line):
+*:*:Relation.IMAN_METarget:PublishBOM
+*:*:Relation.IMAN_MEWorkArea:PublishCurrent
+*:*:Relation.*:PublishChildren
+Publish the entire attachment structure, and ignore the TC_NX_nonps_occurrence relation.
+*:*:Relation.TC_NX_nonps_occurrence:Ignore
+Using this avoids the problem where the PS - BOM Structure report fails to expand subassemblies. Add the 
+*:*:Relation.TC_NX_nonps_occurrence:Ignore rule before the 
+*:*:Relation.*:PublishChildren rule.</preference_description>
+      <context name="Teamcenter">
+        <value>*:*:Relation.IMAN_based_on:Ignore</value>
+        <value>*:*:Relation.IMAN_RES_checkout:Ignore</value>
+        <value>*:*:OccType.MEConsumed:PublishCurrent</value>
+        <value>*:*:OccType.MEResource:PublishCurrent</value>
+        <value>*:*:OccType.*:PublishChildren</value>
+        <value>*:*:Relation.IMAN_METarget:PublishChildren</value>
+        <value>*:*:Relation.IMAN_MEWorkArea:PublishChildren</value>
+        <value>*:*:Relation.*:PublishChildren</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

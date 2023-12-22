@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_QSEARCH_STREAMING_MODE" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies how the third screen of Design Context is updated with search results. This preference applies only if you use the cacheless search engine.
+Valid Values:
+true - Teamcenter updates the tables in streaming mode. The user can interrupt the update process at any time.
+false - Teamcenter updates the tables only when all the search results are available. The user cannot interrupt the update process.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

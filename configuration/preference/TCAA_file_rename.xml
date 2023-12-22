@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA_file_rename" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls whether AutoCAD filenames will be renamed to their ItemID value during save to Teamcenter. 
+Possible values:
+0 - Do not rename file on save
+1 - Rename file on save with format depending on TCAA_file_name_rule option (Default)</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

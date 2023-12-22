@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_part_material_mass_tolerance_upper" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the value of the upper deviation in percentage allowed in the Part mass while comparing it with the aggregated mass of the attached materials.
+The default value is 0.0000001.</preference_description>
+      <context name="Teamcenter">
+        <value>1e-07</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

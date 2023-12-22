@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ScheduleTaskCreate.xml
+
+    Style sheet rendering for Schedule Task creation. Custom sub classes of
+    Schedule Task can add their Business Object to the preference 
+    TC_CreateRenderingInheritTypeList to inherit this style sheet rendering 
+    or define custom style sheet of its own to display custom attributes.
+=======================================================================
+-->
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">
+        <section title="Enter Task Name and Description" titleKey="tc_xrt_ScheduleTaskCreationInformation">
+            <property name="item_id" renderingHint="schautoitemid" />
+            <property name="object_name"  renderingHint="textfield"/>
+            <property name="object_desc" />
+            <property name="fixed_type" />
+        </section>
+    </page>
+</rendering>

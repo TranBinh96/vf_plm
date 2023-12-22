@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_BOM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINFAST_SBOM_VIEW_CONFIG" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use for export SBOM report</preference_description>
+      <context name="Teamcenter">
+        <value>0,Level,bl_level_starting_0</value>
+        <value>1,Seq Number,bl_sequence_no</value>
+        <value>2,Item ID,bl_item_item_id</value>
+        <value>3,Part Name Vietnamese,bl_item_vf4_item_name_vi</value>
+        <value>4,Part Name German,bl_item_vf4_item_name_german</value>
+        <value>5,Part Name French,bl_item_vf4_item_name_french</value>
+        <value>6,Part Name Dutch,bl_item_vf4_item_name_dutch</value>
+        <value>7,Part Name,bl_rev_object_name</value>
+        <value>8,Color Information,</value>
+        <value>9,Qty,bl_quantity</value>
+        <value>10,Unit of Measure (UOM),bl_uom</value>
+        <value>11,Figure No,</value>
+        <value>12,Revision Number,bl_rev_item_revision_id</value>
+        <value>13,Type,bl_item_object_type</value>
+        <value>14,Year,</value>
+        <value>15,Additional information,VF4_EPC_Variant</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

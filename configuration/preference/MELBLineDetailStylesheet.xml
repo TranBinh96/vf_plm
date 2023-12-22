@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MELBLineDetailStylesheet" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the name of the XSL style sheet used for the Balancing Line Detail report.
+Valid Values:
+Accepts an XSL file name, for example, MyLBLineDetailReport.xsl.</preference_description>
+      <context name="Teamcenter">
+        <value>TCLineBalancingReport.xsl</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

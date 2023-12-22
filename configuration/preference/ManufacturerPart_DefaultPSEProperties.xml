@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ManufacturerPart_DefaultPSEProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables viewing of the related properties for vendor parts in Structure Manager.
+Valid Values:
+Accepts one or more strings as values; each string must be a property of ManufacturerPart or a property of the VMRepresents relation.</preference_description>
+      <context name="Teamcenter">
+        <value>ManufacturerPart:item_id</value>
+        <value>ManufacturerPart:vendor_part_num</value>
+        <value>ManufacturerPart:object_name</value>
+        <value>ManufacturerPart:vendor_id</value>
+        <value>ManufacturerPart:vendor_name</value>
+        <value>VMRepresents:preferred_status</value>
+        <value>ManufacturerPart:vm0company_location</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

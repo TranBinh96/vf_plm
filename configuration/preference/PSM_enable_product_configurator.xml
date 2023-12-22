@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Configurator Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSM_enable_product_configurator" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables the use of Teamcenter Product Configurator to configure the variability of Product Structure.
+Any modification to the preference value requires restart of Structure Manager application to avoid data integrity issues.
+The PSEVariantsMode preference will be ignored and Variants will be authored/configured using Configurator Context via association or setting the Default Configurator Context.
+Valid values are:
+* true: Product Structure will use the Configurator Context for Variability. This is the default value.
+* false: Product Structure will refer to the PSEVariantsMode preference for Variability.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

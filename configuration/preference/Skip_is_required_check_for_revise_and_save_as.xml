@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Skip_is_required_check_for_revise_and_save_as" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates if the check for mandatory fields during Revise and Save-As operation has to be skipped or not. Valid values are 0/1.
+0 - Do not skip the check during Revise and Save-As operations.
+1 - Skip the check during Revise and Save-As operations.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

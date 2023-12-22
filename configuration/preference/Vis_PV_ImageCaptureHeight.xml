@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ProductView">
+    <category_description>
+      Preferences affecting the behavior of Product views
+</category_description>
+    
+               <preference name="Vis_PV_ImageCaptureHeight" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the height in pixel of the preview image created when saving a Product View from the Lifecycle Visualization application. 
+This is only used if &quot;Image Capture&quot; is enabled for Product View save, and if the &quot;Use Image Export Dialog&quot; option is unchecked. 
+Valid values are positive integer from 1 to 1040. 
+Specifying a value of 0 for either width or height will result in both values being calculated automatically.</preference_description>
+      <context name="Teamcenter">
+        <value>400</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

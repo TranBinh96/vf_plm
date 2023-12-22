@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ItemRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the registration of a summary style sheet for Mat1Material objects. Substance Compliance overrides the base ItemRevision.SUMMARYRENDERING preference setting value (BaseItemRevSummary style sheet) 
+with the Scp0ItemRevisionSummary style sheet, which has everything from the BaseItemRevSummary style sheet plus a new page for materials and substance.If the Substance Compliance IMDS Integration solution is installed, specifies the registration of a summary style sheet for ItemRevision objects.
+Valid Values:
+Sci0ItemRevisionSummary: If the Substance Compliance IMDS Integration solution is installed.</preference_description>
+      <context name="Teamcenter">
+        <value>CMItemRevSummary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

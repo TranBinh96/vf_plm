@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="FunctionalityRevisionColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Sets the default columns in a view where the top-level object is a function. The user&apos;s column settings override this preference.
+Valid Values:
+Accepts internal names of the object properties to be displayed in the columns.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_item_item_id</value>
+        <value>bl_rev_object_name</value>
+        <value>bl_has_trace_link</value>
+        <value>bl_has_attached_notes</value>
+        <value>Fnd0FunctionalBOMLine.fnd0bl_hierarchical_number</value>
+        <value>bl_fulltext_body_cleartext</value>
+        <value>bl_item_object_type</value>
+        <value>bl_rev_owning_user</value>
+        <value>bl_rev_release_statuses</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Common Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="HTMLStylesheetSharedLibs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines by name all of the datasets of type &quot;Zip&quot; which are to be downloaded by clients in order to leverage HTML stylesheet.
+The identified &quot;Zip&quot; datasets contain all shared HTML, CSS, Javascript, images, etc. which are used by the HTML stylesheets.</preference_description>
+      <context name="Teamcenter">
+        <value>HTMLStylesheetData</value>
+        <value>HTMLStylesheetThirdPartyData</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

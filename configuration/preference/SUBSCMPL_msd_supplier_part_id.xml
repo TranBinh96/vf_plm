@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_msd_supplier_part_id" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the name of the attribute of vendor part which is specified in an email sent to the supplier.
+A valid value is the name of the attibute of the vendor part.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

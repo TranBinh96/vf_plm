@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_SEARCH_BASED_ON_LAST_RELEASE_STATUS" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Activates the search for material revisions based on the last Release Status.
+This is useful when the material revision has more than one Release Status.
+Valid Values:
+* false: The search criteria will consider any release status on the revision. This is the default value.
+* true: The search criteria will consider only the last_release_status of the revision.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

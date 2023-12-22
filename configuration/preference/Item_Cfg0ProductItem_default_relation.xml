@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Configurator Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Item_Cfg0ProductItem_default_relation" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Specifies the default relation created between a Configurator Context and the Item under which it is pasted.</preference_description>
+      <context name="Teamcenter">
+        <value>Smc0HasVariantConfigContext</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

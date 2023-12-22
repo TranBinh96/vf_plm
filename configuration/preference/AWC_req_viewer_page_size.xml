@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_req_viewer_page_size" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This is a user preference that defines the number of requirements that load together within the Active Workspace Requirements Documentation tab.
+Valid values are:
+0 : All requirement in a specification load together in the Active Workspace Requirements Documentation tab.
+n : &apos;n&apos; is the number of specification requirements that load together; the remaining requirements also load as consecutive sets of &apos;n&apos;</preference_description>
+      <context name="Teamcenter">
+        <value>50</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

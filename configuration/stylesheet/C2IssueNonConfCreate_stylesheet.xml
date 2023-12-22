@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rendering>
+  <views>properties</views>
+
+		<page title="General Information" titlekey="issuemgmt_general_information">
+			<view name="properties">
+				<property name="item_id" modifiable="false"/>
+				<property name="object_name"/>
+				<property name="object_desc"/>
+				<property name="revision:item_revision_id" modifiable="false"/>
+				<property name="revision:c2_ContainmentAction"/>
+				<property name="revision:c2Category"/>
+				<property name="revision:c2_IssueSubcategory"/>
+				<property name="revision:c2_PotentialReasons" />
+				<property name="revision:c2_LocationInCompany"/>
+				<!--customPanel java="com.teamcenter.rac.issuemgmt.wizards.ui.propsPageRelationshipPanel"/-->
+			</view>
+		</page> 
+
+		<page title="Non Conf Information"  titlekey="issuemgmt_non_conf_information">
+			<view name="properties">
+				<property name="revision:c2_LotOrBatchNumber" />
+				<property name="revision:c2_QuantityAffected" />
+				<property name="revision:c2_Source" />
+				<property name="revision:c2_SourceContactInfo" />
+				<property name="revision:c2_ContractorOrSupplier"/>
+				<property name="revision:c2_DateIdentified" />
+				<property name="revision:c2_DrawingNumber" />
+				<property name="revision:c2_FoundDuringActivity" />
+				<!--customPanel java="com.teamcenter.rac.issuemgmt.wizards.ui.propsPageRelationshipPanel"/-->
+			</view>
+		</page>
+		
+</rendering>

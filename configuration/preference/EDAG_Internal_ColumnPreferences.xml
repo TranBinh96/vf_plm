@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EDAG_Internal_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMLine.bl_indented_title</value>
+        <value>BOMLine.VF5_pos_id</value>
+        <value>BOMLine.bl_sequence_no</value>
+        <value>BOMLine.VF5_module_group</value>
+        <value>BOMLine.VF5_main_module</value>
+        <value>BOMLine.VF5_module_name</value>
+        <value>BOMLine.VF5_vehicle_type</value>
+        <value>BOMLine.VF5_change_index</value>
+        <value>BOMLine.bl_rev_vf5_initial_usage</value>
+        <value>BOMLine.bl_rev_vf5_vietnamese_name</value>
+        <value>BOMLine.bl_rev_vf5_part_name_english</value>
+        <value>BOMLine.bl_item_item_id</value>
+        <value>BOMLine.bl_rev_vf5_maturity_level</value>
+        <value>BOMLine.bl_rev_vf5_ref_num</value>
+        <value>BOMLine.bl_rev_vf5_ref_version</value>
+        <value>BOMLine.VF5_mounting_comment</value>
+        <value>BOMLine.vf5_make_buy</value>
+        <value>BOMLine.VF5_torque_inf</value>
+        <value>BOMLine.bl_rev_vf5_material</value>
+        <value>BOMLine.bl_rev_vf5_standard_part</value>
+        <value>BOMLine.VF5_purchase_lvl_vf</value>
+        <value>BOMLine.VF5_manuf_strategy</value>
+        <value>BOMLine.VF5_purchase_lvl_vg</value>
+        <value>BOMLine.bl_rev_vf5_styling_relevant</value>
+        <value>BOMLine.bl_rev_vf5_ee_relevant</value>
+        <value>BOMLine.bl_rev_vf5_colored_part</value>
+        <value>BOMLine.bl_rev_vf5_after_sale_relevant</value>
+        <value>BOMLine.bl_rev_vf5_safety_relevant</value>
+        <value>BOMLine.bl_rev_vf5_certification_relevant</value>
+        <value>BOMLine.bl_quantity</value>
+        <value>BOMLine.bl_uom</value>
+        <value>BOMLine.bl_rev_vf5_weight_c</value>
+        <value>BOMLine.bl_rev_vf5_part_owner</value>
+        <value>BOMLine.bl_rev_vf5_purchasing_name</value>
+        <value>BOMLine.bl_rev_vf5_supplier_name</value>
+        <value>BOMLine.bl_rev_vf5_supplier_date_d</value>
+        <value>BOMLine.VF5_impl_with</value>
+        <value>BOMLine.VF5_usage_bl</value>
+        <value>BOMLine.bl_rev_vf5_eco_num</value>
+        <value>BOMLine.bl_rev_vf5_eco_release_date</value>
+        <value>BOMLine.VF5_eco_rel_plan</value>
+        <value>BOMLine.bl_rev_vf5_Type_of_design</value>
+        <value>BOMLine.bl_rev_vf5_EDAG_startpart_mo_ver</value>
+        <value>BOMLine.bl_rev_vf5_comment</value>
+        <value>BOMLine.bl_rev_vf5_material_thickness</value>
+        <value>BOMLine.bl_item_vf5_Right_hand_Partnumber</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

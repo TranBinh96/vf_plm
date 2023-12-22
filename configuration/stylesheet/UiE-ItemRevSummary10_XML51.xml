@@ -1,0 +1,58 @@
+<rendering>
+	<header>
+<image source = "thumbnail"/>		
+<property name = "owning_user"/>
+		<property name = "last_mod_date"/>
+		<property name = "release_status_list" renderingHint = "label"/>
+		<property name = "object_type"/>
+	</header> 
+	<page titleKey="tc_xrt_Overview" title="Overview">
+		<section  title = "JES Detail Steps">>
+			<objectSet source = "vf4_jes_detail_steps.VF4_JES_Car_Act" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+				<tableDisplay>
+					<property name = "vf4_sort_order"/>
+		 			<property name="vf4_detail_step_desc" />
+            					<property name="vf4_step_desc_en" />
+          		 			<property name="vf4__detail_step_symbol" />
+            					<property name="vf4_step_reference" />
+					<property name = "vf4_time"/> 
+				</tableDisplay>
+				<thumbnailDisplay/>
+				<listDisplay/>
+				<command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+				<command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+				<command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+					<parameter name = "localSelection" value = "true"/>
+				</command>
+			</objectSet>
+		</section>
+		<section  title = "JES Pictures">
+			<objectSet source = "TC_Attaches.Dataset" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+				<tableDisplay>
+					<property name = "object_string"/>
+					<property name = "object_type"/>
+					<property name = "release_status_list"/>
+					<property name = "date_released"/>
+					<property name = "owning_user"/>
+				</tableDisplay>
+				<treeDisplay>
+					<property name = "object_string"/>
+					<property name = "object_type"/>
+					<property name = "release_status_list"/>
+					<property name = "date_released"/>
+					<property name = "owning_user"/>
+				</treeDisplay>
+				<thumbnailDisplay/>
+				<listDisplay/>
+				<command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+				<command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+				<command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+					<parameter name = "localSelection" value = "true"/>
+				</command>
+			</objectSet>
+
+			
+
+		</section>
+	</page>
+</rendering>

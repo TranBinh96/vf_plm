@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DRAG_AND_DROP_SWING_dialog_enable" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Preference to show/hide Swing AbstractAIFDialog for single file drag and drop. The value can be true/false. If the value is set to &quot;false&quot;, then the multiple file drag and drop JFace Dialog will be displayed for single file drag and drop event. If the value is set to &quot;true&quot; then the Swing AbstractAIFDialog will be displayed for the single file drag and drop event.  Default value is false.
+
+Please note that support for this preference and Swing dialog will be removed in Teamcenter 12. The JFace dialog is the preferred dialog.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

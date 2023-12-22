@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="baselineDryRun" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether or not the Dry Run Creation check box is active when you open the Baseline dialog box. A dry run produces a report listing error messages encountered while processing a single item revision or traversing a structure.
+Valid Values:
+0 - The Dry Run Creation check box is not checked.
+1 - The Dry Run Creation check box is checked.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

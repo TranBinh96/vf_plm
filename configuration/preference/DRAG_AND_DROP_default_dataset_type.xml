@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DRAG_AND_DROP_default_dataset_type" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Lists the default dataset types associated to files when the files are dragged and dropped into Teamcenter.
+Valid values have the following pattern: &quot;file_extension:dataset_type&quot;, e.g. &quot;doc:MSWord&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>ai:AdobeIllustrator</value>
+        <value>doc:MSWord</value>
+        <value>docx:MSWordX</value>
+        <value>gif:GIF</value>
+        <value>htm:HTML</value>
+        <value>html:HTML</value>
+        <value>jpg:JPEG</value>
+        <value>mpp:MSProject</value>
+        <value>msg:Outlook</value>
+        <value>pdf:PDF</value>
+        <value>png:Image</value>
+        <value>pps:MISC</value>
+        <value>ppt:MSPowerPoint</value>
+        <value>pptx:MSPowerPointX</value>
+        <value>psd:Photoshop</value>
+        <value>rar:MISC</value>
+        <value>tif:TIF</value>
+        <value>txt:Text</value>
+        <value>vsd:MISC</value>
+        <value>wpd:WordPerfect</value>
+        <value>xls:MSExcel</value>
+        <value>xlsx:MSExcelX</value>
+        <value>xlsm:MSExcelX</value>
+        <value>xml:XMLRenderingStylesheet</value>
+        <value>zip:Zip</value>
+        <value>jt:DirectModel</value>
+        <value>png:Image</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

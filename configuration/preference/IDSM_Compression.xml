@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDSM_Compression" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables or disables data compression during remote import operations. For data compression to be employed between two Multi-Site Collaboration sites, both sites must set this preference to True to enable compression, and both sites must specify the same compression type by setting the IDSM_Compression_type preference. The recommendation is to set this legacy feature to FALSE. Must be set to FALSE if TcXML payload is enabled.
+Valid Values:
+TRUE - Enables compression at the site during remote import operations.
+FALSE - Disables data compression during remote import operations.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

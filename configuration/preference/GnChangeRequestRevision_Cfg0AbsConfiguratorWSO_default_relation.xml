@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="GnChangeRequestRevision_Cfg0AbsConfiguratorWSO_default_relation" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the relation to be created when a Configurator Workspace Object is pasted under a Change Request Revision. 
+The specified relation becomes the default relation created between a Configurator Workspace Object and the target Change Request Revision.
+Valid values are CMHasProblemItem, CMHasImpactedItem, and CMReferences. The default value is &quot;CMHasImpactedItem&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasImpactedItem</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

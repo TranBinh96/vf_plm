@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VF_MBOM_BOM/BOP_REPORT" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>VF_MBOM_BOM/BOP_REPORT
+        Model==Shop==M-BOM==Variant==top M-BOM==BOP==topBOP
+        Variant 100/150: 150 là top M-BOM id khác, M-BOM sẽ là id của xưởng. 100 thì M-BOM và
+        topM-BOM sẽ là same.
+        Có trường hợp có nhiều M-BOM trong cùng 1 xưởng cũng sẽ có nhiều BOP trong cùng 1 xưởng,
+        ngăn cách bởi dấu chấm phẩy
+        nếu vị trí cuối cùng trông nghĩa là không có BOP
+      </preference_description>
+      <context name="Teamcenter">
+        <value>VF6==GA==383891==150==383888==252040==251621</value><!-- done -->
+        <value>VF6==BODY==383889==150==383888==251771==251621</value><!-- done -->
+        <value>VF6==PAINT==383890==150==383888==251879==251621</value> <!-- done -->
+        <value>VF6==SA==464884==150==383888==252629==251621</value><!-- done -->
+        <value>VF6==Cut&amp;Sew==548160==100==548160==</value>
+        <value>VF6==Die-casting==445956==100==445956==445883==445882</value> <!-- done -->
+        <value>VF6==ED Escooter==572763==100==572763==572754==572753</value><!-- done -->
+        <value>VF6==Emotor==354684;447149==100==354684;447149==</value>
+        <value>VF6==Interior==551244==100==551244==551204==551203</value><!-- done -->
+        <value>VF6==MA==548420==100==548420==578715==578714</value><!-- done -->
+        <value>VF6==Mechanical==540204==100==540204==540336==540335</value><!-- done -->
+        <value>VF6==PI==443478==100==443478==443152==443151</value><!-- done -->
+        <value>VF6==Press==446392==100==446392==447017==447016</value><!-- done -->
+        <value>VF6==Seat==516832==100==516832==450307==450306</value><!-- done -->
+        <value>VF6==Sub-contract==589562==100==589562==</value>
+        <value>VF8==GA==084041==150==084036==128502==128215</value><!-- done -->
+        <value>VF8==BODY==084039==150==084036==172296==128215</value><!-- done -->
+        <value>VF8==PAINT==084040==150==084036==128501==128215</value><!-- done -->
+        <value>VF8==SA==084042==150==084036==128503==128215</value><!-- done -->
+        <value>VF8==Cut&amp;Sew==220734==100==220734==233645==233644</value><!-- done -->
+        <value>VF8==Die-casting==189726==100==189726==189742==189727</value><!-- done -->
+        <value>VF8==ED Escooter==175285==100==175285==493120==493119</value><!-- done -->
+        <value>VF8==Emotor==191451==100==191451==</value>
+        <value>VF8==Interior==130777==100====195548==154446</value><!-- done -->
+        <value>VF8==MA==127752==100==127752==489753==489752</value><!-- done -->
+        <value>VF8==Mechanical==147294==100==147294==198306==154450</value><!-- done -->
+        <value>VF8==PI==200829==100==200829==245475==245474</value><!-- done -->
+        <value>VF8==Press==127662==100==127662==158451==158450</value><!-- done -->
+        <value>VF8==Seat==213252==100==213252==237232==237231</value><!-- done -->
+        <value>VF8==Sub-contract==130786==100==130786==</value>
+        <value>VF9==GA==222691==150==174998==178756==178605</value><!-- done -->
+        <value>VF9==BODY==205045==150==174998==178606==178605</value><!-- done -->
+        <value>VF9==PAINT==175002==150==174998==178607==178605</value><!-- done -->
+        <value>VF9==SA==210493==150==174998==178757==178605</value><!-- done -->
+        <value>VF9==Cut&amp;Sew==221257==100==221257==258697==258696</value><!-- done -->
+        <value>VF9==Die-casting==291075==100==291075==291061==291060</value><!-- done -->
+        <value>VF9==ED Escooter==225185==100==225185==493083==493082</value><!-- done -->
+        <value>VF9==Emotor==223042==100==223042==228735==223080</value><!-- done -->
+        <value>VF9==Interior==228926==100==228926==254231==254230</value><!-- done -->
+        <value>VF9==MA==241121==100==241121==503168==503167</value><!-- done -->
+        <value>VF9==Mechanical==205279==100==205279==298575==298574</value><!-- done -->
+        <value>VF9==PI==225285==100==225285==441550==247781</value><!-- done -->
+        <value>VF9==Press==241714==100==241714==244137==244136</value><!-- done -->
+        <value>VF9==Seat==224227==100==224227==224502==224501</value><!-- done -->
+        <value>VF9==Sub-contract==382394;386440==100==382394;386440==</value>
+        <value>VFe34==GA==071816==100==071816==095275==095272</value><!-- done -->
+        <value>VFe34==PAINT==071816==100==071816==095819==095272</value><!-- done -->
+        <value>VF5==GA==383891==150==498584==520010==519846</value><!-- done -->
+        <value>VF5==SA==498598==150==498584==520642==519846</value><!-- done -->
+        <value>VF5==BODY==498595==150==498584==520009==519846</value><!-- done -->
+        <value>VF5==PAINT==498584==150==498584==519847==519846</value><!-- done -->
+        <value>VF5==Die-casting==445956==100==445956==445883==445882</value> <!-- done -->
+        <value>VF7==BODY==525848==150==522542==524431==524430</value><!-- done -->
+        <value>VF7==GA==525849==150==522542==525001==524430</value><!-- done -->
+        <value>VF7==SA==525852==150==522542==525628==524430</value><!-- done -->
+        <value>VF7==PAINT==525851==150==522542==525683==524430</value><!-- done -->
+        <value>VF7==Die-casting==445956==100==445956==445883==445882</value> <!-- done -->
+      </context>
+    </preference>
+
+  </category>
+</preferences>

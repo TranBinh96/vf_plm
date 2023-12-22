@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Configuration_override_with_CBOS" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>While using Configure Based on Selection (CBOS) feature, this preference defines behavior whether to replace existing applied configuration with Configuration Based on Selection. Here Configure Based on Selection means configuring the structure with the criteria created from the selected BOM Line&apos;s Rollup Variant Condition.
+Valid Values:
+* true: existing configuration applied on structure will be overridden with Configuration Based on Selection.
+* false: existing configuration will be added to Configuration Based on Selection.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

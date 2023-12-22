@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_search_automatic_wildcard" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the automatic addition of wildcard to user search criteria.
+Valid values are:
+- 0: the user search criteria are not altered.
+- 1: the search engine will suffix * to user values (e.g. &quot;part&quot; will be &quot;part*&quot;). This is the default value.
+- 2: the search engine will prefix * to user values (e.g. &quot;part&quot; will be &quot;*part&quot;).
+- 3: the search engine will prefix and suffix * to user values (e.g. &quot;part&quot; would become &quot;*part*&quot;).
+- any other value is considered 0.
+If a user adds a wildcard as part of the search criteria, no additional wildcard will be added in that place. This is the same for both prefix and suffix. (e.g. &quot;part*&quot; will be &quot;part*&quot;).</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

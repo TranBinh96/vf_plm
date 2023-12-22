@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Fnd0WorkflowAudit_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of columns to be displayed on Process History Table for objects of type Fnd0WorkflowAudit.</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0WorkflowAudit.fnd0ObjectDisplayName</value>
+        <value>Fnd0WorkflowAudit.job_name</value>
+        <value>Fnd0WorkflowAudit.fnd0EventTypeName</value>
+        <value>Fnd0WorkflowAudit.fnd0LoggedDate</value>
+        <value>Fnd0WorkflowAudit.task_result</value>
+        <value>Fnd0WorkflowAudit.fnd0SignoffDecision</value>
+        <value>Fnd0WorkflowAudit.task_state</value>
+        <value>Fnd0WorkflowAudit.fnd0Comments</value>
+        <value>Fnd0WorkflowAudit.fnd0UserId</value>
+        <value>Fnd0WorkflowAudit.fnd0GroupName</value>
+        <value>Fnd0WorkflowAudit.fnd0RoleName</value>
+        <value>Fnd0WorkflowAudit.fnd0SignoffUserID</value>
+        <value>Fnd0WorkflowAudit.fnd0SignoffGroupName</value>
+        <value>Fnd0WorkflowAudit.fnd0SignoffRoleName</value>
+        <value>Fnd0WorkflowAudit.fnd0StartDate</value>
+        <value>Fnd0WorkflowAudit.fnd0EndDate</value>
+        <value>Fnd0WorkflowAudit.fnd0ActualDurationDisplay</value>
+        <value>Fnd0WorkflowAudit.due_date</value>
+        <value>Fnd0WorkflowAudit.late_flag</value>
+        <value>Fnd0WorkflowAudit.responsible_partyDisp</value>
+        <value>Fnd0WorkflowAudit.fnd0TargetAttachmentsSent</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

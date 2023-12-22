@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ARM_tcsync_update" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Activates the performance monitoring of the Multi-Site Collaboration object update function by the tc_sync utility.
+For the tc_sync process, the transaction reports the duration of time required to synchronize each modified, published object from the client node operation to the selected sites. There is no corresponding server-side transaction.
+Valid Values:
+* ON: Enables performance monitoring of the Multi-Site Collaboration object update function by the tc_sync utility.
+* OFF: Suppresses performance monitoring of the Multi-Site Collaboration object update function by the tc_sync utility.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

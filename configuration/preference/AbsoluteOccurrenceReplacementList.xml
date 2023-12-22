@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AbsoluteOccurrenceReplacementList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Configures for absolute occurrences by indicating the dataset type, relation attachment pairs which will be replaced by the absolute occurrent attachments.
+The valid format is: &lt;RelationName:Datasettype Name&gt;</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_Rendering:DirectModel</value>
+        <value>IMAN_master_form:*</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

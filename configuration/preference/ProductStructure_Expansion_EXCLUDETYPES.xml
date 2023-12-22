@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ProductStructure_Expansion_EXCLUDETYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of object types not to be displayed in Manufacturing &quot;Expand To Type&quot; dialog when the structure is of type &quot;Product Structure&quot;.
+For a given value, its associated subtypes will also to be considered for the exclusion.</preference_description>
+      <context name="Teamcenter">
+        <value>AllocationMap</value>
+        <value>Architecture</value>
+        <value>BidPackage</value>
+        <value>CAEBCItem</value>
+        <value>CAEConnItem</value>
+        <value>CAEItem</value>
+        <value>CAELoadItem</value>
+        <value>CalParm</value>
+        <value>ChangeItem</value>
+        <value>Design</value>
+        <value>EngChange</value>
+        <value>MEGenericBOP</value>
+        <value>MEOP</value>
+        <value>MEProcess</value>
+        <value>MEProductBOP</value>
+        <value>MEWorkarea</value>
+        <value>ParmDef</value>
+        <value>ParmDefBCD</value>
+        <value>ParmDefBitDef</value>
+        <value>ParmDefBool</value>
+        <value>ParmDefDate</value>
+        <value>ParmDefDbl</value>
+        <value>ParmDefHex</value>
+        <value>ParmDefInt</value>
+        <value>ParmDefSED</value>
+        <value>ParmDefStr</value>
+        <value>ParmGrpDef</value>
+        <value>ParmGrpVal</value>
+        <value>PhysicalPart</value>
+        <value>PSSignal</value>
+        <value>Schedule</value>
+        <value>ScheduleTask</value>
+        <value>SSP0Frequency</value>
+        <value>SwDesignComp</value>
+        <value>Vendor</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

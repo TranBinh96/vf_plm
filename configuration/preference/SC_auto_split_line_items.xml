@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_auto_split_line_items" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines if line items or splits(BidPackageLineItem) to be created automatically based on projects (assigned to selected ChangeRequestRevision or ChangeNoticeRevision) and plants (associated with Impacted or Solution ItemRevision of selected ChangeRequestRevision or ChangeNoticeRevision) in Supplier Collaboration application.
+The default value is false</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

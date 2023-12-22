@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMGTC3DModelAttributeIDs" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the IDs of the Generic Tool Catalog (GTC) class attribute that holds the filename of the 3D step model for a catalog component.
+The default values are -159003 for detailed and -159016 for basic 3D model.
+The sequence of the IDs in list defines the sequence how the Resource Manager imports a 3D step model.
+At first the filename from the first specified attribute is used.
+If that attribute is empty and there is a second attribute specified in this preference, the filename from the second attribute is used.</preference_description>
+      <context name="Teamcenter">
+        <value>-159003</value>
+        <value>-159016</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

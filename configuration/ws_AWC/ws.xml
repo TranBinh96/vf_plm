@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Import>
+
+  <Workspace id="vf4_PurchaseWorkspace">
+    <WorkspaceMapping default="true" group="Ebike.Purchase.Scooter" role="" />
+    <WorkspaceMapping default="true" group="Purchase" role="Viewer" />
+    <WorkspaceMapping default="true" group="Purchase" role="CL" />
+    <WorkspaceMapping default="true" group="legacy_Al Casting - Machining.Purchase.Scooter" role="" />
+    <WorkspaceMapping default="true" group="Cell Pin.Purchase.VINES" role="" />
+    <WorkspaceMapping default="true" group="Purchase" role="" />
+    <WorkspaceMapping default="true" group="Purchase" role="Buyer" />
+    <WorkspaceMapping default="true" group="Purchase" role="Program Purchasing" />
+    <WorkspaceMapping default="true" group="legacy_Electric - Plastics - Rubber.Purchase.Scooter"
+      role="" />
+    <WorkspaceMapping default="true" group="legacy_Welding-Pressing.Purchase.Scooter" role="" />
+    <WorkspaceMapping default="true" group="Purchase.Scooter" role="" />
+    <WorkspaceMapping default="true" group="3_IN_1_PDU_DCDC_OBC.Direct Pur.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="BATTERY_PACK.Direct Pur.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="BIW-DC.Direct Pur.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="EE.Direct Pur.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="EXT-AFS.Direct Pur.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="Pack Pin.Purchase.VINES" role="" />
+    <WorkspaceMapping default="true" group="Purchase.VINES" role="" />
+    <WorkspaceMapping default="true" group="INT.Direct Pur.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="PWT-CHS.Direct Pur.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="SEATS.Direct Pur.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="SEATS_AND_RESTRAINTS.Direct Pur.Purchase.VINFAST"
+      role="" />
+    <WorkspaceMapping default="true" group="STANDARD.Direct Pur.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="ESP Pur.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="Electronic Comp.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="Indirect Pur.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="Plan and MC.Purchase.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="SQ.Quality MFG.VINFAST" role="" />
+    <WorkspaceMapping default="true" group="Purchase.VINFAST" role="" />
+  </Workspace>
+
+  <Workspace id="TcRMWorkspace">
+    <WorkspaceMapping group="Engineering" role="" />
+  </Workspace>
+
+  <Workspace id="TcActiveAdminWorkspace">
+    <WorkspaceMapping default="true" group="dba" role="DBA" />
+  </Workspace>
+
+  <Workspace id="TcAuthorWorkspace">
+    <WorkspaceMapping group="dba" role="DBA" />
+    <WorkspaceMapping group="Engineering" role="" />
+  </Workspace>
+
+  <Workspace id="TcActiveArchitectWorkspace">
+    <WorkspaceMapping group="dba" role="DBA" />
+  </Workspace>
+
+  <Workspace id="TCAWWorkspace">
+    <WorkspaceMapping default="true" group="dba" role="DBA" />
+  </Workspace>
+
+  <Workspace id="TcConsumerWorkspace" />
+
+  <Workspace id="TcQualityManagementWorkspace" />
+
+</Import>

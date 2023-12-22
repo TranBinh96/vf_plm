@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_unique_models_color" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the highlight color to indicate that a model is unique.
+The valid value is a triplet of integer values from 0 to 255 separated by the &quot;;&quot; character.
+The default value is &quot;190;190;190&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>190;190;190</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

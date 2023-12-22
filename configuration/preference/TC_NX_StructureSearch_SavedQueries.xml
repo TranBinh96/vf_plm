@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_StructureSearch_SavedQueries" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of Saved Queries that can be used by the NX Structure Search functionality. The values are names of queries that are available in Teamcenter. The specified queries must return Item(s) or Item Revision(s).</preference_description>
+      <context name="Teamcenter">
+        <value>__NX_STRSRCH_ITEMREVISION_QUERY</value>
+        <value>__NX_STRSRCH_ITEMREV_FORM_QUERY</value>
+        <value>__NX_STRSRCH_DATASET_ATTR_QUERY</value>
+        <value>__NX_STRSRCH_DATASET_NR_QUERY</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

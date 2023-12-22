@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SiteTimeZone" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Stores the time zone of the server. Use this preference to determine the time zone used by the TCCalendars in the scheduling logic. This preference is used with Schedule Manager.
+Valid Values:
+Accepts a single value pair indicating a time zone ID from the zoneinfo database (also known as the Olson database) in the following format:region/cityFor example:Europe/ParisRefer to the zoneinfo database 
+(http://en.wikipedia.org/wiki/Zoneinfo) for the complete list of zone IDs. The system checks for a valid value and displays an error message when Schedule is created if an invalid value is detected.</preference_description>
+      <context name="Teamcenter">
+        <value>America/Chicago</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

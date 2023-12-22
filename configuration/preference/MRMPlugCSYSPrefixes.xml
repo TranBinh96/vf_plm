@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMPlugCSYSPrefixes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Customizes the prefixes of the machine-sided (plug) coordinate system names that are used for Resource Manager automatic positioning. Teamcenter checks coordinate system names in the precedence that is defined in this preference.
+Valid Values:
+Accepts a list of strings representing the custom prefixes for names of coordinate systems.</preference_description>
+      <context name="Teamcenter">
+        <value>PLUG</value>
+        <value>MCS</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

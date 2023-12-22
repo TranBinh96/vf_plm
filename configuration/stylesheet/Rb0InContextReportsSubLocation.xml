@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Reports tab for different Business Objects. -->
+<subRendering>    
+    <page titleKey = "tc_xrt_Rb0Reports" visibleWhen="ActiveWorkspace:SubLocation != showMyDashboard">
+        <!-- htmlPanel id = "com.siemens.splm.client.reports.xrtReportsPanel"/ -->
+        <inject type="dataset" src="Rb0ReportsPageViewer " module="js/aw-include.directive"/>
+    </page>        
+</subRendering>

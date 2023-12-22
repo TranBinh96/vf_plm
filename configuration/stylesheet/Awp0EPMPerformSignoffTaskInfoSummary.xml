@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying a workflow task. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_type" modifiable="false"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_properties">
+                <property name="object_name"/>
+                <content visibleWhen="{pref:WRKFLW_fnd0Instructions_available}!=true">
+                    <property name="object_desc"/>
+                </content>
+                <content visibleWhen="{pref:WRKFLW_fnd0Instructions_available}==true">
+                    <property name="fnd0Instructions"/>
+                </content>
+                <property name="fnd0Assignee"/>
+                <property name="comments"/>
+                <property name="task_state"/>
+                <property name="fnd0Priority"/>
+                <property name="fnd0StartDate"/>
+                <property name="last_mod_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="due_date"/>
+                <content visibleWhen = "fnd0TaskExecutionErrors != null">
+                    <property name="fnd0TaskExecutionErrors"/>
+                </content>
+            </section>
+            <section titleKey="tc_xrt_Workflow">
+                <property name="REF(parent_process, EPMJob).object_name"/>
+                <property name="REF(parent_process, EPMJob).object_desc"/>
+                <property name="REF(parent_process, EPMJob).process_template"/>
+            </section>
+            <section titleKey="tc_xrt_Reviewers">
+                <objectSet source="signoff_attachments.Signoff" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_name"/>
+                        <property name="fnd0DecisionRequired" modifiable="false"/>
+                        <property name="decision_date" modifiable="false"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+            <section titleKey="web_inbox_targets">
+                <objectSet source="root_target_attachments.ItemRevision" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_string"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <page titleKey="tc_xrt_AllTargets">
+        <section titleKey="tc_xrt_TargetItems">
+            <objectSet source="root_target_attachments.WorkspaceObject" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="last_mod_date"/>
+                    <property name="release_status_list"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

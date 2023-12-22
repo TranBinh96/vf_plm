@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Selection Criteria" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Sets the criteria used for pre-selection of attachments for Item Revision objects for Check-in/Out in the Explore Dialog.
+For example, for the below case, all the objects of type UGMASTER having a IMAN_specification relation with the Item Revision object will be pre-selected in the Explore Dialog.
+Valid values are in the format TypeInternalName followed by 10 spaces and then, RelationInternalName.
+At all times, one of the two preferences &quot;Selection Criteria&quot; or &quot;Select IR&quot; must be set, otherwise the &quot;Check-In/Check-Out&quot; of Item Revision objects will not work. However, this preference&apos;s values take precedence over values of these other two preferences.
+If this preference is not set and &quot;Select IR&quot; preference is set ,then only the Item Revision objects are selected and not their attachments.</preference_description>
+      <context name="Teamcenter">
+        <value>UGMASTER          IMAN_specification</value>
+        <value>UGPART          IMAN_specification</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

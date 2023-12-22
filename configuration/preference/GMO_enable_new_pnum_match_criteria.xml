@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="GMO_enable_new_pnum_match_criteria" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the additional check for EWO_status to Usage attributes when a Usage is given a red Part Number match, for a new Part Number match it is set from fail to partial pass. This preference is added as part of GRDVA Phase 3 project. 
+By default, this is activated. 
+This is a Site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

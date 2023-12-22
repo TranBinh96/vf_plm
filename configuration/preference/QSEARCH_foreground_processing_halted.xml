@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Column">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QSEARCH_foreground_processing_halted" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether foreground processing of the cacheless search (QSearch) spatial indexes is enabled or disabled. Siemens PLM Software recommends you set this preference to true when working on a production environment or when the number of changes to the structure each day is very large. The Teamcenter Dispatcher qsearchprocessqueue service must be running to process the indexing requests when this preference is set to true.
+Valid Values:
+true - Disables the processing of spatial indexes in the foreground and creates Dispatcher requests to process the spatial indexes in the background.
+false - Enables spatial index generation in the foreground. If index generation does not complete in the specified time period, it creates a Dispatcher request that generates the spatial indexes in the background.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

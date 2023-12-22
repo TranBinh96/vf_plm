@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ConfigurationContextCreate.xml
+
+    Style sheet rendering for Configuration Context creation.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="Configuration Context Information" titleKey="tc_xrt_ConfigurationContextInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="revision_rule" renderingHint = "revisionrulebutton"/>
+            <property name="variant_rule" renderingHint = "variantrulebutton"/>
+            <property name="variant_rules" renderingHint = "multiplevariantrulebutton"/>
+            <property name="closure_rule" renderingHint = "closurerulebutton"/>            
+            <property name="Mfg0VisibilitySuppOcc" />
+            <property name="Mfg0VisibilityUncnfVar" />
+            <property name="Mfg0VisibilityUncnfOccEff" />
+            <property name="Mfg0VisibilityUncnfChanges" />
+            <property name="Mfg0VisibilityUncnfAssgnOcc" />
+        </section>
+    </page>
+
+</rendering>

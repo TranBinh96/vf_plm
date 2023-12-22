@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_max_number_of_retries" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Retry Control. If Teamcenter cannot lock an object, how may times should it try before reporting an error.</preference_description>
+      <context name="Teamcenter">
+        <value>25</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

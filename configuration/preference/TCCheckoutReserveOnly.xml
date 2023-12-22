@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCCheckoutReserveOnly" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies for which business objects a restore copy is not created during checkout.If the business object supports sequences, a new sequence is not created during checkout.
+In this case, if the checkout is canceled, the business object&apos;s contents are not restored to their original values. Sequences are subrevisions of a business object that document the content of a revision during its evolution.
+Checking out a business object increments the sequence ID. You cannot delete the Item value from the object list for this preference. If any type of item revision is specified with this preference, sequences are disabled for that item revision type.
+The Undo Checkout action does not discard changes made after the item revision is checked out. You can display a warning message for object version changes without user input.For information, see the TCCheckoutReserveOnlyWarningNeeded preference.
+Valid Values:
+Accepts multiple strings as values. Each string must be a business object that can be checked in and out.</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0AbstractOccRevision</value>
+        <value>Fnd0EditContext</value>
+        <value>Item</value>
+        <value>PSBOMView</value>
+        <value>PSBOMViewRevision</value>
+        <value>Fnd0Markup</value>
+        <value>Aps0ManagedAttributeGroup</value>
+        <value>Cfg0AbsConfiguratorWSO</value>
+        <value>Mdl0ApplicationModel</value>
+        <value>Mdl0BaselineDefinition</value>
+        <value>Mdl0BaselineRevision</value>
+        <value>Mdl0SubsetDefinition</value>
+        <value>Mdl0ModelElement</value>
+        <value>AppearanceGroup</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Tracelink_Edit_enabled" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables user to perform any operation related to trace links. This preference can be set in the Options dialog box by selecting Systems Engineering and either selecting or clearing the Trace Link Mode check box.
+Valid Values:
+True or False</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

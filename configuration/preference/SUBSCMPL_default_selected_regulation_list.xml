@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_default_selected_regulation_list" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the regulation names to be shown as pre-selected for a Substance Compliance check in the &quot;Initiate Substance Compliance Check&quot; dialog in the &quot;My Teamcenter&quot; application.
+If no value is specified, all the active regulations will be displayed.
+Valid values are in the format &quot;RegulationName:RegulationVersion&quot;.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

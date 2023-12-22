@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_load_all_product_shapeRep" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Load all linked datasets to a product itemrevision or not
+Possible values :
+TRUE - loaded 
+FALSE - notloaded 
+AUTO - 
+If CATProduct dataset  exist under item revision (with or without file) - not loaded
+If dataset  doesn&apos;t exist - loaded</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

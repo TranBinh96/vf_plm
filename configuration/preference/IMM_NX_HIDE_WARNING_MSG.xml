@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_NX_HIDE_WARNING_MSG" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls the display of the below warning messages in NX:
+* The opened part&apos;s materials need an update. Update via IMM Dialog.
+* The opened part contains legacy materials. Please use IMM materials instead.
+Valid Values:
+* false:The warning messages will be displayed. This is the default value.
+* true: The warning messages will be hidden.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

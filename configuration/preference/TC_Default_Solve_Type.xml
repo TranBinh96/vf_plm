@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Default_Solve_Type" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default solve type value that Teamcenter uses when setting effectivity configurations.
+Valid values are
+1 - Mismatch. Conditions that do not match the solve criteria.
+2 - Explicit. Conditions that explicitly match the solve criteria.
+4 - Coprime. Conditions that may match the solve criteria. The term coprime means the condition depends on variant option families that are not present in the criteria.
+8 - True. Conditions that always satisfy the solve criteria because they are equivalent to the Boolean constant TRUE.
+16 - False. Conditions that never satisfy the solve criteria because they are equivalent to the Boolean constant FALSE.
+32 - Condition. Conditions that are nonconstant because they are not equivalent to the Boolean constants TRUE or FALSE.
+64 - Error check. Conditions that return an error in the solve process. Configurations using this mode should never return any data.
+128 - No condition. No conditions. Finds objects that support configuration conditions but do not have one.
+256 - No configuration behavior. Objects that do not support configuration behavior in the solve process.
+512 - Invert. Inverts the filter results.</preference_description>
+      <context name="Teamcenter">
+        <value>529</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

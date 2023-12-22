@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+================================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+@<COPYRIGHT>@
+-->
+ 
+<!--
+ 
+    Filename: CondValResultSummary.xml
+
+    Default style sheet for displaying CondValResult Object.
+ 
+-->
+
+<rendering>
+    <page title="Summary" titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_properties">
+            <property name="validation_result" modifiable="false" />
+            <property name="valdata_revision" modifiable="false" />
+            <property name="client_target" modifiable="false" />
+            <property name="validation_user" modifiable="false" />
+            <separator/>
+            <property name="condition" modifiable="false" />
+            <property name="condition_desc" modifiable="false" />
+        </section>
+    </page>
+    
+    <page title="Override Information" titleKey="tc_xrt_OverrideInformation">
+        <section titleKey="tc_xrt_properties">
+            <property name="override_request_user"  modifiable="false" />
+            <property name="override_request_date"  modifiable="false" />
+            <property name="override_type" modifiable="false" />
+            <property name="override_to_state" modifiable="false" />
+            <property name="override_category" modifiable="false" />
+            <property name="override_reason" modifiable="false" />
+            <property name="override_reason_detail"  modifiable="false" />
+            <separator/>
+            <property name="override_decision_user" modifiable="false" />
+            <property name="override_decision_date"  modifiable="false" />
+            <property name="override_request_state" modifiable="false" />
+            <property name="override_decision_comments" modifiable="false" />
+        </section>
+    </page>
+    
+    <page title="All" titleKey="tc_xrt_All">
+        <section titleKey="tc_xrt_properties">
+            <property name="validation_result" modifiable="false" />
+            <property name="valdata_revision" modifiable="false" />
+            <property name="client_target" modifiable="false" />
+            <property name="validation_user" modifiable="false" />
+            <property name="validation_date" modifiable="false" />
+            <property name="validation_application" modifiable="false" />
+            <property name="condition" modifiable="false" />
+            <property name="condition_desc" modifiable="false" />
+            <separator/>
+            <property name="override_request_user"  modifiable="false" />
+            <property name="override_request_date"  modifiable="false" />
+            <property name="override_type" modifiable="false" />
+            <property name="override_to_state" modifiable="false" />
+            <property name="override_category" modifiable="false" />
+            <property name="override_reason" modifiable="false" />
+            <property name="override_reason_detail"  modifiable="false" />
+            <separator/>
+            <property name="override_decision_user" modifiable="false" />
+            <property name="override_decision_date"  modifiable="false" />
+            <property name="override_request_state" modifiable="false" />
+            <property name="override_decision_comments" modifiable="false" />            
+        </section>
+    </page>
+</rendering>

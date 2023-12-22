@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICBaselineTemplate" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Copy action rules for cloning a template in the MPP application.</preference_description>
+      <context name="Teamcenter">
+        <value>*:*:Attribute.items_tag:Reference</value>
+        <value>*:*:Attribute.structure_revisions:Clone</value>
+        <value>*:*:Attribute.bom_view:Reference</value>
+        <value>*:*:Attribute.parent_item:Reference</value>
+        <value>*:*:Attribute.variant_expression_block:Clone</value>
+        <value>*:*:OccType.Null:Reference</value>
+        <value>*:*:OccType.*:Reference</value>
+        <value>*:*:Relation.IMAN_Rendering:Clone</value>
+        <value>*:*:Relation.IMAN_specification:Clone</value>
+        <value>*:class.MEActivity:Relation.IMAN_MEFolder:Clone</value>
+        <value>class.MEActivity:*:Attribute.contents:Clone</value>
+        <value>class.Folder:*:Attribute.contents:Clone</value>
+        <value>*:*:Relation.Mfg0TCContextFeatureFormRel:Clone</value>
+        <value>*:*:Relation.Mes0MEWIAssetsRelation:Clone</value>
+        <value>*:*:Relation.Mes0MEWIPreviewRelation:Clone</value>
+        <value>*:*:Relation.Mes0MESymbolRelation:Reference</value>
+        <value>*:*:Relation.Mes0MEDCD_Details:Clone</value>
+        <value>*:*:Relation.Mes0MEDCD_Override:Clone</value>
+        <value>*:*:Relation.Mes0MEPF_Details:Clone</value>
+        <value>*:*:Relation.Mes0MEPF_Override:Clone</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

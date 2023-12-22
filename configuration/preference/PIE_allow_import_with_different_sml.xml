@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PIE_allow_import_with_different_sml" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the import behavior when the site master language of the exporting site does not match that of the importing site. By default, if the site master language in the .xml file does not match the importing site&apos;s site master language, the PLM XML import is allowed.
+To deny the import, set the preference value to false.
+Valid Values:
+True - Allows PLM XML import if the site master language in the .xml file does not match the importing site&apos;s site master language.
+False - Prohibits PLM XML import if the site master language in the .xml file does not match the importing site&apos;s site master language.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

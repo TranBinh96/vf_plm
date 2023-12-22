@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.CAD BOM Alignment">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSM_Skip_Unload_PublishedPartAssembly_OnViewer" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls if unload should be performed for published part structure from product graphic viewer or not. 
+Valid Values:
+- true: When user un-checks a published part BOMLine, make part structure invisible on graphic viewer, but skip unload part structure behind the scene. This is the default value.
+- false: When user un-checks a published part BOMLine, make part structure invisible on graphic viewer and also unload part structure behind the scene.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

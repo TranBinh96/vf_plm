@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Volume Management.Hierarchical Storage Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="HSM_secondary_tier_capacity" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sends an e-mail alert when the capacity of the second tier volume reaches capacity. Set this preference to the estimated capacity level of the second tier volume. Compute this estimate by totalling all storage capacities of all disks mounted on the secondary tier.The hsm_capacity_alert utility estimates the capacities of the volumes and uses the values defined in this preference to send e-mail alerts when the secondary tier capacity exceeds alert levels.
+Valid Values:
+Accepts a single string as a value. The value must be the estimated capacity of the second tier volume. For example:HSM_secondary_tier_capacity= 16.9</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

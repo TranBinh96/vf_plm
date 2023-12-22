@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General.Cortona3D">
+    <category_description>Cortona3D Rapid Author Preferences</category_description>
+    
+               <preference name="Cortona3D_VMPFILE_DatasetNamingRule" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Cortona3D_VMPFILE_DatasetNamingRule</preference_description>
+      <context name="Teamcenter">
+        <value>C3D_ItemS1000D4Revision=%item:%properties#item_id|/|%revision:%properties#item_revision_id</value>
+        <value>C3D_ItemS1000D4LRevision=%item:%properties#item_id|/|%revision:%properties#item_revision_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

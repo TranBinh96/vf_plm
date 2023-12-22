@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAccountabilityCheckDynamicIDICProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of BOM Line properties used by accountability check dynamic equivalence criteria when searching for equivalent BOM Lines.
+By default the BOM Line property &quot;bl_item_item_id&quot; is always included in dynamic equivalence criteria, unless certain structure search friendly properties are provided:
+- internal BOM Line properties pointing to Occurrence Note
+- compound property on a Form
+- property on an Item type, description or name ( e.g. &quot;bl_item_object_type&quot; )
+- property on an Item Revision type, description or name ( e.g. &quot;bl_rev_object_name&quot;)
+If none of these is available, the property &quot;bl_item_item_id&quot; will be used in conjunction with any other specified properties. The first cacheless(structure) search property in the preference is used as an initial property to collect the BOM Lines on which the other properties are evaluated. Empty property values are not considered as equal during compare.
+An example for a value to search for absolute transformations, the entry &quot;bl_plmxml_abs_xform&quot; can be added.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_item_item_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

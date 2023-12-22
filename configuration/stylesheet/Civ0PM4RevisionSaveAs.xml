@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2010. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: Civ0PM4RevisionSaveAs.xml  
+   
+     Default style sheet for displaying DC_SkdPMRevision Save As 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+======================================================================= 
+@<DEL>@  
+-->
+
+
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+      <column>
+        <property name="DocumentTitle" />
+        
+        <separator/>
+        <property name="c1k0dmeproducer" />
+        <property name="c1k0dmecode" />
+        <property name="skdmodelic" />
+        <property name="skdpmissuer" />
+        <property name="skdpmnumber" />
+        <property name="skdpmvolume" />
+        <section titleKey="tc_xrt_IssueDetails">            
+            <property name="skdissno" />
+            <property name="skdiss_type" />
+            <property name="skdissdate_day" />
+            <property name="skdissdate_month" />
+            <property name="skdissdate_year" />
+        </section>
+      </column>
+      
+      <column>                
+        <section titleKey="tc_xrt_PublicationDetails">            
+            <property name="skdsecurity_class" />
+            <property name="skdrpc" />
+            <property name="skdorig" />
+            <property name="skdqa" />
+            <property name="skdsbc" />
+            <property name="skdremarks" />
+            <property name="skdeffect" />
+            <property name="skdmedia" />
+            <property name="c1k0skdmediatype" />
+            <property name="c1k0skdmediacode" />
+            <property name="skdfic" />
+            <property name="skdrfu" />
+            <property name="civ0inwork" />	
+        </section>            
+        <property name="skdexportfilename" />
+        <property name="isTemplate" />
+        <property name="referenceOnly"  />     
+      </column>
+      
+   </page>
+   
+</rendering>
+
+

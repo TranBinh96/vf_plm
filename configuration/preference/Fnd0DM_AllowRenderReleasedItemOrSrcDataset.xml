@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Document Management">
+    <category_description>Document Management.</category_description>
+    
+               <preference name="Fnd0DM_AllowRenderReleasedItemOrSrcDataset" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allow render on released items or source datasets.
+Valid Values:
+true:  Allow render on released items or source datasets when there is no existing rendered datasets.
+false: This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AW_IndexedProperties_for_Phrased_Search" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of attributes which will be used to create search phrase suggestions.
+Values should be the type name and internal property name in the format &quot;type.property&quot; (e.g. &quot;POM_application_object.owning_user&quot;).</preference_description>
+      <context name="Teamcenter">
+        <value>WorkspaceObject.object_name</value>
+        <value>WorkspaceObject.object_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

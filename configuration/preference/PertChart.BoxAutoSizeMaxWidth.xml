@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PertChart.BoxAutoSizeMaxWidth" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>If PertChart.AutoSizeMode is on, configures the maximal width to be used when new PERT nodes are created.
+Valid Values:
+A positive integer.If the PERT node text is larger than 250 pixels, the application splits the text into multiple lines as needed.</preference_description>
+      <context name="Teamcenter">
+        <value>170</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

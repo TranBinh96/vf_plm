@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TS_successful_states" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies all the successful states in the dispatcher client.
+Valid Values:
+Successful state names of the dispatcher client.</preference_description>
+      <context name="Teamcenter">
+        <value>COMPLETE</value>
+        <value>DUPLICATE</value>
+        <value>DELETE</value>
+        <value>CANCELLED</value>
+        <value>SUPERSEDED</value>
+        <value>NO_TRANS</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

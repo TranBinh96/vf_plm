@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering>
+   <views>properties</views>
+    
+   <page title="Preventive Action Plan" titleKey="issuemgmt_general_information">
+         <section name="properties">
+            <property name="item_id" renderingHint="textfield" />
+            <property name="object_name" renderingHint="textfield" />
+            <property name="object_desc" />
+			<property name="fnd0TimeZone" />
+			<property name="c2_template" />
+            <property name="start_date" />
+            <property name="finish_date" />			
+         </section>
+   </page>
+   
+</rendering>

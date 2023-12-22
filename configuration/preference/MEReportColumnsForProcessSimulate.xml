@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEReportColumnsForProcessSimulate" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the ordered list of column names displayed in the report for failed checkout objects in the Process Simulate Check-Out menu command.
+Valid Values:
+Accepts valid column names in the order you want them to appear:value_1, value_2, ...</preference_description>
+      <context name="Teamcenter">
+        <value>object_string</value>
+        <value>object_type</value>
+        <value>checked_out_user</value>
+        <value>object_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

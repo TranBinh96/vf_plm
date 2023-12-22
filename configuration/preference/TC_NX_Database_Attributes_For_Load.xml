@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_Database_Attributes_For_Load" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the set of customer-defined, non-standard database attributes that are retrieved for each item type/dataset type whenever a part is loaded.All database attributes are retrieved for the top-level assembly. This preference controls the non-standard attributes that are retrieved for the child components of the top-level
+assembly and can be used for NX parts, transient parts, and JT parts. These non-standard attributes are defined using the attribute mapping definitions in Teamcenter and are refreshed on demand in NX depending on the operation that requests them. However, this may not necessarily occur when loading a part. The refreshing of attributes does not 
+impact performance at low latencies, but does impact performance at higher latencies. If you are working with a latency greater than 10 milliseconds, it is recommended that you utilize this preference to refresh the database attributes whenever a part is loaded.To get an idea of the attributes that are being queried during load operations, load 
+a sample assembly and check the NX syslog for messages about inefficient attributes loading.The following standard database attributes are always loaded for all contexts and do not have to be specified by this preference:
+DB_PART_NAME
+DB_PART_DESC
+DB_PART_NO
+DB_PART_REV
+DB_PART_TYPE
+DB_UNITS
+Valid Values:
+The value format is three keywords and their values. The keywords are:
+ItemType
+DatasetType
+AttributeTitle
+The format informs NX which database attribute to load for a specific context (ItemType/DatasetType). Values are enclosed in quotation marks. An empty string (&quot;&quot;) can be applied to either or both of ItemType and DatasetType.The wild card designation, &quot;*&quot;, can be specified as the value of AttributeTitle to indicate that all database attributes for that context are loaded 
+when opening a part in NX. A context without any entries in TC_NX_Database_Attributes_For_Load loads standard database attributes only.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

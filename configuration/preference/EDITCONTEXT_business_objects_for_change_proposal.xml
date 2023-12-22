@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="BOM Markup Space">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EDITCONTEXT_business_objects_for_change_proposal" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of POM non-revisable Business Object types that can be used as background or context objects for Change Proposal creation.</preference_description>
+      <context name="Teamcenter">
+        <value>Mdl0SubsetDefinition</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

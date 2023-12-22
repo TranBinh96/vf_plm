@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Business Modeler">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BMF_CUSTOM_IMPLEMENTOR_PATH" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the full path to custom libraries where any custom methods for the Business Modeler IDE framework are maintained. Alternatively, you can add the custom libraries to a directory in your system PATH environment variable (for example, TC_BIN). Multiple path definitions are allowed in this preference, and you can define both Windows and UNIX/Linux paths at the same time. The application only loads those that match the current server platform. This preference needs to be set so that the application knows where to look for custom extensions. Once set, close the rich client and start it again to load the new site preference values.
+Valid Values:
+Accepts a single string as value. Must be a valid file location.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

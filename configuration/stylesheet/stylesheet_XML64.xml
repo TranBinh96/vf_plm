@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <page title="Manufacturing Plant Info">
+	<section title="Plant Properties">
+				<tableProperty  name="vf4_plant_table_row">
+					<property name="vf4_pos_id"/>
+					<property name="vf4_plant_code"/>
+					<property name="vf4_department"/>
+					<property name="vf4_make_or_buy"/>
+				</tableProperty >
+			</section>
+    </page>
+   <page title="SCM Plant Info">
+            <section title="Plant Properties">
+				<property name = "vf4_plant"/>
+				<property name = "vf4_make_buy"/>
+            </section>
+    </page>
+	<page titleKey="tc_xrt_Overview">
+          <column>
+              <section titleKey="tc_xrt_properties">
+                  <property name="object_name" modifiable="false"/>
+                  <property name="object_desc" modifiable="false"/>
+                  <separator/>
+                  <property name="last_mod_user" renderingHint="objectlink" modifiable="false"/>
+                  <property name="last_mod_date" modifiable="false"/>
+                  <property name="owning_group" modifiable="false"/>
+                  <property name="checked_out" modifiable="false"/>
+                  <property name="checked_out_user" renderingHint="objectlink" modifiable="false"/>
+                  <separator/>
+                  <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+              </section>
+          </column> 
+          <column>
+               <section titleKey="tc_xrt_Preview">
+                   <image source="thumbnail"/>
+               </section>
+               <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                    <command actionKey="newProcessAction" commandId="com.teamcenter.rac.newProcess" titleKey="tc_xrt_newProc" />
+                    <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" />
+               </section>
+          </column>
+    </page>
+</rendering>

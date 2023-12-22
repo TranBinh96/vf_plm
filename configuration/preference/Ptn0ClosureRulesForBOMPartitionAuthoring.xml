@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Ptn0ClosureRulesForBOMPartitionAuthoring" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the closure rules that can be used for restricting member authoring under partitions for a regular assembly structure organized by partitions.
+These are the closure rules corresponding to the closure rules in Business Object Constant Ptn0ClosureRulesToRestrictAuthoring on Ptn0PartitionScheme and Ptn0Partition which are used to evaluate the restriction for creation of member lines.</preference_description>
+      <context name="Teamcenter">
+        <value>Ptn0AllowMemberAuthUnderLeafPtn</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

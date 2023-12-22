@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_DeleteMarkupsOnDrawingSheetImport" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Deletes the CGM datasets created in Teamcenter for which there are no sheets in NX.In NX, choose File-&gt;Export-&gt;Drawings to Teamcenter to open a dialog box that lists the names of the existing sheets. Select the names of the sheets for which you want to create (or retain) the CGM datasets and select Delete existing sheets from Teamcenter.
+Valid Values:
+TRUE
+FALSE</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

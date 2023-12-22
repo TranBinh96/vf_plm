@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_set_default_3DBox_search" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default option type for spatial searches. Applies to spatial searches in the Structure Manager, Multi Structure Manager, and Manufacturing Process Planner applications.
+Valid Values:
+true Sets the 3D box search option as default.
+false Sets the proximity search option as default.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

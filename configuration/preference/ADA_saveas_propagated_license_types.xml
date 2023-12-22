@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ADA_saveas_propagated_license_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of license types that are copied over to the new object during the &quot;Save As&quot;, &quot;Revise&quot; and &quot;Baseline&quot; operations.
+If the preference &quot;TC_copy_security_data_exclusion_list&quot; contains the property &quot;license_list&quot;, no license type is copied.</preference_description>
+      <context name="Teamcenter">
+        <value>IP_License</value>
+        <value>ITAR_License</value>
+        <value>Exclude_License</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

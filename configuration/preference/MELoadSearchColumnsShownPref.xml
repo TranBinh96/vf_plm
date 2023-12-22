@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MELoadSearchColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of columns to be displayed in the load search dialog.
+The format for Valid Values: ObjectTypeName.PropertyName</preference_description>
+      <context name="Teamcenter">
+        <value>SearchStructureContext.object_name</value>
+        <value>SearchStructureContext.owning_user</value>
+        <value>SearchStructureContext.object_desc</value>
+        <value>SearchStructureContext.creation_date</value>
+        <value>SearchStructureContext.fnd0topline</value>
+        <value>SearchStructureContext.fnd0scopeNames</value>
+        <value>SearchStructureContext.revision_rule</value>
+        <value>SearchStructureContext.variant_rule</value>
+        <value>SearchStructureContext.fnd0EffectvtyGrpList</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

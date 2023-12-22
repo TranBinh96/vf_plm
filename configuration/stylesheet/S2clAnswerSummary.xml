@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright 2014 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+===============================================================================
+
+Filename: S2clAnswerSummary.xml
+
+10/31/2012      Initial Release
+
+Default style sheet for displaying S2clAnswer summary.
+
+-->
+<rendering>
+    <header>
+        <property name = "owning_user"/>
+        <property name = "owning_group"/>
+        <property name = "last_mod_date"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey = "tc_xrt_Summary">
+        <column>
+            <section titleKey = "" >
+                <property name="object_name" />
+                <property name="owning_user" />
+                <property name="creation_date"/>
+                <htmlPanel declarativeKey="commentarySummary"/>
+            </section>
+        </column>
+        <column>
+            <section titleKey = "tc_xrt_Thread">
+                <htmlPanel declarativeKey="questionAnswerList"/>
+            </section>
+        </column>
+    </page>
+
+</rendering>
+

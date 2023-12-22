@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPMTaskTemplate.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the property name and values to display in the object cell for EPMTaskTemplate object.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>owning_user</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

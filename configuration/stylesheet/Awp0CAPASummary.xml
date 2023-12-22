@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2003-2005 UGS Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Awp0CAPASummary.xml
+
+
+17/March/2016 	  Sprint44 Release Adding localization on the labels
+-->
+<rendering xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source = "thumbnail"/>
+        <classificationTrace/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "release_status_list"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_properties">
+                <property name = "item_id" renderingHint = "label"/>
+                <property name = "object_name"/>
+                <property name = "object_desc"/>
+                <property name = "object_type"/>
+                <property name = "release_status_list" renderingHint = "label"/>
+                <property name = "date_released" renderingHint = "label"/>
+                <property name = "effectivity_text" renderingHint = "label"/>
+                <break/>
+                <property name = "owning_user" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "owning_group" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "last_mod_user"/>
+                <property name = "checked_out" renderingHint = "label"/>
+                <property name = "checked_out_user"/>
+                <command commandId = "com.teamcenter.rac.properties" text = "moreProperties"/>
+            </section>
+            <section titleKey="tc_xrt_Revisions">
+                <objectSet source = "revision_list.ItemRevision" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "item_revision_id">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "item_revision_id"/>
+                        <property name = "release_status_list"/>
+                        <property name = "last_mod_date"/>
+                        <property name = "last_mod_user"/>
+                        <property name = "checked_out_user"/>                        
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "item_revision_id"/>
+                        <property name = "release_status_list"/>
+                        <property name = "last_mod_date"/>
+                        <property name = "last_mod_user"/>
+                        <property name = "checked_out_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+            <section titleKey="tc_xrt_ClassificationProperties">
+                <classificationProperties/>
+            </section>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_Preview">>
+                <image source = "thumbnail"/>
+            </section>
+            <view name = "actions">
+                <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy"/>
+            </view>
+        </column>
+    </page>
+    <page titleKey="tc_xrt_issuemgmt_attachments">
+        <objectSet source = "IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+            <tableDisplay>
+                <property name = "object_string"/>
+                <property name = "release_status_list"/>
+                <property name = "last_mod_date"/>
+                <property name = "last_mod_user"/>
+                <property name = "checked_out_user"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <treeDisplay>
+                <property name = "object_string"/>
+                <property name = "release_status_list"/>
+                <property name = "last_mod_date"/>
+                <property name = "last_mod_user"/>
+                <property name = "checked_out_user"/>
+            </treeDisplay>
+            <listDisplay/>
+            <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+            <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+            <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                <parameter name = "localSelection" value = "true"/>
+            </command>
+        </objectSet>
+    </page>
+    <page titleKey="tc_xrt_impactanalysis">
+        <view name = "impactanalysis"/>
+    </page>
+    <page titleKey="tc_xrt_Workflow" visibleWhen = "process_stage_list!=null">
+        <customPanel java = "com.siemens.splm.client.workflow.xrtWorkflowViewer"/>
+    </page>
+    <page titleKey = "tc_xrt_browseRelations">
+        <customPanel java = "com.siemens.splm.client.relationshipbrowser.xrtRelationshipBrowser"/>
+    </page>
+</rendering>

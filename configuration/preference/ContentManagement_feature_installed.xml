@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ContentManagement_feature_installed" type="Logical" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Indicates that Content Management feature is installed. Do not modify this preference manually.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_create_dataset_on_foreignfile_ir" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Allow the Create CATPart dataset and the Create CATProduct dataset commands on a BOM line of foreign files. (True)
+Prevent creation of CATPart and CATProduct datasets on a BOM line of foreign files (False)</preference_description>
+      <context name="Teamcenter">
+        <value>False</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

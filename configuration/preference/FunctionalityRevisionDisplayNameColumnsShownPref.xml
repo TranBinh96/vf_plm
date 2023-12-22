@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="FunctionalityRevisionDisplayNameColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Stores the internal names of BOM Line properties which display names appear as columns from left-to-right in the BOM Panel in the Systems Engineering application.
+This preference value is only a repository, and it is not to be modified other than by the Product Structure code itself.</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0FunctionalBOMLine.bl_item_item_id</value>
+        <value>Fnd0FunctionalBOMLine.bl_rev_object_name</value>
+        <value>Fnd0FunctionalBOMLine.bl_has_trace_link</value>
+        <value>Fnd0FunctionalBOMLine.bl_has_attached_notes</value>
+        <value>Fnd0FunctionalBOMLine.fnd0bl_hierarchical_number</value>
+        <value>Fnd0FunctionalBOMLine.bl_fulltext_body_cleartext</value>
+        <value>Fnd0FunctionalBOMLine.bl_item_object_type</value>
+        <value>Fnd0FunctionalBOMLine.bl_rev_owning_user</value>
+        <value>Fnd0FunctionalBOMLine.bl_rev_release_statuses</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

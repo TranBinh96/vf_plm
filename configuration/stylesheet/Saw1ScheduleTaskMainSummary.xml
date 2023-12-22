@@ -1,0 +1,69 @@
+<subRendering>
+  <page title="Overview" titleKey="tc_xrt_Overview">
+    <firstcolumn width="28%">
+      <section title="Planning Properties" titleKey="tc_xrt_PlanningProperties">
+        <property name="object_name"/>
+        <property name="object_desc"/>
+        <property name="schedule_tag" modifiable="false"/>
+        <property name="fnd0PriorityString"/>
+        <property name="saw1Duration"/>
+        <property name="saw1WorkEffort"/>
+        <property name="start_date"/>
+        <property name="finish_date"/>
+        <property name="fnd0FixedTypeString"/>
+        <property name="fnd0TaskTypeString" modifiable="false"/>
+        <property name="fnd0ConstraintString"/>
+        <property name="saw1WorkflowTriggerType"/>
+        <property name="saw1WorkflowTemplate"/>
+        <inject type="dataset" src="Adc1ScheduleTaskPlanning"/>
+      </section>
+      <section title="Execution Properties" titleKey="tc_xrt_ExecutionProperties">
+        <property name="fnd0state" />
+        <property name="fnd0status" />
+        <property name="saw1WorkComplete"/>
+        <property name="complete_percent"/>
+        <property name="work_remaining"/>
+        <property name="fnd0ForecastStartDate"/>
+        <property name="actual_start_date"/>
+        <property name="fnd0ForecastEndDate"/>
+        <property name="actual_finish_date"/>
+      </section>
+      <section title="Flags" titleKey="tc_xrt_Flags">
+        <property name="wbs_code" modifiable="false"/>
+        <property name="auto_complete" modifiable="false"/>
+        <inject type="dataset" src="Adc1ScheduleTaskFlags"/>
+      </section>
+    </firstcolumn>
+    <column>
+      <inject type="dataset" src="Saw1ScheduleTaskDeliverables"/>
+      <section title="Resources" titleKey="tc_xrt_ScheduleTaskResources">
+        <objectSet source="ResourceAssignment.POM_object" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending" maxRowCount="4">
+          <tableDisplay height="95%">
+            <property name = "object_string"/>
+            <property name ="ResourceAssignment.saw1AssigneeName" modifiable="false"/>
+            <property name ="ResourceAssignment.saw1AssigneeType" modifiable="false"/>
+            <property name ="ResourceAssignment.discipline" modifiable="false"/>
+            <property name ="ResourceAssignment.resource_level"/>
+            <property name ="ResourceAssignment.saw1IsPrivilegedUser" modifiable="false"/>
+          </tableDisplay>
+          <listDisplay/>
+        </objectSet>
+      </section>
+      <section title="Dependencies" titleKey="tc_xrt_Dependencies" >
+        <objectSet source="saw1PredecessorDependency.TaskDependency,saw1SuccessorDependency.TaskDependency" defaultdisplay="tableDisplay" maxRowCount="4">
+          <tableDisplay>
+            <property name= "saw1Name" modifiable="false"/>
+            <property name= "saw1DependencyType" />
+            <property name= "saw1LagTime" />
+          </tableDisplay>
+          <listDisplay/>
+        </objectSet>
+      </section>
+    </column>
+  </page>
+  <page title="Workflow" titleKey="tc_xrt_Workflow" visibleWhen="fnd0AllWorkflows!=null">
+      <htmlPanel declarativeKey="Awp0WorkflowViewer"/>
+   </page>
+   <inject type="dataset" src="Csi1AffectedItemsSummary"/>
+   <inject type="dataset" src="AuditLogForSchedule"/>
+</subRendering>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Fnd0FastenerAttrFormSummary.xml
+
+    Style sheet rendering for Fastener Attribute Form properties.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="Fastener" titleKey="tc_xrt_Fastener" >
+        <property name="object_name" />
+        <property name="object_desc" />
+        <property name="object_type" />
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+        <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+        <property name="last_mod_user" />
+        <separator/>
+        <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+    </page>
+
+  <page title="All" titleKey="tc_xrt_All">
+    <all type="property"/>
+  </page>
+
+  <page title="Sealants" titleKey="tc_xrt_Sealants">
+    <objectSet source="fnd0Sealants.Fnd0SealantTableRow" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+      <tableDisplay>
+        <property name="fnd0Sealant"/>
+        <property name="fnd0ApplicationProcess"/>
+      </tableDisplay>
+      <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddReference" renderingHint="commandbutton">
+      </command>
+      <command actionKey="deleteAction" commandId="com.teamcenter.rac.deleteReference" renderingHint="commandbutton">
+        <parameter name="localSelection" value="true"/>
+      </command>
+    </objectSet>
+  </page>
+  
+  <page title="Joined Parts" titleKey="tc_xrt_JoinedParts">
+    <objectSet source="fnd0JoinedParts.Fnd0JoinedPartsTableRow" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+      <tableDisplay>
+        <property name="fnd0Part"/>
+        <property name="fnd0Material"/>
+        <property name="fnd0XEntry"/>
+        <property name="fnd0YEntry"/>
+        <property name="fnd0ZEntry"/>
+        <property name="fnd0XExit"/>
+        <property name="fnd0YExit"/>
+        <property name="fnd0ZExit"/>
+      </tableDisplay>
+      <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddReference" renderingHint="commandbutton">
+      </command>
+      <command actionKey="deleteAction" commandId="com.teamcenter.rac.deleteReference" renderingHint="commandbutton">
+        <parameter name="localSelection" value="true"/>
+      </command>
+    </objectSet>
+  </page>
+
+</rendering>
+

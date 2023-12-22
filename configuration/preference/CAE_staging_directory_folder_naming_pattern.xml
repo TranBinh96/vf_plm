@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_staging_directory_folder_naming_pattern" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies folder naming pattern for user staging and shared staging directory to be used by simulation process management for Unix and Windows platform.
+The pattern can be specified as a combination of fixed strings in double quotes and keywords. The supported keywords are ITEMID, REVID, ITEMREVID, ITEMREVNAME, REVVERSION. 
+Fixed strings are optional and can appear more than once in double quotes.
+A folder name cannot be any character that the target file system does not allow.    
+Examples of pattern are:
+* ITEMID&quot;-&quot;ITEMREVNAME - This will be evaluated as 00069-Item
+* ITEMID&quot;_&quot;REVID&quot;_&quot;REVVERSION&quot;_&quot;ITEMREVNAME - This will be evaluated like 00079_A_1_Item</preference_description>
+      <context name="Teamcenter">
+        <value>ITEMID&quot;_&quot;REVID&quot;_&quot;REVVERSION&quot;_&quot;ITEMREVNAME</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

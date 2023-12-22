@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_MPPART_APPROVAL" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>MP Process release assignment list</preference_description>
+      <context name="Teamcenter">
+        <value>VF4_MP_DesignRevision</value>
+        <value>Program;Modulegroup</value>
+        <value>GD&amp;T ENG Rework;VF Quality Check;VF GD&amp;T Check;VF MFG Check;VF MGL Check;ESP MGL Check</value>
+        <value>VF36/VFe36;BIW - Body in White=uwe.hohmann;maurog;hunglv15;antonys;pauls1;karthik.ethiraj</value>
+        <value>VF36/VFe36;CHS - Chassis=uwe.hohmann;maurog;hunglv15;antonys;juanpm;marco.kaschuba</value>
+        <value>VF36/VFe36;DCL - Doors Closures=uwe.hohmann;maurog;hunglv15;antonys;chandraprc;nicolas.platz</value>
+        <value>VF36/VFe36;EEP - Electrics/Electronics=uwe.hohmann;maurog;hunglv15;antonys;kenisk;dominik.haslinger</value>
+        <value>VF36/VFe36;BEX- Exterior=uwe.hohmann;maurog;hunglv15;antonys;duyetnt1;marco.vey</value>
+        <value>VF36/VFe36;BIN - Interior=uwe.hohmann;maurog;hunglv15;antonys;gigelp;alexander.heinz</value>
+        <value>VF36/VFe36;PWT - Powertrain=uwe.hohmann;maurog;hunglv15;antonys;adrianom;martin.huppmann</value>
+        <value>VF36/VFe36;SEA- Seats=uwe.hohmann;maurog;hunglv15;antonys;gigelp;prasnadg</value>
+        <value>VF36/VFe36;RET- Restraints=uwe.hohmann;maurog;hunglv15;antonys;gigelp;michael.macek</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

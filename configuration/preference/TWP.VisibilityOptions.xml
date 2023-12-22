@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TWP.VisibilityOptions" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the visibility options in the Time Way Planner view of the Manufacturing Process Planner application.
+Valid Values:
+ShowCarpet - Specifies whether the carpet is visible in the Time Way Planner view.
+ShowOperations - Controls the visibility of operations in Time Way Planner view.
+ShowProductImage - Controls the visibility of the product image on stations in the Time Way Planner view.
+ShowBoundaries - Controls the visibility of process area, line, and zone boundaries in the Time Way Planner view.</preference_description>
+      <context name="Teamcenter">
+        <value>ShowCarpet:true</value>
+        <value>ShowOperations:true</value>
+        <value>ShowProductImage:true</value>
+        <value>ShowBoundaries:true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

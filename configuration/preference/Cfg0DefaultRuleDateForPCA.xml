@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0DefaultRuleDateForPCA" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default rule date mode value in the Product Configurator application.
+The Valid Values:
+-Latest = The variability/rules will be loaded as of the current system date and time for the configurator context.This is the default value
+-No Rule Date = All the variability/rules data currently saved in the system for the configurator context.
+-System Default = The variability will be loaded as of the current date and default time (i.e. midnight + offset) for the configurator context.</preference_description>
+      <context name="Teamcenter">
+        <value>Latest</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

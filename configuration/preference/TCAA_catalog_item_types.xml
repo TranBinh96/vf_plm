@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA_catalog_item_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to configure TCAA in order to have items of certain types be skipped during the clone operation.
+Possible values (multiple values): each value corresponds to an item type to be ignored during the clone process.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

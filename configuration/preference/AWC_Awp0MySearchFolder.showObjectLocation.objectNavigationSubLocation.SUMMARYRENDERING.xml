@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Awp0MySearchFolder.showObjectLocation.objectNavigationSubLocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for objects of type Awp0MySearchFolder (My Search Folder object) for Object Navigation sublocation.</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0MySearchFolderSummary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

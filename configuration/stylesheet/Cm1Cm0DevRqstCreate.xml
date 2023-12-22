@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering> 
+   <page>
+         <section titleKey="tc_xrt_properties">
+            <property name="item_id" renderingHint="textfield" />
+            <property name="revision:item_revision_id" renderingHint="textfield" /> 
+            <property name="object_name" renderingHint="textfield" />
+            <property name="object_desc" />
+            <property name="Cm0change_type" />
+            <property name="revision:Adc0is_other_ci_affected" /> 
+            <property name="revision:Adc0is_warranty_affected" />
+         </section>
+   </page>
+</rendering>

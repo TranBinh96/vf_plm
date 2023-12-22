@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing.SAP MES Interface">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_SAP_SUPERBOM_SHOPS" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Transfer these shops to SAP as Super BOM. For validation while trasnfering as SUPER BOM</preference_description>
+      <context name="Teamcenter">
+        <value>042749</value>
+        <value>042751</value>
+        <value>042752</value>
+        <value>042753</value>
+        <value>042762</value>
+        <value>042763</value>
+        <value>042764</value>
+        <value>042765</value>
+        <value>056073</value>
+        <value>056075</value>
+        <value>056074</value>
+        <value>056180</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

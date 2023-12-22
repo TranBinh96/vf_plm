@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_Applications" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of NX client applications that can be launched from Teamcenter Client.
+The allowed values are NX, NX Layout, NX Learning Edition, NX Viewer, CAM Express, CAM Single Machine Environment, Mechatonics Concept Designer, Simcenter 3D, and Solid Edge CAM Pro.
+The default value is only NX.
+However, if a new application is available, in addition to adding it to this preference, a new preference TC_NX_App_Switch_For_XXX, where XXX would be the name of the new application added,
+needs to be defined with the value that can be used to launch XXX.</preference_description>
+      <context name="Teamcenter">
+        <value>NX</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

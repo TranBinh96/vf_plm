@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DirectModelMarkup_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of properties that can be used as children for the indicated type i.e. DirectModelMarkup. The format of the preference follows: &lt;TypeName&gt;_DefaultChildProperties=my_property.</preference_description>
+      <context name="Teamcenter">
+        <value>Session</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

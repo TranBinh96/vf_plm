@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0OptionsViewPropertyColumns" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies a list of properties that are displayed as columns in the tree table of the Variant Options view of the Product Configurator.
+Valid Values:
+Any option property.</preference_description>
+      <context name="Teamcenter">
+        <value>Cfg0AbsConfiguratorWSO.cfg0ObjectId</value>
+        <value>Cfg0AbsFamily.cfg0FamilyNamespace</value>
+        <value>Cfg0AbsConfiguratorWSO.object_type</value>
+        <value>Cfg0AbsConfiguratorWSO.object_desc</value>
+        <value>Cfg0AbsFamily.cfg0ValueDataType</value>
+        <value>Cfg0AbsFamily.cfg0UOM</value>
+        <value>Cfg0AbsFamily.cfg0IsDiscretionary</value>
+        <value>Cfg0AbsFamily.cfg0HasFreeFormValues</value>
+        <value>Cfg0AbsFamily.cfg0IsMultiselect</value>
+        <value>Cfg0AbsOptionFamily.cfg0MinimumValue</value>
+        <value>Cfg0AbsOptionFamily.cfg0MaximumValue</value>
+        <value>Cfg0AbsLiteralOptionValue.cfg0FamilyObjectId</value>
+        <value>Cfg0AbsConfiguratorWSO.cfg0Effectivity</value>
+        <value>Cfg0AbsConfiguratorWSO.cfg0Sequence</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

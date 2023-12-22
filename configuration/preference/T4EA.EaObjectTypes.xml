@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="EA Gateway">
+    <category_description>Preferences for the Teamcenter Gateway for Enterprise Applications (T4EA)</category_description>
+    
+               <preference name="T4EA.EaObjectTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates all necessary transfer types for the GUI (EA Data View)</preference_description>
+      <context name="Teamcenter">
+        <value>Product</value>
+        <value>ProductDocument</value>
+        <value>ProductAssociation</value>
+        <value>ProductInformation</value>
+        <value>T4EA_Product</value>
+        <value>T4EA_ProductInformation</value>
+        <value>Article</value>
+        <value>Document</value>
+        <value>BillOfMaterial</value>
+        <value>FixedAsset</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

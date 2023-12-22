@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_catalog_comp_dataset_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>List of dataset types used when saving certain documents referenced in a catalog.
+These documents could be CATScripts, CATSystems, Word documents or similar and excludes parts, products, drawings, V4 models, processes, analysis, catalog, foreign files.
+A specific document is stored in the first dataset type compatible with its type.</preference_description>
+      <context name="Teamcenter">
+        <value>VF4_CATMaterial</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

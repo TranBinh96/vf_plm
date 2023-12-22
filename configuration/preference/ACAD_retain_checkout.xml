@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Autocad Manager">
+    <category_description>Autocad Manager Preferences</category_description>
+    
+               <preference name="ACAD_retain_checkout" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>The following preference specifies, if the AutoCAD drawing file should remain checked-in (read-only) or automatically be checked-out again (writeable) after a &apos;Save to Teamcenter Engineering&apos;</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

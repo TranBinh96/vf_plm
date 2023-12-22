@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing.SAP MES Interface">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_MBOM_PROGRAM_IDS" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Program IDS</preference_description>
+      <context name="Teamcenter">
+        <value>00</value>
+        <value>01</value>
+        <value>02</value>
+        <value>03</value>
+        <value>04</value>
+        <value>05</value>
+        <value>06</value>
+        <value>07</value>
+        <value>08</value>
+        <value>09</value>
+        <value>10</value>
+        <value>11</value>
+        <value>12</value>
+        <value>13</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

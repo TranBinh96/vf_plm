@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAEAnalysisRevision_CAESolution_default_relation" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relation which is created when a dataset of type CAE Solution is pasted under an object of type CAE Analysis Revision, as mentioned in the Simulation Process Management data model. The default value of the relation is &quot;IMAN_Simulation&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_Simulation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

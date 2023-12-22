@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+             Copyright (c) 2012 Siemens Product Lifecycle Management Software Inc.
+                Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: ScheduleTaskChgDetails.xml
+
+    Default style sheet for displaying Schedule Task properties.
+ -->
+<rendering>
+    <page titleKey="tc_xrt_Overview" title = "Overview">
+        <section titleKey = "tc_xrt_properties" title = "Properties">
+            <column>
+                <property name="object_name" renderingHint="propertyformattedtextfield"/>
+                <property name="object_desc" renderingHint="propertyformattedtextfield"/>
+                <property name="start_date" renderingHint="sm_propertydatebutton"/>
+                <property name="actual_start_date" renderingHint="sm_propertydatebutton"/>
+                <property name="finish_date" renderingHint="sm_propertydatebutton"/>
+                <property name="actual_finish_date" renderingHint="sm_propertydatebutton"/>
+            </column>
+            <column>    
+                <section titleKey = "tc_xrt_WorkflowInfo" title = "Active Workflow Process Information">
+                    <customPanel java="com.teamcenter.rac.cm.views.WorkflowTasksView" /> 
+                </section>
+                <section titleKey = "tc_xrt_actions">
+                    <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy" />
+                    <command actionKey = "newProcessAction" commandId = "com.teamcenter.rac.newProcess" titleKey="tc_xrt_newProc" title = "New Workflow Process..."/>
+                </section>                
+            </column>
+        </section>
+        <section titleKey ="tc_xrt_ParentChange" title="Parent Change">
+            <objectSet source="csi0parentChange.ItemRevision" defaultdisplay="treeDisplay">
+                <treeDisplay>
+                    <property name="object_string" />
+                    <property name="object_desc" />
+                    <property name="Requestor" />
+                    <property name="CMClosure" />
+                    <property name="CMDisposition" />
+                    <property name="CMMaturity" />
+                    <separator />
+                </treeDisplay>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_CMHasProblemItem">
+            <objectSet source="CMHasProblemItem.WorkspaceObject" defaultdisplay="treeDisplay">
+                <treeDisplay>
+                    <property name="object_string" />
+                    <property name="object_desc" />
+                </treeDisplay>
+                <command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true" />
+                </command>                
+                <command commandId="com.teamcenter.rac.copy" renderingHint="commandbutton" />
+                <command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton" />
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_CMHasImpactedItem">
+            <objectSet source="CMHasImpactedItem.WorkspaceObject" defaultdisplay="treeDisplay">
+                <treeDisplay>
+                    <property name="object_string" />
+                    <property name="object_desc" />
+                </treeDisplay>
+                <command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true" />
+                </command> 
+                <command commandId="com.teamcenter.rac.copy" renderingHint="commandbutton" />
+                <command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton" />
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_CMReferences">
+            <objectSet source="CMReferences.WorkspaceObject" defaultdisplay="treeDisplay">
+                <treeDisplay>
+                    <property name="object_string" />
+                    <property name="object_desc" />
+                </treeDisplay>
+                <command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true" />
+                </command>
+                <command commandId="com.teamcenter.rac.copy" renderingHint="commandbutton" />
+                <command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton" />
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_CMHasSolutionItem" hiddenIfNot="ChangeNoticeRevision"> 
+            <objectSet source="CMHasSolutionItem.WorkspaceObject" defaultdisplay="treeDisplay">
+                <treeDisplay>
+                    <property name="object_string" />
+                    <property name="object_desc" />
+                </treeDisplay>
+                <command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true" />
+                </command>
+                <command commandId="com.teamcenter.rac.copy" renderingHint="commandbutton" />
+                <command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton" />
+            </objectSet>
+        </section>        
+    </page>
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

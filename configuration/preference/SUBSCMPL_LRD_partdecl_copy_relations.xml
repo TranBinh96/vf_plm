@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_LRD_partdecl_copy_relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relation names to be copied on a material revision in Teamcenter from the approved lab report (LRD) declaration revision.</preference_description>
+      <context name="Teamcenter">
+        <value>Scp0UsesMaterialMapping</value>
+        <value>Scp0UsesLaboratory</value>
+        <value>Scp0UsesSupplier</value>
+        <value>Scp0UsesAnalyte</value>
+        <value>Scp0LRDContactInCompany</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

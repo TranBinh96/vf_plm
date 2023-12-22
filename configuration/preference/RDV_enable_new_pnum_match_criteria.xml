@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_enable_new_pnum_match_criteria" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Added as part of GRDVA Phase 3. Used, if a Usage has been given a Red Part Number Match by any criteria the Usage attributes will be given the additional check for EWO_status and if this is new we set the Part Number match from fail to partial pass.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

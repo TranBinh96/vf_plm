@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_CFG_CONTEXT_DEFINITION">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_CFG_CONTEXT_PROPULSION" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use to create cfg context</preference_description>
+      <context name="Teamcenter">
+        <value>E-Battery electric vehicle=Car;Bus;Scooter</value>
+        <value>I-Internal combustion vehicle=Car;Bus</value>
+        <value>H-HEV: Hybrid vehicle=Car;Bus</value>
+        <value>P-BEV and ICE=Car;Bus</value>
+        <value>C-Car Component=EE Components</value>
+        <value>S-EScooter components=EE Components</value>
+        <value>G-Charger Products=EE Components</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

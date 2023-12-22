@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWS_Preferred_Attributes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the high-priority attributes for listing search results in the Active Workspace client.
+Values should be the type name and internal property name in the format &quot;type.property&quot; (e.g. &quot;POM_application_object.owning_user&quot;). Followed by the desired boost value and if applicable attribute name in the format &quot;BOOST:Attribute&quot; (e.g. &quot;HIGH:$ME&quot;)
+The accepted boost values are LOW, MEDIUM and HIGH. The accepted attributes for owning_user, project_list and owning_group are $ME, $MY_PROJECT, $MY_GROUP or user input. If no input is put for Attribute the boost field is ignored.
+Acceptable examples: WorkspaceObject.project_list:LOW:$MY_PROJECT; POM_application_object.owning_user:MEDIUM:$ME; POM_application_object.owning_group:HIGH:Engineering
+Unacceptable examples: WorkspaceObject.project_list:LOW, POM_application_object.owning_user:MEDIUM, POM_application_object.owning_group:HIGH
+All other scenarios only need to be in the format of &quot;type.property:BOOST&quot;. e.g.(ItemRevision.awp0Item_item_id:MEDIUM). In the scenario where errors are found in the boosting value, the default value of MEDIUM will be used.
+The default values for this preference are: ItemRevision.awp0Item_item_id:MEDIUM, WorkspaceObject.project_list:MEDIUM:$MY_PROJECT, and POM_application_object.owning_group:LOW:$MY_GROUP</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision.awp0Item_item_id</value>
+        <value>ItemRevision.awp0Item_item_id:MEDIUM</value>
+        <value>WorkspaceObject.project_list:MEDIUM:$MY_PROJECT</value>
+        <value>POM_application_object.owning_group:LOW:$MY_GROUP</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

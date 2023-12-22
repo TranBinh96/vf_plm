@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+==================================================
+Copyright 2019.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<!-- Style sheet rendering for CommercialPart Revision. -->
+<subRendering>
+  <content visibleWhen="object_type==CommercialPart Revision" >
+    <page titleKey="tc_xrt_VendorParts">
+        <column>
+            <section titleKey="tc_xrt_VendorParts">
+                <objectSet source="VMRepresents.ManufacturerPart" defaultdisplay="tableDisplay" sortdirection="descending" sortby="item_id">
+                    <tableDisplay>
+                        <property name="item_id"/>
+                        <property name="object_name" modifiable="false"/>
+                        <property name="vendor_part_num"/>
+                        <property name="object_desc" modifiable="false"/>
+                        <property name="vm0vendor_ref" modifiable="false"/>
+                        <property name="vendor_name" modifiable="false"/>
+                        <property name="vm0company_location" modifiable="false"/>
+                        <property name="VMRepresents.preferred_status"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton" />
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true" />
+                    </command>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+  </content>
+</subRendering>

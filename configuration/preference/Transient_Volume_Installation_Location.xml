@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Transient_Volume_Installation_Location" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Specifies the node name of the transient volume. It is a location-based logical identifier, and is generally set to the host name of the local machine by the tc_profilevars script. When a four-tier transient volume is mounted on all Teamcenter server hosts at a given location, use this setting to configure the distributed transient volume. The environment variable of the same name overrides this preference setting.
+Valid Values:
+Accepts a single value. It must be a valid host name.</preference_description>
+      <context name="Teamcenter">
+        <value>VFS-PLMAPP1-PP</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_PREVENTION_OVERRIDE" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if execution updates are allowed despite the value of the SM_PREVENT_UPDATE_STATES preference. After you change this preference&apos;s value, you must log off and then log on for it to take effect.
+Valid Values:
+ALWAYS_ON - Execution data updates are always allowed.
+ALWAYS_OFF - Execution data updates are prevented for the states specified by the SM_PREVENT_UPDATE_STATES preference, but allowed for other states.
+Schedule Based - Execution data updates are always allowed if the schedule&apos;s Enable Execution Override flag is set to on.  Otherwise, the setting of the SM_PREVENT_UPDATE_STATES preference is enforced.</preference_description>
+      <context name="Teamcenter">
+        <value>Schedule Based</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

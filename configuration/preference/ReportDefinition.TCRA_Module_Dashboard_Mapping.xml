@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Reports">
+    <category_description>Active Workspace preferences
+</category_description>
+    
+               <preference name="ReportDefinition.TCRA_Module_Dashboard_Mapping" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference is used to configure TcRA Report display for application locations.TcRA Report will be displayed in TcRA Viewer. This Viewer will be inserted as a &apos;Dashboard&apos; Sub-location. Pre-defined application location will only have this sub-location inserted.Values should follow below pattern:
+LocationName:{Report1Information}
+e.g.
+Home:{&quot;name&quot;:&quot;Home Summary Overview&quot;, &quot;type&quot;:&quot;Report&quot;}</preference_description>
+      <context name="Teamcenter">
+        <value>Changes:{&quot;name&quot;: &quot;All Changes Dashboard&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+        <value>Schedules:{&quot;name&quot;: &quot;All Schedules Dashboard&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+        <value>Program Planning:{&quot;name&quot;: &quot;All Program Planning Dashboard&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

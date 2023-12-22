@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_person_attr_mapping" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maps LDAP user attributes to Teamcenter person attributes. The mappings control what information the synchronization tool sets in the Teamcenter person objects.LDAP_attribute_mapping=
+LDAPPersonName
+cn
+%REPLACE_ME%
+LDAPLastUpdate
+modifyTimestamp
+%REPLACE_ME%
+PA1
+postaladdress
+%REPLACE_ME%
+PA2
+localityName
+%REPLACE_ME%
+PA3
+st
+%REPLACE_ME%
+PA4
+postalCode
+%REPLACE_ME%
+PA5
+co
+%REPLACE_ME%
+PA6
+o
+%REPLACE_ME%
+PA7
+employeeNumber
+%REPLACE_ME%
+PA8
+physicalDeliveryOfficeName
+%REPLACE_ME%
+PA9
+mail
+%REPLACE_ME%
+PA10
+telephoneNumber
+%REPLACE_ME%
+
+Valid values:
+Accepts triples of strings.</preference_description>
+      <context name="Teamcenter">
+        <value>LDAPPersonName</value>
+        <value>cn</value>
+        <value>%REPLACE_ME%</value>
+        <value>LDAPLastUpdate</value>
+        <value>modifyTimestamp</value>
+        <value>%REPLACE_ME%</value>
+        <value>PA1</value>
+        <value>postaladdress</value>
+        <value>%REPLACE_ME%</value>
+        <value>PA2</value>
+        <value>localityName</value>
+        <value>%REPLACE_ME%</value>
+        <value>PA3</value>
+        <value>st</value>
+        <value>%REPLACE_ME%</value>
+        <value>PA4</value>
+        <value>postalCode</value>
+        <value>%REPLACE_ME%</value>
+        <value>PA5</value>
+        <value>co</value>
+        <value>%REPLACE_ME%</value>
+        <value>PA6</value>
+        <value>o</value>
+        <value>%REPLACE_ME%</value>
+        <value>PA7</value>
+        <value>employeeNumber</value>
+        <value>%REPLACE_ME%</value>
+        <value>PA8</value>
+        <value>physicalDeliveryOfficeName</value>
+        <value>%REPLACE_ME%</value>
+        <value>PA9</value>
+        <value>mail</value>
+        <value>%REPLACE_ME%</value>
+        <value>PA10</value>
+        <value>telephoneNumber</value>
+        <value>%REPLACE_ME%</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

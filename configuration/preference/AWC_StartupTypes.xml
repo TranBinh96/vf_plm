@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_StartupTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of types to be loaded at startup by the Active Workspace client from the Teamcenter server.
+Each entry in the list is a valid Business Object real name name.</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0FullTextSavedSearch</value>
+        <value>Awp0GatewayTileRel</value>
+        <value>Awp0Tile</value>
+        <value>Awp0TileCollection</value>
+        <value>Awp0TileProxy</value>
+        <value>Awp0TileTemplate</value>
+        <value>Awp0XRTObjectSet</value>
+        <value>Awp0XRTObjectSetColumn</value>
+        <value>Awp0XRTObjectSetRow</value>
+        <value>Dataset</value>
+        <value>DirectModel</value>
+        <value>Document</value>
+        <value>DocumentRevision</value>
+        <value>EPMTask</value>
+        <value>FND_TraceLinkCreI</value>
+        <value>Fnd0ClientScope</value>
+        <value>Fnd0Command</value>
+        <value>Fnd0CommandCollection</value>
+        <value>Fnd0ConditionHelper</value>
+        <value>Fnd0HomeFolder</value>
+        <value>Fnd0Icon</value>
+        <value>Fnd0UIConfigCollectionRel</value>
+        <value>Folder</value>
+        <value>Group</value>
+        <value>GroupMember</value>
+        <value>ImanFile</value>
+        <value>ImanType</value>
+        <value>ImanVolume</value>
+        <value>Item</value>
+        <value>ItemRevision Master</value>
+        <value>ItemRevision</value>
+        <value>Mail Folder</value>
+        <value>MISC</value>
+        <value>MSWordX</value>
+        <value>Newstuff Folder</value>
+        <value>POM_application_object</value>
+        <value>POM_imc</value>
+        <value>ReleaseStatus</value>
+        <value>RevisionRule</value>
+        <value>Role</value>
+        <value>Signoff</value>
+        <value>Text</value>
+        <value>UGMASTER</value>
+        <value>User</value>
+        <value>UserSession</value>
+        <value>WorkspaceObject</value>
+        <value>Awb0AutoBookmark</value>
+        <value>Awb0DesignElement</value>
+        <value>Awb0FeatureList</value>
+        <value>Awb0ProductContextInfo</value>
+        <value>Awb0Element</value>
+        <value>Awb0PositionedElement</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_DefaultCreateTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Define the types to be displayed in the &quot;Create&quot; dialog in the Active Workspace Client (AWC).
+Valid values are types internal names.
+All subtypes associated to a provided type will also be displayed.</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+        <value>Folder</value>
+        <value>CompanyContact</value>
+        <value>CompanyLocation</value>
+        <value>Mat1Substance</value>
+        <value>Sci0Norm</value>
+        <value>Qam0QualityAction</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

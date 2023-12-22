@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+//File Name: Vm1PartnerContractCreate
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Partner Contract creation. -->
+<rendering>
+    <page titleKey="tc_xrt_PartnerContract">
+        <section titleKey="tc_xrt_properties">
+            <property name="item_id"/>
+            <property name="revision:item_revision_id"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="revision:vm0ContractStartDate"/>
+            <property name="revision:vm0ContractEndDate"/>
+        </section>
+    </page>
+</rendering>

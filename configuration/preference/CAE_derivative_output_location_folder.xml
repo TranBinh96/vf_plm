@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_derivative_output_location_folder" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the default folder location to put the output objects created by CAE Derivative Rules.
+The Valid Values:
+* &quot;Newstuff&quot;: the output objects will be pasted in the user&apos;s&quot;Newstuff&quot; folder. This is the default value.
+* The UID of an alternative folder: To identify an alternative folder, use the rich client user interface through the Edit/Options panel.</preference_description>
+      <context name="Teamcenter">
+        <value>Newstuff</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

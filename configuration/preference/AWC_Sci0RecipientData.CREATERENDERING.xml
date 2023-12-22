@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Substance Compliance IMDS Integration">
+    <category_description>Substance Compliance IMDS Integration Active Workspace preferences</category_description>
+    
+               <preference name="AWC_Sci0RecipientData.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Registers create stylesheet for IMDS Recipient Data (Sci0RecipientData) objects in the Active Workspace client.</preference_description>
+      <context name="Teamcenter">
+        <value>Sci0RecipientDataCreate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

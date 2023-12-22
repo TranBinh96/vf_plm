@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ETS_released_status_type_names" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies which released status types are copied from an item revision to a visualization dataset. The status type names are used to filter the setting of the released date and released status for visualization datasets. When an item revision&apos;s released status type matches a status type defined in this preference, the released date and released status are copied to the visualization dataset.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid status type name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

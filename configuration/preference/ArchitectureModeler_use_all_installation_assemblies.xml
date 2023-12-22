@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ArchitectureModeler_use_all_installation_assemblies" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the system stops at the first installation assembly found, or continues walking up the tree, searching for additional installation assemblies.
+Valid Values:
+TRUE - System continues searching for additional installation assemblies.
+FALSE - System does not continue searching for additional installation assemblies.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

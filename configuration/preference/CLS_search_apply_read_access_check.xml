@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CLS_search_apply_read_access_check" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether to include the &apos;read only&apos; objects during a Classification object search.
+Valid values are:
+* true: only objects for which the user has read access, are returned by the Classification search.
+* false: all objects matching the search criteria are returned, without taking read access status into account. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

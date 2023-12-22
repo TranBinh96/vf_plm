@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="typeAndRuleForProcessConfiguration" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Configures process or compositions in the bill of process. This preference specifies what parent types in the process should be configured out depending on child occurrences of controlling types
+as defined by the controllingOccsForProcessConfiguration preference.You can also use this preference to configure out processes based on child relationships. If you do this, the controllingOccsForProcessConfiguration preference is ignored.
+Valid Values:
+parent-item-subtype - Specifies the item, operation, or process subtype as defined in the Business Modeler IDE application. This value is case-sensitive and must exactly match the business object specified in Business Modeler IDE. The second string after the colon must be one of the following:OneThe parent is configured 
+out if any one of its controlling occurrences is configured out.AllThe parent is configured out only if all its controlling occurrences are configured out.AllLoadedThe parent is configured out only if all its loaded controlling occurrences are configured out. Loaded occurrences are occurrences that are referenced from another 
+top line that is defined as the configuring structure.This parameter is not relevant for defining child types.OneLoadedThe parent process is configured out if one of its loaded controlling occurrences are configured out.This parameter is not relevant for defining child types.
+OCCType:occurrence-type | CHILD:child-type - Specifies that the filtering is based on the designated occurrence types or the designated child types. You can enter multiple occurrence types or multiple child types separated by a comma. Specifying this optional group of values for the preference causes the configuration mechanism
+to ignore the value of the controllingOccsForProcessConfiguration preference.</preference_description>
+      <context name="Teamcenter">
+        <value>MEOP:One</value>
+        <value>MENCMachining:One</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

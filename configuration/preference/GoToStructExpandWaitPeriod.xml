@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="GoToStructExpandWaitPeriod" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the number of seconds to wait for the complete load of a structure (when the &quot;Go To Object&quot; operation is invoked from Trace Report), before highlighting the selected line.
+If the structure is not fully loaded after this time interval and the line is not loaded, then it cannot and will not be highlighted.</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

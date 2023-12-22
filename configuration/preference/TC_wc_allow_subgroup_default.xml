@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_wc_allow_subgroup_default" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default setting for the Subgroup Members Allowed checkbox in the New Work Context dialog window.This option determines whether sub-group members of the selected group are allowed to perform a task.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

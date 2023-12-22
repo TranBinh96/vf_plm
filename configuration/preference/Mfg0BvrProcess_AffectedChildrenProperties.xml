@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mfg0BvrProcess_AffectedChildrenProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of properties on a process object that are affected if children are added or removed.This preference is used for internal purposes only. Do not change the value of this preference.
+Valid Values:
+Accepts one or more strings as values, each string must be a valid Teamcenter property.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>owning_user</value>
+        <value>object_desc</value>
+        <value>fnd0topline</value>
+        <value>fnd0scopeNames</value>
+        <value>revision_rule</value>
+        <value>variant_rule</value>
+        <value>fnd0EffectvtyGrpList</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

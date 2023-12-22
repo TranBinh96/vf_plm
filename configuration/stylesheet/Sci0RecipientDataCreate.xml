@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Sci0RecipientDataCreate.xml
+
+Default activeworkspace stylesheet for Recipient Data create.
+-->
+<rendering>
+  <page>
+    <section>
+      <property name="sci0OrganizationUnit" />
+      <property name="sci0PartNumber" />
+      <property name="sci0BillOfDeliveryNumber" />
+      <property name="sci0DrawingDate" />
+      <property name="sci0DrawingNumber"/>
+      <property name="sci0DrawingChangeLevel" />
+      <property name="sci0PurchaseOrderNumber" />
+      <property name="sci0ReportDate" />
+      <property name="sci0ReportNumber" />
+      <property name="sci0SupplierCode" />
+      <property name="sci0IsForwardingAllowed" />
+  </section>
+  </page>
+</rendering>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AI_ignore_ic_flag_setting" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is the list of AI (AppInterface) types for which the IC flag setting will be ignored. If an IC is active when SendDataTo menu is used - the resulting AI will have the IC captured.</preference_description>
+      <context name="Teamcenter">
+        <value>Process Simulate</value>
+        <value>Process_Simulate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

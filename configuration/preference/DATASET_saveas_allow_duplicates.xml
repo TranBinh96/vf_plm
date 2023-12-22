@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DATASET_saveas_allow_duplicates" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Affects the behavior of the Teamcenter Integration for NX SaveAs Non-Master Part File dialog box as determined by the implementation of the USER_copied_datasets_details user exit. This preference is only read by this user exit.
+To access the Integration Toolkit Function Reference, install the Teamcenter developer references when you install Teamcenter online help, or go to the Global Technical Access Center (GTAC): 
+https://support.industrysoftware.automation.siemens.com/docs/teamcenter/
+Determines whether duplicate dataset names are allowed for the same item revision.
+Valid Values:
+Yes - Duplicate dataset names are allowed for the same item revision.
+No - Duplicate dataset names are not allowed for the same item revision.</preference_description>
+      <context name="Teamcenter">
+        <value>No</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

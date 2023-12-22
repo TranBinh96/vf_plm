@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Context Definition">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextECObject.WorkPartProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies a list of change object relationship properties for finding associated work parts when a user adds or selects a new change object. Work parts are the components the user intends to modify or to be the focus of a design session. The list should specify all properties referencing related work parts that are to be added or selected in the Work Parts list.
+Valid Values:
+Any property on the change object specified in the PortalDesignContextECObject.TYPE preference, typically, relationships available as properties. The relationships specified on this preference are often the same as the properties specified on the PortalDesignContextECObject.WorkPartRelationships preference. However, this is not the case if you use the standard Change Viewer.For new change (Change Manager) objects, possible values are:
+CMHasSolutionItem
+CMHasProblemItem
+CMHasImpactedItem
+CMReferences
+CMImplementedBy
+CMImplements
+CMHasWorkBreakdown
+For classic change objects, possible values are:
+solution_items
+problem_items
+affected_items
+reference_items
+addressed_by</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasSolutionItem</value>
+        <value>CMHasProblemItem</value>
+        <value>CMHasImpactedItem</value>
+        <value>CMReferences</value>
+        <value>CMImplementedBy</value>
+        <value>CMImplements</value>
+        <value>CMHasWorkBreakdown</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

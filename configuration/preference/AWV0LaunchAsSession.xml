@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWV0LaunchAsSession" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>When sharing Session data between Active Workspace and Teamcenter Visualization by launching Fnd0AppSession objects from Active Workspace to Teamcenter Visualization, set this preference True.  This passes the Fnd0AppSession object to Teamcenter Visualization.  If the preference is set to False, only the Configured Assembly information is sent to TcVis.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWS_cls_attribute_interchangeability_definition" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the interchangeability between classification attributes. 
+For example consider attributes with attribute IDs 1000 and 1001 are to be defined as interchangeable.
+The values should be specified as below -
+1000:1001
+1001:1000
+Multiple attributes to be defined as interchangeable need to provided in comma-separated format - 
+1010:1005,2005</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

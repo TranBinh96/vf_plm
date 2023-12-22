@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_use_view_attributes_when_moving_icos" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which attribute values are set when an classification object (ICO) is moved to a different class. Use this site preference to set only the attribute values visible to the user, or to set all attribute values, during ICO moves. Moving classes in Classification is similar to copying classes, but is performed via drag-and-drop from the Classification hierarchy tree. A user can move classes when the class is not shared, he has read access to all children of the class, and the new parent class is locally owned.
+Valid Values:
+true - Only attribute values which the current user can see in his view are set when an ICO is moved to a different class.
+false - All attribute values are set when an ICO is moved to a different class.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

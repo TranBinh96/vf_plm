@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDCPortfolioShownColumnWidthsPref" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the widths of the shown columns in IDC Portfolio tree table.</preference_description>
+      <context name="Teamcenter">
+        <value>50</value>
+        <value>40</value>
+        <value>40</value>
+        <value>30</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

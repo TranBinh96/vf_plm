@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configurator Services">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0EnableGlobalStalnessCheck" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables or disables global staleness check query for configurator objects.
+Default value for this preference will be false.
+The Valid Values:
+-true: Enables global staleness check query
+-false:Disables global staleness check query</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

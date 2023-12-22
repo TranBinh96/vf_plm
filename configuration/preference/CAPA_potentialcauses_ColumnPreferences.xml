@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_potentialcauses_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains list of column names shown on Related Cause tab</preference_description>
+      <context name="Teamcenter">
+        <value>object_desc</value>
+        <value>c2_Category</value>
+        <value>c2_IsRootCause</value>
+        <value>creation_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

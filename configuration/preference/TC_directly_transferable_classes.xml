@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_directly_transferable_classes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Prevents any attachment of a replicated item from being transferred independent of the item. This prevent users replicating items containing attachments, then remote importing the attachments with a transfer of ownerships which prevents other users from further replicating the item because ownership of the item is no longer consistent. This situation can also cause synchronization problems.To prevent direct transfer of ownership of all classes of objects except items and item revisions, set this preference to Item. To enable direct transfer of other classes, such as Folder, add the Folder class as a value.
+Valid Values:
+Accepts one or more strings as values; each string must be a valid Teamcenter object class.</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+        <value>ItemRevision</value>
+        <value>Dataset</value>
+        <value>Folder</value>
+        <value>Form</value>
+        <value>PSBOMView</value>
+        <value>PSBOMViewRevision</value>
+        <value>EPMTaskTemplate</value>
+        <value>Fnd0AppSession</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

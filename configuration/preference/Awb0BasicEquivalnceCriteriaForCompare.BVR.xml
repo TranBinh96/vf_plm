@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="Awb0BasicEquivalnceCriteriaForCompare.BVR" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines basic equivalence criterias to use for comparing two structures.
+These criteria will be used for comparison, only if those are in the valid criteria list returned from
+COLLABCTX_getAllValidCriteriaNames for a given input structures.</preference_description>
+      <context name="Teamcenter">
+        <value>AC_IDIC_BOMBOM</value>
+        <value>AC_APN</value>
+        <value>AC_MFG_SELF_CMP_Criteria</value>
+        <value>AC_DYNAMIC_IDIC</value>
+        <value>AC_PUBLISHLINK</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

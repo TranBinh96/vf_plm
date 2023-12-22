@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_hideshow_option_on_import" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Manage Hide/Show assembly attributes outside the scene during the import process (True)
+Do Not manage Hide/Show assembly attributes outside the scene during the import process (False)</preference_description>
+      <context name="Teamcenter">
+        <value>False</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

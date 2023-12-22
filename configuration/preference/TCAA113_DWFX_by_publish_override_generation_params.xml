@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA113_DWFX_by_publish_override_generation_params" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Drives the behavior about page setup settings used to generate DWFx files via PUBLISH command.
+This option is taken into consideration only if TCAA113_DWFX_generation_mode is set to 1.
+Possible values:
+0 - keep current page setup settings (Default)
+1 - leave TCAA to force its own page setup settings:  plot is centered, scaled to fit to paper and the plot area is set to extents.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

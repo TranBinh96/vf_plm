@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2014 UGS Corporation
+Unpublished - All Rights Reserved.
+===============================================================================
+
+Filename: Scp0VendorSummary.xml
+Rajendra Yadav 2014-10-11
+
+Style sheet for displaying Vendor summary.
+
+-->
+<rendering xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source = "type"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "release_status_list" renderingHint = "label"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title = "Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title = "Properties">
+                <separator/>
+                <property name = "object_name"/>
+                <property name = "object_desc"/>
+                <property name = "release_status_list" renderingHint = "label"/>
+                <property name = "supplier_addr"/>
+                <property name = "contact_name"/>
+                <property name = "supplier_phone"/>
+                <property name = "web_site"/>
+                <property name = "email_addr"/>
+                <separator/>
+                <command commandId = "com.teamcenter.rac.properties" titleKey = "tc_xrt_moreProperties"/>
+            </section>
+            <section titleKey = "tc_xrt_Locations" title = "Locations">
+                <objectSet source = "LocationInCompany.CompanyLocation" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_name"/>
+                        <property name = "street"/>
+                        <property name = "city"/>
+                        <property name = "state_province"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                </objectSet>
+            </section>
+            <section titleKey = "tc_xrt_Contacts" title = "Contacts">
+                <objectSet source = "ContactInCompany.CompanyContact" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "first_name"/>
+                        <property name = "last_name"/>
+                        <property name = "phone_business"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                </objectSet>
+            </section>
+            <section titleKey = "tc_xrt_MSDContacts" title = "Material Substance Declaration Contacts">
+                <objectSet source = "Scp0MSDContactInCompany.CompanyContact" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "first_name"/>
+                        <property name = "last_name"/>
+                        <property name = "phone_business"/>
+                        <property name = "email_address"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                </objectSet>
+            </section>
+            <section titleKey = "tc_xrt_CMDContacts" title = "Conflict Mineral Declaration Contacts">
+                <objectSet source = "Scp0CMDContactInCompany.CompanyContact" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "first_name"/>
+                        <property name = "last_name"/>
+                        <property name = "phone_business"/>
+                        <property name = "email_address"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                </objectSet>
+            </section>
+        </column>
+        <column>
+            <section titleKey = "tc_xrt_Ownership" title = "Ownership">
+                <separator/>
+                <property name = "owning_user" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "owning_group" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "last_mod_user"/>
+                <separator/>
+                <property name = "checked_out"/>
+                <property name = "checked_out_user"/>
+            </section>
+            <section titleKey="tc_xrt_ClassificationProperties" title = "Classification Properties">
+                <classificationProperties/>
+            </section>
+            <section titleKey="tc_xrt_Preview">
+                <image source="preview"/>
+            </section>
+            <section titleKey = "tc_xrt_actions">
+                <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy"/>
+                <command actionKey = "saveAsAction" commandId = "org.eclipse.ui.file.saveAs"/>
+                <command actionKey = "newProcessAction" commandId = "com.teamcenter.rac.newProcess" titleKey = "tc_xrt_newProc"/>
+            </section>
+        </column>
+    </page>
+    <page titleKey = "tc_xrt_CMDInformation" title = "Conflict Mineral Information">
+        <column>
+            <section titleKey="tc_xrt_CMDInformation" title = "Conflict Mineral Information">
+                <property name = "scp0CMDStatusMessage"/>
+                <command actionKey = "requestCMDAction" commandId = "com.teamcenter.rac.subscmpl.commands.requestcmd" renderingHint = "commandbutton"/>
+            </section>
+            <section titleKey= "tc_xrt_Smelters" title = "Smelters">
+                <objectSet source = "Scp0VendorToSmelterRel.Scp0Smelter" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "scp0Identity"/>
+                        <property name = "scp0Metal"/>
+                        <property name = "scp0IsKnown"/>
+                        <property name = "scp0IsCertifiedSmelter"/>
+                        <property name = "scp0SmelterLocation"/>
+                        <property name = "scp0NoUse"/>
+                        <property name = "owning_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "scp0Identity"/>
+                        <property name = "scp0Metal"/>
+                        <property name = "scp0IsKnown"/>
+                        <property name = "scp0IsCertifiedSmelter"/>
+                        <property name = "scp0SmelterLocation"/>
+                        <property name = "scp0NoUse"/>
+                        <property name = "owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <page titleKey = "tc_xrt_SupplierDocs" title = "Supplier Documents">
+        <column>
+            <section titleKey = "tc_xrt_Scp0SupplierDeclsCMD" title = "Conflict Mineral Declaration Documents from Suppliers">
+                <objectSet source = "scp0DeclarationDocs.Scp0CMDDeclRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "descending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "scp0ArchivealStatus"/>
+                        <property name = "scp0ApprovalDate"/>
+                        <property name = "scp0ExpiryDate"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                        <property name = "owning_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "scp0ArchivealStatus"/>
+                        <property name = "scp0ApprovalDate"/>
+                        <property name = "scp0ExpiryDate"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                        <property name = "owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+            <section titleKey = "tc_xrt_Scp0SupplierSupportDocsCMD" title = "Conflict Mineral Supporting Documents from Suppliers">
+                <objectSet source = "scp0DeclarationDocs.Scp0CMDDocRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "descending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "scp0ArchivealStatus"/>
+                        <property name = "scp0ApprovalDate"/>
+                        <property name = "scp0ExpiryDate"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                        <property name = "owning_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "scp0ArchivealStatus"/>
+                        <property name = "scp0ApprovalDate"/>
+                        <property name = "scp0ExpiryDate"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                        <property name = "owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <page titleKey="tc_xrt_attachments" title = "Attachments">
+        <section titleKey="tc_xrt_QualityDocuments" title = "Quality Documents">
+            <objectSet source = "TC_Quality_Document.Document" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "last_mod_date"/>
+                    <property name = "last_mod_user"/>
+                    <property name = "checked_out_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "last_mod_date"/>
+                    <property name = "last_mod_user"/>
+                    <property name = "checked_out_user"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_History" title = "History">
+        <section titleKey="tc_xrt_History" title = "History">
+            <objectSet source = "revision_list.ItemRevision" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_Parts" title = "Parts">
+        <column>
+            <section titleKey="tc_xrt_VendorParts" title = "Vendor Parts">
+                <objectSet source = "vendorparts.ManufacturerPart" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "last_mod_date">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "vendor_part_num"/>
+                        <property name = "object_name"/>
+                        <property name = "commercialparts"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "vendor_part_num"/>
+                        <property name = "object_name"/>
+                        <property name = "commercialparts"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+            <section titleKey="tc_xrt_CommercialParts" title = "Commercial Parts">
+                <objectSet source = "commercialparts.ItemRevision" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "last_mod_date">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_type"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                        <property name = "owning_user"/>
+                        <property name = "owning_group"/>
+                        <property name = "last_mod_date"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_type"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                        <property name = "owning_user"/>
+                        <property name = "owning_group"/>
+                        <property name = "last_mod_date"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+        <objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="lis0site"/>
+                <property name="lis0serviceProvider"/>
+                <property name="relation"/>
+                <property name="last_mod_date"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out_user"/>
+            </tableDisplay>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+            <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </page>
+<!--
+    <page title = "Trace Links *" visibleWhen = "has_trace_link==Y">
+        <section titleKey = "tc_xrt_Defining Objects" title = "Defining Objects">
+            <objectSet sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay" source = "uie3DEF_TraceLink_list.WorkspaceObject">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_Complying Objects" title = "Complying Objects">
+            <objectSet sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay" source = "FND_TraceLink.WorkspaceObject">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <separator/>
+        <command commandId = "com.teamcenter.rac.traceabilityReport" title = "Traceability Report"/>
+    </page>
+-->
+</rendering>

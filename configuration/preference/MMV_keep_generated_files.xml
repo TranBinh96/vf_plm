@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Massive Model Visualization">
+    <category_description>Active Workspace Massive Model Visualization preferences</category_description>
+    
+               <preference name="MMV_keep_generated_files" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>With this preference it is possible to preserve the generated files for further examination in case if any error observed during complete file generation on tcserver. This preference can have one of below  3 values
+1. on_error - Keep the generated files if error is occurred.
+2. always - Always keep the generated files.
+3. never - Default value. Never keep generated files.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

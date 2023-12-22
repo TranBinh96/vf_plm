@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Gateway Foundation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="T4X_Property2IgnoreList4TC_Project" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Generic black-list for TC_Project</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0LibraryForProject</value>
+        <value>IMAN_based_on</value>
+        <value>TC_Program_Preferred_Items</value>
+        <value>acl_bits</value>
+        <value>am_tree</value>
+        <value>archive_date</value>
+        <value>archive_info</value>
+        <value>backup_date</value>
+        <value>creation_date</value>
+        <value>fnd0objectId</value>
+        <value>is_active</value>
+        <value>is_visible</value>
+        <value>last_mod_date</value>
+        <value>last_mod_user</value>
+        <value>lsd</value>
+        <value>object_desc</value>
+        <value>object_name</value>
+        <value>object_properties</value>
+        <value>object_string</value>
+        <value>owning_group</value>
+        <value>owning_site</value>
+        <value>owning_user</value>
+        <value>pid</value>
+        <value>project_data</value>
+        <value>project_desc</value>
+        <value>project_id</value>
+        <value>project_name</value>
+        <value>project_team</value>
+        <value>timestamp</value>
+        <value>use_program_security</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

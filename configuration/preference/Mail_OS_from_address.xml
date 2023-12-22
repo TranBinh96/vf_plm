@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Mail Gateway">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mail_OS_from_address" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines a &quot;From&quot; e-mail address for OS notification e-mails.
+Valid vallues are:
+* a valid email address: this value appears in the e-mail header &quot;From&quot; line.
+* an empty value: the &quot;From&quot; email address is taken from the sender&apos;s Person definition. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>vf.plm.notification@vinfast.vn</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

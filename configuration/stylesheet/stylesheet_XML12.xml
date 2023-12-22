@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Item.xml
+
+    Style sheet rendering for Item properties.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <property name="object_string" column="32"/>
+            <separator/>
+            <property name="object_name" column="32"/>
+            <property name="object_desc" />
+            <separator/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+            <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+            <property name="last_mod_user" />
+        </column>
+        <column>
+            <image/>
+        </column>
+    </page>
+
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="tc_xrt_Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+	
+	<page title="Additional Information" titleKey="tc_xrt_Add">
+        <property name="vl5_material_type"/>
+		<property name="vf4_q_checker"/>
+		<property name="vf4_long_short_lead"/>
+		<property name="vl5_make_buy"/>
+		<property name="vf4_sor_number_rev"/> 
+		<property name="vf4_sor_name"/> 
+		<property name="vf4_sor_rel_date"/> 
+		<property name="vf4_donor_veh"/>
+		<property name="vf4_cuv_veh_type"/>
+		<property name="vf4_ebus_veh_type"/>
+		<property name="vf4_cuv_mule_veh_type"/>
+		<property name="vf4_multi_purchase_veh_type"/>
+		<property name="vf4_supplier_type"/>
+		<property name="vf4_measured_weight"/>
+		<property name="vf4_estimated_weight"/>
+		<property name="vf4_catia_weight"/>
+		<property name="vf4_forecast_date_SOB"/>
+		<property name="vl5_colored_part"/>
+		<property name="vf4_tgss_doc_number"/>
+    </page>
+	
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

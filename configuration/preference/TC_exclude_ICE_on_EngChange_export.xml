@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_exclude_ICE_on_EngChange_export" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>When export EngChange Revision, the preference decides if IncrementalChangeElement should be exported with it or not.
+Valid Values:
+- true: Exlcude IncrementalChangeElement to be exported with EngChange Revision.
+- false: Export all IncrementalChangeElement with EngChange Revision.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

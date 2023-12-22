@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_task_assignee_dynamic_participant_sync" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls synchronization between a Task Assignee and Dynamic Participants of a Task&apos;s target object. When such synchronization is enabled, task reassignment will result in the reassignment of Dynamic Participants of the Task&apos;s target object, and vice versa. This synchronization behavior is possible only when the initial task assignment is based on a Dynamic Participant of the Task&apos;s target object.
+Valid Values:
+* true: Task assignments are synchronized with assignment of Dynamic Participants on the Task&apos;s target object. This is the default value.
+* false: Task assignments are not synchronized with assignment of Dynamic Participants on the Task&apos;s target object.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

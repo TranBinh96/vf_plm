@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMDefaultItemType" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Item type selected as default in the &quot;New Resource&quot; dialog in the Resource Manager application, in case no resource is opened and the preference &quot;MRMItemTypes&quot; is not defined.
+Values must be a valid Item type.
+The default value is &quot;Mfg0MENCTool&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Mfg0MENCTool</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

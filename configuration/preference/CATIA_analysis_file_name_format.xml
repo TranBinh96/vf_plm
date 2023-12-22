@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_analysis_file_name_format" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>File name creation pattern for analysis
+Possible values :
+{0} - item id
+{1} - item rev id
+{2} - item rev name
+{3} - item type
+{4} - item rev description
+{5} - dataset name
+{6} - dataset type
+{7} - dataset description
+{8} - link type
+{9} - dataset uid</preference_description>
+      <context name="Teamcenter">
+        <value>{0}_{1}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_pre_import_script" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Automatically decompresses export data using the standard_post_export_script.pl when a user performs an import operation using any of the following methods:Files-&gt;Import-&gt;Objects commanditem_export utilityCustomized ITK program that exports objects via OBJIO functionsIf this preference is not defined, no decompression occurs.This script does not apply during remote import, which employs a different compression/decompression method.
+Valid Values:
+Complete path name of script. If only the script name is given, the script is assumed to be stored in the TC_BIN directory.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

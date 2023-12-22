@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for special Document creation (#1). -->
+<rendering>
+   <page title="General" titleKey="tc_xrt_General">
+      <section title="Document Information" titleKey="tc_xrt_ItemInformation">
+         <property name="item_id" renderingHint="textfield" modifiable="false" />
+         <!-- property name="revision:item_revision_id" modifiable="false" /-->
+         <property name="object_name"/>
+         <inject type="dataset" src="Ads1ADSTechDocumentCreate"/>
+         <property name="fnd0IdGenerator:vf3_module_level1" />
+         <property name="revision:vf3_module_level2"/>
+         <property name="revision:vf3_keyword"/>
+         <property name="revision:vf3_note"/>
+         <property name="revision:vf3_referenceNumber"/>
+
+         <inject type="dataset" src="Cm1ChangeContextProviderForCreate"/>
+      </section>
+   </page>
+</rendering>
+
+<!-- VINES standard document -->

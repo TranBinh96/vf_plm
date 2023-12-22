@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VF4_Eda_schemRevision_PseudoFolder" type="String" array="true"
+      disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <!-- <value>VF4_bom_link</value> bom link của a trường kb dùng làm gì nên để ẩn-->
+        <value>EDAHasDerivedDataset</value>
+        <value>PR4D_cad</value>
+        <value>IMAN_reference</value>
+        <value>release_status_list</value>
+        <value>IMAN_specification</value>
+        <!-- <value>view</value> -->
+        <!-- <value>VF4_implemented_pcb</value> implementpcb của a trường kb dùng làm gì nên để ẩn -->
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

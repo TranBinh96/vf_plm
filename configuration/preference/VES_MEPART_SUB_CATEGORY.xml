@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VES_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VES_MEPART_SUB_CATEGORY" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VES ME Part</preference_description>
+      <context name="Teamcenter">
+        <value>ANO=Semi Anode</value>
+        <value>ASS=Assembly</value>
+        <value>BLN=Blank</value>
+        <value>CAT=Semi Cathode</value>
+        <value>COI=Coil Part</value>
+        <value>CON=Direct Consumables</value>
+        <value>DCT=Casting</value>
+        <value>FAB=Fabric, Carpet, Chute</value>
+        <value>FOR=Formation</value>
+        <value>INP=Integrated Part</value>
+        <value>LEA=Leather</value>
+        <value>MAC=Machining</value>
+        <value>PLA=Plastic</value>
+        <value>PVC=PVC</value>
+        <value>RAW=Raw Material</value>
+        <value>REC=Recycle</value>
+        <value>SUB=Others</value>
+        <value>THR=Thread</value>
+        <value>TPU=Polyurethane</value>
+        <value>TUB=Tube</value>
+        <value>TWB=Tailor Welded Blank</value>
+        <value>VAS=VF Auto Shuttle</value>
+        <value>WAS=Washing</value>
+        <value>WRE=Wire</value>
+        <value>WST=Waste</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

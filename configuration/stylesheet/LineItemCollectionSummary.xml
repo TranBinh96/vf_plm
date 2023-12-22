@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2013 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: LineItemCollectionSummary.xml
+
+New style sheet for displaying item Design Exchange Revision Summary 
+Rohit Pandey 2013-10-10
+===============================================================================
+-->
+<rendering>
+    <header>
+        <image source = "thumbnail"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name = "object_name"/>
+                <property name = "object_desc"/>              
+                <separator/>
+                <property name = "sc0ChangeItem"/>
+                <separator/>
+                <command titleKey = "tc_xrt_moreProperties" commandId = "com.teamcenter.rac.properties"/>
+            </section>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                <command commandId = "com.teamcenter.rac.openLineItemCollectionView"/>
+                <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy"/>
+                <command actionKey = "reviseAction" commandId = "com.teamcenter.rac.revise"/>
+                <command actionKey = "saveAsAction" commandId = "org.eclipse.ui.file.saveAs"/>                
+            </section>
+        </column>
+    </page>
+    <page title = "Items" titleKey="tc_xrt_items">
+        <section titleKey = "tc_xrt_items" title = "Items">
+            <objectSet source = "sc0LineItems.BidPackageLineItem" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_name"/>
+                    <property name = "part"/>
+                    <property name = "sc0SplitLocationName"/>
+                    <property name = "sc0SplitProgramName"/>
+                    <property name = "sc0Category"/>
+                    <property name = "sc0AllowCostBreakDown"/>
+                    <property name = "sc0ExchangeObjectRef"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

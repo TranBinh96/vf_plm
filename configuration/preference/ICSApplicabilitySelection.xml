@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICSApplicabilitySelection" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether the Classification attributes are &quot;Highlighted&quot; or &quot;Filtered&quot; in Classification and Resource Manager when the applicability buttons are activated.
+The default value is &quot;Highlighted&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Highlighted</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

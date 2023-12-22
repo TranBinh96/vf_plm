@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2010. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: DC_SkdDMRevisionSaveAs.xml  
+   
+     Default style sheet for displaying DC_SkdDMRevision Save As 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+10/14/10     mierwald                Initial Version 
+======================================================================= 
+@<DEL>@  
+--> 
+<rendering>
+
+   <page title=" ">
+         <column>
+            <property name="item_revision_id" renderingHint="textfield" /> 
+            <property name="DocumentTitle" renderingHint="textfield" />
+
+             <section titleKey="tc_xrt_DataModuleCode">
+                <property name="skdmodelic" />
+                <property name="skdsdc" />
+                <property name="skdchapnum" />
+                <property name="skdsection" />
+                <property name="skdsubsection" />
+                <property name="skdsubject" />
+                <property name="skddiscode" />
+                <property name="skddiscodev" />
+                <property name="skdincode" />
+                <property name="skdincodev" />
+                <property name="skditemloc" />
+                <property name="skdsupeqvc" />
+                <property name="skdecscs" />
+                <property name="skdeidc" />
+                <property name="skdcidc" />
+                <property name="c1k0dmecode" />
+                <property name="c1k0dmeproducer" />
+             </section>                         
+             <property name="skdexportfilename" />
+             <property name="isTemplate" />
+             <property name="referenceOnly"  />        
+         </column>
+         <column>
+             <property name="skdtechname" />
+             <property name="skdinfoname" />
+             <section titleKey="tc_xrt_IssueDetails">
+                <property name="skdissno" />
+                <property name="skdiss_type" />
+                <property name="skdissdate_day" />
+                <property name="skdissdate_month" />
+                <property name="skdissdate_year" />
+             </section>
+             <section titleKey="tc_xrt_OtherDataModuleDetails">
+                <property name="skdsecurity_class" />
+                <property name="skdrpc" />
+                <property name="skdorig" />
+                <property name="skdapplic_model" />
+                <property name="skdapplic_type" />
+                <property name="skdqa" />
+                <property name="skdsbc" />
+                <property name="skdskill" />
+                <property name="skdrfu" />
+                <property name="skdremarks" />
+                <property name="skdlevel" />
+             </section>
+
+         </column>
+   </page>
+   
+</rendering>
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Notification_Timeout" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the notifications and error message popup time-out (in seconds).
+For any strictly positive value, notifications and error message popup windows automatically close after the specified time.
+If the value is zero or negative, there is no time-out, and the user needs close the popup window manually.
+The default timeout is 6 seconds.</preference_description>
+      <context name="Teamcenter">
+        <value>6</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

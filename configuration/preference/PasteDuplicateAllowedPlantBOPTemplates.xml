@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PasteDuplicateAllowedPlantBOPTemplates" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of cloning rules names to be used when pasting duplicate objects (clones) between different types of plant bills of process.
+Valid Values:
+Accepts the names of cloning rules in the format SourceContextType.TargetContextType.RuleName where:
+SourceContextTypeSpecifies the root object type of the source structure.TargetContextTypeSpecifies the root object type of the target structure.RuleNameSpecifies the name of the cloning rule used.</preference_description>
+      <context name="Teamcenter">
+        <value>MEGenericBOP.Mfg0MEPlantBOP.PasteDuplicateTemplate</value>
+        <value>MEProductBOP.Mfg0MEPlantBOP.PasteDuplicateTemplate</value>
+        <value>Mfg0MEPlantBOP.Mfg0MEPlantBOP.PasteDuplicateTemplate</value>
+        <value>MEProcess.Mfg0MEPlantBOP.PasteDuplicateTemplate</value>
+        <value>MEOP.Mfg0MEPlantBOP.PasteDuplicateTemplate</value>
+        <value>ItemRevision.Item.PasteDuplicateTemplate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

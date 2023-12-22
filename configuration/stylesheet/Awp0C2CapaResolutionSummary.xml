@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2003-2005 UGS Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Awp0Web_LinkSummary.xml
+
+
+17/March/2016 	  Sprint44 Release Adding localization on the labels
+-->
+<rendering>
+    <header>
+        <image source = "thumbnail"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_properties">             
+                <property name = "object_name"/>
+                <property name = "object_desc"/>
+                <property name = "c2_Type"/>
+				<property name = "c2_ImplementationDate"/>
+                <property name = "object_type"/>                
+                <break/>
+                <property name = "owning_user" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "owning_group" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "last_mod_user"/>
+                <property name = "checked_out" renderingHint = "label"/>
+                <property name = "checked_out_user"/>
+                <command commandId = "com.teamcenter.rac.properties" text = "moreProperties"/>
+            </section>  
+        </column>
+        <column>
+            <section titleKey="tc_xrt_Preview">
+                <image source = "thumbnail"/>
+            </section>
+            <view name = "actions">
+                <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy"/>
+            </view>
+        </column>
+    </page>
+</rendering>

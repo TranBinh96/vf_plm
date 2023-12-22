@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VF_SOURCING_PROGRAM_2_VALIDATE" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>VF_SOURCING_PROGRAM_2_VALIDATE</preference_description>
+      <context name="Teamcenter">
+         <value>COP_CUV==CUV</value>
+         <value>CUV==VFe35/VF35;</value>
+         <value>BatteryCar==BP VFe34;BP VFe35/VF35;BP VFe36/VF36;BP VFe32;BP VFe33;BP LFP Escooter;ESS;BP EScooter;BP Golf cart;BP Escooter KLN;BP Escooter 12V;BP Escooter 48V;BP Escooter 72V;BP ESS PowerWall</value>
+         <value>EScooter==Escooter;V5 CITY LFP;V5 LITE LFP;V7 SPORT LFP;V9 SPORT LFP;VF New;Emotor Scooter;NB1;NC1;VF NEW GSM;VF NEW 2024;V5 LITE LFP 2024;VK CITY; VK SPORT;V5 CITY</value>
+         <value>DSUV==VFe36/VF36;Emotor;VFe32;3IN1;VFe34S;VFe34;VFe33;VF3</value>
+         <value>EBUS==EBUS10;EBUS12</value>
+         <value>AFS==AFS VFe34;AFS VFe35;AFS VFe36;AFS VFe32;AFS VFe33;AFS VFe34S;AFS EBUS;AFS EBUS12</value>
+         <value>AFSEScooter==AFS EScooter;AFS EBIKE</value>
+         <value>AFSMagna==AF S&amp;S;AFS V8</value>
+         <value>Cell==Cell Gen 1/1.5;Cell Gen 2;Cell Gen 6;Cell Gen PT_Cylindrical;Cell Gen 1.7;Cell Gen 1.6;Cell Gen 5.1_Prismatic;Cell Gen 5.2_Prismatic;ESS 20 FT;ESS 20 FT 1500V</value>
+         <value>EEComponent==CPDU;IPDU;Portable Charger;Home Charger;MCU;SCU;DCDC;HMI;VCU</value>
+         <value>SIC==XGW;MHU</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

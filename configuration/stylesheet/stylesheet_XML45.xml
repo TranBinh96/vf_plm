@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for special Document creation (#1). -->
+<rendering>
+  <page>
+    <section>
+      <property name="item_id" renderingHint="textfield"/>
+      <property name="revision:item_revision_id" />
+      <property name="object_name"/>
+      <property name="object_desc" />
+		<property name="sci0IsIMDSObject" />
+		<property name="vf4_part_category" />
+		<property name="vf3_model_code" />
+		<property name="vf3_module_name" />
+		<property name="vf3_prefix_name" />
+
+      <inject type="dataset" src="Ads1ADSTechDocumentCreate"/>
+      <property name="revision:DocumentTitle" />
+      <property name="revision:DocumentAuthor" />
+      <property name="revision:DocumentSubject" />
+      <inject type="dataset" src="Cm1ChangeContextProviderForCreate"/>
+      <property name="revision:awp0ProcessTemplates" /> 
+      <htmlPanel declarativeKey="Awp0MultiFileUpload" />
+    </section>
+  </page>
+</rendering>

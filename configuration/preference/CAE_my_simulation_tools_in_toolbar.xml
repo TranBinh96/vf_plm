@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_my_simulation_tools_in_toolbar" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the simulation tools configured to appear in CAE Manager toolbar.
+Valid simulation tool names can be found from the Simulation Tool Launch Configuration.
+In case of duplicate tool names, the complete tool name with inheritance (using &quot;::&quot; as separator) must be used.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

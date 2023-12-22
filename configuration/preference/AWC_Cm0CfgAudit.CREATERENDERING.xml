@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Cm0CfgAudit.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Registration of create stylesheet for Configuration Audit objects.</preference_description>
+      <context name="Teamcenter">
+        <value>Cm1CfgAuditCreate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_display_item_attr_on_saveas" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Display only the item revision&apos;s object_name and object_desc attributes in the Save Manager during the Save As mode (false).
+Display both the object_name and object_desc attributes of item and item revision in the Save Manager during the Save As mode (true).</preference_description>
+      <context name="Teamcenter">
+        <value>False</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ProductView">
+    <category_description>
+      Preferences affecting the behavior of Product views
+</category_description>
+    
+               <preference name="Vis_PV_InvalidConfigWarnLevel" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the intervention level provided when user tries to capture a Product view in a view toggle enabled environment.
+Valid Values:
+*Off: The user is allowed to create/update the Product view without any intervention. This is the behavior prior to Tc10.0.0.
+*Warning: A warning message is displayed to the user alerting the presence of active view toggles on the BOM window. This is the default value.
+*Prevent: The user shall not be allowed to proceed with creation of the Product view.</preference_description>
+      <context name="Teamcenter">
+        <value>Off</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Awb0SavedBookMarkCreate.xml
+
+    Style sheet rendering for Saved Bookmark creation.
+=======================================================================
+-->
+
+<rendering>    
+    <page titleKey="tc_xrt_properties">
+        <view>
+            <property name="object_name" renderingHint="textfield" column="32" />
+            <property name="object_desc"/>
+            <htmlPanel declarativeKey="Awb0SWCCustomPanel"/>
+        </view>
+    </page>
+</rendering>

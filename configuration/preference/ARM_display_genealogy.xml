@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ARM_display_genealogy" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Activates the display genealogy performance transaction. 
+This measures the elapsed time from the selection of the superseded item to when the genealogy is displayed.
+Valid Values:
+* ON: Enables performance monitoring of the display genealogy performance transaction.
+* OFF: Suppresses performance monitoring of the display genealogy performance transaction.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

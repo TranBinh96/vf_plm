@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_initial_position_of_sliders" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the initial position of all control sliders in the Graphical History dialog box. If set to 100, only the affected assembly is displayed. If set to 0, only the problem assembly appears. Any number in between initially displays both the added and cancelled parts.
+Valid Values:
+Decimal numbers from 0 to 100.</preference_description>
+      <context name="Teamcenter">
+        <value>100</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

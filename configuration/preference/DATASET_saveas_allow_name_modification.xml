@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DATASET_saveas_allow_name_modification" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Affects the behavior of the Teamcenter Integration for NX SaveAs Non-Master Part File dialog box as determined by the implementation of the USER_copied_datasets_details and USER_copied_dataset_name user exits. This preference is only read by these two user exits.To access the Integration Toolkit Function Reference, install the Teamcenter 
+developer references when you install Teamcenter online help, or go to the Global Technical Access Center (GTAC): 
+https://support.industrysoftware.automation.siemens.com/docs/teamcenter/
+Specifies whether Teamcenter&apos;s recommendation for the dataset name must be obeyed, or is a suggestion that can be edited by the user. This preferences is ignored if the automatically generated name fails validation and the DATASET_saveas_force_name_validation preference is set to true.
+Valid Values:
+true - Allows Teamcenter Integration for NX users to modify automatically generated names for new nonmaster datasets.
+false - Does not allow Teamcenter Integration for NX users to modify automatically generated names for new nonmaster datasets.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

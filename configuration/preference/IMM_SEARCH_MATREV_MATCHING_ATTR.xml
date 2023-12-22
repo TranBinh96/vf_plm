@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_SEARCH_MATREV_MATCHING_ATTR" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Defines a customized list of Material Revision persistent attributes used to check how much in percentage it fits the selected filter.
+* Each entry in this list should be like follow: RealNameOfPersistentAttr;bool or RealNameOfPersistentAttr;lov
+* Each entry in this list could have a Display name by concatenating it, at the beginning, with a &apos;#&apos; separator like follow: DisplayName#RealNameOfPersistentAttr;bool</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

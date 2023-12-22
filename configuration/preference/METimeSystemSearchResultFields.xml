@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METimeSystemSearchResultFields" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the time system fields that are displayed in the search result when performing a TiCon search in Manufacturing Process Planner. You can group the fields in different configurations.
+Valid Values:
+One or more strings. Each string must have the following format:
+configuration:field_1;width_1,field_2;width_2,...field_n;width_n
+field_x represents the time system field and width_x specifies the initial width of the field_x column in the search result table. 
+If you leave the configuration value empty, the field appears in the default configuration.</preference_description>
+      <context name="Teamcenter">
+        <value>:code;80,index;50,variant;50,dataareaid;80,description;160,tg;80,indicator1id;80</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

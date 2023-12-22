@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: CAEAnalysisCreate.xml
+
+    Style sheet rendering for CAEAnalysis creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="CAEAnalysis Information" titleKey="tc_xrt_CAEAnalysisInformation">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name" />
+            <property name="object_desc" />
+            <separator/>
+            <!-- OOTB configuration item check box is not visibile, you can remove the comment once is_configuration_item in createInput is turned on in BMIDE -->
+            <!--
+            <property name="is_configuration_item" renderingHint="checkbox" />
+            -->
+        </section>
+
+        <section title="Additional CAEAnalysis Information" titleKey="tc_xrt_AdditionalCAEAnalysisInformation" initialstate="collapsed">
+            <property name="IMAN_master_form:project_id" />
+            <property name="IMAN_master_form:serial_number" />
+            <property name="IMAN_master_form:item_comment" />
+            <property name="IMAN_master_form:previous_version_id" />
+            <property name="IMAN_master_form:user_data_1"  />
+            <property name="IMAN_master_form:user_data_2"  />
+            <property name="IMAN_master_form:user_data_3"  />
+        </section>
+
+        <section title="CAEAnalysis Revision Information" titleKey="tc_xrt_CAEAnalysisRevisionInformation" initialstate="collapsed">
+            <property name="revision:IMAN_master_form_rev:analysis_type" />
+            <property name="revision:IMAN_master_form_rev:project_id" />
+            <property name="revision:IMAN_master_form_rev:previous_version_id" />
+            <property name="revision:IMAN_master_form_rev:serial_number" />
+            <property name="revision:IMAN_master_form_rev:solution_step" />
+            <property name="revision:IMAN_master_form_rev:solution_type" />
+            <property name="revision:IMAN_master_form_rev:solver_name" />
+            <property name="revision:IMAN_master_form_rev:item_comment" />
+            <property name="revision:IMAN_master_form_rev:user_data_1"  />
+            <property name="revision:IMAN_master_form_rev:user_data_2"  />
+            <property name="revision:IMAN_master_form_rev:user_data_3"  />
+            <property name="revision:IMAN_master_form_rev:version_name" />
+        </section>
+    </page>
+
+</rendering>

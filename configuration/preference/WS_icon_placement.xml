@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WS_icon_placement" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the position of the Icon to be placed with the workspace display. Valid values are 1/2/3/4.
+1 - Above.
+2 - Right.
+3 - Below.
+4 - Left.</preference_description>
+      <context name="Teamcenter">
+        <value>4</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

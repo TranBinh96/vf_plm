@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Related Drawings. -->
+<subRendering>
+    <content visibleWhen = "fnd0ConfiguredDrawings!=null">
+        <section titleKey="tc_xrt_RelatedDrawings">
+            <objectSet source="fnd0ConfiguredDrawings.WorkspaceObject" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </content>
+</subRendering>

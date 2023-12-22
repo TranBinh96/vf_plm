@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEGANTTPropagateDurationUpToLevel" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the level up to which the duration propagation is executed in the Gantt chart when running the Propagate Calculated Duration command. The number of levels is counted from the top level object downwards.This value is only used if the MEGANTTPropagateDurationUpToLevelEnabled preference is set to True, otherwise, Teamcenter propagates to level 0.
+Valid Values:
+A positive integer number (including 0). Setting this value to 0 indicates that all levels are propagated up.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,14 @@
+<gateway>
+	<tilegroup key="social">
+        <tile key="trending" displayname="TRENDING" icon="trending" colorindex="highlight" action="com.siemens.splm.client.social.TrendingSubLocation" actionstyle="default" size="small" />
+        <!-- open question tile is not needed as the filter criteria is directly set in action itself -->
+        <!--
+        	<tile key="openquestion" displayname="OPEN QUESTIONS" icon="openquestion" colorindex="light" action="com.siemens.splm.client.social.OpenQuestionSubLocation" actionstyle="default" size="small" />
+        -->
+        <tile key="openquestion" displayname="OPEN QUESTIONS" icon="openquestion" colorindex="light" action="teamcenter.search.search;searchCriteria=*;filter=WorkspaceObject.object_type\2S2clQuestion~S2clQuestion.s2clIsOpen\2true" actionstyle="default" size="small" />
+<!--
+        http://10.134.5.54:7001/awc/#teamcenter.search.search;searchCriteria=*;filter=S2clQuestion.s2clIsOpen%255C2true~WorkspaceObject.object_type%255C2S2clQuestion~
+-->
+        <tile key="following" displayname="FOLLOWING" icon="following" colorindex="highlight" action="com.siemens.splm.client.social.FollowingSubLocation" actionstyle="default" size="small" />
+	</tilegroup>
+</gateway>

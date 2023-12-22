@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_ods_proxy_server_site_table" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maps the target site ID with its real node name so that the proxy server can redirect a requesting site&apos;s first remote procedure call (RPC) message to the target site.
+Valid Values:
+This preference must list all sites (both client sites and server sites) that use the proxy host. This list provides the information needed to map site IDs to their real node names. The list is also used to discriminate against clients that are not authorized to use the proxy host. The proxy denies access to any requesting site not on the site table list. For example:TC_ods_proxy_server_site_table=
+Site 1 ID:real-node-name-for-Site 1
+Site 2 ID:real-node-name-for-Site 2
+Site ID is the site ID of either an internal or external site that uses the proxy host and real-node-name-for-Site is the actual node name for the site ID.The IP address can be given instead of the node name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

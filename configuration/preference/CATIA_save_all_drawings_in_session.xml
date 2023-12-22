@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_save_all_drawings_in_session" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates whether commands SAVE/SAVE AS/SAVE SELECTED manage drawings during the save of CATPart or CATProduct.
+Not case sensitive.
+Possible values:
+- Yes: Run the Save command managing Drawings when the active document in CATIA are a CATPart or a CATProduct
+- No: Run the Save command not managing Drawings when the active document in CATIA are a CATPart or a CATProduct.
+- Question: Display a prompt when the active document in CATIA are a CATPart or a CATProduct, asking to perform a Save managing Drawings.
+&quot;Do you want to save Drawings in session?&quot;</preference_description>
+      <context name="Teamcenter">
+        <value>No</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

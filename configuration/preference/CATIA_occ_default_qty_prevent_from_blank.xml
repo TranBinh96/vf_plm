@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_occ_default_qty_prevent_from_blank" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set the BOM Line quantity field (bl_quantity) to 1 when saving a new part or leave it empty.
+Possible values:
+- TRUE: By default, the BOMLine&apos;s bl_quantity property is set to 1.
+- FALSE: The native Teamcenter behaviour is applied.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

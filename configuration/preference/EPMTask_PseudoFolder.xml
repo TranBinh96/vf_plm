@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPMTask_PseudoFolder" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of properties that should be shown as pseudo-folders for objects of type &quot;EPMTask&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>root_target_attachments</value>
+        <value>root_reference_attachments</value>
+        <value>fnd0RootReplicaTargets</value>
+        <value>interprocess_task_dependencies</value>
+        <value>parent_processes</value>
+        <value>epm_subprocesses</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

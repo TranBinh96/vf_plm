@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Subscription Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SCM_notification_mode" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>A user level preference that specifies whether a subscription notification is delivered via SMTP email, Teamcenter inbox, or both.
+Valid Values:
+1 - SMTP email
+2 - Teamcenter inbox
+3 - Both</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

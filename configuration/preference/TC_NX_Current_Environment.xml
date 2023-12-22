@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_Current_Environment" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Current NX environment that is set from preference or selected from the User Settings dialog. NX application launched with the current environment can only modify those models created in the same environment.</preference_description>
+      <context name="Teamcenter">
+        <value>No Environment</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mfg0MESimStudy.MEOP.CopyPasteTemplate" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the cloning rules to be used when the &quot;Publish&quot; operation is used from Study to an Operation.</preference_description>
+      <context name="Teamcenter">
+        <value>*:*:Attribute.items_tag:Clone</value>
+        <value>*:*:Attribute.structure_revisions:Clone</value>
+        <value>*:*:Attribute.bom_view:Clone</value>
+        <value>*:*:Attribute.parent_item:Clone</value>
+        <value>*:*:Attribute.variant_expression_block:Clone</value>
+        <value>*:*:OccType.Null:Clone</value>
+        <value>*:*:OccType.MEAssign:Ignore</value>
+        <value>*:*:OccType.MEHandle:Ignore</value>
+        <value>*:*:OccType.MEAssemble:Ignore</value>
+        <value>*:*:OccType.MEDisassemble:Ignore</value>
+        <value>*:*:OccType.MEOther:Ignore</value>
+        <value>*:*:OccType.METarget:Ignore</value>
+        <value>*:*:OccType.*:Reference</value>
+        <value>*:*:Relation.IMAN_Rendering:Clone</value>
+        <value>*:*:Relation.Mfg0StudyLinkRel:EBOPCreate</value>
+        <value>*:*:Relation.IMAN_specification:Clone</value>
+        <value>*:class.MEActivity:Relation.IMAN_MEFolder:Clone</value>
+        <value>class.MEActivity:*:Attribute.contents:Clone</value>
+        <value>class.Folder:*:Attribute.contents:Reference</value>
+        <value>*:*:Relation.METimeAnalysisRelation:Clone</value>
+        <value>*:*:Relation.Mfg0TCContextFeatureFormRel:Clone</value>
+        <value>*:*:Relation.Cps0ModulesInfoRel:Clone</value>
+        <value>*:*:Relation.Cps0PLCInfoRel:Clone</value>
+        <value>*:*:Relation.Cps0OpDetailsRel:Clone</value>
+        <value>*:*:Relation.Cps0ToolInfoRel:Clone</value>
+        <value>*:*:Relation.Cps0RobotProgRel:Clone</value>
+        <value>*:*:Relation.Cps0ConnectivityDefRel:Clone</value>
+        <value>*:*:Relation.ProcessSimulate_Details:Clone</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

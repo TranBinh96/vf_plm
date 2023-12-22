@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Project Level Security">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_show_all_user_projects" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls whether the projects in which a user is a team member are displayed for selection in the Teamcenter interface or whether only the projects that correlate to the user&apos;s current group and role are displayed for selection.
+Valid values are:
+* true: Displays all the projects in which the user is a team member, regardless of the user&apos;s current group and role. This is the default value.
+* false: Displays only those projects in which the user is a team member based on the user&apos;s current group and role.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

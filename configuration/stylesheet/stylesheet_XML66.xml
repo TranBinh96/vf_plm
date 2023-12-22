@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <page titleKey="tc_xrt_Overview">
+	<property name="object_name" column="16" />
+	<property name="vf3_plant" column="16" />
+	<property name="vf3_make_buy"  column="16" />
+	<!--<property name="vf3_ppap" column="16"/>-->
+    </page>
+    <page title="Manufacturings">
+	<property name="vf3_approval_code" column="16" />
+	
+
+    </page>
+  
+</rendering>

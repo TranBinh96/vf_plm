@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Classification">
+    <category_description>Active Workspace preferences for Classification application</category_description>
+    
+               <preference name="AWC_cls_object_filter_sorting" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the classification object filter value(classification hierarchy) sorting type in filter panel.
+Valid values are Ascending/Descending/Count.Default value is Count.
+Ascending: Sort the hierarchy alphabetically in ascending order.
+Descending: Sort the hierarchy alphabetically in descending order.
+Count: Sort the hierarchy based on the number of instances for given filter value.</preference_description>
+      <context name="Teamcenter">
+        <value>Count</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2010. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: DC_SkdDMCreate.xml  
+   
+     Default style sheet for displaying DC_SkdDM Create 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+10/14/10     mierwald                Initial Version 
+======================================================================= 
+@<DEL>@  
+--> 
+<rendering>
+
+   <page title=" ">
+         <column>
+         <section titleKey="tc_xrt_References">
+            <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RefContentPanelSkdDM"/>             
+         </section>
+         <property name="revision:item_revision_id" renderingHint="textfield" /> 
+            <property name="object_name" renderingHint="textfield" />          
+            <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.LanguagePanel"/>
+            <property name="revision:DocumentTitle" renderingHint="textfield" />
+
+             <section titleKey="tc_xrt_DataModuleCode">
+                <property name="revision:skdmodelic" />
+                <property name="revision:skdsdc" />
+                <property name="revision:skdchapnum" />
+                <property name="revision:skdsection" />
+                <property name="revision:skdsubsection" />
+                <property name="revision:skdsubject" />
+                <property name="revision:skddiscode" />
+                <property name="revision:skddiscodev" />
+                <property name="revision:skdincode" />
+                <property name="revision:skdincodev" />
+                <property name="revision:skditemloc" />
+                <property name="revision:skdsupeqvc" />
+                <property name="revision:skdecscs" />
+                <property name="revision:skdeidc" />
+                <property name="revision:skdcidc" />
+                <property name="revision:c1k0dmecode" />
+                <property name="revision:c1k0dmeproducer" />
+             </section>                         
+             <property name="revision:skdexportfilename" />
+             <property name="revision:isTemplate" />
+             <property name="revision:referenceOnly"  />        
+         </column>
+         <column>
+             <property name="revision:skdtechname" />
+             <property name="revision:skdinfoname" />
+             <section titleKey="tc_xrt_IssueDetails">
+                <property name="revision:skdissno" />
+                <property name="revision:skdiss_type" />
+                <property name="revision:skdissdate_day" />
+                <property name="revision:skdissdate_month" />
+                <property name="revision:skdissdate_year" />
+             </section>
+             <section titleKey="tc_xrt_OtherDataModuleDetails">
+                <property name="revision:skdsecurity_class" />
+                <property name="revision:skdrpc" />
+                <property name="revision:skdorig" />
+                <property name="revision:skdapplic_model" />
+                <property name="revision:skdapplic_type" />
+                <property name="revision:skdqa" />
+                <property name="revision:skdsbc" />
+                <property name="revision:skdskill" />
+                <property name="revision:skdrfu" />
+                <property name="revision:skdremarks" />
+                <property name="revision:skdlevel" />
+             </section>
+
+         </column>
+         <separator/>  
+         <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RelationSelectionPanel"/>
+   </page>
+   
+</rendering>
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.STEP Translator">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="STEP_default_item_type" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Obtains the default Teamcenter item type. Used as an argument to create an item entity of Teamcenter, in the database.
+Valid Values:
+Item</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

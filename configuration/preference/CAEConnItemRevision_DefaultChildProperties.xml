@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAEConnItemRevision_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of properties that can be used as children for the indicated type i.e. CAEConnItemRevision. The format of the preference follows: &lt;TypeName&gt;_DefaultChildProperties=my_property.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_master_form_rev</value>
+        <value>structure_revisions</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_reference</value>
+        <value>IMAN_UG_udf</value>
+        <value>IMAN_UG_altrep</value>
+        <value>IMAN_UG_scenario</value>
+        <value>IMAN_Simulation</value>
+        <value>IMAN_Rendering</value>
+        <value>IMAN_Motion</value>
+        <value>IMAN_3D_snap_shot</value>
+        <value>view</value>
+        <value>release_status_list</value>
+        <value>TC_Attaches</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

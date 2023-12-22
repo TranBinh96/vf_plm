@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSE_Display_Pending_Edits" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Determines whether pending edit markup functionality is enabled for editing actions such as adding, deleting, or modifying property attributes.
+These pending edits can be saved to the database, cancelled, or reversed. This preference can be set using the preference name as an environment variable.This editing
+mode is not available when an absolute occurrence or incremental change context is set. BOM compares cannot be run on objects containing pending edits.
+Valid Values:
+true - Pending edit markup is enabled for editing actions.
+false - Pending edit markup is not enabled for editing actions.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

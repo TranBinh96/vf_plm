@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ADA_Custom_Security_Mapping" type="String" array="true" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Defines the information needed to administer security grouping.
+Security groups are defined for custom ADA license objects and include a specific workspaceobject classification property and a user object clearance property.
+Each grouping also contains the administrator and classifier privileges for that security grouping.
+Valid values are in the format &quot;&lt;Classification&gt;:&lt;Clearance&gt;:&lt;License&gt;:&lt;ADMIN_privilege&gt;:&lt;CLASSIFIER_privilege&gt;&quot;, where
+* &lt;Classification&gt; is to be replaced by the custom classification property name
+* &lt;Clearance&gt; is to be replaced by the custom clearance property name
+* &lt;License&gt; is to be replaced by the custom license type name
+* &lt;ADMIN_privilege&gt; is the admin privilege name for this security grouping.  With this privilege set, the user is granted the ability to:
+Set or modify custom classification on workspace object
+Create/Modify/Delete custom license
+Attach custom license to a workspace object
+Detach custom license from workspace object
+Delete custom license
+* &lt;CLASSIFIER_privilege&gt; is the classifier privilege name for this security grouping.  With this privilege set, the user is granted the ability to:
+Set or modify custom classification on a WorkspaceObject object
+
+An example would be: EAR_class:EAR_clear:EAR_license:EAR_ADMIN:EAR_Classifier</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

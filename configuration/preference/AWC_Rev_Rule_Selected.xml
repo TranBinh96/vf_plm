@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Rev_Rule_Selected" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the revision rule selected by the user in Active Workspace. Make sure this preference is deleted if the first value of &quot;AWC_Rev_Rule_List&quot; preference has to be selected in AWC Client. Add a valid value to this preference if a specific revision rule in the list has to be selected. If the &quot;AWC_Rev_Rule_List&quot; preference is modified to remove the value matching the AWC_Rev_Rule_Selected value, delete this preference.&quot;</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

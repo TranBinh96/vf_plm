@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PartitionableModelHistoryUIDList" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains the history of last 20 objects opened within the &quot;Content Explorer&quot; view for a Partition Template and its contents.
+The objects are recorded as UIDs.
+This preference is populated internally and is not meant to be modified by users.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

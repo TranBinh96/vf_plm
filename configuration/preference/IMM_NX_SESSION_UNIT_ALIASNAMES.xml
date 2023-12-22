@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_NX_SESSION_UNIT_ALIASNAMES" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maps the Unit Alias names(accepted by NX) corresponding (in the same oder) to the Unit Category in the preference IMM_NX_SESSION_UNIT_CATEGORIES. When assigning a Material in NX the MATML will be generated with properties that have those units and their converted values</preference_description>
+      <context name="Teamcenter">
+        <value>J,sec,N/m2,m,J/kg-K,m3,kg,A,%,C,m2,W,W/m-C,10-3 mm/mm,N,rad,mol,UNITLESS,V,kg/m3,kg/mol</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

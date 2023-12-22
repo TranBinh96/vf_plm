@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_use_access_control" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the availability of the Classification access control feature.
+Valid Values:
+0 - Disables access control functionality.
+1 - Enables access control functionality.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

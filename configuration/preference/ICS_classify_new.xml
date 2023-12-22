@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_classify_new" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables the Classify Immediately option in the New Item, Save As, and Revise dialog boxes, and specifies whether it is the item or the item revision that is classified. The Classify Immediately option is displayed only if the item type that you create is listed in the ICS_classifiable_types preference. When you specify Item or ItemRevision, this is valid for all the item or revision types listed in the ICS_classifiable_types preference.
+Valid Values:
+Item - Immediately classifies the item.
+ItemRevision - Immediately classifies the item revision.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

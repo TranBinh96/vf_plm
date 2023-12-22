@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_EScooter">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Vinfast_Scooter_Color_Code" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VINF_EScooter</preference_description>
+      <context name="Teamcenter">
+        <value>Red-RE</value>
+        <value>Blue-BU</value>
+        <value>Black-BA</value>
+        <value>White-WH</value>
+        <value>Silver-SI</value>
+        <value>Champagne-CH</value>
+        <value>Yellow-YE</value>
+        <value>Brown-BR</value>
+        <value>Chrome-CR</value>
+        <value>Grey-GE</value>
+        <value>Green-GN</value>
+        <value>Orange-OR</value>
+        <value>Violet-VI</value>
+        <value>Pink-PI</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

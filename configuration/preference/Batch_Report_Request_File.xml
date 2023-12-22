@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Batch_Report_Request_File" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Preference for a Batch Report request flat file.</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">/vobs/web_src/htdocs/web_reports/data/batch_request.txt</value>
+        <value platform="WNT">%TC_ROOT%\web\htdocs\web_reports\data\batch_request.txt</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

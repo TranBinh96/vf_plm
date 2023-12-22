@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF4_PartCatalog" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF4_PartCatalog</preference_description>
+      <context name="Teamcenter">
+        <value>CostOverall;__;costType;totalPieceCostStatus;edndCost;labourCost;toolingCost;pieceCost;packingCost;logisticCost;totalPieceCost;tax;approvalDate</value>
+        <value>SourcingInformation;__;VF Part Number;Donor Vehicle;Change Index;Purchase Level Vinfast;Cost Approval Date;Module Group English;Module English;Main Module English;CL;Buyer</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

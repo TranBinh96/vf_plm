@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_EVM_Calc_Labels" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether earned value management (EVM) calculations are displayed as EVM labels or C/SCSC (cost/schedule control systems criteria) labels.
+Valid Values:
+EVM
+C/SCSC</preference_description>
+      <context name="Teamcenter">
+        <value>EVM</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

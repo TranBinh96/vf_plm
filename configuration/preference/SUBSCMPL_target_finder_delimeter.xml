@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_target_finder_delimeter" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Delimeter string used to separate the attribute values in input declaration xml files used to find the target objects in Teamcenter. The default value is &quot;:&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>:</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

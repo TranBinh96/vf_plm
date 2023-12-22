@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="USER_object_columns_shown" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of column names that will be shown for User objects.</preference_description>
+      <context name="Teamcenter">
+        <value>user_name</value>
+        <value>person</value>
+        <value>user_id</value>
+        <value>os_username</value>
+        <value>default_group</value>
+        <value>volume</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

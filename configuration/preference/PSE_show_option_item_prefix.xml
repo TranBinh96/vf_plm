@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSE_show_option_item_prefix" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether the item ID displays as a prefix before the option name.
+Valid Values:
+0 - Does not display the item ID before the option name. For example, if the option color is defined on item 000101, the option displays as:color
+1 - Displays the item ID before the option name. For example, if the option color is defined on item 000101, the option displays as:[000101]color</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

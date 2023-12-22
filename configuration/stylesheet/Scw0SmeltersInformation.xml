@@ -1,0 +1,31 @@
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+    <page titleKey="tc_xrt_Smelters" title = "Smelters">
+        <section titleKey= "tc_xrt_Smelters" title = "Smelters">
+            <objectSet source = "Scp0VendorToSmelterRel.Scp0Smelter" defaultdisplay = "tableDisplay" sortby = "scp0Metal" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "scp0Metal"/>
+                    <property name = "object_name"/>
+                    <property name = "scp0Identity"/>
+                    <property name = "scp0City"/>
+                    <property name = "scp0StateOrProvince"/>
+                    <property name = "scp0SmelterCountry"/>
+                    <property name = "scp0ContactName"/>
+                    <property name = "scp0EmailAddress"/>
+                    <property name = "scp0AuditedStatus"/>
+                    <property name = "scp0CertificationValidUntil"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</subRendering>

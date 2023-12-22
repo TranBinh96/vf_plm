@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Linking">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_external_proxiable_objects" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Teamcenter objects used to create links to other Teamcenter applications.
+Valid Values:
+Any valid Teamcenter workspace object.</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+        <value>ItemRevision</value>
+        <value>Dataset</value>
+        <value>Form</value>
+        <value>PSBOMViewRevision</value>
+        <value>PSBOMView</value>
+        <value>Folder</value>
+        <value>Job</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

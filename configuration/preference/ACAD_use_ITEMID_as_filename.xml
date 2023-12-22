@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Autocad Manager">
+    <category_description>Autocad Manager Preferences</category_description>
+    
+               <preference name="ACAD_use_ITEMID_as_filename" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference is only used for Autocad Manager Integration Save As dialog.  When a file name is in conflict with some existing file in the current connection directory, this Preference determines if we should use ItemID as file name or not</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MS_Dashboard_Supported_Sites" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists sites which can be supported in multisite dashboard.
+Valid Values:
+One or more strings; each string must be a valid Teamcenter site name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

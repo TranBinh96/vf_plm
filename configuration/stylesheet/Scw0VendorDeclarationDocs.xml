@@ -1,0 +1,35 @@
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+   <section titleKey = "k_subscmpl_declaration_docs" title = "Declarations">
+      <objectSet source = "scp0DeclarationDocs.Scp0CMDDeclRevision" defaultdisplay = "tableDisplay" sortby = "last_mod_date" sortdirection = "descending">
+         <tableDisplay>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="object_type"/>
+            <property name="last_mod_date"/>
+         </tableDisplay>
+         <thumbnailDisplay/>
+         <listDisplay/>
+      </objectSet>
+   </section>
+   <section titleKey = "k_subscmpl_supporting_docs" title = "Supporting Documents">
+      <objectSet source = "scp0DeclarationDocs.Scp0CMDDocRevision" defaultdisplay = "tableDisplay" sortby = "last_mod_date" sortdirection = "descending">
+         <tableDisplay>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="object_type"/>
+            <property name="last_mod_date"/>
+         </tableDisplay>
+         <thumbnailDisplay/>
+         <listDisplay/>
+      </objectSet>
+   </section>
+</subRendering>

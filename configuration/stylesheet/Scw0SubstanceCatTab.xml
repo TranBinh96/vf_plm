@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0SubstanceCatTab.xml
+
+Default activeworkspace stylesheet for Substance Category tab.
+-->
+<subRendering> 
+ <page titleKey="scw0_xrt_substanceCategories" title="Substance Categories"  visibleWhen="structure_revisions==null and ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation  and Scp0UsesSubstanceCategory!=null" >
+            <section titleKey="scw0_xrt_substanceCategories" title="Substance Categories">
+                <objectSet source="Scp0UsesSubstanceCategory.Scp0SubstanceCategory" defaultdisplay="tableDisplay" sortdirection="descending" sortby="Scp0UsesSubstanceCategory.scp0IsOverThreshold">
+                    <tableDisplay>
+                        <property name="scp0ParentListRef"/>
+                        <property name="object_name" />
+                        <property name="scp0ThresholdString" />
+                        <property name="Scp0UsesSubstanceCategory.scp0IsOverThreshold"/>
+                        <property name="Scp0UsesSubstanceCategory.scp0mass"/>
+                        <property name="Scp0UsesSubstanceCategory.scp0uomString" />
+                        <property name="Scp0UsesSubstanceCategory.scp0Concentration"/>
+                        <property name="Scp0UsesSubstanceCategory.scp0Exemptions"/>
+                    </tableDisplay>
+                  </objectSet>
+            </section>
+    </page>
+</subRendering> 

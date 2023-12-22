@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Reports">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Crf_Report_Excel_Use_OOXML" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>The value of this preference is used to decide the format of Excel Reports generated using Report Builder.
+false: This is the default value. Excel reports are generated using single spreadsheet format. Excel report extension is &apos;.xls&apos;. User&apos;s should use &apos;***_report_excel.xsl&apos; stylesheets while generating report.
+true: Excel reports will be generate using Office Open XML (OOXML) format. Excel report extension will be &apos;.xlsx&apos;. User&apos;s should use &apos;***_report_excel_OOXML.xsl&apos; stylesheets while generating reports.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

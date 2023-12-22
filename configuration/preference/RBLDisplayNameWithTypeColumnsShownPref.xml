@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RBLDisplayNameWithTypeColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Stores the internal names of RemoteBOMLine properties which display names appear as columns from left-to-right in the BOM Panel in the Product Structure application.
+This preference value is only a repository, and it is not to be modified other than by the Product Structure code itself.</preference_description>
+      <context name="Teamcenter">
+        <value>RemoteBOMLine.rbl_object_string</value>
+        <value>RemoteBOMLine.rbl_owning_site</value>
+        <value>RemoteBOMLine.rbl_replica_status</value>
+        <value>RemoteBOMLine.rbl_master_lmd</value>
+        <value>RemoteBOMLine.rbl_replica_lmd</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

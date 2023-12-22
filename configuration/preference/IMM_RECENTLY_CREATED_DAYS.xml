@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_RECENTLY_CREATED_DAYS" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the number of days to be considered, from the current date, to display the recently created materials under the IMM NewStuff folder.</preference_description>
+      <context name="Teamcenter">
+        <value>20</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

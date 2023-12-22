@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEDesign_default_non_bom_align_mode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether to create a light or heavy alignment when pasting a design revision to the &quot;RepresentedBy&quot; Pseudo folder of &quot;PartRevision&quot; in MyTeamcenter application.
+Valid Values:
+light - Represents light alignment.
+heavy - Represents heavy alignment.
+Values are not case sensitive. Teamcenter needs to be restarted for any value change to take effect.</preference_description>
+      <context name="Teamcenter">
+        <value>Light</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

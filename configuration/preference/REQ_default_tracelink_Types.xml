@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="REQ_default_tracelink_Types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference contains all the Trace Link types that user will see by default in &quot;Type&quot; drop down in the &quot;Create Trace Link&quot; panel. Adding value(s) to this preference will result in adding more trace link types in drop down.</preference_description>
+      <context name="Teamcenter">
+        <value>FND_TraceLink</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

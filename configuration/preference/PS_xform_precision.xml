@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE.Transform">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_xform_precision" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allows the customer to set precision for transform values. Transform value difference smaller than the precision value will be treated as the same when comparing them.</preference_description>
+      <context name="Teamcenter">
+        <value>1e-09</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_assume_old_transform_format" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>(Deprecated)Determines how Teamcenter interprets the format of legacy transform data.This preference can be set using the preference name as an environment variable.This preference has been deprecated, to be removed from Tc15.
+Valid Values:
+In_Legacy_Format - Assumes all legacy transforms are in the same format as legacy NX transforms.
+Written_By_UG - Assumes all old transforms are in the same format as legacy NX transforms. Assumes all old transforms were written by Teamcenter Integration for NX. The PS_convert_legacy_transform ITK routine attempts to obtain the parent&apos;s unit information when converting transforms to eXT format.
+Unknown - No assumptions made. Use this setting when the transform data was written by an application other than Teamcenter Integration for NX.</preference_description>
+      <context name="Teamcenter">
+        <value>Unknown</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_package_template_group" type="String" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>This is an optional preference. Identifies the item revision used to manage the Group level CAE package definitions.
+Valid Values:
+Accepts one string as value; the string must be a valid Teamcenter object, where the value is single object string, object is a UID value (for example, 34526).</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

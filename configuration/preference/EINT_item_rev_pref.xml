@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.eIntegrator">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EINT_item_rev_pref" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the behavior for attaching a form to an item revision when there is no item revision mapping and the latest version of the item revision is released.
+Valid Values:
+0 - Indicates that no new item revision can be created.
+1 - Creates a new item revision based on the released revision and creates and attaches a new form to this item revision. Existing forms, if any, are not copied from the released revision.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

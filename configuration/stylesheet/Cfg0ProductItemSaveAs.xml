@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Cfg0ProductItemSaveAs.xml
+
+    Style sheet rendering for Cfg0ProductItem saveAs.
+=======================================================================
+-->
+
+<rendering>
+
+    <page titleKey="tc_xrt_Cfg0ProductItemInformation">
+         <property name="item_id" />
+         <property name="object_name" />
+         <property name="object_desc" />
+    </page>
+
+</rendering>

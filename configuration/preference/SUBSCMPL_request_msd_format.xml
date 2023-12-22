@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_request_msd_format" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default IPC XML file format for material substance declaration requests. 
+Also make sure corresponding xsl changes are done in SUBSCMPL_msd_request_xsl_file preference.
+Valid values are:
+* IPC_1752A: IPC 1752A format XML document is sent to vendors. This is the default value.
+* IPC_1752-2: IPC 1752-2v1.1 format XML document is sent to vendors.</preference_description>
+      <context name="Teamcenter">
+        <value>IPC_1752A</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

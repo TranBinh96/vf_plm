@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ID2U_2020_FamilySequence" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Setting Family Sequence for LUX V8 program.</preference_description>
+      <context name="Teamcenter">
+        <value>MOD=010</value>
+        <value>CE1=020</value>
+        <value>CR1=030</value>
+        <value>CA1=040</value>
+        <value>PE1=050</value>
+        <value>W03=060</value>
+        <value>PI2=070</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

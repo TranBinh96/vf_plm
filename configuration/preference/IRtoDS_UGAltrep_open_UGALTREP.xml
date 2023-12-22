@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IRtoDS_UGAltrep_open_UGALTREP" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maps the actual dataset type name to the virtual AIE &quot;Master&quot; dataset type name. This virtual AIE master dataset type will be used when searching for datasets under an Item Revision.</preference_description>
+      <context name="Teamcenter">
+        <value>Siteds_MUGALTREP</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

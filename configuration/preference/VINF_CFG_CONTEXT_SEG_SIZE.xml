@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_CFG_CONTEXT_DEFINITION">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_CFG_CONTEXT_SEG_SIZE" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use to create cfg context</preference_description>
+      <context name="Teamcenter">
+        <value>A-A segment=Car;Bus</value>
+        <value>B-B segment=Car;Bus</value>
+        <value>C-C segment=Car;Bus</value>
+        <value>D-D segment=Car;Bus</value>
+        <value>E-E segment=Car;Bus</value>
+        <value>P-Pickup=Car</value>
+        <value>Z-Bus=Bus</value>
+        <value>H-Hub motor=Scooter</value>
+        <value>M-Middle motor=Scooter</value>
+        <value>O-On board=EE Components</value>
+        <value>A-Accessory=EE Components</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

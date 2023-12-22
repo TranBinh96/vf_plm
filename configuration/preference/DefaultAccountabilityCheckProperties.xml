@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DefaultAccountabilityCheckProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which properties the system checks by default when performing an accountability check.An accountability check compares a bill of materials (BOM) with a bill of process (BOP) to ensure all lines in the source BOM are consumed in the target BOP. This allows you to ensure that all occurrences of product components and features are used in the process structure as consumed items. You can compare an entire assembly or only a subassembly to the selected process.If the Compare additional properties option in the Accountability Checkbox dialog box is not selected, the values defined in this preference are the only properties upon which the accountability check is performed.
+Valid Values:
+Accepts multiple strings as values.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

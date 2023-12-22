@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="TC XML Import Export.Import">
+    <category_description>Preferences that control import of data in TC XML.</category_description>
+    
+               <preference name="TIE_TMTID_NOTETYPENAME" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Note type name used to retrieve TMTID data (Total Maintenance Time IDentifier) for Absolute Occurrence import from Teamcenter Enterprise.</preference_description>
+      <context name="Teamcenter">
+        <value>CADOccRID</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

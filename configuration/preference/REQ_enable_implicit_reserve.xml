@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="REQ_enable_implicit_reserve" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls automatic check-out when a user starts editing a requirement in Active Workspace Documentation page.
+The checked out requirement will be automatically checked in when user saves the requirements.
+Valid values are:
+true : the requirements are automatically checked out when user starts editing and checked in when document is saved.
+false: the requirements are not checked out when user starts editing. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

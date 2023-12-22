@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+=======================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: WorkspaceObjectSummary.xml
+
+    Style sheet rendering for WorkspaceObject summary in Active Workspace.
+=======================================================================
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_desc"/>
+        <property name="release_status_list" renderingHint="overflow"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_properties">
+                <property name="object_name" modifiable="false"/>
+                <property name="object_desc" modifiable="false"/>
+                <separator/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="checked_out" modifiable="false"/>
+                <property name="checked_out_user" renderingHint="objectlink" modifiable="false"/>
+                <separator/>
+                <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+            </section>
+            <inject type="dataset" src="Fnd0ClassificationSummary"/>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_Preview">
+                <image source="thumbnail"/>
+            </section>
+            <view name="actions">
+                <command actionKey="newProcessAction" commandId="com.teamcenter.rac.newProcess"/>
+            </view>
+        </column>
+    </page>
+    <inject type="preference" src="ClassificationStylesheetTab"/>
+    <inject type="dataset" src="Rb0InContextReportsSubLocation" />
+    <inject type="dataset" src="AuditLogGNForWSO"/>
+</rendering>

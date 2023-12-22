@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="STEP_handle_geometry" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Supports only the STEP AP214. These preferences have names of the relation types as their values. These values represent a relation type and are used to determine the Teamcenter and user-defined relation types from the relation-type part of the preference. Valid values are One or more strings; each string must be a valid relation type.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

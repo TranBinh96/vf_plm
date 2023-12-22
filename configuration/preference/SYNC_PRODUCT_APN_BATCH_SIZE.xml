@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context.Product Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SYNC_PRODUCT_APN_BATCH_SIZE" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the appearance path node (APN) batch size for sync_product_apns utility.
+The default value is 10000. 
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>10000</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

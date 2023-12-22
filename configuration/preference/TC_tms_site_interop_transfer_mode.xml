@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_tms_site_interop_transfer_mode" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the transfer mode to use during Multi-Site TcXML import. 
+There may be multiple values that can be set on importing site. Example values 
+site1,XferMode1
+site2,XferMode2
+It means any data coming from site1, will use TransferMode XferMode1 to convert schema and vice versa.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

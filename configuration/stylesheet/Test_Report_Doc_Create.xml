@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ItemCreate.xml
+
+    Style sheet rendering for Item creation.
+=======================================================================
+-->
+
+<rendering>   
+	<page title="Test Report Document Information" titleKey="tc_xrt_VF9_D_TestReportRevision">
+		<section titleKey="tc_xrt_properties">
+			<property name="object_name"/>
+			<property name="revision:vf9_Tester"/>
+			<property name="revision:vf9_Tech_Regu"/>
+			<property name="revision:vf9_Result"/>
+			<property name="revision:vf9_Report_Date"/>
+			<property name="revision:vf9_Vehicle_Type"/>		
+			<property name="revision:vf9_Trade_Mark"/>
+			<property name="revision:vf9_Motor_No"/>
+			<property name="revision:vf9_Model_Code"/>
+			<property name="revision:vf9_Frame_No"/>
+			<property name="revision:vf9_Client"/>
+			<property name="revision:vf9_Manufacture"/>
+			<property name="revision:vf9_Import"/>
+			<property name="revision:vf9_Export"/>
+			<property name="revision:vf9_Destination"/>
+			<property name="revision:vf9_Note"/>
+		</section>
+	</page>
+</rendering>

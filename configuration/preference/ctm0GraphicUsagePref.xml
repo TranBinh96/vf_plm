@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ctm0GraphicUsagePref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Maps graphic option usages to graphic file extensions, to provide a default selection when graphics are imported to Content Management. System-defined graphic usages include: ICON, PDF, PRINT, SOURCE, THUMBNAIL, VIEW, and WEB.
+Valid Values:
+Accepts one or more strings as values, using the following syntax: 
+graphic-usage=*extension;*extension
+For example, 
+ICON=*.png;*.jpg</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.STEP Translator">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_organization_id" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines an organizational identifier for your enterprise.
+Valid Values:
+Single string as value; string must be a valid organization ID.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

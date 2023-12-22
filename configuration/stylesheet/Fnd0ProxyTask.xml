@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2003-2011 Siemens Corporation
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: Fnd0ProxyTask.xml
+
+    Default style sheet for displaying Proxy Task properties.
+ -->
+
+<rendering>
+     <page  title="General" titleKey="tc_xrt_General">
+         <property name="object_name" renderingHint="propertyformattedtextfield" column="25"/>
+         <property name="fnd0start_date" renderingHint="sm_propertydatebutton"/>
+         <property name="fnd0finish_date" renderingHint="sm_propertydatebutton"/>
+         <property name="fnd0percent_complete" renderingHint="propertyformattedtextfield"/>
+         <property name="fnd0percent_work_complete" renderingHint="propertyformattedtextfield"/>
+         <property name="fnd0status" renderingHint="SMStringPropertyLOVCombobox"/> 
+         <property name="fnd0type" renderingHint="disabletasktype" column="15"/>
+         <property name="fnd0task_tag" renderingHint="label"/>
+     </page>
+
+ </rendering>

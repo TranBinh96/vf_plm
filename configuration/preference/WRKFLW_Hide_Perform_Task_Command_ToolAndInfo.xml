@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="RAC">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_Hide_Perform_Task_Command_ToolAndInfo" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Deactivates the visibility of the &quot;Perform Task&quot; command in the &quot;Tool and Information&quot; area in Active Workspace for Workflow types for which the associated stylesheet defines the command presentation in the middle area (out-of-the-box for Tasks and Task Signoffs).
+Valid values are:
+* true: the command is only visible in the middle area for the above-mentioned Workflow types. This is the default value.
+* false: the command is visible in the middle area and also in the &quot;Tool and Information&quot; area.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

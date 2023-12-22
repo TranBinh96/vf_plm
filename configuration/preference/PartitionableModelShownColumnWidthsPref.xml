@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PartitionableModelShownColumnWidthsPref" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the widths of the columns displayed in the Content Explorer tree for a partitionable model (for example, a partition template) and its contents. The columns displayed are specified in the PartitionableModelDisplayNameColumnsShownPref preference.
+Valid Values:
+One column width values for each column specified in the PartitionableModelDisplayNameColumnsShownPref preference.</preference_description>
+      <context name="Teamcenter">
+        <value>25</value>
+        <value>20</value>
+        <value>20</value>
+        <value>20</value>
+        <value>20</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

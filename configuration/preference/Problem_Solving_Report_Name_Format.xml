@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Problem_Solving_Report_Name_Format" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Report Name generate pattern. Valid patterns can be KEY_YYYYMMDD_HHMMSS.
+KEY=$USER, if used for Current Logged in User name.
+KEY=any_string, If used it will be taken as prefix for the name of the report.
+YYYY= Current running year.
+DD=Current day of running month.
+MM=Current month of running year.
+HH=Current Hour.
+MM=Current number of minutes in hour.
+SS=Current seconds in minute.
+All other patterns are invalid to generate report name, if given in the preference default pattern will be taken.</preference_description>
+      <context name="Teamcenter">
+        <value>$USER_YYYYMMDD_HHMMSS</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

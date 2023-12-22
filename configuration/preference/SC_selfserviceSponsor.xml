@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_selfserviceSponsor" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default Sponsor User&apos;s user name for the Supplier initiated Design Data Exchange.
+The valid value will be the user name of any Sponsor&apos;s user.
+The corresponding user will be added as sponsor contact of the Design Data Exchange Object. On export of this object to the Supplier Collaboration Framework, it will be assigned as sponsor contact of Supplier Collaboration Framework&apos;s event.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

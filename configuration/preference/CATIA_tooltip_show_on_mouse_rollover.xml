@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_tooltip_show_on_mouse_rollover" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>By default, the tooltip displays only when moving the mouse over the property name.
+If the preference is set to false, the tooltip displays when clicking on the the property name.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

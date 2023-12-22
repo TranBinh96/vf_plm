@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WSDisplayTypePref" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the type of display that the users see in the workspace. Valid values are 1/2/3.
+1 - Vertical Tree.
+2 - Horizontal Tree.
+3 - Indented BOM.</preference_description>
+      <context name="Teamcenter">
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Fnd0GeneralAudit. -->
+
+<subRendering>
+        <section titleKey="tc_xrt_GeneralLogs">
+            <objectSet source="fnd0GeneralAuditLogs.Fnd0GeneralAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="descending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="fnd0UserId"/>
+                    <property name="fnd0ChangeID"/>
+                    <property name="fnd0Reason"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>
+                    <property name="fnd0SecondaryObjDispName"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+       
+</subRendering>

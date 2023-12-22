@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mail_server_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the name of the mail gateway server. The mail server name should be a machine running a sendmail daemon.
+Leaving it as &quot;your mail server machine&quot; while the &quot;Mail_OSMail_activated&quot; preference is true may give you errors telling you to set this preference if you try to use the &quot;Send&quot; command.
+Valid Values:
+Text server name or an numeric IP address.</preference_description>
+      <context name="Teamcenter">
+        <value>smtptls.vingroup.net</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

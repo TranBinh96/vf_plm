@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ReactiveLogging">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_reactive_logging_notification_list" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>List of email addresses that are supposed to receive mail notification about the location of teamcenter logfiles(jnl/pjl/syslog),
+the teamcenter user and the machine on which the log files are located.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

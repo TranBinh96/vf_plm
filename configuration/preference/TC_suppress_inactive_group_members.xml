@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_suppress_inactive_group_members" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Used to suppress inactive group members. This is a user preference and it will be considered only from Group Administrators and System Administrators. In the case of normal users, the value of the preference will not be considered. Valid values are 0/1.
+0 - SA/GA can see both active and inactive group members.
+1 - SA/GA cannot see the inactive group members in Group Members dialog in SA applications.
+The default value is 1.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

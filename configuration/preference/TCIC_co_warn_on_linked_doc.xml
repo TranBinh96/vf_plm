@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCIC_co_warn_on_linked_doc" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Display a warning message when a Check Out is performed on a source object that is linked to targets in the Teamcenter database.
+The list of link types (link between a source object and its target) is  defined in the TCIC_co_warn_link_types preference.
+By default, if the preference is not defined or if the preference is set to true, a warning message is displayed 
+Possible values:
+- true: Display a warning message. 
+- false: No warning.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METimeSystemWebServiceLocation" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the location of the WSDL description for the time system web service.
+Valid Values:
+Accepts a string as value. The string must be a valid WSDL location. For example:http://localhost:4848/TiConService/?wsdlhttp://your-company.com:52000/TiConService/?wsdl</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

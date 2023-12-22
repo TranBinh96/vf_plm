@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="SocialCollaboration.AWC">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="S2cl_SocialTileHeightInLines" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the number of lines to show while rendering the Social Object Cell used for showing Commentary in grouped view.
+A value of -1 or 0 displays entire commentary text in Social Object cell. 
+A value greater than zero limits the display of the commentary text to that many lines in Social Object cell. 
+For example: if the value is set to 5 then commentary text is displayed on the Social Object Cell will not exceed 5 lines. 
+If the commentary text is small and fits in less than 5 lines then only appropriate number of lines are displayed in the Social Object Cell.</preference_description>
+      <context name="Teamcenter">
+        <value>-1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

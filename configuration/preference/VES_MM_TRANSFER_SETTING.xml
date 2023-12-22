@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VES_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VES_MM_TRANSFER_SETTING" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>User config mm transfer
+Syntac: Program;Purchase Level;Plant Form;AL
+Note: Program &lt;= Donor Vehicle</preference_description>
+      <context name="Teamcenter">
+        <value>Make;P,DPT,DPS,BL,IB==Buy;P,DPT,DPS,BL,IB</value>
+        <value>Ebus10;P,DPT,DPS,BL,IB;3094-F;</value>
+        <value>Ebus12;P,DPT,DPS,BL,IB;3094-F;</value>
+        <value>SnS;P,DPT,DPS,BL,IB;3094-F;</value>
+        <value>VF31;P,DPT,DPS,BL,IB;3094-F;</value>
+        <value>VF32;P,DPT,DPS,BL,IB;3094-F;</value>
+        <value>VF33;P,DPT,DPS,BL,IB;3094-F;</value>
+        <value>VFe32;P,DPT,DPS,BL,IB;3094-F;</value>
+        <value>VFe33;P,DPT,DPS,BL,IB;3094-F;</value>
+        <value>VFe34NG;P,DPT,DPS,BL,IB;3094-F;</value>
+        <value>3IN1;P,DPT,DPS,BL,IB;3094-F;</value>
+        <value>Emotor;P,DPT,DPS,BL,IB;3094-F;</value>
+        <value>AFS;P,DPT,DPS,BL,IB;3094-F;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

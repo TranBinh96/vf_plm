@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA103_file_name_rule_use_MFK" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to control the Teamcenter object identifier used for file renaming. It can be the Item ID or the multifield key. In case of multifield key the object identifier is composed by the values of the attributes involved in the multifiled key definition for the current item type concatenated through the character -.
+The value of this option is taken into consideration only if file renaming is enabled (that is TCAA_file_rename is set to 1).
+Possible values:
+0 - use Item ID as Teamcenter object identifier for file renaming (Default)
+1 - use multifield key as Teamcenter object identifier for file renaming (allowed for Teamcenter 10.1 or above)</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

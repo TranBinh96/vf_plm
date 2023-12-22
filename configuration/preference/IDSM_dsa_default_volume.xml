@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDSM_dsa_default_volume" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the name of the local volume that will be used as the default volume for User and Group system objects receoved from a remote site. This volume will be used if the incoming User or Group object&apos;s default volume is set to a volume that does not exist at the receiving site. This is a site preference.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

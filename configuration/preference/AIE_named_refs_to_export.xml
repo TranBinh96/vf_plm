@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.AIE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AIE_named_refs_to_export" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Preference that allows a user to specify the named references to export to a connection. Valid values are all/select/primary. all - All the named references in the dataset will be exported. select - A dialog will be displayed that will provide an option to the user to select the named references. primary - Primary named reference for the dataset will be exported.</preference_description>
+      <context name="Teamcenter">
+        <value>primary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

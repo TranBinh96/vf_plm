@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="JTContentHintPropertyPolicy" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Lists those attributes that may be in JT Content Hint forms that are to be included in the JTContentHint BOM line property. Values are not case sensitive. Any invalid values are ignored.
+Valid Values:
+Accepts one or more strings as values.</preference_description>
+      <context name="Teamcenter">
+        <value>pmi</value>
+        <value>geometry</value>
+        <value>material_overrides</value>
+        <value>cad_attributes</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

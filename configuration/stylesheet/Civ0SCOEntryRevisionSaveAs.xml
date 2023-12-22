@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2011. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: Civ0SCOEntryRevisionSaveAs.xml  
+   
+     Default style sheet for displaying Civ0SCOEntryRevision Save As 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+======================================================================= 
+@<DEL>@  
+-->
+
+
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+        <property name="DocumentTitle" />
+        <separator/>
+        <property name="skdmodelic" />
+        <property name="skdpmissuer" />
+        <property name="skdpmnumber" />
+        <property name="skdpmvolume" />
+        <property name="skdqa" />
+        <property name="skdiss_type" />
+   </page>
+</rendering>

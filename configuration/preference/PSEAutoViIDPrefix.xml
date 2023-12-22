@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE.Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEAutoViIDPrefix" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference is used on when the preference &apos;PSEAutoViNewItemPopup&apos; is set to OFF and is used to define an variant item (VI) Id as value of PSEAutoViIDPrefix+auto generated item id. For example, if this preference is set to &apos;VI&apos; and a item id is auto generated for the VI is 001001 then the VI id will be &quot;VI001001&quot;.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

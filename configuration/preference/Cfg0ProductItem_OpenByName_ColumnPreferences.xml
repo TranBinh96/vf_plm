@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0ProductItem_OpenByName_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>The OOTB columns to be displayed for the Cfg0ProductItem open by name pop-up</preference_description>
+      <context name="Teamcenter">
+        <value>object_string</value>
+        <value>object_desc</value>
+        <value>owning_user</value>
+        <value>owning_group</value>
+        <value>creation_date</value>
+        <value>last_mod_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

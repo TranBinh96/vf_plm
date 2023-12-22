@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_load_bom_traversal_option" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Manages the Load level for a selected BOM Line (full depth, selected BOM Line and its direct children, selected BOM Line and its parents).
+Possible Values :
+THROUGH : the complete selected sub-assembly is exported, including all parents and all children. All children components of all sub-assemblies are exported recursively.
+FIRST_LEVEL : all parents and only the first level of its children components are exported. Children components of sub-assemblies are not exported.</preference_description>
+      <context name="Teamcenter">
+        <value>THROUGH</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

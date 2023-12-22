@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=====================================================================================
+                Copyright (c) 2014 Siemens Product Lifecycle Management Software Inc.
+                   Unpublished - All Rights Reserved
+=====================================================================================
+
+    Filename: Awp0ServiceDiscrepancyCreate.xml
+
+    Default style sheet for displaying Service Discrepancy create.
+ -->
+
+<rendering>
+    <page>
+        <section>
+           <property name="object_name" renderingHint="textarea" row="2" />
+           <property name="transaction_id" />
+           <property name="activity_number" />
+           <property name="object_desc" renderingHint="textarea" row="4" />
+           <property name="initiation_date" renderingHint="datebutton" />
+           <property name="severity" />
+           <property name="is_failure" />
+           <property name="discovered_by" />
+           <property name="discovery_date" renderingHint="datebutton" />
+           <property name="due_date" renderingHint="datebutton" />
+         </section>
+    </page>
+</rendering>

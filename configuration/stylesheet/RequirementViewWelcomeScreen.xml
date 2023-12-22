@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright 2012.
+       Siemens Product Lifecycle Management Software Inc.
+       All Rights Reserved.
+===============================================================================
+
+    Filename: RequirementViewWelcomeScreen.xml
+
+    Default style sheet for displaying Requirement view welcome screen.
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <page title="General" titleKey="tc_xrt_General">
+        <break/>
+        <customPanel java="com.teamcenter.rac.se.rm.welcomescreen.RequirementViewDescription"/>
+        <break/>
+        <command actionKey="newReqSpecWizard" commandId="com.teamcenter.rac.newSpecification" renderingHint="commandlink" title="createSpec" titleKey="tc_xrt_createSpec"/>
+        <break/>
+        <command actionKey="importSpecAction" commandId="com.teamcenter.rac.importSpec" renderingHint="commandlink" title="importSpec" titleKey="tc_xrt_importSpec"/>
+        <break/>
+        <customPanel java="com.teamcenter.rac.se.core.welcomescreen.SEWelcomeScreenSearchCustomPanel"/>
+    </page>
+</rendering>

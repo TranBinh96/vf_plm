@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MENEWMFG_DefaultJTDatasetNameForSpecificWeldType" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the name of the JT dataset that is attached by default to each newly created weld point. The JT file used is dependent on the number of parts connected.
+Valid Values:
+Accepts a string of the following format:
+weld-type:number-of-connected-parts:dataset-name
+weld-type - Specifies the type of weld. The possible values are:
+Geo
+Process
+Respot
+number-of-connected-parts - Specifies the number of parts connected to each weld point. The possible values are:
+2
+2
+3
+4
+4
+dataset-name - Specifies the name of the JT file containing the weld point representation.</preference_description>
+      <context name="Teamcenter">
+        <value>Geo:&lt;2:rswp_2t_dim_ctrl</value>
+        <value>Geo:2:rswp_2t_dim_ctrl</value>
+        <value>Geo:3:rswp_3t_dim_ctrl</value>
+        <value>Geo:4:rswp_4t_dim_ctrl</value>
+        <value>Geo:&gt;4:rswp_4t_dim_ctrl</value>
+        <value>Respot:&lt;2:rswp_2t</value>
+        <value>Respot:2:rswp_2t</value>
+        <value>Respot:3:rswp_3t</value>
+        <value>Respot:4:rswp_4t</value>
+        <value>Respot:&gt;4:rswp_4t</value>
+        <value>Process:&lt;2:rswp_2t_pro_ctrl</value>
+        <value>Process:2:rswp_2t_pro_ctrl</value>
+        <value>Process:3:rswp_3t_pro_ctrl</value>
+        <value>Process:4:rswp_4t_pro_ctrl</value>
+        <value>Process:&gt;4:rswp_4t_pro_ctrl</value>
+        <value>None:&lt;2:rswp_2t</value>
+        <value>None:2:rswp_2t</value>
+        <value>None:3:rswp_3t</value>
+        <value>None:4:rswp_4t</value>
+        <value>None:&gt;4:rswp_4t</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

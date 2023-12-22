@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEExpandToSelection" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the behavior of the selection synchronization in manufacturing applications. Depending on the value of this preference, when using commands such as Find in other structure, Teamcenter expands the other hierarchy and highlights the selection.
+Valid Values:
+true - The synchronizing view partially expands to the selected line and highlights it.
+false - The synchronizing view highlights the selected line only if it is currently expanded. If a hierarchy was previously expanded and then collapsed, Teamcenter considers it collapsed. If the structure is collapsed, nothing is highlighted.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Transfer_CO_Notification_Enabled" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether to enable or disable Transfer Checkout notifications for transferor and transferee users.
+This preference does not disable Transfer Checkout notifications for users added to the notification list.
+Valid Values:
+* true: Enables Transfer Checkout notifications for transferor and transferee users. This is the default value.
+* false: Disables Transfer Checkout notifications for transferor and transferee users.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

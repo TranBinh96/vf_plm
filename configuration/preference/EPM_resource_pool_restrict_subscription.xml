@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPM_resource_pool_restrict_subscription" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Restricts the resource pools available for subscription based on user membership in the &quot;Resource Pool Subscription&quot; dialog.
+Valid Values:
+ON - the user can subscribe only to groups and roles for which he/she is a member.
+OFF - the users can subscribe to all groups and roles. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

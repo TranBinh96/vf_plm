@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_CreateRenderingInheritTypeList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the types that allow inheritance of creation rendering stylesheets. Valid values are the type names.
+When a type name is added to this list, the Rich client will search through the type hierarchy to determine the creation stylesheet to use.
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0MarkupSpace</value>
+        <value>MECollaborationContext</value>
+        <value>CompositionContext</value>
+        <value>ConfiguredTechnicalPortfolio</value>
+        <value>MEPlantContext</value>
+        <value>MEProcessContext</value>
+        <value>MEProductContext</value>
+        <value>MEResourceContext</value>
+        <value>PrivateContext</value>
+        <value>SpecContext</value>
+        <value>VisStructureContext</value>
+        <value>MENCProgram</value>
+        <value>MENCToolActivity</value>
+        <value>MEWorkpiece</value>
+        <value>Mfg0MEIPA</value>
+        <value>PrivateAppGrp</value>
+        <value>UsageCompareResultView</value>
+        <value>MEProcessLibraryContext</value>
+        <value>MEResourceAssemblyContext</value>
+        <value>Fnd0ParamReqment</value>
+        <value>Ptn0Design</value>
+        <value>Ptn0Functional</value>
+        <value>Ptn0Mfg</value>
+        <value>Ptn0System</value>
+        <value>Ptn0Zone</value>
+        <value>Ptn0SchemeFunctional</value>
+        <value>Ptn0SchemePhysical</value>
+        <value>Ptn0SchemeSpatial</value>
+        <value>Ptn0SchemeSystem</value>
+        <value>Ptn0DesignItem</value>
+        <value>Ptn0FunctionalItem</value>
+        <value>Ptn0MfgItem</value>
+        <value>Ptn0SystemItem</value>
+        <value>Ptn0ZoneItem</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

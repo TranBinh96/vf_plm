@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_wc_show_all" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the content of the list of Work Contexts associated to a user.
+Valid values for this site preference are:
+- FALSE (default) to display only Work Contexts related to the tasks in the user&apos;s Task to Perform folder.
+- TRUE to display Work Contexts related to the tasks in the user&apos;s Task to Perform folder, followed by any other Work Contexts created by the user.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

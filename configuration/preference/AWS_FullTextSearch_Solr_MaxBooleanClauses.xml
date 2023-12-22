@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWS_FullTextSearch_Solr_MaxBooleanClauses" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Represents &quot;maxBooleanClauses&quot; value of solrconfig.xml. If this preference value is modified,&quot;maxBooleanClauses&quot; value of solrconfig.xml has to be modified with the same value of this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>5000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

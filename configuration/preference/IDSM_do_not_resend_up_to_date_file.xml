@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDSM_do_not_resend_up_to_date_file" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether Teamcenter must prevent the retransmission of a replicated file that is still current at the time an attempt to reimport or resend the file is made. Set this preference value to TRUE to prevent retransmission. This preference applies whether or not transfer of site ownership is involved. If no value is set 
+for the preference, Teamcenter always retransmits the files. If this preference value is set to TRUE at a site, instruct the site&apos;s users not to delete replicas if they intend to reimport the object. This can cause new metadata but without the required file. If a missing file occurs, temporarily disable this preference, reimport
+the dataset, and then enable the preference.
+Valid Values:
+TRUE - Prevents the retransmission of up-to-date files.
+FALSE - Allows the retransmission of up-to-date files.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

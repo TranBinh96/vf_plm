@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAssignProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies BOM line properties that are copied over when assigning from an engineering bill of materials (EBOM) to a manufacturing bill of materials (MBOM) and from a product to a process.
+Valid Values:
+Accepts valid internal property names.</preference_description>
+      <context name="Teamcenter">
+        <value>VF3_purchase_lvl_vf</value>
+        <value>VF4_bomline_id</value>
+        <value>VL5_purchase_lvl_vf</value>
+        <value>bl_abs_occ_id</value>
+        <value>bl_formula</value>
+        <value>bl_quantity</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

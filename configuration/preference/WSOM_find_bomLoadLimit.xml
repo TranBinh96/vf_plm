@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WSOM_find_bomLoadLimit" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the number of objects to load out of a BOM for limiting a query in each pass. The larger the number the quicker the load time, but less control the user has to abort.</preference_description>
+      <context name="Teamcenter">
+        <value>250</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

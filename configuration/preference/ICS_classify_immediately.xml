@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_classify_immediately" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the default setting of the Classify Immediately option in the New Item, Save As, and Revise dialog boxes. This preference is valid only when the ICS_classify_new preference is set.
+Valid Values:
+0 - The Classify Immediately option is not selected by default when the dialog box appears.
+1 - The Classify Immediately option is selected by default when the dialog box appears.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

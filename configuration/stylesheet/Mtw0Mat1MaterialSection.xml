@@ -1,0 +1,29 @@
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+    <section titleKey="mtw0_xrt_materialsection">
+        <objectSet source="Mat1UsesMaterial.Mat1MaterialRevision" defaultdisplay="tableDisplay" sortby="object_name" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_name"/>
+                <property name="Mat1UsesMaterial.mat1mass"/>
+                <property name="Mat1UsesMaterial.mat1uom_tag"/>
+                <property name="Mat1UsesMaterial.mat1PreConsumerRecylFrom"/>
+                <property name="Mat1UsesMaterial.mat1PreConsumerRecylTo"/>
+                <property name="Mat1UsesMaterial.mat1PostConsumerRecylFrom"/>
+                <property name="Mat1UsesMaterial.mat1PostConsumerRecylTo"/>
+            </tableDisplay>
+            <listDisplay/>
+            <command actionKey="newBusinessObjectContextualAction" commandId="Mtw0ShowAddObject" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </section>
+</subRendering>

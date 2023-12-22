@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VIS_expand_below_batch_size" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the batch size of BOM Lines to expand for all Teamcenter Visualization &quot;Expand&quot; operations.
+These operations expand the lines in each level in batches, with the batch size defined by this preference.
+A value of -1 indicates that there is no maximum batch size and that all lines in a single level will be processed in one batch.
+The default value is 50.
+This is a user preference.</preference_description>
+      <context name="Teamcenter">
+        <value>50</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

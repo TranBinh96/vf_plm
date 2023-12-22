@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Substance Compliance">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Scp0ApplicableExemption.CellProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the property name and values to display in object cell for applicable Exemption.</preference_description>
+      <context name="Teamcenter">
+        <value>scw0identifier</value>
+        <value>scw0ListID</value>
+        <value>scw0ExemptionText</value>
+        <value>scw0CombinedDateText</value>
+        <value>scp0ExpiryDates</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_hide_subsequent_task_errors" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Deactivates the visibility of error/notification message on UI when the subsequent task in the workflow has failed.
+Valid values are:
+* true: the message is not visible for the above-mentioned Workflow types. This is the default value.
+* false: the message is visible for the above-mentioned Workflow types.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mci0ExtractPatternPMI" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if all of the Product Manufacturing Information (PMI) in a pattern should be imported.
+Valid Values:
+* &quot;true&quot;:  all the PMIs mentioned in the pattern are imported.
+* &quot;false&quot;: only one PMI of the pattern is imported. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

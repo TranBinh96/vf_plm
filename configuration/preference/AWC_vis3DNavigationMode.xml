@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_vis3DNavigationMode" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default 3D navigation mode for the Viewer in the Active Workspace client.
+Valid values are:
+* EXAMINE : Sets the 3D navigation mode to EXAMINE. This is the default value.
+* WALK : Sets the 3D navigation mode to WALK.</preference_description>
+      <context name="Teamcenter">
+        <value>EXAMINE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

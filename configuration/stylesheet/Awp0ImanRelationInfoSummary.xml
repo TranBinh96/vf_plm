@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2017 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Awp0ImanRelationInfoSummary.xml
+
+Default style sheet for displaying ImanRelation Object Summary Active Workspace.
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <property name = "name"/>
+    </header>
+    <page titleKey = "tc_xrt_properties" title = "Properties"> 
+        <property name = "name"/>
+        <property name = "description"/>
+        <property name = "relation_type"/>
+        <property name = "primary_object"/>
+        <property name = "secondary_object"/>                  
+    </page>
+</rendering>

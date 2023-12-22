@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_LoadUpdateSave_DrawingUpdate" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Each Drawing that is linked to the selected component is also updated. However, if the Load/Update/Save process is performed on a dataset, only the dataset is updated.
+Linked Drawings are not updated when a Load/Update/Save process is performed on a dataset. 
+Please see Rules and Conventions within the Load_Update_Save Process documentation for additional information.
+The default value is false</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

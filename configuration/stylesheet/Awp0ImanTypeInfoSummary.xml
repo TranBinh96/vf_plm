@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2015 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Awp0ImanTypeInfoSummary.xml
+
+Default style sheet for displaying ImanType Object Summary Active Workspace.
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+  <header>
+    <image source = "type"/>
+  </header>
+  <page titleKey="tc_xrt_Overview">
+    <column>
+      <section titleKey="tc_xrt_Properties">
+        <property name="type_name"/>
+      </section>
+    </column>
+  </page>
+</rendering>

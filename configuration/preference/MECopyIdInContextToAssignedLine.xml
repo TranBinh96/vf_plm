@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECopyIdInContextToAssignedLine" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if the in-context ID is copied to the assigned line during an assignment operation. When this preference is set to True, you do not have to expand a target structure before performing an accountability check or when using the Find in Other Panel menu command.
+Valid Values:
+True - The in-context ID is copied to the assigned line during an assignment operation. If no in-context ID is present, Teamcenter creates one and then copies it.
+False - The in-context ID is not copied (even if one is present) to the assigned line during an assignment operation.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_WORKLIST_ITEMS_COLUMNS" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Description not provided during import.</preference_description>
+      <context name="Teamcenter">
+        <value>object_string</value>
+        <value>job_name</value>
+        <value>object_desc</value>
+        <value>due_date</value>
+        <value>root_target_attachments</value>
+        <value>owning_user</value>
+        <value>task_state</value>
+        <value>parent_name</value>
+        <value>object_type</value>
+        <value>last_mod_date</value>
+        <value>root_target_attachments.C2IssueRevision.CMMaturity</value>
+        <value>root_target_attachments.C2CapaRevision.CMMaturity</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

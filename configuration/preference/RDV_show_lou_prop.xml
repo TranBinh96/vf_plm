@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_show_lou_prop" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers new property columns and adds them to the Available Properties list in Structure Manager and Platform Designer. The user can then add any of these columns by right-clicking and choosing Insert Column from the list. Teamcenter shows the properties of the configured part solutions of an architecture breakdown element (ABE), as a comma-separated string on the ABE itself.
+Valid Values:
+Any valid property name prefixed with bl_lou_.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,30 @@
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+<section titleKey ="tc_xrt_Contacts" title = "Contacts">
+   <objectSet source = "ContactInCompany.CompanyContact,Scp0MSDContactInCompany.CompanyContact,Scp0CMDContactInCompany.CompanyContact" defaultdisplay = "tableDisplay" sortby = "object_name" sortdirection = "ascending">
+      <tableDisplay>
+         <property name = "object_name"/>
+         <property name = "title"/>
+         <property name = "phone_business"/>
+         <property name = "phone_mobile"/>
+         <property name = "email_address"/>
+         <property name = "relation"/>
+      </tableDisplay>
+      <thumbnailDisplay/>
+      <listDisplay/>
+      <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+      <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+      <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+         <parameter name="localSelection" value="true"/>
+      </command>
+   </objectSet>
+</section>
+</subRendering>

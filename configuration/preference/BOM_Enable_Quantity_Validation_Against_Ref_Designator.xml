@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Product Structure Synchronization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_Enable_Quantity_Validation_Against_Ref_Designator" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Verifies whether the quantity is blank or 1 when the reference designator is assigned.
+Valid Values:
+true - Verifies that when a reference designator value is assigned, the quantity is either blank or 1. Verifies that when a quantity that is neither blank nor 1 is to be set, the reference designator value of the line is not assigned. An error appears when the values do not comply.For example, when the reference designator is C1 and a user changes the quantity to 3, an error appears. Or, if the quantity is 3 and a user sets the reference designator to C1, an error appears.
+false - The system does not validate reference designator values.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

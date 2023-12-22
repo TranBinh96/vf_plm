@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA84_mapping_date_format" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to set the format used in attribute mapping when converting a Teamcenter attribute of type &quot;Date&quot; to an AutoCAD attribute (always string typed).
+The supported syntax is the same as for C function strftime specification (for additional details refer to http://msdn.microsoft.com/en-us/library/fe06s4ak(v=vs.71).aspx).
+For example, setting the format as &quot;%Y-%m-%d %H:%M&quot; will generate dates like &quot;2012-02-20 12:51&quot;.
+If the preference is not defined or its value is empty date attributes will be converted using Teamcenter internal default format &quot;yyyy-MM-ddThh:mm:ss(+/-)zz:zz&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

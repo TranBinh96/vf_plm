@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_presented_class_documents" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines which named references display in the class viewer. The system searches all datasets of the selected class for named references. Any named references corresponding to the values of this preference display as a tab in the class viewer.
+Valid Values:
+One or more strings as values. Each string must be a valid named reference.</preference_description>
+      <context name="Teamcenter">
+        <value>ICS-ClassImage</value>
+        <value>ICS-ClassImage1</value>
+        <value>ICS-ClassImage2</value>
+        <value>ICS-ClassImage3</value>
+        <value>ICS-ClassImage4</value>
+        <value>ICS-ClassImage5</value>
+        <value>ICS-ClassImage6</value>
+        <value>ICS-ClassImage7</value>
+        <value>ICS-ClassImage8</value>
+        <value>ICS-ClassImage9</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+==================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<rendering>
+    <header>
+        <property name = "awb0Name"/>
+    </header>
+    <page titleKey = "tc_xrt_Summary" title = "Summary">     
+        <section titleKey="tc_xrt_Preview" title = "Preview">
+            <image source = "thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_properties" title = "Properties">
+            <property name = "awb0ArchetypeId" renderingHint = "label"/>
+            <property name = "awb0ArchetypeRevId" renderingHint = "label"/>
+            <property name = "awb0ArchetypeRevName"/>
+            <property name = "awb0ArchetypeRevDescription"/>
+            <property name = "awb0OccName"/>
+            <property name = "awb0Archetype.object_type"/>
+            <property name = "awb0Sequence"/>
+            <property name = "REF(awb0UnderlyingObject,RequirementSpec Revision).REF(items_tag,Item).GRM(IMAN_based_on,RequirementSpec).object_string" titleKey="tc_xrt_based_on" />
+            <property name = "REF(awb0UnderlyingObject,RequirementSpec Revision).REF(items_tag,Item).GRM(Arm0DerivedFrom,RequirementSpec).object_string" titleKey="tc_xrt_derived_from" />
+            <break/>
+            <property name = "awb0ArchetypeRevRelStatus" renderingHint = "label"/>
+            <property name = "awb0ArchetypeRevReleaseDate" renderingHint = "label"/>
+            <property name = "awb0ArchetypeRevEffText" renderingHint = "label"/>
+            <break/>
+            <property name = "awb0ArchetypeRevOwningUser" renderingHint = "objectlink" modifiable = "false"/>
+            <property name = "awb0ArchetypeRevOwningGroup" renderingHint = "objectlink" modifiable = "false"/>
+            <break/>
+            <property name = "awb0ArchetypeRevLastModUser"/>
+            <property name = "awb0Parent"/>
+            <property name = "awb0NumberOfChildren"/>
+        </section>
+    </page>
+</rendering>

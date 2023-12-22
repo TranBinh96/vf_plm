@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_admin_requires_dba" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Give NON-DBA users access to the Classification Admin. Application. Valid Values: true/false. true - User requires dba privileges to access Classification Admin. false - User has access to Classification Admin. If you allow non-dba users to log into Classification Admin., please note that the users will have full read/write access! To protect the hierarchy, the dictionary, and the KeyLOVs from unauthorized access, they need to be protected using the AccessControl tab.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

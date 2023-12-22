@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WORKFLOW_new_route_task_panel" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Site Preference to display the new route task panel with action column instead of route task panel with radio buttons. Valid values are ON/OFF. If it is set to ON, the new route task panel will be displayed.If it is set to OFF, the old route task panel with radio buttons will be displayed.</preference_description>
+      <context name="Teamcenter">
+        <value>ON</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

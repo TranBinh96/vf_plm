@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_BOM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINFAST_BOM_VIEW_CONFIG" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This configure contain list properties using in the bomview. Will use for some tools
+Exp: index,display name,real name</preference_description>
+      <context name="Teamcenter">
+        <value>0,Level,bl_level_starting_0</value>
+        <value>1,Q Checker,vf4_q_checker</value>
+        <value>2,Module Group English,VL5_module_group</value>
+        <value>3,Module Group Vietnamese,VF4_LNT_modul_grp_vi</value>
+        <value>4,Main Module English,VL5_main_module</value>
+        <value>5,Main Module Group Vietnamese,VF4_LNT_main_mgrp_vi</value>
+        <value>6,Module Name,VL5_module_name</value>
+        <value>7,Module Vietnamese,VF4_LNT_module_vi</value>
+        <value>8,ERM,bl_rev_vl5_erm</value>
+        <value>9,EBUS Vehicle Type,vf4_DsnRev_ebus_veh_type</value>
+        <value>10,POS ID,VL5_pos_id</value>
+        <value>11,Change Index,VL5_change_index</value>
+        <value>12,Item ID,bl_item_item_id</value>
+        <value>13,Revision ID,awb0BomLineRevId</value>
+        <value>14,Item Name,bl_item_object_name</value>
+        <value>15,Item Name Vietnamese,VF4_LNT_item_name_vi</value>
+        <value>16,Find No,bl_sequence_no</value>
+        <value>17,Release Statuses,awb0RevisionRelStatusList</value>
+        <value>18,Date Released,awb0RevisionReleaseDate</value>
+        <value>19,Maturity Level,bl_rev_vl5_maturity_level</value>
+        <value>20,Reference Number,bl_rev_vl5_ref_num</value>
+        <value>21,BOM Comments,VL5_bom_comment</value>
+        <value>22,Variant Conditions,bl_variant_condition</value>
+        <value>23,Variant Formula,bl_formula</value>
+        <value>24,Mounting Comment,VL5_mounting_comment</value>
+        <value>25,Torque Information,VL5_torque_inf</value>
+        <value>26,Material,vf4_catia_material</value>
+        <value>27,Standard Part,bl_rev_vl5_standard_part</value>
+        <value>28,Usage Either/Or,VL5_usage_bl</value>
+        <value>29,Part Make/Buy,bl_item_vf4_item_make_buy</value>
+        <value>30,Purchase Level Vinfast,VL5_purchase_lvl_vf</value>
+        <value>31,Purchase Level VinGroup,VL5_purchase_lvl_vg</value>
+        <value>32,Manufacturing Strategy,VL5_manuf_strategy</value>
+        <value>33,Quantity,bl_quantity</value>
+        <value>34,Unit Of Measure,bl_item_uom_tag</value>
+        <value>35,CAD Weight [g]/Part,vf4_catia_weight</value>
+        <value>36,Length (mm),vf4_length_in_cm</value>
+        <value>37,Section (Volume),vf4_section</value>
+        <value>38,Styling Relevant,bl_rev_vl5_styling_relevant</value>
+        <value>39,EE Relevant,bl_rev_vl5_ee_relevant</value>
+        <value>40,SW Flashable,bl_rev_vl5_sw_flashable</value>
+        <value>41,Colored Part,bl_rev_vl5_colored_part</value>
+        <value>42,Safety Relevant,bl_rev_vl5_safety_relevant</value>
+        <value>43,Certification Relevant,bl_rev_vl5_certification_relevant</value>
+        <value>44,Part Owner,bl_rev_vl5_part_owner</value>
+        <value>45,Purchasing Name,bl_rev_vl5_purchasing_name</value>
+        <value>46,Supplier Type,vf4_DsnRev_supplier_type</value>
+        <value>47,Supplier Package,VL5_supp_pkg</value>
+        <value>48,Supplier Name,bl_item_vf4_itm_supplier_name</value>
+        <value>49,Supplier On Board,bl_rev_vl5_supplier_board</value>
+        <value>50,Item Rev Status,bl_rev_release_status_list</value>
+        <value>51,After Sales Relevant,bl_rev_vl5_after_sale_relevant</value>
+        <value>52,After Sales Page Number,VL5_after_sale_page</value>
+        <value>53,After Sales Picture Number,VL5_after_sales_pict</value>
+        <value>54,Aftersales Comment,bl_rev_vl5_aftersales_comment</value>
+        <value>55,Part Classification,VL5_part_class</value>
+        <value>56,Replacement By,bl_rev_vl5_replacement_by</value>
+        <value>57,Replacement Code,bl_rev_vl5_replacement_code</value>
+        <value>58,Replacement For,bl_rev_vl5_replacement_for</value>
+        <value>59,See Drawing,bl_rev_vl5_see_drawing</value>
+        <value>60,JT_DATASET_NAME,bl_rev_pr4d_JT_DATASET_NAME</value>
+        <value>61,Implementation With...,VL5_impl_with</value>
+        <value>62,SpecBook Number,bl_rev_vl5_specbook_num</value>
+        <value>63,SOR Number,bl_rev_vf4_sor_number_rev</value>
+        <value>64,SOR Name,vf4_DsnRev_sor_name</value>
+        <value>65,Long Or Short Lead,vf4_DsnRev_long_short_lead</value>
+        <value>66,Vehicle Variant,VF4_ebus_veh_variant</value>
+        <value>67,P ERN Release Planned,VF4_LNT_pern_rel_pla</value>
+        <value>68,PR ERN Release Planned,VF4_LNT_prern_re_pla</value>
+        <value>69,I ERN Release Planned,VF4_LNT_iern_re_plan</value>
+        <value>70,BOM Line,bl_indented_title</value>
+        <value>71,X Vector,bl_plmxml_abs_xform</value>
+        <value>72,Y Vector,bl_plmxml_abs_xform</value>
+        <value>73,Z Vector,bl_plmxml_abs_xform</value>
+        <value>74,X Component,bl_plmxml_abs_xform</value>
+        <value>75,Y Component,bl_plmxml_abs_xform</value>
+        <value>76,Z Component,bl_plmxml_abs_xform</value>
+        <value>77,Item Type,bl_item_object_type</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

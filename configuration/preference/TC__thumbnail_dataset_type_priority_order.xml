@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Common Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC__thumbnail_dataset_type_priority_order" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the order in which the datasets will be queried for the thumbnail image to display.
+Valid values are internal dataset type names. The first value in the list gets the highest priority and then progressively lower priority.
+The datasets order will first be evaluated by the order of the relation types defined in the &quot;TC__thumbnail_relation_order&quot; preference.
+The order sorting by the dataset type from this preference will happen after that.</preference_description>
+      <context name="Teamcenter">
+        <value>UGMASTER</value>
+        <value>UGPART</value>
+        <value>DirectModel</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

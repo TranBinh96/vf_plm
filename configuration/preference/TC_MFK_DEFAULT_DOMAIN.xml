@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_MFK_DEFAULT_DOMAIN" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the domain used by the ITEM_find_item
+ITK function where the multifield key unique identifier is not used. Using this preference ensures that external CAD applications that are not multifield key compliant can locate objects in Teamcenter. A valid value is a domain name. 
+A domain name is the same as the business object type where the multifield definition is specified (for example, Item). The operation searches among object types in the specified domain. The multifield key unique identifier must be 
+item_id for this domain. NX only supports items in the default domain. If you use NX Integration, you must install the NX part family integration feature in maintenance mode to ensure that the Item value is set for this preference.
+Valid Values:
+A multifield key domain name.</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

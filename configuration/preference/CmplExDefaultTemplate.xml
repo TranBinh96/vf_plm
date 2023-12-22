@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="CmplExDefaultTemplate" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default value associated to the option &quot;Template&quot; in the Substance Compliance Exchange view opened by clicking the menu item &quot;Supplier Exchange -&gt; Substance Compliance Exchange -&gt; Send Selected&quot; in the Teamcenter application.
+The default value is &quot;Substance_Compliance_Sample_Exchange&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Substance_Compliance_Sample_Exchange</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

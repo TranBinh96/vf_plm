@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Fnd0WorkflowAudit. -->
+
+<subRendering>
+        <section titleKey="tc_xrt_WorkflowLogs">
+            <objectSet source="fnd0WorkflowAuditLogs.Fnd0WorkflowAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="descending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="fnd0UserId"/>
+                    <property name="object_name"/>
+                    <property name="object_type"/>
+                    <property name="job_name"/>
+                    <property name="process_templateDisp"/>
+                    <property name="task_state"/>
+                    <property name="task_result"/>
+                    <property name="fnd0Comments"/>
+                    <property name="responsible_party"/>
+                    <property name="fnd0SecondaryObjDispName"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                    <property name="fnd0SecondaryObjQualifier"/>
+                    <property name="fnd0SignoffUserID"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+</subRendering>

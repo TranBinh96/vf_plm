@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_BOM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINFAST_BOM_VALIDATION_RULE" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This one use for BOM Report plugin</preference_description>
+      <context name="Teamcenter">
+        <value>BOM_VALIDATE_MODULE_GROUP_ENGLISH,Description 1</value>
+        <value>BOM_VALIDATE_PURCHASE_LEVEL,Description 2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name=" EE Component BOM VIEW _ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMLine.bl_sequence_no</value>
+        <value>BOMLine.bl_level_starting_0</value>
+        <value>BOMLine.awb0BomLineItemId</value>
+        <value>BOMLine.bl_item_object_name</value>
+        <value>BOMLine.vf4_type</value>
+        <value>BOMLine.bl_substitute_list</value>
+        <value>BOMLine.bl_occ_int_order_no</value>
+        <value>BOMLine.bl_quantity</value>
+        <value>BOMLine.bl_uom</value>
+        <value>BOMLine.VL5_purchase_lvl_vf</value>
+        <value>BOMLine.vf4_process</value>
+        <value>BOMLine.VF4_ECPartDesignator</value>
+        <value>BOMLine.vf4_ratings</value>
+        <value>BOMLine.vf4_temperature</value>
+        <value>BOMLine.vf4_RoHS</value>
+        <value>BOMLine.bl_item_vf4_itm_supplier_name</value>
+        <value>BOMLine.bl_indented_title</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

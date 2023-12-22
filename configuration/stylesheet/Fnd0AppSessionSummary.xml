@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+==================================================
+Copyright 2019.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<!-- Default style sheet for displaying Fnd0AppSession Summary. -->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_Properties">
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="object_type"/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_user"/>
+            <property name="fnd0AllowReadShare"/>
+            <property name="fnd0AllowWriteShare"/>
+        </section>
+        <section titleKey="tc_xrt_smr0Contains">
+            <objectSet source="awb0ProductsInSession.ItemRevision,VisManagedDocument.Dataset" defaultdisplay="tableDisplay" sortby="object_name" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_name"/>
+                    <property name="item_id"/>
+                    <property name="object_type"/>
+                    <property name="object_desc"/>
+                    <property name="owning_user"/>
+                    <property name="release_status_list"/>
+                    <property name="last_mod_date"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_name"/>
+                    <property name="item_id"/>
+                    <property name="object_type"/>
+                    <property name="object_desc"/>
+                    <property name="owning_user"/>
+                    <property name="release_status_list"/>
+                    <property name="last_mod_date"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_attachments">
+        <section titleKey="tc_xrt_Files">
+            <objectSet source="IMAN_specification.Dataset,IMAN_reference.Dataset" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_Documents">
+            <objectSet source="IMAN_specification.DocumentRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

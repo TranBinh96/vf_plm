@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client.Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Admin - Group/Role Membership_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>No description available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>GroupMember.membership_last_sync_date</value>
+        <value>GroupMember.group</value>
+        <value>GroupMember.default_role</value>
+        <value>GroupMember.membership_data_source</value>
+        <value>GroupMember.status</value>
+        <value>GroupMember.ga</value>
+        <value>GroupMember.owning_site</value>
+        <value>GroupMember.role</value>
+        <value>GroupMember.user</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

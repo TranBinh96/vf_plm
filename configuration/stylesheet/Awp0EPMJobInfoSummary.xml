@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2020.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying a workflow job in the Info Panel. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name"/>
+            <property name="fnd0StringState"/>
+            <property name="object_type"/>
+            <property name="fnd0StartDate" />
+            <content  visibleWhen="fnd0EndDate!=null" >
+                <property name="fnd0EndDate" />
+            </content>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="process_template" />
+            <property name="fnd0Late" />
+            <content  visibleWhen="REF(root_task, EPMJob).root_target_attachments!=null" >
+                <property name="REF(root_task, EPMJob).root_target_attachments" />
+            </content>
+        </section>
+        <htmlPanel declarativeKey="Awp0Signoff"/>
+        <content visibleWhen="fnd0StartedWorkflowTasks!=null">
+            <section titleKey="tc_xrt_CurrentTasks" >
+                <objectSet source="fnd0StartedWorkflowTasks.EPMTask" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_string"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+       </content>
+       <content visibleWhen="fnd0ErrorTasks!=null">
+            <section titleKey="tc_xrt_ErrorDetails" >
+                <objectSet source="fnd0ErrorTasks.EPMTask" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_string"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </content>
+    </page>
+</rendering>

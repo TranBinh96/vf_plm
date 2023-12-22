@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: DC_ProcedureSummary.xml
+
+    Default style sheet for displaying DC_Procedure summary.
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date             Name                    Description of Change
+08/26/2010       tomaszew                Initial Version
+=======================================================================
+@<DEL>@ 
+-->
+
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_ItemProperties">
+            <property name="item_id" renderingHint="textfield" />
+            <property name="object_name" renderingHint="textfield" />          
+            <property name="object_type" />
+            <separator/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_user"/>
+            <separator/>
+            <property name="checked_out"/>
+            <property name="checked_out_user"/>
+            <separator/>
+            <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+        </section>
+        <section titleKey="tc_xrt_AvailableRevisions">
+            <objectSet source="revision_list.ItemRevision" defaultdisplay="tableDisplay" sortdirection="descending" sortby="item_revision_id">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="item_revision_id"/>                     
+                    <property name="release_status_list"/>
+                    <property name="last_mod_date"/>
+                    <property name="last_mod_user"/>
+                    <property name="checked_out_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="item_revision_id"/>                     
+                    <property name="release_status_list"/>
+                    <property name="last_mod_date"/>
+                    <property name="last_mod_user"/>
+                    <property name="checked_out_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+		<objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="lis0site"/>
+				<property name="lis0serviceProvider"/>
+				<property name="relation"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+			<command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+				<parameter name="localSelection" value="true"/>
+			</command>
+			<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+			<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+				<parameter name="localSelection" value="true"/>
+			</command>
+		</objectSet>
+	</page>
+</rendering>

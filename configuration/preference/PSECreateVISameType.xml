@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSECreateVISameType" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether variant items are always created as the same type as the parent, using the SaveAs creation method. Triggers an alternative variant item creation process, useful if Business Modeler IDE rules prevent normal variant item creation.
+Valid Values:
+true - Automatically creates variant items as the same type as the parent, using the SaveAs creation method.
+false - Does not provide an alternative item creation process. Does not automatically create variant items as the same type as the parent, using the SaveAs creation method.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

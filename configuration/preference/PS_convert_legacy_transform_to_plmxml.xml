@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_convert_legacy_transform_to_plmxml" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Allows Teamcenter to display legacy transforms in a PLM XML format. This preference is only effective if a legacy transform exists and no PLM XML transform is assigned.This preference can be set using the preference name as an environment variable.
+Valid Values:
+true - Teamcenter tries to convert the legacy transform to PLM XML format for display purposes only.
+false - Teamcenter displays the legacy transform as is.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

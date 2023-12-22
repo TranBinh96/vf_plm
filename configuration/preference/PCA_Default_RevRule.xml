@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PCA_Default_RevRule" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default Revision Rule used during the opening of Configurator objects (e.g. Option Value, Option Family) in the &quot;Variant Options&quot; view.
+A valid value is the name of a Revision Rule that is valid for usage in Configurator application and defined in the database.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

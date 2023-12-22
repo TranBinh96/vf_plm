@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_hide_unreadable_lines" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>For the user from the specified groups, unreadable lines will be hidden.
+Valid Values:
+- None: Unreadable lines are displayed with the name &lt;&lt;UNREADABLE&gt;&gt;. This is the default value.
+- All: Unreadable lines are not visible.
+- group name,group name : For the users from the specified group(s), the unreadable lines will be hidden.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2014. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+-->
+<!-- 
+======================================================================= 
+     Filename: Ctm0SNSRootNodeCreate.xml  
+   
+     Default style sheet for displaying Ctm0SNSRootNode Create 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+04/14/14     mierwald                 Initial Version 
+======================================================================= 
+@<DEL>@  
+-->
+
+<rendering>
+
+  <page title=" ">
+    <section titleKey="tc_xrt_Properties">
+      <property name="item_id" renderingHint="textfield" />
+      <property name="revision:item_revision_id" renderingHint="textfield" />
+      <property name="object_name" renderingHint="textfield" />
+      <property name="revision:civ0ModelIC"  /> 
+      <property name="revision:civ0SDC"  /> 
+      <property name="revision:civ0DisCodeV"  /> 
+	  
+      <property name="revision:civ0SecurityClass"  /> 
+      <property name="revision:civ0LangTagRef"  /> 
+	  
+      <property name="revision:civ0Orig"  /> 
+      <property name="revision:civ0OrigName"  /> 
+      <property name="revision:civ0RPC"  /> 
+      <property name="revision:civ0RPCName"  /> 
+	  
+      <property name="revision:civ0FromDivName"  /> 
+      <property name="revision:civ0FromStreet"  /> 
+      <property name="revision:civ0FromPOBox"  /> 
+      <property name="revision:civ0FromCity"  /> 
+      <property name="revision:civ0FromState"  /> 
+      <property name="revision:civ0FromZip"  /> 
+      <property name="revision:civ0FromProvince"  /> 
+      <property name="revision:civ0FromPostCode"  /> 
+      <property name="revision:civ0FromCountry"  /> 
+
+    </section>  
+  </page>
+
+</rendering>

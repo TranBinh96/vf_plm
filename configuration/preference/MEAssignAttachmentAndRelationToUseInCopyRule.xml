@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAssignAttachmentAndRelationToUseInCopyRule" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the attachment and relation types that are referenced or copied when assigning from an EBOM to an MBOM.
+Valid Values:
+Accepts one or more strings as values, each string must have the following format:
+AttachmentType:RelationType:CopyRule
+AttachmentType and RelationType are the internal names of the attachment and relation types, and CopyRule is either the Copy or Reference rule.
+Currently, only Reference is supported.For example, if you create a custom form and attach it to an object, the Attachments view is displayed as follows:The attachment type is Customform, and the relation type is Specifications. To define the attachment and relation type for this example, 
+the preference has the following value:Customform:IMAN_specification:ReferenceThe internal name of the relation is IMAN_specification. The internal and display name of the custom form are the same.</preference_description>
+      <context name="Teamcenter">
+        <value>Mci0PMIChracteristicFrm:Mci0PMI_Details:Copy</value>
+        <value>Mes0MEDCDBaseForm:Mes0MEDCD_Details:Copy</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

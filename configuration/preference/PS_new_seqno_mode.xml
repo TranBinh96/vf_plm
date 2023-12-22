@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_new_seqno_mode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines how new find numbers are allocated when items are inserted into a BOM view or BOM view revision.
+Valid Values:
+new - Every item is given a new find number within the current BOM view, starting with 10 and increasing by 10.
+existing - If an item of the same ID already exists in the BOM view, the inserted item is given the same find number. If not, the item is given a new find number as above.
+none - No find number is allocated to items inserted into a BOM view; users can add their own later.</preference_description>
+      <context name="Teamcenter">
+        <value>existing</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

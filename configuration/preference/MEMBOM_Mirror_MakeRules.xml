@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMBOM_Mirror_MakeRules" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the key/value pairs of BOM line properties and their corresponding values used to determine if a new manufacturing BOM node is to be created when the me_create_mbom utility is invoked, for each BOM line that matches the criteria.
+Valid Values:
+KEY:BOM-line-property-internal-name,VALUE:property-value1[|VALUE:property-value2]KEY:GCS CP,VALUE:Make</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

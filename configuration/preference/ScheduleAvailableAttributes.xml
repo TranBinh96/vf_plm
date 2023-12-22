@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="ScheduleAvailableAttributes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Site Preference Used for Listing Schedule Attributes in Column Chooser Dialog in ProgramView.</preference_description>
+      <context name="Teamcenter">
+        <value>Schedule.object_desc</value>
+        <value>Schedule.start_date</value>
+        <value>Schedule.finish_date</value>
+        <value>Schedule.fnd0status</value>
+        <value>Schedule.priority</value>
+        <value>Schedule.schedule_type</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

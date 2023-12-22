@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_track_variant_condition_changes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the change types for which variant BOM changes can be tracked.
+Valid Values:
+Accepts multiple strings as values; each string must contain a valid Teamcenter change type using the following syntax:
+
+CM_note_types_to_track=
+Change-Type1:Note-Type1,Note-Type2
+Change-Type2:Note-Type1,Note-Type4
+
+For example, a valid value is:
+ChangeNotice:UG Geometry,UG NAME</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

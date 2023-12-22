@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_auto_login" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Administrators can use this preference to enable auto-login facility. Valid values are TRUE/FALSE. TRUE - Auto login via OS user name is in effect. FALSE - Auto login via OS user name is not in effect. This is a site preference only.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

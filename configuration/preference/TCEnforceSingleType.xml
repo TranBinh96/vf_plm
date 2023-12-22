@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCEnforceSingleType" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether items in a structure are restricted to a single item or GDE type, thus determining whether structures must be homogeneous, or can be heterogeneous.GDEs are general design elements used to model electrical interfaces.
+Valid Values:
+true - Items in a structure are restricted to a single item or GDE type. Users can only create homogeneous structures; any children added must be the same type as the parent.When this preference is set to true, the values of the TCAllowedChildTypes_</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

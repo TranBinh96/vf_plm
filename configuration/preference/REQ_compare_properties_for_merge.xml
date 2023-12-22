@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.REQ">
+    <category_description>Active Workspace preferences</category_description>
+    
+               <preference name="REQ_compare_properties_for_merge" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of properties on revision that need to be exported for Compare and Merge of derived specification and master specification.
+The valid values are property internal name.</preference_description>
+      <context name="Teamcenter">
+        <value>object_desc</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

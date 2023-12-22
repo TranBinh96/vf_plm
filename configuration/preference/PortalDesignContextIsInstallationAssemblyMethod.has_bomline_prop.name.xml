@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Context Definition">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextIsInstallationAssemblyMethod.has_bomline_prop.name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the BOM line property name used to identify an installation assembly using the has_bomline_prop method. Use this preference with the PortalDesignContextIsInstallationAssemblyMethod.has_bomline_prop.value preference to identify installation assemblies by BOM line name and value.
+Valid Values:
+Accepts a single string as a value. Can be any valid property name or run-time property name on a BOM line.</preference_description>
+      <context name="Teamcenter">
+        <value>Installation_Assembly</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

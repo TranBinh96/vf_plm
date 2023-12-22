@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_GANTT_QTR_ZM_B_DF" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the date format at the bottom of the Gantt chart for viewing the quarter of the year.
+Valid Values:
+n/yyyy
+Format using a combination of the valid characters that comprise the date pattern, for example, n for quarter character and yyyy for year. Values for quarter and year are enclosed 
+in quotation marks. The default separator is the forward slash character (/). The information is specific to iconographic languages.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

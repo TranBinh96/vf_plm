@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="BOM Markup Space">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EDITCONTEXT_change_proposal_enabled" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the Creation of the Change Proposal Business Object in the RAC and Active WorkSpace.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Validation Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_VALIDATION_RULE_SET_ITEM_REVISIONS" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of item revisions that contain validation rule datasets, and which are displayed in the Rule Setlist of the Rule Set Evaluation tab in the Validation Manager. You can always type in or paste items and item revisions into the list. Register them into this preference list after creation.
+Valid Values:
+Accepts one or more strings as values; each string must be a valid item revision.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

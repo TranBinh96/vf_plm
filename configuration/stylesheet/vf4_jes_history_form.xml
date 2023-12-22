@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rendering>
+
+    <page title="General">
+        <column>
+            <section title="General">
+                <property name="vf4_name_operation" column="32" />
+                <property name="object_desc" column="32" />
+                <property name="vf4_vehicle_type" column="32" />
+                <property name="vf4_model" column="32" />
+                <property name="vf4_shop" column="32" />
+                <property name="vf4_jes_version" column="32" />
+                <property name="vf4_date_prepared" column="32" />
+                <property name="vf4_prepared_by" column="32" />
+                <property name="last_mod_date" column="32" />
+                <property name="vf4_operation_id" column="32" />
+                <property name="vf4_total_time" column="32" />
+                <property name="vf4_location" column="32" />
+                <property name="vf4_change_request_desc" column="32" />
+                <property name="vf4_change_request_type" column="32" />
+                <property name="vf4_change_request_item" column="32" />
+                <property name="vf4_ppe" column="32" />
+                <property name="vf4_image" />
+            </section>
+        </column>
+        <column>
+            <section title="Approval">
+                <property name="vf4_group_leader_approval_1" column="32" />
+                <property name="vf4_group_leader_approval_2" column="32" />
+                <property name="vf4_group_leader_approval_3" column="32" />
+                <property name="vf4_team_leader_approval_1" column="32" />
+                <property name="vf4_team_leader_approval_2" column="32" />
+                <property name="vf4_team_leader_approval_3" column="32" />
+                <property name="vf4_pro_engineer_approval_1" column="32" />
+                <property name="vf4_pro_engineer_approval_2" column="32" />
+                <property name="vf4_pro_engineer_approval_3" column="32" />
+            </section>
+            <section title="Detail Steps">
+                <objectSet source="vf4_jes_detail_steps_table.VF4_jes_detail_steps_table"
+                    defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="vf4_step_id" />
+                        <property name="vf4_symbol" />
+                        <property name="vf4_description" />
+                    </tableDisplay>
+                    <command actionKey="newBusinessObjectContextualAction"
+                        commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+                        renderingHint="commandbutton">
+
+                        <parameter name="localSelection" value="true" />
+
+                    </command>
+
+                    <command actionKey="pasteAction"
+                        commandId="com.teamcenter.rac.viewer.pastewithContext"
+                        renderingHint="commandbutton" />
+
+                </objectSet>
+            </section>
+            <section title="Parts List">
+                <objectSet source="vf4_jes_parts_list.VF4_jes_parts_list"
+                    defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="vf4_step_id" />
+                        <property name="vf4_part_number" />
+                        <property name="vf4_part_name" />
+                        <property name="vf4_quantity" />
+                        <property name="vf4_torque" />
+                        <property name="vf4_tools_consumables" />
+                        <property name="vf4_backup_tool" />
+                    </tableDisplay>
+                    <command actionKey="newBusinessObjectContextualAction"
+                        commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+                        renderingHint="commandbutton">
+
+                        <parameter name="localSelection" value="true" />
+
+                    </command>
+
+                    <command actionKey="pasteAction"
+                        commandId="com.teamcenter.rac.viewer.pastewithContext"
+                        renderingHint="commandbutton" />
+
+                </objectSet>
+            </section>
+        </column>
+    </page>
+</rendering>

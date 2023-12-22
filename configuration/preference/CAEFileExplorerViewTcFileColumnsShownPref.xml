@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAEFileExplorerViewTcFileColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Stores the internal names of ImanFile properties which display names appear as columns from left-to-right in the File Explorer View in the CAE application. 
+This preference value is only a repository, and it is not to be modified other than by the CAE File Explorer View code itself.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision.object_string</value>
+        <value>ImanFile.original_file_name</value>
+        <value>ImanFile.file_size</value>
+        <value>ImanFile.last_mod_date</value>
+        <value>Dataset.object_name</value>
+        <value>ImanFile.owning_user</value>
+        <value>Dataset.checked_out</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

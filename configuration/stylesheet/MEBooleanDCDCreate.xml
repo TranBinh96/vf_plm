@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: MEBooleanDCDCreate.xml
+
+    Style sheet rendering for the creation of Mes0MEBooleanDCDForm.
+=======================================================================
+-->
+
+<rendering>
+
+    <page title="BooleanDCD Information" titleKey="tc_xrt_BooleanDCDInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="mes0isOptional" />
+            <property name="mes0ValuePlaceholder" />
+        </section>
+    </page>
+
+</rendering>

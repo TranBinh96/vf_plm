@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: GroupMember.xml
+
+    Default style sheet for displaying GroupMember poperties.
+@<DEL>@
+=======================================================================
+Date         Name                    Description of Change
+30-Sep-2004  wangp                   initial creation
+08-Oct-2004  Rob McColl              mrege out from peiyi
+11-Apr-2005  roudebus                Update copyright, block out history
+$HISTORY$
+=======================================================================
+@<DEL>@ -->
+
+<rendering>
+    
+    <page title="General" titleKey="General">
+        <property name="user" />
+        <property name="group"/>
+        <property name="role"/>
+        <separator />
+        <property name="ga"/>
+    </page>
+
+    <page title="All" titleKey="All">
+        <all type="property"/>
+    </page>
+</rendering>
+

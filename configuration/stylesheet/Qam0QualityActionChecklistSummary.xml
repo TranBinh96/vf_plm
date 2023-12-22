@@ -1,0 +1,26 @@
+<rendering>
+<page  titleKey="tc_xrt_QualityAction">
+      <column width="100%">
+       <section title="tc_xrt_QualityAction">
+        <objectSet source="Apm0ChecklistQualityActRel.Qam0QualityAction" defaultdisplay="tableDisplay" maxRowCount="16">
+            <tableDisplay>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="fnd0ResponsibleUser" modifiable="false"/>
+                <property name="qam0DueDate"/>
+                <property name="qam0QualityActionStatus" modifiable="false"/> 
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <listDisplay>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="fnd0ResponsibleUser" modifiable="false"/>
+                <property name="qam0DueDate"/>
+                <property name="qam0QualityActionStatus" modifiable="false"/> 
+            </listDisplay>
+             <command  commandId="Apm0AddQualityAction" />
+          </objectSet>
+       </section>
+    </column>
+ </page>
+</rendering>

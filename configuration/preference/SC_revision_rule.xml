@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_revision_rule" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the Revision Rule based on which Item Revisions are filtered while adding them to the Exchange object in the Exchange view opened by clicking the menu item &quot;Supplier Exchange -&gt; Design Exchange -&gt; Send Selected&quot; in the My Teamcenter or Structure Manager application.</preference_description>
+      <context name="Teamcenter">
+        <value>Latest Working</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

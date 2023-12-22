@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEResolverViewDisplayNameColumnsForWAShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the columns to display in the &quot;Tool Requirement Resolver &quot; view.
+This is specific to the Work Area tools table viewer. Valid values are the property internal names in the order to appear: BusinessObjectInternalName.PropertyInternalName.</preference_description>
+      <context name="Teamcenter">
+        <value>ImanItemBOPLine.bl_item_object_name</value>
+        <value>ImanItemBOPLine.bl_item_object_desc</value>
+        <value>ImanItemBOPLine.bl_item_object_type</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

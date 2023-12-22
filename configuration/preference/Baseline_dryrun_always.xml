@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Baseline_dryrun_always" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether or not a dry run occurs before the baseline is created. A dry run produces a report listing error messages encountered while processing a single item revision or traversing a structure.
+Setting this preference does not affect the default value of the Dry Run Creation check box on the Baseline dialog box. If you want to set the value in the dialog box, set the Baselinedryrun preference.
+This preference ensures that the dry run is performed on the server side. It also allows for validation configurability. If you want to add site-specific data checks on the base item revision or structure before baselining, you can do so using a pre or post action on the ITEM_baseline_rev_msg message.
+This minimizes rollback  during baseline creation.
+Valid Values:
+0 - Teamcenter does not perform a dry run operation before it creates the baseline.
+1 - A dry run always occur before the actual baseline is created.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for User creation. -->
+<rendering>
+    <page>
+        <section>
+            <property name="user_name" />
+            <property name="user_id"/>
+            <property name="os_username"/>
+            <property name="default_group"/>
+            <property name="volume"/>
+            <property name="local_volume"/>
+            <property name="status"/>
+            <property name="license_level"/>
+            <property name="fnd0LicenseServer"/>
+            <property name="fnd0license_bundles"/>
+            <property name="geography"/>
+            <property name="nationality"/>
+            <property name="fnd0citizenships"/>
+        </section>
+    </page>
+</rendering>

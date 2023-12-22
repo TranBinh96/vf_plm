@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_CAD_MATERIAL_VIEW_COLUMN_CONFIG" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Specifies a list of customized material revision attributes to be used to add extra columns to the IMM NX UI.
+Each entry in this list must contain the real name of a material revision attribute or a runtime property: AttrRealName 
+Additionally, each entry in this list must concatenate the display name at the beginning with a &apos;#&apos; separator.
+For example, DisplayName#AttrRealName</preference_description>
+      <context name="Teamcenter">
+        <value>Owning user#owning_user</value>
+        <value>Last modified date#last_mod_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

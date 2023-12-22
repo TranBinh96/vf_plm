@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AW_Advanced_Search_Reference_Sort_property" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the attribute used to sort search results for typed reference properties.
+For example, consider the &quot;owning_user&quot; typed reference property of Item, its &quot;user_name&quot; attribute can be used to sort all Items.
+Valid values are in the format &quot;typedReferenceProperty.attribute&quot;.
+Search results show objects of the same business object type. If a preference value refers to a property that does not exist for the type, the preference value is not used for sorting.</preference_description>
+      <context name="Teamcenter">
+        <value>owning_user.user_name</value>
+        <value>last_mod_user.user_name</value>
+        <value>release_status_list.name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

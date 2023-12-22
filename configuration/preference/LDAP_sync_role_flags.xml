@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_sync_role_flags" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the role synchronization setting flags in a chmod-style character string format.
+Role synchronization requires group synchronization to be enabled. If role synchronization is enabled but group synchronization is not, then role synchronization is skipped.
+Valid Values:
+s (synchronize) - If set, enables role synchronization.
+c (create) - If set, allows new externally managed role objects to be created in Teamcenter during role synchronization.
+u (update) - If set, allows externally managed role objects to be updated in Teamcenter during role synchronization.
+e (externalize) - If set, any internally managed role objects found in Teamcenter to have the same role name as a role object in LDAP is converted to externally managed during role synchronization.</preference_description>
+      <context name="Teamcenter">
+        <value>scue</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

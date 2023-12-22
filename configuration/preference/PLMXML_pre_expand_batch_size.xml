@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PLMXML_pre_expand_batch_size" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets batch size for each single expansion of a structure prior to running the PLM XML expand operation. Structures that are a target for export can be fully expanded prior to their export step, which provides a performance improvement.
+However, there are memory concerns with large structures whereby a full expansion may take more than the available memory of the system. This preference sets a limit. Values must be greater than 0. The smaller the batch size, the more likely that the value set in the PLMXML_pre_expand_max_line_limit preference will not be exceeded but at the cost of less performance gain.
+Valid Values:
+Accepts any integer value greater than 0.</preference_description>
+      <context name="Teamcenter">
+        <value>100000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

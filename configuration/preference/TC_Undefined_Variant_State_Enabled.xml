@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Undefined_Variant_State_Enabled" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if the undefined variant occurrence state is enabled. This state is indicated by the ? symbol.
+Valid Values:
+true - If any of the variant options in the variant condition is not set in the variant rule, the corresponding variant occurrence assumes an undefined (?) state.
+false - If any of the variant options in the variant condition is not set in the variant rule, the corresponding variant occurrence assumes a defined (Y) state.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+=======================================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: UiE-ExchangeLineSummary10.xml
+
+    Style sheet rendering for Exchange Line summary.
+=======================================================================
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <page titleKey="tc_xrt_Overview">
+          <column>
+              <section titleKey="tc_xrt_properties">
+                  <property name="object_string" modifiable="false"/>
+                  <property name="vm0SentObjectRef" renderingHint="objectlink" modifiable="false"/>
+                  <property name="vm0ExchangeObjectRef" renderingHint="objectlink" modifiable="false"/>
+                  <property name="sc0ConfigurationRules" renderingHint="objectlink" modifiable="false"/>
+                  <property name="sc0SentDataset" renderingHint="objectlink" modifiable="false"/>
+                  <property name="sc0SentObjectTCXMLFile" renderingHint="objectlink" modifiable="false"/>
+                  <property name="sc0LastRecievedDate" modifiable="false"/>
+                  <separator/>
+                  <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+              </section>
+              <section titleKey = "tc_xrt_SupplierInformation" title = "Recipient Information">
+                <objectSet source = "sc0VendorContacts.CompanyContact" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "email_address"/>
+                        <property name = "phone_business"/>
+                    </tableDisplay>
+                </objectSet>
+              </section>
+          </column>
+          <column>
+               <section titleKey="tc_xrt_Preview">
+                   <image source="preview"/>
+               </section>
+          </column>
+    </page>
+</rendering>

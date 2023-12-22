@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ClearanceDBShownColumns" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the columns displayed in the ClearanceDB results dialog.
+Suggestive values can be: Type, Result, Requirement, Location, Element1-__PLM_ABSOCC_UID, Element2-__PLM_ABSOCC_UID, Element Number1, Element Number2, Element1 Group, Element2 Group, Frame, Number, Comment, Status, Priority, Date Most Recently Found, Date First Found, Owner, Zone, Db Message, Db Modified By, Db Modified On, Important, Change Required, Change Reference, Db Change, Db Rule Names, Db Rule Descriptions, Db Sync.</preference_description>
+      <context name="Teamcenter">
+        <value>Type</value>
+        <value>Result</value>
+        <value>Requirement</value>
+        <value>Location</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

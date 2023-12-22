@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_4gd_unregister_on_delete" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates the Object Directory Services (ODS) un-registration of 4th Generation Design (4GD) objects at the time of object deletion.
+The ODS registry feature prevents the creation of duplicate objects across federated multi-sites.
+Valid Values: 
+- true: Allows 4GD objects to be unregistered at the time of deletion.
+- false: Prevents 4GD objects to be unregistered at the time of deletion.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

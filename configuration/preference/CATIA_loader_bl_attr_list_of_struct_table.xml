@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_loader_bl_attr_list_of_struct_table" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of columns displayed in the Structure table in left-to-right order.
+Possible values are real name of Bom line attribute and following keywords:
+- NONE: Do not display default columns
+- cat2_has_dst : display the &quot;CAD - CAD dataset found&quot; column which would contain true value if the current element has a primary cad dataset, otherwise false value 
+- cat2_is_co   : display the &quot;IsCO -  dataset / bvr CO status&quot; column which could have 3 possible states check-in / check-out / check-out by other
+- cat2_has_mml : display the &quot;MML - Is source / target of MML / MMLAssy links&quot; column which would contain true value if the current element is a source / target of a mml or mmlassy link, otherwise false value
+- cat2_has_dwg : display the &quot;DWG - Is pointed by a drawing&quot; column which would contain true value if the current element is pointed by a drawing link, otherwise false value
+- cat2_has_mfg : display the &quot;MFG - Is pointed by a manufacturing&quot; column which would contain true value if the current element is pointed by a manufacturing link, otherwise false value
+- cat2_has_anal: display the &quot;ANAL - Is pointed by an analysis&quot; column which would contain true value if the current element is pointed by an analysis link, otherwise false value
+- cat2_has_ehf: display the &quot;EHF - Is pointed by a flattening link&quot; column which would contain true value if the current element is pointed by an flattening link, otherwise false value 
+- cat2_has_gde: display the &quot;Has Laminate Bomline&quot; column which would contain true value if the current element has GDE Bomlines, otherwise false value</preference_description>
+      <context name="Teamcenter">
+        <value>cat2_has_dwg</value>
+        <value>cat2_is_co</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

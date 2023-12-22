@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEHideChangesIconsForAttributes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the display of the incremental change and the in-context edit symbols on the BOM structure. By default, symbols appear for all attribute changes in a structure. Adding an attribute to this list eliminates the display of the change symbols for this attribute. The changes are still recorded (either in the incremental change or the context) but the symbols are not displayed.
+Valid Values:
+Valid property names for structure data overrides, for example, bl_sequence_no.</preference_description>
+      <context name="Teamcenter">
+        <value>MEUILocation</value>
+        <value>Cps0SimulationID</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

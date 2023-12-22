@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWS_FullTextSearch_FacetFilters_ObjectData" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the list of facet filters to be used during full text search of object data.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision.awp0AliasID</value>
+        <value>ItemRevision.awp0AlternateID</value>
+        <value>WorkspaceObject.object_type</value>
+        <value>WorkspaceObject.date_released</value>
+        <value>WorkspaceObject.ip_classification</value>
+        <value>WorkspaceObject.gov_classification</value>
+        <value>WorkspaceObject.fnd0InProcess</value>
+        <value>WorkspaceObject.release_status_list</value>
+        <value>WorkspaceObject.project_list</value>
+        <value>WorkspaceObject.s2clTags</value>
+        <value>WorkspaceObject.awp0IsSuspect</value>
+        <value>WorkspaceObject.s2clAverageRatingFmSy</value>
+        <value>POM_application_object.owning_group</value>
+        <value>POM_application_object.last_mod_user</value>
+        <value>POM_application_object.owning_user</value>
+        <value>POM_application_object.last_mod_date</value>
+        <value>WorkspaceObject.owning_site.name</value>
+        <value>ChangeItemRevision.CMClosure</value>
+        <value>ChangeItemRevision.CMDisposition</value>
+        <value>ChangeItemRevision.CMMaturity</value>
+        <value>ChangeItemRevision.analyst_user_id</value>
+        <value>ChangeItemRevision.change_specialist1_user_id</value>
+        <value>ChangeItemRevision.requestor_user_id</value>
+        <value>GnChangeRequestRevision.CMIsFastTrack</value>
+        <value>GnChangeNoticeRevision.CMIsFastTrack</value>
+        <value>ChangeNoticeRevision.CMImplPriority</value>
+        <value>ChangeNoticeRevision.CMIsCustApprovalRequired</value>
+        <value>ChangeNoticeRevision.CMStatusOfCustApproval</value>
+        <value>Scp0PartDeclRevision.scw0DeclarationFileName</value>
+        <value>Qam0QualityAction.qam0DueDate</value>
+        <value>Qam0QualityAction.qam0ConfirmedBy</value>
+        <value>Qam0QualityAction.qam0ConfirmationDate</value>
+        <value>Qam0QualityAction.qam0CompletedBy</value>
+        <value>Qam0QualityAction.qam0CompletionDate</value>
+        <value>Qam0QualityAction.qam0Targets</value>
+        <value>Qam0QualityAction.qam0QualityActionStatus</value>
+        <value>Qam0QualityAction.qam0QualityActionType</value>
+        <value>Qam0QualityAction.qam0QualityActionSubtype</value>
+        <value>Qam0QualityAction.qam0ActivationDate</value>
+        <value>Qam0QualityAction.fnd0ResponsibleUser</value>
+        <value>ScheduleTask.start_date</value>
+        <value>ScheduleTask.finish_date</value>
+        <value>ScheduleTask.complete_percent</value>
+        <value>ScheduleTask.actual_start_date</value>
+        <value>ScheduleTask.actual_finish_date</value>
+        <value>ScheduleTask.fnd0status</value>
+        <value>ScheduleTask.fnd0state</value>
+        <value>ScheduleTask.priority</value>
+        <value>ScheduleTask.task_type</value>
+        <value>ScheduleTask.is_baseline</value>
+        <value>ScheduleTask.schedule_tag</value>
+        <value>ScheduleTask.fnd0IsSchSummaryTask</value>
+        <value>ScheduleTask.saw1IsTemplateTask</value>
+        <value>Scp0Regulation.scp0is_active</value>
+        <value>Item.awp0AliasID</value>
+        <value>Item.awp0AlternateID</value>
+        <value>Scp0Smelter.scp0Metal</value>
+        <value>Scp0Smelter.scp0CertificationValidUntil</value>
+        <value>Scp0Smelter.scp0AuditedStatus</value>
+        <value>Mat1Substance.mat1cas_number</value>
+        <value>Mat1Substance.mat1IsInActive</value>
+        <value>Mat1Substance.mat1is_wildcard</value>
+        <value>S2clCommentary.s2clRatingValue</value>
+        <value>S2clAnswer.s2clIsBestAnswer</value>
+        <value>S2clQuestion.s2clIsOpen</value>
+        <value>Fnd0AppSession.awb0ProductIDsInSession</value>
+        <value>Fnd0AppSession.awb0ProductNamesInSession</value>
+        <value>Fnd0AppSession.awb0ProductTypesInSession</value>
+        <value>Schedule.is_baseline</value>
+        <value>Schedule.start_date</value>
+        <value>Schedule.finish_date</value>
+        <value>Schedule.priority</value>
+        <value>Schedule.is_template</value>
+        <value>Schedule.saw1SSTActualFinishDate</value>
+        <value>Schedule.saw1SSTActualStartDate</value>
+        <value>Schedule.saw1SSTPercentComplete</value>
+        <value>Schedule.saw1SSTState</value>
+        <value>Schedule.saw1SSTStatus</value>
+        <value>PublicationRecord.pubr_owning_site</value>
+        <value>PublicationRecord.pubr_object_type</value>
+        <value>PublicationRecord.pubr_group_id</value>
+        <value>PublicationRecord.pubr_object_create_date</value>
+        <value>PublicationRecord.pubr_flag</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2003-2005 UGS Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: S2clCommentaryInfoPanel.xml
+Dave McLaughlin 2012.09.11
+
+Default style sheet for displaying S2clCommentary Object Info Panel in Revolution Client.
+
+-->
+<rendering>
+    <header>
+        <property name = "object_name"/>
+    </header>
+    <page titleKey = "" >
+        <section>
+			<property name = "s2clTargetObjectName"/>
+			<property name = "object_type"/>
+			<property name = "owning_user"/>
+			<property name = "creation_date"/>
+        </section>
+    </page>
+</rendering>

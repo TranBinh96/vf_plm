@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSM_effectivity_date_format" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specify the format of effectivity date to display.
+Valid Values:
+* DefaultDateFormat: Date would be displayed in the format %d-%b-%Y %H:%M
+* DownToSecondsDefaultDateFormat: Date would be displayed in the format %d-%b-%Y %H:%M:%S
+* DefaultDateOnlyFormat: Date would be displayed in the format %d-%b-%Y
+* DefaultTimeOnlyFormat: Date would be displayed in the format %H:%M</preference_description>
+      <context name="Teamcenter">
+        <value>DefaultDateFormat</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDSM_global_dsa_set_local_volume_on_import" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the local default volume for a user based on the name of the users default group name only for the initial import. Sets the local default volume for a group based on the group name only for the initial import.
+Valid Values:
+Enter values as Group-name:Volume-name, one entry per line, for example:
+Engineering:DrawingVol</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Product Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDIP_report_invalid_thoughts" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies if an error message is displayed when one of the thoughts is invalid when performing the Replace Design in Product operation in the Structure Manager application.
+Valid Values:
+TRUE - The error message is displayed.
+FALSE - The error message is not displayed.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

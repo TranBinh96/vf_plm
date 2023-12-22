@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright 2012 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+===============================================================================
+
+Filename: S2clCommentary.xml
+
+10/31/2012      Initial Release
+
+Default style sheet for displaying S2clCommentary summary.
+
+-->
+<rendering>
+    <header>
+        <property name = "owning_user"/>
+        <property name = "owning_group"/>
+        <property name = "last_mod_date"/>
+		<property name = "object_type"/>
+		<property name = "s2clTotalCommentsFmSy"/>
+		<property name = "s2clTotalLikesFromSummary"/>
+		<property name = "s2clTotalFollowsFromSummary"/>
+		<property name = "s2clTotalExperiencesFmSy"/>
+    </header>
+    <page titleKey = "tc_xrt_Summary" format = "TwoColumn">
+        <firstcolumn>
+			<section titleKey = "" title = "">
+				<customPanel java = "com.siemens.splm.client.social.xrtCommentsPanel"/>
+			</section>
+			<!--
+			<section titleKey = "tc_xrt_properties" visibleWhen = "s2clCommentaryObjects!=null">
+				<property name = "creation_date"/>
+				<property name = "last_mod_user"/>
+				<property name = "last_mod_date"/>
+				<property name = "object_type"/>
+				<property name = "s2clTotalCommentsFmSy"/>
+				<property name = "s2clTotalLikesFromSummary"/>
+				<property name = "s2clTotalFollowsFromSummary"/>
+				<property name = "s2clTotalExperiencesFmSy"/>
+			</section>
+			-->
+        </firstcolumn>
+        <secondcolumn>
+			<section titleKey = "" title = "">
+				<customPanel java = "com.siemens.splm.client.social.xrtCommentRichPanel"/>
+			</section>
+            <section titleKey = "tc_xrt_ExperienceOn" groupname="RelatedObjectInfo">
+				<objectSet source = "s2clTargetObject.WorkspaceObject" defaultdisplay = "listDisplay" sortby = "object_name" sortdirection = "ascending">
+					<tableDisplay>
+						 <property name = "object_name"/>
+					</tableDisplay>
+					<thumbnailDisplay/>
+					<treeDisplay>
+						 <property name = "object_name"/>
+					</treeDisplay>
+					<listDisplay/>
+				</objectSet>
+            </section>
+            <section titleKey = "tc_xrt_Context" groupname="RelatedObjectInfo">
+				<objectSet source = "s2clContextObjects.WorkspaceObject" defaultdisplay = "listDisplay" sortby = "object_name" sortdirection = "ascending">
+					<tableDisplay>
+						 <property name = "object_name"/>
+					</tableDisplay>
+					<thumbnailDisplay/>
+					<treeDisplay>
+						 <property name = "object_name"/>
+					</treeDisplay>
+					<listDisplay/>
+					<command actionKey = "newBusinessObjectContextualAction" commandId = "com.siemens.splm.client.social.AddNewContext" renderingHint = "commandbutton"/>
+				</objectSet>
+            </section>
+			<section titleKey = "tc_xrt_Tags" visibleWhen = "s2clTags!=null">
+				<customPanel java = "com.siemens.splm.client.social.xrtSocialTagsPanel"/>
+			</section>
+        </secondcolumn>
+    </page>
+    <page titleKey = "tc_xrt_Attachments">
+        <section titleKey = "tc_xrt_Files">
+            <objectSet source = "IMAN_Rendering.Dataset" defaultdisplay = "listDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+            </objectSet>
+        </section>
+    </page>
+
+    <page titleKey = "tc_xrt_Media">
+        <section titleKey = "tc_xrt_EmbeddedMedia">
+			<customPanel java = "com.siemens.splm.client.social.xrtCommentAttachmentPanel"/>
+        </section>
+    </page>
+</rendering>

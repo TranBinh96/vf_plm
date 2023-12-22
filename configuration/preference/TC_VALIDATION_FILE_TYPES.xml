@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Validation Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_VALIDATION_FILE_TYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the types of files that can be associated as datasets to validation data or validation results objects.This preference is applicable for the NX Check-Mate and NX RDDV (Requirement-Driven Design Validation) validation agents only.
+Valid Values:
+Accepts one or more strings as values. Each string must contain three string values: dataset name, RefName and references (which are file extensions in the following example), defining the types of files that can contain rules or validation results. For example:
+TC_VALIDATION_FILE_TYPES=
+Text Text *.mqclog
+MSExcel excel *.xls</preference_description>
+      <context name="Teamcenter">
+        <value>ValidationResultLog  MQCXML  *.xml</value>
+        <value>ValidationResultLog  MQCXML  *.mqcxml</value>
+        <value>ValidationResultLog  MQC     *.mqclog</value>
+        <value>ValidationResultLog  MQC     *.log</value>
+        <value>ValidationResultLog  IMAGE_J *.jpg</value>
+        <value>ValidationResultLog  DFA     *.dfa</value>
+        <value>ValidationResultLog  MSExcel *.xls</value>
+        <value>ValidationResultLog  XSL     *.xsl</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

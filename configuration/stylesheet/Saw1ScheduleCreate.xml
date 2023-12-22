@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Saw1ScheduleCreate.xml
+
+    Style sheet rendering for Schedule creation. Custom sub classes of
+    Schedule can add their Business Object to the preference 
+    TC_CreateRenderingInheritTypeList to inherit this style sheet rendering
+    or define custom style sheet of its own to display custom attributes.
+=======================================================================
+-->
+<rendering>
+    <page title="Enter Schedule Name and Description" titleKey="tc_xrt_ScheduleNameandDescription">
+        <section>
+           <property name="object_name"/>
+           <property name="object_desc" />
+           <property name="fnd0TimeZone" />
+           <property name="start_date" />
+           <property name="finish_date" />
+           <property name="is_template" />
+           <property name="is_public" />
+           <property name="published" />
+           <property name="end_date_scheduling" />
+           <property name="percent_linked" />
+           <property name="dates_linked" />
+        </section>
+    </page>
+</rendering>

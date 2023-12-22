@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Mtw0SubstanceInfo.xml
+Default activeworkspace style sheet for displaying Substance Info
+ -->
+<subRendering>
+    <section titleKey="k_materialmgmt_substancesk_materialmgmt_substances" title="Substances">
+        <objectSet source="Mat1UsesSubstance.Mat1Substance" defaultdisplay="tableDisplay" sortby="object_name" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_name"/>
+                <property name="mat1cas_number"/>
+                <property name="Mat1UsesSubstance.mat1composition"/>
+            </tableDisplay>
+            <listDisplay/>
+            <content visibleWhen="{pref:IMDSIntegration_feature_installed}!=true">
+                <command actionKey="newBusinessObjectContextualAction" commandId="Mtw0ShowAddObject" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </content>
+            <content visibleWhen="{pref:IMDSIntegration_feature_installed}==true and sci0NodeId ==null">
+                <command actionKey="newBusinessObjectContextualAction" commandId="Mtw0ShowAddObject" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </content>
+        </objectSet>
+    </section> 
+</subRendering> 

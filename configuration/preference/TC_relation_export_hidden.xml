@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_relation_export_hidden" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Prevents users in certain roles from seeing all available relation types in the Import/Export Options dialog box. This prevents users from including the hidden relation types for import/export operations. All hidden relation types are automatically excluded from the import/export operations. The OBJIO-send-target-objects action handler does not support use of the TC_relation_export_hidden preference. The action handler fails when it runs the preference. As a workaround, use the -exclude_relation argument in the OBJIO-send-target-objects action handler.
+Valid Values:
+A list of valid relation type names, one name per line. The database name, not the display name, of a relation type must be given. Invalid values in the list are ignored.</preference_description>
+      <context name="Teamcenter">
+        <value>TC_bounding_box</value>
+        <value>TC_box_derived_from</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

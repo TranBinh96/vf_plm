@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA123_extobject_filename_editing_mode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to allow the user to edit the file name of attached reference links even in environments where by default files do not get renamed or where the file name is automatically assigned on the basis of other data (e.g. item ID, multifield key). File name editing can take place only during first save and save as new item operations.
+Possible values:
+0 - do not allow file name editing for attached reference links (Default)
+1 - allow file name editing for attached reference links
+2 - allow file name editing for attached reference links only when the item type belongs to the list specified in the preference TCAA123_extobject_filename_editing_allowed_for_item_types</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

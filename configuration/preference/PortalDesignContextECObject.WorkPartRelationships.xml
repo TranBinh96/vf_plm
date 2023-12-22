@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Context Definition">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextECObject.WorkPartRelationships" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies Teamcenter relationships between work parts and the change objects that authorize changes on these work parts. These relationships are used to find the change objects when users add or select work parts.
+Valid Values:
+Any relationships on the change object specified in the PortalDesignContextECObject.TYPE preference that reference work parts. The relationships specified in this preference are often the same as the properties specified on the PortalDesignContextECObject.WorkPartProperties preference. 
+This is not true, however, for the standard Change Viewer.For new change (Change Manager) objects, possible values are:
+CMHasSolutionItem
+CMHasProblemItem
+CMHasImpactedItem
+CMReferences
+CMImplements
+CMHasWorkBreakdown
+For classic change objects, possible values are:
+EC_affected_item_rel
+EC_solution_item_rel
+EC_problem_item_rel
+EC_reference_item_rel
+EC_addressed_by_rel</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasSolutionItem</value>
+        <value>CMHasProblemItem</value>
+        <value>CMHasImpactedItem</value>
+        <value>CMReferences</value>
+        <value>CMImplements</value>
+        <value>CMHasWorkBreakdown</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

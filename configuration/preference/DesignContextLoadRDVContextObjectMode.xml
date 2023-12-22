@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Product Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DesignContextLoadRDVContextObjectMode" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the mode Design Context uses to evaluate a structure context object (SCO), either static mode or dynamic mode. When evaluating an SCO in static mode, the existing results are returned. When evaluating an SCO in dynamic mode, the results are updated against the current data and modified as necessary.
+Valid Values:
+0 - Static mode. Returns the results already stored in the SCO.
+1 - Reevaluates the stored results against current data and updates the SCO with new results.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

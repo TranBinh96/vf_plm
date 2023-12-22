@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IC_baseline_carry_forward_status" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies status names Teamcenter considers if active changes are carried forward when the user creates an incremental change baseline. An active change is one which is currently effective or may be effective in the future.
+Valid Values:
+Any valid status name.</preference_description>
+      <context name="Teamcenter">
+        <value>Pending</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

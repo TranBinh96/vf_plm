@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ctm0GraphicExtPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Filters the files that are listed for selection when graphics are imported.
+Valid Values:
+Accepts one or more strings as values for valid graphic file extensions. For example, Valid Values:
+bmp
+cgm
+eps
+gif
+jpg
+jpeg
+jt
+png
+svg
+swf
+tiff
+wrl
+wmf</preference_description>
+      <context name="Teamcenter">
+        <value>bmp</value>
+        <value>eps</value>
+        <value>gif</value>
+        <value>jpg</value>
+        <value>jpeg</value>
+        <value>png</value>
+        <value>svg</value>
+        <value>tiff</value>
+        <value>wmf</value>
+        <value>cgm</value>
+        <value>swf</value>
+        <value>jt</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

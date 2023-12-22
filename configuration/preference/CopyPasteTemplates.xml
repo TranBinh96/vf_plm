@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CopyPasteTemplates" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the cloning rule names to be used when pasting processes, operations, and partitions within enterprise bill of process (EBOP) structures or study structures.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter cloning rule.</preference_description>
+      <context name="Teamcenter">
+        <value>MEGenericBOP.MEProductBOP.CopyPasteTemplate</value>
+        <value>MEProductBOP.MEProductBOP.CopyPasteTemplate</value>
+        <value>MEGenericBOP.MEGenericBOP.CopyPasteTemplate</value>
+        <value>MEProductBOP.MEGenericBOP.CopyPasteTemplate</value>
+        <value>MEProcess.Mfg0MESimStudy.CopyPasteTemplate</value>
+        <value>MEOP.Mfg0MESimStudy.CopyPasteTemplate</value>
+        <value>Mfg0MEPlantBOP.Mfg0MESimStudy.CopyPasteTemplate</value>
+        <value>Mfg0MESimStudy.MEProcess.CopyPasteTemplate</value>
+        <value>Mfg0MESimStudy.MEOP.CopyPasteTemplate</value>
+        <value>Mfg0MESimStudy.Mfg0MEPlantBOP.CopyPasteTemplate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECTRevEffectivityChildLineCompareProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines a list of properties to display in the &quot;Change Tracker Revision Details Report&quot; and in the &quot;MESINTEG_ValidateReleaseAndExport&quot; and &quot;ME-create-revision-change-xml-AH&quot; workflow handlers delta XML.  The properties are compared for all children of &quot;Revised Lines&quot; and listed if they are different.  They appear as new rows with &quot;Modified Properties&quot; of &quot;Changed Lines&quot; in the excel, and in &quot;AdditionalProperties UserData&quot; elements in the XML.
+Valid values are property internal names for a BOM Line.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

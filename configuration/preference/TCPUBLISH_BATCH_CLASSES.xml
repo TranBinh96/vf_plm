@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCPUBLISH_BATCH_CLASSES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of Teamcenter classes to use on the TC Publish Batch Select Types and Templates wizard page.
+Valid Values:
+Accepts any valid Teamcenter class.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+        <value>MEProcessRevision</value>
+        <value>MEOPRevision</value>
+        <value>MEActivity</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying item rev summary. -->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <inject type="dataset" src="Ads1OwningProgram"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="overflow"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" visibleWhen="ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+        <column width="30%">
+            <section titleKey="tc_xrt_properties">
+                <property name="item_id" renderingHint="label"/>
+                <property name="item_revision_id" renderingHint="label"/>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+                <property name="release_status_list" renderingHint="label"/>
+                <property name="date_released" renderingHint="label"/>
+                <property name="effectivity_text" renderingHint="label"/>
+                <break/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out" renderingHint="label"/>
+                <property name="checked_out_user"/>
+                <property name="fnd0CurrentLocationCode"/>
+                <content visibleWhen="ActiveWorkspace:SubLocation==BranchVersioningSubLocation">
+                    <inject type="dataset" src="BranchContentSCMData"/>
+                </content>
+                <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+            </section>
+            <content visibleWhen="altid_list!=null" >
+                <inject type="dataset" src="Awp0AlternateIds"/>
+            </content>
+            <content visibleWhen="IMAN_aliasid!=null" >
+                <inject type="dataset" src="Awp0AliasIds"/>
+            </content>
+            <inject type="dataset" src="S2clScalarRatingOverview"/>
+            <content visibleWhen="Cls0ClassifiedBy!=null">
+              <inject type="dataset" src="Lbr1LibraryInformation"/>
+              <inject type="dataset" src="Fnd0ClassificationSummary"/>
+            </content>
+            <content visibleWhen="Cls0ClassifiedBy==null and ics_classified!=null">
+              <inject type="dataset" src="Lbr1LibraryInformation"/>
+              <inject type="dataset" src="Fnd0ClassificationSummary"/>
+            </content>
+            <inject type="dataset" src="ProjectListInfo"/>
+            <inject type="dataset" src="LicenseListInfo"/>
+        </column>
+        <column width="25%">
+          <inject type="dataset" src="Awp0GlobalAlternatesProvider"/>
+          
+          <inject type="dataset" src="Fgb0AlignedPartsProvider"/>
+        </column>
+        <column width="45%">
+            <section titleKey="tc_xrt_Preview">
+                <inject type="dataset" src="Awp0GalleryViewer" module="js/aw-include.directive"/>
+            </section>
+            <view name="actions">
+                <command actionKey="reviseAction" commandId="com.teamcenter.rac.revise"/>>
+            </view>
+        </column>
+    </page>
+	<page titleKey="tc_xrt_Preview">
+		<inject type="dataset" src="Awp0GalleryViewer" module="js/aw-include.directive"/>
+	</page>
+    <inject type="dataset" src="Fsh1FinishesSection"/>
+    <inject type="dataset" src="Ads1NotesSection" />
+    <inject type="dataset" src="Vm1PartnerContracts"/>
+    <inject type="preference" src="ClassificationStylesheetTab"/>
+    <inject type="dataset" src="Sm1MadeFromSection"/>
+    <page titleKey="tc_xrt_jt_viewer" visibleWhen="IMAN_Rendering!=null and ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+        <image source="preview"/>
+    </page>
+    <page titleKey="web_whereused">
+        <column width="33%">
+            <section titleKey="tc_xrt_ParentAssemblies">
+                <objectSet source="ps_parents.ItemRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                    <command commandId="com.teamcenter.rac.pse.sendto" titleKey="tc_xrt_OpenSelectedInStructureManager" renderingHint="commandbutton">
+                        <parameter value="true" name="localSelection"/>
+                    </command>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+        <!--
+        // ====================================================================================================
+        // The following column defines the display for when Active Workspace Structure solution is installed.
+        // If you have not installed this option, this column should be removed.
+        // ====================================================================================================
+        -->
+        <column width="33%">
+            <inject type="dataset" src="Awb0Contexts" />
+        </column>
+        <column width="33%">
+            <content visibleWhen = "fnd0ConfiguredDrawings!=null">
+                <inject type="dataset" src="Awp0RelatedDrawings" />
+            </content>
+        </column>
+        <!--
+        // ====================================================================================================
+        // The following column defines the display for when Active Workspace Structure solution is installed.
+        // If you have not installed this option, this column should be removed.
+        // ====================================================================================================
+        -->
+        <column width="33%">
+            <section titleKey="tc_xrt_References">
+                <objectSet source="Awp0ReferencesProvider.WorkspaceObject" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+     <inject type="dataset" src="Cm1ChangeRelationSummary"/>
+    <page titleKey="attachments">
+        <content visibleWhen="ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+            <section titleKey="tc_xrt_Files">
+                <!-- 
+                    Note : ObjectSet source relations for content tab are managed by '%TC_INSTALL_DIR%/activeworkspacebom/data/Awb0OccMgmtAttachments.xml',
+                    For consistent attachment page display , Please keep objectset source relations in sync with 'Awb0OccMgmtAttachments.xml'.
+                -->
+                <objectSet source="IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset,IMAN_UG_altrep.Dataset,IMAN_UG_scenario.Dataset,IMAN_Simulation.Dataset" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_string"/>
+                        <property name="ref_list"/>
+                        <property name="object_type"/>
+                        <property name="relation" modifiable="true"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name="object_string"/>
+                        <property name="ref_list"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+            <section titleKey="tc_xrt_Documents">
+                <!-- 
+                    Note : ObjectSet source relations for content tab are managed by '%TC_INSTALL_DIR%/activeworkspacebom/data/Awb0OccMgmtAttachments.xml',
+                    For consistent attachment page display , Please keep objectset source relations in sync with 'Awb0OccMgmtAttachments.xml'.
+                -->
+                <objectSet source="IMAN_specification.DocumentRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                    <tableDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+        </content>
+        <content visibleWhen="ActiveWorkspace:SubLocation == com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+          <inject type="dataset" src="Awb0OccMgmtAttachments"/>
+        </content>
+        <inject type="dataset" src="Awn0ValidationResultsSummary"/>
+        <inject type="dataset" src="RemoteLinksSummary"/>
+        <inject type="dataset" src="Cm1ItemRevSummaryPrimarytoPrimaryDocRel"/>
+    </page>
+    <content visibleWhen="structure_revisions==null">
+        <inject type="dataset" src="Scw0QueryListTabForBOM"/>
+        <inject type="dataset" src="Scw0SubstanceCatTabForBOM"/>
+        <inject type="dataset" src="Scw0ComplianceCategoriesTabForBOM"/>
+        <inject type="dataset" src="Scw0ComplianceInfoForBOM"/>
+    </content>
+    <inject type="dataset" src="Mtw0Mat1MaterialSubstanceTabForBom"/>
+    <page titleKey="tc_xrt_History">
+        <section titleKey="tc_xrt_RevisionHistory">
+            <objectSet source="revision_list.ItemRevision" sortdirection="descending" sortby="last_mod_date" defaultdisplay="tableDisplay">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                    <property name="last_mod_date"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                    <property name="last_mod_date"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <inject type="dataset" src="Cm1ChangeHistorySummary" /> 
+    </page>
+    <inject type="dataset" src="Nxs0AttributesTableSummary"/>
+    <content visibleWhen="fnd0AllWorkflows!=null">
+        <inject type="dataset" src="WorkflowSummary" />
+    </content>
+    <inject type="dataset" src="RelationsSummary" />
+    <inject type="dataset" src="S2clItemRevSummary"/>
+    <content visibleWhen="awp0ShowParticipants==ProposedReviewer">
+        <inject type="dataset" src="Awp0ParticipantSummary"/>
+    </content>
+    <inject type="dataset" src="Cae1ItemRevSummary"/>
+    <content visibleWhen="awn0HasComponents!=null and awn0HasComponents!=UNKNOWN">
+        <inject type="dataset" src="Awn0ItemRevSummary"/>
+    </content>
+    <inject type="preference" src="InContextAnalyticsPref"/>
+    <inject type="dataset" src="Rb0InContextReportsSubLocation" />
+    <content visibleWhen="{pref:TC_audit_manager_version}==3 and {pref:AWC_show_audit_logs}==true">
+        <inject type="dataset" src="AuditLogForItemRev"/>
+    </content>
+</rendering>

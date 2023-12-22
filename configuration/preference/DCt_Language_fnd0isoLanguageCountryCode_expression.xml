@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="DCt_Language_fnd0isoLanguageCountryCode_expression" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the expression value of the run-time property fnd0isoLanguageCountryCode for the DCt_Language business object.  It combines the values of the ISO language and country code on the language object.
+For example, if the language code is en and the country code is US, the value in this run-time property on DCt_Language for the default value is en-US. However, this preference can be modified for the value to appear in another way, such as enUS, en_US, or en.US.
+Valid Values:
+Accepts a single string as a value.</preference_description>
+      <context name="Teamcenter">
+        <value>$isoLanguageCode+&quot;-&quot;+$isoCountryCode</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

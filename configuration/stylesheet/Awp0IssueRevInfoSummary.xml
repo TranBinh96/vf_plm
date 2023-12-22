@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+=======================================================================
+
+Copyright 2018.
+
+Siemens Product Lifecycle Management Software Inc.
+
+All Rights Reserved.
+
+=======================================================================
+
+     Filename: Awp0IssueRevInfoSummary.xml
+
+     Registers the stylesheet for Defect Inforamtion Summary in Active Workspace.
+
+=======================================================================
+
+-->
+
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+      <page>
+           <section titleKey="tc_xrt_Properties">
+                <property name="item_id" />
+                <property name="object_name" /> 
+                <property name="object_desc" />
+                <property name="object_type" />
+                <property name="c2Category" />
+                <property name="c2_IssueSubcategory"/>
+                <property name="c2_Priority" />
+                <property name="c2_PotentialReasons" />
+                <property name="c2_LocationInCompany"/>
+            </section>
+            <section titleKey="tc_xrt_progress">
+                <property name="c2_isvalid" />
+                <property name="c2_RejectAction" />  
+                <property name="CMDisposition" />
+                <property name="CMMaturity" />
+                <property name="creation_date" />
+                <property name="Requestor" />                            
+                <property name="last_mod_user" />
+                <property name="last_mod_date" />
+                <property name="c2_ProposedDueDate" />        
+                <property name="owning_group" modifiable="false"/>
+                <property name="c2_ResolutionType" />
+                <property name="c2_ResolutionDescription" />
+                <property name="CMClosure" />
+                <property name="CMClosureComments" />
+                <property name="CMClosureDate" />            
+                <property name="release_status_list" />                
+                <property name="c2_ReleasedDate" />
+                <property name="checked_out" />
+                <property name="checked_out_user" />                            
+            </section>
+      </page>
+</rendering>
+
+
+

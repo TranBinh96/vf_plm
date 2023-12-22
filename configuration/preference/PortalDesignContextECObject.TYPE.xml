@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Context Definition">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextECObject.TYPE" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the workspace object type used to authorize design changes. Typically this is an Change Item type, but this preference also allows you to integrate custom change strategies, for example, using a form to authorize design changes.If the type corresponds to objects extending from the item revision class, the primary property displayed in Design Context is the item ID that has an input field for the item revision ID. In all other cases, the primary property is the name of the object.
+Valid Values:
+Any Teamcenter change object type.</preference_description>
+      <context name="Teamcenter">
+        <value>ChangeRequestRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

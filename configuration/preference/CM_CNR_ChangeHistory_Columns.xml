@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_CNR_ChangeHistory_Columns" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the columns to display in the Change History tab of the Summary view of a change notice revision.
+Valid Values:
+Any item revision properties defined in Business Modeler IDE.</preference_description>
+      <context name="Teamcenter">
+        <value>k_ch_solution_item</value>
+        <value>k_ch_impacted_item</value>
+        <value>k_ch_inc_changes_of</value>
+        <value>k_ch_inc_by</value>
+        <value>k_ch_inc_into</value>
+        <value>k_ch_inc_status</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

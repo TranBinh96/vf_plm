@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAEShowConfigurationHeader" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the display of configuration headers in the Product and Model views of the CAE Manager application.
+Examples of configuration header information are: &quot;Revision Rule&quot;, &quot;Variant Rule&quot;, &quot;Effectivity&quot;, &quot;Incremental Change Context&quot;. The default value is true (information is displayed).</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

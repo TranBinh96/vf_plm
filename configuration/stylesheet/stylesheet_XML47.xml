@@ -1,0 +1,24 @@
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+        <section titleKey="Target Cost">
+	<property name= "GRM(VF4_Costing_Reference,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).vf4_piece_cost_value_target"/>
+	<property name= "GRM(VF4_Costing_Reference,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).vf4_ednd_cost_value_target"/>
+	<property name= "GRM(VF4_Costing_Reference,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).vf4_misce_piece_cost_target"/>
+	<property name= "GRM(VF4_Costing_Reference,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).vf4_tooling_invest_target"/>
+          </section>
+          <separator/>	
+         <section title="General Info">
+	<property name= "GRM(VF4_Costing_Reference,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).owning_group"/>
+	<property name= "GRM(VF4_Costing_Reference,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).last_mod_date"/>
+	 <property name= "GRM(VF4_Costing_Reference,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).last_mod_user"/>
+	 <property name= "GRM(VF4_Costing_Reference,VF4_CostRevision).GRM(VF4_SourcingCostFormRela,VF4_TargetCostForm).checked_out_user"/>
+          </section>
+</subRendering>

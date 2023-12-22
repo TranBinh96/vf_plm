@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_allow_min_max_range_override" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the system allows Classification Admin to specify values to the following:
+Class attribute minimum and/or maximum constraints outside the range of Dictionary attribute minimum and/or maximum constraints.
+View attribute minimum and/or maximum constraints outside the range of Class attribute minimum and/or maximum constraints.
+Valid Values:
+True - Allows Classification Admin to specify values.
+False - Does not allow Classification Admin to specify values.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

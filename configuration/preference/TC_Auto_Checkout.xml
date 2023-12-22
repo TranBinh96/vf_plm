@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Auto_Checkout" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>If this preference is ON, non-NX datasets will be automatically Checked-Out when a user opens that dataset. This will prevent another user from gaining write access to this dataset until the first user closes the dataset.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

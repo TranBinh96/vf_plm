@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="com.teamcenter.rac.ui.perspectives.navigatorPerspective\\Finance\\*\\HIDDEN_COMMANDS" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>No description is available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>,com.teamcenter.rac.exportToPLMXML,deleteAction,com.teamcenter.rac.sourcingCreateLineItems,exportOfflineGmsAction,com.teamcenter.rac.express.RPExport,com.teamcenter.rac.deXchngSendSelected,exportObjectsAction,com.teamcenter.rac.deXchngAddtoExisting,com.teamcenter.rac.admin.processCopyOldPartNumber,com.teamcenter.rac.bulkextract,com.teamcenter.rac.substanceComplAddtoExisting,com.teamcenter.rac.substanceComplSendSelected,exportRemoteGmsAction,exportToConnectionAction,exportRemotePLMAction,exportOfflinePdxAction</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

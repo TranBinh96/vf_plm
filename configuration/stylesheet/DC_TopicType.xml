@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: DC_TopicType.xml
+
+    Default style sheet for displaying DC_TopicType properties.
+
+@<DEL>@
+=======================================================================
+Date         Name                    Description of Change
+21-Oct-2010  tomaszew                initial creation
+$HISTORY$
+=======================================================================
+@<DEL>@ -->
+
+<rendering>
+    
+    <page title="General" titleKey="General" >
+        <property name="object_name" />          
+        <property name="object_type" />
+        <property name="tagName" renderingHint="textfield" />
+        <property name="systemUsage" />
+        <property name="validateIncomingOnParse" />
+        <property name="validateOutgoingOnParse" />
+        <property name="validateExampleContOnParse" />
+        <property name="ctm0TransferModeTagref"/>
+        <property name="ctm0FileExtension"/>
+        <property name="applyClassName"/>
+        <property name="ctm0NonTopicClassNames"/>
+        <property name="namespaceUri" renderingHint="textfield" />
+        <property name="defaultPrefix" renderingHint="textfield" />
+        <property name="topicTypeCondition" renderingHint="textfield" />
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+        <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+        <property name="last_mod_user" />
+    </page>
+
+    <page title="All" titleKey="All">
+        <all type="property"/>
+    </page>
+
+</rendering>

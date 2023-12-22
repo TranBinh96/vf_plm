@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Business Modeler">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BMIDE_ALLOW_FULL_DEPLOY_FROM_CLIENT" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether Business Modeler IDE clients can deploy templates to the server that contain the full data model, including schema definitions such as classes, attributes, business objects, properties, and so on.Set this preference to False so that the schema 
+on a production server cannot be inadvertently updated from a Business Modeler IDE client. When you use this setting, you must schedule a server down time to update the schema using the Teamcenter Environment Manager install wizard. With this setting, you can still use the live 
+update functionality in the Business Modeler IDE to update non-schema data on the production server.Set this preference to True to deploy all data model, including schema changes. This is typical when you are deploying to a test server where the number of users are few and updates 
+occur more frequently.
+Valid Values:
+True - Allows any Business Modeler IDE client with administrative access to update the schema, business objects, business rules, and other Business Modeler IDE objects on the server.
+False - No Business Modeler IDE client can update the server directly. Templates must be updated using the Teamcenter Environment Manager install wizard.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

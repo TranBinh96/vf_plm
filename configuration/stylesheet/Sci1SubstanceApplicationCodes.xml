@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+//      Filename : Sci1SubstanceApplicationCodes.xml
+-->
+<!-- Default style sheet for displaying Substance Application Code Info Panel in Active Workspace Client. -->
+<subRendering>
+    <content visibleWhen="sci0IsIMDSObject==True">
+        <section titleKey="sci1_xrt_applicationcodes">
+            <objectSet source="Sci1SubstanceAppCodeProvider.Sci1SubstanceAppCodeInfo" defaultdisplay="tableDisplay" userSortable="false">>
+                <tableDisplay>
+                    <property name="sci1MaterialName" modifiable="false"/>
+                    <property name="sci1MaterialClassification" modifiable="false"/>
+                    <property name="sci1SubstanceName" modifiable="false"/>
+                    <property name="sci1CASNumber" modifiable="false"/>               
+                    <property name="sci1SubstanceAppCode" modifiable="true"/>          
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </content>
+</subRendering>

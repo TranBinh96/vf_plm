@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCCommandSuppressionByPerspectiveEnabled" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates if the command suppression will operate in application mode or perspective mode.
+false: the command suppression will work in the application mode. In this mode, the commands suppressed for any perspective of the application will be suppressed for all perspectives of the same application. This is the default value.
+true: the command suppression will work in the perspective mode. In this mode, the commands suppressed for a specific perspective will be suppressed only for that perspective - all other persprectives of the same application will not be impacted.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE.Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CFMOccEffMode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the Occurrence Effectivity upgrade mode. Valid values legacy/maintenance or upgrade. legacy - Old date based effectivity mode. maintenance - New effectivities use new model, old effectivities stay in old mode. upgrade - Old effectivities are upgraded to new model if they are edited.</preference_description>
+      <context name="Teamcenter">
+        <value>legacy</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

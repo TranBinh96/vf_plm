@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA_auxfiles_enable" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible configure the generation mode of auxiliary file formats. 
+Possible values:
+0 - generation of all auxiliary file formats is completely inhibited
+1 - generation of all auxiliary file formats is active, unless specifically inhibited at file level through custom property TCAA_SKIP_AUXILIARY
+2 - (available starting from TCAA 11.4)  generation of all auxiliary file formats is inhibited in general, but it can be specifically activated at file level through custom property TCAA_ALLOW_AUXILIARY
+Default Value: 1</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

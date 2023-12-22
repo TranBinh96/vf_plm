@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Text_Tool" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default tool to be used when datasets of this type are opened. Format is TC_&lt;datasettype&gt;_Tool</preference_description>
+      <context name="Teamcenter">
+        <value>NoteEditor</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

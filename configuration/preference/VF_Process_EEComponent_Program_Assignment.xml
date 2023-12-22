@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_Process_EEComponent_Program_Assignment" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>EE AL mapping</preference_description>
+      <context name="Teamcenter">
+        <value>EE_Components_ECN_AfterPR_Process==A1==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==A2==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==Platform (A1&amp;A2)==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==V5 CITY==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==V5 CITY 2020==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==V5 CITY CARGO==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==V5 CITY CARGO EVN==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==V5 LITE==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==VK SPORT==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==VK CITY==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==V7 CITY==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==V9 SPORT 2020==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==VK CITY 2021 Limited==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==VK Sport 2021 Limited==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==VK 2021==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==Klara A2 2020==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==V5 CITY LFP==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==V5 LITE LFP==EE_Components_ECN_AfterPR_ES_New</value>
+        <value>EE_Components_ECN_AfterPR_Process==V7 SPORT LFP==EE_Components_ECN_AfterPR_ES_New</value>
+        <value>EE_Components_ECN_AfterPR_Process==V9 SPORT LFP==EE_Components_ECN_AfterPR_ES_New</value>
+        <value>EE_Components_ECN_AfterPR_Process==E-Scooter Charging Station 2 sockets==EE_Components_ECN_AfterPR_Charger</value>
+        <value>EE_Components_ECN_AfterPR_Process==E-Scooter Charging Station 4 sockets==EE_Components_ECN_AfterPR_Charger</value>
+        <value>EE_Components_ECN_AfterPR_Process==E-Car charging Station 11KW==EE_Components_ECN_AfterPR_Charger</value>
+        <value>EE_Components_ECN_AfterPR_Process==E-Car charging Station 30KW==EE_Components_ECN_AfterPR_Charger</value>
+        <value>EE_Components_ECN_AfterPR_Process==E-Car charging Station 60KW==EE_Components_ECN_AfterPR_Charger</value>
+        <value>EE_Components_ECN_AfterPR_Process==E-Car Home Charger 7.4KW==EE_Components_ECN_AfterPR_Home_Portable</value>
+        <value>EE_Components_ECN_AfterPR_Process==E-Car Portable Charger 3.5KW==EE_Components_ECN_AfterPR_Home_Portable</value>
+        <value>EE_Components_ECN_AfterPR_Process==CPDU==EE_Components_ECN_AfterPR_CPDU</value>
+        <value>EE_Components_ECN_AfterPR_Process==VENTILATOR==EE_Components_ECN_AfterPR_Ventilator</value>
+        <value>EE_Components_ECN_AfterPR_Process==VF New==EE_Components_ECN_AfterPR_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==A1==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==A2==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==Platform (A1&amp;A2)==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==V5 CITY==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==V5 CITY 2020==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==V5 CITY CARGO==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==V5 CITY CARGO EVN==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==V5 LITE==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==VK SPORT==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==VK CITY==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==V7 CITY==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==V9 SPORT 2020==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==VK CITY 2021 Limited==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==VK Sport 2021 Limited==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==VK 2021==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==Klara A2 2020==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==V5 CITY LFP==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterSOB_Process==V5 LITE LFP==EE_Components_ECN_AfterSOB_ES_New</value>
+        <value>EE_Components_ECN_AfterSOB_Process==V7 SPORT LFP==EE_Components_ECN_AfterSOB_ES_New</value>
+        <value>EE_Components_ECN_AfterSOB_Process==V9 SPORT LFP==EE_Components_ECN_AfterSOB_ES_New</value>
+        <value>EE_Components_ECN_AfterSOB_Process==E-Scooter Charging Station 2 sockets==EE_Components_ECN_AfterSOB_Charger</value>
+        <value>EE_Components_ECN_AfterSOB_Process==E-Scooter Charging Station 4 sockets==EE_Components_ECN_AfterSOB_Charger</value>
+        <value>EE_Components_ECN_AfterSOB_Process==E-Car charging Station 11KW==EE_Components_ECN_AfterSOB_Charger</value>
+        <value>EE_Components_ECN_AfterSOB_Process==E-Car charging Station 30KW==EE_Components_ECN_AfterSOB_Charger</value>
+        <value>EE_Components_ECN_AfterSOB_Process==E-Car charging Station 60KW==EE_Components_ECN_AfterSOB_Charger</value>
+        <value>EE_Components_ECN_AfterSOB_Process==E-Car Home Charger 7.4KW==EE_Components_ECN_AfterSOB_Home_Portable</value>
+        <value>EE_Components_ECN_AfterSOB_Process==E-Car Portable Charger 3.5KW==EE_Components_ECN_AfterSOB_Home_Portable</value>
+        <value>EE_Components_ECN_AfterSOB_Process==CPDU==EE_Components_ECN_AfterSOB_CPDU</value>
+        <value>EE_Components_ECN_AfterSOB_Process==VENTILATOR==EE_Components_ECN_AfterSOB_Ventilator</value>
+        <value>EE_Components_ECN_AfterSOB_Process==VF New==EE_Components_ECN_AfterSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==A1==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==A2==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==Platform (A1&amp;A2)==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==V5 CITY==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==V5 CITY 2020==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==V5 CITY CARGO==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==V5 CITY CARGO EVN==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==V5 LITE==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==VK SPORT==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==VK CITY==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==V7 CITY==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==V9 SPORT 2020==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==VK CITY 2021 Limited==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==VK Sport 2021 Limited==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==VK 2021==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==Klara A2 2020==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==V5 CITY LFP==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==V5 LITE LFP==EE_Components_ECN_BeforeSOB_ES_New</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==V7 SPORT LFP==EE_Components_ECN_BeforeSOB_ES_New</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==V9 SPORT LFP==EE_Components_ECN_BeforeSOB_ES_New</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==E-Scooter Charging Station 2 sockets==EE_Components_ECN_BeforeSOB_Charger</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==E-Scooter Charging Station 4 sockets==EE_Components_ECN_BeforeSOB_Charger</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==E-Car charging Station 11KW==EE_Components_ECN_BeforeSOB_Charger</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==E-Car charging Station 30KW==EE_Components_ECN_BeforeSOB_Charger</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==E-Car charging Station 60KW==EE_Components_ECN_BeforeSOB_Charger</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==E-Car Home Charger 7.4KW==EE_Components_ECN_BeforeSOB_Home_Portable</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==E-Car Portable Charger 3.5KW==EE_Components_ECN_BeforeSOB_Home_Portable</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==CPDU==EE_Components_ECN_BeforeSOB_CPDU</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==VENTILATOR==EE_Components_ECN_BeforeSOB_Ventilator</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==VF New==EE_Components_ECN_BeforeSOB_ES_Basic</value>
+        <value>EE_Components_ECN_AfterPR_Process==3IN1_AMP==EE_Components_ECN_AfterPR_CPDU</value>
+        <value>EE_Components_ECN_AfterSOB_Process==3IN1_AMP==EE_Components_ECN_AfterSOB_CPDU</value>
+        <value>EE_Components_ECN_BeforeSOB_Process==3IN1_AMP==EE_Components_ECN_BeforeSOB_CPDU</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

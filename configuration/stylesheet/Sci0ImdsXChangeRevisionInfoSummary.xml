@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Filename: Sci0ImdsXChangeRevisionInfoSummary.xml -->
+<!-- Default style sheet for displaying IMDS Exchange Revision Info Summary in the Info Panel. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+ <page>
+     
+          <break/>
+        <section>
+             <property name="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(sci0RecipientData,Sci0RecipientData).sci0SupplierCode"/>
+             <property name="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(sci0RecipientData,Sci0RecipientData).sci0ProductName"/>
+             <property name="vm0CloseDate"/>
+             <break/>
+             <property name="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(sci0RecipientData,Sci0RecipientData).sci0CompanyOrgUnit"/>
+             <break/>
+             <property name="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(sci0RecipientData,Sci0RecipientData).sci0DrawingNumber"/>
+             <property name="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(sci0RecipientData,Sci0RecipientData).sci0DrawingDate"/>
+             <property name="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(sci0RecipientData,Sci0RecipientData).sci0DrawingChangeLevel"/>
+             <property name="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(sci0RecipientData,Sci0RecipientData).sci0PurchaseOrderNumber"/>
+             <property name="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(sci0RecipientData,Sci0RecipientData).sci0BillOfDeliveryNumber"/>
+             <property name="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(sci0RecipientData,Sci0RecipientData).sci0ReportNumber"/>
+             <property name="REF(vm0ExchangeLines,Vm0ExchangeLine).REF(sci0RecipientData,Sci0RecipientData).sci0ReportDate"/>
+             <!-- <property name="REF(vm0ExchangeLines,Vm0ExchangeLine).vm0SentObjectRef" titleKey="Part/Item Number " modifiable="false"/>-->
+             
+      </section>
+
+    </page>
+</rendering>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Briefcase Export and Import">
+    <category_description>Briefcase Export and Import</category_description>
+    
+               <preference name="Briefcase_ownership_transfer_supported_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference contains the list of types which are supported for Briefcase site ownership transfer in the Active Workspace client. The type hierarchy is supported automatically. The type internal name instead of display name should be used.</preference_description>
+      <context name="Teamcenter">
+        <value>Cpd0CollaborativeDesign</value>
+        <value>Cpd0DesignElement</value>
+        <value>Item</value>
+        <value>ItemRevision</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

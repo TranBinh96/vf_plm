@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_seed_process_id" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Define the ID of an item for a seed document process</preference_description>
+      <context name="Teamcenter">
+        <value>IMCATIAProcess</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

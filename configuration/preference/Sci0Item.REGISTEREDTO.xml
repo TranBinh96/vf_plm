@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Sci0Item.REGISTEREDTO" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the types to which the Sci0Item stylesheet can be applied when International Material Data System (IMDS) integration solution is installed.</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

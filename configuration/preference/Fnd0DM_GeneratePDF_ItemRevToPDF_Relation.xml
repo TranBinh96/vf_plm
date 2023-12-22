@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Document Management">
+    <category_description>Document Management.</category_description>
+    
+               <preference name="Fnd0DM_GeneratePDF_ItemRevToPDF_Relation" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specify the relation name (e.g. TC_Attaches) to relate the Item Revision to the generated PDF Dataset. String value must be a valid Teamcenter relation. The default (empty) relation is the same relation used between the Item Revision and the Source Dataset (e.g. MSWordX).</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

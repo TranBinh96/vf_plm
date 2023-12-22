@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2012 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: UiE-ItemRevSummary-.xml
+
+New style sheet for displaying item rev summary for TC 10.0 
+Dave McLaughlin 2012-03-16
+===============================================================================
+-->
+<rendering>
+    <header>
+        <image source = "thumbnail"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "release_status_list" renderingHint = "label"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name = "object_name"/>
+            <property name="vf3_vietnamese_name_s" />
+            <property name="vf3_part_name_eng" />
+            <property name="vf3_part_owner_s" />
+            <property name="vf3_after_sales_relevant_s" />
+            <property name="vf3_initial_usage_s" />
+            <property name="vf3_ee_relevent_s" />
+            <property name="vf3_usage_eitheror_s" />
+            <property name="vf3_supplier_date_d" />
+            <property name="vf3_supplier_name_s" />
+            <property name="vf3_supplier_type_s" />
+            <property name="vf3_safety_relevant_s" />
+            <property name="vf3_standard_part_s" />
+            <property name="vf3_sw_flashable_s" />
+            <property name="vf3_styling_relevant_s" />
+            <property name="vf3_colored_part_s" />
+            <property name="vf3_Certification_RelevantS" />
+            <property name="vf3_material_s" />
+            <property name="vf3_maturity_level_s" />
+            <property name="vf3_weight_s" />
+            <property name="vf3_reference_number_s" />          
+            <property name="vf3_purchasing_name_s" />  
+            <property name="vf3_implementation_with" />  
+            <property name="vf3_serviceability_s" />  
+                <separator/>
+
+			
+                <property name = "release_status_list" renderingHint = "label"/>
+                <property name = "date_released" renderingHint = "label"/>
+                <property name = "effectivity_text" renderingHint = "label"/>
+                <command commandId = "com.teamcenter.rac.revisionEffectivity"/>
+                <separator/>
+                <property name = "owning_user" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "owning_group" renderingHint = "objectlink" modifiable = "false"/>
+                <separator/>
+                <property name = "last_mod_user"/>
+                <property name = "checked_out" renderingHint = "label"/>
+                <property name = "checked_out_user"/>
+                <separator/>
+                <command titleKey = "tc_xrt_moreProperties" commandId = "com.teamcenter.rac.properties"/>
+            </section>
+            <section titleKey = "tc_xrt_ClassificationProperties" title = "Classification Properties">
+                <classificationProperties/>
+            </section>
+        </column>
+        <column>
+            <section title = "Preview" titleKey = "tc_xrt_Preview">
+                <image source = "preview"/>
+            </section>
+            <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy"/>
+                <command actionKey = "reviseAction" commandId = "com.teamcenter.rac.revise"/>
+                <command actionKey = "saveAsAction" commandId = "org.eclipse.ui.file.saveAs"/>
+                <command actionKey = "newProcessAction" titleKey = "tc_xrt_newProc" commandId = "com.teamcenter.rac.newProcess"/>
+            </section>
+        </column>
+    </page>
+    <page titleKey="tc_xrt_Overview_SnS" title="Info SnS">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+            <property name = "object_name"/>
+			
+			<property name="vf3_aftersales_comment_s" />
+			<property name="vf3_approval_class_s" />
+			<property name="vf3_apprvl_code_s" />
+			<property name="vf3_Certification_RelevantS" />
+			<property name="vf3_colored_part_s" />
+			<property name="vf3_coordination_code_s" />
+			<property name="vf3_make_buy_s" />
+			<property name="vf3_traceable_part_index_s" />
+			<property name="vf3_after_sales_relevant_s" />
+			<property name="vf4_donnor_veh" />
+			<property name="vf3_ecn_s" />
+			<property name="vf3_eco_number_r" />
+			<property name="vf3_eco_release_date_r" />
+			<property name="vf3_ee_relevant_s" />
+			<property name="vf3_erm_s" />
+			<property name="vf3_functional_class_s" />
+			<property name="vf3_gross_weight_s" />
+			<property name="vf3_initial_usage_s" />
+			<property name="vf3_kitting_code_s" />
+			<property name="vf3_line_supply_method_s" />
+			<property name="vf3_material_s" />
+			<property name="vf3_material_type_s" />
+			<property name="vf3_maturity_level_s" />
+			<property name="vf3_model_year" />
+			<property name="vf3_mounting_comm_s" />
+			<property name="vf3_net_weight_s" />
+			<property name="vf3_old_part_number_s" />
+			<property name="vf3_ppap_s" />
+			<property name="vf3_part_name_english_s" />
+			<property name="vf3_part_name_german_s" />
+			<property name="vf3_vietnamese_name_s" />
+			<property name="vf3_part_owner_s" />
+			<property name="vf3_sap_plant_s" />
+			<property name="vf3_plant_code_s" />
+			<property name="vf3_purchasing_name_s" />
+			<property name="vf3_reference_number_s" />
+			<property name="vf3_reference_version_s" />
+			<property name="vf3_replacement_by_s" />
+			<property name="vf3_replacement_code_s" />
+			<property name="vf3_replacement_for_s" />
+			<property name="TC_Is_Represented_By" />
+			<property name="vf3_sw_flashable_s" />
+			<property name="vf3_safety_relevant_s" />
+			<property name="vf3_see_drawing_s" />
+			<property name="vf3_serviceability_s" />
+			<property name="vf3_spare_part_s" />
+			<property name="VF3_spare_part_for" />
+			<property name="vf3_specbook_number_s" />
+			<property name="vf3_standard_part_s" />
+			<property name="vf3_styling_relevant_s" />
+			<property name="vf3_supplier_package_s" />
+			<property name="vf3_supplier_name_s" />
+			<property name="vf3_supplier_board_s_s" />
+			<property name="vf3_supplier_date_d" />
+			<property name="vf3_supplier_type_s" />
+			<property name="vf3_vietnamese_desc_s" />
+			<property name="vf3_weight_s" />
+			
+                <separator/>
+                <property name = "owning_user" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "owning_group" renderingHint = "objectlink" modifiable = "false"/>
+                <separator/>
+                <property name = "last_mod_user"/>
+                <property name = "checked_out" renderingHint = "label"/>
+                <property name = "checked_out_user"/>
+                <separator/>
+                <command titleKey = "tc_xrt_moreProperties" commandId = "com.teamcenter.rac.properties"/>
+			</section>
+   </column>
+    </page>
+    <page title = "Attachments" titleKey="tc_xrt_attachments">
+        <section titleKey = "tc_xrt_Files" title = "Files">
+            <objectSet source = "IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_Documents" title = "Documents">
+            <objectSet source = "IMAN_specification.DocumentRevision" sortdirection = "ascending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+    <page title = "History" titleKey = "tc_xrt_History">
+        <section titleKey = "tc_xrt_History" title = "History">
+            <objectSet source = "revision_list.ItemRevision" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+    <!--<page titleKey = "tc_xrt_WhereUsed" title = "Where Used  " visibleWhen = "ps_parents==null">
+        <section titleKey = "tc_xrt_ParentAssemblies" title = "Parent Assemblies">
+            <label textKey = "tc_xrt_noParentAssemblies" text = "     No parent assemblies for this part."/>
+        </section>
+    </page>
+    <page titleKey = "tc_xrt_WhereUsed*" title = "Where Used *" visibleWhen = "ps_parents!=null">
+        <section titleKey = "tc_xrt_ParentAssemblies" title = "Parent Assemblies">
+            <objectSet source = "ps_parents.ItemRevision" sortdirection = "ascending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <command commandId = "com.teamcenter.rac.pse.sendto" titleKey = "tc_xrt_openInSM" title = "Open Selected in Structure Manager" renderingHint = "commandbutton">
+                    <parameter value = "true" name = "localSelection"/>
+                </command>
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>-->
+    <!--page titleKey = "tc_xrt_Structure" title = "Structure  " visibleWhen = "ps_children==null">
+        <section titleKey = "tc_xrt_ChildComponents" title = "Child Components">
+            <command commandId = "com.teamcenter.rac.pse.sendto" titleKey = "tc_xrt_structureManager" title = "Structure Manager" renderingHint = "commandbutton"/>
+            <label textKey = "tc_xrt_noChildComponents" text = "     No child components for this part."/>
+        </section>
+    </page>
+    <page titleKey = "tc_xrt_Structure*" title = "Structure *" visibleWhen = "ps_children!=null">
+        <section titleKey = "tc_xrt_ChildComponents" title = "Child Components">
+            <objectSet source = "ps_children.ItemRevision" sortdirection = "ascending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <command commandId = "com.teamcenter.rac.pse.sendto" titleKey = "tc_xrt_openInSM" title  = "Open Selected in Structure Manager" renderingHint = "commandbutton">
+                    <parameter value = "true" name = "localSelection"/>
+                </command>
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>-->
+    <!-- Enable these two pages only if Vendor Management Template is installed.
+    <page titleKey = "tc_xrt_VendorParts" title = "Vendor Parts  " visibleWhen = "VMRepresents==null">
+        <label textKey = "tc_xrt_noVendorParts" text = "No Vendor Parts for this part."/>
+        <section titleKey = "tc_xrt_VendorParts" title = "Vendor Parts">
+            <objectSet source = "VMRepresents.ManufacturerPart" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "vendor_name">
+                <tableDisplay>
+                    <property name = "vendor_name"/>
+                    <property name = "vendor_id"/>
+                    <property name = "vendor_part_num"/>
+                    <property name = "object_name"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "vendor_name"/>
+                    <property name = "vendor_id"/>
+                    <property name = "vendor_part_num"/>
+                    <property name = "object_name"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+    <page titleKey = "tc_xrt_VendorParts*" title = "Vendor Parts *" visibleWhen = "VMRepresents!=null">
+        <section titleKey = "tc_xrt_VendorParts" title = "Vendor Parts">
+            <objectSet source = "VMRepresents.ManufacturerPart" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "vendor_name">
+                <tableDisplay>
+                    <property name = "vendor_name"/>
+                    <property name = "vendor_id"/>
+                    <property name = "vendor_part_num"/>
+                    <property name = "object_name"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "vendor_name"/>
+                    <property name = "vendor_id"/>
+                    <property name = "vendor_part_num"/>
+                    <property name = "object_name"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+            <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                <command commandId = "com.teamcenter.rac.updatePreferredStatus"/>
+            </section>
+        </section>
+    </page>
+    -->
+    <page titleKey = "tc_xrt_TraceLinks*" title = "Trace Links *" visibleWhen = "has_trace_link==Y">
+        <section titleKey = "tc_xrt_DefiningObjects" title = "Defining Objects">
+            <objectSet source = "fnd0defining_objects.WorkspaceObject" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_ComplyingObjects" title = "Complying Objects">
+            <objectSet source = "fnd0complying_objects.WorkspaceObject" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <separator/>
+        <command commandId = "com.teamcenter.rac.traceabilityReport" titleKey = "tc_xrt_TraceabilityReport" title = "Traceability Report"/>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+        <objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="lis0site"/>
+                <property name="lis0serviceProvider"/>
+                <property name="relation"/>
+                <property name="last_mod_date"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out_user"/>
+            </tableDisplay>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+            <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </page>
+    <page title="Audit Logs" titleKey="tc_xrt_AuditLogs" visibleWhen="{pref:TC_audit_manager_version}==3">
+        <command titleKey="tc_xrt_ExportToExcel" actionKey="exportExcelAction" commandId="com.teamcenter.rac.exportAuditSummaryToExcel" renderingHint="commandbutton"/>    
+        <command titleKey="tc_xrt_ExportToCSV" actionKey="exportCSVAction" commandId = "com.teamcenter.rac.exportAuditSummaryToCSV" renderingHint="commandbutton"/>
+        <section title="Workflow Logs" titleKey="tc_xrt_WorkflowLogs" initialstate="collapsed">
+            <customPanel java="com.teamcenter.rac.auditmanager.WorkflowLegacyAuditLinkPanel"/>
+            <objectSet source="fnd0WorkflowAuditLogs.Fnd0WorkflowAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="object_type"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="object_name"/>
+                    <property name="job_name"/>
+                    <property name="process_templateDisp"/>
+                    <property name="fnd0UserId"/>
+                    <property name="task_state"/>
+                    <property name="task_result"/>
+                    <property name="fnd0Comments"/>
+                    <property name="responsible_party"/>
+                    <property name="fnd0SignoffUserID"/>
+                    <property name="fnd0SignoffGroupName"/>
+                    <property name="fnd0SignoffRoleName"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                    <property name="fnd0SecondaryObjDispName"/>
+                    <property name="fnd0SecondaryObjQualifier"/>
+                </tableDisplay>
+            </objectSet>
+            <customPanel java="com.teamcenter.rac.auditmanager.WorkflowSecondaryAuditPanel" js="displayWorkflowCustomPanel" />
+        </section>
+        <section title="General Logs" titleKey="tc_xrt_GeneralLogs" initialstate="collapsed">
+            <customPanel java="com.teamcenter.rac.auditmanager.CheckoutHistoyLinkPanel"/>
+            <objectSet source="fnd0GeneralAuditLogs.Fnd0GeneralAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="object_type"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="object_name"/>
+                    <property name="fnd0PrimaryObjectID"/>
+                    <property name="fnd0PrimaryObjectRevID"/>
+                    <property name="fnd0UserId"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>
+                    <property name="sequence_id"/>
+                    <property name="fnd0ChangeID"/>
+                    <property name="fnd0Reason"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                    <property name="fnd0SecondaryObjDispName"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+        <section title="License Export Logs" titleKey="tc_xrt_LicenseExportLogs" initialstate="collapsed">
+            <objectSet source="fnd0LicenseExportAuditLogs.Fnd0LicenseExportAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="object_type"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="object_name"/>
+                    <property name="fnd0UserId"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>
+                    <property name="id"/>
+                    <property name="fnd0SecondaryObjectID"/>
+                    <property name="fnd0SecondaryObjectRevID"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                    <property name="fnd0SecondaryObjectName"/>
+                    <property name="fnd0SecondaryObjDispName"/>
+                    <property name="fnd0SecondaryObjectSeqID"/>
+                    <property name="ead_paragraph"/>
+                </tableDisplay>
+            </objectSet>
+            <customPanel java="com.teamcenter.rac.auditmanager.LicenseExportSecondaryAuditPanel" js="displayLicenseExportCustomPanel" />
+        </section>
+        <section title="Structure Logs" titleKey="tc_xrt_StructureLogs" initialstate="collapsed">
+            <objectSet source="fnd0StructureAuditLogs.Fnd0StructureAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="object_type"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="object_name"/>
+                    <property name="fnd0UserId"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>
+                    <property name="item_id"/>
+                    <property name="item_revision_id"/>
+                    <property name="sequence_id"/>
+                    <property name="fnd0SecondaryObjectID"/>
+                    <property name="fnd0SecondaryObjectRevID"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                    <property name="fnd0SecondaryObjectName"/>
+                    <property name="fnd0SecondaryObjDispName"/>
+                    <property name="fnd0SecondaryObjectSeqID"/>
+                    <property name="comp_position"/>
+                </tableDisplay>
+            </objectSet>
+            <customPanel java="com.teamcenter.rac.auditmanager.StructureSecondaryAuditPanel" js="displayStructureCustomPanel" />
+        </section>
+    </page>
+</rendering>

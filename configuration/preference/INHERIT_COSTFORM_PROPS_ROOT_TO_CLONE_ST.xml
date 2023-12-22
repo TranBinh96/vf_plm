@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VF_AWC">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="INHERIT_COSTFORM_PROPS_ROOT_TO_CLONE_ST" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>INHERIT_COSTFORM_PROPS_ROOT_TO_CLONE_ST</preference_description>
+      <context name="Teamcenter">
+        <value>vf4_ecr_latest_rel_date</value>
+        <value>vf4_ecr_num_latest_rel</value>
+        <value>vf4_ednd_costs</value>
+        <value>vf4_ednd_curr</value>
+        <value>vf4_logistics_costs</value>
+        <value>vf4_packing_costs</value>
+        <value>vf4_piece_costs</value>
+        <value>vf4_piece_costs_curr</value>
+        <value>vf4_tooling_costs</value>
+        <value>vf4_tooling_curr</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

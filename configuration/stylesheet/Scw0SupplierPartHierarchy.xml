@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2020.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+//      Filename : Scw0SupplierPartHierarchy.xml
+-->
+<!-- Default style sheet for displaying Substance Application Code Info Panel in Active Workspace Client. -->
+<subRendering>
+    <content visibleWhen="Scp0BOMSnapshot != null">
+            <section titleKey="tc_supplier_part_Hierarchy">
+                <objectSet source="Scp0BOMSnapshot.Scp0VPBOMItemRevision" defaultdisplay="tableDisplay" sortdirection="descending" sortby="object_name">
+                    <tableDisplay>
+                        <property name="scp0ProductId" modifiable="false"/>
+                        <property name="object_name" modifiable="false"/>
+                        <property name="scp0mass" modifiable="false"/>
+                        <property name="scp0uom_tag" modifiable="false"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+    </content>
+</subRendering>

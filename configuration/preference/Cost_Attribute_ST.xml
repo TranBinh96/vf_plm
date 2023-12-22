@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VF_AWC">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cost_Attribute_ST" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Cost_Attribute_ST</preference_description>
+      <context name="Teamcenter">
+        <value>vf4_eddorder_value_2</value>
+        <value>vf4_eddorder_currency</value>
+        <value>vf4_sap_edd_cost_curr</value>
+        <value>vf4_sap_edd_cost</value>
+        <value>vf4_tooling_order_2</value>
+        <value>vf4_tooling_currency</value>
+        <value>vf4_sap_tooling_cost</value>
+        <value>vf4_sap_tooling_curr</value>
+        <value>vf4_refurbishment_value</value>
+        <value>vf4_string2</value>
+        <value>vf4_sap_refur_tooling_cost</value>
+        <value>vf4_sap_refur_tooling_curr</value>
+        <value>vf4_facility_invest_amt_2</value>
+        <value>vf4_facility_investment_cur</value>
+        <value>vf4_sap_facility_cost</value>
+        <value>vf4_sap_facility_curr</value>
+        <value>vf4_supplier_piece_cost_exw</value>
+        <value>vf4_piece_currency</value>
+        <value>vf4_supplier_pkg_amount</value>
+        <value>vf4_Supplier_logistic_cost</value>
+        <value>vf4_piece_cost_auto</value>
+        <value>vf4_proto_tooling_value_2</value>
+        <value>vf4_proto_part</value>
+        <value>vf4_string4</value>
+        <value>vf4_piece_cost_target_2</value>
+        <value>vf4_tooling_cost_target_2</value>
+        <value>vf4_edd_cost_target_2</value>
+        <value>vf4_double_1</value>
+        <value>vf4_string_30</value>
+        <value>vf4_sap_pp_cost</value>
+        <value>vf4_sap_pp_curr</value>
+        <value>vf4_double_2</value>
+        <value>vf4_string_31</value>
+        <value>vf4_miscellaneous_cost2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

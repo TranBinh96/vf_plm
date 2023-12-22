@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VF_Sourcing_Valid_PurchaseLevel" type="String" array="true" disabled="false"
+      protectionScope="User" envEnabled="false">
+      <preference_description>List purchase level will be accepted by Sourcing</preference_description>
+      <context name="Teamcenter">
+        <value>AXS</value>
+        <value>BL</value>
+        <value>D</value>
+        <value>DPT</value>
+        <value>DPS</value>
+        <value>P</value>
+        <value>S</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

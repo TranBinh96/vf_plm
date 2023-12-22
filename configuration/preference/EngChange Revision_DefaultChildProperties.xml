@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EngChange Revision_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Requires the following relation names. The final setting (release_status_list) is required to display the current status in My Teamcenter.
+Valid Values:
+IMAN_master_form_rev
+IMAN_specification
+IMAN_requirement
+IMAN_manifestation
+IMAN_reference
+affected_items
+solution_items
+problem_items
+reference_items
+addressed_by
+release_status_list</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_master_form_rev</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_reference</value>
+        <value>affected_items</value>
+        <value>solution_items</value>
+        <value>problem_items</value>
+        <value>reference_items</value>
+        <value>addressed_by</value>
+        <value>tasks_to_perform</value>
+        <value>tasks_to_review</value>
+        <value>release_status_list</value>
+        <value>EC_snapshot_rel</value>
+        <value>TC_Attaches</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

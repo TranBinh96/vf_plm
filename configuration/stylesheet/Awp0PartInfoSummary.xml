@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Commercial Part Info Panel in Revolution Client. -->
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_properties">
+            <property name="item_id" renderingHint="label"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="object_type"/>
+            <break/>
+            <property name="release_status_list" renderingHint="label"/>
+            <property name="date_released" renderingHint="label"/>
+            <property name="effectivity_text" renderingHint="label"/>
+            <inject type="dataset" src="Pca0AddHasVariantConfiguratorContext"/>
+            <break/>
+            <inject type="dataset" src="Ads1ProjectListInfoRendering"/>
+            <break/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_user"/>
+            <property name="last_mod_date"/>
+            <property name="checked_out" renderingHint="label"/>
+            <property name="checked_out_user"/>
+            <break/>
+            <property name="fnd0OriginalLocationCode"/>
+            <inject type="dataset" src="Ads1CommercialPartSection"/>
+        </section>
+    </page>
+</rendering>

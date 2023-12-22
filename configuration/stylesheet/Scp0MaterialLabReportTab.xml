@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2020.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+//  Filename : MaterialLabReportTab.xml
+-->
+<!-- Default style sheet for displaying Lab report tab in Material Revision Active Workspace Client. -->
+<subRendering>
+  <page titleKey="scw0_xrt_MaterialLabReports" visibleWhen="REFBY(scp0ReferenceMatRevision,Scp0MaterialMfgMapping).GRMS2P(Scp0UsesMaterialMapping,Scp0MaterialLabReport).scp0LabReportID!=null">
+    <section>
+       <objectSet source="REFBY(scp0ReferenceMatRevision,Scp0MaterialMfgMapping).GRMS2P(Scp0UsesMaterialMapping,Scp0MaterialLabReport)" defaultdisplay="tableDisplay" userSortable="false">
+        <tableDisplay>
+          <property name="scp0LabReportID" modifiable="false"/>
+          <property name="scp0LabReportType" modifiable="false"/>
+          <property name="GRM(Scp0UsesLaboratory,Item).object_name" titleKey = "scw0_xrt_Laboratory" modifiable="false"/>
+          <property name="GRM(Scp0UsesSupplier,Item).object_name" titleKey = "scw0_xrt_Submitter" modifiable="false"/>
+          <property name="GRM(Scp0UsesMaterialMapping,Scp0MaterialMfgMapping).REF(scp0ReferenceManufacturer,WorkspaceObject).object_name" titleKey="scw0_xrt_Manufacturer" modifiable="false"/>
+          <property name="scp0ActiveLRDDeclaration" titleKey ="scw0_xrt_LabReportName" modifiable="false"/>
+        </tableDisplay>
+      </objectSet>
+    </section>
+  </page>
+</subRendering>

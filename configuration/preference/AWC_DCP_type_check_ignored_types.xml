@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_DCP_type_check_ignored_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference specifies the list of types for which type check is ignored during DCP traversal. For example, if the preference contains typeA which has two subtypes subTypeA, subTypeB. An instance of subtypeA will be taken as a valid secondary in the DCP traversal even when DCP syntax specifically filters for subTypeB as in REF (prop, subTypeB).</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

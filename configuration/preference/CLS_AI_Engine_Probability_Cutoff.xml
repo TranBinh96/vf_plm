@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Classification">
+    <category_description>Active Workspace preferences for Classification application</category_description>
+    
+               <preference name="CLS_AI_Engine_Probability_Cutoff" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Configure the probability cut off (in percentage) for getting the list of suggested classes when using classification AI.
+Valid values include from range 0 to 100. The default value is 10.</preference_description>
+      <context name="Teamcenter">
+        <value>10</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_Subscription">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_Subscription_Handler_ID" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF_Subscription_Handler_ID</preference_description>
+      <context name="Teamcenter">
+        <value>Vf6_ECRRevision#__Attained_Release_Status=ST_ECR_UPDATE</value>
+        <value>Vf6_ECNRevision#__Attained_Release_Status=ST_ECN_UPDATE</value>
+        <value>VF3_spec_docRevision#__Attained_Release_Status=ITEM_SPECBOOK_RELEASE</value>
+        <value>VF4_ERNRevision#__Attained_Release_Status=ERN_RELEASED</value>
+        <value>Vf6_ECRRevision#__Attained_Release_Status=ECR_COST_UPDATE_2_ST</value>
+        <value>VF4_line_itemRevision#__Replica_Update=ST_CREATED</value>
+        <value>Design Revision#Fnd0MultiSite_Unpublish=REV_COPY_OLD_PART_INFO</value>
+        <value>VF3_vfitemRevision#__Attained_Release_Status=FRS_RELEASED</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_always_exclude_dataset_files_on_export" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the dataset named reference file is excluded from export. Use this preference in conjunction with the on-demand retrieval of dataset volume files functionality. This preference affects Multi-Site transfers only and is ignored by Global Services.
+Valid Values:
+true - Excludes the dataset named reference file from export. This ensures a given role can never store replica volume data at a remote site. This setting forces the remote user to retrieve the volume data from the owning site.
+false - Does not exclude the dataset named reference file from export.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_OC_OpenSupportedTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables opening the specified object types in Teamcenter Client for Office when selected in the Active Workspace.</preference_description>
+      <context name="Teamcenter">
+        <value>MSWord</value>
+        <value>MSWordX</value>
+        <value>MSWordTemplateX</value>
+        <value>MSWordTemplate</value>
+        <value>MSExcel</value>
+        <value>MSExcelX</value>
+        <value>MSExcelTemplateX</value>
+        <value>MSExcelTemplate</value>
+        <value>Outlook</value>
+        <value>MSPowerPointX</value>
+        <value>MSPowerPoint</value>
+        <value>MSPowerPointTemplate</value>
+        <value>MSPowerPointTemplateX</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_Received_MDS_part_unique_attrib_maps_to" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the name of the attribute of the type &quot;IMDS_Received_MDS_part_object_name&quot;, which is to be used to map the unique attribute supplied in International Material Data System (IMDS) files.
+The default value is item_id.</preference_description>
+      <context name="Teamcenter">
+        <value>item_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Use_DataShare_Manager" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates the use of the Data Share Manager for uploading and downloading files. The Data Share Manager is an asynchronous file upload and download async application for File Management System (FMS) transactions.
+Valid Values:
+true - Perform asynchronous file uploads and downloads and monitor them with the Data Share Manager.
+false - Use the File Management System (FMS) to perform synchronous file uploads and downloads. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

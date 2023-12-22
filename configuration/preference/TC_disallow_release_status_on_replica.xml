@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_disallow_release_status_on_replica" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether replicas are allowed to be released (have a release status). If you are using Global Change Management, you must set this preference value to false to allow application of release status to replicas that are not remotely checked out during a remote workflow activity.
+Valid Values:
+true - Prevents replicas from being released.
+false - Allows replicas to be released (have a release status).</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+    Filename: CompanyLocation.xml
+
+    Default style sheet for displaying CompanyLocation properties.
+=======================================================================
+-->
+
+
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+        <property name="object_name" />
+        <property name="fnd0LocationCode" />
+        <property name="fnd0LocationType" />
+        <property name="street" />
+        <property name="city" />
+        <property name="state_province" />
+        <property name="postal_code" />
+        <property name="country" />
+        <property name="region" />
+        <property name="url" />
+        <property name="object_desc" />
+        <property name="object_type" />
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+        <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+        <property name="last_mod_user" />
+    </page>
+
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="tc_xrt_Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

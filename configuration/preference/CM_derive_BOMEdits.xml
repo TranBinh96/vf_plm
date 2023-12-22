@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_derive_BOMEdits" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether derived BOM edits are created for children at all lower levels when a BOM edit is created for the parent.
+Derived BOM edits have the effect of rendering the children in same color as the parent in the BOM panel, regardless of whether the children have been changed.
+Valid Values:
+* true: Derived BOM edits are created for children at all lower levels, but at the expense of performance.
+* false: No derived BOM edits are created, producing better performance. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

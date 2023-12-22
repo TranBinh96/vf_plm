@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: UiE-SupplierResponseSummary10.xml
+
+    Style sheet rendering for Supplier Response summary.
+=======================================================================
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="vm0ReviewStatus"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+          <column>
+              <section titleKey="tc_xrt_properties">
+                  <property name="object_name" modifiable="false"/>
+                  <property name="sc0ResponseComments" modifiable="false"/>
+                  <separator/>
+                  <property name="sc0VendorContact" renderingHint="objectlink" modifiable="false"/>
+                  <property name="vm0SRMExchange" renderingHint="objectlink" modifiable="false"/>
+                  <property name="vm0ReviewStatus" modifiable="false"/>
+                  <property name="sc0StatusReason" modifiable="false"/>
+                  <property name="vm0ReviewComments" modifiable="false"/>
+                  <property name="vm0ResponseDate" modifiable="false"/>
+                  <property name="sc0FinalResponse" modifiable="true"/>
+                  <separator/>
+                  <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+              </section>
+              <section titleKey = "tc_xrt_SupplierItems" title = "Items">
+                  <objectSet source = "sc0SupItems.Sc0SupAttachmentsRelation" defaultdisplay = "tableDisplay" sortby = "sc0TargetObject" sortdirection = "ascending">
+                      <tableDisplay>
+                          <property name = "secondary_object"/>
+                          <property name = "sc0AttachmentTypeName"/>
+                          <property name = "sc0TargetObject"/>
+                      </tableDisplay>
+                  </objectSet>
+              </section>
+              <section titleKey = "tc_xrt_SupplierAttachments" title = "Attachments">
+                <objectSet source = "sc0SupAttRelObjs.Sc0SupAttachmentsRelation" defaultdisplay = "tableDisplay" sortby = "sc0AttachmentTypeName" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "secondary_object"/>
+                        <property name = "sc0AttachmentTypeName"/>
+                        <property name = "sc0TargetObject"/>
+                        <property name = "sc0SponsorAttachment"/>
+                    </tableDisplay>
+                </objectSet>
+              </section>
+              <section titleKey = "tc_xrt_SupplierAttributes" title = "Attributes">
+                <objectSet source = "sc0TransientAttributeInfo.Sc0TransientAttributeInfo" defaultdisplay = "tableDisplay" sortby = "sc0AttributeName" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "sc0AttributeName"/>
+                        <property name = "sc0AttributeValue"/>
+                        <property name = "sc0ObjectRef"/>
+                    </tableDisplay>
+                </objectSet>
+              </section>
+          </column>
+          <column>
+            <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                <command commandId = "com.teamcenter.rac.unsubmitResponse" renderingHint = "commandbutton" align="right"/>
+            </section>
+        </column>
+    </page>
+</rendering>

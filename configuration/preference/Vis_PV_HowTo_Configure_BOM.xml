@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ProductView">
+    <category_description>
+      Preferences affecting the behavior of Product views
+</category_description>
+    
+               <preference name="Vis_PV_HowTo_Configure_BOM" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates how the BOM Window is to be configured before a Product View is applied to it.
+This configuration is captured in the Product View with the use of the VisStructureContext object. This object records the Revision Rule, Variant Rules, Assembly Arrangements and Occurrence Effectivity.
+Valid values are &quot;UseCurrent&quot; or &quot;UsePV&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>UseCurrent</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="__ViewAuditLog_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of columns shown when displaying audit query search results.</preference_description>
+      <context name="Teamcenter">
+        <value>EventTypeName</value>
+        <value>ObjectId</value>
+        <value>ObjectName</value>
+        <value>ObjectRev</value>
+        <value>UserId</value>
+        <value>LoggedDate</value>
+        <value>ObjectType</value>
+        <value>ObjectSeqNo</value>
+        <value>GroupName</value>
+        <value>Sec_ObjectType</value>
+        <value>Sec_ObjectId</value>
+        <value>Sec_ObjectName</value>
+        <value>Sec_ObjectRev</value>
+        <value>Sec_ObjectSeqNo</value>
+        <value>ErrorCode</value>
+        <value>ErrorString</value>
+        <value>UserData</value>
+        <value>object_string</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_POM_class_componentSR_userdata" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Pom class name used for the userdata of alternate component representations GRM link</preference_description>
+      <context name="Teamcenter">
+        <value>POM_componentSR_userdata</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

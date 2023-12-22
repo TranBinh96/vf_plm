@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+//      Filename : Scw0ComplianceCategoriesSummary.xml
+-->
+<!-- Default style sheet for displaying Compliance Categories in Active Workspace Client. -->
+<subRendering>
+    <page titleKey="scw0_xrt_compliance_categories" title="Categories" visibleWhen="structure_revisions==null and ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation and Scp0ComplianceCategories!=null">
+      <section>
+        <objectSet source="Scp0ComplianceCategories.Scp0ComplianceCategory" defaultdisplay="tableDisplay" userSortable="false" sortby="scp0CategoryName">
+            <tableDisplay>
+                <property name="scp0CategoryName" modifiable="false" width="350"/>  
+                <property name="Scp0ComplianceCategories.scp0Responses" modifiable="false" width="350"/> 
+                <property name="REFBY(scp0ComplianceCategories,Scp0Regulation).object_string" titleKey = "scw0_xrt_regulation" modifiable="false" width="350"/>
+            </tableDisplay>
+        </objectSet>
+      </section>
+    </page>
+</subRendering>

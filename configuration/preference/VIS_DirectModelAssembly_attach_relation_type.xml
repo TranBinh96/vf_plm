@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.DIS Adapter">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VIS_DirectModelAssembly_attach_relation_type" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the relation between an Item Revision and a DirectModelAssembly dataset.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

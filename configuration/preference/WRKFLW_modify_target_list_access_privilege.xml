@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_modify_target_list_access_privilege" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the access privilege to be used in order to enforce permission on modification of the Workflow target list.
+Valid values are any access privilege. The default value is the CHANGE access privilege.</preference_description>
+      <context name="Teamcenter">
+        <value>CHANGE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

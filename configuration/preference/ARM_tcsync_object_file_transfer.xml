@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ARM_tcsync_object_file_transfer" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Activates the performance monitoring of the Multi-Site Collaboration object file transfer function by the tc_sync utility.
+Object file transfer is a subtransaction of the ARM tc_sync update transaction. This transaction reports the duration of time required to transfer the files associated with a remote object to a specific site. There is no corresponding server-side transaction.
+Valid Values:
+* ON: Enables performance monitoring of the Multi-Site Collaboration object update function by the tc_sync utility.
+* OFF: Suppresses performance monitoring of the Multi-Site Collaboration object update function by the tc_sync utility.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

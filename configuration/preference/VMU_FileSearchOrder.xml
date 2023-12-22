@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.DIS Adapter">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VMU_FileSearchOrder" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of valid named reference types for the VMU datasets.</preference_description>
+      <context name="Teamcenter">
+        <value>Markup</value>
+        <value>Image</value>
+        <value>JTPART</value>
+        <value>JTSESSION</value>
+        <value>Package</value>
+        <value>ConfiguredAssembly</value>
+        <value>3DModel</value>
+        <value>Quickshade-Image</value>
+        <value>PLT</value>
+        <value>BMP</value>
+        <value>CAL</value>
+        <value>TIFF</value>
+        <value>Graphics-Interface</value>
+        <value>Sheet</value>
+        <value>Process</value>
+        <value>Measurement</value>
+        <value>FlowChart</value>
+        <value>Animation</value>
+        <value>IllustrationBook</value>
+        <value>IllustrationSheet</value>
+        <value>Environment</value>
+        <value>Figure</value>
+        <value>Psurf</value>
+        <value>Posture</value>
+        <value>Nastran</value>
+        <value>TechnicalPortfolio</value>
+        <value>TechnicalIllustration</value>
+        <value>GeometryAsset</value>
+        <value>VisioTemplate</value>
+        <value>VisioStencil</value>
+        <value>PDF</value>
+        <value>JPEG</value>
+        <value>TIF</value>
+        <value>Results</value>
+        <value>DBReport</value>
+        <value>Registry</value>
+        <value>DBConnection</value>
+        <value>Zone</value>
+        <value>Cluster</value>
+        <value>Movie</value>
+        <value>BWTStructureFile</value>
+        <value>XFatf</value>
+        <value>XSCH</value>
+        <value>companion</value>
+        <value>markup</value>
+        <value>results</value>
+        <value>rules</value>
+        <value>Session</value>
+        <value>Package</value>
+        <value>DependentFile</value>
+        <value>3DMarkup</value>
+        <value>Motion</value>
+        <value>PortfolioHFT</value>
+        <value>JPEG_Reference</value>
+        <value>TIF_Reference</value>
+        <value>GIF_Reference</value>
+        <value>ALSG</value>
+        <value>ThumbnailImage</value>
+        <value>CompareImage</value>
+        <value>AssetImage</value>
+        <value>MarkupLayers</value>
+        <value>BaseImage</value>
+        <value>Snapshot2DAttributes</value>
+        <value>3DGeoAsset</value>
+        <value>StructureFileBin</value>
+        <value>CSStructureFile</value>
+        <value>ViewFile</value>
+        <value>Text</value>
+        <value>Fnd0TcVisFilterReference</value>
+        <value>Fnd0TcVisConstraintReference</value>
+        <value>DefinitionFile</value>
+        <value>MaterialImage</value>
+        <value>PDF_Reference</value>
+        <value>HPGL_Reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

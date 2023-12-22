@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+================================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+@<COPYRIGHT>@
+@<DEL>@
+=======================================================================
+Date         Name                    Description of Change
+$HISTORY$
+10/14/2009  Luke Yu                  Create   
+
+=======================================================================
+@<DEL>@ 
+-->
+<rendering>
+
+   <page title="General Information" titleKey="tc_xrt_CondValDataCreate_general_information">
+         <section titleKey="tc_xrt_properties">
+            <property name="item_id" renderingHint="textfield" />
+            <property name="revision:item_revision_id" renderingHint="textfield" />
+            <property name="object_name" renderingHint="textfield" />
+            <property name="object_desc" column="16" />
+         </section>
+   </page>
+   
+   <page title="CondValData Revision Information" titleKey="tc_xrt_CondValDataRevisionInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="revision:verificationRules" renderingHint="condvalidationpanel" />
+         </section>
+   </page>
+   
+</rendering>

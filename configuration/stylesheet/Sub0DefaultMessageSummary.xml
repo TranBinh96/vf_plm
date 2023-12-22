@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2018 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Sub0DefaultMessageSummary.xml
+
+Default style sheet for displaying Message Object Summary Active Workspace.
+
+-->
+<subRendering>
+    <column>
+      <section titleKey="tc_xrt_Properties">
+      <property name="fnd0Subject"/>
+        <property name="fnd0Priority"/>
+        <property name="fnd0EventType"/>
+        <property name="fnd0SentDate"/>
+        <property name="fnd0Receiver"/>
+        <property name="fnd0MessageBody"/>
+         <property name="fnd0RelatedObjects"/>
+      </section>
+      <section titleKey="tc_xrt_TargetObject">
+        <objectSet source="fnd0TargetObject.POM_object" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+          <thumbnailDisplay/>
+           <treeDisplay>
+            <property name="object_string"/>
+          </treeDisplay>
+          <listDisplay/>
+        </objectSet>
+      </section>
+      <section titleKey="tc_xrt_SubscriptionObjectAW">
+        <objectSet source="fnd0RelatedObjects.ImanSubscription" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+          <thumbnailDisplay/>
+          <treeDisplay>
+            <property name="object_string"/>
+          </treeDisplay>
+          <listDisplay/>
+        </objectSet>
+      </section>
+    </column>
+</subRendering>

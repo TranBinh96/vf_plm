@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_variant_value_protect" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Protects a specified product structure option value from unwanted modifications by rich client users. This preference applies only to classic variants.
+Valid Values:
+none - No option value is protected.
+all - All option values are protected. No options can be deleted.
+refd_by_expr - Option values referenced by any variant expression except declarations are protected.</preference_description>
+      <context name="Teamcenter">
+        <value>refd_by_expr</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_ATTRIBUTES_FORM" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the form type used to display the UGPART and UGMASTER attributes.By default, the access of ImanFile, UGPartAttr, and UGPartBoundingBoxForm object types are delegated to the parent dataset. You can use the TC_object_type_delegation to override the delegation behavior.
+Valid Values:
+A single string as a value; the string must be a valid Teamcenter form type.</preference_description>
+      <context name="Teamcenter">
+        <value>UGPartAttr</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

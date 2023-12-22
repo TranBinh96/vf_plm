@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!--Default style sheet for displaying Id Display Rule Info Panel. -->
+<rendering>
+   <header>
+        <property name="iddisp_disp_name" renderingHint="label" />
+    </header>
+    <page titleKey = "tc_xrt_Summary">
+        <section titleKey = "tc_xrt_properties">
+                <property name="iddisp_name"/>
+                <property name="iddisp_disp_name"/>
+                <property name="object_type"/>
+                <property name="idcontext_list"/>
+        </section>
+    </page>
+</rendering>

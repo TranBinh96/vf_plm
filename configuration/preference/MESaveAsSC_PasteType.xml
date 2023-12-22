@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MESaveAsSC_PasteType" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies which object in a selected BOM line is pasted as a root when creating a structure context in Manufacturing Process Planner. see Manufacturing Process Planner.
+Valid Values:
+Accepts one of the following values:ItemItemRevisionBOMViewBOMViewRevisionIf no BOMViewRevision object exists in the selection and that value is defined in this preference, Teamcenter uses the ItemRevision object instead. This occurs with product root BOM lines without children as they do not contain any BOMViewRevision object. If no BOMView object exists in the selection and that value is defined, Teamcenter uses the Item object instead.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMViewRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

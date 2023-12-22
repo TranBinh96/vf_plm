@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Intent_OpenByName_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of properties displayed as columns for Intent objects in the &quot;Open By Name&quot; command of the Manufacturing Process Planner (MPP) application.
+Valid values are property internal names for the type Intent.</preference_description>
+      <context name="Teamcenter">
+        <value>name</value>
+        <value>description</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

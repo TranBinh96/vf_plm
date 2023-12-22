@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="NE_default_application_domain_template" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default application domain and Visio diagram template for the specified types of BOM line, which is used in Systems Engineering. Default application domains are defined in the Business Modeler IDE by the Fnd0TcApplication list of values.
+Valid Values:
+ObjectTypeName:valid_application_domain_name,default_visio _template</preference_description>
+      <context name="Teamcenter">
+        <value>Functionality:FunctionalModeling,FUNCTIONAL_MODELING_TEMPLATE</value>
+        <value>Fnd0LogicalBlock:LogicalModeling,LOGICAL_MODELING_TEMPLATE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

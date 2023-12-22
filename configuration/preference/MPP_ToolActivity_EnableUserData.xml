@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MPP_ToolActivity_EnableUserData" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Synchronize customizable attributes between NX-CAM and Teamcenter.
+Up to 15 custom properties can be defined that are stored with the MENCToolActivity of a CAM setup.
+These custom attributes are defined using the preference MPP_ToolActivity_CustomUserData.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

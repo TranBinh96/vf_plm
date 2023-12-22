@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA123_extobject_file_rename" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls whether file names of attached reference links are to be retained as the original ones or have to be renamed during save to Teamcenter.
+Possible values:
+0 - do not rename attached reference link file on save
+1 - rename attached reference link files automatically
+2 - rename attached reference link files automatically only during Save As New Item operations (Default)</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

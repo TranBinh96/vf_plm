@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Html Template Object Revision Summary. -->
+<rendering>
+  <header>
+    <image source="type"/>
+    <property name="owning_user"/>
+    <property name="last_mod_date"/>
+    <property name="release_status_list" renderingHint="overflow"/>
+    <property name="object_type"/>
+  </header>
+  
+  <page titleKey="tc_xrt_Overview" visibleWhen="ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+       <section titleKey="tc_xrt_properties">
+         <property name="item_id" renderingHint="label"/>
+         <property name="item_revision_id" renderingHint="label"/>
+         <property name="object_name"/>
+         <property name="object_desc"/>
+         <property name="object_type"/>
+         <property name="REF(items_tag,Item).excel_template_rules"/>
+         <property name="release_status_list" renderingHint="label"/>
+         <property name="date_released" renderingHint="label"/>
+         <!-- Sub-rendering for Active workspace Program planning -->
+         <inject type="dataset" src="Pgp1TargetDefnSummary" />
+         <break/>
+         <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+         <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+         <property name="last_mod_user"/>
+         <property name="checked_out" renderingHint="label"/>
+         <property name="checked_out_user"/>
+         <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+       </section>
+  </page>
+      <page titleKey="attachments">
+        <content visibleWhen="ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+            <section titleKey="tc_xrt_Files">
+                <!-- 
+                    Note : ObjectSet source relations for content tab are managed by '%TC_INSTALL_DIR%/activeworkspacebom/data/Awb0OccMgmtAttachments.xml',
+                    For consistent attachment page display , Please keep objectset source relations in sync with 'Awb0OccMgmtAttachments.xml'.
+                -->
+                <objectSet source="IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset,IMAN_UG_altrep.Dataset,IMAN_UG_scenario.Dataset,IMAN_Simulation.Dataset" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_string"/>
+                        <property name="ref_list"/>
+                        <property name="object_type"/>
+                        <property name="relation" modifiable="true"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name="object_string"/>
+                        <property name="ref_list"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+            <section titleKey="tc_xrt_Documents">
+                <!-- 
+                    Note : ObjectSet source relations for content tab are managed by '%TC_INSTALL_DIR%/activeworkspacebom/data/Awb0OccMgmtAttachments.xml',
+                    For consistent attachment page display , Please keep objectset source relations in sync with 'Awb0OccMgmtAttachments.xml'.
+                -->
+                <objectSet source="IMAN_specification.DocumentRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                    <tableDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                    <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+        </content>
+        <content visibleWhen="ActiveWorkspace:SubLocation == com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+          <inject type="dataset" src="Awb0OccMgmtAttachments"/>
+        </content>
+        <inject type="dataset" src="Awn0ValidationResultsSummary"/>
+        <inject type="dataset" src="RemoteLinksSummary"/>
+        <inject type="dataset" src="Cm1ItemRevSummaryPrimarytoPrimaryDocRel"/>
+    </page>
+<page titleKey="web_whereused">
+        <!--
+        // ====================================================================================================
+        // The following column defines the display for when Active Workspace Structure solution is installed.
+        // If you have not installed this option, this column should be removed.
+        // ====================================================================================================
+        -->
+            <section titleKey="tc_xrt_References">
+                <objectSet source="Awp0ReferencesProvider.WorkspaceObject" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                        <property name="date_released"/>
+                        <property name="owning_user"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+    </page>
+</rendering>

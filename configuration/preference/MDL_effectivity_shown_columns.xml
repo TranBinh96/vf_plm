@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MDL_effectivity_shown_columns" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if unit, date or all columns are shown in the Effectivity view of the application.
+Valid Values:
+DateOnly - The date effectivity columns are shown in the Effectivity view.
+UnitOnly - The unit number effectivity columns are shown in the Effectivity view.
+All - The date effectivity and unit number effectivity columns are both shown in the Effectivity view.</preference_description>
+      <context name="Teamcenter">
+        <value>UnitOnly</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

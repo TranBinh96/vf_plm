@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="PreviewDatasetTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>It wil check one of the type from its value and display it in preview section</preference_description>
+      <context name="Teamcenter">
+        <value>JPEG</value>
+        <value>Image</value>
+        <value>CAEAnalysisDS</value>
+        <value>GIF</value>
+        <value>Bitmap</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

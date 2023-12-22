@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMClassifyResource" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether new items and item revisions are classified at the time they are created using the File-&gt;New-&gt;Resource menu command. Regardless of this preference&apos;s settings, existing objects can still be classified using the Classify Item and Classify Item Revision menu commands.
+Valid Values:
+Accepts a single string as a value. The string must be either Item or ItemRevision. Siemens PLM Software recommends classifying item revisions during creation, otherwise some functionality (revisioning, propagated attributes, statuses) is limited.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

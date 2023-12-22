@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAccountabilityCheckParentDelimiterInHierarchy" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the BOM Line properties to be added as columns to the accountability check Excel report for each source line in the Manufacturing Process Planner application. Cells in the column contain the value of the property for each BOM Line.
+Valid Values:
+Accepts a list of valid Teamcenter internal property names.</preference_description>
+      <context name="Teamcenter">
+        <value>-&gt;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

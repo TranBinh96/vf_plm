@@ -1,0 +1,22 @@
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+    <content visibleWhen="sci0IsIMDSObject==True">
+        <break/>
+        <property name="sci0IsIMDSObject"/>
+        <property name="sci0IsSemicomponent"/>
+        <property name="sci0MDSStatus" />
+        <property name="sci0NodeId"/>
+        <property name="sci0Version"/>
+        <property name="sci0MeasuredWeight"/>
+        <property name="sci0UOMTag"/>
+        <property name="sci0PolymericPartMarking"/>
+    </content>
+</subRendering>

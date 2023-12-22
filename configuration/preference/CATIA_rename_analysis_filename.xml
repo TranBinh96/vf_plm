@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_rename_analysis_filename" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>When an item is saved, you can also rename the filename of the CATPart, CATProduct, CATProcess or CATAnalysis documents independently by modifying the three characters within those variables. Each of the three characters represent an action to be carried out on the document to save. For example:
+- 0 = no modification
+- 1 = modification
+The first character of the variable applies to the SAVE AS function.
+The second character of the variable applies to the SAVE EXISTING function.
+The third character of the variable applies to the SAVE NEW REVISION function.
+The default values are 000.</preference_description>
+      <context name="Teamcenter">
+        <value>000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

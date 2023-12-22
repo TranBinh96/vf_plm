@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Qam0ReminderAndEscalationProfiles" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Preference to provide Reminder and Escalation Profiles for Business Object. Escalation Profile requires Business Object Name, DateProperty and No of Days Prior based on which Reminder and Escalation will trigger.
+
+Note: Values for DateProperty, Business Object name and NoOfDaysPrior mandatory.
+If criteria contains dependent LOVs then use single value for Parent LOV.
+Notifiers should be valid Business Object User example : Owner, Responsible User, Last Modified User.
+User can configure both workflow and email.
+workflow: Triggers escalation workflow.
+email : Sends email(OS mail and Teamcenter mail) Notification to Owner.
+
+Format : BusinessObjectName:DateProperty:Property1=Value1|Property2=value1,value2|Property3=value1:NoOfDayPrior:Notifier1,Notifier2:workflow-workflowName:email-NotificationWorkflowName;
+
+Example1 : Qam0QualityAction:qam0DueDate:qam0QualityActionStatus=Active:10:Owner:workflow-TCM Release Process:email-Escalation Mgmt Email Notification;
+
+Example2: Qam0QualityAction:qam0DueDate:qam0QualityActionType=Program|qam0QualityActionSubtype=Checklist,Checklist Question|qam0QualityActionStatus=Active,Confirmed:5:Owner;</preference_description>
+      <context name="Teamcenter">
+        <value>Qam0QualityAction:qam0DueDate:qam0QualityActionStatus=Active:10:Owner:workflow-TCM Release Process:email-Escalation Mgmt Email Notification;</value>
+        <value>Qam0QualityAction:qam0DueDate:qam0QualityActionType=Program|qam0QualityActionSubtype=Checklist,Checklist Question|qam0QualityActionStatus=Active,Confirmed:5:Owner;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

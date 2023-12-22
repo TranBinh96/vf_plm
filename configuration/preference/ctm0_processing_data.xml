@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ctm0_processing_data" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Maps processing data properties to content during the XML attribute exchange in the compose process.
+Valid Values:
+Accepts one or more strings as values, using the following syntax: 
+propertyName=propertyValue</preference_description>
+      <context name="Teamcenter">
+        <value>graphicPath={root-dir}graphics\</value>
+        <value>graphicPathTarget=NONE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

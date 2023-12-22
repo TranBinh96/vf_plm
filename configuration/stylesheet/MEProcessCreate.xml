@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: MEProcessCreate.xml
+
+    Style sheet rendering for MEprocess creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="MEProcess Information" titleKey="tc_xrt_MEProcessInformation">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="Mfg0MELogicalDesignatorRel:Mfg0logical_designator"/> 
+            <separator/>
+            <property name="uom_tag" /> 
+        </section>
+
+        <section title="Additional MEProcess Information" titleKey="tc_xrt_AdditionalMEProcessInformation" initialstate="collapsed">
+            <property name="IMAN_master_form:project_ids" />
+            <property name="IMAN_master_form:process_comment"  />
+            <property name="IMAN_master_form:program_id" />
+            <property name="IMAN_master_form:target_cost" />
+            <property name="IMAN_master_form:target_time"  />
+            <property name="IMAN_master_form:user_data_2"  />
+            <property name="IMAN_master_form:user_data_3"  />
+        </section>
+
+        <section title="MEProcess Revision Information" titleKey="tc_xrt_MEProcessRevisionInformation" initialstate="collapsed">
+            <property name="revision:IMAN_master_form_rev:project_ids" />
+            <property name="revision:IMAN_master_form_rev:process_comment" />
+            <property name="revision:IMAN_master_form_rev:program_id" />
+            <property name="revision:IMAN_master_form_rev:scheduled_cost" />
+            <property name="revision:IMAN_master_form_rev:scheduled_time"  />
+            <property name="revision:IMAN_master_form_rev:target_time"  />
+            <property name="revision:IMAN_master_form_rev:user_data_3"  />
+        </section>
+    </page>
+
+</rendering>
+

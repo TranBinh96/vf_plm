@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_BOM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINFAST_JT_VIEW_CONFIG" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>User for JT Report Export</preference_description>
+      <context name="Teamcenter">
+        <value>0,Level,bl_level_starting_0</value>
+        <value>1,Item ID,bl_item_item_id</value>
+        <value>2,Part Name,bl_rev_object_name</value>
+        <value>3,Revision,bl_rev_item_revision_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

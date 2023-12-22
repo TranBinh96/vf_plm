@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCDigitalSigningApplicationPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the priority list of applications used by the Digitally Sign command on the selected base datasets.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid tool object name, for example, PDF_Tool.
+Only a tool name that is digital signature capable (Digital Signature Capable option is selected) is valid.</preference_description>
+      <context name="Teamcenter">
+        <value>PDF_Tool</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

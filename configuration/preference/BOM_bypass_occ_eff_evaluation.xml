@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_bypass_occ_eff_evaluation" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Bypasses the Occurrence Effectivity evaluation, and considers all the Occurrences as configured in regardless of the defined Effectivity. 
+The Teamcenter server needs to be restarted for change in the value of this preference to take effect.
+Valid Values:
+* true: Occurrences will always be configured in.
+* false: Occurrence effectivity will be evaluated as per their Revision Rule. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

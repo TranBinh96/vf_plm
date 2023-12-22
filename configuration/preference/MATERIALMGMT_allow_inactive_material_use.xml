@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="MATERIALMGMT_allow_inactive_material_use" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allows inactive material to be part of ItemRevision compositions in the Material Management application.
+If the specified value is false, inactive materials are no longer allowed to be part of ItemRevision composition.
+The default value is false.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

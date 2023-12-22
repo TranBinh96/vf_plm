@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_AFS_ST" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>VF_AFS_ST</preference_description>
+      <context name="Teamcenter">
+        <value>vf4_bom_vfPartNumber,0</value>
+        <value>vf4_cad_sor_number,0</value>
+        <value>vf4_cad_sor_name,0</value>
+        <value>owning_user,0</value>
+        <value>vf4_cl_2,0</value>
+        <value>object_name,0</value>
+        <value>vf4_maturity_level,0</value>
+        <value>vf4_purchasing_level,0</value>
+        <value>vf4_reference_number_bom,0</value>
+        <value>vf4_bom_vehicle_type,0</value>
+        <value>vf4_bl_item_type,0</value>
+        <value>vf4_bl_find_no,0</value>
+        <value>vf4_bl_unit_of_measure,0</value>
+        <value>vf4_module_group_bom,0</value>
+        <value>vf4_annual_volume,0</value>
+        <value>vf4_sourcing_status,0</value>
+        <value>vf4_critical,0</value>
+        <value>vf4_actual_rfq,0</value>
+        <value>vf4_outlook_2,0</value>
+        <value>vf4_target_supplier_global,0</value>
+        <value>vf4_bmw_nominated_supplier,0</value>
+        <value>vf4_supplier_code,0</value>
+        <value>vf4_manuf_location,0</value>
+        <value>vf4_currency,0</value>
+        <value>vf4_total_piece_cost_new,0</value>
+        <value>vf4_other_cost,0</value>
+        <value>vf4_moq_2,0</value>
+        <value>vf4_order_lead_time,0</value>
+        <value>vf4_incoterm_buyer_input,0</value>
+        <value>vf4_co_requirement,0</value>
+        <value>vf4_sched_agree_actual_d,0</value>
+        <value>vf4_sched_agreement,0</value>
+        <value>vf4_po_number,0</value>
+        <value>vf4_actionplanAchivDeadline,0</value>
+        <value>vf4_sor_creation_date,0</value>
+        <value>creation_date,0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

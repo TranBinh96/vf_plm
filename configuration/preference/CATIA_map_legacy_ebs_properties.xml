@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_map_legacy_ebs_properties" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Manage (create and update) the EBS_DatasetUid  and EBS_DatasetLastVersion properties in a CATIA document during Save and Load processes.
+Possible values:
+- True: The EBS_DatasetUid and EBS_DatasetLastVersion are managed.
+- False: The EBS_DatasetUid and EBS_DatasetLastVersion are removed.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

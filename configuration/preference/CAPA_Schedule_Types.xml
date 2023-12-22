@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_Schedule_Types" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Custom Schedule types for Capa</preference_description>
+      <context name="Teamcenter">
+        <value>C2Investigation,Investigation</value>
+        <value>C2Corrective,Corrective</value>
+        <value>C2Preventive,Preventive</value>
+        <value>C2Verification,Verification</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

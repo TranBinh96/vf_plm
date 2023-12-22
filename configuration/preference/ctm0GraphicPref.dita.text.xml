@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ctm0GraphicPref.dita.text" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default XML tagging to use in the editing tool when a graphic is copied from Content Management and pasted to content in the editing tool when working with the DITA standard for publications.
+Valid Values:
+Accepts one or more strings as values.</preference_description>
+      <context name="Teamcenter">
+        <value>&lt;image href=&quot;%f&quot;/&gt;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

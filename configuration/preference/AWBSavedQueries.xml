@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWBSavedQueries" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the saved queries to be displayed in the context of Active Content Experience. Valid values are the internal name of queries as defined in the qry_text_locale.xml localization file.</preference_description>
+      <context name="Teamcenter">
+        <value>Quick</value>
+        <value>Item ID</value>
+        <value>Item Revision...</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

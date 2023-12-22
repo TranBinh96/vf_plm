@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WhereUsedReportPropertyList" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Stores the name of the properties selected while creating a &quot;Where Used&quot; report.
+Values for this preference are set automatically by the code.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

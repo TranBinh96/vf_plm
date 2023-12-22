@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Thin Client.General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WEB_default_site_server" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the URL of the default site server used for mail notifications (CR-Notify) and other server oriented tasks.
+The format is for instance &quot;www.foo.com:8080&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>tcweb.vinfast.vn</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

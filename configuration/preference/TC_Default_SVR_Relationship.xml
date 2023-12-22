@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Default_SVR_Relationship" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Defines the relationship between a saved variant rule and the item to which it refers.
+Valid Values:
+The name of any valid relationship.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

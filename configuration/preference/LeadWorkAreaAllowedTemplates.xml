@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LeadWorkAreaAllowedTemplates" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the cloning rules available for cloning a WorkArea from another WorkArea.</preference_description>
+      <context name="Teamcenter">
+        <value>ProjectWorkAreaTemplate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_GraphViews.Change" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of view names for &quot;Dependency&quot; tab in the client. 
+The view names are defined in Change UI configuration file, which is stored in the data set named by the value of preference &quot;CM_graph_legend_configuration_file_name&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Change</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

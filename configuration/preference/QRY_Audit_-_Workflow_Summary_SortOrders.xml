@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Reports">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QRY_Audit_-_Workflow_Summary_SortOrders" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the sequence of the order by attributes which are used to sort the saved query &quot;Audit - Workflow Summary Logs&quot;.
+Valid value is 1(default value) or any other integer which specifies the sequence of the particular attribute used for sorting.
+The default value is to sort the results based on the property &quot;fnd0LoggedDate&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

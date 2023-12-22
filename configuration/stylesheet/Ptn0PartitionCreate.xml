@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Ptn0PartitionCreate.xml
+
+    Style sheet rendering for Ptn0Partition creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="Partition Information" titleKey="tc_xrt_PartitionInfo">
+        <section titleKey="tc_xrt_properties">
+            <property name="ptn0partition_id"/>
+            <property name="object_name"/>
+            <property name="object_desc" />
+        </section>
+    </page>
+    <page title="Create Options" titleKey="tc_xrt_CreateOptions">
+        <section titleKey="tc_xrt_CreateOptions">
+            <customPanel java="com.teamcenter.rac.partition.widgets.CreatePartitionItemPanel"/>
+            <customPanel java="com.teamcenter.rac.appmodel.widgets.effectivity.CopyEffectivityPanel"/>
+            <customPanel java="com.teamcenter.rac.appmodel.widgets.CheckOutOnCreatePanel"/>
+        </section>
+    </page>
+</rendering>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Collaboration Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ALLOC_Source_Occurrence_Types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>For use with allocation functionality. Specifies the components that can be used as source components for a given allocation type.
+Valid values are
+Allocation type::Source component type
+Where Allocation type is a valid Teamcenter allocation type, and Source component type is a valid Teamcenter object type used in a product structure.</preference_description>
+      <context name="Teamcenter">
+        <value>Allocation:Item,PSConnection,PSSignal,RouteLocation,GeneralDesignElement,GeneralDesignElementLink,HRN_ConHousing</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

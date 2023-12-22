@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.TCAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_variant_expression_overlap_checking_mode" type="Integer" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Determines the mode used to check overlap between variant expressions. Architecture breakdown structures may be configured to check for named variant expression (NVE) consistency. This consistency check rejects NVEs that overlap with other NVEs.
+Valid Values:
+1 - The system assumes an unlimited continuum of values in the product variability. For example, the system assumes an unlimited number of intermediate values between Length = 2 meter and Length = 3 meter, such as a length of 2.50 meters.
+2 - The system uses the defined variability, with exactly and only those values allocated.
+5 - Same as setting 1, but NVEs are permitted on architecture elements even when they go beyond the variability specified for this element.
+6 - Same as setting 2, but NVEs are permitted on architecture elements even when they go beyond the variability specified for this element.</preference_description>
+      <context name="Teamcenter">
+        <value>5</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="FMS_SAF_Batch_Transfer_Enabled" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables FMS Store and Forward in batch transfer mode.Store and forward functionality can be implemented by two different methods:Single file: moves and cleans up files from the local volume one file at a time.This method uses dispatcher functionality.Batch method: queries the Teamcenter database all of the user&apos;s files stored in local volumes and transfers them to their specified destination volumes.
+This method combines move_volume_files utility and dispatcher functionality. Store and forward functionality defines default local volumes to be temporary local volumes that allow files to be stored locally before they are automatically transferred to the final destination volume.  This improves end-user file upload times from clients by uploading files to a temporary volume. Store and forward functionality requires 
+installation of dispatcher scheduler, module, client and the store_and_forward translator.
+Valid Values:
+True - Enables store and forward functionality in batch mode.This requires installation of dispatcher scheduler, module, client and the store_and_forward translator.
+False - Disables store and forward functionality in batch mode.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

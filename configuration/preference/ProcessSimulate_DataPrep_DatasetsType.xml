@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ProcessSimulate_DataPrep_DatasetsType" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the type of the dataset attached to product top line item revisions, to which prepared PLMXML files may be attached as named references.
+The PLMXML in these datasets are assumed by Process Simulate application to contain all data relevant to the configured structure.
+A valid value must match the setting in Process Simulate as defined in the model mapping configuration file.</preference_description>
+      <context name="Teamcenter">
+        <value>DirectModelAssembly</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

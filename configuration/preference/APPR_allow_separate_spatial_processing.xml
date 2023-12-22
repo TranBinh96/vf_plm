@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Appearance Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="APPR_allow_separate_spatial_processing" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>When set to &quot;true&quot;, specifies that spatial cache processing for Appearances will be done in a separate update package (in a separate appearance updater process). A value of &quot;false&quot; means that spatial cache processing will occur in the same updater process as the rest of the appearance processing.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

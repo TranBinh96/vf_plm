@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ScheduleTaskClassNameToCreate" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the type of schedule task that is created through the quick create option in the rich client.
+Valid Values:
+Any schedule task type.</preference_description>
+      <context name="Teamcenter">
+        <value>ScheduleTask</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

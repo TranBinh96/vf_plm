@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ItemRevision_thumbnail_relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list in descending order of priority of relations between an Item Revision and its Datasets, used to determine which Dataset will be used to create a Thumbnail for the Item Revision.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_specification</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_Rendering</value>
+        <value>IMAN_Motion</value>
+        <value>IMAN_3D_snap_shot</value>
+        <value>TC_Attaches</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

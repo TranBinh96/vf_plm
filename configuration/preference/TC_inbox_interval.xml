@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_inbox_interval" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>How often to check the In-Box for new tasks (in minutes).
+1 - Disable the checking.
+0 - Check at the time of logging in. X - Check every X minutes.</preference_description>
+      <context name="Teamcenter">
+        <value>22</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_AlternateSelectionCommandsList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines list of commands that need alternate selection object for command visibility in the context of Active Content Explorer.</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0Checkout</value>
+        <value>Awp0Checkin</value>
+        <value>Awp0CancelCheckout</value>
+        <value>Awp0ShowSaveAs</value>
+        <value>Arm0ExportToOfficeApp</value>
+        <value>Awp0AddToFavorites</value>
+        <value>Awp0AssignProjects</value>
+        <value>Awp0AttachLicenses</value>
+        <value>Awp0Copy</value>
+        <value>Awp0RemoveFromFavorites</value>
+        <value>Awp0ChangeOwner</value>
+        <value>Awp0PinObject</value>
+        <value>Awp0UnPinObject</value>
+        <value>Awp0NewWorkflowProcess</value>
+        <value>Awp0Delete</value>
+        <value>Awp0AssignProjectsLegacy</value>
+        <value>SS1ShapeSearch</value>
+        <value>Cm1ShowCreateChangeInContext</value>
+        <value>Aut0AttachLicenses</value>
+        <value>Aut0AttachLicensesLegacy</value>
+        <value>Awb0Compare</value>
+        <value>Arm0CreateTraceLink</value>
+        <value>Awp0PerformTask</value>
+        <value>Scw0InitiateSubstanceComplianceCheck</value>
+        <value>Arm0DownloadRequirements</value>
+        <value>Arm0EditInWord</value>
+        <value>Arm0CompareTextCmd</value>
+        <value>Awp0BriefcaseCheckout</value>
+        <value>Awp0BriefcaseCheckin</value>
+        <value>Awp0CancelBriefcaseCheckout</value>
+        <value>Awp0MarkOwnershipTransfer</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

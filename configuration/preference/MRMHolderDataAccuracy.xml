@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMHolderDataAccuracy" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the default behaviour for the &quot;Simplify&quot; option when extracting holder geometry.
+By default all holder elements are extracted and stored in Teamcenter. Setting this preference to &quot;Simplified&quot; extracts a smaller set of parameters.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

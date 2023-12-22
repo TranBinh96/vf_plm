@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ME3DPDFEncodingTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Generating a 3DPDF Report with Process Simulate data requires the xml files, that are used for the creation, to be set with an encoding type that supports the specific language.
+The preference contains a list of encoding types, each can support other languages. The 3DPDF Report will be generated using the first value in the list.
+These are the details of the languages supported by each of the encoding types:
+* Windows-1252 : French ,German ,Italian, Spanish, Swedish, Scottish, Portuguese, Irish, Dutch, Albanian, Finnish, Danish, Norwegian
+* Windows-1251 : Russian, Bulgarian, Serbian, Ukranian, Uzbek
+* GB-2312 : Simplified Chinese
+* ISO-8859-8 : Hebrew
+* Windows-1250 : Croatian, Czech, Hungarian, Polish, Romanian, Transliterated Serbian, Slovak
+* Shift_JIS : Japanese
+* EUC-KR : Korean
+* Big5 : Traditional Chinese</preference_description>
+      <context name="Teamcenter">
+        <value>Windows-1252</value>
+        <value>Windows-1251</value>
+        <value>GB-2312</value>
+        <value>ISO-8859-8</value>
+        <value>Windows-1250</value>
+        <value>Shift_JIS</value>
+        <value>EUC-KR</value>
+        <value>Big5</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

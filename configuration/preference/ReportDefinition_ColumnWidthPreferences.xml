@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Report Builder">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ReportDefinition_ColumnWidthPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the column width for each column defined in the ReportDefinition_ColumnPreferences preference.
+Valid Values:
+Accepts one or more integers as values. Each integer defines the column width in characters. The first value set in this preference defines the column width of the first value set in the ReportDefinition_ColumnPreferences preference, and so on.</preference_description>
+      <context name="Teamcenter">
+        <value>20</value>
+        <value>20</value>
+        <value>13</value>
+        <value>17</value>
+        <value>13</value>
+        <value>9</value>
+        <value>17</value>
+        <value>17</value>
+        <value>9</value>
+        <value>9</value>
+        <value>17</value>
+        <value>17</value>
+        <value>17</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

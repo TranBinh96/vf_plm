@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEEnableItemAsResourceInBOE" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables comaparision of the Item or Part which do not have occurence type in Bill of Equipment(BOE) in the Manufacturing applications.
+Valid Values:
+*false: Accountability check will not compare the Item or Part as a resource assignment.
+*true: Accountability check will compare the Item or Part as a resource assignment.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

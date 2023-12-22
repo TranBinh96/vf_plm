@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="JTTreeTableColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of column names that will be displayed in the JT tree table for JT Export (PLMXML).</preference_description>
+      <context name="Teamcenter">
+        <value>bl_indented_title</value>
+        <value>bl_jt_editable</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

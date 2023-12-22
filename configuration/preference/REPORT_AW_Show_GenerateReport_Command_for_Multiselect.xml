@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Reports">
+    <category_description>Active Workspace preferences
+</category_description>
+    
+               <preference name="REPORT_AW_Show_GenerateReport_Command_for_Multiselect" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference controls display of &apos;Generate Report&apos; command when multiple objects are selected in Active Workspace for Item Reports.
+false=Show command only when single object is selected. No support for multi-select of objects. This will be a default value.
+true=Show command when multiple objects are selected.
+Note:- Displaying an output Report for multiple objects completely depends on the way the Stylesheet(XSLT) is created. When multiple objects are selected, the command will be displayed and panel will show the Report Definition(s) supported for selected object types.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

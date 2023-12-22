@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ManufacturerPart_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed as children of a manufacturer part node.
+Valid Values:
+Accepts one or more strings as values; each string must be a property of the ManufacturerPart type.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_master_form</value>
+        <value>bom_view_tags</value>
+        <value>revision_list</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_reference</value>
+        <value>IMAN_MEView</value>
+        <value>IMAN_vi_sos</value>
+        <value>IMAN_external_object_link</value>
+        <value>TC_WorkContext_Relation</value>
+        <value>TC_AuditLog</value>
+        <value>vendors</value>
+        <value>commercialparts</value>
+        <value>TC_Quality_Document</value>
+        <value>vm0location</value>
+        <value>Mat1UsesMaterial</value>
+        <value>Scp0UsesSubstanceCategory</value>
+        <value>Scp0AbstractDeclResponse</value>
+        <value>Scp0PartToSubsCmplResult</value>
+        <value>Scp0SubsCmplDocs</value>
+        <value>Scp0UsesExemption</value>
+        <value>Scp0BOMSnapshot</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

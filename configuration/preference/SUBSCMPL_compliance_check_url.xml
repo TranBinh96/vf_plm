@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_compliance_check_url" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the URL where the TcIF server resides and its REST services port number.
+This is required when a substance compliance check is initiated from Teamcenter. The compliance check request is sent to TcIF.</preference_description>
+      <context name="Teamcenter">
+        <value>GET http://TcIF_Server:TcIF_Server_Port/tcif/publish?publisher=test&amp;type=complianceCheck&amp;j_username=IFAdmin&amp;j_password=admin&amp;source_attr_names=sourceSid%5E%5EUID%5E%5EItemId%5E%5ERevision%5E%5EType%5E%5Eregulations%5E%5EOwner%5E%5EOptionset%5E%5ETransfermode%5E%5Erevrule%5E%5EsvruleUID%5E%5EprocessUnconfiguredByOccEff%5E%5EprocessSuppressedOcc%5E%5EprocessUnconfiguredVariants%5E%5EprocessUnconfiguredChanges%5E%5ESSOUserID%5E%5ESSOSessionKey%5E%5ENotifiers&amp;source_attr_values=SOURCESID%5E%5EITEMUID%5E%5EITEMID%5E%5EITEMREVISION%5E%5EITEMREVTYPE%5E%5EREGULATION%5E%5EOWNER%5E%5EOPTIONSET%5E%5ETRANSFERMODE%5E%5EREVRULE%5E%5ESVRULEUID%5E%5EPROCESSUNCONFIGUREDBYOCCEFF%5E%5EPROCESSSUPPRESSEDOCC%5E%5EPROCESSUNCONFIGUREDVARIANTS%5E%5EPROCESSUNCONFIGUREDCHANGES%5E%5ESSOUSERID%5E%5ESSOSESSIONKEY%5E%5ENOTIFIERSLIST&amp;output=xml HTTP/1.1\nConnection: keep-Alive\nHost: TcIF_Server\nContent-Type: text/xml\nCache-Control: no-cache\n\n</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

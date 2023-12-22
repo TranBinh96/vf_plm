@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Viewer">
+    <category_description>Viewer-specific preferences.</category_description>
+    
+               <preference name="ResourceAssignment.resource_level.FORMATSTRING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the string formatter for the property &quot;resource_level&quot; from ResourceAssignment objects.
+Use the string &quot;%&quot; (double quotes included) in order to represent the property value.</preference_description>
+      <context name="Teamcenter">
+        <value>#.### &quot;%&quot;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

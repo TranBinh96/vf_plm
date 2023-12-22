@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ReqNumberExp_default_unit" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Default unit type for the numerical requirement variable when users create a Validation Requirement without explicitly specifying the types for each variable used in the requirement formula.
+It is useful when the ReqExp_default_type is Double or Integer. The associated value depends on the value of the ReqNumberExp_default_measure preference.
+Valid values are included in the descriptions of unit sub LOV under the default measure in List Of Values &quot;Model Measure Type&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>mm</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Subscription Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SCM_execution_time" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the time when the event will be processed by the daemon. Applies when value of preference SCM_execution_frequency is either Daily or Weekly.
+Valid Values:
+hh:mm
+00:00
+24:00</preference_description>
+      <context name="Teamcenter">
+        <value>15:00</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

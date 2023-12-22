@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: Civ0DDN4Revision.xml
+
+    Default style sheet for displaying DC_SkdDDN 
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+=======================================================================
+@<DEL>@ 
+-->
+
+
+<rendering>
+    
+    <page title="General" titleKey="General">
+        <property name="ctm0TopicTypeTagref" />
+        <property name="object_type" />
+        <property name="item_id" renderingHint="textfield" />
+        <property name="item_revision_id" renderingHint="textfield" /> 
+        <property name="object_name" renderingHint="textfield" />          
+        <property name="ctm0MasterLanguageTagref"  />
+        <property name="DocumentTitle" />
+        
+        <separator/>
+        <property name="skdmodelic" />
+        <property name="skdsendid" />
+        <property name="skdrecvid" />
+        <property name="skddiyear" />
+        <property name="skdseqnum" />	
+        
+        <separator/>
+        <property name="skdissno" />
+        <property name="skdiss_type" />
+        <property name="skdissdate_day" />
+        <property name="skdissdate_month" />
+        <property name="skdissdate_year" />
+        <property name="skdsecurity_class" />
+        <property name="skdauthrtn" />
+        <property name="skdmediaid" />
+        <property name="skdremarks" />
+        <property name="civ0inwork" />	
+		
+        <separator/>
+        <property name="skdexportfilename" />
+        <property name="isTemplate" />
+        <property name="referenceOnly"  />        
+        <property name="contentVersion" />
+         
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+        <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+        <property name="last_mod_user" />     
+      
+        <separator/>
+        <property name="skddispto_ent_name" />
+        <property name="skddispto_ent_unit" />
+        <property name="skddispto_div_name" />
+    
+        <separator/>
+        <property name="skddispto_firstname" />
+        <property name="skddispto_lastname" />
+        <property name="skddispto_jobtitle" />            
+        <property name="skddispto_email" />
+        <property name="skddispto_phone" />
+        <property name="skddispto_fax" />
+        <property name="skddispto_internet" />
+        <property name="skddispto_dept" />
+        <property name="skddispto_building" />
+        <property name="skddispto_room" />
+      
+        <separator/>        
+        <property name="skddispto_street" />
+        <property name="skddispto_pobox" />
+        <property name="skddispto_city" />
+        <property name="skddispto_state" />
+        <property name="skddispto_zip" />
+        <property name="skddispto_province" />
+        <property name="skddispto_postcode" />
+        <property name="skddispto_country" />
+      
+        <separator/>
+        <property name="skddispfrom_ent_name" />
+        <property name="skddispfrom_ent_unit" />
+        <property name="skddispfrom_div_name" />
+         
+        <separator/>
+        <property name="skddispfrom_firstname" />
+        <property name="skddispfrom_lastname" />
+        <property name="skddispfrom_jobtitle" />            
+        <property name="skddispfrom_email" />
+        <property name="skddispfrom_phone" />
+        <property name="skddispfrom_fax" />
+        <property name="skddispfrom_internet" />
+        <property name="skddispfrom_dept" />
+        <property name="skddispfrom_building" />
+        <property name="skddispfrom_room" />
+        
+        <separator/>        
+        <property name="skddispfrom_street" />
+        <property name="skddispfrom_pobox" />
+        <property name="skddispfrom_city" />
+        <property name="skddispfrom_state" />
+        <property name="skddispfrom_zip" />
+        <property name="skddispfrom_province" />
+        <property name="skddispfrom_postcode" />
+        <property name="skddispfrom_country" />
+    </page>
+   
+    <page title="Reservation" titleKey="Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+
+    <page title="All" titleKey="All">
+        <all type="property"/>
+    </page>
+
+</rendering>

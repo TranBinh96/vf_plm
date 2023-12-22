@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Global Services.Options">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_gms_server_web_UI" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Teamcenter Integration Framework web-based UI URL location.
+In cases involving Teamcenter Global Services, use the value defined under Tc_gms_server preferences.</preference_description>
+      <context name="Teamcenter">
+        <value>http://10.128.11.37:8040/tcif</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOMWriterNoDirectParents" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Used with the bomwriter utility. Controls export of predecessors (parents and grandparents) of selected BOM lines when Teamcenter lifecycle visualization or NX is launched from the Teamcenter rich client.
+This preference determines whether the bomwriter utility generates PLM XML files which include predecessors of the selected BOM lines.
+Valid Values:
+TRUE - Predecessors of selected BOM lines (except the root node) are not exported in the PLM XML file, and are not displayed in Teamcenter lifecycle visualization or NX.
+FALSE - Predecessors of selected BOM lines (except the root node) are exported in the PLM XML file, and are displayed in Teamcenter lifecycle visualization or NX.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

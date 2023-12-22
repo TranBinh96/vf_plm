@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_SHOW_ONLY_CURRENT_USER" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Used for IMM NewStuff folder to show either the newly created materials by the current user only or any other user.
+Valid values are:
+* false: Displays all material revisions. This is the default value.
+* true: Displays only material revisions created by the current user.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

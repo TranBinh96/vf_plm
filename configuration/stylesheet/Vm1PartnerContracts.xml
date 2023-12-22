@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+==================================================
+Copyright 2019.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<!-- Style sheet rendering Partner Contracts tab for Item Revision\ Vendor Part. -->
+<subRendering>
+     <page titleKey="tc_xrt_PartnerContracts" title="Partner Contracts" visibleWhen="{pref:VM_auto_approve_vendor_registration} != null">
+        <section titleKey="tc_xrt_PartnerContracts" title="Partner Contracts">
+            <command id="Vm1AssignPartnerContractToProduct" />
+            <command id="Vm1AssignPartnerContractToVendorPart" />
+            <htmlPanel declarativeKey="Vm1PartnerContractsOfObject" />
+        </section>
+    </page>
+</subRendering>

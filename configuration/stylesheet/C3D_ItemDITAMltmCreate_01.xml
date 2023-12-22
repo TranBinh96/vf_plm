@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering>
+    <views>properties</views>
+    <page title="Cortona3D Item Information" titleKey="CortonaItemInformation">
+		 <view name="References">
+            <customPanel java="com.teamcenter.rac.cortona3d.dita.wizards.C3D_ItemDITAMltmContentPanel"/>             
+         </view>
+		<view name="properties">
+			<property name="item_id" />
+            <property name="object_name" />
+            <property name="c3d_mltm_type" />
+			<property name="c3d_mime_type" />
+        </view>
+    </page>
+
+</rendering>

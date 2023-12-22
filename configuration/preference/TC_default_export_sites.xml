@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_default_export_sites" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of default export target sites. This list is used to specify the target sites when exporting using an ITK program. This preference is used only if the TC_USE_DEFAULT_EXPORT_SITES environment variable is defined and set to any value.This preference is not used with interactive Teamcenter and is intended only for compatibility with ITK programs.
+Valid Values: Any valid site IDs.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

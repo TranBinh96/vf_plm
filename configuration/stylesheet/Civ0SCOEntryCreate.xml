@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2014. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: Civ0SCOEntryCreate.xml  
+   
+     Default style sheet for displaying Civ0SCOEntry Create 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+======================================================================= 
+@<DEL>@  
+-->
+
+
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+        <section titleKey="tc_xrt_References">
+            <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RefContentPanelCiv0SCOEntry"/>
+        </section>
+        <section titleKey="tc_xrt_Details">
+            <property name="revision:skdmodelic" />
+            <property name="revision:skdpmissuer" />
+            <property name="revision:skdpmnumber" />
+            <property name="revision:skdpmvolume" />
+        </section>
+        <separator/>
+        <property name="object_name" renderingHint="textfield" />
+        <property name="revision:DocumentTitle" renderingHint="textfield" />
+        <customPanel java="com.teamcenter.rac.contmgmts1000d40.wizards.LanguagePanel"/>
+        <separator/>
+        <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RelationSelectionPanel"/> 
+      
+   </page>
+</rendering>

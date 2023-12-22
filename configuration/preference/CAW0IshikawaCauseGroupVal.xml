@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAW0IshikawaCauseGroupVal" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This pref is to store default value for ICG</preference_description>
+      <context name="Teamcenter">
+        <value>Man</value>
+        <value>Machine</value>
+        <value>Method</value>
+        <value>Material</value>
+        <value>Measurement</value>
+        <value>Mother Earth</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

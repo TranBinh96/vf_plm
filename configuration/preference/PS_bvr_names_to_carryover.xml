@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_bvr_names_to_carryover" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether a PSBOMViewRevision (BVR) object will carry its modified name over to a copy (whether done with revise or save-as or structure duplication, etc.) of that PSBOMViewRevision. If the list of values is empty or none match the altered name, then the new copy of the PSBOMViewRevision will generate a default name based on the newly associated Item ID and BOM View Type name.
+Valid Values:
+* - Wildcard, will match any BVR name.
+(any entire BVR name) - Will match only that exact BVR name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

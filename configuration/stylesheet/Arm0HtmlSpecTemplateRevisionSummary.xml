@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying HTML Spec Template Summary. -->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="object_type"/>
+        <property name="owning_user"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" visibleWhen="ActiveWorkspace:SubLocation == com.siemens.splm.clientfx.tcui.xrt.objectNavigationSubLocation">
+      <column width="35%">
+        <section titleKey="tc_xrt_properties">
+          <property name="item_id" renderingHint="label"/>
+          <property name="item_revision_id" renderingHint="label"/>
+          <property name="object_name"/>
+          <property name="object_desc"/>
+          <property name="object_type"/>
+          <break/>
+          <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+          <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+          <property name="last_mod_user"/>
+          <property name="checked_out" renderingHint="label"/>
+          <property name="checked_out_user"/>
+          <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+        </section>
+        
+      </column>     
+      <column width="65%">
+        <section titleKey="tc_xrt_Preview">
+          <htmlPanel declarativeKey="Arm0HTMLSpecTemplatePreview" />          
+        </section>        
+      </column>
+    </page>
+    <page titleKey="tc_xrt_HtmlSpecTemplate"  pageNameToken="requirementHtmlSpecTemplate" visibleWhen="ActiveWorkspace:SubLocation != com.siemens.splm.clientfx.tcui.xrt.objectNavigationSubLocation"/>
+</rendering>

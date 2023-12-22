@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="CmplExVendorContactRoles" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of Vendor Contact roles which are allowed to participate in Substance Compliance Exchange.</preference_description>
+      <context name="Teamcenter">
+        <value>Compliance Officer</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

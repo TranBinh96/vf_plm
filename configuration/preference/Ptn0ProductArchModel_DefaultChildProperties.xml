@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Ptn0ProductArchModel_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed as children of a Product Architecture Model node.</preference_description>
+      <context name="Teamcenter">
+        <value>Mdl0HasConfiguratorContext</value>
+        <value>Mdl0HasVarConfiguratorCxt</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_Rendering</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

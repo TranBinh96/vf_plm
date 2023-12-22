@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering> 
+   <page title="General Information" titleKey="tc_xrt_cm_general_information">
+        <section titleKey="tc_xrt_properties">
+	<property name="vf4_pos_id" renderingHint="textfield" />
+	<property name="vf4_plant_code" />
+	<property name="vf4_department"/>
+	<property name="vf4_make_or_buy" /> 
+        </section>
+   </page>
+</rendering>

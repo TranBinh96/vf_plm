@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_itemtab_sections" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of sections to display in the Item tab during a multi-selection. Sections are defined by the keywords : itemrev, relation, actions</preference_description>
+      <context name="Teamcenter">
+        <value>itemrev</value>
+        <value>relation</value>
+        <value>actions</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

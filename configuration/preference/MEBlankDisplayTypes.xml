@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEBlankDisplayTypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Stores commonly used types (item, plant, and occurrence) that you want to display or blank using the Display by Type or Blank by Type commands in Manufacturing Process Planner, Part Planner, or Plant Designer.
+The values you list in this preference appear in the list of available types in the menu command. You can also set this preference in the rich client interface by choosing Edit-&gt;Options-&gt;Manufacturing and clicking the Graphics tab.
+Valid Values:
+Accepts a list of string values. Each entry in the list must be of the following format:
+structure-type:type-name
+For example:
+Product:Item
+Product:WeldPoint
+Plant:MEWorkArea
+Occurrence:MEConsumed</preference_description>
+      <context name="Teamcenter">
+        <value>Product:Item</value>
+        <value>Product:Part</value>
+        <value>Product:WeldPoint</value>
+        <value>Plant:MEWorkarea</value>
+        <value>Plant:MEPlant</value>
+        <value>Plant:MESite</value>
+        <value>Plant:MELine</value>
+        <value>Occurrence:MEWeldPoint</value>
+        <value>Occurrence:MEConsumed</value>
+        <value>Occurrence:MEOther</value>
+        <value>Product:ArcWeld</value>
+        <value>Product:DatumPoint</value>
+        <value>Product:Fnd0Fastener</value>
+        <value>Product:Fnd0FasnGroup</value>
+        <value>Product:Fnd0Fastener</value>
+        <value>Product:Fnd0FasnGroup</value>
+        <value>Product:Fnd0Fastener</value>
+        <value>Product:Fnd0FasnGroup</value>
+        <value>Product:Fnd0Fastener</value>
+        <value>Product:Fnd0FasnGroup</value>
+        <value>Product:Fnd0Fastener</value>
+        <value>Product:Fnd0FasnGroup</value>
+        <value>Product:Fnd0Fastener</value>
+        <value>Product:Fnd0FasnGroup</value>
+        <value>Product:Fnd0Fastener</value>
+        <value>Product:Fnd0FasnGroup</value>
+        <value>Product:Fnd0Fastener</value>
+        <value>Product:Fnd0FasnGroup</value>
+        <value>Product:PSConnection</value>
+        <value>Plant:MEDepartment</value>
+        <value>Plant:MEStation</value>
+        <value>Plant:MEProductLocation</value>
+        <value>Occurrence:MEAssemble</value>
+        <value>Occurrence:MEAssign</value>
+        <value>Occurrence:MEFeatureAssign</value>
+        <value>Occurrence:MEHandle</value>
+        <value>Occurrence:MEMachineTool</value>
+        <value>Occurrence:MEResource</value>
+        <value>Occurrence:METool</value>
+        <value>Occurrence:MEWorkArea</value>
+        <value>Occurrence:MEWorkpiece</value>
+        <value>Occurrence:Mci0MEInspect</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

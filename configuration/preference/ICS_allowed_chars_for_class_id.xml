@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_allowed_chars_for_class_id" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the special characters that are permissible in group or class IDs in the classification hierarchy. By default, you cannot use a space or any of the following special characters:|%*:(){}[] \ You can, however, specify a subset of these characters that are permissible using this preference. To assist you in converting legacy group or class IDs, you can use the smlutility utility to find IDs that contain invalid characters.
+Valid Values:
+Any of the special characters either within quotation marks (if you want to include the space character) or without quotation marks.
+For example, if you set the value of this preference to %*, group or class IDs can contain these two characters, but the others in the list are not permitted. If you set the value of this preference to &quot;{ }&quot;, the two brackets and the space character between them are permissible in the IDs.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

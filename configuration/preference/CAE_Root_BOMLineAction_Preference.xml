@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_Root_BOMLineAction_Preference" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default actions for a criteria executed on the root BOM Line in the CAE Manager&apos;s Inspector view.
+The valid values are &quot;Do Nothing&quot;, &quot;Use Revised Model&quot; and &quot;Use New Model&quot;.The default value for the action is &quot;Do Nothing&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Update</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

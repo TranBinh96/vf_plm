@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Product Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDVLoadAppearanceGroupMode" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines how an appearance group is loaded in the viewer. Appearance groups contain references to search criteria objects and contain MEAppearancePathNodes as attachments. The items corresponding to the MEAppearancePathNodes are loaded in the viewer based on this preference. Three loading methods are used when items are loaded.
+Valid Values:
+1 - The child item of the first occurrence, based on date, is loaded.
+2 - The child item of the last created occurrence, based on date, is loaded.
+3 - The child item of the occurrence configured to the default revision rule is loaded.</preference_description>
+      <context name="Teamcenter">
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

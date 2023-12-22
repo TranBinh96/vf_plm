@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSESearchColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines which columns are displayed in the search results table, in left-to-right order. Column width is defined using the PSESearchShownColumnWidthsPref preference.
+Valid Values:
+One or more strings as values; each string must be a valid Structure Manager attribute.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_line_name</value>
+        <value>bl_formatted_parent_name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

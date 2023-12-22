@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: Ctm0SNSRootNodeRevisionSaveAs.xml
+
+    Default style sheet for displaying Ctm0SNSRootNodeRevision save as
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+04/14/2014   mierwald                Initial Version
+=======================================================================
+@<DEL>@ 
+-->
+
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name" />  
+            <property name="civ0ModelIC"  /> 
+            <property name="civ0SDC"  /> 
+            <property name="civ0DisCodeV"  /> 
+			  
+            <property name="civ0SecurityClass"  /> 
+            <property name="civ0LangTagRef"  /> 
+			  
+            <property name="civ0Orig"  /> 
+            <property name="civ0OrigName"  /> 
+            <property name="civ0RPC"  /> 
+            <property name="civ0RPCName"  /> 
+			  
+            <property name="civ0FromDivName"  /> 
+            <property name="civ0FromStreet"  /> 
+            <property name="civ0FromPOBox"  /> 
+            <property name="civ0FromCity"  /> 
+            <property name="civ0FromState"  /> 
+            <property name="civ0FromZip"  /> 
+            <property name="civ0FromProvince"  /> 
+            <property name="civ0FromPostCode"  /> 
+            <property name="civ0FromCountry"  />         
+        </section>
+  </page>
+   
+</rendering>

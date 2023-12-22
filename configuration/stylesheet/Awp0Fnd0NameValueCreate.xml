@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Awp0Fnd0NameValueCreate.xml
+
+    Style sheet rendering for Fnd0NameValue creation.
+    Please do not add or remove any entries in this file.
+=======================================================================
+-->
+<rendering>
+    <page title="Name Value Create">
+        <section titleKey="tc_xrt_properties">
+            <property name="fnd0Name" />
+            <property name="fnd0Value" />
+        </section>
+    </page>
+</rendering>

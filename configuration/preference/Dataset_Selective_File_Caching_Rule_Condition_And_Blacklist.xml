@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Maintenance.File Caching">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Dataset_Selective_File_Caching_Rule_Condition_And_Blacklist" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Defines the base business rule for selective file caching at the Dataset (parent type) level.
+Valid values are in the format &quot;&lt;BMIDE Condition Name&gt;:&lt;List of comma separated FSC IDs or *&gt;&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0DatasetShouldFSCCacheThisDataset:*</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

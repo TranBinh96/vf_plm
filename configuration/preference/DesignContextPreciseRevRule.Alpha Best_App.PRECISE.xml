@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DesignContextPreciseRevRule.Alpha Best_App.PRECISE" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Allows the search of Product Structure based on certain revision rules which have the special clauses for which there are no Appearance Sets available, whereas Appearance Sets are available for a revision rule which have all the clauses leaving the Special Clause e.g. &quot;Precise&quot; Clause. Please make sure that a stripped down version of Revision Rule exists and is used for creating an Appearance Set. Here in this example &quot;Alpha Best_App&quot; is a stripped down version of revision Rule &quot;Alpha Best&quot;, which has all clauses of &quot;Alpha Best&quot; other than the &quot;Precise&quot; clause. Syntax: DesignContextPreciseRevRule.&lt;RuleName&gt;.Suffix. Supported suffix constants are: &quot;.PRECISE&quot;</preference_description>
+      <context name="Teamcenter">
+        <value>Alpha Best</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

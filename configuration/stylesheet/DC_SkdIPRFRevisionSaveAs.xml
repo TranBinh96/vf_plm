@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2010. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: DC_SkdPRFRevisionSaveAs.xml  
+   
+     Default style sheet for displaying DC_SkdPRFRevision Save As 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+10/14/10     mierwald                Initial Version 
+======================================================================= 
+@<DEL>@  
+--> 
+
+
+<rendering>
+    
+    <page title="General" titleKey="General">
+         <property name="DocumentTitle" renderingHint="textfield" />
+         <separator/>        
+
+         <property name="skdmodelic" />
+         <property name="skddiyear" />
+         <property name="skdseqnum" />
+         <property name="skdcage" />
+
+         <separator/>        
+         <property name="skdsecurity_class" />
+
+         <separator/>        
+         <property name="skdiprfrm_name" />
+         <property name="skdiprfrm_oraniz" />
+
+         <separator/>        
+         <property name="skdiprto_name" />
+         <property name="skdiprto_oraniz" />
+
+         <separator/>        
+         <property name="skdiprdate_day" />
+         <property name="skdiprdate_month" />
+         <property name="skdiprdate_year" />
+         
+         <separator/> 
+         <property name="isTemplate" />
+         <property name="referenceOnly"  />
+	</page>
+   
+</rendering>
+
+

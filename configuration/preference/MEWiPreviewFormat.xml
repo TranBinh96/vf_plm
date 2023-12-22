@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEWiPreviewFormat" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the available file types for the format of the preview files created in the standard text editor and in the work instruction editor. Teamcenter creates a document of the file type specified by the first string.
+Valid Values:
+Accepts one of the following file formats supported by the Word Save As command:
+pdf
+mht
+docx
+rtf</preference_description>
+      <context name="Teamcenter">
+        <value>pdf</value>
+        <value>mht</value>
+        <value>docx</value>
+        <value>rtf</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

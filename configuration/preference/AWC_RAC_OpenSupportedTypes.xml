@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_RAC_OpenSupportedTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables opening the specified object types in Teamcenter Rich Client when selected in the Active Workspace.</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+        <value>ItemRevision</value>
+        <value>UGMASTER</value>
+        <value>UGALTREP</value>
+        <value>DirectModel</value>
+        <value>UGPART</value>
+        <value>CAEGeom</value>
+        <value>CAEMesh</value>
+        <value>CAESolution</value>
+        <value>NXMotion</value>
+        <value>Folder</value>
+        <value>Dataset</value>
+        <value>GIF</value>
+        <value>JPEG</value>
+        <value>Newstuff Folder</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

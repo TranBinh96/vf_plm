@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright 2008.
+                Siemens Product Lifecycle Management Software Inc.
+                All Rights Reserved.
+===============================================================================
+
+    Filename: ValReqResultSummary.xml
+
+    Default style sheet for displaying ValReqResult Object.
+@<DEL>@
+=======================================================================
+Date         Name                    Description of Change
+01-Sep-2008  William Zhou            Initial creation
+24-Nov-2009  William Zhou            Add Override information
+$HISTORY$
+=======================================================================
+@<DEL>@ -->
+
+
+<rendering>
+    <page title="Summary" titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_properties">
+            <property name="fnd0_final_val_result" modifiable="false" />
+            <property name="validation_is_up_to_date" modifiable="false" />
+            <property name="object_name" renderingHint="label" modifiable="false" />
+            <property name="validation_target" modifiable="false" />
+            <property name="validation_requirement" modifiable="false" />
+            <separator/>
+            <property name="validation_user" modifiable="false" />
+            <property name="validation_parameters" renderingHint="validationparametertable" modifiable="false" />
+            <property name="validation_report"  modifiable="false" />
+        </section>
+    </page>
+    
+    <page title="Override Information" titleKey="tc_xrt_OverrideInformation">
+        <section titleKey="tc_xrt_properties">
+            <property name="override_request_user"  modifiable="false" />
+            <property name="override_request_date"  modifiable="false" />
+            <property name="override_type" modifiable="false" />
+            <property name="override_to_state" modifiable="false" />
+            <property name="override_category" modifiable="false" />
+            <property name="override_reason" modifiable="false" />
+            <property name="override_reason_detail"  modifiable="false" />
+            <separator/>
+            <property name="override_decision_user" modifiable="false" />
+            <property name="override_decision_date"  modifiable="false" />
+            <property name="override_request_state" modifiable="false" />
+            <property name="override_decision_comments" modifiable="false" />
+        </section>
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

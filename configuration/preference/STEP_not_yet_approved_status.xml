@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.STEP Translator">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="STEP_not_yet_approved_status" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Supports only STEP AP214. Sets the item type as not yet approved. Use this preference to import not yet approved STEP data into Teamcenter as working data. Do this by defining a list of strings that, when detected during import, denote not yet approved status.
+Valid Values:
+One or more strings.</preference_description>
+      <context name="Teamcenter">
+        <value>not_yet_approved</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

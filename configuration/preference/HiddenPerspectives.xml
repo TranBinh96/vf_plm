@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="HiddenPerspectives" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the Teamcenter perspectives to hide from the end-users.
+Valid values are the activity names as defined in the com.teamcenter.rac.activity&apos;s plugin.xml file.</preference_description>
+      <context name="Teamcenter">
+        <value>4gdMBOMReconciliation</value>
+        <value>ADALicense</value>
+        <value>AppearanceConfiguration</value>
+        <value>Authorization</value>
+        <value>BriefCase</value>
+        <value>CAEManager</value>
+        <value>CAEStructureDesigner</value>
+        <value>DPV Measurements</value>
+        <value>DatabaseUtilities</value>
+        <value>DesignContext</value>
+        <value>IssueManager</value>
+        <value>ManufacturingProcessSequencing</value>
+        <value>ManufacturingWI</value>
+        <value>PartPlanner</value>
+        <value>PlantDesigner</value>
+        <value>PlatformDesigner</value>
+        <value>RegistryEditor</value>
+        <value>RelationBrowser</value>
+        <value>ReportDesigner</value>
+        <value>ReportGenerator</value>
+        <value>RequirementsManager</value>
+        <value>ServiceManager</value>
+        <value>ServicePlanner</value>
+        <value>ServiceRequestManager</value>
+        <value>ServiceScheduler</value>
+        <value>SetupWizard</value>
+        <value>SystemsEngineering</value>
+        <value>ValidationManager</value>
+        <value>fourdplanning</value>
+        <value>Briefcase</value>
+        <value>AuditManager</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

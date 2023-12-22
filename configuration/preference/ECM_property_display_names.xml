@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ECM_property_display_names" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>The list of property labels displayed by the viewer table for EC</preference_description>
+      <context name="Teamcenter">
+        <value>Change #</value>
+        <value>Change Type</value>
+        <value>Owner</value>
+        <value>Date Created</value>
+        <value>Last Modified By</value>
+        <value>Name</value>
+        <value>Description</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

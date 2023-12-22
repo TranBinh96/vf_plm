@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CheckoutOnCreatePref" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the system checks out item revisions automatically upon creation. Sequences are subrevisions of an item revision that document the content of a revision during its evolution. Checking out an item revision increments the sequence ID.
+Valid Values:
+0 - The system does not check out item revisions automatically upon creation.
+1 - The system automatically checks out item revisions upon creation.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

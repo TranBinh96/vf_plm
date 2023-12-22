@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_wu_configd_imprecise_only" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether parent item revisions are included in Where Used search results, regardless of whether they are configured by the revision rule. Where Used search results are filtered to include only those revisions configured by the selected revision rule. The revision rule is applied at each level, up to and including the top level. The system displays any intermediate level non-configured revisions referenced by precise occurrences, if the top of the chain of precise links is configured.
+Valid Values:
+true - Search results omit parent item revision objects that are not configured by the revision rule. This may occur if the specified revision rule contains only non-precise entries.This setting is equivalent to the default behavior in Teamcenter Engineering 9.1 and earlier releases.
+false - Search results include all parent item revision objects, regardless of whether they are configured by the revision rule.For example, use this setting to make a where-used query on Part1-A to identify every occurrence where Part1 is used with A as its configured revision. You obtain the same results whether you query one level at a time or all levels simultaneously, including with mixed precise and imprecise structures. You do not find any imprecise parent assemblies that are not configured by the selected revision rule.
+
+Notes:
+This preference is not used by the &quot;Configure Parent And Child&quot; option.
+The &quot;Configure Parent And Child&quot; option will always return the latest parent revision that is configued by the revision rule.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

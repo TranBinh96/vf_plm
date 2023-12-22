@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying a workflow Review task. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+   <header>
+      <image source="type" />
+      <property name="object_name" />
+      <property name="object_type" modifiable="false" />
+   </header>
+   <page titleKey="tc_xrt_Overview">
+      <column width="25%">
+         <section titleKey="tc_xrt_Action">
+            <htmlPanel declarativeKey="Awp0PerformTask" />
+         </section>
+         <section titleKey="tc_xrt_properties">
+            <content visibleWhen="fnd0Assignee!=null">
+               <property name="fnd0Assignee" />
+            </content>
+            <content visibleWhen="fnd0AssigneeGroupRole!=null">
+               <property name="fnd0AssigneeGroupRole" modifiable="false" />
+            </content>
+            <content visibleWhen="active_surrogate!=null">
+               <property name="active_surrogate" modifiable="false" />
+            </content>
+            <property name="due_date" />
+            <content visibleWhen="fnd0TaskExecutionErrors!=null">
+               <property name="fnd0TaskExecutionErrors" />
+            </content>
+            <content visibleWhen="fnd0RootScheduleTask!=null">
+               <property name="fnd0RootScheduleTask" renderingHint="objectlink" modifiable="false" />
+            </content>
+         </section>
+         <section titleKey="web_inbox_targets">
+            <objectSet
+               source="root_target_attachments.WorkspaceObject,root_target_attachments.Folder"
+               defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+               <tableDisplay>
+                  <property name="object_string" />
+                  <property name="object_type" />
+                  <property name="release_status_list" />
+               </tableDisplay>
+               <thumbnailDisplay />
+               <listDisplay />
+               <command actionKey="newBusinessObjectContextualAction"
+                  commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+               <command actionKey="pasteAction"
+                  commandId="com.teamcenter.rac.viewer.pastewithContext"
+                  renderingHint="commandbutton" />
+               <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+                  renderingHint="commandbutton">
+                  <parameter name="localSelection" value="true" />
+               </command>
+            </objectSet>
+         </section>
+         <content visibleWhen="object_name==Create MCN">
+            <content visibleWhen="REF(root_target_attachments,Vf6_ECNRevision).item_id!=null">
+               <section titleKey="ECN Additional Info">
+                  <property name="REF(root_target_attachments,Vf6_ECNRevision).vf6_shop" />
+               </section>
+            </content>
+         </content>
+      </column>
+      <column width="75%">
+         <section titleKey="tc_xrt_Preview">
+            <inject type="dataset" src="Awp0CrossSelectionViewer" module="js/aw-include.directive" />
+         </section>
+         <section titleKey="Checklist">
+            <content visibleWhen="object_name==Functional Safety Review">
+               <objectSet
+                  source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_func_safety_gr)"
+                  defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                  <tableDisplay>
+                     <property name="vf6_is_ECR_impact_to_FS" />
+                     <property name="object_string" />
+                  </tableDisplay>
+                  <thumbnailDisplay />
+                  <listDisplay />
+                  <command actionKey="newBusinessObjectContextualAction"
+                     commandId="com.teamcenter.rac.common.AddNew"
+                     renderingHint="commandbutton" />
+                  <command actionKey="pasteAction"
+                     commandId="com.teamcenter.rac.viewer.pastewithContext"
+                     renderingHint="commandbutton" />
+                  <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+                     renderingHint="commandbutton">
+                     <parameter name="localSelection" value="true" />
+                  </command>
+               </objectSet>
+            </content>
+            <content visibleWhen="object_name==Manufacturing Quality Review">
+               <objectSet
+                  source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_manu_quality_gr)"
+                  defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                  <tableDisplay>
+                     <property name="vf6_is_trialout_required" />
+                     <property name="vf6_is_any_cubing" />
+                     <property name="object_string" />
+                  </tableDisplay>
+                  <thumbnailDisplay />
+                  <listDisplay />
+                  <command actionKey="newBusinessObjectContextualAction"
+                     commandId="com.teamcenter.rac.common.AddNew"
+                     renderingHint="commandbutton" />
+                  <command actionKey="pasteAction"
+                     commandId="com.teamcenter.rac.viewer.pastewithContext"
+                     renderingHint="commandbutton" />
+                  <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+                     renderingHint="commandbutton">
+                     <parameter name="localSelection" value="true" />
+                  </command>
+               </objectSet>
+            </content>
+            <content visibleWhen="object_name==Manufacturing Review">
+               <objectSet
+                  source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_manufacturing_gr)"
+                  defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                  <tableDisplay>
+                     <property name="vf6_ecr_impact_shop_manu" />
+                     <property name="object_string" />
+                  </tableDisplay>
+                  <thumbnailDisplay />
+                  <listDisplay />
+                  <command actionKey="newBusinessObjectContextualAction"
+                     commandId="com.teamcenter.rac.common.AddNew"
+                     renderingHint="commandbutton" />
+                  <command actionKey="pasteAction"
+                     commandId="com.teamcenter.rac.viewer.pastewithContext"
+                     renderingHint="commandbutton" />
+                  <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+                     renderingHint="commandbutton">
+                     <parameter name="localSelection" value="true" />
+                  </command>
+               </objectSet>
+            </content>
+            <content visibleWhen="object_name==Module Group Leader Review">
+               <objectSet
+                  source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_module_group_gr)"
+                  defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                  <tableDisplay>
+                     <property name="vf6_have_coordinated_change" />
+                     <property name="object_string" />
+                  </tableDisplay>
+                  <thumbnailDisplay />
+                  <listDisplay />
+                  <command actionKey="newBusinessObjectContextualAction"
+                     commandId="com.teamcenter.rac.common.AddNew"
+                     renderingHint="commandbutton" />
+                  <command actionKey="pasteAction"
+                     commandId="com.teamcenter.rac.viewer.pastewithContext"
+                     renderingHint="commandbutton" />
+                  <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+                     renderingHint="commandbutton">
+                     <parameter name="localSelection" value="true" />
+                  </command>
+               </objectSet>
+            </content>
+			<!-- Styling and color and trim -->
+            <content visibleWhen="object_name==Styling &amp; Color &amp; Trim">
+               <objectSet
+                  source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_styling_color_gr)"
+                  defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                  <tableDisplay>
+                     <property name="vf6_is_ecr_impact_styling" />
+                     <property name="object_string" />
+                  </tableDisplay>
+                  <thumbnailDisplay />
+                  <listDisplay />
+                  <command actionKey="newBusinessObjectContextualAction"
+                     commandId="com.teamcenter.rac.common.AddNew"
+                     renderingHint="commandbutton" />
+                  <command actionKey="pasteAction"
+                     commandId="com.teamcenter.rac.viewer.pastewithContext"
+                     renderingHint="commandbutton" />
+                  <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+                     renderingHint="commandbutton">
+                     <parameter name="localSelection" value="true" />
+                  </command>
+               </objectSet>
+            </content>
+            <content visibleWhen="object_name==Testing Validation Review">
+               <objectSet
+                  source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_test_validate_gr)"
+                  defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                  <tableDisplay>
+                     <property name="vf6_is_confirm_test_result" />
+                     <property name="object_string" />
+                  </tableDisplay>
+                  <thumbnailDisplay />
+                  <listDisplay />
+                  <command actionKey="newBusinessObjectContextualAction"
+                     commandId="com.teamcenter.rac.common.AddNew"
+                     renderingHint="commandbutton" />
+                  <command actionKey="pasteAction"
+                     commandId="com.teamcenter.rac.viewer.pastewithContext"
+                     renderingHint="commandbutton" />
+                  <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+                     renderingHint="commandbutton">
+                     <parameter name="localSelection" value="true" />
+                  </command>
+               </objectSet>
+            </content>
+         </section>
+      </column>
+   </page>
+   <page titleKey="tc_xrt_attachments">
+      <section titleKey="tc_xrt_AllTargets">
+         <objectSet source="root_target_attachments.WorkspaceObject" defaultdisplay="tableDisplay"
+            sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="last_mod_date" />
+               <property name="release_status_list" />
+               <property name="owning_user" />
+            </tableDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+         </objectSet>
+      </section>
+      <section titleKey="tc_xrt_AllReferences">
+         <objectSet source="root_reference_attachments.WorkspaceObject"
+            defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="last_mod_date" />
+               <property name="release_status_list" />
+               <property name="owning_user" />
+            </tableDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+         </objectSet>
+      </section>
+      <section titleKey="EPM_attachment_10">
+         <objectSet source="fnd0RootReplicaTargets.WorkspaceObject" defaultdisplay="tableDisplay"
+            sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="last_mod_date" />
+               <property name="release_status_list" />
+               <property name="owning_user" />
+            </tableDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+         </objectSet>
+      </section>
+   </page>
+   <inject type="dataset" src="EPMObjectsWorkflowSummary" />
+   <inject type="dataset" src="Awp0EPMTaskParticipantSummary" />
+   <inject type="dataset" src="Awp0EPMTaskAssignmentSummary" />
+   <page titleKey="tc_xrt_Reviewers">
+      <section titleKey="">
+         <objectSet source="signoff_attachments.Signoff" defaultdisplay="tableDisplay"
+            sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string" width="345" />
+               <property name="fnd0DecisionRequired" modifiable="false" width="120" />
+               <property name="decision" modifiable="false" width="112" />
+               <property name="comments" width="430" />
+            </tableDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="pasteAction" commandId="Awp0AddReviewer"
+               renderingHint="commandbutton" />
+         </objectSet>
+      </section>
+   </page>
+   <page titleKey="Check List">
+      <section titleKey="Folder Gate Review">
+         <objectSet
+            source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_func_safety_gr)"
+            defaultdisplay="tableDisplay" sortby="object_string"
+            sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="vf6_is_ECR_impact_to_FS" />
+            </tableDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew"
+               renderingHint="commandbutton" />
+            <command actionKey="pasteAction"
+               commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+         </objectSet>
+         <objectSet
+            source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_manu_quality_gr)"
+            defaultdisplay="tableDisplay" sortby="object_string"
+            sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="vf6_is_trialout_required" />
+               <property name="vf6_is_any_cubing" />
+            </tableDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew"
+               renderingHint="commandbutton" />
+            <command actionKey="pasteAction"
+               commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+         </objectSet>
+         <objectSet
+            source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_manufacturing_gr)"
+            defaultdisplay="tableDisplay" sortby="object_string"
+            sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="vf6_ecr_impact_shop_manu" />
+            </tableDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew"
+               renderingHint="commandbutton" />
+            <command actionKey="pasteAction"
+               commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+         </objectSet>
+         <objectSet
+            source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_module_group_gr)"
+            defaultdisplay="tableDisplay" sortby="object_string"
+            sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="vf6_have_coordinated_change" />
+            </tableDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew"
+               renderingHint="commandbutton" />
+            <command actionKey="pasteAction"
+               commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+         </objectSet>
+         <objectSet
+            source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_styling_color_gr)"
+            defaultdisplay="tableDisplay" sortby="object_string"
+            sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="vf6_is_ecr_impact_styling" />
+            </tableDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew"
+               renderingHint="commandbutton" />
+            <command actionKey="pasteAction"
+               commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+         </objectSet>
+         <objectSet
+            source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_test_validate_gr)"
+            defaultdisplay="tableDisplay" sortby="object_string"
+            sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="vf6_is_confirm_test_result" />
+            </tableDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew"
+               renderingHint="commandbutton" />
+            <command actionKey="pasteAction"
+               commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+         </objectSet>
+      </section>
+   </page>
+</rendering>

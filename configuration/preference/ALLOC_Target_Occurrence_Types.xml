@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Collaboration Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ALLOC_Target_Occurrence_Types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies a list of components that can participate as target components for a given Allocation type. The components in this preference are the valid Sub-Types of Allocations and valid sub-types of objects that can be instantiated in the Product Structure Editor.</preference_description>
+      <context name="Teamcenter">
+        <value>Allocation:Item,PSConnection,PSSignal,RouteLocation,GeneralDesignElement,GeneralDesignElementLink</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

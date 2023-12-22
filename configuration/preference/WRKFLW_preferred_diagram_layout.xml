@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_preferred_diagram_layout" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls the preferred layout for Workflow Designer UI.
+Valid values are:
+* GcLeftToRightLayout: Left-to-Right layout. This is the default value.
+* GcRightToLeftLayout: Right-to-Left layout
+* GcTopToBottomLayout: Top-to-Bottom layout
+* FixedLayout: Manual layout</preference_description>
+      <context name="Teamcenter">
+        <value>GcLeftToRightLayout</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

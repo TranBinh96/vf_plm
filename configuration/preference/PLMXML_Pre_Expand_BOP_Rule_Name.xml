@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PLMXML_Pre_Expand_BOP_Rule_Name" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the name of a closure used to pre-expand process structures prior to a PLM XML export operation in the Manufacturing Process Planner application. Pre-expansion on large structures increases the performance of the command and reduces the load on the database server. If the preference is not set, no pre-expansion is done.
+Valid Values:
+Accepts a valid Teamcenter closure rule. Teamcenter supplies you with the PreExpandProcess closure rule to perform the pre-expansion.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIAMANAGERV4_auto_dataset_id" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Select automatically auto-filling of dataset_id check box</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

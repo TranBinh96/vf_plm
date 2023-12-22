@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_show_checkout_objects_on_exit" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if the Find Checked Out Objects dialog box is displayed when exiting Teamcenter. The dialog box displays all objects checked out to the user in the database.
+Valid Values:
+True - The Find Checked Out Objects dialog box is displayed when exiting Teamcenter.
+False - The Find Checked Out Objects dialog box is not displayed when exiting Teamcenter.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

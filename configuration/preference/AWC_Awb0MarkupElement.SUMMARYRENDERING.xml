@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWC_Awb0MarkupElement.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for Awb0MarkupElement objects.</preference_description>
+      <context name="Teamcenter">
+        <value>Awb0MarkupElementSummary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

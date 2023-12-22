@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Design Revision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed as a pseudo-folder under a node for Design Revision object.</preference_description>
+      <context name="Teamcenter">
+        <value>representation_for</value>
+        <value>CAEAnalysis</value>
+        <value>MEProcess</value>
+        <value>MESetup</value>
+        <value>view</value>
+        <value>IMAN_snapshot</value>
+        <value>catia_cache_link</value>
+        <value>EC_reference_item_rel</value>
+        <value>C3D_View</value>
+        <value>PR4D_cad</value>
+        <value>Sci0IMDSView</value>
+        <value>catia</value>
+        <value>catia_multi_model</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

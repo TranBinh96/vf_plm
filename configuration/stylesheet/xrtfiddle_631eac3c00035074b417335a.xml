@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Logical Objects. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="fnd0InternalName"/>
+        <property name="fnd0RootTypeName"/>
+        <property name="parent_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+            <property name="fnd0InternalName"/>
+            <property name="fnd0DisplayName"/>
+            <property name="description"/>
+            <property name="fnd0RootTypeName"/>
+            <property name="fnd0GetRootICOData"/>
+            <property name="parent_type"/>
+            <property name="fnd0ObjectStringExpression"/>          
+        </section>
+       <section titleKey="tc_xrt_LO_Members">
+            <objectSet source="fnd0Members.Fnd0LOPropPresentations" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0PropertyName"/>
+                    <property name="fnd0PropertyDisplayName"/>
+                    <property name="fnd0SourceTypeName"/>
+                    <property name="fnd0NavigationPath" width="360" />
+                    <property name="fnd0GetMemberICOData"/>
+                    <property name="fnd0Inherited" renderingHint="checkbox"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command commandId="LO1AddMember"/>
+                <command commandId="LO1EditMember"/>
+            </objectSet>
+        </section>
+       <section titleKey="tc_xrt_LO_Presented_Properties">
+            <objectSet source="fnd0PresentedProperties.Fnd0LOPropPresentations" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0PresentedPropID"/>
+                    <property name="fnd0PropertyDisplayName"/>
+                    <property name="fnd0PresentedPropMemberID"/>
+                    <property name="fnd0SourceTypeName"/>
+                    <property name="fnd0SourceProperty" width="170"/>
+                    <property name="fnd0Inherited" renderingHint="checkbox"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command commandId="LO1AddProperty"/>
+            </objectSet>
+        </section>
+       <content visibleWhen="{pref:TC_SHOW_INCLUDED_LOGICAL_OBJECTS}==true">
+           <section titleKey="tc_xrt_LO_Included_Logical_Objects">
+                <objectSet source="fnd0IncludedLogicalObjects.Fnd0IncludedLODescriptor" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="fnd0PropertyName" width="170"/>
+                        <property name="fnd0PropertyDisplayName"/>
+                        <property name="fnd0SourceLOName"/>
+                        <property name="fnd0NavigationPath" width="360"/>
+                        <property name="fnd0Inherited"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command commandId="LO1AddIncludedLogicalObject"/>
+                </objectSet>
+            </section>
+        </content>
+    </page>
+</rendering>
+

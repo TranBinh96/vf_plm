@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ITEM_id_registry_site" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Identifies the site name upon which the item ID registry server is running. This preference must be set if the item ID registry is active. If the registry is not active, this preference is ignored.
+Valid Values:
+A single string as a value; each string must be a valid Teamcenter site name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="com.teamcenter.rac.ui.perspectives.navigatorPerspective\\Engineering\\*\\HIDDEN_COMMANDS" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>com.teamcenter.erp.integration.commands.scooterSuperTransfer,deleteAction,com.teamcenter.rac.sourcingCreateLineItems,exportOfflineGmsAction,com.teamcenter.rac.express.RPExport,com.teamcenter.rac.deXchngSendSelected,com.teamcenter.erp.integration.commands.scooterOperation,exportObjectsAction,namedReferencesAction,com.teamcenter.erp.integration.commands.mesOpTrans,com.teamcenter.erp.integration.commands.AssyBOMBOP,com.teamcenter.erp.integration.commands.FamilyAndOptions,com.teamcenter.erp.integration.commands.AssyBOM,exportToConnectionAction,exportRemotePLMAction,com.teamcenter.erp.integration.commands.SuperBOM,com.teamcenter.erp.integration.commands.scooterPlant,com.teamcenter.erp.integration.commands.scooterAssyTransfer,com.teamcenter.rac.exportToPLMXML,com.teamcenter.erp.integration.commands.MaterialCommand,com.teamcenter.erp.integration.commands.unitBOM,com.teamcenter.erp.integration.commands.exportReport,com.teamcenter.vinfast.commands.createDDE,com.teamcenter.erp.integration.commands.mesPlantTrans,com.teamcenter.erp.integration.commands.subContract,com.teamcenter.erp.integration.commands.ScooterMaterialCommand,com.teamcenter.rac.deXchngAddtoExisting,com.teamcenter.erp.integration.commands.Configuration,com.teamcenter.rac.admin.processCopyOldPartNumber,com.teamcenter.rac.bulkextract,com.teamcenter.erp.integration.commands.EngChange,com.teamcenter.rac.substanceComplAddtoExisting,com.teamcenter.rac.substanceComplSendSelected,exportRemoteGmsAction,exportOfflinePdxAction</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

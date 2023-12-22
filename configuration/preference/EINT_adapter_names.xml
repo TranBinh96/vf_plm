@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.eIntegrator">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EINT_adapter_names" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines valid adapters.
+Valid Values:
+Names of valid adapters.</preference_description>
+      <context name="Teamcenter">
+        <value>EINT_sqlnet_adapter</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

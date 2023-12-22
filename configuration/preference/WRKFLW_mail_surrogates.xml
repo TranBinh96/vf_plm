@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_mail_surrogates" type="Logical" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Activates surrogate notifications in the Workflow application.
+Valid Values:
+* true: E-Mail notifications are sent to all active surrogate users. This is the default value.
+* false: E-Mail notifications are not sent to the active surrogate users.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

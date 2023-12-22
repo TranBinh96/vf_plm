@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Global Services.Options">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_gms_sso_enabled" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether Global Services uses Security Services to provide single sign-on (SSO) capability. If this preference is not set to true, the following preferences must be set to provide user credentials for Global Services:
+GS_USER_NAME
+GS_USER_PASSWORD
+Valid Values:
+true - SSO is enabled for Global Services.
+false - SSO is not enabled for Global Services. User ID and password preferences must be defined so that users can log onto Global Services.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

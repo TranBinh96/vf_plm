@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_setProperties" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the overall behavior of object properties setting from Excel Live and Word Live.
+VALID VALUES
+- SET_PROPERTIES: indicates that all properties are set without any query or confirmation from the user regarding properties that have been overwritten since the export. This is the default value.
+- QUERY_AND_SET_ALL: indicates that all objects will be queried to check if they have been overwritten since the export. This option behaves like SET_PROPERTIES if no objects are found to be have been overwritten. If objects have been found, values for ALL objects will be set only after confirmation from the user. This option will work only when the preference TC_overwrite_protection is turned on.
+- QUERY_AND_SET_OVERWRITTEN: indicates that all objects will be queried to check if they have been overwritten since the export. This option behaves like SET_PROPERTIES if no objects are found to have been overwritten. If objects have been found, values for OVERWRITTEN objects will be set only after confirmation from the user. Values that have not been overwritten will be automatically updated without confirmation. This option will work only when the preference TC_overwrite_protection is turned on.</preference_description>
+      <context name="Teamcenter">
+        <value>SET_PROPERTIES</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

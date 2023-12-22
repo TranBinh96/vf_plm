@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Relations">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="appbar_title_contents" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the content of the title string in the application bar for the rich client.  
+Each value must be on its own line. Any other values are rendered as literal text with single space separators after the character.
+Valid Values: &apos;user&apos;, &apos;userid&apos;, &apos;group&apos;, &apos;role&apos;, &apos;site&apos;, &apos;curr_proj&apos;, &apos;prev_login_time&apos;, &apos;prev_session_ip&apos;, &apos;current_login_time&apos;, &apos;locationcode&apos;, &apos;version&apos;, &apos;change_notice&apos;</preference_description>
+      <context name="Teamcenter">
+        <value>(</value>
+        <value>user</value>
+        <value>(</value>
+        <value>userid</value>
+        <value>) -</value>
+        <value>group</value>
+        <value>/</value>
+        <value>role</value>
+        <value>- [</value>
+        <value>site</value>
+        <value>] [</value>
+        <value>curr_proj</value>
+        <value>] [</value>
+        <value>] [</value>
+        <value>locationcode</value>
+        <value>]  [</value>
+        <value>change_notice</value>
+        <value>])</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

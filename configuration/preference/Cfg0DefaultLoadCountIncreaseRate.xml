@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0DefaultLoadCountIncreaseRate" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the increase in the number of search results displayed in one page compared to the one in the previous page.
+The number of values for the first page is controlled by the &quot;Cfg0DefaultLoadCount&quot; preference.
+The value indicates a percentage:
+* less than 100: less results are displayed (in the given percentage)
+* 100: the number of displayed results is the same
+* more than 100: more results are displayed (in the given percentage).</preference_description>
+      <context name="Teamcenter">
+        <value>300</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

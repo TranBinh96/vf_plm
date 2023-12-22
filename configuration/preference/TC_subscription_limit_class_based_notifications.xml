@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Subscription Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_subscription_limit_class_based_notifications" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Restricts notification of events by class-based subscription objects only when one of the criteria properties is modified as part of an event action. This restriction only applies to Modify events. When set to &quot;false&quot;, posting of events is not limited. This is the default value.
+Valid Values:
+true - Notifications are sent only when properties in the criteria are changed.
+false - Notifications are sent when any property is changed.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

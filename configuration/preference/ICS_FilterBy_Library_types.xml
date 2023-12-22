@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_FilterBy_Library_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Identifies the library types to be used as filters by the dictionary dialog user interface.
+Valid Values:
+Any strings.</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0Signals</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

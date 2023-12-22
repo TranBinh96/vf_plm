@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2015 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Awp0ImanSubscriptionSummary.xml
+
+Default style sheet for displaying Subscription Object Summary Active Workspace.
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+  <header>
+    <image source = "type"/>
+  </header>
+  <page titleKey="tc_xrt_Overview" visibleWhen="fnd0IsClassBased==true">
+    <column>
+      <section titleKey="tc_xrt_Properties">
+        <property name="fnd0Name" />
+        <property name="event_type" modifiable="false"/>
+        <property name="fnd0Frequency"/>
+        <property name="fnd0Priority"/>
+        <property name="expiration_date"/>
+        <property name="fnd0IsActive"/>
+        <property name="subscriber" modifiable="false"/>
+        <property name="fnd0TemporaryNotifier" modifiable="false"/>
+        <property name="fnd0TempNotifyStartDate" modifiable="false"/>
+        <property name="fnd0TempNotifyEndDate" modifiable="false"/>
+        <property name="fnd0TransferState" modifiable="false"/>
+      </section> 
+      <section titleKey="tc_xrt_TargetObject">
+        <property name="target" modifiable="false"/>
+      </section>
+    </column>
+    <column>
+      <section titleKey="tc_xrt_Criteria">
+        <htmlPanel declarativeKey="Sub0SubscriptionSummaryCriteria"/> 
+      </section>
+      <section titleKey="tc_xrt_Followers">
+        <htmlPanel declarativeKey="Sub0SubscriptionSummaryFollower"/> 
+      </section>
+      <htmlPanel declarativeKey="Sub0UnsubscribePanel"/>
+    </column>
+  </page>
+  <page titleKey="tc_xrt_Overview" visibleWhen="fnd0IsClassBased==false">
+    <column>
+      <section titleKey="tc_xrt_Properties">
+        <property name="fnd0Name" />
+        <property name="event_type" modifiable="false"/>
+        <property name="fnd0Frequency"/>
+        <property name="fnd0Priority"/>
+        <property name="expiration_date"/>
+        <property name="fnd0IsActive"/>
+        <property name="subscriber" modifiable="false"/>
+        <property name="fnd0TemporaryNotifier" modifiable="false"/>
+        <property name="fnd0TempNotifyStartDate" modifiable="false"/>
+        <property name="fnd0TempNotifyEndDate" modifiable="false"/>
+        <property name="fnd0TransferState" modifiable="false"/>
+      </section>
+      <section titleKey="tc_xrt_TargetObject">
+        <objectSet source="target.POM_object" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+          <thumbnailDisplay/>
+           <treeDisplay>
+            <property name="object_string"/>
+          </treeDisplay>
+          <listDisplay/>
+        </objectSet>
+      </section>
+    </column>
+    <column>
+      <section titleKey="tc_xrt_Followers">
+        <htmlPanel declarativeKey="Sub0SubscriptionSummaryFollower"/> 
+      </section>
+      <htmlPanel declarativeKey="Sub0UnsubscribePanel"/>
+    </column>
+  </page>
+</rendering>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="JT_File_Priority_Refsets" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the load order of NX reference sets contained within DirectModel files. NX reference sets enable you to display different geometry configurations within the context of a single assembly. DirectModel support of NX reference sets can take two forms:DirectModel datasets created prior to Teamcenter 8, which consist of multiple JT files named according to the available reference setsDirectModel datasets created using Teamcenter 8 or later,
+which may consist of a single JT file that contains all of the information necessary to define the geometry configurations for each reference setValues specified for the JT_File_Priority_Refsets preference are case sensitive.By default, the JT_File_Priority_Refsets preference is applicable only for the viewers embedded within Teamcenter applications such as Structure Manager and My Teamcenter. For the Lifecycle Viewer to use the reference set loading order
+specified with this preference, select the Teamcenter Reference Set settings take precedence check box in the Lifecycle Viewer 3D Loader Preferences.
+Valid Values:
+For DirectModel datasets created      For DirectModel datasets           For a mixture of DirectModel datasets
+using Teamcenter 8 or later           created prior to Teamcenter 8      created using different releases
+$EMPTY                                EMPTY                              $EMPTYEMPTY
+$ENTIREPART                           ENTIREPART                         $ENTIREPARTENTIREPART
+$LASTSAVED                            LASTSAVED                          $LASTSAVEDLASTSAVED
+$MODEL                                MODEL                              $MODEL
+[user-defined]                        [user-defined]                     MODEL
+[user-defined]</preference_description>
+      <context name="Teamcenter">
+        <value>$LASTSAVED</value>
+        <value>$ENTIREPART</value>
+        <value>$MODEL</value>
+        <value>$EMPTY</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="Awb0Element.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of properties displayed in a cell for objects of type &quot;Awb0Element&quot;. 
+Valid values are property internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>awb0DisplayedName</value>
+        <value>awb0ArchetypeId</value>
+        <value>awb0ArchetypeRevId</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Viewer">
+    <category_description>Viewer-specific preferences.</category_description>
+    
+               <preference name="ScheduleTask.complete_percent.FORMATSTRING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the format for the &quot;complete_percent&quot; property of ScheduleTask.</preference_description>
+      <context name="Teamcenter">
+        <value>###.## &quot;%&quot;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

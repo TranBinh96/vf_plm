@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_BOM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINFAST_MHUBOM_VIEW_CONFIG" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>User for MHU BOM Export</preference_description>
+      <context name="Teamcenter">
+        <value>0,Level,bl_level_starting_0</value>
+        <value>1,Designator,VF4_ECPartDesignator</value>
+        <value>2,Part Name,bl_item_object_name</value>
+        <value>3,Quantity,bl_quantity</value>
+        <value>4,Item ID,bl_item_item_id</value>
+        <value>5,Part Type,VF4_part_type</value>
+        <value>6,Category,bl_item_vl5_category</value>
+        <value>7,Ref MPN,VF4_preferred_MPN</value>
+        <value>8,Sourcing List,</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

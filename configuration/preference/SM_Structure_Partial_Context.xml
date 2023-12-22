@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_Structure_Partial_Context" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the load behavior for loading subschedules in a master schedule context.
+Valid Values:
+0 - Loads the full schedule, including all of the sub schedules. This value results in slower loading than other values.
+1 - Partially loads all subschedules and loads them inline on demand. This value yields the best performance if there are subschedules. When you insert a schedule only the schedule summary is inserted. For Costing and EVM, if the subschedules have not been loaded, the system loads them and continues.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

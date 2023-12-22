@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="90_AS_VF_SBOMView_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMLine.bl_level_starting_0</value>
+        <value>BOMLine.bl_item_item_id</value>
+        <value>BOMLine.bl_indented_title</value>
+        <value>BOMLine.VL5_purchase_lvl_vf</value>
+        <value>BOMLine.vf3_after_sale_revle</value>
+        <value>BOMLine.bl_quantity</value>
+        <value>BOMLine.VL5_main_module</value>
+        <value>BOMLine.bl_item_uom_tag</value>
+        <value>BOMLine.awb0RevisionRelStatusList</value>
+        <value>BOMLine.VF3_supplier_name_n</value>
+        <value>BOMLine.bl_item_vf4_itm_material_type</value>
+        <value>BOMLine.vf4_DsnRev_sor_name</value>
+        <value>BOMLine.bl_rev_vf4_sor_number_rev</value>
+        <value>BOMLine.VL5_pos_id</value>
+        <value>BOMLine.vf4_DsnRev_long_short_lead</value>
+        <value>BOMLine.bl_item_vl5_color_code</value>
+        <value>BOMLine.bl_rev_vl5_colored_part</value>
+        <value>BOMLine.VF4_AFS_Urgent</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

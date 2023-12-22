@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Ptn0ProductArchModelCreate.xml
+
+    Style sheet rendering for Ptn0ProductArchModel creation.
+=======================================================================
+-->
+
+<rendering>
+
+    <page title="Product Architecture Model Information" titleKey="tc_xrt_ProductArchModelInfo">
+        <section titleKey="tc_xrt_properties">
+            <property name="mdl0model_id"/>
+            <property name="object_name"/>
+            <property name="object_desc" />
+        </section>
+    </page>
+</rendering>

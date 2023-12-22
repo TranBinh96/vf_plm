@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    <preference name="AWC_VF4_plant_form.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>AWC_VF4_plant_form.SUMMARYRENDERING</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0_VF4_plant_form</value>
+      </context>
+    </preference>
+    <preference name="PART_ID_PREFIX_AND_MODULE_GROUP" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>PART_ID_PREFIX_AND_MODULE_GROUP</preference_description>
+      <context name="Teamcenter">
+        <value>BEX=EXTERIOR</value>
+        <value>INT=INTERIOR</value>
+        <value>BIW=BODY_IN_WHITE</value>
+        <value>CHS=CHASSIS</value>
+        <value>PWT=POWERTRAIN</value>
+        <value>EEP=ELECTRIC_ELECTRONICS</value>
+      </context>
+    </preference>
+    <preference name="PROGRAM_2_CONTEXT" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use for feature Program and Family Group</preference_description>
+      <context name="Teamcenter">
+        <value>VFe34=EB15_2020</value>
+        <value>VFe35/VF35=I-EC15_2020</value>
+      </context>
+    </preference>
+    <preference name="VF4_line_itemRevision.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF4_line_itemRevision.CellProperties</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>vf4_bom_vfPartNumber</value>
+      </context>
+    </preference>
+    <preference name="VF_COMMUNITY_LEADER" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Define all group/role will join workflow as role CL</preference_description>
+      <context name="Teamcenter">
+        <value>Purchase;CL</value>
+        <value>Purchase.Scooter;CL</value>
+      </context>
+    </preference>
+    <preference name="VF_COST_ENGINEER" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use for fucntion trigger SOR process</preference_description>
+      <context name="Teamcenter">
+        <value>Product Finance;Engineer</value>
+      </context>
+    </preference>
+    <preference name="VF_ECR_Proposed_Types_To_Create_Cost_Form" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>VF_ECR_Proposed_Types_To_Create_Cost_Form</preference_description>
+      <context name="Teamcenter">
+        <value>VF3_car_partRevision</value>
+        <value>VF3_Scooter_partRevision</value>
+        <value>VF3_spec_docRevision</value>
+        <value>VL5_e_designRevision</value>
+        <value>VF4_DesignRevision</value>
+        <value>VF3_manuf_partRevision</value>
+        <value>VF4_BP_DesignRevision</value>
+        <value>PR4D_MS_IT_VINFRevision</value>
+        <value>VF3_moduleRevision</value>
+      </context>
+    </preference>
+    <preference name="VF_ECR_Validation_Not_Empty_BOM_Property" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF_ECR_Validation_Not_Empty_BOM_Property</preference_description>
+      <context name="Teamcenter">
+        <value>VL5_purchase_lvl_vf</value>
+        <value>wrong prop</value>
+      </context>
+    </preference>
+    <preference name="VF_EXCHANGE_RATE" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>%source currency%_%dest currency%</preference_description>
+      <context name="Teamcenter">
+        <value>USD_VND=23500</value>
+        <value>USD_EUR=0.87</value>
+        <value>USD_CNY=6.927</value>
+        <value>USD_RMB=6.927</value>
+        <value>USD_AED=3.67</value>
+        <value>USD_CAD=1.38</value>
+        <value>USD_GBP=0.765</value>
+        <value>USD_INR=75.038</value>
+        <value>USD_SGD=1.375</value>
+        <value>USD_MYR=4.222</value>
+        <value>USD_JPY=105.957</value>
+        <value>USD_BRL=5.320</value>
+        <value>USD_THB=31.100</value>
+        <value>USD_AUD=1.400</value>
+        <value>USD_USD=1</value>
+        <value>USD_KRW=1108.62</value>
+      </context>
+    </preference>
+    <preference name="VF_MBOM_ME_TYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Create ME Part different material types</preference_description>
+      <context name="Teamcenter">
+        <value>BLN=Blank</value>
+        <value>COI=Coil Part</value>
+        <value>CON=Direct Consumables</value>
+        <value>FAB=Fabric, Carpet, Chute</value>
+        <value>INP=Integrated Part</value>
+        <value>LEA=Leather</value>
+        <value>PVC=PVC</value>
+        <value>RAW=Raw Material</value>
+        <value>SUB=Others</value>
+        <value>THR=Thread</value>
+        <value>TWB=Tailor Welded Blank</value>
+        <value>DCT=Casting</value>
+        <value>MAC=Machining</value>
+        <value>TUB=Tube</value>
+        <value>WRE=Wire</value>
+        <value>TPU=Polyurethane</value>
+        <value>PLA=Plastic</value>
+        <value>REC=Recycle</value>
+        <value>WST=Waste</value>
+        <value>VAS=VF Auto Shuttle</value>
+      </context>
+    </preference>
+    <preference name="VF_MODEL_AND_PREFIX_NUMBER" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>model=number</preference_description>
+      <context name="Teamcenter">
+        <value>VF34=2</value>
+        <value>VF35=3</value>
+        <value>VF36=8</value>
+        <value>S&amp;S=1</value>
+        <value>V8=1</value>
+        <value>EBUS=1</value>
+        <value>Fadil=1</value>
+        <value>Scooter=0</value>
+        <value>VF33=70</value>
+        <value>VF32=72</value>
+        <value>VAS=12</value>
+      </context>
+    </preference>
+    <preference name="VF_MODULE_GROUP_LEADER" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Define all group/role will join workflow as role module leader</preference_description>
+      <context name="Teamcenter">
+        <value>CUV.Car Program.VINFAST;Leader</value>
+        <value>Car Battery.Battery Program.VINFAST;Manager</value>
+        <value>Emotor.Car Program.VINFAST;Group Leader</value>
+        <value>Service Technic.After sale;Leader</value>
+        <value>TTL.VFe32_e33.Car Program.VINFAST;TTL BOM Manager</value>
+        <value>InHouse_3IN1.Car Program.VINFAST;Manager</value>
+        <value>TTL.VFe3x234S.Car Program.VINFAST;TTL BOM Manager</value>
+        <value>EXT.EDAG.VFx36.Car Program.VINFAST;EDAG BOM Manager</value>
+        <value>EDAG.VFx36.Car Program.VINFAST;EDAG BOM Manager</value>
+      </context>
+    </preference>
+    <preference name="VF_MOLD_PART_TYPE" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Using for dialog create Mold Part</preference_description>
+      <context name="Teamcenter">
+        <value>NEC=</value>
+      </context>
+    </preference>
+    <preference name="VF_MOLD_PART_TYPES" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use to create Mold Part</preference_description>
+      <context name="Teamcenter">
+        <value>NAL=Phần đẩy sản phẩm</value>
+        <value>NLC=Lòng khuôn dưới, điện cực</value>
+        <value>NUC=Lòng khuôn trên</value>
+        <value>NSL=Khối trượt</value>
+        <value>NMA=Vỏ khuôn, bộ Hot, các linh kiện của vỏ khuôn</value>
+        <value>NMB=Cụm khối trượt</value>
+        <value>NMD=Cụm khối dẫn nhựa</value>
+        <value>NME=Cụm khối chèn lõi</value>
+        <value>NMF=Khối phụ kiện định vị khuôn</value>
+        <value>NMG=Các loại chốt đẩy</value>
+        <value>NMH=Hệ thống làm mát</value>
+        <value>NMI=Phụ kiện khuôn đúc kim loại</value>
+        <value>NMZ=Cụm Bu lông, Xi lanh, bộ đếm sản phẩm đúc</value>
+      </context>
+    </preference>
+    <preference name="VF_NominatedSupplierFolder" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>JSON folder</preference_description>
+      <context name="Teamcenter">
+        <value>D:\TC\Karaf\tc_subscription\</value>
+      </context>
+    </preference>
+    <preference name="VF_NominatedSupplierFolder_PRPO" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>JSON folder for PRPO</preference_description>
+      <context name="Teamcenter">
+        <value>D:\TC\Karaf\tc_supplier_nominate\</value>
+      </context>
+    </preference>
+    <preference name="VF_NominatedTransferFlag" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>ON/ OFF Transfer flag</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    <preference name="VF_PART_ATTRIBUTES_CAR" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Using for command Update Part Attributes</preference_description>
+      <context name="Teamcenter">
+        <value>vf4_itm_after_sale_relevant</value>
+        <value>vf4_donor_vehicle</value>
+        <value>vf4_supplier_type</value>
+        <value>vf4_long_short_lead</value>
+        <value>vf4_part_category</value>
+      </context>
+    </preference>
+    <preference name="VF_PART_ATTRIBUTES_ESCOOTER" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Using in command Escooter Update Part Attributes</preference_description>
+      <context name="Teamcenter">
+        <value>vf4_item_make_buy</value>
+        <value>vf4_itm_after_sale_relevant</value>
+        <value>vf4_es_model_veh_line</value>
+        <value>vf4_orginal_part_number</value>
+      </context>
+    </preference>
+    <preference name="VF_PLM_MAIL_LOCATION" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>VF_PLM_MAIL_LOCATION</preference_description>
+      <context name="Teamcenter">
+        <value>d:\TC\Karaf\tc_email</value>
+      </context>
+    </preference>
+    <preference name="VF_PROGRAMS_MODULES_ATTRIBUTES_NAME" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF_PROGRAMS_MODULES_ATTRIBUTES_NAME</preference_description>
+      <context name="Teamcenter">
+        <value>DEFAULT=VL5_module_group</value>
+        <value>Car Battery.Battery Program=VL5_module_group</value>
+      </context>
+    </preference>
+    <preference name="VF_PROGRAM_2_CONTEXT" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF Family Group Validation Rule configuration</preference_description>
+      <context name="Teamcenter">
+        <value>VFe34=EB15_2020</value>
+        <value>BP Escooter=107179</value>
+      </context>
+    </preference>
+    <preference name="VF_PROGRAM_2_TOPBOM" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF Family Group Configuration</preference_description>
+      <context name="Teamcenter">
+        <value>VFe34=SCP20000003</value>
+        <value>BP Escooter=TES12124325</value>
+      </context>
+    </preference>
+    <preference name="VINFAST_PROCESS_STATUS_REPORT_2" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference using for Process Status report
+Syntax: Process_Name,Root_Target_Type</preference_description>
+      <context name="Teamcenter">
+        <value>C-SUV Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>C-SUV Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>C-SUV Data Release Process (PR Status),VF4_ERNRevision</value>
+        <value>C-SUV Styling Release Process (A-Class),VF4_DesignRevision</value>
+        <value>Create_Sourcing_Process,VF4_DesignRevision</value>
+        <value>BPI_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>D-SUV_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>EBus Data Release Process (I - Status),VF4_ERNRevision</value>
+        <value>EBus Data Release Process (P - Status),VF4_ERNRevision</value>
+        <value>EBus Data Release Process (PR - Status),VF4_ERNRevision</value>
+        <value>EBUS_Document_Release Process,VF4_ERNRevision</value>
+        <value>EScooter-ECN-Workflow,Vf6_ECNRevision</value>
+        <value>EScooter-ECR-Workflow,Vf6_ECRRevision</value>
+        <value>EScooter_Release_Workflow_Process,VF3_Scooter_partRevision</value>
+        <value>Escooter_BatteryPack_Release_Workflow_Process,VF4_BP_DesignRevision</value>
+        <value>Escooter_EE Design_Release_Workflow,VF3_Scooter_partRevision</value>
+        <value>Escooter_EE Design_ECR_Workflow,Vf6_ECRRevision</value>
+        <value>Escooter_EE Design_ECN_Workflow,Vf6_ECNRevision</value>
+        <value>SCP Data Release Process (I - Status),VF4_ERNRevision</value>
+        <value>SCP Data Release Process (P - Status),VF4_ERNRevision</value>
+        <value>SCP Data Release Process (PR - Status),VF4_ERNRevision</value>
+        <value>SCP_ECN_Evaluation,Vf6_ECNRevision</value>
+        <value>SCP_ECN_EVALUATION_AFTERPR,Vf6_ECNRevision</value>
+        <value>SCP_ECR_Evaluation,Vf6_ECRRevision</value>
+        <value>SCP_ECR_Evaluation_New,Vf6_ECRRevision</value>
+        <value>SCP_ECR_Evaluation_Simplified,Vf6_ECRRevision</value>
+        <value>SCP_ECR_Evaluation_Simplified_AfterPR,Vf6_ECRRevision</value>
+        <value>SCP_ECR_Prepare_AfterPR,Vf6_ECRRevision</value>
+        <value>SCP_Prepare_ECR,Vf6_ECRRevision</value>
+        <value>VF Styling Release Process (A-Class),VF4_DesignRevision</value>
+        <value>VF Styling Release Process (B-Class),VF4_DesignRevision</value>
+        <value>VF Styling Release Process (C-Class),VF4_DesignRevision</value>
+        <value>VF Common Release Process - P Status,VF4_ERNRevision</value>
+        <value>VF Common Release Process - I Release,VF4_ERNRevision</value>
+        <value>VF Common Release Process - PR Status,VF4_ERNRevision</value>
+        <value>VF_Request_For_Stopping_Tooling,VF4_DesignRevision</value>
+        <value>01_Prepare_ECR_Magna,Vf6_ECRRevision</value>
+        <value>02_Prepare_ECR_AVL,Vf6_ECRRevision</value>
+        <value>03_ECR_EVALUATION_BIW,Vf6_ECRRevision</value>
+        <value>04_ECR_EVALUATION_CHA,Vf6_ECRRevision</value>
+        <value>05_ECR_EVALUATION_DC,Vf6_ECRRevision</value>
+        <value>06_ECR_EVALUATION_EE,Vf6_ECRRevision</value>
+        <value>07_ECR_EVALUATION_ENG,Vf6_ECRRevision</value>
+        <value>08_ECR_EVALUATION_EXT,Vf6_ECRRevision</value>
+        <value>09_ECR_EVALUATION_INT,Vf6_ECRRevision</value>
+        <value>10_ECR_EVALUATION_PWT,Vf6_ECRRevision</value>
+        <value>VinFast ECN,Vf6_ECNRevision</value>
+        <value>D-SUV_ECR_Evaluation_BeforePR,Vf6_ECRRevision</value>
+        <value>D-SUV_ECN_Evaluation_BeforePR,Vf6_ECNRevision</value>
+        <value>C-SUV_ECR_Evaluation_BeforePR,Vf6_ECRRevision</value>
+        <value>C-SUV_ECN_Evaluation_BeforePR,Vf6_ECNRevision</value>
+        <value>EBUS_ECR_Evaluation_Simplified_AfterPR,Vf6_ECRRevision</value>
+        <value>EBUS_ECN_Evaluation_AfterPR,Vf6_ECNRevision</value>
+        <value>C-SUV_ECN_Evaluation_AfterPR,Vf6_ECNRevision</value>
+        <value>C-SUV_ECR_Evaluation_AfterPR,Vf6_ECRRevision</value>
+        <value>C-SUV_ECR_Evaluation_Simplified,Vf6_ECRRevision</value>
+        <value>C-SUV_ECN_Evaluation,Vf6_ECNRevision</value>
+        <value>VinFast ECR,Vf6_ECRRevision</value>
+        <value>VF36 Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>VF36 Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>VF36 Data Release Process (PR Status),VF4_ERNRevision</value>
+        <value>VF33 Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>VF33 Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>VFe32_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>VFe33_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>VFe34NG_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>Manufacturing Change Request,VF4_MCRRevision</value>
+        <value>VFe33 Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>VFe33 Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>VFe33 Data Release Process (PR Status),VF4_ERNRevision</value>
+        <value>VFe32 Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>VFe32 Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>VFe32 Data Release Process (PR Status),VF4_ERNRevision</value>
+        <value>VFe34NG Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>VFe34NG Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>VFe34NG Data Release Process (PR Status),VF4_ERNRevision</value>
+        <value>VinFast ECR_Before PR,Vf6_ECRRevision</value>
+        <value>VinFast ECR_After PR,Vf6_ECRRevision</value>
+        <value>VinFast ECN_After PR,Vf6_ECNRevision</value>
+        <value>VinFast ECN_Before PR,Vf6_ECNRevision</value>
+      </context>
+    </preference>
+    <preference name="VINF_Rev_Rule_for_RH_check_unreleased_ItemRevision" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VINF_Rev_Rule_for_RH_check_unreleased_ItemRevision</preference_description>
+      <context name="Teamcenter">
+        <value>VINFAST_RELEASE_RULE</value>
+      </context>
+    </preference>
+    <preference name="VINF_SPECBOOK_MODEL_CODE" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Use Spec Book create</preference_description>
+      <context name="Teamcenter">
+        <value>AA=AUTOMOBILE=VFe34</value>
+        <value>AB=AUTOMOBILE=VF e32</value>
+        <value>AC=AUTOMOBILE=VF e33</value>
+        <value>BA=AUTOMOBILE=BUS (EBUS10M)</value>
+        <value>CA=AUTOMOBILE=LCP (Large Car Platform)</value>
+        <value>XA=AUTOMOBILE=MPV</value>
+        <value>SA=AUTOMOBILE=SEDAN</value>
+        <value>VA=AUTOMOBILE=Other</value>
+        <value>XU=AUTOMOBILE=SUV (+LuxV8)</value>
+        <value>SX=AUTOMOBILE=SEDAN &amp; SUV (spec book common for 2 model)</value>
+        <value>XV=AUTOMOBILE=VF35 and VFe35</value>
+        <value>XX=AUTOMOBILE=VF36 and VFe36</value>
+        <value>XN=AUTOMOBILE=VF e34S (Next Generation)</value>
+        <value>PT=AUTOMOBILE=PICKUP Truck</value>
+        <value>MA1=E-SCOOTER=V5 CITY LFP</value>
+        <value>MA2=E-SCOOTER=V5 LITE LFP</value>
+        <value>MA3=E-SCOOTER=V7 SPORT LFP</value>
+        <value>MA4=E-SCOOTER=V9 SPORT LFP</value>
+      </context>
+    </preference>
+    <preference name="VINF_SPECBOOK_MODULE_NAME" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>User Spec Book create</preference_description>
+      <context name="Teamcenter">
+        <value>RAW=AUTOMOBILE=Raw Material</value>
+        <value>CLP=AUTOMOBILE=Color Part</value>
+        <value>FLU=AUTOMOBILE=Fluid, Glues, Oils, Paint</value>
+        <value>BIW=AUTOMOBILE=Body In White</value>
+        <value>CHS=AUTOMOBILE=Chassis</value>
+        <value>EEP=AUTOMOBILE=Electrical and Electronics Part</value>
+        <value>BEX=AUTOMOBILE=Body Exterior</value>
+        <value>BIN=AUTOMOBILE=Body Interior</value>
+        <value>PWT=AUTOMOBILE=Power Train</value>
+        <value>ENG=AUTOMOBILE=Engine</value>
+        <value>BLA=AUTOMOBILE=Book and Label</value>
+        <value>STD=AUTOMOBILE=Standard Part (Screw, Bolt, Nut etc)</value>
+        <value>SOW=AUTOMOBILE=Software</value>
+        <value>ACC=AUTOMOBILE=Accessory</value>
+        <value>BLN=AUTOMOBILE=Blank</value>
+        <value>TWB=AUTOMOBILE=Tailor Welded Blank</value>
+        <value>CVC=AUTOMOBILE=Complete Vehicle</value>
+        <value>DCL=AUTOMOBILE=Doors Closures</value>
+        <value>GNR=AUTOMOBILE=General</value>
+        <value>EEH=AUTOMOBILE=Electrical Electronic for High voltage</value>
+        <value>BAT=AUTOMOBILE=Battery Pack</value>
+        <value>EDS=AUTOMOBILE=Electric Drive System</value>
+        <value>CEL=AUTOMOBILE=Battery Cell</value>
+        <value>DRT=E-SCOOTER=Drivertrain</value>
+        <value>ELE=E-SCOOTER=Basic EL</value>
+        <value>LID=E-SCOOTER=Light/ Display</value>
+        <value>FRA=E-SCOOTER=Frame assy.</value>
+        <value>SUS=E-SCOOTER=Suspension</value>
+        <value>BRA=E-SCOOTER=Brake</value>
+        <value>SAE=E-SCOOTER=Saddle</value>
+        <value>BDP=E-SCOOTER=Body plastic</value>
+        <value>FWH=E-SCOOTER=Front wheel assy.</value>
+        <value>RWH=E-SCOOTER=Rear wheel assy.</value>
+        <value>MEC=E-SCOOTER=Another mechanical</value>
+        <value>BOL=E-SCOOTER=Book, label,…</value>
+        <value>LIQ=E-SCOOTER=Fluid, liquid,…</value>
+        <value>RWT=E-SCOOTER=Raw material</value>
+        <value>ASY=E-SCOOTER=Assembly drawing</value>
+        <value>CNI=E-SCOOTER=Connectivity &amp; Interface</value>
+        <value>TRS=E-SCOOTER=Trasmission</value>
+        <value>ACP=E-SCOOTER=Accessory</value>
+        <value>SVC=E-SCOOTER=Service Part</value>
+        <value>PCB=E-SCOOTER=Printed Circuit Board</value>
+        <value>SOF=E-SCOOTER=Software</value>
+        <value>PBA=E-SCOOTER=Printed Board Accessory</value>
+        <value>CHG=E-SCOOTER=Charging Station</value>
+        <value>FIR=E-SCOOTER=Firmware</value>
+        <value>APP=E-SCOOTER=Application</value>
+        <value>BTP=E-SCOOTER=Battery Pack</value>
+        <value>CVC=E-SCOOTER=Complete Vehicle</value>
+      </context>
+    </preference>
+    <preference name="VINF_SPECBOOK_PREFIX_NAME" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>User Spec Book create</preference_description>
+      <context name="Teamcenter">
+        <value>VFDS=AUTOMOBILE=SPB: Spec book; include DVP</value>
+        <value>VFSR=AUTOMOBILE=SOR: Scope of Requirements</value>
+        <value>TGSS=AUTOMOBILE=Tool Grain Specification Sheet</value>
+        <value>VFTE=AUTOMOBILE=Test Report</value>
+        <value>FMEA=AUTOMOBILE=Failure Mode and Effects Analysis</value>
+        <value>ESOR=E-SCOOTER=Scope of Requirement</value>
+        <value>ESPC=E-SCOOTER=Escooter Specbook</value>
+        <value>EFMA=E-SCOOTER=Escooter Failure Mode and Effects Analysis</value>
+        <value>EDVP=E-SCOOTER=Design Validation Plan</value>
+      </context>
+    </preference>
+    <preference name="VINF_SPECBOOK_VEHICLE_TYPE" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Use Spec Book create</preference_description>
+      <context name="Teamcenter">
+        <value>AUTOMOBILE</value>
+        <value>E-SCOOTER</value>
+      </context>
+    </preference>
+  </category>
+</preferences>

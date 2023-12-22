@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_design_audit_info" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains a list of BOM lines, user can  see in AuditReport.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_rev_item_revision_id</value>
+        <value>bl_rev_object_name</value>
+        <value>bl_item_item_id</value>
+        <value>bl_item_object_name</value>
+        <value>bl_rev_has_variants</value>
+        <value>bl_variant_state</value>
+        <value>Usage_FNM</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

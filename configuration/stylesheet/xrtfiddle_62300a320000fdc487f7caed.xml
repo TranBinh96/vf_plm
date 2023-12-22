@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="thumbnail"/>
+        <classificationTrace/>
+        <property name="owning_user"/>
+        <inject type="dataset" src="Ads1OwningProgram"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_properties">
+                <property name="item_id" renderingHint="label"/>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+           
+ 
+                <break/>
+                
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out" renderingHint="label"/>
+                <property name="checked_out_user"/>
+                
+            </section>
+           
+           
+        </column>
+        
+        
+    </page>
+    <inject type="preference" src="ClassificationStylesheetTab" />
+    <inject type="dataset" src="Ads1NotesSection" />
+    <page titleKey="attachments">
+        <section titleKey="tc_xrt_Files">
+            <objectSet source="IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="ref_list"/> 
+                    <property name="release_status_list"/>
+                    <property name="relation"/>
+                    <property name="last_mod_date"/>
+                    <property name="last_mod_user"/>
+                    <property name="checked_out_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="ref_list"/> 
+                    <property name="release_status_list"/>
+                    <property name="relation"/>
+                    <property name="last_mod_date"/>
+                    <property name="last_mod_user"/>
+                    <property name="checked_out_user"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+    <inject type="dataset" src="WorkflowSummary" />
+    <inject type="dataset" src="RelationsSummary" />
+    <inject type="dataset" src="Rb0InContextReportsSubLocation" />
+    <!--
+    // ==================================================================================
+    // The following page defines the display for when Active Collaboration is installed.
+    // If you have installed this option, this page should be added.
+    // ===================================================================================
+    <page titleKey = "tc_xrt_Collaboration">
+        <customPanel java = "com.siemens.splm.client.social.xrtCommentaryPanel"/>
+    </page>
+    -->
+    <inject type="dataset" src="AuditLogForItemRev"/>
+</rendering>
+

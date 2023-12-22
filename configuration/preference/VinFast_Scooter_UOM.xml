@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VinFast_Scooter_UOM" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>List of UOM</preference_description>
+      <context name="Teamcenter">
+        <value>bbl</value>
+        <value>G</value>
+        <value>KG</value>
+        <value>L</value>
+        <value>m</value>
+        <value>ml</value>
+        <value>PC</value>
+        <value>SET</value>
+        <value>Ton</value>
+        <value>pck</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

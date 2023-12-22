@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Gateway Foundation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="T4X_Property2IgnoreList4view" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Generic black-list for view</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0PS_Markup</value>
+        <value>TC_Arrangement</value>
+        <value>TC_BaseArrangementAnchor</value>
+        <value>TC_DefaultArrangement</value>
+        <value>assy_units</value>
+        <value>bvr_occurrences</value>
+        <value>legacy_transform_factor</value>
+        <value>FND_TraceLink</value>
+        <value>Fnd0DiagramSnapshot</value>
+        <value>Fnd0DiagramTmplRelation</value>
+        <value>Fnd0Diagram_Attaches</value>
+        <value>Fnd0ShapeRelation</value>
+        <value>IMAN_based_on</value>
+        <value>IMAN_external_object_link</value>
+        <value>archive_date</value>
+        <value>awb0References</value>
+        <value>awb0SupportsStructure</value>
+        <value>awp0CellProperties</value>
+        <value>awp0ThumbnailImageTicket</value>
+        <value>backup_date</value>
+        <value>based_on</value>
+        <value>cd_tags</value>
+        <value>change</value>
+        <value>checked_out</value>
+        <value>checked_out_change_id</value>
+        <value>checked_out_date</value>
+        <value>checked_out_user</value>
+        <value>current_desc</value>
+        <value>current_name</value>
+        <value>current_job</value>
+        <value>ead_paragraph</value>
+        <value>expl_checkout</value>
+        <value>export_sites</value>
+        <value>external_apps</value>
+        <value>fnd0ActuatedInteractiveTsks</value>
+        <value>fnd0AllActivatedInteractiveTasks</value>
+        <value>fnd0AllWorkflows</value>
+        <value>fnd0CurrentEditContext</value>
+        <value>fnd0DSState</value>
+        <value>fnd0DigitalSignAuditLogs</value>
+        <value>fnd0IcsClassNames</value>
+        <value>fnd0InProcess</value>
+        <value>fnd0IsCheckoutable</value>
+        <value>fnd0MyWorkflowTasks</value>
+        <value>fnd0complying_objects</value>
+        <value>fnd0defining_objects</value>
+        <value>fnd0mfkinfo</value>
+        <value>has_trace_link</value>
+        <value>ics_classified</value>
+        <value>ics_subclass_name</value>
+        <value>ip_classification</value>
+        <value>ip_logged</value>
+        <value>is_modifiable</value>
+        <value>last_mod_user</value>
+        <value>license_list</value>
+        <value>object_desc</value>
+        <value>occs_vla</value>
+        <value>occs_to_destroy_vla</value>
+        <value>owning_group</value>
+        <value>owning_organization</value>
+        <value>owning_project</value>
+        <value>owning_user</value>
+        <value>process_stage</value>
+        <value>process_stage_list</value>
+        <value>proj_assign_mod_date</value>
+        <value>project_ids</value>
+        <value>project_list</value>
+        <value>projects_list</value>
+        <value>protection</value>
+        <value>publication_sites</value>
+        <value>revision_limit</value>
+        <value>revision_number</value>
+        <value>threads_vla</value>
+        <value>user_can_unmanage</value>
+        <value>wso_thread</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

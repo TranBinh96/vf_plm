@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+ ==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<rendering>
+    <page titleKey="tc_xrt_Massupdate">
+        <section titleKey="tc_xrt_Impactedassemblies">
+            <htmlPanel declarativeKey="ImpactedAssembliesPanel"/>
+               <objectSet source="Fnd0WhereConfiguredProvider.Fnd0MUImpactedParents" defaultdisplay="tableDisplay" maxRowCount="16">
+                <tableDisplay>
+                    <property name="object_string" titleKey="tc_xrt_Assemblies"/>
+                    <property name="REF(fnd0ImpactedItemRev,ItemRevision).item_id" modifiable="false" width="70" />
+                    <property name="REF(fnd0ImpactedItemRev,ItemRevision).item_revision_id" titleKey="tc_xrt_Rev" modifiable="false" width="100" />
+                    <property name="REF(fnd0ImpactedItemRev,ItemRevision).release_status_list" modifiable="false" width="150" />
+                    <property name="REF(fnd0ImpactedItemRev,ItemRevision).owning_user" modifiable="false" width="100" />
+                    <property name="REF(fnd0ImpactedItemRev,ItemRevision).owning_group" modifiable="false" width="100" />
+                    <property name="fnd0ProblemItemRev" modifiable="false" />
+                    <property name="fnd0OccurrenceCount" modifiable="false" />
+                    <property name="fnd0SubstituteList" modifiable="false" />
+                    <property name="fnd0SelectedAction" modifiable="true" />
+                    <property name="fnd0ProposedItemRev" modifiable="true" />
+                </tableDisplay>
+            </objectSet>
+        </section>    
+    </page>
+</rendering>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Product Structure Synchronization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_Reference_Designator_Validation" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the system performs special reference designator validation. If enabled, the format and uniqueness of the values of the reference designator is verified. Packed lines cannot be modified. For validation, all reference designators must be in the format prefix number,  where prefix is a string of one or more uppercase letters and number is an integer. For example, C1, TS105, or CK109TS43). Formats such as c1 and %O are not valid.
+Valid Values:
+true - Special reference designator validation is enabled.
+false - Special reference designator validation is not enabled.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

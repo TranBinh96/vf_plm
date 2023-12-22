@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Baseline_precise_bvr" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies which type of baseline, precise or imprecise, can be created.
+Valid Values:
+0 - Creates a precise baseline.
+1 - Creates an imprecise baseline.
+2 - Allows only a precise baseline to be created. Setting this value in the site preference file override any value set in a user&apos;s preference file.</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

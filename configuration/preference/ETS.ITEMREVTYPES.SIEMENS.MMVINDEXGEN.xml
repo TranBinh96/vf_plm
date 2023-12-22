@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ETS.ITEMREVTYPES.SIEMENS.MMVINDEXGEN" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Lists the types of Item Revision applicable for the mmvindexgen translator.
+Valid values are the internal names of the Item Revision types. If the value &quot;*&quot; is entered in the first position, all types are supported.</preference_description>
+      <context name="Teamcenter">
+        <value>*</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

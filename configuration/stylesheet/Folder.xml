@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Folder.xml
+
+    Style sheet rendering for Folder properties.
+=======================================================================
+-->
+
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="object_type" />
+            <separator/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+            <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+            <property name="last_mod_user" />
+        </column>
+        <column>
+            <property name="contents"/>
+        </column>
+    </page>
+
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="tc_xrt_Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>
+

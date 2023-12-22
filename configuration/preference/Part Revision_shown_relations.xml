@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Part Revision_shown_relations" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies which Relations to display when expanding the node of a Part Revision object.</preference_description>
+      <context name="Teamcenter">
+        <value>PSBOMViewRevision</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_reference</value>
+        <value>IMAN_UG_udf</value>
+        <value>IMAN_UG_altrep</value>
+        <value>IMAN_UG_scenario</value>
+        <value>IMAN_Simulation</value>
+        <value>IMAN_Rendering</value>
+        <value>IMAN_Motion</value>
+        <value>IMAN_MEMfgModel</value>
+        <value>IMAN_snapshot</value>
+        <value>IMAN_3D_snap_shot</value>
+        <value>IMAN_external_object_link</value>
+        <value>IMAN_MEWorkInstruction</value>
+        <value>TC_ProductManual</value>
+        <value>TC_Is_Represented_By</value>
+        <value>TC_DrawingOf</value>
+        <value>TC_DrawingUsing</value>
+        <value>Fnd0ListsParamReqments</value>
+        <value>Fnd0ListsCustomNotes</value>
+      </context>
+      <context name="NXManagerUnigraphics">
+        <value>IMAN_specification</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_reference</value>
+        <value>IMAN_UG_udf</value>
+        <value>IMAN_UG_altrep</value>
+        <value>IMAN_UG_scenario</value>
+        <value>IMAN_Simulation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <page titleKey="tc_xrt_Overview">
+			<section title="Piece Cost (USD)" >
+				<property name="vf4_piece_cost_value_target" titleKey="Piece Cost Value Target" />
+				<property name="vf4_isPieceCostInParentPart" titleKey="Is Piece Cost In Parent Part" />
+				<property name="vf4_piece_cost_parent_part" titleKey="Piece Cost Parent Part Number" />
+				 
+			</section>
+			<section title="Engineering Design and Development Cost (USD)" >
+			    <property name="vf4_ednd_cost_value_target" titleKey="EDnD Cost Value Target" />
+			    <property name="vf4_isEDDCostInParentPart" titleKey="Is EDnD Cost In Parent Part " />
+			    <property name="vf4_edd_cost_parent_part" titleKey="EDnD Cost Parent Part Number" />
+			</section>
+			<section title="Tooling Cost (USD)">
+			    <property name="vf4_tooling_invest_target" titleKey="Tooling Investment Value Target" />
+			    <property name="vf4_isToolCostInParentPart" titleKey="Is Tooling Cost In Parent Part " />
+			    <property name="vf4_tool_cost_parent_part" titleKey="Tooling Cost Parent Part Number" />
+			</section>
+            <section title="Miscellaneous Cost (USD)" >
+				<property name="vf4_misce_piece_cost_target" titleKey="Miscellaneous Piece Cost Value Target" />
+            </section>
+            <section title="Additional Information" >
+				<property name="owning_group" titleKey="Group ID" />
+				<property name="owning_user" titleKey="Owner" />
+				<property name="last_mod_user" titleKey="Last Modifying User" />
+				<property name="last_mod_date" titleKey="Date Modified" />
+            </section>
+    </page>
+    <page titleKey="tc_xrt_AuditLogs" visibleWhen="{pref:TC_audit_manager_version}==3 and {pref:AWC_show_audit_logs}==true">
+         <section titleKey="tc_xrt_GeneralLogs">
+            <objectSet source="fnd0GeneralAuditLogs.Fnd0GeneralAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="descending">
+                <tableDisplay>
+					<property name="fnd0LoggedDate"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="fnd0UserId"/>
+                    <property name="fnd0ChangeID"/>
+                    <property name="fnd0Reason"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>
+					<property name="vf4_ednd_cost_curr_target" titleKey="EDnD Cost Currency Target" />
+					<property name="vf4_ednd_cost_curr_targetOv" titleKey="EDnD Cost Currency Target Old" />
+					<property name="vf4_ednd_cost_value_target" titleKey="EDnD Cost Value Target" />
+					<property name="vf4_ednd_cost_value_targetO" titleKey="EDnD Cost Value Target Old" />
+					<property name="vf4_misce_piece_curr_target" titleKey="Miscellaneous Piece Cost Value Currency Target" />
+					<property name="vf4_MiscePieceCurrTargetOvl" titleKey="Miscellaneous Piece Cost Value Currency Target Old" />
+					<property name="vf4_misce_piece_cost_target" titleKey="Miscellaneous Piece Cost Value Target" />
+					<property name="vf4_MiscePieceCostTargetOvl" titleKey="Miscellaneous Piece Cost Value Target Old" />
+					<property name="vf4_piece_cost_curr_target" titleKey="Piece Cost Currency Target" />
+					<property name="vf4_PieceCostCurrTargetOvl" titleKey="Piece Cost Currency Target Old" />
+					<property name="vf4_piece_cost_value_target" titleKey="Piece Cost Value Target" />
+					<property name="vf4_PieceCostValueTargetOvl" titleKey="Piece Cost Value Target Old" />
+					<property name="vf4_tooling_invest_curr_tar" titleKey="Tooling investment Currency Target" />
+					<property name="vf4_ToolingInvestCurrTarOvl" titleKey="Tooling investment Currency Target Old" />
+					<property name="vf4_tooling_invest_target" titleKey="Tooling Investment Value Target" />
+					<property name="vf4_ToolingInvestTargetOvl" titleKey="Tooling Investment Value Target Old" />
+                </tableDisplay>
+            </objectSet>
+        </section>
+     </page>
+</rendering>
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_variant_overlays_uses_true_availability" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether rule checks and variability are evaluated in the variants overlay only (VOO) analysis when using RDV.
+Valid Values:
+TRUE - Expands conditions into True Availability statements. May slow VOO analysis.
+FALSE - Conditions are not expanded.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Fnd0Booleansolve_EffectivityDateRangeFromTo" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>4th Generation Design and Product Configurator can display effectivity date ranges in one of two ways:Inclusive date ranges, where the end date is included (a from/to paradigm). Objects whose effective date range is displayed in a format such as Date=2011-04-01..2011-04-30are effective until the end of the last day, in this case, 2011-04-30. Similarly, if the date range is displayed as 2011-04-01..2011-04-30T17, the objects are effective until the end of hour 17 on the specified day, Date=2011-04-30. Set this preference to TRUE to use this display format.
+Half open ranges, where the end date is excluded (an effect in/effect out paradigm). Objects whose effective date range is displayed in a format such as Date=2011-04-01..2011-05-01 are not effective for the end date, in this case, Date=2011-05-01. Set this preference to FALSE to use this display format.Dates must be formatted to ISO 8601 using the server time zone. For example, a display value of 2011-04-30T17 means 2011-04-30T15:00:00Z if the Teamcenter server is located in the MET time zone.
+Valid Values:
+TRUE or FALSE.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

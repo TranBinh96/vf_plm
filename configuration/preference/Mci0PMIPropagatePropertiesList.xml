@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mci0PMIPropagatePropertiesList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of properties that can be updated as per the NX update in the &quot;Import PMI&quot; command.</preference_description>
+      <context name="Teamcenter">
+        <value>mci0PmiDescription</value>
+        <value>mci0NominalValue</value>
+        <value>mci0UpperSpecLimit</value>
+        <value>mci0LowerSpecLimit</value>
+        <value>mci0GDandTText</value>
+        <value>mci0GDandTCode</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

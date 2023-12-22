@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAEDataset_relation_mapping" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the mapping between CAE supported datasets and the relation with which they need to be attached with corresponding IR.</preference_description>
+      <context name="Teamcenter">
+        <value>CAEMesh:IMAN_Simulation</value>
+        <value>CAEGeom:IMAN_Simulation</value>
+        <value>CAEResults:IMAN_specification</value>
+        <value>CAESolver:IMAN_specification</value>
+        <value>CAESolution:IMAN_Simulation</value>
+        <value>NXMotion:IMAN_Simulation</value>
+        <value>CAE0StructureMapFilter:CAE0StrMapFilterRelation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

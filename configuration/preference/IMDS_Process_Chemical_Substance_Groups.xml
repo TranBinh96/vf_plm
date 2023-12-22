@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_Process_Chemical_Substance_Groups" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the International Material Data System (IMDS) Substance Group Numbers for which user need to mention reason for usage.
+The default value is 15.</preference_description>
+      <context name="Teamcenter">
+        <value>15</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

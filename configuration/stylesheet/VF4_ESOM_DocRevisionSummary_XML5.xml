@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering>
+   <header>
+      <image source="type"/>
+      <property name="owning_user"/>
+      <property name="last_mod_date"/>
+      <property name="release_status_list" renderingHint="label"/>
+      <property name="object_type"/>
+   </header>
+   <page titleKey="tc_xrt_Overview" title="Overview">
+      <column>
+         <section titleKey="General Info" title="General Info">
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="vf3_model_code"/>
+            <property name="vf3_module_name"/>
+            <property name="vf3_design_part"/>
+            <property name="vf3_saleable"/>
+            <property name="vf3_esp_mgl"/>
+            <property name="vf3_vf_mgl"/>
+            <property name="date_released"/>
+         </section>
+      </column>
+      <column>
+         <section title="Validation Information">
+            <tableProperty name="vf3_validation_info">
+               <property name = "vf3_validation_type"/>
+               <property name = "vf3_meet_targets"/>
+               <property name = "vf3_minor_insignificant"/>
+               <property name = "vf3_moderate"/>
+               <property name = "vf3_critical_major"/>
+            </tableProperty>
+         </section>
+         <section title="Note details">
+            <label textKey="0 - Meet targets:	No issues"/>
+            <label textKey="1 - Insignificant:	Not recognize for most customers or noticeable in unusual cases of vehicle usage"/>
+            <label textKey="2 - Minor:	Noticeable only by critical customers  (demanding repair at next service)"/>
+            <label textKey="3 - Moderate:	Noticeable by all customers  (demanding repair at next service)"/>
+            <label textKey="4 - Major:	Degradation of secondary function. Most customer will ask for immediate repair"/>
+            <label textKey="5 - Critical:	Impacts on safety or loss of product primary function (Walk Home Failures)"/>
+         </section>
+      </column>
+      <section title="ECR Information">
+         <tableProperty name="vf3_ecr_info">
+            <property name = "vf3_ecr_item"/>
+            <property name = "vf3_risk_assessment"/>
+            <property name = "vf3_comment"/>
+         </tableProperty>
+      </section>
+      <section title="DVPR Information">
+         <tableProperty name="vf3_dvpr_info">
+            <property name="vf3_dvpr_item"/>
+            <property name="vf3_target_met"/>
+            <property name="vf3_percentage_completed"/>
+            <property name="vf3_risk_assessment"/>
+            <property name= "vf3_comment"/>
+         </tableProperty>
+      </section>
+      <section title="SIL Information">
+         <tableProperty name="vf3_sil_info">
+            <property name="vf3_sil_number"/>
+            <property name="vf3_sil_name"/>
+            <property name="vf3_status"/>
+            <property name="vf3_severity"/>
+            <property name="vf3_validation"/>
+            <property name="vf3_risk_assessment"/>
+         </tableProperty>
+      </section>
+   </page>
+   <page titleKey="tc_xrt_ChangeProperties" title="Change Properties">
+      <column>
+         <property name="vf4_is_eng_review_req" />
+         <property name="vf4_is_finance_review_req" />
+         <property name="vf4_is_logistics_review_req" />
+         <property name="vf4_is_mbom_review"/>
+         <property name="vf4_is_purchase_review_req" />
+         <property name="vf4_is_sq_review_required" />
+      </column>
+   </page>
+   <page titleKey="tc_xrt_ReferenceItems">
+      <section titleKey="tc_xrt_ReferenceItems">
+         <label textKey="tc_xrt_ReferenceItemsInfo"/>
+         <objectSet source="CMReferences.WorkspaceObject,CMReferences.Dataset" defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+            <tableDisplay>
+               <property name="object_string"/>
+               <property name="object_name"/>
+               <property name="object_type"/>
+               <property name="release_status_list"/>
+               <property name="date_released"/>
+               <property name="owning_user"/>
+            </tableDisplay>
+            <treeDisplay>
+               <property name="object_string"/>
+               <property name="object_type"/>
+               <property name="release_status_list"/>
+               <property name="date_released"/>
+               <property name="owning_user"/>
+            </treeDisplay>
+            <thumbnailDisplay/>
+            <listDisplay/>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+               <parameter name="localSelection" value="true"/>
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+         </objectSet>
+      </section>
+      <inject type="dataset" src="RemoteLinksSummary"/>
+   </page>
+   <page titleKey="Process Info" title="Process">
+      <section titleKey="tc_xrt_WorkflowInfo" title="Active Process Information">
+         <customPanel java="com.teamcenter.rac.cm.views.WorkflowTasksView" />
+      </section>
+   </page>
+</rendering>
+

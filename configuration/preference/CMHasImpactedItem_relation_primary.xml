@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Relations">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CMHasImpactedItem_relation_primary" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the valid primary object types for the CMHasImpactedItem relation.All relation_business_object_relation_primary preferences are obsolete and are replaced by relation properties.
+Valid Values:
+Accepts one or more strings as values; each string must be a primary Teamcenter object.</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+        <value>ItemRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

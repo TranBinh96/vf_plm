@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE0MDOAnalysisRevision.REVISERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the revise stylesheet for MDO Analysis Revision objects.</preference_description>
+      <context name="Teamcenter">
+        <value>CAE0MDOAnalysisRevRevise</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

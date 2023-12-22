@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_BOM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_BOM_VALIDATION_GROUPS" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Groups to turn on validation mode</preference_description>
+      <context name="Teamcenter">
+        <value>VFe3x234S.Car Program.VINFAST</value>
+        <value>VF67_Rhd.Car Program.VINFAST</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: MERealPIFCreate.xml
+
+    Style sheet rendering for the creation of Mes0MERealPIFForm.
+=======================================================================
+-->
+
+<rendering>
+
+    <page title="RealPIF Information" titleKey="tc_xrt_RealPIFInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="mes0isOptional" />
+            <property name="mes0MinValue" />
+            <property name="mes0MaxValue" />
+            <property name="mes0DecimalPlaces" />
+            <property name="mes0DefaultValue" />
+        </section>
+    </page>
+</rendering>

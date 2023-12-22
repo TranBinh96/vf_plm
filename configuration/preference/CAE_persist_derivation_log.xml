@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_persist_derivation_log" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Provides an option to persist the derivative process log in the database and link it to the newly generated CAE structure or not persist the process log.
+Valid Values:
+true or false</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

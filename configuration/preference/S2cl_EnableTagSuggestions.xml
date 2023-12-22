@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="SocialCollaboration.AWC">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="S2cl_EnableTagSuggestions" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines a switch to turn on/off the tag suggestions while creating tags. 
+All the available tag names are cached when the user tries to create a tag for the first time. 
+As the number of tags grows over a period of time, caching the tag names might pose a performance bottleneck. 
+Set this preference to false to turn off caching.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

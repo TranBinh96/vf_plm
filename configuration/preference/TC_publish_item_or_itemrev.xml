@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_publish_item_or_itemrev" type="Integer" array="false" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Controls the publication behavior of item revision objects. When you select an item revision object to publish, by default, Teamcenter publishes only the item revision object. You can change this behavior to publish the parent item object of the item revision object or both the item revision object and its parent item object.
+Valid Values:
+1 - Teamcenter publishes only the item revision object.
+2 - Teamcenter publishes only the parent item of the item revision object.
+3 - Teamcenter publishes both the parent item and the item revision object.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

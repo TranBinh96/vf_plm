@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAlignmentCheckReportLocation" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines if a persisted EBOM-MBOM alignment report is stored in a dataset in the My Teamcenter Newstuff folder or if it is attached to the item revision of the top line of the target window.
+Valid Values:
+0 - The alignment check report is stored in the Newstuff folder.
+1 - The alignment check report is stored on the item revision of the top line of the target window.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

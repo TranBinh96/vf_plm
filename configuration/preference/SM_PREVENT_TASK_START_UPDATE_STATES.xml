@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_PREVENT_TASK_START_UPDATE_STATES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Prevents the changing of the start date of the tasks with the specified state. After you change this preference&apos;s value, you must log off and then log on for it to take effect.
+Valid Values:
+Accepts one or more of the following internal state values:
+in_progress
+complete
+closed
+aborted</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

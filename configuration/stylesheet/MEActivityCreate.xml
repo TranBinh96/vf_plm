@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: MEActivityCreate.xml
+
+    Style sheet rendering for MEActivity creation.
+=======================================================================
+-->
+
+<rendering>
+
+    <page title="MEActivity Information" titleKey="tc_xrt_MEActivityInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="start_time" />
+            <property name="time" />
+            <property name="object_desc" />
+        </section>
+    </page>
+
+</rendering>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Tc_allow_users_edit_pfdata_options" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether options for publishing part family member items and templates can be modified by general users in the Options dialog box, accessed from the Edit menu. Users with system administrator privileges can always edit these options from the Options dialog box, regardless of how this preference is set.
+Valid Values:
+TRUE - General users can modify options for publishing part family member items and templates using the Options dialog box.
+FALSE - General users cannot modify options for publishing part family member items and templates using the Options dialog box.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Display">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSM_set_default_rev_rule" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>When a product structure is opened in SM, the default rev rule specified by preference TC_config_rule_name is used to configure the product structure.
+If user overrides the revision rule, any new structure opened following the override, will be governed by the value set for preference PSM_set_default_rev_rule.
+Valid Values:
+* false: User defined (override) revision rule will be applied while opening structure. This is OOTB behavior.
+* true: Default revision rule set by preference TC_config_rule_name will be applied while opening structure.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

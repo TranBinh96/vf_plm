@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_IMPORT_UPDATE_WORKING_MATREV" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the behaviour of the Import material process when the material revision exists already and is in working state. Valid values are:
+* false: The material revision and its properties will not be modified. This is the default value.
+* true: The existing properties of the material revision will be updated and new properties in input would be created.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

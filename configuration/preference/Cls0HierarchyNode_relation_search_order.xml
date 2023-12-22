@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cls0HierarchyNode_relation_search_order" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the Relations and Properties (in order of preference) used to obtain the preview image source object for Classification Hierarchy nodes.
+Valid values are Relations and Properties of a Cls0HierarchyNode Business object, separated by a comma (,).</preference_description>
+      <context name="Teamcenter">
+        <value>Cls0NodeImage,cls0image,cls0icon</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

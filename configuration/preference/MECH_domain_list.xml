@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.Mechatronics">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECH_domain_list" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of Mechatronics Domains to which a Design Artifact object can belong.
+These Domain values are used in preferences named MECH_domain_types_&quot;value&quot; to define the list of Design Artifact types which belong to that Domain.</preference_description>
+      <context name="Teamcenter">
+        <value>Automation</value>
+        <value>Mechanical</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

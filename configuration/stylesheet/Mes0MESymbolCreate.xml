@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Mes0MESymbolCreate.xml
+
+    Style sheet rendering for the creation of Mes0MESymbol.
+=======================================================================
+-->
+
+<rendering>
+
+    <page title="Work Instructions Symbol" titleKey="tc_xrt_WorkInstructionsSymbolInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="dataset_id" />
+            <property name="dataset_rev" />
+        </section>
+    </page>
+
+</rendering>

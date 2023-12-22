@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+	<page title="Production">
+		<section title="Piece Cost">
+			<property name="vf4_piece_cost_curr"/>
+			<property name="vf4_piece_cost_value_status"/>
+			<property name="vf4_supplier_package_amount"/>
+			<property name="vf4_supplier_logisis_cost"/>
+			<property name="vf4_miscellaneous_cost"/>
+			<property name="vf4_prd_tax_percentage"/>
+			<property name="vf4_prd_tax_absolute"/>
+			<property name="vf4_total_cost"/>
+			<property name="vf4_quality_of_finance"/>
+		</section>
+		<separator/>
+		<section title="Investment">
+			<property name="vf4_tooling_invtest_curr"/>
+			<property name="vf4_tooling_invest_value"/>
+			<separator/>
+			<property name="vf4_refurbish_tooling_curr"/>
+			<property name="vf4_refurbish_tooling_value"/>
+			<separator/>
+			<property name="vf4_facility_invest_curr"/>
+			<property name="vf4_facility_invest_amount"/>
+			<separator/>
+			<property name="vf4Ednd_curr"/>
+			<property name="vf4EdndCost"/>
+			<separator/>
+		</section>
+		<section title="Proto"> 
+			<property name="vf4_proto_tooling_curr"/>
+			<property name="vf4_proto_tooling_value"/>
+			<separator/>
+			<property name="vf4_proto_piece_price_curr"/>
+			<property name="vf4_proto_piece_price"/>
+			<separator/>
+			<property name="vf4_industrialization_curr"/>
+			<property name="vf4_industrialization_cost"/>
+		</section>
+
+
+	</page>
+	<page title="PTO">
+		<section title="Piece Cost">
+			<property name="vf4_pto_piece_cost_curr"/>
+			<property name="vf4_pto_piece_cost_value"/>
+			<property name="vf4_pto_supplier_pkg_amount"/>
+			<property name="vf4_pto_supplier_logis_cost"/>
+			<property name="vf4_pto_manufacturing_cost"/>
+			<property name="vf4_pto_tax_percentage"/>
+			<property name="vf4_pto_tax_absolute"/>
+			<property name="vf4_pto_total_cost"/>
+			<property name="vf4_pto_quality_of_finance"/>
+		</section>
+	</page>
+	<page title="PP">
+		<section title="Piece Cost">
+			<property name="vf4_pp_piece_cost_curr"/>
+			<property name="vf4_pp_piece_cost_value"/>
+			<property name="vf4_pp_supplier_pkg_amount"/>
+			<property name="vf4_pp_supplier_logis_cost"/>
+			<property name="vf4_pp_manufacturing_cost"/>
+			<property name="vf4_pp_tax_percentage"/>
+			<property name="vf4_pp_tax_absolute"/>
+			<property name="vf4_pp_total_cost"/>
+			<property name="vf4_pp_quality_of_finance"/>
+		</section>
+	</page>
+	<page title="LS">
+		<section title="Piece Cost">
+			<property name="vf4_ls_piece_cost_curr"/>
+			<property name="vf4_ls_piece_cost_value"/>
+			<property name="vf4_ls_supplier_pkg_amount"/>
+			<property name="vf4_ls_supplier_logis_cost"/>
+			<property name="vf4_ls_manufacturing_cost"/>
+			<property name="vf4_ls_tax_percentage"/>
+			<property name="vf4_ls_tax_absolute"/>
+			<property name="vf4_ls_total_cost"/>
+			<property name="vf4_ls_quality_of_finance"/>
+		</section>
+	</page>
+	<page title="Information">
+		<section title="General Info">
+			<property name="owning_group" column="16"/>
+			<property name="last_mod_date" column="16"/>
+			<property name="last_mod_user" column="16"/>
+			<property name="checked_out_user" column="16"/>
+			<property name="vf4_cost_approval_date" column="16"/>
+			<property name="vf4_comment" column="16"/>
+		</section>
+	</page>
+</rendering>

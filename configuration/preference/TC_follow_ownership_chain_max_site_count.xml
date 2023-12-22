@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_follow_ownership_chain_max_site_count" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets a limit on the number of sites that are queried before a replica&apos;s owner is designated as unknown. When the site known as the owning site returns a new owning site, the report function queries the new owning site for the replica&apos;s state. This activity continues until the owning site returns the replica&apos;s state or the value set in the preference is reached. When the limit is reached the function checks the TC_on_demand_sync_broadcast_mode preference to determine whether to use broadcast mode or to designate the ownership as unknown.
+Valid Values:
+No limit - Specifies Multi-Site shall continue to query for the replicas owner until all known sites are queried.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

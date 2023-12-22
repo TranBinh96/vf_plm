@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Context Definition">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextIsInstallationAssemblyMethod" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the standard for identifying an installation assembly, that is, the assembly that defines the existence and purpose of a component in a product structure. Each appearance of a part can be defined in only one installation assembly at a time.The values specify the name of a Teamcenter Java API method for the DesignContextApplication class. The standard methods are listed below. Your enterprise can create custom Java methods for use with this preference.Siemens PLM Software recommends setting this preference.
+Valid Values:
+hasIRType - Returns the closest parent assembly up the tree that has a specific item type. If you specify this value, you must also specify the required item type using the PortalDesignContextIsInstallationAssemblyMethod.hasIRType.Type preference.
+has_bomline_prop - Returns the closes parent assembly up the tree that has a BOM line property.
+isPrecise - Returns the first assembly down the path, beginning at the product item that has a precise BOM View revision.
+transformsComponents - Returns the first assembly down the path, beginning at the product item that transforms components below it into product space.</preference_description>
+      <context name="Teamcenter">
+        <value>hasIRType</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

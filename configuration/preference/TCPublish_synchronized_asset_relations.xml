@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCPublish_synchronized_asset_relations" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Defines names of relation types that link parent publishing page datasets with other objects, where the links in Teamcenter must match those stored as asset properties via the createRelation path element attribute in the alias definition. Causes the relations to be created and removed in Teamcenter to match what is saved in the dataset.
+Valid Values:
+Relation type names.</preference_description>
+      <context name="Teamcenter">
+        <value>VisAssetPopulatedByEndobj</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWS_Default_Query_Operator" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the default operator for query expressions in the Active Workspace client.
+Possible values are &quot;AND&quot; or &quot;OR&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>AND</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_control_wildcard_exception" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>The wildcard exceptions specified here take precedence over TC_control_wildcard preference. This preference can be used to control the number of required characters before a wildcard for a specified class and attribute. Format of the preference value is: &lt;Class name&gt;.&lt;Real attribute name&gt;:&lt;Number&gt;. This is a site preference.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

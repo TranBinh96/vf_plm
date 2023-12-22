@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Gateway Foundation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="T4X_Property2IgnoreList4User" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Generic black-list for User</preference_description>
+      <context name="Teamcenter">
+        <value>CostValue_Relation</value>
+        <value>IMAN_based_on</value>
+        <value>TCCalendar_Rel_Type</value>
+        <value>assignable_projects</value>
+        <value>available_sites</value>
+        <value>def_acl</value>
+        <value>default_group</value>
+        <value>default_work_contexts</value>
+        <value>fnd0ResourcePoolList</value>
+        <value>fnd0export_sites</value>
+        <value>fnd0grace_days</value>
+        <value>fnd0grace_hours</value>
+        <value>fnd0home_site</value>
+        <value>fnd0objectId</value>
+        <value>fnd0remote_sites_deny_login</value>
+        <value>fnd0usage_days</value>
+        <value>fnd0used_hours</value>
+        <value>geography</value>
+        <value>gov_clearance</value>
+        <value>home_folder</value>
+        <value>inbox_delegate</value>
+        <value>ip_clearance</value>
+        <value>is_member_of_dba</value>
+        <value>is_out_of_office</value>
+        <value>is_valid_surrogate</value>
+        <value>last_login_time</value>
+        <value>license_level</value>
+        <value>local_volume</value>
+        <value>login_group</value>
+        <value>lsd</value>
+        <value>mailbox</value>
+        <value>my_home_folder</value>
+        <value>nationality</value>
+        <value>newstuff_folder</value>
+        <value>object_properties</value>
+        <value>os_username</value>
+        <value>owning_site</value>
+        <value>password</value>
+        <value>person</value>
+        <value>pid</value>
+        <value>priviledged_projects</value>
+        <value>remote_inboxes</value>
+        <value>status</value>
+        <value>subscribed_inboxes</value>
+        <value>subscribed_remote_inboxes</value>
+        <value>subscribed_resourcepools</value>
+        <value>surrogate_list</value>
+        <value>taskinbox</value>
+        <value>timestamp</value>
+        <value>ttc_date</value>
+        <value>unsubscribed_remote_inboxes</value>
+        <value>user_data_source</value>
+        <value>user_id</value>
+        <value>user_last_sync_date</value>
+        <value>user_name</value>
+        <value>user_projects</value>
+        <value>userid</value>
+        <value>userinbox</value>
+        <value>volume</value>
+        <value>work_contexts</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

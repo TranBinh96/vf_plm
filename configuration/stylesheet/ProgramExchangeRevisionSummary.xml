@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2014 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: ProgramExchangeRevisionSummary.xml
+
+New style sheet for displaying item Design Exchange Revision Summary 
+Rohit Pandey 2014-19-02
+===============================================================================
+-->
+<rendering>
+    <header>
+        <image source = "thumbnail"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "vm0Status" renderingHint = "label"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name = "object_name"/>
+                <property name = "sc0Instructions"/>
+                <property name = "object_desc"/>
+                <property name = "sc0SponsorEmail" renderingHint = "label"/>
+                <property name = "vm0PostDate"/>
+                <property name = "vm0CloseDate"/>
+                <property name = "vm0StatusReason"/>
+                <separator/>
+                <property name = "sc0PackageType"/>
+                <property name = "sc0IsAutoPost"/>
+                <property name = "sc0IsAutoPublish"/>
+                <separator/>
+                <property name = "sc0SRMPartition"/>
+                <property name = "sc0SRMTemplate"/>
+                <separator/>
+                <command titleKey = "tc_xrt_moreProperties" commandId = "com.teamcenter.rac.properties"/>
+            </section>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy"/>
+                <command actionKey = "reviseAction" commandId = "com.teamcenter.rac.revise"/>
+                <command actionKey = "saveAsAction" commandId = "org.eclipse.ui.file.saveAs"/>                
+            </section>
+        </column>
+    </page>
+    <page title = "Items" titleKey="tc_xrt_items">
+        <section titleKey = "tc_xrt_items" title = "Items">
+            <objectSet source = "sc0Task.ScheduleTask" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "ResourceAssignment"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Fnd0FastenerCreate.xml
+
+    Style sheet rendering for Fastener creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="Fastener" titleKey="tc_xrt_Fastener">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name" />
+            <property name="object_desc" />
+        </section>
+        <section title="Feature Version Information" titleKey="tc_xrt_FeatureVersionInformation">
+            <property name="revision:IMAN_master_form_rev:fnd0MajorFeatureVersion"/>
+            <property name="revision:IMAN_master_form_rev:fnd0MinorFeatureVersion"/>
+        </section>
+        <section title="Fastener Attribute Form" titleKey="tc_xrt_FastenerAttributeForm">
+            <property name="revision:fnd0TC_Feature_Form_Relation:fnd0FastenerType"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:fnd0FitTypeClass" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:fnd0HoleType"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:fnd0HoleDia" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:fnd0HoleDiaMin" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:fnd0HoleDiaMax"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:fnd0LengthUnits"  />
+        </section>
+    </page>
+</rendering>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_UI_SmartFolder_JoinOperator" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Determines the criteria to apply when the filters on data-driven folders are evaluated.
+Valid values are:
+* AND: Applies AND criteria on the filters on data-driven folders.
+* OR:  Applies OR criteria on the filters on data-driven folders. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>OR</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

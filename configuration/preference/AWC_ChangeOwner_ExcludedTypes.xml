@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_ChangeOwner_ExcludedTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of change owner excluded types.</preference_description>
+      <context name="Teamcenter">
+        <value>Schedule</value>
+        <value>ScheduleTask</value>
+        <value>SchDeliverable</value>
+        <value>SchTaskDeliverable</value>
+        <value>ScheduleMember</value>
+        <value>Fnd0ProxyTask</value>
+        <value>BillRate</value>
+        <value>ResourceAssignment</value>
+        <value>TaskDependency</value>
+        <value>Fnd0Qualification</value>
+        <value>Fnd0ReqdQual</value>
+        <value>SchedulingFixedCost</value>
+        <value>Fnd0ScheduleAudit</value>
+        <value>CostValue</value>
+        <value>S2clCommentary</value>
+        <value>S2clQuestion</value>
+        <value>S2clAnswer</value>
+        <value>S2clScalarRating</value>
+        <value>S2clToggleRating</value>
+        <value>EPMTask</value>
+        <value>Att0MeasurableAttribute</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

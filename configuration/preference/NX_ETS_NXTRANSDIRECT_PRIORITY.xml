@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="NX_ETS_NXTRANSDIRECT_PRIORITY" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the the asynchronous JT translation request priority for piece parts and assemblies.
+This option is applicable when the asynchronous JT translation using nxtransdirect translator is enabled.
+The pattern {3,1} specifies priority-3 for piece parts and priority-1 for assemblies where 3-High, 2-Medium, 1-Low.</preference_description>
+      <context name="Teamcenter">
+        <value>{3,1}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

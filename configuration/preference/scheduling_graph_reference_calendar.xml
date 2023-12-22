@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="scheduling_graph_reference_calendar" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the calendar type to use for domain (x = days) and range (y = availability/work allocation) axes in the resource graph.
+Valid Values:
+resource_calendar_type - Specifies the domain for the resource calendar.
+system_calendar_type - Specifies the domain for the system calendar.</preference_description>
+      <context name="Teamcenter">
+        <value>resource_calendar_type</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

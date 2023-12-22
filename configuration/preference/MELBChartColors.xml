@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MELBChartColors" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the colors used in the line balancing chart.
+Valid Values:
+Type - Specifies the object to be colored in the defined fashion. This is a mandatory keyword. Valid values are NormalSpecifies the color scheme for normal objects.SelectionSpecifies the color scheme for selected objects.HighlightSpecifies the color scheme for highlighted objects, the negative values of the TimesPerBar class, and the tooltip entries marking a subgroup.LimitViolationSpecifies the color scheme for objects above the capacity line.EmphasizedSpecifies the color scheme for operations with probability strictly lower than 100%.EmphasizedLimitViolationSpecifies the color scheme for operations with probability strictly lower than 100% and above the capacity line.DimmedSpecifies the color scheme for separation lines for subgroup entries.GridSpecifies the color scheme for grid lines.LimitLineSpecifies the color scheme for the capacity line.
+Class - Specifies the class type that is colored for color types. This keyword is mandatory. Valid values are OperationSpecifies boxes displayed in the bar area representing processes and operations.StationSpecifies boxes displayed in the axis area representing stations.CycleTimeLinesSpecifies the horizontal lines representing the multiple of the cycle time.CapacityLineSpecifies the line that shows the capacity of each station.AverageLineSpecifies the horizontal line that shows the height of the average work content over the different product variants.TimesPerBarSpecifies the time values shown on the top of each bar.OverlaySpecifies the box showing the maximum and minimum work contents of all product variants.TooltipSpecifies the tooltip area, including the fill colors and color of text.TooltipSeparatorSpecifies the lines between tooltip entries.Teamcenter uses the Operation value as default.
+Foreground and Background - Specifies the fill colors of boxes representing operations and stations. Valid values consist of red, green, and blue color values separated by a comma. This field is ignored for the Grid and LimitLine color types and can be left blank.
+LineColor - Specifies the color of lines for Grid and LimitLine color types. For all others, this value specifies the border color. Valid values consist of red, green, and blue color values separated by a comma.
+TextColor - Specifies the color of text. Valid values consist of red, green, and blue color values separated by a comma.</preference_description>
+      <context name="Teamcenter">
+        <value>Type:Normal;Class:Operation;Foreground:230, 234, 221;Background:101, 129, 46;LineColor:64, 86, 21;</value>
+        <value>Type:Selection;Class:Operation;Foreground:255, 255, 255;Background:57, 99, 165;LineColor:16, 78, 139;</value>
+        <value>Type:Highlight;Class:Operation;Foreground:255, 255, 0;Background:255, 128, 64;LineColor:16, 78, 139;</value>
+        <value>Type:LimitViolation;Class:Operation;Foreground:241, 220, 220;Background:168, 38, 40;LineColor:112, 15, 17;</value>
+        <value>Type:Emphasized;Class:Operation;Foreground:230, 234, 221;Background:150, 180, 40;LineColor:64, 86, 21;</value>
+        <value>Type:EmphasizedLimitViolation;Class:Operation;Foreground:241, 220, 220;Background:210, 76, 80;LineColor:112, 15, 17;</value>
+        <value>Type:Normal;Class:Station;Foreground:255, 255, 255;Background:255, 255, 255;TextColor:0, 0, 255;LineColor:0, 0, 255;</value>
+        <value>Type:Selection;Class:Station;Foreground:49, 106, 197;Background:49, 106, 197;TextColor:255, 255, 255;LineColor:49, 106, 197;</value>
+        <value>Type:Normal;Class:CycleTimeLines;LineColor:192, 192, 192;</value>
+        <value>Type:Normal;Class:CapacityLine;LineColor:0, 0, 0;</value>
+        <value>Type:Normal;Class:AverageLine;LineColor:0, 128, 255;</value>
+        <value>Type:Normal;Class:TimesPerBar;TextColor:0, 0, 0;</value>
+        <value>Type:Highlight;Class:TimesPerBar;TextColor:255, 0, 0;</value>
+        <value>Type:Normal;Class:Overlay;Foreground:0, 128, 255;Background:0, 128, 255;LineColor:0, 128, 255;</value>
+        <value>Type:Normal;Class:Tooltip;Foreground:198, 226, 255;Background:185, 211, 238;TextColor:0, 0, 255;</value>
+        <value>Type:Highlight;Class:Tooltip;Foreground:198, 226, 255;Background:185, 211, 238;TextColor:14, 16, 114;</value>
+        <value>Type:Normal;Class:TooltipSeparator;LineColor:0, 0, 255;</value>
+        <value>Type:Highlight;Class:TooltipSeparator;LineColor:147, 147, 255;</value>
+        <value>Type:Dimmed;Class:TooltipSeparator;LineColor:171, 203, 235;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

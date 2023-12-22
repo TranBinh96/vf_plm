@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEPreciseColorPref" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the display color for precise BOM view revisions.
+Valid Values:
+Single string as a value; must be a valid color defined by your system at the X-Window System level.</preference_description>
+      <context name="Teamcenter">
+        <value>#50b080</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

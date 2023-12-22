@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMBOMAssessmentRepairDefaultSearchCriteria" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>List of criteria values that will be used by searching repair candidates in the MBOM Assessment Repair View. Each criteria value describes a BOMLine property which will be taken into account by the search. It is a comma separated string. For one criteria value string, the format is defined as follows: 
+Part 1: either Mandatory or Optional
+Part 2: internal BOMLine property name 
+Part 3: operator, currently only &quot;=&quot; is supported.
+Part 4: value type, currently only &quot;string&quot; type is supported.</preference_description>
+      <context name="Teamcenter">
+        <value>Mandatory,bl_item_item_id,=,string</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

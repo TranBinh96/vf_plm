@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ProjectWorkAreaTemplate" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the cloning rules to be used when creating a WorkArea from a CollaborationContext which includes a production plant BOP structure and an original WorkArea.</preference_description>
+      <context name="Teamcenter">
+        <value>*:*:Attribute.items_tag:Clone</value>
+        <value>*:*:Attribute.structure_revisions:Clone</value>
+        <value>*:*:Attribute.bom_view:Clone</value>
+        <value>*:*:Attribute.parent_item:Clone</value>
+        <value>*:*:Attribute.variant_expression_block:Clone</value>
+        <value>*:*:Relation.IMAN_Rendering:Clone</value>
+        <value>*:*:Relation.Mfg0MELogicalDesignatorRel:Clone</value>
+        <value>*:*:Relation.IMAN_specification:Clone</value>
+        <value>*:*:Relation.IMAN_reference:Clone</value>
+        <value>*:*:Relation.IMAN_manifestation:Clone</value>
+        <value>*:*:Relation.IMAN_MEView:Clone</value>
+        <value>*:*:Relation.IMAN_classification:Clone</value>
+        <value>*:class.MEActivity:Relation.IMAN_MEFolder:Clone</value>
+        <value>class.MEActivity:*:Attribute.contents:Clone</value>
+        <value>class.Folder:*:Attribute.contents:Reference</value>
+        <value>*:*:Relation.METimeAnalysisRelation:Clone</value>
+        <value>*:*:Relation.Mfg0TCContextFeatureFormRel:Clone</value>
+        <value>*:*:Relation.Mfg0METraceOriginRel:EBOPReference</value>
+        <value>*:*:Relation.Mfg0MEProjectOriginRel:EBOPCreate</value>
+        <value>*:type.Mfg0ConveyorRevision:*:Reference</value>
+        <value>*:type.ItemRevision:*:Reference</value>
+        <value>*:type.Mfg0MEFactoryToolRevision:*:Reference</value>
+        <value>*:type.Mfg0MEFixtureRootRevision:*:Reference</value>
+        <value>*:type.Mfg0MEEquipmentRevision:*:Reference</value>
+        <value>*:type.Mfg0MERobotRevision:*:Reference</value>
+        <value>*:type.Mfg0MEResourceRevision:*:Reference</value>
+        <value>*:*:OccType.Null:Clone</value>
+        <value>*:*:OccType.*:Clone</value>
+        <value>*:type.ProcessSimulate3DRep:*:Clone</value>
+        <value>*:type.ProcessSimulateCompDetails:*:Clone</value>
+        <value>*:type.ProcessSimulateHumanModel:*:Clone</value>
+        <value>*:type.ProcessSimulateImage:*:Clone</value>
+        <value>*:type.ProcessSimulateMovie:*:Clone</value>
+        <value>*:type.ProcessSimulatePLCDetails:*:Clone</value>
+        <value>*:type.ProcessSimulatePLCInfo:*:Clone</value>
+        <value>*:type.ProcessSimulatePLCModuleInf:*:Clone</value>
+        <value>*:type.ProcessSimulatePLCResConTab:*:Clone</value>
+        <value>*:type.ProcessSimulatePLCResPortTa:*:Clone</value>
+        <value>*:type.ProcessSimulatePLCRobotPrgm:*:Clone</value>
+        <value>*:type.ProcessSimulatePLCSenDtVlPr:*:Clone</value>
+        <value>*:type.ProcessSimulatePLCSignalTab:*:Clone</value>
+        <value>*:type.ProcessSimulatePLCToolInfo:*:Clone</value>
+        <value>*:type.ProcessSimulateSceneDetails:*:Clone</value>
+        <value>*:type.ProcessSimulateScenePositions:*:Clone</value>
+        <value>*:type.ProcessSimulateSimDetails:*:Clone</value>
+        <value>*:type.ProcessSimulateSweptVolume:*:Clone</value>
+        <value>*:type.Kinematics:*:Clone</value>
+        <value>*:type.MEOpTimeAnalysis:*:Clone</value>
+        <value>*:type.TMX3DRep:*:Clone</value>
+        <value>*:type.Cps0ProjectionInfo:*:Clone</value>
+        <value>*:type.ProcessSimulateActivity:*:Clone</value>
+        <value>*:type.Cps0ProcessSimulateRobotInfo:*:Clone</value>
+        <value>*:type.Cps0ProcessSimulateMotionParams:*:Clone</value>
+        <value>*:type.Cps0ProcessSimulateHumanLoadData:*:Clone</value>
+        <value>*:type.ProcessSimulatePLCLB:*:Clone</value>
+        <value>*:type.MEPrPlantRevision:OccType.*:Clone</value>
+        <value>*:type.MEPrStationRevision:OccType.*:Clone</value>
+        <value>*:type.MEPrZoneRevision:OccType.*:Clone</value>
+        <value>*:type.MEZoneRevision:OccType.*:Clone</value>
+        <value>*:type.MECompResourceRevision:OccType.*:Clone</value>
+        <value>*:type.MEProcResourceRevision:OccType.*:Clone</value>
+        <value>*:type.MECellRevision:OccType.*:Clone</value>
+        <value>*:type.MEPrLineRevision:OccType.*:Clone</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

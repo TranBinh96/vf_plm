@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_task_complete" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the default selection some key components, in order to enable single-click in the &quot;Perform&quot; action for Tasks in the Workflow application in the rich client.
+The preference applies only to &quot;Do&quot; Tasks and &quot;select-signoff-team&quot; for Review and Route Tasks.
+If the value is true:
+- &quot;Do&quot; Tasks: the &quot;Complete&quot; value is selected by default in the &quot;Done&quot; radio buttons.
+- &quot;select-signoff-team&quot; for Review and Route Tasks: the &quot;Ad-hoc done&quot; checkbox is selected by default.
+
+If the value is false, no value is pre-selected for either Tasks.
+
+IMPORTANT: Setting the value to true also sets the associated Task result value (task_result property) to &quot;complete&quot; by default.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

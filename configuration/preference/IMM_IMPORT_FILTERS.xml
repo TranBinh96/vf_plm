@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_IMPORT_FILTERS" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="true">
+      <preference_description>Defines the entries for each material import transformation in the following format
+ImportKey;SourceFileExtension;TranslatorInformation;DisplayName
+* ImportKey: The import key
+* SourceFileExtension: extension of the files
+* TranslatorInformation: valid values are CLASS:classkey for Java or DATASET:datasetName
+* DisplayName: Display name for the import</preference_description>
+      <context name="Teamcenter">
+        <value>Excel;*.xlsx;CLASS:TRANSLATORS.EXCEL2MATML;Excel</value>
+        <value>Lsdyna;*.k;CLASS:TRANSLATORS.LSDYNA2MATML;Lsdyna</value>
+        <value>ANSYS;*.xml;DATASET:IMM_Mapping_Ansys2Matml;ANSYS</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

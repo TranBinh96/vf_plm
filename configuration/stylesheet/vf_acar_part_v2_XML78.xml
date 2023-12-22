@@ -1,0 +1,92 @@
+ <Master_Data>
+ <mat:MT_MATERIAL_PLM_REQ>
+         <DATA>
+            <data erp_tag="MATERIALNUMBER" plm_tag="item_id" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="OLDMATERIALNUMBER" plm_tag="" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="PART_TYPE" plm_tag="" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="REVISIONNUMBER" plm_tag="item_revision_id" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="SAP_PLANT" plm_tag="vf8_Plantcode" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="DESCRIPTION" plm_tag="object_name" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="DESCRIPTIONVIETNAMESE" plm_tag="vf3_vietnamese_desc_s" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="UOM" plm_tag="uom_tag" type="String" relation="items_tag,Vf8_AcarPart" mandatory="Yes"></data>
+			<data erp_tag="NETWEIGHT" plm_tag="vf8_NetWeight" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="GROSSWEIGHT" plm_tag="vf8_NetWeight" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="MAKEBUY" plm_tag="vf8_Make_Buy" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="MATERIALTYPE" plm_tag="vf8_MaterialType" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="PPAP" plm_tag="" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="FUNCTIONALCLASS" plm_tag="vf3_func_code" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="APPROVALCLASS" plm_tag="vf3_approval_code" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="MCN" plm_tag="" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="SEQUENCE" plm_tag="" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="TRACEABLEPART" plm_tag="Vf8_TraceablePartIndicator" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="ACTION" plm_tag="" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="GM_PART" plm_tag="vf8_GmNumber" type="String" relation="items_tag,Vf8_AcarPart" mandatory="No"></data>
+			<data erp_tag="BRDCODE" plm_tag="vf8_Broadcast" type="String" relation="" mandatory="No"></data>
+		</DATA>
+</mat:MT_MATERIAL_PLM_REQ>
+<bom:MT_BOM_PLM_REQ>
+	<DATA>
+		<data erp_tag="PLANTCODE" plm_tag="vf8_Plantcode" type="String" objectType="" relation="items_tag,Vf8_AcarPart:Vf8_PlantFormRel,vf8_PlantForm" mandatory="Yes"></data>
+		<data erp_tag="PARENTPART" plm_tag="bl_item_item_id" type="String" objectType="" relation="Parent" mandatory="Yes"></data>
+		<data erp_tag="BOMLINEID" plm_tag="VF4_bomline_id" type="String" objectType="" relation="" mandatory="Yes"></data>
+		<data erp_tag="CHILDPART" plm_tag="bl_item_item_id" type="String" objectType="" relation="" mandatory="Yes"></data>
+		<data erp_tag="MCN" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		<data erp_tag="QUANTITY" plm_tag="bl_quantity" type="String" objectType="" relation="" mandatory="Yes"></data>
+		<data erp_tag="SEQUENCE" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		<data erp_tag="ACTION" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+     </DATA>
+</bom:MT_BOM_PLM_REQ>
+<ass:MT_ACA_PLM_SEND>
+         <DATA>
+		 <data erp_tag="SAPPLANT" plm_tag="vf8_Plantcode" type="String" objectType="" relation="items_tag,Vf8_AcarPart:Vf8_PlantFormRel,vf8_PlantForm" mandatory="Yes"></data>
+		 <data erp_tag="TOPLEVELPART" plm_tag="bl_item_item_id" type="String" objectType="BOMLINE" relation="Parent" mandatory="Yes"></data>
+		 <data erp_tag="HEADERPART" plm_tag="bl_item_item_id" type="String" objectType="BOMLINE" relation="Parent" mandatory="Yes"></data>
+		 <data erp_tag="BOMLINEID" plm_tag="VF4_bomline_id" type="String" objectType="BOMLINE" relation="" mandatory="Yes"></data>
+		 <data erp_tag="WORKSTATION" plm_tag="bl_item_item_id" type="String" objectType="Process Station Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="LINESUPPLYMETHOD" plm_tag="vf5_line_supply_method" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="BOPID" plm_tag="bl_item_item_id" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="MESBOPINDICATOR" plm_tag="vf4_operation_type" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="SEQUENCE" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="ACTION" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="REVISION" plm_tag="bl_rev_item_revision_id" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+         </DATA>
+</ass:MT_ACA_PLM_SEND>
+<veh:MT_PLM_VEHICLEBOM_SEND>
+         <DATA>
+		 <data erp_tag="PARTNO" plm_tag="bl_item_item_id" objectType="BOMLINE" relation="BOMLINE" mandatory="YES"></data>
+		 <data erp_tag="PLATFORM" plm_tag="PLATFORM" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="MODELYEAR" plm_tag="MODELYEAR" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="PLANT" plm_tag="PLANT" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="MAINGROUP" plm_tag="MAINGROUP" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="SUBGROUP" plm_tag="bl_item_item_id" objectType="BOMLINE" relation="PARENT" mandatory="YES"></data>
+		 <data erp_tag="GROUPDESC" plm_tag="MAINGROUP" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="BOMLINEID" plm_tag="VF4_bomline_id" objectType="BOMLINE" relation="BOMLINE" mandatory="YES"></data>
+		 <data erp_tag="QUANTITY" plm_tag="bl_quantity" objectType="BOMLINE" relation="BOMLINE" mandatory="YES"></data>
+		 <data erp_tag="OPTION" plm_tag="bl_formula" objectType="BOMLINE" relation="BOMLINE" mandatory="NO"></data>
+		 <data erp_tag="MCN" plm_tag="MCN" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="SEQUENCE" plm_tag="AUTOMATIC" objectType="" relation="AUTOMATIC" mandatory="YES"></data>
+		 <data erp_tag="ACTION" plm_tag="AUTOMATIC" objectType="" relation="AUTOMATIC" mandatory="YES"></data>
+         </DATA>
+ </veh:MT_PLM_VEHICLEBOM_SEND>
+ <veh:MT_VCARequest>
+         <DATA>
+		 <data erp_tag="PLATFORM" plm_tag="PLATFORM" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="MODELYEAR" plm_tag="MODELYEAR" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="SAPPLANT" plm_tag="PLANT" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="MAINGROUP" plm_tag="MAINGROUP" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="SUBGROUP" plm_tag="SUBGROUP" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="GROUPDESCRIPTION" plm_tag="GROUPDESC" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="BOMLINEID" plm_tag="BOMLINEID" objectType="" relation="HASHMAP" mandatory="YES"></data>
+		 <data erp_tag="WORKSTATION" plm_tag="bl_rev_object_name" objectType="Process Station Revision" relation="PARENT" mandatory="YES"></data>
+		 <data erp_tag="LINESUPPLYMETHOD" plm_tag="vf5_line_supply_method" objectType="Operation Revision" relation="BOMLINE" mandatory="YES"></data>
+		 <data erp_tag="BOPID" plm_tag="bl_rev_item_id" objectType="Operation Revision" relation="BOMLINE" mandatory="YES"></data>
+		 <data erp_tag="SELECTIONSTRING" plm_tag="bl_formula" objectType="Operation Revision" relation="BOMLINE" mandatory="NO"></data>
+		 <data erp_tag="MESBOPINDICATOR" plm_tag="bl_item_vf4_operation_type" objectType="Operation Revision" relation="BOMLINE" mandatory="YES"></data>
+		 <data erp_tag="SEQUENCE" plm_tag="AUTOMATIC" objectType="" relation="AUTOMATIC" mandatory="YES"></data>
+		 <data erp_tag="ACTION" plm_tag="AUTOMATIC" objectType="" relation="AUTOMATIC" mandatory="YES"></data>
+		 <data erp_tag="FAMILY_ADDR" plm_tag="Vf8_FamilyAddress" objectType="" relation="BOMLINE" mandatory="NO"></data>
+		 <data erp_tag="L_R_HAND" plm_tag="Vf8_Hand" objectType="" relation="BOMLINE" mandatory="NO"></data>
+		 <data erp_tag="REVISION" plm_tag="bl_rev_item_revision_id" objectType="Operation Revision" relation="BOMLINE" mandatory="YES"></data>
+		</DATA>
+      </veh:MT_VCARequest>
+  </Master_Data>

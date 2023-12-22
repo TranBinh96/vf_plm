@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAssignCustomizedOccurrenceType" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the Occurrence Type used by default for Paste, Assign and Drag-and-Drop operations.
+The syntax is &quot;[targetType].[sourceType]:[occurrenceType]&quot;
+The targetType (to) and sourceType (from) fields can be set to &quot;All&quot; to determine the default for all types that are not specifically listed in the values of this preference.
+The occurrenceType field can be set to &quot;Empty&quot; to enforce that by default no occurrence type is used.</preference_description>
+      <context name="Teamcenter">
+        <value>MEProcess.WeldPoint:MEWeldPoint</value>
+        <value>MEProcess.DatumPoint:MEAssign</value>
+        <value>MEProcess.ArcWeld:MEAssign</value>
+        <value>MEProcess.Fnd0Fastener:MEAssign</value>
+        <value>MEProcess.Fnd0FasnGroup:MEAssign</value>
+        <value>MEProcess.Fnd0Fastener:MEAssign</value>
+        <value>MEProcess.Fnd0FasnGroup:MEAssign</value>
+        <value>MEProcess.Fnd0Fastener:MEAssign</value>
+        <value>MEProcess.Fnd0FasnGroup:MEAssign</value>
+        <value>MEProcess.Fnd0Fastener:MEAssign</value>
+        <value>MEProcess.Fnd0FasnGroup:MEAssign</value>
+        <value>MEProcess.Fnd0Fastener:MEAssign</value>
+        <value>MEProcess.Fnd0FasnGroup:MEAssign</value>
+        <value>MEProcess.Fnd0Fastener:MEAssign</value>
+        <value>MEProcess.Fnd0FasnGroup:MEAssign</value>
+        <value>MEProcess.Fnd0Fastener:MEAssign</value>
+        <value>MEProcess.Fnd0FasnGroup:MEAssign</value>
+        <value>MEProcess.Fnd0Fastener:MEAssign</value>
+        <value>MEProcess.Fnd0FasnGroup:MEAssign</value>
+        <value>MEOP.WeldPoint:MEWeldPoint</value>
+        <value>MEOP.DatumPoint:MEAssign</value>
+        <value>MEOP.ArcWeld:MEAssign</value>
+        <value>MEOP.Fnd0Fastener:MEAssign</value>
+        <value>MEOP.Fnd0FasnGroup:MEAssign</value>
+        <value>MEOP.Fnd0Fastener:MEAssign</value>
+        <value>MEOP.Fnd0FasnGroup:MEAssign</value>
+        <value>MEOP.Fnd0Fastener:MEAssign</value>
+        <value>MEOP.Fnd0FasnGroup:MEAssign</value>
+        <value>MEOP.Fnd0Fastener:MEAssign</value>
+        <value>MEOP.Fnd0FasnGroup:MEAssign</value>
+        <value>MEOP.Fnd0Fastener:MEAssign</value>
+        <value>MEOP.Fnd0FasnGroup:MEAssign</value>
+        <value>MEOP.Fnd0Fastener:MEAssign</value>
+        <value>MEOP.Fnd0FasnGroup:MEAssign</value>
+        <value>MEOP.Fnd0Fastener:MEAssign</value>
+        <value>MEOP.Fnd0FasnGroup:MEAssign</value>
+        <value>MEOP.Fnd0Fastener:MEAssign</value>
+        <value>MEOP.Fnd0FasnGroup:MEAssign</value>
+        <value>MENCMachining.WeldPoint:MEConsumed</value>
+        <value>MENCMachining.DatumPoint:MEConsumed</value>
+        <value>MEProcess.MEWorkarea:MEWorkArea</value>
+        <value>MEOP.MEWorkarea:MEWorkArea</value>
+        <value>MENCMachining.MEWorkarea:MEWorkArea</value>
+        <value>MEProcess.Mfg0MEResource:MEResource</value>
+        <value>MEProcess.Mfg0MEEquipment:METool</value>
+        <value>MEOP.Mfg0MEResource:MEResource</value>
+        <value>MEOP.Mfg0MEEquipment:METool</value>
+        <value>MEProcess.Item:MEConsumed</value>
+        <value>MEOP.Item:MEConsumed</value>
+        <value>MEProcess.AppearanceGroup:MEWorkpiece</value>
+        <value>MEOP.AppearanceGroup:MEWorkpiece</value>
+        <value>MEProcess.All:MEConsumed</value>
+        <value>MEOP.All:MEConsumed</value>
+        <value>MEProcess.MEProcess:Empty</value>
+        <value>MEProcess.MEOP:Empty</value>
+        <value>Mfg0MEPlantBOP.Item:METarget</value>
+        <value>Mfg0MEStudy.Mfg0MEResource:MEResource</value>
+        <value>Mfg0MEStudy.Item:MEConsumed</value>
+        <value>All.All:Empty</value>
+        <value>Lgt0PartFamProc.Item:MELogisticAssigned</value>
+        <value>Lgt0SupplyChain.Lgt0Vehicle:MELogisticAssigned</value>
+        <value>Lgt0LogisticPr.Lgt0Vehicle:MELogisticAssigned</value>
+        <value>Lgt0SupplyChain.Vendor:MELogisticAssigned</value>
+        <value>Lgt0InbdSupChain.Lgt0Container:MELogisticAssigned</value>
+        <value>Lgt0InplSupChain.Lgt0Container:MEContainerRequirement</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

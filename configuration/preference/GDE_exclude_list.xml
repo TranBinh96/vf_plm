@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.Mechatronics">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="GDE_exclude_list" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the hierarchical object types and subtypes the system excludes when generating a list of types to display in the Item Element creation dialog box. Any valid Teamcenter mechatronics process management general design elements (GDE) type defined in this preference will not display in the drop-down list of possible types to create.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid, domain-specific Teamcenter GDE type.</preference_description>
+      <context name="Teamcenter">
+        <value>Interfaces</value>
+        <value>ProcessVariable</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

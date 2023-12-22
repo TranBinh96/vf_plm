@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA_saved_queries_filter" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>If this option is set, TCAA will filter the list of available System Defined Searches.
+Possible values (multiple values): each value corresponds to a pattern string used filter the System Defined Searches. 
+Example:
+item*
+admin*</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

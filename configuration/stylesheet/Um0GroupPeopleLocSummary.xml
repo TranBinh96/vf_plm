@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2014 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Awp0GroupSummary.xml
+
+Default style sheet for displaying Group Object Summary in Active Workspace.
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source = "type"/>
+    </header>
+    <page>
+        <column>
+            <section titleKey="tc_xrt_properties">
+                <property name="name" />
+                <property name="description"/>
+                <property name="security"/>
+                <property name="parent"/>
+                <property name="privilege"/>
+                <property name="volume"/>
+                <property name="local_volume"/>
+            </section>
+           </column>
+           <column>
+            <section titleKey="tc_xrt_Roles">
+                <objectSet source="roles.Role" defaultdisplay="tableDisplay" sortby="role_name" sortdirection="ascending">
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.siemens.splm.client.usermanagement.addAdminObjects" renderingHint = "commandbutton"/>
+                    <tableDisplay>
+                        <property name="role_name" modifiable="false" />
+                        <property name="description" modifiable="false" />
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                </objectSet>
+        </section>
+        </column>
+    </page>
+</rendering>

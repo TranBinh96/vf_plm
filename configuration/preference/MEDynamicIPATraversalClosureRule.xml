@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEDynamicIPATraversalClosureRule" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the closure rule to be used for traversal of the Process Structure, to calculate dynamic In-Process Assembly. 
+The default value is &quot;DynamicIPAProcessOnlyWithPA&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>DynamicIPAProcessOnlyWithPA</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

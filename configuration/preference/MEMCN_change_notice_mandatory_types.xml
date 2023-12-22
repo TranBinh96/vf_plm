@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMCN_change_notice_mandatory_types" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Defines the list of BOMWindow&apos;s topline Item types for which a ChangeNoticeRevision is allowed to track changes. Optionally, the topline Item types can be qualified with a Release Status name.
+Changing the preference value requires a server restart in order to be taken into consideration.
+
+Valid values are in the format &quot;&lt;Item_type&gt;&lt;separator&gt;&lt;Release_Status&gt;&quot;, where the separator must be the value specified by the preference &quot;TcServices_field_separator&quot;.
+For example:
+* &quot;Mfg0MEPlantBOP&quot; tracks changes in Plant Bill of Processes (Plant BOPs) by forcing a Change Notice to be applied.
+* &quot;MEProcess;Pending&quot; tracks changes in Bill of Process (BOP) Windows if the configured root revision has &quot;Pending&quot; Release Status by forcing a Change Notice to be applied.
+* If the entries are &quot;MEProcess&quot; and &quot;MEProcess;Pending&quot;, the MEProcess is considered mandatory (the entry without any Release Status always wins).
+* To specify multiple Release Statuses on one Item type, the 2 entries would be &quot;MEProcess;Pending&quot; and &quot;MEProcess;TCM Released&quot;.
+There is no default value.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

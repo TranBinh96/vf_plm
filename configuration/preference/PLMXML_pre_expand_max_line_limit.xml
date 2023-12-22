@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PLMXML_pre_expand_max_line_limit" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the maximum number of lines in a structure that are to be expanded prior to running the PLM XML expand operation. Structures that are a target for export can be fully expanded prior to their export step, which provides a performance improvement.
+However, there are memory concerns with large structures whereby a full expansion may take more than the available memory of the system. This preference sets a limit.
+Valid Values:
+0 - No lines are pre-expanded.
+-1 - There is no limit on the number of lines to pre-expand.</preference_description>
+      <context name="Teamcenter">
+        <value>-1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_import_view_drop_attributes_not_in_class" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the PLM XML import of views to continue when the operation encounters an attribute not contained in the parent class.
+Valid Values:
+True - The attribute is ignored and the import continues.
+False - Teamcenter aborts the import upon encountering an attribute that is not contained in the parent class.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

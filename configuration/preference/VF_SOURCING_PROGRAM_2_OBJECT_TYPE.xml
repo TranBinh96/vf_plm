@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VF_SOURCING_PROGRAM_2_OBJECT_TYPE" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>Mapping sourcing program to sourcing object type</preference_description>
+      <context name="Teamcenter">
+        <value>S&amp;S;VF4_line_item</value>
+        <value>V8;VF4_line_item</value>
+        <!-- EBUS -->
+        <value>EBUS;VF4_ebus_lineItm</value>
+        <value>EBUS12;VF4_ebus_lineItm</value>
+        <!-- Car -->
+        <value>VF3;VF4_Car_LineItm</value>
+        <value>VFe32;VF4_Car_LineItm</value>
+        <value>VFe33;VF4_Car_LineItm</value>
+        <value>VF31;VF4_Car_LineItm</value>
+        <value>VFe34NG;VF4_Car_LineItm</value>
+        <value>VF32;VF4_Car_LineItm</value>
+        <value>VF33;VF4_Car_LineItm</value>
+        <!-- Emotor -->
+        <value>Emotor;VF4_Car_LineItm</value>
+        <value>Emotor Scooter;VF4_ES_LineItm</value>
+        <!-- Scooter -->
+        <value>Escooter;VF4_ES_LineItm</value>
+        <value>VK CITY;VF4_ES_LineItm</value>
+        <value>VK SPORT;VF4_ES_LineItm</value>
+        <value>V5 CITY;VF4_ES_LineItm</value>
+        <value>V5 CITY LFP;VF4_ES_LineItm</value>
+        <value>V5 LITE LFP;VF4_ES_LineItm</value>
+        <value>V7 SPORT LFP;VF4_ES_LineItm</value>
+        <value>V9 SPORT LFP;VF4_ES_LineItm</value>
+        <value>VF New;VF4_ES_LineItm</value>
+        <value>AFS EBIKE;VF4_ES_LineItm</value>
+        
+        <value>AFS VF31;VF4_Car_LineItm</value>
+        <value>AFS VF32;VF4_Car_LineItm</value>
+        <value>AFS VF33;VF4_Car_LineItm</value>
+        <value>AFS VFe32;VF4_Car_LineItm</value>
+        <value>AFS VFe33;VF4_Car_LineItm</value>
+        <value>AFS VFe34;VF4_Car_LineItm</value>
+        <value>AFS V8;VF4_Car_LineItm</value>
+        <value>AFS EBUS;VF4_Car_LineItm</value>
+        <value>AFS EBUS12;VF4_Car_LineItm</value>
+        <value>AF S&amp;S;VF4_Car_LineItm</value>
+
+        <value>BP VFe32;VF4_BatteryLine</value>
+        <value>BP VFe33;VF4_BatteryLine</value>
+        <value>BP VF31;VF4_BatteryLine</value>
+        <value>BP VF7;VF4_BatteryLine</value>
+        <value>BP VF32;VF4_BatteryLine</value>
+        <value>BP VF33;VF4_BatteryLine</value>
+        <value>BP LFP Escooter;VF4_BatteryLine</value>
+        <value>BP EScooter;VF4_BatteryLine</value>
+        <value>BP Escooter KLN;VF4_BatteryLine</value>
+        <value>BP Golf cart;VF4_BatteryLine</value>
+        <value>NC1;VF4_ES_LineItm</value>
+        <value>NB1;VF4_ES_LineItm</value>
+        <value>VF NEW 2024;VF4_ES_LineItm</value>
+        <value>V5 LITE LFP 2024;VF4_ES_LineItm</value>
+        <value>VF NEW GSM;VF4_ES_LineItm</value>
+        <value>BP Escooter 12V;VF4_BatteryLine</value>
+        <value>BP Escooter 48V;VF4_BatteryLine</value>
+        <value>BP Escooter 72V;VF4_BatteryLine</value>
+        <value>BP ESS PowerWall;VF4_BatteryLine</value>
+        <value>ESS;VF4_BatteryLine</value>
+        <value>ESS 20 FT;VF4_BatteryLine</value>
+        <value>ESS 20 FT 1500V;VF4_BatteryLine</value>
+        <value>3IN1;VF4_Car_LineItm</value>
+        <value>CPDU;VF4_Car_LineItm</value>
+        <value>Cell Gen 1/1.5;VF4_BatteryLine</value>
+        <value>Cell Gen 1.6;VF4_BatteryLine</value>
+        <value>Cell Gen 1.8;VF4_BatteryLine</value>
+        <value>Cell Gen 2;VF4_BatteryLine</value>
+        <value>Cell Gen 5.1_Prismatic;VF4_BatteryLine</value>
+        <value>Cell Gen 5.2_Prismatic;VF4_BatteryLine</value>
+        <value>Cell Gen 6;VF4_BatteryLine</value>
+        <value>Cell Gen PT_Cylindrical;VF4_BatteryLine</value>
+        <value>Home Charger;VF4_Car_LineItm</value>
+        <value>Portable Charger;VF4_Car_LineItm</value>
+        <value>MCU;VF4_Car_LineItm</value>
+        <value>SCU;VF4_Car_LineItm</value>
+        <value>DCDC;VF4_Car_LineItm</value>
+        <value>HMI;VF4_Car_LineItm</value>
+        <value>VCU;VF4_Car_LineItm</value>
+        <value>MHU;VF4_Car_LineItm</value>
+        <value>XGW;VF4_Car_LineItm</value>
+        <value>IPDU;VF4_Car_LineItm</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

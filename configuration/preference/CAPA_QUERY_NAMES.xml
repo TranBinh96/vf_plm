@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_QUERY_NAMES" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains list of CAPA query names</preference_description>
+      <context name="Teamcenter">
+        <value>My CAPA</value>
+        <value>My Issues</value>
+        <value>Find CR</value>
+        <value>CAPA Revision</value>
+        <value>Issue Revision</value>
+        <value>Find GroupMember</value>
+        <value>Find ResourcePool</value>
+        <value>CAPA Issue Revision</value>
+        <value>IssueRevWF Invalid</value>
+        <value>ChangeRequest Revision</value>
+        <value>IssueRevWF Resoltype CR</value>
+        <value>IssueRevWF Resoltype ECR</value>
+        <value>IssueRevWF Resoltype IRA</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

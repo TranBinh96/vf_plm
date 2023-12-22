@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="DecisionApps.ShapeSearch">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SS1_DASS_size_default_min" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the default minimum value for the size similarity search (in percents) used by the Shape Search solution in the Active Workspace client.
+Objects with a similarity factor lower than this value will not be part of search results.
+The value cannot be lower than the floor value specified by the &quot;SS1_DASS_size_lower_limit&quot; preference. If it is, the value from this latter preference will prevail.</preference_description>
+      <context name="Teamcenter">
+        <value>70</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

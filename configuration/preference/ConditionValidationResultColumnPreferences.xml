@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Condition Validation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ConditionValidationResultColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the columns displayed in the validation results Detail Information pane in Structure Manager. You can remove columns from this preference but not add columns. Use the ConditionValidationResultColumnWidthPreferences preference to set the widths of the specified columns.
+Valid Values:
+CondValResult.validation_target
+CondValResult.valdata_revision
+CondValResult.condition_name
+CondValResult.validation_date
+CondValResult.validation_result
+CondValResult.override_to_state
+CondValResult.override_request_state</preference_description>
+      <context name="Teamcenter">
+        <value>CondValResult.validation_target</value>
+        <value>CondValResult.valdata_revision</value>
+        <value>CondValResult.condition_name</value>
+        <value>CondValResult.validation_date</value>
+        <value>CondValResult.validation_result</value>
+        <value>CondValResult.override_to_state</value>
+        <value>CondValResult.override_request_state</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

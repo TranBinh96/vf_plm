@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+Copyright (c) 2012 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: VFEDACommercialPartRevisionSummary.xml
+
+New style sheet for displaying VF EDA Commercial Prt Revision summary for TC 13.3.0.7
+Dave McLaughlin 2012-03-16
+
+-->
+<rendering>
+	<header>
+		<image source="type" />
+		<property name="owning_user" />
+		<property name="last_mod_date" />
+		<property name="release_status_list" renderingHint="label" />
+		<property name="object_type" />
+	</header>
+	<page titleKey="tc_xrt_Overview" title="Overview">
+		<column>
+			<section titleKey="tc_xrt_properties" title="Properties">
+				<property name="object_name" />
+				<property name="object_desc" />
+				<property name="vf4_MPN_Main_Compound" />
+				<property name="release_status_list" renderingHint="label" />
+				<property name="date_released" renderingHint="label" />
+				<property name="effectivity_text" renderingHint="label" />
+				<command commandId="com.teamcenter.rac.revisionEffectivity" />
+				<separator />
+				<property name="owning_user" renderingHint="objectlink" modifiable="false" />
+				<property name="owning_group" renderingHint="objectlink" modifiable="false" />
+				<separator />
+				<property name="last_mod_user" />
+				<property name="checked_out" renderingHint="label" />
+				<property name="checked_out_user" />
+				<separator />
+				<command titleKey="tc_xrt_moreProperties" commandId="com.teamcenter.rac.properties" />
+			</section>
+			<section titleKey="tc_xrt_ClassificationProperties" title="Classification Properties">
+				<classificationProperties />
+			</section>
+		</column>
+		<column>
+			<section title="Preview" titleKey="tc_xrt_Preview">
+				<image source="preview" />
+			</section>
+			<section titleKey="tc_xrt_actions">
+				<command actionKey="copyAction" commandId="com.teamcenter.rac.copy" />
+				<command actionKey="reviseAction" commandId="com.teamcenter.rac.revise" />
+				<command actionKey="saveAsAction" commandId="org.eclipse.ui.file.saveAs" />
+				<command actionKey="newProcessAction" titleKey="tc_xrt_newProc"	commandId="com.teamcenter.rac.newProcess" />
+			</section>
+		</column>
+	</page>
+	<page titleKey="tc_xrt_Library_Data" title="Library Data">
+		<column>
+			<section titleKey="tc_xrt_Library_properties" title="Library properties">
+				<property name="vf4_Main_Category_Compound" />
+				<property name="vf4_Foot_Print" />
+				<property name="vf4_Symbol_Name" />
+				<property name="vf4_Type" />
+				<property name="vf4_Package" />
+				<property name="vf4_Process" />
+				<property name="vf4_Current" />
+				<property name="vf4_Voltage" />
+				<property name="vf4_Part" />
+				<property name="vf4_Tolerance" />
+				<property name="vf4_Power" />
+				<property name="vf4_Isolation_Voltage" />
+				<property name="vf4_Surge_Voltage" />
+				<property name="vf4_Ratings" />
+				<property name="vf4_Temperature_Coefficient" />
+				<property name="vf4_Wavelength" />
+				<property name="vf4_Operating_Temperature" />
+				<property name="vf4_Rohs" />
+				<property name="vf4_Applications" />
+				<property name="vf4_Polar" />
+				<property name="vf4_Status_Check" />
+				<property name="vf4_Applications1" />
+				<property name="vf4_Benchmarchs0" />
+			</section>
+		</column>
+	</page>
+	<page titleKey="tc_xrt_attachments" title="Attachments">
+		<section titleKey="tc_xrt_Files" title="Files">
+			<objectSet
+				source="IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+				<tableDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</tableDisplay>
+				<thumbnailDisplay />
+				<treeDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</treeDisplay>
+				<listDisplay />
+				<command actionKey="newBusinessObjectContextualAction"	commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+				<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"	renderingHint="commandbutton" />
+				<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"	renderingHint="commandbutton">
+					<parameter name="localSelection" value="true" />
+				</command>
+			</objectSet>
+		</section>
+		<section titleKey="tc_xrt_Documents" title="Documents">
+			<objectSet source="IMAN_specification.DocumentRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="tableDisplay">
+				<tableDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</tableDisplay>
+				<thumbnailDisplay />
+				<treeDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</treeDisplay>
+				<listDisplay />
+				<command actionKey="newBusinessObjectContextualAction"	commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+				<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"	renderingHint="commandbutton" />
+				<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"	renderingHint="commandbutton">
+					<parameter name="localSelection" value="true" />
+				</command>
+			</objectSet>
+		</section>
+	</page>
+	<page titleKey="tc_xrt_History" title="History">
+		<section titleKey="tc_xrt_History" title="History">
+			<objectSet source="revision_list.ItemRevision" sortdirection="descending"
+				sortby="object_string" defaultdisplay="tableDisplay">
+				<tableDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</tableDisplay>
+				<thumbnailDisplay />
+				<treeDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</treeDisplay>
+				<listDisplay />
+			</objectSet>
+		</section>
+	</page>
+	<!--<pagetitleKey="tc_xrt_WhereUsed" title = "Where Used  " visibleWhen = "ps_parents==null">
+        <section titleKey = "tc_xrt_ParentAssemblies" title = "Parent Assemblies">
+            <label textKey="tc_xrt_noParentAssemblies" text = "     No parent assemblies for this part."/>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_WhereUsed*" title = "Where Used *" visibleWhen = "ps_parents!=null">
+        <section titleKey="tc_xrt_ParentAssemblies" title = "Parent Assemblies">
+            <objectSet source = "ps_parents.ItemRevision" sortdirection = "ascending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <command commandId = "com.teamcenter.rac.pse.sendto" titleKey="openInSM" title = "Open Selected in	Structure Manager" renderingHint = "commandbutton">
+                    <parameter value = "true" name = "localSelection"/>
+                </command>
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>-->
+	<!--<pagetitleKey="tc_xrt_Structure*" title = "Structure *" visibleWhen = "ps_children!=null">
+        <section titleKey="tc_xrt_ChildComponents" title = "Child Components">
+            <objectSet source = "ps_children.ItemRevision" sortdirection = "ascending" sortby = "object_string"	defaultdisplay = "tableDisplay">
+                <command commandId = "com.teamcenter.rac.pse.sendto" titleKey="openInSM" title = "Open Selected in	Structure Manager" renderingHint = "commandbutton">
+                    <parameter value = "true" name = "localSelection"/>
+                </command>
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>-->
+	<page titleKey="tc_xrt_VendorParts" title="Vendor Parts" visibleWhen="VMRepresents==null">
+		<label textKey="tc_xrt_noVendorParts" text="No Vendor Parts for this part." />
+		<section titleKey="tc_xrt_VendorParts" title="Vendor Parts">
+			<objectSet source="VMRepresents.ManufacturerPart" defaultdisplay="tableDisplay"	sortdirection="descending" sortby="vendor_name">
+				<tableDisplay>
+					<property name="vendor_name" />
+					<property name="vendor_id" />
+					<property name="vendor_part_num" />
+					<property name="object_name" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+				</tableDisplay>
+				<thumbnailDisplay />
+				<treeDisplay>
+					<property name="vendor_name" />
+					<property name="vendor_id" />
+					<property name="vendor_part_num" />
+					<property name="object_name" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+				</treeDisplay>
+				<listDisplay />
+				<command actionKey="newBusinessObjectContextualAction"	commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+				<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"	renderingHint="commandbutton" />
+				<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"	renderingHint="commandbutton">
+					<parameter name="localSelection" value="true" />
+				</command>
+			</objectSet>
+		</section>
+		<section title="Supplier Details">
+			<objectSet source="VF4_Supplier_Main_Item.VF4_Vendor_Part" sortdirection="descending"	sortby="object_string" defaultdisplay="tableDisplay">
+				<tableDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</tableDisplay>
+				<thumbnailDisplay />
+				<treeDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</treeDisplay>
+				<listDisplay />
+				<command actionKey="newBusinessObjectContextualAction"	commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+				<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"	renderingHint="commandbutton" />
+				<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"	renderingHint="commandbutton">
+					<parameter name="localSelection" value="true" />
+				</command>
+			</objectSet>
+		</section>
+	</page>
+	<page titleKey="tc_xrt_VendorParts*" title="Vendor Parts *" visibleWhen="VMRepresents!=null">
+		<section titleKey="tc_xrt_VendorParts" title="Vendor Parts">
+			<objectSet source="VMRepresents.ManufacturerPart" defaultdisplay="tableDisplay"
+				sortdirection="descending" sortby="vendor_name">
+				<tableDisplay>
+					<property name="vendor_name" />
+					<property name="vendor_id" />
+					<property name="vendor_part_num" />
+					<property name="object_name" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+				</tableDisplay>
+				<thumbnailDisplay />
+				<treeDisplay>
+					<property name="vendor_name" />
+					<property name="vendor_id" />
+					<property name="vendor_part_num" />
+					<property name="object_name" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+				</treeDisplay>
+				<listDisplay />
+				<command actionKey="newBusinessObjectContextualAction"	commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+				<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"	renderingHint="commandbutton" />
+				<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"	renderingHint="commandbutton">
+					<parameter name="localSelection" value="true" />
+				</command>
+			</objectSet>
+			<section titleKey="tc_xrt_actions">
+				<command commandId="com.teamcenter.rac.updatePreferredStatus" />
+			</section>
+			<section titleKey="tc_xrt_Vendors" title="Vendors">
+				<label textKey="tc_xrt_VendorsInfo"	text="You cannot attach a Vendor directly to a Commercial Part. Create and attach a Vendor Part in the section above." />
+				<objectSet source="vendors.Vendor" defaultdisplay="tableDisplay" sortdirection="descending" sortby="vendor_name">
+					<tableDisplay>
+						<property name="object_string" />
+						<property name="contact_name" />
+						<property name="supplier_phone" />
+						<property name="email_addr" />
+						<property name="supplier_addr" />
+					</tableDisplay>
+					<thumbnailDisplay />
+					<treeDisplay>
+						<property name="object_string" />
+						<property name="contact_name" />
+						<property name="supplier_phone" />
+						<property name="email_addr" />
+						<property name="supplier_addr" />
+					</treeDisplay>
+					<listDisplay />
+				</objectSet>
+			</section>
+		</section>
+		<section title="Supplier Details">
+			<objectSet source="VF4_Supplier_Main_Item.VF4_Vendor_Part" sortdirection="descending"	sortby="object_string" defaultdisplay="tableDisplay">
+				<tableDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</tableDisplay>
+				<thumbnailDisplay />
+				<treeDisplay>
+					<property name="object_string" />
+					<property name="object_type" />
+					<property name="release_status_list" />
+					<property name="date_released" />
+					<property name="owning_user" />
+				</treeDisplay>
+				<listDisplay />
+				<command actionKey="newBusinessObjectContextualAction"	commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+				<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"	renderingHint="commandbutton" />
+				<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"	renderingHint="commandbutton">
+					<parameter name="localSelection" value="true" />
+				</command>
+			</objectSet>
+		</section>
+	</page>
+	<page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+		<objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link"	defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string" />
+				<property name="lis0site" />
+				<property name="lis0serviceProvider" />
+				<property name="relation" />
+				<property name="last_mod_date" />
+				<property name="last_mod_user" />
+				<property name="checked_out_user" />
+			</tableDisplay>
+			<command actionKey="newBusinessObjectContextualAction"	commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton" />
+			<command actionKey="copyAction" commandId="com.teamcenter.rac.copy"	renderingHint="commandbutton">
+				<parameter name="localSelection" value="true" />
+			</command>
+			<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"	renderingHint="commandbutton" />
+			<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+				renderingHint="commandbutton">
+				<parameter name="localSelection" value="true" />
+			</command>
+		</objectSet>
+	</page>
+	<!--<page title = "Trace Links *" visibleWhen = "has_trace_link==Y">
+        <section titleKey = "tc_xrt_Defining Objects" title = "Defining Objects">
+            <objectSet source = "fnd0defining_objects.WorkspaceObject" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_Complying Objects" title = "Complying Objects">
+            <objectSet source = "fnd0complying_objects.WorkspaceObject" sortdirection = "descending" sortby =	"object_string" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <separator/>
+        <command commandId = "com.teamcenter.rac.traceabilityReport" title = "Traceability Report"/>
+    </page>
+-->
+</rendering>

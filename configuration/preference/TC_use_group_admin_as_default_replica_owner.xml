@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_use_group_admin_as_default_replica_owner" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the owning user of an imported object is the group administrator of the owning group when the owning user is not a member of the owning group at the importing site.For example: the master copy at the owning site (Site 1) is owned by the user Joe, in the Design group, and it is imported at Site 2, where Joe is not a member of the Design group. If this preference is set to TRUE, the system searches the list of group administrators for the Design group at Site 2, assigning ownership to the first group administrator in the list.
+Valid Values:
+TRUE - Assigns ownership of an imported object to the group administrator of the owning group when the owning user is not a member of the owning group at the importing site.
+FALSE - General rules of replica ownership applies.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

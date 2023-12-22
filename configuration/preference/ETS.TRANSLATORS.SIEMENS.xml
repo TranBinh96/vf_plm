@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ETS.TRANSLATORS.SIEMENS" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference lists the available translators for a given provider for the translation services.</preference_description>
+      <context name="Teamcenter">
+        <value>tozipfile</value>
+        <value>catiav4tojt</value>
+        <value>catiav5tojt</value>
+        <value>asyncservice</value>
+        <value>contmgmtpublish</value>
+        <value>jttobboxandtso</value>
+        <value>jttocatiav5</value>
+        <value>batchmesh</value>
+        <value>simprocess</value>
+        <value>nxnastran</value>
+        <value>swtojt</value>
+        <value>setojt</value>
+        <value>nxrefile</value>
+        <value>nxclone</value>
+        <value>fmstransfer</value>
+        <value>proetodxf</value>
+        <value>projecttrans</value>
+        <value>schmgrtrans</value>
+        <value>previewservice</value>
+        <value>pdfgenerator</value>
+        <value>rendermgttranslator</value>
+        <value>batchprint</value>
+        <value>tctojt</value>
+        <value>qlcreate</value>
+        <value>plmxmltojt</value>
+        <value>publishbatch</value>
+        <value>qsearchprocessqueue</value>
+        <value>queryscos</value>
+        <value>rdvcontextdbdownload</value>
+        <value>rdvcontextnondbdownload</value>
+        <value>createassemblyplmxml</value>
+        <value>subscmplvalidationservice</value>
+        <value>subscmplmsdimport</value>
+        <value>emailpolling</value>
+        <value>subscmplmsdrerequest</value>
+        <value>subscmplsdvalidation</value>
+        <value>replicateplmxml</value>
+        <value>plmxmlbasedsync</value>
+        <value>importobjects</value>
+        <value>plmxml_import_export</value>
+        <value>tcmfg_update_productviews</value>
+        <value>tc3dpdftrans</value>
+        <value>generatemeswirepfiles</value>
+        <value>store_and_forward</value>
+        <value>senddxdatatosupplierservice</value>
+        <value>populatefsc</value>
+        <value>mmvindexgen</value>
+        <value>nxtocgmdirect</value>
+        <value>nxtopvdirect</value>
+        <value>nxtransdirect</value>
+        <value>proetojt</value>
+        <value>simpgen</value>
+        <value>catiav5preview</value>
+        <value>cpd_process_sync</value>
+        <value>partutility</value>
+        <value>subscmplgeneratedeclaration</value>
+        <value>subscmpldeclarationreminders</value>
+        <value>imagecompression</value>
+        <value>barcodeimagecreationservice</value>
+        <value>escalationmgmt</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

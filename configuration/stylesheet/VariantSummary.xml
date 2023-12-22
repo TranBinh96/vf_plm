@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+@<COPYRIGHT>@
+
+    Filename: VariantSummary.xml
+
+    Default style sheet for displaying Variant summary 
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="thumbnail"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_properties">
+                <property name="parent_item"/> 
+                <property name="name"/>
+                <property name="comment"/>               
+	            <property name="owning_site" renderingHint="objectlink" modifiable="false"/>
+                <separator/>
+                <property name="fnd0comparison_mode"/>
+                <property name="fnd0uom"/>
+                <property name="fnd0optionValues"/>
+	            <property name="fnd0has_free_form_values"/>
+	            <property name="fnd0is_multi_select"/>
+	            <property name="fnd0is_model_family"/>
+	            <property name="fnd0is_discretionary"/>
+                <separator/>
+                <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+            </section>
+        </column>
+    </page>
+</rendering>

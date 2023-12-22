@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEWorkarea.MEWorkarea.PasteDuplicateTemplate" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the cloning rules to be used when cloning a plant structure from a plant structure using the Paste Duplicate menu command.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter cloning rule.</preference_description>
+      <context name="Teamcenter">
+        <value>*:*:Attribute.items_tag:Clone</value>
+        <value>*:*:Attribute.structure_revisions:Clone</value>
+        <value>*:*:Attribute.bom_view:Clone</value>
+        <value>*:*:Attribute.parent_item:Clone</value>
+        <value>*:*:OccType.*:Clone</value>
+        <value>*:*:Relation.IMAN_Rendering:Clone</value>
+        <value>*:*:Relation.IMAN_specification:Clone</value>
+        <value>class.Folder:*:Attribute.contents:Reference</value>
+        <value>*:*:Relation.Mfg0TCContextFeatureFormRel:Clone</value>
+        <value>*:*:Attribute.variant_expression_block:Clone</value>
+        <value>*:*:OccType.Null:Clone</value>
+        <value>*:type.Kinematics:Relation.KinematicsRelation:Clone</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

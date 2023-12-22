@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="REQ_root_types_for_paragraph_number" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the types for root revision of a structure which should have the property arm1ParaNumber calculated for its children. 
+The sub types are also matched. 
+If the root type or its parent type is not included in this preference; the value of arm1ParaNumber would be empty for the entire structure.
+The changes to this preference will take effect after re-login.</preference_description>
+      <context name="Teamcenter">
+        <value>Specification Revision</value>
+        <value>Requirement Revision</value>
+        <value>Paragraph Revision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

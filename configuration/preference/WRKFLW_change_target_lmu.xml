@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_change_target_lmu" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates whether the value of &quot;last modified user&quot; information for the workflow targets should be modified when modifying their release statuses during workflow.
+Valid Values:
+* true: the last modified user should be set to the current user. This is the default value.
+* false: the last modified user should not be modified.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

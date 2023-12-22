@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MPP_ToolActivity_CustomUserData" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Define user customizable attributes that can be synchronized between NX-CAM and Teamcenter.
+Up to 15 custom properties can be defined that are stored with the MENCToolActivity of a CAM setup.
+
+Valid values are in the format &quot;pm0UserData[Custom Property Number]:[MOM Variable]:[Display Name]&quot;, where:
+- &quot;[Custom Property Number]&quot; is a two digit number in the range of 01 .. 15.
+- &quot;[MOM Variable]&quot; is the Manufacturing Output Manager (MOM) variable that is set in the NX-CAM TCL post processor (no spaces allowed). 
+- &quot;[Display Name]&quot; is the display name that will be used as a label for the user defined attribute in the activities table.
+
+Example definition of two user defined tool activity attributes:
+pm0UserData01:mom_tool_name:Tool Description
+pm0UserData02:mom_magazine:Magazine Position
+
+Note: The support of user defined attributes must be activated using the preference MPP_ToolActivity_EnableUserData.</preference_description>
+      <context name="Teamcenter">
+        <value>pm0UserData01:[MOM Variable]:User Data 01</value>
+        <value>pm0UserData02:[MOM Variable]:User Data 02</value>
+        <value>pm0UserData03:[MOM Variable]:User Data 03</value>
+        <value>pm0UserData04:[MOM Variable]:User Data 04</value>
+        <value>pm0UserData05:[MOM Variable]:User Data 05</value>
+        <value>pm0UserData06:[MOM Variable]:User Data 06</value>
+        <value>pm0UserData07:[MOM Variable]:User Data 07</value>
+        <value>pm0UserData08:[MOM Variable]:User Data 08</value>
+        <value>pm0UserData09:[MOM Variable]:User Data 09</value>
+        <value>pm0UserData10:[MOM Variable]:User Data 10</value>
+        <value>pm0UserData11:[MOM Variable]:User Data 11</value>
+        <value>pm0UserData12:[MOM Variable]:User Data 12</value>
+        <value>pm0UserData13:[MOM Variable]:User Data 13</value>
+        <value>pm0UserData14:[MOM Variable]:User Data 14</value>
+        <value>pm0UserData15:[MOM Variable]:User Data 15</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

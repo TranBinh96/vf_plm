@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA_max_working_revisions" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Limits the number of revisions shown in TCAA Home Browser for each item. If set to n, only the last available n revisions will be shown.
+Default value: -1 means all</preference_description>
+      <context name="Teamcenter">
+        <value>-1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

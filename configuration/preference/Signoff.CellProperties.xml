@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Signoff.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of properties that are to be displayed under a cell for objects of type Signoff in the Active Workspace client.
+Valid values are property internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>job_name</value>
+        <value>fnd0Assignee</value>
+        <value>fnd0StartDate</value>
+        <value>due_date</value>
+        <value>active_surrogate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

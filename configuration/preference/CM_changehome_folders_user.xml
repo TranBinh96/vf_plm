@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_changehome_folders_user" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Lists the user-defined saved searches currently located under the Change Home folder.
+Use the &quot;Manage saved searches...&quot; command in the Change Home view menu to manage the values of this user preference.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

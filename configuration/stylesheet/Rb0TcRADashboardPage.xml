@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Reports tab for different Business Objects. -->
+<subRendering>    
+    <page titleKey="tc_xrt_TcRADashboard">
+        <inject type="dataset" src="TcRAReportViewer" module="js/aw-include.directive"/>
+    </page>        
+</subRendering>

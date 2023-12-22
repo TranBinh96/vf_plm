@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_rename_foreignfile_filename" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the actions permitted on foreign files during a save process.  Foreign files can be independently renamed during a save process depending on  the three character value of this preference; each character represents the setting for a specific save operation.
+For example:
+0 = renaming the foreign file is not permitted during this operation (see below)
+1 = renaming the foreign file is permitted during this operation (see below)
+The value of the first character applies to the Save As operation.
+The value of the second character applies to the Save Existing operation.
+The value of the third character applies to the Save New Revision operation.
+The default value is 111, indicating that foreign files may be independently renamed during the Save As, Save Existing and Save New Revision operations</preference_description>
+      <context name="Teamcenter">
+        <value>111</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

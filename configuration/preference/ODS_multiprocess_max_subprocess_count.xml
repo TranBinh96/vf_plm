@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ODS_multiprocess_max_subprocess_count" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the maximum number of precreated subprocesses that can be created by the parent Object Directory Services (ODS) process. If the maximum number is too low, remote users may experience noticeable delays when performing ODS-related operations. If the maximum number is too high, too many system processes could be created, thus straining system resources and causing slow performance.
+Valid Values:
+Any positive integer.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

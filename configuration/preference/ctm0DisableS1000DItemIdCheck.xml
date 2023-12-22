@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ctm0DisableS1000DItemIdCheck" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Disables the schema validation check on attributes that comprise the unique identifier for S1000D objects at the time the objects are created.
+Valid Values:
+true - The validation check is disabled.
+false - The validation check is enabled.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

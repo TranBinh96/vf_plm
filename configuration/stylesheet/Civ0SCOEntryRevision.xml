@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2011.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+     Filename: Civ0SCOEntryRevision.xml  
+
+     Default style sheet for displaying Civ0SCOEntry
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+=======================================================================
+@<DEL>@ 
+-->
+
+
+<rendering>
+    <page title="General" titleKey="General">
+        <property name="ctm0TopicTypeTagref" />
+        <property name="object_type" />
+        <property name="item_id" renderingHint="textfield" />
+        <property name="item_revision_id" renderingHint="textfield" /> 
+        <property name="object_name" renderingHint="textfield" />          
+        <property name="ctm0MasterLanguageTagref"  />
+        <property name="DocumentTitle" />
+        <separator/>
+        <property name="skdmodelic" />
+        <property name="skdpmissuer" />
+        <property name="skdpmnumber" />
+        <property name="skdpmvolume" />
+        <property name="skdqa" />
+        <property name="skdiss_type" />
+   </page>
+</rendering>

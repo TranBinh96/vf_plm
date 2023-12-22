@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="COMMONcatiatojt_CATProduct_ets_nr_types" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the CATIA v5 CATProduct dataset named references necessary for translation. All named reference types specified by this preference must exist for a dataset of this type to be translated. If no named reference types are specified, no named reference type validation is performed.
+Valid Values:
+Accepts multiple strings as values. Each string must be an existing named reference type.</preference_description>
+      <context name="Teamcenter">
+        <value>catproduct</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

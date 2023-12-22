@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_ProductExcellenceProgram" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference determines whether or not you participate in the Product Excellence Program, which collects information about how you use our software. This information helps us improve our product features and functionality. Participation in the program is voluntary and can be changed with this preference. Please see the Teamcenter help documentation for more information on data collection and your privacy.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

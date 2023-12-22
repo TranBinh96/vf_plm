@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_aqa_staleness_factor" type="Double" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Deciding which appearances to check is along the lines of &quot;check those which have been queried most, and most recently, and which haven&apos;t been checked recently&quot;. Finding out which have been queried most is a simple matter of looking for the largest values of N, adjustment for &quot;most recently&quot; is done by dividing the stored value of N by the staleness decay factor once for every day since N was last incremented (so that the older the audit, the less interesting it is).</preference_description>
+      <context name="Teamcenter">
+        <value>1.001</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

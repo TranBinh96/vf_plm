@@ -1,0 +1,19 @@
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!--
+ Default style sheet for displaying Form properties. 
+ type=form displays only properties that are available directly on the form
+ type=property displays all properties
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <page titleKey="tc_xrt_Summary">
+        <all type="form"/>
+    </page>
+</rendering>

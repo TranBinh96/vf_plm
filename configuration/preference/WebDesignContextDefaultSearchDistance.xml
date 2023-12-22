@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Thin Client.Design Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WebDesignContextDefaultSearchDistance" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>The default search distance for RDV Thin Client searches.</preference_description>
+      <context name="Teamcenter">
+        <value>10.0</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

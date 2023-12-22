@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_bomline_tracked_properties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines BOMLine properties which needs to be tracked in change context.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_quantity</value>
+        <value>bl_sequence_no</value>
+        <value>bl_uom</value>
+        <value>bl_condition_tag</value>
+        <value>bl_formula</value>
+        <value>bl_occ_effectivity</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

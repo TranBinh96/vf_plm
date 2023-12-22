@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ITEM_do_not_export_relation_if_type_excluded" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>When a relation type is excluded during an export/import operation, the relation object itself is exported by default but the secondary object is not. During import, the relation type as stored in the relation object is checked to make sure it exists and if the relation type is missing, the import operation cannot proceed. To avoid the export of relation objects when the relation type is excluded, set this preference to the name of the relation types. Although this may include pre-defined relation types such as IMAN_reference, this preference would be normally used for custom relation types that are not defined at remote sites. This is a site preference.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

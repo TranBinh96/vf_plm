@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Report_Transfer_Area" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Preference for creating a directory.</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">/vobs/web_src/htdocs/web_reports/temp</value>
+        <value platform="WNT">%TC_ROOT%\web\htdocs\web_reports\temp</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

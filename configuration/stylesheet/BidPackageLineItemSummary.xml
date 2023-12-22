@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2022 Siemens Digital Industries Software
+================================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2022 Siemens Digital Industries Software
+-->
+
+<!--
+=======================================================================
+    Filename: BidPackageLineItemSummary.xml
+
+    Default style sheet for displaying BidPackageLineItem summary
+=======================================================================
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_desc"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_properties">
+                <property name="object_name" modifiable="false"/>
+                <property name="object_desc"/>
+                <property name="cust_line_item_attrs"/>
+                <separator/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="checked_out" modifiable="false"/>
+                <property name="checked_out_user" renderingHint="objectlink" modifiable="false"/>
+                <separator/>
+                <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+            </section>
+            <section titleKey="tc_xrt_quotes">
+                <objectSet source="TC_part_quote_rel.Quote" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                    <tableDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="currency"/>
+                        <property name="quoted_quantity"/>
+                        <property name="tooling_cost"/>
+                        <property name="vendor"/>
+                        <property name="unit_price"/>
+                    </tableDisplay>
+                    <command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_part">
+                <objectSet source="part.Item" sortby="object_string" sortdirection="ascending">
+                    <command commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                    <command commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                    <command commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                        <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+                <property name="quantity"/>
+            </section>
+        </column>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+		<objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="lis0site"/>
+				<property name="lis0serviceProvider"/>
+				<property name="relation"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+			<command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+				<parameter name="localSelection" value="true"/>
+			</command>
+			<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+			<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+				<parameter name="localSelection" value="true"/>
+			</command>
+		</objectSet>
+	</page>
+</rendering>

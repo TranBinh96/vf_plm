@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+=======================================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+    Filename: Fnd0AppSessionSaveAs.xml
+
+    Style sheet rendering for Session Save-As.
+=======================================================================
+-->
+
+<rendering>    
+     <page>
+        <section  titleKey="tc_xrt_properties">
+            <property name="object_name" renderingHint="textfield" column="32" />
+            <property name="object_desc"/>
+            <htmlPanel declarativeKey="Awb0AppSessionCustomPanel"/>
+        </section>
+    </page>
+</rendering>

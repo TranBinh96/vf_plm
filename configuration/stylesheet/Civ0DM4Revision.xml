@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: Civ0DM4Revision.xml
+
+    Default style sheet for displaying DC_SkdDM 
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+=======================================================================
+@<DEL>@ 
+-->
+
+
+<rendering>
+    
+    <page title="General" titleKey="General">
+        <property name="ctm0TopicTypeTagref" />
+        <property name="object_type" />
+        <property name="item_id" renderingHint="textfield" />
+        <property name="item_revision_id" renderingHint="textfield" /> 
+        <property name="object_name" renderingHint="textfield" />          
+        <property name="ctm0MasterLanguageTagref"  />
+        <property name="DocumentTitle" />
+        
+        <separator/>
+        <property name="civ0dmecode" />
+        <property name="civ0dmeproducer" />
+        <property name="skdmodelic" />
+        <property name="skdsdc" />
+        <property name="skdchapnum" />
+        <property name="skdsection" />
+        <property name="skdsubsection" />
+        <property name="skdsubject" />
+        <property name="skddiscode" />
+        <property name="skddiscodev" />
+        <property name="skdincode" />
+        <property name="skdincodev" />
+        <property name="skditemloc" />		
+        <property name="civ0LearnCode" />
+        <property name="civ0LearnEventCode" />
+        <separator/>
+        <property name="civ0inwork" />
+        <property name="skdissno" />
+        <property name="skdiss_type" />
+        <property name="skdissdate_day" />
+        <property name="skdissdate_month" />
+        <property name="skdissdate_year" />
+        
+        <separator/>
+        <property name="skdtechname" />
+        <property name="skdinfoname" />
+
+        <separator/>
+        <property name="skdsecurity_class" />
+        <property name="civ0rpcname" />		
+        <property name="skdrpc" />
+        <property name="civ0origname" />		
+        <property name="skdorig" />
+        <property name="skdqa" />
+        <property name="skdsbc" />
+        <property name="skdskill" />
+        <property name="skdrfu" />
+        <property name="skdremarks" />
+             
+        <separator/>
+        <property name="skdexportfilename" />
+        <property name="isTemplate" />
+       <property name="referenceOnly"  />        
+       <property name="contentVersion" />
+                
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+        <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+        <property name="last_mod_user" />     
+    </page>
+   
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+
+    <page title="All" titleKey="All">
+        <all type="property"/>
+    </page>
+
+</rendering>

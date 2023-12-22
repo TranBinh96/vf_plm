@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="SUBSCMPL_IMDS_partdecl_copy_relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines attributes to copy on Part from Part Declaration after International Material Data System (IMDS) declaration approval.</preference_description>
+      <context name="Teamcenter">
+        <value>Mat1UsesMaterial</value>
+        <value>Sci0CompUsesSemiComp</value>
+        <value>Sci0UsesSemiComponent</value>
+        <value>Sci0UsesMaterials</value>
+        <value>Scp0BOMSnapshot</value>
+        <value>ContactInCompany</value>
+        <value>LocationInCompany</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

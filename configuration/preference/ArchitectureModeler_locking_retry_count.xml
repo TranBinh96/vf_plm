@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ArchitectureModeler_locking_retry_count" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the number of times the system attempts to explicitly lock the system for edits (such as Add, Remove, Replace). When changing product architecture data in Platform Designer, multiple users might attempt to save changes simultaneously. Such simultaneous saves are serialized by locking the common product. If a save is blocked because the product is already locked, Platform Designer makes as many additional attempts to lock the product as specified in this preference.
+Valid Values:
+Accepts a positive integer as a value.</preference_description>
+      <context name="Teamcenter">
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

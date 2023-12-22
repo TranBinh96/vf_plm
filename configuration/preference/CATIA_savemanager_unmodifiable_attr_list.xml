@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_unmodifiable_attr_list" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>ItemRev.item_revision_id
+This preference defines an attribute list. These attributes will not be modified in the SaveManager.
+The attribute list must adhere to the naming format &quot;keyword.attributename&quot;.
+List of keywords:
+- For item&apos;s attribute = Item.
+- For item revision&apos;s attribute = ItemRev.
+- For item master form&apos;s attribute = ItemMaster.
+- For item revision master form&apos;s attribute = ItemRevMaster.
+- For dataset&apos;s attribute = Dst.
+The attributename should be the attribute real name.
+For example: Item.item_id; ItemRev.item_revision_id; Dst.pubr_object_id; Dst.object_name</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRev.item_revision_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

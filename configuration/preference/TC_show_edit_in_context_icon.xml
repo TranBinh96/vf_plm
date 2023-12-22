@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="BOM Markup Space">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_show_edit_in_context_icon" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables the display of the space edit icon in tree views like the Content Explorer View in 4GD.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

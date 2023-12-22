@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+    <preference name="LOV_VF4_SOURCING_CAR_PROGRAM" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This one created due to cannot get real value from display value of LOV</preference_description>
+      <context name="Teamcenter">
+        <value>VF31;VFe34</value>
+        <value>VF32;VFe35/VF35</value>
+        <value>VF33;VFe36/VF36</value>
+        <value>EBUS;EBUS</value>
+        <value>S&amp;S;S&amp;S</value>
+        <value>V8;V8</value>
+        <value>Escooter;Escooter</value>
+        <value>BP VF31;BP VFe34</value>
+        <value>BP VF32;BP VFe35/VF35</value>
+        <value>BP VF33;BP VFe36/VF36</value>
+        <value>BP VFe32;BP VFe32</value>
+        <value>BP VFe33;BP VFe33</value>
+        <value>Emotor;Emotor</value>
+        <value>AF S&amp;S;AF S&amp;S</value>
+        <value>AFS EScooter;AFS EScooter</value>
+        <value>AFS EBUS;AFS EBUS</value>
+        <value>AFS VF31;AFS VFe34</value>
+        <value>AFS VF32;AFS VFe35/VF35</value>
+        <value>AFS VF33;AFS VFe36/VF36</value>
+        <value>AFS V8;AFS V8</value>
+        <value>VFe32;VFe32</value>
+        <value>VFe33;VFe33</value>
+        <value>VFe34NG;VFe34S</value>
+        <value>BP LFP Escooter;BP LFP Escooter</value>
+        <value>3IN1;3IN1</value>
+      </context>
+    </preference>
+    <preference name="VF_Module_AssignmentList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF_Module_AssignmentList</preference_description>
+      <context name="Teamcenter">
+        <value>CUV_BODY_IN_WHITE=CUV_BIW_CreateSourcingProcess</value>
+        <value>CUV_CHASSIS=CUV_CHA_CreateSourcingProcess</value>
+        <value>CUV_DOORS_AND_CLOSURES=CUV_DC_CreateSourcingProcess</value>
+        <value>CUV_ELECTRIC_ELECTRONICS=CUV_EE_CreateSourcingProcess</value>
+        <value>CUV_POWERTRAIN=CUV_PWT_CreateSourcingProcess</value>
+        <value>CUV_EXTERIOR=CUV_EXT_CreateSourcingProcess</value>
+        <value>CUV_INTERIOR=CUV_INT_CreateSourcingProcess</value>
+        <value>EBUS_BODY_IN_WHITE=EBUS_BIW_CreateSourcingProcess</value>
+        <value>EBUS_CHASSIS=EBUS_CHA_CreateSourcingProcess</value>
+        <value>EBUS_DOORS_AND_CLOSURES=EBUS_DC_CreateSourcingProcess</value>
+        <value>EBUS_ELECTRIC_ELECTRONICS=EBUS_EE_CreateSourcingProcess</value>
+        <value>EBUS_POWERTRAIN=EBUS_PWT_CreateSourcingProcess</value>
+        <value>EBUS_EXTERIOR=EBUS_EXT_CreateSourcingProcess</value>
+        <value>EBUS_INTERIOR=EBUS_INT_CreateSourcingProcess</value>
+        <value>SCP_BODY_IN_WHITE=SCP_BIW_CreateSourcingProcess</value>
+        <value>SCP_CHASSIS=SCP_CHA_CreateSourcingProcess</value>
+        <value>SCP_DOORS_AND_CLOSURES=SCP_DC_CreateSourcingProcess</value>
+        <value>SCP_ELECTRIC_ELECTRONICS=SCP_EE_CreateSourcingProcess</value>
+        <value>SCP_POWERTRAIN=SCP_PWT_CreateSourcingProcess</value>
+        <value>SCP_EXTERIOR=SCP_EXT_CreateSourcingProcess</value>
+        <value>SCP_INTERIOR=SCP_INT_CreateSourcingProcess</value>
+        <value>Car Battery.Battery Program_ELECTRIC ELECTRONIC=CAR.BATTERY_EE_SourcingProcess</value>
+        <value>Car Battery.Battery Program_MECHANICAL=CAR.BATTERY_ME_SourcingProcess</value>
+        <value>Car Battery.Battery Program_CELL=CAR.BATTERY_CELL_SourcingProcess</value>
+      </context>
+    </preference>
+    <preference name="VF_Program_Names" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Deprecated</preference_description>
+      <context name="Teamcenter">
+        <value>SCP</value>
+        <value>CUV</value>
+        <value>D-SUV</value>
+        <value>EBUS</value>
+        <value>Car Battery.Battery Program</value>
+        <value>Scooter</value>
+        <value>S&amp;S</value>
+        <value>V8</value>
+        <value>AFS SCP</value>
+        <value>dba</value>
+        <value>VFe33</value>
+        <value>3IN1</value>
+        <value>VFe32</value>
+        <value>VFe34NG</value>
+        <value>EDS</value>
+      </context>
+    </preference>
+    <preference name="VF_Program_Type_Workflow" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Program name~obj type~workflow name</preference_description>
+      <context name="Teamcenter">
+        <value>SCP~Vf6_ECRRevision~VinFast ECR</value>
+        <value>SCP~Vf6_ECNRevision~VinFast ECN</value>
+        <value>CUV~Vf6_ECRRevision~VinFast ECR</value>
+        <value>CUV~Vf6_ECNRevision~VinFast ECN</value>
+        <value>CUV~VF4_DesignRevision~VF_Request_For_Stopping_Tooling</value>
+        <value>D-SUV~Vf6_ECRRevision~VinFast ECR</value>
+        <value>D-SUV~Vf6_ECNRevision~VinFast ECN</value>
+        <value>dba~Vf6_ECRRevision~VinFast ECR</value>
+        <value>Car Battery.Battery Program~Vf6_ECRRevision~VinFast ECR</value>
+        <value>Car Battery.Battery Program~Vf6_ECNRevision~VinFast ECN</value>
+        <value>EBUS~Vf6_ECRRevision~VinFast ECR</value>
+        <value>EBUS~Vf6_ECNRevision~VinFast ECN</value>
+        <value>S&amp;S~Vf6_ECRRevision~VinFast ECR</value>
+        <value>S&amp;S~Vf6_ECNRevision~VinFast ECN</value>
+        <value>V8~Vf6_ECRRevision~VinFast ECR</value>
+        <value>V8~Vf6_ECNRevision~VinFast ECN</value>
+        <value>D-SUV~VF4_DesignRevision~VF Styling Release Process (A-Class)</value>
+        <value>dba~Vf6_ECRRevision~zzzTest_C-SUV_ECR_BeforePR</value>
+        <value>dba~VF4_DesignRevision~VF Styling Release Process (A-Class)</value>
+        <value>dba~Vf6_ECNRevision~zzzVinFast ECN_After PR</value>
+        <value>D-SUV~VF4_DesignRevision~VF Styling Release Process (B-Class)</value>
+        <value>D-SUV~VF4_DesignRevision~VF Styling Release Process (C-Class)</value>
+        <value>VFe33~Vf6_ECRRevision~VinFast ECR</value>
+        <value>VFe33~Vf6_ECNRevision~VinFast ECN</value>
+        <value>3IN1~Vf6_ECNRevision~VinFast ECN</value>
+        <value>3IN1~Vf6_ECRRevision~VinFast ECR</value>
+        <value>VFe32~Vf6_ECRRevision~VinFast ECR</value>
+        <value>VFe32~Vf6_ECNRevision~VinFast ECN</value>
+        <value>VFe34NG~Vf6_ECRRevision~VinFast ECR</value>
+        <value>VFe34NG~Vf6_ECNRevision~VinFast ECN</value>
+        <value>Scooter~Vf6_ECRRevision~EScooter-ECR-AfterSOB</value>
+        <value>Scooter~Vf6_ECNRevision~EScooter-ECN-AfterSOB</value>
+        <value>Scooter~Vf6_ECNRevision~EScooter-ECN-BeforeSOB</value>
+        <value>Scooter~Vf6_ECRRevision~EScooter-ECR-BeforeSOB</value>
+        <value>Scooter~Vf6_ECRRevision~EScooter-ECR-AfterPR</value>
+        <value>Scooter~Vf6_ECNRevision~EScooter-ECN-AfterPR</value>
+        <value>EDS~Vf6_ECRRevision~VinFast ECR</value>
+        <value>EDS~Vf6_ECNRevision~VinFast ECN</value>
+      </context>
+    </preference>
+    <preference name="VF_Program_Workflow" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Deprecated</preference_description>
+      <context name="Teamcenter">
+        <value>CUV=Create_Sourcing_Process</value>
+        <value>D-SUV=D-SUV_SOR_Release_Process</value>
+        <value>Car Battery.Battery Program=BPI_SOR_Release_Process</value>
+        <value>Emotor=Emotor_SOR_Release_Process</value>
+        <value>AFS SCP=AFS_SOR_Release_Process</value>
+      </context>
+    </preference>
+    <preference name="VF_SOURCING_PROGRAM_2_OBJECT_TYPE" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Mapping sourcing program to sourcing object type</preference_description>
+      <context name="Teamcenter">
+        <value>S&amp;S;VF4_line_item</value>
+        <value>V8;VF4_line_item</value>
+        <value>EBUS;VF4_ebus_lineItm</value>
+        <value>VF32;VF4_Car_LineItm</value>
+        <value>VF33;VF4_Car_LineItm</value>
+        <value>VF31;VF4_Car_LineItm</value>
+        <value>Escooter;VF4_ES_LineItm</value>
+        <value>Emotor;VF4_Car_LineItm</value>
+        <value>AFS VF31;VF4_Car_LineItm</value>
+        <value>AFS V8;VF4_Car_LineItm</value>
+        <value>AFS EBUS;VF4_Car_LineItm</value>
+        <value>AF S&amp;S;VF4_Car_LineItm</value>
+        <value>BP VF31;VF4_BatteryLine</value>
+        <value>BP VF32;VF4_BatteryLine</value>
+        <value>BP VF33;VF4_BatteryLine</value>
+        <value>BP VFe32;VF4_BatteryLine</value>
+        <value>BP VFe33;VF4_BatteryLine</value>
+        <value>BP LFP Escooter;VF4_BatteryLine</value>
+        <value>VFe33;VF4_Car_LineItm</value>
+        <value>VFe32;VF4_Car_LineItm</value>
+        <value>3IN1;VF4_Car_LineItm</value>
+        <value>VFe34NG;VF4_Car_LineItm</value>
+        <value>V5 CITY LFP;VF4_ES_LineItm</value>
+        <value>V5 LITE LFP;VF4_ES_LineItm</value>
+        <value>V7 SPORT LFP;VF4_ES_LineItm</value>
+        <value>V9 SPORT LFP;VF4_ES_LineItm</value>
+      </context>
+    </preference>
+    <preference name="VF_SOURCING_PROGRAM_2_USER_GROUP" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Define which group can trigger which sourcing program</preference_description>
+      <context name="Teamcenter">
+        <value>CUV.Car Program.VINFAST=VFe35/VF35;VFe36/VF36</value>
+        <value>Service Technic.After sale=AFS VFe34;AFS V8;AFS EBUS;AF S&amp;S</value>
+        <value>Emotor.Car Program.VINFAST=Emotor;VFe33</value>
+        <value>Car Battery.Battery Program.VINFAST=BP VFe34;BP VFe35/VF35;BP VFe36/VF36;BP VFe32;BP VFe33;BP LFP Escooter</value>
+        <value>EDAG.VFx36.Car Program.VINFAST=VFe36/VF36</value>
+        <value>VFe32_e33.Car Program.VINFAST=VFe32;VFe33;VFe34S</value>
+        <value>InHouse_3IN1.Car Program.VINFAST=3IN1</value>
+        <value>dba=3IN1;AFS VFe34;VFe36/VF36;VFe32;TESTING;VFe35/VF35;VFe34S</value>
+        <value>VFe3x234S.Car Program.VINFAST=VFe32;VFe33;VFe34S</value>
+        <value>Engineering.Scooter=V5 CITY LFP;V5 LITE LFP;V7 SPORT LFP;V9 SPORT LFP</value>
+        <value>EBUS.Bus Program.VINFAST=EBUS</value>
+      </context>
+    </preference>
+    <preference name="VF_SOURCING_PROGRAM_2_WF" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Workflow template for each car program</preference_description>
+      <context name="Teamcenter">
+        <value>VFe35/VF35;VFe35/VF35_SOR_Release_Process</value>
+        <value>VFe36/VF36;D-SUV_SOR_Release_Process</value>
+        <value>Emotor;Emotor_SOR_Release_Process</value>
+        <value>AFS VFe34;AFS_SOR_Release_Process</value>
+        <value>AFS V8;AFS_SOR_Release_Process</value>
+        <value>AFS EBUS;AFS_SOR_Release_Process</value>
+        <value>AF S&amp;S;AFS_SOR_Release_Process</value>
+        <value>BP VFe34;BPI_SOR_Release_Process</value>
+        <value>BP VFe35/VF35;BPI_SOR_Release_Process</value>
+        <value>BP VFe36/VF36;BPI_SOR_Release_Process</value>
+        <value>BP VFe32;BPI_SOR_Release_Process</value>
+        <value>BP VFe33;BPI_SOR_Release_Process</value>
+        <value>BP LFP Escooter;BP_LFP_Escooter_SOR_Release_Process</value>
+        <value>VFe32;VFe32_SOR_Release_Process</value>
+        <value>VFe33;VFe33_SOR_Release_Process</value>
+        <value>3IN1;3IN1_SOR_Release_Process</value>
+        <value>VFe34S;VFe34NG_SOR_Release_Process</value>
+        <value>V5 CITY LFP;EScooter_SOR_Release_Process</value>
+        <value>V5 LITE LFP;EScooter_SOR_Release_Process</value>
+        <value>V7 SPORT LFP;EScooter_SOR_Release_Process</value>
+        <value>V9 SPORT LFP;EScooter_SOR_Release_Process</value>
+        <value>EBUS;EBUS_SOR_Release_Process</value>
+      </context>
+    </preference>
+    <preference name="VF_Sourcing_Valid_PurchaseLevel" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List purchase level will be accepted by Sourcing</preference_description>
+      <context name="Teamcenter">
+        <value>P</value>
+        <value>DPT</value>
+        <value>DPS</value>
+        <value>BL</value>
+        <value>S</value>
+        <value>D</value>
+      </context>
+    </preference>
+    <preference name="VINF_COP_ASSIGNMENT" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>workflow name|COP Program|Assignment List Name=Task_name1:user1;user2|Task_name2:user1;user2</preference_description>
+      <context name="Teamcenter">
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF31_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF31_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_EMOT_VF31_AfterPR_EXTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF31_AfterPR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF31_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF31_AfterPR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF31_AfterPR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF31_AfterPR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF31_AfterPR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_EMOT_VF31_AfterPR_INTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF32_AfterPR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_EMOT_VF32_AfterPR_INTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF32_AfterPR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF32_AfterPR_INT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF32_AfterPR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF32_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_EMOT_VF32_AfterPR_EXTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF32_AfterPR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF32_AfterPR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF32_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF32_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF32_AfterPR_EXT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF33_AfterPR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF33_AfterPR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF33_AfterPR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF33_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF33_AfterPR_INT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF33_AfterPR_EXT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF33_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF33_AfterPR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF33_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_VF33_AfterPR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_EBUS_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_EBUS_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_EBUS_AfterPR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_EBUS_AfterPR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_EBUS_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_EBUS_AfterPR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_EBUS_AfterPR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_31_AfterPR_STAMPING=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_31_AfterPR_GLUE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_32_AfterPR_EE_SW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_32_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_32_AfterPR_GLUE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_31_AfterPR_EE_SW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_32_AfterPR_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_31_AfterPR_EE_HW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_31_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_31_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_32_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_32_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_32_AfterPR_STAMPING=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_31_AfterPR_CHA=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_31_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_31_AfterPR_ImpactVehicle=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_31_AfterPR_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_32_AfterPR_ImpactVehicle=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_32_AfterPR_EE_HW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_BATT_VF_32_AfterPR_CHA=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF31_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF31_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_EMOT_VF31_AfterPR_EXTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF31_AfterPR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF31_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF31_AfterPR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF31_AfterPR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF31_AfterPR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF31_AfterPR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_EMOT_VF31_AfterPR_INTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF32_AfterPR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_EMOT_VF32_AfterPR_INTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF32_AfterPR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF32_AfterPR_INT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF32_AfterPR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF32_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_EMOT_VF32_AfterPR_EXTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF32_AfterPR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF32_AfterPR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF32_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF32_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF32_AfterPR_EXT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF33_AfterPR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF33_AfterPR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF33_AfterPR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF33_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF33_AfterPR_INT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF33_AfterPR_EXT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF33_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF33_AfterPR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF33_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_VF33_AfterPR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_EBUS_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_EBUS_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_EBUS_AfterPR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_EBUS_AfterPR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_EBUS_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_EBUS_AfterPR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_EBUS_AfterPR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_31_AfterPR_STAMPING=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_31_AfterPR_GLUE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_32_AfterPR_EE_SW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_32_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_32_AfterPR_GLUE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_31_AfterPR_EE_SW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_32_AfterPR_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_31_AfterPR_EE_HW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_31_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_31_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_32_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_32_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_32_AfterPR_STAMPING=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_31_AfterPR_CHA=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_31_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_31_AfterPR_ImpactVehicle=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_31_AfterPR_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_32_AfterPR_ImpactVehicle=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_32_AfterPR_EE_HW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_BATT_VF_32_AfterPR_CHA=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF31_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF31_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_EMOT_VF31_AfterPR_EXTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF31_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF31_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF31_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF31_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF31_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF31_AfterPR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_EMOT_VF31_AfterPR_INTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF32_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_EMOT_VF32_AfterPR_INTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF32_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF32_AfterPR_INT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF32_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF32_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_EMOT_VF32_AfterPR_EXTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF32_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF32_AfterPR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF32_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF32_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF32_AfterPR_EXT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF33_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF33_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF33_AfterPR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF33_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF33_AfterPR_INT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF33_AfterPR_EXT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF33_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF33_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF33_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_VF33_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_EBUS_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_EBUS_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_EBUS_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_EBUS_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_EBUS_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_EBUS_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_EBUS_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_31_AfterPR_STAMPING=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_31_AfterPR_GLUE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_32_AfterPR_EE_SW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_32_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_32_AfterPR_GLUE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_31_AfterPR_EE_SW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_32_AfterPR_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_31_AfterPR_EE_HW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_31_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_31_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_32_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_32_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_32_AfterPR_STAMPING=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_31_AfterPR_CHA=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_31_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_31_AfterPR_ImpactVehicle=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_31_AfterPR_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_32_AfterPR_ImpactVehicle=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_32_AfterPR_EE_HW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_BATT_VF_32_AfterPR_CHA=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF31_AfterPR_EXT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF31_AfterPR_INT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_EMOT_VF31_AfterPR_EXTERNAL=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF31_AfterPR_BIW=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF31_AfterPR_PWT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF31_AfterPR_CHA/VHC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF31_AfterPR_EE=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF31_AfterPR_DC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF31_AfterPR_ENG=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_EMOT_VF31_AfterPR_INTERNAL=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF32_AfterPR_BIW=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_EMOT_VF32_AfterPR_INTERNAL=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF32_AfterPR_CHA/VHC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF32_AfterPR_INT_PLASTIC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF32_AfterPR_DC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF32_AfterPR_PWT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_EMOT_VF32_AfterPR_EXTERNAL=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF32_AfterPR_EE=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF32_AfterPR_ENG=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF32_AfterPR_EXT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF32_AfterPR_INT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF32_AfterPR_EXT_PLASTIC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF33_AfterPR_DC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF33_AfterPR_EE=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF33_AfterPR_ENG=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF33_AfterPR_EXT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF33_AfterPR_INT_PLASTIC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF33_AfterPR_EXT_PLASTIC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF33_AfterPR_INT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF33_AfterPR_BIW=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF33_AfterPR_PWT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_VF33_AfterPR_CHA/VHC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_EBUS_AfterPR_INT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_EBUS_AfterPR_PWT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_EBUS_AfterPR_DC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_EBUS_AfterPR_CHA/VHC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_EBUS_AfterPR_EXT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_EBUS_AfterPR_EE=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_EBUS_AfterPR_BIW=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_31_AfterPR_STAMPING=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_31_AfterPR_GLUE=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_32_AfterPR_EE_SW=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_32_AfterPR_EXT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_32_AfterPR_GLUE=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_31_AfterPR_EE_SW=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_32_AfterPR_PLASTIC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_31_AfterPR_EE_HW=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_31_AfterPR_INT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_31_AfterPR_EXT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_32_AfterPR_INT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_32_AfterPR_PWT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_32_AfterPR_STAMPING=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_31_AfterPR_CHA=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_31_AfterPR_PWT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_31_AfterPR_ImpactVehicle=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_31_AfterPR_PLASTIC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_32_AfterPR_ImpactVehicle=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_32_AfterPR_EE_HW=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_BATT_VF_32_AfterPR_CHA=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF31_AfterPR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF31_AfterPR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_EMOT_VF31_AfterPR_EXTERNAL=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF31_AfterPR_BIW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF31_AfterPR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF31_AfterPR_CHA/VHC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF31_AfterPR_EE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF31_AfterPR_DC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF31_AfterPR_ENG=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_EMOT_VF31_AfterPR_INTERNAL=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF32_AfterPR_BIW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_EMOT_VF32_AfterPR_INTERNAL=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF32_AfterPR_CHA/VHC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF32_AfterPR_INT_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF32_AfterPR_DC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF32_AfterPR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_EMOT_VF32_AfterPR_EXTERNAL=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF32_AfterPR_EE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF32_AfterPR_ENG=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF32_AfterPR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF32_AfterPR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF32_AfterPR_EXT_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF33_AfterPR_DC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF33_AfterPR_EE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF33_AfterPR_ENG=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF33_AfterPR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF33_AfterPR_INT_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF33_AfterPR_EXT_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF33_AfterPR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF33_AfterPR_BIW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF33_AfterPR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_VF33_AfterPR_CHA/VHC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_EBUS_AfterPR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_EBUS_AfterPR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_EBUS_AfterPR_DC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_EBUS_AfterPR_CHA/VHC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_EBUS_AfterPR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_EBUS_AfterPR_EE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_EBUS_AfterPR_BIW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_AfterPR_STAMPING=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_AfterPR_GLUE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_AfterPR_EE_SW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_AfterPR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_AfterPR_GLUE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_AfterPR_EE_SW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_AfterPR_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_AfterPR_EE_HW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_AfterPR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_AfterPR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_AfterPR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_AfterPR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_AfterPR_STAMPING=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_AfterPR_CHA=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_AfterPR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_AfterPR_ImpactVehicle=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_AfterPR_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_AfterPR_ImpactVehicle=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_AfterPR_EE_HW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_AfterPR_CHA=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF31_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF31_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_EMOT_VF31_AfterPR_EXTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF31_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF31_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF31_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF31_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF31_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF31_AfterPR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_EMOT_VF31_AfterPR_INTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF32_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_EMOT_VF32_AfterPR_INTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF32_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF32_AfterPR_INT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF32_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF32_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_EMOT_VF32_AfterPR_EXTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF32_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF32_AfterPR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF32_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF32_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF32_AfterPR_EXT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF33_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF33_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF33_AfterPR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF33_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF33_AfterPR_INT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF33_AfterPR_EXT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF33_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF33_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF33_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_VF33_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_EBUS_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_EBUS_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_EBUS_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_EBUS_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_EBUS_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_EBUS_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_EBUS_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_31_AfterPR_STAMPING=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_31_AfterPR_GLUE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_32_AfterPR_EE_SW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_32_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_32_AfterPR_GLUE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_31_AfterPR_EE_SW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_32_AfterPR_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_31_AfterPR_EE_HW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_31_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_31_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_32_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_32_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_32_AfterPR_STAMPING=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_31_AfterPR_CHA=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_31_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_31_AfterPR_ImpactVehicle=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_31_AfterPR_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_32_AfterPR_ImpactVehicle=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_32_AfterPR_EE_HW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|S&amp;S|VF_ECR_BATT_VF_32_AfterPR_CHA=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_S&amp;SV8_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_S&amp;SV8_AfterPR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_S&amp;SV8_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_S&amp;SV8_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_S&amp;SV8_AfterPR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_S&amp;SV8_AfterPR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_S&amp;SV8_AfterPR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF34|VF_ECR_S&amp;SV8_AfterPR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_S&amp;SV8_AfterPR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_S&amp;SV8_AfterPR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_S&amp;SV8_AfterPR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_S&amp;SV8_AfterPR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_S&amp;SV8_AfterPR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_S&amp;SV8_AfterPR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_S&amp;SV8_AfterPR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF35/VFe35|VF_ECR_S&amp;SV8_AfterPR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_S&amp;SV8_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_S&amp;SV8_AfterPR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_S&amp;SV8_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_S&amp;SV8_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_S&amp;SV8_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_S&amp;SV8_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_S&amp;SV8_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|VF36/VFe36|VF_ECR_S&amp;SV8_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_S&amp;SV8_AfterPR_PWT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_S&amp;SV8_AfterPR_ENG=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_S&amp;SV8_AfterPR_EXT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_S&amp;SV8_AfterPR_INT=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_S&amp;SV8_AfterPR_CHA/VHC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_S&amp;SV8_AfterPR_BIW=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_S&amp;SV8_AfterPR_EE=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|EBUS|VF_ECR_S&amp;SV8_AfterPR_DC=Chief ENG Business Review:bougetd</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_S&amp;SV8_AfterPR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_S&amp;SV8_AfterPR_ENG=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_S&amp;SV8_AfterPR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_S&amp;SV8_AfterPR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_S&amp;SV8_AfterPR_CHA/VHC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_S&amp;SV8_AfterPR_BIW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_S&amp;SV8_AfterPR_EE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|Car Battery.Battery Program|VF_ECR_S&amp;SV8_AfterPR_DC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF31_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF31_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_EMOT_VF31_AfterPR_EXTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF31_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF31_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF31_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF31_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF31_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF31_AfterPR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_EMOT_VF31_AfterPR_INTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF32_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_EMOT_VF32_AfterPR_INTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF32_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF32_AfterPR_INT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF32_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF32_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_EMOT_VF32_AfterPR_EXTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF32_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF32_AfterPR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF32_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF32_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF32_AfterPR_EXT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF33_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF33_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF33_AfterPR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF33_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF33_AfterPR_INT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF33_AfterPR_EXT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF33_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF33_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF33_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_VF33_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_EBUS_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_EBUS_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_EBUS_AfterPR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_EBUS_AfterPR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_EBUS_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_EBUS_AfterPR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_EBUS_AfterPR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_31_AfterPR_STAMPING=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_31_AfterPR_GLUE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_32_AfterPR_EE_SW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_32_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_32_AfterPR_GLUE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_31_AfterPR_EE_SW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_32_AfterPR_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_31_AfterPR_EE_HW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_31_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_31_AfterPR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_32_AfterPR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_32_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_32_AfterPR_STAMPING=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_31_AfterPR_CHA=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_31_AfterPR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_31_AfterPR_ImpactVehicle=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_31_AfterPR_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_32_AfterPR_ImpactVehicle=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_32_AfterPR_EE_HW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_After PR|V8|VF_ECR_BATT_VF_32_AfterPR_CHA=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF31_BeforePR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF31_BeforePR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF31_BeforePR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_EMOT_VF31_BeforePR_INTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF31_BeforePR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF31_BeforePR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF31_BeforePR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF31_BeforePR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF31_BeforePR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_EMOT_VF31_BeforePR_EXTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF32_BeforePR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF32_BeforePR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF32_BeforePR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF32_BeforePR_EXT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF32_BeforePR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_EMOT_VF32_BeforePR_INTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_EMOT_VF32_BeforePR_EXTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF32_BeforePR_INT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF32_BeforePR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF32_BeforePR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF32_BeforePR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF32_BeforePR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF33_BeforePR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF33_BeforePR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF33_BeforePR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF33_BeforePR_EXT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF33_BeforePR_INT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF33_BeforePR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF33_BeforePR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF33_BeforePR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF33_BeforePR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_VF33_BeforePR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_31_BeforePR_ImpactVehicle=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_32_BeforePR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_32_BeforePR_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_32_BeforePR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_32_BeforePR_ImpactVehicle=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_31_BeforePR_EE_HW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_31_BeforePR_CHA=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_31_BeforePR_EE_SW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_32_BeforePR_STAMPING=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_31_BeforePR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_31_BeforePR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_31_BeforePR_GLUE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_32_BeforePR_CHA=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_31_BeforePR_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_31_BeforePR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_31_BeforePR_STAMPING=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_32_BeforePR_GLUE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_32_BeforePR_EE_HW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_32_BeforePR_EE_SW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF34|VF_ECR_BATT_VF_32_BeforePR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF31_BeforePR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF31_BeforePR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF31_BeforePR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_EMOT_VF31_BeforePR_INTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF31_BeforePR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF31_BeforePR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF31_BeforePR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF31_BeforePR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF31_BeforePR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_EMOT_VF31_BeforePR_EXTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF32_BeforePR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF32_BeforePR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF32_BeforePR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF32_BeforePR_EXT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF32_BeforePR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_EMOT_VF32_BeforePR_INTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_EMOT_VF32_BeforePR_EXTERNAL=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF32_BeforePR_INT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF32_BeforePR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF32_BeforePR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF32_BeforePR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF32_BeforePR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF33_BeforePR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF33_BeforePR_ENG=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF33_BeforePR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF33_BeforePR_EXT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF33_BeforePR_INT_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF33_BeforePR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF33_BeforePR_BIW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF33_BeforePR_CHA/VHC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF33_BeforePR_DC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_VF33_BeforePR_EE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_31_BeforePR_ImpactVehicle=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_32_BeforePR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_32_BeforePR_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_32_BeforePR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_32_BeforePR_ImpactVehicle=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_31_BeforePR_EE_HW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_31_BeforePR_CHA=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_31_BeforePR_EE_SW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_32_BeforePR_STAMPING=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_31_BeforePR_INT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_31_BeforePR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_31_BeforePR_GLUE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_32_BeforePR_CHA=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_31_BeforePR_PLASTIC=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_31_BeforePR_PWT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_31_BeforePR_STAMPING=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_32_BeforePR_GLUE=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_32_BeforePR_EE_HW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_32_BeforePR_EE_SW=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF35/VFe35|VF_ECR_BATT_VF_32_BeforePR_EXT=Chief ENG Business Review:nolanj</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF31_BeforePR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF31_BeforePR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF31_BeforePR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_EMOT_VF31_BeforePR_INTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF31_BeforePR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF31_BeforePR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF31_BeforePR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF31_BeforePR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF31_BeforePR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_EMOT_VF31_BeforePR_EXTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF32_BeforePR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF32_BeforePR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF32_BeforePR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF32_BeforePR_EXT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF32_BeforePR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_EMOT_VF32_BeforePR_INTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_EMOT_VF32_BeforePR_EXTERNAL=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF32_BeforePR_INT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF32_BeforePR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF32_BeforePR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF32_BeforePR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF32_BeforePR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF33_BeforePR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF33_BeforePR_ENG=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF33_BeforePR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF33_BeforePR_EXT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF33_BeforePR_INT_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF33_BeforePR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF33_BeforePR_BIW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF33_BeforePR_CHA/VHC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF33_BeforePR_DC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_VF33_BeforePR_EE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_31_BeforePR_ImpactVehicle=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_32_BeforePR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_32_BeforePR_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_32_BeforePR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_32_BeforePR_ImpactVehicle=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_31_BeforePR_EE_HW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_31_BeforePR_CHA=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_31_BeforePR_EE_SW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_32_BeforePR_STAMPING=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_31_BeforePR_INT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_31_BeforePR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_31_BeforePR_GLUE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_32_BeforePR_CHA=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_31_BeforePR_PLASTIC=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_31_BeforePR_PWT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_31_BeforePR_STAMPING=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_32_BeforePR_GLUE=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_32_BeforePR_EE_HW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_32_BeforePR_EE_SW=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|VF36/VFe36|VF_ECR_BATT_VF_32_BeforePR_EXT=Chief ENG Business Review:kevinf</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF31_BeforePR_ENG=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF31_BeforePR_DC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF31_BeforePR_EE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_EMOT_VF31_BeforePR_INTERNAL=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF31_BeforePR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF31_BeforePR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF31_BeforePR_CHA/VHC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF31_BeforePR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF31_BeforePR_BIW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_EMOT_VF31_BeforePR_EXTERNAL=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF32_BeforePR_EE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF32_BeforePR_ENG=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF32_BeforePR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF32_BeforePR_EXT_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF32_BeforePR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_EMOT_VF32_BeforePR_INTERNAL=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_EMOT_VF32_BeforePR_EXTERNAL=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF32_BeforePR_INT_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF32_BeforePR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF32_BeforePR_BIW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF32_BeforePR_DC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF32_BeforePR_CHA/VHC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF33_BeforePR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF33_BeforePR_ENG=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF33_BeforePR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF33_BeforePR_EXT_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF33_BeforePR_INT_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF33_BeforePR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF33_BeforePR_BIW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF33_BeforePR_CHA/VHC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF33_BeforePR_DC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_VF33_BeforePR_EE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_BeforePR_ImpactVehicle=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_BeforePR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_BeforePR_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_BeforePR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_BeforePR_ImpactVehicle=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_BeforePR_EE_HW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_BeforePR_CHA=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_BeforePR_EE_SW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_BeforePR_STAMPING=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_BeforePR_INT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_BeforePR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_BeforePR_GLUE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_BeforePR_CHA=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_BeforePR_PLASTIC=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_BeforePR_PWT=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_31_BeforePR_STAMPING=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_BeforePR_GLUE=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_BeforePR_EE_HW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_BeforePR_EE_SW=Chief ENG Business Review:khangnv1</value>
+        <value>VinFast ECR_Before PR|Car Battery.Battery Program|VF_ECR_BATT_VF_32_BeforePR_EXT=Chief ENG Business Review:khangnv1</value>
+        <value>zzzTest_C-SUV_ECR_BeforePR|VF36/VFe36|zzzTest_VF32_ECR_BeforePR=CM Check:admin.thuy</value>
+      </context>
+    </preference>
+    <preference name="VINF_COST_AVAILABLE_OBJECT_TYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VINF_COST_AVAILABLE_OBJECT_TYPES</preference_description>
+      <context name="Teamcenter">
+        <value>VF4_DesignRevision</value>
+        <value>PR4D_MS_IT_VINFRevision</value>
+        <value>VF3_Scooter_partRevision</value>
+        <value>VF4_BP_DesignRevision</value>
+      </context>
+    </preference>
+  </category>
+</preferences>

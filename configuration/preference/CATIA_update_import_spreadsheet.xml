@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_update_import_spreadsheet" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Preserve/Delete the current import spreadsheet when starting a create import spreadsheet process.
+Possible values:
+- true: Import spreadsheet is preserved. The existing spreadsheet will be updated.
+- false: Import spreadsheet is deleted. A new spreadsheet will be created.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

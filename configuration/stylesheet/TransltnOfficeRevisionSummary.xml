@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2009. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: TransltnOfficeRevisionSummary.xml  
+   
+     Default style sheet for displaying TransltnOfficeRevision Summary
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+08/25/10     desouza                 Initial Version 
+======================================================================= 
+@<DEL>@  
+--> 
+
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+   <page titleKey="tc_xrt_Overview">
+    <section titleKey="tc_xrt_ItemProperties">
+      <property name="translOfficeName"/>
+      <property name="translOfficeTitle"/>
+      <property name="Address"/>
+      <property name="ContactName"/>
+      <property name="Phone"/>
+      <property name="Website"/>
+      <property name="epm_proposed_responsible_party" />
+      <property name="emailInbox"/>
+      <property name="styleTypeRef"/>
+      <property name="deliverComposedContent"/>
+      <property name="deliverDecomposedContent"/>
+      <property name="includeSupportingData"/>
+    </section>
+    <section titleKey="tc_xrt_ctm0LanguageKey">
+      <objectSet source="languagesTbl.LanguagesTbl" defaultdisplay="tableDisplay" sortby="language" sortdirection="ascending">
+        <tableDisplay>
+          <property name="fnd0LanguageTagref"/>
+          <property name="reviewOrdered"/>
+        </tableDisplay>
+        <command commandId="com.teamcenter.rac.contmgmtbase.newLanguagesTbl" renderingHint="commandbutton"/>
+        <command commandId="com.teamcenter.rac.contmgmtbase.DeleteTableItem" renderingHint="commandbutton">
+          <parameter name="localSelection" value="true"/>
+        </command>
+      </objectSet>
+    </section>
+  </page>
+  <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+		<objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="lis0site"/>
+				<property name="lis0serviceProvider"/>
+				<property name="relation"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+			<command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+				<parameter name="localSelection" value="true"/>
+			</command>
+			<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+			<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+				<parameter name="localSelection" value="true"/>
+			</command>
+		</objectSet>
+	</page>
+
+
+</rendering>

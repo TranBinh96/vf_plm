@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2012 UGS Corporation
+Unpublished - All Rights Reserved.
+===============================================================================
+
+Filename: PlantRevisionSummary.xml 
+Charu Sharma 2014-07-23
+
+Default style sheet for displaying Plant Summary.
+
+-->
+<rendering xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source = "type"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "release_status_list" renderingHint = "label"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title = "Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title = "Properties">
+                <separator/>
+                <property name = "object_name"/>
+                <property name = "object_desc"/>
+                <property name = "release_status_list" renderingHint = "label"/>
+                <property name = "supplier_addr"/>
+                <property name = "contact_name"/>
+                <property name = "supplier_phone"/>
+                <property name = "web_site"/>
+                <property name = "email_addr"/>
+                <separator/>
+                <command commandId = "com.teamcenter.rac.properties" titleKey = "tc_xrt_moreProperties"/>
+            </section>
+            <section titleKey = "tc_xrt_Locations" title = "Locations">
+                <objectSet source = "LocationInCompany.CompanyLocation" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_name"/>
+                        <property name = "street"/>
+                        <property name = "city"/>
+                        <property name = "state_province"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                </objectSet>
+            </section>
+            <section titleKey = "tc_xrt_Contacts" title = "Contacts">
+                <objectSet source = "ContactInCompany.CompanyContact" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "first_name"/>
+                        <property name = "last_name"/>
+                        <property name = "phone_business"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                </objectSet>
+            </section>
+        </column>
+        <column>
+            <section titleKey = "tc_xrt_Ownership" title = "Ownership">
+                <separator/>
+                <property name = "owning_user" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "owning_group" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "last_mod_user"/>
+                <separator/>
+                <property name = "checked_out"/>
+                <property name = "checked_out_user"/>
+            </section>
+            <section titleKey="tc_xrt_ClassificationProperties" title = "Classification Properties">
+                <classificationProperties/>
+            </section>
+            <section titleKey="tc_xrt_Preview">
+                <image source="preview"/>
+            </section>
+            <section titleKey = "tc_xrt_actions">
+                <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy"/>
+                <command actionKey = "saveAsAction" commandId = "org.eclipse.ui.file.saveAs"/>
+                <command actionKey = "newProcessAction" commandId = "com.teamcenter.rac.newProcess" titleKey = "tc_xrt_newProc"/>
+            </section>
+        </column>
+    </page>
+    <page titleKey="tc_xrt_attachments" title = "Attachments">
+        <section titleKey="tc_xrt_QualityDocuments" title = "Quality Documents">
+            <objectSet source = "TC_Quality_Document.DocumentRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "last_mod_date"/>
+                    <property name = "last_mod_user"/>
+                    <property name = "checked_out_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "last_mod_date"/>
+                    <property name = "last_mod_user"/>
+                    <property name = "checked_out_user"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_History" title = "History">
+        <section titleKey="tc_xrt_History" title = "History">
+            <objectSet source = "revision_list.ItemRevision" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

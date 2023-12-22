@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CrossProbing_SelectedRelationTypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Lists the specific relation types and subtypes that are designated as targets for the current cross-domain tracing operation. These relations are displayed in the Shown Relations pane of the Options dialog box. Users select the target relations from the Available Relations pane, which lists all relation types and subtypes that can be selected for cross-domain tracing. This master list is controlled by the CrossProbing_AllowedRelationTypes preference.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid trace link relation type or subtype that can be used as a search keyword.</preference_description>
+      <context name="Teamcenter">
+        <value>FND_TraceLink</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

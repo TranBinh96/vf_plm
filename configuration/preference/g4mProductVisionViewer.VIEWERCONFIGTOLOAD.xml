@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Viewer">
+    <category_description>Viewer-specific preferences.</category_description>
+    
+               <preference name="g4mProductVisionViewer.VIEWERCONFIGTOLOAD" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the viewer configuration name to load for the G4M Product Vision Viewer.
+This is a user preference.</preference_description>
+      <context name="Teamcenter">
+        <value>g4mViewerConfig.VIEWERCONFIG</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

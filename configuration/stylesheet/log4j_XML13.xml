@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+   <!--
+   bcprt
+   This software and related documentation are proprietary to UGS Corp.
+   COPYRIGHT 2007 UGS CORP.  ALL RIGHTS RESERVED
+   ecprt
+   -->
+
+   <!-- ========== Start of Appenders section ==========  -->
+
+   <!-- the console -->
+
+   <appender name="ProcessConsoleAppender" class="org.apache.log4j.ConsoleAppender">
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+   <!-- Appenders for MLD Performance instrumentation -->
+
+   <appender name="ProcessAppender" class="org.apache.log4j.RollingFileAppender">
+      <param name="Append"         value="true"/>
+      <param name="File"           value="${java.io.tmpdir}/${user.name}Process.log"/>
+      <param name="MaxBackupIndex" value="5"/>
+      <param name="MaxFileSize"    value="10MB"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+   <appender name="TaskAppender" class="org.apache.log4j.FileAppender">
+      <param name="Append" value="true"/>
+      <param name="File"   value="${java.io.tmpdir}/${user.name}Task.log"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" 
+                value="%-5p %d - %m%n"/>
+      </layout>
+   </appender>
+
+   <!-- daily rolling files.... time limited -->
+
+   <appender name="PLM2" class="org.apache.log4j.DailyRollingFileAppender">
+      <param name="File" value="${java.io.tmpdir}/${user.name}RTTraces.txt"/>
+      <param name="Append" value="true"/>
+      <param name="bufferSize" value="8192"/>
+      <param name="bufferedIO" value="false"/>
+      <param name="immediateFlush" value="true"/>
+      <param name="datePattern" value="'.'yyyy-MM-dd"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+   <appender name="PLM3" class="org.apache.log4j.DailyRollingFileAppender">
+      <param name="File" value="${java.io.tmpdir}/${user.name}RTRemotes.txt"/>
+      <param name="Append" value="true"/>
+      <param name="bufferSize" value="8192"/>
+      <param name="bufferedIO" value="false"/>
+      <param name="immediateFlush" value="true"/>
+      <param name="datePattern" value="'.'yyyy-MM-dd"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+   <appender name="PLM4" class="org.apache.log4j.DailyRollingFileAppender">
+      <param name="File" value="${java.io.tmpdir}/${user.name}RTEvents.txt"/>
+      <param name="Append" value="true"/>
+      <param name="bufferSize" value="8192"/>
+      <param name="bufferedIO" value="false"/>
+      <param name="immediateFlush" value="true"/>
+      <param name="datePattern" value="'.'yyyy-MM-dd"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+
+   <!-- Appender for FSC Logs -->
+   <appender name="FSCAppender" class="org.apache.log4j.RollingFileAppender">
+      <param name="Append"         value="true"/>
+      <param name="File"           value="${java.io.tmpdir}/${user.name}fsc.log"/>
+      <param name="MaxBackupIndex" value="5"/>
+      <param name="MaxFileSize"    value="10MB"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+   <!-- Appender for TCCS Logs -->
+   <appender name="TCCSAppender" class="org.apache.log4j.RollingFileAppender">
+      <param name="Append"         value="true"/>
+      <param name="File"           value="${java.io.tmpdir}/${user.name}tccs.log"/>
+      <param name="MaxBackupIndex" value="5"/>
+      <param name="MaxFileSize"    value="10MB"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+   <!-- Appender for FSC audit events -->
+   <appender name="FSCAuditAppender" class="org.apache.log4j.RollingFileAppender">
+      <param name="Append"         value="true"/>
+      <param name="File"           value="${java.io.tmpdir}/${user.name}audit.log"/>
+      <param name="MaxBackupIndex" value="5"/>
+      <param name="MaxFileSize"    value="10MB"/>
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern"
+                value="%-5p - %m%n"/>
+      </layout>
+   </appender>
+
+
+   <!-- =============== End of Appenders section ============= -->
+
+   <!-- +++++++++++++++ Category section +++++++++++++++++++++ -->
+
+   <!-- start MLD loggers/categories -->
+   <logger name="com.teamcenter.mld.jmx" additivity="false">
+      <level value="warn" />
+      <appender-ref ref="ProcessAppender"/>
+      <appender-ref ref="ProcessConsoleAppender"/>
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx.RTGaugeMonitor" additivity="false">
+      <level value="warn" />
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx.ResponseTimeTraceListener" additivity="false">
+      <level value="warn" />
+      <appender-ref ref="PLM2" />
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx.ResponseTimeGaugeListener" >
+      <level value="warn" />
+      <appender-ref ref="PLM4" />
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx.ConfigurationListener" additivity="false">
+      <level value="warn" />
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx.NotificationLogger" additivity="false" >
+      <level value="warn" />
+      <appender-ref ref="PLM3" />
+   </logger>
+
+   <logger name="com.teamcenter.mld.jmx.NotificationLoggerServer" additivity="false">
+      <level value="warn" />
+   </logger>
+
+   <logger name="Process">
+      <level value="warn"/>
+      <appender-ref ref="ProcessAppender"/>
+      <appender-ref ref="ProcessConsoleAppender"/>
+   </logger>
+
+   <logger name="Task">
+      <level value="warn"/>
+      <appender-ref ref="TaskAppender"/>
+   </logger>   
+
+   <!-- end MLD loggers/categories -->
+
+
+   <!-- Start TCCS loggers/categories -->
+   
+   <!-- TCCS logger -->
+
+   <logger name="com.teamcenter.net" additivity="false">
+       <level value="warn"/>
+       <appender-ref ref="TCCSAppender"/>
+       <appender-ref ref="ProcessConsoleAppender"/>
+   </logger>
+
+   <logger name="com.teamcenter.net.commservice.ShutdownLogger">
+       <level value="info"/>
+   </logger>
+   
+   <logger name="com.teamcenter.net.commservice.TCCSMain">
+       <level value="warn"/>
+   </logger>
+   
+   <logger name="com.teamcenter.net.commservice.HttpProperty">
+       <level value="warn"/>
+   </logger>
+   
+   <logger name="com.teamcenter.net.tcserverproxy">
+       <level value="warn"/>
+   </logger>
+
+   <logger name="com.teamcenter.net.TcServerProxyApp">
+       <level value="warn"/>
+   </logger>
+
+   <logger name="com.teamcenter.net.proxy.http.ProxiedHttpClient">
+       <level value="warn"/>
+   </logger>
+
+   <logger name="com.teamcenter.net.TcProxyClientInit">
+       <level value="warn"/>
+   </logger>
+   
+   <logger name="com.teamcenter.net.tcmodeleventmanager">
+       <level value="warn"/>
+   </logger>
+
+   <logger name="com.teamcenter.net.TcModelEventManagerApp">
+       <level value="warn"/>
+   </logger>
+   
+   <!-- ***************** All known TCCC loggers ****************
+   
+       com.teamcenter.net.tcserverproxy.http.HttpTSPProcessor.
+       com.teamcenter.net.tcserverproxy.http.TSPRequestEntity 
+       com.teamcenter.net.tcserverproxy.http.TSPHttpStateManager
+       com.teamcenter.net.tcserverproxy.TSPInputStream 
+       com.teamcenter.net.tcserverproxy.TSPPipeAcceptor 
+       com.teamcenter.net.tcserverproxy.TSPPRxPipeProcessor 
+       com.teamcenter.net.tcserverproxy.TSPReplyHandler 
+       com.teamcenter.net.tcserverproxy.TSPRequestProcessor 
+       com.teamcenter.net.TcServerProxyApp 
+
+       com.teamcenter.net.auth.JavaAuthenticator 
+       com.teamcenter.net.auth.tccs.ReverseProxyBase
+       com.teamcenter.net.TcProxyClientInit 
+       com.teamcenter.net.proxy.ProxyConfig
+       com.teamcenter.net.proxy.http.EasySSLProtocolSocketFactory
+       com.teamcenter.net.proxy.http.EasyX509TrustManager
+       com.teamcenter.net.proxy.http.ProxiedHttpClient 
+
+       com.teamcenter.net.commservice.TCCSMain 
+       com.teamcenter.net.commservice.util.MonitorDataWrapper
+       
+       com.teamcenter.net.tcmodeleventmanager.TcMEMPipeAcceptor
+       com.teamcenter.net.tcmodeleventmanager.ServiceDataProcessor
+       com.teamcenter.net.TcModelEventManagerApp       
+
+   ***************** End of FSC loggers ********************* -->
+
+   <!-- End TCCS loggers/categories -->
+
+
+   <!-- Start FSC loggers/categories -->
+
+   <!-- FSC logger -->
+   <logger name="com.teamcenter.fms" additivity="false">
+       <level value="warn"/>
+       <appender-ref ref="FSCAppender"/>
+       <appender-ref ref="ProcessConsoleAppender"/>
+   </logger>
+
+   <!-- new audit logger, directed only to file, needs to be set to info for output to be generated -->
+   <logger name="audit" additivity="false">
+      <level value="warn" />
+      <appender-ref ref="FSCAuditAppender"/>
+      <!-- <appender-ref ref="FSCAppender"/> -->
+      <!-- <appender-ref ref="ProcessConsoleAppender"/> -->
+   </logger>
+
+   <!-- org and httpclient loggers for commons-httpclient. log4j puts these in debug mode and swallows all output if not defined -->
+   <logger name="org" additivity="false">
+       <level value="warn"/>
+       <appender-ref ref="FSCAppender"/>
+       <appender-ref ref="ProcessConsoleAppender"/>
+   </logger>
+   <logger name="httpclient" additivity="false">
+       <level value="warn"/>
+       <appender-ref ref="FSCAppender"/>
+       <appender-ref ref="ProcessConsoleAppender"/>
+   </logger>
+
+   <!-- ***************** All known FSC loggers ****************
+   
+      These can be adjusted at runtime using the fscadmin utility.
+
+      com.teamcenter.fms
+      com.teamcenter.fms.servercache.admincommands.CoordinatorCommon
+      com.teamcenter.fms.servercache.cache.SingleRouteFastCacheHoleDownloader
+      com.teamcenter.fms.servercache.cache.SingleRouteNoCacheHoleDownloader
+      com.teamcenter.fms.servercache.FileHandleCacheManager
+      com.teamcenter.fms.servercache.FMSCacheUtil
+      com.teamcenter.fms.servercache.FMSFileStoreUtil
+      com.teamcenter.fms.servercache.FMSServerCache - this is the 'admin' logger and should remain at the info level to log admin related activity
+      com.teamcenter.fms.servercache.FMSWebHandlerRoot
+      com.teamcenter.fms.servercache.FSCConfigManager
+      com.teamcenter.fms.servercache.FSCContextHandler
+      com.teamcenter.fms.servercache.FSCServerState
+      com.teamcenter.fms.servercache.handlers.FastCacheHandler
+      com.teamcenter.fms.servercache.handlers.FastCacheOutputStream
+      com.teamcenter.fms.servercache.handlers.LocalNormalizingFastCacheHandler
+      com.teamcenter.fms.servercache.handlers.MultiRouteFastCacheHoleHandler
+      com.teamcenter.fms.servercache.handlers.MultiRoutePostHandler
+      com.teamcenter.fms.servercache.handlers.MultiRouteRemoteReadHandler
+      com.teamcenter.fms.servercache.io.HttpCommonsUploader
+      com.teamcenter.fms.servercache.io.JavaNetDownloader
+      com.teamcenter.fms.servercache.LoadFSCCacheHandler
+      com.teamcenter.fms.servercache.LoadFSCQueue
+      com.teamcenter.fms.servercache.LocalAdminHandler
+      com.teamcenter.fms.servercache.Log4JHelper
+      com.teamcenter.fms.servercache.PerfLog
+      com.teamcenter.fms.servercache.routing.FSCCommonRouter
+      com.teamcenter.fms.servercache.routing.FSCRouteHandler
+      com.teamcenter.fms.servercache.routing.FSCRouterManager
+      com.teamcenter.fms.servercache.routing.LinkQuarantineList
+      com.teamcenter.fms.servercache.routing.RouteInvocationHandler
+      com.teamcenter.fms.servercache.simplehandlers.AvailableFSCsHandler
+      com.teamcenter.fms.servercache.simplehandlers.BootstrapHandler
+      com.teamcenter.fms.servercache.simplehandlers.FCCConfigHandler
+      com.teamcenter.fms.servercache.simplehandlers.MasterConfigFileHandler
+      com.teamcenter.fms.servercache.simplehandlers.MasterConfigMD5Handler
+      com.teamcenter.fms.servercache.simplehandlers.MSFrontPageHandler
+      com.teamcenter.fms.servercache.simplehandlers.OptionsHandler
+      com.teamcenter.fms.servercache.simplehandlers.SingleResourceHandler
+      com.teamcenter.fms.servercache.simplehandlers.UnhandledHandler
+      com.teamcenter.fms.servercache.ticket.FSCF100Router
+      com.teamcenter.fms.servercache.ticket.FSCM050Router
+      com.teamcenter.fms.servercache.ticket.FSCv100Router
+      com.teamcenter.fms.servercache.TicketCache
+      com.teamcenter.fms.servercache.TraceCapture
+      com.teamcenter.fms.servercache.util.TransferObject
+      com.teamcenter.fms.servercache.WebHandlerHelper
+
+      Commons related loggers:
+
+      httpclient.wire
+      org.apache.commons.httpclient.ChunkedOutputStream
+      org.apache.commons.httpclient.cookie.CookiePolicy
+      org.apache.commons.httpclient.cookie.CookieSpec
+      org.apache.commons.httpclient.HttpClient
+      org.apache.commons.httpclient.HttpConnection
+      org.apache.commons.httpclient.HttpConstants
+      org.apache.commons.httpclient.HttpMethodBase
+      org.apache.commons.httpclient.HttpParser
+      org.apache.commons.httpclient.HttpState
+      org.apache.commons.httpclient.methods.ExpectContinueMethod
+      org.apache.commons.httpclient.methods.GetMethod
+      org.apache.commons.httpclient.methods.multipart.Part
+      org.apache.commons.httpclient.methods.multipart.StringPart
+      org.apache.commons.httpclient.methods.MultipartPostMethod
+      
+   ***************** End of FSC loggers ********************* -->
+
+   <!-- End FSC loggers/categories -->
+
+
+   <!-- +++++++++++++++ End of Category section +++++++++++++ -->
+
+   <!-- work around MLD logger issue short term LoggerResponder is used without a package name, which ends up indirectly is referring to root -->
+   <root>
+      <level value="warn"/>
+      <appender-ref ref="ProcessAppender"/>
+      <appender-ref ref="ProcessConsoleAppender"/>
+   </root>
+
+</log4j:configuration>
+
+   
+   

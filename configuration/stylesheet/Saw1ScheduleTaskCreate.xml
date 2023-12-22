@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Saw1ScheduleTaskCreate.xml
+    Style sheet rendering for Schedule Task creation.
+=======================================================================
+-->
+<rendering>
+    <page title="Enter ScheduleTask Name and Description" titleKey="tc_xrt_ScheduleTaskNameandDescription">
+        <section>
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="start_date" />
+            <property name="finish_date" />
+            <property name="fnd0WorkEffortString" />
+        </section>
+    </page>
+</rendering>

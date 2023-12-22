@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_ALLOW_INPROCESS_REMOVAL_OF_SUB_SCHEDULE" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Prevents removal of started subschedules.The value of this preference is overridden by the value of the SM_PREVENT_DELETE_STATES preference for subschedules. In other words, if a subschedule&apos;s state is one of the set values of SM_PREVENT_DELETE_STATES, it cannot be deleted or removed, even if this preference is set to true.For example, the subschedule cannot be removed or deleted if the following conditions exist:SM_ALLOW_INPROCESS_REMOVAL_OF_SUB_SCHEDULE is set to true.SM_PREVENT_DELETE_STATES is set to in_progress, complete, aborted.The subschedule state is set to aborted.After you change this preference&apos;s value, you must log off and then log on for it to take effect.
+Valid Values:
+true
+false</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_SnapShotViewData.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Registration of summary stylesheet for SnapShotViewData objects.</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0SnapShotViewDataSummary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

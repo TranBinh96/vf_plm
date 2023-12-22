@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_pattern_match_style" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the pattern matching style to use. Valid values are 1/2/3.
+1 - use &quot;%&quot; for multi-char replacement, use &quot;_&quot; for single char replacement.
+2 - use &quot;*&quot; for multi-char replacement, use &quot;.&quot; for single char replacement.
+3 - use &quot;*&quot; for multi-char replacement, use &quot;?&quot; for single char replacement.</preference_description>
+      <context name="Teamcenter">
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

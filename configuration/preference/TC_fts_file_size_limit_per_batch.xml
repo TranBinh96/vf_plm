@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_file_size_limit_per_batch" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the total file size limit (in MB) for each index batch.
+In some cases, most of the files contains little text and the user can therefore enlarge this value to index more files in one index batch.
+Valid value is between 10 and 1000.</preference_description>
+      <context name="Teamcenter">
+        <value>50</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

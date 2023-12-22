@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IMAN_MEWorkArea_relation_primary" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the list of valid primary object types for the relation IMAN_MEWorkArea. Format is &lt;Relation Name&gt;_relation_primary=List of valid primary object types.</preference_description>
+      <context name="Teamcenter">
+        <value>MEProcessRevision</value>
+        <value>MEOPRevision</value>
+        <value>IMAN_3D_snap_shot</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

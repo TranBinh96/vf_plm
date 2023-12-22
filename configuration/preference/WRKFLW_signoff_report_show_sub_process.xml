@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_signoff_report_show_sub_process" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the details of Signoff, for the parent process and sub-processes, shown in the Signoff report in the Workflow application.
+Valid Values:
+0 - Shows signoff details for the parent process as well as dependent or independent sub-processes.
+1 - Shows signoff details for the parent process and only dependent sub-processes. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

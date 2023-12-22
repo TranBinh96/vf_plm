@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MELBChartProcessOperationTypeDefaultValues" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies which types of objects have view options (View Menu-&gt;View Options) in the line balancing chart.This preference lets users quickly change the MELBChartProcessOperationType preference from the line balancing chart interface.
+Valid Values:
+ValueDescriptionMEOPOperation.MEProcessProcess.custom-object-nameIf an assembly line uses multiple types of operations, an administrator can define custom values for each. For example, if an assembly line planner wants to limit processes and operations in the line balancing chart view so that only riveting and welding operations are visible, the administrator can define these custom views and give them custom names such as MERivetOP, MERivetProcess, MEWeldOP, and MEWeldProcess. The planner can then quickly switch between them in the line balancing chart view options.</preference_description>
+      <context name="Teamcenter">
+        <value>MEOP</value>
+        <value>MEProcess</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

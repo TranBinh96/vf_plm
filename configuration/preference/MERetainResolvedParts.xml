@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MERetainResolvedParts" type="Logical" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Specifies whether the resolved parts under a logical assignment are retained if the logical assignment is resolved. If you set this preference to true:Parts from all products for which the resolve action is carried out are displayed as consumed parts.If parts are configured out of the structure, they are still displayed in the Assignments view.If you remove a part from the product structure, you can still see the part in the Assignments view although it is not visible in the structure view.
+Valid Values:
+true - Teamcenter does not remove the existing resolved part when resolving again.
+false - Teamcenter removes the existing resolved part when it resolves again.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

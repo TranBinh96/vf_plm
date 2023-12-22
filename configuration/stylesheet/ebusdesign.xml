@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ItemCreate.xml
+
+    Style sheet rendering for Item creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="Item Information" titleKey="tc_xrt_ItemInformation">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="fnd0IdGenerator:vf4_ebus_vehicle_group"/>
+            <separator/>
+            <property name="uom_tag" /> 
+        </section>
+
+    </page>
+
+</rendering>

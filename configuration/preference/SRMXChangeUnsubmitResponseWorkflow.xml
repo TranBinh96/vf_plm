@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SRMXChangeUnsubmitResponseWorkflow" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the name of the Workflow Template used for starting a Workflow Process through the command &quot;Unsubmit Response&quot; for Supplier Response in the Summary view of the Teamcenter application.
+The default value is &quot;Unsubmit Response&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Unsubmit Response</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

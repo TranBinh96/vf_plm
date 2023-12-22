@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2012 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2012 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<!--Filename: S2clEnvelopeSummary.xml
+
+06/24/2013  Delaware Release
+
+Default style sheet for displaying S2clEnvelope poperties.
+-->
+<rendering xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source = "type"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "release_status_list"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey = "tc_xrt_Overview">
+        <section title = "Properties">
+            <property name = "object_name"/>
+            <property name = "object_desc"/>
+            <property name = "owning_user" renderingHint = "objectlink" modifiable = "false"/>
+            <property name = "owning_group" renderingHint = "objectlink" modifiable = "false"/>
+        </section>
+        <section titleKey = "tc_xrt_Contents">
+            <objectSet source = "s2clAttachments.POM_object" defaultdisplay = "listDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

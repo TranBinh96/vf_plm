@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_external_app_reg_url" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the URL for of the Application Registry Web application (WAR file) deployment. This value is required to enable Teamcenter-to-Teamcenter remote inbox functionality.For information more about installing and deploying the Application Registry Web application, see the Application Registry and the Teamcenter Interoperability guide.
+Teamcenter administrators with valid WebKey accounts can access the Teamcenter Interoperability guide at the following location: http://support.ugs.com/docs/tc_eng/8/en/tss00004.pdf
+Valid Values:
+A single string as a value representing the URL of the ApplicationRegistry.war file This must be in the following format:http://appserver-host:port-number/ApplicationRegistry</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Substance Compliance">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Scp0Regulation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for Regulation(Scp0Regulation) objects.</preference_description>
+      <context name="Teamcenter">
+        <value>Scw0RegulationSummary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

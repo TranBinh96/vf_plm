@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ETS_update_state_delay" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the delay time in seconds after which a dispatcher request object can be updated.When there are multiple 
+dispatcher clients in a Dispatcher installation, multiple dispatcher clients can update the state of the same dispatcher request object. 
+The delay time makes sure that only one dispatcher client updates the dispatcher request object.If you set a very high delay time, the 
+performance of the dispatcher request may be affected. Siemens PLM Software recommends that the delay time should not be greater than 5 seconds.
+Valid Values:
+Must be a single positive integer.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

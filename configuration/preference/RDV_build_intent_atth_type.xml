@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_build_intent_atth_type" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the attachment type for the build intent of a CORP_Build object when a new version of a Tracking vehicle definition is imported. Tracking vehicle definitions are imported as CORP_Build objects with an attached saved variant rule which contains all the set option values. This rule is attached with a specification relation to the CORP_Build revision. Tracking vehicle information is imported in the form of a PLM XML file.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter relation type.</preference_description>
+      <context name="Teamcenter">
+        <value>CORP_Vehicle Revision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <page titleKey="tc_xrt_Overview">
+			<section title="Piece Cost">
+				<property name="vf4_piece_cost_curr"/>
+				<property name="vf4_piece_cost_value_status"/>
+				<property name="vf4_supplier_package_amount"/>
+				<property name="vf4_supplier_logisis_cost"/>
+				<property name="vf4_total_cost"/>
+				<property name="vf4_quality_of_finance"/>
+			</section>
+            <section title="Investment">
+				<property name="vf4_tooling_invtest_curr"/>
+				<property name="vf4_tooling_invest_value"/>
+				<separator/>
+				<property name="vf4_refurbish_tooling_curr"/>
+				<property name="vf4_refurbish_tooling_value"/>
+				<separator/>
+				<property name="vf4_facility_invest_curr"/>
+				<property name="vf4_facility_invest_amount"/>
+				<separator/>
+				<property name="vf4_miscellaneous_cost_curr"/>
+				<property name="vf4_miscellaneous_cost"/>
+            </section>
+			<section title="Proto"> 
+				<property name="vf4_proto_tooling_curr"/>
+				<property name="vf4_proto_tooling_value"/>
+				<separator/>
+				<property name="vf4_proto_piece_price_curr"/>
+				<property name="vf4_proto_piece_price"/>
+		</section>
+    </page>
+    <page titleKey="tc_xrt_AuditLogs" visibleWhen="{pref:TC_audit_manager_version}==3 and {pref:AWC_show_audit_logs}==true">
+         <section titleKey="tc_xrt_GeneralLogs">
+            <objectSet source="fnd0GeneralAuditLogs.Fnd0GeneralAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="descending">
+                <tableDisplay>
+					<property name="fnd0LoggedDate"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="fnd0UserId"/>
+                    <property name="fnd0ChangeID"/>
+                    <property name="fnd0Reason"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>
+					<property name="vf4_FacilityInvestAmountNew" titleKey="Facility Investment Amount" />
+					<property name="vf4_FacilityInvestAmountOld" titleKey="Facility Investment Amount Old" />
+					<property name="vf4_FacilityInvestCurrNew" titleKey="Facility Investment Currency" />
+					<property name="vf4_FacilityInvestCurrOld" titleKey="Facility Investment Currency Old" />
+					<property name="vf4MiscellaneousCostCurrNew" titleKey="Miscellaneous Cost Currency" />
+					<property name="vf4MiscellaneousCostCurrOld" titleKey="Miscellaneous Cost Currency Old" />
+					<property name="vf4_miscellaneous_costNew" titleKey="Miscellaneous Cost Value" />
+					<property name="vf4_miscellaneous_costOld" titleKey="Miscellaneous Cost Value Old" />
+					<property name="vf4_piece_cost_curr" titleKey="Piece Cost Currency Status" />
+					<property name="vf4_piece_cost_currOvl" titleKey="Piece Cost Currency Status Old" />
+					<property name="vf4_piece_cost_value_status" titleKey="Piece Cost Value Status" />
+					<property name="vf4_pieceCostValueStatusOld" titleKey="Piece Cost Value Status Old" />
+					<property name="vf4_proto_piece_price" titleKey="Proto Piece Price" />
+					<property name="vf4_proto_piece_priceOvl" titleKey="Proto Piece Price Old" />
+					<property name="vf4_proto_piece_price_curr" titleKey="Proto Piece Price Currency" />
+					<property name="vf4_ProtoPiecePriceCurrOvl" titleKey="Proto Piece Price Currency Old" />
+					<property name="vf4_proto_tooling_curr" titleKey="Proto Tooling Currency" />
+					<property name="vf4_proto_tooling_currOvl" titleKey="Proto Tooling Currency Old" />
+					<property name="vf4_proto_tooling_value" titleKey="Proto Tooling Value" />
+					<property name="vf4_proto_tooling_valueOvl" titleKey="Proto Tooling Value Old" />
+					<property name="vf4_quality_of_finance" titleKey="Quality of Finance" />
+					<property name="vf4_quality_of_financeOvl" titleKey="Quality of Finance Old" />
+					<property name="vf4_rno_refer_number" titleKey="RnO Reference For The Cost Input" />
+					<property name="vf4_rno_refer_numberOvl" titleKey="RnO Reference For The Cost Input Old" />
+					<property name="vf4_refurbish_tooling_value" titleKey="Refurbishment Tooling Value" />
+					<property name="vf4RefurbishToolingValueOvl" titleKey="Refurbishment Tooling Value Old" />
+					<property name="vf4_supplier_logisis_cost" titleKey="Supplier Logistics Cost" />
+					<property name="vf4SupplierLogisisCostOvl" titleKey="Supplier Logistics Cost Old" />
+					<property name="vf4_supplier_package_amount" titleKey="Supplier Packaging Amount" />
+					<property name="vf4SupplierPackageAmountOvl" titleKey="Supplier Packaging Amount Old" />
+					<property name="vf4_tooling_invtest_curr" titleKey="Tooling Investment Currency Status" />
+					<property name="vf4_tooling_invtest_currOvl" titleKey="Tooling Investment Currency Status Old" />
+					<property name="vf4_tooling_invest_value" titleKey="Tooling Investment Value Status" />
+					<property name="vf4_tooling_invest_valueOvl" titleKey="Tooling Investment Value Status Old" />
+
+
+                </tableDisplay>
+            </objectSet>
+        </section>
+     </page>
+</rendering>

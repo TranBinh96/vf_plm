@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_CUSTOM_SUBSTANCE_TYPE" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the substance type to use for search for substances from RAC in case the customer has a new custom Mat1Substance subtype. 
+The default value is Mat1Substance.</preference_description>
+      <context name="Teamcenter">
+        <value>Mat1Substance</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

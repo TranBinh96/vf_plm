@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mfg0MEPlantBOPRevisionOccGroupColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the columns to display in the partition tab of the plant BOP.
+Valid Values:
+Accepts the internal name of each column in the order you want them to appear. For example:
+value_1, value_2, and so on.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_indented_title</value>
+        <value>bl_item_object_type</value>
+        <value>bl_item_object_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AE_dataset_id_usage" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether dataset identification functionality is enabled.
+Valid Values:
+ON - Dataset ID and Revision ID fields are displayed as required fields in the New Dataset and Save Dataset As dialog boxes. Automatic generation of dataset names is disabled. Setting site preference AE_dataset_id_usage to ON prevents Content Management from functioning correctly.
+OFF - Dataset ID and Revision ID fields are not displayed. Automatic generation of dataset names is enabled.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

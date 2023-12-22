@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PUBLISHEDOBJECT_object_columns_shown" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of column names that will be shown for objects of type PublishedObject.</preference_description>
+      <context name="Teamcenter">
+        <value>po_object_id</value>
+        <value>po_object_rev_id</value>
+        <value>po_object_name</value>
+        <value>po_object_type</value>
+        <value>po_owning_site</value>
+        <value>po_object_rel_stat_names</value>
+        <value>po_object_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

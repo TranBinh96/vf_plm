@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_MDS_Review_Upload_XSL_Name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the path to the XSL file used to convert TC-XML files into the International Material Data System (IMDS) Review Status Upload XML file.</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">$TC_DATA/tcsc_imds_integration/xsl/tcxml_to_imds_status_upload.xsl</value>
+        <value platform="WNT">%TC_DATA%\tcsc_imds_integration\xsl\tcxml_to_imds_status_upload.xsl</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

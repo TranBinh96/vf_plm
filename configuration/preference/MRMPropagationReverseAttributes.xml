@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMPropagationReverseAttributes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines what attributes should be propagated in the opposite order.
+By default, assembly attributes are propagated bottom-up: Starting from the Propagation-Start-Point the components are checked up to the root component to find specific attribute values. The first component closest to the Propagation-Start-Point provides the value.
+All attributes listed in the preference behave in the opposite order: For these attributes, the system checks from the root component down the structure to the component with the Propagation-Start-Point. In this case, the value of the component closest to the root will be propagated to the assembly.
+Valid values are all Classification attribute IDs.</preference_description>
+      <context name="Teamcenter">
+        <value>-40928</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

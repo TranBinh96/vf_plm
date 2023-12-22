@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+    <preference name="LOV_VF4_SOURCING_CAR_PROGRAM" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>This one created due to cannot get real value from display value of
+        LOV</preference_description>
+      <context name="Teamcenter">
+        <!-- Car -->
+        <value>VF3;VF3</value>
+        <value>VFe32;VFe32</value>
+        <value>VFe33;VFe33</value>
+        <value>VF31;VFe34</value>
+        <value>VFe34NG;VFe34S</value>
+        <value>VF32;VFe35/VF35</value>
+        <value>VF33;VFe36/VF36</value>
+        <value>S&amp;S;S&amp;S</value>
+        <value>V8;V8</value>
+        <!-- Escooter -->
+        <value>Escooter;Escooter</value>
+        <value>VF NEW GSM;VF NEW GSM</value>
+        <value>VF NEW 2024;VF NEW 2024</value>
+        <value>V5 LITE LFP 2024;V5 LITE LFP 2024</value>
+        <value>NC1;NC1</value>
+        <value>NB1;NB1</value>
+        <value>VK CITY;VK CITY</value>
+        <value>VK SPORT;VK SPORT</value>
+        <value>V5 CITY;V5 CITY</value>
+        <value>V5 CITY LFP;V5 CITY LFP</value>
+        <value>V5 LITE LFP;V5 LITE LFP</value>
+        <value>V7 SPORT LFP;V7 SPORT LFP</value>
+        <value>V9 SPORT LFP;V9 SPORT LFP</value>
+        <value>VF New;VF New</value>
+        <!-- EBUS -->
+        <value>EBUS;EBUS10</value>
+        <value>EBUS12;EBUS12</value>
+        <!-- Battery -->
+        <value>BP VFe32;BP VFe32</value>
+        <value>BP VFe33;BP VFe33</value>
+        <value>BP VF31;BP VFe34</value>
+        <value>BP VF7;BP VF7</value>
+        <value>BP VF32;BP VFe35/VF35</value>
+        <value>BP VF33;BP VFe36/VF36</value>
+        <value>BP EScooter;BP EScooter</value>
+        <value>BP LFP Escooter;BP LFP Escooter</value>
+        <value>BP Escooter KLN;BP Escooter KLN</value>
+        <value>BP Escooter 12V;BP Escooter 12V</value>
+        <value>BP Escooter 48V;BP Escooter 48V</value>
+        <value>BP Escooter 72V;BP Escooter 72V</value>
+        <value>BP ESS PowerWall;BP ESS PowerWall</value>
+        <value>BP Golf cart;BP Golf cart</value>
+        <!-- Cell -->
+        <value>ESS;ESS</value>
+        <value>ESS 20 FT;ESS 20 FT</value>
+        <value>ESS 20 FT 1500V;ESS 20 FT 1500V</value>
+        <value>Cell Gen 1/1.5;Cell Gen 1/1.5</value>
+        <value>Cell Gen 1.6;Cell Gen 1.6</value>
+        <value>Cell Gen 1.8;Cell Gen 1.8</value>
+        <value>Cell Gen 2;Cell Gen 2</value>
+        <value>Cell Gen 5.1_Prismatic;Cell Gen 5.1_Prismatic</value>
+        <value>Cell Gen 5.2_Prismatic;Cell Gen 5.2_Prismatic</value>
+        <value>Cell Gen PT_Cylindrical;Cell Gen PT_Cylindrical</value>
+        <value>Cell Gen 6;Cell Gen 6</value>
+        <!-- Emotor -->
+        <value>Emotor;Emotor</value>
+        <value>Emotor Scooter;Emotor Scooter</value>
+        <!-- AFS -->
+        <value>AF S&amp;S;AF S&amp;S</value>
+        <value>AFS EScooter;AFS EScooter</value>
+        <value>AFS EBIKE;AFS EBIKE</value>
+        <value>AFS VFe32;AFS VFe32</value>
+        <value>AFS VFe33;AFS VFe33</value>
+        <value>AFS VFe34S;AFS VFe34S</value>
+        <value>AFS EBUS;AFS EBUS</value>
+        <value>AFS EBUS12;AFS EBUS12</value>
+        <value>AFS VF31;AFS VFe34</value>
+        <value>AFS VF32;AFS VFe35</value>
+        <value>AFS VF33;AFS VFe36</value>
+        <value>AFS V8;AFS V8</value>
+        <!-- EE -->
+        <value>3IN1;3IN1</value>
+        <value>CPDU;CPDU</value>
+        <value>Home Charger;Home Charger</value>
+        <value>Portable Charger;Portable Charger</value>
+        <value>MCU;MCU</value>
+        <value>SCU;SCU</value>
+        <value>DCDC;DCDC</value>
+        <value>HMI;HMI</value>
+        <value>VCU;VCU</value>
+        <value>IPDU;IPDU</value>
+        <!-- SIG: SOR link kiện cơ khí viện dịch vụ thông minh -->
+        <value>MHU;MHU</value>
+        <value>XGW;XGW</value>
+      </context>
+    </preference>
+  </category>
+</preferences>
+               

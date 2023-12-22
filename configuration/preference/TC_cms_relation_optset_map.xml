@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_cms_relation_optset_map" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls mapping of Teamcenter relation names to the TC XML transfer option sets. Set this preference only when you want to control the relations that are included or excluded when an object is replicated.Multi-Site Collaboration allows you to include or exclude relations during transfers. During TC XML transfers, Multi-Site maps the user supplied relations to the corresponding TC XML transfer option set entry using the name-value pairs set by this preference.Use this preference to include or exclude relation objects during data_share or data_sync utility transactions that use the -low_level argument (TC XML transfers).
+Valid Values:
+One or more name-value pair strings, for example:IMAN_rendering,opt_rel_renderingThe name must be a valid Teamcenter relation, and the value must be a valid TC XML transfer options set entry.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_Rendering,opt_jt_ds</value>
+        <value>IMAN_manifestation,opt_nx_manif</value>
+        <value>IMAN_Simulation,opt_nx_sim</value>
+        <value>IMAN_UG_part_family_link,opt_nx_tmpl</value>
+        <value>IMAN_based_on,opt_based_on</value>
+        <value>IMAN_UG_scenario,opt_nx_scen</value>
+        <value>IMAN_reference,opt_reference_transfer</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

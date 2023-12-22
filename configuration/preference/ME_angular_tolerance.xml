@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ME_angular_tolerance" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the tolerance value (in degrees) under which small variations in the rotation section of a transform are considered equal. This value is used to normalize Euler angles of the rotation vector to the closest integer (floor). For example, if the rotation angle is changed from 1.11 to 1.12 and this preference is set to 0.1, the calculation is as follows:floor (1.11/0.1)=11 and floor (1.12/0.1)=11Because these results are equal (11), the angles are not flagged as different. Lowering the preference value to .01 results in the following calculation:floor (1.11/0.01)=111 and floor (1.12/0.01)=112These results are no longer equal meaning that the rotation between 1.11 and 1.12 are considered two different positions.
+Valid Values:
+Accepts a double value representing a degree amount.</preference_description>
+      <context name="Teamcenter">
+        <value>0.1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

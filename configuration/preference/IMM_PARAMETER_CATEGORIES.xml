@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_PARAMETER_CATEGORIES" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Defines the Categories for MetaParameter to be displayed as Tabfolder in the parameter view.</preference_description>
+      <context name="Teamcenter">
+        <value>All</value>
+        <value>Other</value>
+        <value>Mechanical</value>
+        <value>Electrical</value>
+        <value>Thermal</value>
+        <value>Substances</value>
+        <value>Physical</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Enable_Quantity_UoMs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>(Deprecated) This is deprecated in Teamcenter 13.1.0.4 and will be removed after Teamcenter 14.
+Defines the behavior to create &quot;Quantity Managed&quot; occurrences.
+For a given part structure, if a valid quantity value and a Unit of Measure (UoM) is defined, additional occurrences will be created.
+Valid values are the symbols for Units of Measure.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

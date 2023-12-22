@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VINF_General.JES_SOS">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VF_JES_SOS_LINES_INFO" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Assign Signoff profiles in MCN process</preference_description>
+      <context name="Teamcenter">
+        <value>Chassis=admin.huy;admin.rafi</value>
+        <value>Trim=admin.nguyen</value>
+        <value>Final=datamanager</value>
+      </context>
+    </preference>
+  </category>
+</preferences>

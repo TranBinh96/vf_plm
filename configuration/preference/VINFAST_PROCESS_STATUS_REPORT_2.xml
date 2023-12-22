@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINFAST_PROCESS_STATUS_REPORT_2" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference using for Process Status report
+Syntax: Process_Name,Root_Target_Type</preference_description>
+      <context name="Teamcenter">
+        <value>C-SUV Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>C-SUV Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>C-SUV Data Release Process (PR Status),VF4_ERNRevision</value>
+        <value>C-SUV Styling Release Process (A-Class),VF4_DesignRevision</value>
+        <value>Create_Sourcing_Process,VF4_DesignRevision</value>
+        <value>BPI_SOR_Release_Process,VF3_VES_BSOR_docRevision</value>
+        <value>D-SUV_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>EBus Data Release Process (I - Status),VF4_ERNRevision</value>
+        <value>EBus Data Release Process (P - Status),VF4_ERNRevision</value>
+        <value>EBus Data Release Process (PR - Status),VF4_ERNRevision</value>
+        <value>EBUS_Document_Release Process,VF4_ERNRevision</value>
+        <value>EScooter-ECN-Workflow,Vf6_ECNRevision</value>
+        <value>EScooter-ECR-Workflow,Vf6_ECRRevision</value>
+        <value>EScooter_Release_Workflow_Process,VF3_Scooter_partRevision</value>
+        <value>Escooter_BatteryPack_Release_Workflow_Process,VF4_BP_DesignRevision</value>
+        <value>Escooter_EE Design_Release_Workflow,VF3_Scooter_partRevision</value>
+        <value>Escooter_EE Design_ECR_Workflow,Vf6_ECRRevision</value>
+        <value>Escooter_EE Design_ECN_Workflow,Vf6_ECNRevision</value>
+        <value>SCP Data Release Process (I - Status),VF4_ERNRevision</value>
+        <value>SCP Data Release Process (P - Status),VF4_ERNRevision</value>
+        <value>SCP Data Release Process (PR - Status),VF4_ERNRevision</value>
+        <value>SCP_ECN_Evaluation,Vf6_ECNRevision</value>
+        <value>SCP_ECN_EVALUATION_AFTERPR,Vf6_ECNRevision</value>
+        <value>SCP_ECR_Evaluation,Vf6_ECRRevision</value>
+        <value>SCP_ECR_Evaluation_New,Vf6_ECRRevision</value>
+        <value>SCP_ECR_Evaluation_Simplified,Vf6_ECRRevision</value>
+        <value>SCP_ECR_Evaluation_Simplified_AfterPR,Vf6_ECRRevision</value>
+        <value>SCP_ECR_Prepare_AfterPR,Vf6_ECRRevision</value>
+        <value>SCP_Prepare_ECR,Vf6_ECRRevision</value>
+        <value>VF Styling Release Process (A-Class),VF4_DesignRevision</value>
+        <value>VF Styling Release Process (B-Class),VF4_DesignRevision</value>
+        <value>VF Styling Release Process (C-Class),VF4_DesignRevision</value>
+        <value>VF Common Release Process - P Status,VF4_ERNRevision</value>
+        <value>VF Common Release Process - I Release,VF4_ERNRevision</value>
+        <value>VF Common Release Process - PR Status,VF4_ERNRevision</value>
+        <value>VF_Request_For_Stopping_Tooling,VF4_DesignRevision</value>
+        <value>01_Prepare_ECR_Magna,Vf6_ECRRevision</value>
+        <value>02_Prepare_ECR_AVL,Vf6_ECRRevision</value>
+        <value>03_ECR_EVALUATION_BIW,Vf6_ECRRevision</value>
+        <value>04_ECR_EVALUATION_CHA,Vf6_ECRRevision</value>
+        <value>05_ECR_EVALUATION_DC,Vf6_ECRRevision</value>
+        <value>06_ECR_EVALUATION_EE,Vf6_ECRRevision</value>
+        <value>07_ECR_EVALUATION_ENG,Vf6_ECRRevision</value>
+        <value>08_ECR_EVALUATION_EXT,Vf6_ECRRevision</value>
+        <value>09_ECR_EVALUATION_INT,Vf6_ECRRevision</value>
+        <value>10_ECR_EVALUATION_PWT,Vf6_ECRRevision</value>
+        <value>VinFast ECN,Vf6_ECNRevision</value>
+        <value>D-SUV_ECR_Evaluation_BeforePR,Vf6_ECRRevision</value>
+        <value>D-SUV_ECN_Evaluation_BeforePR,Vf6_ECNRevision</value>
+        <value>C-SUV_ECR_Evaluation_BeforePR,Vf6_ECRRevision</value>
+        <value>C-SUV_ECN_Evaluation_BeforePR,Vf6_ECNRevision</value>
+        <value>EBUS_ECR_Evaluation_Simplified_AfterPR,Vf6_ECRRevision</value>
+        <value>EBUS_ECN_Evaluation_AfterPR,Vf6_ECNRevision</value>
+        <value>C-SUV_ECN_Evaluation_AfterPR,Vf6_ECNRevision</value>
+        <value>C-SUV_ECR_Evaluation_AfterPR,Vf6_ECRRevision</value>
+        <value>C-SUV_ECR_Evaluation_Simplified,Vf6_ECRRevision</value>
+        <value>C-SUV_ECN_Evaluation,Vf6_ECNRevision</value>
+        <value>VinFast ECR,Vf6_ECRRevision</value>
+        <value>VF36 Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>VF36 Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>VF36 Data Release Process (PR Status),VF4_ERNRevision</value>
+        <value>VF33 Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>VF33 Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>VFe32_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>VFe33_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>VFe34NG_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>Manufacturing Change Request,VF4_MCRRevision</value>
+        <value>VFe33 Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>VFe33 Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>VFe33 Data Release Process (PR Status),VF4_ERNRevision</value>
+        <value>VFe32 Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>VFe32 Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>VFe32 Data Release Process (PR Status),VF4_ERNRevision</value>
+        <value>VFe34NG Data Release Process (I Status),VF4_ERNRevision</value>
+        <value>VFe34NG Data Release Process (P Status),VF4_ERNRevision</value>
+        <value>VFe34NG Data Release Process (PR Status),VF4_ERNRevision</value>
+        <value>VinFast ECR_Before PR,Vf6_ECRRevision</value>
+        <value>VinFast ECR_After PR,Vf6_ECRRevision</value>
+        <value>VinFast ECN_After PR,Vf6_ECNRevision</value>
+        <value>VinFast ECN_Before PR,Vf6_ECNRevision</value>
+        <value>Emotor_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>VF_DFMEA_Release_Process,VF3_spec_docRevision</value>
+        <value>EScooter-ECN-BeforeSOB,Vf6_ECNRevision</value>
+        <value>EScooter-ECN-AfterSOB,Vf6_ECNRevision</value>
+        <value>EScooter-ECN-AfterPR,Vf6_ECNRevision</value>
+        <value>EScooter-ECR-BeforeSOB,Vf6_ECRRevision</value>
+        <value>EScooter-ECR-AfterSOB,Vf6_ECRRevision</value>
+        <value>EScooter-ECR-AfterPR,Vf6_ECRRevision</value>
+        <value>EScooter_I_Release_Process,VF4_ERNRevision</value>
+        <value>EScooter_PR_Release_Process,VF4_ERNRevision</value>
+        <value>EScooter_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>VF Styling Release Process (A-Class),VF4_DesignRevision</value>
+        <value>EBUS_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>EBUS12_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>VFe35/VF35_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>EScooter-ECN-AfterPR-Combined,VF4_ChangeReq_ESRevision</value>
+        <value>EScooter-ECN-AfterSOB-Combined,VF4_ChangeReq_ESRevision</value>
+        <value>EScooter-ECN-BeforeSOB-Combined,VF4_ChangeReq_ESRevision</value>
+        <value>Cell_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>VES_ECM_Process,VF4_VES_ECMRevision</value>
+        <value>3IN1_SOR_Release_Process,VF3_spec_docRevision</value>
+        <value>VF FRS FREEZE &amp; RELEASE,VF3_vfitemRevision</value>
+        <value>VF SOFTWARE  ECU SIGNOFF,VF3_vfitemRevision</value>
+        <value>VF SOFTWARE  ECU FREEZE TRIGGER WORK_FLOW,VF3_vfitemRevision</value>
+        <value>MCN_APPROVAL_TRANSFER_SAP,Vf6_MCNRevision</value>
+        <value>Manufacturing Change Request,VF4_MCRRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

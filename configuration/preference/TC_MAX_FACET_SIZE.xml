@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.QSearch Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_MAX_FACET_SIZE" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Specifies the maximum number of facets of a JT that can be processed by the &quot;create_or_update_bbox_and_tso&quot; utility, in order to generate Trushape voxels and bounding boxes.
+The default value is 3000000.</preference_description>
+      <context name="Teamcenter">
+        <value>3000000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

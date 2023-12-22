@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_msd_part_import_attributes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the additional attributes on Part which need to be read from the input msd file.</preference_description>
+      <context name="Teamcenter">
+        <value>scp0msdEffectiveDate</value>
+        <value>scp0SupplierAccepted</value>
+        <value>scp0LegalDeclType</value>
+        <value>scp0UncertainityState</value>
+        <value>scp0MSDInstanceID</value>
+        <value>scp0Attachments</value>
+        <value>scp0mass</value>
+        <value>scp0uom_tag</value>
+        <value>scp0unit_type</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

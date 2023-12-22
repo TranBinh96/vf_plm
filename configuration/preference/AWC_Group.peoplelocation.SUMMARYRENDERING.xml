@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.User Management">
+    <category_description>Active Workspace preferences</category_description>
+    
+               <preference name="AWC_Group.peoplelocation.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for Group objects in people location.</preference_description>
+      <context name="Teamcenter">
+        <value>Um0GroupPeopleLocSummary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

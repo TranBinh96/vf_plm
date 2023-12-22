@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_encapsulation_application_key" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Key to specific application for accessing pre and post process.</preference_description>
+      <context name="Teamcenter">
+        <value>CAE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

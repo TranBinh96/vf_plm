@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright 2007(c) Siemens PLM Software
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: PartRevMasterFormForm.xml
+
+    Default style sheet for displaying Part Revision Master Form poperties .
+ -->
+
+<rendering>
+    
+    <page title="General" titleKey="General" >
+		<property name="source" renderingHint="radiobuttonoptionlov" renderingStyle="titled" border="true" />
+    </page>
+
+</rendering>
+

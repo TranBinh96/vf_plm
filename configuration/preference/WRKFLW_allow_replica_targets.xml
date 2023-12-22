@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_allow_replica_targets" type="Logical" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Defines whether replica objects should be allowed as replica proposed targets for workflows.
+Valid Values:
+true: The replica objects will be attached to the workflow as replica proposed targets. This is the default value.
+false: The replica proposed targets attachments will be used.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

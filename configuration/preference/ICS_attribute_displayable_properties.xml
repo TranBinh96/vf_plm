@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_attribute_displayable_properties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Displays the list of attribute properties on classification properties in the Classification application. The administrator provides valid dictionary attribute properties and user-defined properties, for example:
+AttributeID
+Name
+Valid Values:
+Any string.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_Copy_Variability_For_SaveAs" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether variability is copied to a new item when performing a Save As action on an item.  When the value of this preference is set to TRUE, Teamcenter checks if the original item  is designated as a Product item (RDV-specific). If it is, the variability is copied to the new item. 
+If it is not, variability is not copied.An item is defined as a Product item using the following preferences:
+PortalDesignContextProductItemProperties
+PortalDesignContextProductItemProperties.object_type
+PortalDesignContextProductItemProperties.object_desc
+Valid Values:
+TRUE - Variability is copied to the new item when performing a Save As action.
+FALSE - Variability is not copied to the new item when performing a Save As action.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

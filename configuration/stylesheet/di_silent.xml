@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+     <tem engine="2008.0.0" />
+     <settings>
+          <sourceDir value="D:\\TC13_01_UserPackage\\PACKAGES\\Tc13.0.0.0_wntx64" />
+          <application value="tceng" />
+          <installLanguage value="ENGLISH" />
+          <silentMaintenance value="false" />
+          <aboutFullVersion value="13.1.0.4" />
+          <installingUser value="vf_install" />
+          <installDir value="C:\\Siemens\\TR13" />
+          <version value="13000.1.1.13" />
+     </settings>
+     <sourceLocations>
+          <coreLocations>
+               <directory value="D:/TC13_01_UserPackage/PACKAGES/Tc13.0.0.0_wntx64" />
+               <directory value="D:/TC13_01_UserPackage/PACKAGES/Tc13.1.0_patch_4_wntx64/wntx64" />
+               <directory value="D:/TC13_01_UserPackage/PACKAGES/Tc13.0.0.0_SupplierCollaboration5.1.2_wntx64/wntx64" />
+          </coreLocations>
+          <browsedLocations>
+               <directory value="D:/TC13_01_UserPackage/PACKAGES/media_teamcenter_cortona3d/tem_contributions" />
+               <directory value="D:/TC13_01_UserPackage/PACKAGES/media_teamcenter_cortona3d/tem_contributions/bundle" />
+               <directory value="D:/TC13_01_UserPackage/PACKAGES/media_teamcenter_cortona3d/artifacts" />
+               <directory value="D:/TC13_01_UserPackage/PACKAGES/media_teamcenter_cortona3d" />
+          </browsedLocations>
+     </sourceLocations>
+     <config name="VF Production Config" id="VF_PRD_Config" maintenance="false">
+          <mode type="install" clone="false" />
+          <comments />
+          <data>
+               <HTTPServers guid="2FA7DE8FF431C8AAD16AC5E58A8F98AF">
+                    <servers value="http://10.128.11.201:80/tc,VF_PRD," />
+                    <useGzip value="true" />
+               </HTTPServers>
+               <RACSettings guid="5556237F3F54D1DD059F0A385B88CA46">
+                    <tempFolder value="" />
+                    <browserLoc value="" />
+               </RACSettings>
+               <RACFCCSettings guid="8BC34CE71B738026DF2B3D94A83A836C">
+                    <buildTccs value="true" />
+                    <doMerge value="false" />
+                    <newHome value="C:\\Siemens\\TR13\\tccs" />
+                    <existingHome value="C:\\Siemens\\TR13\\tccs" />
+                    <needToSetFmsHome value="true" />
+               </RACFCCSettings>
+               <RichClient2-tierSettings guid="FD83D83E316B865D4AFA06E24C106EC3">
+                    <webServer value="" />
+               </RichClient2-tierSettings>
+               <OfficeClientServer guid="7F4EF843F634DCEC288321CC24688BE7">
+                    <servers value="MyData,http,,7001,tc,;" />
+                    <ssoURL value="http://null:null/null" />
+                    <allUsers value="true" />
+                    <ssoCheckBox value="false" />
+                    <ssoProtocol value="http" />
+               </OfficeClientServer>
+               <director guid="661AA2A766CA975D998EBE61455F3EA3">
+                    <saveStateOnFail value="true" />
+                    <status value="0" />
+                    <script>
+                         <temBase />
+                         <copyFeature feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+                         <copyFeature feature="D1D683A8B2CE1EB821B97CD2EE5D7627" name="Flex License Server" />
+                         <copyFeature feature="BC76F9D1AB7C93A848D0FE3602F59097" name="Teamcenter File Services" />
+                         <copyFeature feature="TGSSZN9SXBMIAK6I0128T2OXOY25H2R8" name="Key Manager" />
+                         <copyFeature feature="A9CECD82127A11DB9804B622A1EF5492" name="Business Modeler IDE" />
+                         <copyFeature feature="A909338A1CB411DB8AF6B622A1EF5492" name="Business Modeler Templates" />
+                         <copyFeature feature="90C2A1C96F6A61FAB397AF88ABE4AAC1" name="FMS Server Cache" />
+                         <copyFeature feature="8C061DD51E13E0CB9DC4687B1A3348BE" name="Teamcenter Foundation" />
+                         <copyFeature feature="DB57677C9C6456C44F9E1B3F260A0BAA" name="Workflow to Scheduling Integration" />
+                         <copyFeature feature="B176F6B6E9E91D9804EFB0D2010FD613" name="NX Part Family Classification Integration" />
+                         <copyFeature feature="E2564114E1B964BB23D78078DBA34EEF" name="XpresReview Integration for Rich Client" />
+                         <copyFeature feature="D0CB65B15B612F5D5E826DB25C36BBE3" name="Log Manager Query Service" />
+                         <copyFeature feature="BF0E78AFE4280DCB08594EA2F3671BE8" name="Server Manager" />
+                         <copyFeature feature="DD8422137D2E5E68816A03115FC84CFA" name=".NET Based Server Manager" />
+                         <copyFeature feature="U73JQSX2SQ3O15LQRL8IFVRR8ALSWHBT" name="Supplier Collaboration Integration" />
+                         <copyFeature feature="E2564104E1B964BB23D78078DBA34EE2" name="Resource Manager - Import Content Kit Data" />
+                         <copyFeature feature="15CB3E81DB098FE311D83EE78162E58D" name="Teamcenter Task Manager Service" />
+                         <copyFeature feature="49DB4E82CF098BE332C83AB78122E5B8" name="Action Manager Service" />
+                         <copyFeature feature="EUQAKN2QHFX4CE7S2065S1KUQ0KO8QAO" name="Teamcenter Read Expression Manager Service" />
+                         <copyFeature feature="51AB3E11DB083FE3D1283FE78662E58D" name="Tessellation Manager Service" />
+                         <copyFeature feature="50DB3E81CB098FE302D83EF78162E5D8" name="Subscription Manager Service" />
+                         <copyFeature feature="D25881B5D67467D85164B0334D441259" name="Remote Workflow" />
+                         <copyFeature feature="DEAB60C088864AE15812DD245D956136" name="4-tier Teamcenter server configurations" />
+                         <copyFeature feature="79E7EACA15B11142CB2857185AB58469" name="Teamcenter for Reporting and Analytics" />
+                         <copyFeature feature="90C7E167F193EE77FB5FDF1BDDDE193B" name="EDA for Business Modeler IDE" />
+                         <copyFeature feature="845EC8CD9FDBDDE21AAE36C5C448CDA0" name="Cortona3D Rich Client Customization" />
+                         <copyFeature feature="7X3MT0CUL3SKKF50R5CCFZT7PFOQYFM2" name="JT Editor Integration for Rich Client" />
+                         <copyFeature feature="E06BC676B5FFF7910552AFC256C6B537" name="Teamcenter Extensions for Microsoft Office" />
+                         <copyFeature feature="050C602E296911E089088DF4DED72085" name="Business Modeler IDE Standalone" />
+                         <copyFeature feature="KC36GEJBF89QQPLWDKHE1BBHCKR2RO0J" name="Acrobat/Reader Plugin" />
+                         <copyFeature feature="42791A48DCBDD23FF08668F5847C96CC" name="JtUtilities Support" />
+                         <copyFeature feature="E7F776ACC1F19834334FE879899B785A" name="Mapping Designer" />
+                         <copyFeature feature="EAB3ECEBDF0A862AD68B45429FE5402E" name="File Client Cache" />
+                         <copyFeature feature="C636B8BF212A350EF068FEEFA8F7C8D6" name="Clearance DB" />
+                         <copyFeature feature="E136DFF3B9BE439F895E38D4A1095FEE" name="Systems Engineering Base/SE Base for Rich Client" />
+                         <copyFeature feature="BFD8083B08D3055BC90800BE15F200A3" name="ASP.NET State Service" />
+                         <copyFeature feature="37E395BDF9DB56B53B161BDF703E8DD5" name="Sample files" />
+                         <copyFeature feature="1DE5E693FCAA39F85E23398FD7D26468" name="Teamcenter Multisite Collaboration NobleNet Portmapper Service" />
+                         <copyFeature feature="9CDEI6GEJYOOJCUQ595IDBWOAH09ZR86" name="Change Scope Markup" />
+                         <copyFeature feature="A234BB1CE3FE44E9CEB2DD3259734DF2" name="CAD BOM Alignment" />
+                         <copyFeature feature="833DCDB249D349C8AA890BFB1C2FB35F" name="Review Package" />
+                         <copyFeature feature="49BD4E81FC098BE233C83B7A81EB25B8" name="Database Daemons" />
+                         <copyFeature feature="A99522AC5D43F765014218AEFC1F92D9" name="ms.title" />
+                         <copyFeature feature="B856BBF3665AC80A8F8F23F86EB80FE0" name="Global Services Preferences" />
+                         <copyFeature feature="DADD704280EF4F10B79E75E6A25BECE3" name="Hierarchical Storage Management (HSM)" />
+                         <copyFeature feature="6O6A3KQKM1Q1ZU9D14NJPY6OGAPG9XKU" name="Data Share Manager" />
+                         <copyFeature feature="9J67FMJW457OPP92THWSEO2RP38DSKS6" name="Teamcenter Shared Metadata Cache Service" />
+                         <copyFeature feature="K8UXRUS99KEBJT92NOLP4WX2198HT6RM" name="Teamcenter Management Console" />
+                         <copyFeature feature="9AF11ACFE6A6D0CF6EABDFEB300D0E00" name="Global Services Adapter" />
+                         <copyFeature feature="34C312D00ADA4C91AFAEBC78877E1893" name="Systems Engineering Base" />
+                         <copyFeature feature="6712CD0D4D5DD7A2E29844E3158BA08A" name="Configure Resource Browser and NC Package Browser" />
+                         <copyFeature feature="9BD9BA7EA062ECD5F19B8E8C744851FE" name="feature.fts" />
+                         <copyFeature feature="6A55016BDB3EA53E8051B1EA0DC91A44" name="Web Tier for .NET" />
+                         <copyFeature feature="BC5056A6B667D206C8158831E5144703" name="Online Help" />
+                         <copyFeature feature="E6BE32EBDFCC32D5F00E52BFEEAFC590" name="2-tier server configurations" />
+                         <copyFeature feature="FC7470F50B7D04347904245D1E3C06F1" name="2-tier Servers (Shared Disk Deployment)" />
+                         <copyFeature feature="16B767F5E6CF41858351F0BA05CF417F" name="Online Help (Supplier Collaboration only)" />
+                         <copyFeature feature="A9CECD82127A11DB9804B622A1EF5599" name="Digital Dashboard" />
+                         <copyFeature feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System" />
+                         <copyFeature feature="845EC8CD9FDBDDE21AAE36C5C448CDA3" name="Cortona3D Rich Client Distribute Plug-in" />
+                         <copyFeature feature="E02564B198124A40A41A836FCEFB04B1" name="Java EE Based Linked Data Web Services" />
+                         <copyFeature feature="2C0B8B3ABF5542698DE4B8D22C3207BF" name="Supplier Collaboration for Active Workspace Client" />
+                         <copyFeature feature="E24684E2CA725A251A924E6E66D3BC75" name="Multisite Collaboration IDSM Service" />
+                         <copyFeature feature="FF18D25DA73019F880BCFFBC0029CA28" name="Teamcenter Rich Client 4-tier" />
+                         <copyFeature feature="E2564104E1B964BB23D78078DBA34EEA" name="Teamcenter Rich Client 2-tier" />
+                         <copyFeature feature="E277D26EC8A8DBB63F59AAC04EC0A8C7" name="Teamcenter Client for Microsoft Office" />
+                         <copyFeature feature="T5SPTBZLLZKJHHIJF43KXLR6VLXCYHNI" name="Teamcenter Office Online Microservice" />
+                         <copyFeature feature="616ADEEAE84011DBBB7C38A455D89593" name="Business Modeler IDE 4-tier" />
+                         <copyFeature feature="ACECC7701A9EDD73A9AC31F0C382B72E" name="EDA Standalone Client" />
+                         <copyFeature feature="845EC8CD9FDBDDE21AAE36C5C448CD56" name="Cortona3D Rich Client Plug-in for REFLEKT" />
+                         <copyFeature feature="AC529AFCF83F0C9C228905FF58639DE5" name="Teamcenter Excel Import" />
+                         <copyFeature feature="CC50ADB7AEFC479FB25CC924F545B513" name="Cortona3D Rich Client DITA Plug-in" />
+                         <copyFeature feature="KKLBCEJ973DUGYOQBHGYRXC2IRF30G25" name="Teamcenter Google Online Microservice" />
+                         <copyFeature feature="P2ZMYZEG30HLK4WVG7HFB9IJI7V4V3LA" name="Teamcenter Rich Client (2-tier and 4-tier)" />
+                         <copyFeature feature="845EC8CD9FDBDDE21AAE36C5C338CDA3" name="Cortona3D Rich Client S1000D issue 4.1 Plug-in" />
+                         <copyFeature feature="C10846D4E83C11DBB817239D55D89593" name="Business Modeler IDE 2-tier" />
+                         <copyFeature feature="A2564824E1B434AC23D70178DBA34BCA" name="Teamcenter Rich Client (Shared Disk Deployment)" />
+                         <copyFeature feature="640272785D1C6B8CADF6D65BF2D7AC0D" name="Multisite Collaboration ODS Service" />
+                         <copyFeature feature="63B2F7328C5509ECD76554EA00E32879" name="Content Migration Manager" />
+                         <copyFeature feature="6FBF846D6D4773FA7D42617195EFAC90" name="Teamcenter Visualization/Data Model" />
+                         <copyFeature feature="A467EE916A97817ED32D748464A9740F" name="SRM Integration" />
+                         <copyFeature feature="24BBB89D8C3152B20B0BB99D685A1989" name="Configurable Validation" />
+                         <copyFeature feature="C999EF289C41357C27677C7CB5B5506B" name="Advance Planner/Data Model" />
+                         <copyFeature feature="0BBB1F4059A5451F8D362CBE69A7CF8D" name="Requirements Management for Rich Client" />
+                         <copyFeature feature="712514KCI066SJ4YJUOL6JJ6A6YV54VQ" name="4D Planning/FOURDPLANNING For Rich Client" />
+                         <copyFeature feature="845EC8CD9FDBDDE21AAE36C5C448CDCE" name="Content Management Base/Content Management Base for Rich Client" />
+                         <copyFeature feature="72FAB4CD0A6603C6ED62021566762C46" name="Content Management Base/Data Model" />
+                         <copyFeature feature="0523CFDE70920C747A81E4B4B5C37D1F" name="Finish Management" />
+                         <copyFeature feature="DEBE45676A4282D91ADF80F4691A1ED4" name="Weld Management" />
+                         <copyFeature feature="301F12B06B3EAAB18DC0C2B9444F3B20" name="Translation Service Database Module/Data Model" />
+                         <copyFeature feature="EE23EE9E30F6D10E5198C9AE3C5DCDC3" name="Google Viewer Integration/Data Model" />
+                         <copyFeature feature="3BFF9272581BBF8614108FFC21173265" name="Classification L10N/Data Model" />
+                         <copyFeature feature="E55610E8ECDB81520D8DAFD99D6BF542" name="Teamcenter Single Sign-on for Rich Client" />
+                         <copyFeature feature="684AEBE559B1FDF2D2302B88C24B800D" name="MRO Core" />
+                         <copyFeature feature="9E8AC568D6003599A90064DB42BCA8AF" name="Logistic Process Planning" />
+                         <copyFeature feature="82773510441D945DF4C3834EF1028044" name="Composites Process Planning" />
+                         <copyFeature feature="3645D0D80B399B9544D9642F0292347C" name="NX Rich Client Integration" />
+                         <copyFeature feature="E49D9A25DD68C3A0340D1B4EF0AF4769" name="SRM Integration/SRM Integration For Rich Client" />
+                         <copyFeature feature="B0990732D90ADDB185435B0A1168DA4A" name="ERP Connect/Data Model" />
+                         <copyFeature feature="0320435FDD86DDA338FB1A63869D39D2" name="Embedded Software Management/Embedded Software Management/Data Model" />
+                         <copyFeature feature="8AB00740501379BE3AA4890FA83E2243" name="Order Management/Data Model" />
+                         <copyFeature feature="146DA5C4D97E426284DED69337641F68" name="Engineering Views/Runtime Server" />
+                         <copyFeature feature="BC5056A6B667D206C8158831E5144753" name="Self Paced Training" />
+                         <copyFeature feature="307887BF21720CDB88169FCF80F23B46" name="Advanced PLM Services core Template/Runtime Server" />
+                         <copyFeature feature="5B9A5E629359C12E1DBC83ED9C15BEA6" name="Configurable PMI Visualization/Runtime Server" />
+                         <copyFeature feature="EE20E9452E0AA714F6C9F61A307AB199" name="ESM Base" />
+                         <copyFeature feature="42601F497B99BAEB661CEBA61E272323" name="Vendor Management" />
+                         <copyFeature feature="110686D6C4787CAB33827472564C49BE" name="EMPS - Foundation/Data Model" />
+                         <copyFeature feature="1D946E1FBC437A8CF8F13376214BFCB4" name="Product Variants/Product Variant for Rich Client" />
+                         <copyFeature feature="A8FD8AD8E01CE960B1E6DA623E920014" name="TcRS Multisite Enablement" />
+                         <copyFeature feature="D8B1E07653BB28A09F52C2FAAF18553A" name="Material Management/Data Model" />
+                         <copyFeature feature="A5FBE787BFBF2931B2B5617D9CC75332" name="ECAD Part Library for Rich Client" />
+                         <copyFeature feature="8CA0C8D5FE1CCA285011ECBC894990F7" name="EDA for Rich Client" />
+                         <copyFeature feature="E2564104E1B964BB23D78078DBA34EEF" name="Configure Part Planner" />
+                         <copyFeature feature="DA3F5D4113BC31CC36A257EAB0669DDA" name="Classification Interface/Data Model" />
+                         <copyFeature feature="E4CD1EDE20C3F82E69DF9D3EE2A89D2D" name="MRO Core/MROCore for Rich Client" />
+                         <copyFeature feature="BE70691A8CB7AED81EABC49ABD9DC855" name="Finished Product Management" />
+                         <copyFeature feature="E2564104E1B964BB23D78078DBA34EE3" name="Configure Resource Manager" />
+                         <copyFeature feature="E616440FEEAB4C00A517A02AAF3AF06D" name="Branch Data Organization/Runtime Server" />
+                         <copyFeature feature="347F2495D5562B57A34CC99753F2E8BB" name="Color and Visual Appearance Management" />
+                         <copyFeature feature="53ACD8066B3C91CC98717854D9B73C0A" name="SCM ClearCase for Foundation/Data Model" />
+                         <copyFeature feature="C10834BBD63EF769D68A6BA712308FF3" name="Teamcenter Integration Interface to iWay for Rich Client" />
+                         <copyFeature feature="63926058F0B8026AE4BEE538F027252F" name="Simulation Process Management/Data Model" />
+                         <copyFeature feature="4FF970313813975F79306DF81D3C4A6B" name="Dispatcher Client for Rich Client" />
+                         <copyFeature feature="0A132B438FF50EBD134EEA32668D3535" name="Cortona3D Authoring Server Template/Data Model" />
+                         <copyFeature feature="BEBC3026E494C61B319961019190300C" name="Symbolica Integration/Data Model" />
+                         <copyFeature feature="D01A432D63970B1CD63133E198CE8C56" name="Quality Base/Quality Base/Data Model" />
+                         <copyFeature feature="380158E63FFFB001623EEA109AA851A6" name="Attribute and Parameter Base Definitions/Data Model" />
+                         <copyFeature feature="363892FEFE364D409333B4E44D616F97" name="Mentor Expedition Library Support" />
+                         <copyFeature feature="4823E3A0D3469796EE0F3267C0B8F084" name="Composite Part Laminate Definitions/Data Model" />
+                         <copyFeature feature="FERQ7UQCVH53HA9ME4BY99DCVDAX5ZJH" name="Product Master Automation/Runtime Server" />
+                         <copyFeature feature="CDBE47C7856018B971CABB24CAE70A07" name="MS Office for Rich Client" />
+                         <copyFeature feature="0BEECDCD0AD8B6D45617733583A4A78C" name="NX Foundation/Data Model" />
+                         <copyFeature feature="9474F850F5094BCABD47CA6587AA29FA" name="Color and Visual Appearance Management/Color Appearance module for Rich Client" />
+                         <copyFeature feature="NAIZGV7N8WBTQAF0U2FKLFGURECQOKJO" name="Teamcenter Office Online/Runtime Server" />
+                         <copyFeature feature="829109366708A4E5FF390869490F27EE" name="Test Manager" />
+                         <copyFeature feature="B021413FCA884F4CA074016F279FCEE8" name="APS Configured Search Framework/Data Model" />
+                         <copyFeature feature="CDAD5909FEADFBB04F155CF711537310" name="Specification Manager/Data Model" />
+                         <copyFeature feature="70E3D236E117DB49920EDAD9566777AC" name="Teamcenter Visualization (Embedded) for Rich Client" />
+                         <copyFeature feature="3455E69ACD077FDD9908E976C8FC01FB" name="Stock Material" />
+                         <copyFeature feature="E5E50AD7FDAED384D9746B3DA0D835EA" name="Sample Document Management" />
+                         <copyFeature feature="0D7557E7F97E7CC4A02E63B3628887F0" name="bda0bomdesignalignment.name" />
+                         <copyFeature feature="4F413272A02448E3A4E923213C5E718B" name="Dashboard" />
+                         <copyFeature feature="443A25558F8A2140DC9D406EFB636672" name="Teamcenter Integration for I-deas - Database Extensions" />
+                         <copyFeature feature="E289526B3F58306609C4EB06BC9BEBB2" name="EDA Server Support" />
+                         <copyFeature feature="5B996EE101BDA16D35C53EBBFD084BD5" name="Finish Management/Finish Management For Rich Client" />
+                         <copyFeature feature="5B996EE101BDA16D35C53EBBFD084BD9" name="Contract Data Management/Contract Management For Rich Client" />
+                         <copyFeature feature="84BD42805B31EC68B30A95B0E0E3BC9A" name="Stock Material/Stock Material for Rich Client" />
+                         <copyFeature feature="32D35BD60859043CDDCF26BA87C606B7" name="Work Package Management/Data Model" />
+                         <copyFeature feature="5AFBC7836BB2158725C9B909217BF743" name="Part Manufacturing Shopfloor Integration, e.g., Presetter and Activity User Data" />
+                         <copyFeature feature="F1F2DE68B8C1529D9CF57153CC3EE76F" name="Product Variants/Data Model" />
+                         <copyFeature feature="AA902D75895F37CEEED25AEF30764B1C" name="Consumer Products and Retail Foundation" />
+                         <copyFeature feature="B03AA2CDF38FA4D38F63CBC5FC00E05C" name="Software Component Defect Tracking" />
+                         <copyFeature feature="0DAD776F3D90A1AAEC5F57821A5B012D" name="Mentor Board Station Support" />
+                         <copyFeature feature="83BE1890E9A8F382C47C404DAC1FCB01" name="Oracle Manufacturing Integration" />
+                         <copyFeature feature="CJLK7Q0CC1RSFSYITFGUS1TV5MBREK5I" name="Team Collaboration Integration/Runtime Server" />
+                         <copyFeature feature="426293E52803AD96D8311536C8BBEC17" name="Work Instructions" />
+                         <copyFeature feature="2308336C578ECD01C68A517DFEF7C155" name="Program Planning Infrastructure/Data Model" />
+                         <copyFeature feature="8F180F62F64F2C25EEB830B376A74294" name="Teamcenter integration for Intosite" />
+                         <copyFeature feature="2AF08820CA3CA873CD89121D61B754FA" name="SCM ClearCase for Foundation/SCM ClearCase for Rich Client" />
+                         <copyFeature feature="GMXLEGZT8SKZCVT0LUJHMCPAJ2WJBDHV" name="Material Management/Material Management For Rich Client" />
+                         <copyFeature feature="722D79824F24DFC004CDE702E91E9202" name="Specification Manager/Specification Manager For Rich Client" />
+                         <copyFeature feature="3368D3FAF00F1C6539551648BAE056E1" name="Mentor PADS Support" />
+                         <copyFeature feature="3E8FC40CA30FBBDD9616CFF519B853E4" name="Teamcenter Linking for Rich Client" />
+                         <copyFeature feature="E9B8A3F6B7B53AE540DCC54C13B3C201" name="Change Management/Data Model" />
+                         <copyFeature feature="1A4C20CFAB9F7C7D6FFA9B0D9903877D" name="Customization for eM-Server Integration" />
+                         <copyFeature feature="A9F161BCCC68429E8E8B7A75F2541D59" name="Gateway for EDA Library" />
+                         <copyFeature feature="524997CD934C2E4CDDAE5F947ED68EFD" name="4D Planning/Data Model" />
+                         <copyFeature feature="18567E1E655BAB40E5189E5F57A51679" name="Product Line Planning/Data Model" />
+                         <copyFeature feature="C84BFC90FBAE586D7F612DE59B5428AE" name="Catia Non BOM/Data Model" />
+                         <copyFeature feature="B5400043A525403BBA8004220A508FB3" name="Advanced PLM Services core Template/Advanced PLM Services Core For Rich Client" />
+                         <copyFeature feature="408579C11CFBD85308B4A8520653FDAF" name="Vendor Management/VendorManagement for Rich Client" />
+                         <copyFeature feature="8C7E9376745DB772BD6C410B771913BD" name="ESM Base/Embedded Software Manager for Rich Client" />
+                         <copyFeature feature="79D47DD8E36708C0A7475E57721EDCCE" name="Mentor Board Station Library Support" />
+                         <copyFeature feature="16BD419F18854355BCF1168198507CAA" name="Requirements Management for Rich Client/Requirements Management for Rich Client" />
+                         <copyFeature feature="1ED8CC1D27CA8EEA88F6C10A972C179C" name="Contract Data Management" />
+                         <copyFeature feature="024C0ED69CF814A4BEFB3258D0EB646A" name="Engineering Translation Service for Rich Client" />
+                         <copyFeature feature="A22E1FC6EA1C4824BED64B2115B60FA5" name="MTM Data Card" />
+                         <copyFeature feature="D2E2D591EBEB29F96CD11670D137A529" name="Teamcenter Visualization (Stand-alone) for Rich Client" />
+                         <copyFeature feature="9D99D8834C1CAE2997268B45A414C2B9" name="Teamcenter Automotive Edition" />
+                         <copyFeature feature="04E69C2A7FE5ED9BBBF881F09F7B4CBB" name="Content Management System for Rich Client" />
+                         <copyFeature feature="76RIMZKCI066SJ4YJUOL6JJ6A6YV54VQ" name="Work Instructions/CMTMES For Rich Client" />
+                         <copyFeature feature="215B8380E5C6DC9FD01B1EC2A9100BE3" name="Teamcenter Link for Rich Client" />
+                         <copyFeature feature="25F5E231A4D27CC30232CF609CD8FF0A" name="Global Services Monitoring GUI for Rich Client" />
+                         <copyFeature feature="461B194228F0B9BE094F83F369D3D59B" name="LOGISTICS For Rich Client" />
+                         <copyFeature feature="FD2A139FB3DC4B559757DA430D67CA8E" name="Advance Planner/Rich Client Advance Planner Support for MPP" />
+                         <copyFeature feature="T7PJUBI5CEABZC6L99JZH1K2NCJCHBU5" name="Test Manager/Test Manager for Rich Client" />
+                         <copyFeature feature="7E73298E9022E02C1EA5BA4715B4A6CA" name="bda0bomdesignalignment.name/4th Generation BOM Design Alignment integration for Rich Client" />
+                         <copyFeature feature="31530FE7D29D5CAA843762A8F94DEAE4" name="Content Management DITA" />
+                         <copyFeature feature="93A06E513A7F3D8D3C266EBB6DECF199" name="ESM Software/Data Model" />
+                         <copyFeature feature="06E71EE1D9564C1D9B0612A693ABE098" name="TcX ERP-AXAPTA INTEGRATION/Data Model" />
+                         <copyFeature feature="76ADXPACI077SJ4NDAOL6JJ6A6YV79VN" name="Manufacturing Characteristics Information/Manufacturing Product Characteristics solution Rich Client" />
+                         <copyFeature feature="BF1DC0AB2E00C422EC2DB63F3B960562" name="Build Conditions/Data Model" />
+                         <copyFeature feature="CFF57DB169F3DAAEB91DD16EAEC2A9E0" name="eBOP Reports Customization" />
+                         <copyFeature feature="6CC44514DE164A22860B0BBE8616E6A2" name="Database Configuration for DPV/GDIS for Rich Client" />
+                         <copyFeature feature="2D41613B6F9C42A08A7E6A966C712AB9" name="Database Configuration for DPV/Data Model" />
+                         <copyFeature feature="57A39CF5F2D59697FAB505ADC4C7AEC2" name="Cortona3D Authoring Server Template for Active Workspace" />
+                         <copyFeature feature="6EC78EE3BA26C47CCDF0F881AC250D56" name="Extended Simulation Process Management" />
+                         <copyFeature feature="AD90B833E79E5B8214CA76152C66D601" name="CPG Materials" />
+                         <copyFeature feature="4A92C722DB582B5EF0EF2970F7B57ACA" name="Parameter Management/Data Model" />
+                         <copyFeature feature="708DA830BE2F600C05515AF4CF1D69B6" name="Packaging and Artwork/Data Model" />
+                         <copyFeature feature="F35DD650F3016F5DD08C5A491F883BB0" name="Control and Inspection Plan Data Model" />
+                         <copyFeature feature="1D2F53EC9507B75848DDEE60D1004AF4" name="Brand Management" />
+                         <copyFeature feature="2D8226A99A3B3464DADCA7C5F3CEFB20" name="Object Data Services" />
+                         <copyFeature feature="5C7A514764544E5F960B04F2B57177A5" name="Branching and Versioning Foundation" />
+                         <copyFeature feature="17831A16F52AFB49F4C7AFED9AEDE697" name="Teamcenter Rapid Start Configuration/Teamcenter Express" />
+                         <copyFeature feature="3C1CBF433B9EBCEB654AF496A26E0C6A" name="MES Integration/Data Model" />
+                         <copyFeature feature="6318338DDC2A9AFAFDE84AB9B7E536B6" name="TcX ERP-GP INTEGRATION/Data Model" />
+                         <copyFeature feature="746C36C6D77CCFBA734884AF416C59B5" name="Service Planning/Service Planning" />
+                         <copyFeature feature="7DF8B6DB6BD6064F37C60E782252FCB5" name="LDF Foundation" />
+                         <copyFeature feature="AE4CE86951AE586C4BF107E08C441E3E" name="GM Overlay/Data Model" />
+                         <copyFeature feature="77E9596F849365259472E29537BEE9C2" name="Customization for Process Simulate Integration" />
+                         <copyFeature feature="CF220DF19CD041955E35DBDD4174E4AA" name="Content Management S1000D/Runtime Server" />
+                         <copyFeature feature="5EA9640C2BFA40249EFB42C45695B69F" name="LDF Foundation/Lifecycle Interoperability Services Framework For Rich Client" />
+                         <copyFeature feature="483DBA0833D586110D2B4C7190B3A075" name="ECAD Part Library Management/Data Model" />
+                         <copyFeature feature="14E1F4893C5962E44B4FECBC4D1DF1E7" name="Supplier Collaboration" />
+                         <copyFeature feature="DF1BA8201B2E0720ADBC983FB348FCE8" name="Teamcenter SLM Integration for Service Execution/Teamcenter SLM Integration for Service Execution Data Model" />
+                         <copyFeature feature="1FB61FD3FEF2D0DC34E43262023A60CD" name="Cortona3D Authoring Server Template S1000D issue 4.0/Data Model" />
+                         <copyFeature feature="F6FE70FBD4923E25628142FC42CBF9C1" name="NX Machining Line Planner Integration/Data Model" />
+                         <copyFeature feature="4B056E036F003D836BFCA783858AFD82" name="As-Maintained Management/As-Maintained Management for Service Manager" />
+                         <copyFeature feature="F2B65F52FAE8F78936DA2E078EF09A78" name="NX Stage Model" />
+                         <copyFeature feature="69ACC5C9DAB521FBB849F0B2E5139207" name="Service Planning/Runtime Server" />
+                         <copyFeature feature="EF01FC4BE149C85AEDB6F254149E5413" name="Calibration and Configuration Data Management" />
+                         <copyFeature feature="AB97AAAC46471B7D5DC94C8A46E528ED" name="Issue Management/Data Model" />
+                         <copyFeature feature="5ZQ5OTN5JL75RD30B90YDZEH64GAIJDF" name="NX Fixed Plane Additive Manufacturing Integration/Data Model" />
+                         <copyFeature feature="25B2B500111E9BCE307EF233A85B9C89" name="Content Management DITA/Content Management DITA for Rich Client" />
+                         <copyFeature feature="751BC8021BC6CA80EE1479BDEE3D72DA" name="Change and Schedule Management Interface" />
+                         <copyFeature feature="0B1C34ECB6A9459B8E6B836BF450673B" name="As-Built Management/As-Built Manager" />
+                         <copyFeature feature="18BBC965DCFE72A172D3855F7FFABA7F" name="Teamcenter Integration for NX Change Management" />
+                         <copyFeature feature="F48016E4FBF7F866155FC83B3845DC6F" name="Advanced PLM Services for Applications/Data Model" />
+                         <copyFeature feature="EBB13202744A11E1B1B240504824019B" name="Change and Schedule Management Interface/Change and Schedule Management Interface" />
+                         <copyFeature feature="C1E16C1BB1BCB579D7361D87C2B07BB5" name="Electrical and Wire Harness Configuration" />
+                         <copyFeature feature="82EE71652C7FDA149264D6EC935264AA" name="ESM Processor" />
+                         <copyFeature feature="09727A512F368A1E9CB0472AFDB39FCF" name="As-Maintained Management" />
+                         <copyFeature feature="A8015D42EE7924EC0F86743E6EB381A6" name="Calibration and Configuration Data Management/Calibration and Configuration Data Management for Rich Client" />
+                         <copyFeature feature="278A6BF6EFC36B33A25B1C719E7C7B63" name="Embedded Software Design Data Management/Embedded Software Design Data Management for Rich Client" />
+                         <copyFeature feature="CFACD6664930404520468366D53D6DEA" name="Cortona3D Authoring Server Template DITA" />
+                         <copyFeature feature="3D2B93D359D142F7B0566AE6DF18E896" name="CPG Materials/CPG Materials for Rich Client" />
+                         <copyFeature feature="898522D9E3DF2B24011350F411A38672" name="As-Built Management/Data Model" />
+                         <copyFeature feature="69822D629FDD071E90D3F7094E212CAB" name="Manufacturing Characteristics Information/Data Model" />
+                         <copyFeature feature="N1FO33ZTJU83HEFYAEZXEIH7N9809D5M" name="MES Integration/CMTMES INTEG For Rich Client" />
+                         <copyFeature feature="85B3827CD5A0FA61220398F6C60C21AB" name="GM Overlay/GM Overlay for Rich Client" />
+                         <copyFeature feature="811CD31EBF6049889D09AEF209E50C00" name="Supplier Collaboration/SupplierCollaboration for Rich Client" />
+                         <copyFeature feature="93B204840EA1C3397C9F0FA793AD2079" name="Aerospace and Defense Foundation/Aerospace and Defense Foundation for Rich Client" />
+                         <copyFeature feature="0C650337B2836CFF6DB5E4267D119C69" name="Embedded Software Design Data Management/Data Model" />
+                         <copyFeature feature="3224587CC01DE671BE52FE0C5D6BC91C" name="Render Document for Rich Client" />
+                         <copyFeature feature="2448846B5A3447DCB22346863B018486" name="Advanced PLM Services for Applications/Advanced PLM Services for Applications For Rich Client" />
+                         <copyFeature feature="0ABA1E359F2DB1BBBA86E9A01BEF27BC" name="Aerospace and Defense Foundation" />
+                         <copyFeature feature="679D5397A18E23206BDAC3332DE3705F" name="LDF Requirements Management Integration/LDF Requirements Management Integration/Data Model" />
+                         <copyFeature feature="7DC5A54C5F8FF6CD52A47499BB353602" name="Change Management 4th Generation Interface" />
+                         <copyFeature feature="ADA48F3F7C692E4C4DAFF9A6C7112A9A" name="Volume Planning/Data Model" />
+                         <copyFeature feature="C02583A830664437B29DBA5D7CA87CD7" name="Supplier Collaboration for Active Workspace/Runtime Server" />
+                         <copyFeature feature="C1F107F376D71271DE7B88D14CDC01AB" name="Dispatcher Server" />
+                         <copyFeature feature="8044635F5EBC332BC81A329B5E30C431" name="Cortona3D Authoring Server Template for REFLEKT/Data Model" />
+                         <copyFeature feature="9C70D43FAF8D2F74061F8838068D5E47" name="Configure AutoCAD Integration for GM Overlay/Data Model" />
+                         <copyFeature feature="B2C6E0E6F50D9BBD8C814391B4B56E7C" name="Embedded Software Design Data Management with SCM Clear Case Integration" />
+                         <copyFeature feature="E9433EB5143284D8DA5FA5130B7473E3" name="Penetration Request Management/Data Model" />
+                         <copyFeature feature="5A1B8263FA2F02FBBFB95FCF8F3A1357" name="System Synthesis Modeling/System Synthesis Modeling/Data Model" />
+                         <copyFeature feature="21ABD8469E6963718B5785A130591DDB" name="LDF Embedded Software Management Integration/LDF Embedded Software Management Integration/Data Model" />
+                         <copyFeature feature="727FC0BE66DFFC925792C895C9393AED" name="Aerospace and Defense Foundation Training/Data Model" />
+                         <copyFeature feature="402A68F9A9754C36887FEE65F7F27A1E" name="Systems Engineering/Functional Modeling / Budgets for Rich Client" />
+                         <copyFeature feature="B0A83D5C60767D8E7E794750361B5702" name="Aerospace and Defense Change Management" />
+                         <copyFeature feature="124EC5BA72B8D9590E3CBB2A8FFE39FD" name="Verification and Validation Planning and Reporting" />
+                         <copyFeature feature="IP16T0XGUUTIR85UVGBSSZJN5N9EG6D4" name="Weight And Balance Management/Runtime Server" />
+                         <copyFeature feature="6BD9DB8932074D4BB29F2E7A12244342" name="Product Configurator/Runtime Server" />
+                         <copyFeature feature="6CBE12DB9D3ADC977D38FECF31ADEE27" name="Transaction Processing/Data Model" />
+                         <copyFeature feature="7064A5578FB40F08F35BB43EB2968B3C" name="Finished Product Management to CPG Materials Bridge/Data Model" />
+                         <copyFeature feature="58AA1264C879EBBF98E3BD9102E4C80F" name="Wire Harness Configuration in GM Overlay" />
+                         <copyFeature feature="2E7248BC6C2FEB31F6B7AFA9F384EE90" name="Quality Issue Management and Problem Solving base" />
+                         <copyFeature feature="1FDA91C667A7F8554E3CF6E08265314D" name="Consumer Product Management" />
+                         <copyFeature feature="BF0913579A452C0C4B076AF7792ABB66" name="GM customization for DPV" />
+                         <copyFeature feature="EU2OOZH9CGH8YTBG75OO97E8MQH12GNK" name="Content Management S1000D SGML Parser" />
+                         <copyFeature feature="50DF44CF466E89509D31773EEC04AC84" name="PAD/TWP Customization/Data Model" />
+                         <copyFeature feature="945F8A2A969C11D3D27B4DE92DF875C1" name="Dimensional Planning And Validation Multi Field Key/Data Model" />
+                         <copyFeature feature="EF3673AE7507EDD0A89F39AE9E7B6825" name="MES Issue Management" />
+                         <copyFeature feature="29BB04D9E9D6C34A639B6C6D2D72750E" name="LDF Change Management Integration" />
+                         <copyFeature feature="9D98D83C2FCB4C1CEA454CA42EF79665" name="Advanced PLM Services for Realization/Data Model" />
+                         <copyFeature feature="562D6020ABC3885D58060E35CE0FAA7A" name="Aspect Infrastructure Support/Data Model" />
+                         <copyFeature feature="2B099B14C6C97C80D0942C60C2C79635" name="Content Management S1000D 4.0/Data Model" />
+                         <copyFeature feature="5D7B379B90064E60A1194DC462FE5E20" name="Systems Engineering/Runtime Server" />
+                         <copyFeature feature="FE901K33O4374MH7JGJAFMJ8LD0Y81O6" name="Change Management 4th Generation Interface/Change Management 4th Generation Interface For Rich Client" />
+                         <copyFeature feature="E9FD70FEFA705D15626745CF0085A04D" name="Packaging and Artwork to Finished Product Management Bridge/Data Model" />
+                         <copyFeature feature="4008A5CC4ADEE8B11CC6AF124B7B5ED0" name="As-Built and As-Maintained Alignment/Data Model" />
+                         <copyFeature feature="985EC8CD9FDBDDE21AAE36C5C448CDCE" name="Content Management S1000D 4.0/Content Management S1000D 4.0 for Rich Client" />
+                         <copyFeature feature="30A940648B944AFD96930ABF06DD0A14" name="Product Configurator/Product Configurator for Rich Client" />
+                         <copyFeature feature="621867822C3BEE45E41BD746D438D8E8" name="As-Built and As-Maintained Alignment/As-Built and As-Maintained Alignment for Service Manager" />
+                         <copyFeature feature="P71GJXKJG8XKTWTK26P4GMW1JMVSDW4E" name="Change Management Realization Interface/Runtime Server" />
+                         <copyFeature feature="7AE6140A833847A58E6D156664AB2ED6" name="Advanced PLM Services for Partitioning/Runtime Server" />
+                         <copyFeature feature="57A200BE04F16212ABEE5011A667C213" name="Product Master Manager/Product Master Management module for Rich Client" />
+                         <copyFeature feature="57A200BE04F16212ABEE5011A667C212" name="Product Master Manager" />
+                         <copyFeature feature="6BABAB43D0952B0D1A25E6AB3ABCE57B" name="Service Processing" />
+                         <copyFeature feature="5A09E42C2788DF006CE63A3967A28DFD" name="GM PAD/TWP Customization/Data Model" />
+                         <copyFeature feature="A9176148F4B04F3ABBED68D14E4834D1" name="Product Configurator Feature Planning/Runtime Server" />
+                         <copyFeature feature="29C7DD03A9DB49A1BC2775D8E0800C03" name="LDF Server Support/Runtime Server" />
+                         <copyFeature feature="ED25232D3AEB74E9AC5CE5FED2382B9E" name="Verification Management" />
+                         <copyFeature feature="01BA0C24064341C0079FE9A560C1B935" name="Product Configurator Support for Structure Manager/Data Model" />
+                         <copyFeature feature="BECBF36367084A16B5F3A3A199BF1471" name="Service Processing/Service Processing Extensions for Service Manager" />
+                         <copyFeature feature="75C7D15EC19C8307DD44895F001A40BD" name="Change Management Configurator Interface" />
+                         <copyFeature feature="0B017305DDED4A79B2C532F73CC747B1" name="Advanced PLM Services for Partitioning/Advanced PLM Services for Partitioning For Rich Client" />
+                         <copyFeature feature="24E971B98502CEF2DBBBEA129D64D5D4" name="Color Explosion Rule Management" />
+                         <copyFeature feature="2FD8E43E0E324F0C824423C44F8275AC" name="Color Explosion Rule Management/Color Rule Management module for Rich Client" />
+                         <copyFeature feature="30A940648B944AFD96930ABF06DD0B14" name="Product Configurator Support for Structure Manager/Rich Client Product Configurator Support for Structure Manager" />
+                         <copyFeature feature="LHN3T7DJF8VSTUZ7MHO5GG4FYSXH4HA3" name="Change Management Configurator Interface/Change Management Configurator Interface" />
+                         <copyFeature feature="56VW6HKTQOQTZNFV4KBB51OQDU2YA3RY" name="Dispatcher Client (4-tier)" />
+                         <copyFeature feature="A0867AA7A20BDE30D84A8A2EB029340D" name="4th Generation Design" />
+                         <copyFeature feature="D68EA80A7A428D2B1E6A2B85813F608E" name="Configurator Partition Interface" />
+                         <copyFeature feature="3AF00C2B1AF66D4F0CF377A5505F8245" name="Service Planning and Service Processing Alignment" />
+                         <copyFeature feature="9D1CCF5564F90A37FEFF75ECF3181C36" name="Service Event Management/Data Model" />
+                         <copyFeature feature="57A200BE04F16212ABEE5011A667C215" name="CAD-BOM Alignment/CAD-BOM Alignment module for Rich Client" />
+                         <copyFeature feature="57A200BE04F16212ABEE5011A667C214" name="CAD-BOM Alignment" />
+                         <copyFeature feature="DA9037E198F24BB99EA6DFAB8F2B2D68" name="Service Request Processing (Requires Change Management)/Service Request Manager" />
+                         <copyFeature feature="0B91CEF0912F5EC65EA590309EF26DD4" name="Manufacturing core using APS/Data Model" />
+                         <copyFeature feature="4E620991C007B13C6641B55273CC82F7" name="MDConnectivity/Data Model" />
+                         <copyFeature feature="301F12B06B3EAAB18DC0C2B9444F3B18" name="Dispatcher Client (2-tier)" />
+                         <copyFeature feature="7E0CE4FE775C8A30A386889E81F083F2" name="Cadence Allegro Library Support" />
+                         <copyFeature feature="0D747C7CBC60E93BED5D728A71C2E699" name="System Modeling/Runtime Server" />
+                         <copyFeature feature="0LY24XWL6NVNSN0219YLHFGF56Q8QO2S" name="Product Master Manager Partition Management Integration" />
+                         <copyFeature feature="E7C7EF8CB77931036A79099DD60A0AED" name="Service Request Processing (Requires Change Management)/Data Model" />
+                         <copyFeature feature="51EC6281B8EFBA9CA8139202A1E92F13" name="Service Scheduler/Service Scheduling" />
+                         <copyFeature feature="1C13C68837D9CDFCAC57C92E3DD6A8C1" name="Color BOM for Product Master Management/Data Model" />
+                         <copyFeature feature="1F01D287E50D1B2622379F21F157719D" name="Multi-Disciplinary Associations" />
+                         <copyFeature feature="3D85937EC9CEAB8E204FD099E8BD873B" name="Next generation Classification foundation/Data Model" />
+                         <copyFeature feature="A54EBDA7BA46A7CBDE2AE14B5C8CD732" name="Service Scheduler" />
+                         <copyFeature feature="4A45A0802B8C608E5BF8C49E89CB6E74" name="Cadence Allegro Support" />
+                         <copyFeature feature="C0BD38B441FD4676B95A2E591CC08AD8" name="Color BOM for Product Master Management/Product Master Manager Color Management module for Rich Client" />
+                         <copyFeature feature="7AAF47F6192BFDC235719242A07AE525" name="Zuken CR5000 Support" />
+                         <copyFeature feature="2GS786REA1CY0ZH84VBJFV37PYRG0LOZ" name="Partitions for Structure/Runtime Server" />
+                         <copyFeature feature="2B9F8EA8B1F04607A693B18BEC14F64B" name="Configurator Partition Interface/Configurator Architecture Interface for Rich Client" />
+                         <copyFeature feature="6ML9EV9PRBXF7U2M7KJOT0YRQVJAWNYJ" name="Multi-Disciplinary Associations/Teamcenter Multi-Disciplinary Object RAC" />
+                         <copyFeature feature="A8B19078A58941299A0B5047DA86E92F" name="Mentor PADS Library Support" />
+                         <copyFeature feature="CD5A72613F0E4A94AB9417CE642E4C7E" name="Service Event Management/Service Event Management Extensions for Service Manager" />
+                         <copyFeature feature="5FF7746CA45B11DFA7A3A39DDFD72085" name="4th Generation Design/4th Generation Design For Rich Client" />
+                         <copyFeature feature="EKKN0LNIHO4PWHA6UTGUEHCWJ75FEGO2" name="Product Master Manager Partition Management Integration/Product Master Manager Partition Management Integration module for Rich Client" />
+                         <copyFeature feature="732D32C0AF90CCAAE35E8C936E8054C4" name="NX 4th Generation Design/Data Model" />
+                         <copyFeature feature="51EC6281B8EFBA9CA8139202A1E56G14" name="Service Forecasting/Service Forecasting" />
+                         <copyFeature feature="37A59BF86F82C5F53E55455023F73CA8" name="Classification Standard Taxonomy support/Data Model" />
+                         <copyFeature feature="C3019BD5E4ABF9232D9D750D0CC2A191" name="4th Generation Product Master/Runtime Server" />
+                         <copyFeature feature="AFD488AE6C23150F2AAEE29EE1C87F9C" name="4th Generation Target Management (Deprecated)/Runtime Server" />
+                         <copyFeature feature="A7C21010C4A93ED2B926A2CE174ACE78" name="Service Forecasting" />
+                         <copyFeature feature="1B8DC1A298CCCCB5031B4F089FD6E4EB" name="Diagramming" />
+                         <copyFeature feature="12EBCA7ED53D0F5C5761C89EEFF28663" name="Change Management 4th Generation Design Interface/Data Model" />
+                         <copyFeature feature="19EA112FAFCB44798EDB4B3DDA3E7D48" name="Change Management 4th Generation Design Interface/Change Management 4th Generation Design Interface For Rich Client" />
+                         <copyFeature feature="5A995306C63E6C243F9287C22929F60A" name="4th Generation Product Master/4th Generation Product Master For Rich Client" />
+                         <copyFeature feature="7A9B07A2F2CFEC8BC763AE7DF2DE6DD2" name="Library Management/Data Model" />
+                         <copyFeature feature="F2F19C395E05D2DE8BDAB404ACFF066F" name="Product Configurator for Simulation Process Management/Rich Client Product Configurator for Simulation Process Management" />
+                         <copyFeature feature="73B50A8073AF3D6FC73933ADB873D442" name="Change Management Color BOM Interface/Data Model" />
+                         <copyFeature feature="1A05D295A8E01028EDF00E310F33576D" name="Cadence Translation Support" />
+                         <copyFeature feature="21H8H9VW9KUVUT4TUE4JPN449N9WFFT2" name="4GD Change Detection Service" />
+                         <copyFeature feature="8C08A038BDEF49C40EFA42FA982103B4" name="Manufacturing support for 4th Generation Design/Data Model" />
+                         <copyFeature feature="7C5F931ACE78588F4ED6588A6B5A67FA" name="Mentor Translation Support" />
+                         <copyFeature feature="0FB43F4A84A9678451FD99153D7657BF" name="Product Configurator for Simulation Process Management" />
+                         <copyFeature feature="58980718A7454A74BF7A7BEDBDD4ABD1" name="Manufacturing support for 4th Generation Design/ RAC Manufacturing support for 4th Generation Design" />
+                         <copyFeature feature="08106E5EAAE84DE68CDC3226F8FEE341" name="Product Planning (Deprecated)/Runtime Server" />
+                         <copyFeature feature="592AD88DB406CB2382BC02422B419750" name="Partitioned Design Guidelines/Runtime Server" />
+                         <copyFeature feature="A8E79F012998C81D7EDCE33A0FB463AC" name="Change Management 4th Generation Product Master Interface" />
+                         <copyFeature feature="05996D021F03DCFD472DF174D80972A2" name="NX Piping and Instrumentation Diagram (P&amp;ID) Design/Runtime Server" />
+                         <copyFeature feature="9F9D2BCFBA674B90AEEB0B26015082A8" name="NX 4GD Validation/Runtime Server" />
+                         <copyFeature feature="9099AE70096D7256DB4875B93A8287D2" name="4th Generation Design Issue Management/Data Model" />
+                         <copyFeature feature="51EC6281B8EFBA9CA8131202A1E92F13" name="Service Automated Scheduling/Automated Scheduling" />
+                         <copyFeature feature="EBD1B13263E493AF761090EE210E65EE" name="Service Automated Scheduling/Data Model" />
+                         <copyFeature feature="BLM221F9OYTL5QPPDR06YQ8XE4MM6ACI" name="Automation Designer/Runtime Server" />
+                         <copyFeature feature="E0A8463E3CCE4B519AE6E6C3DC38BA8E" name="Partitioned Design Guidelines/Rich Client for Partitioned Design Guidelines" />
+                         <copyFeature feature="8E3C28318BA64D26A810C6D176693257" name="Capital Asset Lifecycle Management/Runtime Server" />
+                         <copyFeature feature="C2B5D522B3BE0B31C42CBACB058F31B8" name="EMPS - ECAD Translation" />
+                         <copyFeature feature="9C1ABCD88A67436283FE0BE88C45C647" name="PlantCad2Tc and Data Mapping" />
+                         <copyFeature feature="05C0DA1C9E5F481183FFE7FE8F6FB964" name="Teamcenter Rich Client (Lite Edition)" />
+                         <copyFeature feature="DF1113C8B97E7FB6276DA802EA2CFD6F" name="Install Libraries for AIWS Client" />
+                         <copyFeature feature="BEAFB86044265E2347C283EA7D83F0DF" name="Spatial Search" />
+                         <copyFeature feature="16A213558F4BB66FC1A0B50405C551D2" name="Bounding box generation from JT (Requires Dispatch Server)" />
+                         <copyFeature feature="11054A8BA2BBF7EB27EBBC3841C72F8E" name="Trueshape generation from JT (Requires Dispatch Server)" />
+                         <copyFeature feature="BEDB3C42EFA092306C2C3A24C7BCFADE" name="Bounding box generation from NX" />
+                         <copyFeature feature="301F12B06B3EAAB18DC0C2B9444F3B51" name="Server Print" />
+                         <copyFeature feature="C234AA2CF3FF24E8ECB1DD4455938FF2" name="QPL for Repeatable Digital Validation" />
+                         <copyFeature feature="7457BF44AAFF4C07BB28619FE3A99FC1" name="OData Microservice" />
+                         <copyFeature feature="21E1D6695FB332DF61AC478C4FA17C3B" name="Teamcenter Security Service" />
+                         <copyFeature feature="KUU0SDLMXR9HEN7AOO0SUKI4591I54F8" name="Teamcenter Office Online Web Service" />
+                         <copyFeature feature="88E1D6695FB332DF61AC478C4FA17C3B" name="Teamcenter Office Online Connection" />
+                         <unpack feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+                         <unpack feature="845EC8CD9FDBDDE21AAE36C5C448CDA0" name="Cortona3D Rich Client Customization" />
+                         <unpack feature="E06BC676B5FFF7910552AFC256C6B537" name="Teamcenter Extensions for Microsoft Office" />
+                         <unpack feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System" />
+                         <unpack feature="FF18D25DA73019F880BCFFBC0029CA28" name="Teamcenter Rich Client 4-tier" />
+                         <unpack feature="E277D26EC8A8DBB63F59AAC04EC0A8C7" name="Teamcenter Client for Microsoft Office" />
+                         <unpack feature="34B1DB0D5D1D4E7DBE6B901A894C86A7" name="APS Configured Search Framework/Runtime Server" />
+                         <unpack feature="B5400043A525403BBA8004220A508FB3" name="Advanced PLM Services core Template/Advanced PLM Services Core For Rich Client" />
+                         <unpack feature="307887BF21720CDB88169FCF80F23B46" name="Advanced PLM Services core Template/Runtime Server" />
+                         <unpack feature="VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9" name="Classification Interface/Runtime Server" />
+                         <unpack feature="408579C11CFBD85308B4A8520653FDAF" name="Vendor Management/VendorManagement for Rich Client" />
+                         <unpack feature="2A966AEFF2C74C128C8833807C929063" name="Build Conditions/Runtime Server" />
+                         <unpack feature="117E61A0DFCC4813974A2B0527D95F53" name="Supplier Collaboration/Runtime Server" />
+                         <unpack feature="811CD31EBF6049889D09AEF209E50C00" name="Supplier Collaboration/SupplierCollaboration for Rich Client" />
+                         <unpack feature="30A940648B944AFD96930ABF06DD0A14" name="Product Configurator/Product Configurator for Rich Client" />
+                         <unpack feature="6BD9DB8932074D4BB29F2E7A12244342" name="Product Configurator/Runtime Server" />
+                         <unpack feature="C6A5177C2E4123136C1695F21145FE8D" name="Product Configurator Support for Structure Manager/Runtime Server" />
+                         <unpack feature="30A940648B944AFD96930ABF06DD0B14" name="Product Configurator Support for Structure Manager/Rich Client Product Configurator Support for Structure Manager" />
+                         <preInstall feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+                         <preInstall feature="845EC8CD9FDBDDE21AAE36C5C448CDA0" name="Cortona3D Rich Client Customization" />
+                         <preInstall feature="E06BC676B5FFF7910552AFC256C6B537" name="Teamcenter Extensions for Microsoft Office" />
+                         <preInstall feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System" />
+                         <preInstall feature="FF18D25DA73019F880BCFFBC0029CA28" name="Teamcenter Rich Client 4-tier" />
+                         <preInstall feature="E277D26EC8A8DBB63F59AAC04EC0A8C7" name="Teamcenter Client for Microsoft Office" />
+                         <preInstall feature="34B1DB0D5D1D4E7DBE6B901A894C86A7" name="APS Configured Search Framework/Runtime Server" />
+                         <preInstall feature="B5400043A525403BBA8004220A508FB3" name="Advanced PLM Services core Template/Advanced PLM Services Core For Rich Client" />
+                         <preInstall feature="307887BF21720CDB88169FCF80F23B46" name="Advanced PLM Services core Template/Runtime Server" />
+                         <preInstall feature="VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9" name="Classification Interface/Runtime Server" />
+                         <preInstall feature="408579C11CFBD85308B4A8520653FDAF" name="Vendor Management/VendorManagement for Rich Client" />
+                         <preInstall feature="2A966AEFF2C74C128C8833807C929063" name="Build Conditions/Runtime Server" />
+                         <preInstall feature="117E61A0DFCC4813974A2B0527D95F53" name="Supplier Collaboration/Runtime Server" />
+                         <preInstall feature="811CD31EBF6049889D09AEF209E50C00" name="Supplier Collaboration/SupplierCollaboration for Rich Client" />
+                         <preInstall feature="30A940648B944AFD96930ABF06DD0A14" name="Product Configurator/Product Configurator for Rich Client" />
+                         <preInstall feature="6BD9DB8932074D4BB29F2E7A12244342" name="Product Configurator/Runtime Server" />
+                         <preInstall feature="C6A5177C2E4123136C1695F21145FE8D" name="Product Configurator Support for Structure Manager/Runtime Server" />
+                         <preInstall feature="30A940648B944AFD96930ABF06DD0B14" name="Product Configurator Support for Structure Manager/Rich Client Product Configurator Support for Structure Manager" />
+                         <install feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+                         <install feature="845EC8CD9FDBDDE21AAE36C5C448CDA0" name="Cortona3D Rich Client Customization" />
+                         <install feature="E06BC676B5FFF7910552AFC256C6B537" name="Teamcenter Extensions for Microsoft Office" />
+                         <install feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System" />
+                         <install feature="FF18D25DA73019F880BCFFBC0029CA28" name="Teamcenter Rich Client 4-tier" />
+                         <install feature="E277D26EC8A8DBB63F59AAC04EC0A8C7" name="Teamcenter Client for Microsoft Office" />
+                         <install feature="34B1DB0D5D1D4E7DBE6B901A894C86A7" name="APS Configured Search Framework/Runtime Server" />
+                         <install feature="B5400043A525403BBA8004220A508FB3" name="Advanced PLM Services core Template/Advanced PLM Services Core For Rich Client" />
+                         <install feature="307887BF21720CDB88169FCF80F23B46" name="Advanced PLM Services core Template/Runtime Server" />
+                         <install feature="VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9" name="Classification Interface/Runtime Server" />
+                         <install feature="408579C11CFBD85308B4A8520653FDAF" name="Vendor Management/VendorManagement for Rich Client" />
+                         <install feature="2A966AEFF2C74C128C8833807C929063" name="Build Conditions/Runtime Server" />
+                         <install feature="117E61A0DFCC4813974A2B0527D95F53" name="Supplier Collaboration/Runtime Server" />
+                         <install feature="811CD31EBF6049889D09AEF209E50C00" name="Supplier Collaboration/SupplierCollaboration for Rich Client" />
+                         <install feature="30A940648B944AFD96930ABF06DD0A14" name="Product Configurator/Product Configurator for Rich Client" />
+                         <install feature="6BD9DB8932074D4BB29F2E7A12244342" name="Product Configurator/Runtime Server" />
+                         <install feature="C6A5177C2E4123136C1695F21145FE8D" name="Product Configurator Support for Structure Manager/Runtime Server" />
+                         <install feature="30A940648B944AFD96930ABF06DD0B14" name="Product Configurator Support for Structure Manager/Rich Client Product Configurator Support for Structure Manager" />
+                         <postInstall feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+                         <postInstall feature="845EC8CD9FDBDDE21AAE36C5C448CDA0" name="Cortona3D Rich Client Customization" />
+                         <postInstall feature="E06BC676B5FFF7910552AFC256C6B537" name="Teamcenter Extensions for Microsoft Office" />
+                         <postInstall feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System" />
+                         <postInstall feature="FF18D25DA73019F880BCFFBC0029CA28" name="Teamcenter Rich Client 4-tier" />
+                         <postInstall feature="E277D26EC8A8DBB63F59AAC04EC0A8C7" name="Teamcenter Client for Microsoft Office" />
+                         <postInstall feature="34B1DB0D5D1D4E7DBE6B901A894C86A7" name="APS Configured Search Framework/Runtime Server" />
+                         <postInstall feature="B5400043A525403BBA8004220A508FB3" name="Advanced PLM Services core Template/Advanced PLM Services Core For Rich Client" />
+                         <postInstall feature="307887BF21720CDB88169FCF80F23B46" name="Advanced PLM Services core Template/Runtime Server" />
+                         <postInstall feature="VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9" name="Classification Interface/Runtime Server" />
+                         <postInstall feature="408579C11CFBD85308B4A8520653FDAF" name="Vendor Management/VendorManagement for Rich Client" />
+                         <postInstall feature="2A966AEFF2C74C128C8833807C929063" name="Build Conditions/Runtime Server" />
+                         <postInstall feature="117E61A0DFCC4813974A2B0527D95F53" name="Supplier Collaboration/Runtime Server" />
+                         <postInstall feature="811CD31EBF6049889D09AEF209E50C00" name="Supplier Collaboration/SupplierCollaboration for Rich Client" />
+                         <postInstall feature="30A940648B944AFD96930ABF06DD0A14" name="Product Configurator/Product Configurator for Rich Client" />
+                         <postInstall feature="6BD9DB8932074D4BB29F2E7A12244342" name="Product Configurator/Runtime Server" />
+                         <postInstall feature="C6A5177C2E4123136C1695F21145FE8D" name="Product Configurator Support for Structure Manager/Runtime Server" />
+                         <postInstall feature="30A940648B944AFD96930ABF06DD0B14" name="Product Configurator Support for Structure Manager/Rich Client Product Configurator Support for Structure Manager" />
+                         <featureInstalled feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+                         <featureInstalled feature="845EC8CD9FDBDDE21AAE36C5C448CDA0" name="Cortona3D Rich Client Customization" />
+                         <featureInstalled feature="E06BC676B5FFF7910552AFC256C6B537" name="Teamcenter Extensions for Microsoft Office" />
+                         <featureInstalled feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System" />
+                         <featureInstalled feature="FF18D25DA73019F880BCFFBC0029CA28" name="Teamcenter Rich Client 4-tier" />
+                         <featureInstalled feature="E277D26EC8A8DBB63F59AAC04EC0A8C7" name="Teamcenter Client for Microsoft Office" />
+                         <featureInstalled feature="34B1DB0D5D1D4E7DBE6B901A894C86A7" name="APS Configured Search Framework/Runtime Server" />
+                         <featureInstalled feature="B5400043A525403BBA8004220A508FB3" name="Advanced PLM Services core Template/Advanced PLM Services Core For Rich Client" />
+                         <featureInstalled feature="307887BF21720CDB88169FCF80F23B46" name="Advanced PLM Services core Template/Runtime Server" />
+                         <featureInstalled feature="VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9" name="Classification Interface/Runtime Server" />
+                         <featureInstalled feature="408579C11CFBD85308B4A8520653FDAF" name="Vendor Management/VendorManagement for Rich Client" />
+                         <featureInstalled feature="2A966AEFF2C74C128C8833807C929063" name="Build Conditions/Runtime Server" />
+                         <featureInstalled feature="117E61A0DFCC4813974A2B0527D95F53" name="Supplier Collaboration/Runtime Server" />
+                         <featureInstalled feature="811CD31EBF6049889D09AEF209E50C00" name="Supplier Collaboration/SupplierCollaboration for Rich Client" />
+                         <featureInstalled feature="30A940648B944AFD96930ABF06DD0A14" name="Product Configurator/Product Configurator for Rich Client" />
+                         <featureInstalled feature="6BD9DB8932074D4BB29F2E7A12244342" name="Product Configurator/Runtime Server" />
+                         <featureInstalled feature="C6A5177C2E4123136C1695F21145FE8D" name="Product Configurator Support for Structure Manager/Runtime Server" />
+                         <featureInstalled feature="30A940648B944AFD96930ABF06DD0B14" name="Product Configurator Support for Structure Manager/Rich Client Product Configurator Support for Structure Manager" />
+                    </script>
+               </director>
+               <FSCParents guid="30E3AC7AF5CA4F82EAE21C80737EE55B">
+                    <assignmentMode value="parentfsc" />
+                    <parents value="http,10.128.11.158,4544,,0,lan,;" />
+               </FSCParents>
+               <SsoRc guid="E55610E8ECDB81520D8DAFD99D6BF542">
+                    <tssBrowser value="" />
+                    <loginURL value="" />
+                    <appId value="Teamcenter" />
+               </SsoRc>
+               <ClientTransportMode guid="18DVF0VKAUEEFBQ5JOI6U7M17PHXK5XA">
+                    <filterText value="" />
+                    <useConfig value="false" />
+               </ClientTransportMode>
+          </data>
+          <features>
+               <add feature="A0CF69C3A0BC61770EB81BD22667EA52" name="Microsoft Visual C++ Runtimes" />
+               <add feature="845EC8CD9FDBDDE21AAE36C5C448CDA0" name="Cortona3D Rich Client Customization" />
+               <add feature="E06BC676B5FFF7910552AFC256C6B537" name="Teamcenter Extensions for Microsoft Office" />
+               <add feature="WV56WDWGQRW3NDGOS4YEXNF55EKZHUEN" name="Client Communication System" />
+               <add feature="FF18D25DA73019F880BCFFBC0029CA28" name="Teamcenter Rich Client 4-tier" />
+               <add feature="E277D26EC8A8DBB63F59AAC04EC0A8C7" name="Teamcenter Client for Microsoft Office" />
+               <add feature="34B1DB0D5D1D4E7DBE6B901A894C86A7" name="APS Configured Search Framework/Runtime Server" />
+               <add feature="B5400043A525403BBA8004220A508FB3" name="Advanced PLM Services core Template/Advanced PLM Services Core For Rich Client" />
+               <add feature="307887BF21720CDB88169FCF80F23B46" name="Advanced PLM Services core Template/Runtime Server" />
+               <add feature="VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9" name="Classification Interface/Runtime Server" />
+               <add feature="408579C11CFBD85308B4A8520653FDAF" name="Vendor Management/VendorManagement for Rich Client" />
+               <add feature="2A966AEFF2C74C128C8833807C929063" name="Build Conditions/Runtime Server" />
+               <add feature="117E61A0DFCC4813974A2B0527D95F53" name="Supplier Collaboration/Runtime Server" />
+               <add feature="811CD31EBF6049889D09AEF209E50C00" name="Supplier Collaboration/SupplierCollaboration for Rich Client" />
+               <add feature="30A940648B944AFD96930ABF06DD0A14" name="Product Configurator/Product Configurator for Rich Client" />
+               <add feature="6BD9DB8932074D4BB29F2E7A12244342" name="Product Configurator/Runtime Server" />
+               <add feature="C6A5177C2E4123136C1695F21145FE8D" name="Product Configurator Support for Structure Manager/Runtime Server" />
+               <add feature="30A940648B944AFD96930ABF06DD0B14" name="Product Configurator Support for Structure Manager/Rich Client Product Configurator Support for Structure Manager" />
+               <spf feature="3B68CA6CD98948DAADA0A7A041376586" name="APS Configured Search Framework" />
+               <spf feature="307463F1D14E08DFF4F0591C4E892837" name="Classification Interface" />
+               <spf feature="42601F497B99BAEB661CEBA61E272323" name="Vendor Management" />
+               <spf feature="EFCF00AF5F254BA2AAC66005A612C4D8" name="Build Conditions" />
+               <spf feature="246E4C743F89D22E771C348502F4EBB9" name="Product Configurator Support for Structure Manager" />
+               <spf feature="FB59117432EE902E026BD2BE42759256" name="Product Configurator" />
+               <spf feature="7B26FC3F1AC729A311F5AA2FA78CADE5" name="Advanced PLM Services core Template" />
+               <spf feature="326CA27DCABEFBB96D2735397986C1B9" name="Translation Service Database Module" />
+               <spf feature="14E1F4893C5962E44B4FECBC4D1DF1E7" name="Supplier Collaboration" />
+          </features>
+     </config>
+     <updateManager>
+          <patch dir="D:\\TC13_01_UserPackage\\PACKAGES\\Tc13.1.0_patch_4_wntx64\\wntx64" backup="C:\\Siemens\\TR13\\install\\install\\patches\\backup" date="202107011553" version="13.1.0.4" parentVersion="" applicationId="" />
+          <patch dir="D:\\TC13_01_UserPackage\\PACKAGES\\Tc13.0.0.0_SupplierCollaboration5.1.2_wntx64\\wntx64" backup="C:\\Siemens\\TR13\\install\\install\\patches\\backup" date="202107011553" version="2.0" parentVersion="" applicationId="" />
+     </updateManager>
+</root>
+

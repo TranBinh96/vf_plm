@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_plmxml_sync_dataset" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relation name, dataset type, and the named reference that must be used to create datasets using the existing PLM XML file. Also, relates the PLM XML to the structure context object (SCO), or root item revision of a configured assembly, for which it is generated.
+Valid Values:
+String value delimited by colons (:) representing any existing dataset type, relation name, and named reference type in the following format:
+dataset-type:relation:named-reference-typeIf a named reference type is not specified, ConfiguredAssembly is used.</preference_description>
+      <context name="Teamcenter">
+        <value>DirectModelAssembly:IMAN_reference:ConfiguredAssembly</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

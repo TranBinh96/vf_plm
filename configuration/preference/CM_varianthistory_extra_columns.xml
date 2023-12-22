@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_varianthistory_extra_columns" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which fields of the BOM change form are included in the Variant Change History dialog box.
+Valid Values:
+Accepts multiple strings as values; each string must contain a persistent property of the BOM change form, using the following syntax:
+CM_varianthistory_extra_columns=
+Form-Field1
+Form-Field2</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

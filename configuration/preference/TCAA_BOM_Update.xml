@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA_BOM_Update" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls whether the PSE of a drawing with Xref(s) is updated when the main drawing is updated.
+Possible Values: 
+Y - for Yes (Default)
+N - for No</preference_description>
+      <context name="Teamcenter">
+        <value>Y</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWBUseOccurrenceLevelStructureClone" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines if the structure clone operation should be executed at occurrence level.
+Occurrence level structure cloning is supported from platform TC12.3 onwards.
+If this is set to true and platform supports Occurrence level clone execution, structure clone operation is executed at Occurrence level.
+If this is set to true and platfrom does not support Occurrence level clone execution, clone operation is executed at Item Revision level.
+If this is set to false, structure clone operation is executed at Item Revision level.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ItemRevision_Vis_Snapshot_2D_View_Data_default_relation" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the relation that has to be created when a 2D Snapshot dataset is pasted under an ItemRevision. The relation specified for this preference will be the default relation that will be created between the 2DSnapshot dataset and the target ItemRevision.</preference_description>
+      <context name="Teamcenter">
+        <value>VisItemRevCreatedSnapshot2D</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

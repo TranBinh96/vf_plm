@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_msd_vendor_unique_attrib_maps_to" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the name of the attribute of vendor which is to be used to map the unique attribute supplied in the material substance declaration import document.
+The default value is object_name.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ChangeNoticeRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Registers the summary style sheet for change notice revision objects. The summary style sheet is used for the Summary tab.
+Valid Values:
+Any registered XML rendering style sheet.</preference_description>
+      <context name="Teamcenter">
+        <value>BaseChangeNoticeRevisionSummary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

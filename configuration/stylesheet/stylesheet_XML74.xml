@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+	<page titleKey="tc_xrt_Overview"> 
+		<section>
+			<column> 
+				<section title="Klara A1">
+					<label text="Klara A1" style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+					<property name="vf4_a1_red_candytone" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a1_dark_blue" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a1_black_solid" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a1_dark_grey" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a1_white_metallic" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a1_yellow_ivory" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a1_common_part" column="16" renderingHint="checkbox"/>
+				</section> 
+			</column>
+
+			<column>
+				<section title="Klara A2">
+					<label text="Klara A2" style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+					<property name="vf4_a2_red_candytone" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a2_dark_blue" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a2_black_solid" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a2_dark_grey" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a2_white_metallic" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a2_yellow_ivory" column="16" renderingHint="checkbox"/>
+					<property name="vf4_a2_common_part" column="16" renderingHint="checkbox"/>
+
+				</section>
+			</column>
+
+
+			<column>	
+				<section title="VK CITY">
+					<label text="VK CITY" style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+					<property name="vf4_vk_city_red_fresh" column="16" renderingHint="checkbox"/>
+					<property name="vf4_vk_city_dark_blue" column="16" renderingHint="checkbox"/>
+					<property name="vf4_vk_city_blue" column="16" renderingHint="checkbox"/>
+					<property name="vf4_vk_city_white_cyan" column="16" renderingHint="checkbox"/>
+					<property name="vf4_vk_city_dark_grey" column="16" renderingHint="checkbox"/>
+					<property name="vf4_vk_city_common_part" column="16" renderingHint="checkbox"/>
+				</section>
+			</column>
+			<column>
+				<section title="VK SPORT">
+					<label text="VK SPORT" style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+					<property name="vf4_sport_red_fresh" column="16" renderingHint="checkbox"/>
+					<property name="vf4_sport_dark_blue" column="16" renderingHint="checkbox"/>
+					<property name="vf4_sport_blue" column="16" renderingHint="checkbox"/>
+					<property name="vf4_sport_white_cyan" column="16" renderingHint="checkbox"/>
+					<property name="vf4_sport_dark_grey" column="16" renderingHint="checkbox"/>
+					<property name="vf4_sport_common_part" column="16" renderingHint="checkbox"/>
+
+				</section>
+			</column>
+			<column>
+				<section title="V5 CITY">
+					<label text="V5 CITY" style="font-size:15pt;font-style:plain;font-family:Tahoma;font-weight:bold;margin-left:50px"/>
+					<property name="vf4_v5_city_red_candytone"  column="16" renderingHint="checkbox"/>	
+					<property name="vf4_v5_city_dark_blue" column="16" renderingHint="checkbox"/>
+					<property name="vf4_v5_city_white_cyan_meta" column="16" renderingHint="checkbox"/>
+					<property name="vf4_v5_city_black_matt" column="16" renderingHint="checkbox"/>
+					<property name="vf4_v5_city_dark_grey" column="16" renderingHint="checkbox"/>
+					<property name="vf4_v5_city_matt_dark_green" column="16" renderingHint="checkbox"/>
+					<property name="vf4_v5_city_nurturing_blue" column="16" renderingHint="checkbox"/>
+					<property name="vf4_v5_city_common_part" column="16" renderingHint="checkbox"/>
+				</section>
+			</column>
+		</section>
+		
+		
+	
+</page>
+	<page title="Information">
+		<section >
+
+			<property name="owning_group" column="16"/>
+			<property name="last_mod_date" column="16"/>
+			<property name="last_mod_user" column="16"/>
+			<property name="checked_out_user" column="16"/>
+
+		</section>	
+	</page>
+
+</rendering>

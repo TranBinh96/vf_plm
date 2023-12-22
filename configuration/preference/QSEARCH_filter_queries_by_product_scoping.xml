@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.QSearch Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QSEARCH_filter_queries_by_product_scoping" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables product-scoped cacheless search. This preference must be set by the qsearch_process_queue utility. When the qsearch_process_queue utility is run with the - enable_product_scoping parameter, the preference is set to 1 to enable product-scoped cacheless search.
+When set to 1, it allows spatial indexing and bounding box generation utilities to work in the scope of one or more specified products. When the qsearch_process_queue utility is run with the - disable_product_scoping parameter, the preference is set to 0 to disable product-scoped cacheless search.
+Valid Values:
+1  Enables product-scoped cacheless search.
+0  Disables product-scoped cacheless search.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

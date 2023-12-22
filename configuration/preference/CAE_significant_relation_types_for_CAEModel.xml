@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_significant_relation_types_for_CAEModel" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an optional preference. Defines significant relationship types for CAEModel and its subtypes. The system considers only those objects attached via relation types configured in the above preference while performing Check for Later Revision, Check for Attachment Change, and Check for References.
+Valid Values:
+Accepts one or more strings as values; each string must be a valid Teamcenter relationship.</preference_description>
+      <context name="Teamcenter">
+        <value>TC_CAE_Source</value>
+        <value>TC_CAE_Target</value>
+        <value>TC_CAE_Param</value>
+        <value>TC_CAE_Criteria</value>
+        <value>IMAN_Simulation</value>
+        <value>IMAN_specification</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_QRYColumnsShownPrefUid" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This is a internal preferrence. In order to show the preferred searches in correct form regardless of locales, this preferrence is used. 
+This corresponds to the QRYColumnsShownPref which contains the display values of the preferred searches. The defaultValue is a dummy value DefaultUid.</preference_description>
+      <context name="Teamcenter">
+        <value>DefaultUid</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

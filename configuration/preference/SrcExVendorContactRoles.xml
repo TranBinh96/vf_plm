@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SrcExVendorContactRoles" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of Vendor Contact roles which are allowed to participate in Sourcing.
+Valid values are the values of the classification Key-LOV that is attached to the classification attribute specified by the preference &quot;SC_VendorRolesAttributeID&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Account Manager</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

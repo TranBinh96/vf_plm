@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="SnapShotViewData.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of properties that are to be displayed under a cell for objects of type SnapShotViewData in the Active Workspace client.
+Valid values are property internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>object_desc</value>
+        <value>owning_user</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

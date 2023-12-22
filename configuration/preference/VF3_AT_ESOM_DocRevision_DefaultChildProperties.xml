@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF3_AT_ESOM_DocRevision_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Child folder</preference_description>
+      <context name="Teamcenter">
+        <value>VF4_DVPItems</value>
+        <value>VF4_ECR_Items</value>
+        <value>VF4_SIL_Items</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

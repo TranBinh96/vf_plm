@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="com.teamcenter.rac.explorer.ExplorerApplication.IWantToSection" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of Teamcenter actions that will be available by default in I Want To... section of My Teamcenter 2007 application.</preference_description>
+      <context name="Teamcenter">
+        <value>newItemAction:Create an Item</value>
+        <value>newDatasetAction:Create a Dataset</value>
+        <value>newProcessAction:Create a Workflow Process</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

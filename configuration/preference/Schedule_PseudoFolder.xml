@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="Schedule_PseudoFolder" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Schedule Pseudo Folder</preference_description>
+      <context name="Teamcenter">
+        <value>VF4_Linked_Source_Parts</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

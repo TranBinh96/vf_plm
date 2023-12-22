@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="COMMONcatiatojt_ets_ds_types" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>COMMONcatiatojt_ets_ds_types: List of the dataset type names of the CATIA V5 datasets that can be translated into JT. If no dataset types are specified, no dataset type validation is performed. 
+Additional named reference type validation can be configured for the datasets specified by this preference value.</preference_description>
+      <context name="Teamcenter">
+        <value>CATPart</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

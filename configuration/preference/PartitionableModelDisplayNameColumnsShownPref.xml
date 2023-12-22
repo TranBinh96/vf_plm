@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PartitionableModelDisplayNameColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the column names displayed in the Content Explorer tree for a partitionable model (for example, a partition template) and its contents. The columns widths are specified in the PartitionableModelShownColumnWidthsPref preference.
+Valid Values:
+One or more valid property names.</preference_description>
+      <context name="Teamcenter">
+        <value>Mdl0ModelElement.object_string</value>
+        <value>Mdl0PositionedModelElement.mdl0logical_designator</value>
+        <value>Mdl0ModelElement.object_type</value>
+        <value>Mdl0ConditionalElement.mdl0effectivity_formula</value>
+        <value>Mdl0ConditionalElement.mdl0variant_formula</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+    Filename: CompanyContactSummary.xml
+
+    Default style sheet for displaying CompanyLocation Summary.
+=======================================================================
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+   <header>
+      <image source="type" />
+      <property name="owning_user" />
+      <property name="last_mod_date" />
+      <property name="release_status_list" />
+      <property name="object_type" />
+   </header>
+   <page titleKey="tc_xrt_Overview">
+      <column>
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="object_type" />
+            <break />
+            <content visibleWhen="{pref:VM_auto_approve_vendor_registration} != null">
+                <property name="Vm0PartnerUser" modifiable="false"/>
+                <break/>
+            </content>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+            <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+            <property name="last_mod_user" />
+            <break />
+            <property name="title" />
+            <property name="first_name" />
+            <property name="last_name" />
+            <property name="phone_business" />
+            <property name="email_address" />
+            <inject type="dataset" src="Sc1CompanyContactPropertyPage" />
+            <inject type="dataset" src="Pka1Pka0CompanyContactTCUser" />
+        </section>
+     </column>
+        <inject type="dataset" src="Sc1CompanyContactSummary" />
+        <inject type="dataset" src="VendorCapabilityOnContact" />
+   </page>
+   <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+      <objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+         <tableDisplay>
+            <property name="object_string" />
+            <property name="lis0site" />
+            <property name="lis0serviceProvider" />
+            <property name="relation" />
+            <property name="last_mod_date" />
+            <property name="last_mod_user" />
+            <property name="checked_out_user" />
+         </tableDisplay>
+         <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton" />
+         <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+            <parameter name="localSelection" value="true" />
+         </command>
+         <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton" />
+         <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+            <parameter name="localSelection" value="true" />
+         </command>
+      </objectSet>
+   </page>
+   <page titleKey="tc_xrt_PartnerContracts" title = "Partner Contracts" visibleWhen="{pref:VM_auto_approve_vendor_registration} != null">
+       <section titleKey="tc_xrt_PartnerContracts" title = "Partner Contracts">
+            <objectSet source="GRMS2P(Vm0ContractContacts,Vm0PrtnrContractRevision) " defaultdisplay="tableDisplay" sortdirection="descending" sortby="object_name" >
+                <tableDisplay>
+                    <property name = "object_name" modifiable="false" />
+                    <property name = "GRMS2PREL(Vm0UsesPrtnrContract,Vendor).primary_object" titleKey="tc_xrt_Partner" modifiable="false"/>
+                    <property name = "vm0ContractStartDate" modifiable="false"/>
+                    <property name = "vm0ContractEndDate" modifiable="false"/>
+                    <property name= "release_status_list" renderingHint="label" modifiable="false"/>
+                    <property name= "Vm0ContractLocations" modifiable="false"/>
+                    <property name = "object_desc" modifiable="false"/>
+                </tableDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+   </page>
+   <inject type="dataset" src="Ret0VendorClassification"/>
+   <inject type="dataset" src="Sc1VendorClassificationPage"/> 
+  </rendering>

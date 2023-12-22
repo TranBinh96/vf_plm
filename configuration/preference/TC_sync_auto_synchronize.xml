@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_sync_auto_synchronize" type="Logical" array="false" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Indicates whether Teamcenter automatically synchronizes replicas at remote sites when the master object is modified. For Teamcenter 9.1 and later releases, the Synchronize automatically checkbox in the Remote Export Options and Remote Import Options dialog boxes is not user selectable. Automatic synchronization is controlled only by this preference. The checkbox value is read-only and provided for informational purposes.This preference is not created by the Teamcenter installation process. If you require this functionality, you must create the preference.For information about creating and using preferences, see Teamcenter Basics.Siemens PLM Software recommends that you use the following values when creating this preference:Protection Scope: RoleCategory: Data Sharing.Multi-Site CollaborationEnvironment: DisabledYou must select Logical from the Type list and Single from the Multiple box.
+Valid Values:
+TRUE - The Synchronize automatically checkbox is selected in the Remote Export Options dialog box. Teamcenter performs automatic synchronization of remote objects.
+FALSE - The Synchronize automatically checkbox is cleared in the Remote Export Options dialog box. Teamcenter does not perform automatic synchronization of remote objects.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

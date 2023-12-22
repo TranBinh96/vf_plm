@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_AUTO_EXTEND_MASTER_SCHEDULE_DATE" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether to extend the start and finish dates of the master schedule based on the sub-schedule being inserted.
+The valid values are:
+* true: Extend the start date and finish date of the master schedule.
+* false: Do not extend the start date and finish date of the master schedule. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

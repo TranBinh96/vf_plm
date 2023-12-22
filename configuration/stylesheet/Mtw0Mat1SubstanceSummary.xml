@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+===============================================================================
+Filename: Mtw0Mat1SubstanceSummary.xml
+Default activeworkspace style sheet for displaying Substance.
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="label"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name="mat1SubstanceName"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+                <break/>
+                <property name="mat1cas_number"/>
+                <property name="mat1EINEC_ELINCS_Number"/>
+                <property name="mat1EUIndexCode"/>
+
+                <content visibleWhen="sci0NodeId!=null">
+                    <inject type="dataset" src="Sci1NodeId"/>
+                </content>
+
+                <break/>
+                <property name="mat1is_wildcard"/>
+                <property name="mat1IsInActive"/>
+                <property name="mat1Synonym"/>
+                <property name="mat1SubstanceReplacements"/>
+                <break/>
+                <property name="mat1ExternalSource"/>
+                <property name="mat1unique_identifier"/>
+                <property name="mat1external_identifier"/>
+
+                <content visibleWhen="sci0NodeId!=null">
+                    <inject type="dataset" src="Sci1Mat1SubstanceSummary"/>
+                </content>
+            </section>
+            <section titleKey="tc_xrt_Mat1Materials" title="Materials">
+                <objectSet source="Awp0ReferencesProvider.Mat1MaterialRevision" sortdirection="ascending" sortby="object_name" defaultdisplay="tableDisplay">
+                    <thumbnailDisplay/>
+                    <tableDisplay>
+                        <property name="item_id"/>
+                        <property name="object_name"/>
+                        <property name="object_desc"/>
+                    </tableDisplay>
+                    <treeDisplay/>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <inject type="dataset" src="AuditLogForSubscmpl"/>
+</rendering>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_perform_xmlschema_validation" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates schema validation during a &quot;Classification XML Import&quot; operation.
+The default value of this site preference is true.
+Valid Values:
+True - Schema validation takes place during the XML import operation.
+False - Schema validation is ignored during XML import operation.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

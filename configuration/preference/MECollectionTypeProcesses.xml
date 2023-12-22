@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECollectionTypeProcesses" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the Process types for which the allocated time calculation will ignore flows and will interpret the sub-processes or operations in sequence defined by the find number.
+For these types, the allocated time will be computed identically to the work time. The line balancing chart will only show children of processes of this type.
+Valid values are the internal name of the type Process (MEProcess) and any of its sub-types.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

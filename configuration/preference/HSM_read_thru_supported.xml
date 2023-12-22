@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="HSM_read_thru_supported" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Declares whether read access to secondary and tertiary volumes is supported. If your HSM system or hardware platform does not support read access from secondary and tertiary volumes, the migrated files are moved to a higher tier to be read. For example, the IBM Tivoli HSM product does not provide read-through capability, and the EMC DiskXtender HSM product only provides read-through capability on Windows. In such situations, use reverse migration to return files to the primary tier. If this preference is 
+set to false, the system moves the migrated files to a higher tier during the read operation, then during the next migration, returns the files to the tiers from which they were retrieved.This preference requires that the HSM_integration_enabled preference be set to true.
+Valid Values:
+true - Migrated files are not moved to a higher tier during the read operation.
+false - Migrated files are moved to a higher tier during the read operation. The files are returned to the tiers from which they were stored in subsequent migrations.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

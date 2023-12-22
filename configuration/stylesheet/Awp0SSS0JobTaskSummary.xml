@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Job Task Summary in Active Workspace Client. -->
+
+<rendering>
+    <page titleKey="tc_xrt_properties">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_type" />
+            <property name="item_id" />
+            <break/>
+            <property name="fnd0activityExecutionType" />
+            <property name="complete_percent" />
+            <property name="fnd0status" />
+            <property name="sss0configUpdated" />
+            <property name="sss0longDescription" />
+            <break/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+            <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+            <property name="last_mod_user" />
+            <break/>
+            <command commandId="com.teamcenter.rac.servicescheduling.MoreProperties" renderingHint="commandbutton"  />
+        </section>
+    </page>
+</rendering>

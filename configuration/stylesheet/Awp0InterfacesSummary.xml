@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+=======================================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Awp0InterfacesSummary.xml
+
+    Style sheet rendering for Interface summary in Active Workspace.
+=======================================================================
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_desc"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_properties">
+                <property name="object_name" modifiable="false"/>
+                <property name="object_desc" modifiable="false"/>
+                <separator/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="checked_out" modifiable="false"/>
+                <property name="checked_out_user" renderingHint="objectlink" modifiable="false"/>
+                <separator/>
+                <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+            </section>
+            <content visibleWhen="Cls0ClassifiedBy!=null">
+              <inject type="dataset" src="Fnd0ClassificationSummary"/>
+            </content>
+            <content visibleWhen="Cls0ClassifiedBy==null and ics_classified!=null">
+              <inject type="dataset" src="Fnd0ClassificationSummary"/>
+            </content>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_Preview">
+                <image source="thumbnail"/>
+            </section>
+            <view name="actions">
+                <command actionKey="newProcessAction" commandId="com.teamcenter.rac.newProcess"/>
+            </view>
+        </column>
+    </page>
+</rendering>

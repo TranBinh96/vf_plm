@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: RequirementCreate.xml
+
+    Style sheet rendering for Requirement creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="Requirement Information" titleKey="tc_xrt_RequirementInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <!-- Sub-rendering for Active workspace Program planning -->
+            <inject type="dataset" src="Pgp1TargetCreate" />
+        </section>
+    </page>
+</rendering>

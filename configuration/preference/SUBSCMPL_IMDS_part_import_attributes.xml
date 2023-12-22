@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="SUBSCMPL_IMDS_part_import_attributes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the additional attributes on Part which needs to be read from the input file.</preference_description>
+      <context name="Teamcenter">
+        <value>sci0ModuleId</value>
+        <value>sci0ObjectNameOverflow</value>
+        <value>sci0IsMDSObject</value>
+        <value>sci0NodeId</value>
+        <value>sci0CalculatedWeight</value>
+        <value>sci0MeasuredWeight</value>
+        <value>sci0ItemNumber</value>
+        <value>sci0CreateDate</value>
+        <value>sci0IsHidden</value>
+        <value>sci0LastChangeDate</value>
+        <value>sci0DevSampleReport</value>
+        <value>sci0IsDeleted</value>
+        <value>sci0Version</value>
+        <value>sci0ReleaseDate</value>
+        <value>sci0PolymericPartMarking</value>
+        <value>sci0MDSModuleID</value>
+        <value>sci0IsSemicomponent</value>
+        <value>mat1PositiveTolerance</value>
+        <value>mat1NegativeTolerance</value>
+        <value>object_name</value>
+        <value>sci0RecipientInfoForIMDSObj</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

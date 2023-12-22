@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_save_only_pointed_publications" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls the  conditions in which Publications are saved.
+If catia_manage_publications_on_save = true and :
+- CATIA_save_only_pointed_publications = true then only CATIA publications identified as link are saved in Teamcenter.
+- CATIA_save_only_pointed_publications = false then all CATIA publications are saved in Teamcenter.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Category_Filter_Show_Count" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the maximum number of pre-expanded filter values displayed for a  filter category. Default is 50, which is configurable.
+This preference value can be defined with 3 values &apos;ALL&apos; OR Positive Number OR &apos;Hidden&apos;.
+Description of these values are given below.
+ALL: all filters will be fetched
+Hidden: the category will be hidden.
+Positive value N: normal case. the N number of filters will be fetched.
+Any other values: the default number of filters will be fetched.
+
+To specify a value different from the default for a filter category, add an entry with the format of &quot;Internal name of the property=Maximum number of expanded filter values&quot;,
+e.g. POM_application_object.owning_user=20.</preference_description>
+      <context name="Teamcenter">
+        <value>Default=50</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

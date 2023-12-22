@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright 2014.
+       Siemens Product Lifecycle Management Software Inc.
+       All Rights Reserved.
+===============================================================================
+
+    Filename: XMLSummary_ReportDefinition.xml
+
+    Default style sheet for displaying Report Definition poperties.
+ -->
+ 
+<rendering>
+    <page titleKey="tc_xrt_Overview" visibleWhen="ActiveWorkspace:SubLocation != showMyDashboard">
+        <column>
+            <section titleKey="tc_xrt_properties">
+                    <property name="rd_name" renderingHint="label"/>
+                    <property name="rd_description" renderingHint="label"/>
+                    <property name="rd_source"/>
+                    <property name="rd_id"/>            
+                    <property name="rd_type"/>
+                    <property name="fnd0IsAsync"/>            
+                    <property name="rd_query_source"/>
+                <break/>
+                    <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                    <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+                    <property name="last_mod_user"/>
+                    <property name="last_mod_date"/>
+                <break/>
+                <break/>
+                    <property name="rd_style_sheets"/>
+                <break/>            
+            </section>
+        </column>        
+    </page>
+    <inject type="dataset" src="Rb0InContextReportsSubLocation"/>
+    <page titleKey = "" visibleWhen="ActiveWorkspace:SubLocation == showMyDashboard">
+        <inject type="dataset" src="Rb0DashboardReportViewer " module="js/aw-include.directive"/>
+    </page> 
+</rendering>

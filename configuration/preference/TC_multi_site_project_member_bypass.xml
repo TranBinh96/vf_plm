@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Project Level Security">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_multi_site_project_member_bypass" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the assignment rule to a defined project for objects replicated during an import operation to a remote site.
+Valid values are: 
+* true: The replicated object is assigned to the defined project regardless of whether the importing user is a project member. This is the default value. 
+* false: The replicated object is assigned to the defined project if the importing user is a privileged project member. If the importing user is a regular project member then TC_project_validate_condition preference determines the project assignment on replicated object.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

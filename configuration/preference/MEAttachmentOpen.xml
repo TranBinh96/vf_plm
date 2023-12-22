@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAttachmentOpen" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of object types that support open functionality in the attachment view.</preference_description>
+      <context name="Teamcenter">
+        <value>ReleaseStatus</value>
+        <value>Dataset</value>
+        <value>EPMJob</value>
+        <value>EPMTask</value>
+        <value>Form</value>
+        <value>PSBOMView</value>
+        <value>PSBOMViewRevision</value>
+        <value>Default</value>
+        <value>Word</value>
+        <value>WolfObject</value>
+        <value>TC_WorkContext</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

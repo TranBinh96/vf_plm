@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AnalysisEditorShownColumnWidthsPref" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the column widths for the column names (identified by AnalysisEditorColumnsShownPref) that will be used by the Analysis/Composite tree table in CAESE application.</preference_description>
+      <context name="Teamcenter">
+        <value>20</value>
+        <value>20</value>
+        <value>20</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ME_CHECHOUT_EXCLUDED_DATASET_TYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates which datasets will not be checked out when running Manufacturing Checkout command.
+Valid values are the pairs of dataset types and relations separated by a &quot;:&quot; character.</preference_description>
+      <context name="Teamcenter">
+        <value>MSExcelX:*</value>
+        <value>MSExcelTemplateX:*</value>
+        <value>MSExcel:*</value>
+        <value>MSExcelTemplate:*</value>
+        <value>MSWordX:*</value>
+        <value>MSWordTemplateX:*</value>
+        <value>MSWord:*</value>
+        <value>MSWordTemplate:*</value>
+        <value>MSPowerPointX:*</value>
+        <value>MSPowerPointTemplateX:*</value>
+        <value>MSPowerPoint:*</value>
+        <value>MSPowerPointTemplate:*</value>
+        <value>MSPowerPointTemplate:*</value>
+        <value>MSProject:*</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

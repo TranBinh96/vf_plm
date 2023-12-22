@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_check_out_dir" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the directory where files will be exported when a dataset is checked-out. 
+The value must match the path format for the client operating system (OS).</preference_description>
+      <context name="Teamcenter">
+        <value>c:\\temp</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_MDS_import_XSL_config_file" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the path and name of the XSL configuration file to be used by the imds_download_process_files utility to import a material data sheet (MDS).</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">$TC_DATA/tcsc_imds_integration/configuration/mds_import_xsl_config.xml</value>
+        <value platform="WNT">%TC_DATA%\tcsc_imds_integration\configuration\mds_import_xsl_config.xml</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

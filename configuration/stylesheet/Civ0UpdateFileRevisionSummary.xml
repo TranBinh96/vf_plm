@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: Civ0UpdateFile4RevisionSummary.xml
+
+    Default style sheet for displaying Civ0UpdateFileRevision summary
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+=======================================================================
+@<DEL>@ 
+-->
+
+
+<rendering>
+    
+   <page title="General" titleKey="tc_xrt_General">
+      <column>
+      <property name="ctm0TopicTypeTagref" />
+      <property name="object_type" />
+      <property name="item_id" renderingHint="textfield" />
+      <property name="item_revision_id" renderingHint="textfield" /> 
+      <property name="object_name" renderingHint="textfield" />          
+      <property name="ctm0MasterLanguageTagref"  />
+      <property name="DocumentTitle" />
+
+      <section titleKey="tc_xrt_DataModuleCode">
+         <property name="civ0ExtensionProducer" />
+         <property name="civ0ExtensionCode" />
+         <property name="civ0ModelIC" />
+         <property name="civ0SDC" />
+         <property name="civ0SystemCode" />
+         <property name="civ0SubSystemCode" />
+         <property name="civ0SubSubSystemCode" />
+         <property name="civ0AssemblyCode" />
+         <property name="civ0DisCode" />
+         <property name="civ0DisCodeV" />
+         <property name="civ0InCode" />
+         <property name="civ0InCodeV" />
+         <property name="civ0ItemLoc" />			
+      </section>
+       <property name="civ0InWork" />
+      <section titleKey="tc_xrt_IssueDetails">
+         <property name="civ0IssNo" />
+         <property name="civ0IssType" />
+         <property name="civ0IssDateDay" />
+         <property name="civ0IssDateMonth" />
+         <property name="civ0IssDateYear" />
+      </section>
+      </column>
+      <column>
+         <section titleKey="tc_xrt_OtherDataModuleDetails">
+             <property name="civ0SecurityClass" />		 
+             <property name="civ0RPC" />		 
+             <property name="civ0Orig" />
+             <property name="civ0QA" />
+         </section>
+         <property name="skdexportfilename" />
+         <property name="isTemplate" />
+         <property name="referenceOnly"  />        
+         <property name="contentVersion" />
+         <separator/>
+         <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+         <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+         <property name="last_mod_user" />     
+      </column>   </page>
+   
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="tc_xrt_Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+
+</rendering>

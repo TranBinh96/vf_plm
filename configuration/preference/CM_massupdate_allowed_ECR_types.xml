@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mass Update">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_massupdate_allowed_ECR_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the Change Manager change object revision types to be used during the change request (ECR) process of a two-phase mass update.This is one of several preferences used to configure mass update functionality.Use mass updates to perform bulk updates to multiple assemblies, including designating or replacing substitutes for parts. For example, you can identify and automatically replace every occurrence of an impacted part with its solution item.
+Valid Values:
+ChangeNoticeRevision</preference_description>
+      <context name="Teamcenter">
+        <value>ChangeRequestRevision</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Common Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="HTMLStylesheetIncludes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of includes to automatically insert into the generated HTML source.</preference_description>
+      <context name="Teamcenter">
+        <value>&lt;script type=&quot;text/javascript&quot; src=&quot;teamcenter/html_common/scripts/jquery.min.js&quot;&gt;&lt;/script&gt;</value>
+        <value>&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;teamcenter/html_common/style/themes/rac-base/jquery-ui.css&quot; id=&quot;baseThemeLink&quot;/&gt;</value>
+        <value>&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;teamcenter/html_xrt/style/summary.css&quot;/&gt;</value>
+        <value>&lt;script type=&quot;text/javascript&quot; src=&quot;teamcenter/html_common/scripts/jquery-ui.min.js&quot;&gt;&lt;/script&gt;</value>
+        <value>&lt;script type=&quot;text/javascript&quot; src=&quot;teamcenter/html_common/scripts/tc-jquery-ui-l10n.min.js&quot;&gt;&lt;/script&gt;</value>
+        <value>&lt;script type=&quot;text/javascript&quot; src=&quot;teamcenter/html_common/scripts/knockout-3.4.0.js&quot;&gt;&lt;/script&gt;</value>
+        <value>&lt;script type=&quot;text/javascript&quot; src=&quot;teamcenter/html_xrt/scripts/mockhost/mockhost.j_&quot;&gt;&lt;/script&gt;</value>
+        <value>&lt;script type=&quot;text/javascript&quot; src=&quot;teamcenter/html_xrt/scripts/TcViewModel2.js&quot;&gt;&lt;/script&gt;</value>
+        <value>&lt;script type=&quot;text/javascript&quot; src=&quot;teamcenter/html_xrt/scripts/LovViewModel2.js&quot;&gt;&lt;/script&gt;</value>
+        <value>&lt;script type=&quot;text/javascript&quot; src=&quot;teamcenter/html_xrt/scripts/AutocompleteDropdown.js&quot;&gt;&lt;/script&gt;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AW_DisableTypeAheadFacetSearch" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Turns off the type-ahead facet search in the filter panel in the Active Workspace.
+When this value is true, the facet search box is rendered with a search icon which requires a click or ENTER key to perform the
+facet search.
+When this value is false, the facet search box does not have a search icon, and each key-pressing will perform a facet search.
+The default value is false (type-ahead is on).</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

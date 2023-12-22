@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Duplicate">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DuplicateAllowedActions" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the allowed actions to be selectable in the RAC Duplicate dialog.
+Valid action values are:
+* Revise: allows a user to select a part to be revised during a Duplicate operation.
+* Replace: allows the user to select a part to be replaced by some other existing part during a Duplicate operation.
+Note: The Clone and Reference action values are always selectable as they are required by Duplicate operation at all times.</preference_description>
+      <context name="Teamcenter">
+        <value>Revise</value>
+        <value>Replace</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

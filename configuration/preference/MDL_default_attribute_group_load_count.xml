@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MDL_default_attribute_group_load_count" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the number of model element objects that can be loaded in one server call when loading attribute groups in the 4G Designer application.
+Valid Values:
+Any integer value.</preference_description>
+      <context name="Teamcenter">
+        <value>10000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Mdl0ManagedAttrGroupSaveas.xml
+
+    Style sheet rendering for Mdl0ManagedAttrGroup save as.
+=======================================================================
+-->
+
+<rendering>    
+    <page title="Managed Attribute Group Information" titleKey="tc_xrt_ManagedAttrGroupInfo">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name"/>
+            <property name="object_desc" />
+        </section>
+    </page>
+</rendering>

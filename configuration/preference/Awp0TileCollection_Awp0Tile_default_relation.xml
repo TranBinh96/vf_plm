@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="RAC">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Awp0TileCollection_Awp0Tile_default_relation" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the relation that has to be created when an object of type Awp0Tile is pasted under Awp0TileCollection. The relation specified for this preference will be the default relation that will be created between the source Awp0Tile and the target Awp0TileCollection.</preference_description>
+      <context name="Teamcenter">
+        <value>Awp0GatewayTileRel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

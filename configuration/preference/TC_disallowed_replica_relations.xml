@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_disallowed_replica_relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Prevents adding local attachments to replicas. Without this preference, relation types other than IMAN_specification, IMAN_requirement and IMAN_master_form can be used to attach files to replica items and item revisions. This makes it possible for users to attach important data to the replica even though the attachment is strictly local data that cannot be synchronized to other sites. This can be unacceptable, especially when the attachments are UG Altreps.Use this preference to prevent the attachment of manifestations, references, and UG Altreps to replica items and item revisions.
+Valid Values:
+IMAN_manifestation - Prevents the attachment of manifestations to replica items and item revisions.
+IMAN_reference - Prevents the attachment of references to replica items and item revisions.
+IMAN_UG_altrep - Prevents the attachment of UG Altreps to replica items and item revisions.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

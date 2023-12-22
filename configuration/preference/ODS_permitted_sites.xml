@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ODS_permitted_sites" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets which sites can access the Object Directory Services (ODS) database.
+Valid Values:
+One or more strings as values; each string must be a valid Teamcenter site name.</preference_description>
+      <context name="Teamcenter">
+        <value>VINFAST</value>
+        <value>MS_GRZ_VINF</value>
+        <value>MS_EDAG_VINF</value>
+        <value>TLL_PRD</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Disclosure">
+    <category_description>
+     Represent 3D equivalent of the 2D drawing.
+</category_description>
+    
+               <preference name="DIS_allowed_palette_statuses_for_disclosed_modelview_deletion" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>The deletion of Model View which is disclosed in a Model View Palette is allowed only if the Model View Palette does not have any release status assigned to it or has the specified release statuses asigned to it.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

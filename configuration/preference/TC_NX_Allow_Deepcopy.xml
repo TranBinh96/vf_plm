@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_Allow_Deepcopy" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether deep copy functionality is supported with Teamcenter Integration for NX.
+Valid Values:
+true - Deep copy functionality is supported with Teamcenter Integration for NX.
+false - Deep copy functionality is not supported with Teamcenter Integration for NX.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

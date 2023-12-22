@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_authoring_override_user" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the Teamcenter user ID required when adding components to installation assemblies, or when modifying existing components in product structure using any of the following wizards. Any defined workflow rule checks are performed against this user.
+Add Design To Product wizard
+Replace Design In Product wizard
+Remove Design From Product wizard
+Valid Values:
+Accepts one or more strings; each string must be a valid Teamcenter user ID. If unset, the system processes the current user&apos;s ID.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Logging">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="UNLOAD_LOGGING_LEVEL" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the level of detail logged in the in-session and end-session reports sent to the .unloadlog log file.
+Valid Values:
+0 - No log file is created.
+1 - In-session report includes number of cache objects and unload time. End session report includes total number of objects unloaded and the average unload time.
+2 - In-session report includes all information from a level 1 report, as well as memory usage before and after loading. End-session report includes all information from a level 1 report.
+3 - In-session report includes all information from a level 2 report, as well as callback information. End-session report includes all information from a level 2 report, as well summary unload reports by type.
+4 - In-session report includes all information from a level 3 report, as well object types loaded and unloaded from the cache. End-session report includes all information from a level 3 report.
+Setting this preference to 1 through 4 does not produce a log file unless the FCC
+is restarted on the client, for example:
+FMS_HOME\bin\fccstat -restart</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

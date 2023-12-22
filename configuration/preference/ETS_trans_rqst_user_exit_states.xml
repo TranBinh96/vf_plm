@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ETS_trans_rqst_user_exit_states" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies which translation request states activate the Dispatcher translation request state transition user exit.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Dispatcher state.</preference_description>
+      <context name="Teamcenter">
+        <value>COMPLETE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

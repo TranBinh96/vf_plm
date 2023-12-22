@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Header Footer Object Template creation. -->
+<rendering>
+    <page titleKey="tc_xrt_CreateItem">
+        <section titleKey="tc_xrt_properties">
+            <property name="item_id" renderingHint="textfield"/>
+            <property name="revision:item_revision_id"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="revision:arm0IsGlobal"/>
+        </section>
+    </page>
+</rendering>

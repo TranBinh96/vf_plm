@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Proxy Task Objects Info Panel. -->
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page titleKey="tc_xrt_properties">
+        <section>
+            <property name="object_name" modifiable="false"/>
+            <property name="object_desc" modifiable="false"/>
+            <property name="object_type"/>
+            <property name="fnd0task_tag" renderingHint="objectlink" modifiable="false"/>
+            <property name="fnd0ref" renderingHint="objectlink" modifiable="false"/>
+            <property name="fnd0schedule_tag" renderingHint="objectlink" modifiable="false"/>
+            <break/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_date"/>
+            <property name="last_mod_user"/>
+        </section>
+    </page>
+</rendering>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextWIPRevRule.Working; Any Status.WIP" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Revision rules for which QPL builds exist may be associated to Work-In-Process revision rules. WIP selection boxes on the FilterConfigurationPanel (the 3rd screen) will be activated only if such an association is made here. Syntax: PortalDesignContextWIPRevRule.&lt;RuleName&gt;.Suffix. Supported suffix constants are: &quot;.MY_WIP&quot;, &quot;.GROUP_WIP&quot;, &quot;.WIP&quot;</preference_description>
+      <context name="Teamcenter">
+        <value>Latest Working</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

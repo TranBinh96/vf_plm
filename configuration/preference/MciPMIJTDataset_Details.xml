@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MciPMIJTDataset_Details" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the relation of the owning item with the Direct Model dataset, the dataset type and the named reference to be used. 
+The format for Valid Values: &quot;Relation:DatasetType:NamedReference&quot;, e.g. &quot;IMAN_Rendering:DirectModel:JTPART&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_Rendering:DirectModel:JTPART</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

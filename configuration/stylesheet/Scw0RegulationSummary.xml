@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0RegulationSummary.xml
+
+Default activeworkspace style sheet for displaying Regulation properties.
+
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="label"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_type"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="scp0is_active"/>
+            <property name="scp0RegulationType"/>
+            <property name="scp0StructureType"/>
+            <property name="scp0version"/>
+        </section>
+        <section titleKey ="scw0_xrt_rules" title = "Rules">
+            <objectSet source = "scp0Rules.Scp0Rule" defaultdisplay = "tableDisplay" sortby = "object_name" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_name"/>
+                    <property name = "scp0Result"/>
+                    <property name = "scp0Threshold"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </page>
+    <inject type="dataset" src="AuditLogForSubscmpl"/>
+</rendering>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rendering>
+	<views>properties</views>
+
+		<page title="General Information" titlekey="issuemgmt_general_information">
+			<view name="properties">
+				<property name="item_id" modifiable="false"/>
+				<property name="object_name"/>
+				<property name="object_desc"/>
+				<property name="revision:item_revision_id" modifiable="false"/>
+				<property name="revision:c2_ContainmentAction"/>				
+				<property name="revision:c2Category"/>
+				<property name="revision:c2_IssueSubcategory"/>
+				<property name="revision:c2_PotentialReasons" />
+				<property name="revision:c2_LocationInCompany"/>
+				<!--customPanel java="com.teamcenter.rac.issuemgmt.wizards.ui.propsPageRelationshipPanel"/-->
+			</view>
+		</page>
+
+		<page title="Complaint Information" titlekey="issuemgmt_complaint_information">
+			<view name="properties">
+				<property name="revision:c2_CustomerName" />
+				<property name="revision:c2_CustomerTelephone"/>
+				<property name="revision:c2_CustomerEmailID"/>
+				<property name="revision:c2_CustomerAddress"/>
+				<property name="revision:c2_IncidentDetails"/>
+				<property name="revision:c2_IncidentDateAndTime"/>
+				<property name="revision:c2_IncidentLocation"/>
+				<property name="revision:c2_LossValue"/>
+				<!--customPanel java="com.teamcenter.rac.issuemgmt.wizards.ui.propsPageRelationshipPanel"/-->
+			</view>
+		</page>
+
+</rendering>
+ 
+ 
+ 
+ 

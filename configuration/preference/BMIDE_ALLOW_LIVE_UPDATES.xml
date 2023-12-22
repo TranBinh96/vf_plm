@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Business Modeler">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BMIDE_ALLOW_LIVE_UPDATES" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allows live update deployment from the Business Modeler IDE and Teamcenter Environment Manager (TEM). This preference is set to true when you select the Allow Live Updates check box on the Live Update preference. You cannot change this preference directly.
+Valid Values:
+true - Allows live updates from the Business Modeler IDE and TEM.
+false - Prevents live updates from the Business Modeler IDE and TEM.In this case, updates to a production server can be made only during system downtime by installing a template using the full deployment feature in TEM.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

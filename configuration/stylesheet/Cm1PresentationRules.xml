@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+=======================================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+    Filename: Cm1PresentationRules.xml
+
+    File defines rules of applying style.
+
+    For each condition, two types of expression are supported
+
+    "Property": <Property name="owning_user" value="user1" operator="equalsTo" />
+                For propety expression, only "equalsTo" operator is supported
+    "Type": <Type value="Requirement" operator="typeOf" />
+                For type expression, two operators are supported:equalsTo, typeOf
+                "typeOf" means including type specified in "value" and its subtypes
+=======================================================================
+-->
+<Rules>
+  <PresentationRule type="Node" default="true" styleId="DefaultNodeStyle" />
+  <PresentationRule type="Edge" default="true" styleId="DefaultEdgeStyle" />
+</Rules>

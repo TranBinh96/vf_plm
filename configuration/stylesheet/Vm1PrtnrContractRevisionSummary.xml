@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// File Name: Vm1PrtnrContractRevisionSummary.xml
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Contract Revision creation. -->
+<rendering>
+  <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" titleKey="tc_xrt_release_status_list" renderingHint="label"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title = "Overview">
+        <section titleKey="tc_xrt_properties" title="Properties" >
+             <property name = "object_name"/>
+             <property name = "item_revision_id"/>
+             <property name = "object_desc"/>
+             <property name = "vm0ContractStartDate" />
+             <property name = "vm0ContractEndDate"/>
+             <property name = "vm0isContractActive" modifiable="false" />
+             <break/>
+             <property name = "release_status_list" titleKey="tc_xrt_release_status_list" renderingHint="label"/>
+        </section>
+        <section titleKey="tc_xrt_Vendor" title ="Vendor">
+             <property name = "GRMS2PREL(Vm0UsesPrtnrContract,Vendor).primary_object" titleKey="tc_vendor_name" modifiable="false" />
+             <property name = "GRMS2P(Vm0UsesPrtnrContract,Vendor).vm0RegistrationStatus" modifiable="false" renderingHint="label"/>
+             <property name = "GRMS2P(Vm0UsesPrtnrContract,Vendor).email_addr" modifiable="false"/>
+        </section>
+        <section titleKey="tc_xrt_ComapanyLocations" title = "Company Locations">
+            <objectSet source="Vm0ContractLocations.CompanyLocation" defaultdisplay="tableDisplay" sortdirection="descending" sortby="object_name" >
+                <tableDisplay>
+                    <property name = "object_name" modifiable="false"/>
+                    <property name = "vm0DUNSNumber" modifiable="false"/>
+                    <property name = "street" modifiable="false"/>
+                    <property name = "city" modifiable="false"/>
+                    <property name = "state_province" modifiable="false"/>
+                    <property name = "country" modifiable="false"/>
+                </tableDisplay>
+                <content visibleWhen="REF(last_release_status,ReleaseStatus).object_name != Approved and REF(last_release_status,ReleaseStatus).object_name != Obsolete">
+                   <command commandId = "Vm1AddLocationsToContract" renderingHint = "commandbutton"/>
+                   <command commandId = "Vm1RemoveLocationsFromPartnerContract" renderingHint = "commandbutton"/>
+               </content>
+            </objectSet>
+        </section>
+       <section titleKey="tc_xrt_CompanyContacts" title = "Company Contacts">
+            <objectSet source="Vm0ContractContacts.CompanyContact" defaultdisplay="tableDisplay" sortdirection="descending" sortby="object_name" >
+                <tableDisplay>
+                    <property name = "object_name" modifiable="false"/>
+                    <property name = "title" modifiable="false"/>
+                    <property name = "phone_business" modifiable="false"/>
+                    <property name = "phone_mobile" modifiable="false"/>
+                    <property name = "email_address" modifiable="false"/>
+                    <property name = "Vm0PartnerUser" modifiable="false"/>
+                </tableDisplay>
+                <content visibleWhen="REF(last_release_status,ReleaseStatus).object_name != Approved and REF(last_release_status,ReleaseStatus).object_name != Obsolete">
+                    <command commandId = "Vm1AddContactsToContract" renderingHint = "commandbutton"/>
+                    <command commandId = "Vm1RemoveContactsFromPartnerContract" renderingHint = "commandbutton"/>
+               </content>
+            </objectSet>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_assignedObjects" title = "Assignments">
+      <section titleKey="tc_xrt_assignedProducts"  title = "Assigned Products">
+        <htmlPanel declarativeKey="Vm1AssignedProductsOfContract" />
+      </section>
+      <section titleKey="tc_xrt_assignedVendorParts" title = "Assigned Vendor Parts">
+        <objectSet source="Vm1AssignedObjsDataProvider.ManufacturerPart" defaultdisplay="tableDisplay" sortdirection="descending" sortby="object_name" >
+          <tableDisplay>
+            <property name = "object_name" modifiable="false"/>
+            <property name = "item_id"/>
+            <property name = "vm0vendor_ref"/>
+            <property name = "owning_user" modifiable="false"/>
+            <property name = "owning_group" modifiable="false"/>
+            <property name = "last_mod_date" modifiable="false"/>
+            <property name = "commercialparts" modifiable="false"/>
+            <property name = "vm0company_location" modifiable="false"/>
+          </tableDisplay>
+          <content visibleWhen = "REF(last_release_status,ReleaseStatus).object_name == Approved">
+            <command commandId = "Vm1AssignVendorPartsToPartnerContract" renderingHint = "commandbutton"/>
+            <command commandId = "Vm1RemoveVendorPartsFromContract" renderingHint = "commandbutton"/>
+          </content>
+        </objectSet>
+      </section>
+    </page>
+</rendering>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

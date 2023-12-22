@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Substance Compliance">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SUBSCMPLAW_ComplianceCheck_Command_SupportedTypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Lists the types of objects for which the Initiate Compliance Check command should be visible in the Active Workspace client.</preference_description>
+      <context name="Teamcenter">
+        <value>ManufacturerPart</value>
+        <value>CommercialPart Revision</value>
+        <value>Part Revision</value>
+        <value>Scp0PartCMDDeclRevision</value>
+        <value>Scp0PartMSDDeclRevision</value>
+        <value>Scp0VPBOMItemRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

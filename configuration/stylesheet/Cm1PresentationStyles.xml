@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+=======================================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+    Filename: Cm1PresentationStyles.xml
+
+    File defines the style of nodes and edges.
+=======================================================================
+-->
+<!--Style>
+  <EdgePresentation id="defaultRelationPresentation">
+    <parameter name="shape">
+      <value>{"Polyline" | "BoxInBox" | "HotSpot"}</value>
+    </parameter>
+    <parameter name="lineStyle">
+      <value>{"SOLID" | "DASH" | "DASHDOT" | "DASHDOTDOT" | "DOT"}</value>
+    </parameter>
+    <parameter name="lineWidth">
+      <value>{1-...}</value>
+    </parameter>
+    <parameter name="arrowOption">
+      <value>{"both" | "source" | "none" | "target"}</value>
+    </parameter>
+    <parameter name="arrowSourceShape">
+      <value>{"simple" | "circle" | "square" | "triangle"}</value>
+    </parameter>
+    <parameter name="arrowSourceInterior">
+      <value>{"true" | "false"}</value>
+    </parameter>
+    <parameter name="arrowSourceScale">
+      <value>(double float number > 0.0)</value>
+    </parameter>
+    <parameter name="arrowTargetShape">
+      <value>{"simple" | "circle" | "square" | "triangle"}</value>
+    </parameter>
+    <parameter name="arrowTargetInterior">
+      <value>{"true" | "false"}</value>
+    </parameter>
+    <parameter name="arrowTargetScale">
+      <value>(double float number > 0.0)</value>
+    </parameter>
+  </EdgePresentation>
+</Style-->
+<Style>
+
+  <EdgePresentation id="StructureRelationStyle">
+    <parameter name="shape">
+      <value>BoxInBox</value>
+    </parameter>
+  </EdgePresentation>
+  <EdgePresentation id="StructureRelationStyleWithEdge">
+    <parameter name="shape">
+      <value>Polyline</value>
+    </parameter>
+    <parameter name="lineWidth">
+      <value>2</value>
+    </parameter>
+    <parameter name="arrowOption">
+      <value>target</value>
+    </parameter>
+    <parameter name="arrowTargetShape">
+      <value>triangle</value>
+    </parameter>
+    <parameter name="arrowTargetScale">
+      <value>2.0</value>
+    </parameter>
+  </EdgePresentation>
+  <NodePresentation id="DefaultNodeStyle">
+    <parameter name="shape">
+      <value>Tile</value>
+    </parameter>
+  </NodePresentation>
+  
+</Style>

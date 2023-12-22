@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_material_ply_bl_prop" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Name of the property type string of the GDE Bom line corresponding to the CATIA ply, used to store CATIA material information.
+The default value will be used if the property specified does not exist, if it is not a string type</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

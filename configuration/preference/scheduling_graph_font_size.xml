@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="scheduling_graph_font_size" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Used with Schedule Manager resource graphs. Determines the font size displayed in resource graphs.
+Valid Values:
+Accepts a single string as a value. The string must be a positive integer, representing a reasonable font size.</preference_description>
+      <context name="Teamcenter">
+        <value>8</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

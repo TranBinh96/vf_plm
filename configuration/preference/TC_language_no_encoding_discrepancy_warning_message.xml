@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Language">
+    <category_description>Defines parameters for the session langage.</category_description>
+    
+               <preference name="TC_language_no_encoding_discrepancy_warning_message" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Prevents the display of the warning message regarding discrepancy between the Teamcenter server encoding and the database encoding.
+Valid Values:
+True - The warning message is never displayed.
+False - The warning message is always displayed.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

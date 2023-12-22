@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_msd_include_pdf" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Decides the type of documents sent to vendors on material susbtance declaration requests.
+This preference is applicable for IPC 1752-2v1.1 format file type only. The file format is specified by the preference &quot;SUBSCMPL_request_msd_format&quot;.   
+Valid values are:
+* true: A blank IPC standard PDF document is sent to vendors.
+* false: No IPC standard PDF document is sent to the vendors. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

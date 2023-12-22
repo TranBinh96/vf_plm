@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Pdf_viewer_preference" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the visibility of the &quot;Print&quot; and &quot;Download&quot; buttons in the pdf viewer panel of the Requirements Manager application in the Active Workspace client.
+Valid values are:
+* enablePrint: the &quot;Print&quot; button is displayed.
+* enableDownload: the &quot;Download&quot; button is displayed.
+The associated button will not be displayed either if no value is
+specified or if incorrect values are used.</preference_description>
+      <context name="Teamcenter">
+        <value>enableDownload</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

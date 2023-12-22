@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_structuremap_log_content_scope" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the scope of the CAE Structure Map log content.
+The value is leveraged by the &quot;CAE_persist_StructureMapLog&quot; preference, and persisted within the dataset identified by the &quot;CAE_structuremap_log_dataset_name&quot; preference.
+Valid values are &quot;Summary&quot; (default value) and &quot;Detailed&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Summary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

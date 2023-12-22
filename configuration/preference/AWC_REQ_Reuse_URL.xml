@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.REQ">
+    <category_description>Active Workspace preferences</category_description>
+    
+               <preference name="AWC_REQ_Reuse_URL" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Stores the URL to the Reuse Web API, which can be used to allow Requirement Quality Compliance from Active Workspace.
+The Value is in the format &quot;&lt;Protocol&gt;://&lt;Domain&gt;:&lt;Port&gt;/&lt;Site&gt;&quot;
+e.g. https://reusecompany.url.com:1234/siteVersion</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

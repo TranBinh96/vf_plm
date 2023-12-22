@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="MATERIALMGMT_allow_only_one_non_library_material" type="Logical" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Restricts the number of non-library material created in Teamcenter to one.
+Valid Values:
+* true: there will be only one such material. This is the default value.
+* false: no restriction applies.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

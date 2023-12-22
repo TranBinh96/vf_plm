@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ARM_initiate_process" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Activates the process initiation performance transaction. 
+This measures the elapsed time from the beginning of the operation to the insertion of the initial task into all target inboxes.
+Valid Values:
+* ON: Enables performance monitoring of the process initiation performance transaction.
+* OFF: Suppresses performance monitoring of the process initiation performance transaction.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

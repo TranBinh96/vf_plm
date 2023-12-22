@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_PKI_user_validation_fieldname" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the fieldname from the client certificate to be used for user authentication.  
+Accepts a single string as a value. The string must be a valid field name from the client certificate.       
+For example, the valid values in the Siemens PKI certificate are SERIALNUMBER, CN(Common name), SN(Surname), G(Given name) and O(Orgnaization name)
+Default value is &quot;NONE&quot;.  By default, the authentication is performed using client certificate.</preference_description>
+      <context name="Teamcenter">
+        <value>NONE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

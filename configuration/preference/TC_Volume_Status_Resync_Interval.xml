@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Volume_Status_Resync_Interval" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the minimum amount of time (in seconds) that must pass before the percentage full value of a volume is retrieved from the FSC. The percentage full values are cached to prevent excessive FSC requests. The system only checks for this cached value during file import, and only when volume failover during file import behavior is enabled by setting the TC_Volume_Failover_Volume_Name preference.
+Valid Values:
+Accepts a single positive integer as a value.Siemens PLM Software recommends keeping this setting similar to the default value. Setting this value too high causes the cached percentage full value to be out of date. Setting this value too low generates excessive FSC requests.</preference_description>
+      <context name="Teamcenter">
+        <value>600</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

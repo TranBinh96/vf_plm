@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ECM_pureaddcancel_tooltip_properties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>The properties displayed in the genealogy UI watch box for Pure Adds and Cancels</preference_description>
+      <context name="Teamcenter">
+        <value>Affected Assembly=bvr_tag.object_name</value>
+        <value>Affected IR Effectivity=bvr_tag.parent_rev.current_effectivity</value>
+        <value>Problem Assembly=problem_bvr.object_name</value>
+        <value>EC Owner=ec_rev_tag.owning_user</value>
+        <value>Sequence Number=occurrence_tag.seq_no</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_work_breakdown_relation" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the relation containing the work breakdown schedules of the change process.
+Valid Values:
+Change Manager relation that contains the work breakdown schedules of the change process. It can be any of the following relations:
+CMHasWorkBreakdown
+CMHasImpactedItem
+CMHasSolutionItem
+CMImplements
+CMReferences
+CMHasProblemItem</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasWorkBreakdown</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

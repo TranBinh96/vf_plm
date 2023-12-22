@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPM_skip_dataset_purge" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if dataset versions are purged when the EPM-set-status workflow handler adds a status to a dataset.
+Valid values are true/false:
+true - Dataset versions are not purged
+false - Dataset versions are purged.
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

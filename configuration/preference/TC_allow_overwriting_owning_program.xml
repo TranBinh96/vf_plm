@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_allow_overwriting_owning_program" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Clears the current owning project (program) from the given workspace object and replaces it with a new owning project (program) by obtaining the owning project from the parent (container) object, assuming that the following conditions are met:
+- The parent (container) object is related by a relation to the given workspace object.
+- There is a propagation rule defined to propagate security data from the parent to the secondary using that relation.
+Valid values are:
+* true:  Replacing the owning program is enabled.
+* false: This functionality is disabled. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_WIAM_ADVANCEDSEARCH_START_PATTERN" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>the pattern to be concatenated after the Root Search URL: IMM_WIAM_SERVER_URL/IMM_WIAM_ADVANCEDSEARCH_START_PATTERN:
+http://www.wiamonline.de:8081/VDA/services/vda/vdaexport/search/advancedSearchWiam?</preference_description>
+      <context name="Teamcenter">
+        <value>search/advancedSearchWiam?</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

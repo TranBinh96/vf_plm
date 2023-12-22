@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering>
+
+   <page title="NX Check-Mate Information" titleKey="tc_xrt_NXCheckMateCreateInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="item_id" renderingHint="textfield" />
+            <property name="revision:item_revision_id" renderingHint="textfield" />
+            <property name="object_name" renderingHint="textfield" modifiable="false" />
+            <property name="object_desc" />
+            <property name="is_client_utility" renderingHint="logical" />
+         </section>
+   </page>
+   
+   <page title="NX Check-Mate Revision Information" titleKey="tc_xrt_NXCheckMateRevCreateInformation">
+        <section titleKey="tc_xrt_properties">
+            <property name="revision:keep_overridden_result" renderingHint="logical" />
+            <property name="revision:override_reason_mandatory" renderingHint="logical" />
+            <property name="revision:validation_closure_rule" renderingHint="validationclosurerulecombobox" />
+            <property name="revision:validation_arguments" renderingHint="validationparametertable" />
+            <customPanel java="com.teamcenter.rac.validation.wizards.PropsPageValAgentAttachCustPanel"/>
+         </section>
+   </page>
+
+</rendering>

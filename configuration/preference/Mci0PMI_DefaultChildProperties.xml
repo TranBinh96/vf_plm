@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mci0PMI_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default relations for product manufacturing information (PMI).
+Valid Values:
+Accepts a list of valid Teamcenter relations.</preference_description>
+      <context name="Teamcenter">
+        <value>Mci0PMI_Details</value>
+        <value>Mci0PMIBop_Details</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

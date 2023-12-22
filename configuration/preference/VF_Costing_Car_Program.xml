@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_Costing_Car_Program" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference use for extract costing report. Define all sourcing car program and all group can access data.
+Syntax: 
+Sourcing_Car_Program;Group1;Group2;Group3;</preference_description>
+      <context name="Teamcenter">
+        <value>EBUS;dba;Purchase;</value>
+        <value>C-CUV;dba;Purchase;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

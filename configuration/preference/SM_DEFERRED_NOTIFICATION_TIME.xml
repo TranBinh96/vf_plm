@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_DEFERRED_NOTIFICATION_TIME" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the notification time in minutes before the user is warned that the deferred session is about to expire. After you change this preference&apos;s value, you must log off and then log on for it to take effect.
+Valid Values:
+Any numerical value indicating the number of minutes until deferred session expires.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

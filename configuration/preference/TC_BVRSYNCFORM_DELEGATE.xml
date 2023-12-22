@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Product Structure Synchronization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_BVRSYNCFORM_DELEGATE" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the BVRSYNCFORM named reference inherits delegated write access from the UGMASTER dataset.
+Valid Values:
+true - The BVRSYNCFORM named reference inherits the write access privilege from the UGMASTER dataset.
+false - The BVRSYNCFORM named reference does not inherit the write access privilege from the UGMASTER dataset.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

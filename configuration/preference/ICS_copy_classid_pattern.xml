@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_copy_classid_pattern" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the pattern of a class ID when a class is copied. All classes in Classification have unique identifiers. When performing a copy of a class (hierarchy), users must enter a new class ID for all classes to be copied. These new class IDs can also be automatically generated for one class or for all classes of a hierarchy. Use this preference to determine the pattern of class IDs when the classes are copied.
+Valid Values:
+Any single string value, used alone or in conjunction with the following placeholders:
+${P} - Represents the class ID of the parent class.
+${NNN} - Represents a three digit numerical sequence. Any number of digits can be defined.
+${CID} - Represents the original class ID when a class is copied.
+
+For example, ${CID}${NNN} generates SourceID000, where SourceID is the original class ID and 000 is the next iterative number.
+Another example, ${NNNN} generates 0000, where 00000 is the next iterative number.
+Another example, ${P}_${NNN} generates Parent_000, where Parent is the name of the parent class and 000 is the next iterative number.
+Another example, ${CID}.new generates SourceID.new, where SourceID is the original class ID, suffixed by .new.</preference_description>
+      <context name="Teamcenter">
+        <value>${CID}${NN}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

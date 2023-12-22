@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSM_global_option_item_ids" type="String" array="true" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Specifies a list of item IDs for items that contain global option definitions. These definitions can be reused when authoring variant modules. In the rich client, 
+you can drop these global options into the module for which they are required. Set this preference by listing the IDs of all items that contain global options. 
+For example:
+000400
+000410
+000420
+To add items to the list of IDs from within Structure Manager, select an item and choose Tools-&gt;Variants-&gt;Set/Unset Global Option Item. When you use this method, the item&apos;s UID is added to the list, 
+for example:
+000400
+000410
+000420
+wVJ9K8VxIZ0KDB
+Valid Values:
+Valid Teamcenter item IDs that contain global options.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

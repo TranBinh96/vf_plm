@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MES_3DPDF_UPDATE_WORKFLOW_BATCH_INTERVAL" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the time interval in seconds after which the MES-Update3DPDFReports action handler checks for the request status when updating 3D PDF documents before sending them to a manufacturing execution system. 
+Valid Values:
+Accepts a positive integer value.</preference_description>
+      <context name="Teamcenter">
+        <value>60</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

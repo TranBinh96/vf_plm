@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Hide_Unassigned_FacetCategories" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Hides the display of unassigned value facet categories from the filter panel. This applies to non classification categories.
+Valid values are:
+* true  : All single facet categories with unassigned values are hidden. This is the default value.
+* false : All unassigned value single facet categories are displayed.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

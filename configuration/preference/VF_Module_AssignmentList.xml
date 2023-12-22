@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_Module_AssignmentList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF_Module_AssignmentList</preference_description>
+      <context name="Teamcenter">
+        <value>CUV_BODY_IN_WHITE=CUV_BIW_CreateSourcingProcess</value>
+        <value>CUV_CHASSIS=CUV_CHA_CreateSourcingProcess</value>
+        <value>CUV_DOORS_AND_CLOSURES=CUV_DC_CreateSourcingProcess</value>
+        <value>CUV_ELECTRIC_ELECTRONICS=CUV_EE_CreateSourcingProcess</value>
+        <value>CUV_POWERTRAIN=CUV_PWT_CreateSourcingProcess</value>
+        <value>CUV_EXTERIOR=CUV_EXT_CreateSourcingProcess</value>
+        <value>CUV_INTERIOR=CUV_INT_CreateSourcingProcess</value>
+        <value>EBUS_BODY_IN_WHITE=EBUS_BIW_CreateSourcingProcess</value>
+        <value>EBUS_CHASSIS=EBUS_CHA_CreateSourcingProcess</value>
+        <value>EBUS_DOORS_AND_CLOSURES=EBUS_DC_CreateSourcingProcess</value>
+        <value>EBUS_ELECTRIC_ELECTRONICS=EBUS_EE_CreateSourcingProcess</value>
+        <value>EBUS_POWERTRAIN=EBUS_PWT_CreateSourcingProcess</value>
+        <value>EBUS_EXTERIOR=EBUS_EXT_CreateSourcingProcess</value>
+        <value>EBUS_INTERIOR=EBUS_INT_CreateSourcingProcess</value>
+        <value>SCP_BODY_IN_WHITE=SCP_BIW_CreateSourcingProcess</value>
+        <value>SCP_CHASSIS=SCP_CHA_CreateSourcingProcess</value>
+        <value>SCP_DOORS_AND_CLOSURES=SCP_DC_CreateSourcingProcess</value>
+        <value>SCP_ELECTRIC_ELECTRONICS=SCP_EE_CreateSourcingProcess</value>
+        <value>SCP_POWERTRAIN=SCP_PWT_CreateSourcingProcess</value>
+        <value>SCP_EXTERIOR=SCP_EXT_CreateSourcingProcess</value>
+        <value>SCP_INTERIOR=SCP_INT_CreateSourcingProcess</value>
+        <value>Car Battery.Battery Program_ELECTRIC ELECTRONIC=CAR.BATTERY_EE_SourcingProcess</value>
+        <value>Car Battery.Battery Program_MECHANICAL=CAR.BATTERY_ME_SourcingProcess</value>
+        <value>Car Battery.Battery Program_CELL=CAR.BATTERY_CELL_SourcingProcess</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

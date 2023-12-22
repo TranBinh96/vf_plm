@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_post_export_script" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Automatically compresses export data using the standard_post_export_script.pl script when a user performs a local export operation using any of the following methods:Object Export commanditem_export utilityCustomized ITK program that exports objects via OBJIO functionsIf this preference is not defined, no compression occurs.This script does not apply during remote export, which 
+employs a different compression/decompression method.
+Valid Values:
+Complete path name of script. If only the script name is given, the script is assumed to be stored in the TC_BIN directory.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

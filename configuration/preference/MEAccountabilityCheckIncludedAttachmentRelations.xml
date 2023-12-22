@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAccountabilityCheckIncludedAttachmentRelations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default list of relations to be included when comparing attachment for equivalent process and operation for partial match. The valid values are internal name of a Relation Type.</preference_description>
+      <context name="Teamcenter">
+        <value>Cps0ConnectivityDefRel</value>
+        <value>Cps0LBRel</value>
+        <value>Cps0OpDetailsRel</value>
+        <value>Cps0PLCInfoRel</value>
+        <value>Cps0PortsDefRel</value>
+        <value>Cps0SensorDetVolumeRel</value>
+        <value>Cps0SignalDefRel</value>
+        <value>Cps0ToolInfoRel</value>
+        <value>Cps0ModulesInfoRel</value>
+        <value>Cps0ProjectionInfoRel</value>
+        <value>Cps0PropertiesRel</value>
+        <value>ProcessSimulate_Details</value>
+        <value>KinematicsRelation</value>
+        <value>IMAN_Rendering</value>
+        <value>IMAN_reference</value>
+        <value>METimeAnalysisRelation</value>
+        <value>IMAN_specification</value>
+        <value>TC_Feature_Form_Relation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

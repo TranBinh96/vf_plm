@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PCA_enable_authoring" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether users can create or edit variant option data in the Product Configurator application.
+Valid Values:
+TRUE - Users can create or edit variant option data in the Product Configurator application. This is the default value.
+FALSE - Users cannot create or edit variant option data in the Product Configurator application. All data in the application is view-only.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

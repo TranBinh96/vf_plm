@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIAMANAGERV4_load_catia2d" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>If the value of this setting is true or it is not set, a catia2d dataset can be loaded inside a CATIA assembly. 
+If the value of this setting is false, loading a Named Reference of a catia2d dataset placed under the item revision in an assembly context in CATIA is disabled</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

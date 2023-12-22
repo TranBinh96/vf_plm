@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Debug">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Journal_Modules" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which Teamcenter modules create application journal files when the TC_Journalling preference is set to On.
+Valid Values:
+Any string which must be a valid Teamcenter application module.</preference_description>
+      <context name="Teamcenter">
+        <value>ALL</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

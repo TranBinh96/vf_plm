@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMBOM_Mirror_AlignProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the alignment of properties on Make items and revisions created in a manufacturing BOM (MBOM) during a mirror operation through the me_create_mbom utility. These Make nodes are of different types compared to the original engineering BOM (EBOM) nodes.
+Valid Values:
+Formats use the character : as a separator.
+Relation:InternalRelationName:list of secondary types separated by comma:Skip/Reference 
+Example:
+Relation:IMAN_Rendering:DirectModel:Reference
+These relation types are skipped or referenced on items and revisions of the exact specified secondary types and do not apply to subtypes. If secondary types are not specified, all relations of that type are referenced. Use * for a relation type or secondary type wildcard. The relation elements are ordered.
+Item:InternalEBOMItemType,InternalMBOMItemType:(EBOMInternalPropertyName, MBOMInternalPropertyName)+
+Example:
+Item:Item,Document:fnd0is_monolithic,fnd0is_monolithicEBOM and MBOM items with matching underlying property types have their values aligned.
+Revision:InternalEBOMItemType,InternalMBOMItemType:(EBOMInternalPropertyName, MBOMInternalPropertyName)+
+Example:
+Revision:ItemRevision,DocumentRevision:ebomRevProp,mbomRevProp</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

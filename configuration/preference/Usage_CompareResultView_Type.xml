@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Usage_CompareResultView_Type" type="String" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Specifies the appearance group type that will be used to create Usage compare result view and its subgroups. Defaulted to UsageCompareResultView.</preference_description>
+      <context name="Teamcenter">
+        <value>UsageCompareResultView</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

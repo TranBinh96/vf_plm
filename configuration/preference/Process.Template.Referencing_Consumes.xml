@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Process.Template.Referencing_Consumes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the action rules used in creating a process structure from a process template by referencing MEConsumed product elements. When creating a new process structure, the referenced product elements must share the same absolute occurrence or ID of absolute occurrence with the product template.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter naming rule. Naming rules are created in the Business Modeler IDE. see Business Modeler IDE.</preference_description>
+      <context name="Teamcenter">
+        <value>*:*:Attribute.items_tag:Clone</value>
+        <value>*:*:Attribute.structure_revisions:Clone</value>
+        <value>*:*:Attribute.bom_view:Clone</value>
+        <value>*:*:Attribute.parent_item:Clone</value>
+        <value>*:*:Attribute.variant_expression_block:Clone</value>
+        <value>*:*:OccType.Null:Clone</value>
+        <value>*:*:OccType.MEConsumed:Reference</value>
+        <value>*:*:OccType.MEWorkpiece:Ignore</value>
+        <value>*:*:OccType.*:Reference</value>
+        <value>*:*:Relation.IMAN_Rendering:Clone</value>
+        <value>*:type.IPAConfig:Relation.IMAN_specification:Ignore</value>
+        <value>*:*:Relation.IMAN_specification:Clone</value>
+        <value>*:*:Relation.IMAN_classification:Clone</value>
+        <value>*:class.MEActivity:Relation.IMAN_MEFolder:Clone</value>
+        <value>class.MEActivity:*:Attribute.contents:Clone</value>
+        <value>class.Folder:*:Attribute.contents:Reference</value>
+        <value>*:*:Relation.Mfg0TCContextFeatureFormRel:Clone</value>
+        <value>*:*:Relation.IMAN_MEAssemblyTree:Ignore</value>
+        <value>*:*:OccType.Mes0MEDCD:Clone</value>
+        <value>*:*:Relation.Mes0MEWIAssetsRelation:Clone</value>
+        <value>*:*:Relation.Mes0MEWIPreviewRelation:Clone</value>
+        <value>*:*:Relation.Mes0MESymbolRelation:Reference</value>
+        <value>*:*:Relation.Mes0MEDCD_Details:Clone</value>
+        <value>*:*:Relation.Mes0MEDCD_Override:Clone</value>
+        <value>*:*:Relation.Mes0MEPF_Details:Clone</value>
+        <value>*:*:Relation.Mes0MEPF_Override:Clone</value>
+        <value>*:*:Relation.Mes0PDFReportRel:Clone</value>
+        <value>*:*:Relation.Mes0TWIRefInfoRelation:Clone</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_pedigree_model_relationships" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Identifies the valid relationships between CAEModel objects and Product objects to apply pedigree operations.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_based_on</value>
+        <value>TC_CAE_Target</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

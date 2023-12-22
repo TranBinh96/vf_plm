@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_auto_assign_item_rev_ids" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>true = Manage auto-assign IDs during a Save selection in the Save Manager
+false = Do not manage auto-assign IDs during a Save selection in the Save Manager</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

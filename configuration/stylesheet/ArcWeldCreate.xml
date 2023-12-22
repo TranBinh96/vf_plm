@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ArcWeldCreate.xml
+
+    Style sheet rendering for ArcWeld creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="ArcWeld Information" titleKey="tc_xrt_ArcWeldInformation">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name" />
+            <property name="object_desc" />
+            <separator/>
+            <property name="uom_tag" /> 
+        </section>
+        <section title="ArcWeld Attribute Form" titleKey="tc_xrt_ArcWeldAttributeForm">
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_type"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Setup" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Contour"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Method" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Process" />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Group_id"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Id"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_length"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Weld_volume"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:First_leg"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Second_leg"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_1"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_2"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_3"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_4"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_5"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_6"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_7"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_8"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Connected_part_9"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Output_type"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Root_opening"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Root_penetration"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Penetration_depth_1"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Contour_height_1"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Height"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Depth"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Plug_diameter"  />
+            <property name="revision:fnd0TC_Feature_Form_Relation:Size"/>
+            <property name="revision:fnd0TC_Feature_Form_Relation:Groove_angle"/>
+            <property name="revision:fnd0TC_Feature_Form_Relation:Groove_radius"/>
+        </section>
+    </page>
+</rendering>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="TCIF.Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCIF_SSL_CERTIFICATE" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Disk location of Teamcenter Integration Framework&apos;s SSL certificate.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

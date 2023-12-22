@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VMS_vendor_part_selection_rule" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Stores the active condition name corresponding to current vendor part selection rule.
+Valid Values:
+Accepts one or more strings as values; each string must be a valid condition.</preference_description>
+      <context name="Teamcenter">
+        <value>showAllVendorParts</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

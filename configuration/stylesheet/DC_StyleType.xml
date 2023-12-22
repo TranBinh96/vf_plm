@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: DC_StyleType.xml
+
+    Default style sheet for displaying DC_StyleType properties.
+
+@<DEL>@
+=======================================================================
+Date         Name                    Description of Change
+21-Oct-2010  tomaszew                initial creation
+$HISTORY$
+=======================================================================
+@<DEL>@ -->
+
+<rendering>
+    
+    <page title="General" titleKey="General" >
+        <property name="object_name" />
+        <property name="systemUsage" />            
+        <property name="object_type" />
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+        <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+        <property name="last_mod_user" />
+    </page>
+
+    <page title="All" titleKey="All">
+        <all type="property"/>
+    </page>
+
+</rendering>

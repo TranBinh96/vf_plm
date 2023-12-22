@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="StudyTimeBasedSyncRule" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default rules for synchronizing to an isolated study from the original structure.The values in this preference are set by an administrator in the Manufacturing Process Planner application using the Managing Synchronization Rules dialog box.
+Valid Values:
+object-name - Specifies the internal name of the object type.
+property-name - Specifies the internal name of the property on the object type.
+change-type - Specifies the change type for the rule.Valid values for change-type are:AddedToStudySpecifies an action when the property is added to the isolated study.ChangedSpecifies an action when the property is changed.DeletedInStudySpecifies an action when the property is removed from the isolated study.
+MissingInStudySpecifies an action when the property is added to the bill of process after the last synchronization to the isolated study.RemovedFromBOPSpecifies an action when the property is removed from the bill of process.</preference_description>
+      <context name="Teamcenter">
+        <value>Mode:Include</value>
+        <value>Mfg0BvrOperation:Mfg0datasets_forms</value>
+        <value>Mfg0BvrProcess:Mfg0datasets_forms</value>
+        <value>Mfg0BvrProcessArea:Mfg0datasets_forms</value>
+        <value>Mfg0BvrProcess:Mfg0sub_elements</value>
+        <value>Mfg0BvrProcessArea:Mfg0sub_elements</value>
+        <value>Mfg0BvrOperation:Mfg0predecessors</value>
+        <value>Mfg0BvrProcess:Mfg0predecessors</value>
+        <value>Mfg0BvrProcessArea:Mfg0predecessors</value>
+        <value>Mfg0BvrOperation:Mfg0consumed_material</value>
+        <value>Mfg0BvrProcess:Mfg0consumed_material</value>
+        <value>Mfg0BvrProcessArea:Mfg0consumed_material</value>
+        <value>Mfg0BvrOperation:Mfg0used_equipment</value>
+        <value>Mfg0BvrProcess:Mfg0used_equipment</value>
+        <value>Mfg0BvrProcessArea:Mfg0used_equipment</value>
+        <value>Mfg0BvrOperation:Mfg0allocated_features</value>
+        <value>Mfg0BvrProcess:Mfg0allocated_features</value>
+        <value>Mfg0BvrProcessArea:Mfg0allocated_features</value>
+        <value>Mfg0BvrOperation:Mfg0calc_dur_start_time</value>
+        <value>Mfg0BvrOperation:Mfg0calc_duration</value>
+        <value>Mfg0BvrOperation:Mfg0calc_start_time</value>
+        <value>Mfg0BvrProcessArea:Mfg0allocated_ops</value>
+        <value>Mfg0BvrOperation:Mfg0root_activity</value>
+        <value>Mfg0BvrProcessArea:Mfg0input_scope_flows</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

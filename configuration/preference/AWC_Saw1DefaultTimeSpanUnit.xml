@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Saw1DefaultTimeSpanUnit" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default suffix values to be used for the Schedule Task property &apos;Work Effort&apos; when the property value does not contain any suffix. 
+The preference value represents the unit of the timestamp. Valid values are &apos;d&apos;, &apos;h&apos;, &apos;w&apos; and &apos;mo&apos; (days, hours, weeks and months).</preference_description>
+      <context name="Teamcenter">
+        <value>d</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

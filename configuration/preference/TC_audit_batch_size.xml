@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Maintenance.Audit Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_audit_batch_size" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the number of audit records to be inserted into the database in a single batch call.
+The records are buffered and inserted at the end of SOA or thin client call.
+If the batch size is exceeded within the SOA or thin client call, then the limit number of records are written and the remaining ones are accumulated again.
+The default size is 5 (minimum is 1, maximum is 20).</preference_description>
+      <context name="Teamcenter">
+        <value>5</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

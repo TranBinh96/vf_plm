@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="NX_ETS_NXTRANSDIRECT_ENABLED" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates NX asynchronous JT translation using nxtransdirect translator.
+Asynchronous JT translation initiates translation request from NX during save operation.
+This can be enabled either by setting this TC preference or by customer default in NX.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

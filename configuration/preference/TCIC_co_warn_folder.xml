@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCIC_co_warn_folder" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the subfolder used to paste the Item Revision (target) when a Check Out is performed on an Item Revision (source) from the Save Manager and the SpreadSheet Editor. The subfolder is from the HOME folder.
+The Subfolder will be created during the paste operation if it does not exist.
+The Subfolder will not be created if the preference is empty
+This preference is also used by the copy button of BMML</preference_description>
+      <context name="Teamcenter">
+        <value>DefaultCoWarningFolder</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

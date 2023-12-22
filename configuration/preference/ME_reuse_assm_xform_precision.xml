@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ME_reuse_assm_xform_precision" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Sets the precision of transform comparisons in reused assembly. Transform values with differences smaller than the specified precision are treated as identical when comparing.
+Valid Values:
+A floating point number.</preference_description>
+      <context name="Teamcenter">
+        <value>1e-06</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

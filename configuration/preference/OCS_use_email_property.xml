@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="OCS_use_email_property" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>For the Teamcenter integration with Microsoft Office Communicator, specifies whether to use the e-mail ID from the e-mail ID field of the user Person object.
+Valid Values:
+true - The e-mail ID is taken from the user Person object e-mail data.
+false - The e-mail ID consists of the user ID and the value of the OCS_company_email_domain preference.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

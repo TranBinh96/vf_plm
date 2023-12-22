@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_map_ir_object_desc" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Map object_desc attribute diplayed in Item Revision section of Save Manager with any of CATIA property</preference_description>
+      <context name="Teamcenter">
+        <value>description</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

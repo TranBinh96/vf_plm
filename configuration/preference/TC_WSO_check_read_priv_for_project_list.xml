@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_WSO_check_read_priv_for_project_list" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates the evaluation of the &quot;Read&quot; privilege for the logged-in user for each project in the &quot;project_list&quot; property of a Workspace Object when accessing this property.
+If set to true, the projects for which the logged-in user does not have &quot;Read&quot; privilege are filtered out.
+If set to false (default value), all the projects to which a Workspace Object is assigned are returned.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

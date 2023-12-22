@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDVMetaExprApplyValidationOverride" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines which, if any, of the Named Variant Expression meta-expression validation failure cases should be tolerated when applying a meta-expression to a BOMLine. Valid values are zero or more of the following strings: &quot;AlwaysTrue&quot;, &quot;AlwaysFalse&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>AlwaysTrue</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

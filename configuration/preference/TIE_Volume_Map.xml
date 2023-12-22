@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="TC XML Import Export.Import">
+    <category_description>Preferences that control import of data in TC XML.</category_description>
+    
+               <preference name="TIE_Volume_Map" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the mapping of the source volume to the target shadow volume, as used in site consolidation.</preference_description>
+      <context name="Teamcenter">
+        <value>volume1,volume1</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

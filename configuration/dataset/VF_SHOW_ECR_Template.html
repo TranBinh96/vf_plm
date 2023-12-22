@@ -1,0 +1,382 @@
+<html style="padding: 0px;">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      padding-left: 5px;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      font-family: sans-serif;
+    }
+
+    td {
+      font-size: 14px;
+      text-align: left;
+      height: 22px;
+      word-wrap: break-word;
+      border: 1px solid gray;
+      padding: 5px;
+    }
+
+    th {
+      font-size: 14px;
+      color: white;
+      text-align: left;
+      height: 22px;
+      word-wrap: break-word;
+      border: 1px solid gray;
+      padding: 5px;
+      text-align: center;
+      background-color: #ff9149;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .bg-success {
+      background-color: #28d094;
+      color: #fff;
+    }
+
+    .bg-danger {
+      background-color: #ff4961;
+      color: #fff;
+    }
+
+    .badge {
+      border-radius: 3px;
+      font-weight: 300;
+      line-height: 1.3;
+      font-size: 100%;
+      padding: 0.25em 0.4em;
+    }
+  </style>
+  <body style="margin: 0px">
+    <p style="margin: 5px; font-size: 20px">Title: {object_name}</p>
+    <div class="row">
+      <div class="column" style="width: 33%">
+        <table>
+          <tr>
+            <th colspan="2">IMPACT</th>
+          </tr>
+          <tr>
+            <td>Supplier:</td>
+            <td>{vf6cp_supplier}</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>PreCAB</td>
+          </tr>
+          <tr>
+            <td>Vehicle cost delta:</td>
+            <td>{vf6_init_veh_cost_delta}</td>
+          </tr>
+          <tr>
+            <td>Piece cost delta:</td>
+            <td>{vf6_delta_piece_cost}</td>
+          </tr>
+          <tr>
+            <td>Tooling cost delta:</td>
+            <td>{vf6_delta_tooling_cost}</td>
+          </tr>
+          <tr>
+            <td>ED&D cost delta:</td>
+            <td>{vf6_delta_edd_cost}</td>
+          </tr>
+          <!--<tr>
+            <td>Other cost:</td>
+            <td></td>
+          </tr>-->
+          <tr>
+            <td>Leadtime impact:</td>
+            <td>{vf6cp_leadtime_impact}</td>
+          </tr>
+          <tr>
+            <td>PTO/SOP Time impact:</td>
+            <td>{vf6cp_pto_sop_timeimpact}</td>
+          </tr>
+          <tr>
+            <td>Hard TKO-01/Order material:</td>
+            <td>{vf6_is_htko1_required}</td>
+          </tr>
+          <tr>
+            <td>Hard TKO-02/Cut steel:</td>
+            <td>{vf6_is_htko2_required}</td>
+          </tr>
+          <tr>
+            <th colspan="2" style="text-align: left">PROBLEM:</th>
+          </tr>
+          <tr>
+            <td colspan="2">{vf6cp_problem}</td>
+          </tr>
+          <tr style="background-color: #ff9149; color: white">
+            <th colspan="2" style="text-align: left">ROOT CAUSE:</th>
+          </tr>
+          <tr>
+            <td colspan="2">{vf6cp_root_cause}</td>
+          </tr>
+          <tr style="background-color: #ff9149; color: white">
+            <th colspan="2" style="text-align: left">SOLUTION:</th>
+          </tr>
+          <tr>
+            <td colspan="2">{vf6cp_solution}</td>
+          </tr>
+        </table>
+      </div>
+      <div class="column" style="width: 33%">
+        <table>
+          <tr style="background-color: #ff9149; color: white">
+            <th colspan="9">PRECAB INFORMATION</th>
+          </tr>
+          <tr>
+            <td>Project/Program:</td>
+            <td colspan="8">{vf6_vehicle_group}</td>
+          </tr>
+           <!--<tr>
+            <td>Market:</td>
+			<td colspan="8">{vf6cp_market}</td>
+           
+			<td style="text-align: center;">{vf6cp_market_VN}</td>
+            <td>VN</td>
+            <td style="text-align: center;">{vf6cp_market_US}</td>
+            <td>US</td>
+            <td style="text-align: center;">{vf6cp_market_EU}</td>
+            <td>EU</td>
+            <td style="text-align: center;">{vf6cp_market_CA}</td>
+            <td>CA</td>
+			
+          </tr>-->
+		  <!--
+          <tr>
+            <td style="text-align: center;">{vf6cp_market_THA}</td>
+            <td>THA</td>
+            <td style="text-align: center;">{vf6cp_market_SG}</td>
+            <td>SG</td>
+            <td style="text-align: center;">{vf6cp_market_UK}</td>
+            <td>UK</td>
+            <td style="text-align: center;">{vf6cp_market_AU}</td>
+            <td>AU</td>
+          </tr>
+		  -->
+          <tr>
+            <td>Driving position:</td>
+            <td colspan="2" style="text-align: center;">{vf6cp_lhd_rhd_LHD}</td>
+            <td colspan="2">LHD</td>
+            <td colspan="2" style="text-align: center;">{vf6cp_lhd_rhd_RHD}</td>
+            <td colspan="2">RHD</td>
+          </tr>
+          <tr>
+            <td>Variant:</td>
+            <td colspan="8">{vf6cp_variant}</td>
+          </tr>
+          <tr>
+            <td>Seat configuration:</td>
+            <td style="text-align: center;">{vf6cp_seat_configuration_5}</td>
+            <td>5</td>
+            <td style="text-align: center;">{vf6cp_seat_configuration_6}</td>
+            <td>6</td>
+            <td style="text-align: center;">{vf6cp_seat_configuration_7}</td>
+            <td>7</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Pre-Cab Decision:</td>
+            <td colspan="8">Comment</td>
+          </tr>
+          <tr>
+            <td>{vf6cp_pre_decision_approval}</td>
+            <td colspan="8">{vf6cp_precab_dec_comment}</td>
+          </tr>
+          <!--<tr>
+            <td>Involved:</td>
+            <td colspan="8"></td>
+          </tr>
+          <tr>
+            <td>Requested by:</td>
+            <td colspan="8"></td>
+          </tr>
+          <tr>
+            <td>Pre-CAB No:</td>
+            <td colspan="8"></td>
+          </tr>-->
+          <tr>
+            <td>Pre-CAB Approval date:</td>
+            <td colspan="8">{vf6cp_pre_approval_date}</td>
+          </tr>
+          <tr style="background-color: #ff9149; color: white">
+            <th colspan="9">ECR INFORMATION</th>
+          </tr>
+          <tr>
+            <td>ECR No:</td>
+            <td colspan="8">{item_id}</td>
+          </tr>
+          <!--<tr>
+            <td>ECR triggered date:</td>
+            <td colspan="8"></td>
+          </tr>-->
+          <tr>
+            <td>ECR contact email:</td>
+            <td colspan="8">{vf6cp_ecr_contact_email}</td>
+          </tr>
+          <tr>
+            <td>Module Group:</td>
+            <td colspan="8">{vf6_module_group_comp}</td>
+          </tr>
+          <tr>
+            <td>SIL No:</td>
+            <td colspan="8">{vf6cp_sil_no}</td>
+          </tr>
+          <tr>
+            <td>DCR No:</td>
+            <td colspan="8">{vf6cp_dcr_no}</td>
+          </tr>
+          <tr>
+            <td>Implementation date:</td>
+            <td colspan="8">{vf6_effective_proposal}</td>
+          </tr>
+          <tr>
+            <td>Coordinated change:</td>
+            <td colspan="8">{vf6_coordinated_change}</td>
+          </tr>
+        </table>
+      </div>
+      <div class="column" style="width: 33%">
+        <table>
+          <tr style="background-color: #ff9149; color: white">
+            <th colspan="2">AFFECTION IMPACT OF ECR</th>
+          </tr>
+          <tr>
+            <th colspan="2" style="background-color: #2196f3">Module:</th>
+          </tr>
+          <tr>
+            <td>BODY IN WHITE</td>
+            <td style="text-align: center;">{vf6_impacted_module_comp_BIW}</td>
+          </tr>
+          <tr>
+            <td>DOOR & CLOSURES</td>
+            <td style="text-align: center;">{vf6_impacted_module_comp_D&D}</td>
+          </tr>
+          <tr>
+            <td>INTERIOR</td>
+            <td style="text-align: center;">{vf6_impacted_module_comp_INT}</td>
+          </tr>
+          <tr>
+            <td>EXTERIOR</td>
+            <td style="text-align: center;">{vf6_impacted_module_comp_EXT}</td>
+          </tr>
+          <tr>
+            <td>ELECTRIC ELECTRONICS</td>
+            <td style="text-align: center;">{vf6_impacted_module_comp_EE}</td>
+          </tr>
+          <tr>
+            <td>CHASSIS</td>
+            <td style="text-align: center;">{vf6_impacted_module_comp_CHA}</td>
+          </tr>
+          <tr>
+            <td>POWER TRAIN</td>
+            <td style="text-align: center;">{vf6_impacted_module_comp_PWT}</td>
+          </tr>
+          <tr>
+            <td>BATTERY PACK</td>
+            <td style="text-align: center;">{vf6_impacted_module_comp_BAP}</td>
+          </tr>
+          <tr>
+            <td>E-MOTOR</td>
+            <td style="text-align: center;">{vf6_impacted_module_comp_EMO}</td>
+          </tr>
+          <tr>
+            <td>BMW ENGINE</td>
+            <td style="text-align: center;">{vf6_impacted_module_comp_BMW}</td>
+          </tr>
+          <tr>
+            <td>EDAG ENGINEER</td>
+            <td style="text-align: center;">{vf6_impacted_module_comp_EDG}</td>
+          </tr>
+          <tr>
+            <th colspan="2" style="background-color: #2196f3">Function (Default)</th>
+          </tr>
+          <tr>
+            <td>MANUFACTURING</td>
+            <td style="text-align: center;">V</td>
+          </tr>
+          <tr>
+            <td>MANUFACTURING - SUPPLIER PARK</td>
+            <td style="text-align: center;">V</td>
+          </tr>
+          <tr>
+            <td>PROJECT MANAGEMENT</td>
+            <td style="text-align: center;">V</td>
+          </tr>
+          <tr>
+            <td>VEHICLE ARCHITECTURE</td>
+            <td style="text-align: center;">V</td>
+          </tr>
+          <tr>
+            <td>ENGINEERING QUALITY</td>
+            <td style="text-align: center;">V</td>
+          </tr>
+          <tr>
+            <td>CAE SIMULATION</td>
+            <td style="text-align: center;">V</td>
+          </tr>
+          <tr>
+            <td>TESTING AND VALIDATION</td>
+            <td style="text-align: center;">V</td>
+          </tr>
+          <tr>
+            <th colspan="2" style="background-color: #2196f3">Function (Optional)</th>
+          </tr>
+          <tr>
+            <td>INDIRECT PURCHASING ( H ) Part</td>
+            <td style="text-align: center;">{vf6_is_indirectPur_required}</td>
+          </tr>
+          <!-- <tr>
+            <td>INDIRECT PURCHASING (H) Part</td>
+            <td style="text-align: center;">{vf6_is_indirectPur_required}</td>
+          </tr>
+          <tr>
+            <td>HOMOLOGATION</td>
+            <td style="text-align: center;">{vf6_is_homo_required}</td>
+          </tr>
+          <tr>
+            <td>AFTERSALES - SERVICE</td>
+            <td style="text-align: center;">{vf6_is_aftersale_required}</td>
+          </tr>
+          <tr>
+            <td>STYLING</td>
+            <td style="text-align: center;">{vf6_is_color_trim_required}</td>
+          </tr>
+          <tr>
+            <td>FUNCTIONAL SAFETY</td>
+            <td style="text-align: center;">{vf6_is_functional_safety}</td>
+          </tr>
+          <tr>
+            <td>STANDARD PART</td>
+            <td style="text-align: center;">{vf6_is_standard_part}</td>
+          </tr> -->
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column" style="width: 99%">
+        <p style="margin: 5px; font-size: 20px;">BOM Information</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column" style="width: 99%">
+        <table>
+          {bomtable}
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Office Integration">
+    <category_description>Teamcenter Client for Office Integration</category_description>
+    
+               <preference name="Outlook_ViewMarkup_Launchable_TcTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Teamcenter types that launch for view and markup from Microsoft Outlook.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid PDF dataset type or Office dataset type that supports view and markup.While PDF can be launched, Microsoft Office must remain running to save the markup file to Teamcenter from Adobe Acrobat or Adobe Reader.</preference_description>
+      <context name="Teamcenter">
+        <value>PDF</value>
+        <value>MSWord</value>
+        <value>MSWordX</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

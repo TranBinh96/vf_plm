@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_MARKUP_ADD_FONT_STYLE" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the text font style when a user adds a markup to a BOM line in Structure Manager or a markup space in 4G Designer.
+Valid Values:
+0 (plain text)
+1 (bold text)
+2 (italic text)
+3 (bold and italic text)</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

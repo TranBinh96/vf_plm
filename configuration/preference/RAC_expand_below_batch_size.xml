@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RAC_expand_below_batch_size" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the batch size in which BOM lines are processed when users click View-&gt;Expand Below. The selected BOM lines are expanded in levels of batches, the maximum size of each batch is the size set by this preference.
+Valid Values:
+Accepts a single integer as a value. A positive integer defines the number of lines processed per batch. Use -1 to indicate no maximum size, in which case all lines in a single level are processed in a single batch.</preference_description>
+      <context name="Teamcenter">
+        <value>1000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOP View_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>ImanItemBOPLine.bl_level_starting_0</value>
+        <value>BOMLine.bl_indented_title</value>
+        <value>Mfg0BvrSensor.bl_rev_vf5_viet_description</value>
+        <value>ImanItemBOPLine.bl_formula</value>
+        <value>ImanItemBOPLine.bl_sequence_no</value>
+        <value>Mfg0BvrSensor.vf4_operation_type</value>
+        <value>ImanItemBOPLine.VF3_module_group</value>
+        <value>Mfg0BvrSensor.VF4_bomline_id</value>
+        <value>ImanItemBOPLine.VF3_pos_ID</value>
+        <value>Mfg0BvrSensor.VF4_manuf_code</value>
+        <value>Mfg0BvrSensor.bl_item_vf4_item_is_traceable</value>
+        <value>Mfg0BvrSensor.vf4_reference_component</value>
+        <value>ImanItemBOPLine.VF3_purchase_lvl_vf</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

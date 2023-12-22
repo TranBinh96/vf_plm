@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DATASET_saveas_owner" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Affects the behavior of the Teamcenter Integration for NX SaveAs Non-Master Part File dialog box as determined by the implementation of the USER_copied_datasets_details and USER_copied_dataset_name user exits. This preference is only read by these two user exits.
+To access the Integration Toolkit Function Reference, install the Teamcenter developer references when you install Teamcenter online help, or go to the Global Technical Access Center (GTAC):
+https://support.industrysoftware.automation.siemens.com/docs/teamcenter/
+Specifies whether the owner of the new nonmaster part being created using the SaveAs command in Teamcenter Integration for NX should be the user performing the command, or the owner of the nonmaster part being copied.
+Valid Values:
+Original - The owner of the nonmaster part being copied is the owner of the new nonmaster part being created.
+SavingUser - The owner of the nonmaster part being copied is the user performing the SaveAs command.</preference_description>
+      <context name="Teamcenter">
+        <value>SavingUser</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

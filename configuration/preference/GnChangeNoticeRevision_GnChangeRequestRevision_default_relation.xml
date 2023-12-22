@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="GnChangeNoticeRevision_GnChangeRequestRevision_default_relation" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the relation to be created when a Change Notice Revision is pasted under a Change Request Revision. The specified relation becomes the default relation created between a Change Notice Revision and the target Change Request Revision. Users can also set this preference for their environment using the Edit-Options-Change Management menu command.
+Valid Values:
+CMImplements</preference_description>
+      <context name="Teamcenter">
+        <value>CMImplements</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

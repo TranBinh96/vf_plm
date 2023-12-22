@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TWP.StationDefaultSize" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the default dimensions (in pixels) to be applied to stations when displayed in the Time Way Planner view of Manufacturing Process Planner application.
+Valid Values:
+Accepts two integers in a list. The first integer represents the width and the second the height of each station.</preference_description>
+      <context name="Teamcenter">
+        <value>100</value>
+        <value>150</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

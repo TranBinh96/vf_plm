@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_migrate_classid_pattern" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the pattern of a class ID when migrating legacy SML subclasses to abstract subclasses and storage classes. All classes in Classification have unique identifiers. When SML subclasses are migrated, a new abstract class is created for each SML class and a storage class is created directly below the new abstract class for each subclass belonging to the SML class being migrated. Use this preference to determine the pattern of the class IDs when subclasses are migrated.
+Valid Values:
+Any single string value, used alone or in conjunction with the following placeholders:
+${P} - Represents the class ID of the parent class.
+${NNN} - Represents a three digit numerical sequence. Any number of digits can be defined.
+${CID} - Represents the original class ID when a class is migrated.
+${SID} - Represents the original class ID of the SML subclass being migrated.
+
+For example, ${CID}${SID}${NNN} generates SMLClassIDSubclassID000, where SMLClassID is the original class ID, SubclassID is the original class ID of the SML
+subclass being migrated and 000 is the next iterative number.
+Another example, ${NNNN} generates 0000, where 00000 is the next iterative number.
+Another example, ${SID}_${NNN} generates SubclassID_000, where SubclassID is the original class ID of the SML subclass being migrated and 000 is the next iterative
+number.</preference_description>
+      <context name="Teamcenter">
+        <value>${CID}${SID}${NN}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

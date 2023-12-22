@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: CAW0Qam0QualityActionSummary.xml
+     Registers the stylesheet for rendering of Quality Action(Qam0QualityAction) objects in Active Workspace.
+=======================================================================
+-->
+<rendering>
+<page  titleKey="tc_xrt_QualityAction">
+      <column width="100%">
+       <section title="tc_xrt_QualityAction">
+        <objectSet source ="qam0DependentQualityActions.Qam0QualityAction" defaultdisplay="tableDisplay" maxRowCount="4">
+            <tableDisplay>
+                <property name = "object_name"/>
+                <property name = "qam0QualityActionSubtype"/>
+                <property name = "qam0Comment"/>
+                <property name = "fnd0ResponsibleUser" modifiable="false"/>
+                <property name = "qam0DueDate"/>
+                <property name = "qam0QualityActionStatus"/>
+                <property name = "qam0CompletionDate" modifiable="false"/>
+                <property name = "caw0visibleInReport"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <listDisplay>
+                <property name = "object_name"/>
+                <property name = "qam0QualityActionSubtype"/>
+                <property name = "qam0Comment"/>
+                <property name = "fnd0ResponsibleUser" modifiable="false"/>
+                <property name = "qam0DueDate"/>
+                <property name = "qam0QualityActionStatus"/>
+                <property name = "qam0CompletionDate" modifiable="false"/>
+                <property name = "caw0visibleInReport"/>
+            </listDisplay>
+            <command actionKey="newBusinessObjectContextualAction" commandId="CAW0AddCoE" renderingHint="commandbutton"/>
+			<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+          </objectSet>
+       </section>
+    </column>
+ </page>
+</rendering>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Localization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_language_localized_property_value_entry" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the data entry locale (master locale) of the logged-on user. The master locale is the one used by the user to create/edit data in a localized property.
+Valid Values:
+cs_CZ - Czech
+de_DE - German
+en_US - English
+es_ES - Spanish
+fr_FR - French
+it_IT - Italian
+ja_JP - Japanese
+ko_KR - Korean
+ru_RU - Russian
+zh_CN - Chinese (as spoken in China)
+zh_TW - Chinese (as spoken in Taiwan)</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

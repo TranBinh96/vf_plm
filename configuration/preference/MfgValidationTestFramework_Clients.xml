@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MfgValidationTestFramework_Clients" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the clients that will be communicating with the Manufacturing Validation Test Framework.
+Each entry is the name of another preference of this form.
+&quot;MfgValidationTestFramework_Client_&lt;ClientIdentifier&gt;_ValidationTestTypes&quot; where &quot;ClientIdentifier&quot; is a unique client identifier that communicates with the Manufacturing Validation Test Framework. 
+For example:
+See preference MfgValidationTestFramework_Client_EP_WI_ValidationTestTypes. 
+Currently, a single tcserver instance can handle &apos;one&apos; validation test client.</preference_description>
+      <context name="Teamcenter">
+        <value>MfgValidationTestFramework_Client_EP_WI_ValidationTestTypes</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

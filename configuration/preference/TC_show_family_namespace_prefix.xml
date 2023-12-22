@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_show_family_namespace_prefix" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the visibility of the family namespace in formula strings of variant expressions in the Cfg0configurator template.
+The preference is used in the SOA operation ConfiguratorManagement::getVariantExpressionDisplayStrings and for the display value for property &quot;cfg0SubjectCondition&quot; on business objects deriving from &quot;Cfg0AbsRule&quot;.
+The Valid Values:
+- false: Hides the family namespace for the Family, e.g. &quot;Family = feature&quot;.
+- true: Displays the family namespace for the Family, e.g. &quot;[Namespace]Family = feature&quot;. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

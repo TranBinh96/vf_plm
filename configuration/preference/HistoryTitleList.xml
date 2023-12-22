@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="HistoryTitleList" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines an array of strings representing the text displayed for the Rich Client History entries.
+The value of this preference is maintained by the Rich Client for each user.
+This preference is used in conjunction with the HistoryIDList preference.
+Do not modify this preference manually.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

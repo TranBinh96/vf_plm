@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Gateway Foundation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="T4X_Property2IgnoreList4Group" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Generic black-list for Group</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_based_on</value>
+        <value>description</value>
+        <value>display_name</value>
+        <value>fnd0export_sites</value>
+        <value>fnd0objectId</value>
+        <value>full_name</value>
+        <value>group_data_source</value>
+        <value>group_last_sync_date</value>
+        <value>list_of_discipline</value>
+        <value>list_of_role</value>
+        <value>local_volume</value>
+        <value>lsd</value>
+        <value>name</value>
+        <value>nationality</value>
+        <value>object_full_name</value>
+        <value>object_name</value>
+        <value>object_properties</value>
+        <value>object_string</value>
+        <value>operational_status</value>
+        <value>organization_address</value>
+        <value>organization_alternate_name</value>
+        <value>organization_id</value>
+        <value>organization_legal_name</value>
+        <value>organization_name</value>
+        <value>organization_type</value>
+        <value>organization_url</value>
+        <value>owning_site</value>
+        <value>parent</value>
+        <value>pid</value>
+        <value>privilege</value>
+        <value>roles</value>
+        <value>security</value>
+        <value>timestamp</value>
+        <value>volume</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

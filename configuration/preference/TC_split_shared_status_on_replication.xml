@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_split_shared_status_on_replication" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether to split the release status when replicating a object that has a shared release status that references the item revision and its related dataset objects. For exports with ownership transfer, the shared release status is always split.
+Valid Values:
+TRUE - Replicated objects have shared release status split from the related objects. The release status references only the item revision at both the remote and owning site.
+FALSE - Replicated objects do not have the shared release status object split from the related objects. The release status references the item revision and all related objects at both the remote and owning site.Setting this preference value to TRUE increases the chance of an instance in use error occurring during Multi-Site operations, especially when objects with release statuses are replicated at the same time by different users.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

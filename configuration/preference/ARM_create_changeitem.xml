@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ARM_create_changeitem" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Activates the &quot;Create Change Object&quot; performance transaction. 
+This measures the elapsed time from the beginning of the operation to the insertion of the initial task into all target inboxes. This action occurs only when the &quot;Start Process On Create&quot; option is checked while creating a new change.
+Valid Values:
+* ON: Enables performance monitoring of the &quot;Create Change Object&quot; performance transaction.
+* OFF: Suppresses performance monitoring of the &quot;Create Change Object&quot; performance transaction.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

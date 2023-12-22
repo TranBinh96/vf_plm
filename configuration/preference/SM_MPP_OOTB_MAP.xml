@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_MPP_OOTB_MAP" type="String" array="true" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Map of out of the box schedule task properties to the microsoft project task fields. Please use the format ScheduleTask.CustomProperty=CustomField</preference_description>
+      <context name="Teamcenter">
+        <value>ScheduleTask.start_date=Start</value>
+        <value>ScheduleTask.finish_date=Finish</value>
+        <value>ScheduleTask.actual_start_date=ActualStart</value>
+        <value>ScheduleTask.actual_finish_date=ActualFinish</value>
+        <value>ScheduleTask.constraint=ConstraintType</value>
+        <value>ScheduleTask.duration=Duration</value>
+        <value>ScheduleTask.work_estimate=Work</value>
+        <value>ScheduleTask.work_complete=ActualWork</value>
+        <value>ScheduleTask.fixed_type=Type</value>
+        <value>ScheduleTask.complete_percent=PercentComplete</value>
+        <value>ScheduleTask.object=Name</value>
+        <value>ScheduleTask.description=Notes</value>
+        <value>ScheduleTask.wbs_code=WBS</value>
+        <value>ScheduleTask.priority=Priority</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_force_mandatory_attribute_check" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates a check that all mandatory attributes contain values during the creation of any Classification object (ICO). This preference is used for all situations that do not involved user interface interaction (both rich and thin client). For activities performed in the user interface, the preference is ignored.
+Valid Values:
+true - Classification checks that all mandatory attributes contain values when you save or create a Classification object using any method.
+false - Classification does not check that mandatory attributes contain values when you save or create a Classification object.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

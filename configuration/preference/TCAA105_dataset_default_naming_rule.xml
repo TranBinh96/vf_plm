@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA105_dataset_default_naming_rule" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to configure the naming rule applied to the datasets created by TCAA.
+If the preference is set to an empty string, TCAA does not enforce any naming rule. Therefore datasets are named as per the naming rules currently configured in Teamcenter.
+If the preference is set to a non-empty string, it is used as a pattern to generate the name of datasets created by TCAA. The pattern consists of any literal text string(s) combined with one or more of the following tokens: ${Item.item_id}, ${ItemRevision.item_revision_id}, ${FileName} and ${FileExtension}.
+The default value of the preference is ${Item.item_id}/${ItemRevision.item_revision_id}.</preference_description>
+      <context name="Teamcenter">
+        <value>${Item.item_id}/${ItemRevision.item_revision_id}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

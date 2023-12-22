@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing.SAP MES Interface">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EXCEL_SAP_FORMAT_TRANSFER" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Transfer Data to SAP using excel</preference_description>
+      <context name="Teamcenter">
+        <value>CAR_UNIT_BOM=PLANTCODE,ACTION,BOMLINEID,QUANTITY,CHILDPART,MCN,PARENTPART,GROUP,PRIORITY</value>
+        <value>CAR_UNIT_BOP=REVISION,ACTION,BOMLINEID,HEADERPART,BOPID,LINESUPPLYMETHOD,MESBOPINDICATOR,SAPPLANT,WORKSTATION,TOPLEVELPART</value>
+        <value>CAR_SUPER_BOP=REVISION,GROUPDESCRIPTION,FAMILY_ADDR,OPTION,SAPPLANT,PLATFORM,ACTION,BOMLINEID,MODELYEAR,MAINGROUP,BOPID,MCN,LINESUPPLYMETHOD,MESBOPINDICATOR,L_R_HAND,SUBGROUP,WORKSTATION</value>
+        <value>CAR_SUPER_BOM=PLANT,QUANTITY,GROUPDESCRIPTION,OPTION,PARTNO,PLATFORM,DCR,ACTION,BOMLINEID,MODELYEAR,MAINGROUP,MCN,SUBGROUP</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

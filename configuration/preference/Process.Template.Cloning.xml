@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Process.Template.Cloning" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the action rules used in creating a process from a process template. Process templates are available from Manufacturing Process Planner and Part Planner.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter naming rule. Naming rules are created in the Business Modeler IDE. see Business Modeler IDE.</preference_description>
+      <context name="Teamcenter">
+        <value>*:*:Relation.IMAN_3D_snap_shot:Clone</value>
+        <value>*:*:Relation.VISTopLevelRef:Clone</value>
+        <value>*:class.PSBOMViewRevision:Relation.IMAN_StructureContent:Clone</value>
+        <value>*:*:Relation.Mfg0TCContextFeatureFormRel:Clone</value>
+        <value>*:*:OccType.Mes0MEDCD:Clone</value>
+        <value>*:*:Relation.Mes0MEWIAssetsRelation:Clone</value>
+        <value>*:*:Relation.Mes0MEWIPreviewRelation:Clone</value>
+        <value>*:*:Relation.Mes0MESymbolRelation:Reference</value>
+        <value>*:*:Relation.Mes0MEDCD_Details:Clone</value>
+        <value>*:*:Relation.Mes0MEDCD_Override:Clone</value>
+        <value>*:*:Relation.Mes0MEPF_Details:Clone</value>
+        <value>*:*:Relation.Mes0MEPF_Override:Clone</value>
+        <value>*:*:Relation.Mes0PDFReportRel:Clone</value>
+        <value>*:*:Relation.Mes0TWIRefInfoRelation:Clone</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

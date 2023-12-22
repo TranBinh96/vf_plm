@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_preserve_original_owner_on_sync" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the owning user and group of a replica are kept the same as that of the master copy when synchronizing an object. This preferences is used by the data_sync utility to determine the owning user and group at a replica site when synchronizing changes to an object.
+Valid Values:
+TRUE - The owning user and group are updated at the replica site when the master object ownership changes, for example: At the master site, the obj001 item is owned by the designer1 user. Replicate the object to the target site and the replica obj001 object is owned by the designer1 user.At the master site, change the obj001 object owner to the designer2 user and add a dataset to the item revision also owned by the designer2 user.Run the data_sync utility with the TC_preserve_original_owner_on_sync preference set to TRUE at the replica site. The owner of the replicated obj001 item is changed to the designer2 user and a dataset is added to the item revision also owned by the designer2 user.The owning user and group must be defined at both the master and replica site to synchronize the ownership at the replica site. Otherwise, the replica ownership does not change.
+FALSE - The owning user and group are preserved at the replica site when the master object ownership changes.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AW_search_suggestion_handler" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the request handler for displaying suggestions during a search in Active Workspace.
+Valid values are:
+* SpellCheck : Displays single word suggestions. This is the default value.
+* Phrase : Displays phrased suggestions.
+* NoSuggestions : Do not return any suggestion.</preference_description>
+      <context name="Teamcenter">
+        <value>SpellCheck</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2012 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: UiE-EPMTaskSummary.xml
+Dave McLaughlin 2012-02-26
+
+Default style sheet for displaying a workflow task.
+===============================================================================
+-->
+<rendering xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source = "type"/>
+        <property name = "object_name"/>
+        <property name = "object_type" modifiable = "false"/>
+    </header>
+    <!-- This page is shown for local workflows -->
+    <page titleKey="tc_xrt_Overview" title = "Overview" visibleWhen = "fnd0ScheduleCategory!=2">
+        <column>
+            <section titleKey = "tc_xrt_properties" title = "Properties">
+                <property name = "fnd0Instructions" modifiable = "false" renderingStyle = "Titled"/>
+                <separator/>
+                <property name = "resp_party"/>
+                <property name = "due_date"/>
+                <property name = "fnd0StartDate"/>
+                <property name = "fnd0EndDate"/>
+                <property name = "comments"/>
+                <separator/>
+                <property name = "task_result"/>
+                <property name = "task_state"/>
+                <separator/>
+                <property name = "owning_user" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "owning_group" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "last_mod_user" renderingHint = "objectlink" modifiable = "false"/>
+                <separator/>
+                <command commandId = "com.teamcenter.rac.properties" titleKey = "tc_xrt_moreProperties"/>
+            </section>
+
+            <!-- Following section shows only the Item Revision target objects -->
+            <section titleKey = "tc_xrt_ItemRevisionTargets" title = "Item Revision Targets">
+                <objectSet source = "root_target_attachments.ItemRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "last_mod_date"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                </objectSet>
+            </section>
+
+            <!-- Add following section to shows all target attachments. -->
+            <!--
+            <section titleKey = "tc_xrt_Targets" title = "Targets">
+                <objectSet source = "root_target_attachments.WorkspaceObject" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "last_mod_date"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                </objectSet>
+            </section>
+            -->
+
+            <!-- Add following section to shows all reference attachments. -->
+            <!--
+            <section titleKey = "tc_xrt_References" title = "References">
+                <objectSet source = "root_reference_attachments.ItemRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "last_mod_date"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                </objectSet>
+            </section>
+            -->
+
+            <!-- Add this if using Schedule-Workflow integration or use the Schedule Page below. -->
+            <!--
+            <section titleKey = "tc_xrt_Schedules" title = "Schedules">
+                <objectSet source = "project_task_attachments.ScheduleTask" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_type"/>
+                        <property name = "parent_task_tag"/>
+                        <property name = "schedule_tag"/>
+                        <property name = "last_mod_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+            -->
+
+        </column>
+        <column>
+            <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                <command actionKey = "performAction" commandId = "com.teamcenter.rac.perform"/>
+                <command actionKey = "assignAction" commandId = "com.teamcenter.rac.assign"/>
+            </section>
+
+        </column>
+    </page>
+    <!-- This Page is shown when Schedule task attached to workflow is remote proxy link -->
+    <page titleKey="tc_xrt_Overview" title = "Overview" visibleWhen = "fnd0ScheduleCategory==2">
+        <column>
+            <section titleKey = "tc_xrt_properties" title = "Properties">
+                <property name = "fnd0Instructions" modifiable = "false" renderingStyle = "Titled"/>
+                <separator/>
+                <property name = "resp_party"/>
+                <property name = "due_date"/>
+                <property name = "fnd0StartDate"/>
+                <property name = "fnd0EndDate"/>
+                <property name = "comments"/>
+                <separator/>
+                <property name = "task_result"/>
+                <property name = "task_state"/>
+                <separator/>
+                <property name = "owning_user" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "owning_group" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "last_mod_user" renderingHint = "objectlink" modifiable = "false"/>
+                <separator/>
+                <command commandId = "com.teamcenter.rac.properties" titleKey = "tc_xrt_moreProperties"/>
+            </section>
+
+            <!-- Following section shows only the Item Revision target objects -->
+            <section titleKey = "tc_xrt_ItemRevisionTargets" title = "Item Revision Targets">
+                <objectSet source = "root_target_attachments.ItemRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "last_mod_date"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                </objectSet>
+            </section>
+
+            <!-- Add following section to shows all target attachments. -->
+            <!--
+            <section titleKey = "tc_xrt_Targets" title = "Targets">
+                <objectSet source = "root_target_attachments.WorkspaceObject" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "last_mod_date"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                </objectSet>
+            </section>
+            -->
+
+            <!-- Add following section to shows all reference attachments. -->
+            <!--
+            <section titleKey = "tc_xrt_References" title = "References">
+                <objectSet source = "root_reference_attachments.ItemRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "last_mod_date"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                </objectSet>
+            </section>
+            -->
+
+            <!-- Add this if using Schedule-Workflow integration or use the Schedule Page below. -->
+            <!--
+            <section titleKey = "tc_xrt_Schedules" title = "Schedules">
+                <objectSet source = "project_task_attachments.ScheduleTask" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_type"/>
+                        <property name = "parent_task_tag"/>
+                        <property name = "schedule_tag"/>
+                        <property name = "last_mod_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+            -->
+
+        </column>
+        <column>
+            <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                <command actionKey = "performAction" commandId = "com.teamcenter.rac.perform"/>
+                <command actionKey = "assignAction" commandId = "com.teamcenter.rac.assign"/>
+            </section>
+
+        <!-- Following section shows all Problem Items. -->
+        <section titleKey = "tc_xrt_ProblemItems" title = "Problem Items" commandLayout="vertical" >
+            <objectSet source = "fnd0rootCMProblemItems.ItemRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+            <tableDisplay>
+                <property name = "object_string"/>
+                <property name = "last_mod_date"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <listDisplay/>
+            <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+            <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                <parameter name = "localSelection" value = "true"/>
+            </command>
+            <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy" renderingHint = "commandbutton">
+                <parameter name = "localSelection" value = "true"/>
+            </command>
+            <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+            </objectSet>
+        </section>
+
+        <!-- Following section shows all Impacted Items. -->
+        <section titleKey = "tc_xrt_ImpactedItems" title = "Impacted Items" commandLayout="vertical" >
+            <objectSet source = "fnd0rootCMImpactedItems.ItemRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+            <tableDisplay>
+                <property name = "object_string"/>
+                <property name = "last_mod_date"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <listDisplay/>
+            <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+            <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                <parameter name = "localSelection" value = "true"/>
+            </command>
+            <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy" renderingHint = "commandbutton">
+                <parameter name = "localSelection" value = "true"/>
+            </command>
+            <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+            </objectSet>
+        </section>
+
+        <!-- Following section shows all Solution Items. -->
+        <section titleKey = "tc_xrt_SolutionItems" title = "Solution Items" commandLayout="vertical" >
+            <objectSet source = "fnd0rootCMSolutionItems.ItemRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+            <tableDisplay>
+                <property name = "object_string"/>
+                <property name = "last_mod_date"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <listDisplay/>
+            <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+            <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                <parameter name = "localSelection" value = "true"/>
+            </command>
+            <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy" renderingHint = "commandbutton">
+                <parameter name = "localSelection" value = "true"/>
+            </command>
+            <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+            </objectSet>
+        </section>
+        </column>
+    </page>
+    <!--Use this Page if you want local Schedules on a separate tab -->
+    <page titleKey = "tc_xrt_Schedules" title = "Schedules" visibleWhen = "fnd0ScheduleCategory==1">
+        <column>
+            <section titleKey = "tc_xrt_Schedules" title = "Schedules">
+                <objectSet source = "project_task_attachments.ScheduleTask" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_type"/>
+                        <property name = "parent_task_tag"/>
+                        <property name = "schedule_tag"/>
+                        <property name = "last_mod_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <!--Use this Page if you want remote Schedules on a separate tab -->
+    <page titleKey = "tc_xrt_RemSchedule" title = "Remote Schedule" visibleWhen = "fnd0ScheduleCategory==2">
+      <column>
+        <section titleKey = "tc_xrt_RemSchedule" title = "Remote Schedule">
+          <objectSet source = "project_task_attachments.Fnd0ScheduleTaskProxyLink" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+            <tableDisplay>
+              <property name = "object_string"/>
+              <property name = "fnd0Instructions"/>
+              <property name = "fnd0ExtSite"/>
+              <property name = "fnd0FinishDate"/>
+              <property name = "fnd0Status"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <listDisplay/>
+          </objectSet>
+        </section>
+      </column>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+        <objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="lis0site"/>
+                <property name="lis0serviceProvider"/>
+                <property name="relation"/>
+                <property name="last_mod_date"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out_user"/>
+            </tableDisplay>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+            <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </page>
+    <page title="Audit Logs" titleKey="tc_xrt_AuditLogs" visibleWhen="{pref:TC_audit_manager_version}==3">
+        <command titleKey="tc_xrt_ExportToExcel"  actionKey="exportExcelAction" commandId = "com.teamcenter.rac.exportAuditSummaryToExcel" renderingHint="commandbutton"/>
+        <command titleKey="tc_xrt_ExportToCSV" actionKey="exportCSVAction" commandId = "com.teamcenter.rac.exportAuditSummaryToCSV" renderingHint="commandbutton"/>
+        <section title="Workflow Logs" titleKey="tc_xrt_WorkflowLogs" initialstate="collapsed">
+        <customPanel java="com.teamcenter.rac.auditmanager.WorkflowLegacyAuditLinkPanel"/>
+            <objectSet source="fnd0WorkflowAuditLogs.Fnd0WorkflowAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="object_type"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="object_name"/>
+                    <property name="job_name"/>
+                    <property name="process_templateDisp"/>
+                    <property name="fnd0UserId"/>
+                    <property name="task_state"/>
+                    <property name="task_result"/>
+                    <property name="fnd0Comments"/>
+                    <property name="responsible_party"/>
+                    <property name="fnd0SignoffUserID"/>
+                    <property name="fnd0SignoffGroupName"/>
+                    <property name="fnd0SignoffRoleName"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                    <property name="fnd0SecondaryObjDispName"/>
+                    <property name="fnd0SecondaryObjQualifier"/>
+                </tableDisplay>
+            </objectSet>
+        <customPanel java="com.teamcenter.rac.auditmanager.WorkflowSecondaryAuditPanel" js="displayWorkflowCustomPanel" />
+        </section>
+        <section title="Task Logs" titleKey="tc_xrt_TaskLogs" initialstate="collapsed">
+            <objectSet source="fnd0WorkflowTaskLogs.Fnd0WorkflowAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="object_type"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="object_name"/>
+                    <property name="job_name"/>
+                    <property name="process_templateDisp"/>
+                    <property name="fnd0UserId"/>
+                    <property name="task_state"/>
+                    <property name="task_result"/>
+                    <property name="fnd0Comments"/>
+                    <property name="responsible_party"/>
+                    <property name="fnd0SignoffUserID"/>
+                    <property name="fnd0SignoffGroupName"/>
+                    <property name="fnd0SignoffRoleName"/>
+                    <property name="fnd0SecondaryObjectType"/>
+                    <property name="fnd0SecondaryObjDispName"/>
+                    <property name="fnd0SecondaryObjQualifier"/>
+                </tableDisplay>
+            </objectSet>
+        <customPanel java="com.teamcenter.rac.auditmanager.WorkflowSecondaryAuditPanel" js="displayWorkflowCustomPanel" />
+        </section>
+    </page>
+</rendering>

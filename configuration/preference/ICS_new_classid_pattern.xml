@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_new_classid_pattern" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the pattern of the class ID when a new class is created. All classes in Classification have unique identifiers. Use this preference to determine the pattern of the class ID when a new class is created.
+Valid Values:
+Any single string value, used alone or in conjunction with the following placeholders:
+${P} - Represents the class ID of the parent class.
+${NNN} - Represents a three digit numerical sequence. Any number of digits can be defined.
+
+For example, ${P}${NNN} generates Parent000, where Parent is the name of the parent class, and 000 is the next iterative number.
+Another example, ${NNNNNN} generates 000000, where 000000 is the next iterative number.
+Another example, ${P}.new generates Parent.new, where Parent is the name of the parent class, suffixed by .new.</preference_description>
+      <context name="Teamcenter">
+        <value>${P}${NN}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

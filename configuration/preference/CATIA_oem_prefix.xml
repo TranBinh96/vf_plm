@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_oem_prefix" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Modify the OEM Prefix variable to indicate the prefix used to create OEM properties in CATIA, 
+i.e., prefix_originalPropertyName</preference_description>
+      <context name="Teamcenter">
+        <value>OEM</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

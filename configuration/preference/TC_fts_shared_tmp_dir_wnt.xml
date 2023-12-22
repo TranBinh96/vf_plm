@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_shared_tmp_dir_wnt" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the temporary exchange directory for the Windows host where the Teamcenter server or Autonomy server is running.
+This preference is defined in a new installation but has no default value and no instance created.
+If the Teamcenter server and the Autonomy server are installed on different machines, you must set either this preference (Windows) or the TC_fts_shared_tmp_dir_unix preference (UNIX).
+Settings for the -workdir and -db arguments of the build_fts_index utility override this preference.
+Valid Values:
+Must be a valid Windows directory with write privileges for the user starting the Teamcenter server.
+The separator used in the preference value must be the back slash \, for example, \\mynetwork\mysite\myfolder.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

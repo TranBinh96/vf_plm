@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_auto_split_project_attribute_name" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the name of attribute available on ChangeNoticeRevision or ChangeRequestRevision class for  population of program/project names required for automatic split in Supplier Collaboration application.
+Valid value is internal name of the projects (List of TypedReference to TC_Project object or its subtype) attribute.
+Default value is project_list.</preference_description>
+      <context name="Teamcenter">
+        <value>project_list</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

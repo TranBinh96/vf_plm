@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA123_relation_navigation_rel_types_mode" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to override the default mode of relation expansion for specific TCAA relationship types. 
+Possible values (multiple values): each value corresponds to the name of a TCAA relation type followed by the required specific expansion mode.
+For example, if the preference contains the following entry:
+ACD2_TCAA84_ref_link_rel=1
+then the relations for attached reference links will be expanded applying the current revision rule, regardless the default mode specified in the preference TCAA123_relation_navigation_default_mode.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

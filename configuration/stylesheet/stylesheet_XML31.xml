@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Study_Part_Crete.xml
+    Style sheet rendering for Study creation.
+=======================================================================
+-->
+
+<rendering>
+   <page title="General" titleKey="tc_xrt_General">        
+<property name="vl5_color_code" />
+<property name="object_desc" />
+<property name="vf4_hw_part_number_bl" />
+<property name="vf4_hw_version" />
+<property name="item_id" />
+<property name="sci0IsIMDSObject" />
+<property name="vf4_itm_after_sale_relevant" />
+<property name="vf4_is_frozen" />
+<property name="vf4_is_sourcing" />
+<property name="vf4_item_name_vi" />
+<property name="vf4_key_data_group1" />
+<property name="vf4_manu_component" />
+<property name="vf4_itm_material_type" />
+<property name="object_name" />
+<property name="vf4_number_of_parts" />
+<property name="vf4_orginal_part_number" />
+<property name="VF4_PFEP_Relation" />
+<property name="vf4_part_category" />
+<property name="vf4_item_make_buy" />
+<property name="vf4_part_reference" />
+<property name="vf4_item_is_traceable" />
+<property name="vl5_Right_hand_Partnumber" />
+<property name="vf4_sw_part_number_bl" />
+<property name="vf4_sw_version" />
+<property name="vf4_itm_supplier_code" />
+<property name="vf4_itm_supplier_name" />
+<property name="uom_tag" />
+<property name="vf4_vf_code" />
+
+    </page>
+</rendering>

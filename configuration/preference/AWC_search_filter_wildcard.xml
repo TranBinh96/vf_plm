@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_search_filter_wildcard" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies how wild card will be applied for facet filter.
+Valid values are:
+* 0 : No wild card will be applied to search string.
+* 1 : Trailing wild card will be applied to search string.
+* 2 : Leading wild card will be applied to search string.
+* 3 : Both leading and trailing wild cards will be applied to search string. This is the default value.
+If the preference is either not set or has a value other than in the list above, the following preference will be used instead:
+AWC_search_automatic_wildcard.</preference_description>
+      <context name="Teamcenter">
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

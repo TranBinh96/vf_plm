@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Vendor_Part_BOMLine_Properties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Vendor Part string properties, displayed (along with Vendor Part ID and location) in the &quot;Vendor Parts&quot; column in the Product Structure Manager. 
+Valid values are property internal names. The default value is &quot;vendor_id&quot;. The preference can be empty.</preference_description>
+      <context name="Teamcenter">
+        <value>vendor_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

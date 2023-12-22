@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Autocad Manager">
+    <category_description>Autocad Manager Preferences</category_description>
+    
+               <preference name="AIE_export_dir" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>The directory under which iMAN will create all connection export directories.</preference_description>
+      <context name="Teamcenter">
+        <value>C:\Temp</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

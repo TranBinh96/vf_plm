@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_compare_uid_reference_top_level_on_merge" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>When the top level loaded in CATIA has not the same file name as the top level of the selected document in Teamcenter but they have the same item revision UID, set to true to perform a Load Merge operation; otherwise  set to false to perform a Load Merge under reference product operation.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

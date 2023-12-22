@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><!--// @<COPYRIGHT>@// ==================================================// Copyright 2014.// Siemens Product Lifecycle Management Software Inc.// All Rights Reserved.// ==================================================// @<COPYRIGHT>@--><!-- Default style sheet for displaying a workflow Review task. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+   <header>
+      <image source="type"/>
+      <property name="object_name"/>
+      <property name="object_type" modifiable="false"/>
+   </header>
+   <page titleKey="tc_xrt_Overview" visibleWhen="object_name!=Change Notice Review">
+      <column width="25%">
+         <content visibleWhen="awp0PerformableByMeBehavior==true">
+            <section titleKey="tc_xrt_Action">
+               <htmlPanel declarativeKey="Awp0PerformTask"/>
+            </section>
+         </content>
+         <section titleKey="tc_xrt_properties">
+            <content visibleWhen="fnd0Assignee!=null">
+               <property name="fnd0Assignee"/>
+            </content>
+            <content visibleWhen="active_surrogate!=null">
+               <property name="active_surrogate" modifiable="false"/>
+            </content>
+            <property name="due_date"/>
+            <content visibleWhen="fnd0TaskExecutionErrors!=null">
+               <property name="fnd0TaskExecutionErrors"/>
+            </content>
+            <content visibleWhen="fnd0RootScheduleTask!=null">
+               <property name="fnd0RootScheduleTask" renderingHint="objectlink" modifiable="false"/>
+            </content>
+         </section>
+      </column>
+      <column width="25%">
+         <section titleKey="web_inbox_targets">
+            <objectSet source="root_target_attachments.WorkspaceObject,root_target_attachments.Folder" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+               <tableDisplay>
+                  <property name="object_string"/>
+                  <property name="object_type"/>
+                  <property name="release_status_list"/>
+               </tableDisplay>
+               <thumbnailDisplay/>
+               <listDisplay/>
+               <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+               <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+               <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                  <parameter name="localSelection" value="true"/>
+               </command>
+            </objectSet>
+         </section>
+         <content visibleWhen="object_name==SOR Required?">
+            <content visibleWhen="REF(root_target_attachments,VF4_MCRRevision).item_id!=null">
+               <section titleKey="MCR Additional Info">
+                  <property name="REF(root_target_attachments,VF4_MCRRevision).vf4_sor_name_rev" modifiable="false"/>
+                  <property name="REF(root_target_attachments,VF4_MCRRevision).vf4_sor_number_rev" modifiable="false"/>
+                  <property name="REF(root_target_attachments,VF4_MCRRevision).vf4_sor_release_date_rev" modifiable="false"/>
+               </section>
+            </content>
+         </content>
+      </column>
+      <column width="50%">
+         <section titleKey="tc_xrt_Preview">
+            <inject type="dataset" src="Awp0CrossSelectionViewer" module="js/aw-include.directive"/>
+         </section>
+         
+         <section titleKey="Checklist">
+            <content visibleWhen="object_name==Manufacturing Review">
+               <objectSet
+                  source="REF(root_target_attachments,Vf6_ECRRevision).REF(Vf6_folder_gate_review,Vf6_manufacturing_gr)"
+                  defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                  <tableDisplay>
+                     <property name="vf6_ecr_impact_shop_manu" />
+                     <property name="object_string" />
+                  </tableDisplay>
+                  <thumbnailDisplay />
+                  <listDisplay />
+                  <command actionKey="newBusinessObjectContextualAction"
+                     commandId="com.teamcenter.rac.common.AddNew"
+                     renderingHint="commandbutton" />
+                  <command actionKey="pasteAction"
+                     commandId="com.teamcenter.rac.viewer.pastewithContext"
+                     renderingHint="commandbutton" />
+                  <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+                     renderingHint="commandbutton">
+                     <parameter name="localSelection" value="true" />
+                  </command>
+               </objectSet>
+            </content>
+         </section>
+      </column>
+   </page>
+   <page titleKey="tc_xrt_attachments">
+      <section titleKey="tc_xrt_AllTargets">
+         <objectSet source="root_target_attachments.WorkspaceObject" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string"/>
+               <property name="object_type"/>
+               <property name="last_mod_date"/>
+               <property name="release_status_list"/>
+               <property name="owning_user"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <listDisplay/>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+               <parameter name="localSelection" value="true"/>
+            </command>
+         </objectSet>
+      </section>
+      <section titleKey="tc_xrt_AllReferences">
+         <objectSet source="root_reference_attachments.WorkspaceObject" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string"/>
+               <property name="object_type"/>
+               <property name="last_mod_date"/>
+               <property name="release_status_list"/>
+               <property name="owning_user"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <listDisplay/>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+               <parameter name="localSelection" value="true"/>
+            </command>
+         </objectSet>
+      </section>
+      <section titleKey="EPM_attachment_10">
+         <objectSet source="fnd0RootReplicaTargets.WorkspaceObject" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+               <property name="object_string"/>
+               <property name="object_type"/>
+               <property name="last_mod_date"/>
+               <property name="release_status_list"/>
+               <property name="owning_user"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <listDisplay/>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+               <parameter name="localSelection" value="true"/>
+            </command>
+         </objectSet>
+      </section>
+   </page>
+   <inject type="dataset" src="EPMObjectsWorkflowSummary" />
+   <inject type="dataset" src="AuditLogForWorkflow"/>
+   <content visibleWhen="REF(root_target_attachments, Pdm1ProblemItemRevision).object_type!=Pdm1ProblemItemRevision">
+      <inject type="dataset" src="Awp0EPMTaskParticipantSummary"/>
+   </content>
+   <content visibleWhen="REF(root_target_attachments, Pdm1ProblemItemRevision).object_type==Pdm1ProblemItemRevision">
+      <inject type="dataset" src="Awp0EPMTaskPdmParticipantSummary"/>
+   </content>
+   <inject type="dataset" src="Awp0EPMTaskAssignmentSummary"/>
+</rendering>

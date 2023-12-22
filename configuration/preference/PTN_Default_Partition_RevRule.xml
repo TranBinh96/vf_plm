@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PTN_Default_Partition_RevRule" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default revision rule for partitions within a model.
+Valid Values:
+The name of any valid Teamcenter revision rule, for example, Any Status; No Working.</preference_description>
+      <context name="Teamcenter">
+        <value>Working; Any Status</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+<content visibleWhen="ActiveWorkspace:SubLocation == com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation and {pref:MATERIALMGMTAW_Display_Legacy_Composition_Tab}==true">
+     <page titleKey="mtw0_xrt_materialtab">
+         <section>
+              <inject type="dataset" src="Mtw0CompositionInfoDataset" module="js/aw-include.directive"/>
+        </section>
+    </page>
+</content>
+</subRendering>

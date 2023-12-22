@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Global_Search_Suppress_Types_From_Results" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of internal names of types which need to be suppressed from global search results.
+For example, consider the dataset type with display name as MS WordX, the user should provide the internal type name i.e., MSWordX.
+Valid values are internal type names as defined in BMIDE.
+If the preference AWS_FullTextSearch_Index_Dataset_File_Content is set to true and dataset types are set as a value to this preference,
+the dataset types are still suppressed from the global search results.
+Out of the box, no values will be there in this multivalued preference.</preference_description>
+      <context name="Teamcenter">
+        <value>Dataset</value>
+        <value>VF4_CostRevision</value>
+        <value>VF4_Cost</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

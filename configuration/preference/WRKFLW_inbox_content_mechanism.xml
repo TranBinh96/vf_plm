@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_inbox_content_mechanism" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Specifies whether the tasks seen in the user&apos;s inbox are to fetched using inbox queries or the TaskInbox folder contents.
+Valid values are:
+* query : Uses Inbox queries to fetch the tasks to be displayed in task inbox. The insertion and removal of tasks and signoffs in the inbox are also supressed. This is the default value
+* folder_contents : Uses the &quot;contents&quot; property of task inbox to display tasks.</preference_description>
+      <context name="Teamcenter">
+        <value>query</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

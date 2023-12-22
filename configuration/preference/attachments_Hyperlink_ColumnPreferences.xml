@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="attachments_Hyperlink_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preferece determines the proeprties columns to be hyperlink on the related attachment tab</preference_description>
+      <context name="Teamcenter">
+        <value>object_string</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

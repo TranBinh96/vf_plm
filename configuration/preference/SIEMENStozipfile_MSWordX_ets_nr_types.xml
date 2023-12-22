@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SIEMENStozipfile_MSWordX_ets_nr_types" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the source dataset named reference necessary for translation. One of the dataset named reference types specified by this preference must exist for the Microsoft WordX dataset to be valid for translation. If you do not specify named reference types, the service configuration is invalid and an error occurs during translation.
+Valid Values:
+Accepts multiple strings as values. It must be a valid dataset reference type.</preference_description>
+      <context name="Teamcenter">
+        <value>word</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

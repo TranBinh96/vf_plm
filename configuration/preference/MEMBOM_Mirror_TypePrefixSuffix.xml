@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMBOM_Mirror_TypePrefixSuffix" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the type of item to be used when creating an item in a manufacturing BOM through the me_create_mbom utility. It also defines the prefix and suffix for the name of the item instance.
+Valid Values:
+Valid values are in the format ItemType,Prefix,Suffix, in which the character (,) is the separator. The prefix or suffix are optional.</preference_description>
+      <context name="Teamcenter">
+        <value>Item,M_</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

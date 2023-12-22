@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_EffectivityConfigurable_MaxCacheSize" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>The Teamcenter server caches effectivity data for configurable objects to prevent repeated frequent database queries for the same set of configurable objects. Use this preference to limit the size of the cache to optimize the balance between memory footprint of the tcserver process and the performance impact of an increased database SQL query count.The cache is automatically purged on a last-accessed basis. Cached values are automatically refreshed for loaded and up-to-date objects when a cached value is accessed and the cached has changed since it was cached.
+Valid Values:
+Any integer value that specifies the number of configurable objects for which effectivity data is cached. If the value is equal to or less than zero, or if the preference is not defined, Teamcenter applies the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>50000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

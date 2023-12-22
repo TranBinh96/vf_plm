@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Document Management">
+    <category_description>Document Management.</category_description>
+    
+               <preference name="Fnd0DM_AllowRenderAllReleasedItemsOrSrcDatasets" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allow render on released Items or Source Datasets. The Source Dataset must be related to the Derived PDF Dataset using  TC_Derived relation.
+Valid Values (case sensitive):
+true:  Allow render on released items or source Datasets.  Will override the Derived PDF Dataset if existed.
+false: This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

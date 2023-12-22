@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_EXPORT_CUSTOM_ATTR_LIST" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Specifies the list of custom attributes for material items and their revisions to include in the matml file to be exported.
+Valid values:
+The internal names of the property preceded by either ITEM: or REV: 
+For example: ITEM:object_desc</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

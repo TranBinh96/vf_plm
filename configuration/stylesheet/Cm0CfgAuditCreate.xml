@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2022 Siemens Digital Industries Software
+================================================================================
+    Copyright 2012.
+    Siemens Product Lifecycle Management Software Inc.
+    All Rights Reserved.
+================================================================================
+Copyright 2022 Siemens Digital Industries Software
+
+    Filename: Cm0CfgAuditCreate.xml
+
+    Default style sheet for displaying Cm0CfgAudit properties. 
+ -->
+
+<rendering>
+  <page title="Configuration Audit Information" titleKey="tc_xrt_ConfigurationAuditInfo">
+         <section titleKey="tc_xrt_properties" title="Properties">
+            <property name="item_id" renderingHint="textfield" />
+            <property name="revision:item_revision_id" renderingHint="textfield" /> 
+            <property name="object_name" renderingHint="textfield" />
+            <property name="object_desc" />
+            <property name="cm0AuditType" />
+            <property name="revision:cm0ProcessDate" />
+            <property name="revision:cm0Comments" />
+         </section>
+   </page>
+</rendering>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Scp0PartDeclRevision summary. -->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="label"/>
+        <property name="object_type"/>
+    </header>
+    <inject type="dataset" src="Scw0ComplianceInfo"/>
+    <inject type="dataset" src="Scw0QueryListTab"/>
+    <inject type="dataset" src="Scw0SubstanceCatTab"/>
+    <inject type="dataset" src="Mtw0CompositionTabForItemRevSummary"/>
+    <inject type="dataset" src="Scw0SmelterTabForPtDecl"/>
+    <page titleKey="tc_supplier_part_Hierarchy" visibleWhen="Scp0BOMSnapshot != null">
+        <inject type="dataset" src="Scw0SupplierPartHierarchy"/>
+    </page>
+    <page titleKey="attachments">
+        <section titleKey="k_subscmpl_declaration_docs" title="Declarations">
+            <objectSet source="scp0DeclarationDocument.Scp0DeclarationRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_name"/>
+                    <property name="object_desc"/>
+                    <property name="object_type"/>
+                    <property name="last_mod_date"/>
+                </tableDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_Documents">
+            <objectSet source="IMAN_specification.DocumentRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

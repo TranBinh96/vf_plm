@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Issue Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IssueManagement_WF_Templates" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of workflow templates that can be applied to IssueReport or its sub class objects. Valid format is a class name followed by an integer and a workflow template name separated by a forward slash. Class name can be IssueReport or Penetration or any sub class names. The integer value represents level recognized by NX penetration or issue tracking.</preference_description>
+      <context name="Teamcenter">
+        <value>IssueReport/0/issue lifecycle</value>
+        <value>PnM0Penetration/2/delete_penetration_wf</value>
+        <value>PnM0Penetration/1/escalated_penetration_wf</value>
+        <value>PnM0Penetration/0/penetration_wf</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

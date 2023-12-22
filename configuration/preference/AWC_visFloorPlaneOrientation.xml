@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_visFloorPlaneOrientation" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default floor plane orientation for the Viewer in the Active Workspace client.
+Valid values are:
+* 0 : XY : Reorients the floor plane to XY
+* 1 : XZ : Reorients the floor plane to XZ. This is the default value.
+* 2 : YZ : Reorients the floor plane to YZ
+* 3 : -XY : Reorients the floor plane to -XY
+* 4 : -XZ : Reorients the floor plane to -XZ
+* 5 : -YZ : Reorients the floor plane to -YZ</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

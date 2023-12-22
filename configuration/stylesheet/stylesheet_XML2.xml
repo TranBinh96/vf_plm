@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering>
+   <page title="General Information" titleKey="tc_xrt_cm_general_information">
+      <section titleKey="tc_xrt_properties">
+         <property name="object_name" renderingHint="textfield" />
+         <property name="object_desc" />
+         <property name="fnd0IdGenerator:vf6_vehicle_type" />
+         <!-- <property name="vf6_initiator" /> -->
+         <property name="vf6_vehicle_group" />
+         <!--  <property name="vf6_model" visibleWhen="vf6_vehicle_group!=Scooter" /> -->
+         <property name="revision:vf6_model_es" visibleWhen="vf6_vehicle_group==Scooter" />
+         <property name="vf6_module_group" />
+         <property name="vf6_impacted_module" />
+         <property name="vf6_effective_proposal" visibleWhen="vf6_vehicle_group!=Scooter"/>
+         <property name="vf6_change_reason" />
+         <!--  <property name="vf6_severity" />
+            <property name="vf6_styling_affected" />
+            <property name="vf6_vehicle_weight_affected" />  -->
+         <property name="vf6_target_release_date" />
+         <property name="revision:vf6_new_parts_status"/>
+         <!--  <property name="revision:vf6_es_classification"/>
+            <property name="revision:vf6_es_priority"/> -->
+         <property name="revision:vf6_es_exchange_newpart"/>
+         <property name="revision:vf6_es_exchange_oldpart"/>
+         <property name="revision:vf6_ecr_category"/>
+         <!--  <property name="revision:vf6_init_edd_cost_delta"/>
+			<property name="revision:vf6_init_piece_cost_delta"/>
+			<property name="revision:vf6_init_scrap_cost"/>
+			<property name="revision:vf6_init_sunk_cost"/>
+			<property name="revision:vf6_init_veh_cost_delta"/> -->
+         <property name="revision:vf6_is_indirectPur_required"/>
+         <property name="revision:vf6_is_htko1_required" />
+         <property name="revision:vf6_is_htko2_required"/>
+         <property name="revision:vf6_is_color_trim_required" renderingHint="label"/>
+         <property name="revision:vf6_is_functional_safety" renderingHint="label"/>
+         <property name="revision:vf6_is_homo_required" renderingHint="label"/>
+         <property name="revision:vf6_is_aftersale_required" renderingHint="label"/>
+         <property name="revision:vf6_is_standard_part" renderingHint="label"/>
+
+
+         <customPanel java="com.teamcenter.rac.cm.wizards.ui.PropsPageRelationshipPanel" js="displayCMCustomePanel"/>
+      </section>
+   </page>
+</rendering>
+

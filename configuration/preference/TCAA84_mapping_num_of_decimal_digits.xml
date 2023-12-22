@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA84_mapping_num_of_decimal_digits" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to define the number of digits after decimal to be used in attribute mapping when converting a Teamcenter attribute of type &quot;Double&quot; to an AutoCAD attribute (always string typed).
+The default value is -1 and it makes double values to be converted preserving all the digits after decimal.
+Note: when the mapped attribute can be edited in both AutoCAD and Teamcenter environment (/master=both) the preference is used to format the number to a string only if it is greater than 6 (6 being the default number of digits used to format a number into a string). The ratio is to avoid losing precision when converting the string back to the double attribute.</preference_description>
+      <context name="Teamcenter">
+        <value>-1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

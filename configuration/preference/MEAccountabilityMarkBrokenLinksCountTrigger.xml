@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAccountabilityMarkBrokenLinksCountTrigger" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the minimum number of broken links that causes an information pane to be displayed by the Mark Broken Links command in the Manufacturing Process Planner application. The pane shows the total number of broken links found by the command.
+Valid Values:
+Accepts a positive integer.</preference_description>
+      <context name="Teamcenter">
+        <value>10</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

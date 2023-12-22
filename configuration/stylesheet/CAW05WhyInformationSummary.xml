@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: CAW05WhyInformationSummary.xml
+     Registers the stylesheet for 5Why Inforamtion Summary in Active Workspace.
+=======================================================================
+-->
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+      <page>        
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_Properties">
+                <property name="object_name" modifiable="false"/>
+                <property name="caw0ProbDefinition" modifiable="true"/>
+                <property name="object_desc" modifiable="true"/>
+                <content visibleWhen="GRMS2P(CAW0Related5Why,CAW0Defect).caw0Context==Capa">
+                    <property name="caw0AnalysisDimension" modifiable="true"/>
+                </content>
+                <content visibleWhen="GRMS2P(CAW0Related5Why,CAW0Defect).caw0Context!=Capa">
+                    <property name="caw0AnalysisDimension" modifiable="false"/>
+                </content>
+                <property name="caw05WhyType" />
+                <property name="caw0ProblemContext" modifiable="false" renderingHint="objectlink" />
+        </section>
+    <break>
+</break>
+    <section titleKey="tc_xrt_Details">
+            <property name="owning_user"/>
+            <property name="creation_date"/>
+            <property name="last_mod_user"/>
+    </section>
+    </page>
+</rendering>

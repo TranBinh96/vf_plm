@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+ ==================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<subRendering>
+    <section titleKey="tc_xrt_GlobalAlternates">
+        <objectSet source="Awp0AlternatesProvider.Item" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending" showDropArea="false">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="object_type"/>
+                <property name="release_status_list"/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            </tableDisplay>
+            <treeDisplay>
+                <property name="object_string"/>
+            </treeDisplay>
+            <listDisplay/>
+            <thumbnailDisplay/>
+            <command actionKey="addAlternate" commandId="ps0AddAlternate"/>
+            <command actionKey="removeAlternate" commandId="ps0RemoveAlternate"/>
+        </objectSet>
+    </section>
+</subRendering>

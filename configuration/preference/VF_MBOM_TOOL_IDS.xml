@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing.SAP MES Interface">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_MBOM_TOOL_IDS" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>All tool IDs</preference_description>
+      <context name="Teamcenter">
+        <value>0001</value>
+        <value>0002</value>
+        <value>0003</value>
+        <value>0004</value>
+        <value>0005</value>
+        <value>0006</value>
+        <value>0007</value>
+        <value>0008</value>
+        <value>0009</value>
+        <value>0010</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

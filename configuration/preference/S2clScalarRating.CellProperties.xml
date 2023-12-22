@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="SocialCollaboration.AWC">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="S2clScalarRating.CellProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the properties and associated values to display for Scalar Rating objects in the object cell in the Social Collaboration application of the Active Workspace client.
+Valid values are property internal names. Multiple comma separated values are permitted.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>s2clForumObject.object_name</value>
+        <value>s2clCommentPlainText</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

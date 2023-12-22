@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="OpenAfterCreatePref" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference controls the initial state of the &quot;Open On Create&quot; checkbox, located on the creation dialog for any new object. The default value is 0.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

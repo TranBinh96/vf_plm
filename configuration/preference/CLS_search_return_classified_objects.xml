@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CLS_search_return_classified_objects" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether Classification searches return Classified objects or simply Classification objects.
+Valid values are:
+* true: In case of non stand-alone Classification objects, classified TC objects are returned. And in case of stand-alone objects, the Classification objects themselves are returned.
+* false: Classification objects are extracted from returned result sets. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

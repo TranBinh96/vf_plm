@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_SESSION_DEFAULT_NUMBER_FORMAT" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains the format to be used by IMM during the Session to display double values</preference_description>
+      <context name="Teamcenter">
+        <value>##0.#####E00</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

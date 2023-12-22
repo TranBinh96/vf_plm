@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_show_in_teamcenter_option" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines which client the &quot;Show in Teamcenter&quot; command should open when  the Teamcenter Integration for CATIA V5 Loader is connected to RACLess application and there is an AW client defined in the client_env file.
+Possible values:
+- AW : Open the selected item in Active Workspace.
+- LOADER: Open the selected item in TcIC Loader
+- DISPLAY : Displays  a panel to select either the Active Workspace or Teamcenter Integration for CATIA Loader to open the selected item in.</preference_description>
+      <context name="Teamcenter">
+        <value>AW</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

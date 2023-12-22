@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_org_export" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the operation type used by the rich client during a &quot;Remote export&quot; operation for Organization objects.
+The value is to be set by the code, and application users are not to manually change it.
+Valid Values:
+* 0: the operation type is set to OBJIO_TC_org_export_reset. This is the default value.
+* 1: the operation type is set to ALL_ROLES_DEFAULT_GROUP
+* 2: the operation type is set to ALL_ROLES_ALL_GROUPS
+* 3: the operation type is set to DEFAULT_GROUP_EXPORT
+* 4: the operation type is set to CUSTOM_GROUP_EXPORT
+* 5: the operation type is set to ROLE_IN_GROUP
+* 6: the operation type is set to SINGLE_ROLE
+* 7: the operation type is set to PERSON
+* 8: the operation type is set to OBJIO_RAC_ORG_EXPORT</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

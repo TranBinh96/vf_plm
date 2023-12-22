@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Gateway Foundation">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="T4X_PropertyListMode4Dataset" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the processing of the properties specified by the #__getAllProperties__# entry in the preference.
+0 - process all properties
+1 - use black-list preference ..Property2IgnoreList4.. (e.g. T4X_Property2IgnoreList4Dataset)
+2 - use white-list preference ..Property2ProcessList4.. (e.g. T4X_Property2ProcessList4Dataset)</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

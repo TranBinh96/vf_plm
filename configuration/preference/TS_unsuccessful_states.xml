@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TS_unsuccessful_states" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies all the unsuccessful states in the dispatcher client.
+Valid Values:
+Unsuccessful state names of the dispatcher client.</preference_description>
+      <context name="Teamcenter">
+        <value>TERMINAL</value>
+        <value>TIMEOUT</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

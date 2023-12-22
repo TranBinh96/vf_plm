@@ -1,0 +1,27 @@
+<subRendering>
+    <page titleKey="tc_xrt_Workflow">
+        <section>
+            <htmlPanel declarativeKey="Awp0WorkflowBreadcrumbPanel"/>
+            <htmlPanel declarativeKey="Awp0TargetCompleteTask"/>
+        </section>
+        <section titleKey ="tc_xrt_CurrentAndCompletedTasks">
+            <objectSet source="Awp0SignoffsProvider.POM_application_object,Awp0SignoffsProvider.EPMTask,Awp0SignoffsProvider.Signoff" defaultdisplay="tableDisplay" maxRowCount="12">
+                <tableDisplay>
+                    <property name="fnd0AliasTaskName" width="300"/>
+                    <property name="fnd0Status" width="130"/>
+                    <property name="fnd0Performer" modifiable="false"/>
+                    <content visibleWhen="{pref:WRKFLW_show_deferred_participant_assignments}==true">
+                        <property name="fnd0AssigneeOrigin" modifiable="false"/>
+                    </content>
+                    <property name="due_date" width="150"/>
+                    <property name="fnd0EndDate" width="150"/>
+                    <property name="comments"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+        <section>
+            <htmlPanel declarativeKey="Awp0FutureTasks"/>
+            <htmlPanel declarativeKey="Awp0WorkflowViewer"/>
+        </section>
+    </page>
+</subRendering>

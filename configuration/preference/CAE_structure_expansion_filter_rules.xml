@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_structure_expansion_filter_rules" type="String" array="true" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Defines all types of structure expansion rules that are available for analysts to perform a CAE BOM comparison.
+Valid Values:
+Array of strings:
+All Levels
+CAE First Level Only
+CAE Leaf Level Only
+CAE All Visible Levels
+CAE Lowest Visible Level Only</preference_description>
+      <context name="Teamcenter">
+        <value>CAE All Levels</value>
+        <value>CAE All Visible Levels</value>
+        <value>CAE First Level Only</value>
+        <value>CAE Leaf Level Only</value>
+        <value>CAE Lowest Visible Level Only</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

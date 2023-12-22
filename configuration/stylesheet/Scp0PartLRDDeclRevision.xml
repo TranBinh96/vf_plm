@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Scp0MaterialLabReport
+
+================================================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+ ================================================================================ -->
+<!--Filename: Scp0MaterialLabReport.xml
+
+Default activeworkspace style sheet for displaying  properties.
+
+-->
+<rendering>
+  <header>
+    <image source="type"/>
+    <property name="owning_user"/>
+    <property name="last_mod_date"/>
+    <property name="release_status_list" renderingHint="label"/>
+    <property name="object_type"/>
+  </header>
+  <page titleKey="tc_xrt_Overview">
+    <section titleKey="tc_xrt_properties">
+      <property name="scp0LabReportID" modifiable="false"/>
+      <property name="scp0LabReportType" modifiable="false"/>
+      <property name="scp0MaterialLabRepDate" modifiable="false"/>
+      <property name="GRM(Scp0UsesMaterialMapping,Scp0MaterialMfgMapping).REF(scp0ReferenceMatRevision,Mat1MaterialRevision).object_name" titleKey = "mtw0_xrt_materialsection" modifiable="false"/>
+      <property name="GRM(Scp0UsesLaboratory,Item).object_name" titleKey = "scw0_xrt_Laboratory" modifiable="false"/>
+      <property name="GRM(Scp0UsesMaterialMapping,Scp0MaterialMfgMapping).REF(scp0ReferenceManufacturer,WorkspaceObject).object_name" titleKey = "scw0_xrt_Manufacturer" modifiable="false"/>
+      <property name="GRM(Scp0UsesSupplier,Item).object_name" titleKey = "scw0_xrt_Submitter" modifiable="false"/>
+    </section>
+  </page>
+  <page titleKey="scw0_xrt_Analyte" >
+    <objectSet source="GRM(Scp0UsesAnalyte,Scp0Analyte)" defaultdisplay="tableDisplay" >
+      <tableDisplay>
+        <property name="scp0AnalyteID" modifiable="false" width="150"/>
+        <property name="scp0AnalyteName" modifiable="false" width="200" />
+        <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0SampleID" modifiable="false" width="150" />
+        <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0LabReportTestMethod" modifiable="false" width="200"/>
+        <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0ReportTestSeq" modifiable="false" width="200"/>
+        <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0SampleAnalysisDate" modifiable="false" width="200"/>
+        <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0LabReportingLimit" modifiable="false" width="200"/>
+        <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0ReportedAmountValue" modifiable="false" width="200"/>
+        <property name="REFBY(scp0ParentAnalyte,Scp0ReportedConcentration).scp0ReportedAmountUOM" modifiable="false" width="200"/>
+      </tableDisplay>
+    </objectSet>
+  </page>
+  <page titleKey="attachments">
+        <section titleKey="k_subscmpl_declaration_docs" title="Declarations">
+            <objectSet source="scp0DeclarationDocument.Scp0DeclarationRevision" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_name"/>
+                    <property name="object_desc"/>
+                    <property name="object_type"/>
+                    <property name="last_mod_date"/>
+                </tableDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_Documents">
+            <objectSet source="IMAN_specification.DocumentRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Briefcase_pkg_file_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the file name format for briefcase packages (named references attached to dataset objects). The format is based on the keywords representing attributes of the object being exported. The format is any combination of one or more of the attributes specified in the following valid values and any text string representing a constant in the file name.
+Valid Values:
+Any text string - The text forms a part of the package file name. Add SPLM as a prefix for the following format:SPLM_00001_A_Site1_31-Sep-2011_19-48-30.bcz
+ItemID - The item ID attribute forms a part of the package file name. Add ItemId as the attribute following the prefix for the following format:BCZ_00001_A_assembly1_31-Sep-2011_19-48-30.bcz
+RevID - The revision ID attribute forms part of the package file name. Add RevID as the second attribute for the following format:BCZ_00001_A_Site1_31-Sep-2011_19-48-30.bcz
+ItemName - The object&apos;s item name forms part of the package file name. Add ItemName as the third attribute for the following format:BCZ_00001_A_assembly1_31-Sep-2011_19-48-30.bcz
+TargetSite - The remote site name forms part of the package file name. Add TargetSite as the third attribute for the following format:BCZ_00001_A_Site1_31-Sep-2011_19-48-30.bcz
+TimeStamp - The time stamp forms part of the package file name. Add TimeStamp as the last attribute for the following format:BCZ_00001_A_assembly1_31-Sep-2011_19-48-30.bcz</preference_description>
+      <context name="Teamcenter">
+        <value>BCZ:ItemId:RevId:TargetSite:TimeStamp</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

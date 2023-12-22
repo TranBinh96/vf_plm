@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_master_datasettypes_for_itemrev" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the dataset types that can be classified, when used in conjunction with the ICS_classifiable_types preference. For example, if Dataset is included as a classifiable type in the ICS_classifiable_types preference and UGMASTER is included as a value for the ICS_master_datasettypes_for_itemrev preference, item/item revision/UGMASTER are considered a set and the following configuration rules apply:If the item is classified, the item revisions and corresponding dataset cannot be classified, but they inherit the classification record from the item.If an item revision is classified, the corresponding dataset and item cannot be classified. Other revisions of the same item can, however, be classified. If the dataset is classified, the corresponding item revision and item cannot be classified. Other revisions and datasets, however, can be classified.
+Valid Values:
+Valid Teamcenter relation.</preference_description>
+      <context name="Teamcenter">
+        <value>UGMASTER</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

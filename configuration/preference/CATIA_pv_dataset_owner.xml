@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_pv_dataset_owner" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specify owner of visualization datasets. 
+Possible values are :  
+- CAD: CAD specifies that the owner of visualization datasets created by DC will be the same as the owner of the corresponding translation source datasets.
+- NONE: specifies that the owner of visualization datasets created by DC will be the current user.
+This property must be specified such that it applies to all Services.</preference_description>
+      <context name="Teamcenter">
+        <value>CAD</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

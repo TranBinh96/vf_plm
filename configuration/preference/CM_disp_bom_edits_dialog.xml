@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_disp_bom_edits_dialog" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether to create a BOM edit when BOM structures associated with change objects are modified directly in Structure Manager application in the rich client, instead of through either the Classic Change or the Change Manager applications.
+Valid Values:
+* ASK: a dialog to be displayed to ask the user to choose whether to create a BOM edit for the change. This is the default value.
+* NO: no dialog to be displayed and no BOM edit will created for the change.
+* YES: no dialog to be displayed and a BOM edit will be created for the change.</preference_description>
+      <context name="Teamcenter">
+        <value>ASK</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

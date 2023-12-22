@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+    Copyright 2013.
+    Siemens Product Lifecycle Management Software Inc.
+    All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+
+    Filename: Sci0NormCreate.xml
+
+    Default style sheet for displaying Sci0Norm properties. 
+ -->
+
+<rendering>
+  <page title="Norm Information" titleKey="tc_xrt_sci0NormInfo">
+         <section titleKey="tc_xrt_properties" title="Properties">
+            <property name="sci0NormInstitute" />
+            <property name="sci0NormCode" />
+         </section>
+   </page>
+</rendering>

@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PLMXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" language="en-us" time="14:32:30" schemaVersion="6" author="Teamcenter V13000.3.1.16_20220920.00 - Admin MPP@VINFAST(-1880356079)" date="2023-12-06">
+  <Header transferContext="workflow_template_mode">
+    <traverseRoots />
+  </Header>
+  <WorkflowTemplate name="CE Review" originalId="y3CApDnE47MsRA" signoffQuorum="-100" parentTaskTemplate="CE Review" objectType="EPMPerformSignoffTaskTemplate" iconKey="performSignoffTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>Select CE Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-task=$PREVIOUS" />
+              <UserValue title="handler_argument" value="-attachment=signoffs" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=48" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-notify">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-recipient=$REVIEWERS" />
+              <UserValue title="handler_argument" value="-subject=[PLM Notification] Chief Engineer Review" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-url=activeworkspace,rich" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Select CE Review" />
+    </UserData>
+    <TaskDescription>
+      <Item value="Review this task and sign-off" />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="CE Review" originalId="i3NApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMReviewTaskTemplate" iconKey="reviewTask" showInProcessStage="true">
+    <SubTemplates>
+      <string>CE Review</string>
+      <string>Select CE Review</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>Or Task CE</string>
+      <string>CE Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=0" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="8">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-demote" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Or Task CE" />
+      <UserValue title="completeDependencyTaskRef" value="4" dataRefStr="CE Review" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="EI Notify" originalId="FiMAp39947MsRA" signoffQuorum="-100" parentTaskTemplate="EI Review" objectType="EPMPerformSignoffTaskTemplate" iconKey="performSignoffTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>Select EI Notify</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2" />
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Select EI Notify" />
+    </UserData>
+    <TaskDescription>
+      <Item value="Signoff team perform their signoffs." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="EI Review" originalId="FWNAp39947MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMReviewTaskTemplate" iconKey="reviewTask" showInProcessStage="true">
+    <SubTemplates>
+      <string>EI Notify</string>
+      <string>Select EI Notify</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>VF SSP Review</string>
+      <string>EI Notify</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=0" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="8">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-demote" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="VF SSP Review" />
+      <UserValue title="completeDependencyTaskRef" value="4" dataRefStr="EI Notify" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Engineer Leader Review" originalId="jYPApDnE47MsRA" signoffQuorum="-100" parentTaskTemplate="Engineer Leader Review" objectType="EPMPerformSignoffTaskTemplate" iconKey="performSignoffTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>Select Engineer Leader Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-task=$PREVIOUS" />
+              <UserValue title="handler_argument" value="-attachment=signoffs" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=48" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-notify">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-recipient=$REVIEWERS" />
+              <UserValue title="handler_argument" value="-subject=[PLM Notification] Engineer Leader Review" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-url=activeworkspace,rich" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Select Engineer Leader Review" />
+    </UserData>
+    <TaskDescription>
+      <Item value="Signoff team perform their signoffs." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Engineer Leader Review" originalId="jQKApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMReviewTaskTemplate" iconKey="reviewTask" showInProcessStage="true">
+    <SubTemplates>
+      <string>Engineer Leader Review</string>
+      <string>Select Engineer Leader Review</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>ENL</string>
+      <string>Engineer Leader Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=0" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="8">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-demote" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="ENL" />
+      <UserValue title="completeDependencyTaskRef" value="4" dataRefStr="Engineer Leader Review" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="ENL" originalId="ibMApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="true">
+    <DependencyTaskTemplates>
+      <string>Re-Route</string>
+      <string>VF_Technical_Doc_Release_Process</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-rule-based-protection">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-acl=DenyWorld" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=Re-Route" />
+                <UserValue title="handler_argument" value="-decision=Engineer Leader" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Re-Route" />
+      <UserValue title="parentDependencyTaskRef" value="202" dataRefStr="VF_Technical_Doc_Release_Process" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="is MFG?" originalId="21JA5Pia47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMConditionTaskTemplate" iconKey="conditionTask" showInProcessStage="true">
+    <DependencyTaskTemplates>
+      <string>MML Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-condition">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-query=__isDFMEA_MFG" />
+              <UserValue title="handler_argument" value="-check_targets=any" />
+              <UserValue title="handler_argument" value="-query_type=target" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="4">
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition" />
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="MML Review" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="isESOM/FMEA" originalId="G6IA5PBW47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMConditionTaskTemplate" iconKey="conditionTask" showInProcessStage="true">
+    <DependencyTaskTemplates>
+      <string>VF SSP Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-condition">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-query=__isSPB_ESOMorDFMEA" />
+              <UserValue title="handler_argument" value="-check_targets=any" />
+              <UserValue title="handler_argument" value="-query_type=target" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="4">
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition" />
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="VF SSP Review" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="ISL" originalId="izMApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>Re-Route</string>
+      <string>Engineer Leader Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=Re-Route" />
+                <UserValue title="handler_argument" value="-decision=VF SSP Review" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Re-Route" />
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Engineer Leader Review" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="isPDFAttached" originalId="UiAA5Lul47MsRA" signoffQuorum="0" parentTaskTemplate="Release" objectType="EPMConditionTaskTemplate" iconKey="conditionTask" showInProcessStage="true">
+    <DependencyTaskTemplates>
+      <string>Release</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-condition">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-query=__isPDFAttached" />
+              <UserValue title="handler_argument" value="-query_type=target" />
+              <UserValue title="handler_argument" value="-check_targets=any" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="4">
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition" />
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="parentDependencyTaskRef" value="202" dataRefStr="Release" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="mfg" originalId="FQHA5Pka47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>is MFG?</string>
+      <string>Re-Route</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=is MFG?" />
+                <UserValue title="handler_argument" value="-decision=true" />
+              </Arguments>
+            </BusinessRuleHandler>
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=Re-Route" />
+                <UserValue title="handler_argument" value="-decision=VF Manufacturing" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="is MFG?" />
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Re-Route" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="MML Review" originalId="DIEApDnE47MsRA" signoffQuorum="-100" parentTaskTemplate="MML Review" objectType="EPMPerformSignoffTaskTemplate" iconKey="performSignoffTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>Select MML</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-task=$PREVIOUS" />
+              <UserValue title="handler_argument" value="-attachment=signoffs" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=48" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-notify">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-recipient=$REVIEWERS" />
+              <UserValue title="handler_argument" value="-subject=[PLM Notification] MML Review" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-url=activeworkspace,rich" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Select MML" />
+    </UserData>
+    <TaskDescription>
+      <Item value="Review this task and sign-off" />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="MML Review" originalId="yLIApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMReviewTaskTemplate" iconKey="reviewTask" showInProcessStage="true">
+    <SubTemplates>
+      <string>MML Review</string>
+      <string>Select MML</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>Or Task MML</string>
+      <string>MML Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=0" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="8">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-demote" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Or Task MML" />
+      <UserValue title="completeDependencyTaskRef" value="4" dataRefStr="MML Review" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="New Or Task 3 1" originalId="qHIA6LnI47MsRA" signoffQuorum="0" parentTaskTemplate="Or Task MML" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false" />
+  <WorkflowTemplate name="New Or Task 3 1" originalId="qTDA6LnI47MsRA" signoffQuorum="0" parentTaskTemplate="TVj" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false" />
+  <WorkflowTemplate name="Notify" originalId="TaAApDnE47MsRA" signoffQuorum="-100" parentTaskTemplate="Notify" objectType="EPMPerformSignoffTaskTemplate" iconKey="performSignoffTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>Select Notify</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2" />
+      <MdlWorkflowAction actionType="4">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="AH-send-mail-notification-workflow-participants">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-subject=[PLM Notification] The document has been released" />
+              <UserValue title="handler_argument" value="-type=VF3_spec_docRevision;VF3_AT_DVPR_docRevision;VF3_VTSS_docRevision;VF3_DTSS_docRevision;VF3_AT_VFTE_DocRevision;VF4_VFFS_docRevision;VF4_AT_DFMEA_docRevision;VF3_AT_ESOM_DocRevision" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-url=activeworkspace,rich" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Select Notify" />
+    </UserData>
+    <TaskDescription>
+      <Item value="Signoff team perform their signoffs." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Notify" originalId="TONApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMAcknowledgeTaskTemplate" iconKey="acknowledgeTask" showInProcessStage="true">
+    <SubTemplates>
+      <string>Notify</string>
+      <string>Select Notify</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>Release</string>
+      <string>Notify</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2" />
+      <MdlWorkflowAction actionType="8">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-demote" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Release" />
+      <UserValue title="completeDependencyTaskRef" value="4" dataRefStr="Notify" />
+    </UserData>
+    <TaskDescription>
+      <Item value="Notify" />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Obsolete to Previous if Required" originalId="U1JA5Lul47MsRA" signoffQuorum="0" parentTaskTemplate="Release" objectType="EPMTaskTemplate" iconKey="task" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>rlj</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-attach-related-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-property=items_tag" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-include_related_type=VF3_spec_doc,VF3_AT_DVPR_doc,VF3_VTSS_doc,VF3_DTSS_doc,VF3_AT_VFTE_Doc,VF4_VFFS_doc,VF4_AT_DFMEA_doc,VF3_AT_ESOM_Doc" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-remove-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-remove_targets=VF3_spec_docRevision,VF3_AT_DVPR_docRevision,VF3_VTSS_docRevision,VF3_DTSS_docRevision,VF3_AT_VFTE_DocRevision,VF4_VFFS_docRevision,VF4_AT_DFMEA_docRevision,VF3_AT_ESOM_DocRevision" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-attach-related-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-property=revision_list" />
+              <UserValue title="handler_argument" value="-include_related_type=VF3_spec_docRevision,VF4_AT_DFMEA_docRevision" />
+              <UserValue title="handler_argument" value="-allowed_status=VF4_VF_Released" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-remove-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-remove_targets=VF3_spec_doc,VF3_AT_DVPR_doc,VF3_VTSS_doc,VF3_DTSS_doc,VF3_AT_VFTE_Doc,VF4_VFFS_doc,VF4_AT_DFMEA_doc,VF3_AT_ESOM_Doc" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="4">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-create-sub-process">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-template=SPB_DVP_StampingAndFlag_Obsolete" />
+              <UserValue title="handler_argument" value="-from_attach=Target" />
+              <UserValue title="handler_argument" value="-to_attach=Target" />
+              <UserValue title="handler_argument" value="-include_type=VF3_spec_docRevision,VF3_AT_DVPR_docRevision,VF3_VTSS_docRevision,VF3_DTSS_docRevision,VF3_AT_VFTE_DocRevision,VF4_VFFS_docRevision,VF4_AT_DFMEA_docRevision,VF3_AT_ESOM_DocRevision" />
+              <UserValue title="handler_argument" value="-multiple_processes" />
+              <UserValue title="handler_argument" value="-process_name=SPB_DVP_StampingAndFlag_Obsolete_$TARGET" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-remove-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-remove_targets=VF3_spec_docRevision,VF3_AT_DVPR_docRevision,VF3_VTSS_docRevision,VF3_DTSS_docRevision,VF3_AT_VFTE_DocRevision,VF4_VFFS_docRevision,VF4_AT_DFMEA_docRevision,VF3_AT_ESOM_DocRevision" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-move-attached-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-from_attach=reference" />
+              <UserValue title="handler_argument" value="-to_attach=target" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="rlj" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Or End Task" originalId="piOA6jfB47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>Rejected</string>
+      <string>Notify</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2" />
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Rejected" />
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Notify" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Or Task CE" originalId="ybLApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>Re-Route</string>
+      <string>Wait</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=Re-Route" />
+                <UserValue title="handler_argument" value="-decision=CE" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Re-Route" />
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Wait" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Or Task MML" originalId="a$JA6LnI47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false">
+    <SubTemplates>
+      <string>New Or Task 3 1</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>VF SSP Review</string>
+      <string>Re-Route</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=Re-Route" />
+                <UserValue title="handler_argument" value="-decision=MML" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="VF SSP Review" />
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Re-Route" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Rejected" originalId="6vCA6LnI47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMAddStatusTaskTemplate" iconKey="addStatusTask" showInProcessStage="true">
+    <DependencyTaskTemplates>
+      <string>Re-Route</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-create-status">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-status=Rejected" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="-1">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=Re-Route" />
+                <UserValue title="handler_argument" value="-decision=Reject" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="4">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-status">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-action=append" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="AH-send-mail-notification-workflow-participants">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-subject=[PLM Notification] The document has been rejected" />
+              <UserValue title="handler_argument" value="-type=VF3_spec_docRevision;VF3_AT_DVPR_docRevision;VF3_VTSS_docRevision;VF3_DTSS_docRevision;VF3_AT_VFTE_DocRevision;VF4_VFFS_docRevision,VF4_AT_DFMEA_docRevision,VF3_AT_ESOM_DocRevision" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-status=Rejected" />
+              <UserValue title="handler_argument" value="-url=activeworkspace,rich" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Re-Route" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Release" originalId="UtAA5Lul47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMTaskTemplate" iconKey="task" showInProcessStage="false">
+    <SubTemplates>
+      <string>isPDFAttached</string>
+      <string>Obsolete to Previous if Required</string>
+      <string>rlj</string>
+      <string>Stamp PDF</string>
+      <string>VF4_VF_Released to Current Rev</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>CE Review</string>
+      <string>VF4_VF_Released to Current Rev</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-move-attached-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-from_attach=target" />
+              <UserValue title="handler_argument" value="-to_attach=reference" />
+              <UserValue title="handler_argument" value="-copy" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-attach-related-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-relation=IMAN_specification" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-allowed_status=null" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-attach-related-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-relation=IMAN_reference" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-allowed_status=null" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="CE Review" />
+      <UserValue title="completeDependencyTaskRef" value="4" dataRefStr="VF4_VF_Released to Current Rev" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Re-Route" originalId="inBApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMConditionTaskTemplate" iconKey="conditionTask" showInProcessStage="true">
+    <DependencyTaskTemplates>
+      <string>Reroute Join</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=24" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-set-rule-based-protection">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-acl=Assign_access_to_participants" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="4">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-move-attached-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-from_attach=reference" />
+              <UserValue title="handler_argument" value="-to_attach=target" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-attach-related-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-relation=IMAN_specification" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="AH-send-mail-notification-workflow-participants">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-subject=[PLM Notification] Rerouted" />
+              <UserValue title="handler_argument" value="-type=VF3_spec_docRevision;VF3_AT_DVPR_docRevision;VF3_VTSS_docRevision;VF3_DTSS_docRevision;VF3_AT_VFTE_DocRevision;VF4_VFFS_docRevision,VF4_AT_DFMEA_docRevision,VF3_AT_ESOM_DocRevision" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-status=Rerouted" />
+              <UserValue title="handler_argument" value="-url=activeworkspace,rich" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition" />
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Reroute Join" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Reroute Join" originalId="i$BApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>MML Review</string>
+      <string>CE Review</string>
+      <string>Engineer Leader Review</string>
+      <string>T&amp;V/GD&amp;T/VTS Review</string>
+      <string>VF SSP Review</string>
+      <string>VF Manufacturing</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="AH-send-mail-notification-workflow-participants">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-subject=[PLM Notification] The document has been Rejected" />
+              <UserValue title="handler_argument" value="-type=VF3_spec_docRevision;VF3_AT_DVPR_docRevision;VF3_VTSS_docRevision;VF3_DTSS_docRevision;VF3_AT_VFTE_DocRevision;VF4_VFFS_docRevision;VF4_AT_DFMEA_docRevision;VF3_AT_ESOM_DocRevision" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-status=Rejected" />
+              <UserValue title="handler_argument" value="-url=activeworkspace,rich" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-remove-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-keep_targets=VF3_spec_docRevision,VF3_AT_DVPR_docRevision,VF3_VTSS_docRevision,VF3_DTSS_docRevision,VF3_AT_VFTE_DocRevision,VF4_VFFS_docRevision,VF4_AT_DFMEA_docRevision,VF3_AT_ESOM_DocRevision" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="5">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=Engineer Leader Review" />
+                <UserValue title="handler_argument" value="-decision=Rejected" />
+              </Arguments>
+            </BusinessRuleHandler>
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=VF SSP Review" />
+                <UserValue title="handler_argument" value="-decision=Rejected" />
+              </Arguments>
+            </BusinessRuleHandler>
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=MML Review" />
+                <UserValue title="handler_argument" value="-decision=Rejected" />
+              </Arguments>
+            </BusinessRuleHandler>
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=T&amp;V/GD&amp;T/VTS Review" />
+                <UserValue title="handler_argument" value="-decision=Rejected" />
+              </Arguments>
+            </BusinessRuleHandler>
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=VF Manufacturing Review" />
+                <UserValue title="handler_argument" value="-decision=Rejected" />
+              </Arguments>
+            </BusinessRuleHandler>
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=CE Review" />
+                <UserValue title="handler_argument" value="-decision=Rejected" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="failDependencyTaskRef" value="10" dataRefStr="MML Review" />
+      <UserValue title="failDependencyTaskRef" value="10" dataRefStr="CE Review" />
+      <UserValue title="failDependencyTaskRef" value="10" dataRefStr="Engineer Leader Review" />
+      <UserValue title="failDependencyTaskRef" value="10" dataRefStr="T&amp;V/GD&amp;T/VTS Review" />
+      <UserValue title="failDependencyTaskRef" value="10" dataRefStr="VF SSP Review" />
+      <UserValue title="failDependencyTaskRef" value="10" dataRefStr="VF Manufacturing" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="rlj" originalId="UWHA5Lul47MsRA" signoffQuorum="0" parentTaskTemplate="Release" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>isPDFAttached</string>
+      <string>Stamp PDF</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=isPDFAttached" />
+                <UserValue title="handler_argument" value="-decision=false" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="isPDFAttached" />
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Stamp PDF" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Select CE Review" originalId="yvPApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="CE Review" objectType="EPMSelectSignoffTaskTemplate" iconKey="selectSignoffTask" showInProcessStage="false">
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit" />
+          <MdlWorkflowHandler name="EPM-adhoc-signoffs" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <TaskDescription>
+      <Item value="Choose signoff team." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Select EI Notify" originalId="FeFAp39947MsRA" signoffQuorum="0" parentTaskTemplate="EI Review" objectType="EPMSelectSignoffTaskTemplate" iconKey="selectSignoffTask" showInProcessStage="false">
+    <TaskDescription>
+      <Item value="Choose signoff team." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Select Engineer Leader Review" originalId="jUMApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="Engineer Leader Review" objectType="EPMSelectSignoffTaskTemplate" iconKey="selectSignoffTask" showInProcessStage="false">
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit" />
+          <MdlWorkflowHandler name="EPM-adhoc-signoffs" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <TaskDescription>
+      <Item value="Choose signoff team." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Select MML" originalId="DEBApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="MML Review" objectType="EPMSelectSignoffTaskTemplate" iconKey="selectSignoffTask" showInProcessStage="false">
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit" />
+          <MdlWorkflowHandler name="EPM-adhoc-signoffs" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <TaskDescription>
+      <Item value="Choose signoff team." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Select Notify" originalId="TSMApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="Notify" objectType="EPMSelectSignoffTaskTemplate" iconKey="selectSignoffTask" showInProcessStage="false">
+    <TaskDescription>
+      <Item value="Choose signoff team." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Select T&amp;V/GD&amp;T/VTS Review" originalId="zMNApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="T&amp;V/GD&amp;T/VTS Review" objectType="EPMSelectSignoffTaskTemplate" iconKey="selectSignoffTask" showInProcessStage="false">
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit" />
+          <MdlWorkflowHandler name="EPM-adhoc-signoffs" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <TaskDescription>
+      <Item value="Choose signoff team." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Select VF SSP Review" originalId="jCHApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF SSP Review" objectType="EPMSelectSignoffTaskTemplate" iconKey="selectSignoffTask" showInProcessStage="false">
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit" />
+          <MdlWorkflowHandler name="EPM-adhoc-signoffs" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <TaskDescription>
+      <Item value="Choose signoff team." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="select-signoff-team" originalId="GOCA5Pia47MsRA" signoffQuorum="0" parentTaskTemplate="VF Manufacturing" objectType="EPMSelectSignoffTaskTemplate" iconKey="selectSignoffTask" showInProcessStage="false">
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit" />
+          <MdlWorkflowHandler name="EPM-adhoc-signoffs" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <TaskDescription>
+      <Item value="Choose signoff team." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Stamp PDF" originalId="E_KA5Lul47MsRA" signoffQuorum="0" parentTaskTemplate="Release" objectType="EPMTaskTemplate" iconKey="task" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>isPDFAttached</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-move-attached-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-from_attach=target" />
+              <UserValue title="handler_argument" value="-to_attach=reference" />
+              <UserValue title="handler_argument" value="-exclude_type=PDF" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="-1">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=isPDFAttached" />
+                <UserValue title="handler_argument" value="-decision=true" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="4">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="DOCMGTAPP-apply-pdf-control" />
+          <MdlWorkflowHandler name="EPM-move-attached-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-from_attach=reference" />
+              <UserValue title="handler_argument" value="-to_attach=target" />
+              <UserValue title="handler_argument" value="-copy" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="isPDFAttached" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="T&amp;V/GD&amp;T/VTS Review" originalId="zQNApDnE47MsRA" signoffQuorum="-100" parentTaskTemplate="T&amp;V/GD&amp;T/VTS Review" objectType="EPMPerformSignoffTaskTemplate" iconKey="performSignoffTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>Select T&amp;V/GD&amp;T/VTS Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-task=$PREVIOUS" />
+              <UserValue title="handler_argument" value="-attachment=signoffs" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=48" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-notify">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-recipient=$REVIEWERS" />
+              <UserValue title="handler_argument" value="-subject=[PLM Notification] T&amp;V/GD&amp;T/VTS Review" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-url=activeworkspace,rich" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Select T&amp;V/GD&amp;T/VTS Review" />
+    </UserData>
+    <TaskDescription>
+      <Item value="Signoff team perform their signoffs." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="T&amp;V/GD&amp;T/VTS Review" originalId="zIOApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMReviewTaskTemplate" iconKey="reviewTask" showInProcessStage="true">
+    <SubTemplates>
+      <string>Select T&amp;V/GD&amp;T/VTS Review</string>
+      <string>T&amp;V/GD&amp;T/VTS Review</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>TVj</string>
+      <string>T&amp;V/GD&amp;T/VTS Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=0" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="8">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-demote" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="TVj" />
+      <UserValue title="completeDependencyTaskRef" value="4" dataRefStr="T&amp;V/GD&amp;T/VTS Review" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="tvEj" originalId="GyAA5PBW47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>T&amp;V/GD&amp;T/VTS Review</string>
+      <string>isESOM/FMEA</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=isESOM/FMEA" />
+                <UserValue title="handler_argument" value="-decision=true" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="T&amp;V/GD&amp;T/VTS Review" />
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="isESOM/FMEA" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="TVj" originalId="qPJA6LnI47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false">
+    <SubTemplates>
+      <string>New Or Task 3 1</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>Re-Route</string>
+      <string>isESOM/FMEA</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=Re-Route" />
+                <UserValue title="handler_argument" value="-decision=T&amp;V/GD&amp;T/VTS" />
+              </Arguments>
+            </BusinessRuleHandler>
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=isESOM/FMEA" />
+                <UserValue title="handler_argument" value="-decision=false" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Re-Route" />
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="isESOM/FMEA" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="VF Manufacturing" originalId="GSMA5Pia47MsRA" signoffQuorum="-100" parentTaskTemplate="VF Manufacturing" objectType="EPMPerformSignoffTaskTemplate" iconKey="performSignoffTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>select-signoff-team</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-task=$PREVIOUS" />
+              <UserValue title="handler_argument" value="-attachment=signoffs" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=24" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-notify">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-recipient=$REVIEWERS" />
+              <UserValue title="handler_argument" value="-subject=[PLM Notification] VF Manufacturing" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="select-signoff-team" />
+    </UserData>
+    <TaskDescription>
+      <Item value="Review this task and sign-off" />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="VF Manufacturing" originalId="GGJA5Pia47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMReviewTaskTemplate" iconKey="reviewTask" showInProcessStage="true">
+    <SubTemplates>
+      <string>select-signoff-team</string>
+      <string>VF Manufacturing</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>mfg</string>
+      <string>VF Manufacturing</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2" />
+      <MdlWorkflowAction actionType="8">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-demote" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="mfg" />
+      <UserValue title="completeDependencyTaskRef" value="4" dataRefStr="VF Manufacturing" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="VF SSP Review" originalId="jGHApDnE47MsRA" signoffQuorum="-100" parentTaskTemplate="VF SSP Review" objectType="EPMPerformSignoffTaskTemplate" iconKey="performSignoffTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>Select VF SSP Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-inherit">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-task=$PREVIOUS" />
+              <UserValue title="handler_argument" value="-attachment=signoffs" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=48" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-notify">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-recipient=$REVIEWERS" />
+              <UserValue title="handler_argument" value="-subject=[PLM Notification] VF SSP Review" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+              <UserValue title="handler_argument" value="-url=activeworkspace,rich" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Select VF SSP Review" />
+    </UserData>
+    <TaskDescription>
+      <Item value="Signoff team perform their signoffs." />
+    </TaskDescription>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="VF SSP Review" originalId="T_IApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMReviewTaskTemplate" iconKey="reviewTask" showInProcessStage="true">
+    <SubTemplates>
+      <string>Select VF SSP Review</string>
+      <string>VF SSP Review</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>ISL</string>
+      <string>VF SSP Review</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-duration">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-year=0" />
+              <UserValue title="handler_argument" value="-week=0" />
+              <UserValue title="handler_argument" value="-day=0" />
+              <UserValue title="handler_argument" value="-hour=0" />
+              <UserValue title="handler_argument" value="-minute=0" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="8">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-demote" />
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="ISL" />
+      <UserValue title="completeDependencyTaskRef" value="4" dataRefStr="VF SSP Review" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="VF_Technical_Doc_Release_Process" originalId="iTLApDnE47MsRA" signoffQuorum="0" parentTaskTemplate="" objectType="EPMTaskTemplate" iconKey="process" showInProcessStage="true" templateClassification="process">
+    <SubTemplates>
+      <string>CE Review</string>
+      <string>EI Review</string>
+      <string>Engineer Leader Review</string>
+      <string>ENL</string>
+      <string>is MFG?</string>
+      <string>isESOM/FMEA</string>
+      <string>ISL</string>
+      <string>mfg</string>
+      <string>MML Review</string>
+      <string>Notify</string>
+      <string>Or End Task</string>
+      <string>Or Task CE</string>
+      <string>Or Task MML</string>
+      <string>Rejected</string>
+      <string>Release</string>
+      <string>Re-Route</string>
+      <string>Reroute Join</string>
+      <string>T&amp;V/GD&amp;T/VTS Review</string>
+      <string>tvEj</string>
+      <string>TVj</string>
+      <string>VF Manufacturing</string>
+      <string>VF SSP Review</string>
+      <string>vfmj</string>
+      <string>Wait</string>
+    </SubTemplates>
+    <DependencyTaskTemplates>
+      <string>Or End Task</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-assign-team-selector">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-assignee=$PROCESS_OWNER" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-attach-related-objects">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-relation=IMAN_specification" />
+              <UserValue title="handler_argument" value="-attachment=target" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-set-rule-based-protection">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-acl=DenyWorld" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-validate-target-objects">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-include_type=VF3_spec_docRevision,VF3_AT_DVPR_docRevision,VF3_VTSS_docRevision,VF3_DTSS_docRevision,VF3_AT_VFTE_DocRevision,VF4_VFFS_docRevision,VF4_AT_DFMEA_docRevision,VF3_AT_ESOM_DocRevision" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="RH-check-workflow-process-status">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-template=VF_Technical_Doc_Release_Process" />
+                <UserValue title="handler_argument" value="-type=VF3_spec_docRevision,VF3_AT_DVPR_docRevision,VF3_VTSS_docRevision,VF3_DTSS_docRevision,VF3_AT_VFTE_DocRevision,VF4_VFFS_docRevision,VF4_AT_DFMEA_docRevision,VF3_AT_ESOM_DocRevision" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="completeDependencyTaskRef" value="4" dataRefStr="Or End Task" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="VF4_VF_Released to Current Rev" originalId="UKNA5Lul47MsRA" signoffQuorum="0" parentTaskTemplate="Release" objectType="EPMAddStatusTaskTemplate" iconKey="addStatusTask" showInProcessStage="true">
+    <DependencyTaskTemplates>
+      <string>Obsolete to Previous if Required</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-rule-based-protection">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-acl=Release ACL" />
+            </Arguments>
+          </MdlWorkflowHandler>
+          <MdlWorkflowHandler name="EPM-create-status">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-status=VF4_VF_Released" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+      <MdlWorkflowAction actionType="4">
+        <ActionHandlers>
+          <MdlWorkflowHandler name="EPM-set-status">
+            <Arguments type="string">
+              <UserValue title="handler_argument" value="-action=replace" />
+            </Arguments>
+          </MdlWorkflowHandler>
+        </ActionHandlers>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="Obsolete to Previous if Required" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="vfmj" originalId="WTPA5PBW47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMOrTaskTemplate" iconKey="orTask" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>is MFG?</string>
+      <string>VF Manufacturing</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2">
+        <Rules>
+          <MdlWorkflowBusinessRule ruleQuorum="1">
+            <BusinessRuleHandler name="EPM-check-condition">
+              <Arguments type="string">
+                <UserValue title="handler_argument" value="-source_task=is MFG?" />
+                <UserValue title="handler_argument" value="-decision=false" />
+              </Arguments>
+            </BusinessRuleHandler>
+          </MdlWorkflowBusinessRule>
+        </Rules>
+      </MdlWorkflowAction>
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="is MFG?" />
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="VF Manufacturing" />
+    </UserData>
+  </WorkflowTemplate>
+  <WorkflowTemplate name="Wait" originalId="GaFAuCgv47MsRA" signoffQuorum="0" parentTaskTemplate="VF_Technical_Doc_Release_Process" objectType="EPMTaskTemplate" iconKey="task" showInProcessStage="false">
+    <DependencyTaskTemplates>
+      <string>EI Review</string>
+      <string>tvEj</string>
+      <string>vfmj</string>
+    </DependencyTaskTemplates>
+    <Actions>
+      <MdlWorkflowAction actionType="2" />
+    </Actions>
+    <UserData type="reference">
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="EI Review" />
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="tvEj" />
+      <UserValue title="startDependencyTaskRef" value="2" dataRefStr="vfmj" />
+    </UserData>
+  </WorkflowTemplate>
+</PLMXML>

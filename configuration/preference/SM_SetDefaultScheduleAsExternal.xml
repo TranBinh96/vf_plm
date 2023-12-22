@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_SetDefaultScheduleAsExternal" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Manages the ownership of validation in a schedule.
+Valid Values:
+* true: Validation ownership is managed by an external application.
+* false: Validation ownership by the Schedule Manager application. This is the default value.
+If the preference does not have any value, validation ownership falls on the Schedule Manager. System throws an error if the preference value is set to anything other than true or false.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

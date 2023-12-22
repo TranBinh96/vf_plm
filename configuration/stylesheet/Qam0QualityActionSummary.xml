@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ========================================================================================
+//     Filename: Qam0QualityActionSummary.xml
+//     Registers the stylesheet for summary of Quality Action(Qam0QualityAction) objects in Active Workspace.
+// ========================================================================================
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Quality Action. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="fnd0ResponsibleUser"/>
+        <property name="qam0DueDate"/>
+        <property name="qam0QualityActionStatus" modifiable="false"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" >
+         <section>        
+           <column width="25%">
+             <section titleKey="tc_xrt_Action">
+                    <property name="fnd0ActionItemId" modifiable="false"/>
+                    <property name="object_name"/>
+                    <property name="object_desc"/>
+                    <break/>
+                    <property name="qam0DueDate"/>
+                    <break/>
+                   <htmlPanel declarativeKey="Qam0QualityAction"/>
+            </section>
+        </column>
+        <column width="25%">
+            <section titleKey="tc_xrt_ActionSetting">
+                   <property name="qam0ConfirmationRequired"/>
+                   <property name="qam0FeedbackAtCompletion"/>
+                   <property name="qam0AutocompleteByDependent"/>
+                   <break/>
+                   <break/>
+                   <break/>
+            </section>
+            <section titleKey="tc_xrt_Targets">
+                      <objectSet source="qam0Targets.WorkspaceObject" defaultdisplay="listDisplay" maxRowCount="16">
+                      <tableDisplay>
+                       <property name="object_string"/>
+                       <property name="object_type"/>
+                       <property name="release_status_list"/>
+                      </tableDisplay>
+                      <thumbnailDisplay/>
+                      <listDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="release_status_list"/>
+                      </listDisplay>
+                    <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton" />
+                    <command commandId="Qam0AddTargetToQualityAction"/>
+                    <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                    </command>
+                </objectSet>
+            </section>
+         </column>
+         <column width="50%">
+            <section titleKey="tc_xrt_Properties">
+                 <property name="qam0QualityActionType"/>
+                 <property name="qam0QualityActionSubtype"/>
+                 <property name="qam0QualityActionStatus" modifiable="false"/>
+                 <property name="owning_user"/>
+                 <property name="creation_date" modifiable="false"/>
+                 <property name="last_mod_user" modifiable="false"/>
+                 <property name="last_mod_date" modifiable="false"/>
+                 <property name="qam0ActivationDate" modifiable="false"/>
+                 <break/>
+                 <property name="fnd0ResponsibleUser" modifiable="false"/>
+                 <property name="qam0AssignmentDate" modifiable="false"/>
+                 <break/>
+                 <property name="qam0ConfirmedBy" modifiable="false"/>
+                 <property name="qam0ConfirmationDate" modifiable="false"/>
+                 <break/>
+                <property name="qam0CompletedBy" modifiable="false"/>
+                <property name="qam0CompletionDate" modifiable="false"/>
+            </section>
+        </column>
+      </section>
+     <section>        
+         <column width="100%">
+           <section titleKey="tc_xrt_DepedentQualityActions">
+        <objectSet source="qam0DependentQualityActions.Qam0QualityAction" defaultdisplay="tableDisplay" maxRowCount="16">
+            <tableDisplay>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="fnd0ResponsibleUser" modifiable="false"/>
+                <property name="qam0DueDate"/>
+                <property name="qam0QualityActionStatus" modifiable="false"/> 
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <listDisplay>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="fnd0ResponsibleUser" modifiable="false"/>
+                <property name="qam0DueDate"/>
+                <property name="qam0QualityActionStatus" modifiable="false"/> 
+            </listDisplay>
+            <command commandId="Qam0AddQualityAction"/>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+          </objectSet>
+       </section>
+      </column>
+     </section>
+  </page>
+  <page titleKey="tc_xrt_Attachments">
+    <section>
+        <objectSet source="Qam0QualityActionAttachment.Dataset,Qam0QualityActionAttachment.ItemRevision" defaultdisplay="tableDisplay" maxRowCount="16">
+            <tableDisplay>
+                <property name="object_name"/>
+                <property name="object_type"/>
+                <property name="release_status_list"/>
+                <property name="date_released"/>
+                <property name="owning_user"/> 
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <listDisplay>
+                <property name="object_name"/>
+                <property name="object_type"/>
+                <property name="release_status_list"/>
+                <property name="date_released"/>
+                <property name="owning_user"/> 
+            </listDisplay>
+            <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ShowAddObject" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </section>
+  </page>
+  <page titleKey="tc_xrt_AuditLogs" visibleWhen="{pref:TC_audit_manager_version}==3 and {pref:AWC_show_audit_logs}==true">
+           <inject type="dataset" src="GeneralAuditLogs"/><break/>
+  </page>
+ </rendering>

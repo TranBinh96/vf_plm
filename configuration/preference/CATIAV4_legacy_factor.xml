@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIAV4_legacy_factor" type="Double" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>matrixes multiplicative factor between a V4 assembly and a V5 assembly 
+(The legacy_factor corresponds to the number of meters in CATIA V4 units)</preference_description>
+      <context name="Teamcenter">
+        <value>0.001</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

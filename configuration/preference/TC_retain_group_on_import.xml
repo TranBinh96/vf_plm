@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_retain_group_on_import" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines group ownership of the import. When importing an object to a site where the original object&apos;s user and group are not defined, the replicated object&apos;s owning group is defined as the importing user&apos;s group.To preserve the replica&apos;s group ownership even when the original owning user is not defined locally (but the group is defined locally) set to TRUE.
+Valid Values:
+TRUE - Retains group ownership of the import when the owning group of the original object is define locally.
+FALSE - General rules of replica ownership applies.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

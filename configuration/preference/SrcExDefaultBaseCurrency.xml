@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SrcExDefaultBaseCurrency" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default value of base currency for Direct Material Sourcing Exchange.
+Valid value is any value from the LOV &quot;CostCurrency&quot;. The default value is &quot;USD&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>USD</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_subscriptionmgrd_sleep_minutes" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>TC_subscriptionmgrd_sleep_minutes is set to the sleep time of the subscription manager daemon. Default is 10 mins.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

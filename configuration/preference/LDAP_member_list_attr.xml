@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_member_list_attr" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the LDAP group object attribute that contains the list of member distinguished names (DN) for the object. This preference applies to objects representing either groups or roles defined in LDAP.
+Use this preference only if the LDAP_member_type_attr preference is set.
+Valid values:
+Accepts a single string as a value.</preference_description>
+      <context name="Teamcenter">
+        <value>uniqueMember</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

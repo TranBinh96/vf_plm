@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAllocationLevel" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the type of process area that can have an operation or process allocation. If no type is defined, there is no limitation on the operation allocation.
+Valid Values:
+Accepts one or more strings as values. Each string must be a persistent item subclass, for example:
+Mfg0MEProcLine 
+The subclass types are not inherited. You must add each new subclass to the preference individually.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

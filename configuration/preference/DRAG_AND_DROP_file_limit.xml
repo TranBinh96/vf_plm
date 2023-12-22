@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DRAG_AND_DROP_file_limit" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>A single-value preference that contains the limit of the files count that can be dropped. The value should be greater than 1.</preference_description>
+      <context name="Teamcenter">
+        <value>10</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

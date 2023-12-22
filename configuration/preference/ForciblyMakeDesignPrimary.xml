@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ForciblyMakeDesignPrimary" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Bypasses the write permission on Part Revisions for creating TC_Primary_Design_Representation relations between Part Revisions and Design Revisions.
+The default value is false.
+Please note that this preference applies only when PS-make-mature-design-primary handler is used to make a Design Revision primary through a Workflow Process.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

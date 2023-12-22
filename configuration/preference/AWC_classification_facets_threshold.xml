@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification.Administration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_classification_facets_threshold" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the maximum number of classification facets to be shown in filter panel.
+Valid values should be between 1 and the maximum number of classification facets in the system.
+The default value is &quot;200&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>200</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

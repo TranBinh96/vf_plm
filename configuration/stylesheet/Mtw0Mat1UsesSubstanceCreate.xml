@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+===============================================================================
+Filename: Mtw0Mat1UsesSubstanceCreate.xml
+Default activeworkspace style sheet rendering for Mat1UsesSubstance creation.
+-->
+<rendering>
+    <page>
+        <section>
+            <property name="mat1composition_in_range" /> 
+            <property name="mat1composition" />
+            <property name="mat1max_composition"/>
+        </section>
+    </page>
+</rendering>

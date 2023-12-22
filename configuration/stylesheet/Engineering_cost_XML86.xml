@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Engineering_cost.xml
+
+    Style sheet rendering for Form properties.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General" >
+		<property name="vf6_feasibility_confirmed_e"/>
+		<property name="vf6_lead_time_e"/>
+		<property name="vf6_engineering_remarks"/>
+		<property name="vf6_engineering_costs"/>
+		
+		
+		
+		
+		
+		<label text= "NOTE: PLEASE ENTER ALL COSTS IN USD"/>
+    </page>
+	
+
+</rendering>

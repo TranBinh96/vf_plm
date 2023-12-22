@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.CAD BOM Alignment">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSM_enable_PLMXML_Assembly" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the generation of PLMXML assembly file, when design assembly published with shape option in the Multi Structure Manager and MPP application. 
+The default value is true which will enable the PLMXML assembly generation and attach it to Part revision with rendering relation.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

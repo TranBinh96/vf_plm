@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DISPATCHER_CLIENT_INSTALLED" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if Dispatcher is installed. This preference is used by applications to find if Dispatcher services are installed. The system sets this preference during a Teamcenter Environment Manager installation.
+Valid Values:
+TRUE - Specifies that Dispatcher Client has been installed.
+FALSE - Dispatcher Client not installed.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

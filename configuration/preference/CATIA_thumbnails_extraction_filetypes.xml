@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_thumbnails_extraction_filetypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Extensions list compatible with thumbnails extraction</preference_description>
+      <context name="Teamcenter">
+        <value>CATPart</value>
+        <value>CATProduct</value>
+        <value>CATDrawing</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

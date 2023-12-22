@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="SocialCollaboration.AWC">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="S2clCommentary.TrendingPeriod" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the number of days (trending period) for which Trending data needs to be retrieved in the Social Collaboration application of the Active Workspace client. 
+The &quot;Fetch Trending Data&quot; service uses the system date minus the trending period to retrieve socially active objects.</preference_description>
+      <context name="Teamcenter">
+        <value>60</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

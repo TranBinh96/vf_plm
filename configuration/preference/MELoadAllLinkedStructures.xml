@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MELoadAllLinkedStructures" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables auto-loading of all the linked product structures and plant structures to a Bill of Process or Plant Bill of Process. 
+Valid Values:
+true : it auto-loads all the linked product structures and plant structures to a Bill of Process or Plant Bill of Process.
+false: behavior will be based on preference &quot;MSE_load_related_product_process_plant&quot;.
+Note: It would work, if the preference &quot;MSE_load_related_product_process_plant&quot; is set to &quot;true&quot;</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

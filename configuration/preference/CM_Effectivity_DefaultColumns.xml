@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_Effectivity_DefaultColumns" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls the columns that can be displayed for Effectivity objects.
+Valid Values:
+Accepts one or more strings as values; each string must be a property of the Effectivity object.</preference_description>
+      <context name="Teamcenter">
+        <value>release_status</value>
+        <value>effectivity_id</value>
+        <value>range_text</value>
+        <value>end_item</value>
+        <value>effectivity_protection</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextProcess.WorkPartOrChangeAttachmentTypes" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies a list of properties for finding workflow processes related to a workflow process or engineering change being added to the RDV context. If the workflow process is related to the work part or engineering change via one of the listed references, and it is not yet complete, it is automatically added to the RDV context. Workflow processes and their work part or engineering change objects can be automatically added using this preference.
+Valid Values:
+1 - EPM_target_attachment
+3 - EPM_reference_attachment
+4 - EPM_signoff_attachment
+5 - EPM_release_status_attachment
+6 - EPM_comment_attachment
+7 - EPM_instruction_attachment
+1000 - EPM_user_attachment</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+        <value>3</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

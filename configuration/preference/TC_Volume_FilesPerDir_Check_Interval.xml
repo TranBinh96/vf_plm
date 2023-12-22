@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Maintenance.File Caching">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Volume_FilesPerDir_Check_Interval" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the interval (in seconds) at which the volume subdirectory should be checked for its maximum file limit.
+This option is only valid when the preference  TC_Volume_Max_Files_Per_Dir is set to a value greater than 0.
+Very low values can affect the performance of the system.
+High values can affect the accuracy of TC_Volume_Max_Files_Per_Dir, so new sub-directories could get created much later than when the file limit has been reached.</preference_description>
+      <context name="Teamcenter">
+        <value>600</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

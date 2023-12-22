@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA103_FMS_UTF8_support" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to enable UTF-8 encoding support for current Teamcenter File Management System.
+Possible values:
+0 - FMS implementation uses active code page for character encoding (Default).
+1 - Activate FMS implementation supporting UTF-8 encoding. 
+This option can be turned on only if FMS version is at least 10.1 and only if working with a Unicode database.
+When this option is turned on, TCAA allows filenames to contain any character. 
+On the contrary, by default, TCAA prevents the user from saving in Teamcenter files whose name contains characters not valid in the current client active code page (that needs to be compatible with the server character set). See TCAA Installation Guide for details.
+In order to manage specific needs when working in configurations with mixed FMS versions (e.g. multisite or migration scenarios) it is possible to locally overwrite this site preference by setting an environment variable called TCAA103_FMS_UTF8_support on TCAA client side.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

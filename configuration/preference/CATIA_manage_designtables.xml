@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_manage_designtables" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines how Design Tables are managed.
+- Design Tables are managed in all processes (TRUE)
+- Design Tables are not managed in any processes (FALSE)
+- Design Tables are only managed during the Load, Export, Export Spreadsheet processes and not in the Save, Import, Import Spreadsheet, State Details and Check-in/Check-out processes (LOAD_NOSAVE)
+- Design Tables are only managed during the Load, Export, Export processes and a provide a prompt to manage Design Tables in the Save, Import, Import Spreadsheet, State Details and Check-in/Check-out processes (LOAD_SAVEDISPLAY)</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

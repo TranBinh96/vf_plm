@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAlignmentCheckReportDefinition" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the name of the report definition that controls the creation of the EBOM-MBOM alignment check report. A default report definition is provided but you can supply a custom report definition if necessary.
+Valid Values:
+A single character string that contains the name of an existing report definition object.</preference_description>
+      <context name="Teamcenter">
+        <value>AlignmentCheckReport</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

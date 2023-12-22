@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ChangeSummaryColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Stores the column configuration for the change summary table for the current user.
+When user change visibility or order of column from change summary table, the updated information is store in this preference.
+This preference is populated internally and is not meant to be modified by users. To change the default column configuration for change summary table please update ChangeSummaryTableColumns preference.</preference_description>
+      <context name="Teamcenter">
+        <value>ID,visible</value>
+        <value>object_name,visible</value>
+        <value>action,visible</value>
+        <value>REVISION,visible</value>
+        <value>qty_value,visible</value>
+        <value>compare,visible</value>
+        <value>bl_sequence_no,visible</value>
+        <value>bl_uom,visible</value>
+        <value>bl_occ_effectivity,visible</value>
+        <value>bl_formula,visible</value>
+        <value>bl_variant_condition,visible</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

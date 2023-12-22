@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEDuplicateAssemblyInContextTemplates" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the cloning rule names to be used when duplicating a subassembly within BOM structures.
+Valid Values:
+You can define different rules for different types of items. For example, you can create a custom business object (item type) called x and 
+then create a preference called x.x.DuplicateAssemblyInContext that defines rules for objects of type x that are different from the rules for items of type Item. 
+If you then add x.x.DuplicateAssemblyInContext to MEDuplicateAssemblyInContextTemplates, Teamcenter follows those rules.</preference_description>
+      <context name="Teamcenter">
+        <value>Item.Item.DuplicateAssemblyInContext</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

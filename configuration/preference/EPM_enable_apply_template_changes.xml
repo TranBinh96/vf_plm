@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPM_enable_apply_template_changes" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables template changes to all active workflow processes in the client.
+Valid Values:
+NONE: template changes will not be applied to active workflow processes and no option will be presented in the client. This is the default value.
+OPTIONAL:
+a) in Workflow Designer when the template stage is being changed to Available, a follow-up dialog will be displayed prompting the user if the template changes should be applied to all active workflow processes.
+b) an additional checkbox will be displayed in the &quot;Workflow Template Import&quot; dialog to determine if the template changes should be applied to all active workflow processes.
+AUTOMATIC: template changes will be automatically applied to all active workflow processes. The user will not be prompted to specify if the template changes should be applied.</preference_description>
+      <context name="Teamcenter">
+        <value>OPTIONAL</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

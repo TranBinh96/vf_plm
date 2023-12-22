@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MoveICCreationToMenu" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the Create IC Object button is displayed on the incremental change toolbar or the Tools-&gt;Incremental Change-&gt;Create command is displayed in the main toolbar. (This command may be suppressed with Command Suppression if your site restricts the ability of users to create incremental changes.)
+Valid Values:
+true - The Tools-&gt;Incremental Change-&gt;Create command is displayed and the Create IC Object button is hidden.
+false - The Tools-&gt;Incremental Change-&gt;Create command is hidden and the Create IC Object button is displayed.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ArchitectureModeler_RemoveDesign_Max" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the maximum number of designs which can be removed at one time from a product assembly using the RDV Remove Action command.
+Valid Values:
+Accepts a single string as a value. Must be a positive integer.</preference_description>
+      <context name="Teamcenter">
+        <value>30</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

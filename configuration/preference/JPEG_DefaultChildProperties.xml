@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="JPEG_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of properties that can be used as children for the indicated type i.e. JPEG. The format of the preference follows: &lt;TypeName&gt;_DefaultChildProperties=my_property.</preference_description>
+      <context name="Teamcenter">
+        <value>DMI_markup</value>
+        <value>IMAN_external_object_link</value>
+        <value>IMAN_PortfolioPage</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

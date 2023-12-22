@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_CREATE_SCO_WITHOUT_APN" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables the creation of Structure Context Objects (SCO) without creating the Appearance Path Nodes (APN), only for the &quot;Design Context&quot; application.
+If it is set to true (default value), SCO will be created without creating the APNs for the BOMLine objects.
+If set to false, SCO will be created with APNs for the BOMLine objects.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

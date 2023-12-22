@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="C2CapaRevision.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>cell properties for capa revision</preference_description>
+      <context name="Teamcenter">
+        <value>item_id</value>
+        <value>object_type</value>
+        <value>object_name</value>
+        <value>last_mod_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

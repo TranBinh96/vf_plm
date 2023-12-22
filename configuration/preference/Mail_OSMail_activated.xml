@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail Gateway">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mail_OSMail_activated" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Deteremines whether OS Mail functionality should be used to send e-mail from Teamcenter. When enabled, users can send OS e-mail by clicking Send to Envelope. The default value is true.
+Valid Values:
+* true - OS e-mail can be sent from Teamcenter.
+* false - OS e-mail cannot be sent from Teamcenter. Any value set for the Mail_server_name preference is ignored.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

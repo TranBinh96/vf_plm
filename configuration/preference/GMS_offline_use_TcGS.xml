@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="GMS_offline_use_TcGS" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether or not briefcase export and import actions use TCIF components to perform transfers.
+Valid Values:
+TRUE - TCIF participates in the transfer process. TCIF must be installed to use this value.
+FALSE - Briefcase transfers are performed without the use of TCIF components and features.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

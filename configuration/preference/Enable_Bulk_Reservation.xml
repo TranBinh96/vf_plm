@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Enable_Bulk_Reservation" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference allows improving performance of reservation actions on multiple objcts. This preference is applicable only to the System Engineering application&apos;s Requirement View.
+Valid Values:
+* true: The objects checked out will not have the backup copy. The backup copy of the object is created only when the given reserved object is modified.
+* false: This is the default value. This will use the regular reservation operations.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

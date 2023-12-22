@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF4_CostRevision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>C3D_View</value>
+        <value>CAEAnalysis</value>
+        <value>interpart_equations</value>
+        <value>interpart_links</value>
+        <value>MEProcess</value>
+        <value>MESetup</value>
+        <value>mating_constraints</value>
+        <value>PR4D_cad</value>
+        <value>geometric_interfaces</value>
+        <value>parametric_interfaces</value>
+        <value>VF4_SourcingCostFormRela</value>
+        <value>view</value>
+        <value>catia</value>
+        <value>catia_multi_model</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

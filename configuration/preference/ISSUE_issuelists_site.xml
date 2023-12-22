@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Issue Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ISSUE_issuelists_site" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the system-defined issue lists configuration. This is an internal preference managed by Issue Management.</preference_description>
+      <context name="Teamcenter">
+        <value>my signoff issue reports/1/__find_my_signoff_issues/Signoff user,/$USERID,/NOT_SAVED_SEARCH/</value>
+        <value>my issue reports/1/__find_my_issue_reports/Issue Creator,/$USERID,/NOT_SAVED_SEARCH/</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_markup_named_ref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines all the named references that have viewable image file. For a dataset that needs to do View/Markup, its named references must be defined in this list.</preference_description>
+      <context name="Teamcenter">
+        <value>Image</value>
+        <value>Quickshade-Image</value>
+        <value>PLT</value>
+        <value>BMP</value>
+        <value>CAL</value>
+        <value>TIFF</value>
+        <value>Graphics-Interface</value>
+        <value>JTPART</value>
+        <value>Sheet</value>
+        <value>PDF</value>
+        <value>JPEG</value>
+        <value>TIF</value>
+        <value>PDF_Reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

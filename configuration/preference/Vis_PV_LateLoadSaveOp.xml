@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ProductView">
+    <category_description>
+      Preferences affecting the behavior of Product views
+</category_description>
+    
+               <preference name="Vis_PV_LateLoadSaveOp" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies how late loaded ProductViews are to be handled during a save operation.
+Valid Values:
+* Ask     - The user is prompted for their desired handling of late loaded ProductViews during save operation.
+* Ignore  - All late loaded ProductViews are ignored for the save operation.
+* Abort   - The save operation is aborted if any late loaded ProductView is present.
+* LoadAll - All late loaded ProductViews are loaded and included in the save operation. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>LoadAll</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_apply_existing_documents_without_dataset_filter" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Provide the Ability to manage an additional Warning Filter dedicated to &quot;Hide existing documents without dataset&quot; warning message when there is no dataset associated to the item Revision of the document.
+Additional filter is automatically applied when the save manager is launched if the preference is set to true (and if CATIA_save_existing_item_without_dataset is set to false).</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

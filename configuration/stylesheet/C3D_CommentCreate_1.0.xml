@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendering>
+    <page title="Cortona3D">
+		<view name="Details">
+			<customPanel java="com.teamcenter.rac.cortona3d.techpub.app.reviewer.C3D_CommentCreatePanel" />
+		</view>
+		<view name="properties">
+			<property name="object_desc" />
+		</view>
+	</page>
+</rendering>

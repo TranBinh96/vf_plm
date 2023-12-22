@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_UI_LOVComboBox_SizingBasedOn" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies parameter for the calculation of the threshold width for LOVComboBox objects in the Rich client.
+This preference value is only taken into account if the TC_UI_LOVComboBox_SizingPolicy preference is set to &quot;FitToLength&quot;.
+Supported values are:
+- ScreenSize: The dimension of the primary monitor is used to determine the threshold width.
+- ParentSize: The dimension of the Rich client window is used to determine the threshold width.
+The default value for this user preference is &quot;ScreenSize&quot;</preference_description>
+      <context name="Teamcenter">
+        <value>ScreenSize</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

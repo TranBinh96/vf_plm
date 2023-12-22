@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LOV_user_id_display" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Integer value specifying how the User Id is displayed within an LOV. Valid values are 0/1.
+0 - Person Name ( User Id ).
+1 - User Id.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

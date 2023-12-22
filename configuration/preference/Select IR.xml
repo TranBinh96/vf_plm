@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Select IR" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>At any time one of the two preferences &apos;Selection Criteria&apos;or &quot;Select IR&quot; must be set, else Check-In/Out of Item revisions will not work. The values set by the user interactively in an Teamcenter session take precedence over values set by these two preferences. If this preference is set to &apos;Yes&apos;, the Item revision is selectedand is not selected if it is set to &apos;No&apos;.If this preference is not set (or commented) and the&quot;Selection Criteria&quot; preference is set, then the ItemRevision willnot get selected, but the ItemRevision attachments get selectedbased on the specified Selection criteria.</preference_description>
+      <context name="Teamcenter">
+        <value>Yes</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

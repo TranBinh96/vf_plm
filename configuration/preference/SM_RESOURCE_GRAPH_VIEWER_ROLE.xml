@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_RESOURCE_GRAPH_VIEWER_ROLE" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the role of the logged in user for which access to view the resource graph for other users will be granted.
+The default value is Resource Graph Viewers.
+Any &quot;Role&quot; created in the Organization is a valid value.</preference_description>
+      <context name="Teamcenter">
+        <value>Resource Graph Viewers</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

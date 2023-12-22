@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Reports">
+    <category_description>Active Workspace preferences
+</category_description>
+    
+               <preference name="ReportDefinition.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Cell properties for Reports.</preference_description>
+      <context name="Teamcenter">
+        <value>rd_name</value>
+        <value>rd_description</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

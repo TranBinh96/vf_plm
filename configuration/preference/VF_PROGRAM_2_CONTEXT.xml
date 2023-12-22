@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_PROGRAM_2_CONTEXT" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF Family Group Validation Rule configuration</preference_description>
+      <context name="Teamcenter">
+        <value>VFe34=EB15_2020</value>
+        <value>BP Escooter=107179</value>
+        <value>VFe35=PD1U_2023</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

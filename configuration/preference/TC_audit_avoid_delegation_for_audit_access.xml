@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Audit Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_audit_avoid_delegation_for_audit_access" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of audit log types for which the default audit log access delegation mechanism is disabled. For these types, the access rights defined in the Access Manager application apply.
+Make certain the correct access rules are defined for users to be able to view the audit logs.
+Valid values are audit log types, for example, Fnd0OrganizationAudit and Fnd0GeneralAudit.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

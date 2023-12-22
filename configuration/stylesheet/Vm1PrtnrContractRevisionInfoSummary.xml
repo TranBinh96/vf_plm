@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+//File Name: Vm1PrtnrContractRevisionInfoSummary.xml
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet for rendering Partner Contract Revision Informatimon in AW. -->
+<rendering>
+    <header>
+       <property name="object_string"/>
+    </header>
+    <page titleKey="tc_xrt_Summary" title = "Overview">
+        <section titleKey="tc_xrt_properties" title = "Properties">
+             <property name = "object_name" modifiable="false"/>
+             <property name = "item_revision_id"/>
+             <property name = "object_desc" modifiable="false"/>
+             <property name = "vm0ContractStartDate" modifiable="false"/>
+             <property name = "vm0ContractEndDate" modifiable="false"/>
+             <property name = "vm0isContractActive" modifiable="false" />
+        </section>
+        <section titleKey="tc_xrt_ComapanyLocations" title = "Company Locations">
+            <objectSet source="Vm0ContractLocations.CompanyLocation" defaultdisplay="listDisplay" sortdirection="descending" sortby="object_name" >
+                <listDisplay>
+                    <property name = "object_name" modifiable="false"/>
+                    <property name = "vm0DUNSNumber" modifiable="false"/>
+                    <property name = "street" modifiable="false"/>
+                    <property name = "city" modifiable="false"/>
+                    <property name=  "state_province" modifiable="false"/>
+                    <property name=  "country" modifiable="false"/>
+                </listDisplay>
+            </objectSet>
+        </section>
+       <section titleKey="tc_xrt_CompanyContacts" title = "Company Contacts">
+            <objectSet source="Vm0ContractContacts.CompanyContact" defaultdisplay="listDisplay" sortdirection="descending" sortby="object_name" >
+                <listDisplay>
+                    <property name = "object_name" modifiable="false"/>
+                    <property name = "title" modifiable="false"/>
+                    <property name = "phone_business" modifiable="false"/>
+                    <property name = "phone_mobile" modifiable="false"/>
+                    <property name = "email_address" modifiable="false"/>
+                    <property name = "Vm0PartnerUser" modifiable="false"/>
+                </listDisplay>
+            </objectSet>
+        </section>        
+    </page>
+</rendering>

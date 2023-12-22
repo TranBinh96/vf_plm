@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Debug">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Journalling" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Determines whether calls to the ITK are logged in journal files. The data is written to the program.jnl file.This preference can be set using the preference name as an environment variable.
+Valid Values:
+ON - Enables journalling.
+OFF - Suppresses journalling.</preference_description>
+      <context name="Teamcenter">
+        <value>OFF</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEConstraintsViewAutomaticLayoutOffAppendPositionPref" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the position of nodes newly added to the Line Balancing Constraints view.If the automatic layout mode is turned off, Teamcenter places new nodes into the Line Balancing Constraints view in the position defined by this preference. When calculating where to put the node, Teamcenter draws an imaginary box around all existing nodes, and then places the new node in one of three positions-bottom left, bottom right, or top right of the existing nodes.
+Valid Values:
+LOWER_LEFT - Places a new node at the bottom left of existing nodes.
+LOWER_RIGHT - Places a new node at the bottom right of existing nodes.
+UPPER_RIGHT - Places a new node at the top right of existing nodes.</preference_description>
+      <context name="Teamcenter">
+        <value>LOWER_RIGHT</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

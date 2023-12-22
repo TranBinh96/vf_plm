@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IC_baseline_carry_forward_active_changes" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if active changes are carried forward when the user creates an incremental change baseline. An active change is one which is currently effective or may be effective in the future.
+Valid Values:
+True - Carry over active changes when creating an incremental change baseline.
+False - Do not carry over active changes when creating an incremental change baseline.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

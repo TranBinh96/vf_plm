@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_newOther_relation_type" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the relation type for the summary rendering stylesheet.
+The system will update this preference automatically when the &quot;Add New...&quot; action is seletected from the Reference Items table on the Summary view.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

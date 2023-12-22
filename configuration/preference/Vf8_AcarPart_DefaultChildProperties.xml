@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Vf8_AcarPart_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_master_form</value>
+        <value>bom_view_tags</value>
+        <value>revision_list</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_reference</value>
+        <value>Smc0HasVariantConfigContext</value>
+        <value>Vf8_PlantFormRel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

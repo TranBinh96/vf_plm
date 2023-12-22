@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0SmelterSummary.xml
+
+Default activeworkspace stylesheet for display Smelter properties.
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="label"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name="item_id"/>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+                <property name="scp0Metal"/>
+                <property name="scp0Identity"/>
+                <property name="scp0AuditedStatus"/>
+                <property name="scp0CertificationValidUntil"/>
+                <property name="scp0City"/>
+                <property name="scp0StateOrProvince"/>
+                <property name="scp0SmelterCountry"/>
+                <property name="scp0EmailAddress"/>
+             </section>
+             <section titleKey="tc_xrt_Vendors" title="Vendors ">
+                <objectSet source="S2P:Scp0VendorToSmelterRel.Vendor" defaultdisplay="tableDisplay" sortdirection="descending" sortby="object_name">
+                    <tableDisplay>
+                        <property name="item_id"/>
+                        <property name="object_name"/>
+                        <property name="object_desc"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                </objectSet>
+             </section>
+             <section titleKey="tc_xrt_VendorParts" title = "Vendor Parts">
+                <objectSet source = "S2P:Scp0PartToSmelterRel.ManufacturerPart" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "object_name">
+                    <tableDisplay>
+                        <property name = "object_name"/>
+                        <property name = "vendor_part_num"/>
+                        <property name = "object_desc"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <page titleKey="attachments">
+        <section titleKey="tc_xrt_Files">
+            <objectSet source="IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset,IMAN_UG_altrep.Dataset,IMAN_UG_scenario.Dataset,IMAN_Simulation.Dataset" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>     
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">  
+                    <parameter name="localSelection" value="true"/> 
+                </command> 
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_Documents">
+            <objectSet source="IMAN_specification.DocumentRevision" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="object_type"/>
+                    <property name="release_status_list"/>
+                    <property name="date_released"/>
+                    <property name="owning_user"/>
+                </tableDisplay>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>     
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">  
+                    <parameter name="localSelection" value="true"/> 
+                </command> 
+            </objectSet>
+        </section>
+    </page>
+</rendering>

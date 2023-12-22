@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_sfr_process_life_time" type="Integer" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies (in minutes) how long the system continues to check for recovered files after a user-initiated single file recovery action is activated.
+Valid values:
+Accepts a single string as a value. Must be a positive integer.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

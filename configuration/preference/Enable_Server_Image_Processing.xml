@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Enable_Server_Image_Processing" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>By default, the &quot;MyTeamcenter&quot; application shows preview images (jpeg, png and bmp formats) in the Preview area of the Summary tab. Enabling the thumbnail functionality to view these preview images is not needed.
+
+This preference enables the thumbnails functionality, which converts all images associated with Item Revisions to small thumbnail images that are displayed in the Preview area of the Summary tab, in the header of the Summary page, and in the search results. 
+Administrators must perform multiple configurations to enable thumbnails functionality (c.f. the &quot;Getting Started with Document Management&quot; chapter in the technical documentation). Performance and resource implications must also be assessed. 
+
+Valid values are:
+* true: Enables server processing of images to generate thumbnail datasets.
+* false: Disables server processing of images to generate thumbnail datasets.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+    Filename: Mtw0Mat1MaterialCreate.xml
+
+    Style sheet rendering for Material creation. 
+==================================================
+-->
+<rendering>
+    <page>
+        <section titleKey="tc_xrt_properties">
+            <property name="item_id"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="revision:mat1MatCatalogRev"/>
+            <inject type="dataset" src="Sci1ItemCreate"/>
+            <inject type="dataset" src="Sci1Mat1MaterialCreate"/>
+        </section>
+    </page>
+</rendering>

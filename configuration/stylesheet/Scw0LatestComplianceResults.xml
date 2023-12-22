@@ -1,0 +1,21 @@
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2017.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+    <section titleKey="k_subscmpl_latest_results" title="Latest Compliance Results ">
+        <objectSet source="scp0LatestResults.Scp0SubstanceCmplResult" defaultdisplay="tableDisplay" sortdirection="descending" sortby="scp0date_calculated">
+            <tableDisplay>
+                <property name="scp0regulation_name"/>
+                <property name="scp0status_display_name"/>
+                <property name="scp0date_calculated"/>
+            </tableDisplay>
+            <listDisplay/>
+        </objectSet>
+    </section>
+</subRendering>

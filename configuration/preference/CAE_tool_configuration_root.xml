@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_tool_configuration_root" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Contains the UID of item revisions, which are configured to identify the root directory of simulation tools.
+Valid Values:
+Accepts one string as value; the string must be a valid Teamcenter object, where the value is a single object string and the object is a dataset name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

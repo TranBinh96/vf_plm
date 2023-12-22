@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: MEActivityCreate.xml
+
+    Style sheet rendering for MEActivity creation.
+=======================================================================
+-->
+
+<rendering>
+
+    <page title="MEActivity Information" titleKey="tc_xrt_MEActivityInformation">
+         <section titleKey="tc_xrt_properties">
+            <!-- <property name="al_activity_object_name" />
+            <property name="al_activity_start_time" />
+            <property name="al_activity_time" />
+            <property name="al_activity_object_desc" />
+           <property name="al_activity_object_name" /> -->
+
+            <property name="al_activity_vf4_detail_step_desc" />
+            <property name="al_activity_vf4_step_desc_en" />
+            <property name="al_activity_vf4__detail_step_symbol" />
+            <property name="al_activity_vf4_step_reference" />
+        </section>
+    </page>
+
+</rendering>

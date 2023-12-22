@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Product Structure Synchronization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_Enable_Ref_Designator_Value_Packing" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determine whether the system packs reference designator values when packing lines. Setting this preference to true allows you to pack or unpack product structure lines that include reference designators. For example, if you pack six occurrences of the same part with different reference designators, the Ref Designator property column shows a concatenated set of reference designators. Thus, if reference designator values are C1, C2, C3, C6, C12, C13, they will be packed to C1-C3,C6,C12-C13. You cannot edit the reference designators of packed lines.After modifying this preference, you must restart both the rich client and Structure Manager.
+Valid Values:
+true - The system packs reference designator values.
+false - The system does not pack reference designator values.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

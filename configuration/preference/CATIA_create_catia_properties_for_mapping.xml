@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_create_catia_properties_for_mapping" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set the CATIA_create_catia_properties_for_mapping variable to true to create non-standard CATIA properties corresponding to mappings if they are found. 
+Set this variable to false to prevent non-standard CATIA properties corresponding to mappings from being created, even if they are found</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

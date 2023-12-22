@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Fnd0SecurityAuditSec_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of columns to be displayed on Secondary Audit Table in the Audit Manager application for objects of type Fnd0SecurityAudit.</preference_description>
+      <context name="Teamcenter">
+        <value>object_string</value>
+        <value>object_type</value>
+        <value>object_name</value>
+        <value>fnd0PrimaryObjectID</value>
+        <value>fnd0ObjectDisplayName</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

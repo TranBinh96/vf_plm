@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_catImport_form" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Customize the Import Form. The default value is catImport_attributes.
+The Import Form is attached as a Named Reference to CATPart, CATProduct and CATDrawing datasets. 
+Therefore, a catimportform Named Reference must be specified for the aforementioned CATIA dataset type definitions.</preference_description>
+      <context name="Teamcenter">
+        <value>catImport_attributes</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

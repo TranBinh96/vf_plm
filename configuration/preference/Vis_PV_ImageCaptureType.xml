@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="ProductView">
+    <category_description>
+      Preferences affecting the behavior of Product views
+</category_description>
+    
+               <preference name="Vis_PV_ImageCaptureType" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the format of the preview image created when saving a Product View from the Lifecycle Visualization application.
+This is only used if &quot;Image Capture&quot; is enabled for Product View save, and if the &quot;Use image export dialog&quot; option is unchecked.
+Valid values are &quot;BMP 24bit&quot;, &quot;BMP 8bit&quot;, &quot;BMP BW&quot;, &quot;JPEG 24bit&quot;, &quot;PNG 24bit&quot;, &quot;PNG 8bit&quot;, &quot;PNG BW&quot;, &quot;TIFF 24bit&quot;, &quot;TIFF 8bit&quot;, &quot;TIFF BW&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>JPEG 24bit</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

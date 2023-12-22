@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Subscription Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_notification_mode" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether the failure of Workflow background process notification is delivered via SMTP email or Active Workspace alert or both.  
+Note: Active Workspace client must be installed
+Valid Values:
+*1 : Delivered as SMTP email. This is the default value.
+*2 : Delivered in the user&apos;s Active Workspace alerts.
+*3 : Delivered in both.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

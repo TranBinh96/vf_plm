@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Product Structure Synchronization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_Additional_Packing_Criteria" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which properties users can add to the pack criteria. Users can add any properties defined by this preference to the pack criteria. This preference supports properties defined only on BOMLine. It does not support properties defined on sub-types of BOMLine.
+Valid Values:
+Property-name-only - Lines with the same value of the property are packed. For example, use the following value to pack all lines containing the same value for the bl_ref_designator property:bl_ref_designator
+Property-name: property-value - When the specified property has the specified value, the line is not packed. For example, use the following value to ensure that lines containing the NoLoad property with the value of True are not packed:NoLoad:True
+Property-name: blank-value - When the specified property is empty, the line is not packed. For example, use the following value to ensure that lines containing the bl_ref_designator property with an empty value are not packed:bl_ref_designator:</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDENTIFIER_deepcopy_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the list of Identifier types when used as an Alternate Id for an Item Revision should also be attached to an Item Revision, when the Item is Saved As or Revised. This is being deprecated - use either IDENTIFIER_deepcopy_types_saveas or IDENTIFIER_deepcopy_types_revise instead.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

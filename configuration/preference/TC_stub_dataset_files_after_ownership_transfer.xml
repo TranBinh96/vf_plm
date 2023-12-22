@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_stub_dataset_files_after_ownership_transfer" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether replica files are stubbed at the original owning site when the ownership is transferred to another site. The Multi-Site transfer of ownership feature creates full ImanFile objects at the new owning site and adds full operating system files to the volume. 
+This preference indicates whether the original owning site has the option to stub the replica ImanFile objects and purge the files from the volume.
+Valid Values:
+TRUE - Allows the replica files to be stubbed at the original owning site.
+FALSE - Forces the full object files to remain on the original owning site&apos;s volume.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

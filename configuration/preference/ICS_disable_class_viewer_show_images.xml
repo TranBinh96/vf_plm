@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_disable_class_viewer_show_images" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Disables the class image viewer in the Classification and Classification Admin applications.
+Valid Values:
+* true: class image viewer is disabled.
+* false: class image viewer is enabled. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

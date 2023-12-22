@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMGTCPackageServerDir" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Specifies the relative directory where the Teamcenter server stores Generic Tool Catalog (GTC) packages that are uploaded form the Teamcenter client to the Teamcenter server.
+The ZIP file will be extracted to a directory below the $TC_DATA directory: $TC_DATA/relative-directory-from-this-preference
+In that directory, a new directory with the ZIP file name is created. If this directory already exists, a new directory with the ZIP file name and an appended timestamp is created.</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">ResourceManagement/GTCPackages</value>
+        <value platform="WNT">ResourceManagement\GTCPackages</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

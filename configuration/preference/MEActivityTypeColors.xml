@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEActivityTypeColors" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the colors associated with the types of activities, as defined in the time_system_category property of the MEActivity class. A color is represented by a string composed of the red, green, and blue values of the color, separated by a decimal point.
+Valid Values:
+Accepts one or more strings as a value. Each string must have the following format:
+type;color
+type is a value of the time_system_category property and color is the red, green, and blue values of the corresponding color, separated by decimal point.</preference_description>
+      <context name="Teamcenter">
+        <value>NA;102.102.102</value>
+        <value>VA;0.128.0</value>
+        <value>NVA;255.0.0</value>
+        <value>NVABR;255.165.0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

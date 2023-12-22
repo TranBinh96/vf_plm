@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_remote_checkin_assy_option" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines how the system manages newly added components when a remotely checked out BOM view revision (BVR) or item revision is remotely checked in. The typical use case is for a remote user to remotely check out a BVR to add new components owned by the local site (the site adding the component). 
+When the BVR is remotely checked in, this preference determines how these locally owned components are handled.This preference is deprecated as of Teamcenter 10.1.1; it will be removed in a future release, and should not be used. This functionality has been replaced by options in the standard Teamcenter import and 
+export options dialog boxes. Teamcenter ignores the preference setting when any import or export option is selected in the dialog box.
+Valid Values:
+0 - The components are stubbed upon remote check in. A copy is not sent to the site that owns the BVR. Instead, at the owning site, the component is replaced by a POM stub. When the assembly containing the BVR is opened at the owning site via Structure Manager, the application prompts the user to remotely import the component.
+1 - The components are sent to the owning site as replicas. Site ownership of the components remains with the site performing the remote checkin.
+2 - Site ownership of the components is transferred to the site that owns the BVR. The components at the site performing the remote check in become replicas.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

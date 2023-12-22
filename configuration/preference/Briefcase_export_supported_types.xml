@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Briefcase Export and Import">
+    <category_description>Briefcase Export and Import</category_description>
+    
+               <preference name="Briefcase_export_supported_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference contains the list of types which are supported for Briefcase export in the Active Workspace client. The type hierarchy is supported automatically. The type internal name instead of display name should be used.</preference_description>
+      <context name="Teamcenter">
+        <value>Awb0Element</value>
+        <value>BOMLine</value>
+        <value>CCObject</value>
+        <value>CfgAttachmentLine</value>
+        <value>Cls0ClassBase</value>
+        <value>Cls0HierarchyNode</value>
+        <value>Cpd0CollaborativeDesign</value>
+        <value>Cpd0DesignElement</value>
+        <value>Cpd0DesignSubsetElement</value>
+        <value>Cpd0SubsetItemRevision</value>
+        <value>Cpd0WorksetRevision</value>
+        <value>Dataset</value>
+        <value>Folder</value>
+        <value>Form</value>
+        <value>icm0</value>
+        <value>Item</value>
+        <value>ItemRevision</value>
+        <value>Lbr0Hierarchy</value>
+        <value>Lbr0Library</value>
+        <value>Lbr0LibraryElement</value>
+        <value>Lbr0Specification</value>
+        <value>Mdl0BaselineRevision</value>
+        <value>Mdl0SubsetDefinition</value>
+        <value>Ptn0Partition</value>
+        <value>Ptn0PartitionItem</value>
+        <value>Ptn0PartitionTemplateModel</value>
+        <value>smlb0</value>
+        <value>StructureContext</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

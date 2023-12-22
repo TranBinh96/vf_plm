@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PseudoFolder.TC_part_quote_rel_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed when a Quotes pseudo folder is selected in the Details view.
+Valid Values:
+Accepts one or more strings as values; each string must be a valid property name.</preference_description>
+      <context name="Teamcenter">
+        <value>PseudoFolder.object_string</value>
+        <value>Quote.object_type</value>
+        <value>Quote.currency</value>
+        <value>Quote.quoted_quantity</value>
+        <value>Quote.tooling_cost</value>
+        <value>Quote.vendor</value>
+        <value>Quote.unit_price</value>
+        <value>relation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

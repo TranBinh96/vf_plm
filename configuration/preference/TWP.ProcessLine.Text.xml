@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TWP.ProcessLine.Text" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the text that is displayed as header of a process line in the Time Way Planner view of the Manufacturing Process Planner application.
+Valid Values:
+legend - Any string that is displayed as it is entered.
+property-name - The internal name of the property on the process line. The property-name string is replaced by the property display name, for example, the value Name: [bl_rev_object_name] is displayed as Name: Object Name.</preference_description>
+      <context name="Teamcenter">
+        <value>[bl_item_item_id]-[bl_rev_item_revision_id]; [bl_rev_object_name]</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

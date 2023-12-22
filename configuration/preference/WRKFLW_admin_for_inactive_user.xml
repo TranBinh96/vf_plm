@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_admin_for_inactive_user" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the mailing list to be notified when the workflow automatically reassigns a task or signoff to a resource pool if the user is inactive.
+It is a single value string type preference.
+Valid Values:
+* Any valid email address.
+For multiple email addresses use semicolon (;) to separate two email addresses.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

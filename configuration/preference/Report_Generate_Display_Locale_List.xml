@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Reports">
+    <category_description>Active Workspace preferences
+</category_description>
+    
+               <preference name="Report_Generate_Display_Locale_List" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Specifies list of languages to be available in &quot;Display Locale&quot; list during Report generate.
+By default all Teamcenter supported locales will be available in the list.
+Just mention only code of the locale to display.
+Add en_US for English, de_DE for German, fr_FR for French, it_IT for Italian, es_ES for Spanish, pt_BR for Portuguese. ja_JP for Japanese, ko_KR for Korean, ru_RU for Russian, pl_PL for Polish, zh_CN for Chinese, zh_TW for Taiwanese, cs_CZ for Czech</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

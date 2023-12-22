@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEResultViewSourceColumnsShownWidthPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the width of the columns displayed in the Accountability Check view source table as defined by the MEResultViewSourceColumnsShownPref preference.
+Valid Values:
+Accepts an integer value representing the width in pixels of the column.</preference_description>
+      <context name="Teamcenter">
+        <value>50</value>
+        <value>50</value>
+        <value>50</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

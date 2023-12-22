@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SAVEMANAGER_use_existing_item_revision" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>During Save mode USE EXISTING DATASET or USE EXSITING ITEM, latest revision of item has to be searched automatically in database(LATEST) or not (NONE)</preference_description>
+      <context name="Teamcenter">
+        <value>NONE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

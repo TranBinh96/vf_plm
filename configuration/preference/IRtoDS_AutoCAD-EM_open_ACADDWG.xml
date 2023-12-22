@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Autocad Manager">
+    <category_description>Autocad Manager Preferences</category_description>
+    
+               <preference name="IRtoDS_AutoCAD-EM_open_ACADDWG" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>The following preferences map the actual dataset creation rules to their corresponding master virtual dataset names.  There must be one and only one for each master dataset type and be in the same order!</preference_description>
+      <context name="Teamcenter">
+        <value>Siteds_MACADDWG</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

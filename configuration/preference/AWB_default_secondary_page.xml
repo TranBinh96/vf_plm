@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWB_default_secondary_page" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the default page shown in the secondary Work Area.
+The preference value will be of type:page format, which define a default page for a particular type.
+If the type value is BusinessObject, then the page will be for any type which does not have a specific preference value.
+If a type is not defined, the system will look for the first defined super type in the preference.
+The page can be the title key of the page or the enablement feature key for a contributed page.</preference_description>
+      <context name="Teamcenter">
+        <value>BusinessObject:tc_xrt_Overview</value>
+        <value>RequirementSpec Revision:tc_xrt_Documentation</value>
+        <value>Requirement Revision:tc_xrt_Documentation</value>
+        <value>Paragraph Revision:tc_xrt_Documentation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

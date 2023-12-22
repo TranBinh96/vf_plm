@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ERP_register_wso_effective_date_prop" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference is used to register a runtime property on Workspace Object for the start Effectivity Date</preference_description>
+      <context name="Teamcenter">
+        <value>off</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

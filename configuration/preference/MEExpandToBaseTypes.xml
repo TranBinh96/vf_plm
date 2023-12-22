@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEExpandToBaseTypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of object types to be displayed in Manufacturing &quot;Expand To Type&quot; dialog when the selected line is of type &quot;Process&quot;.
+For a given value, its associated subtypes will also to be considered. By default, the base types are MEOP and MEProcess.</preference_description>
+      <context name="Teamcenter">
+        <value>MEOP</value>
+        <value>MEProcess</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

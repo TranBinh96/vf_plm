@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Ticket_Expiration_Interval" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies how long, in seconds, the ticket is good for access. Add this value to the current time when the ticket is generated to calculate the ticket expiration time. Environment variable settings override this FCC configuration file setting.
+Valid Values:
+Single positive integer.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

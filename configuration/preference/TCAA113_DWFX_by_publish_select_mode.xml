@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA113_DWFX_by_publish_select_mode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Configure the content of DWFx files generated via PUBLISH command.
+This option is taken into consideration only if TCAA113_DWFX_generation_mode is set to 1.
+Possible values:
+0 - Publish just the current model space or layout (Default)
+1 - Publish the model space only
+2 - Publish only the layout(s) with specific index or name (see preferences TCAA113_DWFX_by_publish_layout_num and TCAA113_DWFX_by_publish_layout_name)
+3 - Publish all the layouts
+4 - Publish the model space and all the layouts			</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

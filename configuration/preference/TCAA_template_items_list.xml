@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA_template_items_list" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains a list of drawing template Item IDs that will be downloaded automatically in AutoCAD template folder every time the user logs into TCAA.
+Possible values (multiple values): each value corresponds to a template Item ID.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

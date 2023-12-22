@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_DataExchange_Dataset_Preferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of dataset properties used by NX translators to import/export non-NX files from/to Teamcenter. All the file extensions supported by the translator need to be mentioned separately along with workflow such as import or export.During export, based on the user options if the translation results in multiple files then these files are zipped together and zip file is uploaded to dataset.For example, exporting NX assembly with external references to STEP.</preference_description>
+      <context name="Teamcenter">
+        <value>DXFDWG:IMPORT:EXT=dxf:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>DXFDWG:IMPORT:EXT=dwg:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>STEP:EXPORT:EXT=stp:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>STEP:EXPORT:EXT=step:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>STEP:EXPORT:EXT=stpz:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>STEP:EXPORT:EXT=zip:TYPE=ZIP:REL=IMAN_manifestation:REF_TYPE=ZIPFILE</value>
+        <value>STEP:IMPORT:EXT=stp:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>STEP:IMPORT:EXT=step:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>STEP:IMPORT:EXT=stpz:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>CATIAV4:EXPORT:EXT=model:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>CATIAV4:EXPORT:EXT=exp:TYPE=ZIP:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>CATIAV4:IMPORT:EXT=model:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>CATIAV4:IMPORT:EXT=exp:TYPE=ZIP:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>CATIAV5:EXPORT:EXT=catpart:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>CATIAV5:EXPORT:EXT=zip:TYPE=ZIP:REL=IMAN_manifestation:REF_TYPE=ZIPFILE</value>
+        <value>CATIAV5:IMPORT:EXT=catpart:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>ACIS:EXPORT:EXT=sat:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>ACIS:EXPORT:EXT=sab:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>ACIS:IMPORT:EXT=sat:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>ACIS:IMPORT:EXT=sab:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>PROE:IMPORT:EXT=prt:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>PROE:IMPORT:EXT=prt.*:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>IGES:EXPORT:EXT=igs:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>IGES:IMPORT:EXT=igs:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>IGES:IMPORT:EXT=iges:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>2DEXCHANGE:EXPORT:EXT=prt:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>2DEXCHANGE:EXPORT:EXT=igs:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+        <value>STL:EXPORT:EXT=stl:TYPE=Image:REL=IMAN_manifestation:REF_TYPE=Image</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

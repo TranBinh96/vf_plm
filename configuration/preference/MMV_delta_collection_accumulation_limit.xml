@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Massive Model Visualization">
+    <category_description>Active Workspace Massive Model Visualization preferences</category_description>
+    
+               <preference name="MMV_delta_collection_accumulation_limit" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the maximum number of accumulated Massive Model Product (MMP) structure delta files in a Awv0MMPDeltaCollection dataset.
+When the limit is reached, older delta files are deleted from the dataset.</preference_description>
+      <context name="Teamcenter">
+        <value>500</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

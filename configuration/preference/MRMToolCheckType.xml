@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMToolCheckType" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the tool attribute categories that are checked during Manufacturing Resource Manager save operations.
+Valid Values:
+&quot;NX CAM TOOL PARAMETERS&quot;: Checks the set of tool assembly attribute values that are sent to NX CAM based on its NX CAM tool type.
+&quot;NX CAM TOOL RETRIEVE&quot;: Performs a dry run of the NX tool retrieve to ensure that the correct attribute values are used.</preference_description>
+      <context name="Teamcenter">
+        <value>NX CAM</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

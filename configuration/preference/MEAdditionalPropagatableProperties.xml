@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAdditionalPropagatableProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of read-only properties that are displayed in the Propagation Settings dialog box. A property is displayed and selectable for propagation only if it is selected in the Partial Match tab of the Accountability Check dialog box.
+Valid Values:
+Accepts a list of valid Teamcenter properties.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_variant_condition</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

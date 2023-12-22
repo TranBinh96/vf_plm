@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.CAD BOM Alignment">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="FND0_PART_TYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of Item Types qualified as Part Types defined by BO constant Fnd0PartDesignQualifier. This is a system managed preference and should not be edited manually. Use bmide_modeltool utility for populating the values.</preference_description>
+      <context name="Teamcenter">
+        <value>Part</value>
+        <value>VF4_Study_Part</value>
+        <value>Vf8_AcarPart</value>
+        <value>CommercialPart</value>
+        <value>ManufacturerPart</value>
+        <value>VF4_Part</value>
+        <value>VF4_EC_Supp_Part</value>
+        <value>VF4_EC_Part</value>
+        <value>VF3_car_part</value>
+        <value>VF4_EBUSPart</value>
+        <value>VL5_e_epart</value>
+        <value>VF4_StandardPart</value>
+        <value>VF5_e_epart</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

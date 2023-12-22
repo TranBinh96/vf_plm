@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VF_Default_column_export_excel" type="String" array="true"
+      disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>
+          Vf6_ECRRevision;__;item_id;object_string;item_revision_id;vf6_impacted_programs;vf6_impacted_module_comp;vf6_implementation_date;release_statuses;vf6_init_piece_cost_delta;vf6_init_veh_cost_delta;vf6_init_tooling_cost_delta;vf6_init_edd_cost_delta;vf6_init_sunk_cost;vf6_init_scrap_cost;vf6_init_plant_equip_cost;vf6_init_testing_validate_c;vf6_init_other_cost;vf6_delta_piece_cost;vf6_vehicle_cost_delta;vf6_delta_tooling_cost;vf6_delta_edd_cost;vf6_sunk_cost;vf6_scrap_cost;vf6_plant_equipment_cost;vf6_testing_validate_cost;vf6_other_cost;</value>
+      </context>
+    </preference>
+  </category>
+</preferences>
+               

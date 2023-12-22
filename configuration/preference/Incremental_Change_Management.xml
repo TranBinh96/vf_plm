@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Incremental_Change_Management" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables incremental change functionality and reveals the relevant menu commands. By default, this functionality is disabled.Enabling incremental change using the site preference activates this functionality in all applications where it is available, including Structure Manager, Manufacturing Process Planner, Part Planner, and Multi-Structure Manager. Individual users can use the corresponding user preference to hide
+the incremental change menu commands.An incremental change groups multiple structure changes to a given component (such adding a component, removing a component, modifying attachments, and so on). You can then apply effectivity to this incremental change to configure the associated changes. This change control method allows several independent structure changes to be made concurrently, including the addition or removal of unrelated 
+components. Those changes can be implemented in any sequence. This method is suitable for large, flat structures without nested subassemblies or components. Teamcenter&apos;s other change control method (revisioning) is not suitable for this type of structure, as a separate revision would be required for every permutation of change.For information about creating incremental changes, see Structure Manager.
+Valid Values:
+true - Enables incremental change functionality and reveals the menu commands.
+false - Disables incremental change functionality and hides the menu commands.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TcActionColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the columns displayed in the action table.</preference_description>
+      <context name="Teamcenter">
+        <value>objectstr_of_target</value>
+        <value>target_object_type_name</value>
+        <value>eventtype_id</value>
+        <value>subscriber</value>
+        <value>event_initiator</value>
+        <value>event_time</value>
+        <value>handler_parameters</value>
+        <value>execution_time</value>
+        <value>retries_togo</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

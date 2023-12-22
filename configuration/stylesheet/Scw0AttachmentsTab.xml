@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+================================================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0AttachmentsTab.xml
+Style sheet for displaying Attachments Tab.
+ -->
+<subRendering> 
+    <page title="Attachments" titleKey="tc_xrt_attachments">
+        <section titleKey="tc_xrt_Files" title="Files">
+            <objectSet source="IMAN_specification.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset,REFBY(scp0ReferenceMatRevision,Scp0MaterialMfgMapping).GRMS2P(Scp0UsesMaterialMapping,Scp0MaterialLabReport).REF(scp0ActiveLRDSupportDoc,Scp0LRDDocRevision)" defaultdisplay="tableDisplay" sortby="last_mod_date" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="object_name"/>
+                    <property name="object_desc"/>
+                    <property name="object_type"/>
+                    <property name="last_mod_date"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name="object_name"/>
+                    <property name="object_desc"/>
+                    <property name="object_type"/>
+                    <property name="last_mod_date"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_Documents" title="Documents">
+            <objectSet source="IMAN_specification.DocumentRevision" sortdirection="ascending" sortby="last_mod_date" defaultdisplay="tableDisplay">
+                <tableDisplay>
+                    <property name="object_name"/>
+                    <property name="object_desc"/>
+                    <property name="object_type"/>
+                    <property name="last_mod_date"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name="object_name"/>
+                    <property name="object_desc"/>
+                    <property name="object_type"/>
+                    <property name="last_mod_date"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>
+        <content visibleWhen="{pref:SubstanceCompliance_feature_installed}==true">
+            <inject type="dataset" src="Mtw0MaterialDocAttachements"/>
+        </content>
+    </page>
+</subRendering> 

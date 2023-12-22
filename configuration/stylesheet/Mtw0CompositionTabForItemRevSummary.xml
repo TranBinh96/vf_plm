@@ -1,0 +1,67 @@
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2020.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+  <content visibleWhen="Mat1UsesMaterial!=null and VMRepresents==null and Scp0BOMSnapshot == null">
+    <page titleKey="mtw0_xrt_materialsubstanceinfo" >
+      <section>
+        <inject type="dataset" src="Mtw0CompositionTabDataset" module="js/aw-include.directive"/>
+      </section>
+    </page>
+  </content>
+  <content visibleWhen="VMRepresents != null and Mat1UsesMaterial==null and Scp0BOMSnapshot == null and {pref:VendorManagement_feature_installed}==TRUE">
+    <page titleKey="mtw0_xrt_materialsubstanceinfo">
+      <section>
+        <inject type="dataset" src="Mtw0CompositionTabDataset" module="js/aw-include.directive"/>
+      </section>
+    </page>
+  </content>
+  <content visibleWhen="VMRepresents != null and Mat1UsesMaterial!=null and Scp0BOMSnapshot == null and {pref:VendorManagement_feature_installed}==TRUE">
+    <page titleKey="mtw0_xrt_materialsubstanceinfo">
+      <section>
+        <inject type="dataset" src="Mtw0CompositionTabDataset" module="js/aw-include.directive"/>
+      </section>
+    </page>
+  </content>
+  <content visibleWhen="Scp0BOMSnapshot != null">
+    <page titleKey="mtw0_xrt_materialsubstanceinfo" >
+      <section>
+        <inject type="dataset" src="Mtw0CompositionTabDataset" module="js/aw-include.directive"/>
+      </section>
+    </page>
+  </content>
+  <content visibleWhen="structure_revisions != null">
+    <page titleKey="mtw0_xrt_materialsubstanceinfo" >
+      <section>
+        <inject type="dataset" src="Mtw0CompositionTabDataset" module="js/aw-include.directive"/>
+      </section>
+    </page>
+  </content>
+  <content  visibleWhen="Sci0CompUsesSemiComp != null and  sci0IsIMDSObject == true and {pref:IMDSIntegration_feature_installed}==true">
+    <page titleKey="mtw0_xrt_materialsubstanceinfo" >
+      <section>
+        <inject type="dataset" src="Mtw0CompositionTabDataset" module="js/aw-include.directive"/>
+      </section>
+    </page>
+  </content>
+  <content  visibleWhen="Sci0UsesSemiComponent != null and  sci0IsIMDSObject == true and {pref:IMDSIntegration_feature_installed}==true">
+    <page titleKey="mtw0_xrt_materialsubstanceinfo" >
+      <section>
+        <inject type="dataset" src="Mtw0CompositionTabDataset" module="js/aw-include.directive"/>
+      </section>
+    </page>
+  </content>
+  <content  visibleWhen="Sci0UsesMaterials != null and  sci0IsIMDSObject == true and {pref:IMDSIntegration_feature_installed}==true">
+    <page titleKey="mtw0_xrt_materialsubstanceinfo" >
+      <section>
+        <inject type="dataset" src="Mtw0CompositionTabDataset" module="js/aw-include.directive"/>
+      </section>
+    </page>
+  </content>
+</subRendering>

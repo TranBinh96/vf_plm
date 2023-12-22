@@ -1,0 +1,20 @@
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="Item Information" titleKey="tc_xrt_ItemInformation">
+			<!--<property name="item_id" />
+            <property name="revision:item_revision_id" />-->
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="vf4_itm_after_sale_relevant" /> 
+            <property name="vf4_es_model_veh_line" />    
+            <property name="vf3_mat_group" /> 
+            <property name="vf4_part_category" />
+            <property name="vf3_category" />
+            <property name="uom_tag" />
+            <property name="vf4_item_make_buy" />  
+            <property name="vf4_part_reference" /> 
+            <!--<property name="revision:vf3_material_type" />--> 
+            <property name="revision:vf3_viet_desciption" /> 
+        </section> 
+    </page>
+</rendering>

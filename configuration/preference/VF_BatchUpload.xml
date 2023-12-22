@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VF_BatchUpload" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF4_BatchUpload</preference_description>
+      <context name="Teamcenter">
+        <value>Update PFEP;__;OT:VF4_PFEP_Form;vf4_part_number;__;vf4_P_release_plan_date;vf4_isNotRequired_P;vf4_why_notRequired_P;vf4_I_release_plan_date;vf4_isNotRequired_I;vf4_why_notRequired_I;vf4_PR_release_plan_date;vf4_isNotRequired_PR;vf4_why_notRequired_PR;vf4_serial_tool;vf4_serial_tool_plan;vf4_serialToolPlan_comment;vf4_supplier_serial_tool;vf4_prototype_tooling;vf4_prototype_tool_plan;vf4_protoToolPlan_comment;vf4_supplier_prototype;vf4_soft_tooling;vf4_soft_tool_plan;vf4_softToolPlan_comment;vf4_supplier_soft_tool</value>
+        <value>AFS_LanguageName;__;OT:VF4_Design;item_id;__;vf4_item_name_vi;vf4_item_name_dutch;vf4_item_name_french;vf4_item_name_german</value>
+        <value>Batch Upload ST;__;OT:VF4_ebus_lineItmRevision;vf4_bom_vfPartNumber;vf4_platform_module;__;vf4_tooling_type;vf4_tooling_order_2;vf4_supplier_pkg_amount;vf4_Supplier_logistic_cost;vf4_date2;vf4_sourcing_recommendAppr;vf4_actual_award_supplier;vf4_string12;vf4_String13;vf4_tooling_currency;vf4_supplier_piece_cost_exw;vf4_piece_currency;vf4_incoterm_buyer_input;vf4_piece_cost_2;vf4_piece_cost_status;vf4_cost_approval_date;vf4_co_agreement_status</value>
+      </context>
+    </preference>
+  </category>
+</preferences>
+               
+
+

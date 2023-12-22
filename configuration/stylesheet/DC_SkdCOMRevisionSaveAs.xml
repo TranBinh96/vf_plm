@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2010. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: DC_SkdCOMRevisionSaveAs.xml  
+   
+     Default style sheet for displaying DC_SkdCOMRevision Save As 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+10/14/10     mierwald                Initial Version 
+======================================================================= 
+@<DEL>@  
+--> 
+
+
+<rendering>
+
+   <page title="General" titleKey="tc_xrt_General">
+      <column>
+         <property name="DocumentTitle" renderingHint="textfield" />
+         <separator/>
+         <property name="skdmodelic" />
+         <property name="skdsendid" />
+         <property name="skddiyear" />    
+         <property name="skdseqnum" />
+         <property name="skdctype" />
+        
+         <section titleKey="tc_xrt_IssueDetails">    
+            <property name="skdiss_type" />
+            <property name="skdissdate_day" />
+            <property name="skdissdate_month" />
+            <property name="skdissdate_year" />
+            <property name="skdissno" />
+            <property name="skdpriority" />
+            <property name="skdremarks" />
+            <property name="skdresponse" />
+            <property name="skdsecurity_class" />
+            
+         </section>            
+         <property name="skdexportfilename" />
+         <property name="isTemplate" />
+         <property name="referenceOnly"  />        
+      </column>
+      <column>
+         <section titleKey="tc_xrt_DispatchTo">
+            <property name="c1k0skddispto_ent_name" />
+            <property name="c1k0skddispto_ent_unit" />
+            <property name="c1k0skddispto_div_name" />
+            <section titleKey="tc_xrt_Contact">    
+                <property name="skddispto_firstname" />
+                <property name="skddispto_lastname" />
+                <property name="skddispto_jobtitle" />
+                <property name="skddispto_email" />
+                <property name="skddispto_phone" />
+                <property name="skddispto_fax" />
+                <property name="skddispto_internet" />
+                <property name="skddispto_dept" />
+                <property name="skddispto_building" />
+                <property name="skddispto_room" />
+            </section>
+            <section titleKey="tc_xrt_Address">    
+                <property name="skddispto_street" />
+                <property name="skddispto_pobox" />
+                <property name="skddispto_city" />
+                <property name="skddispto_state" />
+                <property name="skddispto_zip" />
+                <property name="skddispto_province" />
+                <property name="skddispto_postcode" />
+                <property name="skddispto_country" />
+            </section>
+         </section>
+      </column>         
+   </page>
+   
+</rendering>
+
+

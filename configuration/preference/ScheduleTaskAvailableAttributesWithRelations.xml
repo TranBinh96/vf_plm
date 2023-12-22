@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="ScheduleTaskAvailableAttributesWithRelations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the Schedule Task object attributes displayed in the Available Columns list in the Column Chooser dialog box of the Schedule Manager application.
+Valid Values:
+ScheduleTask.object_desc - Displays Description in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.start_date - Displays Start Date in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.finish_date - Displays Finish Date in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.duration - Displays Duration in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.work_estimate - Displays Work Estimate in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.priority - Displays Priority in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.task_type - Displays Task Type in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.constraint - Displays Constraint in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.actual_start_date - Displays Actual Start Date in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.actual_finish_date - Displays Actual Finish Date in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.work_complete - Displays Work Complete in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.complete_percent - Displays Work Complete Percent in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.fnd0state - Displays State in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.fnd0status - Displays Status in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.SI - Displays Status Indicator in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.object_name - Displays Name in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.sch_task_deliverable_list - Displays Task Deliverables in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.workflow_template - Displays Workflow Template in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.worfklow_trigger_type - Displays Workflow Trigger in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.ResourceAssignment - Displays ResourceAssignment in the Column Chooser dialog box of the Schedule Manager application.
+predecessors - Displays Predecessors in the Column Chooser dialog box of the Schedule Manager application.
+successors - Displays Successors in the Column Chooser dialog box of the Schedule Manager application.
+baseline_start - Displays Baseline Start in the Column Chooser dialog box of the Schedule Manager application.
+baseline_finish - Displays Baseline Finish in the Column Chooser dialog box of the Schedule Manager application.
+baseline_duration - Displays Baseline Duration in the Column Chooser dialog box of the Schedule Manager application.
+baseline_workestimate - Displays Baseline Work Estimate in the Column Chooser dialog box of the Schedule Manager application.
+baseline_workcomplete - Displays Baseline Work Complete in the Column Chooser dialog box of the Schedule Manager application.
+baseline_workcompletepercent - Displays Baseline Work Complete Percent in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.owning_user - Displays Owner in the Column Chooser dialog box of the Schedule Manager application.
+time_slack - Displays Time Slack in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.wbs_code - Displays WBS Code in the Column Chooser dialog box of the Schedule Manager application.
+ScheduleTask.fdp0AssociatedProcesses - Displays Associated Processes in the Column Chooser dialog box of the Schedule Manager applicat</preference_description>
+      <context name="Teamcenter">
+        <value>ScheduleTask.object_desc</value>
+        <value>ScheduleTask.start_date</value>
+        <value>ScheduleTask.finish_date</value>
+        <value>ScheduleTask.duration</value>
+        <value>ScheduleTask.work_estimate</value>
+        <value>ScheduleTask.priority</value>
+        <value>ScheduleTask.task_type</value>
+        <value>ScheduleTask.constraint</value>
+        <value>ScheduleTask.actual_start_date</value>
+        <value>ScheduleTask.actual_finish_date</value>
+        <value>ScheduleTask.work_complete</value>
+        <value>ScheduleTask.complete_percent</value>
+        <value>ScheduleTask.fnd0state</value>
+        <value>ScheduleTask.fnd0status</value>
+        <value>ScheduleTask.SI</value>
+        <value>ScheduleTask.object_name</value>
+        <value>ScheduleTask.sch_task_deliverable_list</value>
+        <value>ScheduleTask.workflow_template</value>
+        <value>ScheduleTask.workflow_trigger_type</value>
+        <value>ScheduleTask.ResourceAssignment</value>
+        <value>predecessors</value>
+        <value>successors</value>
+        <value>baseline_start</value>
+        <value>baseline_finish</value>
+        <value>baseline_duration</value>
+        <value>baseline_workestimate</value>
+        <value>baseline_workcomplete</value>
+        <value>baseline_workcompletepercent</value>
+        <value>ScheduleTask.owning_user</value>
+        <value>time_slack</value>
+        <value>ScheduleTask.wbs_code</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

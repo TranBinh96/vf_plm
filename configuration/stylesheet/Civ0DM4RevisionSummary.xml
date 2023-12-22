@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: Civ0DM4RevisionSummary.xml
+
+    Default style sheet for displaying DC_SkdDML summary
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+=======================================================================
+@<DEL>@ 
+-->
+
+
+<rendering>
+    
+   <page title="General" titleKey="tc_xrt_General">
+      <column>
+      <property name="ctm0TopicTypeTagref" />
+      <property name="object_type" />
+      <property name="item_id" renderingHint="textfield" />
+      <property name="item_revision_id" renderingHint="textfield" /> 
+      <property name="object_name" renderingHint="textfield" />          
+      <property name="ctm0MasterLanguageTagref"  />
+      <property name="DocumentTitle" />
+
+      <section titleKey="tc_xrt_DataModuleCode">
+         <property name="civ0dmecode" />
+         <property name="civ0dmeproducer" />
+         <property name="skdmodelic" />
+         <property name="skdsdc" />
+         <property name="skdchapnum" />
+         <property name="skdsection" />
+         <property name="skdsubsection" />
+         <property name="skdsubject" />
+         <property name="skddiscode" />
+         <property name="skddiscodev" />
+         <property name="skdincode" />
+         <property name="skdincodev" />
+         <property name="skditemloc" />			
+         <property name="civ0LearnCode" />
+         <property name="civ0LearnEventCode" />
+      </section>
+       <property name="civ0inwork" />
+      <section titleKey="tc_xrt_IssueDetails">
+         <property name="skdissno" />
+         <property name="skdiss_type" />
+         <property name="skdissdate_day" />
+         <property name="skdissdate_month" />
+         <property name="skdissdate_year" />
+      </section>
+      </column>
+      <column>
+         <property name="skdtechname" />
+         <property name="skdinfoname" />
+         <section titleKey="tc_xrt_OtherDataModuleDetails">
+             <property name="skdsecurity_class" />
+             <property name="civ0rpcname" />			 
+             <property name="skdrpc" />
+             <property name="civ0origname" />			 
+             <property name="skdorig" />
+             <property name="skdqa" />
+             <property name="skdsbc" />
+             <property name="skdskill" />
+             <property name="skdrfu" />
+             <property name="skdremarks" />
+         </section>
+         <property name="skdexportfilename" />
+         <property name="isTemplate" />
+         <property name="referenceOnly"  />        
+         <property name="contentVersion" />
+         <separator/>
+         <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+         <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+         <property name="last_mod_user" />     
+      </column>   </page>
+   
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="tc_xrt_Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+		<objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="lis0site"/>
+				<property name="lis0serviceProvider"/>
+				<property name="relation"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+			<command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+				<parameter name="localSelection" value="true"/>
+			</command>
+			<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+			<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+				<parameter name="localSelection" value="true"/>
+			</command>
+		</objectSet>
+	</page>
+
+</rendering>

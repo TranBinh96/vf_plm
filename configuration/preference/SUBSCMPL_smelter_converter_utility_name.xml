@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_smelter_converter_utility_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Name of the utility to convert a list of smelters in Excel format to xml. Default value is subscmpl_exceltoxmlconverter.</preference_description>
+      <context name="Teamcenter">
+        <value>subscmpl_exceltoxmlconverter</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

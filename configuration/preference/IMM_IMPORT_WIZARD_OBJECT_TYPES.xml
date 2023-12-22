@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_IMPORT_WIZARD_OBJECT_TYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Material types that are allowed to be displayed/selected for creation in Import Wizard.</preference_description>
+      <context name="Teamcenter">
+        <value>Mat1Material</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA123_relation_navigation_default_mode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to configure default behavior for the expansion of TCAA relationships.
+Possible values:
+0 - expand TCAA relations as precise links and use the specific revision of linked object (Default)
+1 - apply the current revision rule to identify the proper item revision for the linked object
+2 - retrieve the most recent revision available for the linked object</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

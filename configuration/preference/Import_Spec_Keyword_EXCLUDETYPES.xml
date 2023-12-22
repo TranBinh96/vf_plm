@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Import_Spec_Keyword_EXCLUDETYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies which SpecElement subclasses are restricted from the Import as single subtype list and Use keywords for import list of the Import Spec wizard.
+Valid Values:
+Accepts one or more strings as values. Each string must be the internal name of a valid subclass of the SpecElement business object.</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0AbstractNote</value>
+        <value>DC_Topic</value>
+        <value>DC_UnparsedDoc</value>
+        <value>DC_SkdGraphI</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

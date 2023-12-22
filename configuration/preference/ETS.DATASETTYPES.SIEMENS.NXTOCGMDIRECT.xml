@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ETS.DATASETTYPES.SIEMENS.NXTOCGMDIRECT" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference lists the applicable dataset types for the translator.</preference_description>
+      <context name="Teamcenter">
+        <value>UGMASTER</value>
+        <value>UGPART</value>
+        <value>UGALTREP</value>
+        <value>UGSCENARIO</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

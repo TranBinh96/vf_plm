@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEShowUnconfigdEffPref" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether to display BOM lines containing effectivity data that do not match the current revision rule, by default, when a structure is opened in Structure Manager.This site preference has a corresponding user preference of the same name. Users can set this user preference through the View-&gt;Show Unconfigured By Occurrence Effectivity menu command. The first time a user selects this option, a PSEShowUnconfigdEffPref user preference instance is created and stored in the user&apos;s BLOB file. User preferences take precedence over site preferences.There are some cases where you may want BOM lines to display at your site regardless of whether their variant conditions match the current variant rule, and yet you want to determine whether a given BOM line is configured. To do so, set the following properties in the Properties table as indicated to display an unconfigured BOM line:bl_is_variant is set to Ybl_variant_state is blank
+Valid Values:
+true - BOM lines are displayed regardless of whether their occurrence date effectivity data matches the current revision rule.
+false - BOM lines are hidden if their occurrence date effectivity data does not match the current revision rule.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

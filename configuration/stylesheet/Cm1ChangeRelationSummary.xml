@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=================================================================================
+Copyright 2019.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=================================================================================
+Filename: Cm1ChangeRelationSummary.xml
+
+Style sheet rendering for ChangeItem Relation summary.
+=================================================================================
+-->
+<subRendering>
+    <page titleKey="tc_xrt_Changes">
+        <section titleKey="tc_xrt_Changes" >
+            <objectSet source="S2P:CMHasProblemItem.ChangeItemRevision,S2P:CMHasSolutionItem.ChangeItemRevision,S2P:CMHasImpactedItem.ChangeItemRevision,S2P:CMReferences.ChangeItemRevision" sortdirection="descending"  sortby="last_mod_date" defaultdisplay="tableDisplay">
+                <tableDisplay>
+                    <property name="object_string" modifiable="false"/>
+                    <property name="object_desc" modifiable="false"/>
+                    <property name="ImanRelation.type_string" modifiable="false"/>
+                    <property name="CMClosure" modifiable="false"/>
+                    <property name="CMDisposition" modifiable="false"/>
+                    <property name="CMMaturity" modifiable="false"/>
+                </tableDisplay>
+                     <thumbnailDisplay/> 
+                <thumbnailDisplay/>
+                 <treeDisplay>
+                     <property name="object_string"/>
+                    <property name="ImanRelation.relation_type"/>
+                    <property name="CMClosure"/>
+                    <property name="CMDisposition"/>
+                    <property name="CMMaturity"/>
+                    <property name="object_desc"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="Cm1ShowCreateChangeInContext" renderingHint="commandbutton"/>
+                <command actionKey="newBusinessObjectContextualAction" commandId="Cm1AddToMyChanges" renderingHint="commandbutton"/>
+            </objectSet>
+        </section>
+     </page>
+</subRendering>

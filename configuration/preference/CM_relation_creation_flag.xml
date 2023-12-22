@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_relation_creation_flag" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if a newly-created in-context change item is automatically related to the latest item revision or a user-selected revision. You can set different values for change items and non-change items.
+Valid Values:
+ChangeItems=1 - Automatically creates a relation between the new change item and the latest revision of the selected existing change item.
+ChangeItems=0 - Forces the user to select the existing change item revision to be related to the new change item.
+NonChangeItems=1 - Automatically creates a relation between the new change item and the latest revision of the selected existing non-change item.
+NonChangeItems=0 - Forces the user to select the existing non-change item revision to be related to the new change item.</preference_description>
+      <context name="Teamcenter">
+        <value>ChangeItems=1</value>
+        <value>NonChangeItems=1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

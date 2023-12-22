@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Issue Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ISSUE_issuelist_page_size" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the number of issues displayed per page in an issue list in the Image Home view of Issue Manager.
+Valid Values:
+integer - The larger the number, the more issues displayed per page.</preference_description>
+      <context name="Teamcenter">
+        <value>15</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

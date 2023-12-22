@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ChangeRequestRevision_default_workflow_template" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the workflow that starts when a change notice revision is submitted.
+Valid Values:
+Any valid workflow type.</preference_description>
+      <context name="Teamcenter">
+        <value>ChangeItemRevisionDefaultWorkflowTemplate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

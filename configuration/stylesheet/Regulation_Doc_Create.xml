@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ItemCreate.xml
+
+    Style sheet rendering for Item creation.
+=======================================================================
+-->
+
+<rendering>   
+	<page title="Regulation Document Information" titleKey="tc_xrt_VF9_D_RegulationRevision">
+		<section titleKey="tc_xrt_properties">
+			<property name="object_name"/>
+			<property name="revision:vf9_Application"/>
+			<property name="revision:vf9_Status"/>
+			<property name="revision:vf9_reg_type"/>
+			<property name="revision:vf9_reg_title"/>
+			<property name="revision:vf9_reg_title_vn"/>
+<label text="hello world" />
+			<property name="revision:vf9_Priority" coloumn="220"/>
+			<property name="revision:vf9_reg_VN" coloumn="220"/>
+			<property name="revision:vf9_reg_English" coloumn="220"/>
+			<property name="revision:vf9_reg_others"/>
+			<property name="revision:vf9_Note"/>
+		</section>
+	</page>
+	<page title="Regulation Document Information" titleKey="tc_xrt_VF9_D_RegulationRevision">
+		<section titleKey="tc_xrt_properties">
+			<property name="revision:vf9_reg_subject" />
+			<property name="revision:vf9_issue_date"/>
+			<property name="revision:vf9_vehicle_cate_app_effect"/>
+			<property name="revision:vf9_effective_model"/>
+			<property name="revision:vf9_country_source_of_issue"/>
+			<property name="revision:vf9_importance"/>
+			<property name="revision:vf9_urgency"/>
+			<property name="revision:vf9_enforcement_timing"/>
+			<property name="revision:vf9_enforcement_basis"/>
+		</section>
+	</page>
+
+</rendering>

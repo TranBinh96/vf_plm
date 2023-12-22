@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="UNLOAD_TRIGGER_FLOOR" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Stops the automatic cleanup of unused objects from the server memory. Specifies (in kilobytes) what memory size must be reached to stop the unloading of unused objects from server memory after memory cleanup has begun.Automatic cleanup continues until the memory size specified by this preference is achieved. However, if the total size of unmovable object exceeds the floor amount, the specified memory size is not reached.For example, if objects cannot be removed because their life span does not meet the requirements specified by the UNLOAD_MINIMUM_LIFE preference, and the memory space consumed by these objects exceed the specified floor size, the specified memory size is not reached.Automatic cleanup of unused objects is enabled by default. This cleanup alleviates increased memory issues.Determining the optimum value for this preference requires investigation, and possibly experimentation in a working environment.
+Valid Values:
+Accepts any positive integer. The number must be higher than the value set for the UNLOAD_TRIGGER_CEILING preference. If an invalid value is set, the default value is used. InValid Values:
+A negative number
+A number lower than the value set for the UNLOAD_TRIGGER_CEILING preference
+Non-numerical characters</preference_description>
+      <context name="Teamcenter">
+        <value>5000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

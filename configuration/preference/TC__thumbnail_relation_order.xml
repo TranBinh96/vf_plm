@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="RAC">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC__thumbnail_relation_order" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the Relations and Properties (in order of preference) used to obtain the preview image source object for workspace objects.
+Valid values are Relations and Properties internal names, in order of priority.</preference_description>
+      <context name="Teamcenter">
+        <value>Thumbnail</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_Rendering</value>
+        <value>IMAN_Motion</value>
+        <value>IMAN_3D_snap_shot</value>
+        <value>TC_Attaches</value>
+        <value>Fnd0DiagramSnapshot</value>
+        <value>IMAN_Simulation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

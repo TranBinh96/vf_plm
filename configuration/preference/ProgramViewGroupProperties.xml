@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="ProgramViewGroupProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of attributes for schedule and schedule task objects displayed in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Valid Values:
+Schedule Task.complete_percent - Displays complete percent in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.actual_start_date - Displays actual start date in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.actual_finish_date - Displays actual finish date in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.work_complete - Displays work complete in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.ResourceAssignment - Displays resource assignment in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.object_desc - Displays object description in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.duration - Displays duration in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.object_name - Displays object name in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.priority - Displays priority in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.start_date - Displays start date in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.finish_date - Displays finish date in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.work_estimate - Displays work estimate in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.fnd0state - Displays state in the Grouping dialog box of the Schedule Manager application when a program view is opened.
+Schedule Task.fnd0status - Displays status in the Grouping dialog box of the Schedule Manager application when a program view is opened.</preference_description>
+      <context name="Teamcenter">
+        <value>ScheduleTask.complete_percent</value>
+        <value>ScheduleTask.actual_start_date</value>
+        <value>ScheduleTask.actual_finish_date</value>
+        <value>ScheduleTask.work_complete</value>
+        <value>ScheduleTask.ResourceAssignment</value>
+        <value>ScheduleTask.object_desc</value>
+        <value>ScheduleTask.duration</value>
+        <value>ScheduleTask.object_name</value>
+        <value>ScheduleTask.priority</value>
+        <value>ScheduleTask.start_date</value>
+        <value>ScheduleTask.finish_date</value>
+        <value>ScheduleTask.work_estimate</value>
+        <value>ScheduleTask.fnd0state</value>
+        <value>ScheduleTask.fnd0status</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

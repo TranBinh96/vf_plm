@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Mdl0AttributeGroupCreate.xml
+
+    Style sheet rendering for Mdl0AttributeGroup creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="Attribute Group Information" titleKey="tc_xrt_AttributeGroupInfo">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name"/>
+            <property name="object_desc" />
+        </section>
+    </page>
+</rendering>

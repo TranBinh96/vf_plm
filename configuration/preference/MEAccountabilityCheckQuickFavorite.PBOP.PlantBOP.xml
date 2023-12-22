@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAccountabilityCheckQuickFavorite.PBOP.PlantBOP" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines which Accountability Check Favorite is to be used to run easy update commands for the direction Product BOP to Plant BOP.  
+Value can be of any of the below two forms :
+a) &lt;uid&gt;:&lt;Favorite name&gt;
+b) &lt;uid&gt;
+where uid is the UID of the dataset and Favorite name is the name of the favorite.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

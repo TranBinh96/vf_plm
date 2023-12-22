@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client.Effectivity">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="APS_Show_Effectivity_Tabular_View" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether to show the &quot;Tabular Effectivity&quot; view (true) or the &quot;Range Effectivity&quot; view (false; default value).
+The &quot;Tabular Effectivity&quot; view supports only Unit effectivities. This preference is not applicable for Date effectivities, and the &quot;Range Effectivity&quot; view is used.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

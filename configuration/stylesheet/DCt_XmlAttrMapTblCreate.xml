@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: DCt_XmlAttrMapTblCreate.xml
+
+    Default style sheet for displaying DCt_XmlAttrMapTbl create
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+08/26/2010   tomaszew                Initial Version
+=======================================================================
+@<DEL>@ 
+-->
+
+<rendering>
+
+   <page title=" ">
+         <section titleKey="tc_xrt_properties">           
+            <property name="xamAttributeName"/>
+            <property name="xamConstantValue"/>
+            <property name="xamFieldSeparator"/>
+            <property name="xamFixedFieldLength"/>
+            <property name="xamFunction"/>
+            <property name="xamOmitEmptyAttribute"/>
+            <property name="xamPath"/>
+            <property name="ctm0ProcedureTagref"/>
+            <property name="ctm0xamCallbackName"/>
+        </section>
+    </page>
+
+</rendering>

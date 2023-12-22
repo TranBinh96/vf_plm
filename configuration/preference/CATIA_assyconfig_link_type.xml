@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_assyconfig_link_type" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the real name of the link type between the item revision and the Assembly Configuration dataset.</preference_description>
+      <context name="Teamcenter">
+        <value>Cat2AssyConfigLink</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

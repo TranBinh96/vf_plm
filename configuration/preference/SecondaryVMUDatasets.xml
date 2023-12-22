@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.DIS Adapter">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SecondaryVMUDatasets" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of non-VMU Dataset types that could contain VMU Datasets.</preference_description>
+      <context name="Teamcenter">
+        <value>UGMASTER</value>
+        <value>UGPART</value>
+        <value>UGALTREP</value>
+        <value>PDF</value>
+        <value>MSWordX</value>
+        <value>MSWord</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

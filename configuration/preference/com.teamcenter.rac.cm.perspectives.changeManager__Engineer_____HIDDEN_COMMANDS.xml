@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="com.teamcenter.rac.cm.perspectives.changeManager\\Engineer\\*\\HIDDEN_COMMANDS" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>No description is available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>,com.teamcenter.erp.integration.commands.scooterAssyTransfer,com.teamcenter.erp.integration.commands.scooterSuperTransfer,com.teamcenter.erp.integration.commands.MaterialCommand,com.teamcenter.erp.integration.commands.unitBOM,com.teamcenter.erp.integration.commands.scooterOperation,com.teamcenter.erp.integration.commands.exportReport,com.teamcenter.erp.integration.commands.mesOpTrans,com.teamcenter.erp.integration.commands.mesPlantTrans,com.teamcenter.erp.integration.commands.subContract,com.teamcenter.erp.integration.commands.ScooterMaterialCommand,com.teamcenter.erp.integration.commands.Configuration,com.teamcenter.erp.integration.commands.AssyBOMBOP,com.teamcenter.erp.integration.commands.FamilyAndOptions,com.teamcenter.erp.integration.commands.EngChange,com.teamcenter.erp.integration.commands.AssyBOM,com.teamcenter.erp.integration.commands.SuperBOM,com.teamcenter.erp.integration.commands.scooterPlant</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

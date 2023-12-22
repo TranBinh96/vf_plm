@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_itemtab_actions_list" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of available actions to display in the Actions section within the Item tab during a multi-selection.
+The value(s) of this preference must also be listed in the CATIA_savemanager_actions_list preference to be taken into account.
+Possible values: 
+main_body_geo : corresponds to &quot;Compute geometry for main body only&quot; option
+project : corresponds  to &quot;Project to assign&quot; option
+workflow : corresponds to &quot;Workflow to apply&quot; option</preference_description>
+      <context name="Teamcenter">
+        <value>main_body_geo</value>
+        <value>project</value>
+        <value>workflow</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

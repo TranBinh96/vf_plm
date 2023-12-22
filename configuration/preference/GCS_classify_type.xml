@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="GCS_classify_type" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether items/item revisions are created and classified for components with connection points. Siemens PLM Software recommends you set this preference to ItemRevision. When assigning connection points to nonclassifying classification objects (ICOs), a new classified object is created to receive the connection points.
+To make the target object a classified resource, the target ICO must classify a newly-created object, usually an item revision or a similar classified object type. Use this preference to define the target object&apos;s type. Siemens PLM Software recommends you set the following preferences to the same value as this preference: 
+MRMClassifyResource, ICS_classify_new, ICS_mapping_target_type.
+Valid Values:
+Accepts a single string as a value. Must be Item, ItemRevision, or a valid custom item or item revision type.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+        <value>VF9_D_StandardRevision</value>
+        <value>VF4_StandardPartRevision</value>
+        <value>VF4_DesignRevision</value>
+        <value>VF9_D_CertificatRevision</value>
+        <value>VF9_D_RegulationRevision</value>
+        <value>VF9_D_TestReportRevision</value>
+        <value>VF3_Scooter_partRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

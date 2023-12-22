@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOMWriter_export_key_properties" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether the multifield key (MFK) properties defined for objects are included in a BOMWriter export file. If your Teamcenter environment does not have objects that can have duplicate item_id attributes (MFK properties), you may set this preference to FALSE.
+Valid Values:
+true - All the multifield key properties for exported objects are included in the BOMWriter export file.
+false - Only a single key property for exported object is included in the BOMWriter export file.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_attribute_mapping" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maps LDAP attributes to Teamcenter attributes. The mappings control what information the synchronization tool sets in the Teamcenter user and person objects. For example:LDAP_attribute_mapping=
+LDAPPersonName
+cn
+%REPLACE_ME%
+LDAPEngUserId
+uid
+%REPLACE_ME%
+LDAPLastUpdate
+modifyTimestamp
+%REPLACE_ME%
+LDAPOsUser
+uid
+%REPLACE_ME%
+LDAPUserGroup
+%REPLACE_ME%
+Engineering
+LDAPUserRole
+%REPLACE_ME%
+%REPLACE_ME%
+
+Valid values:
+Accepts multiple strings, in pairs, as values. Each pair must contain valid LDAP and Teamcenter attributes.</preference_description>
+      <context name="Teamcenter">
+        <value>LDAPPersonName</value>
+        <value>cn</value>
+        <value>%REPLACE_ME%</value>
+        <value>LDAPEngUserId</value>
+        <value>uid</value>
+        <value>%REPLACE_ME%</value>
+        <value>LDAPLastUpdate</value>
+        <value>modifyTimestamp</value>
+        <value>%REPLACE_ME%</value>
+        <value>LDAPOsUser</value>
+        <value>uid</value>
+        <value>%REPLACE_ME%</value>
+        <value>LDAPUserGroup</value>
+        <value>%REPLACE_ME%</value>
+        <value>Engineering</value>
+        <value>LDAPUserRole</value>
+        <value>%REPLACE_ME%</value>
+        <value>%REPLACE_ME%</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

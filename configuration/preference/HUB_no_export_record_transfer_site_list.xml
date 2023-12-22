@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="HUB_no_export_record_transfer_site_list" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Prevents the distribution of export records when site ownership is transferred from the hub. Use this preference to hide sensitive site information from unauthorized sites.This preference is valid only for a hub site. When an export record is created at the importing site, the site objects are created if they do not already exist. As a result, information that may be confidential (such as the site ID, site name, and IP address) could be inadvertently distributed without this preference.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid site authorized to transfer site ownership from the hub.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

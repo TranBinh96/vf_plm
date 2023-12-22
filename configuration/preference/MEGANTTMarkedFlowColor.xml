@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEGANTTMarkedFlowColor" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default color a marked flow has in the representation of the Gantt chart viewer. For example, 0;0;0 represents the color black and 0;255;255 represents the color aqua.
+Valid Values:
+String of the format int;int;int with int:=0|1|2|..|255.</preference_description>
+      <context name="Teamcenter">
+        <value>255;94;94</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

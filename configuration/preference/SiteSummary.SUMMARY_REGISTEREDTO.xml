@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SiteSummary.SUMMARY_REGISTEREDTO" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the types to which the SiteSummary stylesheet can be applied.</preference_description>
+      <context name="Teamcenter">
+        <value>POM_imc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_fsf_host" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the IP address or the name of the host machine on which Autonomy File System Fetch is running. The host and port specified by the TC_fts_fsf_port preference are used by the FTS to send the import command to File System Fetch, which imports and indexes documents on the IDOL server.
+Valid Values:
+Accepts a single string as a value. Must be a valid IP address or host name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

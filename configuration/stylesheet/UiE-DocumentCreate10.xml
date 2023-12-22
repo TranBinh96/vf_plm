@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+Copyright (c) 2012 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: UiE-DocumentCreate10.xml
+
+New style sheet for creating documents for TC 10.1 
+===============================================================================
+-->
+
+<rendering>
+
+  <page title="Document Information" titleKey="tc_xrt_DocumentInformation">
+    <section titleKey="tc_xrt_properties">
+      <property name="object_name" />
+      <property name="object_desc" />
+      <separator/>
+      <property name="revision:DocumentTitle" />
+      <property name="revision:DocumentAuthor" />
+      <property name="revision:DocumentSubject" />
+    </section>
+  </page>
+
+</rendering>

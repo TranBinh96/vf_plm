@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2014. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: Civ0DM4Create.xml  
+   
+     Default style sheet for displaying DC_SkdDM Create 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+======================================================================= 
+@<DEL>@  
+--> 
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <section titleKey="tc_xrt_DataModuleCode">
+               <customPanel java="com.teamcenter.rac.contmgmts1000d40.wizards.DefaultValueDataModuleCodePanel"/>
+               <property name="revision:skditemloc" />
+               <property name="revision:civ0dmecode" />
+               <property name="revision:civ0dmeproducer" />
+               <property name="revision:civ0LearnCode" />
+               <property name="revision:civ0LearnEventCode" />
+            </section>
+            <separator/>
+        </column>
+        <column>
+            <property name="revision:skdtechname" />
+            <property name="revision:skdinfoname" />
+            <section titleKey="tc_xrt_OtherDataModuleDetails">
+                <customPanel java="com.teamcenter.rac.contmgmts1000d40.wizards.DefaultValueOtherDataModuleDetailsPanel"/>
+                <property name="revision:skdremarks" />
+            </section>
+        </column>
+        <customPanel java="com.teamcenter.rac.contmgmts1000d40.wizards.LanguagePanel"/>
+        <separator/>  
+        <customPanel java="com.teamcenter.rac.contmgmtbase.wizards.RelationSelectionPanel"/> 
+   </page>
+   
+</rendering>

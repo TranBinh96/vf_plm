@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF4_ReleaseNumRevision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>VF4_Packaged_Item_Rel</value>
+        <value>IMAN_snapshot</value>
+        <value>IMAN_reference</value>
+        <value>CMHasProblemItem</value>
+        <value>CMHasSolutionItem</value>
+        <value>C3D_View</value>
+        <value>CAEAnalysis</value>
+        <value>MEProcess</value>
+        <value>MESetup</value>
+        <value>PR4D_cad</value>
+        <value>Sci0IMDSView</value>
+        <value>catia</value>
+        <value>catia_multi_model</value>
+        <value>view</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

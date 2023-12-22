@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_user_defined_units_of_measure" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies a single-value mapping property that contains the value to prepopulate the Usage_Product note displayed in the Enter Part Data pane of the Add Part to Product wizard.
+Valid Values:
+METERS
+MILLIMETERS
+INCHES
+UNKNOWN</preference_description>
+      <context name="Teamcenter">
+        <value>UNKNOWN</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

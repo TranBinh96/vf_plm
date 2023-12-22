@@ -1,0 +1,54 @@
+<rendering>
+    <header>
+        <image source = "type"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "release_status_list" renderingHint = "label"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title = "Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title = "Properties">
+                <property name = "object_name"/>
+                <property name = "object_desc"/>
+                <command commandId = "com.teamcenter.rac.properties" titleKey = "tc_xrt_moreProperties"/>
+            </section>
+        </column>
+    </page>
+        <page titleKey = "tc_xrt_QAInformation" title = "Conflict Mineral Queries Information">
+        <column>
+            <section titleKey= "tc_xrt_PartLevelQuestions" title = "Part Level Queries">
+                <objectSet source = "Scp0AbstractDeclCMDResponse.Scp0PartCMDQuestion" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>                        
+                        <property name = "scp0Statement"/>
+                        <property name = "Scp0AbstractDeclCMDResponse.scp0Answer"/>    
+                        <property name = "scp0ParentQuestionList"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>                       
+                        <property name = "scp0Statement"/>
+                        <property name = "Scp0AbstractDeclCMDResponse.scp0Answer"/>                
+                        <property name = "scp0ParentQuestionList"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+         <section titleKey= "tc_xrt_CompanyLevelQuestions" title = "Company Level Queries">
+                <objectSet source = "Scp0AbstractDeclCMDResponse.Scp0OrgCMDQuestion" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "scp0Statement"/>
+                        <property name = "Scp0AbstractDeclCMDResponse.scp0Answer"/> 
+                        <property name = "scp0ParentQuestionList"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "scp0Statement"/>
+                        <property name = "Scp0AbstractDeclCMDResponse.scp0Answer"/> 
+                        <property name = "scp0ParentQuestionList"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+    </page>
+    </rendering>

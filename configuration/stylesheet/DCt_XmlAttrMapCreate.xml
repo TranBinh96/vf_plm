@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: DCt_XmlAttrMapCreate.xml
+
+    Default style sheet for displaying DCt_XmlAttrMap Create.
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date             Name                      Description of Change
+08/26/2010   tomaszew                Initial Version
+=======================================================================
+@<DEL>@ 
+-->
+
+<rendering>
+
+   <page title=" ">
+         <section name="tc_xrt_properties">
+            <property name="object_name" />          
+            <property name="adminComment" />
+         </section>
+   </page>
+</rendering>

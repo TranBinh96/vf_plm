@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_dynamiccrosshighlight_option" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Toggle on/off  the Dynamic Cross Highlight button in the Save Manager panel.
+Possible values:
+- TRUE = &quot;Dynamic Cross Highlight&quot; option is ON.
+- FALSE = &quot;Dynamic Cross Highlight&quot; option is OFF.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

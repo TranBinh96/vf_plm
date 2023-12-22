@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE0MDOAnalysisRevision_Open_Analysis_Properties" type="String" array="true" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Specifies the list of properties to be displayed in the search area for Multi-disciplinary design optimization Analysis Revision in the Open Analysis dialog.</preference_description>
+      <context name="Teamcenter">
+        <value>owning_group</value>
+        <value>owning_user</value>
+        <value>object_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_default_variant_condition" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default variant condition for NULL Variant Projects.
+Valid values are under the format &quot;ItemInfo:OptionName:OptionValue&quot;, where: 
+* In a non-MFK (Multifield key) environment, &quot;ItemInfo&quot; is the ID of any item that exists in the database (e.g. &quot;GMC00723:Color:Red&quot;).
+* In an MFK environment, &quot;ItemInfo&quot; is the key of any item which uniquely identifies the item (e.g. &quot;item_id=GMC00723,object_name=topitem,object_type=Item:Color:Red&quot;).
+The key is a delimited string which contains name/value pairs of item attributes usually of the form attr1=value1,attr2=value2.... etc, where attr1, attr2 are property internal names 
+(e.g. &quot;item_id=GMC00723,object_name=topitem,object_type=Item&quot;).
+To include a delimiter character (e.g. &apos;,&apos; or &apos;=&apos;) in a key, it should be escaped by a backslash character (&apos;\&apos;). 
+E.g.:
+* if the item ID contains an equals sign (123=456), the key string would be: &quot;item_id=123\=456,object_type=Document&quot;.
+* if the item ID contains a backslash (123\456), the key string would be: &quot;item_id=123\456,object_type=Document&quot;.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

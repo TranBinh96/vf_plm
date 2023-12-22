@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.CAD BOM Alignment">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="FND0_PRODUCTEBOMREVISION_TYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of ItemRevision Types qualified as ProductEBOM Types defined by BO constant Fnd0PartDesignQualifier. This is a system managed preference and should not be edited manually. Use bmide_modeltool utility for populating the values.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Appearance Configuration Background">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="APPR_allow_background_updates" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Deprecated. Whether to allow the appearance_updater to perform background updates
+(using its &quot;-background&quot; flag).</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+================================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0CreateDeclRequestSummary.xml
+
+Default activeworkspace style sheet for displaying Create Declaration Request properties.
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_type"/>
+        <property name="last_mod_date"/>
+    </header>
+    <page titleKey = "tc_xrt_Overview" title = "Overview">
+        <column>
+            <section titleKey = "Output" title = "Output">
+                <tableProperty name="scp0TargetObjectSummary" sortby="scp0ifail" sortdirection="ascending">
+                    <property name="scp0TargetObjectRef"/>
+                    <property name="scp0ifail"/>
+                    <property name="scp0PartDeclRevisionRef"/>
+                    <property name="scp0Message"/>
+                </tableProperty>
+                <separator/>
+            </section>
+            <section titleKey = "Inputs" title = "Inputs">
+                <tableProperty name="scp0AbstractDeclData" sortby="scp0StringValue" sortdirection="ascending">
+                    <property name="scp0PivotObjectRef"/>
+                    <property name="scp0StringValue"/>
+                </tableProperty>
+                <separator/>
+            </section>
+            <section titleKey = "tc_xrt_properties" title = "Properties">
+                <property name="object_name" modifiable="false"/>
+                <property name="object_desc" modifiable="false"/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="scp0Regulation" renderingHint="objectlink" modifiable="false"/>
+                <property name="scp0SupportingDocRef" renderingHint="objectlink" modifiable="false"/>
+                <property name="creation_date"/>
+                <property name="last_mod_date"/>
+                <separator/>
+                <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+            </section>
+        </column>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+        <objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="lis0site"/>
+                <property name="lis0serviceProvider"/>
+                <property name="relation"/>
+                <property name="last_mod_date"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out_user"/>
+            </tableDisplay>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+            <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </page>
+    <page titleKey = "tc_xrt_AuditLogs" title = "Audit Logs" visibleWhen="{pref:TC_audit_manager_version}==3">
+        <command titleKey="tc_xrt_ExportToExcel"  actionKey="exportExcelAction" commandId = "com.teamcenter.rac.exportAuditSummaryToExcel" renderingHint="commandbutton"/>
+        <command titleKey="tc_xrt_ExportToCSV" actionKey="exportCSVAction" commandId = "com.teamcenter.rac.exportAuditSummaryToCSV" renderingHint="commandbutton"/>
+        <section titleKey = "tc_xrt_GeneralLogs" title = "General Logs" initialstate="collapsed">
+            <customPanel java="com.teamcenter.rac.auditmanager.CheckoutHistoyLinkPanel"/>
+            <objectSet source="fnd0GeneralAuditLogs.Fnd0GeneralAudit" defaultdisplay="tableDisplay" sortby="fnd0LoggedDate" sortdirection="ascending">
+                <tableDisplay>
+                    <property name="fnd0LoggedDate"/>
+                    <property name="object_type"/>
+                    <property name="fnd0EventTypeName"/>
+                    <property name="object_name"/>
+                    <property name="fnd0PrimaryObjectID"/>
+                    <property name="fnd0PrimaryObjectRevID"/>
+                    <property name="fnd0UserId"/>
+                    <property name="fnd0GroupName"/>
+                    <property name="fnd0RoleName"/>
+                    <property name="sequence_id"/>
+                    <property name="fnd0ChangeID"/>
+                    <property name="fnd0Reason"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

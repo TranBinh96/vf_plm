@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_ExcludeTabsFromBackgroundWorkingContext" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>List of secondary work area tabs to be ignored by the system while restoring structure from background working context. The tab name can be the display name of the page.
+This behaviour will not affect retrieval of secondary work area tabs in the saved working context.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

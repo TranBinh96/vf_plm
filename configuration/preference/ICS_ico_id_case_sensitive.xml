@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_ico_id_case_sensitive" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the classification object (ICO) ID is case sensitive. Set this preference to prevent the creation of IDs that have the same characters but different case, such as Abc and ABC.
+Valid Values:
+true - The classification object ID is case sensitive.
+false - The classification object ID is not case sensitive.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

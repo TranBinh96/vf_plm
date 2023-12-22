@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_UI_LOVControl_SizingPercentage" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the percentage to be used for the calculation of the threshold width for LOV Controls in the Rich client.
+This percentage is applied against the ScreenSize or ParentSize which is specified in the preference TC_UI_LOVComboBox_SizingBasedOn.
+Valid values should be between 30 and 100 (inclusive). If the specified value is outside this range, a default percentage of 70 would be used.
+The default value for this user preference is &quot;70&quot;</preference_description>
+      <context name="Teamcenter">
+        <value>70</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.CAD BOM Alignment">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PartStructureDepthForCompletenessCheck" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines how many levels Teamcenter traverses when you perform a completeness check of the part structures resulting from CAD BOM alignment.
+Valid Values:
+Accepts any numeric value. If you enter 0 or a negative value, a completeness check is not performed.</preference_description>
+      <context name="Teamcenter">
+        <value>10000</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

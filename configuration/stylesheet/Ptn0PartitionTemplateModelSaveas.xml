@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Ptn0PartitionTemplateModelSaveas.xml
+
+    Style sheet rendering for Ptn0PartitionTemplateModel save as.
+=======================================================================
+-->
+
+<rendering>
+    <page title="Partition Template Information" titleKey="tc_xrt_PartitionTemplateModelInfo">
+        <section titleKey="tc_xrt_properties">
+            <property name="mdl0model_id"/>
+            <property name="object_name"/>
+            <property name="object_desc" />
+        </section>
+    </page>
+</rendering>

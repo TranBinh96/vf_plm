@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0OptionsDataSortProperty" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the property to be used for sorting Groups, Families and Features in views within the Product Configurator application.</preference_description>
+      <context name="Teamcenter">
+        <value>cfg0Sequence</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General.Cortona3D.Distribute">
+    <category_description>Cortona3D Preferences</category_description>
+    
+               <preference name="Cortona3D_D_Template" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Cortona3D distribute system templates.</preference_description>
+      <context name="Teamcenter">
+        <value>DITA_1_3=DITA OASIS 1.3 Specification</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

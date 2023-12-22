@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.REQ">
+    <category_description>Active Workspace preferences</category_description>
+    
+               <preference name="AWC_ReqImportAsHtml" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates the visiblity of the &quot;Enable editing&quot; check box on import specification panel in Active Workspace.
+Valid values are:
+true : User will not be shown enable editing check box on import specification panel and requirements will be imported as html. This is the default value.
+false: User will see enable editing check box on import specification panel and has control to choose html or word during import.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

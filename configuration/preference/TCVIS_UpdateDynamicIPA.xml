@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCVIS_UpdateDynamicIPA" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Triggers the re-calculation of Dynamic In-Process Assembly for the Process Structure that will be openend in Teamcenter Visualization.
+The default value is true.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

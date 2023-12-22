@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Substance Compliance">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Scp0PartLRDDeclRevision.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of properties to be displayed for the Lab Report Part Declaration Revision object (Scp0PartLRDDeclRevision) in the List or the List with Summary views in Active Workspace.</preference_description>
+      <context name="Teamcenter">
+        <value>scp0LabReportID</value>
+        <value>scp0LabReportType</value>
+        <value>scp0MaterialLabRepDate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

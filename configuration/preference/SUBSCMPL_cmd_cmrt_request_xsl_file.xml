@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_cmd_cmrt_request_xsl_file" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the path to the XSL file used to convert convert TC-XML file into conflict mineral declaration data XML file for Vendor or Vendor Part. This file is used to generate a Conflict Mineral Reporting Template (CMRT) file to be sent with the declaration request.</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">$TC_DATA/subscmpl_data/xsl/tcxml_to_cmrt_request.xsl</value>
+        <value platform="WNT">%TC_DATA%\subscmpl_data\xsl\tcxml_to_cmrt_request.xsl</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

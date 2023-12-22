@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_max_cnf_count_for_condition_normalization" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the maximum number of sub-expressions that are accepted as a result from normalizing a configuration expression such as a variant condition.
+This normalization process is executed as part of saving the expression and automatically transforms the configuration expression into one or more Conjunctive Normal Forms (CNF) that are optimized for evaluating configurtion criteria. The number of sub-expressions that result from this normalization depends on the nature and complexity of the configuration expression.
+If the normalization process produces more sub-expressions than defined by this preference, a different strategy is applied which (usually significantly) reduces the number of sub-expressions, but which is less optimal when evaluating configurtion criteria.
+Empirical analysis suggests that a good value is 500 to reach a reasonable balance between scalability (by setting this upper bound for the sub-expression count) and performance (during
+configuration criteria evaluation).
+Valid values are all positive integer numbers greater or equal to 2. However, values less than 10 or greater than 10000 are not practical.</preference_description>
+      <context name="Teamcenter">
+        <value>500</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

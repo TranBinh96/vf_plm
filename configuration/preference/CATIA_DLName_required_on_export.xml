@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_DLName_required_on_export" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set the CATIA_DLName_required_on_export variable to determine management of DLNames during the Export process.
+Set the variable to:
+- NO: Do not require DLNames to export an assembly
+- VALIDATE: Do not require DLNames to export an assembly, but validate during the Export Spreadsheet Creation process.
+- YES: Require DLNames to export an assembly and validate.</preference_description>
+      <context name="Teamcenter">
+        <value>NO</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

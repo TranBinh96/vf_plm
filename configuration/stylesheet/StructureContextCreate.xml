@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: StructureContextCreate.xml
+
+    Style sheet rendering for StructureContext creation.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="StructureContext Information" titleKey="tc_xrt_StructureContextInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="configuration_context" renderingHint = "searchobjectbutton"/>
+        </section>
+    </page>
+
+</rendering>

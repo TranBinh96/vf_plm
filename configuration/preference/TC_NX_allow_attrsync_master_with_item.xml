@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_allow_attrsync_master_with_item" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Use with attribute synchronization functionality. Determines whether Teamcenter allows synchronization of UGMASTER attributes mapped to item-level properties from Teamcenter Integration 
+for NX to Teamcenter.By default, attributes mapped to the properties of the Item Master form attached to item objects (not item revisions) will synchronize from Teamcenter to Teamcenter Integration for NX; 
+but not in the reverse direction. These attributes are read-only in Teamcenter Integration for NX after the first execution of the NX Save command from the Teamcenter Integration for NX application.Permitting 
+mapping in the reverse direction (Teamcenter Integration for NX to Teamcenter) allows mapping attributes to the properties of the Item Master form stored at the item level. This must not be done. Mapping at the 
+item level may result in loss of data and/or the appearance of incorrect data.
+Valid Values:
+YES - Attributes mapped to the properties of the Item Master form will synchronize bidirectionally between Teamcenter Integration for NX and Teamcenter.This mapping allows multiple item revision objects (Rev/A, Rev/B, Rev/C, 
+and so on) to overwrite the values stored on the Item Master form at the item level. Mappings at the item level may result in loss of data and/or the appearance of incorrect data.
+NO - Attributes mapped to the properties of the Item Master form will synchronize only from Teamcenter to Teamcenter Integration for NX.</preference_description>
+      <context name="Teamcenter">
+        <value>no</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

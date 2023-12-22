@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_PART_ATTRIBUTES_ESCOOTER" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Using in command Escooter Update Part Attributes</preference_description>
+      <context name="Teamcenter">
+        <value>vf4_item_make_buy</value>
+        <value>vf4_itm_after_sale_relevant</value>
+        <value>vf4_es_model_veh_line</value>
+        <value>vf4_orginal_part_number</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

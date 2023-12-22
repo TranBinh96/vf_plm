@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEVariantsMode" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines which mode of variants functionality is used: modular, legacy, or a hybrid of both modes.The legacy variants functionality does not provide all the encapsulation advantages that the modular variants functionality enforces, nor is it possible to create variant items within a structure containing legacy variants.
+The hybrid mode allows legacy variants to be displayed, edited and configured using the modular variants dialog boxes. This is the recommended mode during migration from legacy to modular variants functionality. Once the migration is complete, this preference setting should be changed to modular.
+Valid Values:
+modular - Modular variant functionality is used. Legacy variant data cannot be viewed, edited, or configured.
+hybrid - A hybrid of modular and legacy variant functionality is used, allowing variant modules to be defined in structures containing legacy variant data.
+legacy - Legacy variant functionality is used.</preference_description>
+      <context name="Teamcenter">
+        <value>hybrid</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

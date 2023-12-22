@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_check_env" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Manage or not multiple Catia environment
+Pssible values :
+NONE - Multiple CATIA environments and CATIA revisions are not managed
+REV - The CATIA version is only managed. The CATIA version and environment is written to the form during a Save operation. The CATIA version is written to the form during a Load operation. CATIA_CE_EnvList and CATIA_CE_Alias_xxx should be defined
+ENV - The CATIA version and environment are managed. The CATIA version and environment are written to the form during a Save operation. The CATIA version is written to the form during a Load operation. If a CATIA session does not exist, the environment written in the form of the root is used to launch CATIA with the correct environment. CATIA_CE_EnvList and CATIA_CE_Alias_xxx should be defined</preference_description>
+      <context name="Teamcenter">
+        <value>NONE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

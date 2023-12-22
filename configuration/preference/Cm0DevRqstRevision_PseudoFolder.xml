@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cm0DevRqstRevision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of pseudo folders and their corresponding relations for the Cm0DevRqstRevision object.</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasProblemItem</value>
+        <value>CMHasImpactedItem</value>
+        <value>CMReferences</value>
+        <value>CMHasWorkBreakdown</value>
+        <value>CMImplements</value>
+        <value>CMImplementedBy</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

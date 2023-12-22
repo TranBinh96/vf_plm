@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Awp0CompanyContactCreate.xml
+
+    Style sheet rendering for CompanyContact creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="Properties" titleKey="tc_xrt_properties">
+        <section titleKey="tc_xrt_properties">
+            <property name="title" />
+            <property name="first_name" />
+            <property name="last_name" />
+            <property name="phone_business" />
+            <property name="phone_home" />
+            <property name="phone_mobile" />
+            <property name="email_address" />
+            <property name="object_desc" />
+            <inject type="dataset" src="Scw0CompanyContactCreate" />
+            <inject type="dataset" src="Pka1Pka0CompanyContactTCUser" />
+        </section>
+    </page>
+</rendering>

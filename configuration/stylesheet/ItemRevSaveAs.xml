@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+======================================================================= 
+	Copyright 2012. 
+	Siemens Product Lifecycle Management Software Inc. 
+	All Rights Reserved.
+======================================================================= 
+	Filename: ItemRevSaveAs.xml 
+	
+	Style sheet rendering for Item Revision saveAs. 
+======================================================================= 
+-->
+
+<rendering>
+   <page title="Item Revision Information" titleKey="tc_xrt_ItemInformation">
+      <property name="item_revision_id" renderingHint="autoassignrevid" />
+      <property name="object_name" />
+      <property name="object_desc" />
+      <property name="fnd0CheckoutOnSaveAs" renderingHint="checkbox"/>
+   </page>
+</rendering>   

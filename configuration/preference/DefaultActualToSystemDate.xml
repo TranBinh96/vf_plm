@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="DefaultActualToSystemDate" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether system date or scheduled date is used when initially setting actual start date or actual end date, when the user marks a task as in progress or complete, respectively. This preference is used with Schedule Manager.
+Valid Values:
+True - system date is used as the default date set in actual start date or actual end date.
+False - scheduled date is used as the default date set in actual start date or actual end date.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

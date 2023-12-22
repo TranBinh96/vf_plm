@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ODS_multiprocess_idle_subprocess_timeout" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the length of time a multiprocess subprocess can be idle before it is taken out of service and terminated. Used when the Object Directory Services (ODS) is running in multiprocess mode. In this mode, the ODS maintains a minimum number of subprocesses to respond to client requests. Additional subprocesses are created on demand, up to a maximum number (defined by the ODS_multiprocess_max_subprocess_count preference) 
+when the number of concurrent outstanding client requests exhaust the capacity of the minimum number of subprocesses. This preference&apos;s idle timeout setting applies to the subprocesses created on demand. The timeout is specified in minutes.
+Valid Values:
+Any positive integer.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

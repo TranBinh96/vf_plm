@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Column">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QSEARCH_queue_recurring_background_updates" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether to create a recurring dispatcher request for qsearch_process_queue.The QSEARCH_foreground_processing_halted preference must be set to true before setting this preference. Recurring dispatcher requests will be executed on a regular time interval by dispatcher. You may also set the following two preferences to specify the time interval and life span of the recurring dispatcher request: QSEARCH_recurring_background_update_survival_time and QSEARCH_recurring_background_update_interval.
+Valid Values:
+True   A recurring dispatcher request is created.
+False  A dispatcher request is created, but it is not a recurring request.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

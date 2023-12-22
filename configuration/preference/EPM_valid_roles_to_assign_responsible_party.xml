@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPM_valid_roles_to_assign_responsible_party" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the list of privileged users allowed to reassign the Responsible Party responsibility of a task. Accepts multiple strings as values. Each string must be one of the following values:
+responsible_party - Allows the current Responsible Party.
+active_surrogate - Allows the current surrogate user.
+task_owner - Allows the owning user of the workflow process.
+task_owning_group - Allows all users belonging to the group of the owning user.
+world - Allows all users.
+privileged - Allows the following users: Current task owner, Responsible Party, All Administrative users
+group::role - Allows members of a specific group and role. Accepts following format: group::role where group is valid group name and role is a valid role name.
+This preference will be deprecated from 10.1.2.2 and the assign action will be performed on bmide condition &apos;Fnd0AssignAccessPrivilege&apos; evaluation.</preference_description>
+      <context name="Teamcenter">
+        <value>world</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

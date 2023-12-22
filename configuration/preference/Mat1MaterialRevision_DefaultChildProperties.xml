@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mat1MaterialRevision_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed as children of the material revision node.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_master_form_rev</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_reference</value>
+        <value>IMAN_MEView</value>
+        <value>IMAN_vi_sos</value>
+        <value>IMAN_external_object_link</value>
+        <value>IMAN_specification</value>
+        <value>TC_WorkContext_Relation</value>
+        <value>TC_AuditLog</value>
+        <value>TC_Is_Represented_By</value>
+        <value>release_status_list</value>
+        <value>Mat1UsesSubstance</value>
+        <value>mat1Parameters</value>
+        <value>mat1InheritedParameters</value>
+        <value>mat1MatClassifications</value>
+        <value>mat1MatCatalogRevisions</value>
+        <value>Mat1HasAlternateMaterial</value>
+        <value>mat1ExtendsMaterial</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

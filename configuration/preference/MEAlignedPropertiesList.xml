@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAlignedPropertiesList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the supported BOM line properties for alignment initialization, out-of-sync detection and synchronization. This is site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_abs_occ_id</value>
+        <value>bl_occ_type</value>
+        <value>bl_plmxml_abs_xform</value>
+        <value>bl_condition_tag</value>
+        <value>bl_formula</value>
+        <value>VF3_purchase_lvl_vf</value>
+        <value>VF3_main_module</value>
+        <value>VF3_module_group</value>
+        <value>VF3_module_name</value>
+        <value>VF3_pos_ID</value>
+        <value>bl_quantity</value>
+        <value>bl_occurrence_name</value>
+        <value>bl_all_notes</value>
+        <value>VF3_torque_info</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

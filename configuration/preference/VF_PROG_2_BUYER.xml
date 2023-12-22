@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_PROG_2_BUYER" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Define buyer for each Module Group of each program 
+Syntax: Program;Module1=userId1;Module2=userId2……
+VFe32;BODY_IN_WHITE=BIW-DC.Direct Pur.Purchase.VINFAST/TLL Buyer/tllsuntao;DOORS_AND_CLOSURES=BIW-DC.Direct Pur.Purchase.VINFAST/TLL Buyer/tllsuntao;ELECTRIC_ELECTRONICS=EE.Direct Pur.Purchase.VINFAST/TLL Buyer/tllcaijun;EXTERIOR=EXT-AFS.Direct Pur.Purchase.VINFAST/TLL Buyer/tllwujiuxi;INTERIOR=INT.Direct Pur.Purchase.VINFAST/TLL Buyer/tllwujiuxi;POWERTRAIN=PWT-CHS.Direct Pur.Purchase.VINFAST/TLL Buyer/tllguanyongjia;CHASSIS=PWT-CHS.Direct Pur.Purchase.VINFAST/TLL Buyer/tllguanyongjia;BATTERY_PACK=BATTERY_PACK.Direct Pur.Purchase.VINFAST/TLL Buyer/tllcaijun;STANDARD=STANDARD.Direct Pur.Purchase.VINFAST/TLL Buyer/tllguanyongjia;SEATS=SEATS.Direct Pur.Purchase.VINFAST/TLL Buyer/tllwujiuxi;SEATS_AND_RESTRAINTS=SEATS_AND_RESTRAINTS.Direct Pur.Purchase.VINFAST/TLL Buyer/tllwujiuxi;3_IN_1_PDU_DCDC_OBC=3_IN_1_PDU_DCDC_OBC.Direct Pur.Purchase.VINFAST/TLL Buyer/tllcaijun</preference_description>
+      <context name="Teamcenter">
+        <value>VFe32;BODY_IN_WHITE=BIW-DC.Direct Pur.Purchase.VINFAST/TLL Buyer/tllsuntao;DOORS_AND_CLOSURES=BIW-DC.Direct Pur.Purchase.VINFAST/TLL Buyer/tllsuntao;ELECTRIC_ELECTRONICS=EE.Direct Pur.Purchase.VINFAST/TLL Buyer/tllcaijun;EXTERIOR=EXT-AFS.Direct Pur.Purchase.VINFAST/TLL Buyer/tllwujiuxi;INTERIOR=INT.Direct Pur.Purchase.VINFAST/TLL Buyer/tllwujiuxi;POWERTRAIN=PWT-CHS.Direct Pur.Purchase.VINFAST/TLL Buyer/tllguanyongjia;CHASSIS=PWT-CHS.Direct Pur.Purchase.VINFAST/TLL Buyer/tllguanyongjia;BATTERY_PACK=BATTERY_PACK.Direct Pur.Purchase.VINFAST/TLL Buyer/tllcaijun;STANDARD=STANDARD.Direct Pur.Purchase.VINFAST/TLL Buyer/tllguanyongjia;SEATS=SEATS.Direct Pur.Purchase.VINFAST/TLL Buyer/tllwujiuxi;SEATS_AND_RESTRAINTS=SEATS_AND_RESTRAINTS.Direct Pur.Purchase.VINFAST/TLL Buyer/tllwujiuxi;3_IN_1_PDU_DCDC_OBC=3_IN_1_PDU_DCDC_OBC.Direct Pur.Purchase.VINFAST/TLL Buyer/tllcaijun</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

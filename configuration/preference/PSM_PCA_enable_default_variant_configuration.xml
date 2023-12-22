@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Configurator Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSM_PCA_enable_default_variant_configuration" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables default configuration to consider Product Configurator authored constraints while opening the Product structure 
+Valid values are:
+* false: Product Structure will not be configured using Product Configurator authored constraints, while opening. This is the default value.
+* true: Product Structure will be configured using Product Configurator authored constraints, while opening.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

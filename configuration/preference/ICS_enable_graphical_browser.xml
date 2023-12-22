@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_enable_graphical_browser" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the Graphical Browser tab in Classification and the Classification Search Dialog. You can browse through the classification hierarchy by viewing thumbnail graphics representing each class.
+Valid Values:
+true - Makes the graphical browser tab visible in the hierarchy pane.
+false - Removes the Graphical Browser tab from the user interface.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

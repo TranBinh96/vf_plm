@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_attribute_mapping_unit_support" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the dataset and item types for which classification unit support, including optimization, is active when mapping attributes to NX. If you do not set this value, when you map an attribute whose value is 100,000 mm to an NX attribute, only the value 100,000 is transferred. If you set this preference for the object type that you map, and the value is optimized in Teamcenter, the value 0.1 m is transferred to NX.
+Valid Values:
+List of valid Teamcenter item types and dataset types. For example:
+EDAComAllegro (dataset type)
+EDAComPart (item type)
+UGMASTER (dataset type)
+Mfg0MEResource (item type)</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

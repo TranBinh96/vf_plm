@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=====================================================================================
+                Copyright (c) 2015 Siemens Product Lifecycle Management Software Inc.
+                   Unpublished - All Rights Reserved
+=====================================================================================
+
+    Filename: Awp0ItemRevRevise.xml
+
+    This is the Revise stylesheet for ItemRevision data types.
+ -->
+
+<rendering>
+    <page>
+        <section>
+           <property name="item_revision_id" />
+           <property name="object_name" />
+           <property name="object_desc" />
+           <inject type="dataset" src="Ads1CurrentCageCodeProperty"/>
+           <inject type="dataset" src="Cm1ChangeContextProviderForSaveAsAndRevise"/>
+        </section>
+    </page>
+</rendering>

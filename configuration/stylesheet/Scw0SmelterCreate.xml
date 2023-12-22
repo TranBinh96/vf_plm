@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0SmelterCreate.xml
+
+Default activeworkspace stylesheet for Smelter create.
+-->
+<rendering>
+  <page>
+    <section>
+      <property name="item_id" />
+      <property name="revision:item_revision_id" />
+      <property name="object_name"/>
+      <property name="object_desc" />
+      <property name="scp0Metal" />
+      <property name="scp0SmelterLocation" />
+      <property name="scp0Identity" />
+    </section>
+  </page>
+</rendering>

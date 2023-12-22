@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDCActivityColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of column names that will be shown for activities in IDC Attachment tree table.</preference_description>
+      <context name="Teamcenter">
+        <value>me_cl_display_string</value>
+        <value>me_cl_object_desc</value>
+        <value>me_cl_object_type</value>
+        <value>start_time</value>
+        <value>time</value>
+        <value>calc_start_time</value>
+        <value>calc_time</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

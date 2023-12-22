@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VINF_JES_Configuration">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VF_JES_Assignment_GL_Shift_1" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>ShopName_LineName=username01;username02</preference_description>
+      <context name="Teamcenter">
+        <value>GA Shop_PM=ga_group_leader_3</value>
+        <value>GA Shop_C1=ga_group_leader_2</value>
+        <value>GA Shop_C2=ga_group_leader_2;ga_group_leader_3</value>
+        <value>GA Shop_C3=ga_group_leader_1</value>
+        <value>GA Shop_FM=ga_group_leader_1</value>
+        <value>GA Shop_ED=ga_group_leader_3</value>
+        <value>GA Shop_F1=ga_F1_group leader_6;ga_F1_group leader_5</value>
+        <value>GA Shop_F2=ga_F2_group leader_7</value>
+        <value>GA Shop_F2=ga_F2_group leader_8</value>
+        <value>GA Shop_F2=ga_F2_group leader_9</value>
+        <value>GA Shop_WA=ga_F2_group leader_7</value>
+        <value>GA Shop_WA=ga_F2_group leader_8</value>
+        <value>GA Shop_WA=ga_F2_group leader_9</value>
+        <value>GA Shop_DVT=ga_F2_group leader_7</value>
+        <value>GA Shop_DVT=ga_F2_group leader_8</value>
+        <value>GA Shop_DVT=ga_F2_group leader_9</value>
+        <value>GA Shop_WT=ga_F2_group leader_7</value>
+        <value>GA Shop_WT=ga_F2_group leader_8</value>
+        <value>GA Shop_WT=ga_F2_group leader_9</value>
+        <value>GA_PM=ga_group_leader_3</value>
+        <value>GA_C1=ga_group_leader_2</value>
+        <value>GA_C2=ga_group_leader_2;ga_group_leader_3</value>
+        <value>GA_C3=ga_group_leader_1</value>
+        <value>GA_FM=ga_group_leader_1</value>
+        <value>GA_ED=ga_group_leader_1</value>
+        <value>GA_F1=ga_F1_group leader_6;ga_F1_group leader_5</value>
+        <value>GA_F2=ga_F2_group leader_7</value>
+        <value>GA_F2=ga_F2_group leader_8</value>
+        <value>GA_F2=ga_F2_group leader_9</value>
+        <value>GA_WA=ga_F2_group leader_7</value>
+        <value>GA_WA=ga_F2_group leader_8</value>
+        <value>GA_WA=ga_F2_group leader_9</value>
+        <value>GA_DVT=ga_F2_group leader_7</value>
+        <value>GA_DVT=ga_F2_group leader_8</value>
+        <value>GA_DVT=ga_F2_group leader_9</value>
+        <value>GA_WT=ga_F2_group leader_7</value>
+        <value>GA_WT=ga_F2_group leader_8</value>
+        <value>GA_WT=ga_F2_group leader_9</value>
+        <value>Paint Shop_PT=ps_group_leader_ed1</value>
+        <value>Paint Shop_EC=ps_group_leader_ed1</value>
+        <value>Paint Shop_ES=ps_group_leader_ed1</value>
+        <value>Paint Shop_US=ps_group_leader_sl1</value>
+        <value>Paint Shop_HF=ps_group_leader_sl1</value>
+        <value>Paint Shop_LS=ps_group_leader_sl1</value>
+        <value>Paint Shop_MF=ps_group_leader_sl1</value>
+        <value>Paint Shop_P1=ps_group_leader_tc1</value>
+        <value>Paint Shop_PI=ps_group_leader_tc1</value>
+        <value>Paint Shop_TC=ps_group_leader_tc1</value>
+        <value>Paint Shop_TT=ps_group_leader_tc1</value>
+        <value>Paint Shop_FI=ps_group_leader_fn1</value>
+        <value>Paint Shop_SR=ps_group_leader_fn1</value>
+        <value>Paint Shop_HR=ps_group_leader_fn1</value>
+        <value>Paint Shop_OW=ps_group_leader_fn1</value>
+        <value>Paint Shop_HB=ps_group_leader_fn1</value>
+        <value>Paint Shop_Q1=ps_group_leader_fn1</value>
+        <value>Paint Shop_BT=ps_group_leader_fn1</value>
+        <value>Paint Shop_DJ=ps_group_leader_fn1</value>
+        <value>Die Casting_CA=dc_group_leader_2</value>
+        <value>Die Casting_MA=dc_group_leader_2</value>
+        <value>Die Casting_PA=dc_group_leader_2</value>
+        <value>DC_MA=dc_group_leader_2</value>
+        <value>DC_PA=dc_group_leader_2</value>
+        <value>SA Shop_BA=sa_group_leader_1</value>
+        <value>SA Shop_PW=sa_group_leader_1</value>
+        <value>SA Shop_TR=sa_group_leader_1</value>
+        <value>SA Shop_PP=sa_group_leader_2</value>
+        <value>PS_PT=ps_group_leader_ed1</value>
+        <value>PS_EC=ps_group_leader_ed1</value>
+        <value>PS_ES=ps_group_leader_ed1</value>
+        <value>PS_US=ps_group_leader_sl1</value>
+        <value>PS_HF=ps_group_leader_sl1</value>
+        <value>PS_LS=ps_group_leader_sl1</value>
+        <value>PS_MF=ps_group_leader_sl1</value>
+        <value>PS_P1=ps_group_leader_tc1</value>
+        <value>PS_PI=ps_group_leader_tc1</value>
+        <value>PS_TC=ps_group_leader_tc1</value>
+        <value>PS_TT=ps_group_leader_tc1</value>
+        <value>PS_FI=ps_group_leader_fn1</value>
+        <value>PS_SR=ps_group_leader_fn1</value>
+        <value>PS_HR=ps_group_leader_fn1</value>
+        <value>PS_OW=ps_group_leader_fn1</value>
+        <value>PS_HB=ps_group_leader_fn1</value>
+        <value>PS_Q1=ps_group_leader_fn1</value>
+        <value>PS_BT=ps_group_leader_fn1</value>
+        <value>PS_DJ=ps_group_leader_fn1</value>
+        <value>SA_BA=sa_group_leader_1</value>
+        <value>SA_PW=sa_group_leader_1</value>
+        <value>SA_TR=sa_group_leader_1</value>
+        <value>SA_PP=sa_group_leader_2</value>
+        <value>DC_CA=dc_group_leader_2</value>
+        <value>DC_MA=dc_group_leader_2</value>
+        <value>DC_PA=dc_group_leader_2</value>
+        <value>DC_IH=dc_group_leader_1</value>
+        <value>DC_OH=dc_group_leader_1</value>
+        <value>DC_RH=dc_group_leader_1</value>
+        <value>Die Casting_RH=dc_group_leader_1</value>
+        <value>Die Casting_IH=dc_group_leader_1</value>
+        <value>Die Casting_OH=dc_group_leader_1</value>
+        <value>Admin Shop A_A1=admin.mpp</value>
+      </context>
+    </preference>
+    <preference name="VF_JES_Assignment_GL_Shift_2" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>ShopName_LineName=username01;username02</preference_description>
+      <context name="Teamcenter">
+        <value>DEAULTSHOP_DEFAULTLINE=defaultuser</value>
+      </context>
+    </preference>
+    <preference name="VF_JES_Assignment_GL_Shift_3" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>ShopName_LineName=username01;username02</preference_description>
+      <context name="Teamcenter">
+        <value>DEAULTSHOP_DEFAULTLINE=defaultuser</value>
+      </context>
+    </preference>
+    <preference name="VF_JES_Assignment_ME" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>ShopName=username01;username02</preference_description>
+      <context name="Teamcenter">
+        <value>Paint Shop=ps_me_controller</value>
+        <value>PS=ps_me_controller</value>
+        <value>GA Shop=ga_me_controller</value>
+        <value>GA=ga_me_controller</value>
+        <value>Die Casting=dc_me_controller</value>
+        <value>DC=dc_me_controller</value>
+        <value>SA=sa_me_controller</value>
+        <value>SA Shop=sa_me_controller</value>
+        <value>Admin Shop A=admin.mpp</value>
+      </context>
+    </preference>
+    <preference name="VF_JES_Assignment_Notification_Final" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Add users to be notified in when JES completed.
+ShopName_LineName=username01;username02</preference_description>
+      <context name="Teamcenter">
+        <value>GA_T1=ga_me_trim;ga_me_controller</value>
+        <value>GA_T2=ga_me_trim;ga_me_controller</value>
+        <value>GA_T3=ga_me_trim;ga_me_controller</value>
+        <value>GA_T4=ga_me_trim;ga_me_controller</value>
+        <value>GA_DL=ga_me_trim;ga_me_controller</value>
+        <value>GA_PL=ga_me_trim;ga_me_controller</value>
+        <value>GA_IP=ga_me_trim;ga_me_controller</value>
+        <value>GA_C1=ga_me_chassis;ga_me_controller</value>
+        <value>GA_C2=ga_me_chassis;ga_me_controller</value>
+        <value>GA_C3=ga_me_chassis;ga_me_controller</value>
+        <value>GA_ED=ga_me_chassis;ga_me_controller</value>
+        <value>GA_PM=ga_me_chassis;ga_me_controller</value>
+        <value>GA_FM=ga_me_chassis;ga_me_controller</value>
+        <value>GA_WA=ga_me_chassis;ga_me_controller</value>
+        <value>GA_F1=ga_me_final;ga_me_controller</value>
+        <value>GA_F2=ga_me_final;ga_me_controller</value>
+        <value>GA_WT=ga_me_final;ga_me_controller</value>
+        <value>GA_DV=ga_me_final;ga_me_controller</value>
+        <value>Admin Shop A_A1=admin.mpp</value>
+      </context>
+    </preference>
+    <preference name="VF_JES_Assignment_Notification_Released" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Add users to be notified in when JES completed.
+ShopName_LineName=username01;username02</preference_description>
+      <context name="Teamcenter">
+        <value>GA_T1=v.nguyenttk2@vinfast.vn;v.rafims@vinfast.vn</value>
+        <value>GA Shop_T1=v.nguyenttk2@vinfast.vn;v.rafims@vinfast.vn</value>
+      </context>
+    </preference>
+    <preference name="VINF_HEADER_PART_LIST_ROW_INDEX" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VINF_HEADER_PART_LIST_ROW_INDEX</preference_description>
+      <context name="Teamcenter">
+        <value>23</value>
+      </context>
+    </preference>
+    <preference name="VINF_JES_MAX_PARTS_IN_FIRST_PAGE" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VINF_JES_MAX_PARTS_IN_FIRST_PAGE</preference_description>
+      <context name="Teamcenter">
+        <value>5</value>
+      </context>
+    </preference>
+  </category>
+</preferences>

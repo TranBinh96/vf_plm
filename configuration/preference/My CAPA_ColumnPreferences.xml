@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="My CAPA_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Description not provided during import.</preference_description>
+      <context name="Teamcenter">
+        <value>item_id</value>
+        <value>object_name</value>
+        <value>object_desc</value>
+        <value>c2_capa_owner</value>
+        <value>last_mod_date</value>
+        <value>creation_date</value>
+        <value>project_ids</value>
+        <value>object_type</value>
+        <value>item_revision_id</value>
+        <value>CMMaturity</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_VendorRolesAttributeID" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the value of the classification attribute ID used to specify Roles of a Company Contact when classifying it.</preference_description>
+      <context name="Teamcenter">
+        <value>1010</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

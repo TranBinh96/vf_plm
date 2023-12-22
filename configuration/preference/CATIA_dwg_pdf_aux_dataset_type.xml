@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_dwg_pdf_aux_dataset_type" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>For PDF</preference_description>
+      <context name="Teamcenter">
+        <value>PDF</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Linking">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_external_default_launch_ui" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the User Interface to be used for launching remote TC links. Valid values are dynamic/rich/thin. dynamic - Specifying this would launch the remote TC link based on the current UI. Rich Client would launch the remote TC link in Rich Client. Similarly, Thin Client would launch the remote TC link in Thin Client. rich - Specifying this would invoke Rich Client for launching remote TC links. thin - Specifying this would invoke Thin Client for launching remote TC links.</preference_description>
+      <context name="Teamcenter">
+        <value>dynamic</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_object_type_delegation" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Configures the Access Manager delegation for object types to a class. The format is typeName:className , which delegates access for named references of the type identified by typeName to the owning class identified by className .
+By default, the access for the following five object types are delegated to its owning dataset:
+ImanFile
+UGPartAttr
+UGPartAttributesForm
+UGPartBoundingBoxForm
+UGPartMassPropsForm
+You do not need to add entries for these types.</preference_description>
+      <context name="Teamcenter">
+        <value>NX0ApplicationInfo:Dataset</value>
+        <value>POM_application_object:Dataset</value>
+        <value>catia_doc_attributes:Dataset</value>
+        <value>catia_publication_form:Dataset</value>
+        <value>catia_POM_catia_absocc:Dataset</value>
+        <value>catia_designtable_form:Dataset</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

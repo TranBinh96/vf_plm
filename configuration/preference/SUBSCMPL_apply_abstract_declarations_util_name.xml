@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_apply_abstract_declarations_util_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the name of the utility to be called while applying abstract declaration on targets.
+The default values are &quot;$TC_BIN/subscmpl_apply_abstract_declarations&quot; for UNIX and &quot;%TC_BIN%\\subscmpl_apply_abstract_declarations.exe&quot; for Windows.</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">$TC_BIN/subscmpl_apply_abstract_declarations</value>
+        <value platform="WNT">%TC_BIN%\\subscmpl_apply_abstract_declarations.exe</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

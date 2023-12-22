@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METimeSystemFieldMappingDataset" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the dataset containing the XML mapping file between time system fields and activity properties.
+The value of each field in the mapping file is applied to the corresponding property whenever data is copied from the time system to Teamcenter.
+A valid value must have the format &quot;name:type:reference&quot;, where &quot;name&quot; specifies the name of the dataset, &quot;type&quot; the dataset type, and &quot;reference&quot; the reference of the file.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AdditionalAccountabilityCheckProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the additional properties the system checks when performing an accountability check.An accountability check compares a bill of materials (BOM) with a bill of process (BOP) to ensure all lines in the source BOM are consumed in the target BOP. This allows you to ensure that all occurrences of product components and features are used in the process structure as consumed items. You can compare the entire assembly or only a subassembly to the selected process.The system checks this preference when the Compare additional properties option in the Accountability Checkbox dialog box is selected. Any properties defined by this preference are included in the accountability check.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid property of the selected BOM line.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_rev_item_revision_id</value>
+        <value>bl_rev_object_name</value>
+        <value>bl_rev_object_type</value>
+        <value>bl_plmxml_abs_xform</value>
+        <value>fnd0bl_real_quantity</value>
+        <value>bl_sequence_no</value>
+        <value>bl_abs_occ_id</value>
+        <value>bl_jt_refsetname</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

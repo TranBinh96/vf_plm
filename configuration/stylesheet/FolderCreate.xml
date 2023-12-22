@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: FolderCreate.xml
+
+    Style sheet rendering for Folder creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="Folder Information" titleKey="tc_xrt_FolderInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="object_name" renderingHint="textfield" column="32" />
+            <property name="object_desc" />
+        </section>
+    </page>
+
+</rendering>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0OptionsViewHistoryUIDs" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains the history of the last 20 objects opened in the Variant Options view of the Product Configurator. Teamcenter populates this preference dynamically; you should not modify it manually.
+Valid Values:
+The UIDs of variant options.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

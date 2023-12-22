@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_EXPORT_FILTERS" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Defines the entries for each material export transformation in the following format:
+ExportKey;Translator;SessionUnitName;NameOfTheExport
+* ExportKey: a unique export key. Note: for external CAD systems it should be the name of the application like NX, CATIA, SOLIDWORKS...
+* Translator: valid values are:
+1-for XSLT based translation &quot;DATASET:datasetName&quot; where the dataset contains an .xslt file as unique named reference.
+2-for JAVA class based translation: &quot;CLASS:translatorJavaClassKey&quot;(refer to user manual for custom transtors)
+* SessionUnitName: the name of the session unit to be used in unit and value conversion.
+* NameOfTheExport: the name of the export mapping, used for display purpose such as the name of the export menu button.</preference_description>
+      <context name="Teamcenter">
+        <value>NX;DATASET:IMM_Mapping_NXMatml;NX;NX MatML</value>
+        <value>CATIA;DATASET:IMM_Mapping_CatiaMatml;CATIA;Catia MatML</value>
+        <value>AnsysMATML;DATASET:IMM_Mapping_Matml2Ansys;Ansys;Ansys MatML</value>
+        <value>MATML2BULKEXCEL;CLASS:TRANSLATORS.MATML2EXCEL;TC;Bulk Excel</value>
+        <value>STARCCM;DATASET:IMM_Mapping_Matml2Starccm;STARCCM;Simcenter STAR-CCM+ MatML</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

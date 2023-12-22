@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+ ==================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<subRendering>
+   <page titleKey="tc_xrt_Overview" visibleWhen="fnd0ApplicationType==ACE ">
+    <column>
+      <section titleKey="tc_xrt_Properties">
+      <property name="fnd0Subject"/>
+        <property name="fnd0SentDate"/>
+        <property name="fnd0Receiver"/>
+        <property name="fnd0MessageBody"/>
+         <property name="fnd0RelatedObjects"/>
+      </section>
+      <section titleKey="tc_xrt_TargetObject">
+        <objectSet source="fnd0TargetObject.POM_object" sortdirection="ascending" sortby="object_string" defaultdisplay="listDisplay">
+          <thumbnailDisplay/>
+           <treeDisplay>
+            <property name="object_string"/>
+          </treeDisplay>
+          <listDisplay/>
+        </objectSet>
+      </section>
+    </column>
+  </page>
+</subRendering>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0RuleDateOffset" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>By default the Configurator Perspective uses the Revision Rule specified with preference &quot;Cfg0DefaultRevisionRule&quot;. The system automatically sets a Rule Date for this Revision Rule. This Preference &quot;Cfg0RuleDateOffset&quot; specifies the offset (in seconds) to add to last midnight when setting this Rule Date. If the offset is 0 (the default value for this preference) the Rule Date will be set to today 12:00 AM. If a preference value is 21600 then the Rule Date is set to today 06:00 AM (midnight + 21600 seconds).If the offset calculation returns a future time or a time that is more than 24 h in the past the system will subtract or add days until the calculated time is less than 24 h ago.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PseudoFolder.ContactInCompany_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed when a ContactInCompany pseudo folder is selected in the Details view.
+Valid Values:
+Accepts one or more strings as values; each string must be a valid property name.</preference_description>
+      <context name="Teamcenter">
+        <value>CompanyContact.object_string</value>
+        <value>CompanyContact.title</value>
+        <value>CompanyContact.first_name</value>
+        <value>CompanyContact.last_name</value>
+        <value>CompanyContact.phone_business</value>
+        <value>CompanyContact.fax_number</value>
+        <value>CompanyContact.email_address</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

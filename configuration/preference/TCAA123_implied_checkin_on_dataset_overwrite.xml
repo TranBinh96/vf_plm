@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA123_implied_checkin_on_dataset_overwrite" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to configure TCAA in order to automatically check in to Teamcenter each dataset version created during overwrite operation. 
+If the user requests to keep the dataset as checked out at the end of the overwrite operation through the check-in status in save table (or if a save silent operation is executed) and implied check-in is enabled, the dataset version created during the overwrite operation is checked in to Teamcenter and then the dataset is checked out again immediately afterwards. 
+The option chosen for this preference has consequences on showed behavior in case of cancel checkout operation.
+Possible values:
+0 - do not force check in of each dataset version (Default) 
+1 - perform implicit check in at each dataset overwrite operation</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

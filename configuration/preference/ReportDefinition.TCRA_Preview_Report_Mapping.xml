@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Reports">
+    <category_description>Active Workspace preferences
+</category_description>
+    
+               <preference name="ReportDefinition.TCRA_Preview_Report_Mapping" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference is used to configure TcRA Report display for the selected Business Object(BO) type.TcRA Report will be displayed in TcRA Viewer. This Viewer configuration needs to be injected into BO Stylesheet. Values should follow below pattern:
+BOType:{Report1Information}
+e.g.
+ItemRevision:{&quot;name&quot;:&quot;BOM Report&quot;, &quot;type&quot;:&quot;Report&quot;}</preference_description>
+      <context name="Teamcenter">
+        <value>Schedule:{&quot;name&quot;: &quot;Schedule Overview&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+        <value>Prg0Event:{&quot;name&quot;: &quot;Event Overview&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+        <value>Prg0ProgramPlan:{&quot;name&quot;: &quot;Program Overview&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+        <value>Prg0SubProjectPlan:{&quot;name&quot;: &quot;SubProject Overview&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+        <value>Prg0ProjectPlan:{&quot;name&quot;: &quot;Project Overview&quot;, &quot;type&quot;: &quot;Report&quot;}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

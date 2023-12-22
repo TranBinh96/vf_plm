@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA84_save_extobject_under_parentitem" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to have TCAA set attached reference links to be stored by default under the same item revision of the related referencing documents.
+Possible values:
+0 - attached reference links are set to be stored under separate Item Revisions (Default)
+1 - attached reference links are set to be stored under the same Item Revision of the referencing drawing</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

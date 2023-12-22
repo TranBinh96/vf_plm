@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_shared_tmp_dir_autonomy_path" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the temporary exchange directory path for the machine where the Autonomy server is running. This preference is defined in a new installation but has no default value and no instance created.
+Valid Values:
+A valid value can be a UNC path or a local path, using forward slash / as a separator, such as //myserver/shared, F:/shared, and /tmp.
+
+The user account used to start the Autonomy server must have write privileges to this directory.
+A value specified in this preference overrides values defined by the TC_fts_shared_tmp_dir_wnt and TC_fts_shared_tmp_dir_unix preferences.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

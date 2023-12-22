@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Fnd0SoaConfigFilterCriteria_AutoCheckinRevisable" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Activates the automatic check-out/check-in of POM revisable objects whenever needed by Teamcenter.
+Valid Values:
+* true: POM revisable objects can be checked-out and then checked-in whenever needed, causing the revision number to increase. This causes changes to be immediately visible to other users (provided they have READ access). If the object is already in a &quot;Private Edit&quot; state beforehand, it will not be checked-in.  This is the default value.
+* false: No check-in is made. Users can accumulate more changes for revisable objects before performing a manual check-in so that to commit all &quot;Private Edit&quot; changes and to publish these changes to other users (provided they have READ access).</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

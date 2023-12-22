@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Massive Model Visualization">
+    <category_description>Active Workspace Massive Model Visualization preferences</category_description>
+    
+               <preference name="MMP_PERCENTAGE_OF_DELTA_TO_PURGE" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference controls the percentage of Massive Model Product (MMP) structure delta files to purge when MMV_delta_collection_accumulation_limit is reached. Minimum value for this preference can&apos;t be less than 10% and maximum value should not exceed 100%. In case of wrong value set to this preference then system to consider 100% as default purge limit.</preference_description>
+      <context name="Teamcenter">
+        <value>100</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

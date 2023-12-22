@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA123_extobject_file_name_rule" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls how attached reference link files will be renamed during save to Teamcenter. The value of this option is taken into consideration only if file renaming is enabled (that is TCAA123_extobject_file_rename is not set to 0).
+The Teamcenter object identifier taken into consideration for file renaming can be the Item ID or the multifield key (see site preference TCAA123_extobject_file_name_rule_use_MFK).
+The new file name can be assigned matching the custom file name pattern specified in preference TCAA123_extobject_file_name_rule_pattern.
+Possible values:
+0 - the new file name matches the object identifier, i.e. Item ID or multifield key (Default)
+1 - the new file name is assigned on the basis of custom file name pattern</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

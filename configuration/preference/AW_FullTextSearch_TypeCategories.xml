@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AW_FullTextSearch_TypeCategories" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the list of categories of types</preference_description>
+      <context name="Teamcenter">
+        <value>Changes:ChangeItemRevision,GnChangeRequestRevision,ChangeRequestRevision,VF4_ECRRevision,Vf6_ECRRevision,VF4_MCRRevision,Cm0DevRqstRevision,Cm0GnReviewRevision,Cm0CfgAuditRevision,Cm0GnWorkOrderRevision,GnChangeNoticeRevision,ChangeNoticeRevision,Vf6_MCNRevision,Vf6_VES_MCNRevision,Vf6_ECNRevision,VF4_ERNRevision,VF4_MCNRevision,VF4_ECNRevision,GnProblemReportRevision,ProblemReportRevision,C2CapaRevision,Cm0ActionItemRevision,IssueReportRevision,C2IssueRevision,C2IssueComplaintRevision,C2IssueNonConfRevision</value>
+        <value>Parts:Part Revision,VF4_StandardPartRevision,VF4_EBUSPartRevision,VF4_PartRevision,VF4_EC_PartRevision,VF4_EC_Supp_PartRevision,VF3_car_partRevision,VF4_Study_PartRevision,VF5_e_epartRevision,CommercialPart Revision,VL5_e_epartRevision,Vf8_AcarPartRevision,Design Revision,VF4_Cell_DesignRevision,VL5_e_designRevision,VF4_JF_PartRevision,VF4_MP_DesignRevision,VF5_e_designRevision,VF4_DesignRevision,VF4_FlexDesignRevision,VF4_Compo_DesignRevision,VF4_EBUSDesignRevision,VF4_BP_DesignRevision</value>
+        <value>Documents:DocumentRevision,Specification Revision,RequirementSpec Revision,CPBriefRevision,CPMarketingBriefRevision,DC_PublicationRevision,NX0RoutingSpecRevision,VF3_Compo_docRevision,VF3_EETG_docRevision,VF3_EEPT_docRevision,VF3_EEMA_docRevision,VF3_EEPC_docRevision,VF3_EESR_docRevision,VF3_EEPG_docRevision,VF3_EETR_docRevision,VF3_EEPD_docRevision,Scp0DeclarationRevision,Scp0SupplierDeclRevision,Scp0LRDDeclRevision,Scp0MSDDeclRevision,Scp0CMDDeclRevision,Scp0SupportDcmntRevision,Scp0MSDDocRevision,Scp0CMDDocRevision,Scp0LRDDocRevision,Scp0MaterialDocRevision,EmailRevision,VF3_VINES_docRevision,VF3_VES_CSPB_docRevision,VF3_VES_CDVP_docRevision,VF3_VES_CSOR_docRevision,VF3_VES_BDVP_docRevision,VF3_VES_BSOR_docRevision,VF3_VES_CAER_docRevision,VF3_VES_BSPB_docRevision,VF3_VES_BTES_docRevision,VF3_VES_Std_docRevision,VF3_VES_BDFM_docRevision,VF3_VES_CTES_docRevision,VF3_VES_CFME_docRevision,VF4_VES_BSPC_docRevision,VF3_VES_DFME_docRevision,VF3_ESCOOTER_docRevision,VF3_EFMEA_docRevision,CPProductRoughRevision,DC_ReviewerDocRevision,CPThemeBoardRevision,DC_ComposedDocRevision,VF3_ATMOBILE_docRevision,VF3_AT_TGSS_DocRevision,VF3_AT_ESOM_DocRevision,VF3_AT_SFMEARevision,VF3_AT_VFTE_DocRevision,VF3_AT_DVPR_docRevision,VF3_spec_docRevision,VF3_DVPR_docRevision,VF3_VTSS_docRevision,VF3_DTSS_docRevision,VF3_CMFS_docRevision,VF4_FMVSS_DocRevision,VF9_VF_DocumentRevision,VF9_D_RegulationRevision,VF9_D_StandardRevision,VF9_D_TestReportRevision,VF9_D_CertificatRevision</value>
+        <value>Files:Text,JPEG,MSExcelX,MSWordX,PDF,MSPowerPointX</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

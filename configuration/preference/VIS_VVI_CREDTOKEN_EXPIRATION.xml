@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VIS_VVI_CREDTOKEN_EXPIRATION" type="Integer" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Indicates the time (in seconds) before the credential token expires for Teamcenter Visualization.
+If the expiration is not set or set to 0 or less (invalid time), the token will not be generated and the end-user may be asked to authenticate to the Teamcenter server.</preference_description>
+      <context name="Teamcenter">
+        <value>259200</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

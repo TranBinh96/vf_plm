@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Subscription Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_notification_msg_ext" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the file extension for the notification file in the Subscription Manager application.
+For notifications to be sent as html formatted emails, valid values are txt, htm, html, HTM and HTML.</preference_description>
+      <context name="Teamcenter">
+        <value>txt</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2014.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying bomline summary. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+   <header>
+        <property name="bl_rev_object_desc" renderingHint="label" />        
+    </header>
+    <page titleKey="tc_xrt_BOMLine">
+        <section titleKey="tc_xrt_properties">
+            <property name="bl_rev_object_desc" renderingHint="label" />
+            <property name="bl_item_object_name" renderingHint="label" />
+            <property name="bl_item_item_id" renderingHint="label" />
+            <property name="bl_rev_current_id" renderingHint="label" />
+            <property name="bl_rev_item_revision_id" renderingHint="label" />
+            <property name="bl_rev_current_desc" renderingHint="label" />            
+            <property name="bl_all_notes" renderingHint="label" />
+            <property name="bl_num_children" renderingHint="label" />  
+            <break/>
+            <property name="bl_rev_owning_user" renderingHint="objectlink" modifiable="false" />
+            <property name="bl_rev_owning_group" renderingHint="objectlink" modifiable="false" />
+            <property name="bl_pack_count" renderingHint="objectlink" modifiable="false"/>
+            <property name="bl_line_name" renderingHint="objectlink" modifiable="false"/>
+            <property name="bl_child_item" renderingHint="objectlink" modifiable="false" />
+            <property name="bl_attachments" renderingHint="objectlink" modifiable="false" />
+            <property name="bl_item_object_type" renderingHint="objectlink" modifiable="false"/>
+            <property name="bl_occ_order_no" renderingHint="objectlink" modifiable="false"/>
+       </section>
+    </page>
+    <page titleKey="tc_xrt_ItemRevision">
+      <section titleKey="tc_xrt_properties">
+            <objectSet source = "bl_revision.ItemRevision" defaultdisplay = "listDisplay" sortby = "object_string" sortdirection = "ascending">
+                <listDisplay>
+                </listDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+            </objectSet>
+       </section>
+    </page>
+    <inject type="dataset" src="AuditLogForBOM"/>
+</rendering>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_customize_load_process" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determine which type of document (Part or Product) will be loaded in CATIA when an item or an item revision is selected
+0 (or not 1) : the process analyzes the branches of the BOM tree, and stops when a node does not contain a valid CATIA BOM. In this case, cat_USER_has_children returns Answer=FALSE and the item is considered a leaf of the tree(component). 
+1 : the process analyzes the dataset types under the given item revision and checks whether the BOM View revision contains occurrences</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

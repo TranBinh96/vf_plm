@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context.Filter Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DesignContextOrphanBOMLineSupport" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates if the DesignContext Application in Teamcenter should provide the Orphan BOMLine support. Valid values are TRUE/FALSE. If this is set to &quot;TRUE&quot;, DesignContext would load all it&apos;s parents till the top line is reached by default. If it is set to &quot;FALSE&quot;, it would be treated as an orphan and would only be loaded on request.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

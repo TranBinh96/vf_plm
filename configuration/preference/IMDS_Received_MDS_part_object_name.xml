@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_Received_MDS_part_object_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the object class name used by the &quot;imds_download_process_files&quot; utility to search for the International Material Data System (IMDS) objects in Teamcenter.
+The default value is ManufacturerPart.</preference_description>
+      <context name="Teamcenter">
+        <value>ManufacturerPart</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="EA Gateway">
+    <category_description>Preferences for the Teamcenter Gateway for Enterprise Applications (T4EA)</category_description>
+    
+               <preference name="T4EA_ProductAssociationTypeList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>ProductAssociation is the target transfer name for the OFBiz product association transfer.
+This preference lists all allowed types for this transfer.</preference_description>
+      <context name="Teamcenter">
+        <value>view</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

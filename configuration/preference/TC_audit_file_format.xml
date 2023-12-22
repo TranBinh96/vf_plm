@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Audit Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_audit_file_format" type="Integer" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Specifies the format of external audit files.
+Valid Values:
+0 - Indicates text format(.txt).
+1 - Indicates XML format(.xml).</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

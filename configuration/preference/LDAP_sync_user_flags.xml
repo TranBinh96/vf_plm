@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_sync_user_flags" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the user synchronization setting flags in a chmod-style character string format.
+Valid Values:
+s (synchronize) - If set, enables user synchronization.
+c (create) - If set, allows new externally managed user and person objects to be created in Teamcenter during user synchronization.
+d (deactivate) - If set, allows externally managed user and person objects to be deactivated in Teamcenter during user synchronization.
+u (update) - If set, allows externally managed user and person objects to be updated in Teamcenter during user synchronization.
+e (externalize) - If set, any internally managed user and person objects found in Teamcenter to have the same user ID and person name as a user object in LDAP is converted to externally managed during user synchronization.</preference_description>
+      <context name="Teamcenter">
+        <value>scdue</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

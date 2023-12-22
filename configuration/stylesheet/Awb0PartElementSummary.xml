@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<rendering>
+  <header>
+      <image source="type"/>
+      <property name="awb0Name"/>
+      <property name="awb0ArchetypeName"/>
+  </header>
+  <content>
+      <inject type="dataset" src="Awb0PartElementSummaryForAssemblyBOM"/>
+  </content>
+  <content>
+    <inject type="dataset" src="Crt1PlanTabPage" />
+    <inject type="evaluate" src="awb0UnderlyingObject"/>
+  </content>
+</rendering>

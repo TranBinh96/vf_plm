@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_MOLD_PART_TYPES" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Use to create Mold Part</preference_description>
+      <context name="Teamcenter">
+        <value>NAL=Phần đẩy sản phẩm</value>
+        <value>NLC=Lòng khuôn dưới, điện cực</value>
+        <value>NUC=Lòng khuôn trên</value>
+        <value>NSL=Khối trượt</value>
+        <value>NMA=Vỏ khuôn, bộ Hot, các linh kiện của vỏ khuôn</value>
+        <value>NMB=Cụm khối trượt</value>
+        <value>NMD=Cụm khối dẫn nhựa</value>
+        <value>NME=Cụm khối chèn lõi</value>
+        <value>NMF=Khối phụ kiện định vị khuôn</value>
+        <value>NMG=Các loại chốt đẩy</value>
+        <value>NMH=Hệ thống làm mát</value>
+        <value>NMI=Phụ kiện khuôn đúc kim loại</value>
+        <value>NMZ=Cụm Bu lông, Xi lanh, bộ đếm sản phẩm đúc</value>
+        <value>NDU=Điện cực lõi trên</value>
+        <value>NDL=Điện cực lõi dưới</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

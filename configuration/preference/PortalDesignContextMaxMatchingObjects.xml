@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Performance Tuning">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextMaxMatchingObjects" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the maximum number of components that a query can match (for example, work parts, change items, or CR jobs). Input the user provides in the Design Context Context Definition pane may cause new Teamcenter objects to be loaded. If the user enters wildcards in any fields of the Context Definition pane, or while executing the product item query, response times may be unacceptable.If the number of matching components exceeds the limit, Design Context displays a warning, and users can provide more restrictive search criteria. Users can view this preference and set it for their environments by choosing the Edit-&gt;Options-&gt;Design Context-&gt;General menu command.
+Valid Values:
+Accepts any positive integer. Siemens PLM Software recommends using the default initially and not exceeding 1000.</preference_description>
+      <context name="Teamcenter">
+        <value>40</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

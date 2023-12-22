@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMSiteData" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the classes that can be used to store the site specific data for resources. If there are multiple classes defined, multiple tabs are displayed in the Resource Site Data dialog. There must be one default view for each class. The class name and attributes define the title of the tab and the attributes that are displayed in the tab.
+Default value is: MRM_SITE_DATA_01</preference_description>
+      <context name="Teamcenter">
+        <value>MRM_SITE_DATA_01</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

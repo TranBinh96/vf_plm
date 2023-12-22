@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_HARD_LOAD_COUNT" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Frees up the memory to the OS by forcing a hard full reload of Active Workspace client. Based on a number of user operations such as navigating
+to a new location or selecting a new tab in the work area will increment an internally managed counter. When the counter reaches the value supplied by this preference then a hard full reload of AW is performed. The internal count will be reset to 0 and the whole process will be repeated.
+Note: This preference only applies to the MS Internet Explorer (IE) Browser.
+Valid values are:
+* Less than or equal to 0 : Results in no Hard Reloads. -1 is the default value.
+* Greater than 0 : Results in Hard Reloads.  A value of 20 is recommended initially, and increased or decreased based on browser memory consumption for common use cases.</preference_description>
+      <context name="Teamcenter">
+        <value>-1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

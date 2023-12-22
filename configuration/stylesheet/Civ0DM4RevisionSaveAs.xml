@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@ 
+================================================================================ 
+Copyright 2010. 
+Siemens Product Lifecycle Management Software Inc. 
+All Rights Reserved. 
+================================================================================ 
+@<COPYRIGHT>@ 
+  
+--> 
+<!-- 
+======================================================================= 
+     Filename: Civ0DM4RevisionSaveAs.xml  
+   
+     Default style sheet for displaying DC_SkdDMRevision Save As 
+======================================================================= 
+ @<DEL>@ 
+======================================================================= 
+$HISTORY$ 
+Date         Name                    Description of Change 
+======================================================================= 
+@<DEL>@  
+--> 
+<rendering>
+
+   <page title=" ">
+         <column>
+            <property name="DocumentTitle" />
+
+             <section titleKey="tc_xrt_DataModuleCode">
+                <property name="civ0dmecode" />
+                <property name="civ0dmeproducer" />
+                <property name="skdmodelic" />
+                <property name="skdsdc" />
+                <property name="skdchapnum" />
+                <property name="skdsection" />
+                <property name="skdsubsection" />
+                <property name="skdsubject" />
+                <property name="skddiscode" />
+                <property name="skddiscodev" />
+                <property name="skdincode" />
+                <property name="skdincodev" />
+                <property name="skditemloc" />								
+                <property name="civ0LearnCode" />
+                <property name="civ0LearnEventCode" />
+             </section>                         
+              <property name="civ0inwork" />				
+             <property name="skdexportfilename" />
+             <property name="isTemplate" />
+             <property name="referenceOnly"  />        
+         </column>
+         <column>
+             <property name="skdtechname" />
+             <property name="skdinfoname" />
+             <section titleKey="tc_xrt_IssueDetails">
+                <property name="skdissno" />
+                <property name="skdiss_type" />
+                <property name="skdissdate_day" />
+                <property name="skdissdate_month" />
+                <property name="skdissdate_year" />
+             </section>
+             <section titleKey="tc_xrt_OtherDataModuleDetails">			
+                <property name="skdsecurity_class" />
+                <property name="civ0rpcname" />				
+                <property name="skdrpc" />
+                <property name="civ0origname" />				
+                <property name="skdorig" />
+                <property name="skdqa" />
+                <property name="skdsbc" />
+                <property name="skdskill" />
+                <property name="skdrfu" />
+                <property name="skdremarks" />
+             </section>
+
+         </column>
+   </page>
+   
+</rendering>

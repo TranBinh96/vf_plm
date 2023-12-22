@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+=======================================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: UiE-AwardLineItemSummary10.xml
+
+    Style sheet rendering for Award Line Item summary.
+=======================================================================
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="object_name"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+          <column>
+              <section titleKey="tc_xrt_properties">
+                  <property name="object_name" modifiable="false"/>
+                  <property name="object_desc" modifiable="false"/>
+                  <property name="sc0BPLineItem" renderingHint="objectlink" modifiable="false"/>
+                  <property name="sc0AwardRevision" renderingHint="objectlink" modifiable="false"/>
+                  <separator/>
+                  <command commandId="com.teamcenter.rac.properties" titleKey="tc_xrt_moreProperties"/>
+              </section>
+              <section titleKey = "tc_xrt_Quotes" title = "Quotes">
+                <objectSet source = "TC_part_quote_rel.Quote" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "sc0part_no"/>
+                        <property name = "vendor"/>
+                        <property name = "sc0Contact"/>
+                        <property name = "quoted_quantity"/>
+                        <property name = "unit_price"/>
+                        <property name = "tooling_cost"/>
+                        <property name = "currency"/>
+                    </tableDisplay>
+                </objectSet>
+              </section>
+              <section titleKey = "tc_xrt_RespondentAttachments" title = "Respondent Attachments">
+                <objectSet source = "sc0SuppAttachRelObjs.Sc0SupAttachmentsRelation" defaultdisplay = "tableDisplay" sortby = "primary_object" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "secondary_object"/>
+                        <property name = "sc0TargetObject"/>
+                    </tableDisplay>
+                </objectSet>
+              </section>
+          </column>
+          <column>
+               <section titleKey="tc_xrt_Preview">
+                   <image source="preview"/>
+               </section>
+               <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                    <command actionKey="newProcessAction" commandId="com.teamcenter.rac.newProcess" titleKey="tc_xrt_newProc" />
+                    <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" />
+               </section>
+          </column>
+    </page>
+</rendering>

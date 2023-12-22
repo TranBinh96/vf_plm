@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Refresh_Warning_Threshold" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines a threshold number to show a warning message when users refresh a large amount of selected objects using the Refresh command in the global toolbar and menu.
+Increasing the default value (200) may cause the rich client to take a long time to complete the refresh process due to its current memory allocation. This preference applies to the 
+Refresh command in the global toolbar and menu, but not to any refresh command on the view toolbar or dropdown menu.
+Valid Values:
+Any integer.</preference_description>
+      <context name="Teamcenter">
+        <value>200</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

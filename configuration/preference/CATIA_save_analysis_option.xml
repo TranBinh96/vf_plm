@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_save_analysis_option" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines whether the CATAnalysisComputations files or the CATAnalysisResults files are saved in the Database during the save process.
+(Simple value, case insensitive)
+both = Save both CATAnalysisComputations and CATAnalysisResults files.
+analysisCompute = Only Save CATAnalysisComputations file.
+analysisResult = Only Save CATAnalysisResults file.
+none = Do not Save CATAnalysisComputations files nor CATAnalysisResults files.</preference_description>
+      <context name="Teamcenter">
+        <value>both</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

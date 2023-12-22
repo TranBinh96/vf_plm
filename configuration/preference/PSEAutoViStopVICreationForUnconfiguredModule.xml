@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEAutoViStopVICreationForUnconfiguredModule" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether automatic variant item creation stops when the system encounters an unconfigured module.
+Valid Values:
+true - The system stops when it encounters an unconfigured module. However, it does continue to check the other sibling branches.
+false - The system continues to the bottom of the generic structure, displaying warning messages for each unconfigured module encountered. This is the best practice for most business environments.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

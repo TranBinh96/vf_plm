@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Revision_Name_Based_On_ItemRevision" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates if Revision names displayed in the &quot;Revise&quot; dialog should be based on Item Revision names or Item names.
+Valid Values:
+* true: Revision names are based on Item Revision names. This is the default value.
+* false: Revision names are based on Item names.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

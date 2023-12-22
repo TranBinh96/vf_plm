@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_Notify_TcIF_url" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the Uniform Resource Locator ( URL ) to the Teamcenter Integration Framework ( TcIF ) server for Supplier Collaboration.</preference_description>
+      <context name="Teamcenter">
+        <value>http://&lt;HOSTADDRESS&gt;/tcif/process?&amp;j_username=&lt;USR&gt;&amp;j_password=&lt;PWD&gt;&amp;TCSSO_APP_USER_ID=&lt;SSOID&gt;&amp;TCSSO_SESSION_KEY=&lt;SSOKEY&gt;&amp;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

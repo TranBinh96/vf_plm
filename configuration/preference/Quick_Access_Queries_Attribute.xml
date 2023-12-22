@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Quick_Access_Queries_Attribute" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines criteria attributes for quick access queries.
+Valid Values:
+Criteria formatted as follows:
+query_internal_name_SearchAttribute=L10N_key
+
+Where:query_internal_name is replaced by the internal query name.
+L10N_key is replaced by the query clause user-entry localization key.</preference_description>
+      <context name="Teamcenter">
+        <value>Item ID_SearchAttribute=ItemID</value>
+        <value>Keyword Search_SearchAttribute=Keyword</value>
+        <value>Item Name_SearchAttribute=ItemName</value>
+        <value>Dataset Name_SearchAttribute=DatasetName</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

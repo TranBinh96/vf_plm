@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Appearance Configuration Background">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="APPR_background_updater_max_num_heartbeats" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Deprecated. How many heartbeat records to keep per machine.
+A heartbeat record is simply a note made by the background appearance updater to show
+that it has run; this serves as a way to find out from the database whether such updaters
+are running as intended.</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

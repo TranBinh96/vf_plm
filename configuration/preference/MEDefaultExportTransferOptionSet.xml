@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEDefaultExportTransferOptionSet" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of valid transfer option set values in &quot;Export to Briefcase&quot; dialog&apos;s transfer option set dropdown. 
+The values shown in the transfer option set dropdown are dependent on:
+1. Values in this preference 
+2. Values of transfer mode in preference &quot;TC_gms_export_default_transfermode&quot;. 
+
+With value of preference &quot;TC_gms_export_default_transfermode&quot; as &quot;TIEExportDefaultTM&quot; there will be two cases:
+1. Only those transfer option set will be displayed in &quot;Export to Briefcase&quot; dialog&apos;s transfer option set dropdown that are specified in this preference and have transfer mode value as &quot;TIEExportDefaultTM&quot;.
+2. All the transfer option set with transfer mode value as &quot;TIEExportDefaultTM&quot; will be displayed in &quot;Export to Briefcase&quot; dialog&apos;s transfer option set dropdown, if none of the transfer option set names specified in this preference have transfer mode value as &quot;TIEExportDefaultTM&quot;.
+
+Default values for the dropdown are:
+* MfgConfiguredExportDefault_LL: Use this transfer option set for briefcase configured LowLevel export.
+* MfgConfiguredExportDefault: Use this transfer option set for briefcase configured export. 
+* MfgUnconfiguredExportDefault: Use this transfer option set for briefcase unconfigured export.
+The first value specified in this preference defaults to selected transfer option set on the export to briefcase dialog.</preference_description>
+      <context name="Teamcenter">
+        <value>MfgConfiguredExportDefault_LL</value>
+        <value>MfgConfiguredExportDefault</value>
+        <value>MfgUnconfiguredExportDefault</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAccountabilityCheckReportProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Lists the BOM line properties to be added as columns to the accountability check Excel report for each source line in the Manufacturing Process Planner application. Cells in the column contain the value of the property for each BOM Line.
+Valid Values:
+Accepts a list of valid Teamcenter internal property names.If a team leader or manager needs an accountability check report to verify which BOM lines in a Process view are missing in the source MBOM view, the administrator could add the properties  bl_indented_title and bl_sequence_no to the preference. The sections Source Properties and Target Properties would 
+then allow them to compare MBOM source lines and Process view target lines. To get the parent chain of each line in the report, the administrator could then add the property fnd0bl_parent_chain. When the team leader or manager generates the accountability check report, an extra Parent Chain column is displayed in the Source Properties and Target Properties sections . 
+The Parent Chain value is a concatenation of all the parents of the target, starting from the top line parent on the left all the way down to the immediate parent line on the right.</preference_description>
+      <context name="Teamcenter">
+        <value>VF3_purchase_lvl_vf</value>
+        <value>bl_formula</value>
+        <value>bl_quantity</value>
+        <value>VF3_pos_ID</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

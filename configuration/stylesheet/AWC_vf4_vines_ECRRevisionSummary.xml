@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--// @<COPYRIGHT>@//
+==================================================// Copyright 2015.// Siemens Product Lifecycle
+Management Software Inc.// All Rights Reserved.//
+==================================================// @<COPYRIGHT>@-->
+<!-- Default style sheet for displaying CR rev summary. -->
+<rendering>
+   <header>
+      <image source="type" />
+      <property name="owning_user" />
+      <property name="last_mod_date" />
+      <property name="release_status_list" renderingHint="label" />
+   </header>
+   <page title="ECR Summary">
+      <column>
+         <section titleKey="IMPACT" title="IMPACT">
+            <property name="object_name" />
+            <property name="object_desc" />
+            <property name="vf4_supplier" />
+            <break />
+            <property name="vf4_is_cop_impact_require" />
+            <property name="vf4_cop_impacted_program" />
+            <property name="vf4_cop_impacted_prog_user" />
+            <break />
+            <property name="vf4_leadtime_impact1" />
+            <property name="vf4_mrp_late_time" />
+            <property name="vf4_build_time_impact" />
+            <property name="vf4_is_HTKO1_required" />
+            <property name="vf4_is_HTKO2_required" />
+            <property name="vf4_problem" />
+            <property name="vf4_root_cause" />
+            <property name="vf4_solution" />
+         </section>
+
+         <section title="INITIAL DELTA COST IMPACT">
+            <label text="Cost input by ENG team" />
+            <property name="vf4_init_piece_cost_delta" />
+            <property name="vf4_init_veh_cost_delta" />
+            <property name="vf4_init_tooling_cost_delta" />
+            <property name="vf4_init_edd_cost_delta" />
+            <property name="vf4_init_sunk_cost" />
+            <property name="vf4_init_scrap_cost" />
+            <property name="vf4_init_plant_equip_cost" />
+            <property name="vf4_init_testing_validate_c" />
+            <property name="vf4_init_other_cost" />
+         </section>
+         <section titleKey="AFFECTION IMPACT OF ECR " title="AFFECTION IMPACT OF ECR ">
+            <property name="vf4_vehicle_group" />
+            <property name="vf4_module_group" />
+            <property name="vf4_impacted_module" />
+            <property name="vf4_implementation_date_arr" />
+            <break />
+            <property name="vf4_have_DMU_check_result" />
+            
+            <section title="DMU">
+               <objectSet
+                  source="Vf6_DMU_Relation.Dataset"
+                  defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+                  <tableDisplay>
+                     <property name="object_string" />
+                     <property name="object_type" />
+                     <property name="release_status_list" />
+                     <property name="date_released" />
+                     <property name="owning_user" />
+                  </tableDisplay>
+                  <treeDisplay>
+                     <property name="object_string" />
+                     <property name="object_type" />
+                     <property name="release_status_list" />
+                     <property name="date_released" />
+                     <property name="owning_user" />
+                  </treeDisplay>
+                  <thumbnailDisplay />
+                  <listDisplay />
+                  <command actionKey="newBusinessObjectContextualAction"
+                     commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+                  <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+                     renderingHint="commandbutton">
+                     <parameter name="localSelection" value="true" />
+                  </command>
+                  <command actionKey="pasteAction"
+                     commandId="com.teamcenter.rac.viewer.pastewithContext"
+                     renderingHint="commandbutton" />
+               </objectSet>
+            </section>
+            <property name="vf4_ecr_category" />
+            <property name="vf4_ecr_category2" />
+            <property name="vf4_new_parts_status" />
+            <property name="vf4_es_exchange_newpart" />
+            <property name="vf4_es_exchange_oldpart" />
+         </section>
+         <section titleKey="SENDING DATA TO SUPPLIER" title="SENDING DATA TO SUPPLIER">
+            <property name="vf4_is_send_data_to_supp" />
+            <property name="vf4_reason_not_send_data" />
+         </section>
+      </column>
+      <column>
+         <section titleKey="PRECAB INFORMATION" title="PRECAB INFORMATION">
+            <property name="vf4_market" />
+            <property name="vf4_variant" />
+            <property name="vf4_lhd_rhd" />
+            <property name="vf4_precab_decision_comment" />
+            <property name="vf4_pre_decision_approval" />
+            <property name="vf4_precab_approval_date" />
+            <property name="item_id" />
+            <property name="vf4_ecr_contact_person" />
+            <property name="vf4_ecr_contact_email" />
+            <property name="vf4_module_group" />
+            <property name="vf4_sil_no" />
+            <property name="vf4_dcr_no" />
+            <break />
+            <property name="vf4_is_coord_change_require" />
+            <property name="vf4_coordinated_change" />
+         </section>
+
+         <section titleKey="CHANGE DESCRIPTION" title="CHANGE DESCRIPTION">
+            <property name="vf4_is_input_weight_require" />
+            <property name="vf4_current_weight" />
+            <property name="vf4_current_material" />
+            <property name="vf4_new_weight" />
+            <property name="vf4_new_material" />
+         </section>
+         <section titleKey="Image" title="Image">
+            <inject type="dataset" src="Awp0GalleryViewer" module="js/aw-include.directive" />
+         </section>
+      </column>
+
+      <section titleKey="BOM Information" title="BOM Information">
+         <tableProperty name="vf4_bom_infomation">
+            <property name="vf4_posid" />
+            <property name="vf4_donor_vehicle" />
+            <property name="vf4_structure_level" />
+            <property name="vf4_steering" />
+            <property name="vf4_quantity" />
+            <property name="vf4_maturity_level" />
+            <property name="vf4_purchase_level" />
+            <property name="vf4_change_type" />
+            <property name="vf4_part_number" />
+            <property name="vf4_old_version" />
+            <property name="vf4_frozen_revision" />
+            <property name="vf4_new_revision" />
+            <property name="vf4_part_name" />
+            <property name="vf4original_base_part" />
+            <property name="vf4_revision" />
+            <property name="vf4_variant_formula" />
+            <property name="vf4_torque_information" />
+            <property name="vf4_weight" />
+            <property name="vf4_change_description" />
+            <property name="vf4_3d_data_affected" />
+            <property name="vf4_material" />
+            <property name="vf4_cad_coating" />
+            <property name="vf4_specbook" />
+            <property name="vf4_supplier" />
+            <property name="vf4_supplier_contact" />
+            <property name="vf4_is_aftersale_relevant" />
+            <property name="vf4_exchangeability" />
+            <property name="vf4_part_tracebility" />
+         </tableProperty>
+      </section>
+   </page>
+
+
+   <page titleKey="tc_xrt_Overview">
+
+      <column width="25%">
+         <section titleKey="tc_xrt_description">
+            <property name="object_desc" renderingStyle="headless" />
+         </section>
+         <section titleKey="tc_xrt_details" collapsed="true">
+            <property name="item_id" renderingHint="label" />
+            <property name="item_revision_id" renderingHint="label" />
+            <property name="object_name" />
+            <property name="object_type" />
+            <break />
+            <property name="release_status_list" renderingHint="label" />
+            <property name="date_released" renderingHint="label" />
+            <break />
+            <property name="CMReason" />
+            <property name="CMProposedSolution" renderingHint="textarea" column="10" row="6" />
+            <property name="CMIsFastTrack" />
+            <property name="CMTechReviewPriority" />
+            <break />
+            <property name="CMTechnicalRecommendation" />
+            <property name="CMTechRecommDate" />
+            <property name="CMTestResultsAttached" />
+            <break />
+            <property name="CMRecurringCost" />
+            <property name="CMNonrecurringCost" />
+            <property name="CMTimingFactors" renderingHint="textarea" column="10" row="6" />
+         </section>
+         <inject type="dataset" src="Adc1ChangeRequestRevisionSummary" />
+         <inject type="dataset" src="ProjectListInfo" />
+         <section titleKey="tc_xrt_Participants">
+            <label textKey="tc_xrt_CMRequestorInfo" />
+            <objectSet source="HasParticipant.Requestor" defaultdisplay="listDisplay">
+               <listDisplay>
+                  <property name="fnd0AssigneeUser" />
+                  <property name="fnd0AssigneeRole" />
+               </listDisplay>
+            </objectSet>
+            <content visibleWhen="cm0ChangeSpecialist1!=null">
+               <label textKey="tc_xrt_CMChangeSpecialistInfo" />
+               <objectSet source="HasParticipant.ChangeSpecialist1" defaultdisplay="listDisplay">
+                  <listDisplay>
+                     <property name="fnd0AssigneeUser" />
+                     <property name="fnd0AssigneeRole" />
+                  </listDisplay>
+               </objectSet>
+            </content>
+         </section>
+         <content visibleWhen="CMImplements!=null">
+            <section titleKey="tc_xrt_problemReports">
+               <objectSet source="CMImplements.GnProblemReportRevision" defaultdisplay="listDisplay">
+                  <listDisplay>
+                     <property name="item_id" />
+                     <property name="item_revision_id" />
+                  </listDisplay>
+               </objectSet>
+            </section>
+         </content>
+         <content visibleWhen="CMImplementedBy!=null">
+            <section titleKey="tc_xrt_changeNotices">
+               <objectSet source="CMImplementedBy.GnChangeNoticeRevision"
+                  defaultdisplay="listDisplay">
+                  <listDisplay>
+                     <property name="item_id" />
+                     <property name="item_revision_id" />
+                  </listDisplay>
+               </objectSet>
+            </section>
+         </content>
+
+      </column>
+
+      <column width="75%">
+         <section titleKey="tc_xrt_progress">
+            <htmlPanel>
+<![CDATA[                        <div class="aw-widgets-propertyContainer">                            <aw-property-label prop="selected.properties['CMClosure']">
+</aw-property-label>                            <div class="aw-widgets-propertyLabelTopValueContainer">                                <div class="aw-jswidgets-propertyVal" ng-controller="awPropertyController">                                    <aw-property-val prop="selected.properties['CMClosure']"/>                                </div>                            </div>                            <aw-property-label prop="selected.properties['CMDisposition']">
+</aw-property-label>                            <div class="aw-widgets-propertyLabelTopValueContainer">                                <div class="aw-jswidgets-propertyVal" ng-controller="awPropertyController">                                    <aw-property-val prop="selected.properties['CMDisposition']"/>                                </div>                            </div>                            <aw-property-label prop="selected.properties['release_status_list']">
+</aw-property-label>                            <div class="aw-widgets-propertyLabelTopValueContainer">                                <div class="aw-jswidgets-propertyVal" ng-controller="awPropertyController">                                    <aw-property-val prop="selected.properties['release_status_list']"/>                                </div>                            </div>                        </div>                        ]]>
+</htmlPanel>
+            <inject type="dataset" src="Cm1MaturityProgressViewer"
+               module="js/aw-cm-property-progress-val.directive" />
+         </section>
+         <section titleKey="Process Information">            <!-- <property
+            name="REF(fnd0AllWorkflows,EPMTask).comments" renderingStyle="headless" />                <property
+            name="REF(fnd0AllWorkflows,EPMTask).task_template" renderingStyle="headless" />-->
+            <objectSet source="fnd0AllWorkflows.EPMTask" defaultdisplay="tableDisplay">
+               <tableDisplay>
+                  <property name="task_template" />
+                  <property name="comments" />
+               </tableDisplay>
+            </objectSet>
+         </section>
+         <content visibleWhen="CMHasImpactedItem!=null">
+            <section titleKey="tc_xrt_ImpactedItems">
+               <objectSet
+                  source="CMHasImpactedItem.ItemRevision,CMHasImpactedItem.Mdl0ModelElement,CMHasImpactedItem.Cfg0AbsConfiguratorWSO"
+                  defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+                  <tableDisplay>
+                     <property name="object_string" />
+                     <property name="object_type" />
+                     <property name="release_status_list" />
+                     <property name="date_released" />
+                     <property name="owning_user" />
+                     <property name="CMHasImpactedItem.cm0ImplementingChgNotices" />
+                     <property name="CMHasImpactedItem.cm0ImplementingSolutions" />
+                  </tableDisplay>
+                  <treeDisplay>
+                     <property name="object_string" />
+                     <property name="object_type" />
+                     <property name="release_status_list" />
+                     <property name="date_released" />
+                     <property name="owning_user" />
+                     <property name="CMHasImpactedItem.cm0ImplementingChgNotices" />
+                     <property name="CMHasImpactedItem.cm0ImplementingSolutions" />
+                  </treeDisplay>
+                  <thumbnailDisplay />
+                  <listDisplay />
+               </objectSet>
+            </section>
+         </content>
+         <view name="actions">
+            <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" />
+            <command actionKey="reviseAction" commandId="com.teamcenter.rac.revise" />
+         </view>
+
+      </column>
+
+   </page>
+
+   <page titleKey="tc_xrt_ChangeProperties" title="Change Properties">
+      <column>
+         <property name="vf4_change_reason" />
+         <property name="vf4_target_release_date" />
+         <break />
+         <property name="vf4_have_spec_book" />
+         <property name="vf4_spec_doc" />
+         <break />
+         <property name="vf4_have_DFMEA" />
+         <property name="vf4_DFMEA_doc" />
+         <break />
+         <property name="vf4_have_PFMEA" />
+         <property name="vf4_PFMEA_doc" />
+         <break />
+         <property name="vf4_have_DVP" />
+         <property name="vf4_DVP_doc" />
+      </column>
+   </page>
+   <page titleKey="Data Exchange">
+      <htmlPanel declarativeKey="vf4_vines_dde_store_data" />
+   </page>
+   <page titleKey="Affected Function" title="Affected Function"
+      visibleWhen="vf4_vehicle_group!=Scooter">
+      <column>
+         <property name="vf4_is_functional_safety" />
+         <property name="vf4_is_homo_required" />
+         <property name="vf4_is_aftersale_required" />
+         <property name="vf4_is_DMU_required" />
+         <property name="vf4_is_cae_required" />
+         <property name="vf4_is_sale_and_marketin" />
+         <property name="vf4_is_test_n_vali_review" />
+         <property name="vf4_dceo_rnd_approve" />
+         <property name="vf4_is_color_trim_required" />
+         <property name="vf4_is_supplier_qual_manage" />
+         <property name="vf4_gr_qual_eng" />
+         <property name="vf4_gr_manu_quality" />
+         <property name="vf4_gr_manufacturing" />
+         <property name="vf4_gr_system_arch" />
+         <property name="vf4_gr_direct_pur" />
+         <property name="vf4_gr_indirect_pur" />
+         <break />
+      </column>
+      <column>
+         <!-- New property require in ECR -->
+         <property name="vf4v_is_other_cost_required" />
+         <property name="vf4_is_sunk_cost_require" />
+         <property name="vf4_is_scrap_cost_required" />
+         <property name="vf4_is_test_n_vali_required" />
+         <property name="vf4_is_plant_equipment_cost" />
+         <property name="vf4_is_veh_cost_required" />
+         <property name="vf4_is_piece_cost_require" />
+         <property name="vf4_is_edd_cost_Required" />
+         <property name="vf4is_tooling_cost_require" />
+         <property name="vf4_is_logistic_cost_requir" />
+         <property name="vf4_is_budget_cost_required" />
+         <property name="vf4_is_cost_eng" />
+         <property name="vf4_is_rework_cost_require" />
+      </column>
+
+   </page>
+
+   <page titleKey="tc_xrt_AffectedItems">
+
+      <section titleKey="tc_xrt_ProblemItems">
+         <label textKey="tc_xrt_ProblemItemsInfo" />
+         <objectSet
+            source="CMHasProblemItem.ItemRevision,CMHasProblemItem.Mdl0ModelElement,CMHasProblemItem.Cfg0AbsConfiguratorWSO,CMHasProblemItem.Bom0ConfigurableBomElement"
+            defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+            </tableDisplay>
+            <treeDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+            </treeDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+         </objectSet>
+
+      </section>
+
+      <section titleKey="tc_xrt_ImpactedItems">
+         <label textKey="tc_xrt_ImpactedItemsInfo" />
+         <objectSet
+            source="CMHasImpactedItem.ItemRevision,CMHasImpactedItem.Mdl0ModelElement,CMHasImpactedItem.Cfg0AbsConfiguratorWSO,CMHasImpactedItem.Bom0ConfigurableBomElement"
+            defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+               <property name="CMHasImpactedItem.cm0ImplementingChgNotices" />
+               <property name="CMHasImpactedItem.cm0ImplementingSolutions" />
+            </tableDisplay>
+            <treeDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+               <property name="CMHasImpactedItem.cm0ImplementingChgNotices" />
+               <property name="CMHasImpactedItem.cm0ImplementingSolutions" />
+            </treeDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+         </objectSet>
+
+      </section>
+
+      <section titleKey="tc_xrt_PlanItems">
+         <label textKey="PlanItemsInfo" />
+         <objectSet source="CMHasWorkBreakdown.Schedule" defaultdisplay="tableDisplay"
+            sortdirection="ascending" sortby="object_string">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="fnd0status" />
+               <property name="fnd0SSTCompletePercent" />
+               <property name="owning_user" />
+            </tableDisplay>
+            <treeDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="fnd0status" />
+               <property name="fnd0SSTCompletePercent" />
+               <property name="owning_user" />
+            </treeDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+         </objectSet>
+
+      </section>
+
+      <section titleKey="tc_xrt_CMImplements">
+         <label textKey="CMImplementsInfo" />
+         <objectSet source="CMImplements.ChangeItemRevision" defaultdisplay="tableDisplay">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="CMClosure" />
+               <property name="CMDisposition" />
+               <property name="CMMaturity" />
+               <property name="cm0Requestor" />
+            </tableDisplay>
+            <treeDisplay>
+               <property name="object_string" />
+               <property name="CMClosure" />
+               <property name="CMDisposition" />
+               <property name="CMMaturity" />
+               <property name="cm0Requestor" />
+            </treeDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+         </objectSet>
+
+      </section>
+
+      <section titleKey="tc_xrt_CMImplementedBy">
+         <label textKey="CMImplementedByInfo" />
+         <objectSet source="CMImplementedBy.ChangeItemRevision" defaultdisplay="tableDisplay">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="CMClosure" />
+               <property name="CMDisposition" />
+               <property name="CMMaturity" />
+               <property name="cm0Requestor" />
+               <property name="CMHasSolutionItem" />
+            </tableDisplay>
+            <treeDisplay>
+               <property name="object_string" />
+               <property name="CMClosure" />
+               <property name="CMDisposition" />
+               <property name="CMMaturity" />
+               <property name="cm0Requestor" />
+               <property name="CMHasSolutionItem" />
+            </treeDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+         </objectSet>
+
+      </section>
+
+   </page>
+
+   <page titleKey="Proposal">
+
+      <section titleKey="Proposal">
+         <label textKey="Proposal" />
+         <objectSet source="Cm0HasProposal.WorkspaceObject,Cm0HasProposal.Dataset"
+            defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+               <property name="REF(items_tag,Item).vf4_donor_vehicle" titleKey="Donor Vehicle" />
+               <property name="REF(items_tag,Item).vf4_item_is_traceable"
+                  titleKey="Part Traceability Indicator" />
+               <property name="REF(items_tag,Item).vf4_itm_after_sale_relevant"
+                  titleKey="Is After Sale Relevant" />
+               <property name="REF(items_tag,Item).vf4_supplier_type" titleKey="Supplier Type" />
+               <property name="REF(items_tag,Item).vf4_itm_supplier_code" titleKey="Supplier Code" />
+            </tableDisplay>
+            <treeDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+            </treeDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+         </objectSet>
+
+      </section>
+
+      <inject type="dataset" src="RemoteLinksSummary" />
+
+   </page>
+
+   <page titleKey="tc_xrt_ReferenceItems">
+
+      <section titleKey="tc_xrt_ReferenceItems">
+         <label textKey="tc_xrt_ReferenceItemsInfo" />
+         <objectSet source="CMReferences.WorkspaceObject,CMReferences.Dataset"
+            defaultdisplay="tableDisplay" sortdirection="ascending" sortby="object_string">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+            </tableDisplay>
+            <treeDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+            </treeDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+            <command actionKey="newBusinessObjectContextualAction"
+               commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton" />
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut"
+               renderingHint="commandbutton">
+               <parameter name="localSelection" value="true" />
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext"
+               renderingHint="commandbutton" />
+         </objectSet>
+
+      </section>
+
+      <inject type="dataset" src="RemoteLinksSummary" />
+
+   </page>
+
+   <page titleKey="Cost Impact">
+
+      <section>
+         <htmlPanel declarativeKey="iconExchangeRate" />
+
+      </section>
+
+      <section title="TOTAL ECR COST IMPACT">
+         <label text="NOTE: PLEASE ENTER ALL COSTS IN USD" />
+         <break />
+         <column>
+            <section title="INITIAL DELTA COST IMPACT">
+               <label text="Cost input by ENG team" />
+               <property name="vf4_init_piece_cost_delta" />
+               <property name="vf4_init_veh_cost_delta" />
+               <property name="vf4_init_tooling_cost_delta" />
+               <property name="vf4_init_edd_cost_delta" />
+               <property name="vf4_init_sunk_cost" />
+               <property name="vf4_init_scrap_cost" />
+               <property name="vf4_init_plant_equip_cost" />
+               <property name="vf4_init_testing_validate_c" />
+               <property name="vf4_init_other_cost" />
+            </section>
+         </column>
+
+         <column>
+            <section title="TOTAL DELTA COST IMPACT">
+               <property name="vf4_delta_piece_cost" />
+               <property name="vf4_vehicle_cost_delta" />
+               <property name="vf4_delta_tooling_cost" />
+               <property name="vf4_delta_edd_cost" />
+               <property name="vf4_sunk_cost" />
+               <property name="vf4_scrap_cost" />
+               <property name="vf4_plant_equipment_cost" />
+               <property name="vf4_testing_validate_cost" />
+               <property name="vf4_other_cost" />
+            </section>
+         </column>
+      </section>
+
+      <section titleKey="Testing and validation Cost Impact" initialstate="collapsed">
+         <objectSet source="VF4_change_forms.VF4_cost_impacted" defaultdisplay="tableDisplay"
+            sortdirection="ascending" sortby="object_string">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="vf4_feasibility_confirmed" />
+               <property name="vf4_lead_time" />
+               <property name="vf4_test_n_validation_cost" />
+               <property name="vf4_remarks" />
+               <property name="last_mod_date" />
+               <property name="last_mod_user" />
+            </tableDisplay>
+            <treeDisplay />
+            <thumbnailDisplay />
+            <listDisplay />
+         </objectSet>
+      </section>
+
+      <section titleKey="Engineering Cost Impact" initialstate="collapsed">
+         <objectSet source="VF4_change_forms.VF4_engineering" defaultdisplay="tableDisplay"
+            sortdirection="ascending" sortby="object_string">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="vf4_feasibility_confirmed" />
+               <property name="vf4_lead_time" />
+               <property name="vf4_engineering_costs" />
+               <property name="vf4_remarks" />
+               <property name="last_mod_date" />
+               <property name="last_mod_user" />
+            </tableDisplay>
+            <treeDisplay />
+            <thumbnailDisplay />
+            <listDisplay />
+         </objectSet>
+      </section>
+
+      <section titleKey="Logistic Cost Impact" initialstate="collapsed">
+         <label text="NOTE: PLEASE ENTER ALL COSTS IN USD" />
+         <objectSet source="VF4_change_forms.VF4_logistics" defaultdisplay="tableDisplay"
+            sortdirection="ascending" sortby="object_string">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="vf4_feasibility_confirmed" />
+               <property name="vf4_lead_time" />
+               <property name="vf4_carrier_costs" />
+               <property name="vf4_remarks" />
+               <property name="last_mod_date" />
+               <property name="last_mod_user" />
+            </tableDisplay>
+            <treeDisplay />
+            <thumbnailDisplay />
+            <listDisplay />
+         </objectSet>
+
+      </section>
+
+      <section titleKey="Manufacturing Cost Impact" initialstate="collapsed">
+         <label text="NOTE: PLEASE ENTER ALL COSTS IN USD" />
+         <objectSet source="VF4_change_forms.VF4_manufacturing" defaultdisplay="tableDisplay"
+            sortdirection="ascending" sortby="object_string" maxRowCount="200">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="vf4_manuf_packing_cost" />
+               <property name="vf4_manuf_logistic_cost" />
+               <property name="vf4_manu_piece_costs" />
+               <property name="vf4_manuf_total_piece_cost" hidden="true" />
+               <property name="vf4_manu_supplier_eng_costs" />
+               <property name="vf4_manu_tooling_costs" />
+               <property name="vf4_manuf_transfer_edd_cost" />
+               <property name="vf4_manuf_transfer_toolCost" />
+               <property name="vf4_manu_scrap_costs" />
+               <property name="vf4_manu_sunk_costs" />
+               <property name="vf4_manuf_quantity_before" />
+               <property name="vf4_manuf_quantity_after" />
+               <property name="vf4_manuf_delta_piece_cost" />
+               <property name="vf4_plant_equipment" />
+               <property name="vf4_manufacturing_time" />
+               <property name="vf4_feasibility_confirmed" />
+               <property name="vf4_lead_time" />
+               <property name="vf4_remarks" />
+               <property name="last_mod_date" />
+               <property name="last_mod_user" />
+            </tableDisplay>
+            <treeDisplay />
+            <thumbnailDisplay />
+            <listDisplay />
+         </objectSet>
+
+      </section>
+
+      <section titleKey="Purchasing Cost Impact" initialstate="collapsed">
+         <label text="NOTE: PLEASE ENTER ALL COSTS IN USD" />
+         <objectSet source="VF4_change_forms.VF4_purchasing" defaultdisplay="tableDisplay"
+            sortdirection="ascending" sortby="object_string" maxRowCount="200">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="vf4_pur_packing_cost" />
+               <property name="vf4_pur_logistic_cost" />
+               <property name="vf4_material_costs" />
+               <property name="vf4_pur_total_piece_cost" hidden="true" />
+               <property name="vf4_supplier_eng_costs" />
+               <property name="vf4_tooling_costs" />
+               <property name="vf4_pur_transfer_edd_cost" />
+               <property name="vf4_pur_transfer_tool_cost" />
+               <property name="vf4_scrap_costs" />
+               <property name="vf4_pu_sunk_costs" />
+               <property name="vf4_pur_quantity_before" />
+               <property name="vf4_pur_quantity_after" />
+               <property name="vf4_pur_delta_piece_cost" />
+               <property name="vf4_feasibility_confirmed" />
+               <property name="vf4_lead_time" />
+               <property name="vf4_remarks" />
+               <property name="vf4_fixtures" />
+               <property name="vf4_parent_part_for_edd" />
+               <property name="vf4_parent_part_for_tooling" />
+               <property name="last_mod_date" />
+               <property name="last_mod_user" />
+            </tableDisplay>
+            <treeDisplay />
+            <thumbnailDisplay />
+            <listDisplay />
+         </objectSet>
+
+      </section>
+
+      <inject type="dataset" src="RemoteLinksSummary" />
+
+   </page>
+
+   <page titleKey="tc_xrt_Participants">
+
+      <content visibleWhen="awp0ShowParticipants==Requestor">
+         <section titleKey="tc_xrt_Requestor">
+            <content visibleWhen="awp0RequiredParticipants==Requestor">
+               <htmlPanel declarativeKey="Awp0RequiredParticipantTile" />
+            </content>
+            <objectSet source="HasParticipant.Requestor">
+               <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant"
+                  renderingHint="commandbutton" />
+               <command actionKey="newBusinessObjectContextualAction"
+                  commandId="Awp0ReplaceParticipant" renderingHint="commandbutton" />
+               <tableDisplay>
+                  <property name="fnd0AssigneeUser" />
+                  <property name="fnd0AssigneeRole" />
+                  <property name="fnd0AssigneeGroup" />
+                  <property name="fnd0AssigneeEmail" />
+                  <property name="fnd0AssigneePhone" />
+                  <property name="fnd0AssigneeOrganization" />
+                  <property name="HasParticipant.fnd0AssignmentComment" />
+               </tableDisplay>
+               <listDisplay />
+            </objectSet>
+         </section>
+
+      </content>
+
+      <content visibleWhen="awp0ShowParticipants==ChangeSpecialist1">
+         <section titleKey="tc_xrt_ChangeSpecialist1">
+            <content visibleWhen="awp0RequiredParticipants==ChangeSpecialist1">
+               <htmlPanel declarativeKey="Awp0RequiredParticipantTile" />
+            </content>
+            <objectSet source="HasParticipant.ChangeSpecialist1" defaultdisplay="listDisplay">
+               <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant"
+                  renderingHint="commandbutton" />
+               <command actionKey="newBusinessObjectContextualAction"
+                  commandId="Awp0ReplaceParticipant" renderingHint="commandbutton" />
+               <tableDisplay>
+                  <property name="fnd0AssigneeUser" />
+                  <property name="fnd0AssigneeRole" />
+                  <property name="fnd0AssigneeGroup" />
+                  <property name="fnd0AssigneeEmail" />
+                  <property name="fnd0AssigneePhone" />
+                  <property name="fnd0AssigneeOrganization" />
+                  <property name="HasParticipant.fnd0AssignmentComment" />
+               </tableDisplay>
+               <listDisplay />
+            </objectSet>
+         </section>
+      </content>
+      <content visibleWhen="awp0ShowParticipants==Analyst">
+         <section titleKey="tc_xrt_Analyst">
+            <content visibleWhen="awp0RequiredParticipants==Analyst">
+               <htmlPanel declarativeKey="Awp0RequiredParticipantTile" />
+            </content>
+            <objectSet source="HasParticipant.Analyst" defaultdisplay="listDisplay">
+               <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant"
+                  renderingHint="commandbutton" />
+               <command actionKey="newBusinessObjectContextualAction"
+                  commandId="Awp0ReplaceParticipant" renderingHint="commandbutton" />
+               <tableDisplay>
+                  <property name="fnd0AssigneeUser" />
+                  <property name="fnd0AssigneeRole" />
+                  <property name="fnd0AssigneeGroup" />
+                  <property name="fnd0AssigneeEmail" />
+                  <property name="fnd0AssigneePhone" />
+                  <property name="fnd0AssigneeOrganization" />
+                  <property name="HasParticipant.fnd0AssignmentComment" />
+               </tableDisplay>
+               <listDisplay />
+            </objectSet>
+         </section>
+      </content>
+      <content visibleWhen="awp0ShowParticipants==ChangeReviewBoard">
+         <section titleKey="tc_xrt_ChangeReviewBoard">
+            <content visibleWhen="awp0RequiredParticipants==ChangeReviewBoard">
+               <htmlPanel declarativeKey="Awp0RequiredParticipantTile" />
+            </content>
+            <objectSet source="HasParticipant.ChangeReviewBoard">
+               <command actionKey="newBusinessObjectContextualAction" commandId="Awp0AddParticipant"
+                  renderingHint="commandbutton" />
+               <command actionKey="newBusinessObjectContextualAction"
+                  commandId="Awp0ReplaceParticipant" renderingHint="commandbutton" />
+               <tableDisplay>
+                  <property name="fnd0AssigneeUser" />
+                  <property name="fnd0AssigneeRole" />
+                  <property name="fnd0AssigneeGroup" />
+                  <property name="fnd0AssigneeEmail" />
+                  <property name="fnd0AssigneePhone" />
+                  <property name="fnd0AssigneeOrganization" />
+                  <property name="HasParticipant.fnd0AssignmentComment" />
+               </tableDisplay>
+               <listDisplay />
+            </objectSet>
+         </section>
+      </content>
+   </page>
+   <page title="Coordinated Changes">
+      <section title="Secondary Changes">
+         <objectSet source="VF4_CoordinatedChange.VF4_VinES_ECRRevision"
+            defaultdisplay="tableDisplay"
+            sortdirection="ascending" sortby="object_string">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+            </tableDisplay>
+            <treeDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+            </treeDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+         </objectSet>
+      </section>
+      <section title="Primary Changes">
+         <objectSet source="S2P:VF4_CoordinatedChange.VF4_VinES_ECRRevision"
+            defaultdisplay="tableDisplay"
+            sortdirection="ascending" sortby="object_string">
+            <tableDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+            </tableDisplay>
+            <treeDisplay>
+               <property name="object_string" />
+               <property name="object_type" />
+               <property name="release_status_list" />
+               <property name="date_released" />
+               <property name="owning_user" />
+            </treeDisplay>
+            <thumbnailDisplay />
+            <listDisplay />
+         </objectSet>
+      </section>
+   </page>
+   <inject type="dataset" src="WorkflowSummary" />
+   <inject type="preference" src="InContextAnalyticsPref" />
+   <inject type="dataset" src="RelationsSummary" />
+   <inject type="dataset" src="Rb0InContextReportsSubLocation" />
+   <inject type="dataset" src="AuditLogForItemRev" />
+</rendering>

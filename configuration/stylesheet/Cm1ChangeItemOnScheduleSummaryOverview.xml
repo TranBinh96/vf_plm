@@ -1,0 +1,19 @@
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+    <section titleKey="tc_xrt_ChangeOnScheduleSummary">
+        <objectSet source="S2P:CMHasWorkBreakdown.ChangeItemRevision" defaultdisplay="listDisplay">
+            <listDisplay>
+                <property name="item_id"/>
+                <property name="item_revision_id"/>
+            </listDisplay>
+        </objectSet>
+    </section>
+</subRendering>

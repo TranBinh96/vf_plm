@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEGANTTDefaultEditMode" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default edit mode used on startup of a Gantt chart viewer.
+Valid Values:
+full_edit_mode - Specifies the full edit mode to be used on startup of a Gantt chart viewer. In the full edit mode, you can use the toolbar buttons to edit the elements in the Gantt chart viewer.
+restricted_edit_mode - Specifies the restricted edit mode to be used on startup of a Gantt chart viewer. In the restricted edit mode, you can still change the duration of an element using the context menu of the element.</preference_description>
+      <context name="Teamcenter">
+        <value>restricted_edit_mode</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

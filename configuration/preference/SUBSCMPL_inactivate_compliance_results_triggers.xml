@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_inactivate_compliance_results_triggers" type="Integer" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the valid reasons for marking compliance result as inactive.
+Valid values are the internal values for the LOV &quot;Scp0InactiveSCResultReasons&quot;. Its out-of-the-box values are:
+* 1: Part mass changed. Mass attribute on Part changed.
+* 2: Part mass changed. UOM attribute on Part changed.
+* 3: Part mass changed. Mass attribute on Uses Material relation changed.
+* 4: Part mass changed. UOM attribute on Uses Material relation changed.
+* 5: New Material added to part.
+* 6: Material Removed from part.
+* 7: New Smelter added to part.
+* 8: Smelter removed from part.
+* 9: New Smelter added to Vendor.
+* 10: Smelter removed from Vendor.
+* 11: New exemption added to part.
+* 12: Exemption removed from part.
+* 13: New substance category attached to part.
+* 14: Substance category removed from part.
+* 15: New abstract declaration attached to part.
+* 16: Abstract declaration removed from part.
+* 17: New substance added to material which is attached to the part.
+* 18: Substance removed from material which is attached to the part.
+* 19: Substance composition of the material changed which is attached to the part.
+* 20: Maximum substance composition of the material changed which is attached to the part.
+* 21: Composition in range attribute on substance of the material changed which is attached to the part.
+* 22: Material Substance Declaration (MSD) on Part has expired. Please run the &quot;subscmpl_validate_compliance_results&quot; utility to mark the corresponding substance compliance results as inactive.
+* 23: Conflict Mineral Declaration (CMD) on Part has expired. Please run the &quot;subscmpl_validate_compliance_results&quot; utility to mark the corresponding substance compliance results as inactive.
+* 24: Material Substance Declaration (MSD) Supporting Documents on Part has expired. Please run the &quot;subscmpl_validate_compliance_results&quot; utility to mark the corresponding substance compliance results as inactive.
+* 25: Applied exemption on Part has expired. Please run the &quot;subscmpl_validate_compliance_results utility&quot; to mark the corresponding substance compliance results as inactive.
+* 26: Vendor&apos;s Smelter attribute &quot;Is Known/Verified&quot; is changed.
+* 27: Vendor&apos;s smelter attribute &quot;No Use Smelter&quot; is changed.
+* 28: Vendor&apos;s smelter attribute &quot;Smelter Identity&quot; is changed.
+* 29: Vendor Part&apos;s Smelter attribute &quot;Is Known/Verified&quot; is changed.
+* 30: Vendor Part&apos;s smelter attribute &quot;No Use Smelter&quot; is changed.
+* 31: Vendor Part&apos;s smelter attribute &quot;Smelter Identity&quot; is changed.
+* 32: Conflict Mineral Declaration (CMD) Supporting Documents on Part has expired. Please run the &quot;subscmpl_validate_compliance_results&quot; utility to mark the corresponding substance compliance results as inactive.
+* 33: Material Substance Supporting Documents on Part has expired. Please run the &quot;subscmpl_validate_compliance_results&quot; utility to mark the corresponding substance compliance results as inactive.
+* 34: New compliance category attached to part.
+* 35: Compliance category removed from part.
+* 36: The response to a compliance category attached to a part is changed.
+The default values are 5, 6 and 25.</preference_description>
+      <context name="Teamcenter">
+        <value>5</value>
+        <value>6</value>
+        <value>25</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

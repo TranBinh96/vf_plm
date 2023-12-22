@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!--
+		===============================================================================
+		Copyright (c) 2003-2005 UGS Corporation Unpublished - All Rights
+		Reserved
+		===============================================================================
+
+		Filename: ItemSummary.xml Default style sheet for displaying item
+		summary.
+	-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+	<header>
+		<image source="thumbnail" />
+		<classificationTrace />
+		<property name="owning_user" />
+		<property name="last_mod_date" />
+		<property name="release_status_list" />
+		<property name="object_type" />
+	</header>
+	<page text="Overview" format="TwoColumn">
+		<firstcolumn>
+			<section text="ItemProperties">
+				<property name="object_name" />
+				<separator />
+				<property name="checked_out" />
+				<property name="checked_out_user" />
+				<separator />
+				<command commandId="com.teamcenter.rac.properties" text="moreProperties" />
+			</section>
+			<section text="AvailableRevisions">
+				<objectSet source="revision_list.ItemRevision"
+					defaultdisplay="thumbnailDisplay" sortdirection="descending"
+					sortby="item_revision_id">
+					<tableDisplay>
+						<property name="object_string" />
+						<property name="item_revision_id" />
+						<property name="release_status_list" />
+						<property name="last_mod_date" />
+						<property name="last_mod_user" />
+						<property name="checked_out_user" />
+					</tableDisplay>
+					<thumbnailDisplay />
+					<treeDisplay>
+						<property name="object_string" />
+						<property name="item_revision_id" />
+						<property name="release_status_list" />
+						<property name="last_mod_date" />
+						<property name="last_mod_user" />
+						<property name="checked_out_user" />
+					</treeDisplay>
+					<listDisplay />
+				</objectSet>
+			</section>
+		</firstcolumn>
+		<secondcolumn>
+			<view name="viewer" />
+			<view name="actions">
+				<command actionKey="copyAction" commandId="com.teamcenter.rac.copy" />
+				<command actionKey="saveAsAction" commandId="org.eclipse.ui.file.saveAs" />
+				<command actionKey="newProcessAction" commandId="com.teamcenter.rac.newProcess"
+					text="newProc" />
+			</view>
+		</secondcolumn>
+	</page>
+	<page text="impactanalysis">
+		<view name="impactanalysis" />
+	</page>
+</rendering>

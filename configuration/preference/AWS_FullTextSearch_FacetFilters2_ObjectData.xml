@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWS_FullTextSearch_FacetFilters2_ObjectData" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the list of facet filters to be used during full text search of object data.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision.awp0AliasID PropType_0Y0_String</value>
+        <value>ItemRevision.awp0AlternateID PropType_0Y0_String</value>
+        <value>WorkspaceObject.object_type PropType_0Y0_String</value>
+        <value>WorkspaceObject.date_released PropType_0Y0_Date</value>
+        <value>WorkspaceObject.ip_classification PropType_0Y0_String</value>
+        <value>WorkspaceObject.gov_classification PropType_0Y0_String</value>
+        <value>WorkspaceObject.fnd0InProcess PropType_0Y0_Boolean</value>
+        <value>WorkspaceObject.release_status_list</value>
+        <value>WorkspaceObject.project_list</value>
+        <value>WorkspaceObject.s2clTags</value>
+        <value>WorkspaceObject.awp0IsSuspect PropType_0Y0_Boolean</value>
+        <value>WorkspaceObject.s2clAverageRatingFmSy PropType_0Y0_Double</value>
+        <value>POM_application_object.owning_group</value>
+        <value>POM_application_object.last_mod_user</value>
+        <value>POM_application_object.owning_user</value>
+        <value>POM_application_object.last_mod_date PropType_0Y0_Date</value>
+        <value>WorkspaceObject.owning_site.name PropType_0Y0_String</value>
+        <value>ChangeItemRevision.CMClosure PropType_0Y0_String</value>
+        <value>ChangeItemRevision.CMDisposition PropType_0Y0_String</value>
+        <value>ChangeItemRevision.CMMaturity PropType_0Y0_String</value>
+        <value>ChangeItemRevision.analyst_user_id PropType_0Y0_String</value>
+        <value>ChangeItemRevision.change_specialist1_user_id PropType_0Y0_String</value>
+        <value>ChangeItemRevision.requestor_user_id PropType_0Y0_String</value>
+        <value>GnChangeRequestRevision.CMIsFastTrack PropType_0Y0_String</value>
+        <value>GnChangeNoticeRevision.CMIsFastTrack PropType_0Y0_String</value>
+        <value>ChangeNoticeRevision.CMImplPriority PropType_0Y0_String</value>
+        <value>ChangeNoticeRevision.CMIsCustApprovalRequired PropType_0Y0_String</value>
+        <value>ChangeNoticeRevision.CMStatusOfCustApproval PropType_0Y0_String</value>
+        <value>Scp0PartDeclRevision.scw0DeclarationFileName PropType_0Y0_String</value>
+        <value>Qam0QualityAction.qam0DueDate PropType_0Y0_Date</value>
+        <value>Qam0QualityAction.qam0ConfirmedBy</value>
+        <value>Qam0QualityAction.qam0ConfirmationDate PropType_0Y0_Date</value>
+        <value>Qam0QualityAction.qam0CompletedBy</value>
+        <value>Qam0QualityAction.qam0CompletionDate PropType_0Y0_Date</value>
+        <value>Qam0QualityAction.qam0Targets</value>
+        <value>Qam0QualityAction.qam0QualityActionStatus PropType_0Y0_String</value>
+        <value>Qam0QualityAction.qam0QualityActionType PropType_0Y0_String</value>
+        <value>Qam0QualityAction.qam0QualityActionSubtype PropType_0Y0_String</value>
+        <value>Qam0QualityAction.qam0ActivationDate PropType_0Y0_Date</value>
+        <value>Qam0QualityAction.fnd0ResponsibleUser</value>
+        <value>ScheduleTask.start_date PropType_0Y0_Date</value>
+        <value>ScheduleTask.finish_date PropType_0Y0_Date</value>
+        <value>ScheduleTask.complete_percent PropType_0Y0_Double</value>
+        <value>ScheduleTask.actual_start_date PropType_0Y0_Date</value>
+        <value>ScheduleTask.actual_finish_date PropType_0Y0_Date</value>
+        <value>ScheduleTask.fnd0status PropType_0Y0_String</value>
+        <value>ScheduleTask.fnd0state PropType_0Y0_String</value>
+        <value>ScheduleTask.priority PropType_0Y0_Integer</value>
+        <value>ScheduleTask.task_type PropType_0Y0_Integer</value>
+        <value>ScheduleTask.is_baseline PropType_0Y0_Boolean</value>
+        <value>ScheduleTask.schedule_tag</value>
+        <value>ScheduleTask.fnd0IsSchSummaryTask PropType_0Y0_Boolean</value>
+        <value>ScheduleTask.saw1IsTemplateTask PropType_0Y0_Boolean</value>
+        <value>Scp0Regulation.scp0is_active PropType_0Y0_Boolean</value>
+        <value>Item.awp0AliasID PropType_0Y0_String</value>
+        <value>Item.awp0AlternateID PropType_0Y0_String</value>
+        <value>Scp0Smelter.scp0Metal PropType_0Y0_String</value>
+        <value>Scp0Smelter.scp0CertificationValidUntil PropType_0Y0_Date</value>
+        <value>Scp0Smelter.scp0AuditedStatus PropType_0Y0_String</value>
+        <value>Mat1Substance.mat1cas_number PropType_0Y0_String</value>
+        <value>Mat1Substance.mat1IsInActive PropType_0Y0_Boolean</value>
+        <value>Mat1Substance.mat1is_wildcard PropType_0Y0_Boolean</value>
+        <value>S2clCommentary.s2clRatingValue PropType_0Y0_Integer</value>
+        <value>S2clAnswer.s2clIsBestAnswer PropType_0Y0_Boolean</value>
+        <value>S2clQuestion.s2clIsOpen PropType_0Y0_Boolean</value>
+        <value>Fnd0AppSession.awb0ProductIDsInSession PropType_0Y0_String</value>
+        <value>Fnd0AppSession.awb0ProductNamesInSession PropType_0Y0_String</value>
+        <value>Fnd0AppSession.awb0ProductTypesInSession PropType_0Y0_String</value>
+        <value>Schedule.is_baseline PropType_0Y0_Boolean</value>
+        <value>Schedule.start_date PropType_0Y0_Date</value>
+        <value>Schedule.finish_date PropType_0Y0_Date</value>
+        <value>Schedule.priority PropType_0Y0_Integer</value>
+        <value>Schedule.is_template PropType_0Y0_Boolean</value>
+        <value>Schedule.saw1SSTActualFinishDate PropType_0Y0_Date</value>
+        <value>Schedule.saw1SSTActualStartDate PropType_0Y0_Date</value>
+        <value>Schedule.saw1SSTPercentComplete PropType_0Y0_Double</value>
+        <value>Schedule.saw1SSTState PropType_0Y0_String</value>
+        <value>Schedule.saw1SSTStatus PropType_0Y0_String</value>
+        <value>PublicationRecord.pubr_owning_site PropType_0Y0_Integer</value>
+        <value>PublicationRecord.pubr_object_type PropType_0Y0_String</value>
+        <value>PublicationRecord.pubr_group_id PropType_0Y0_String</value>
+        <value>PublicationRecord.pubr_object_create_date PropType_0Y0_Date</value>
+        <value>PublicationRecord.pubr_flag PropType_0Y0_Integer</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2014 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Um0UserOrganizationSubLocSummary.xml
+
+The default style sheet for displaying User Object in peoplelocation and organization sublocation. 
+
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source = "type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column>
+            <section titleKey="tc_xrt_Properties">
+                <property name="user_id" />
+                <property name="os_username" />
+                <property name="default_group"/>
+                <property name="last_login_time" />
+                <property name="volume"/>
+                <property name="local_volume"/>
+                <property name="status"/>
+                <property name="license_level" />
+                <property name="fnd0LicenseServer" />
+                <property name="fnd0license_bundles" />
+                <property name="owning_site" />
+                <property name="geography" />
+                <property name="nationality" />
+                <property name="fnd0citizenships" />
+            </section>
+        </column>    
+        <column>    
+            <section titleKey="tc_xrt_PersonInfo">
+                <property name="REF(person,Person).user_name" />
+                <property name="REF(person,Person).PA1" />
+                <property name="REF(person,Person).PA2" />
+                <property name="REF(person,Person).PA3" />
+                <property name="REF(person,Person).PA4" />
+                <property name="REF(person,Person).PA5" />
+                <property name="REF(person,Person).PA6" />
+                <property name="REF(person,Person).PA7" />
+                <property name="REF(person,Person).PA8" />
+                <property name="REF(person,Person).PA9" />
+                <property name="REF(person,Person).PA10" />
+                <property name="REF(person,Person).locale" />
+                <property name="REF(person,Person).timezone" />
+            </section>
+            <section titleKey="tc_xrt_GroupMembSetting">
+                <objectSet source="um0AdminDataProvider.GroupMember" sortdirection="ascending" defaultdisplay="tableDisplay" sortby="user_name">
+                   <tableDisplay>
+                        <property name="user_name" />
+                        <property name="ga" />
+                        <property name="status" />
+                        <property name="membership_data_source" />
+                        <property name="default_role" />
+                  </tableDisplay>        
+                </objectSet>
+            </section>
+        </column>
+    </page>
+</rendering>

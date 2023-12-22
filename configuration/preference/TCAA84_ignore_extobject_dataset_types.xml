@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA84_ignore_extobject_dataset_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to specify a list of dataset types that will be essentially ignored by TCAA during all operations. 
+This implies that all data management will occur outside the control of TCAA. 
+The user will be responsible for populating these datasets, copying into new revisions if needed, etc.
+Note: marking a dataset type as to be ignored by TCAA means that attached reference files of such type will not be stored in Teamcenter by TCAA during save and will not be pulled from Teamcenter by TCAA during loading. 
+The file reference for attached reference files will be left set at their original location and it will be user responsibility to ensure the attached files are available when top drawings are loaded. 
+Therefore, a dataset type can be safely marked as to be ignored only if there are not drawings with attached reference links of such type already stored in Teamcenter.
+This option is a multi-value preference that contains the list of dataset types to be left outside of TCAA control.  
+By default the list is empty.
+Allowed values are:
+PDF
+Bitmap
+JPEG
+TIF
+MISC</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPM_valid_user_to_apply_assignment_list" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists all the values to determine the authorized users to to use Assign All Tasks functionality that assigns the resources to all tasks of the workflow process This preference takes the following values owner - Owning User of the Process owning_group - Workflow Process Owning Group Users world - all users privileged  - All site admin users and the group admin users of the process owning group group::role - Group and Role Name to specify resource pool.</preference_description>
+      <context name="Teamcenter">
+        <value>owner</value>
+        <value>dba::DBA</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

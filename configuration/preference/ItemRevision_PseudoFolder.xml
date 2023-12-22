@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ItemRevision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed as a pseudo-folder under a node for Item Revision object. All the configured runtime properties defined on the Item Revision business object will be automatically added as preference values during login.
+If the preference value which is configured as a runtime property is deleted, it will be added back during login.
+For example, if the preference value &quot;geometric_interfaces&quot; (configured runtime property) defined on the &quot;ItemRevision_PseudoFolder&quot; preference is deleted, it will be added back during login.</preference_description>
+      <context name="Teamcenter">
+        <value>C3D_View</value>
+        <value>CAEAnalysis</value>
+        <value>Sci0IMDSView</value>
+        <value>interpart_equations</value>
+        <value>interpart_links</value>
+        <value>MEProcess</value>
+        <value>MESetup</value>
+        <value>Mat1UsesMaterial</value>
+        <value>mating_constraints</value>
+        <value>PR4D_cad</value>
+        <value>geometric_interfaces</value>
+        <value>parametric_interfaces</value>
+        <value>IMAN_snapshot</value>
+        <value>view</value>
+        <value>catia</value>
+        <value>catia_cache_link</value>
+        <value>catia_multi_model</value>
+        <value>Mat1UsesMaterialForCoating</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

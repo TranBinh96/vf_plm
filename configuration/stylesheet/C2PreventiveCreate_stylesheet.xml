@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering>
+   <views>properties</views>
+    
+   <page title="Preventive Action Plan" titleKey="issuemgmt_general_information">
+         <view name="properties">
+            <property name="item_id" renderingHint="textfield" />
+            <property name="revision:item_revision_id" renderingHint="textfield" /> 
+			<property name="revision:c2_root_cause" />
+			<property name="revision:c2_action" />
+            <property name="object_name" renderingHint="textfield" />
+            <property name="object_desc" />
+			<property name="revision:c2_template" />
+            <property name="revision:start_date" />
+            <property name="revision:finish_date" />			
+         </view>
+   </page>
+   
+</rendering>
+

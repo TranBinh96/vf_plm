@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_Program_Type_Workflow" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Program name~obj type~workflow name</preference_description>
+      <context name="Teamcenter">
+        <value>SCP~Vf6_ECRRevision~VinFast ECR</value>
+        <value>SCP~Vf6_ECNRevision~VinFast ECN</value>
+        <value>CUV~Vf6_ECRRevision~VinFast ECR</value>
+        <value>CUV~Vf6_ECNRevision~VinFast ECN</value>
+        <value>CUV~VF4_DesignRevision~VF_Request_For_Stopping_Tooling</value>
+        <value>D-SUV~Vf6_ECRRevision~VinFast ECR</value>
+        <value>D-SUV~Vf6_ECNRevision~VinFast ECN</value>
+        <value>dba~Vf6_ECRRevision~VinFast ECR</value>
+        <value>Car Battery.Battery Program~Vf6_ECRRevision~VinFast ECR</value>
+        <value>Car Battery.Battery Program~Vf6_ECNRevision~VinFast ECN</value>
+        <value>EBUS~Vf6_ECRRevision~VinFast ECR</value>
+        <value>EBUS~Vf6_ECNRevision~VinFast ECN</value>
+        <value>S&amp;S~Vf6_ECRRevision~VinFast ECR</value>
+        <value>S&amp;S~Vf6_ECNRevision~VinFast ECN</value>
+        <value>V8~Vf6_ECRRevision~VinFast ECR</value>
+        <value>V8~Vf6_ECNRevision~VinFast ECN</value>
+        <value>D-SUV~VF4_DesignRevision~VF Styling Release Process (A-Class)</value>
+        <value>dba~Vf6_ECRRevision~zzzTest_C-SUV_ECR_BeforePR</value>
+        <value>dba~VF4_DesignRevision~VF Styling Release Process (A-Class)</value>
+        <value>dba~Vf6_ECNRevision~zzzVinFast ECN_After PR</value>
+        <value>D-SUV~VF4_DesignRevision~VF Styling Release Process (B-Class)</value>
+        <value>D-SUV~VF4_DesignRevision~VF Styling Release Process (C-Class)</value>
+		<value>VF3~Vf6_ECRRevision~VinFast ECR</value>
+        <value>VF3~Vf6_ECNRevision~VinFast ECN</value>
+        <value>VFe33~Vf6_ECRRevision~VinFast ECR</value>
+        <value>VFe33~Vf6_ECNRevision~VinFast ECN</value>
+        <value>3IN1~Vf6_ECNRevision~VinFast ECN</value>
+        <value>3IN1~Vf6_ECRRevision~VinFast ECR</value>
+        <value>VFe32~Vf6_ECRRevision~VinFast ECR</value>
+        <value>VFe32~Vf6_ECNRevision~VinFast ECN</value>
+        <value>VFe34S~Vf6_ECRRevision~VinFast ECR</value>
+        <value>VFe34S~Vf6_ECNRevision~VinFast ECN</value>
+        <value>Scooter~Vf6_ECRRevision~EScooter-ECR-AfterSOB</value>
+        <value>Scooter~Vf6_ECNRevision~EScooter-ECN-AfterSOB</value>
+        <value>Scooter~Vf6_ECNRevision~EScooter-ECN-BeforeSOB</value>
+        <value>Scooter~Vf6_ECRRevision~EScooter-ECR-BeforeSOB</value>
+        <value>Scooter~Vf6_ECRRevision~EScooter-ECR-AfterPR</value>
+        <value>Scooter~Vf6_ECNRevision~EScooter-ECN-AfterPR</value>
+        <value>EDS~Vf6_ECRRevision~VinFast ECR</value>
+        <value>EDS~Vf6_ECNRevision~VinFast ECN</value>
+        <value>Scooter~VF4_ChangeReq_ESRevision~EScooter-ECN-AfterPR-Combined</value>
+        <value>Scooter~VF4_ChangeReq_ESRevision~EScooter-ECN-AfterSOB-Combined</value>
+        <value>Scooter~VF4_ChangeReq_ESRevision~EScooter-ECN-BeforeSOB-Combined</value>
+        <value>Scooter~VF4ChangeESmotorRevision~Emotor_ES_ECN_After_PR_Process</value>
+        <value>VF36/VFe36 Premium~Vf6_ECRRevision~VinFast ECR</value>
+        <value>VF35/VFe35 Premium~Vf6_ECRRevision~VinFast ECR</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

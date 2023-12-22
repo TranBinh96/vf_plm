@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TcServices_property_separator" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>TcServices condensed property XML sends property data in the format is_modifiable FIELD_SEPARATOR ui_value FIELD_SEPARATOR prop_value PROPERTY_SEPARATOR ... etc.  If prop_value is an array, an ARRAY_SEPARATOR string is used to separate the values.  This preference controls the character used for PROPERTY_SEPARATOR. This preference is not intended for customer use.</preference_description>
+      <context name="Teamcenter">
+        <value>#</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

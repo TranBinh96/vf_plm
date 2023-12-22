@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.Linking">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_external_Requirements_proxy_props_external" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the properties of each proxy object imported from Teamcenter systems engineering and requirements management to be stored in Teamcenter.
+Valid Values:
+Any valid Teamcenter property names of workspace objects. Properties specified in this preference must correlate exactly to the properties specified in the TC_external_Requirements_proxy_props_internal site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>appGuid</value>
+        <value>original_uid</value>
+        <value>obj_name</value>
+        <value>obj_ROIN</value>
+        <value>obj_defining_reqs</value>
+        <value>obj_change_user</value>
+        <value>obj_text</value>
+        <value>obj_project</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

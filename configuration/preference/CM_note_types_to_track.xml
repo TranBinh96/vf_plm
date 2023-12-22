@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_note_types_to_track" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies which product structure note types can be tracked for a particular change type.
+Valid Values:
+Accepts multiple strings as values; each string must contain a valid Teamcenter change type, and one or more valid Teamcenter note types using the following syntax:CM_note_types_to_track=
+Change-Type1:Note-Type1,Note-Type2Change-Type2:Note-Type1,Note-Type4For example, a valid value is: ChangeNotice:UG Geometry,UG NAME</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

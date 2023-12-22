@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Context Definition">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextIsInstallationAssemblyMethod.hasIRType.Type" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the item type used to identify an installation assembly using the hasIRType method. Setting this preference is required when using the hasIRType method.
+Valid Values:
+Accepts a single string as a value. Can be any valid Teamcenter item type.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

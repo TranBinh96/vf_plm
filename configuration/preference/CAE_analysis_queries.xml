@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_analysis_queries" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the relevant query names for paths by which CAE Analysis can be related to a Product.</preference_description>
+      <context name="Teamcenter">
+        <value>CAE - Analysis with Product as Target</value>
+        <value>CAE - Analysis with Product as Source of Model</value>
+        <value>CAE - Analysis with Product as Target of Model</value>
+        <value>CAE - Analysis with Product as Target of Geometry</value>
+        <value>CAE - Analysis with Product as Source of Geometry</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

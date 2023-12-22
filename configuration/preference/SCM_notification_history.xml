@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Subscription Monitor">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SCM_notification_history" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether the notification history audit record is enabled or disabled. Audit logs with event type Email_Send and Email_Not_Send shows email was sent or not respectively.
+Valid Values:
+true: Enables auditing of email sent or not.
+false: Suppresses auditing of email sent or not.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

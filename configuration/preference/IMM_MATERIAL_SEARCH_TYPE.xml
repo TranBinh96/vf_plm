@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_MATERIAL_SEARCH_TYPE" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains the prefered search level that the user selected from the IMM search view.
+Valid values are:
+* 0: Material Revision. This is the default value.
+* 1: Material Item.
+* 2: Last Material Revision.
+* 3: Last Material Revision with Status.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

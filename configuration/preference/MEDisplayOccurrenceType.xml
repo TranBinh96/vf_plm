@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEDisplayOccurrenceType" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the conditions to display occurrence types while pasting objects in the Manufacturing Process Planner rich client. This preference is used, for example, in the Paste As, Paste Special, and Assign Resource commands and in the Occurrence Type column visible in Bill of Materials (BOM) views.
+Valid Values:
+List of:*:target-type:source-type:comma-separated-preference-names
+Example:
+MEProcess:Item:MERelationTypePartsAssembled,MERelationTypePartsAssigned
+The wildcard (*) is only supported for target and source.
+Example:
+*:Item:MERelationTypePartsAssembled
+The occurrence types specified in these preferences are displayed to the user. The order in which preferences are specified is important because the occurrence type from the first preference is displayed first, followed by the occurrence type from other preferences.The order of entries in this preference is important. 
+For a given target and source type, the list is evaluated from top to bottom and the first matching entry is considered for the evaluation of occurrence type. To get a correct match, the target and source object type should be same or a sub class of respective types specified in the entry.If the value of this preference 
+is blank or the conditions are not satisfied, all occurrence types available in the system are displayed to the user. For multiple target (or source) objects of different types, the common occurrence types are shown. If one of the source and target pairs has no occurrence types defined, the system will assume all occurrence 
+types are valid for that pair, and will perform an intersection to find common occurrence types for the other pairs. If no common occurrence types are found, an indication of that will be shown to the user.This preference can be edited to add new entries with custom-defined preference types and custom-defined objects to change 
+an existing condition and to change the order of existing conditions. Following the edit, client/server relaunch is not required.If the default occurrence type for a given source and target, as specified in the MEAssignCustomizedOccurrenceType preference, is not mentioned in the below preference list for that source and target, 
+the system automatically appends it to the list.</preference_description>
+      <context name="Teamcenter">
+        <value>Mfg0MEPlantBOP:Item:MERelationTypePartsOtherAssigned</value>
+        <value>Mfg0MEProcArea:MEWorkarea:MERelationTypeWorkarea</value>
+        <value>MEProcess:ArcWeld:MERelationTypePartsAssigned,MERelationTypeFeature</value>
+        <value>MEProcess:Fnd0Fastener:MERelationTypePartsAssigned,MERelationTypeFeature</value>
+        <value>MEProcess:Fnd0FasnGroup:MERelationTypePartsAssigned,MERelationTypeFeature</value>
+        <value>MEProcess:Fnd0Fastener:MERelationTypePartsAssigned,MERelationTypeFeature</value>
+        <value>MEProcess:Fnd0FasnGroup:MERelationTypePartsAssigned,MERelationTypeFeature</value>
+        <value>MEProcess:WeldPoint:MERelationTypeFeature</value>
+        <value>MEProcess:Mfg0MEResource:MERelationTypeUsedEquipment</value>
+        <value>MEProcess:AppearanceGroup:MERelationTypeAssemblyTree</value>
+        <value>MEProcess:Item:MERelationTypePartsAssembled,MERelationTypePartsAssigned,MERelationTypePartsConsumed,MERelationTypePartsDefault,MERelationTypePartsDisassembled,MERelationTypePartsHandled,MERelationTypePartsOtherAssigned</value>
+        <value>MEOP:ArcWeld:MERelationTypePartsAssigned,MERelationTypeFeature</value>
+        <value>MEOP:Fnd0Fastener:MERelationTypePartsAssigned,MERelationTypeFeature</value>
+        <value>MEOP:Fnd0FasnGroup:MERelationTypePartsAssigned,MERelationTypeFeature</value>
+        <value>MEOP:Fnd0Fastener:MERelationTypePartsAssigned,MERelationTypeFeature</value>
+        <value>MEOP:Fnd0FasnGroup:MERelationTypePartsAssigned,MERelationTypeFeature</value>
+        <value>MEOP:WeldPoint:MERelationTypeFeature</value>
+        <value>MEOP:Mfg0MEResource:MERelationTypeUsedEquipment</value>
+        <value>MEOP:AppearanceGroup:MERelationTypeAssemblyTree</value>
+        <value>MEOP:Item:MERelationTypePartsAssembled,MERelationTypePartsAssigned,MERelationTypePartsConsumed,MERelationTypePartsDefault,MERelationTypePartsDisassembled,MERelationTypePartsHandled,MERelationTypePartsOtherAssigned</value>
+        <value>MEWorkarea:Mfg0MEResource:MERelationTypeUsedEquipment</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

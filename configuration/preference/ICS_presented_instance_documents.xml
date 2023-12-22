@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_presented_instance_documents" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines which named references display in the instance viewer. The system searches all datasets of the selected object for named references. Any named references corresponding to the values of this preference display as a tab in the instance viewer.
+Valid Values:
+One or more strings as values. Each string must be a valid named reference, or one of the following values:
+BOMAssembly
+JTAssembly</preference_description>
+      <context name="Teamcenter">
+        <value>BOMAssembly</value>
+        <value>JTAssembly</value>
+        <value>JTPART</value>
+        <value>Image</value>
+        <value>Markup</value>
+        <value>3DModel</value>
+        <value>3DMarkup</value>
+        <value>JPEG</value>
+        <value>Graphics-Interface</value>
+        <value>Shaded-Image</value>
+        <value>Common-Graphics-Meta</value>
+        <value>Direct-Model-Data</value>
+        <value>UGPART</value>
+        <value>HTML</value>
+        <value>word</value>
+        <value>excel</value>
+        <value>PDF</value>
+        <value>PDF_Reference</value>
+        <value>JPEG_Reference</value>
+        <value>GIF_Reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_supercedure_export" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether supersedure objects are included in the export of engineering change objects.
+Valid Values:
+TRUE - Supersedure objects are included in the export of engineering change objects.
+FALSE - Supersedure objects are not included in the export of engineering change objects.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

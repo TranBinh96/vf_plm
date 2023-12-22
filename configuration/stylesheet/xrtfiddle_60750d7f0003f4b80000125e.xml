@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering>
+   <page title="General Information" titleKey="tc_xrt_cm_general_information">
+      <section titleKey="tc_xrt_properties">
+         <property name="object_name" renderingHint="textfield" />
+         <property name="object_desc" />
+         <property name="revision:vf4_change_type"/>
+         <property name="vf4_vehicle_type_arr"/>
+         <property name="revision:vf4_includes_new_part" />
+         <property name="revision:vf4_shop" />
+         <!--
+         <property name="revision:vf4_car_program"/>
+			<property name="revision:vf4_is_va_check_required" />
+			<property name="revision:vf4_is_cv_review_required" />
+			<property name="revision:vf4_is_eng_review_req" />
+			<property name="revision:vf4_is_finance_review_req" />
+			<property name="revision:vf4_is_manuf_review_req" />
+			<property name="revision:vf4_is_sq_review_required" />
+			<property name="revision:vf4_is_std_part_review_req" />
+			<property name="revision:vf4_is_logistics_review_req" />
+         <property name="revision:vf4_is_purchase_review_req" />
+                                                                               <property name="revision:vf4_is_mbom_review"/>-->
+      </section>
+   </page>
+</rendering>

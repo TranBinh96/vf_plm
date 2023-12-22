@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_visExamineZoomIn" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the zoom behavior of the Examine mouse navigation.
+The valid values are:
+Push: It will ZoomIn when the mouse moved away or scrolled away from user.
+Pull: It will ZoomIn when the mouse moved towards or scrolled towards the user.</preference_description>
+      <context name="Teamcenter">
+        <value>Push</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

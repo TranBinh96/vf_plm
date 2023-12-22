@@ -1,0 +1,28 @@
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+    <section titleKey="tc_xrt_ChangeHistory">
+        <objectSet source="Cm1MyChangesProvider.Cm1ChangeHistoryElement" defaultdisplay="tableDisplay">
+            <tableDisplay>
+                <property name="cm1SolutionItem" modifiable="false"/>
+                <property name="cm1ImpactedItem" modifiable="false"/>
+                <property name="cm1Markup" modifiable="false" hidden="true"/>
+                <property name="cm1AuthorizingCNObject" modifiable="false"/>
+                <property name="cm1Closure" modifiable="false"/>
+                <property name="cm1Maturity" modifiable="false"/>
+                <property name="cm1Disposition" modifiable="false"/>
+                <property name="cm1IncorporatesChanges" modifiable="false"/>
+                <property name="cm1IncorporatedBy" modifiable="false"/>
+                <property name="cm1IncorporatedInto" modifiable="false"/>
+                <property name="cm1IncorporatedStatus" modifiable="false"/>
+            </tableDisplay>
+        </objectSet>
+    </section>
+</subRendering>

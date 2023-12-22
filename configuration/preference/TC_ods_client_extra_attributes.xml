@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_ods_client_extra_attributes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies and describes extra attributes of an object being published that you want stored in the publication record. Only string attributes can be specified. The attribute must have an initial value.When adding custom attributes to the publication record, you may want to populate these extra attributes when an object is published. For example, a new security level attribute is added to the publication record and you want to specify where the publication code retrieves the security information associated with the object being published.Use this preference for attributes that are part of the object&apos;s extended attributes (or any attributes from the Master form, if the object is an item or item revision).In multifield key (MFK) environments, this preference must be defined on the ODS client side and must contain the required publication record key attributes.When the custom attribute is not part of the object or its master form, you must implement a user exit to populate the custom publication record attributes.
+Valid Values:
+class-name - Specifies the name of the class that defines the po_pom_attr_name attribute. This is required only if po_pom_attr_name is used in multiple classes, in which case you must qualify the attribute name. This entry is optional and is normally not used.
+object-POM-attribute - Specifies the POM name of the extra non-array string attribute of the object being published. This should either be part of the class definition of the object or part of its master form (for items and item revisions). This entry is required.
+pub-record-POM-attribute - Specifies the POM name of the extra non-array string attribute of the publication record class where the value of po_pom_attr_name is stored. This should be part of the publication record class definition at both client and server sides. This entry is required.This attribute name cannot start with pubr, which is reserved for internal use.
+option - Indicates whether an extra attribute is mandatory or not. To indicate that an extra attribute is mandatory, set the option value to MANDATORY. This is an optional entry; if given, the attribute is assumed to be optional. This value may also be set to EXTERNAL to indicate that the attribute is not published from this site but should be returned by a search operation. In this case, the po_pom_attr_name should be same as pr_pom_attr_name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

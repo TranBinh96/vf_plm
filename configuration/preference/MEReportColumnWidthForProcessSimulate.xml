@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEReportColumnWidthForProcessSimulate" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the widths for the columns displayed in the report for failed checkout objects in the Process Simulate Check-Out menu command, as defined in the MEReportColumnsForProcessSimulate preference.
+Valid Values:
+Accepts integer values. The number of integers must match the number of columns described in the MEReportColumnsForProcessSimulate preference.</preference_description>
+      <context name="Teamcenter">
+        <value>22</value>
+        <value>18</value>
+        <value>22</value>
+        <value>18</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

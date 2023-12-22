@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Issue Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ISSUE_list_table_view_column_candidates" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of attributes that can be displayed as columns in the Issue List Details view for an issue report revision and its children in the Issue Manager application in the rich and thin clients.
+Valid Values:
+object string - A string representing attributes of an issue report.</preference_description>
+      <context name="Teamcenter">
+        <value>object_string</value>
+        <value>object_desc</value>
+        <value>design_review_gate</value>
+        <value>issue_category</value>
+        <value>due_date</value>
+        <value>CMClosure</value>
+        <value>CMSeverityRating</value>
+        <value>Requestor</value>
+        <value>ImageBeforeFix</value>
+        <value>ImageAfterFix</value>
+        <value>IsM0IssueSubset</value>
+        <value>IsM0SnapshotBeforeFix</value>
+        <value>IsM0SnapshotAfterFix</value>
+        <value>epm_proposed_responsible_party</value>
+        <value>epm_proposed_reviewers</value>
+        <value>object_type</value>
+        <value>checked_out_user</value>
+        <value>checked_out</value>
+        <value>last_mod_user</value>
+        <value>last_mod_date</value>
+        <value>creation_date</value>
+        <value>owning_user</value>
+        <value>owning_group</value>
+        <value>release_status_list</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

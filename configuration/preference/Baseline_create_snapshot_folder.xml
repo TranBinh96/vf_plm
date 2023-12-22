@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Baseline_create_snapshot_folder" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether a Snapshot folder is created after a baseline operation is performed. The new Snapshot folder is attached to the baseline revision.
+Teamcenter only creates Snapshot folders for imprecise baselines. If you create a precise baseline, it does not create a snapshot folder even if this preference is set to 1. 
+Valid Values:
+0 - A Snapshot folder is not created after a baseline is created.
+1 - A Snapshot folder is created after a baseline is created.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

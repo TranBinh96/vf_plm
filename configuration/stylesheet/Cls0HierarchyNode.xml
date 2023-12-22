@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+
+    Filename: Cls0HierarchyNode.xml
+
+    Default style sheet for displaying Hierarchy node Properties.
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <property name="ptn0partition_id"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="object_type"/>
+            <separator/>
+            <property name="cls0ancestors"/>
+            <property name="cls0hierarchy_view"/>
+            <property name="mdl0model_object"/>
+        </column>
+        <column>
+            <property name="cls0level_sort_index"/>
+            <property name="cls0is_leaf_node"/>
+            <property name="cls0icon"/>
+            <property name="cls0image"/>
+            <separator/>
+            <property name="cls0is_abstract"/>
+            <property name="cls0instance_count"/>
+            <property name="cls0child_count"/>
+            <property name="cls0multiple_classification"/>
+            <property name="cls0filter_by_read_access"/>
+            <property name="cls0classify_in_replica"/>
+        </column>
+    </page>
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user"/>
+        <separator/>
+        <property name="checked_out_date"/>
+        <property name="checked_out_change_id"/>
+    </page>
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

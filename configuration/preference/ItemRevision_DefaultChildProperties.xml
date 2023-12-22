@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ItemRevision_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of properties that can be used as children for the indicated type i.e. ItemRevision.
+
+NOTE: For proxy link integration add &quot;external_apps&quot; to this list. The format of the preference follows: &lt;TypeName&gt;_DefaultChildProperties=my_property.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_master_form_rev</value>
+        <value>TC_Generic_Architecture</value>
+        <value>structure_revisions</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_reference</value>
+        <value>IMAN_UG_udf</value>
+        <value>IMAN_UG_altrep</value>
+        <value>IMAN_UG_scenario</value>
+        <value>IMAN_Simulation</value>
+        <value>IMAN_Rendering</value>
+        <value>IMAN_Motion</value>
+        <value>IMAN_3D_snap_shot</value>
+        <value>view</value>
+        <value>release_status_list</value>
+        <value>IMAN_external_object_link</value>
+        <value>TC_WorkContext_Relation</value>
+        <value>representation_for</value>
+        <value>IMAN_MEWorkInstruction</value>
+        <value>TC_ProductManual</value>
+        <value>BOM_Rollup</value>
+        <value>TC_Is_Represented_By</value>
+        <value>TC_Attaches</value>
+        <value>TCEng_rdv_plmxml_configured</value>
+        <value>TCEng_rdv_plmxml_unconfigured</value>
+        <value>TC_sst_record</value>
+        <value>VisItemRevCreatedSnapshot2D</value>
+        <value>ProcessSimulate_Details</value>
+        <value>SimplifiedRendering</value>
+        <value>VisSession</value>
+        <value>VisMarkup</value>
+        <value>KinematicsRelation</value>
+        <value>Thumbnail_Source</value>
+        <value>Fnd0StruObjAttrOverride</value>
+        <value>Fnd0ListsParamReqments</value>
+        <value>Fnd0ListsCustomNotes</value>
+        <value>Cps0OpDetailsRel</value>
+        <value>Cps0PLCInfoRel</value>
+        <value>Cps0LBRel</value>
+        <value>Cps0ModulesInfoRel</value>
+        <value>Cps0PortsDefRel</value>
+        <value>Cps0SensorDetVolumeRel</value>
+        <value>Cps0PropertiesRel</value>
+        <value>Cps0SignalDefRel</value>
+        <value>Cps0ConnectivityDefRel</value>
+        <value>Cps0RobotProgRel</value>
+        <value>Cps0ToolInfoRel</value>
+        <value>TC_Validation</value>
+        <value>Fnd0TC_valdata_result</value>
+        <value>PR4D_cad</value>
+        <value>LocationInCompany</value>
+        <value>ContactInCompany</value>
+        <value>Mci0PMIXmlRel</value>
+        <value>Smc0SolutionVariantSource</value>
+        <value>Smc0SolutionItemConfig</value>
+        <value>Mat1UsesMaterial</value>
+        <value>Scp0PartToSubsCmplResult</value>
+        <value>Scp0SubsCmplDocs</value>
+        <value>catia_cache_link</value>
+        <value>Mat1UsesMaterialForCoating</value>
+        <value>Fnd0DocPageTypeRel</value>
+        <value>IMAN_snapshot</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

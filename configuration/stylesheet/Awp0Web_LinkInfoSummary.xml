@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2003-2005 UGS Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Awp0Web_LinkInfoSummary.xml
+
+06/24/2013      Delaware Release
+17/March/2016 	  Sprint44 Release Adding localization on the labels
+Default style sheet for displaying WebLInk Info Panel in Active Workspace Client.
+
+-->
+<rendering>
+    <header>
+        <property name = "object_string"/>
+    </header>
+    <page titleKey = "tc_xrt_properties">
+        <section titleKey = "tc_xrt_properties">
+            <property name = "object_name"/>
+            <property name = "object_desc"/>
+			<property name = "url"/>
+        </section>
+    </page>
+</rendering>

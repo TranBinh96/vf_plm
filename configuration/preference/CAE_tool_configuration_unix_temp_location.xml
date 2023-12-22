@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_tool_configuration_unix_temp_location" type="String" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Defines the system temporary location used by Simulation Process Management during tool launch on Unix systems.
+Valid Values:
+Any valid Unix directory path.
+Note: This preference is used when a &quot;Local&quot; launch is performed and the Default Scratch Location inside Simulation Tool Configuration view is not provided. In Active Workspace, it is ignored for &quot;Server&quot; and &quot;Remote&quot; launches.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_pv_create_dataset_for_active_shapes" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Change JT dataset created during the Save process in Teamcenter Integration for CATIA, by setting the following variable within Teamcenter Preferences.
+The default value is true.
+This preference is ignored when the Save Active Shapes button is toggled off or the Create JT button is toggled on in Save Manager toolbar.
+When the Save Active Shapes button is toggled on and the Create JT button is toggled off in the Save Manager toolbar, and theCATIA_pv_create_dataset_for_active_shapes preference is set to true, JT datasets are created for active CATParts and default shapes whose type is defined in COMMONcatiatojt_ets_ds_types.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

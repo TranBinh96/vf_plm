@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_valid_download_file_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the International Material Data System (IMDS) file types.
+These values are used by the &quot;imds_download_process_files&quot; utility.
+For valid file types, refer to the International Material Data System (IMDS) document.</preference_description>
+      <context name="Teamcenter">
+        <value>CCDaily</value>
+        <value>SBDaily</value>
+        <value>CMSDaily</value>
+        <value>MPSDaily</value>
+        <value>REQDaily</value>
+        <value>OMDDaily</value>
+        <value>CCAll</value>
+        <value>SBAll</value>
+        <value>SRAll</value>
+        <value>NIAll</value>
+        <value>SARAll</value>
+        <value>SAAll</value>
+        <value>SGAll</value>
+        <value>MCAll</value>
+        <value>MPSAll</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

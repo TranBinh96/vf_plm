@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA_file_name_rule" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls how AutoCAD files will be renamed during save to Teamcenter. The value of this option is taken into consideration only if file renaming is enabled (that is TCAA_file_rename is set to 1).
+Starting from TCAA 10.3 and when working in Teamcenter 10.1, the Teamcenter object identifier taken into consideration for file renaming can be the Item ID or the multifield key (see site preference TCAA103_file_name_rule_use_MFK).
+Possible values:
+0 - the new file name matches the object identifier (Item ID or multifield key)
+1 - the original file name is appended to the object identifier for composing the new file name (Default)</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

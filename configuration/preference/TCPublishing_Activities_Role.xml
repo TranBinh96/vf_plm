@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCPublishing_Activities_Role" type="String" array="false" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Determines the role of all publishing page datasets attached to activities used in Manufacturing Process Planner. The role also determines the name displayed on the publishing page tab. Users use this tab to create published pages containing manufacturing data.
+Valid Values:
+Accepts a single string as a value. Must be a valid relation type used to define the role of publishing page datasets.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_MEWorkInstruction</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

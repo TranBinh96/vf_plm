@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ECN_View_Columns_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>Vf6_ECNRevision.object_string</value>
+        <value>Vf6_ECNRevision.awp0Item_item_id</value>
+        <value>Vf6_ECNRevision.object_name</value>
+        <value>ItemRevision.release_status_list</value>
+        <value>Vf6_ECNRevision.vf6_module_group</value>
+        <value>Vf6_ECNRevision.vf6_effective_proposal</value>
+        <value>Vf6_ECNRevision.vf6_model_es</value>
+        <value>Vf6_ECNRevision.vf6_initiator</value>
+        <value>Vf6_ECNRevision.creation_date</value>
+        <value>Vf6_ECNRevision.process_stage_list</value>
+        <value>Vf6_ECNRevision.vf6_change_reason</value>
+        <value>Vf6_ECNRevision.object_type</value>
+        <value>Vf6_ECNRevision.owning_user</value>
+        <value>ItemRevision.owning_group</value>
+        <value>ImanQuery.last_mod_date</value>
+        <value>Vf6_ECNRevision.CMImplementedBy</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

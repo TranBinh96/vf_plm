@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mes0MESTXLibrary.CREATERENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the create stylesheet for Mes0MESTXLibrary objects.</preference_description>
+      <context name="Teamcenter">
+        <value>Mes0MESTXLibraryCreate</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

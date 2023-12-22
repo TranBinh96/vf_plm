@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ProcessSimulate_DataPrep_DatasetNameDelimiter" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the character used to separate the revision rule name and the variant rule name at the end of the dataset from the prefix. Name format is &lt;prefix&gt;&lt;delim&gt;&lt;rev rule name&gt;&lt;delim&gt;&lt;variant rule name, if any&gt;.</preference_description>
+      <context name="Teamcenter">
+        <value>_</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

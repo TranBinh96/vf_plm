@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PCA_RuleSearch_SavedQueries" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Lists the saved queries displayed in the client for Context Independent searches for Configurator Rules in the Product Configurator application.
+The only value available by default is &quot;Configurator Rules&quot;, which is a generic saved query given to perform search on all types of rules.
+Additional Valid values are the names of saved queries created on a specific type of rule.</preference_description>
+      <context name="Teamcenter">
+        <value>Configurator Rules</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="Vf6_MCNRevision_DefaultChildProperties" type="String" array="true"
+      disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>CMReferences</value>
+        <value>CMHasImpactedItem</value>
+        <value>Vf6_impacted_shop</value>
+        <value>CMImplementedBy</value>
+        <value>CMImplements</value>
+        <value>CMHasProblemItem</value>
+        <value>Cm0HasProposal</value>
+        <value>IMAN_reference</value>
+        <value>release_status_list</value>
+        <value>EC_solution_item_rel</value>
+        <value>IMAN_specification</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

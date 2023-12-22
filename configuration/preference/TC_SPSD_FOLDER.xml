@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_SPSD_FOLDER" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the folder name where released item revisions containing Simulation Process Studio datasets are stored. After this preference is defined, users can create Simulation Process Studio processes in any folder in the Teamcenter database. To see these processes in the Teamcenter Integration for NX palette, 
+export the item revisions containing Simulation Process Studio datasets to the folder specified by this preference.Consumers use this folder to access process templates from Teamcenter Integration for NX.During database installation or upgrade, a folder is created with the name specified by this preference, if the folder does 
+not already exist.
+Valid Values:
+Accepts a single string as a value. Must be a valid Teamcenter folder name.</preference_description>
+      <context name="Teamcenter">
+        <value>Simulation Process Studio</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

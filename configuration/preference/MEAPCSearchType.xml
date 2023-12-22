@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAPCSearchType" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the type of the parts that are searched by the Auto Weld Part Connector dialog box.
+Valid Values:
+Accepts a strings as value. The string must be a valid Teamcenter type.</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_user_staging_win_location" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the user staging location to be used by simulation process management on Windows platform.
+Note: In Active Workspace client, the User Staging Location is visible only for the &quot;Local&quot; launch. For &quot;Server&quot; launch, the User Staging Location is hidden and the system TEMP directory is used as the user staging location.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

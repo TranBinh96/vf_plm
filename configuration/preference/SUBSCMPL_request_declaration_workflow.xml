@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_request_declaration_workflow" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the name of the workflow to instantiate when a &quot;Request Declaration&quot; action is invoked.
+The default value is &quot;Request Declaration&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Request Declaration</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

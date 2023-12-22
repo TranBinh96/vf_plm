@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_ignore_users" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines a set user IDs that should not be processed by the ldapsync utility. This list normally contains Teamcenter user IDs that are used for administrative purposes and do not have corresponding entries in the LDAP repository.
+Valid values:
+Accepts one or more strings.</preference_description>
+      <context name="Teamcenter">
+        <value>infodba</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PALColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the columns (from left to right) displayed in the &quot;Process Assignment List&quot; dialog.</preference_description>
+      <context name="Teamcenter">
+        <value>list_name</value>
+        <value>list_desc</value>
+        <value>EPM_resource_attachments</value>
+        <value>owning_user</value>
+        <value>owning_group</value>
+        <value>last_mod_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

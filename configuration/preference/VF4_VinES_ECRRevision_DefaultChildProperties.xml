@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VF4_VinES_ECRRevision_DefaultChildProperties" type="String" array="true"
+      disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>CMReferences</value>
+        <value>VF4_change_forms</value>
+        <value>CMHasImpactedItem</value>
+        <value>IMAN_master_form_rev</value>
+        <value>release_status_list</value>
+        <value>CMHasSolutionItem</value>
+        <value>VF4_CoordinatedChange</value>
+        <value>CMImplementedBy</value>
+        <value>CMImplements</value>
+        <value>CMHasProblemItem</value>
+        <value>Cm0HasProposal</value>
+        <value>VF4_ecn_data_exchange</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

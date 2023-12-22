@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Column Preferences">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ReportDefinition_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines which columns are displayed in the Report Builder application. This preference can also be set by editing column options directly from the interface.
+Column widths are defined using the ReportDefinition_ColumnWidthPreferences preference.
+Valid Values:
+Accepts one or more strings as values. Each string must be one of the following report definition attributes:
+rd_id
+rd_name
+rd_type
+rd_class
+rd_state
+rd_source
+rd_query_source
+rd_property_source
+owning_group
+owning_user
+last_mod_date
+last_mod_user</preference_description>
+      <context name="Teamcenter">
+        <value>ReportDefinition.rd_id</value>
+        <value>ReportDefinition.rd_name</value>
+        <value>ReportDefinition.rd_type</value>
+        <value>ReportDefinition.rd_class</value>
+        <value>ReportDefinition.rd_state</value>
+        <value>ReportDefinition.rd_source</value>
+        <value>ReportDefinition.rd_query_source</value>
+        <value>ReportDefinition.rd_property_source</value>
+        <value>ReportDefinition.owning_group</value>
+        <value>ReportDefinition.owning_user</value>
+        <value>ReportDefinition.creation_date</value>
+        <value>ReportDefinition.last_mod_date</value>
+        <value>ReportDefinition.last_mod_user</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

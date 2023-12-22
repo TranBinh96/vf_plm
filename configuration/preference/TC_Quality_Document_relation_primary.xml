@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Relations">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Quality_Document_relation_primary" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the TC_Quality_Document relation for the specified business objects. All relation_business_object_relation_primary preferences are obsolete and are replaced by relation properties. Use the Business Modeler IDE to create and manage relation properties.
+Valid Values:
+Accepts one or more strings as values; each string must be a valid type.</preference_description>
+      <context name="Teamcenter">
+        <value>Vendor</value>
+        <value>VendorRevision</value>
+        <value>ManufacturerPart</value>
+        <value>ManufacturerPart Revision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

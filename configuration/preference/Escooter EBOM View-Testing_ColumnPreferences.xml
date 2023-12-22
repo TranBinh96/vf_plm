@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Escooter EBOM View-Testing_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMLine.bl_level_starting_0</value>
+        <value>BOMLine.bl_indented_title</value>
+        <value>BOMLine.bl_sequence_no</value>
+        <value>BOMLine.VF3_vehicle_group</value>
+        <value>BOMLine.VF4_LNT_es_group_veh</value>
+        <value>BOMLine.vf3_mat_group</value>
+        <value>BOMLine.bl_item_item_id</value>
+        <value>BOMLine.bl_rev_item_revision_id</value>
+        <value>BOMLine.bl_item_object_name</value>
+        <value>BOMLine.vf3_viet_desc</value>
+        <value>BOMLine.vf3_category</value>
+        <value>BOMLine.bl_quantity</value>
+        <value>BOMLine.bl_uom</value>
+        <value>BOMLine.VF3_purchase_lvl_vf</value>
+        <value>BOMLine.VL5_purchase_lvl_vf</value>
+        <value>BOMLine.VL5_change_index</value>
+        <value>BOMLine.awb0RevisionRelStatusList</value>
+        <value>BOMLine.VF3_supplier_name_n</value>
+        <value>BOMLine.VF3_location2</value>
+        <value>BOMLine.VF3_location1</value>
+        <value>BOMLine.vf3_color_code</value>
+        <value>BOMLine.bl_item_object_type</value>
+        <value>BOMLine.vf3_material_name</value>
+        <value>BOMLine.bl_item_vf4_item_make_buy</value>
+        <value>BOMLine.vf3_make_buy</value>
+        <value>BOMLine.bl_item_vf4_itm_material_type</value>
+        <value>BOMLine.vf3_after_sales_relevant_bl</value>
+        <value>BOMLine.bl_item_vf4_itm_after_sale_relevant</value>
+        <value>BOMLine.vf3_function_code</value>
+        <value>BOMLine.vf3_approval_code</value>
+        <value>BOMLine.vf3_org_dwg_sc</value>
+        <value>BOMLine.vf3_cmp_ex</value>
+        <value>BOMLine.vf3_cmp_mat_sco</value>
+        <value>BOMLine.vf3_cmp_dim</value>
+        <value>BOMLine.vf3_mass</value>
+        <value>BOMLine.vf3_mass_class_sc</value>
+        <value>BOMLine.vf3_mass_series_sc</value>
+        <value>BOMLine.vf5_eco_number</value>
+        <value>BOMLine.vf3_eco_number</value>
+        <value>BOMLine.vf3_eco_release_date</value>
+        <value>BOMLine.bl_rev_fnd0StartedWorkflowTasks</value>
+        <value>BOMLine.bl_rev_date_released</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Confirmation_shown_on_reservation_dialogs" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether a Don&apos;t show confirmation dialog again check box is displayed in the Check-Out, Cancel Check-Out, and Check-In dialog boxes in the rich client and thin client.
+Valid Values:
+true - The Don&apos;t show confirmation dialog again check box is displayed.
+false - The Don&apos;t show confirmation dialog again check box is not displayed.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

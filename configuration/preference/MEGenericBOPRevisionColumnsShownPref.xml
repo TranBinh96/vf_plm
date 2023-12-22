@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEGenericBOPRevisionColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the columns to display in the base view of a Generic Bill of Process.
+Valid values are the names of each column in the order you wish them to appear: value_1, value_2.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_indented_title</value>
+        <value>bl_item_object_desc</value>
+        <value>Mfg0ld_representation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

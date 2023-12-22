@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_composite_relation_type" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Type of link used between Lam0Ply GDE Bomline and dataset of type CATIA_IGS_dataset_type and CATIA_DXF_dataset_type</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_Rendering</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

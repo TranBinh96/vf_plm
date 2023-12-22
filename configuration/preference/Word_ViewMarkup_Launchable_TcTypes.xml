@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Office Integration">
+    <category_description>Teamcenter Client for Office Integration</category_description>
+    
+               <preference name="Word_ViewMarkup_Launchable_TcTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Teamcenter types that launch for view and markup from Microsoft Word.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid Office dataset type that supports view and markup.</preference_description>
+      <context name="Teamcenter">
+        <value>MSWord</value>
+        <value>MSWordX</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

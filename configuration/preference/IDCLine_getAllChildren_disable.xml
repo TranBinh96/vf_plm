@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDCLine_getAllChildren_disable" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Disables retrieval of all the children of top line of the intermediate data capture (IDC) state. This allows the structure to be displayed in a hierarchical manner in the Viewer.
+The default value of the preference is true.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

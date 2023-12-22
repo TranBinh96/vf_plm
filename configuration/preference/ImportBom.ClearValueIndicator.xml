@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="ImportBom.ClearValueIndicator" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the &quot;&lt;empty&gt;&quot; indicator in import structure to clear the value of a property of an existing object while importing a structure.
+Note: Starting the indicator value with a single quote is discouraged. If the indicator starts with a single quote, the escape character must be used.</preference_description>
+      <context name="Teamcenter">
+        <value>&lt;empty&gt;</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

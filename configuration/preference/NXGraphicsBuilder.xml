@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="NXGraphicsBuilder" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Specifies the path to the NX graphics builder utility used by Classification to enable the graphic creation functionality in the Classification application.
+Valid Values:
+ActivationMethod - Specifies the activation method for the graphics builder executable. This is normally set to TCE_Activation.You must set this option.
+CommandLine - Specifies the path to the graphics builder executable script, start_nx_graphicsbuilder.bat, typically located in the Teamcenter_root\bin\nx_graph directory. The path to the graphics builder batch file included with the software by default is set by the installation procedure.
+You must set this option.
+ScriptEvaluationPath - Specifies the path to the directory containing the ics_graphicsbuilder.tcl file.This option is optional.
+evaluateScript - Specifies whether to perform script evaluation of newly created classes. Valid values are yes, no, and not set.This option is optional.
+evaluateScriptWhenNotSet - Permits graphics builder to evaluate TCL scripts even when TCL script evaluation is defined as not set for the Classification object&apos;s class.This option is optional.</preference_description>
+      <context name="Teamcenter">
+        <value>ActivationMethod:TCE_Activation</value>
+        <value>CommandLine:D:\Siemens\TR11\bin\nx_graph\start_nx_graphicsbuilder.bat</value>
+        <value>CommandLine:D:\Siemens\TR13\bin\nx_graph\start_nx_graphicsbuilder.bat</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

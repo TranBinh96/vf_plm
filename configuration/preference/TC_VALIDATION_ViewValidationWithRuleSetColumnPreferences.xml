@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Validation Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_VALIDATION_ViewValidationWithRuleSetColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of property names to be displayed as columns in the View Validation table.
+Valid Values:
+Accepts string array.</preference_description>
+      <context name="Teamcenter">
+        <value>validation_status</value>
+        <value>validation_target</value>
+        <value>validation_name</value>
+        <value>fnd0_final_val_result</value>
+        <value>override_request_state</value>
+        <value>result_state_flag</value>
+        <value>validation_application</value>
+        <value>validation_user</value>
+        <value>validation_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

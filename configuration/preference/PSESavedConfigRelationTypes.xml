@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Assembly">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSESavedConfigRelationTypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the relation type available when saving an option set or variant configuration to the module being configured. (Users can choose to save option sets/variant configurations to the Home folder, the Newstuff folder, or to the module being configured. This preference affects the final method.)
+Valid Values:
+Valid Teamcenter reference type.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_specification</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_reference</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_smelter_list_to_tcxml_xsl_path" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Path of the stylesheet to convert smelter list to tcxml file.</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">$TC_DATA/subscmpl_data/xsl/smelterlist_to_tcxml.xsl</value>
+        <value platform="WNT">%TC_DATA%\subscmpl_data\xsl\smelterlist_to_tcxml.xsl</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_external_Engineering_proxy_props_external" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>No description available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>object_desc</value>
+        <value>owning_user</value>
+        <value>owning_group</value>
+        <value>obj_icon_url</value>
+        <value>long_text</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

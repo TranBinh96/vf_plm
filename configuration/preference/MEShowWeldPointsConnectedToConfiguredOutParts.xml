@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEShowWeldPointsConnectedToConfiguredOutParts" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the display of weld points when connected parts are configured out, in the manufacturing applications.
+Valid Values:
+True - Teamcenter displays weld points even if their connected parts are configured out.
+False - Teamcenter hides weld points if at least one of the connected parts is configured out.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

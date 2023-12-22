@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WORKFLOW_adhoc_process" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Site preference flag indicating if adhoc process functionalities are enabled. Valid values are 0/1/2.
+0 - Enabled for all users.
+1 - Enabled only if the user is a system administrator or user granted edit access to Workflow Designer.
+2 - Enabled for System Adminitrators and Group admins or user granted edit access to Workflow Designer(default).</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

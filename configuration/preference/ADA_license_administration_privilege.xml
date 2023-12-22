@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ADA_license_administration_privilege" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the Access Manager privilege checked for the ADA (Authorized Data Access) license administration. This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>ITAR_ADMIN</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

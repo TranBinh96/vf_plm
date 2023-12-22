@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_program_project_differentiator" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables users to differentiate between Programs and Projects visually by prepending an extra character to the project id. 
+Users will not be able to use the character given in the value in the project id or project name.
+If preference does not exist or does not have any value there will not be any visual differentiation.
+Valid values are: 
+* Any single character</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

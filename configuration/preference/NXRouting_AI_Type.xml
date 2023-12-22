@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="NXRouting_AI_Type" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>AI type for NX Routing Applications (both Electrical and Mechanical). NX Routing Applications use this preference to specify which Application Interface Type should be used while creating Application Interface objects. The Application Interface objects of this type would be used during import/export plmxml operations.</preference_description>
+      <context name="Teamcenter">
+        <value>NXRout_AIType</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

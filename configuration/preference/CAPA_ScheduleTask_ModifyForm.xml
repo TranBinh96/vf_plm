@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_ScheduleTask_ModifyForm" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of Properties to be shown in modify form of Action Task</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>object_desc</value>
+        <value>work_complete</value>
+        <value>complete_percent</value>
+        <value>start_date</value>
+        <value>finish_date</value>
+        <value>workflow_trigger_type</value>
+        <value>workflow_template</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

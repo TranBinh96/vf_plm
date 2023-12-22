@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mci0ShowOrHideAssemblyPMI" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="true">
+      <preference_description>Specifies if the configuration rules needs to be applied to the assembly Product Manufacturing Information (PMI).
+Assembly PMI lines are connected to its sub assembly parts with iman relation. So the PMI lines should configure according to configuration of the connected items.   
+Valid Values:
+* &quot;true&quot;:  Assmebly PMIs should also be configured out if connected part is configued out. This is the default value.
+* &quot;false&quot;: There should not be any impact of connected part configuration on the PMI line configuration. Assembly PMIs should always be showned.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

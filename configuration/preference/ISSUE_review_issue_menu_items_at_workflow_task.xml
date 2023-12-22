@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Issue Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ISSUE_review_issue_menu_items_at_workflow_task" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the decisions that can be selected for a specified review task of an issue management or penetration request workflow process. The valid format is a task name followed by a list of decision options separated by a semicolon. 
+You must first define the review decisions in the issue review decision list of values (LOV) in the Business Modeler IDE. If you want to specify Submit Fix as the single decision available for the Assign Issue 
+and Fix Issue workflow task, specify the following:Assign Issue and Fix Issue;SubmitFix;The Review Issue dialog box appears.
+Valid Values:
+Array of strings - Accepts one or more strings as values, in the format of a task name followed by a list of decision options separated by a semicolon.</preference_description>
+      <context name="Teamcenter">
+        <value>Review Issue;Defer;Reject;ApproveIssue;</value>
+        <value>Assign Issue and Fix Issue;submit;</value>
+        <value>Final Review;ApproveFix;</value>
+        <value>Management Review;approveRequest;rejectRequest;</value>
+        <value>Update validate request;submit;</value>
+        <value>Review Request;approveRequest;rejectRequest;escalateRequest;</value>
+        <value>Technical Review;approveRequest;rejectRequest;</value>
+        <value>Update Request;submit;</value>
+        <value>Implement CutOuts;submit;rejectHolecut;</value>
+        <value>Review CutOut;removeHolecut;rejectHolecut;</value>
+        <value>Remove CutOuts from Structure;submit;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

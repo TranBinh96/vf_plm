@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_stop_load_if_filename_conflict" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>When FileName conflicts are detected, set to true to stop the Load process; otherwise, set to false to continue the partial Load process, conflicting documents are excluded from the load process.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

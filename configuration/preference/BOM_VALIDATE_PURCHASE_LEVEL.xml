@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_BOM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_VALIDATE_PURCHASE_LEVEL" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Rule for purchase level and relevant information</preference_description>
+      <context name="Teamcenter">
+        <value>Purchase Level Vinfast==P,Supplier Type!=null,Supplier Name!=null,Change Index==NEW,Cost!=null,Vehicle Usage!=null</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

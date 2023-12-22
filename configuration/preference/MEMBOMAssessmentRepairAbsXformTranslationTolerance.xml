@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMBOMAssessmentRepairAbsXformTranslationTolerance" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the proximity value (in millimeters) under which variations in the translation section of a transform are seen as equal. 
+The default value is 0.001 millimeters.</preference_description>
+      <context name="Teamcenter">
+        <value>0.001</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWS_Discovery_FullTextSearch_FacetFilters_ObjectData" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains the list of Item Revision facet filters to be used during Smart Discovery search. The preference should contain Item Revision properties which are relevant for Smart Discovery search. The property with Awp0SearchCanFilter and Awp0SearchIsIndexed property constants are set to TRUE will be considered as a valid property.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision.awp0AliasID</value>
+        <value>ItemRevision.awp0AlternateID</value>
+        <value>WorkspaceObject.object_type</value>
+        <value>WorkspaceObject.date_released</value>
+        <value>WorkspaceObject.ip_classification</value>
+        <value>WorkspaceObject.gov_classification</value>
+        <value>WorkspaceObject.fnd0InProcess</value>
+        <value>WorkspaceObject.release_status_list</value>
+        <value>WorkspaceObject.project_list</value>
+        <value>WorkspaceObject.awp0IsSuspect</value>
+        <value>POM_application_object.owning_group</value>
+        <value>POM_application_object.last_mod_user</value>
+        <value>POM_application_object.owning_user</value>
+        <value>POM_application_object.last_mod_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

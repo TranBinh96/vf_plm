@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ManufacturerPart_PseudoFolder" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed as a pseudo folder under a node for ManufacturerPart objects.
+Valid Values:
+Accepts one or more strings as values; each string must be a property of ManufacturerPart.</preference_description>
+      <context name="Teamcenter">
+        <value>vendors</value>
+        <value>commercialparts</value>
+        <value>TC_Quality_Document</value>
+        <value>vm0location</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

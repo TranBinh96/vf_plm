@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="NX_supported_operation_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which defined operation types are supported by the NX CAM Integration.Manufacturing engineers use the Part Planner application to outline the fabrication process plans necessary to manufacture components. The individual process planning operations are part of the fabrication process of a component. By default, the Teamcenter manufacturing process management , NX CAM Integration uses the MENCMachining operation type to support the NX CAM integration. Use this preference to define additional operation types to be supported by the integration.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid Teamcenter operation type.</preference_description>
+      <context name="Teamcenter">
+        <value>MENCMachining</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

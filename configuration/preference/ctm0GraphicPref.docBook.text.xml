@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ctm0GraphicPref.docBook.text" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default XML tagging to use in the editing tool when a graphic is copied from Content Management and pasted to content in the editing tool when working with the DocBook standard or a similar XML standard for publications.
+Valid Values:
+Accepts one or more strings as values.</preference_description>
+      <context name="Teamcenter">
+        <value>
+          &lt;graphic&gt;
+          &lt;graphic-data name=&quot;%f&quot;/&gt;
+          &lt;/graphic&gt;
+</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

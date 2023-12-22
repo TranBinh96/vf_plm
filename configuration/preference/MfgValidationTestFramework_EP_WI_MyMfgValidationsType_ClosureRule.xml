@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MfgValidationTestFramework_EP_WI_MyMfgValidationsType_ClosureRule" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the closure rule the Manufacturing Validation Test Framework will use before executing the validation tests.
+The format of this preference is as follows: &quot;MfgValidationTestFramework_&lt;ClientIdentifier&gt;_&lt;ValidationTestSuiteTypeName&gt;_ClosureRule&quot;
+&quot;ClientIdentifier&quot; is a unique client identifier that communicates with the Mfg Validation Test Framework.
+&quot;ValidationTestSuiteTypeName&quot; must match the -type argument used during the &apos;install_callback&apos; for a Validation Test Suite.
+The value is  the name of a Closure Rule.
+This closure rule is associated with all the manufacturing test suites of this type. This closure rule will be run by the Mfg Test Framework before executing a Validation Test Suite.
+This is a closure rule that is relevant across all validation test suites within a registered type.  Of course, each Mfg Validation Test suite can do any further traversal refinements within its own implementation.</preference_description>
+      <context name="Teamcenter">
+        <value>AccountabilityProcessAllNoAssign</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCViewMarkupApplicationPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the priority list of applications used by the &quot;View/Markup&quot; command to display selected base datasets and their associated markup data.</preference_description>
+      <context name="Teamcenter">
+        <value>PDF_Tool</value>
+        <value>MSWord</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

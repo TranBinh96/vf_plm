@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BYPASS_RULES" type="Logical" array="false" disabled="false" protectionScope="System" envEnabled="true">
+      <preference_description>Allows you to override the existing naming rules. This preference can be set using the preference name as an environment variable.
+Valid Values:
+true - You can change the naming rules.
+false - You cannot change the naming rules.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

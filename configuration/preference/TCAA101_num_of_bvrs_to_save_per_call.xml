@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA101_num_of_bvrs_to_save_per_call" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to limit the number of BVRs to be created or updated through a single SOA call. If the number of BVRs involved in a single save operation exceeds the number specified in this option, multiple SOA calls will be performed. See TCAA Installation Guide for details.
+Possible values:
+- 0 or any negative number: all the BVRs involved in the save operation are created or updated with a single SOA call.
+- Any positive number: this will be the maximum number of BVRs saved in a single SOA call.
+The default value is: 500.</preference_description>
+      <context name="Teamcenter">
+        <value>500</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

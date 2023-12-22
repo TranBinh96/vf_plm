@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_defaultViewerConfig.VIEWERCONFIG" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default viewer configuration for Active Workspace.
+The format of SEARCHORDER entry should be as follows: SEARCHORDER.&lt;Business_Object_Type&gt;=&lt;GRM1&gt;,&lt;GRM2&gt;,&lt;GRM3&gt;...
+The format of Dataset-Viewer mappings should be as follows: &lt;Dataset_Type&gt;.&lt;Viewer_Name&gt;=&lt;reference_Name&gt;</preference_description>
+      <context name="Teamcenter">
+        <value>SEARCHORDER.VF3_spec_docRevision=IMAN_manifestation,SimplifiedRendering,IMAN_specification,IMAN_reference,IMAN_Motion,IMAN_3D_snap_shot,IMAN_Rendering,TC_Attaches,Fnd0DiagramSnapshot</value>
+        <value>SEARCHORDER.DocumentRevision=TC_Attaches,IMAN_reference</value>
+        <value>SEARCHORDER.Part Revision=TC_Attaches,IMAN_manifestation,IMAN_reference,IMAN_Rendering,IMAN_specification</value>
+        <value>SEARCHORDER.ItemRevision=IMAN_manifestation,SimplifiedRendering,IMAN_specification,IMAN_reference,IMAN_Motion,IMAN_3D_snap_shot,IMAN_Rendering,TC_Attaches,Fnd0DiagramSnapshot</value>
+        <value>SEARCHORDER.Signoff=root_target_attachments</value>
+        <value>SEARCHORDER.EPMTask=root_target_attachments</value>
+        <value>SEARCHORDER.Item=revision_list</value>
+        <value>SEARCHORDER.Folder=contents</value>
+        <value>SEARCHORDER.WorkspaceObject=release_status_list</value>
+        <value>HTML.Awp0HTMLViewer=HTML</value>
+        <value>PDF.Awp0PDFViewer=PDF_Reference</value>
+        <value>Image.Awp0ImageViewer=Image</value>
+        <value>Bitmap.Awp0ImageViewer=Image</value>
+        <value>SnapShotViewData.Awp0ImageViewer=Image</value>
+        <value>JPEG.Awp0ImageViewer=JPEG_Reference</value>
+        <value>Text.Awp0TextViewer=Text</value>
+        <value>GIF.Awp0ImageViewer=GIF_Reference</value>
+        <value>UGMASTER.Awp0ImageViewer=UG-QuickAccess-Binary</value>
+        <value>UGPART.Awp0ImageViewer=UG-QuickAccess-Binary</value>
+        <value>CrfOutputText.Awp0TextViewer=Text</value>
+        <value>CrfOutputHtml.Awp0HTMLViewer=HTML</value>
+        <value>SEARCHORDER.Fnd0Message=Fnd0PeriodicDigestMsgRel</value>
+        <value>SEARCHORDER.VF D Standard Revision=TC_Attaches,IMAN_reference</value>
+        <value>SEARCHORDER.DocumentRevision=TC_Attaches,IMAN_reference,Fnd0DocPageTypeRel</value>
+        <value>SEARCHORDER.Ase0AssocRelationProxy=ase0EndObject</value>
+        <value>SEARCHORDER.Ase0Diagram=IMAN_Rendering</value>
+        <value>DirectModel.Awp03dViewerExtended=JTPART</value>
+        <value>DirectModel.Awp0JTViewer=JTPART</value>
+        <value>TIF.Awp02dViewer=TIF_Reference</value>
+        <value>HPGL.Awp02dViewer=HPGL_Reference</value>
+        <value>DXF.Awp02dViewer=DXF</value>
+        <value>Requirement Revision.Arm0RequirementPreview=Requirement Revision</value>
+        <value>Paragraph Revision.Arm0RequirementPreview=Paragraph Revision</value>
+        <value>SEARCHORDER.Awb0Element=awb0UnderlyingObject</value>
+        <value>SEARCHORDER.C2CapaRevision=CMReferences,IMAN_reference,IMAN_manifestation,IMAN_Rendering,IMAN_specification,CPA0CapaReports</value>
+        <value>SEARCHORDER.CAW0Defect=IMAN_specification,IMAN_reference,IMAN_manifestation,IMAN_Rendering,CAW0DefectAttachment</value>
+        <value>SEARCHORDER.CAW05Why=IMAN_specification,IMAN_reference,IMAN_manifestation,IMAN_Rendering,CAW05WhyAttachment</value>
+        <value>SEARCHORDER.CAW0Ishikawa=IMAN_specification,IMAN_reference,IMAN_manifestation,IMAN_Rendering,CAW0IshikawaAttachment</value>
+        <value>SEARCHORDER.C2IssueRevision=CMReferences,IMAN_reference,IMAN_manifestation,IMAN_Rendering,IMAN_specification</value>
+        <value>SEARCHORDER.C2IssueNonConfRevision=CMReferences,IMAN_reference,IMAN_manifestation,IMAN_Rendering,IMAN_specification</value>
+        <value>SEARCHORDER.C2IssueComplaintRevision=CMReferences,IMAN_reference,IMAN_manifestation,IMAN_Rendering,IMAN_specification</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

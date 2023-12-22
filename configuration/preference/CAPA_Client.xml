@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_Client" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This is a site preference.
+		 It is set to SilverLight  client url of the specific machine where server is running
+		eg:http://pv-tc9server/capa/CAPATestPage.html</preference_description>
+      <context name="Teamcenter">
+        <value>http://hostname:port/capa/CAPATestPage.html</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

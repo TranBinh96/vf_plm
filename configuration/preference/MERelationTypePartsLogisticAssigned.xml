@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Logistics">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MERelationTypePartsLogisticAssigned" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the occurrence types of parts considered for logistic planning of the part family process to which parts are assigned.</preference_description>
+      <context name="Teamcenter">
+        <value>MELogisticAssigned</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

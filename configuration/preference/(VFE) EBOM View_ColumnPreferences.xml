@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="(VFE) EBOM View_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMLine.bl_indented_title</value>
+        <value>BOMLine.bl_level_starting_0</value>
+        <value>BOMLine.VL5_purchase_lvl_vf</value>
+        <value>BOMLine.VF4_manuf_code</value>
+        <value>BOMLine.bl_sequence_no</value>
+        <value>BOMLine.bl_substitute</value>
+        <value>BOMLine.bl_quantity</value>
+        <value>BOMLine.VF4_ECPartDesignator</value>
+        <value>BOMLine.vf4_type</value>
+        <value>BOMLine.vf4_RoHS</value>
+        <value>BOMLine.vf4_process</value>
+        <value>BOMLine.vf4_temperature</value>
+        <value>BOMLine.bl_item_vf4_item_make_buy</value>
+        <value>BOMLine.awb0RevisionOwningGroup</value>
+        <value>BOMLine.VF4_preferred_MPN</value>
+        <value>BOMLine.bl_item_object_type</value>
+        <value>BOMLine.awb0BomLineItemId</value>
+        <value>BOMLine.VF4_bomline_id</value>
+        <value>BOMLine.bl_occ_int_order_no</value>
+        <value>BOMLine.bl_formula</value>
+        <value>BOMLine.bl_has_children</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

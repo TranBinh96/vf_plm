@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Is_Represented_By_relation_primary" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the list of valid primary Business Objects for TC_Is_Represented_By relation type.
+In My Navigator application, when Paste... command is chosen and when the type of selected Business Object type matches
+one from this preference value, TC_Is_Represented_By relation type becomes available as a choice of relation to create.
+Also, a runtime property TC_Is_Represented_By gets created for the Business Objects listed in the value of this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>Part Revision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

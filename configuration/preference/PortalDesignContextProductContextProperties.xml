@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Product Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextProductContextProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the standard for identifying the product context: the item revisions of a Design Context product item that represent the same generic product structure. Ideally this is one item revision.Values are entered as a list of attributes. All item revisions sharing the same values on all product context attributes form one product context.
+Valid Values:
+Any attribute that the Java API getProperty method on the rich client IMANComponent class accepts. For standard Teamcenter, the list of valid values is a combination of the default values listed for the PortalDesignContextProductContextColumnsShownPref and PortalDesignContextProductContextColumnsHiddenPref preferences. Other valid attributes, such as attributes on item or item revision master forms, 
+depend on the attributes your site exposes in UID files. You can specify a composite property.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision.object_name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

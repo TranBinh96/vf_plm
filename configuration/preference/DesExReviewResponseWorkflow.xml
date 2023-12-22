@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="DesExReviewResponseWorkflow" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the name of the Workflow Template used for starting a Workflow Process upon the submission of a response by the Respondent in the Supplier Collaboration Foundation application.
+The default value is &quot;Review Supplier Response&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Review Supplier Response</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

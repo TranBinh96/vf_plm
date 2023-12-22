@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_mass_deviation_xml_file" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the path of the International Material Data System (IMDS) mass deviation values XML file. Following preferences can be created to specify OEM(Original Equipment Manufacturer) or organization-specific mass deviation values:
+*    IMDS_mass_deviation_xml_file_OEM_n: Specifies the path of the IMDS mass deviation values XML file for an OEM with the specified IMDS Company ID (n). Here, n is an integer.
+*    IMDS_mass_deviation_xml_file_orgunit_n: Specifies the path of the IMDS mass deviation values XML file for a specific IMDS organization unit (n). Here, n is an integer.</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">$TC_DATA/tcsc_imds_integration/configuration/imds_massdeviation_table.xml</value>
+        <value platform="WNT">%TC_DATA%\tcsc_imds_integration\configuration\imds_massdeviation_table.xml</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

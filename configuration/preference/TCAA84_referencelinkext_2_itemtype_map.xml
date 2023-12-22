@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA84_referencelinkext_2_itemtype_map" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This option can be used to assign custom item types to Reference Link files created through TCAA.
+Possible values (type = string, multiple values):
+Option row format:     &lt;file extension pattern&gt; = &lt;Item type&gt;
+where &lt;file extension pattern&gt; supports wildcards. 
+Example:
+*.*=Document        =&gt; all the not explicitly declared Reference Link items will be created as type Document
+*.bmp =MEResource   =&gt; the *.bmp files will create items of type MEResource
+*.pdf=Requirement   =&gt; the *.pdf files will create items of type Requirement</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

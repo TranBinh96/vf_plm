@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Business Modeler">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AltIdentifier_require_on_create" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether an alternate identifier is required when creating an identifiable of the type specified in this preference in a rich client session. Valid values are to a set of Item types. If an Item type is included in this preference, whenever the Item Revision associated with this type is created in the rich client, an alternate is required.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid Teamcenter Item type.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

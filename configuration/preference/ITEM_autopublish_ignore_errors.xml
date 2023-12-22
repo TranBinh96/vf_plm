@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ITEM_autopublish_ignore_errors" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether to ignore publication errors detected during automatic publication. When a publication error is detected, any item creations/modifications known to be successful at that point are retained; failed items can be published manually at your convenience. This preference requires the ITEM_autopublish site preference to be set.Errors caused by invalid ODS site preference settings are ignored by this preference.Errors due to item creation or modification are not covered by this preference; the preference applies only to publication errors.
+Valid Values:
+TRUE - When automatic publishing is enabled via the ITEM_autopublish site preference, ignores publication errors detected during automatic publication.
+FALSE - When automatic publishing is enabled via the ITEM_autopublish site preference, publication errors prompt the system to cancel the item creation or modification.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

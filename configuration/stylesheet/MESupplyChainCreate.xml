@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: MESupplyChainCreate.xml
+
+    Style sheet rendering for MESupplyChain creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+     <section title="Supply Chain Information" titleKey="tc_xrt_SupplyChainInformation">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name" />
+            <property name="object_desc" />
+            <separator/>
+            <property name="uom_tag" /> 
+        </section>
+
+        <section title="Additional Supply Chain Information" titleKey="tc_xrt_AdditionalSupplyChainInformation" initialstate="collapsed">
+            <property name="IMAN_master_form:target_cost" />
+           <property name="IMAN_master_form:process_comment"  />
+            <property name="IMAN_master_form:program_id" />
+            <property name="IMAN_master_form:target_time"  />
+        </section>
+
+        <section title="Additional Supply Chain Revision Information" titleKey="tc_xrt_MESupplyChainRevisionInformation" initialstate="collapsed">
+            <property name="revision:IMAN_master_form_rev:process_comment" />
+            <property name="revision:IMAN_master_form_rev:program_id" />
+            <property name="revision:IMAN_master_form_rev:scheduled_cost" />
+            <property name="revision:IMAN_master_form_rev:scheduled_time"  />
+        </section>
+    </page>
+
+</rendering>

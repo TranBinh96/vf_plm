@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_stop_import_if_bad_status" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Set the Stop Import if Bad Status variable to YES to stop the Import process when the status is false in the Import Spreadsheet.
+If one status in the spreadsheet is set to false, then:
+- NO = do nothing
+- MSG = prompt user to continue
+- YES = stop the Import process</preference_description>
+      <context name="Teamcenter">
+        <value>NO</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

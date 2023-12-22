@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_rename_catalog_filename" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Renames the catalog filename independently of other documents when an item is saved.
+Three characters represent an action to be carried out on the document to save. 
+- 0 = no modification
+- 1 = modification
+The first character of the variable applies to the SAVE AS function.
+The second character of the variable applies to the SAVE EXISTING function.
+The third character of the variable applies to the SAVE NEW REVISION function.
+The default values are 000.</preference_description>
+      <context name="Teamcenter">
+        <value>000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

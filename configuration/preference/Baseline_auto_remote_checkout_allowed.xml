@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Baseline_auto_remote_checkout_allowed" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether automatic remote checkout of replicated objects is allowed during a baseline operation. If allowed, replica items, and BOM views of replica item revisions, will be (automatically) checked out during baseline operations. The resulting baseline object is owned by the original owning site once the item or BOM view is remotely checked back in (automatically) after the baseline operation successfully completes.Use this preference at sites using the remote check out/check in method, rather than the method of transferring ownership of objects. If your site often creates baselines of remote objects, enabling this preference improves system performance. Before setting this preference to True, ensure that the baseline business rules are the same at the owning site and remote site. Otherwise, revision IDs produced at the baseline will be of inconsistent values. The status type to be applied at the replica site must also exist at the owning site.
+Valid Values:
+True or On or 1(case insensitive) - Automatic remote checkout of replicated objects is allowed during baseline operations.
+False or Off or 0(case insensitive) - Automatic remote checkout of replicated objects is not allowed during baseline operations. Users can remote checkout replica objects manually, and proceed with a baseline operation.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

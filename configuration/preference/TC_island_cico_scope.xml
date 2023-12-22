@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_island_cico_scope" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the name of the TcXML import rule used for determining the scope of the island data that need to be checked in during &quot;remote check-in/checkout&quot; operation.</preference_description>
+      <context name="Teamcenter">
+        <value>OnlyRemoteCheckinDataAsIsland</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

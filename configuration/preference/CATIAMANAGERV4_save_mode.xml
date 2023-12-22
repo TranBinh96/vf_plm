@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIAMANAGERV4_save_mode" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>normal : check out of dataset is forced during saving
+checkout : check out must be initiated by user else saving don&apos;t finish. At the end of saving, elements status is checked-out.</preference_description>
+      <context name="Teamcenter">
+        <value>normal</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

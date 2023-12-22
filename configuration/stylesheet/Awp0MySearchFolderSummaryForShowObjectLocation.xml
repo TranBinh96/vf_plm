@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2020.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Awp0MySearchFolder summary for show object location. -->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="overflow"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Navigate" title="Navigate" pageNameToken="objectNavigationMyActiveFolders">
+    </page>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+        </section>
+        <section titleKey="tc_xrt_Contents">
+            <objectSet source="contents.WorkspaceObject" defaultdisplay="tableDisplay" showConfiguredRev="true" >
+                <tableDisplay>
+                    <property name="object_string"/>
+                    <property name="owning_user"/>
+                    <property name="owning_group"/>
+                    <property name="awp0IsShared" titleKey="tc_xrt_SearchFolderShared" modifiable="false"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+                <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                    <parameter name="localSelection" value="true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

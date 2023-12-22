@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_usage_audit_info" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains a list of Occurrence Notes of LOUs, user can  see in AuditReport.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_rev_item_revision_id</value>
+        <value>Usage_PartNumber</value>
+        <value>Usage_Quantity</value>
+        <value>Usage_DLS</value>
+        <value>Usage_PLS</value>
+        <value>Usage_UPC</value>
+        <value>Usage_FNM</value>
+        <value>Usage_FNA</value>
+        <value>Usage_ArchitectureId</value>
+        <value>Usage_ModelCode</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

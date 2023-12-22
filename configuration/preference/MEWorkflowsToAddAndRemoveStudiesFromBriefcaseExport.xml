@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEWorkflowsToAddAndRemoveStudiesFromBriefcaseExport" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the workflows to be used in TCM Access to add and remove study objects during a briefcase export of a Collaboration Context (CC).
+Values must be in the format &quot;AddWorkflow.&lt;workflow_add_name&gt;:RemoveWorkflow.&lt;workflow_remove_name&gt;&quot;.
+The default is &quot;AddWorkflow.Mfg Add Study For Briefcase Export:RemoveWorkflow.Mfg Remove Study From Briefcase Export&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>AddWorkflow.Mfg Add Study For Briefcase Export:RemoveWorkflow.Mfg Remove Study From Briefcase Export</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

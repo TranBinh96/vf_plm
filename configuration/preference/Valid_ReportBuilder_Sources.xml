@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Reports">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Valid_ReportBuilder_Sources" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies all valid sources available to the common reporting framework reporting engine.
+Valid Values:
+Accepts one or more strings as values. Any invalid string is ignored.
+Teamcenter
+TcRA
+Office Template
+Visual Report</preference_description>
+      <context name="Teamcenter">
+        <value>Teamcenter</value>
+        <value>TcRA</value>
+        <value>Office Template</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

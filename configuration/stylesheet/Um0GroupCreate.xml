@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for Group creation. -->
+<rendering>
+    <page>
+        <section>
+            <property name="name" />
+            <property name="description"/>
+            <property name="security"/>
+            <property name="parent"/>
+            <property name="privilege"/>
+            <property name="volume"/>
+            <property name="local_volume"/>
+        </section>
+    </page>
+</rendering>

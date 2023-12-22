@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_occmap_tcproperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>List all occurrences notes / BOM line attributes to use for mappings on instances.</preference_description>
+      <context name="Teamcenter">
+        <value>VL5_purchase_lvl_vf</value>
+        <value>VL5_change_index</value>
+        <value>VL5_module_name</value>
+        <value>VL5_main_module</value>
+        <value>VL5_module_group</value>
+        <value>bl_formula</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

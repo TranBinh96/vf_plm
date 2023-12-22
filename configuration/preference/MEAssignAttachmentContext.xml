@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAssignAttachmentContext" type="String" array="false" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Indicates the context of the in-context attachments after assignment.
+Valid Values:
+TopLine - All in-context attachments are copied or referenced (depending on the value of MEAssignAttachmentAndRelationToUseInCopyRule) to the target structure in the context of the top line of the target structure.
+DirectParent - All in-context attachments are copied or referenced (depending on the value of MEAssignAttachmentAndRelationToUseInCopyRule) to the target structure in the context of the direct parent of the line being assigned. This is the default value if the preference is not set.</preference_description>
+      <context name="Teamcenter">
+        <value>DirectParent</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_tool_release_status" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default Release Status applied to the Simulation Tools.
+The default value of the Release Status is &quot;TCM Released&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>TCM Released</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.AIE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="HM_AIE_ENCAPSULATION" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>HyperMesh AIE Encapsulation Specific Preference Variables.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

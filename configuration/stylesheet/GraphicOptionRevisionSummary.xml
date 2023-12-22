@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: GraphicOptionRevisionSummary.xml
+
+    Default style sheet for displaying Graphic Option Revision summary
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                  Description of Change
+02/12/2015   tyger                 Initial Version
+=======================================================================
+@<DEL>@ 
+-->
+
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <section titleKey="tc_xrt_properties">            
+                <property name="object_string"/>
+                <separator/>
+                <property name="item_id"/>
+                <property name="item_revision_id"/>
+                <property name="object_name"/>
+                <property name="object_type" />
+                <property name="release_status_list" />
+                <property name="date_released"/>      
+                <separator/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+                <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+                <property name="last_mod_user" />
+            </section>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_Preview">
+                <customPanel java="com.teamcenter.rac.contmgmtbase.views.ImageViewerPanel"/>            
+            </section>
+        </column>
+    </page>
+
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="tc_xrt_Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+        <objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="lis0site"/>
+                <property name="lis0serviceProvider"/>
+                <property name="relation"/>
+                <property name="last_mod_date"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out_user"/>
+            </tableDisplay>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+            <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </page>
+</rendering>
+

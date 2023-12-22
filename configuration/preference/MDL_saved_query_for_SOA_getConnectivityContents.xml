@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MDL_saved_query_for_SOA_getConnectivityContents" type="String" array="false" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Defines the name of the saved query that will be passed to SOA getConnectivityContents. The saved query must return Geometric Connectivity Group.</preference_description>
+      <context name="Teamcenter">
+        <value>Geometric Connectivity Group</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

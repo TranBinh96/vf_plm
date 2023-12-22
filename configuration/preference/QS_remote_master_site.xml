@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.QSearch Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QS_remote_master_site" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies one or more remote sites at which the cacheless search engine executes searches. Only set this preference if you use cacheless searches in a Multi-Site Collaboration environment.
+Valid Values:
+One or more key value pairs, each comprising a product ID and its owning master site, for example:
+Product2:remote site2
+Product3:remote site3</preference_description>
+      <context name="Teamcenter">
+        <value>ABC0001:site1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

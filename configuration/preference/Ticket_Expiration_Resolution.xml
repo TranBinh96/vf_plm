@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Maintenance.File Caching">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Ticket_Expiration_Resolution" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the resolution (minimum amount of time in seconds) before the FMS ticket expiration is changed.
+Setting this value advances the computed expiration time up to the value set, and limits the change in expiration time by the resolution.
+This value can be used to improve performance of browser client applications that render files stored in FMS such as thumbnails. 
+This value should not be large and should not be larger than the normal ticket expiration intervals. 
+If this value is not set, a default of 7200 seconds is used.</preference_description>
+      <context name="Teamcenter">
+        <value>7200</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

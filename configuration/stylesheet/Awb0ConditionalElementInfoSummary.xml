@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+==================================================
+Copyright 2013.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<rendering>
+    <header>
+        <property name = "awb0Name"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_Preview">
+            <image source = "thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_Properties">
+            <property name = "awb0ArchetypeId"/>
+            <property name = "awb0ArchetypeRevId"/>
+            <property name = "awb0ArchetypeRevName"/>
+            <property name = "awb0ArchetypeRevDescription"/>
+            <property name = "awb0OccName"/>
+            <property name = "awb0Sequence"/>
+            <property name = "awb0Quantity"/>
+            <property name = "awb0UoM"/>
+            <break/>
+            <property name = "awb0ArchetypeRevRelStatus" renderingHint = "label"/>
+            <property name = "awb0ArchetypeRevReleaseDate" renderingHint = "label"/>
+            <property name = "awb0ArchetypeRevEffText" renderingHint="label"/>
+            <property name = "awb0ElementEffId" renderingHint="label"/>
+            <property name = "awb0EffectivityFormula" renderingHint="label"/>
+            <break/>
+            <property name = "awb0ArchetypeRevOwningUser" renderingHint = "objectlink" modifiable = "false"/>
+            <property name = "awb0ArchetypeRevOwningGroup" renderingHint = "objectlink" modifiable = "false"/>
+            <break/>
+            <property name = "awb0ArchetypeRevLastModUser"/>
+            <property name = "awb0Parent"/>
+        </section>
+    </page>
+</rendering>

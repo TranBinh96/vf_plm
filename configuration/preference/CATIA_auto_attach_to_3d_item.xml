@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_auto_attach_to_3d_item" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Drawing, process, analysis has the same item id and item rev id as the attached element or not</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_SaveAsRenderingInheritTypeList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Business Object types that can inherit the &quot;Save As Stylesheet&quot; status from their parent types.</preference_description>
+      <context name="Teamcenter">
+        <value>Fnd0MarkupSpace</value>
+        <value>Cfg0DefaultRule</value>
+        <value>Cfg0ExcludeRule</value>
+        <value>Cfg0FamilyGroup</value>
+        <value>Cfg0IncludeRule</value>
+        <value>Cfg0AvailabilityRule</value>
+        <value>Cfg0LiteralOptionValue</value>
+        <value>Cfg0LiteralValueFamily</value>
+        <value>Cfg0PackageOptionValue</value>
+        <value>Cfg0SummaryOptionValue</value>
+        <value>Cfg0ProductModel</value>
+        <value>Cfg0SummaryModel</value>
+        <value>Cfg0ProductModelFamily</value>
+        <value>Cfg0SummaryModelFamily</value>
+        <value>Cfg0PackageOptionFamily</value>
+        <value>Cfg0SummaryOptionFamily</value>
+        <value>Mdl0Baseline</value>
+        <value>Mdl0BaselineRevision</value>
+        <value>Ptn0Design</value>
+        <value>Ptn0Functional</value>
+        <value>Ptn0Mfg</value>
+        <value>Ptn0System</value>
+        <value>Ptn0Zone</value>
+        <value>Ptn0DesignItem</value>
+        <value>Ptn0MfgItem</value>
+        <value>Ptn0SystemItem</value>
+        <value>Ptn0FunctionalItem</value>
+        <value>Ptn0ZoneItem</value>
+        <value>Ptn0DesignItemRevision</value>
+        <value>Ptn0MfgItemRevision</value>
+        <value>Ptn0SystemItemRevision</value>
+        <value>Ptn0FunctionalItemRevision</value>
+        <value>Ptn0ZoneItemRevision</value>
+        <value>Cfg0FreeFormRule</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

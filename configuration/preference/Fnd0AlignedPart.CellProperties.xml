@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="Fnd0AlignedPart.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of properties that are to be displayed under a cell for objects of type Fnd0AlignedPart in the Active Workspace client.
+Valid values are property internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>fnd0UnderlyingObject.object_name</value>
+        <value>fnd0UnderlyingObject.item_id</value>
+        <value>fnd0UnderlyingObject.item_revision_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

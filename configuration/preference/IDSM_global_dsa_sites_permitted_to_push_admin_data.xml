@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IDSM_global_dsa_sites_permitted_to_push_admin_data" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the remote sites that are permitted to use Multi-Site export to push organization data to the local site. This enforces site-level security; if a remote site is not defined in this preference, that site cannot perform Multi-Site organization functions that affect the local site.
+Valid Values:
+One or more strings; each string must be a valid Teamcenter site name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

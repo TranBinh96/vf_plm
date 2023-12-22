@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is the sample XML specifically for Create and Sync BOP to BOE feature-->
+<BOE_PlantBOP_Mapping>
+    <!--One objectMap Element will specify one object type, new objectMap element needs to be added separately for any inherited types-->
+    <!--even all the properties also need to be specify separately-->  
+    <objectMap PlantBOPObjectType="Mfg0MEPlantBOP" BOEObjectType="MEPlant" BOEObjectTypeTemplateId="" PerformConsumption="false">
+        <attribute_mapping>
+            <attribute PlantBOPLineAttribute="bl_item_object_name" BOELineAttribute="bl_item_object_name"/>
+            <attribute PlantBOPLineAttribute="bl_item_object_desc" BOELineAttribute="bl_item_object_desc"/>        
+            <attribute PlantBOPLineAttribute="bl_rev_object_name" BOELineAttribute="bl_rev_object_name"/>
+            <attribute PlantBOPLineAttribute="bl_rev_object_desc" BOELineAttribute="bl_rev_object_desc"/>        
+        </attribute_mapping>
+    </objectMap>  
+    <objectMap PlantBOPObjectType="Mfg0MEProcArea" BOEObjectType ="MEWorkarea" BOEObjectTypeTemplateId="" PerformConsumption="false">
+        <attribute_mapping>
+            <attribute PlantBOPLineAttribute="bl_item_object_name" BOELineAttribute="bl_item_object_name"/>
+            <attribute PlantBOPLineAttribute="bl_item_object_desc" BOELineAttribute="bl_item_object_desc"/>        
+            <attribute PlantBOPLineAttribute="bl_rev_object_name" BOELineAttribute="bl_rev_object_name"/>
+            <attribute PlantBOPLineAttribute="bl_rev_object_desc" BOELineAttribute="bl_rev_object_desc"/>        
+            <attribute PlantBOPLineAttribute="bl_sequence_no" BOELineAttribute="bl_sequence_no"/>
+        </attribute_mapping>
+    </objectMap>  
+    <objectMap PlantBOPObjectType="Mfg0MEProcLine" BOEObjectType ="MELine" BOEObjectTypeTemplateId="" PerformConsumption="false">
+        <attribute_mapping>
+            <attribute PlantBOPLineAttribute="bl_item_object_name" BOELineAttribute="bl_item_object_name"/>
+            <attribute PlantBOPLineAttribute="bl_item_object_desc" BOELineAttribute="bl_item_object_desc"/>        
+            <attribute PlantBOPLineAttribute="bl_rev_object_name" BOELineAttribute="bl_rev_object_name"/>
+            <attribute PlantBOPLineAttribute="bl_rev_object_desc" BOELineAttribute="bl_rev_object_desc"/>        
+            <attribute PlantBOPLineAttribute="bl_sequence_no" BOELineAttribute="bl_sequence_no"/>
+        </attribute_mapping>
+    </objectMap>
+    <objectMap PlantBOPObjectType="Mfg0MEProcStatn" BOEObjectType ="MEStation" BOEObjectTypeTemplateId="" PerformConsumption="true">
+        <attribute_mapping>
+            <attribute PlantBOPLineAttribute="bl_item_object_name" BOELineAttribute="bl_item_object_name"/>
+            <attribute PlantBOPLineAttribute="bl_item_object_desc" BOELineAttribute="bl_item_object_desc"/>        
+            <attribute PlantBOPLineAttribute="bl_rev_object_name" BOELineAttribute="bl_rev_object_name"/>
+            <attribute PlantBOPLineAttribute="bl_rev_object_desc" BOELineAttribute="bl_rev_object_desc"/>        
+            <attribute PlantBOPLineAttribute="bl_sequence_no" BOELineAttribute="bl_sequence_no"/>
+        </attribute_mapping>
+    </objectMap>
+</BOE_PlantBOP_Mapping>

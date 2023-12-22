@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_export_nve" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether named variant expressions (NVEs) are exported during a multisite replication session.NVEs are referenced by various variant expression blocks (VEBs). Because any VEBs included in an architecture structure own the NVEs, these NVEs only need to be exported during architecture export, not during the export of other assemblies. Use this preference to allow users to determine the export of NVEs in a given session.
+Valid Values:
+* TRUE - NVEs are exported during multisite replication sessions.
+* FALSE - NVEs are not exported during multisite replication sessions.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

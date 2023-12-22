@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_handle_declaration_import_failure" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether to create an entry in the Declaration Import Failure Queue in Active Workspace for every failed attempt of declaration import. The entry in Active Workspace contains details about why the import failed.
+Valid values:
+true: Creates an entry in the Declaration Import Failure Queue in Active Workspace for every failed import attempt.
+false: No entry is created in the Declaration Import Failure Queue in Active Workspace for a failed import attempt.
+Default value:
+true</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

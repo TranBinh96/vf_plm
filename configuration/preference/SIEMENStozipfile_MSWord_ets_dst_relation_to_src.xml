@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SIEMENStozipfile_MSWord_ets_dst_relation_to_src" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies if a relation must be created between the Microsoft Word source dataset and destination dataset.
+Valid Values:
+true - Creates a relation between the source and destination dataset.
+false - Does not create a relation between the source and destination dataset.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

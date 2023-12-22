@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_update_PSL_on_root_action" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Update the Process Stage List (PSL) of the Target objects of a workflow only when the root task start, completes or aborts.
+Valid Values:
+* true: Update PSL when root task starts, completes or aborts.
+* false: Update PSL for all tasks. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

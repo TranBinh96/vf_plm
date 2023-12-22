@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mci0PatternPMICountFormat" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of formats used to specify the count in a pattern of PMIs (e.g. 5X, 5Plcs, 5nos, where &quot;5&quot; is the pattern count and &quot;X&quot;, &quot;Plcs&quot;, &quot;nos&quot; is the format).
+The default value is &quot;X&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>X</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

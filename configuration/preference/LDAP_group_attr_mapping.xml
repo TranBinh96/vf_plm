@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_group_attr_mapping" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maps LDAP object attributes to Teamcenter group attributes. The mappings control what information the synchronization tool (the ldapsync utility) sets in the Teamcenter group object.
+LDAPGroupName
+cn
+%REPLACE_ME%
+LDAPGroupDesc
+description
+%REPLACE_ME%
+LDAPLastUpdate
+modifyTimestamp
+%REPLACE_ME%
+LDAPGroupDBA
+%REPLACE_ME%
+0
+LDAPGroupRole
+%REPLACE_ME%
+%REPLACE_ME%
+
+Valid Values:
+Accepts triples of strings.Each attribute mapping consists of three strings: the attribute identifier, the mapped LDAP attribute name, and the default value (to be used if there is no LDAP mapped attribute or if the LDAP mapped attribute value is null).</preference_description>
+      <context name="Teamcenter">
+        <value>LDAPGroupName</value>
+        <value>cn</value>
+        <value>%REPLACE_ME%</value>
+        <value>LDAPGroupDesc</value>
+        <value>description</value>
+        <value>%REPLACE_ME%</value>
+        <value>LDAPLastUpdate</value>
+        <value>modifyTimestamp</value>
+        <value>%REPLACE_ME%</value>
+        <value>LDAPGroupDBA</value>
+        <value>%REPLACE_ME%</value>
+        <value>0</value>
+        <value>LDAPGroupRole</value>
+        <value>%REPLACE_ME%</value>
+        <value>%REPLACE_ME%</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

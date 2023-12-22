@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_runtimeTypeToExpand" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of runtime properties to be expanded in the deep copy tree.
+Valid values are runtime properties internal names.
+This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>vendorparts</value>
+        <value>vendors</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

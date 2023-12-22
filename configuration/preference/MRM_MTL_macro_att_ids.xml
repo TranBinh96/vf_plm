@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRM_MTL_macro_att_ids" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the attribute IDs in which the Manufacturing Tooling Library (MTL) macro name and model name (that are needed for create graphic) is stored. Valid values are two integers. Each integer must be a valid Classification attribute ID. The first integer is the attribute ID for the MTL macro name. The second integer is the attribute ID for the MTL model name.</preference_description>
+      <context name="Teamcenter">
+        <value>-501019</value>
+        <value>-501020</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

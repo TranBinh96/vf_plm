@@ -1,0 +1,34 @@
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+<content visibleWhen="structure_revisions==null and ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation">
+<content visibleWhen="Mat1UsesMaterial!=null and VMRepresents==null">
+     <page titleKey="mtw0_xrt_materialtab">
+         <section>
+              <inject type="dataset" src="Mtw0CompositionInfoDataset" module="js/aw-include.directive"/>
+        </section>
+    </page>
+</content>
+<content visibleWhen="Mat1UsesMaterial==null and VMRepresents!=null">
+     <page titleKey="mtw0_xrt_materialtab">
+         <section>
+              <inject type="dataset" src="Mtw0CompositionInfoDataset" module="js/aw-include.directive"/>
+        </section>
+    </page>
+</content>
+<content visibleWhen="Mat1UsesMaterial!=null and VMRepresents!=null">
+    <page titleKey="mtw0_xrt_materialtab">
+         <section>
+              <inject type="dataset" src="Mtw0CompositionInfoDataset" module="js/aw-include.directive"/>
+        </section>
+    </page>
+</content>  
+</content>  
+</subRendering>

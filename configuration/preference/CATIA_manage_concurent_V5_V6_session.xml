@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_manage_concurent_V5_V6_session" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference allow TcIC to handle case where client machine works with both CATIA V5 &amp; CATIA V6 (3DEXPERIENCE) started at the same time or with multiple CATIA V5 sessions.
+Recommendation when multiple CATIA sessions are running is to set this preference to True.
+Possible values:
+- False: (Default) Do not management multiple CATIA sessions 
+- True: Manage multiple CATIA sessions</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

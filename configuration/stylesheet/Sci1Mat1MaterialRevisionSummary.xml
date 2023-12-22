@@ -1,0 +1,25 @@
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2016.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+    <content visibleWhen="sci0IsIMDSObject==True">
+        <break/>
+        <property name="sci0IsIMDSObject"/>
+        <property name="sci0MDSStatus" />
+        <property name="sci0NodeId"/>
+        <property name="sci0Version"/>
+        <property name="sci0TradeName"/>
+        <property name="sci0StandardMaterialNumber"/>
+        <property name="sci0IsGADSLDeclared"/>
+        <property name="sci0ChemicalSymbol"/>
+        <property name="sci0MaterialClassification"/>
+        <property name="sci0Remarks"/>
+        <property name="sci0RemarksOverflow"/>
+    </content>
+</subRendering>

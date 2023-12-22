@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="DecisionApps.RelationBrowser">
+    <category_description>Preferences for Decision Apps Relation Browser.</category_description>
+    
+               <preference name="RV1_DARB_Expand_Outgoing_Levels" type="Integer" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the values used for the &quot;Expand Outgoing Relations&quot; menu in the Relationship Viewer application in the Active Workspace client.
+The menu will support 1-5 command values. Any values after the first 5 will be ignored.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+        <value>4</value>
+        <value>5</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

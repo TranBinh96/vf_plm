@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Reports">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_custom_item_report_itk_library" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the customer own written library used to generate custom report, in which they implement business logical with their own ITK. Library name and method name are mandatory.
+libname:{method:methodName,function:functioName} OR libname:{method:methodname}</preference_description>
+      <context name="Teamcenter">
+        <value>libcm1cmaws:{method:ChangeItemRevisionReport,function:generateChangeItemRevisionReport}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

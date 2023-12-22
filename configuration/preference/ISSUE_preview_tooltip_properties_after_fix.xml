@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ISSUE_preview_tooltip_properties_after_fix" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the properties to be displayed in the tool tip for an image preview displayed in the Issue Preview view of Issue Manager.
+Valid Values:
+string - Accepts one or more strings as values; each string must be a property name of the issue report revision object.</preference_description>
+      <context name="Teamcenter">
+        <value>CMClosureComments</value>
+        <value>CMDispositionComments</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

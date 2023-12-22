@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0ConstraintsViewPropertyColumns" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of column names that will be displayed in the Variant Constraints View table in the Product Configurator application.</preference_description>
+      <context name="Teamcenter">
+        <value>Cfg0AbsConfiguratorWSO.cfg0ObjectId</value>
+        <value>Cfg0AbsConfiguratorWSO.object_type</value>
+        <value>Cfg0AbsConstraintRule.cfg0Severity</value>
+        <value>Cfg0AbsConstraintRule.cfg0Message</value>
+        <value>Cfg0AbsRule.cfg0SubjectCondition</value>
+        <value>Cfg0AbsRule.cfg0ApplicabilityCondition</value>
+        <value>Cfg0AbsRule.cfg0IsGlobal</value>
+        <value>Cfg0AbsConfiguratorWSO.cfg0Effectivity</value>
+        <value>Cfg0AbsConfiguratorWSO.cfg0Sequence</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

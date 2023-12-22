@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Column">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextConsiderProductItemQuery" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables or disables further filtering of product items in Design Context.The Design Context application identifies a product item based on the configuration of the PortalDesignContextProductItemProperties preference. This list can be further refined by a saved query configured in the PortalDesignContextProductItemQuery preference.
+When the PortalDesignContextConsiderProductItemQuery preference is set to true, Teamcenter uses the saved query to further filter the available product items. If the saved query results does not find any product items using the PortalDesignContextProductItemProperties preference setting, Teamcenter displays an error.
+For example:
+
+Product items found from        Product items returned                     Filtered list of
+default Design Context          by saved query                             product items
+configuration                   (PortalDesignContextProductItemQuery)
+
+Prod1, Prod2, Prod3,             Prod3, Prod12, Prod34,                     Prod3 and Prod5
+Prod4, and Prod5                 and Prod5
+
+Prod1, Prod2, Prod3,             Prod11, Prod12, Prod13,                    None
+Prod4, and Prod5                 Prod14, and Prod15
+
+Prod1, Prod2, Prod3,             None
+Prod4, and Prod5                                                            None
+
+Prod3 and Prod4                  Prod3, Prod12, Prod13,                     Prod3
+Prod14, and Prod 15
+
+Valid Values:
+true - Filter the search result of available product items using the query specified in the PortalDesignContextProductItemQuery preference.
+false - Do not filter the search result of available product items.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

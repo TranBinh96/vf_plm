@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Populate_FSC_Server_Targets" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Based on the preference value the exporting site decides to populate the files to the specific file server cache (FSC) specified by the URL. Multi-Site features use a default populate target FSC ID for populating files that can be overridden by this preference. The exporting site interrogates the importing site for the this preference.
+Valid Values:
+A character string representing the FSCID, for example:FSC_tri6w035_nox</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

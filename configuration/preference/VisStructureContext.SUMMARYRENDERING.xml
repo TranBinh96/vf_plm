@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="VisStructureContext.SUMMARYRENDERING" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Registers the stylesheet for VisStructureContext objects.</preference_description>
+      <context name="Teamcenter">
+        <value>VisStructureContextSummary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

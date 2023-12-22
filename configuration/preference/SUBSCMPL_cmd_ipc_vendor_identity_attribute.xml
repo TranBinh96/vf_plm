@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_cmd_ipc_vendor_identity_attribute" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the name of the attribute of Vendor or Supplier Company which is to be used during Conflict Mineral Declaration import.
+The default value is &quot;name&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

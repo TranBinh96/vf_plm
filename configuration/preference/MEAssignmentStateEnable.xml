@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAssignmentStateEnable" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables the assignment state for resolved assigned occurrence objects in enterprise bill of process (EBOP) structures in Manufacturing Process Planner. When you resolve part assignments, you can set a state for the assignment allowing it to go through a manual review and approval process.
+Valid Values:
+true - Teamcenter assigns a state to the resolved part.
+false - Teamcenter does not assign a state to the resolved part.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMItemTypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies what item type is selected as default based on the currently selected class in the New Resource dialog box in the Resource Manager application. This item type is used for the specified class and all its child classes.
+You can overwrite the item type in child classes.
+Valid Values:
+Accepts one or more pairs of strings as values. In each string pair, the first value must be a valid Classification class ID, and the second value must be a valid business object (type). The most common item types used with Resource Manager are:
+Display name    Internal name
+Resource        Mfg0MEResource
+NC Tool         Mfg0MENCTool
+NC Machine      Mfg0MENCMachine
+Equipment       Mfg0MEEquipment</preference_description>
+      <context name="Teamcenter">
+        <value>MRM</value>
+        <value>Mfg0MEResource</value>
+        <value>TOOL_MRL</value>
+        <value>Mfg0MENCTool</value>
+        <value>TOOL_ASSY</value>
+        <value>Mfg0MENCTool</value>
+        <value>TOOL_COMP</value>
+        <value>Mfg0MENCTool</value>
+        <value>MACH</value>
+        <value>Mfg0MENCMachine</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

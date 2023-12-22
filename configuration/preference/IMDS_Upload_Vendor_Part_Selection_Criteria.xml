@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_Upload_Vendor_Part_Selection_Criteria" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the mode for Vendor Parts selection in the upload to International Material Data System (IMDS) process in the Substance Compliance International Material Data System (IMDS) Integration application.
+Please ensure that the same value is specified for the &quot;IMDS_Upload_Vendor_Part_Selection_Criteria&quot; variable defined in the stylesheet (refer to the preference &quot;IMDS_upload_xsl_name&quot;)
+Valid values are:
+* 0: Selects the single vendor part with a status as defined by the preference &quot;IMDS_Uploadable_Vendor_Part_Status&quot;. This is the default value.
+* 1: Selects all the vendor parts with a status as defined by the preference &quot;IMDS_Uploadable_Vendor_Part_Status&quot;.
+* 2: Selects all vendor parts irrespective of their statuses.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

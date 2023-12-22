@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IPA_OG_postfix" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the postfix added to the name of a new In Process Assembly Occurrence Group process name.</preference_description>
+      <context name="Teamcenter">
+        <value>_assy</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

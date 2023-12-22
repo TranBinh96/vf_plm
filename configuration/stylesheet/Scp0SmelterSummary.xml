@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2014 Siemens PLM Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: Scp0SmelterSummary.xml
+
+    Default style sheet for displaying Scp0SmelterSummary summary
+=======================================================================
+
+-->
+<rendering>
+    <header>
+        <image source = "thumbnail"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title="Properties">
+                <property name = "object_string"/>
+                <property name = "scp0Authority"/>
+                <property name = "scp0Identity"/>
+                <property name = "scp0Substance"/>
+                <property name = "scp0IsKnown"/>
+                <property name = "scp0IsCertifiedSmelter"/>
+                <property name = "scp0LinkToCnflictMnrlPolicy"/>
+                <property name = "scp0SmelterLocation"/>
+                <property name = "scp0StateOrProvince"/>
+                <property name = "scp0NoUse"/>
+                <command titleKey = "tc_xrt_moreProperties" commandId = "com.teamcenter.rac.properties"/>
+            </section>
+            <section titleKey = "tc_xrt_Locations" title = "Locations" visibleWhen="LocationInCompany!=null">
+                <objectSet source = "LocationInCompany.CompanyLocation" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                    <tableDisplay>
+                        <property name = "object_name"/>
+                        <property name = "city"/>
+                        <property name = "state_province"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <listDisplay/>
+                    <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                    <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                    <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                        <parameter name = "localSelection" value = "true"/>
+                    </command>
+                </objectSet>
+            </section>
+        </column>
+        <column>
+            <section titleKey="tc_xrt_actions" commandLayout="vertical">
+                <command commandId = "com.teamcenter.rac.openExchangeView"/>
+                <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy"/>
+                <command actionKey = "reviseAction" commandId = "com.teamcenter.rac.revise"/>
+                <command actionKey = "saveAsAction" commandId = "org.eclipse.ui.file.saveAs"/>
+            </section>
+        </column>
+    </page>
+    <page title = "Smelter Mines" titleKey="tc_xrt_SmelterMines" visibleWhen="scp0SmelterMineLocation!=null">
+        <section titleKey = "tc_xrt_SmelterMines" title = "Smelter Mines">
+            <objectSet source = "scp0SmelterMineLocation.Scp0SmelterMine" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_name"/>
+                    <property name = "object_type"/>
+                    <property name = "country"/>
+                    <property name = "city"/>
+                    <property name = "state_province"/>
+                    <property name = "postal_code"/>
+                    <property name = "fnd0Locationtype"/>
+                </tableDisplay>
+            </objectSet>
+        </section>
+    </page>
+    <page title = "Attachments" titleKey="tc_xrt_attachments">
+        <section titleKey = "tc_xrt_Files" title = "Files">
+            <objectSet source = "IMAN_specification.Dataset" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <thumbnailDisplay/>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+</rendering>

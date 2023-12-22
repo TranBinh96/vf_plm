@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_max_number_of_components" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines the maximum number of components an assembly can contain before a warning appears. When the selected assembly (typically a resource assembly) contains more than the defined number of components, the warning states the selected assembly is large and requires the user to confirm loading the assembly. The user can click Yes to display the assembly, or No to not display the assembly. If set to 0 or left undefined, assemblies are always displayed, regardless of size, without warning.
+Valid Values:
+0 - All assemblies are always displayed, with no warning regarding assembly size.
+Single positive integer - If assembly has less components than the number defined, no warning appears when displaying the assembly. If assembly has more components than the number defined, a warning appears:The assembly contains more than
+components.    Do you really want to show it?</preference_description>
+      <context name="Teamcenter">
+        <value>100</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

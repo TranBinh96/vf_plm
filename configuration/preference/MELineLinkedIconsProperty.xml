@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MELineLinkedIconsProperty" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether the manufacturing applications display a  symbol beside a linked structure line in a product (when linked as MEConsumed) or  for a linked line in a work area (for all occurrence types).
+Valid Values:
+No value. - The linked symbols are not displayed.
+fnd0bl_assigned_as - The linked symbols are displayed in a reference pane (product or work area), indicating that a product component or work area object is linked (for example, consumed or used) in a process pane. Assigning a value to this preference slows the product/process structure loading.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

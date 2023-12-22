@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CPMarketingBriefRevision_CPThemeBoardRevision_default_relation" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default relation between source and target when a CPThemeBoardRevision object is pasted under a CPMarketingBriefRevision object.</preference_description>
+      <context name="Teamcenter">
+        <value>CP_Has_ThemeBoard</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

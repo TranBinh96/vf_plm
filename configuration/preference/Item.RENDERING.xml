@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Item.RENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the registration of a properties style sheet for Item objects when the Substance Compliance International Material Data System (IMDS) Integration solution is installed.
+Valid Values:
+Sci0Item</preference_description>
+      <context name="Teamcenter">
+        <value>Sci0Item</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

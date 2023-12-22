@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.QSearch Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QSEARCH_disable_bbox_for_product_scoping" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables or disables sending translation requests to Dispatcher during spatial indexing when a non-indexable structure is added under an indexable structure.
+The dispatcher requests are used to create bounding box data for cacheless searches.
+NOTE: This preference applies only to product-scoped cacheless search functionality. It does not affect data for which non product-scoped indexing is in effect.
+Valid Values:
+true: Disables Dispatcher requests.
+false: Enables Dispatcher requests. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="Propagate_IssueProps_ValuesTo_CAPAProps" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of Issue properties whose values to be stamp on properties of CAPA at the time of deriving.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name:object_name</value>
+        <value>object_desc:object_desc</value>
+        <value>c2Category:c2_capa_category</value>
+        <value>c2_IssueSubcategory:c2_capa_subtype</value>
+        <value>c2_Severity:c2_Severity</value>
+        <value>c2_Probability:c2_Probability</value>
+        <value>c2_Detectability:c2_Detectability</value>
+        <value>c2_Risk:c2_Risk</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

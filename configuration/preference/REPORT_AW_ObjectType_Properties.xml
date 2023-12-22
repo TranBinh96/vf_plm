@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Reports">
+    <category_description>Active Workspace preferences
+</category_description>
+    
+               <preference name="REPORT_AW_ObjectType_Properties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference is used to define object types and properties. These values will be used in configuring table for Advance Summary Report in Active Workspace.For a object type, add a name of property which should be a part of Column Names list for a Table. Common properties are included from WorkspaceObject, so specify properties for individual object type here. Use internal name for the Object type and property name. Values should be specified in below pattern:
+ObjectType:{property1,property2,property3}
+e.g.
+ItemRevision:{item_revision_id,item_id}</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision:{item_revision_id,item_id}</value>
+        <value>Schedule:{item_id}</value>
+        <value>ScheduleTask:{item_id}</value>
+        <value>Dataset:{ref_names}</value>
+        <value>Job:{object_name,fnd0EndDate}</value>
+        <value>EPMTask:{object_name,task_state}</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

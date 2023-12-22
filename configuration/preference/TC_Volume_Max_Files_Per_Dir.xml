@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Maintenance.File Caching">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Volume_Max_Files_Per_Dir" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the maximum number of allowed files in a sub-directory in a volume.
+The system automatically creates new sub-directories for storing new files, once the current sub-directory has reached this limit.
+Setting this value to 0 effectively disables this feature, so all files being created go into the same (current) sub-directory in the volume.
+Very low values can affect the performance of the system.
+Values less than 10000 will be converted to a default minimum value of 10000.
+Suggested values are in the range 100000 - 500000 for most file systems.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

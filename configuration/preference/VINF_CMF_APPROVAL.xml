@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_CMF_APPROVAL" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>User for CMF Work process approval</preference_description>
+      <context name="Teamcenter">
+        <value>VF3_CMFS_docRevision</value>
+        <value>%item%.vf3_model_code</value>
+        <value>CMF Director Review;CMF Chief Engineer Review;Notify</value>
+        <value>AA=joaomdoar;viniciusj;joaomdoar,thaonp84,viniciusj</value>
+        <value>AB=joaomdoar;silvand;ducmv2,nathanb,hanhpc1,quyvv,markfc,thomass,bens,chudv,binhdx1,nhatnd1,philliprh,davidmj,dhirajp,hieund25,quangpv6,konstantinl,gracjanbg,luudn,joaomdoar,thaonp84,loimd,ciroa,damienc,hemantp,tata.pawaskara,chienda2,thanhtc6,tommylb,digrasea,huycq1,sasikannank,vigneshv,datnq3,dattq16,hungnd31,anhht51,thanhdv16,edsonu,paulobg,nguyenhv,hungdm14,doancd,deepakvp,praveendp,huypv15,prakalathant</value>
+        <value>AC=trungtq6;taewonl;</value>
+        <value>XN=trungtq6;davidrc;</value>
+        <value>XV=trungtq6;huyc3;</value>
+        <value>XX=trungtq6;ersany;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

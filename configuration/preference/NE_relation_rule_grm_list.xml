@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="NE_relation_rule_grm_list" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Lists all Generic Relationship Management (GRM) relations that can appear in the Available GRMs list of the New Diagram Template and Edit Diagram Template dialog boxes. These selections determine which relations can be represented in diagrams based on the diagram template.
+Valid Values:
+Accepts one or more strings as values. Each string must be the valid model name of a relation, not the display name.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_reference</value>
+        <value>IMAN_specification</value>
+        <value>FND_TraceLink</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

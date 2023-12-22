@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Fnd0EMLPollingRevFrm.JAVARENDERING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Java class to render the property panel of a form with type Review Email Polling Revision Form.
+Valid Values:
+Java class to render the property panel of a form.</preference_description>
+      <context name="Teamcenter">
+        <value>com.teamcenter.rac.emailpolling.commands.rendering.EmailPollingRevisionForm</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

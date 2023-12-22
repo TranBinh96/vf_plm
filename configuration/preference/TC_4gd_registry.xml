@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_4gd_registry" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates the Object Directory Services (ODS) registration of 4th Generation Design (4GD) objects.
+The ODS registry feature prevents the creation of duplicate objects across federated multi-sites.
+Valid Values: 
+- true: The 4GD Objects registry is active and can be used for registering 4GD objects.
+- false:The 4GD Objects registry is not active and cannot be used for registering 4GD objects.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

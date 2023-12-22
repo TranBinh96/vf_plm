@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright (c) 2003-2005 UGS Corporation
+                   Unpublished - All Rights Reserved
+===============================================================================
+
+    Filename: Ptn0Partition .xml
+
+    Default style sheet for displaying Partition properties.
+ -->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">
+        <property name="object_name"/>
+        <property name="object_desc"/>
+        <property name="object_type"/>
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+        <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+        <property name="last_mod_user"/>
+        <separator/>
+        <property name="ptn0partition_id"/>
+        <property name="ptn0partition_scheme_type"/>
+        <separator/>
+        <property name="mdl0model_object"/>
+        <separator/>
+        <property name="ptn0source_object"/>
+        <property name="ptn0source_object_name"/>
+        <property name="ptn0source_object_type"/>
+        <property name="ptn0source_object_id"/>
+        <separator/>
+    </page>
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user"/>
+        <separator/>
+        <property name="checked_out_date"/>
+        <property name="checked_out_change_id"/>
+    </page>
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

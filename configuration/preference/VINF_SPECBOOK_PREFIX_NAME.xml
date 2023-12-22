@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VINF_SPECBOOK_PREFIX_NAME" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description>Use for function Create Spec Document</preference_description>
+      <context name="Teamcenter">
+        <value>VFDS=AUTOMOBILE=SPB: Spec book; Automatically creates DVPR=VF3_spec_doc=Spec Document</value>
+        <value>VFSR=AUTOMOBILE=SOR: Scope of Requirements=VF3_spec_doc=Spec Document</value>
+        <value>TGSS=AUTOMOBILE=Tool Grain Specification Sheet=VF3_AT_TGSS_Doc=TGSS Document</value>
+        <value>VFTE=AUTOMOBILE=Test Report=VF3_AT_VFTE_Doc=VFTE Document</value>
+        <value>FMEA=AUTOMOBILE=Failure Mode and Effects Analysis=VF4_AT_DFMEA_doc=DFMEA Document</value>
+        <value>VTSS=AUTOMOBILE=Vehicle Technical Specification Sheet=VF3_VTSS_doc</value>
+        <value>CMFS=AUTOMOBILE=Color, Material, Finishing=VF3_CMFS_doc=CMFS Doc</value>
+        <value>ESOM=AUTOMOBILE=Engineering Signoff Modules=VF3_AT_ESOM_Doc=ESOM Document</value>
+        <value>DTSS=AUTOMOBILE=Dimension Technical Specification Sheet=VF3_DTSS_doc=DTSS Doc</value>
+        <value>VFFS=AUTOMOBILE=VinFast Functional Safety=VF4_VFFS_doc=VFFS Document</value>
+        <value>ESOR=E-SCOOTER=Scope of Requirement=VF3_spec_doc=Spec Document</value>
+        <value>ESPC=E-SCOOTER=Escooter Specbook=VF3_spec_doc=Spec Document</value>
+        <value>EFMA=E-SCOOTER=Escooter Failure Mode and Effects Analysis=VF3_EFMEA_doc=EFMEA Document</value>
+        <value>EDVP=E-SCOOTER=Design Validation Plan=VF3_spec_doc=Spec Document</value>
+        <value>EEMA=EE COMPONENT=Failure Mode and Effects Analysis=VF3_EEMA_doc</value>
+        <value>EEPC=EE COMPONENT=SPB: Spec book=VF3_EEPC_doc</value>
+        <value>EEPG=EE COMPONENT=Production guide=VF3_EEPG_doc</value>
+        <value>EESR=EE COMPONENT=SOR: Scope of Requirements=VF3_EESR_doc</value>
+        <value>EETG=EE COMPONENT=Test guide=VF3_EETG_doc</value>
+        <value>EETR=EE COMPONENT=DV Test report=VF3_EETR_doc</value>
+      </context>
+    </preference>
+  </category>
+</preferences>
+               

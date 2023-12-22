@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+//      Filename : Sci1SupplierPartHierarchy.xml
+-->
+<!-- Default style sheet for displaying Substance Application Code Info Panel in Active Workspace Client. -->
+<subRendering>
+    <content visibleWhen="sci0IsIMDSObject==True and Scp0BOMSnapshot != null">
+            <section titleKey="tc_supplier_part_Hierarchy">
+                <objectSet source="Scp0BOMSnapshot.Sci0IMDSBOMItemRevision" defaultdisplay="tableDisplay" sortdirection="descending" sortby="object_name">
+                    <tableDisplay>
+                        <property name="item_id" modifiable="false"/>
+                        <property name="object_name" modifiable="false"/>
+                       <property name="sci0ModuleId" modifiable="false"/>
+                        <property name="sci0NodeId" modifiable="false"/>
+                        <property name="sci0Version" modifiable="false"/>
+                        <property name="sci0MeasuredWeight" modifiable="false"/>
+                    </tableDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+    </content>
+</subRendering>

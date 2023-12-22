@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Mail">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EMLPOLLING_default_polling_config_id" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the identifier for email polling configuration to be used in the email polling operation.
+Valid Values:
+Any identifier for email polling configuration.</preference_description>
+      <context name="Teamcenter">
+        <value>def_polling_config_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

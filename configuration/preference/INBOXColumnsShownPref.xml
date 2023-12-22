@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="INBOXColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>In-Box Columns displayed, in left-to-right order</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>job_name</value>
+        <value>parent_name</value>
+        <value>resp_party</value>
+        <value>task_state</value>
+        <value>attachment_type</value>
+        <value>object_type</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="com.teamcenter.rac.adalicense.ADALicensePerspective\\Purchase\\*\\HIDDEN_COMMANDS" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>pasteAction,deleteAction,com.teamcenter.rac.alignWithDesignOccurrence,com.teamcenter.rac.express.RPExport,com.teamcenter.rac.removePartDesignAlignment,org.eclipse.ui.window.closePerspective,com.teamcenter.rac.alignWithDesignOccAndDetails,com.teamcenter.rac.copyAppend,com.teamcenter.rac.cme.ipa.createDynamicAssemblyTree,com.teamcenter.partSourcing.commands.sampleCommand,org.eclipse.ui.edit.text.delimiter.unix,preferencesAction,cutAction,exitAction,org.eclipse.ui.edit.text.delimiter.windows,org.eclipse.ui.edit.text.delimiter.macOS9,org.eclipse.ui.openLocalFile,com.teamcenter.rac.cme.ipa.createRecursivelyDynamicAssemblyTree,userSettingAction,copyAction,com.teamcenter.rac.cme.ipa.cleanDynamicAssemblyTree,saveAction,com.teamcenter.rac.express.RPImport</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

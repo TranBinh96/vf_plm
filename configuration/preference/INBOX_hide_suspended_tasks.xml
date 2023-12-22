@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="INBOX_hide_suspended_tasks" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Valid values are 0/1/2/3.
+0 - Default condition to show Started &amp; suspended tasks in the tasks to perform.
+1 - Condition to show Only Started tasks in the tasks to perform.
+2 - Suspend All Started Tasks of this job. Show Started &amp; suspended tasks in the tasks to perform.
+3 - Suspend All Started Tasks of this job. Show Only Started tasks in the tasks to perform. Also suspend all other started tasks of the job.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

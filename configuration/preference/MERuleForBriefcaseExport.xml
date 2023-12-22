@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MERuleForBriefcaseExport" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the rule to govern creation of Appearence Path Node (APN) for the lines during briefcase export of  Collaboration Context.
+This will help the recepient of exported data to perform certain operations such as consumption of product to Bill of Processes (BOP).
+
+Valid values are in the format &quot;Type:StructureType; ClosureRule:ClosureRuleName; Lines:LinesValue;&quot;, where
+- StructureType: Specifies the type of structure from which BOMLines are identified. Valid Values:
+* Item : Product structure.
+* MEWorkarea : Workarea structure.
+* Mfg0MEPlantBOP: Plant Bill of Processes (BOP).
+* MEProcess: BOP.
+* Mfg0MEStudy: Study Structure.
+
+- ClosureRuleName: Specifies the name of closure rule to be run on structure defined in Type. The closure rule can be blank. User defined closure rule is also accepted.
+
+- LinesValue: Specifies the candidate lines for which APN is to be created. This option is ignored if valid closure rule is provided. This can be blank. Valid Values:
+* For &quot;Item&quot; and &quot;MEWorkarea&quot; Type :
++ AllLines : All lines in structures.
++ HierarchyOfConsumedLinesOnly : All lines in the hierarachy of Product/Plant lines consumed in a Process/Plant BOP structure.
++ HierarchyOfConsumedLinesAndSiblingsOnly : All lines which are in the hierarachy and are the siblings of Product/Plant lines consumed in a Process/Plant BOP structure.
++ HierarchyOfConsumedLinesAndHierarchyOfSiblings : All lines which are in the hierarachy and are the siblings and are in the hierarachy of siblings of Product/Plant lines consumed in a Process/Plant BOP structure.
+* For &quot;BOP&quot; and &quot;Study&quot; Type:
++ AllLines : For all lines in the BOP and Study structures.
++ Process : For all processes.
++ Operation : For all operations.
+
+Some examples of the usage of this preference are:
+-&quot;Type:Item; Lines:HierarchyOfConsumedLinesOnly;&quot;
+Appearence Path Node (APN) will be created for all the lines in the hierarchy of product lines consumed in BOP or Study structure.
+
+- &quot;Type:MEWorkarea; Lines:HierarchyOfConsumedLinesAndSiblingsOnly;&quot;
+Appearence Path Node (APN) will be created for all the lines which are in the hierarchy and which are the siblings of plant lines consumed in BOP or Study structure.
+
+- &quot;Type:Mfg0MEStudy; ClosureRule:MFGEBOPExportDefault; Lines:Process;&quot;
+The value provided in the Lines option will be ignored and closure rule will be used.
+
+- &quot;Type:Mfg0MEPlantBOP; ClosureRule:; Lines:HierarchyOfConsumedLinesOnly;&quot;
+Notice the invalid value for Lines. This will be ignored and Appearence Path Node (APN) will not be created for any line under the Plant BOP structure.
+
+- &quot;Type:MEProcess; ClosureRule:; Lines:;&quot;
+Neither Closure Rule nor the Lines option value is specified. Thus, Appearence Path Node (APN) will not be created for any line under the Process structure.
+
+One type can be specified only once in the preference value. If specified multiple times, the first value will be considered and the others will be ignored.
+For example, if the values are &quot;Type:Item; ClosureRule:; Lines:HierarchyOfConsumedLinesOnly;&quot; and &quot;Type:Item; ClosureRule:MFGEBOPExportDefault; Lines:;&quot;, the first value will be considered and the second one will be ignored.
+
+The default values for the preference is &quot;Type:Item; ClosureRule:; Lines:AllLines;&quot;
+&quot;Type:MEWorkarea; ClosureRule:; Lines:AllLines;&quot;
+Type:Mfg0MEPlantBOP; ClosureRule:; Lines:AllLines;.</preference_description>
+      <context name="Teamcenter">
+        <value>Type:Item; ClosureRule:; Lines:AllLines;</value>
+        <value>Type:MEWorkarea; ClosureRule:; Lines:AllLines;</value>
+        <value>Type:Mfg0MEPlantBOP; ClosureRule:; Lines:AllLines;</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

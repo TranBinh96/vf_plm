@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_do_not_define_sites_on_import" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether or not sites that are not defined in an importing sites database are automatically defined when objects are imported to the site from a hub site.Use this preference to prevent sites that are unknown to each other, such as supplier sites, from being automatically defined in the importing site&apos;s database, for example:Supplier sites ABC and XYZ exchange data through hub site HUB. The hub site is defined in both site ABC&apos;s and site XYZ&apos;s database. Site ABC is not define in site XYZ&apos;s database and site XYZ is not defined in site ABC&apos;s database because
+they are unknow to each other.Site ABC exports a replica object to the hub site. Site XYZ imports site ABC&apos;s replica object from the hub site. By default, the import process defines site ABC in site XYZ&apos;s database making the site information visible to the site XYZ users.Define this preference at site XYZ with site ABC as the value. This prevents site ABC from being defined in site XYZ&apos;s database during the import process and prevents users at site XYZ from seeing information about site ABC. Do the same for site XYZ at site ABC to prevent uses at either site from knowing about the other site.
+Valid Values:
+One or more strings, for example:SupplierABCThe name must be a valid Teamcenter site name.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

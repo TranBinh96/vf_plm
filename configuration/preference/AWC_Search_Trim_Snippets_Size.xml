@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Search_Trim_Snippets_Size" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This preference comes into picture if the snippet returned by the index engine is greater than 400 characters( excluding extra spaces ).
+In which case, we want to trim the snippet size .This number signifies how many words will be shown to the left and right of the matched search criteria.
+for e.g. if the original snippet size is 450 characters, then this preference will be honored.
+It will take the integer value specified and those many words will be taken which are to the left and right of the matched search criteria and will be returned as the final snippet for that object.
+Default value is 10.</preference_description>
+      <context name="Teamcenter">
+        <value>10</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

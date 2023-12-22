@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="MATERIALMGMT_wild_card_substance_cas_numbers" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the Chemical Abstract Service (CAS) numbers to be treated as wild cards by the Material Management application.
+These CAS numbers will skip the in-built validation for the given values while creating the substances in the Material Management application.
+There is no default value.</preference_description>
+      <context name="Teamcenter">
+        <value>SYSTEM</value>
+        <value>system</value>
+        <value>-</value>
+        <value>*********</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

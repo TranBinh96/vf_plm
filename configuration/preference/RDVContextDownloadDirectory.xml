@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDVContextDownloadDirectory" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the location in the server operating system where the JT/PLMXML will be downloaded by the &quot;rdv_context_download&quot; utility. The values are dependent on server operating system (OS).</preference_description>
+      <context name="Teamcenter">
+        <value platform="UNX">/tmp/</value>
+        <value platform="WNT">C:\temp\</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

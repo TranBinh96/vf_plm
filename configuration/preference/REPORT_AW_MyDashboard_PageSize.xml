@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Reports">
+    <category_description>Active Workspace preferences
+</category_description>
+    
+               <preference name="REPORT_AW_MyDashboard_PageSize" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference is used to define size of My Dashboard page.As per the size mentioned Report tiles will be loaded. This is applicable only in Image view in My Dashboard sub-location.</preference_description>
+      <context name="Teamcenter">
+        <value>8</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

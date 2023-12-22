@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Appearance Configuration Background">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="APPR_background_updater_max_num_failures" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Deprecated. How many background updater failures to allow for a particular package.
+Once the number of failures exceeds this value, background updates are disabled (by setting the
+Site Preference &quot;APPR_allow_background_updates&quot; to false).</preference_description>
+      <context name="Teamcenter">
+        <value>5</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

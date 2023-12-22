@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_ERP_dataset_types_to_transfer" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the dataset types to be transferred (using ERP document transfer) and the associated file format (named reference type).For example:
+TC_ERP_dataset_types_to_transfer=
+UGMASTER/Shaded-Image
+UGPART/Shaded-Image
+Text/TXT
+Valid Values:
+Accepts a single string as a value.</preference_description>
+      <context name="Teamcenter">
+        <value>UGMASTER/Shaded-Image</value>
+        <value>UGPART/Shaded-Image</value>
+        <value>Text/Text</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_export_assy_with_linked_drawings" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Export CATDrawings linked to an assembly (YES)
+Do not export CATDrawings linked to an assembly (NO)</preference_description>
+      <context name="Teamcenter">
+        <value>NO</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

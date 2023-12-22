@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Schedule Task Info Panel in Revolution Client. -->
+
+<rendering>
+     <header>
+           <property name="object_string"/>
+     </header>
+     <page title="Planning Properties" titleKey="tc_xrt_PlanningProperties">
+      <section>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="schedule_tag" modifiable="false"/>
+            <property name="fnd0PriorityString"/>
+            <property name="saw1Duration"/>
+            <property name="saw1WorkEffort"/>
+            <property name="start_date"/>
+            <break></break>
+            <property name="finish_date"/>
+            <property name="fnd0FixedTypeString"/>
+            <property name="fnd0TaskTypeString" modifiable="false"/>
+            <property name="fnd0ConstraintString"/>
+            <property name="saw1WorkflowTriggerType"/>
+            <property name="saw1WorkflowTemplate"/>
+            <inject type="dataset" src="Adc1ScheduleTaskPlanning"/>
+      </section>
+     </page>
+    <page title="Execution Properties" titleKey="tc_xrt_ExecutionProperties">
+      <section>
+          <property name="fnd0state" />
+          <property name="fnd0status" />
+          <property name="saw1WorkComplete"/>
+          <property name="complete_percent"/>
+          <property name="saw1WorkRemaining"/>
+          <property name="fnd0ForecastStartDate"/>
+          <property name="actual_start_date"/>
+          <break></break>
+          <property name="fnd0ForecastEndDate"/>
+          <property name="actual_finish_date"/>
+      </section>
+    </page>
+    <page title="Flags" titleKey="tc_xrt_Flags">
+      <section>
+          <property name="wbs_code" modifiable="false"/>
+          <property name="auto_complete" modifiable="false"/>
+          <inject type="dataset" src="Adc1ScheduleTaskFlags"/>
+      </section>
+    </page>
+ </rendering>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINF_COST_AVAILABLE_OBJECT_TYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VINF_COST_AVAILABLE_OBJECT_TYPES</preference_description>
+      <context name="Teamcenter">
+        <value>VF4_DesignRevision</value>
+        <value>PR4D_MS_IT_VINFRevision</value>
+        <value>VF3_Scooter_partRevision</value>
+        <value>VF4_BP_DesignRevision</value>
+        <value>VF4_Cell_DesignRevision</value>
+        <value>VF4_Compo_DesignRevision</value>
+        <value>VF3_manuf_partRevision</value>
+        <value>VF3_me_scooterRevision</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

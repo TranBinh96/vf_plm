@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering>
+   <page title="General Information" titleKey="tc_xrt_cm_general_information">
+      <section titleKey="tc_xrt_properties">
+         <label text="NOTE: Since 06 Oct 2023, this function no longer avaiblable to create BP Design Part." />
+         <label
+            text="For new function please use “Tools VES => General => Create” to create BP Design Part." />
+         <!-- <property name="object_name" renderingHint="textfield" />
+         <property name="item_id" renderingHint="textfield" />
+         <property name="object_desc" />
+         <property name="vf4_item_make_buy" />
+         <property name="vf4_donor_vehicle" />
+         <property name="fnd0IdGenerator:vf4_BP_type" />
+         <property name="fnd0IdGenerator:vf4_model" />
+         <property name="fnd0IdGenerator:vf4_group_name" />
+         <property name="uom_tag" />
+         <property name="vf4_long_short_lead" />
+         <property name="vf4_supplier_type" />
+         <property name="vf4_part_reference" />
+         <property name="vf4_is_finish_goods" /> -->
+         <!--<customPanel
+         java="com.teamcenter.rac.cm.wizards.ui.PropsPageRelationshipPanel"
+         js="displayCMCustomePanel"/>-->
+      </section>
+   </page>
+</rendering>

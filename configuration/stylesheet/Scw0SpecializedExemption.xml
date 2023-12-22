@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0SpecializedExemption.xml
+
+Default activeworkspace style sheet for displaying Specialized Exemption properties.
+
+-->
+<rendering>
+    <inject type="dataset" src="Mtw0Header"/>
+    <page titleKey="tc_xrt_Overview" title="Overview">
+        <column>
+            <section titleKey="Properties" title="Properties">
+                <property name="object_string"/>
+                <property name="object_type"/>
+                <content visibleWhen="object_desc!=null">
+                    <property name="object_desc"/>
+                </content>
+                <break/>
+                <content visibleWhen="scp0SubstanceName!=null">
+                    <property name="scp0Substance"/>
+                </content>
+                <content visibleWhen="scp0SubstanceCategoryName!=null">
+                    <property name="scp0SubstanceCategory"/>
+                </content>
+                <property name="scp0Exemption"/>
+                <break/>
+                <property name="REF( scp0Exemption,Scp0Exemption ).scp0ExpiryDates"/>
+                <property name="REF( scp0Exemption,Scp0Exemption ).scp0CombinedDateText" />
+            </section>
+        </column>
+    </page>
+</rendering>

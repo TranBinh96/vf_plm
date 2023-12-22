@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Material Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mat1UsesMaterial.mat1PostConsumerRecylFrom.FORMATSTRING" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the format used to display the value of the property &quot;mat1PostConsumerRecylFrom&quot; for objects of type &quot;Mat1UsesMaterial&quot;.
+The default value is &quot;##.####&quot;, where &quot;#&quot; indicates a digit. It will be displayed if it adds to the accuracy of the number but not if it is a leading zero or a zero at the end of a decimal.</preference_description>
+      <context name="Teamcenter">
+        <value>##.####</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

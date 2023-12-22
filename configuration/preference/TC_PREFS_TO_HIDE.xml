@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_PREFS_TO_HIDE" type="String" array="true" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Lists the preferences that should not be displayed to non-administrator users.</preference_description>
+      <context name="Teamcenter">
+        <value>TC_PREFS_TO_HIDE</value>
+        <value>GS_USER_PASSWORD</value>
+        <value>GS_user_password</value>
+        <value>TCIF_USER_PASSWORD</value>
+        <value>TCIF_user_password</value>
+        <value>TC_gms_server_ca_file</value>
+        <value>TC_gms_server_ca_path</value>
+        <value>CLISITPWDFile</value>
+        <value>LDAP_admin_dn</value>
+        <value>LDAP_admin_pw</value>
+        <value>LDAP_attribute_mapping</value>
+        <value>LDAPPersonName</value>
+        <value>LDAPEngUserId</value>
+        <value>LDAPLastUpdate</value>
+        <value>LDAPOsUser</value>
+        <value>LDAPUserGroup</value>
+        <value>LDAPUserRole</value>
+        <value>LDAP_base_dn</value>
+        <value>LDAP_cert_db_path</value>
+        <value>LDAP_group_attr_mapping</value>
+        <value>LDAPGroupName</value>
+        <value>LDAPGroupDesc</value>
+        <value>LDAPLastUpdate</value>
+        <value>LDAPGroupDBA</value>
+        <value>LDAPGroupRole</value>
+        <value>LDAP_group_base_dn</value>
+        <value>LDAP_group_object_class</value>
+        <value>LDAP_group_query_filter</value>
+        <value>LDAP_ignore_users</value>
+        <value>LDAP_member_list_attr</value>
+        <value>LDAP_member_type_attr</value>
+        <value>LDAP_object_type_attr</value>
+        <value>LDAP_person_attr_mapping</value>
+        <value>LDAPPersonName</value>
+        <value>LDAPLastUpdate</value>
+        <value>LDAP_port_number</value>
+        <value>LDAP_role_attr_mapping</value>
+        <value>LDAPRoleName</value>
+        <value>LDAPRoleDesc</value>
+        <value>LDAPLastUpdate</value>
+        <value>LDAP_role_object_class</value>
+        <value>LDAP_role_query_filter</value>
+        <value>LDAP_service_hosts</value>
+        <value>LDAP_sync_group_flags</value>
+        <value>LDAP_sync_member_flags</value>
+        <value>LDAP_sync_role_flags</value>
+        <value>LDAP_sync_user_flags</value>
+        <value>LDAP_use_ssl</value>
+        <value>LDAP_user_object_class</value>
+        <value>LDAP_user_query_filter</value>
+        <value>PLMXML_import_default_password</value>
+        <value>TCIF_SSL_CERTIFICATE</value>
+        <value>FMS_Enable_Selective_File_Caching</value>
+        <value>Dataset_Selective_File_Caching_Rule_Condition_And_Blacklist</value>
+        <value>TC_show_ProjectTeamTableTreeView</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

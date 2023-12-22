@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_catalog_comp_save_modes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of keywords defining the available save modes for documents referenced in a catalog.
+Only save modes listed in this preference can be applied to documents referenced in a catalog.
+Possible values :
+CREATE = Create New and Save As New save modes are available
+COPY = Save As Copy save mode is available
+REVISE = New Revision save mode is available
+USE EXISTING ITEM = Use Existing Item save mode is available. Permits a new dataset to be created under and existing item.
+USE EXISTING DATASET = Use Existing Dataset save mode is available (to update a dataset under an existing item)
+EXISTING = Existing save mode is available</preference_description>
+      <context name="Teamcenter">
+        <value>CREATE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

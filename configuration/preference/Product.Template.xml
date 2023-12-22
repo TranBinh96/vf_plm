@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Product.Template" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the product templates used in creating a product structure. Each product template contains the action rules used in creating a product structure from the product template. Product templates are available from Manufacturing Process Planner, Part Planner, and Multi-Structure Manager.Definition of individual templates must be created first via Product.Template.template name preferences. For example, the Product.Template.Cloning preference. These preferences define the action rules used in creating the product structure from the product template.
+Valid Values:
+Accepts multiple strings as values. Each string must be the template name suffix of each Product.Template.template name preference name.</preference_description>
+      <context name="Teamcenter">
+        <value>Cloning</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

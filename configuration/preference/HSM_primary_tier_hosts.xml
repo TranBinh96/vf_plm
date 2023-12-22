@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="FMS">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="HSM_primary_tier_hosts" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the host names on which the primary tier volumes are managed by third-party HSM software.HSM migration is applied to the volume files residing on hosts defined by this preference. The hsm_capacity_alert utility estimates the capacities of the volumes and uses the values defined in this preference to send e-mail alerts when the primary tier capacity exceeds alert levels. Volumes residing on hosts not defined by this preference are ignored for HSM migration and the hsm_capacity_alert utility.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid host name on which primary tier volumes reside. If all primary tier volumes are managed by third-party HSM software, you can set this preference to ALL rather than listing the individual host names.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

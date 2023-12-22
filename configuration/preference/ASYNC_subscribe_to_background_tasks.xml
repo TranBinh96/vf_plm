@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ASYNC_subscribe_to_background_tasks" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Deprecated.
+Defines for background mode if the user will be notified upon completion of the user&apos;s background tasks. 
+This functionality is deprecated.  Background tasks should provide their own application-specific notification.
+The valid values for this user preference are:
+NONE:    The user will not be notified.
+SUCCEED: The user will be notified when a background operation succeeds.
+FAIL: The user will be notified when a background operation fails.
+BOTH: The user will be notified when a background operation completes with either success or failure. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>NONE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

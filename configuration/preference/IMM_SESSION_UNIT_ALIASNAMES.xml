@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_SESSION_UNIT_ALIASNAMES" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference as well as the IMM_SESSION_UNIT_CATEGORIES should be configured by the material admin according to the preferred default way of displaying the UNITS for the site, if the user uses the UI to configure the display units, a user preference IMM_SESSION_UNIT_ALIASNAMES_USER will be created with user scope</preference_description>
+      <context name="Teamcenter">
+        <value>J,s,N/m2,m,J/kg-K,m3,kg,A,%,K,m2,W,W/m-K,10-3 km/km,gf,rad,mol,UNITLESS,V,kg/m3,kg/mol</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

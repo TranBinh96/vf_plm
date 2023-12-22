@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: DC_SkdPMRevision.xml
+
+    Default style sheet for displaying DC_SkdPM 
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+10/14/2010   mierwald                Initial Version
+=======================================================================
+@<DEL>@ 
+-->
+
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General">
+        <property name="ctm0TopicTypeTagref" />
+        <property name="object_type" />
+        <property name="item_id" renderingHint="textfield" />
+        <property name="item_revision_id" renderingHint="textfield" /> 
+        <property name="object_name" renderingHint="textfield" />          
+        <property name="ctm0MasterLanguageTagref"  />
+        <property name="DocumentTitle" />
+        
+        <separator/>
+        <property name="skdmodelic" />
+        <property name="skdpmissuer" />
+        <property name="skdpmnumber" />
+        <property name="skdpmvolume" />
+        <property name="c1k0dmecode" />
+        <property name="c1k0dmeproducer" />
+       
+        <separator/>
+        <property name="skdissno" />
+        <property name="skdiss_type" />
+        <property name="skdissdate_day" />
+        <property name="skdissdate_month" />
+        <property name="skdissdate_year" />
+            
+        <separator/>        
+        <property name="skdsecurity_class" />
+        <property name="skdrpc" />
+        <property name="skdorig" />
+        <property name="skdqa" />
+        <property name="skdsbc" />
+        <property name="skdremarks" />
+        <property name="skdeffect" />
+        <property name="skdmedia" />
+        <property name="c1k0skdmediatype" />
+        <property name="c1k0skdmediacode" />
+        <property name="skdfic" />
+        <property name="skdrfu" />
+           
+        <separator/>
+        <property name="skdexportfilename" />
+        <property name="isTemplate" />
+       <property name="referenceOnly"  />        
+       <property name="contentVersion" />
+        
+        <separator/>
+        <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+        <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+        <property name="last_mod_user" />     
+    </page>
+   
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="tc_xrt_Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+
+</rendering>

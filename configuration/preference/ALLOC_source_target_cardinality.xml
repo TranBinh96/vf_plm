@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Collaboration Context">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ALLOC_source_target_cardinality" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>For use with allocation functionality. Specifies the cardinality permitted between a given allocation type and other product structure object types.Specify valid target components for a particular allocation type using the ALLOC_Target_Occurrence_Types preference. Specify valid source components for a particular allocation type using the ALLOC_Source_Occurrence_Types preference.The system supports multiple sources and targets for allocation using cardinality functionality.
+The system supports the following allocation relationships:One-to-one, Many-to-one, One-to-many, Many-to-many. For example, you can use this preference to enforce a cardinality allowing the Network_Port type allocation to participate only in one-to-one relationships. Allocations using this type can contain only a single source and a single target. To do so, set this preference to:Network_Port::1,1
+Valid Values:
+Allocation subtype::1,1 - Where Allocation subtype specifies the allocation type; this specified allocation type can only be used in one-to-one relationships.
+Allocation subtype::1,n - Where Allocation subtype is a valid Teamcenter object type; this specified object type can be used in one-to-many relationships.
+Allocation subtype::n,1 - Where Allocation subtype is a valid Teamcenter object type; this specified object type can be used in many-to-one relationships.
+Allocation subtype::n,n - Where Allocation subtype is a valid Teamcenter object type; this specified object type can be used in many-to-many relationships.</preference_description>
+      <context name="Teamcenter">
+        <value>Allocation:n,n</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

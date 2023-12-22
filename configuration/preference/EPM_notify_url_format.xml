@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPM_notify_url_format" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the type of client connection for URL generation by notify and CR-notify handlers.
+The valid values are &quot;rich&quot;, &quot;dhtml&quot;, &quot;activeworkspace&quot; and &quot;none&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>rich</value>
+        <value>activeworkspace</value>
+        <value>dhtml</value>
+        <value>slclient</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

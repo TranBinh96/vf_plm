@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_ignore_project_info_on_clone" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether project and program information is carried over to the new object when cloning in Manufacturing Process Planner, Structure Manager, and Multi-Structure Manager.
+Valid Values:
+true - Project information is ignored when cloning a new item.
+false - Project information is carried over when cloning a new item. This is the default value if the preference is not set.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

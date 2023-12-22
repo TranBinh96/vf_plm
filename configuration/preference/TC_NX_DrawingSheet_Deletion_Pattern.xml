@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_DrawingSheet_Deletion_Pattern" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contain values for sheet naming patterns. For example, if you want sheet names called Sheet1, Sheet2, Sheet3, and so on, set this preference to Sheet.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

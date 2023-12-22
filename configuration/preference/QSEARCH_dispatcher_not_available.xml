@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.QSearch Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QSEARCH_dispatcher_not_available" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Activates or deactivates the dispatcher that generates spatial indexes for cacheless searches. For example, you may want to deactivate this dispatcher for debugging purposes. This preference does not affect other dispatcher instances.
+Valid Values:
+False - The dispatcher is configured and cacheless searches are available in Structure Manager or Design Context.
+True - The dispatcher is deactivated and cacheless searches are not available in Structure Manager or Design Context.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

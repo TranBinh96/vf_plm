@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Autosave" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls automatically saving individual property edits. Applies to edits made in table cells only.
+Valid values are:      
+* true: The edits are committed as soon as a user navigates away from the table cell. This is the default value.
+* false: The user must explicitly save any edits using the Save Edits command or discard any edits using the Cancel Edits command.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

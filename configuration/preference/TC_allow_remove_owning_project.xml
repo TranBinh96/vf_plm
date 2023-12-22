@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_allow_remove_owning_project" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allows the removal of a project from the owning_project property of the workspace object in which the object is assigned if the preference value is set to true. The user must create this preference; it does not exist in Teamcenter by default. If the preference does not exist or has a value of false, the project cannot be removed even though the project can be removed from the project_list property.
+If you use the autoAssignToProject extension, you must create this preference and set its value to true to allow automatic project assignment.
+Valid values are:
+* true: Allows removal of a project from the owning_project property.
+* false: Prevents removal of a project from the owning_project property. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

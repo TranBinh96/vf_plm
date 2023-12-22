@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_Enable_Legacy_Create" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies whether the legacy dialog box or the generic dialog box is displayed for the rich client File-New menu command for Item, Folder, and Form objects.
+If a value is not listed, the new (starting Tc10.1.0) generic dialog is used for that menu command.
+Valid values are &quot;Item&quot;, &quot;Folder&quot; and &quot;Form&quot;.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

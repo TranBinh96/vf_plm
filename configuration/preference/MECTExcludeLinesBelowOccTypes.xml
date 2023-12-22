@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECTExcludeLinesBelowOccTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of occurrence types that are to be excluded from the Manufacturing Change Tracker search results.
+Valid values are the internal names of any occurrence type.</preference_description>
+      <context name="Teamcenter">
+        <value>MEAssemble</value>
+        <value>MEAssign</value>
+        <value>MEConsumed</value>
+        <value>MEDisassemble</value>
+        <value>MEFeatureAssign</value>
+        <value>MEFilterIPA</value>
+        <value>MEHandle</value>
+        <value>MEMachineTool</value>
+        <value>MEPlantSpecificTool</value>
+        <value>MEOther</value>
+        <value>MEResource</value>
+        <value>METarget</value>
+        <value>METool</value>
+        <value>MEWeldPoint</value>
+        <value>MEWorkArea</value>
+        <value>MEWorkpiece</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

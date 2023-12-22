@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.Mechatronics">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SIG_asystem_source_rules" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines which Teamcenter types and/or classes can be associated with a frame or a signal as a source system. When a class is specified, subtypes are included. If this preference is not set, users can associate a frame or signal to any Teamcenter object that can participate in a relation.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter class or type. Values are set in the following format :
+frame or signal: class or type
+For example: 
+Frame:Item 
+Signal:Interfaces</preference_description>
+      <context name="Teamcenter">
+        <value>Message:Item</value>
+        <value>Signal:Interfaces</value>
+        <value>ProcessVariable:Interfaces,Item</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

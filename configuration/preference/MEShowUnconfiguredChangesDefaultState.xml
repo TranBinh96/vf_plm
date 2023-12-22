@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEShowUnconfiguredChangesDefaultState" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default state of the Show Unconfigured Changes button or menu command when an application is opened or a new BOM window is created. The Show Unconfigured Changes button is available in the Manufacturing Process Planner and Part Planner applications. The menu command is available in Multi-Structure Manager and Structure Manager.
+Valid Values:
+true - The Show Unconfigured Changes button is on when the application is opened.
+false - The Show Unconfigured Changes button is off when the application is opened.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

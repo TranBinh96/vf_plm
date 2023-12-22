@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+==================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+-->
+<rendering>
+    <header>
+        <property name = "awb0Name"/>
+    </header>
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_Properties">
+            <property name = "awb0ArchetypeId"/>
+            <property name = "awb0ArchetypeRevId"/>
+            <property name = "awb0ArchetypeRevName"/>
+            <property name = "awb0ArchetypeRevDescription"/>
+            <property name = "awb0OccName"/>
+            <property name = "REF(awb0UnderlyingObject,WorkspaceObject).object_type"/>
+            <property name = "awb0Sequence"/>
+            <property name = "REF(awb0UnderlyingObject,Paragraph Revision).REF(items_tag,Item).GRM(IMAN_based_on,Paragraph).object_string" titleKey="tc_xrt_based_on" />
+            <property name = "REF(awb0UnderlyingObject,Paragraph Revision).REF(items_tag,Item).GRM(Arm0DerivedFrom,Paragraph).object_string" titleKey="tc_xrt_derived_from" />
+            <property name = "REF(awb0UnderlyingObject,SpecElementRevision).REF(items_tag,SpecElement).Fnd0SourceParagraph" titleKey="tc_xrt_source_paragraph" />
+            <break/>
+            <property name = "awb0ArchetypeRevRelStatus" renderingHint = "label"/>
+            <property name = "awb0ArchetypeRevReleaseDate" renderingHint = "label"/>
+            <property name = "awb0ArchetypeRevEffText" renderingHint = "label"/>
+            <break/>
+            <property name = "awb0ArchetypeRevOwningUser" renderingHint = "objectlink" modifiable = "false"/>
+            <property name = "awb0ArchetypeRevOwningGroup" renderingHint = "objectlink" modifiable = "false"/>
+            <break/>
+            <property name = "awb0ArchetypeRevLastModUser"/>
+            <property name = "awb0Parent"/>
+            <property name = "awb0NumberOfChildren"/>
+            <property name = "awb0IsPrecise"/>
+        </section>
+    </page>
+</rendering>

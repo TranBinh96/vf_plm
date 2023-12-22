@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_group_base_dn" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the distinguished name (DN) of one or more nodes in the external directory where the group synchronization process begins searching.
+This preference limits which part of the LDAP external directory the sync tool views when searching for groups to synchronize with Teamcenter.Use this attribute to improve performance and to partition groups within a single LDAP database across several Teamcenter installations. If your site&apos;s LDAP directory does not have a high degree of organization, set this value to the lowest level DNs that encompass all of the Teamcenter groups.
+For example, a high-level DN is:dc=net,dc=plm,dc=ugs,dc=com
+An example of a specific DN is:ou=Engineering Groups,ou=groups,dc=net,dc=plm,dc=ugs,dc=com
+Valid Values:
+A set of one or more strings.</preference_description>
+      <context name="Teamcenter">
+        <value>ou=Engineering Groups,ou=groups,dc=ugs,dc=com</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,59 @@
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2018.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+    <section titleKey="tc_xrt_DescribedByDocument">
+        <objectSet source="Fnd0IsDescribedByDocument.DocumentRevision" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="object_type"/>
+                <property name="release_status_list"/>
+                <property name="date_released"/>
+                <property name="owning_user"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <treeDisplay>
+                <property name="object_type"/>
+                <property name="release_status_list"/>
+                <property name="date_released"/>
+                <property name="owning_user"/>
+            </treeDisplay>
+            <listDisplay/>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </section>
+    <section titleKey="tc_xrt_DrawingSourceFor">
+        <objectSet source="S2P:Fnd0DrawingSource.DocumentRevision" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="object_type"/>
+                <property name="release_status_list"/>
+                <property name="date_released"/>
+                <property name="owning_user"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <treeDisplay>
+                <property name="object_type"/>
+                <property name="release_status_list"/>
+                <property name="date_released"/>
+                <property name="owning_user"/>
+            </treeDisplay>
+            <listDisplay/>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </section>        
+</subRendering>

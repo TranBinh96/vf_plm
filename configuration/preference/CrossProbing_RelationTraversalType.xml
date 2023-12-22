@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CrossProbing_RelationTraversalType" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the direction of the current cross-domain tracing operation. The user sets the direction with the Relations Traversal Type option in the Options dialog box.
+Valid Values:
+0 - Specifies that the source is the primary (defining) object in a relation. The trace highlights related objects downstream.
+1 - Specifies that the source is secondary (complying) object in a relation. The trace highlights related objects upstream.
+2 - Specifies that the source is both a primary (defining) and a secondary (complying) object in a relation. The trace highlights related objects downstream and upstream.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

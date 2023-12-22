@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context.Search Result Columns">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DesignContextSearchInstallationAssemblyShownColumnWidthsPref" type="Integer" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the widths for the installation assembly columns displayed during DesignContext Search (left-to-right order), as specified by the values of preference DesignContextSearchInstallationAssemblyShownColumnWidthsPref.</preference_description>
+      <context name="Teamcenter">
+        <value>30</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

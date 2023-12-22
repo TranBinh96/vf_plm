@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="DecisionApps.RelationBrowser">
+    <category_description>Preferences for Decision Apps Relation Browser.</category_description>
+    
+               <preference name="RV1_DARB_PresentationRule_file_name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Registers the name of dataset which stores an XML file containing the Relation Browser client presentation rule.</preference_description>
+      <context name="Teamcenter">
+        <value>RelationBrowserPresentationRule</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

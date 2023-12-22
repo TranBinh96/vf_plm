@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AbsOccGrmCopyRules" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines what action to take when revising a context BVR (Bom View Revision) which copies the Absolute Occurrence GRMs forward to new Item Revision of the BVR.
+The format is &quot;className1:className2:Relation:RelationType:Action&quot; where:
+- className1   - Is always class.AbsOccData.
+- className2   - Is either a class.Form or class.Dataset or * for either one. This is used for secondary object.
+- Relation     - Not changeable and should always be Relation for GRM types. All other types are ignored.
+- RelationType - Type of relation as defined in the database under Admin-&gt;Types.
+- Action       - Action to take with the secondary object.
+- Clone        - Create a new GRM that points to copied secondary (form or dataset).
+- Ignore       - The GRM is not copied to the new BVR. The default action is Ignore.
+- Reference    - Create a new GRM that points to the old form or dataset. This mechanism will be used only for Absolute Occurrence GRMs that has either Forms or Datasets as secondary objects. For all other objects, the system will apply the default action (i.e. Ignore). Duplicate entries will take action from the first match from top.
+Default Rules and their Meanings:
+class.AbsOccData:class.Form:Relation.TC_Feature_Form_Relation:Clone
+GRM Primary = class named AbsOccData
+Secondary = class named Form
+Relation = TC_Feature_Form_relation
+Action = Clone - Will copy to the new revision
+class.AbsOccData:class.Form:Relation.IMAN_master_form:Clone
+GRM Primary = class named AbsOccData
+Secondary = class named Form
+Relation = IMAN_master_form
+Action = Clone - Will copy to the new revision
+class.AbsOccData:*:Relation.IMAN_Rendering:Ignore
+GRM Primary = class named AbsOccData
+Secondary = Any class
+Relation = IMAN_rendering
+Action = Ignore - This GRM is ignored
+class.AbsOccData:*:Relation.DependentOn:CloneRelationsToAbsOcc
+Similar to above, except that GRM primary and secondary are absolute occurrence GRM anchor and absolute
+occurrence respectively
+CAUTION - The preference specification is case sensitive and trailing blanks are not allowed.
+CAUTION - If secondary object is something other than Form or Dataset the system may error when trying to Clone that object. It is recommended to only Clone a Form or Dataset. All other objects should be Reference or Ignore for its action.
+CAUTION - If you add new copy rules, please verify it by Revising an Item Revision at least once and check the syslog to make sure there are no errors thrown while reading these preferences. Note that you need an assembly with absolute occurrence attachments to test this.</preference_description>
+      <context name="Teamcenter">
+        <value>class.AbsOccGrmAnchor:class.Form:Relation.TC_Feature_Form_Relation:Clone</value>
+        <value>class.AbsOccGrmAnchor:class.Form:Relation.IMAN_master_form:Clone</value>
+        <value>class.AbsOccGrmAnchor:*:Relation.IMAN_Rendering:Clone</value>
+        <value>class.AbsOccGrmAnchor:class.RouteLocation:Relation.TC_Assigned_Location:Clone</value>
+        <value>class.AbsOccGrmAnchor:class.Item:Relation.TC_Device_To_Connector:Clone</value>
+        <value>class.AbsOccData:*:Relation.FND_TraceLink:Reference</value>
+        <value>class.AbsOccData:class.Form:Relation.TC_Feature_Form_Relation:Clone</value>
+        <value>class.AbsOccData:class.Form:Relation.IMAN_master_form:Clone</value>
+        <value>class.AbsOccData:*:Relation.IMAN_Rendering:Clone</value>
+        <value>class.AbsOccData:*:Relation.Embeds:CloneRelationsToAbsOcc</value>
+        <value>class.AbsOccData:*:Relation.DependentOn:CloneRelationsToAbsOcc</value>
+        <value>class.AbsOccData:*:Relation.GatewayOf:CloneRelationsToAbsOcc</value>
+        <value>class.AbsOccData:class.RouteLocation:Relation.TC_Assigned_Location:Clone</value>
+        <value>class.AbsOccData:class.Item:Relation.TC_Device_To_Connector:Clone</value>
+        <value>class.AbsOccData:class.Form:Relation.Mfg0TCContextFeatureFormRel:Clone</value>
+        <value>class.AbsOccData:class.Form:Relation.catia_shapeProperties_link:Clone</value>
+        <value>class.AbsOccData:class.Form:Relation.Mci0PMI_Details:Clone</value>
+        <value>class.AbsOccData:class.Form:Relation.Mci0PMIBop_Details:Clone</value>
+        <value>class.AbsOccData:class.Form:Relation.Mes0MEDCD_Details:Clone</value>
+        <value>class.AbsOccData:class.Form:Relation.Mes0MEDCD_Override:Clone</value>
+        <value>class.AbsOccData:class.Form:Relation.Mes0MEPF_Details:Clone</value>
+        <value>class.AbsOccData:class.Form:Relation.Mes0MEPF_Override:Clone</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

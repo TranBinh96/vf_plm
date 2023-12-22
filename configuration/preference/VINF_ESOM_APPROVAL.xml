@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    <preference name="VINF_ESOM_APPROVAL" type="String" array="true" disabled="false"
+      protectionScope="User" envEnabled="false">
+      <preference_description>No description is available for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>VF3_AT_ESOM_DocRevision</value>
+        <value>%item%.vf3_model_code;%item%.vf3_module_name</value>
+        <value>ESP MGL Review;VF MML Review;Notify</value>
+        <value>XV;EEP=VF_ESOM_VFe35_EEP</value>
+        <value>XV;BIW=VF_ESOM_VFe35_BIW</value>
+        <value>XV;CHS=VF_ESOM_VFe35_CHS</value>
+        <value>XV;DCL=VF_ESOM_VFe35_DC</value>
+        <value>XV;BEX=VF_ESOM_VFe35_EXT</value>
+        <value>XV;BIN=VF_ESOM_VFe35_INT</value>
+        <value>XV;PWT=VF_ESOM_VFe35_PWT</value>
+        <value>XV;BAT=VF_ESOM_VFe35_Battery</value>
+        <value>XV;EDS=VF_ESOM_VFe35_eMOTOR</value>
+        <value>XX;EEP=VF_ESOM_VFe36_EEP</value>
+        <value>XX;BIW=VF_ESOM_VFe36_BIW</value>
+        <value>XX;CHS=VF_ESOM_VFe36_CHS</value>
+        <value>XX;DCL=VF_ESOM_VFe36_DC</value>
+        <value>XX;BEX=VF_ESOM_VFe36_EXT</value>
+        <value>XX;BIN=VF_ESOM_VFe36_INT</value>
+        <value>XX;PWT=VF_ESOM_VFe36_PWT</value>
+        <value>XX;BAT=VF_ESOM_VFe36_Battery</value>
+        <value>XX;EDS=VF_ESOM_VFe36_eMOTOR</value>
+        <value>AB;EDS=VF_ESOM_VFe32_eMOTOR</value>
+        <value>AB;BAT=VF_ESOM_VFe32_Battery</value>
+        <value>AB;PWT=VF_ESOM_VFe32_PWT</value>
+        <value>AB;BIN=VF_ESOM_VFe32_INT</value>
+        <value>AB;BEX=VF_ESOM_VFe32_EXT</value>
+        <value>AB;DCL=VF_ESOM_VFe32_DC</value>
+        <value>AB;CHS=VF_ESOM_VFe32_CHS</value>
+        <value>AB;BIW=VF_ESOM_VFe32_BIW</value>
+        <value>AB;EEP=VF_ESOM_VFe32_EEP</value>
+        <value>AC;EEP=VF_ESOM_VFe33_EEP</value>
+        <value>AC;BIW=VF_ESOM_VFe33_BIW</value>
+        <value>AC;CHS=VF_ESOM_VFe33_CHS</value>
+        <value>AC;DCL=VF_ESOM_VFe33_DCL</value>
+        <value>AC;BEX=VF_ESOM_VFe33_BEX</value>
+        <value>AC;BIN=VF_ESOM_VFe33_BIN</value>
+        <value>AC;PWT=VF_ESOM_VFe33_PWT</value>
+        <value>AC;BAT=VF_ESOM_VFe33_BAT</value>
+        <value>AC;EDS=VF_ESOM_VFe33_EDS</value>
+        <value>AA;BIW=VF_ESOM_VFe34_BIW</value>
+        <value>AA;CHS=VF_ESOM_VFe34_CHS</value>
+        <value>AA;EEP=VF_ESOM_VFe34_EEP</value>
+        <value>AA;DCL=VF_ESOM_VFe34_DCL</value>
+        <value>AA;BEX=VF_ESOM_VFe34_BEX</value>
+        <value>AA;BIN=VF_ESOM_VFe34_BIN</value>
+        <value>AA;PWT=VF_ESOM_VFe34_PWT</value>
+        <value>AA;BAT=VF_ESOM_VFe34_BAT</value>
+        <value>AA;EDS=VF_ESOM_VFe34_EDS</value>
+        <value>XN;CHS=VF_ESOM_VFe34S_CHS</value>
+        <value>XN;DCL=VF_ESOM_VFe34S_DCL</value>
+        <value>XN;BEX=VF_ESOM_VFe34S_BEX</value>
+        <value>XN;BIN=VF_ESOM_VFe34S_BIN</value>
+        <value>XN;PWT=VF_ESOM_VFe34S_PWT</value>
+        <value>XN;BAT=VF_ESOM_VFe34S_BAT</value>
+        <value>XN;EDS=VF_ESOM_VFe34S_EDS</value>
+        <value>XN;EEP=VF_ESOM_VFe34S_EEP</value>
+        <value>XN;BIW=VF_ESOM_VFe34S_BIW</value>
+      </context>
+    </preference>
+  </category>
+</preferences>

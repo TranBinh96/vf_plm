@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ChangeNoticeRevision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed as a pseudo-folder under a node for ChangeNoticeRevision object.</preference_description>
+      <context name="Teamcenter">
+        <value>CMHasProblemItem</value>
+        <value>CMHasImpactedItem</value>
+        <value>CMHasSolutionItem</value>
+        <value>CMReferences</value>
+        <value>CMHasWorkBreakdown</value>
+        <value>CMImplements</value>
+        <value>Cm0HasProposal</value>
+        <value>CAEAnalysis</value>
+        <value>MEProcess</value>
+        <value>MESetup</value>
+        <value>view</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

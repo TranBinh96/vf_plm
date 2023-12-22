@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Product Structure Synchronization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_structure_change_condition" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which changes to a BOM view revision are considered significant, and thus noted in the struct_last_mod_date field of the BOM view revision. Changes to any of the attributes listed as a value of this preference updates the struct_last_mod_date field.The following note types must be used with this preference to ensure correct synchronization with Teamcenter Integration for NX:NoteType:UG NAMENoteType:UG GEOMETRYNoteType:UG REF SETNoteType:UG ENTITY HANDLENoteType:UG ALTREP
+Valid Values:
+Transform - Any change to the transform updates the struct_last_mod_date field.
+SequenceNumber - Any change to the sequence number updates the struct_last_mod_date field.
+Quantity - Any change to the quantity updates the struct_last_mod_date field.
+PreferredAlternate - Setting the preferred alternate on the occurrence updates the struct_last_mod_date field.
+NoteType:note type name - Any changes to the specified note types updates the struct_last_mod_date field. The note types listed above must be used with this preference to ensure correct synchronization with Teamcenter Integration for NX.
+ClientData:attribute name - Any changes to client data on the occurrence updates the struct_last_mod_date field.</preference_description>
+      <context name="Teamcenter">
+        <value>Transform</value>
+        <value>SequenceNumber</value>
+        <value>Quantity</value>
+        <value>PreferredSubstitute</value>
+        <value>NoteType:UG NAME</value>
+        <value>NoteType:UG GEOMETRY</value>
+        <value>NoteType:UG REF SET</value>
+        <value>NoteType:UG ENTITY HANDLE</value>
+        <value>NoteType:UG ALTREP</value>
+        <value>NoteType:NX0CloneStableIdMap</value>
+        <value>NoteType:Fnd0PocketStatus</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

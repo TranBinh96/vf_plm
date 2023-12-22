@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--===============================================================================
+Copyright (c) 2012 UGS Corporation
+Unpublished - All Rights Reserved
+===============================================================================
+
+Filename: UiE-ManufacturerPartSummary.xml
+Dave McLaughlin 2012-03-16
+
+Default style sheet for displaying manufacturer part summary.
+-->
+<rendering>
+    <header>
+        <image source = "type"/>
+        <property name = "owning_user"/>
+        <property name = "last_mod_date"/>
+        <property name = "release_status_list" renderingHint = "label"/>
+        <property name = "object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview" title = "Overview">
+        <column>
+            <section titleKey="tc_xrt_properties" title = "Properties">
+                <property name = "vendor_part_num"/>
+                <property name = "object_name"/>
+                <property name = "object_desc"/>
+                <separator/>
+                <property name = "vendor_name"/>
+                <property name = "vendor_id"/>
+                <property name = "vm0location"/>
+                <separator/>
+                <command commandId = "com.teamcenter.rac.properties" titleKey = "tc_xrt_moreProperties"/>
+            </section>
+            <section titleKey = "tc_xrt_CommercialParts" title = "Commercial Parts">
+                <objectSet source = "commercialparts.CommercialPart Revision,commercialparts.Part Revision" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "last_mod_date">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+        </column>
+        <column>
+            <section titleKey = "tc_xrt_Ownership" title = "Ownership">
+                <separator/>
+                <property name = "owning_user" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "owning_group" renderingHint = "objectlink" modifiable = "false"/>
+                <property name = "last_mod_user"/>
+                <separator/>
+                <property name = "checked_out"/>
+                <property name = "checked_out_user"/>
+            </section>
+            <section titleKey="tc_xrt_ClassificationInformation">
+                <classificationProperties/>
+            </section>
+            <section titleKey="tc_xrt_Preview">
+                <image source="preview"/>
+            </section>
+            <section titleKey = "tc_xrt_actions">
+                <command actionKey = "copyAction" commandId = "com.teamcenter.rac.copy"/>
+                <command actionKey = "saveAsAction" commandId = "org.eclipse.ui.file.saveAs"/>
+                <command actionKey = "newProcessAction" commandId = "com.teamcenter.rac.newProcess" titleKey = "tc_xrt_newProc"/>
+            </section>
+        </column>
+    </page>
+    <page titleKey="tc_xrt_attachments" title = "Attachments">
+        <section titleKey="tc_xrt_Files" title = "Files">
+            <objectSet source = "IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+        <section titleKey="tc_xrt_Documents" title = "Documents">
+            <objectSet source = "IMAN_reference.ItemRevision,IMAN_specification.ItemRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_QualityDocuments" title = "Quality Documents">
+            <objectSet source = "TC_Quality_Document.ItemRevision" defaultdisplay = "tableDisplay" sortby = "object_string" sortdirection = "ascending">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+                <command actionKey = "newBusinessObjectContextualAction" commandId = "com.teamcenter.rac.common.AddNew" renderingHint = "commandbutton"/>
+                <command actionKey = "pasteAction" commandId = "com.teamcenter.rac.viewer.pastewithContext" renderingHint = "commandbutton"/>
+                <command actionKey = "cutAction" commandId = "org.eclipse.ui.edit.cut" renderingHint = "commandbutton">
+                    <parameter name = "localSelection" value = "true"/>
+                </command>
+            </objectSet>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_History" title = "History">
+        <section titleKey="tc_xrt_RevisionHistory" title = "Revision History">
+            <objectSet source = "revision_list.ItemRevision" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "item_revision_id">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+<!--
+    <page title = "Changes">
+        <section titleKey = "tc_xrt_Problem Item For" title = "Problem Item For">
+            <objectSet source = "uie3CMHasProblemItem_list.ItemRevision" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_Solution Item For" title = "Solution Item For">
+            <objectSet source = "uie3CMHasSolutionItem_list.ItemRevision" sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_Impacted Item For" title = "Impacted Item For">
+            <objectSet source = "uie3CMHasImpactedItem_list.ItemRevision" sortdirection = "object_string" sortby = "last_mod_date" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+    </page>
+-->
+    <page titleKey = "tc_xrt_Vendor" title = "Vendor">
+        <column>
+            <section titleKey = "tc_xrt_Vendor" title = "Vendor">
+                <objectSet source = "vendors.Vendor" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "vendor_name">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "contact_name"/>
+                        <property name = "supplier_phone"/>
+                        <property name = "email_addr"/>
+                        <property name = "supplier_addr"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "contact_name"/>
+                        <property name = "supplier_phone"/>
+                        <property name = "email_addr"/>
+                        <property name = "supplier_addr"/>
+                    </treeDisplay>
+                    <listDisplay/>
+                </objectSet>
+            </section>
+            <section titleKey="tc_xrt_CommercialParts" title = "Commercial Parts">
+                <objectSet source = "commercialparts.CommercialPart Revision" defaultdisplay = "tableDisplay" sortdirection = "descending" sortby = "last_mod_date">
+                    <tableDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_type"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                        <property name = "owning_user"/>
+                    </tableDisplay>
+                    <thumbnailDisplay/>
+                    <treeDisplay>
+                        <property name = "object_string"/>
+                        <property name = "object_type"/>
+                        <property name = "release_status_list"/>
+                        <property name = "date_released"/>
+                        <property name = "owning_user"/>
+                    </treeDisplay>
+                </objectSet>
+            </section>
+        </column>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+        <objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                <property name="object_string"/>
+                <property name="lis0site"/>
+                <property name="lis0serviceProvider"/>
+                <property name="relation"/>
+                <property name="last_mod_date"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out_user"/>
+            </tableDisplay>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+            <command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </page>
+    <page title="Quotes" titleKey="tc_xrt_quotes">
+        <section titleKey = "tc_xrt_Quotes" title = "Quotes">
+            <objectSet source = "TC_part_quote_rel.Quote" defaultdisplay = "tableDisplay" sortby = "secondary_object" sortdirection = "ascending">
+               <tableDisplay>
+                  <property name = "sc0AwardLineItem"/>
+                  <property name = "vendor"/>
+                  <property name = "quoted_quantity"/>
+                  <property name = "unit_price"/>
+                  <property name = "currency"/>
+                  <property name = "tooling_cost"/>
+                  <property name = "sc0AwardStatus"/>
+                  <property name = "sc0Award"/>
+                  <property name = "sc0AwardCreateDate"/>
+                  <property name = "sc0AwardUpdateDate"/>
+               </tableDisplay>
+            </objectSet>
+        </section>
+    </page>
+  <!--
+    <page title = "Trace Links *" visibleWhen = "has_trace_link==Y">
+        <section titleKey = "tc_xrt_Defining Objects" title = "Defining Objects">
+            <objectSet sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay" source = "uie3DEF_TraceLink_list.WorkspaceObject">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <section titleKey = "tc_xrt_Complying Objects" title = "Complying Objects">
+            <objectSet sortdirection = "descending" sortby = "object_string" defaultdisplay = "tableDisplay" source = "FND_TraceLink.WorkspaceObject">
+                <tableDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </tableDisplay>
+                <thumbnailDisplay/>
+                <treeDisplay>
+                    <property name = "object_string"/>
+                    <property name = "object_type"/>
+                    <property name = "release_status_list"/>
+                    <property name = "date_released"/>
+                    <property name = "owning_user"/>
+                </treeDisplay>
+                <listDisplay/>
+            </objectSet>
+        </section>
+        <separator/>
+        <command commandId = "com.teamcenter.rac.traceabilityReport" title = "Traceability Report"/>
+    </page>
+-->
+</rendering>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="80_SnS_MBOMview_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This is an internal preference.</preference_description>
+      <context name="Teamcenter">
+        <value>BOMLine.bl_level_starting_0</value>
+        <value>BOMLine.bl_indented_title</value>
+        <value>BOMLine.VF4_manuf_code</value>
+        <value>BOMLine.VF3_torque_info</value>
+        <value>BOMLine.bl_item_uom_tag</value>
+        <value>BOMLine.bl_quantity</value>
+        <value>BOMLine.VF3_pos_ID</value>
+        <value>BOMLine.vf5_eco_number</value>
+        <value>BOMLine.vf3_eco_number</value>
+        <value>BOMLine.VF4_LNT_DCR_Number</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

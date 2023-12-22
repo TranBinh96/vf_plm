@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VMS_Maintain_Vendor_History" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls whether the system moves or copies data during change vendor operations.
+Valid Values:
+TRUE - If the preference is set to TRUE, the system copies the vendor data.
+FALSE - If the preference is set to FALSE, the system moves the vendor data.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

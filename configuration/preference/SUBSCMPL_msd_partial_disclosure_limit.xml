@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_msd_partial_disclosure_limit" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the limit in percentage below which the material disclosure for the part is not allowed in the material substance declaration import.
+The default value is 0, which means all partial disclosures are allowed.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

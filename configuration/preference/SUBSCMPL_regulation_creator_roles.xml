@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance">
+    <category_description>Teamcenter Preferences for Substance Compliance</category_description>
+    
+               <preference name="SUBSCMPL_regulation_creator_roles" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the roles allowed to create regulation and exemption.
+Valid values are the role internal names.</preference_description>
+      <context name="Teamcenter">
+        <value>Compliance Officer</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

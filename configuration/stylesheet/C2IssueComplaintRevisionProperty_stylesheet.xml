@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Filename: C2IssueComplaintRevisionProperty.xml -->
+
+<rendering>
+
+	<views>issuemgmt_general_information,issuemgmt_owner_reservation_details,issuemgmt_attachments,issuemgmt_status,issuemgmt_change_participants
+	</views>
+
+	<page title="General Information" titleKey="General Information">
+		<view name="properties">
+			<property name="item_id" />
+			<property name="c2_Plant_Complaint_No" />
+			<property name="object_name" />
+			<property name="object_type" />
+			<property name="object_desc" />
+			<property name="item_revision_id" />
+			<property name="c2Category" />
+			<property name="c2_IssueSubcategory"/>
+			<property name="c2_PotentialReasons" />
+			<property name="c2_IncidentDateAndTime"/>
+			<property name="c2_IncidentLocation"/>
+			<property name="c2_IncidentDetails" />
+			<property name="c2_LossValue"/>
+		    <property name="c2_WarrantyClaim"/>
+			<property name="c2_ProductOrDeviceSerialNo"/>
+			<!--property name="c2_Severity" /-->
+			<!--property name="c2_Detectability" /-->	<!--Detectability(1-10 rating) -->
+			<!--  property name="c2_Probability" /-->	<!--Probability(1-10 rating) -->
+			<!--property name="c2_Risk" modifiable="false" /-->		
+			<property name="c2_Priority" />
+		</view>
+	</page>
+
+	<page title="Status" titleKey="Status">
+		<view name="properties">
+			<property name="CMMaturity" />
+			<property name="c2_LCStatus" modifiable="false"/>
+			<property name="c2_ContainmentAction" />
+			<property name="c2_isvalid" />
+			<property name="c2_RejectAction" />
+			<property name="c2_ProposedDueDate" />
+			<property name="last_mod_user" />
+			<property name="last_mod_date" />
+			<property name="checked_out" />
+			<property name="checked_out_user" />
+			<property name="checked_out_date" />
+			<property name="creation_date" />
+			<property name="owning_user" modifiable="false"/>
+			<property name="owning_group" modifiable="false"/>
+			<property name="c2_ResolutionType" />
+			<property name="c2_ResolutionDescription" />
+			<property name="CMClosureComments" />
+			<property name="CMClosureDate" />			
+			<property name="release_status_list" />				
+			<property name="c2_ReleasedDate" />						
+		</view>
+	</page>
+
+	<page title="Participant Details" titleKey="Participant Details">
+		<view name="properties">
+			<property name="c2_CustomerName" />
+			<property name="c2_CustomerTelephone" />
+			<property name="c2_CustomerEmailID" />
+			<property name="c2_CirculationList" />
+			<property name="c2_CustomerAddress" />
+			<property name="c2_LocationInCompany"/>
+			<property name="c2_Issue_QMR" /><!--QMR -->
+			<property name="c2_Issue_Owner" />
+			<property name="c2_Issue_Approver" />
+		</view>
+	</page>
+	<page title="Preview" titleKey="Preview">
+	        
+            		<view name="tc_xrt_Preview">
+                		<image source="preview"/>
+            	      </view>
+	</page>
+</rendering>

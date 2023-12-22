@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PertChart.AutoSizeMode" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Enables or disables auto-size in the PERT chart. When auto-size is off, the size of the all newly created PERT nodes is uniform. When auto-size is on, the size of the newly created PERT nodes is automatically fitted to the displayed text, including allowing for multiple lines.
+Valid Values:
+yes - Enables auto-size.
+no - Disables auto-size.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

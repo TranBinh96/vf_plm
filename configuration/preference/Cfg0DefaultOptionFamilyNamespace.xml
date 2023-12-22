@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0DefaultOptionFamilyNamespace" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default Family namespace property value for new Families created in the Variant Options view in the Product Configurator.
+Valid Values:
+The default value is &quot;Teamcenter&quot; and it can be any string value which will help to make that family unqiue.</preference_description>
+      <context name="Teamcenter">
+        <value>Teamcenter</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

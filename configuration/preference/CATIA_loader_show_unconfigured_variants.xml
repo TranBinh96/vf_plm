@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_loader_show_unconfigured_variants" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls whether the &quot; Show Unconfigured Variants &quot; option is toggled/untoggled.
+Values:
+True= toggled
+False= untoggled</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

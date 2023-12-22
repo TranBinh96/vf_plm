@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_web_search_in_unit_system" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the unit system when searching for classification objects (ICOs) in the Classification thin client application.
+Valid Values:
+metric - Search in the metric system only.
+non-metric - Search in the nonmetric system only.
+both - Search in both the metric and nonmetric systems, with switching enabled in the Query tab.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

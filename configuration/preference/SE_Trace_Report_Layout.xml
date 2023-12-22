@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SE_Trace_Report_Layout" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls the arrangement of the panes in the Traceability view.
+Valid Values:
+true - Panes are arranged horizontally, with the Defining Object pane on the left and the Complying Object pane on the right.
+false - Panes are arranged vertically, with the Defining Object pane on top and the Complying Object pane at bottom.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

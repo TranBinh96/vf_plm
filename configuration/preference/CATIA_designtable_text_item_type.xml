@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_designtable_text_item_type" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Define a list of item types to use when saving a part, product, drawing, process, analysis or design table, by setting the following variables within Teamcenter Preferences.
+The default value of the item type is determined as follows:
+If the item type is defined in the CATPART_item_type, CATPRODUCT_item_type, etc. preference, then the item type used is the first listed in the preference list. The Save Manager only displays the available (defined) item types.
+If the item type preference is not defined, a list of all item types available in Teamcenter displays, and the default item type is defined by the CATIA_item_type Teamcenter Preference. If this type is not available then the first item type in Teamcenter list is the default item type.
+When Create New is applied from the Save Manager, the displayed item type is the existing item type. If this type is not available, then default values are used.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

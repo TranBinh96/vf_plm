@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="cost_default_currency" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the default currency to use for costs in the system. The value must be a valid currency code based on the ISO-4217 standard. Set this preference to the current value listed in the CostCurrency LOV. The default value is USD (United States dollars). If you want to use EUR as your default currency, change the one value in the CostCurrency LOV from USD to EUR. Then, specify EUR when using the cost_default_currency preference. Siemens PLM Software recommends using only one currency in Teamcenter because there is no support for currency conversion.
+Valid Values:
+Accepts one of the values listed in the CostCurrency LOV.</preference_description>
+      <context name="Teamcenter">
+        <value>USD</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

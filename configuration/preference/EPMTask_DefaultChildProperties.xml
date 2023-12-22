@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPMTask_DefaultChildProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of properties that can be used as children for the indicated type i.e. EPMTask. The format of the preference follows: &lt;TypeName&gt;_DefaultChildProperties=my_property.</preference_description>
+      <context name="Teamcenter">
+        <value>root_target_attachments</value>
+        <value>root_reference_attachments</value>
+        <value>fnd0RootReplicaTargets</value>
+        <value>TC_WorkContext_Relation</value>
+        <value>interprocess_task_dependencies</value>
+        <value>parent_processes</value>
+        <value>epm_subprocesses</value>
+        <value>project_task_attachments</value>
+        <value>release_status_attachments</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEPasteByRuleAttachmentsCloning" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the Attachments to be processed on equivalent stations during PasteByRule operation between Bill Of Process (BOP) and Plant BOP.</preference_description>
+      <context name="Teamcenter">
+        <value>*:*:Relation.METimeAnalysisRelation:Clone</value>
+        <value>*:*:Relation.Mfg0TCContextFeatureFormRel:Clone</value>
+        <value>*:*:Relation.Cps0ModulesInfoRel:Clone</value>
+        <value>*:*:Relation.Cps0PLCInfoRel:Clone</value>
+        <value>*:*:Relation.Cps0OpDetailsRel:Clone</value>
+        <value>*:*:Relation.Cps0ToolInfoRel:Clone</value>
+        <value>*:*:Relation.Cps0RobotProgRel:Clone</value>
+        <value>*:*:Relation.Cps0ConnectivityDefRel:Clone</value>
+        <value>*:*:Relation.ProcessSimulate_Details:Clone</value>
+        <value>*:*:Relation.IMAN_3D_snap_shot:Clone</value>
+        <value>*:*:Relation.VISTopLevelRef:Clone</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

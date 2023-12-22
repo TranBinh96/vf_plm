@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECustomViewChildLinesCommandNames.PlantBOP" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the commands to be displayed above the table in the left hand side section in the Custom view in the Manufacturing Process Planner (MPP) application if the scope of the Custom view is a line from a Plant BOP structure.
+Valid values are the IDs of each command in the order they are to appear: value_1, value_2.
+Each command is executed on the selection in the table. Optionally specify &apos;parent&apos; after the command ID, separated by semicolon, to indicate that the command should be executed on the parent process instead. Example: &apos;com.teamcenter.rac.checkoutProperties;parent&apos;.</preference_description>
+      <context name="Teamcenter">
+        <value>com.teamcenter.rac.newMEOperation</value>
+        <value>com.teamcenter.rac.cme.stylesheet.removeline</value>
+        <value>com.teamcenter.rac.cme.accountabilitycheck.compareSelected</value>
+        <value>com.teamcenter.rac.cme.accountabilitycheck.compareAll</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

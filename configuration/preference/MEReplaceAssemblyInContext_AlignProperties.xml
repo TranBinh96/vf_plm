@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEReplaceAssemblyInContext_AlignProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the alignment of properties on Items and Revisions created in Manufacturing BOM (MBOM), during a replace assembly with any item type operation. 
+The following formats are allowed (the character &apos;:&apos; is the separator in each of them):
+* &quot;Item:[InternalEBOMItemType,InternalMBOMItemType:(EBOMInternalPropertyName,MBOMInternalPropertyName)+]&quot; (e.g. &quot;Item:Item,Document:fnd0is_monolithic,fnd0is_monolithic&quot;): The EBOM and MBOM Items for which the underlying property types match, will have their values aligned.
+* &quot;Revision:[InternalEBOMItemType,InternalMBOMItemType:(EBOMInternalPropertyName,MBOMInternalPropertyName)+]&quot; (e.g. &quot;Revision:ItemRevision,DocumentRevision:ebomRevProp,mbomRevProp&quot;): The EBOM and MBOM Item Revisions for which the underlying property types match, will have their values aligned.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

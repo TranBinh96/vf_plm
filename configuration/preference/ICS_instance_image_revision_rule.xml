@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_instance_image_revision_rule" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the revision rule for displaying an image of the Classified Object in the Classification application.
+This preference is only applicable to the Rich client.
+
+The default value is &quot;Latest Working&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Latest Working</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

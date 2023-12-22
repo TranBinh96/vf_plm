@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMBOM_Mirror_RemoveLineWithIDIC" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enables the deletion of manufacturing bill of material (MBOM) lines whose in-context ID (top level) values do not match existing engineering BOM (EBOM) lines during MBOM update from the EBOM using the me_create_mbom utility.
+Valid Values:
+TRUE - Teamcenter deletes the MBOM line if its value does not match its corresponding EBOM line.
+FALSE - Teamcenter does not delete any lines based on a mismatch of in-context ID.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

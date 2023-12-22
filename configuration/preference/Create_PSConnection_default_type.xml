@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Create_PSConnection_default_type" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default Connection type for the New-&gt;Connection dialog. In general, the Create_&lt;Class&gt;_default_type preferences are used to define the default type on the &quot;New-&gt;Class&quot; dialogs.</preference_description>
+      <context name="Teamcenter">
+        <value>Connection</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

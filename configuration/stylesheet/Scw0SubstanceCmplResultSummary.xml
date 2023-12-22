@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0SubstanceCmplResultSummary.xml
+
+Default activeworkspace style sheet for displaying Substance Compliance Result properties.
+
+-->
+<rendering>
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list" renderingHint="label"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name"/>
+            <property name="object_type"/>
+            <property name="scp0regulation"/>
+            <property name="scp0remarks"/>
+            <property name="scp0status_display_name"/>
+            <property name = "scp0date_calculated"/>
+            <property name="scp0owning_user_name"/>
+            <property name="owning_group"/>
+        </section>
+        <section titleKey="scw0_xrt_ApplicableExemption">
+            <objectSet source = "Scp0ApplicableExemption.Scp0SpecializedExemption" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "scp0Exemption"/>
+                    <property name = "scp0Substance"/>
+                </tableDisplay>
+            </objectSet>
+            <listDisplay/>
+            <thumbnailDisplay/>
+        </section>
+        <section titleKey="scw0_xrt_AppliedExemption">
+            <objectSet source = "Scp0SubsCmplToExemption.Scp0SpecializedExemption" defaultdisplay = "tableDisplay">
+                <tableDisplay>
+                    <property name = "scp0Exemption"/>
+                    <property name = "scp0Substance"/>
+                    <property name = "Scp0SubsCmplToExemption.scp0expires_by"/>
+                </tableDisplay>
+            </objectSet>
+            <listDisplay/>
+            <thumbnailDisplay/>
+        </section>
+    </page>
+    <inject type="dataset" src="AuditLogForSubscmpl"/>
+</rendering>

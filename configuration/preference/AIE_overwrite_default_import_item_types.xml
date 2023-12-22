@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.AIE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AIE_overwrite_default_import_item_types" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines whether users importing non-NX files from a directory can choose from among all the item types available to the data model service (DMS) or is restricted to default item type defined by the system administrator.
+Valid Values:
+ON - The user can choose from all item types listed in the DMS, whether selecting new files to be imported or previously exported files.
+OFF - The user cannot chose from any item type; the first item type defined in the data model service is used as the default item type. Previously exported files revert to their existing item type and new files are imported using the default item type only.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

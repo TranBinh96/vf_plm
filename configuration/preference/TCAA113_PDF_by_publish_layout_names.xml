@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA113_PDF_by_publish_layout_names" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>List of names of layouts to be published in PDF auxiliary files.
+This option is taken into consideration only if TCAA113_PDF_generation_mode is set to 1 and TCAA113_PDF_by_publish_select_mode is set to 2.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

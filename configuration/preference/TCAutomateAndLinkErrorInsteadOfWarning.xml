@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAutomateAndLinkErrorInsteadOfWarning" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Currently, automateAndLink does not return any error ( gives a warning) when there is an issue. This by design behavior causing
+issue in bulk object creation context.
+When preference value is set to true, automateAndLink extension returns error if there is an error from this extension, othewise no error is returned( existing behavior).
+In bulk object creation context, when error is returned (preference value set to true) from this extension, object creation will be rolled back.
+Let&apos;s take an example of 10 objects bulk creation process. If 1 object creation fails due to automateAndLink when this preference is set to true and rest has no issue, 9 objects
+will be created. When this prefrence is set to &quot;false&quot;, 10 objects will be created.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

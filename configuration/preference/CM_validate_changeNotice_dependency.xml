@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Change Management">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CM_validate_changeNotice_dependency" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Value of true, activates Change Notice Revision dependency assertion when adding a release status to the Change Notice Revision. 
+The addition of the release status will not be allowed if the Predecessor Change Notice revisions are not already released or in the target list of the current workflow adding the release status and if the Concurrent Change Notice Revisions are not also in the target list for the current workflow adding the status. 
+Furthermore, if this site utilizes the release status progression path xml to define release status relative maturities then the release status being added must be the same or lesser maturity than that of the predecessor Change Notice Revisions release status.
+The default value is false (not activated).</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

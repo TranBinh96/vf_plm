@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2018.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Qam0QualityActionInfoSummary.xml
+     Registers the information stylesheet for Quality Action(Qam0QualityAction) objects in the Active Workspace.
+=======================================================================
+-->
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+            <section titleKey="tc_xrt_Action">
+            <property name="fnd0ActionItemId" modifiable="false"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="qam0DueDate"/>
+    <htmlPanel declarativeKey="Qam0ExecuteQualityActionInfoPanel"/>
+        </section>
+        <section titleKey="tc_xrt_ActionSetting">
+            <property name="qam0ConfirmationRequired"/>
+            <property name="qam0FeedbackAtCompletion"/>
+            <property name="qam0AutocompleteByDependent"/>
+        </section>
+        <section titleKey="tc_xrt_Properties">
+            <property name="qam0QualityActionType"/>
+                 <property name="qam0QualityActionSubtype"/>
+                 <property name="qam0QualityActionStatus" modifiable="false"/>
+                 <property name="owning_user"/>
+                 <property name="creation_date" modifiable="false"/>
+                 <property name="last_mod_user" modifiable="false"/>
+                 <property name="last_mod_date" modifiable="false"/>
+                 <property name="qam0ActivationDate" modifiable="false"/>
+                 <break/>
+                 <property name="fnd0ResponsibleUser" modifiable="false"/>
+                 <property name="qam0AssignmentDate" modifiable="false"/>
+                 <break/>
+                 <property name="qam0ConfirmedBy" modifiable="false"/>
+                 <property name="qam0ConfirmationDate" modifiable="false"/>
+                 <break/>
+                <property name="qam0CompletedBy" modifiable="false"/>
+                <property name="qam0CompletionDate" modifiable="false"/>
+        </section>
+    </page>
+    <page titleKey="tc_xrt_Dependencies">
+          <section  titleKey="tc_xrt_Targets">
+          <objectSet source="qam0Targets.WorkspaceObject" defaultdisplay="tableDisplay" maxRowCount="16">
+            <property name="object_string"/>
+            <property name="object_type"/>
+            <property name="release_status_list"/>
+            <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ShowAddObject" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+            <parameter name="localSelection" value="true"/>
+            </command>
+            </objectSet>
+         </section>
+         <section  titleKey="tc_xrt_DepedentQualityActions">
+          <objectSet source="qam0DependentQualityActions.Qam0QualityAction" defaultdisplay="tableDisplay" maxRowCount="16">
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="fnd0ResponsibleUser" modifiable="false"/>
+            <property name="qam0DueDate"/>
+            <property name="qam0QualityActionStatus" modifiable="false"/> 
+            <command actionKey="newBusinessObjectContextualAction" commandId="Awp0ShowAddObject" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+            <parameter name="localSelection" value="true"/>
+            </command>
+          </objectSet>
+         </section>
+        </page>
+</rendering>

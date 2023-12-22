@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="VES_General">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VES_SOR_PROCESS_SETTING" type="String" array="true" disabled="false"
+      protectionScope="Site" envEnabled="false">
+      <preference_description></preference_description>
+      <context name="Teamcenter">
+        <value>BP VFe32==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP VFe33==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP VF31==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP VF7==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP VF32==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP VF33==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP Escooter==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP Escooter KLN==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP Escooter 12V==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP Escooter 48V==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP Escooter 72V==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP ESS PowerWall==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP Golf cart==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>BP LFP Escooter==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>ESS==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>ESS 20 FT==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>ESS 20 FT 1500V==BatteryCar==dba;Car Battery.Battery Program.VINFAST</value>
+        <value>Cell Gen 1.6==Cell==dba;Cell Program.VINES</value>
+        <value>Cell Gen 1.8==Cell==dba;Cell Program.VINES</value>
+        <value>Cell Gen 1/1.5==Cell==dba;Cell Program.VINES</value>
+        <value>Cell Gen 2==Cell==dba;Cell Program.VINES</value>
+        <value>Cell Gen 5.1_Prismatic==Cell==dba;Cell Program.VINES</value>
+        <value>Cell Gen 5.2_Prismatic==Cell==dba;Cell Program.VINES</value>
+        <value>Cell Gen 6==Cell==dba;Cell Program.VINES</value>
+        <value>Cell Gen PT_Cylindrical==Cell==dba;Cell Program.VINES</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>
+               

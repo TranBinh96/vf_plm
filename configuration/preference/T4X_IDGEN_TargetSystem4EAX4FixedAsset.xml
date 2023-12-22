@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="EA Gateway">
+    <category_description>Preferences for the Teamcenter Gateway for Enterprise Applications (T4EA)</category_description>
+    
+               <preference name="T4X_IDGEN_TargetSystem4EAX4FixedAsset" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines which external system is used to define the new Teamcenter Id, valid values are T4S, T4O or T4EA</preference_description>
+      <context name="Teamcenter">
+        <value>T4EA</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

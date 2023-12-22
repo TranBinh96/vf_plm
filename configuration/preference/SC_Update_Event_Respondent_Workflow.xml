@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_Update_Event_Respondent_Workflow" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the name of the Workflow template used for starting a Workflow Process when a user modifies the recipients of a sent Direct_Material_Sourcing revision.
+The default value is &quot;Update DMS Respondents&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Update DMS Respondents</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

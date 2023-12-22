@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rendering>
+	<views>properties</views>
+
+		<page title="General Information" titlekey="issuemgmt_general_information">
+			<view name="properties">
+				 <property name="object_desc"/>
+				 <property name="c2_Type"/>
+				 <property name="c2_ImplementationDate"/>
+			</view>
+		</page>
+</rendering>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ID14_2019_FamilySequence" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Product Configurator Sequence identifier for Salesforce</preference_description>
+      <context name="Teamcenter">
+        <value>MOD=010</value>
+        <value>CE1=020</value>
+        <value>P20=030</value>
+        <value>PO5=040</value>
+        <value>F15=050</value>
+        <value>F17=060</value>
+        <value>E12=070</value>
+        <value>W03=080</value>
+        <value>PA8=090</value>
+        <value>W32=100</value>
+        <value>B32=110</value>
+        <value>PO3=130</value>
+        <value>PO7=140</value>
+        <value>PO2=150</value>
+        <value>PA5=160</value>
+        <value>H32=170</value>
+        <value>T60=180</value>
+        <value>PO8=190</value>
+        <value>PA9=200</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCIC_ignore_DT_for_LFC" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>TCIC_ignore_DT_for_LFC preference can be used to disable export of Design Table files  during  Load For Compare process
+True: Design Table files are not exported to LFC directory during Load For Compare process (Even if CATIA_manage_designtables preference is set to true)
+False: Design Table files are exported to LFC directory during Load For Compare process (Unless CATIA_manage_designtables preference is set to false)
+	</preference_description>
+      <context name="Teamcenter">
+        <value>False</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

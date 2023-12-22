@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="METimeDataCardConversionFactor" type="Double" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the factor to convert from data card time units to seconds. It is applied to time values from a data card. The standard MTM data cards hold times in TMU.
+Valid Values:
+A character string.</preference_description>
+      <context name="Teamcenter">
+        <value>0.036</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

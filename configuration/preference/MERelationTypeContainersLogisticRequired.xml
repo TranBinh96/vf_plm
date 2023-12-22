@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Logistics">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MERelationTypeContainersLogisticRequired" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the occurrence types of containers considered as requirement for logistic planning of the in-plant supply chain. The container assignment to the supply chain is done based on the requirement.</preference_description>
+      <context name="Teamcenter">
+        <value>MEContainerRequirement</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

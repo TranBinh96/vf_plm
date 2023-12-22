@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Substance Compliance IMDS Integration">
+    <category_description>Teamcenter Preferences for Substance Compliance International Material Data System (IMDS) Integration</category_description>
+    
+               <preference name="IMDS_file_module_separator" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies which module separator to use for a specific International Material Data System (IMDS) file type.
+The values are used by the &quot;imds_split_file&quot; and &quot;imds_download_process_files&quot; utilities.
+If you do not provide a separator value for a file type, the file type is not split by the specified utilities.
+The format for specifying valid values for the preference is:
+
+The IMDS file type
+Comma (,)
+The record identifier to be used as a separator
+Comma (,)
+The number of record identifiers that the split file must contain
+
+For a list of valid file types and record identifiers, refer to the Help available on the IMDS portal.
+The default values are:
+&quot;CMS,MC,1&quot;
+&quot;MPS,MC,1&quot;
+&quot;CC,CO,1000&quot;</preference_description>
+      <context name="Teamcenter">
+        <value>CMS,MC,1</value>
+        <value>MPS,MC,1</value>
+        <value>CC,CO,1000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

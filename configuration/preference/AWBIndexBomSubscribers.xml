@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWBIndexBomSubscribers" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines a list of valid applications that can subscribe for product structure index (Index BOM).
+The preference values are the valid values that are allowed to be set on the Awb0BOMIndexAdminData::awb0Subscribers property.
+Applications, based on these valid values will then enable features for that particular product and configuration represented by the Awb0BOMIndexAdminData instance.
+For example if the &quot;MMV&quot; value is set as subscriber on Awb0BOMIndexAdminData instance which represents a product and configuration, the Visualization application would enable Massive Model Visualization for that particular product and configuration.</preference_description>
+      <context name="Teamcenter">
+        <value>MMV</value>
+        <value>VDS</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

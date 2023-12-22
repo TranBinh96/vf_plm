@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_component_dataset_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>A non-CATIA dataset type (DirectModel for the .jt file, or CATwrl for a wrl file) must be defined within Teamcenter Preferences prior to loading the dataset. For example:
+CATIA_component_dataset_types =
+myDatasetType1
+myDatasetType2
+This list can be slightly different from what is used by the Integration. For instance,
+- If the catiaV4 default dataset type (as defined in your catiman.properties) is not in the list, it is added at the beginning.
+- If the CATPart dataset type already is at the beginning of the list, catiaV4 default dataset type is inserted at the second position.
+- If the CATPart dataset type is not in the list, it is added at the beginning.
+For each dataset type defined in the list, define the Named Reference to load by defining a new variable built within the dataset type name defined in the CATIA_component_dataset_typesvariable. For example:
+myDatasetType1_component_named_reference=
+myNamedReference
+If this variable is not defined for a dataset type of the CATIA_component_dataset_types list, the first named reference found will be used for the Load process.</preference_description>
+      <context name="Teamcenter">
+        <value>CATPart</value>
+        <value>CATcgr</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

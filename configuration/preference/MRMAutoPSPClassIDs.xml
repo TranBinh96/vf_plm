@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMAutoPSPClassIDs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Contains class IDs for which the Propagation Start Point (PSP) will be set automatically. 
+In Active Workspace there is a functionality that sets the PSP automatically to the right component, when a new component is added to an assembly.
+Only if the component - that should get the PSP - is classified in one class that is present in this preference or in one of their child classes, the PSP will be set automatically.</preference_description>
+      <context name="Teamcenter">
+        <value>TC_MILL_10</value>
+        <value>TC_DRILL_12</value>
+        <value>TC_DRILL_20_10</value>
+        <value>TC_DRILL_30_10</value>
+        <value>TC_DRILL_40_00</value>
+        <value>TCG400_INSERT</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_access_level_for_handlers_execution" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates access level that will be used for all handlers. By default some handlers will execute with system access and some handlers will execute with user access, but if this preference is set to &quot;system&quot; then all handlers will execute with system access regardless of the handler&apos;s default access.
+Valid Values:
+* system: All handlers will execute with system access.
+* regular: Handlers will execute with their default access. This is the default setting.</preference_description>
+      <context name="Teamcenter">
+        <value>regular</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

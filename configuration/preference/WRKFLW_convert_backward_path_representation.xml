@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_convert_backward_path_representation" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates if a checkbox option to convert backward branching paths will be displayed when a Process template is taken offline.
+Valid Values:
+* false: the checkbox option is not displayed when a Process template is taken offline. This is the default value.
+* true: the checkbox option is displayed when a Process template is taken offline and backward branching paths are present.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

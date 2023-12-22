@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering>
+   <header>
+      <image source="type"/>
+      <property name="owning_user"/>
+      <property name="last_mod_date"/>
+      <property name="release_status_list" renderingHint="label"/>
+      <property name="object_type"/>
+   </header>
+
+   <page titleKey="tc_xrt_Overview" title="Overview">
+         <section titleKey="General Info" title="General Info">
+            <property name="item_id"/>
+            <property name="object_name"/>
+            <property name="object_desc"/>
+            <property name="REF(items_tag,VF3_ECU).vf4_ECU_type" />
+         </section>
+         <section title="Release features" visibleWhen="object_type==VF3_ECURevision">
+            <tableProperty name="vf3_ecr_release_features">
+               <property name = "vf3_key"/>
+               <property name = "vf3_name"/>
+               <property name = "vf4_market_arr"/>
+               <property name = "vf4_model_arr"/>
+               <property name = "vf4_minimum_vehicle_version"/>
+               <property name = "vf4_OptionsDependExpression" />
+               <property name = "vf3_value"/>
+               <property name = "vf3_object_reference"/>
+            </tableProperty>
+         </section>
+   </page>
+
+
+</rendering>
+
+
+
+

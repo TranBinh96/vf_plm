@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAdvancedSearchResultsViewColumnsShownWidthPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the width of the columns displayed in the Search Result pane in the Structure Search Results view when performing a manufacturing structure search. This setting affects each column defined in the MEAdvancedSearchResultsViewColumnsShownPref preference.
+Valid Values:
+Integers that define the number of characters permitted in each column. There should be one value for each column defined in the MEAdvancedSearchResultsViewColumnsShownPref preference, and the values are applied in the same order (that is, the first value in this preference is applied to the first column in the MEAdvancedSearchResultsViewColumnsShownPref and so on).</preference_description>
+      <context name="Teamcenter">
+        <value>50</value>
+        <value>50</value>
+        <value>50</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

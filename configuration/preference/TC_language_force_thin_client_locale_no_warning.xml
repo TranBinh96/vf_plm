@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Language">
+    <category_description>Defines parameters for the session langage.</category_description>
+    
+               <preference name="TC_language_force_thin_client_locale_no_warning" type="Logical" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>Suppresses the error message that warns the user that the default language is being used. The TC_language_force_thin_client_locale_no_warning preference can be used only when the TC_language_force_thin_client_locale preference is set to true.
+Valid Values:
+true - Suppresses the default language warning message.
+false - Allows the default language warning message to display each time the thin client is launched.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

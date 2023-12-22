@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ITEM_id_unregister_on_delete" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines if item IDs are automatically unregistered when items are deleted or the item ID is changed.
+Valid Values:
+TRUE - Automatically removes item IDs from the item ID registry when items are deleted or the item ID is changed.
+FALSE - Does not remove item IDs to the item ID registry when items are deleted or the item ID is changed.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

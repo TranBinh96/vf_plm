@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="UNLOAD_MINIMUM_LIFE" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines which unused objects are qualified for memory cleanup, based on when objects were last accessed.
+Valid Values:
+Accepts any positive integer. The value specifies (in seconds) when an object must have been last accessed to be qualified for memory cleanup. Objects accessed more recently than the specified value are not removed from server memory.</preference_description>
+      <context name="Teamcenter">
+        <value>1800</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

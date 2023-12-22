@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF4_DDU_EventRevision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VF4_DDU_EventRevision_PseudoFolder</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_reference</value>
+        <value>ContactInCompany</value>
+        <value>IMAN_specification</value>
+        <value>C3D_View</value>
+        <value>CAEAnalysis</value>
+        <value>MEProcess</value>
+        <value>MESetup</value>
+        <value>PR4D_cad</value>
+        <value>Sci0IMDSView</value>
+        <value>catia</value>
+        <value>catia_multi_model</value>
+        <value>view</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

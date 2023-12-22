@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_check_object_before_create" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines how item revisions are saved and revised using the createObjects method.
+Valid Values:
+ON - When Save As or Revise is performed on an item revision using the createObjects method, the system checks whether an object of the selected type already exists. If an object of the selected type already exists, the object is not created.
+OFF - When Save As or Revise is performed on an item revision using the createObjects method, the system does not check if an object of the selected type already exists. The object is always created.</preference_description>
+      <context name="Teamcenter">
+        <value>ON</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

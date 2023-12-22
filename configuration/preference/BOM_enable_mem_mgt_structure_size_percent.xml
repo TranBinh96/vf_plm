@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_enable_mem_mgt_structure_size_percent" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines percentage of current BOM structure size which is used to calculate memory size affected to BOM memory management.
+This preference is considered only if BOM_enable_mem_mgt_probability_percent has value greater than 0.
+This preference is used only in Structure Indexing.
+Valid Values: integer values from 0 (BOM memory management disabled) to 100. Recommended value is 15.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

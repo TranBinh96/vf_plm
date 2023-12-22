@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEPasteDuplicateResourceFromClassification" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the behavior of the copy-paste of non-assembly resources from Classification to Manufacturing Process Planner (MPP).
+If the copied resource is an assembly, then default cloning rules will be applied, regardless of the preference value.
+Valid Values:
+* true: the copied resources are referenced in the MPP structure.
+* false: the copied resources are duplicated in the MPP structure. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

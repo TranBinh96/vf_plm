@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PertChart.BoxDefaultHeight" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>If PertChart.AutoSizeMode is off, configures the default height to be used when new PERT nodes are created. The value is common for all PERT chart types; for example, once it is defined in the Process PERT chart, the Activity Flow chart and Station Flow chart use this value to define the height of newly created PERT nodes.
+Valid Values:
+A positive integer indicating the number of pixels.</preference_description>
+      <context name="Teamcenter">
+        <value>50</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

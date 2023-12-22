@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_loader_itemrevision_general_properties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the item revision&apos;s properties list displayed in the General section of the Properties tab. Attributes display in the Loader based on the order defined in this preference.
+Possible values are real name of attribute and following keywords:
+- display.all_only: to display only all attributes in the tab (should be the only value defined in the preference)
+- display.separator: to display a horizontal separator in the tab</preference_description>
+      <context name="Teamcenter">
+        <value>object_string</value>
+        <value>display.separator</value>
+        <value>object_name</value>
+        <value>item_id</value>
+        <value>item_revision_id</value>
+        <value>object_desc</value>
+        <value>display.separator</value>
+        <value>owning_user</value>
+        <value>owning_group</value>
+        <value>last_mod_user</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

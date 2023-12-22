@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Design Revision_shown_relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies which Relations to display when expanding the node of a Design Revision object.</preference_description>
+      <context name="Teamcenter">
+        <value>PSBOMViewRevision</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_manifestation</value>
+        <value>IMAN_reference</value>
+        <value>IMAN_UG_udf</value>
+        <value>IMAN_UG_altrep</value>
+        <value>IMAN_UG_scenario</value>
+        <value>IMAN_Simulation</value>
+        <value>IMAN_Rendering</value>
+        <value>IMAN_Motion</value>
+        <value>IMAN_MEMfgModel</value>
+        <value>IMAN_snapshot</value>
+        <value>IMAN_3D_snap_shot</value>
+        <value>IMAN_external_object_link</value>
+        <value>IMAN_MEWorkInstruction</value>
+        <value>TC_ProductManual</value>
+        <value>representation_for</value>
+        <value>Fnd0ListsParamReqments</value>
+        <value>Fnd0ListsCustomNotes</value>
+        <value>catia_cache_link</value>
+        <value>EC_reference_item_rel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PTN_Replay_Dynamic_Partitions_After_DEs_Updated" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Partitions recipe are replayed after count of updated DEs meet the provided value. The default count is 1000</preference_description>
+      <context name="Teamcenter">
+        <value>1000</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

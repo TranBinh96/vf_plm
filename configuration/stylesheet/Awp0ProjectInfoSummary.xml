@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying TC_Project Object Info Panel in Revolution Client. -->
+<rendering>
+    <!--header>
+        <property name="object_string"/>
+    </header-->
+    <page titleKey="tc_xrt_Summary">
+        <section titleKey="tc_xrt_Preview">
+            <image source="thumbnail"/>
+        </section>
+        <section titleKey="tc_xrt_properties">
+            <property name="object_name"/>
+            <property name="project_name"/>
+            <property name="project_id"/>
+            <property name="project_desc"/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+            <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+            <property name="last_mod_user"/>
+            <property name="project_team" renderingHint="objectlink" modifiable="false"/>
+        </section>
+    </page>
+</rendering>

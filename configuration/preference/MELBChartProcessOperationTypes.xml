@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MELBChartProcessOperationTypes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the types of objects used as processes or operations, and whether processes with no operations, or operations with processes, are shown in the line balancing chart.Substructures are ignored even if they contain objects of the types included in this preference.Users can quickly change this preference in the line balancing chart by choosing View Menu-&gt;View Options-&gt;MEProcess or MEOP. View options can also include custom names defined in MELBChartProcessOperationTypeDefaultValues.
+Valid Values:
+Internal names of MEProcess or any of its subtypes.Internal names of MEOP or any of its subtypes.MEProcess enables drag and drop for all process types.</preference_description>
+      <context name="Teamcenter">
+        <value>MEOP</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

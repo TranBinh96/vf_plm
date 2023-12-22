@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0ComplianceInfoForBOM.xml
+
+Default activeworkspace stylesheet for Compliance tab for BOM.
+-->
+<subRendering>
+      <page titleKey="scw0_xrt_compliancetab" visibleWhen="Scp0PartToSubsCmplResult!=null">
+         <section>
+            <inject type="dataset" src="Scw0ComplianceInfoDataset" module="js/aw-include.directive"/>
+        </section>
+    </page>
+</subRendering>

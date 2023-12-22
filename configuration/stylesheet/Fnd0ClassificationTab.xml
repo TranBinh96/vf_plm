@@ -1,0 +1,5 @@
+<subRendering>
+    <page titleKey="tc_xrt_ClassificationInformation" title="Classification" visibleWhen="ics_classified!=null">
+        <inject type="dataset" src="Fnd0ClassificationSummary"/>
+    </page>
+</subRendering>

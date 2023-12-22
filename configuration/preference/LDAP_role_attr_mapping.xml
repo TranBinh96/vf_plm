@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="LDAP">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="LDAP_role_attr_mapping" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Maps LDAP attributes to Teamcenter role attributes. The mappings control what information the synchronization tool sets in the Teamcenter role object.LDAP_role_attr_mapping=
+LDAPRoleName
+cn
+%REPLACE_ME%
+LDAPRoleDesc
+description
+%REPLACE_ME%
+LDAPLastUpdate
+modifyTimestamp
+%REPLACE_ME%
+
+Valid values:
+Accepts triples of strings.Each attribute mapping consists of three strings: the Teamcenter attribute name, the mapped LDAP attribute name, and the default value (to be used if there is no LDAP mapped attribute or if the LDAP mapped attribute value is null).</preference_description>
+      <context name="Teamcenter">
+        <value>LDAPRoleName</value>
+        <value>cn</value>
+        <value>%REPLACE_ME%</value>
+        <value>LDAPRoleDesc</value>
+        <value>description</value>
+        <value>%REPLACE_ME%</value>
+        <value>LDAPLastUpdate</value>
+        <value>modifyTimestamp</value>
+        <value>%REPLACE_ME%</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

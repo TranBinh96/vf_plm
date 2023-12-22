@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_automatic_load_merge" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls whether the Load Merge process runs automatically, without having to start merge from the CATIA toolbar.
+Possible values :
+Yes      = Run the Load Merge process automatically when the top level is already opened.  Display an error message when the Load Merge cannot be performed.
+No       = Display an error message when the top level is already open.  In this case, merge must be started from the CATIA toolbar.
+Question = Display a prompt when the top level is already opened, asking to perform a Load Merge automatically. Display an error message when the Load Merge cannot be performed</preference_description>
+      <context name="Teamcenter">
+        <value>Yes</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

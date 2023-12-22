@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEAllowDragDropInBetweenBomlines" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Activates drag-and-drop of BOM Lines in between any target BOM Lines for BOP structures in the Manufacturing applications. Splitters are displayed when BOM Lines are dragged and placed in between the target BOM Line. 
+Valid Values:
+*false: the drag-and-drop in between the BOM Lines is not allowed. Splitters are not displayed. This is the default value.
+*true: the drag-and-drop in between the BOM Lines is allowed. Splitters are displayed.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

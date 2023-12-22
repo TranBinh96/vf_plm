@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_Root_Item_Type_Preference" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the Item type that will be created for a New Model Action executed on a root BOM Line in CAE Manager&apos;s Inspector view.
+The valid and default value for Item type is &quot;CAEModel&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>CAEModel</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

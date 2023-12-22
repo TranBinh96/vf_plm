@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA123_saveasnewitem_mapping_itemname" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to configure TCAA in order to assign item name on the basis of other data (like Teamcenter item ID) during save as new item operations. 
+Unless differently specified, the assignment takes place if the item name is initially empty and edits to the leading field (e.g. item ID) are propagated to the item name if the two fields have the same initial value before editing.
+Possible values:
+0 - no mapping: item name does not inherit value from any other field
+1 - item name inherits value from item ID field (Default)
+2 - if empty, item name gets initial value from original file name. No other alignment logic is applied in this case.
+3 - in file name mapping (TCAA_mapping_ItemID=1), item name inherits value from the file name. If TCAA_mapping_ItemID is not equal to 1, then item name is initialized with original file name (if empty) and no other alignment logic is applied in this case.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

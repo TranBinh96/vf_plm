@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VF_BUYER" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Define all group, role will join to workflow as Buyer role</preference_description>
+      <context name="Teamcenter">
+        <value>Purchase;Buyer</value>
+        <value>Purchase;TLL Buyer</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

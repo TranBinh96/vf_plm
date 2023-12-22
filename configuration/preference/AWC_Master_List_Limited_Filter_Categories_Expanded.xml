@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Master_List_Limited_Filter_Categories_Expanded" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the master list of internal names of categories which need to be expanded with default/custom sublist.
+If the preference, AWC_Limited_Filter_Categories_Expanded are set with default/custom categories, the categories in default/custom list are Selected in the master list.</preference_description>
+      <context name="Teamcenter">
+        <value>POM_application_object.last_mod_user</value>
+        <value>POM_application_object.last_mod_date</value>
+        <value>POM_application_object.owning_user</value>
+        <value>POM_application_object.owning_group</value>
+        <value>WorkspaceObject.object_type</value>
+        <value>WorkspaceObject.release_status_list</value>
+        <value>WorkspaceObject.date_released</value>
+        <value>WorkspaceObject.project_list</value>
+        <value>WorkspaceObject.fnd0InProcess</value>
+        <value>WorkspaceObject.ip_classification</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

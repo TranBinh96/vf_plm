@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_cico_ask_confirmation_action_from_ui" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls the display of the Check-in/Check-out panel.
+Values:
+True: Display the Check-in / Check-out panel containing the OK button and require user interaction to start the action
+False: Prevents the Check-in/Check-out panel from being displayed and starts the action without user interaction, so users can not define Change ID and comments for a check-out action. The Check-in/Check-out panel displays if errors occur.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Logistics_cost.xml
+
+    Style sheet rendering for Form properties.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General" >
+		<property name="vf6_logistics_remarks"/>
+        <property name="vf6_carrier_costs"/>
+		<property name="vf6_feasibility_confirmed_l"/>
+		<property name="vf6_lead_time_l"/>
+		
+		
+		<label text= "NOTE: PLEASE ENTER ALL COSTS IN USD"/>
+    </page>
+	
+
+</rendering>

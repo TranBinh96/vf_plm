@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.QSearch Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_qsearch_remote_query_timeout" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies a timeout period for remote cacheless search queries initiated from the Structure Manager application. Set a value that prevents slow queries from affecting system performance.
+Valid Values:
+Any value in seconds.</preference_description>
+      <context name="Teamcenter">
+        <value>3600</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

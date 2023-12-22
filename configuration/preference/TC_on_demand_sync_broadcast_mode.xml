@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_on_demand_sync_broadcast_mode" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Controls the report function&apos;s query scope when the site known by the current site as the owning site denies ownership.
+Valid Values:
+TRUE - Queries all known sites to find the owner (broadcast mode).
+FALSE - Performs sequential queries to sites in the ownership chain until it reaches the limit designated by the TC_follow_ownership_chain_max_site_count preference.</preference_description>
+      <context name="Teamcenter">
+        <value>FALSE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

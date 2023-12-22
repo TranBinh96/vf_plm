@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Material Management">
+    <category_description>Teamcenter Preferences for Material Management</category_description>
+    
+               <preference name="IMM_MATERIAL_SEARCH_ALL_TYPES_GROUPS" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the groups which users are allowed to select all search types described under the preference &quot;IMM_MATERIAL_SEARCH_TYPE&quot;.
+Users from a group not listed in this preference will have to search by &apos;Last Material Revision with status&apos;.
+Valid Values:
+* no value or &quot;all&quot;: all search object types are available for every user in any group.
+* &quot;group_full_name&quot;: This must be the full name to any group added to the list.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

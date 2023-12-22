@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_copied_occurrence_notes" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the note types whose values are copied from the instance of the associated part solution when present, that is, sharing the same named variant expression, to the occurrence of the design solution in Structure Manager. This list must match that in the RDV_usage_occurrence_notes preference.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter occurrence note.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

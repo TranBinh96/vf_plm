@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAECompositeViewAnalysisViewShownColumnNamePref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Stores the internal names of Item Revision properties which display names appear as columns from left-to-right in the Composite View opened from Analysis View in the CAE application. 
+This preference value is only a repository, and it is not to be modified other than by the CAE Composite View code itself.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision.object_desc</value>
+        <value>ItemRevision.object_type</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

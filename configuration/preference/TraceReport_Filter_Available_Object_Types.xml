@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TraceReport_Filter_Available_Object_Types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of available object types under the Available Object Types heading that you can select for filtering when setting object type filters. You set object type filters by clicking the Object Type Filters tab in the Trace Links view or Traceview Settings dialog box. From this list, you select the object types that you want to display in the in the Trace Links view.
+Valid Values:
+String values.</preference_description>
+      <context name="Teamcenter">
+        <value>Requirement</value>
+        <value>Requirement Revision</value>
+        <value>Paragraph</value>
+        <value>Paragraph Revision</value>
+        <value>RequirementSpec</value>
+        <value>RequirementSpec Revision</value>
+        <value>Item</value>
+        <value>ItemRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

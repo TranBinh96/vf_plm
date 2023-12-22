@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_Simulation_Structure_Default_Actions" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This is an optional preference. Specifies the default actions for a criteria executed on the simulation structure in the CAE Manager Inspector view.
+Valid Values:
+This criteria is used to determine if the CAEModel BOM line is linked to a different revision of the product BOM line.
+Model With Different Product Revision Target::Do Nothing
+Model With Different Product Revision Target::Use New Model
+Model With Different Product Revision Target::Use Model Related To Product Item
+Model With Different Product Revision Target::Use Model Related to Product Revision
+Model With Different Product Revision Target::Use Revised Model
+Model With Different Product Revision Target::Replace Relationship
+Model With Different Product Revision Target::Add Relationship</preference_description>
+      <context name="Teamcenter">
+        <value>Model With Different Product Revision Target::Do Nothing</value>
+        <value>Model With No Product::Do Nothing</value>
+        <value>Extra Model Components::Do Nothing</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

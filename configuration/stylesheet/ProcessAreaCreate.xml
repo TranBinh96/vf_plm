@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ProcessAreaCreate.xml
+
+    Style sheet rendering for ProcessAreaCreate creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">      
+        <section title="Process Area Information" titleKey="tc_xrt_ProcessAreaInformation">
+            <property name="item_id" />
+            <property name="revision:item_revision_id" /> 
+            <property name="object_name" />
+            <property name="object_desc" />
+            <separator/>
+            <property name="uom_tag" /> 
+            <property name="revision:Mfg0DefaultStationSize" />
+        </section>
+
+        <section title="Additional Process Area Information" titleKey="tc_xrt_AdditionalProcessAreaInformation" initialstate="collapsed">
+            <property name="IMAN_master_form:target_cost" />
+            <property name="IMAN_master_form:process_comment"  />
+            <property name="IMAN_master_form:program_id" />
+            <property name="IMAN_master_form:target_time"  />
+        </section>
+
+        <section title="Process Area Revision Information" titleKey="tc_xrt_ProcessAreaRevisionInformation" initialstate="collapsed">
+            <property name="revision:IMAN_master_form_rev:Mfg0DefaultStationSize" />
+            <property name="revision:IMAN_master_form_rev:process_comment" />
+            <property name="revision:IMAN_master_form_rev:program_id" />
+            <property name="revision:IMAN_master_form_rev:scheduled_cost" />
+            <property name="revision:IMAN_master_form_rev:scheduled_time"  />
+        </section>
+    </page>
+
+</rendering>

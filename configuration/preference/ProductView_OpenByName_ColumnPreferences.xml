@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ProductView_OpenByName_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of columns to be displayed on Open By Name dialog Table in the CAE Manager application Product View.</preference_description>
+      <context name="Teamcenter">
+        <value>object_string</value>
+        <value>object_type</value>
+        <value>relation</value>
+        <value>owning_user</value>
+        <value>owning_group</value>
+        <value>last_mod_date</value>
+        <value>checked_out</value>
+        <value>release_status_list</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

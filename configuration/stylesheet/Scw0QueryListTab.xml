@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0QueryListTab.xml
+
+Default activeworkspace stylesheet for Queries tab.
+-->
+<subRendering>
+  <content visibleWhen="structure_revisions==null and ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation and GRM(Scp0AbstractDeclResponse,Scp0AbstractDecl).scp0DeclListID != null">
+    <page titleKey="scw0_xrt_Queries" title="Queries">
+      <section titleKey="scw0_xrt_Queries" title="Queries">
+        <objectSet source="Scp0AbstractDeclResponse.Scp0AbstractDecl" defaultdisplay="tableDisplay" sortdirection="ascending" sortby="scp0DeclListID">
+          <tableDisplay>
+            <property name="scp0DeclListID"/>
+            <property name="scp0Statement"/>
+            <property name="Scp0AbstractDeclResponse.scp0Answer"/>
+          </tableDisplay>
+        </objectSet>
+      </section>
+    </page>
+  </content>
+  <content visibleWhen="structure_revisions==null and ActiveWorkspace:SubLocation != com.siemens.splm.client.occmgmt:OccurrenceManagementSubLocation and GRM(Scp0AbstractDeclCMDResponse,Scp0AbstractDecl).scp0DeclListID != null">
+    <page titleKey="scw0_xrt_Queries" title="Queries">
+      <section titleKey="scw0_xrt_Queries" title="Queries">
+        <objectSet source="Scp0AbstractDeclCMDResponse.Scp0AbstractDecl" defaultdisplay="tableDisplay" sortdirection="ascending" sortby="scp0DeclListID">
+          <tableDisplay>
+            <property name="scp0DeclListID"/>
+            <property name="scp0Statement"/>
+            <property name="Scp0AbstractDeclCMDResponse.scp0Answer"/>
+          </tableDisplay>
+        </objectSet>
+      </section>
+    </page>
+  </content>
+</subRendering>

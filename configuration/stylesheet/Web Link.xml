@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rendering>
+	<views>properties</views>
+
+		<page title="General Information" titlekey="issuemgmt_general_information">
+			<view name="properties">
+				<property name="url"/>	
+				 <property name="object_name"/>
+				 <property name="object_desc"/>				 
+			</view>
+		</page>
+</rendering>

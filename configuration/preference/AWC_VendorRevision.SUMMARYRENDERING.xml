@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.Vendor Management">
+    <category_description>Vendor Management Active Workspace preferences</category_description>
+    
+               <preference name="AWC_VendorRevision.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the summary stylesheet for the VendorRevision business object.</preference_description>
+      <context name="Teamcenter">
+        <value>Vm1VendorRevSummary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

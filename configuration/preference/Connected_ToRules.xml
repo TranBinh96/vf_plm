@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Solution-Specific.Mechatronics">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Connected_ToRules" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines any  supported valid primary/secondary object combination allowed for the Connected_To Generic Relationship Management (GRM) relation. GRM rules contain a primary type, a relation type, and multiple secondary types. If no rule is specified for a given primary type, its supertype is searched until PSConnection is found for which the secondary is considered as interface. The rules listed for this preference should not be removed. If required, sites should append the secondary list OR add rules for their particular primary types.
+Valid Values:
+Accepts multiple strings as values.Constraints are defined in the following format:
+primaryObjectType:secondaryObjectType1,secondaryObjectType2
+primaryObjectType is any type or subtype of PSConnection or GDELink class/subclass, and secondaryObjectType is any valid ImanType type.</preference_description>
+      <context name="Teamcenter">
+        <value>Connection:Connection_Terminal</value>
+        <value>Network:Network_Port</value>
+        <value>TC_Link:Network_Port,Connection_Terminal</value>
+        <value>WeldPoint:Item</value>
+        <value>DatumPoint:Item</value>
+        <value>ProductRelation:ProductInterface</value>
+        <value>ArcWeld:Item</value>
+        <value>Fnd0LogicConn:Fnd0LogicIntrfce</value>
+        <value>Fnd0DelegateConn:Fnd0LogicIntrfce</value>
+        <value>Mci0PMI:Item</value>
+        <value>Fnd0Fastener:Item</value>
+        <value>Fnd0FasnGroup:Item</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

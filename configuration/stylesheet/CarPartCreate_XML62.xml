@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ItemCreate.xml
+
+    Style sheet rendering for Item creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="General" titleKey="tc_xrt_General">            
+        <section title="Item Information" titleKey="tc_xrt_ItemInformation">
+            <property name="object_name" renderingHint="textfield" column="32" />
+            <property name="object_desc" />
+            <property name="item_id" />
+            <property name="revision:vf3_vietnamese_name_s" />
+            <property name="revision:vf3_part_name_eng" />
+            <property name="revision:vf3_part_owner_s" />
+            <property name="revision:vf3_after_sale_relevent_s" />
+            <property name="revision:vf3_initial_usage_s" />
+            <property name="revision:vf3_ee_relevent_s" />
+            <property name="revision:vf3_after_sales_relevant_s" />
+            <property name="revision:vf3_usage_eitheror_s" />
+            <property name="revision:vf3_supplier_date_d" />
+            <property name="revision:vf3_supplier_name_s" />
+            <property name="revision:vf3_supplier_type_s" />
+            <property name="revision:vf3_safety_relevant_s" />
+            <property name="revision:vf3_standard_part_s" />
+            <property name="revision:vf3_sw_flashable_s" />
+            <property name="revision:vf3_styling_relevant_s" />
+            <property name="revision:vf3_colored_part_s" />
+            <property name="revision:vf3_Certification_RelevantS" />
+            <property name="revision:vf3_material_s" />
+            <property name="revision:vf3_maturity_level_s" />
+            <property name="revision:vf3_weight_s" />
+            <property name="revision:vf3_reference_number_s" />          
+            <property name="revision:vf3_purchasing_name_s" />  
+            <property name="revision:vf3_implementation_with" />  
+            <property name="revision:vf3_serviceability_s" /> 
+            <separator/>
+            <property name="uom_tag" /> 
+           
+        </section>
+		 
+       
+    </page>
+
+</rendering>

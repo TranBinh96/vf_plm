@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ME_Proximity_FilteredIPA_suffix" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the suffix of the filtered IPA names when the occurrence group holds proximity search result.
+Valid Values:
+Accepts a single string as value.</preference_description>
+      <context name="Teamcenter">
+        <value>_fipa</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

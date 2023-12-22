@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_overwrite_protection" type="Logical" array="false" disabled="false" protectionScope="System" envEnabled="false">
+      <preference_description>This preference is used to indicate that the same property of the object has been modified concurrently by another user. A message will be displayed that will inform the user to discard their edits and update the property with latest value.
+When the preference is FALSE, the property value will be saved without any indication about concurrent modification. This will overwrite the property values modified by another user.
+Default value of this preference is FALSE.
+Applicable to Properties dialog, Form dialog, Viewer view, Summary view, Properties view and Details View inside My Teamcenter, BOM Window view within System Engineering, Office Live and Requirements applications.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

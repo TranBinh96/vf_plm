@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.QSearch Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QS_NX_RELATION_POST_ACTION_ENABLED" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines if Teamcenter generates bounding box data automatically when you import NX assemblies. This preference is effective both for product-scoped cacheless search and full database cacheless search.
+Valid Values:
+true - Teamcenter generates bounding box data for imported NX assemblies.
+false - Teamcenter does not generate bounding box data for imported NX assemblies.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

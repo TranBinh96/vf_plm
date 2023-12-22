@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2020.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying a Bill of Substance info Panel. -->
+<rendering>
+  <header>
+    <property name="object_string"/>
+  </header>
+  <page titleKey = "tc_xrt_Summary">
+    <section titleKey="tc_xrt_Preview">
+      <image source="thumbnail"/>
+    </section>
+    <section titleKey="tc_xrt_properties">
+      <property name="mtw0Substance" modifiable="false"/>
+      <property name="REF(mtw0Substance,Mat1Substance).mat1cas_number" modifiable="false"/>
+      <property name="mtw0SubstanceMassInGram" modifiable="false"/>
+      <property name="mtw0SubstanceComposition" modifiable="false"/>
+    </section>
+  </page>
+  <page titleKey="mtw0_xrt_materialsection">
+    <objectSet source="mtw0Materials.Mat1MaterialRevision" defaultdisplay="listDisplay">
+      <listDisplay>
+        <property name="item_id"/>
+        <property name="object_name"/>
+        <property name="object_desc"/>
+      </listDisplay>
+    </objectSet>
+  </page>
+  <page titleKey="mtw0_xrt_Partsection">
+    <objectSet source="mtw0Parts.ItemRevision" defaultdisplay="listDisplay">
+      <listDisplay>
+        <property name="item_id"/>
+        <property name="object_name"/>
+        <property name="object_desc"/>
+      </listDisplay>
+    </objectSet>
+  </page>
+</rendering>

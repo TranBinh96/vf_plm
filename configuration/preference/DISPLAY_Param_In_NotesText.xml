@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DISPLAY_Param_In_NotesText" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Shows or hides the parameter name in the Note Text box of a standard note. 
+Example:
+If your parameter definition is as follows:Round all sharp corners to [Radius: 0.4, 0.5, 0.6] inches and heat treat to [Temperature: 200, 220, 230] degrees Fahrenheit. If the value of this preference is true, the Note Text box of the standard note displays the parameter name and parameter values as follows:
+Round all sharp corners to Radius 0.01 inches and heat treat to Temperature 100 degrees Fahrenheit. If the value of this preference is false, the Note Text box of the standard note displays only parameter values as follows: Round all sharp corners to 0.01 inches and heat treat to 100 degrees Fahrenheit.
+Valid Values:
+true - Shows the parameter name in the Note Text box of the standard note.
+false - Hides the parameter name in the Note Text box of the standard note.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

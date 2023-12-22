@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EndItemState" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls the End Item state in the Manufacturing Process Planner (MPP) and Product Structure Engineering (PSE) applications.
+Valid values are :
+* true: the &quot;End Item&quot; dialog is displayed in the Edit menu, and the End Item icon appears when an End Item is set on a line&apos;s occurrence. This is the default value.
+* false: the &quot;End Item&quot; functionality is totally hidden.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

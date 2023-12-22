@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Product Structure Synchronization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_replace_with_substructure" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether substructures below the selected node can be replaced, along with the selected node.Users can replace an item representing a node in the structure with another item. All data associated with the original node is preserved. This preference determines whether substructures can also be replaced.
+Valid Values:
+true - The selected node and its entire substructure (if any) are replaced without prompting.
+false - If the selected node contains a substructure, the system displays an error message and does not complete the replacement action.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

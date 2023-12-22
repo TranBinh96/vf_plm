@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.PSE Column">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="QSEARCH_types_to_avoid_processing" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies item types to avoid while performing a cacheless search. This allows you to restrict the search to object types that have valid matches and avoid unnecessary processing of object types that can never have valid matches.
+Valid Values:
+An array of strings representing the object type names as values. The string must contain the type name of at least one valid object type, for example, Architecture.</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

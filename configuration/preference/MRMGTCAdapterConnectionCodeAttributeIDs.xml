@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MRMGTCAdapterConnectionCodeAttributeIDs" type="Integer" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the IDs of the Generic Tool Catalog (GTC) class attributes that hold ISO adapter connection codes for a catalog component.
+The default values are -150046, -150048, -151011, -151012, -151021, -151022, -151031, -151032, -151041, -151042, -151051 and -151052.
+Those connection codes will be converted from ISO to DIN, when the ICO is mapped into another class.</preference_description>
+      <context name="Teamcenter">
+        <value>-150046</value>
+        <value>-150048</value>
+        <value>-151011</value>
+        <value>-151012</value>
+        <value>-151021</value>
+        <value>-151022</value>
+        <value>-151031</value>
+        <value>-151032</value>
+        <value>-151041</value>
+        <value>-151042</value>
+        <value>-151051</value>
+        <value>-151052</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

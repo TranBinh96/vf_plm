@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2019.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Style sheet rendering for OccMgmt Attachment Section. -->
+<subRendering>
+    <section titleKey="tc_xrt_Files">
+        <objectSet source="IMAN_specification.Dataset,Awb0OverrideDatasetProvider.Dataset,IMAN_reference.Dataset,IMAN_manifestation.Dataset,IMAN_Rendering.Dataset,TC_Attaches.Dataset,IMAN_UG_altrep.Dataset,IMAN_UG_scenario.Dataset,IMAN_Simulation.Dataset" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                  <property name="object_string"/>
+                  <property name="ref_list"/>
+                  <property name="object_type"/>
+                  <property name="relation" modifiable="true"/>
+                  <property name="awb0Context" modifiable="false"/>
+                  <property name="release_status_list"/>
+                  <property name="date_released"/>
+                  <property name="owning_user"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <treeDisplay>
+                  <property name="object_string"/>
+                  <property name="ref_list"/>
+                  <property name="object_type"/>
+                  <property name="relation" modifiable="true"/>
+                  <property name="awb0Context" modifiable="false"/>
+                  <property name="release_status_list"/>
+                  <property name="date_released"/>
+                  <property name="owning_user"/>
+            </treeDisplay>
+            <listDisplay/>
+            <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </section>
+    <section titleKey="tc_xrt_Documents">
+        <objectSet source="IMAN_specification.DocumentRevision,Awb0OverrideDatasetProvider.DocumentRevision" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+            <tableDisplay>
+                  <property name="object_string"/>
+                  <property name="object_type"/>
+                  <property name="awb0Context" modifiable="false"/>
+                  <property name="release_status_list"/>
+                  <property name="date_released"/>
+                  <property name="owning_user"/>
+            </tableDisplay>
+            <thumbnailDisplay/>
+            <treeDisplay>
+                  <property name="object_string"/>
+                  <property name="object_type"/>
+                  <property name="awb0Context" modifiable="false"/>
+                  <property name="release_status_list"/>
+                  <property name="date_released"/>
+                  <property name="owning_user"/>
+            </treeDisplay>
+            <listDisplay/>
+           <command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.common.AddNew" renderingHint="commandbutton"/>
+            <command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+            <command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+                <parameter name="localSelection" value="true"/>
+            </command>
+        </objectSet>
+    </section>
+</subRendering>

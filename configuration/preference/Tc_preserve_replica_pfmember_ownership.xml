@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.Multi-Site Collaboration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Tc_preserve_replica_pfmember_ownership" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether part family members created at a site, which are based on a replica part family template, is owned by the master site or the local site. This preference is applicable when creating part family members from Teamcenter Integration for NX.
+Valid Values:
+TRUE - Part family members are created with the same site ownership as that of their template.
+FALSE - Part family members are created with the local site ownership.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

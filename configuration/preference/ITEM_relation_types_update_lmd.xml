@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ITEM_relation_types_update_lmd" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which relation types cause the update of the last modification date of the parent object when the secondary object of a class dataset or form is modified, or if the relation is added/removed from the parent object. If the relation is added/removed, the last modification date of the parent object is updated regardless of the class of the secondary object.
+Valid Values:
+Accepts one or more strings as values. Each string must be a valid Teamcenter relation. Excepting the IMAN_RES_audit and IMAN_RES_checkout relations, which are not valid values for this preference.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_master_form</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_requirement</value>
+        <value>IMAN_Simulation</value>
+        <value>Mfg0ProcResourceRelation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

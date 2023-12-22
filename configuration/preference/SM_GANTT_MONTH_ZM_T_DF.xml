@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_GANTT_MONTH_ZM_T_DF" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the date format at the top of the Gantt chart for viewing the month.
+Valid Values:
+MMMM/dd/yyyy
+Format using a combination of the valid characters that make up the date pattern, for example, MMMM for month character, dd for day number, 
+and yyyy for year. The month character MMMM allows you to enter four letters for the month. For example, enter Janu for January, Febr for 
+February, and so on. Values for month, day, and year are enclosed in quotation marks. The default separator is the forward slash character (/).
+The information is specific to iconographic languages.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+  Filename: IssueReportRevisionProperty.xml
+-->
+
+<rendering>
+
+  <page title="General" titleKey="tc_xrt_General">
+    <column>
+      <section titleKey="tc_xrt_properties">
+        <property name="object_desc" />
+        <property name="items_tag" />
+        <separator />
+        <property name="CMSeverityRating" />
+        <property name="CMTechReviewPriority" />
+        <property name="CMMaturity" />
+        <property name="CMDisposition" />
+        <property name="CMClosure" />
+        <separator />
+        <property name="design_review_gate" />
+        <property name="issue_category" />
+        <property name="due_date" />
+        <property name="CMEnvironmentDescription" />
+        <property name="CMVerification" />
+        <property name="CMDispositionComments" />
+        <property name="CMClosureComments" />
+        <separator />
+        <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+        <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+        <property name="last_mod_user"/>
+      </section>
+    </column>
+    
+    <column>
+      <section name="tc_xrt_issuemgmt_change_participants">
+        <property name="ChangeSpecialist1" modifiable="false"/>
+        <property name="Requestor" modifiable="false"/>
+        <property name="Analyst" modifiable="false"/>
+        <property name="epm_proposed_responsible_party"/>
+        <property name="epm_proposed_reviewers"/>
+      </section>
+    </column>
+  </page>
+  
+  <page title="Reservation" titleKey="tc_xrt_Reservation">
+      <property name="checked_out" />
+      <property name="checked_out_user" />
+      <separator/>
+      <property name="checked_out_date" />
+      <property name="checked_out_change_id" />
+      <separator/>
+      <property name="reservation" />
+  </page>
+
+  <page title="Project" titleKey="tc_xrt_Project">
+      <property name="proj_assign_mod_date" />
+      <property name="project_ids" />
+      <separator/>
+      <property name="project_list" />
+  </page>
+
+  <page title="All" titleKey="tc_xrt_All">
+      <all type="property"/>
+  </page>
+  
+</rendering>
+ 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MDL_enable_preproduction_promote_to_history" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Promote to history behavior will be removed from Teamcenter 11.2.3.
+It must not be enabled for production use.
+When this preference is set to false, access to promote to history will be blocked.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

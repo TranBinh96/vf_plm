@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying ScheduleMember Info Panel in Revolution Client. -->
+
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page title="Summary" titleKey="tc_xrt_Summary">
+        <section title="Properties" titleKey="tc_xrt_properties">
+            <property name="object_name" modifiable="false"/>
+            <property name="object_desc" modifiable="false"/>
+            <property name="fndRoleInSchedule" modifiable="false"/>
+            <property name="fnd0MemberTypeString" modifiable="false"/>
+            <property name="owning_user" modifiable="false"/>
+            <property name="last_mod_date" modifiable="false"/>
+            <property name="last_mod_user" modifiable="false"/>
+        </section>
+     </page>
+    <page title="Assigned Tasks" titleKey="tc_xrt_AssignedTasks">
+        <objectSet source="Saw1TaskSearchProvider.ScheduleTask" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+            <listDisplay>
+                <property name="object_string" modifiable="false"/>
+            </listDisplay>
+        </objectSet>
+    </page>
+</rendering>

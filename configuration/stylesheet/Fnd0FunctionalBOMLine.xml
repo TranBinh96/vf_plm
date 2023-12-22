@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright 2011.
+       Siemens Product Lifecycle Management Software Inc.
+       All Rights Reserved.
+===============================================================================
+
+    Filename: Fnd0FunctionalBOMLine.xml
+
+    Default style sheet for displaying Fnd0FunctionalBOMLine poperties.
+ -->
+
+<rendering>
+
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <property name="bl_rev_object_name" column="32"/>
+            <property name="bl_rev_object_desc" />
+        </column>
+        <column>
+            <image/>
+        </column>
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+</rendering>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Sc0LineItemColumnPreference" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed in the &quot;Line Item Collection&quot; view in the Supplier Collaboration application.
+Valid values are in the format &quot;ObjectTypeInternalName.PropertyInternalName&quot;, where the object must be of type &quot;Bid Package Line Item&quot; (BidPackageLineItem) or any of its subtypes.</preference_description>
+      <context name="Teamcenter">
+        <value>BidPackageLineItem.sc0SplitLocationName</value>
+        <value>BidPackageLineItem.sc0SplitProgramName</value>
+        <value>BidPackageLineItem.sc0Category</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

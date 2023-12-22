@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_relatedap_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Schedule properties to be displayed in Related Action Plan tab</preference_description>
+      <context name="Teamcenter">
+        <value>item_id</value>
+        <value>object_name</value>
+        <value>object_desc</value>
+        <value>start_date</value>
+        <value>finish_date</value>
+        <value>fnd0status</value>
+        <value>owning_user</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

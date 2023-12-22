@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="NX">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_UPDATE_ATTRIBUTES" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines whether NX attributes are synchronized with Teamcenter attributes. If this preference is set, define the attributes by setting the API_ugpart_attr_titles preference.This preference is enabled only when the newer method of NX/Teamcenter attribute synchronization is disabled by setting the 
+UGII_UGMGR_ATTR_SYNC NX environment variable to OLD.
+Valid Values:
+yes - Synchronizes NX attributes with Teamcenter attributes.
+no - Does not synchronize NX attributes with Teamcenter attributes.</preference_description>
+      <context name="Teamcenter">
+        <value>yes</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

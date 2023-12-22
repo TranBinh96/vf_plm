@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Workflow">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CR_allow_alternate_procedures" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Manages the visibility of workflow templates in the &quot;New Process&quot; panel of the Workflow application in the rich client.
+Valid Values:
+* any : The &quot;All&quot; option is pre-selected in the &quot;All/Assigned&quot; radio button group, which means that all templates are listed.
+* Assigned: The &quot;Assigned&quot; option is pre-selected in the &quot;All/Assigned&quot; radio button group, which means that only the templates assigned to the group and selected target object type are listed.  This is the default value.
+* none: The options &quot;All/Assigned&quot; are not visible. Furthermore, only the templates assigned to the group and selected target object type are displayed (behaviour similar to the &quot;Assigned&quot; option). When no templates are assigned for the target group/type, the displayed list is empty. If no object was selected when initiating the workflow, all the templates assigned to the group are listed.
+
+Process templates assigned to a group and a target object type are defined through the &quot;Process designer-&gt;Edit-&gt;Template Filter&quot; command.</preference_description>
+      <context name="Teamcenter">
+        <value>Assigned</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

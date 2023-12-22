@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PSEOccNotesNoCopy" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which occurrence notes are not copied when users copy and paste a PSOccurrence. You can set this behavior on a run-time basis by specifying it to be a user preference or retain the value between sessions by making it a site preference.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid occurrence note.</preference_description>
+      <context name="Teamcenter">
+        <value>UG ENTITY HANDLE</value>
+        <value>MEUILocation</value>
+        <value>catiaOccurrenceName</value>
+        <value>catiaParentPartName</value>
+        <value>catiaFileName</value>
+        <value>catiaOccurrenceOEM</value>
+        <value>catiaOccurrenceDesc</value>
+        <value>catiaUUID</value>
+        <value>ACAD_OCC_ID</value>
+        <value>ACAD_XREF_TYPE</value>
+        <value>Cat2OccMapCksum</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

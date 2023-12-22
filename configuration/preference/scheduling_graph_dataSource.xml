@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="scheduling_graph_dataSource" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies data source for resource graph. When set to randomSample, the system uses a random sample generator. When set to TeamcenterDB (default), the system uses the Teamcenter database.
+This preference must be set to TeamcenterDB in a production environment.
+Valid Values:
+randomSample - The system uses a random sample generator as the data source for resource graphs.
+TeamcenterDB - The system uses the Teamcenter database as the data source for resource graphs.</preference_description>
+      <context name="Teamcenter">
+        <value>TeamcenterDB</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

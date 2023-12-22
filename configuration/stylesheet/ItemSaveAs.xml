@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ItemSaveAs.xml
+
+    Style sheet rendering for Item saveAs.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="Item Information" titleKey="tc_xrt_ItemInformation">
+         <property name="item_id" />            
+         <property name="object_name" />
+         <property name="object_desc" />          
+    </page>
+    
+</rendering>   

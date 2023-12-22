@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_mmlassy_link_type" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Customize the Reference/Instance Multi-Models link: The default value is catiaV5_MMLAssy</preference_description>
+      <context name="Teamcenter">
+        <value>catiaV5_MMLAssy</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

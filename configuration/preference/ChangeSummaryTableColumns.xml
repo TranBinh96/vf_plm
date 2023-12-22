@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ChangeSummaryTableColumns" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines column names which needs to be displayed in Change Summary Table on summary page of Change Notice Revision.
+The preference contains three type of values.
+1. Type:TYPE_NAME,Property:PROPERTY_NAME,Width:PIXEL_WIDTH :
+For this entry system will read source property name for the column from PROPERTY_NAME and will get diplay name for the column from owning type TYPE_NAME.
+Example : Type:WorkspaceObject,Property:object_name,Width:200
+2. Type:Key,Property:KEYNAME,Width:PIXEL_WIDTH :
+For this entry system will search for preference ChangeSummaryTableColumns_KEYNAME to retrieve source property names for the column.
+For example for ID column source property can be item_id for ItemRevision type and cpd0design_element_id for DesignElement type.
+Example : Type:Key,Property:ID,Width:250
+3. Type:NoType,Property:action,Width:PIXEL_WIDTH :
+This entry is to display &quot;ACTION&quot; column in Change Summary Table.
+Example : Type:NoType,Property:action,Width:150</preference_description>
+      <context name="Teamcenter">
+        <value>Key,ID</value>
+        <value>WorkspaceObject,object_name</value>
+        <value>NoType,action</value>
+        <value>Key,REVISION</value>
+        <value>PSOccurrence,qty_value</value>
+        <value>Type:Key,Property:ID,Width:250</value>
+        <value>Type:WorkspaceObject,Property:object_name,Width:250</value>
+        <value>Type:NoType,Property:action,Width:150</value>
+        <value>Type:Key,Property:REVISION,Width:80</value>
+        <value>Type:PSOccurrence,Property:qty_value,Width:80</value>
+        <value>Type:NoType,Property:compare,Width:80</value>
+        <value>Type:BOMLine,Property:bl_sequence_no,Width:80</value>
+        <value>Type:BOMLine,Property:bl_uom,Width:150</value>
+        <value>Type:BOMLine,Property:bl_occ_effectivity,Width:250</value>
+        <value>Type:BOMLine,Property:bl_formula,Width:250</value>
+        <value>Type:BOMLine,Property:bl_variant_condition,Width:250</value>
+        <value>Type:Key,Property:QTY,Width:80</value>
+        <value>Type:Key,Property:SEQ,Width:80</value>
+        <value>Type:Key,Property:UOM,Width:80</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

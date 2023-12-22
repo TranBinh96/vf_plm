@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="icm0.SUMMARYRENDERING" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Registers the Dataset type to be used for the summary rendering of Classification objects (internal type name icm0).
+The default value for this user preference is icm0Summary (Classification Summary).</preference_description>
+      <context name="Teamcenter">
+        <value>icm0Summary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

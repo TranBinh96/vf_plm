@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MECurrentTimeUnit" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the ID of the time unit (as defined in the MEAvailableTimeUnits preference) in which all new time data is displayed. Set this value using the Time pane in the ME section of the preferences interface for the change to take effect without restarting the application.
+Valid Values:
+Accepts a string as value that must be one of the out of the box time unit IDs listed below or one of the IDs from the MEAvailableTimeUnits preference. This value must be in English.
+second
+minute
+10th_min
+100th_min
+1000th_min
+hour
+day
+TMU
+MOD
+FAC</preference_description>
+      <context name="Teamcenter">
+        <value>second</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

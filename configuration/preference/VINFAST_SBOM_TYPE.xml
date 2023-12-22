@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_BOM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINFAST_SBOM_TYPE" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>User for Export Service Chapter</preference_description>
+      <context name="Teamcenter">
+        <value>Car</value>
+        <value>Escooter</value>
+        <value>EBus</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

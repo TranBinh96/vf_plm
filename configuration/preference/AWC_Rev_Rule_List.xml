@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_Rev_Rule_List" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the revision rules visible to the user in Active Workspace Search and Profile. These are the default revision rules for the user/session and do not apply to the revision rules in content. This preference overrides the list of all revision rules supported for a given user. Only revision rules accessible by the logged in user will be visible. The default value is empty, meaning that all the revision rules accessible by the user are displayed. Valid values are all the revision rules in the database. Example: &quot;Latest Working&quot;. Make sure the preference &quot;AWC_Rev_Rule_Selected&quot; is deleted if the first value of this preference has to be selected in AWC Client. Add a valid value to preference &quot;AWC_Rev_Rule_Selected&quot; if a specific revision rule in the list has to be selected. If the &quot;AWC_Rev_Rule_List&quot; preference is modified to remove the value matching the AWC_Rev_Rule_Selected value, delete the AWC_Rev_Rule_Selected preference.&quot;</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

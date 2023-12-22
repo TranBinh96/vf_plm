@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2012.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Purchase_cost.xml
+
+    Style sheet rendering for Form properties.
+=======================================================================
+-->
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General" >
+		<property name="vf6_material_costs"/>
+					<property name="vf6_fixtures"/>
+					<property name="vf6_supplier_eng_costs"/>
+					<property name="vf6_tooling_costs"/>
+					<property name="vf6_scrap_costs"/>
+					<property name="vf6_pu_sunk_costs"/>
+					<property name="vf6_purchasing_remarks"/>
+					<property name="vf6_feasibility_confirmed_p"/>
+					<property name="vf6_lead_time_p"/>
+		
+		
+		<label text= "NOTE: PLEASE ENTER ALL COSTS IN USD"/>
+    </page>
+	
+
+</rendering>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEGANTTDefaultDisplayMode" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the default display mode is used on startup of a Gantt chart viewer.
+Valid Values:
+show_calculated_duration_time - Displays the calculated startup time of a Gantt chart viewer using the calculated duration bar that appears on top of the duration bar of each level that has descendants.
+hide_calculated_duration_time - Hides the calculated startup time of a Gantt chart viewer. The calculated duration bar does not appear.</preference_description>
+      <context name="Teamcenter">
+        <value>show_calculated_duration_time</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

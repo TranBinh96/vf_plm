@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_table_header_style" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls the display of attribute names in the table page header.
+Valid Values:
+Short - Displays abbreviated attribute names.
+Long - Displays the full attribute name.
+ID - Display attribute IDs.</preference_description>
+      <context name="Teamcenter">
+        <value>Long</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

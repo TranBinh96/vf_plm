@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.RDV">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="EPM_tessellation_servers" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Used by the RDV-tessellation-handler handler to connect to the tessellation server. The handler sends messages to the server running on the specified host/port, the server processes each of the messages to perform tessellations. Setting this preference to None indicates there is no tessellation server and that tessellation occurs on the client itself.By default, the handler attempts to perform client-side tessellation.
+Valid Values:
+Valid port host name and port number.</preference_description>
+      <context name="Teamcenter">
+        <value>NONE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

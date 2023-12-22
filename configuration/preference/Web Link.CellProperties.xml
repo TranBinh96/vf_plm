@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Web Link.CellProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Its the cell roperties for the Web Link object in AWC</preference_description>
+      <context name="Teamcenter">
+        <value>object_name</value>
+        <value>object_desc</value>
+        <value>last_mod_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

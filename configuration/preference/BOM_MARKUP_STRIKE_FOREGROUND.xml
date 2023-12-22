@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOM_MARKUP_STRIKE_FOREGROUND" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the color of the strikethrough marking if a user deletes a BOM line or edits a property in Structure Manager or removes an object in a markup space in 4G Designer.
+Valid Values:
+Specify three color values in order of precedence in the format N1,N2,N3, where each value is an integer in the range 0 to 255. Enter color values in red, green, blue (RGB) code, where, for example, 0, 0, 0 represents the color black and 0, 255, 255 represents the color aqua.</preference_description>
+      <context name="Teamcenter">
+        <value>255,0,0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

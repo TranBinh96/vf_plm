@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CCCompositionTypesPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of types that should be opened as a composition in Collaboration Context application This is the rule applied when this type of component is sent to CC application.</preference_description>
+      <context name="Teamcenter">
+        <value>MEProcess</value>
+        <value>MEOP</value>
+        <value>MEProductBOP</value>
+        <value>MEGenericBOP</value>
+        <value>Mes0MESTXLibrary</value>
+        <value>Mes0MESTXFolder</value>
+        <value>Mes0MESTXElement</value>
+        <value>Mfg0MEStudy</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

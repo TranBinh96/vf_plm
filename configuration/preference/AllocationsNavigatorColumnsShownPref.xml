@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AllocationsNavigatorColumnsShownPref" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Preference that holds the list of column names that will be displayed in the Allocation tree table in CC Application</preference_description>
+      <context name="Teamcenter">
+        <value>allocation_line_name</value>
+        <value>allocation_line_type</value>
+        <value>allocation_line_reason</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

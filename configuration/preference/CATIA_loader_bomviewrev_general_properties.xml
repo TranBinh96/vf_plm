@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_loader_bomviewrev_general_properties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the BOMView revision&apos;ss properties list displayed in the General section of the Properties tab. Attributes display in the Loader based on the order defined in this preference.
+Possible values are real name of attribute and following keywords:
+- display.all_only: to display only all attributes in the tab (should be the only value defined in the preference)
+- display.separator: to display a horizontal separator in the tab</preference_description>
+      <context name="Teamcenter">
+        <value>display.all_only</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

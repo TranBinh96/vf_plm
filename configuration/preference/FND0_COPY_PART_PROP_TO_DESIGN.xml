@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.CAD BOM Alignment">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="FND0_COPY_PART_PROP_TO_DESIGN" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Enable the functionality to copy properties from Part BOM Line to Design BOM Line on Alignment.
+Values will have format of  Part_Property_name : Design_Property_name where Part_Property_name value from PartBOMLine will be copied to Design_Property_name value from DesignBOMLine.
+In case of invalid value format properties will not get copied and the operation of Alignment will continue.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

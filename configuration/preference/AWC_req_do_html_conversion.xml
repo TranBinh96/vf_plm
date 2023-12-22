@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_req_do_html_conversion" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Performs the html conversion of Word document during Import Specification in Systems Engineering.
+The default value is true (perform html conversion).</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

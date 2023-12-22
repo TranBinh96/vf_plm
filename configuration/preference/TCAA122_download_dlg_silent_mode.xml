@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAA122_download_dlg_silent_mode" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to suppress the document selector dialog for download operations.
+Possible values:
+0 - the dialog is never suppressed (Default)
+1 - the dialog is suppressed if all the conflicts are automatically resolved according to the current configuration of preferences TCAA122_download_dlg_conflicting_*_selection_mode</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

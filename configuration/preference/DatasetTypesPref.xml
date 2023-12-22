@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DatasetTypesPref" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the list of datasetypes to be shown from New-&gt;Dataset or a Open...-&gt;Dataset. This setting only applies to the Motif UI.</preference_description>
+      <context name="Teamcenter">
+        <value>UGMASTER</value>
+        <value>UGPART</value>
+        <value>Text</value>
+        <value>ACADDWG</value>
+        <value>ACADTMPL</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

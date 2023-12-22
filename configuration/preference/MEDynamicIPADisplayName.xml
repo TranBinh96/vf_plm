@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEDynamicIPADisplayName" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the property of the predecessor in the given Process Structure to be considered when generating the name of the In-Process Assembly. 
+A valid value is one of the following Plant BOP Line properties: &quot;bl_item_object_name&quot;, &quot;bl_rev_object_name&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>bl_rev_object_name</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

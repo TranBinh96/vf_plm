@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_ReviseTogether" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Allows a TC_DrawingOf relation between datasets to be propagated when the corresponding TC_DrawingOf relation between the Item Revision and the Drawing Revision are revised together. When user revises an Item Revision side object with intention to revise together its related Drawing Revision (as defined through BMIDE setting of the Deep Copy rule), the value of TC_ReviseTogether indicates if performing revise together on the dataset level is necessary (true) or not (false). When selecting a Drawing Revision and revising it, both TC_DrawingOf and TC_DrawingUsing relations are propagated regardless if TC_ReviseTogether is set to true or false.
+It is necessary to create a Deep Copy Rule through BMIDE to revise together an Item Revision and its Drawing Revision.
+Here is an example of the parameters for such a Deep Copy Rule as defined in BMIDE:
+Operation Type              : Revise
+Target Type                 : ItemRevision
+Relation Type               : TC_DrawingOf
+Object Type                 : Drawing Revision
+Condition                   : isTrue
+Action                      : ReviseAndRelateToLatest
+Is Target Primary           : false
+Copy Properties on Relation : true
+Required                    : true
+Secured                     : false</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

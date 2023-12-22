@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: Fnd0SealantTableRowCreate.xml
+
+    Style sheet rendering for Sealant Table Row creation.
+=======================================================================
+-->
+
+<rendering>
+    <page title="Sealants" titleKey="tc_xrt_Sealants">
+      <property name="fnd0Sealant"/>
+      <property name="fnd0ApplicationProcess"/>
+    </page>
+</rendering>
+

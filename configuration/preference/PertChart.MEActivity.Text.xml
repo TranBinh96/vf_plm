@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PertChart.MEActivity.Text" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the text to be displayed in the PERT node of type MEActivity.
+The format for a valid entry are several segments structured like this: &lt;free-text&gt;[property-name].
+&lt;free-text&gt; is any text except square brackets ([ and ]). The text can be empty. Use the formula editor (Edit -&gt; Options -&gt; Manufacturing -&gt; Pert tab) to edit the values of the preference.
+&lt;property-name&gt; is a valid property name for MEActivity object. It must be wrapped in square brackets, e.g. [object_name].</preference_description>
+      <context name="Teamcenter">
+        <value>[me_cl_object_name]</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

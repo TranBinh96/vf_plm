@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Reports">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_RA_server_parameters" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Configures the Teamcenter reporting and analytics (Reporting and Analytics) parameters at the site level: server host, port, and application name. Use Reporting and Analytics, powered by eQube, to view, modify, and create reports.
+Valid Values:
+Accepts multiple strings as values in the following format:
+Host:application-server-host-name
+Port:port-number
+Context:application-context
+ServletName:eQube-servlet-name
+ServiceDashboard:action=url of the Reporting and Analytics dashboard</preference_description>
+      <context name="Teamcenter">
+        <value>Protocol:http</value>
+        <value>Host:10.128.11.35</value>
+        <value>Port:8090</value>
+        <value>Context:TCRA</value>
+        <value>ServletName:integration</value>
+        <value>ServiceDashboard:action=Dashboard</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_control_wildcard" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Control the number of required characters before a wildcard character is allowed. The default is 0, which allows wildcard as the first character. For example, set to 2 means &quot;AB*&quot; is allowed and &quot;A*&quot; or &quot;*&quot; is not allowed. This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

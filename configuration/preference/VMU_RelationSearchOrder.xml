@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Configuration.DIS Adapter">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VMU_RelationSearchOrder" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the ordered list of relations used for searching relations between visualization datasets and item/item revisions. Any such new relation needs to be added to the list.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_Rendering</value>
+        <value>IMAN_specification</value>
+        <value>IMAN_Motion</value>
+        <value>IMAN_3D_snap_shot</value>
+        <value>IMAN_manifestation</value>
+        <value>TC_Attaches</value>
+        <value>SimplifiedRendering</value>
+        <value>IsM0SnapshotBeforeFix</value>
+        <value>IsM0SnapshotAfterFix</value>
+        <value>CMReferences</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

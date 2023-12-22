@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TaskType_OpenByName_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of properties displayed as columns for Task objects in the &quot;Open By Name&quot; command of the Manufacturing Process Planner (MPP) application.
+Valid values are property internal names for the type Task.</preference_description>
+      <context name="Teamcenter">
+        <value>TaskType.tasktype_name</value>
+        <value>TaskType.object_string</value>
+        <value>TaskType.creation_date</value>
+        <value>TaskType.approver_roles</value>
+        <value>TaskType.authorizer_roles</value>
+        <value>TaskType.IMAN_based_on</value>
+        <value>TaskType.archive_date</value>
+        <value>TaskType.backup_date</value>
+        <value>TaskType.last_mod_date</value>
+        <value>TaskType.description</value>
+        <value>TaskType.fnd0DigitalSignAuditLogs</value>
+        <value>TaskType.fnd0DSState</value>
+        <value>TaskType.followup_action</value>
+        <value>TaskType.last_mod_user</value>
+        <value>TaskType.awp0CellProperties</value>
+        <value>TaskType.owning_user</value>
+        <value>TaskType.owning_site</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

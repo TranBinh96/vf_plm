@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEShowHideUnconfiguredAll" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the visibility and content of a rich client selector for show or hide all unconfigured actions when the Manufacturing application is opened or a new BOM window is created.
+Valid Values:
+Individual - The selector is not visible.
+Both - The selector is visible.
+All - The selector is visible, but the show unconfigured toggle actions are not visible on the toolbar.</preference_description>
+      <context name="Teamcenter">
+        <value>Individual</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

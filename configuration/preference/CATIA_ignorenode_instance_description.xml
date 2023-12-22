@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_ignorenode_instance_description" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determine Which action should be proceed when the instance description of an occurrence in CATIA contains the IgnoreNode key word.
+If the preference is set to true, if the instance description of an occurrence in CATIA contains IgnoreNode key word, the instance won&apos;t be traited
+If the preference is set to false,  IgnoreNode key word will be taking into account for broken icon only.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

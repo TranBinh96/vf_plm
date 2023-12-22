@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PLMXML_log_file_content" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines the amount of information added to the PLM XML translation log. During large PLM XML translations, full logging can consume significant resources and generates a large memory footprint. Optimize performance by tuning the log file behavior through this preference.
+The PLM XML translation log is always generated, enabling analysis of translation performance, and signaling you when the translation is complete. The minimum amount of information you can tune the system to provide is the translation header and a list of any errors generated.
+Valid Values:
+basic - Logs the translation header and a list of any errors generated. This setting generates the least overhead for translation reporting.
+summary - Logs the translation header, summary, warnings, and a list of any errors generated.
+detailed - Logs the translation header, summary, warning, errors, and a closure rule analysis report. This setting generates the most overhead for translation reporting.</preference_description>
+      <context name="Teamcenter">
+        <value>summary</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

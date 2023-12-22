@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMCN_release_statuses" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of mutually exclusive Release Statuses internal names that must be associated to a ChangeNoticeRevision associated to a Bill of Material (BOM) Window.
+There must be only one of these statuses on the ChangeNoticeRevision at any stage. 
+The default values are &quot;Pending&quot; and &quot;TCM Released&quot;. 
+These could be replaced with appropriate values as per business needs: e.g.if using the cmtmes template, these could be replaced with &quot;Mei0PendingRelease&quot;, &quot;Mei0Released&quot;, &quot;Mei0WorkInProgress&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Pending</value>
+        <value>TCM Released</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

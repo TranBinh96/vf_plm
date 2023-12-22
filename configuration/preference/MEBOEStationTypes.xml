@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEBOEStationTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the types to be designated as Bill of Equipment (BOE) Station types. The values only need to change if new subclasses have been derived from MEWorkArea to represent BOE station types.
+Valid values are type internal names.
+Note:Teamcenter needs to be restarted for any change to take effect.</preference_description>
+      <context name="Teamcenter">
+        <value>MEStation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_remove_file_on_check_in" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates if the system has to delete the exported files in the OS while performing a Check-in on a dataset which has been checked-out with &quot;Export&quot; option. This preference is also used to determine if the exported files in the OS should be deleted if the user cancels the Check-Out. Valid values are 0/1.
+0 - Do not remove the exported OS files on Check-In.
+1 - Remove the exported OS files on Check-In.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

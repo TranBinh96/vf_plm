@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="CAPA_relatedcrs_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Contains list of column names shown on Related crs tab</preference_description>
+      <context name="Teamcenter">
+        <value>item_id</value>
+        <value>object_name</value>
+        <value>object_desc</value>
+        <value>owning_user</value>
+        <value>last_mod_date</value>
+        <value>creation_date</value>
+        <value>project_ids</value>
+        <value>object_type</value>
+        <value>item_revision_id</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

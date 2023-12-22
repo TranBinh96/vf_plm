@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Supplier Collaboration">
+    <category_description>Supplier Collaboration Preferences</category_description>
+    
+               <preference name="SC_ExportOptionSet_List" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the list of Export Option Sets applicable for briefcase and non briefcase Design Data Exchange and is displayed in the &quot;Overview&quot; tab of the &quot;Exchange View&quot; in the Supplier Collaboration application. User must have value(s) for this preference to perform forward trip for Design Data Exchange.
+Option sets applicable for briefcase export should have prefix &quot;bcz_&quot;.
+Option sets applicable for non briefcase should have prefix &quot;nonbcz_&quot;.
+Option sets applicable for managed briefcase should have prefix &quot;mngdbcz_&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>nonbcz_TIEUnmanagedExportForCATIA</value>
+        <value>nonbcz_TIEConfiguredExportDefault</value>
+        <value>bcz_TIEUnmanagedExportForNX</value>
+        <value>mngdbcz_MfgConfiguredExportDefault</value>
+        <value>mngdbcz_TIEConfiguredLLBCZExportDefault</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

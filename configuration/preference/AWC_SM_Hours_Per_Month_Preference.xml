@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="AWC_SM_Hours_Per_Month_Preference" type="Double" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the number of work hours per month, as used for calculating calendar end dates.
+The value can vary depending on the site (e.g 20 days * 8 hours for the US, 20 days * 7.5 hours for the UK).
+The default value is 160.</preference_description>
+      <context name="Teamcenter">
+        <value>160</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

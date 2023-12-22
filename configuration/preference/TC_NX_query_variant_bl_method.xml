@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_NX_query_variant_bl_method" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Indicates the query mechanism to be used to get the list of variant configured components. Valid values are where_used/traverse. where_used - Optimum for big assemblies and components are NOT widely used across assemblies. traverse - Useful for less bigger assemblies with components widely used across many other assemblies. This is a site preference.</preference_description>
+      <context name="Teamcenter">
+        <value>where_used</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

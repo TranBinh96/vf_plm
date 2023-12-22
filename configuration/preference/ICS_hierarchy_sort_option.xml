@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_hierarchy_sort_option" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines how the classification hierarchy tree is sorted and displayed. The tree is sorted and displayed alphanumerically in ascending order based on the value assigned.
+Valid Values:
+-600 - Class ID/subclass ID. Groups are treated as classes.
+-607 - Name.
+-612 - User1 property
+-613 - User2 property</preference_description>
+      <context name="Teamcenter">
+        <value>-600</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

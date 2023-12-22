@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEDelegatedOccurrenceProperties" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of internal BOM Line properties to be delegated for lines assigned from the Product structure to the Bill Of Process (BOP) structure.
+Only the following properties are supported: bl_occ_effectivity (Occurrence Effectivity), bl_formula (Variant Formula), bl_quantity (Quantity), bl_plmxml_abs_xform (Absolute Transformation Matrix), bl_occurrence_name (Occurrence Name), bl_abs_occ_all_ids (ID In Context All Levels), bl_variant_condition (Variant Conditions), bl_all_notes (All Notes).</preference_description>
+      <context name="Teamcenter">
+        <value>bl_occ_effectivity</value>
+        <value>bl_formula</value>
+        <value>bl_quantity</value>
+        <value>bl_plmxml_abs_xform</value>
+        <value>bl_occurrence_name</value>
+        <value>bl_variant_condition</value>
+        <value>bl_all_notes</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

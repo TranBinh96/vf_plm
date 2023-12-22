@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="CAPA Management">
+    <category_description>Teamcenter Preferences</category_description>
+    
+               <preference name="Propagate_IssueProps_ValuesTo_CRProps" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>List of Issue properties whose values to be stamp on properties of CR at the time of deriving.</preference_description>
+      <context name="Teamcenter">
+        <value>object_name:object_name</value>
+        <value>object_desc:object_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

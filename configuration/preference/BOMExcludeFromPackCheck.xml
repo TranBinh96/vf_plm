@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOMExcludeFromPackCheck" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines which attributes are ignored during the default pack check. For example, set this preference to seqno to allow the exclusion of find numbers from the BOM line pack check.
+Valid Values:
+seqno - Excludes find numbers from the BOM line pack check. Allows BOM lines with distinct find numbers to be packed.
+none - No attributes are ignored during the default pack check. BOM lines must have the same part number and the find number to be packed.</preference_description>
+      <context name="Teamcenter">
+        <value>none</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

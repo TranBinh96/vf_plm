@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MSE_load_related_product_process_plant" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Automatically loads related structures (product, plant or process) when a product, plant or process is opened in Manufacturing Process Planner.
+Valid Values:
+true - Related structures are automatically loaded when opening a structure in Manufacturing Process Planner.
+false - Related structures are not loaded when opening a structure in Manufacturing Process Planner.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Import_Spec_Info_EXCLUDETYPES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the specification subclasses that are restricted from the Spec type list of the Import Spec wizard. These list of types are also excluded from the types specified in the TcAllowedImportExportPeakSpecObject preference.
+Valid Values:
+Accepts one or more strings as values. Each string must be the internal name of a valid subclass of the Specification business object.</preference_description>
+      <context name="Teamcenter">
+        <value>DC_Publication</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

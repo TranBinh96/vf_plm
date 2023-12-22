@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<!-- Default style sheet for displaying Schedule Info Panel in Revolution Client. -->
+
+<rendering>
+    <header>
+        <property name="object_string"/>
+    </header>
+    <page title="Planning Properties" titleKey="tc_xrt_PlanningProperties">
+        <section >
+            <property name="object_name" />
+                  <property name="object_desc" />
+                  <property name="fnd0PriorityString" />
+                  <property name="saw1BudgetedEffort"/>
+                  <property name="saw1SSTWorkEffort" />
+                  <property name="start_date" />
+                  <property name="finish_date" />
+                  <break></break>
+                  <property name="fnd0ScheduleTypeString" modifiable="false"/>
+        </section>
+    </page>
+    <page title="Execution Properties" titleKey="tc_xrt_ExecutionProperties">
+       <section >
+         <property name="fnd0state"/>
+         <property name="fnd0status"/>
+         <property name="saw1SSTWorkComplete" />
+         <property name="fnd0ForecastStartDate"/>
+         <property name="fnd0ForecastEndDate"/>
+         <property name="fnd0SSTCompletePercent" modifiable="false" />
+         <property name="fnd0SSTActualStart" modifiable="false"/>
+         <break></break>
+         <property name="fnd0SSTActualFinish" modifiable="false"/>
+        </section >
+    </page>
+    <page title="Flags" titleKey="tc_xrt_Flags">
+       <section >
+         <property name="published"/>
+         <property name="is_public"/>
+         <property name="is_template"/>
+         <property name="fnd0IsExternal" modifiable="false"/>
+         <property name="dates_linked"/>
+         <property name="percent_linked"/>
+         <property name="notifications_enabled"/>
+         <break></break>
+         <property name="end_date_scheduling"/>
+       </section>
+    </page>
+    <page title="Stakeholders" titleKey="tc_xrt_Stakeholders">
+        <section >
+           <property name="owning_user" />
+          <property name="customer_name"/>
+          <property name="customer_number"/>
+        </section >
+    </page>
+</rendering>

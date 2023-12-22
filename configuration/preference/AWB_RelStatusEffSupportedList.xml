@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace.BOM">
+    <category_description>Active Workspace BOM specific preferences.</category_description>
+    
+               <preference name="AWB_RelStatusEffSupportedList" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of Business Object types for which the &quot;Revision&quot; command is visible.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

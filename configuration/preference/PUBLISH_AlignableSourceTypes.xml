@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PUBLISH_AlignableSourceTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which types are PublishLink sources. A PublishLink copies information from a source occurrence to a target occurrence. 
+For example, transform data is copied from a design occurrence to a part occurrence.
+Valid Values:
+Accepts multiple strings values. Each string must be a valid item type. The string can also contain subtypes of the item. For example:
+Item,Design</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+        <value>Design</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

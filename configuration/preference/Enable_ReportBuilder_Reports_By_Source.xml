@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Reports">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Enable_ReportBuilder_Reports_By_Source" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the reports displayed in the Tools-&gt;Reports-&gt;Report Builder Reports menu.
+Valid Values:
+Accepts one or more strings as values. Any invalid string is ignored.</preference_description>
+      <context name="Teamcenter">
+        <value>Teamcenter</value>
+        <value>TcRA</value>
+        <value>Office Template</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ADA_allow_users_in_any_group" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the default behavior when determining if a user is associated with an ADA License.
+Valid values are:
+* true:  Will match a user on an ADA License independent of the group attached to the license.
+* false: Will match a user on an ADA License only if they have logged into Teamcenter with the group attached to the license. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

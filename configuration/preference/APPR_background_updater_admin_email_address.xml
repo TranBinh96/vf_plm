@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Appearance Configuration.Background">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="APPR_background_updater_admin_email_address" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Whom to send emails regarding failure to process an appearance update package in background mode.
+Special values are:
+- $USER meaning the Teamcenter user that the appearance updater is logged in as
+- $OSUSER meaning the OS user running the appearance updater
+As shipped, the value is $OSUSER, to ensure that at least someone is notified.</preference_description>
+      <context name="Teamcenter">
+        <value>$OSUSER</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

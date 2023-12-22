@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.Configuring CAE">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CAE_file_download_default_conflict_resolution_option" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the options available when there is a name conflict while downloading a file from a dataset. The system provides an interactive dialog while the other options are automatically applied.
+Valid Values:
+Overwrite: This option will overwrite the file on the desktop with the file in Teamcenter.
+Rename and Download: This option will rename the file being downloaded from Teamcenter and the download that file.
+Skip: This option will skip downloading the file from Teamcenter.</preference_description>
+      <context name="Teamcenter">
+        <value>Overwrite</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

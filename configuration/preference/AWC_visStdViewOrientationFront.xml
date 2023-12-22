@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_visStdViewOrientationFront" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the camera orientation for the Front view for the Viewer in the Active Workspace client.
+Back&apos;s camera orientation value will be set opposite of Front.
+Valid values are:
+* +x : Sets the Front view orientation to +x
+* +y : Sets the Front view orientation to +y. This is the default value.
+* +z : Sets the Front view orientation to +z
+* -x : Sets the Front view orientation to -x
+* -y : Sets the Front view orientation to -y
+* -z : Sets the Front view orientation to -z</preference_description>
+      <context name="Teamcenter">
+        <value>+y</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

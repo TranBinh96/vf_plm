@@ -1,0 +1,92 @@
+ <Master_Data>
+ <mat:MT_MATERIAL_PLM_REQ>
+         <DATA>
+            <data erp_tag="MATERIALNUMBER" plm_tag="item_id" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="SAP_PLANT" plm_tag="vf4_plant" type="String" relation="" mandatory="Yes"></data> <!--fixed code to get from plant form, not from revision or item -->
+			<data erp_tag="OLDMATERIALNUMBER" plm_tag="" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="PART_TYPE" plm_tag="" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="REVISIONNUMBER" plm_tag="item_revision_id" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="DESCRIPTION" plm_tag="object_name" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="DESCRIPTIONVIETNAMESE" plm_tag="vl5_viet_description" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="UOM" plm_tag="uom_tag" type="String" relation="items_tag,VF4_Design" mandatory="Yes"></data>
+			<data erp_tag="NETWEIGHT" plm_tag="vl5_net_weight" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="GROSSWEIGHT" plm_tag="vl5_gross_weight" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="MAKEBUY" plm_tag="vf4_make_buy" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="MATERIALTYPE" plm_tag="vl5_material_type" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="PPAP" plm_tag="" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="FUNCTIONALCLASS" plm_tag="vl5_func_code" type="String" relation="" mandatory="No"></data><!--not existed on vf 3-->
+			<data erp_tag="APPROVALCLASS" plm_tag="vl5_approval_code" type="String" relation="" mandatory="No"></data>
+			<data erp_tag="MCN" plm_tag="" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="SEQUENCE" plm_tag="" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="TRACEABLEPART" plm_tag="vf4_item_is_traceable" type="String" relation="items_tag" mandatory="No"></data>
+			<data erp_tag="ACTION" plm_tag="" type="String" relation="" mandatory="Yes"></data>
+			<data erp_tag="GM_PART" plm_tag="vf8_GmNumber" type="String" relation="items_tag,Vf8_AcarPart" mandatory="No"></data> <!-- why VF8 here?? -->
+			<data erp_tag="BRDCODE" plm_tag="vf8_Broadcast" type="String" relation="" mandatory="No"></data><!-- why VF8 here?? -->
+		</DATA>
+</mat:MT_MATERIAL_PLM_REQ>
+<bom:MT_BOM_PLM_REQ>
+	<DATA>
+		<data erp_tag="PLANTCODE" plm_tag="vf4_plant" type="String" objectType="" relation="items_tag,VF4_Design:VF4_plant_form_relation,VF4_plant_form" mandatory="Yes"></data>
+		<data erp_tag="PARENTPART" plm_tag="bl_item_item_id" type="String" objectType="" relation="Parent" mandatory="Yes"></data>
+		<data erp_tag="BOMLINEID" plm_tag="VF4_bomline_id" type="String" objectType="" relation="" mandatory="Yes"></data>
+		<data erp_tag="CHILDPART" plm_tag="bl_item_item_id" type="String" objectType="" relation="" mandatory="Yes"></data>
+		<data erp_tag="MCN" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		<data erp_tag="QUANTITY" plm_tag="bl_quantity" type="String" objectType="" relation="" mandatory="Yes"></data>
+		<data erp_tag="SEQUENCE" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		<data erp_tag="ACTION" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+     </DATA>
+</bom:MT_BOM_PLM_REQ>
+<veh:MT_PLM_VEHICLEBOM_SEND>
+         <DATA>
+		 <data erp_tag="PLATFORM" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="MODELYEAR" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="PLANT" plm_tag="vf4_plant" type="String" objectType="" relation="items_tag,VF4_Design:VF4_plant_form_relation,VF4_plant_form" mandatory="Yes"></data>
+		 <data erp_tag="MAINGROUP" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="SUBGROUP" plm_tag="bl_item_item_id" type="String" objectType="BOMLINE" relation="Parent" mandatory="Yes"></data>
+		 <data erp_tag="GROUPDESC" plm_tag="VF3_module_name" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="BOMLINEID" plm_tag="VF4_bomline_id" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="PARTNO" plm_tag="bl_item_item_id" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="QUANTITY" plm_tag="bl_quantity" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="OPTION" plm_tag="bl_formula" type="String" objectType="" relation="" mandatory="No"></data>
+		 <data erp_tag="MCN" plm_tag="" type="String" relation="" mandatory="Yes"></data>
+		 <data erp_tag="SEQUENCE" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="ACTION" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+         </DATA>
+ </veh:MT_PLM_VEHICLEBOM_SEND>
+  <veh:MT_VCARequest>
+         <DATA>
+		 <data erp_tag="PLATFORM" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="MODELYEAR" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="SAPPLANT" plm_tag="vf4_plant" type="String" objectType="" relation="items_tag,VF4_Design:VF4_plant_form_relation,VF4_plant_form" mandatory="Yes"></data>
+		 <data erp_tag="MAINGROUP" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="SUBGROUP" plm_tag="bl_item_item_id" type="String" objectType="Operation Revision" relation="Parent" mandatory="Yes"></data>
+		 <data erp_tag="GROUPDESCRIPTION" plm_tag="VF3_module_name" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="BOMLINEID" plm_tag="VF4_bomline_id" type="String" objectType="BOMLINE" relation="" mandatory="Yes"></data>
+		 <data erp_tag="WORKSTATION" plm_tag="bl_item_item_id" type="String" objectType="Process Station Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="LINESUPPLYMETHOD" plm_tag="vf5_line_supply_method" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="BOPID" plm_tag="bl_rev_item_id" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="SELECTIONSTRING" plm_tag="bl_formula" type="String" objectType="Operation Revision" relation="" mandatory="No"></data>
+		 <data erp_tag="MESBOPINDICATOR" plm_tag="vf4_mes_bop_indicator_op" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="SEQUENCE" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="ACTION" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="FAMILY_ADDR" plm_tag="" type="String" objectType="" relation="" mandatory="No"></data>
+		 <data erp_tag="L_R_HAND" plm_tag="" type="String" objectType="" relation="" mandatory="No"></data>
+		 <data erp_tag="REVISION" plm_tag="bl_rev_item_revision_id" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+       </DATA>
+      </veh:MT_VCARequest>
+	  <ass:MT_ACA_PLM_SEND>
+         <DATA>
+		 <data erp_tag="SAPPLANT" plm_tag="vf4_plant" type="String" objectType="" relation="items_tag,VF4_Design:VF4_plant_form_relation,VF4_plant_form" mandatory="Yes"></data>
+		 <data erp_tag="TOPLEVELPART" plm_tag="bl_item_item_id" type="String" objectType="BOMLINE" relation="Parent" mandatory="Yes"></data>
+		 <data erp_tag="HEADERPART" plm_tag="bl_item_item_id" type="String" objectType="BOMLINE" relation="Parent" mandatory="Yes"></data>
+		 <data erp_tag="BOMLINEID" plm_tag="VF4_bomline_id" type="String" objectType="BOMLINE" relation="" mandatory="Yes"></data>
+		 <data erp_tag="WORKSTATION" plm_tag="bl_item_item_id" type="String" objectType="Process Station Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="LINESUPPLYMETHOD" plm_tag="vf5_line_supply_method" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="BOPID" plm_tag="bl_item_item_id" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="MESBOPINDICATOR" plm_tag="vf4_operation_type" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+		 <data erp_tag="SEQUENCE" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="ACTION" plm_tag="" type="String" objectType="" relation="" mandatory="Yes"></data>
+		 <data erp_tag="REVISION" plm_tag="bl_rev_item_revision_id" type="String" objectType="Operation Revision" relation="" mandatory="Yes"></data>
+         </DATA>
+      </ass:MT_ACA_PLM_SEND>
+  </Master_Data>

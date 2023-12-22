@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@<COPYRIGHT>@
+================================================================================
+Copyright 2015.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Filename: Scw0DeclarationDocumentCreate.xml
+
+Default activeworkspace stylesheet for supplier docuemtn create.
+-->
+<rendering>
+  <page>
+    <section>
+      <property name="item_id" renderingHint="textfield"/>
+      <property name="revision:item_revision_id"/>
+      <property name="object_name"/>
+      <property name="object_desc"/>
+
+      <property name="revision:DocumentTitle"/>
+      <property name="revision:DocumentAuthor"/>
+      <property name="revision:DocumentSubject"/>
+      <property name="scp0OwningObjectRef"/>
+    </section>
+  </page>
+</rendering>

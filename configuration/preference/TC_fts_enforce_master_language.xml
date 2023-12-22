@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Full Text Search">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_fts_enforce_master_language" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the language used to index unlocalized properties in cases where the site master language should not be used. For example, if you set an unlocalized locale to one locale, such as ja_JP, but the SiteMasterLanguage global constant is set to another locale, such as en_US, the full-text search engine tries to use the SiteMasterLanguage, English, to index Japanese characters. In this case, set the TC_fts_enforce_master_language value to japaneseUTF8.
+Valid Values:
+Accepts one of the following as a single string as a value.
+czechUTF8
+germanUTF8
+englishUTF8
+spanishUTF8
+frenchUTF8
+italianUTF8
+japaneseUTF8
+koreanUTF8
+polishUTF8
+portugueseUTF8
+russianUTF8
+chineseUTF8</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

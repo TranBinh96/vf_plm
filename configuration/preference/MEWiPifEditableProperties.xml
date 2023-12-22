@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEWiPifEditableProperties" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>This is deprecated starting at release Teamcenter 9.0.0. Specifies the list of PIF properties that can be edited via the properties dialog of the Work Instructions view. Each string will be in the following format:
+PIF_type:att1,att2,...</preference_description>
+      <context name="Teamcenter">
+        <value>------</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

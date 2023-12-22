@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context.Filter Configuration">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextQPLServers" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Preference setting for Global QPL Server. This should be set to &lt;hostname&gt;:&lt;portno&gt; hostname corresponds to the machine where the  QPL Server runs and portno corresponds to the  port where it listens to requests. Default port number is 14730.</preference_description>
+      <context name="Teamcenter">
+        <value>&lt;your qpl sever 1&gt;:&lt;port no&gt;</value>
+        <value>&lt;your qpl sever 2&gt;:&lt;port no&gt;</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="10.0">
+
+  <category name="VINF_Sourcing">
+    <category_description>No description available for this category.</category_description>
+
+    <preference name="VF_SOURCING_PROGRAM_2_USER_GROUP" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>VINF_Sourcing</preference_description>
+      <context name="Teamcenter">
+        <value>SCP.Car Program.VINFAST=VFe34</value>
+        <value>Modules Specialist.VINFAST=VF3;VFe32;VFe33;VFe34;VFe34S;VFe35/VF35;VFe36/VF36;EBUS10;EBUS12</value>
+        <value>CUV.Car Program.VINFAST=VF3;VFe32;VFe33;VFe34;VFe34S;VFe35/VF35;VFe36/VF36</value>
+        <value>Service Technic.After sale=AF S&amp;S;AFS EBUS;AFS VFe32;AFS VFe33;AFS VFe34;AFS VFe34S;AFS VFe35;AFS VFe36;AFS V8;VF3;VFe32;VFe33;VFe34;VFe34S;VFe35/VF35;VFe36/VF36;AFS EScooter</value>
+        <value>Emotor.Car Program.VINFAST=Emotor;VFe33;VF3;VFe33;VFe34;VFe34S;VFe35/VF35;VFe36/VF36;EBUS10;EBUS12;VFe32</value>
+        <value>Car Battery.Battery Program.VINFAST=BP VFe32;BP VFe33;BP VFe34;BP VF7;BP VFe35/VF35;BP VFe36/VF36;VFe36/VF36;VFe35/VF35;BP EScooter;BP LFP Escooter;BP Escooter KLN;BP Escooter 12V;BP Escooter 48V;BP Escooter 72V;BP ESS PowerWall;BP Golf cart;ESS;ESS 20 FT;ESS 20 FT 1500V</value>
+        <value>EDAG.VFx36.Car Program.VINFAST=VFe36/VF36</value>
+        <value>VFe32_e33.Car Program.VINFAST=VFe32;VFe33;VFe34S</value>
+        <value>InHouse_3IN1.Car Program.VINFAST=3IN1;CPDU</value>
+        <value>dba=3IN1;AFS EBUS;AF S&amp;S;AFS VFe34;AFS VFe35;AFS VFe36;AFS V8;AFS EBIKE;BP Escooter KLN;BP ESS PowerWall;BP Golf cart;BP LFP Escooter;BP Escooter 48V;BP Escooter 72V;ESS;BP VFe32;BP VFe33;BP VFe34;BP VFe35/VF35;BP VFe36/VF36;Cell Gen 1/1.5;Cell Gen 1.6;Cell Gen 1.7;Cell Gen 2;Cell Gen 6;Cell Gen 5.1_Prismatic;Cell Gen 5.2_Prismatic;Cell Gen PT_Cylindrical;CPDU;DCDC;EBUS10;EBUS12;Emotor;Emotor Scooter;Home Charger;HMI;MCU;MHU;IPDU;Portable Charger;SCU;TESTING;VCU;VF New;VF3;VFe32;VFe33;VFe34S;VFe35/VF35;VFe36/VF36;V5 CITY LFP;V5 LITE LFP;V7 SPORT LFP;V9 SPORT LFP;XGW</value>
+        <value>VFe3x234S.Car Program.VINFAST=VFe32;VFe33;VFe34S;CPDU;Home Charger;Portable Charger;MCU;SCU;DCDC;HMI;VCU;IPDU</value>
+        <value>Engineering.Scooter=V5 CITY LFP;V5 LITE LFP;V7 SPORT LFP;V9 SPORT LFP;VF New;NB1;NC1;VF NEW GSM;VF NEW 2024;V5 LITE LFP 2024;VK CITY; VK SPORT;V5 CITY</value>
+        <value>EBUS.Bus Program.VINFAST=EBUS10;EBUS12</value>
+        <value>VFe32.Car Program.VINFAST=VFe32</value>
+        <value>Cell Program.VINES=Cell Gen 1/1.5;Cell Gen 1.6;Cell Gen 1.8;Cell Gen 2;Cell Gen 6;Cell Gen 5.1_Prismatic;Cell Gen 5.2_Prismatic;Cell Gen PT_Cylindrical</value>
+        <value>PEP Center.VINFAST=CPDU;Home Charger;Portable Charger;MCU;SCU;DCDC;HMI;VCU;IPDU</value>
+        <value>Emotor.Scooter=Emotor Scooter</value>
+        <value>MHU.VINFAST=MHU;XGW</value>
+        <value>VF89_Premium.Car Program.VINFAST=VFe35/VF35;VFe36/VF36</value>
+        <value>QSC.VINFAST=VFe35/VF35;VFe36/VF36</value>
+        <value>VF3.Car Program.VINFAST=VF3</value>
+        <value>AFS.HEXAGON.EBUS.Bus Program.VINFAST=AFS EBUS</value>
+        <value>Service Technic.Scooter=AFS EScooter;AFS EBIKE</value>
+      </context>
+    </preference>
+
+  </category>
+</preferences>

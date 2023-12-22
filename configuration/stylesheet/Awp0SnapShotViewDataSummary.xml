@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2015.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<rendering xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLRenderingStylesheet_Schema.xsd">
+    <header>
+        <image source="type"/>
+        <property name="owning_user"/>
+        <property name="last_mod_date"/>
+        <property name="release_status_list"/>
+        <property name="object_type"/>
+    </header>
+    <page titleKey="tc_xrt_Overview">
+        <column width="35%">
+            <section titleKey="tc_xrt_properties">
+                <property name="item_id" renderingHint="label"/>
+                <property name="item_revision_id" renderingHint="label"/>
+                <property name="object_name"/>
+                <property name="object_desc"/>
+                <property name="object_type"/>
+                <property name="release_status_list" renderingHint="label"/>
+                <property name="date_released" renderingHint="label"/>
+                <property name="effectivity_text" renderingHint="label"/>
+                <break/>
+                <property name="owning_user" renderingHint="objectlink" modifiable="false"/>
+                <property name="owning_group" renderingHint="objectlink" modifiable="false"/>
+                <property name="last_mod_user"/>
+                <property name="checked_out" renderingHint="label"/>
+                <property name="checked_out_user"/>
+                <command commandId="com.teamcenter.rac.properties" titlekey="tc_xrt_moreProperties"/>
+            </section>
+            <section titleKey="tc_xrt_SnapshotContext">
+                 <objectSet source="fnd0ContextObjects.ItemRevision" defaultdisplay="listDisplay" sortby="object_string" sortdirection="ascending">
+                    <listDisplay>
+                        <property name="object_string"/>
+                        <property name="object_type"/>
+                        <property name="last_mod_date"/>
+                        <property name="release_status_list"/>
+                        <property name="owning_user"/>
+                    </listDisplay>
+                    <thumbnailDisplay/>
+                    <tableDisplay/>
+                </objectSet>
+                <command commandId="com.siemens.splm.clientfx.tcui.xrt.showObject"  renderingHint = "commandbutton"/>
+            </section>
+        </column>
+        <column width="65%">
+            <section titleKey="tc_xrt_Preview">
+                <inject type="dataset" src="Awp0GalleryViewer" module="js/aw-include.directive"/>
+            </section>
+            <view name="actions">
+                <command actionKey="reviseAction" commandId="com.teamcenter.rac.revise"/>
+            </view>
+        </column>
+    </page>
+    <page titleKey="tc_xrt_jt_viewer">
+        <image source="preview"/>
+    </page>
+</rendering>

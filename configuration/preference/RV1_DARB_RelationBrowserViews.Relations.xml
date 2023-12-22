@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="DecisionApps.RelationBrowser">
+    <category_description>Preferences for Decision Apps Relation Browser.</category_description>
+    
+               <preference name="RV1_DARB_RelationBrowserViews.Relations" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of view names for &quot;Relations&quot; tab in the RelationBrowser client.
+The view names are defined in the Relation Browser UI configuration file, which is stored in the dataset named by the value of preference &quot;RV1_DARB_UI_configuration_file_name&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>General</value>
+        <value>Change</value>
+        <value>ChangeImpactAnalysis</value>
+        <value>CAPA</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

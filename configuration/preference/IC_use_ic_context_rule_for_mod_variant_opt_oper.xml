@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IC_use_ic_context_rule_for_mod_variant_opt_oper" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This controls whether the inIcContext AM rule is used for modular variant option related operations. Valid Values are true/false.
+Note: Operations related to variant options are not captured in IC context. Only access might be given to the user depending on the AM rule tree setting.Portal needs to be restarted for change in the value of this preference to take effect.
+This is site level preference.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

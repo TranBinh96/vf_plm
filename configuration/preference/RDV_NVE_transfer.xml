@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="RDV_NVE_transfer" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>The preference indicates whether to transfer the ownership of Named Variant Expression to the other site or not. TRUE - Transfer Named Variant Expression with transfering ownership.</preference_description>
+      <context name="Teamcenter">
+        <value>TRUE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

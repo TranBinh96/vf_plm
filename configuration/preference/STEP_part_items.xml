@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Data Sharing.STEP Translator">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="STEP_part_items" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the Teamcenter item type as a member of the STEP part classification.
+Valid Values:
+One or more strings; each string must be a valid item type name.</preference_description>
+      <context name="Teamcenter">
+        <value>Item</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

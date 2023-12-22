@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="File Caching">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Fms_BootStrap_Urls" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="true">
+      <preference_description>Indicates the list of FMS Bootstrap (Entry point) servers for FMS client applications like the Thin Client, the Teamcenter server and Teamcenter utilities. Active Workspace has its own set of FMS Bootstrap URLs defined in its deployment. Desktop clients like the Teamcenter Rich Client and NX that use the File Cache Client (FCC) have their list of bootstrap FMS servers defined in the fcc.xml.
+The fcc.xml should typically have the same set of FMS servers defined as this Bootstrap URL list. Once FMS is initialized using the Bootstrap URLs, the client application typically gets one or more Assigned FSCs (File Server Cache) that serve the subsequent FMS file requests. Any FSC can act as the FMS Bootstrap URL. For failover purposes, you can include multiple FMS servers in this preference.
+This preference can be set using the preference name as an environment variable.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid server location. For example:
+Fms_BootStrap_Urls=
+http://abc.com
+http://def.com:4040
+http://ghi.com</preference_description>
+      <context name="Teamcenter">
+        <value>http://10.128.11.158:4544</value>
+        <value>http://10.128.11.37:4544</value>
+        <value>http://10.220.161.79:4545</value>
+        <value>http://10.128.250.21:4545</value>
+        <value>http://10.12.16.207:4543</value>
+        <value>http://172.28.52.64:4544</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

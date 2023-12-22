@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Design Context Context Definition">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PortalDesignContextAllowNoWorkParts" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether Design Context requires users to enter at least one work part in the Work Part list in the Context Definition window before displaying the Context Configuration window.When Design Context is used only for modifying assemblies or components,
+you may want to require users to have at least one work part in the Context Definition window before the Context Configuration window displays; this may help inexperienced users to work with the application.Experienced users may use Design Context for design review sessions of 
+large pieces of the product model or for product model reviews. This requires users to use filters to configure a product context on the second window that they have yet to specify on the third window.
+Valid Values:
+0 - Requires at least one work part in the Work Parts list to continue. Design Context displays a warning that no work parts are provided and displays the initial window again.
+1 - Allows users to continue to the Context Configuration window without work parts in the Work Parts list.</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

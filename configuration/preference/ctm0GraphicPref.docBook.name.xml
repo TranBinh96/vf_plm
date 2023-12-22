@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Content Management">
+    <category_description>Content Management Preferences</category_description>
+    
+               <preference name="ctm0GraphicPref.docBook.name" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the text to display in the Graphic Link Clipboard preference list to represent the option to use when working with the DocBook standard or a similar XML standard for publications.
+Valid Values:
+Accepts one or more strings as values.</preference_description>
+      <context name="Teamcenter">
+        <value>DocBook</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

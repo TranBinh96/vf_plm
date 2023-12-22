@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Schedule Manager">
+    <category_description>Allows configuring of Schedule Manager functionality.</category_description>
+    
+               <preference name="SM_EXEC_VIEW_PROPERTIES" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the properties displayed in the execution view and the order in which they are displayed. Valid Values are internal attribute names of a schedule task object. The code retrieves the value for this preference in this property order: user, role, group, or site.
+Valid Values:
+Accepts one or more of the following strings as valid values. Each string must provide a valid internal property name of a schedule task object.</preference_description>
+      <context name="Teamcenter">
+        <value>schedule_tag</value>
+        <value>object_name</value>
+        <value>object_desc</value>
+        <value>fnd0status</value>
+        <value>SI</value>
+        <value>complete_percent</value>
+        <value>work_complete</value>
+        <value>work_remaining</value>
+        <value>actual_start_date</value>
+        <value>actual_finish_date</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

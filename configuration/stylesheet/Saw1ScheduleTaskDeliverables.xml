@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+// @<COPYRIGHT>@
+// ==================================================
+// Copyright 2020.
+// Siemens Product Lifecycle Management Software Inc.
+// All Rights Reserved.
+// ==================================================
+// @<COPYRIGHT>@
+-->
+<subRendering>
+ <content visibleWhen='ActiveWorkspace:xrtContext=={"ganttWithDetails":true}'>
+ <firstcolumn width="50%">
+  <section title="Deliverables" titleKey="tc_xrt_Deliverables">
+    <objectSet source="sch_task_deliverable_list.SchTaskDeliverable"  defaultdisplay="tableDisplay" sortby="" maxRowCount="20">
+      <tableDisplay>
+        <property name = "object_name"/>
+        <property name = "fnd0DeliverableType"/>
+        <property name = "fnd0SubmitTypeString"/>
+        <property name = "fnd0DeliverableInstance"/>
+        <property name = "fnd0InstanceReleaseStatus"/>
+        <property name = "fnd0InstanceLastModfiedDate"/>
+        <property name = "fnd0InstanceOwningUser"/>
+      </tableDisplay>
+      <listDisplay>
+        <property name = "object_name"/>
+        <property name = "fnd0DeliverableType"/>
+        <property name = "fnd0SubmitTypeString"/>
+        <property name = "fnd0DeliverableInstance"/>
+        <property name = "fnd0InstanceReleaseStatus"/>
+        <property name = "fnd0InstanceLastModfiedDate"/>
+        <property name = "fnd0InstanceOwningUser"/>
+      </listDisplay>
+      <command actionKey="newBusinessObjectContextualAction" commandId="Saw1AddDeliverable" renderingHint="commandbutton" />
+      <command actionKey="newBusinessObjectContextualAction" commandId="Saw1ReplaceRevisionGroup" renderingHint="commandbutton"/>
+    </objectSet>
+  </section>
+ </firstcolumn>
+ <secondcolumn width="50%">
+  <section titleKey="tc_xrt_DeliverableInstances">
+    <objectSet source="REF(sch_task_deliverable_list,SchTaskDeliverable).REF(schedule_deliverable,SchDeliverable).deliverable_inst" defaultdisplay="tableDisplay" maxRowCount="20" >
+      <tableDisplay>
+        <property name = "object_name"/>
+        <property name = "object_type"/>
+        <property name = "release_status_list"/>
+        <property name = "owning_user"/>
+        <property name= "object_desc"/>
+        <property name= "object_string"/>
+        <property name= "last_mod_date"/>
+        <property name= "last_mod_user"/>
+      </tableDisplay>
+      <listDisplay>
+        <property name = "object_name"/>
+        <property name = "object_type"/>
+        <property name = "release_status_list"/>
+        <property name = "owning_user"/>
+        <property name= "object_desc"/>
+        <property name= "object_string"/>
+        <property name= "last_mod_date"/>
+        <property name= "last_mod_user"/>
+      </listDisplay>
+    </objectSet>
+   </section>
+   </secondcolumn>
+  </content>
+  <content visibleWhen='ActiveWorkspace:xrtContext!={"ganttWithDetails":true}'>
+   <section title="Deliverables" titleKey="tc_xrt_Deliverables">
+    <objectSet source="sch_task_deliverable_list.SchTaskDeliverable"  defaultdisplay="tableDisplay" sortby="" maxRowCount="6">
+      <tableDisplay>
+        <property name = "object_name"/>
+        <property name = "fnd0DeliverableType"/>
+        <property name = "fnd0SubmitTypeString"/>
+        <property name = "fnd0DeliverableInstance"/>
+        <property name = "fnd0InstanceReleaseStatus"/>
+        <property name = "fnd0InstanceLastModfiedDate"/>
+        <property name = "fnd0InstanceOwningUser"/>
+      </tableDisplay>
+      <listDisplay>
+        <property name = "object_name"/>
+        <property name = "fnd0DeliverableType"/>
+        <property name = "fnd0SubmitTypeString"/>
+        <property name = "fnd0DeliverableInstance"/>
+        <property name = "fnd0InstanceReleaseStatus"/>
+        <property name = "fnd0InstanceLastModfiedDate"/>
+        <property name = "fnd0InstanceOwningUser"/>
+      </listDisplay>
+      <command actionKey="newBusinessObjectContextualAction" commandId="Saw1AddDeliverable" renderingHint="commandbutton" />
+      <command actionKey="newBusinessObjectContextualAction" commandId="Saw1ReplaceRevisionGroup" renderingHint="commandbutton"/>
+    </objectSet>
+  </section>
+  <section titleKey="tc_xrt_DeliverableInstances">
+    <objectSet source="REF(sch_task_deliverable_list,SchTaskDeliverable).REF(schedule_deliverable,SchDeliverable).deliverable_inst" defaultdisplay="tableDisplay" maxRowCount="6" >
+      <tableDisplay>
+        <property name = "object_name"/>
+        <property name = "object_type"/>
+        <property name = "release_status_list"/>
+        <property name = "owning_user"/>
+        <property name= "object_desc"/>
+        <property name= "object_string"/>
+        <property name= "last_mod_date"/>
+        <property name= "last_mod_user"/>
+      </tableDisplay>
+      <listDisplay>
+        <property name = "object_name"/>
+        <property name = "object_type"/>
+        <property name = "release_status_list"/>
+        <property name = "owning_user"/>
+        <property name= "object_desc"/>
+        <property name= "object_string"/>
+        <property name= "last_mod_date"/>
+        <property name= "last_mod_user"/>
+      </listDisplay>
+    </objectSet>
+   </section>
+  </content>
+ </subRendering>

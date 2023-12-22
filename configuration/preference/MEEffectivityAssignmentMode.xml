@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEEffectivityAssignmentMode" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the assignment behavior from Engineering BOM (EBOM) to Manufacturing BOM (MBOM), for the BOMLine property &quot;bl_occ_effectivity&quot;. 
+Valid Values:
+* 0 (default value): if the source EBOM line has an occurrence effectivity defined, the occurrence effectivity of the source line is assigned to the target line; otherwise, an empty occurrence effectivity is assigned to the target.            
+* 1: if the source EBOM line has an occurrence effectivity defined, the occurrence effectivity of the source line is assigned to the target line; otherwise, the system finds the source line&apos;s closest parent which has an occurrence effectivity and assigns that to the target line.
+Note that when this preference is set to true, the source line and target line may not have the same occurrence effectivity, and an alignment check or accountability check may detect differences between the two lines for property &quot;bl_occ_effectivity&quot;.
+* 2: the net effectivity of the source EBOM line is computed and assigned to the target MBOM line. 
+Note that when this preference is set to 1 or 2, the source line and target line may not have the same occurrence effectivity, and an alignment check or accountability check may detect differences between the two lines for property &quot;bl_occ_effectivity&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="BOMCompareVisibleModes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which compare modes display in the BOM Compare dialog box and are returned by the BOM_compare_ask_modes ITK function. If this preference is removed, the default setting is used.
+Valid Values:
+IMAN_bcm_single_level_seq
+IMAN_bcm_single_level
+IMAN_bcm_var_level_seq
+IMAN_bcm_var_level
+IMAN_bcm_ext_var_level_seq
+IMAN_bcm_ext_var_level
+IMAN_bcm_lowest_level_seq
+IMAN_bcm_lowest_level
+IMAN_bcm_every_level
+Use the following compare modes for item-based logical BOM (LBOM) compares:
+IMAN_lbcm_var_level
+IMAN_lbcm_single_level
+IMAN_lbcm_lowest_level
+Use the following compare modes for occurrence-based logical BOM (LBOM) compares:
+IMAN_lbcm_var_level_occ
+IMAN_lbcm_single_level_occ
+Any custom compare mode must also be listed as a value in order for the mode to display in the BOM Compare dialog box.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_bcm_single_level_seq</value>
+        <value>IMAN_bcm_single_level</value>
+        <value>IMAN_bcm_var_level_seq</value>
+        <value>IMAN_bcm_var_level</value>
+        <value>IMAN_bcm_lowest_level</value>
+        <value>IMAN_bcm_single_level_ref</value>
+        <value>IMAN_bcm_ext_var_level</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

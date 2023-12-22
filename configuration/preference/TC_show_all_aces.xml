@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Administration.Access Manager">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_show_all_aces" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Influences the Access Control Entries (ACEs) displayed in the Access Control List (ACL) dialog.
+Valid values are:
+* false: To display only the ACEs relevant to the session user and the object ACLs. This is the default value.
+* true: To display all ACEs relevant to the object.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

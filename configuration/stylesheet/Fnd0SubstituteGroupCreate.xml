@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+                Copyright 2019.
+       Siemens Product Lifecycle Management Software Inc.
+       All Rights Reserved.
+===============================================================================
+
+    Filename: fnd0SubstituteGroup.xml
+
+    Default style sheet for displaying Substitute Group poperties.
+ -->
+
+<rendering>
+    <page title="Substitute Group Information" titleKey="tc_xrt_General">
+       <section titleKey="tc_xrt_properties">  
+          <property name="fnd0id"/>
+          <property name="object_name"/>
+          <property name="object_desc"/>
+          <property name="fnd0substituteList" renderingHint ="interchangepartsbutton"/>               
+       </section>
+    </page>
+</rendering>

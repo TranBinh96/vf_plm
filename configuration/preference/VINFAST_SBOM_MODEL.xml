@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="VINF_BOM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="VINFAST_SBOM_MODEL" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>User for Export Service Chapter</preference_description>
+      <context name="Teamcenter">
+        <value>Fadil=Car</value>
+        <value>Sedan=Car</value>
+        <value>Suv=Car</value>
+        <value>President=Car</value>
+        <value>KLARA A1, A2=Escooter</value>
+        <value>VK CITY=Escooter</value>
+        <value>VK SPORT=Escooter</value>
+        <value>VK 2021=Escooter</value>
+        <value>V5 CITY=Escooter</value>
+        <value>V5 LITE=Escooter</value>
+        <value>V5 CARGO=Escooter</value>
+        <value>V5 A2=Escooter</value>
+        <value>V5 CARGO EVN=Escooter</value>
+        <value>V7 SPORT=Escooter</value>
+        <value>V9 SPORT 2020=Escooter</value>
+        <value>V5 CITY LFP=Escooter</value>
+        <value>V5 LITE LFP=Escooter</value>
+        <value>V7 SPORT LFP=Escooter</value>
+        <value>V9 SPORT LFP=Escooter</value>
+        <value>EBus=EBus</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

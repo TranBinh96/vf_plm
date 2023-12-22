@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="4GD">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_config_rule_name" type="String" array="false" disabled="false" protectionScope="Group" envEnabled="false">
+      <preference_description>Specifies the default revision rule used when selecting the product context based on the chosen product item. If not defined, Latest Working/Any Release Status is used.
+Valid Values:
+One or more strings as values; each string must be a valid revision rule.</preference_description>
+      <context name="Teamcenter">
+        <value>VINFAST_RELEASE_RULE</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

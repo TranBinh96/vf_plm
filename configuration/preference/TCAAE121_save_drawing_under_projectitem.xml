@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.TCAA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TCAAE121_save_drawing_under_projectitem" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Through this option it is possible to have TCAA set AutoCAD Electrical drawings to be stored by default under the same item revision of the owning project.
+Possible values:
+0 - drawings are set to be stored under separate item revisions
+1 - drawings are set to be stored under the same item revision of the owning project (Default)</preference_description>
+      <context name="Teamcenter">
+        <value>1</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

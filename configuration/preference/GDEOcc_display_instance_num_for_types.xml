@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="GDEOcc_display_instance_num_for_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Determines which GDE types an instance number on the GDEOccurrence. (Some, but not all, GDEOccurrence objects related to interfaces require the display of the instance numbers.) The GDE types specified in this preference will display in a structure with an instance number included with the GDEOccurrence title and name.
+Valid Values:
+Accepts multiple strings as values. Each value must be a valid Teamcenter GDE type.
+KBL (KabelBaumListe - wire harness description list) is a standard for wiring models that enhances the STEP AP212 model. The KBL object model provides high-level components that represent wires, harnesses, and parts in a vehicle that hosts the harness. This model is a subset of AP212 model and models represent wire harness data in a similar way. If KBL functionality has been installed, the following KBL type names must be defined.
+HRN_Core
+HRN_Cavity
+HRN_Slot</preference_description>
+      <context name="Teamcenter">
+        <value>Interfaces</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

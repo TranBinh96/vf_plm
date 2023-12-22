@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PLMXML_export_supported_types" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>This preference contains the list of types which are supported for PLM XML export. 
+The purpose of this preference is to support async for vertical products.
+If some unsupported type is added, the behavior is undefined.
+This preference should not be modified by end user.</preference_description>
+      <context name="Teamcenter">
+        <value>Folder</value>
+        <value>Item</value>
+        <value>ItemRevision</value>
+        <value>Form</value>
+        <value>Dataset</value>
+        <value>CCObject</value>
+        <value>StructureContext</value>
+        <value>TransactionElement</value>
+        <value>FaultCode</value>
+        <value>CfgAttachmentLine</value>
+        <value>AppearanceGroup</value>
+        <value>RoutePath</value>
+        <value>Allocation</value>
+        <value>DC_Admin</value>
+        <value>DCt_GraphicPriority</value>
+        <value>DCt_Language</value>
+        <value>Schedule</value>
+        <value>Cls0HierarchyNode</value>
+        <value>Cls0ClassBase</value>
+        <value>Lbr0Library</value>
+        <value>Lbr0Specification</value>
+        <value>Lbr0Hierarchy</value>
+        <value>Lbr0LibraryElement</value>
+        <value>Mdl0SubsetDefinition</value>
+        <value>Ptn0Partition</value>
+        <value>Cpd0DesignElement</value>
+        <value>Cpd0DesignFeature</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

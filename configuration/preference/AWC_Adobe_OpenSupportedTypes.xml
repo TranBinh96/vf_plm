@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace Viewer">
+    <category_description>Active Workspace Viewer-specific preferences.</category_description>
+    
+               <preference name="AWC_Adobe_OpenSupportedTypes" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the list of object types that are to be opened with the Adobe application extension when selected in the Active Workspace.</preference_description>
+      <context name="Teamcenter">
+        <value>Dataset</value>
+        <value>Item</value>
+        <value>Item Revision</value>
+        <value>GIF</value>
+        <value>JPEG</value>
+        <value>Photoshop</value>
+        <value>PDF</value>
+        <value>Image</value>
+        <value>InDesign</value>
+        <value>Text</value>
+        <value>FullText</value>
+        <value>XMLRenderingStylesheet</value>
+        <value>AdobeIllustrator</value>
+        <value>Postscript</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

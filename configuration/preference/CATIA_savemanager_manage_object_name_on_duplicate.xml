@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_savemanager_manage_object_name_on_duplicate" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates if prefix, suffix, and substitute characters of duplicate panel are applied on the item/itemrev&apos;s object_name during the duplicate process.
+Possible values (not case sensitive) are :
+- true: the object_name and the item ID properties are managed
+- false: only the item ID property is managed (default behavior)</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

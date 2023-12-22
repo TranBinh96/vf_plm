@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Integration.CATIA">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="CATIA_ui_rendering_id" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the ID to use for the item of the XML that is used to organize properties in UI Panels.
+For the moment, this preference is used for the Save manager and the SpreadsheetEditor Panel.</preference_description>
+      <context name="Teamcenter">
+        <value></value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

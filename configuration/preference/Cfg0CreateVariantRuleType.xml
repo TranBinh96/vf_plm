@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0CreateVariantRuleType" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the type of Variant Rule object that will be created in Product Configurator based variant configuration. The specified
+value must be be a valid Variant Rule type or its sub-type. The Valid Values:
+- VariantRule: When user saves a variant configuration from Product Configurator Variant Configuration view or Saved Variant Rules view,
+an instance of Variant Rule will be created. This is the default value.
+- Cfg0VariantCriteria: When user saves a variant configuration from Product Configurator Variant Configuration view or Saved Variant Rules view,
+an instance of Variant Criteria (Cfg0VariantCriteria)  will be created.</preference_description>
+      <context name="Teamcenter">
+        <value>VariantRule</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

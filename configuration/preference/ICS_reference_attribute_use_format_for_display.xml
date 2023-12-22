@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_reference_attribute_use_format_for_display" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies that the reference attribute format is used to determine the size of the text field when searching in the Classification application.
+Valid Values:
+* true: the format of the dictionary attribute is used to determine the size of the text field.
+* false: the size of the text field of a reference attributes is always 256 characters. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

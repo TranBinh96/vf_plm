@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Cfg0DefaultRevisionRule" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Indicates the default revision rule that will be used by Product Configurator.
+If this rule does not exist, the system will default to &quot;Any Status; Working&quot;.</preference_description>
+      <context name="Teamcenter">
+        <value>Any Status; Working</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

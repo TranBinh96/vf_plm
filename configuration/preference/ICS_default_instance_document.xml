@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Classification">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ICS_default_instance_document" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Determines which of the named reference file types defined in the ICS_presented_instance_documents preference displays in the instance viewer by default. Limiting the values defined in this preference can quicken viewing time. For example, by not specifying BOMAssembly object in this preference, BOM assemblies have to be expressly selected to appear. This saves users time when paging through classification objects of large assemblies. When none of the document types defined in this preference are associated with a classification object, the instance viewer displays no attachment by default.
+Valid Values:
+One or more strings as values. Each string must be a valid named reference file type that has been defined in the ICS_presented_instance_documents preference.</preference_description>
+      <context name="Teamcenter">
+        <value>JTPART</value>
+        <value>Image</value>
+        <value>JPEG_Reference</value>
+        <value>GIF_Reference</value>
+        <value>Markup</value>
+        <value>3DModel</value>
+        <value>3DMarkup</value>
+        <value>JPEG</value>
+        <value>Graphics-Interface</value>
+        <value>Shaded-Image</value>
+        <value>Common-Graphics-Meta</value>
+        <value>Direct-Model-Data</value>
+        <value>UGPART</value>
+        <value>word</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

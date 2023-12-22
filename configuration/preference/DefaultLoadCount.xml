@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="DefaultLoadCount" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Sets the initial number of objects to load in a page of a result set from a 4GD cacheless search.
+This number may increase for subsequent pages based on the value of the DefaultLoadCountIncreaseRate preference.
+Valid Values:
+Any valid integer. The larger the number, the longer the page takes to load.</preference_description>
+      <context name="Teamcenter">
+        <value>200</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

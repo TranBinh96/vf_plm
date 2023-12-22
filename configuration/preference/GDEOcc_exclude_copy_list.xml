@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="GDEOcc_exclude_copy_list" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>List of Item Element, Interface Definition, and Non-Revisable Connection types that should not be copied during save-as and revise operations on an Item.</preference_description>
+      <context name="Teamcenter">
+        <value>ProductInterface</value>
+        <value>ProductRelation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

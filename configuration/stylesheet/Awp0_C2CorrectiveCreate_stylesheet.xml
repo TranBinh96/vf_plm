@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rendering>
+   <views>properties</views>
+    
+   <page title="Corrective Action Plan" titleKey="tc_xrt_ScheduleNameandDescription">
+         <view name="properties">
+            <property name="item_id" renderingHint="textfield" />
+            <property name="object_name" renderingHint="textfield" />
+            <property name="object_desc" />
+			<property name="fnd0TimeZone" />
+			<property name="c2_template" />
+           <property name="fnd0ScheduleTemplate" />
+            <property name="start_date" />
+            <property name="finish_date" />			
+         </view>
+   </page>
+   
+</rendering>

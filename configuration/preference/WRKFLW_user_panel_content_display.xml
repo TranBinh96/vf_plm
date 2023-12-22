@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Active Workspace">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="WRKFLW_user_panel_content_display" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Controls the display of users and groupmember lists in Active Workspace user selection panels.
+Valid values are:
+* 0 - Users without checkbox: Display users and hide the checkbox that allows switching to users with group/role.
+* 1 - Users with checkbox: Display users and show the checkbox that allows switching to users with group/role.
+* 2 - Group members without checkbox: Display users with group/role and hide the checkbox that allows switching to users.
+* 3 - Group members with checkbox: Display users with group/role and show the checkbox that allows switching to users.</preference_description>
+      <context name="Teamcenter">
+        <value>2</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

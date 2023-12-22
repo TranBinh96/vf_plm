@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Vis_Doc_OpenOption" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the behavior for opening the document by the embedded or standalone Lifecycle Visualization, in case the same document is already opened by that viewer. 
+Valid Values:
+* &quot;CreateNewDocument&quot;: to create a new document/view pair.
+* &quot;ActivateExistingDocument&quot;: to activate the existing document/view pair. This is a default value.</preference_description>
+      <context name="Teamcenter">
+        <value>ActivateExistingDocument</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

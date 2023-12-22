@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TechnicalPortfolioRoles" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Used for configuring Teamcenter manufacturing process management technical portfolios. Use this preference to define the roles of technical portfolios. You can create custom alias files, which are tracked by the system on a per-role basis. Alias files accept a single named reference.
+Valid Values:
+Accepts a single string as a value. Must be a valid Teamcenter relation.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_MEWorkInstruction</value>
+        <value>TC_ProductManual</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

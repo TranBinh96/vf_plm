@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Fnd0ScheduleAudit_ColumnPreferences" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of columns to be displayed on Process History Table for objects of type Fnd0ScheduleAudit.</preference_description>
+      <context name="Teamcenter">
+        <value>fnd0ObjectDisplayName</value>
+        <value>actual_start_date</value>
+        <value>actual_finish_date</value>
+        <value>fnd0EventTypeName</value>
+        <value>fnd0LoggedDate</value>
+        <value>complete_percent</value>
+        <value>start_date</value>
+        <value>finish_date</value>
+        <value>fnd0state</value>
+        <value>fnd0status</value>
+        <value>workflow_process</value>
+        <value>fnd0UserId</value>
+        <value>fnd0GroupName</value>
+        <value>fnd0RoleName</value>
+        <value>task_result</value>
+        <value>task_state</value>
+        <value>comments</value>
+        <value>Fnd0WorkflowAudit.fnd0SignoffComments</value>
+        <value>Fnd0WorkflowAudit.fnd0SignoffDecision</value>
+        <value>Fnd0WorkflowAudit.fnd0SignoffUserID</value>
+        <value>Fnd0WorkflowAudit.fnd0SignoffGroupName</value>
+        <value>Fnd0WorkflowAudit.fnd0SignoffRoleName</value>
+        <value>late_flag</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

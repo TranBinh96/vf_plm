@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="DecisionApps.ShapeSearch">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SS1_DASS_shape_default" type="Integer" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Defines the shape similarity used by the Shape Search solution in the Active Workspace client.
+Please contact the Shape Search administrator to confirm the available shape similarity configurations.
+Assuming that the shape similarities defined by the administrator as a gradient from identical to similar, the valid values would be 0 to 9 with 0 being the most identical.</preference_description>
+      <context name="Teamcenter">
+        <value>5</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

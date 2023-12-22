@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Mat1MaterialRevision_PseudoFolder" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the list of properties that can be displayed as a pseudo-folder under a node for Material Revision object.</preference_description>
+      <context name="Teamcenter">
+        <value>Mat1UsesSubstance</value>
+        <value>mat1Parameters</value>
+        <value>mat1InheritedParameters</value>
+        <value>mat1MatClassifications</value>
+        <value>mat1MatCatalogRevisions</value>
+        <value>Mat1HasAlternateMaterial</value>
+        <value>mat1ExtendsMaterial</value>
+        <value>C3D_View</value>
+        <value>CAEAnalysis</value>
+        <value>MEProcess</value>
+        <value>MESetup</value>
+        <value>PR4D_cad</value>
+        <value>Sci0IMDSView</value>
+        <value>catia</value>
+        <value>catia_multi_model</value>
+        <value>view</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

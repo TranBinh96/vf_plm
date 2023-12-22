@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Product Structure.Product Structure Synchronization">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="PS_Bypass_Occurrence_Condition" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Bypasses occurrence condition validations for specified actions and operations.
+Valid Values:
+Import
+Duplicate
+Baseline
+Revise
+SaveAs</preference_description>
+      <context name="Teamcenter">
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

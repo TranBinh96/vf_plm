@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_suppress_report_designs" type="String" array="true" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Preference for Hiding of Reports</preference_description>
+      <context name="Teamcenter">
+        <value>Process-Structures</value>
+        <value>Product-Structures</value>
+        <value>Plant-Structures</value>
+      </context>
+    </preference>
+  
+               </category>
+               </preferences>
+               

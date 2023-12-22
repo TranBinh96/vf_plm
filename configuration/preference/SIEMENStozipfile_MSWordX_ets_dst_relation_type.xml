@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Dispatcher">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="SIEMENStozipfile_MSWordX_ets_dst_relation_type" type="String" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the relation type of the relation to be created between the source dataset item revision and the destination dataset. If the source and destination dataset types are the same, this preference is ignored. You must specify this preference if the source and destination datasets are different; otherwise, the service configuration is invalid and an error occurs during translation.
+Valid Values:
+Must be a valid relation type.</preference_description>
+      <context name="Teamcenter">
+        <value>IMAN_manifestation</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

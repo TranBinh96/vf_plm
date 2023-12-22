@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="PSM">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Rollup_Variant_Traverse_Level_Is_InstallationAssembly" type="Logical" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the upward traverse scope up to which line roll up variant conditions needs to be calculated. This preference will be considered only when the preference &quot;Rollup_Variant_Feature&quot; is set to true.
+Valid Values:
+* true: The roll up variant conditions are calculated up to the Installation Assembly in the BOM structure, if it exists. Otherwise, the roll up variant conditions are calculated up to the top line of the loaded structure.
+* false: They are calculated up to top line of the loaded structure. This is the default value.</preference_description>
+      <context name="Teamcenter">
+        <value>false</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

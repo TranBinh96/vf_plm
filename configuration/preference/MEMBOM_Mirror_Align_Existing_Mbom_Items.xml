@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Thin Client.Manufacturing">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="MEMBOM_Mirror_Align_Existing_Mbom_Items" type="Integer" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Defines the alignment of top-level context IDs (IDICs) of manufacturing BOM (MBOM) lines based on their corresponding engineering BOM (EBOM) lines.
+Valid Values:
+0 - No alignment.
+1 - Alignment of IDIC values of MBOM lines only for EBOM lines that have an IDIC value.
+2 - Alignment of IDIC values of MBOM lines using the EBOM lines. If no IDIC value exists on an EBOM node, the item ID and transform values are used for equivalence.</preference_description>
+      <context name="Teamcenter">
+        <value>0</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

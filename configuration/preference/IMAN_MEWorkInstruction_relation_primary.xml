@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Relations">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="IMAN_MEWorkInstruction_relation_primary" type="String" array="true" disabled="false" protectionScope="Role" envEnabled="false">
+      <preference_description>Defines which Teamcenter objects are used as primary objects with a IMAN_MEWorkInstruction relation.All relation_business_object_relation_primary preferences are obsolete and are replaced by relation properties. Use the Business Modeler IDE to create and manage relation properties.
+Valid Values:
+Accepts multiple strings as values. Each string must be a valid Teamcenter object.</preference_description>
+      <context name="Teamcenter">
+        <value>ItemRevision</value>
+        <value>AppearanceGroup</value>
+        <value>PSOccurrence</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

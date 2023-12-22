@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@<COPYRIGHT>@
+=======================================================================
+Copyright 2010.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+@<COPYRIGHT>@
+-->
+
+<!--
+=======================================================================
+    Filename: DC_PublicationRevisionSummary.xml
+
+    Default style sheet for displaying DC_PublicationRevision summary
+=======================================================================
+@<DEL>@
+=======================================================================
+$HISTORY$
+Date         Name                    Description of Change
+09/28/2010   comleyj                 Initial Version
+=======================================================================
+@<DEL>@ 
+-->
+
+<rendering>
+    
+    <page title="General" titleKey="tc_xrt_General">
+        <column>
+            <property name="object_string" column="32"/>
+            <separator/>
+            <property name="item_id" column="32"/>
+            <property name="item_revision_id" column="32"/>
+            <property name="object_name" column="32"/>
+            <property name="object_type" />
+            <property name="ctm0TopicTypeTagref" />
+            <property name="DocumentTitle" column="32"/>
+            <property name="ctm0MasterLanguageTagref" />
+            <property name="isTemplate" />
+            <property name="contentVersion" />        
+            <separator/>
+            <property name="owning_user" renderingHint="objectlink" modifiable="false" />
+            <property name="owning_group" renderingHint="objectlink" modifiable="false" />
+            <property name="last_mod_user" />
+        </column>
+        <column>
+            <image/>
+        </column>
+    </page>
+
+    <page title="Reservation" titleKey="tc_xrt_Reservation">
+        <property name="checked_out" />
+        <property name="checked_out_user" />
+        <separator/>
+        <property name="checked_out_date" />
+        <property name="checked_out_change_id" />
+        <separator/>
+        <property name="reservation" />
+    </page>
+
+    <page title="Project" titleKey="tc_xrt_Project">
+        <property name="proj_assign_mod_date" />
+        <property name="project_ids" />
+        <separator/>
+        <property name="project_list" />
+    </page>
+
+    <page title="All" titleKey="tc_xrt_All">
+        <all type="property"/>
+    </page>
+    <page title="Related Links" titleKey="tc_xrt_RelatedLinks" visibleWhen="{pref:LIS_RelatedLinkTabVisible}==true">
+		<objectSet source="IMAN_specification.Lis0Link,IMAN_reference.Lis0Link" defaultdisplay="tableDisplay" sortby="object_string" sortdirection="ascending">
+			<tableDisplay>
+				<property name="object_string"/>
+				<property name="lis0site"/>
+				<property name="lis0serviceProvider"/>
+				<property name="relation"/>
+				<property name="last_mod_date"/>
+				<property name="last_mod_user"/>
+				<property name="checked_out_user"/>
+			</tableDisplay>
+			<command actionKey="newBusinessObjectContextualAction" commandId="com.teamcenter.rac.lisfmwrk.newRelatedLink" renderingHint="commandbutton"/>
+			<command actionKey="copyAction" commandId="com.teamcenter.rac.copy" renderingHint="commandbutton">
+				<parameter name="localSelection" value="true"/>
+			</command>
+			<command actionKey="pasteAction" commandId="com.teamcenter.rac.viewer.pastewithContext" renderingHint="commandbutton"/>
+			<command actionKey="cutAction" commandId="org.eclipse.ui.edit.cut" renderingHint="commandbutton">
+				<parameter name="localSelection" value="true"/>
+			</command>
+		</objectSet>
+	</page>
+</rendering>
+

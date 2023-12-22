@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Interface.Rich Client">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="ITEM_object_columns_shown" type="String" array="true" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies the list of column names that will be shown for Item objects.</preference_description>
+      <context name="Teamcenter">
+        <value>item_id</value>
+        <value>object_name</value>
+        <value>object_type</value>
+        <value>owning_user</value>
+        <value>object_desc</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

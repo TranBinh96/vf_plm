@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="Systems Engineering">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="Indirect_Tracelink_Report" type="Logical" array="false" disabled="false" protectionScope="User" envEnabled="false">
+      <preference_description>Specifies whether the current cross-domain tracing operation includes indirect trace links. Indirect trace links are implicitly inherited by the item revisions of target objects.
+Valid Values:
+true - The trace follows both direct and indirect trace links. The value is set to true when the user selects the ON checkbox in the Options dialog box.
+false - The trace follows only explicit trace links that are directly associated with target object items. The value is reset to false when the user clears the ON checkbox in the Options dialog box.</preference_description>
+      <context name="Teamcenter">
+        <value>true</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               

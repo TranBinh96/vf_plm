@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <preferences version="10.0">
+               
+  <category name="General">
+    <category_description>No description available for this category.</category_description>
+    
+               <preference name="TC_ugmaster_name_separator" type="String" array="false" disabled="false" protectionScope="Site" envEnabled="false">
+      <preference_description>Specifies the separator character used when generating dataset IDs from the parent item ID and revision for UGMASTER datasets created through the NX Integration or NX. For example, if the value is set to a slash (/), the parent item ID is NX001, and the parent revision is A; the dataset ID is generated as NX001/A.
+Valid Values:
+-</preference_description>
+      <context name="Teamcenter">
+        <value>-</value>
+      </context>
+    </preference>
+    
+               </category>
+               </preferences>
+               
