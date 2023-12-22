@@ -1,0 +1,82 @@
+<section class="content-header">
+  <div class="row col-12">
+    <div>
+      <span style="font-size: 20px;">Employee</span>
+    </div>
+    <div style="width: 150px; margin-left: 10px;">
+      <input class="form-control" type="text" [(ngModel)]="searchData.EmployeeCode" placeholder="Code" (keyup)="triggerEnter($event)">
+    </div>
+    <div style="width: 200px; margin-left: 5px;">
+      <input class="form-control" type="text" [(ngModel)]="searchData.EmployeeName" placeholder="Name" (keyup)="triggerEnter($event)">
+    </div>
+    <button class="btn btn-primary btn-sm" (click)="loadData()" style="margin-left: 5px;"><i class="fa fa-search"></i></button>
+  </div>
+</section>
+<section class="content" style="margin-top: -5px;">
+  <div class="row">
+    <div class="col-12">
+<!----------------------------------------------------------------------------------------------------->
+      <div class="row">
+        <div class="col-6">
+          <div class="col-12 row" style="vertical-align: middle;">
+            <div style="margin-right: 5px; margin-top: 8px;"><span >Show</span></div>
+            <select (change)="onChangeRowPerPage($event)" style="width: 100px;" [(ngModel)]="searchData.ItemsPerPage">
+              <option *ngFor="let i of rowPerPage" value="{{i}}">{{i}}</option>
+            </select>
+            <div style="margin-left: 5px; margin-top: 8px;"><span >entries/page</span></div>
+          </div>
+        </div>
+        <div class="col-6">
+          <button class="btn btn-sm btn-success float-right" style="margin-left: 5px;" (click)="openPopupEdit(editTemplate)"><i class="fa fa-plus"></i> CREATE NEW</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <ngx-datatable class="material fullscreen custom" 
+              [externalSorting]="true" 
+              (sort)="onSort($event)"
+              [columnMode]="'force'"
+              [footerHeight]="25"
+              [rowHeight]="'auto'" 
+              [rows]="pagingModel.dataList" 
+              [count]="pagingModel.totalItems" 
+              [offset]="pagingModel.currentPage-1"
+              [limit]="pagingModel.itemsPerPage" 
+              [externalPaging]="true" 
+              (page)='setPage($event)' 
+              [scrollbarH]="true" 
+              [scrollbarV]="true" 
+              [virtualization]="false" 
+              [style.height.px]="innerHeight"
+              [loadingIndicator]="loadingIndicator">
+              <ngx-datatable-column [canAutoResize]="false" [width]="30" name="No." prop="rowIndex" cellClass="text-center" [sortable]="false"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="150" name="Employee Code" prop="employee_code" cellClass="text-left"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="220" name="Employee Name" prop="employee_name" cellClass="text-left"></ngx-datatable-column>
+              <ngx-datatable-column [width]="100" name="Email" prop="email" cellClass="text-left"></ngx-datatable-column>
+              <ngx-datatable-column [width]="100" name="Phone" prop="phone_number" cellClass="text-left"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="200" name="Service Desk ID" prop="service_desk_id" cellClass="text-left"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="200" name="Service Desk Name" prop="service_desk_name" cellClass="text-left"></ngx-datatable-column>
+              <ngx-datatable-column [width]="100" name="Remark" prop="remark" cellClass="text-left"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="40" cellClass="text-center">
+                <ng-template let-row="row" ngx-datatable-cell-template>
+                  <a href='javascript:void(0)' 
+                    class='btn btn-outline btn-sm btn-primary btn-icon' 
+                    title='Edit'
+                    style='width:30px;' 
+                    (click)="openPopupEdit(editTemplate, row['employee_code'])">
+                    <i class='fa fa-edit'></i>
+                  </a>
+                </ng-template>
+              </ngx-datatable-column>
+            </ngx-datatable>
+          </div>
+        </div>
+      </div>
+      <ng-template #editTemplate>
+        <app-employee-edit [bsModalRef]="bsModalRefEdit" [code]="code" (acceptBtnModalClick)="onAcceptBtnModalClick($event)"></app-employee-edit>
+      </ng-template>
+<!----------------------------------------------------------------------------------------------------->
+    </div>
+  </div>
+</section>

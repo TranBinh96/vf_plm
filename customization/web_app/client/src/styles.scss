@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "../node_modules/ngx-toastr/toastr.css";
+@import '~@swimlane/ngx-datatable/release/index.css';
+@import '~@swimlane/ngx-datatable/release/themes/material.css';
+@import '~@swimlane/ngx-datatable/release/assets/icons.css';
+@import '../node_modules/ngx-bootstrap/datepicker/bs-datepicker.css';
+@import "../node_modules/primeicons/primeicons.css";
+@import "../node_modules/primeng/resources/themes/nova-light/theme.css";
+@import "../node_modules/primeng/resources/primeng.min.css";
+
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-calendars/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-angular-schedule/styles/material.css';
+
+/* @import '../node_modules/datatables.net-dt/css/jquery.dataTables.css';
+@import '../node_modules/datatables.net-select-dt/css/select.dataTables.css';
+@import '../node_modules/datatables.net-buttons-dt/css/buttons.dataTables.css'; */
+
+// @import '~igniteui-angular/lib/core/styles/themes/index';
+// @include igx-core();
+// @include igx-theme($default-palette);
+
+/* autoprefixer grid: on */

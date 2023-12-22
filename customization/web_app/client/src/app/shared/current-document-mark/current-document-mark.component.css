@@ -1,0 +1,59 @@
+.VNText {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    color: #ce0e0e;
+}
+
+.InformText {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    color: #ce0e0e;
+}
+
+.JPText {
+    font-family: 'Meiryo UI', sans-serif;
+    font-size: 16px;
+    color: #ce0e0e;
+}
+
+.Content {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.khung {
+    border: #ce0e0e; 
+    border-style: solid; 
+    border-width: 2px;
+    text-align: center; 
+    vertical-align: middle;
+    width: 250px;
+}
+
+.khung2 {
+    border: #ce0e0e; 
+    border-width: 2px;
+    border-right-style: solid; 
+    border-left-style: solid;
+    border-bottom-style: solid;
+    text-align: center; 
+    vertical-align: middle;
+    width: 250px;
+}
+
+.formmark {
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    transform: rotate(-7deg);
+}

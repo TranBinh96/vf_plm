@@ -1,0 +1,13 @@
+<app-upload (onFileChanged)="onFileUploadChange($event)" cssClass="fa-2x"></app-upload>
+<ul class="row" style="padding-left: 0px; height: 555px; overflow: hidden; overflow-y: scroll;">
+  <li class="file-item" *ngFor="let item of dataFile.dataList">
+    <a (click)="onCopyUrl(item.filePath)" href="#">
+      <img *ngIf="item.fileIcon !== ''" class="img" src="../../assets/images/system/{{item.fileIcon}}">
+      <img *ngIf="item.fileIcon == ''" class="img" src="{{item.filePath}}">
+      <div>
+        <div class="text" title="{{item.fileName}}">{{item.fileName}}</div>
+        <div><span>{{item.createDate | date: 'dd/MM/yyyy'}}</span></div>
+      </div>
+    </a>
+  </li>
+</ul>

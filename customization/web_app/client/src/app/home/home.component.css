@@ -1,0 +1,114 @@
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  /* padding: 70px 25px; */
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.monthText {
+    color: #FF3C31;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month ul li {
+    color: #FF3C31;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ffffff;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #ffffff;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 3px;
+  font-size:14px;
+  color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+.days li .dayOff {
+    padding: 5px;
+    background: #c8c8c8;
+    color: white !important
+}
+
+.days li .companyHoliday {
+    padding: 5px;
+    background: #FF9149;
+    color: white !important
+}
+
+.days li .nationalHoliday {
+    padding: 5px;
+    background: #28D094;
+    color: white !important
+}
+
+.days li .flexWorkingDay {
+    padding: 5px;
+    background: #FFEB3B;
+    color: red !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}

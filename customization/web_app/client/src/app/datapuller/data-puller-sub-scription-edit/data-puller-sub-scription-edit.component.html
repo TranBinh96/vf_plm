@@ -1,0 +1,26 @@
+<div class="modal-header">
+  <h4 class="modal-title pull-left">{{title}}</h4>
+  <button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body" style="padding: 10px;">
+  <table class="table table-sm table-bordered" style="margin-bottom: 0;">
+    <tr>
+      <td><span class="col-form-label">TC Event Type</span></td>
+      <td><input class="form-control" type="text" [(ngModel)]="dataItem.tc_event_type"/></td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Object Type</span></td>
+      <td><input class="form-control" type="text" [(ngModel)]="dataItem.object_type"/></td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Event</span></td>
+      <td><ngx-select [items]="dataForm.eventList" [(ngModel)]="dataItem.event_id" placeholder="Event" (selectionChanges)="onChangeType($event)"></ngx-select></td>
+    </tr>
+  </table>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-danger" (click)="bsModalRef.hide()">CLOSE</button>
+  <button type="button" class="btn btn-success float-right" (click)="acceptBtnModalClicked()" autofocus>{{buttonName}}</button>
+</div>

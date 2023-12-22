@@ -1,0 +1,142 @@
+<section class="content-header">
+  <div class="row col-12">
+    <div>
+      <span style="font-size: 20px;">SAP Material Master</span>
+    </div>
+    <div style="width: 100px; margin-left: 10px;">
+      <input class="form-control" type="text" [(ngModel)]="searchData.MaterialType" placeholder="Material Type" (keyup)="triggerEnter($event)">
+    </div>
+    <div style="width: 170px; margin-left: 5px;">
+      <input class="form-control" type="text" [(ngModel)]="searchData.PartNumber" placeholder="Part Number" (keyup)="triggerEnter($event)">
+    </div>
+    <div style="width: 170px; margin-left: 5px;">
+      <input class="form-control" type="text" [(ngModel)]="searchData.PartName" placeholder="Part Name" (keyup)="triggerEnter($event)">
+    </div>
+    <div style="width: 150px; margin-left: 5px;">
+      <ngx-select [items]="dataForm.statusList" [(ngModel)]="searchData.Status" placeholder="Status" (selectionChanges)="onChangeStatus($event)"></ngx-select>
+    </div>
+    <div style="width: 130px; margin-left: 5px;">
+      <input type="text" class="form-control" bsDatepicker placeholder="Create From Date" [bsConfig]="{ dateInputFormat: 'DD/MM/YYYY' }" [(ngModel)]="searchData.createFromDate">
+    </div>
+    <div style="width: 130px; margin-left: 5px;">
+      <input type="text" class="form-control" bsDatepicker placeholder="Create To Date" [bsConfig]="{ dateInputFormat: 'DD/MM/YYYY' }" [(ngModel)]="searchData.createToDate">
+    </div>
+    <div style="width: 130px; margin-left: 5px;">
+      <input type="text" class="form-control" bsDatepicker placeholder="Update From Date" [bsConfig]="{ dateInputFormat: 'DD/MM/YYYY' }" [(ngModel)]="searchData.updateFromDate">
+    </div>
+    <div style="width: 130px; margin-left: 5px;">
+      <input type="text" class="form-control" bsDatepicker placeholder="Update To Date" [bsConfig]="{ dateInputFormat: 'DD/MM/YYYY' }" [(ngModel)]="searchData.updateToDate">
+    </div>
+    <button class="btn btn-primary btn-sm" (click)="loadData()" style="margin-left: 5px;"><i class="fa fa-search"></i></button>
+    <!-- <button class="btn btn-primary btn-sm" (click)="onExportToExcel()" style="margin-left: 5px;"><i class="fa fa-download"></i></button> -->
+  </div>
+</section>
+<section class="content" style="margin-top: -5px;">
+  <div class="row">
+    <div class="col-12">
+<!----------------------------------------------------------------------------------------------------->
+      <div class="row">
+        <div class="col-6">
+          <div class="col-12 row" style="vertical-align: middle;">
+            <div style="margin-right: 5px; margin-top: 8px;"><span >Show</span></div>
+            <select (change)="onChangeRowPerPage($event)" style="width: 100px;" [(ngModel)]="searchData.ItemsPerPage">
+              <option *ngFor="let i of rowPerPage" value="{{i}}">{{i}}</option>
+            </select>
+            <div style="margin-left: 5px; margin-top: 8px;"><span >entries/page</span></div>
+          </div>
+        </div>
+        <div class="col-6">
+          <!-- <button class="btn btn-sm btn-success float-right" style="margin-left: 5px;" (click)="openPopupEdit(editTemplate)"><i class="fa fa-plus"></i> CREATE NEW</button>
+          <button class="btn btn-sm btn-primary float-right" (click)="openPopupMultiUpdate(multiUpdateTemplate)"><i class="fa fa-edit"></i> MULTI UPDATE</button> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <ngx-datatable class="material fullscreen custom" 
+              [externalSorting]="true" 
+              (sort)="onSort($event)"
+              [columnMode]="'force'"
+              [footerHeight]="25"
+              [rowHeight]="'auto'" 
+              [selectionType]="'checkbox'"
+              [selected]="selected"
+              [rows]="pagingModel.dataList" 
+              [count]="pagingModel.totalItems" 
+              [offset]="pagingModel.currentPage-1"
+              [limit]="pagingModel.itemsPerPage" 
+              [externalPaging]="true" 
+              (page)='setPage($event)' 
+              [scrollbarH]="true" 
+              [scrollbarV]="true" 
+              [virtualization]="false" 
+              (select)="onSelect($event)"
+              [style.height.px]="innerHeight"
+              [loadingIndicator]="loadingIndicator">
+              <ngx-datatable-column
+                [width]="30"
+                [sortable]="false"
+                [canAutoResize]="false"
+                [draggable]="false"
+                [resizeable]="true"
+                cellClass="text-center">
+                <ng-template
+                  ngx-datatable-header-template
+                  let-value="value"
+                  let-allRowsSelected="allRowsSelected"
+                  let-selectFn="selectFn">
+                  <input type="checkbox" [checked]="allRowsSelected" (change)="selectFn(!allRowsSelected)" id="all"/>
+                  <label for="all"></label>
+                </ng-template>
+                <ng-template 
+                  let-row="row"
+                  ngx-datatable-cell-template
+                  let-value="value"
+                  let-isSelected="isSelected"
+                  let-onCheckboxChangeFn="onCheckboxChangeFn">
+                  <input type="checkbox" [checked]="isSelected" (change)="onCheckboxChangeFn($event)" id="{{row['id']}}"/>
+                  <label for="{{row['id']}}" class="label_checkbox"></label>
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="30" name="No." prop="rowIndex" cellClass="text-center" [sortable]="false"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="120" name="Part Number" prop="part_number" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="120" name="Old Part Number" prop="old_partnumber" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="40" name="Rev" prop="revision" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="170" name="ECR" prop="ecr_number" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="70" name="Type" prop="material_type" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="70" name="Tracebility" prop="tracable_part" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="70" name="UoM" prop="uom" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [width]="110" name="Error" prop="error_log" cellClass="text-left"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="100" name="Status" prop="status" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="130" name="Create Date" prop="creation_date" cellClass="text-center">
+                <ng-template let-value="value" ngx-datatable-cell-template>
+                  {{value | date: 'dd/MM/yyyy h:mm a'}}
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="130" name="Update Date" prop="last_update_on" cellClass="text-center">
+                <ng-template let-value="value" ngx-datatable-cell-template>
+                  {{value | date: 'dd/MM/yyyy h:mm a'}}
+                </ng-template>
+              </ngx-datatable-column>
+              <!-- <ngx-datatable-column [canAutoResize]="false" [width]="40" cellClass="text-center">
+                <ng-template let-row="row" ngx-datatable-cell-template>
+                  <a href='javascript:void(0)' 
+                    class='btn btn-outline btn-sm btn-primary btn-icon' 
+                    title='Edit'
+                    style='width:30px;' 
+                    (click)="openPopupEdit(editTemplate, row['id'])">
+                    <i class='fa fa-edit'></i>
+                  </a>
+                </ng-template>
+              </ngx-datatable-column> -->
+            </ngx-datatable>
+          </div>
+        </div>
+      </div>
+      <!-- <ng-template #editTemplate>
+        <app-order-edit [bsModalRef]="bsModalRefEdit" [id]="id" (acceptBtnModalClick)="onAcceptBtnModalClick($event)"></app-order-edit>
+      </ng-template> -->
+<!----------------------------------------------------------------------------------------------------->
+    </div>
+  </div>
+</section>

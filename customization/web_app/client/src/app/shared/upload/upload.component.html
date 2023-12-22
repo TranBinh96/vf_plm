@@ -1,0 +1,12 @@
+<label for="file-upload_{{id}}" class="btn btn-flat btn-sm lbl-for-file-upload" title="Select file" style="margin-bottom: 0px;">
+    <i class="fa fa-paperclip"></i> 
+</label>
+{{fileName}}
+<label class="btn btn-flat btn-sm" title="Remove select" (click)="clearFileChoose()" *ngIf="fileName != ''" style="margin-bottom: 0px;">
+    <i class="fa fa-times"></i> 
+</label>
+
+<input *ngIf="multiple == false" #fileInput type="file" id="file-upload_{{id}}" class="file-upload" (change)="onFileChange($event)" />
+<!-- <input *ngIf="multiple" #fileInput type="file" id="file-upload_{{id}}" class="file-upload" multiple (change)="onFileChange($event)" /> -->
+<!-- <label *ngIf="multiple && fileCount>0"> You choose {{fileCount}} file</label> -->
+<!-- <label *ngIf="!multiple && fileCount>0"> &nbsp;&nbsp; {{fileName}}</label> -->

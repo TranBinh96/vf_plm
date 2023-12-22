@@ -1,0 +1,96 @@
+<section class="content-header">
+  <div class="row col-12">
+    <div>
+      <span style="font-size: 20px;">Job History</span>
+    </div>
+    <div style="width: 200px; margin-left: 10px;">
+      <input class="form-control" type="text" [(ngModel)]="searchData.JobName" placeholder="Name" (keyup)="triggerEnter($event)">
+    </div>
+    <div style="width: 180px; margin-left: 5px;">
+      <ngx-select [items]="dataForm.jobCategoryList" [(ngModel)]="searchData.JobCategoryID" placeholder="Job Category" (selectionChanges)="onChangeJobCategory($event)"></ngx-select>
+    </div>
+    <div style="width: 180px; margin-left: 5px;">
+      <ngx-select [items]="dataForm.statusList" [(ngModel)]="searchData.Status" placeholder="Status" (selectionChanges)="onChangeStatus($event)"></ngx-select>
+    </div>
+    <div style="width: 130px; margin-left: 5px;">
+      <input type="text" class="form-control" bsDatepicker placeholder="Start From Date" [bsConfig]="{ dateInputFormat: 'DD/MM/YYYY' }" [(ngModel)]="searchData.StartFromDate">
+    </div>
+    <div style="width: 130px; margin-left: 5px;">
+      <input type="text" class="form-control" bsDatepicker placeholder="Start To Date" [bsConfig]="{ dateInputFormat: 'DD/MM/YYYY' }" [(ngModel)]="searchData.StartToDate">
+    </div>
+    <button class="btn btn-primary btn-sm" (click)="loadData()" style="margin-left: 5px;"><i class="fa fa-search"></i></button>
+  </div>
+</section>
+<section class="content" style="margin-top: -5px;">
+  <div class="row">
+    <div class="col-12">
+<!----------------------------------------------------------------------------------------------------->
+      <div class="row">
+        <div class="col-6">
+          <div class="col-12 row" style="vertical-align: middle;">
+            <div style="margin-right: 5px; margin-top: 8px;"><span >Show</span></div>
+            <select (change)="onChangeRowPerPage($event)" style="width: 100px;" [(ngModel)]="searchData.ItemsPerPage">
+              <option *ngFor="let i of rowPerPage" value="{{i}}">{{i}}</option>
+            </select>
+            <div style="margin-left: 5px; margin-top: 8px;"><span >entries/page</span></div>
+          </div>
+        </div>
+        <div class="col-6">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <ngx-datatable class="material fullscreen custom" 
+              [externalSorting]="true" 
+              (sort)="onSort($event)"
+              [columnMode]="'force'"
+              [footerHeight]="25"
+              [rowHeight]="'auto'" 
+              [rows]="pagingModel.dataList" 
+              [count]="pagingModel.totalItems" 
+              [offset]="pagingModel.currentPage-1"
+              [limit]="pagingModel.itemsPerPage" 
+              [externalPaging]="true" 
+              (page)='setPage($event)' 
+              [scrollbarH]="true" 
+              [scrollbarV]="true" 
+              [virtualization]="false" 
+              [style.height.px]="innerHeight"
+              [loadingIndicator]="loadingIndicator">
+              <ngx-datatable-column [canAutoResize]="false" [width]="30" name="No." prop="rowIndex" cellClass="text-center" [sortable]="false"></ngx-datatable-column>
+              <ngx-datatable-column [width]="100" name="Job Name" prop="job_name" cellClass="text-left"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="100" name="Job Category" prop="job_category_name" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="100" name="Status" prop="status" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="170" name="Start Time" prop="start_time" cellClass="text-center">
+                <ng-template let-value="value" ngx-datatable-cell-template>
+                  {{value | date: 'dd/MM/yyyy h:mm a'}}
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="170" name="End Time" prop="end_time" cellClass="text-center">
+                <ng-template let-value="value" ngx-datatable-cell-template>
+                  {{value | date: 'dd/MM/yyyy h:mm a'}}
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="40" cellClass="text-center">
+                <ng-template let-row="row" ngx-datatable-cell-template>
+                  <a href='javascript:void(0)' 
+                    class='btn btn-outline btn-sm btn-warning btn-icon' 
+                    title='Detail'
+                    style='width:30px;' 
+                    (click)="openPopupDetail(detailTemplate, row['id'])">
+                    <i class='fa fa-info'></i>
+                  </a>
+                </ng-template>
+              </ngx-datatable-column>
+            </ngx-datatable>
+          </div>
+        </div>
+      </div>
+      <ng-template #detailTemplate>
+        <app-job-history-detail [bsModalRef]="bsModalRefDetail" [id]="id" (acceptBtnModalClick)="onAcceptBtnModalClick($event)"></app-job-history-detail>
+      </ng-template>
+<!----------------------------------------------------------------------------------------------------->
+    </div>
+  </div>
+</section>

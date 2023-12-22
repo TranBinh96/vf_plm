@@ -1,0 +1,42 @@
+<div class="modal-header">
+  <h4 class="modal-title pull-left">{{title}}</h4>
+  <button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body" style="padding: 10px;">
+  <table class="table table-sm table-bordered" style="margin-bottom: 0;">
+    <tr>
+      <td><span class="col-form-label">Employee Code</span></td>
+      <td><input class="form-control" type="text" [(ngModel)]="dataItem.employee_code"/></td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Employee Name</span></td>
+      <td><input class="form-control" type="text" [(ngModel)]="dataItem.employee_name"/></td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Email</span></td>
+      <td><input class="form-control" type="text" [(ngModel)]="dataItem.email"/></td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Phone Number</span></td>
+      <td><input class="form-control" type="text" [(ngModel)]="dataItem.phone_number"/></td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Service Desk ID</span></td>
+      <td><input class="form-control" type="text" [(ngModel)]="dataItem.service_desk_id"/></td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Service Desk Name</span></td>
+      <td><input class="form-control" type="text" [(ngModel)]="dataItem.service_desk_name"/></td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Remark</span></td>
+      <td><input class="form-control" type="text" [(ngModel)]="dataItem.remark"/></td>
+    </tr>
+  </table>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-danger" (click)="bsModalRef.hide()">CLOSE</button>
+  <button type="button" class="btn btn-success float-right" (click)="acceptBtnModalClicked()" autofocus>{{buttonName}}</button>
+</div>

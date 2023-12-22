@@ -1,0 +1,130 @@
+<section class="content-header">
+  <div class="row col-12">
+    <div>
+      <span style="font-size: 20px;">Bom Verify</span>
+    </div>
+    <div style="width: 180px; margin-left: 10px;">
+      <ngx-select [items]="dataForm.bomTypeList" [(ngModel)]="searchData.BomType" placeholder="Bom Type" (selectionChanges)="onChangeBomType($event)"></ngx-select>
+    </div>
+    <div style="width: 180px; margin-left: 5px;">
+      <ngx-select [items]="dataForm.programList" [(ngModel)]="searchData.ProgramName" placeholder="Progarm" (selectionChanges)="onChangeProgram($event)"></ngx-select>
+    </div>
+    <div style="width: 220px; margin-left: 5px;">
+      <ngx-select [items]="dataForm.moduleList" [(ngModel)]="searchData.ModuleName" placeholder="Module" (selectionChanges)="onChangeModule($event)"></ngx-select>
+    </div>
+    <div style="width: 220px; margin-left: 5px;">
+      <ngx-select [items]="dataForm.revisionRuleList" [(ngModel)]="searchData.RevisionRule" placeholder="Module" (selectionChanges)="onChangeRevisionRule($event)"></ngx-select>
+    </div>
+    <div style="width: 150px; margin-left: 5px;">
+      <input class="form-control" type="text" [(ngModel)]="searchData.NotifyUser" placeholder="Notify Notify" (keyup)="triggerEnter($event)">
+    </div>
+    <button class="btn btn-primary btn-sm" (click)="loadData()" style="margin-left: 5px;"><i class="fa fa-search"></i></button>
+  </div>
+</section>
+<section class="content" style="margin-top: -5px;">
+  <div class="row">
+    <div class="col-12">
+<!----------------------------------------------------------------------------------------------------->
+      <div class="row">
+        <div class="col-6">
+          <div class="col-12 row" style="vertical-align: middle;">
+            <div style="margin-right: 5px; margin-top: 8px;"><span >Show</span></div>
+            <select (change)="onChangeRowPerPage($event)" style="width: 100px;" [(ngModel)]="searchData.ItemsPerPage">
+              <option *ngFor="let i of rowPerPage" value="{{i}}">{{i}}</option>
+            </select>
+            <div style="margin-left: 5px; margin-top: 8px;"><span >entries/page</span></div>
+          </div>
+        </div>
+        <div class="col-6">
+          <button class="btn btn-sm btn-success float-right" style="margin-left: 5px;" (click)="openPopupEdit(editTemplate)"><i class="fa fa-plus"></i> CREATE NEW</button>
+          <button class="btn btn-sm btn-danger float-right" style="margin-left: 5px;" (click)="openPopupMultiEdit(multiUpdateTemplate, 'DEL')"><i class="fa fa-trash"></i> MULTI REMOVE</button>
+          <button class="btn btn-sm btn-primary float-right" (click)="openPopupMultiEdit(multiUpdateTemplate, 'ADD')"><i class="fa fa-plus"></i> MULTI ADD</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="">
+            <ngx-datatable class="material fullscreen custom" 
+              [externalSorting]="true" 
+              (sort)="onSort($event)"
+              [columnMode]="'force'"
+              [footerHeight]="25"
+              [rowHeight]="'auto'" 
+              [selectionType]="'checkbox'"
+              [selected]="selected"
+              [rows]="pagingModel.dataList" 
+              [count]="pagingModel.totalItems" 
+              [offset]="pagingModel.currentPage-1"
+              [limit]="pagingModel.itemsPerPage" 
+              [externalPaging]="true" 
+              (page)='setPage($event)' 
+              [scrollbarH]="true" 
+              [scrollbarV]="true" 
+              [virtualization]="false" 
+              (select)="onSelect($event)"
+              [style.height.px]="innerHeight"
+              [loadingIndicator]="loadingIndicator">
+              <ngx-datatable-column
+                [width]="30"
+                [sortable]="false"
+                [canAutoResize]="false"
+                [draggable]="false"
+                [resizeable]="true"
+                cellClass="text-center">
+                <ng-template
+                  ngx-datatable-header-template
+                  let-value="value"
+                  let-allRowsSelected="allRowsSelected"
+                  let-selectFn="selectFn">
+                  <input type="checkbox" [checked]="allRowsSelected" (change)="selectFn(!allRowsSelected)" id="all"/>
+                  <label for="all"></label>
+                </ng-template>
+                <ng-template 
+                  let-row="row"
+                  ngx-datatable-cell-template
+                  let-value="value"
+                  let-isSelected="isSelected"
+                  let-onCheckboxChangeFn="onCheckboxChangeFn">
+                  <input type="checkbox" [checked]="isSelected" (change)="onCheckboxChangeFn($event)" id="{{row['id']}}"/>
+                  <label for="{{row['id']}}" class="label_checkbox"></label>
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="30" name="No." prop="rowIndex" cellClass="text-center" [sortable]="false"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="100" name="Bom Type" prop="bom_type" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="100" name="Program" prop="program_name" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="180" name="Module" prop="module_name" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="100" name="Part Number" prop="part_number" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="180" name="Revision Rule" prop="revision_rule" cellClass="text-center"></ngx-datatable-column>
+              <ngx-datatable-column [width]="180" name="Notify User" prop="notifiers" cellClass="text-left"></ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="50" name="Active" prop="is_active" cellClass="text-center">
+                <ng-template let-row="row" ngx-datatable-cell-template>
+                  <div *ngIf="row['is_active']">
+                    <span class="badge badge-lg badge-dot badge-success"></span>
+                  </div>
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column [canAutoResize]="false" [width]="40" cellClass="text-center">
+                <ng-template let-row="row" ngx-datatable-cell-template>
+                  <a href='javascript:void(0)' 
+                    class='btn btn-outline btn-sm btn-primary btn-icon' 
+                    title='Edit'
+                    style='width:30px;' 
+                    (click)="openPopupEdit(editTemplate, row['id'])">
+                    <i class='fa fa-edit'></i>
+                  </a>
+                </ng-template>
+              </ngx-datatable-column>
+            </ngx-datatable>
+          </div>
+        </div>
+      </div>
+      <ng-template #editTemplate>
+        <app-bom-verify-master-edit [bsModalRef]="bsModalRefEdit" [id]="id" (acceptBtnModalClick)="onAcceptBtnModalClick($event)"></app-bom-verify-master-edit>
+      </ng-template>
+      <ng-template #multiUpdateTemplate>
+        <app-bom-verify-master-multi-edit [bsModalRef]="bsModelRefMultiUpdate" [idList]="idList" [typeUpdate]="typeUpdate" (acceptBtnModalClick)="onAcceptBtnModalClick($event)"></app-bom-verify-master-multi-edit>
+      </ng-template>
+<!----------------------------------------------------------------------------------------------------->
+    </div>
+  </div>
+</section>

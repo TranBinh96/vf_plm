@@ -1,0 +1,40 @@
+<div class="modal-header">
+  <h4 class="modal-title pull-left">Edit</h4>
+  <button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body" style="padding: 10px;">
+  <table class="table table-sm table-bordered" style="margin-bottom: 0;">
+    <tr>
+      <td><span class="col-form-label">Subject</span></td>
+      <td><input class="form-control" type="text" [(ngModel)]="dataItem.subject"/></td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Status</span></td>
+      <td><ngx-select [items]="dataForm.statusList" [(ngModel)]="dataItem.status" [allowClear]=false (selectionChanges)="onChangeStatus($event)"></ngx-select></td>
+    </tr>
+  </table>
+  <div class="box">
+    <div class="box-header with-border">
+      <h5 class="box-title">Email List</h5>
+      <div class="pull-right">
+        <a class="font-size-18" href="#" (click)="onAddEmail()"><i class="fa fa-plus"></i></a>
+      </div>
+    </div>
+    <div class="box-body p-0">
+      <div class="media-list media-list-divided">
+        <ng-container *ngFor="let item of EmailList">
+          <div class="media media-single">
+            <input class="form-control" type="text" [(ngModel)]="item.Email"/>
+            <a class="font-size-18" href="#"><i class="fa fa-trash" (click)="onRemoveEmail(item.RowIndex)"></i></a>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-danger" (click)="bsModalRef.hide()">CLOSE</button>
+  <button type="button" class="btn btn-success float-right" (click)="acceptBtnModalClicked()" autofocus>UPDATE</button>
+</div>

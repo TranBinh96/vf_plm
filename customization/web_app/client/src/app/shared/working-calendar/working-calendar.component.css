@@ -1,0 +1,19 @@
+table, tr, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.sundate {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.moondate {
+    font-size: 12px;
+}
+
+.titledate {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: gray;
+}

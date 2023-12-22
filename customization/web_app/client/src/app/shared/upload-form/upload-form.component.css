@@ -1,0 +1,18 @@
+.file-item {
+    width: 130px;
+    height: 150px;
+    list-style-type: none;
+    background-color: #F7F8F9;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.img {
+    width: 120px;
+    height: 100px;
+}
+.text {
+    width: 130px;
+    height: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

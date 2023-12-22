@@ -1,0 +1,122 @@
+<div class="main-nav">
+    <nav class="navbar navbar-expand-lg">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item" [class.active]="homeActive">
+                    <a class="nav-link" [routerLink]="['/']">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown" [class.active]="true">
+                    <a class="nav-link dropdown-toggle"
+                        href=""
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                        <span>Data Puller</span>
+                    </a>
+                    <ul class="dropdown-menu multilevel scale-up-left">
+                        <li>
+                            <a class="nav-link" [routerLink]="['/datapuller/datapuller-list']">
+                                <span>List</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" [routerLink]="['/datapuller/datapuller-event-list']">
+                                <span>Event Master</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" [routerLink]="['/datapuller/datapuller-subscription-list']">
+                                <span>Subscription Handler</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item" [class.active]="true">
+                    <a class="nav-link" [routerLink]="['/sap/sap-material-master-list']">
+                        <span>SAP</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown" [class.active]="true">
+                    <a class="nav-link dropdown-toggle"
+                        href=""
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                        <span> Task Schedule</span>
+                    </a>
+                    <ul class="dropdown-menu multilevel scale-up-left">
+                        <li>
+                            <a class="nav-link" [routerLink]="['/taskschedule/job-category-list']">
+                                <span>Job Category</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" [routerLink]="['/taskschedule/job-master-list']">
+                                <span>Job Master</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" [routerLink]="['/taskschedule/job-history-list']">
+                                <span>Job History</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown" [class.active]="true">
+                    <a class="nav-link dropdown-toggle"
+                        href=""
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                        <span> Mail List</span>
+                    </a>
+                    <ul class="dropdown-menu multilevel scale-up-left">
+                        <li>
+                            <a class="nav-link" [routerLink]="['/datapuller/bomVerify-list']">
+                                <span>Bom Verify</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" [routerLink]="['/datapuller/emailSender-list']">
+                                <span>Email Sender</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item" [class.active]="true">
+                    <a class="nav-link" [routerLink]="['/tcsystem/bmide-list']">
+                        <span>BMIDE</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown" [class.active]="true">
+                    <a class="nav-link dropdown-toggle"
+                        href=""
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                        <span> Setting</span>
+                    </a>
+                    <ul class="dropdown-menu multilevel scale-up-left">
+                        <li>
+                            <a class="nav-link" [routerLink]="['/datapuller/revisionRule-list']">
+                                <span>Revision Rule</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" [routerLink]="['/system/employee-list']">
+                                <span>Employee</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" [routerLink]="['/datapuller/technician-map-list']">
+                                <span>Technician Map</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>	  
+</div>

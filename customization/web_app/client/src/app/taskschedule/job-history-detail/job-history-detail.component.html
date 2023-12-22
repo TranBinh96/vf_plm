@@ -1,0 +1,33 @@
+<div class="modal-header">
+  <h4 class="modal-title pull-left">Detail</h4>
+  <button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body" style="padding: 10px;">
+  <table class="table table-sm table-bordered" style="margin-bottom: 0;">
+    <tr>
+      <td><span class="col-form-label">UID</span></td>
+      <td>{{dataItem.uid}}</td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Status</span></td>
+      <td>{{dataItem.status}}</td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Start Time</span></td>
+      <td>{{dataItem.start_time}}</td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">End Time</span></td>
+      <td>{{dataItem.end_time}}</td>
+    </tr>
+    <tr>
+      <td><span class="col-form-label">Message</span></td>
+      <td>{{dataItem.message}}</td>
+    </tr>
+  </table>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-danger float-right" (click)="bsModalRef.hide()">CLOSE</button>
+</div>

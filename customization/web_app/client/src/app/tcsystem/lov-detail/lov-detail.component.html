@@ -1,0 +1,25 @@
+<div class="modal-header">
+  <h4 class="modal-title pull-left">LOV</h4>
+  <button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body" style="padding: 10px;">
+  <table class="table table-sm table-bordered" style="margin-bottom: 0;">
+    <tr>
+      <td><span class="col-form-label">Value</span></td>
+      <td><span class="col-form-label">Display</span></td>
+      <td><span class="col-form-label">Description</span></td>
+    </tr>
+    <ng-container *ngFor="let lovModel of dataItem.dataList">
+      <tr>
+        <td>{{lovModel.value}}</td>
+        <td>{{lovModel.display}}</td>
+        <td>{{lovModel.description}}</td>
+      </tr>
+    </ng-container>
+  </table>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-danger float-right" (click)="bsModalRef.hide()">CLOSE</button>
+</div>
