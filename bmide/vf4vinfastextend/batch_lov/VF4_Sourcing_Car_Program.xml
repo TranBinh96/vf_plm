@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+	Date="Mon Oct 14 02:03:37 PM 2019">
+	<Add />
+	<Change>
+		<TcLOV name="VF4_Sourcing_Car_Program" lovType="ListOfValuesString" usage="Exhaustive"
+			description="" isManagedExternally="true">
+			<TcLOVValue value="AF S&amp;S" description="" conditionName="isTrue" />
+			<TcLOVValue value="AFS EBUS" description="" conditionName="isTrue" />
+			<TcLOVValue value="AFS EBUS12" description="" conditionName="isTrue" />
+			<TcLOVValue value="AFS EBIKE" description="" conditionName="isTrue" />
+			<TcLOVValue value="AFS EScooter" description="" conditionName="isTrue" />
+			<TcLOVValue value="AFS VFe32" description="" conditionName="isTrue" />
+			<TcLOVValue value="AFS VFe33" description="" conditionName="isTrue" />
+			<TcLOVValue value="AFS VFe34S" description="" conditionName="isTrue" />
+			<TcLOVValue value="AFS VF31" description="" conditionName="isTrue" />
+			<TcLOVValue value="AFS VF32" description="" conditionName="isTrue" />
+			<TcLOVValue value="AFS VF33" description="" conditionName="isTrue" />
+			<TcLOVValue value="AFS V8" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP Escooter" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP Escooter KLN" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP ESS PowerWall" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP Escooter 12V" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP Escooter 48V" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP Escooter 72V" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP Golf cart" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP LFP Escooter" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP VFe32" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP VFe33" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP VF31" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP VF7" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP VF32" description="" conditionName="isTrue" />
+			<TcLOVValue value="BP VF33" description="" conditionName="isTrue" />
+			<TcLOVValue value="CPDU" description="" conditionName="isTrue" />
+			<TcLOVValue value="Cell Gen 1/1.5" description="" conditionName="isTrue" />
+			<TcLOVValue value="Cell Gen 1.6" description="" conditionName="isTrue" />
+			<TcLOVValue value="Cell Gen 1.8" description="" conditionName="isTrue" />
+			<TcLOVValue value="Cell Gen 2" description="" conditionName="isTrue" />
+			<TcLOVValue value="Cell Gen 5.1_Prismatic" description="" conditionName="isTrue" />
+			<TcLOVValue value="Cell Gen 5.2_Prismatic" description="" conditionName="isTrue" />
+			<TcLOVValue value="Cell Gen 6" description="" conditionName="isTrue" />
+			<TcLOVValue value="Cell Gen PT_Cylindrical" description="" conditionName="isTrue" />
+			<TcLOVValue value="DCDC" description="" conditionName="isTrue" />
+			<TcLOVValue value="EBUS" description="" conditionName="isTrue" />
+			<TcLOVValue value="EBUS12" description="" conditionName="isTrue" />
+			<TcLOVValue value="Emotor" description="" conditionName="isTrue" />
+			<TcLOVValue value="Emotor Scooter" description="" conditionName="isTrue" />
+			<TcLOVValue value="Escooter" description="" conditionName="isTrue" />
+			<TcLOVValue value="ESS" description="" conditionName="isTrue" />
+			<TcLOVValue value="ESS 20 FT" description="" conditionName="isTrue" />
+			<TcLOVValue value="ESS 20 FT 1500V" description="" conditionName="isTrue" />
+			<TcLOVValue value="HMI" description="" conditionName="isTrue" />
+			<TcLOVValue value="Home Charger" description="" conditionName="isTrue" />
+			<TcLOVValue value="IPDU" description="" conditionName="isTrue" />
+			<TcLOVValue value="MCU" description="" conditionName="isTrue" />
+			<TcLOVValue value="MHU" description="" conditionName="isTrue" />
+			<TcLOVValue value="NB1" description="" conditionName="isTrue" />
+			<TcLOVValue value="NC1" description="" conditionName="isTrue" />
+			<TcLOVValue value="Portable Charger" description="" conditionName="isTrue" />
+			<TcLOVValue value="S&amp;S" description="" conditionName="isTrue" />
+			<TcLOVValue value="SCU" description="" conditionName="isTrue" />
+			<TcLOVValue value="VCU" description="" conditionName="isTrue" />
+			<TcLOVValue value="VF New" description="" conditionName="isTrue" />
+			<TcLOVValue value="VF NEW GSM" description="" conditionName="isTrue" />
+			<TcLOVValue value="VF NEW 2024" description="" conditionName="isTrue" />
+			<TcLOVValue value="VF3" description="" conditionName="isTrue" />
+			<TcLOVValue value="VFe32" description="" conditionName="isTrue" />
+			<TcLOVValue value="VFe33" description="" conditionName="isTrue" />
+			<TcLOVValue value="VFe34NG" description="" conditionName="isTrue" />
+			<TcLOVValue value="VF31" description="" conditionName="isTrue" />
+			<TcLOVValue value="VF32" description="" conditionName="isTrue" />
+			<TcLOVValue value="VF33" description="" conditionName="isTrue" />
+			<TcLOVValue value="VF8 New Platform" description="" conditionName="isTrue" />
+			<TcLOVValue value="VF9 New Platform" description="" conditionName="isTrue" />
+			<TcLOVValue value="VK CITY" description="" conditionName="isTrue" />
+			<TcLOVValue value="VK SPORT" description="" conditionName="isTrue" />
+			<TcLOVValue value="V5 CITY" description="" conditionName="isTrue" />
+			<TcLOVValue value="V5 CITY LFP" description="" conditionName="isTrue" />
+			<TcLOVValue value="V5 LITE LFP" description="" conditionName="isTrue" />
+			<TcLOVValue value="V5 LITE LFP 2024" description="" conditionName="isTrue" />
+			<TcLOVValue value="V7 SPORT LFP" description="" conditionName="isTrue" />
+			<TcLOVValue value="V8" description="" conditionName="isTrue" />
+			<TcLOVValue value="V9 SPORT LFP" description="" conditionName="isTrue" />
+			<TcLOVValue value="3IN1" description="" conditionName="isTrue" />
+			<TcLOVValue value="XGW" description="" conditionName="isTrue" />
+		</TcLOV>
+	</Change>
+</TcBusinessData>

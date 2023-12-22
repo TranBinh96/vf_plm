@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Jun 17 10:32:07 PM 2019">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_cuv_veh_variant_lov" lovType="ListOfValuesString" usage="Suggestive"
+        description="" isManagedExternally="true">
+		<TcLOVValue value="Base-ICE" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Middle - ICE" description="" conditionName="isTrue"/>
+		<TcLOVValue value="High - ICE" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Base/Middle ICE" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Base/High ICE" description="" conditionName="isTrue"/>
+		<TcLOVValue value="High/Base ICE" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Base-E" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Middle-E" description="" conditionName="isTrue"/>
+		<TcLOVValue value="High-E" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Base/Middle E" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Base/High E" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Middle/High E" description="" conditionName="isTrue"/>
+		<TcLOVValue value="&lt;blank&gt;" description="" conditionName="isTrue"/>
+		
+    </TcLOV>
+  </Change>
+</TcBusinessData>

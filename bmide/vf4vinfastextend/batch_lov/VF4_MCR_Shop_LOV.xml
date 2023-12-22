@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  VF4_MCR_Shop_LOV same as Vf6_plant_code, VF3_plant (use for Vf4_plant_form)
+  When updating, make sure to update both LOVs, if different, please confirm with the administrator
+-->
+
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Wed Jul 28 10:55:50 AM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_MCR_Shop_LOV" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="2001" description="E-Scooter" conditionName="isTrue"/>
+      <TcLOVValue value="2002" description="Battery Charging Station" conditionName="isTrue"/>
+      <TcLOVValue value="3001" description="Car" conditionName="isTrue"/>
+      <TcLOVValue value="3002" description="Engine" conditionName="isTrue"/>
+      <TcLOVValue value="3003" description="Press" conditionName="isTrue"/>
+      <TcLOVValue value="3004" description="Sub Assembly" conditionName="isTrue"/>
+      <TcLOVValue value="3011" description="Battery Cell" conditionName="isTrue"/>
+      <TcLOVValue value="3051" description="Ha Tinh Battery Packing" conditionName="isTrue"/>
+      <TcLOVValue value="3087" description="Cell Shop" conditionName="isTrue"/>
+      <TcLOVValue value="3088" description="Electronics &amp; Electricity" conditionName="isTrue"/>
+      <TcLOVValue value="3089" description="Mold" conditionName="isTrue"/>
+      <TcLOVValue value="3092" description="EBUS" conditionName="isTrue"/>
+      <TcLOVValue value="3093" description="APICO" conditionName="isTrue"/>
+      <TcLOVValue value="3094" description="Battery Packing" conditionName="isTrue"/>
+      <TcLOVValue value="3095" description="Die Casting" conditionName="isTrue"/>
+      <TcLOVValue value="3096" description="EMotor" conditionName="isTrue"/>
+      <TcLOVValue value="3097" description="Interior" conditionName="isTrue"/>
+      <TcLOVValue value="3098" description="Mechanical" conditionName="isTrue"/>
+      <TcLOVValue value="3099" description="VAPA" conditionName="isTrue"/>
+      <TcLOVValue value="4001" description="E-Scooter Trading Shipping Yard" conditionName="isTrue"/>
+      <TcLOVValue value="4002" description="Car Trading Shipping Yard" conditionName="isTrue"/>
+      <TcLOVValue value="4005" description="GLOBAL PDC" conditionName="isTrue"/>
+      <TcLOVValue value="5000" description="Product Engineering" conditionName="isTrue"/>
+      <TcLOVValue value="5002" description="Pack Pin 2" conditionName="isTrue"/>
+      <TcLOVValue value="6006" description="Sale Hub" conditionName="isTrue"/>
+      <TcLOVValue value="VES1" description="VES1" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

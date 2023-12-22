@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Wed Aug 12 11:21:28 AM 2020">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_vffs_work_product" lovType="ListOfValuesString" usage="Exhaustive"
+      description="" isManagedExternally="true">
+      <TcLOVValue value="DIA" description="" conditionName="isTrue" />
+      <TcLOVValue value="Vehicle Safety Plan" description="" conditionName="isTrue" />
+      <TcLOVValue value="Supplier Safety Plan" description="" conditionName="isTrue" />
+      <TcLOVValue value="Item Definition" description="" conditionName="isTrue" />
+      <TcLOVValue value="Impact Analysis" description="" conditionName="isTrue" />
+      <TcLOVValue value="HARA" description="" conditionName="isTrue" />
+      <TcLOVValue value="FTA" description="" conditionName="isTrue" />
+      <TcLOVValue value="FSR" description="" conditionName="isTrue" />
+      <TcLOVValue value="FSC" description="" conditionName="isTrue" />
+      <TcLOVValue value="TSR" description="" conditionName="isTrue" />
+      <TcLOVValue value="TSC" description="" conditionName="isTrue" />
+      <TcLOVValue value="Supplier System Validation Strategy" description="" conditionName="isTrue" />
+      <TcLOVValue value="Supplier System Validation Report" description="" conditionName="isTrue" />
+      <TcLOVValue value="Supplier System Validation Specification" description=""
+        conditionName="isTrue" />
+      <TcLOVValue value="Supplier Hardware Validation Strategy" description=""
+        conditionName="isTrue" />
+      <TcLOVValue value="Supplier Hardware Validation Report" description="" conditionName="isTrue" />
+      <TcLOVValue value="Supplier Hardware Validation Specification" description=""
+        conditionName="isTrue" />
+      <TcLOVValue value="Supplier Software Validation Strategy" description=""
+        conditionName="isTrue" />
+      <TcLOVValue value="Supplier Software Validation Report" description="" conditionName="isTrue" />
+      <TcLOVValue value="Supplier Software Validation Specification" description=""
+        conditionName="isTrue" />
+      <TcLOVValue value="VIT Strategy" description="" conditionName="isTrue" />
+      <TcLOVValue value="VIT Specification" description="" conditionName="isTrue" />
+      <TcLOVValue value="VIT Report" description="" conditionName="isTrue" />
+      <TcLOVValue value="Safety Validation Strategy" description="" conditionName="isTrue" />
+      <TcLOVValue value="Safety Validation Specification" description="" conditionName="isTrue" />
+      <TcLOVValue value="Safety Validation Report" description="" conditionName="isTrue" />
+
+    </TcLOV>
+  </Change>
+</TcBusinessData>

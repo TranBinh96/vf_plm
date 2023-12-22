@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://vf4.com/Schemas/CM/2020-12/ChangeManagement"
+    xmlns:tns="http://vf4.com/Schemas/CM/2020-12/ChangeManagement" 
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+     
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xsd:import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"           schemaLocation="SoaBase.xsd" />
+    
+    
+
+    <xsd:complexType name="ImpactedProgramOutput"> 
+        <xsd:annotation>
+                <xsd:appinfo>
+                     <xjb4c-hashmap>
+                          <key>key</key>
+                          <value>value</value>
+                     </xjb4c-hashmap>
+                </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="key" type="soa:ModelObject" >
+            </xsd:element>
+            <xsd:element name="value" type="soa:ModelObject"  minOccurs="0" maxOccurs="unbounded">
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType> 
+
+
+
+    <xsd:complexType name="DeriveChangeInput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="changeObjRev" type="soa:ModelObject" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        tag of ECR revision
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="propertyAndValues" type="tns:PropertyAndValues"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        list of mandotory property and values to set
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="relationToAttachChangeObj" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECN &amp; ECR relation
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="derivedObjType" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECN object type to be created
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="DeriveChangeOutput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="chnageObjTag" type="soa:ModelObject" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Derived ECN object
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="errorMessage" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Error Message
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:element name="DeriveChangeResponse">
+    <xsd:complexType>
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="outputs" type="tns:DeriveChangeOutput"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Service output
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element ref="soa:ServiceData" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Service Data
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:complexType name="ImpactedProgramInput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="impactedParts" type="soa:ModelObject"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Impacted parts
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="topNodeType" type="xsd:string"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        topNodeType
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="revisionRule" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Revision Rule
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:element name="ImpactedProgramResponse">
+    <xsd:complexType>
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="outputs" type="tns:ImpactedProgramOutput"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:appinfo>
+                        <xjb4c-type>hashmap</xjb4c-type>
+                    </xsd:appinfo>
+                    <xsd:documentation><![CDATA[
+                        Map of outputs
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element ref="soa:ServiceData" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Service Data
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:complexType name="PartNumberChangeHistory">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="partRev" type="soa:ModelObject" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Part revision which may has old part number accompany with relevant ECR
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="oldPartRev" type="soa:ModelObject" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Old part revision of the partRev
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="ecrRev" type="soa:ModelObject" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Relevant ECR revision to the oldRev and partRev
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="sourcePart" type="soa:ModelObject" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        First source part get from latest working revision
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="partString" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Part object_string
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="oldPartString" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Old part number object_string
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="ecrString" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECR string
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="saCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    SA cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="saCurrency" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    SA currency
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="toolingCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Tooling cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="toolingCurrency" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Tooling currency
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="edndCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    EDnD cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="edndCurrency" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    EDnD currency
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="totalCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Total cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="totalCostStatus" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Total cost status
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="PartNumberChangeHistoryInput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="partNumber" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Part number desired to search part number change's history
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="partType" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Part type of the partNumber
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="isIncludeCost" type="xsd:boolean" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Is include cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="PartNumberChangeHistoryOutput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="input" type="tns:PartNumberChangeHistoryInput" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Part number change's history input
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="historyList" type="tns:PartNumberChangeHistory"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        History list
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:element name="PartNumberChangeHistoryResponse">
+    <xsd:complexType>
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="outputs" type="tns:PartNumberChangeHistoryOutput"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Output list which is respectively to input list
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element ref="soa:ServiceData" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Service data
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:complexType name="PropertyAndValues">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="propertyName" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Name of the Property
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="propertyValue" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Value for the Property
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+
+    <xsd:element name="DeriveChangeInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="inputs" type="tns:DeriveChangeInput"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        input
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <!--  DeriveChangeResponse is used as the deriveChange output element -->
+
+
+    <xsd:element name="GetImpactedProgramsInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="inputs" type="tns:ImpactedProgramInput" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        input for getImpactedPrograms SOA service
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <!--  ImpactedProgramResponse is used as the getImpactedPrograms output element -->
+
+
+    <xsd:element name="GetPartNumberChangeHistoryInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="inputs" type="tns:PartNumberChangeHistoryInput"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Inputs
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <!--  PartNumberChangeHistoryResponse is used as the getPartNumberChangeHistory output element -->
+
+
+
+</xsd:schema>

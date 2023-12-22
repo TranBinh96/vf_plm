@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="00CCFDA2CFD9170384AFD080849EF894" packageId="vl5vinfastscp">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies>
+        <dependency id="integration4catia" type="requires"/>
+    </dependencies>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="F400C254B1661CF9D6F9083BB430F948">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vl5vinfastscp_path}/artifacts/vl5vinfastscp_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vl5vinfastscp_path}/artifacts/vl5vinfastscp_install.zip"/>
+                    <copy file="${Teamcenter_vl5vinfastscp_path}/artifacts/vl5vinfastscp_icons.zip" todir="${Teamcenter_root_path}/install/vl5vinfastscp"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="vl5vinfastscp"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vl5vinfastscp_path}/artifacts/vl5vinfastscp_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vl5vinfastscp_path}/artifacts/vl5vinfastscp_install.zip"/>
+                    <copy file="${Teamcenter_vl5vinfastscp_path}/artifacts/vl5vinfastscp_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/vl5vinfastscp"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="vl5vinfastscp"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+</package>

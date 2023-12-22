@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployment>
+    <!--@<COPYRIGHT_START>@
+===============================================
+Copyright 2006 UGS Corp. All Rights Reserved.
+===============================================
+@<COPYRIGHT_END>@
+
+This xml file has all configuration details about server managers to connect.
+-->
+    <!--This file stores the mapping between the WSDL Service Name and the WSDL File Name.
+Please note that the internal services are not listed here,
+and hence their WSDLs cannot be accessed by the URL /tc/services/serviceName?wsdl.
+Configure the Mapping here-->
+    <service name="Custom-2017-05-Integration" wsdlServiceElement="Custom1705IntegrationService">
+        <operation name="nominateSupplierToSQP"/>
+        <operation name="removeSupplierInfo"/>
+        <operation name="updateQcheckerProperty"/>
+    </service>
+    <service name="Custom-2017-05-ReportDataSource" wsdlServiceElement="Custom1705ReportDataSourceService">
+        <operation name="getCostReportDS"/>
+    </service>
+    <service name="Custom-2019-06-Sourcing" wsdlServiceElement="Custom1906SourcingService">
+        <operation name="getSourceTrackerDetails"/>
+    </service>
+    <service name="Custom-2020-10-ReportDataSource" wsdlServiceElement="Custom2010ReportDataSourceService">
+        <operation name="calculatePartsCost"/>
+        <operation name="getEcrsCost"/>
+        <operation name="validateFamilyGroup"/>
+    </service>
+    <service name="Custom-2020-10-Sourcing" wsdlServiceElement="Custom2010SourcingService">
+        <operation name="planDateCalculation"/>
+    </service>
+    <service name="Custom-2020-12-Integration" wsdlServiceElement="Custom2012IntegrationService">
+        <operation name="structureSearchInMPP"/>
+    </service>
+    <service name="Custom-2020-12-ReportDataSource" wsdlServiceElement="Custom2012ReportDataSourceService">
+        <operation name="get150BomWithVariantsDS"/>
+        <operation name="getPFEPReport"/>
+        <operation name="getProcessStatusReport"/>
+    </service>
+    <service name="Custom-2020-12-Sourcing" wsdlServiceElement="Custom2012SourcingService">
+        <operation name="assignSourcePartToBuyer"/>
+        <operation name="getOrCreateVFCost"/>
+    </service>
+</deployment>

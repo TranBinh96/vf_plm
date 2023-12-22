@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Wed Jan 20 11:41:46 AM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_LOV_MODULE_GROUP" lovType="ListOfValuesString" usage="Exhaustive" description="List of values module group use for vf4 template" isManagedExternally="true">
+      <TcLOVValue value="VEHICLE_COMPLETE" description="" conditionName="isTrue"/>
+      <!-- <TcLOVValue value="VEHICLE COMPLETE" description="" conditionName="isTrue"/> -->
+      <TcLOVValue value="EXTERIOR" description="" conditionName="isTrue"/>
+
+      <TcLOVValue value="INTERIOR" description="" conditionName="isTrue"/>
+
+      <TcLOVValue value="BODY_IN_WHITE" description="" conditionName="isTrue"/>
+
+      <TcLOVValue value="DOORS_AND_CLOSURES" description="" conditionName="isTrue"/>
+
+      <TcLOVValue value="CHASSIS" description="" conditionName="isTrue"/>
+
+      <TcLOVValue value="POWERTRAIN" description="" conditionName="isTrue"/>
+
+      <TcLOVValue value="ELECTRIC_ELECTRONICS" description="" conditionName="isTrue"/>
+
+      <TcLOVValue value="BATTERY_PACK" description="" conditionName="isTrue"/>
+
+      <!-- <TcLOVValue value="STANDARD" description="" conditionName="isTrue"/> -->
+      <TcLOVValue value="EMOTOR" description="" conditionName="isTrue"/>
+
+      <!-- <TcLOVValue value="SEATS" description="" conditionName="isTrue"/> -->
+      <TcLOVValue value="SEATS_AND_RESTRAINTS" description="" conditionName="isTrue"/>
+
+      <TcLOVValue value="3_IN_1_PDU_DCDC_OBC" description="" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

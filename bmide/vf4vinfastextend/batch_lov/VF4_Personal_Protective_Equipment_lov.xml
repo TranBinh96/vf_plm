@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Fri Oct 22 11:36:29 AM 2021">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_Personal_Protective_Equipment_lov" lovType="ListOfValuesString"
+      usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="Foot Protection" description="" conditionName="isTrue" />
+      <TcLOVValue value="Hand Protection" description="" conditionName="isTrue" />
+      <TcLOVValue value="Face Shield" description="" conditionName="isTrue" />
+      <TcLOVValue value="Dust Mask" description="" conditionName="isTrue" />
+      <TcLOVValue value="Ear Protection" description="" conditionName="isTrue" />
+      <TcLOVValue value="Safety Glasses" description="" conditionName="isTrue" />
+      <TcLOVValue value="Bump Cap" description="" conditionName="isTrue" />
+      <TcLOVValue value="Safety Helmets" description="" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

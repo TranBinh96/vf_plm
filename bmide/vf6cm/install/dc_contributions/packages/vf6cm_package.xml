@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="2F06CE64C51FE8DF996DF3BCD187BD03" packageId="vf6cm">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies>
+        <dependency id="cm" type="requires"/>
+    </dependencies>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="7B7B4A59C092F04A0B14D0ECE595A9D6">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf6cm_path}/artifacts/vf6cm_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf6cm_path}/artifacts/vf6cm_install.zip"/>
+                    <copy file="${Teamcenter_vf6cm_path}/artifacts/vf6cm_icons.zip" todir="${Teamcenter_root_path}/install/vf6cm"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="vf6cm"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf6cm_path}/artifacts/vf6cm_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf6cm_path}/artifacts/vf6cm_install.zip"/>
+                    <copy file="${Teamcenter_vf6cm_path}/artifacts/vf6cm_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/vf6cm"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="vf6cm"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+    <artifact artifactType="fnd0_serverArtifact" guid="5D003812BF75053D3DCBD36F9A72E23B">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <property name="template_rtserver" value="false"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${product_id_application_id_path}/tc/vf6cm_rtserver.zip"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/emh_text.xml" includefile="vf6cm_errors.xml"/>
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/tc_text.xml" includefile="vf6cm_text.xml"/>
+                </target>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <property name="template_rtserver" value="false"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${product_id_application_id_path}/tc/vf6cm_rtserver.zip"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/emh_text.xml" includefile="vf6cm_errors.xml"/>
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/tc_text.xml" includefile="vf6cm_text.xml"/>
+                </target>
+            </update>
+        </deploymentActions>
+    </artifact>
+</package>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://vf4.com/Schemas/AdminUtils/2020-12/AdminUtils"
+    xmlns:tns="http://vf4.com/Schemas/AdminUtils/2020-12/AdminUtils" 
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+     
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xsd:import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"           schemaLocation="SoaBase.xsd" />
+    
+    
+
+
+    <xsd:complexType name="ChangeUOMInput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="partNumber" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Part Number of the Item/Part
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="partType" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Part Type of the Item/Part
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="partUOM" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Part Unit of Measure
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="ChangeUOMOutput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="partNumber" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Part Number of the Item/Part
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="partType" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Part Type of the Item/Part
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="partUOM" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Part/Item Unit of Measure
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="errorMessage" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Error Message for the Service
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:element name="ChangeUOMResponse">
+    <xsd:complexType>
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="outputs" type="tns:ChangeUOMOutput"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        ChangeUOM Response
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element ref="soa:ServiceData" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Service Data  for ChangeUOM
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:complexType name="PropertyAndValues">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="values" type="xsd:string"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        vector of property values
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="property" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    property which needs to be change
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="ReassignWFTaskInput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="propertyNameAndValue" type="tns:WFTaskPropertyAndValue"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        vector of property Name And Value
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="userId" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Currently Assigned User Id
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="processTemplateName" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Process Template Name
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="newUserId" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    New User Id
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="newUserGroup" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    New User Group
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="executingProcessesNum" type="xsd:integer" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Number of processes executed from query result form the first record.
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="isDryRun" type="xsd:boolean" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    isDryRun
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="objectType" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    object Type
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="ReassignWFTaskOutput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="reasignedTask" type="soa:ModelObject" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Reassigned task
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="templateName" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Process Template Name
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="taskName" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    taskName
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="taskType" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    taskType
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="assignedUsers" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    assigned/signoff Users
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="returnStatus" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    return status
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="errorMessage" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Error Message
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:element name="ReassignWFTaskResponse">
+    <xsd:complexType>
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="outputs" type="tns:ReassignWFTaskOutput"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        ReassignWFTask Response
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element ref="soa:ServiceData" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Service Data
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:complexType name="SetPropertyError">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="errorObject" type="soa:ModelObject" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        error Object
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="errorString" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    error string
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="SetPropertyInput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="propertyAndValues" type="tns:PropertyAndValues"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        vector of property and values
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="uid" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    object uid
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:element name="SetPropertyResponse">
+    <xsd:complexType>
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="errors" type="tns:SetPropertyError"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        error
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element ref="soa:ServiceData" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        serviceData
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:complexType name="WFTaskPropertyAndValue">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="propertyName" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    PropertyName
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="propertyValue" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Property Value
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+
+    <xsd:element name="ChangeUOMInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="inputs" type="tns:ChangeUOMInput"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        input for ChangeUOM
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <!--  ChangeUOMResponse is used as the changeUOM output element -->
+
+
+    <xsd:element name="ReassignWFTaskInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="inputs" type="tns:ReassignWFTaskInput"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        input of reassignWFTask service
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <!--  ReassignWFTaskResponse is used as the reassignWFTask output element -->
+
+
+    <xsd:element name="SetPropertiesInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="inputs" type="tns:SetPropertyInput"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        inputs
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="isKeepModifiedDate" type="xsd:boolean" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    flag to Keep Modified Date
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+    </xsd:element>
+    <!--  SetPropertyResponse is used as the setProperties output element -->
+
+
+
+</xsd:schema>

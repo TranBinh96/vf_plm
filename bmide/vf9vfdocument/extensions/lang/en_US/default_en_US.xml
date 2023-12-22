@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}Document" status="Approved">Homo Document</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_CertificatMasterS" status="Approved">D Certificat Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_CertificatMaster" status="Approved">D Certificat Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_CertificatRevMasterS" status="Approved">D Certificat Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_CertificatRevisionMaster" status="Approved">D Certificat Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_CertificatRevision" status="Approved">Certificat Document Revision</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_Certificat" status="Approved">Certificate Document</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_RegulationMasterS" status="Approved">D Regulation Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_RegulationMaster" status="Approved">D Regulation Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_RegulationRevMasterS" status="Approved">D Regulation Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_RegulationRevisionMaster" status="Approved">D Regulation Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_RegulationRevision" status="Approved">Regulation Document Revision</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_Regulation" status="Approved">Regulation Document</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_StandardMasterS" status="Approved">D Standard Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_StandardMaster" status="Approved">D Standard Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_StandardRevMasterS" status="Approved">D Standard Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_StandardRevisionMaster" status="Approved">D Standard Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_StandardRevision" status="Approved">VF D Standard Revision</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_Standard" status="Approved">VF Standard Document</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_TestReportMasterS" status="Approved">D Test Report Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_TestReportMaster" status="Approved">D Test Report Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_TestReportRevMasterS" status="Approved">D Test Report Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_TestReportRevisionMaster" status="Approved">D Test Report Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_TestReportRevision" status="Approved">Test Report Document Revision</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_D_TestReport" status="Approved">Test Report Document</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_VF_DocumentMasterS" status="Approved">VF Document Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_VF_DocumentMaster" status="Approved">VF Document Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_VF_DocumentRevMasterS" status="Approved">VF Document Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_VF_DocumentRevisionMaster" status="Approved">VF Document Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_VF_DocumentRevision" status="Approved">VF Document Revision</key>
+   <key locale="en_US" id="BusinessObject{::}VF9_VF_Document" status="Approved">VF Document</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF9_LOV_DocType{::}CER" status="Approved">Certificate</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF9_LOV_DocType{::}REG" status="Approved">Regulation</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF9_LOV_DocType{::}STD" status="Approved">VF Standard Document</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF9_LOV_DocType{::}TRP" status="Approved">Test Report</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF9_LOV_Results{::}FAIL" status="Approved">Fail</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF9_LOV_Results{::}PASS" status="Approved">Pass</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Afghanistan" status="Approved">Afghanistan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Akrotiri" status="Approved">Akrotiri</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Albania" status="Approved">Albania</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Algeria" status="Approved">Algeria</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}American Samoa" status="Approved">American Samoa</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Andorra" status="Approved">Andorra</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Angola" status="Approved">Angola</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Anguilla" status="Approved">Anguilla</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Antarctica" status="Approved">Antarctica</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Antigua and Barbuda"
+       status="Approved">Antigua and Barbuda</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Argentina" status="Approved">Argentina</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Armenia" status="Approved">Armenia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Aruba" status="Approved">Aruba</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Australia" status="Approved">Australia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Austria" status="Approved">Austria</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Azerbaijan" status="Approved">Azerbaijan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Bahamas" status="Approved">Bahamas</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Bahrain" status="Approved">Bahrain</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Bangladesh" status="Approved">Bangladesh</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Barbados" status="Approved">Barbados</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Belarus" status="Approved">Belarus</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Belgium" status="Approved">Belgium</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Belize" status="Approved">Belize</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Benin" status="Approved">Benin</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Bermuda" status="Approved">Bermuda</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Bhutan" status="Approved">Bhutan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Bolivia" status="Approved">Bolivia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Bosnia and Herzegovina"
+       status="Approved">Bosnia and Herzegovina</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Botswana" status="Approved">Botswana</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Brazil" status="Approved">Brazil</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Brunei" status="Approved">Brunei</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Bulgaria" status="Approved">Bulgaria</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Burkina Faso" status="Approved">Burkina Faso</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Burma" status="Approved">Burma</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Burundi" status="Approved">Burundi</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Cambodia" status="Approved">Cambodia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Cameroon" status="Approved">Cameroon</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Canada" status="Approved">Canada</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Cape Verde" status="Approved">Cape Verde</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Central African Republic"
+       status="Approved">Central African Republic</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Chad" status="Approved">Chad</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Chile" status="Approved">Chile</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}China" status="Approved">China</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Colombia" status="Approved">Colombia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Comoros" status="Approved">Comoros</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Congo" status="Approved">Congo</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Costa Rica" status="Approved">Costa Rica</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Croatia" status="Approved">Croatia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Cuba" status="Approved">Cuba</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Cyprus" status="Approved">Cyprus</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Czech Republic" status="Approved">Czech Republic</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Denmark" status="Approved">Denmark</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Dhekelia" status="Approved">Dhekelia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Djibouti" status="Approved">Djibouti</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Dominica" status="Approved">Dominica</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Ecuador" status="Approved">Ecuador</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Egypt" status="Approved">Egypt</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}El Salvador" status="Approved">El Salvador</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Equatorial Guinea" status="Approved">Equatorial Guinea</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Eritrea" status="Approved">Eritrea</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Estonia" status="Approved">Estonia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Ethiopia" status="Approved">Ethiopia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Fiji" status="Approved">Fiji</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Finland" status="Approved">Finland</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}France" status="Approved">France</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Gabon" status="Approved">Gabon</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Gambia" status="Approved">Gambia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Gaza Strip" status="Approved">Gaza Strip</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Georgia" status="Approved">Georgia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Germany" status="Approved">Germany</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Ghana" status="Approved">Ghana</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Gibraltar" status="Approved">Gibraltar</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Greece" status="Approved">Greece</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Greenland" status="Approved">Greenland</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Grenada" status="Approved">Grenada</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Guadeloupe" status="Approved">Guadeloupe</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Guam" status="Approved">Guam</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Guatemala" status="Approved">Guatemala</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Guernsey" status="Approved">Guernsey</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Guinea" status="Approved">Guinea</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Guyana" status="Approved">Guyana</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Haiti" status="Approved">Haiti</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Honduras" status="Approved">Honduras</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Hong Kong" status="Approved">Hong Kong</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Hungary" status="Approved">Hungary</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Iceland" status="Approved">Iceland</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}India" status="Approved">India</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Indonesia" status="Approved">Indonesia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Iran" status="Approved">Iran</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Iraq" status="Approved">Iraq</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Ireland" status="Approved">Ireland</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Israel" status="Approved">Israel</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Italy" status="Approved">Italy</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Jamaica" status="Approved">Jamaica</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Jan Mayen" status="Approved">Jan Mayen</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Japan" status="Approved">Japan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Jersey" status="Approved">Jersey</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Jordan" status="Approved">Jordan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Kazakhstan" status="Approved">Kazakhstan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Kenya" status="Approved">Kenya</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Kiribati" status="Approved">Kiribati</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Kuwait" status="Approved">Kuwait</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Kyrgyzstan" status="Approved">Kyrgyzstan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Laos" status="Approved">Laos</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Latvia" status="Approved">Latvia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Lebanon" status="Approved">Lebanon</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Lesotho" status="Approved">Lesotho</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Liberia" status="Approved">Liberia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Libya" status="Approved">Libya</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Liechtenstein" status="Approved">Liechtenstein</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Lithuania" status="Approved">Lithuania</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Luxembourg" status="Approved">Luxembourg</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Macau" status="Approved">Macau</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Macedonia" status="Approved">Macedonia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Madagascar" status="Approved">Madagascar</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Malawi" status="Approved">Malawi</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Malaysia" status="Approved">Malaysia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Maldives" status="Approved">Maldives</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Mali" status="Approved">Mali</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Malta" status="Approved">Malta</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Martinique" status="Approved">Martinique</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Mauritania" status="Approved">Mauritania</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Mauritius" status="Approved">Mauritius</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Mayotte" status="Approved">Mayotte</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Mexico" status="Approved">Mexico</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Micronesia" status="Approved">Micronesia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Moldova" status="Approved">Moldova</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Monaco" status="Approved">Monaco</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Mongolia" status="Approved">Mongolia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Montserrat" status="Approved">Montserrat</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Morocco" status="Approved">Morocco</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Mozambique" status="Approved">Mozambique</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Namibia" status="Approved">Namibia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Nauru" status="Approved">Nauru</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Nepal" status="Approved">Nepal</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Netherlands" status="Approved">Netherlands</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}New Caledonia" status="Approved">New Caledonia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}New Zealand" status="Approved">New Zealand</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Nicaragua" status="Approved">Nicaragua</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Nigeria" status="Approved">Nigeria</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Niger" status="Approved">Niger</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Niue" status="Approved">Niue</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}North Korea" status="Approved">North Korea</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Norway" status="Approved">Norway</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Oman" status="Approved">Oman</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Pakistan" status="Approved">Pakistan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Palau" status="Approved">Palau</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Panama" status="Approved">Panama</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Papua New Guinea" status="Approved">Papua New Guinea</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Paraguay" status="Approved">Paraguay</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Peru" status="Approved">Peru</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Philippines" status="Approved">Philippines</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Poland" status="Approved">Poland</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Portugal" status="Approved">Portugal</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Puerto Rico" status="Approved">Puerto Rico</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Qatar" status="Approved">Qatar</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Reunion" status="Approved">Reunion</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Romania" status="Approved">Romania</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Russia" status="Approved">Russia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Rwanda" status="Approved">Rwanda</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Saint Helena" status="Approved">Saint Helena</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Saint Lucia" status="Approved">Saint Lucia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Samoa" status="Approved">Samoa</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}San Marino" status="Approved">San Marino</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Sao Tome and Principe"
+       status="Approved">Sao Tome and Principe</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Saudi Arabia" status="Approved">Saudi Arabia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Senegal" status="Approved">Senegal</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Serbia and Montenegro"
+       status="Approved">Serbia and Montenegro</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Seychelles" status="Approved">Seychelles</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Sierra Leone" status="Approved">Sierra Leone</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Singapore" status="Approved">Singapore</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Slovakia" status="Approved">Slovakia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Slovenia" status="Approved">Slovenia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Solomon Islands" status="Approved">Solomon Islands</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Somalia" status="Approved">Somalia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}South Africa" status="Approved">South Africa</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}South Korea" status="Approved">South Korea</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Spain" status="Approved">Spain</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Sri Lanka" status="Approved">Sri Lanka</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Sudan" status="Approved">Sudan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Suriname" status="Approved">Suriname</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Svalbard" status="Approved">Svalbard</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Swaziland" status="Approved">Swaziland</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Sweden" status="Approved">Sweden</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Switzerland" status="Approved">Switzerland</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Syria" status="Approved">Syria</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Taiwan" status="Approved">Taiwan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Tajikistan" status="Approved">Tajikistan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Tanzania" status="Approved">Tanzania</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Thailand" status="Approved">Thailand</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Timor-Leste" status="Approved">Timor-Leste</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Togo" status="Approved">Togo</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Tokelau" status="Approved">Tokelau</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Tonga" status="Approved">Tonga</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Tunisia" status="Approved">Tunisia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Turkey" status="Approved">Turkey</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Turkmenistan" status="Approved">Turkmenistan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Tuvalu" status="Approved">Tuvalu</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Uganda" status="Approved">Uganda</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Ukraine" status="Approved">Ukraine</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}United Arab Emirates"
+       status="Approved">United Arab Emirates</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}United Kingdom" status="Approved">United Kingdom</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}United States" status="Approved">United States</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Uruguay" status="Approved">Uruguay</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Uzbekistan" status="Approved">Uzbekistan</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Vanuatu" status="Approved">Vanuatu</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Venezuela" status="Approved">Venezuela</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Vietnam" status="Approved">Vietnam</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Virgin Islands" status="Approved">Virgin Islands</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Wake Island" status="Approved">Wake Island</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Wallis and Futuna" status="Approved">Wallis and Futuna</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}West Bank" status="Approved">West Bank</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Western Sahara" status="Approved">Western Sahara</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Yemen" status="Approved">Yemen</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Zambia" status="Approved">Zambia</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Destination{::}Zimbabwe" status="Approved">Zimbabwe</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_DocType{::}CER" status="Approved">CER</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_DocType{::}REG" status="Approved">REG</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_DocType{::}STD" status="Approved">Standard Document</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_DocType{::}TRP" status="Approved">TRP</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Effect_Model{::}All Model" status="Approved">All Model</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Effect_Model{::}Existing Model"
+       status="Approved">Existing Model</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Effect_Model{::}New Model" status="Approved">New Model</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Enforce_Basis{::}Customs Clearance"
+       status="Approved">Customs Clearance</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Enforce_Basis{::}Other" status="Approved">Other</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Enforce_Basis{::}Production" status="Approved">Production</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Enforce_Basis{::}Registration"
+       status="Approved">Registration</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Enforce_Basis{::}Sales" status="Approved">Sales</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Level_ABC{::}A" status="Approved">A</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Level_ABC{::}B" status="Approved">B</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Level_ABC{::}C" status="Approved">C</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Status{::}Abolished" status="Approved">Abolished</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Status{::}Offcial" status="Approved">Offcial</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Subject{::}Create New" status="Approved">Create New</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Reg_Subject{::}Update" status="Approved">Update</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Results{::}FAIL" status="Approved">FAIL</key>
+   <key locale="en_US" id="LOVValue{::}VF9_LOV_Results{::}PASS" status="Approved">PASS</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1SCO_lov{::}ELECTRIC_ELECTRONICS"
+       status="Approved">ELECTRIC &amp; ELECTRONIC</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1SCO_lov{::}ENGINE" status="Approved">CHASSIS</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1SCO_lov{::}FRAME BODY" status="Approved">BODY PLASTIC</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1SCO_lov{::}GENERAL STANDARD" status="Approved">GENERAL</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1SCO_lov{::}STYLING" status="Approved">STYLING</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1SCO_lov{::}TESTING &amp; VALIDATION"
+       status="Approved">TESTING &amp; VALIDATION</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1VEH_lov{::}BATTERY" status="Approved">BATTERY</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1VEH_lov{::}BODY IN WHITE" status="Approved">BODY IN WHITE</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1VEH_lov{::}CHASIS" status="Approved">CHASIS</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1VEH_lov{::}DOORS AND CLOSURES" status="Approved">DOORS AND CLOSURES</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1VEH_lov{::}ELECTRIC_ELECTRONICS"
+       status="Approved">ELECTRIC_ELECTRONICS</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1VEH_lov{::}ENGINE" status="Approved">ENGINE</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1VEH_lov{::}EXTERIOR" status="Approved">EXTERIOR</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1VEH_lov{::}GENERAL" status="Approved">GENERAL</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1VEH_lov{::}INTERIOR" status="Approved">INTERIOR</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1VEH_lov{::}POWERTRAIN" status="Approved">POWERTRAIN</key>
+   <key locale="en_US" id="LOVValue{::}VF9_mod_L1VEH_lov{::}VEHICLE COMPLETE" status="Approved">VEHICLE COMPLETE</key>
+   <key locale="en_US" id="LOVValue{::}VF9_module_levLOV{::}SCOOTER STANDARD" status="Approved">SCOOTER STANDARD</key>
+   <key locale="en_US" id="LOVValue{::}VF9_module_levLOV{::}VEHICLE STANDARD" status="Approved">VEHICLE STANDARD</key>
+   <key locale="en_US" id="Property{::}VF9_D_CertificatRevision{::}vf9_Effective"
+       status="Approved">Effective (days)</key>
+   <key locale="en_US" id="Property{::}VF9_D_CertificatRevision{::}vf9_Issue_Date"
+       status="Approved">1st Issue Date</key>
+   <key locale="en_US" id="Property{::}VF9_D_CertificatRevision{::}vf9_Issuer" status="Approved">Issuer</key>
+   <key locale="en_US" id="Property{::}VF9_D_CertificatRevision{::}vf9_Valid_Until"
+       status="Approved">Valid Until</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_Application"
+       status="Approved">Application</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_Priority" status="Approved">Priority</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_Status" status="Approved">Regulation Status</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_country_source_of_issue"
+       status="Approved">Country Source Of Issue</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_effective_model"
+       status="Approved">Effective Model</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_enforcement_basis"
+       status="Approved">Enforcement Basis</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_enforcement_timing"
+       status="Approved">Enforcement Timing</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_importance"
+       status="Approved">Importance</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_issue_date"
+       status="Approved">Issue Date</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_reg_English"
+       status="Approved">English</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_reg_VN" status="Approved">Viet Nam</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_reg_others"
+       status="Approved">Other Countries</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_reg_subject"
+       status="Approved">Subject</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_reg_title_vn"
+       status="Approved">Regulation title VN</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_reg_title"
+       status="Approved">Regulation title</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_reg_type" status="Approved">Regulation type</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_urgency" status="Approved">Urgency</key>
+   <key locale="en_US" id="Property{::}VF9_D_RegulationRevision{::}vf9_vehicle_cate_app_effect"
+       status="Approved">Vehicle Category Application &amp; Effect</key>
+   <key locale="en_US" id="Property{::}VF9_D_StandardRevision{::}vf9_keyword" status="Approved">Keyword</key>
+   <key locale="en_US" id="Property{::}VF9_D_StandardRevision{::}vf9_module_lev0"
+       status="Approved">Module Level 0</key>
+   <key locale="en_US" id="Property{::}VF9_D_StandardRevision{::}vf9_module_lev1"
+       status="Approved">Module Level 1</key>
+   <key locale="en_US" id="Property{::}VF9_D_StandardRevision{::}vf9_module_lev2"
+       status="Approved">Module Level 2</key>
+   <key locale="en_US" id="Property{::}VF9_D_StandardRevision{::}vf9_referenceNumber"
+       status="Approved">Reference Number</key>
+   <key locale="en_US" id="Property{::}VF9_D_TestReportRevision{::}vf9_Export" status="Approved">Name of Exporter</key>
+   <key locale="en_US" id="Property{::}VF9_D_TestReportRevision{::}vf9_Motor_No" status="Approved">Motor No</key>
+   <key locale="en_US" id="Property{::}VF9_D_TestReportRevision{::}vf9_Report_Date"
+       status="Approved">Date of results Report</key>
+   <key locale="en_US" id="Property{::}VF9_D_TestReportRevision{::}vf9_Result" status="Approved">Result</key>
+   <key locale="en_US" id="Property{::}VF9_D_TestReportRevision{::}vf9_Tech_Regu"
+       status="Approved">Technical Regulation</key>
+   <key locale="en_US" id="Property{::}VF9_D_TestReportRevision{::}vf9_Tester" status="Approved">Tester</key>
+   <key locale="en_US" id="Property{::}VF9_VF_DocumentRevision{::}vf9_Client" status="Approved">Name of Client</key>
+   <key locale="en_US" id="Property{::}VF9_VF_DocumentRevision{::}vf9_Destination"
+       status="Approved">Destination</key>
+   <key locale="en_US" id="Property{::}VF9_VF_DocumentRevision{::}vf9_Document_Type"
+       status="Approved">Document Type</key>
+   <key locale="en_US" id="Property{::}VF9_VF_DocumentRevision{::}vf9_Frame_No" status="Approved">Frame No/Component/VIN Code</key>
+   <key locale="en_US" id="Property{::}VF9_VF_DocumentRevision{::}vf9_Import" status="Approved">Name of Importer</key>
+   <key locale="en_US" id="Property{::}VF9_VF_DocumentRevision{::}vf9_Manufacture"
+       status="Approved">Name of Manufacture</key>
+   <key locale="en_US" id="Property{::}VF9_VF_DocumentRevision{::}vf9_Model_Code"
+       status="Approved">Model Code</key>
+   <key locale="en_US" id="Property{::}VF9_VF_DocumentRevision{::}vf9_Note" status="Approved">Note</key>
+   <key locale="en_US" id="Property{::}VF9_VF_DocumentRevision{::}vf9_Trade_Mark"
+       status="Approved">Trade Mark</key>
+   <key locale="en_US" id="Property{::}VF9_VF_DocumentRevision{::}vf9_Vehicle_Type"
+       status="Approved">Vehicle Type/Component Name</key>
+</Add>
+</TcBusinessDataLocalization>

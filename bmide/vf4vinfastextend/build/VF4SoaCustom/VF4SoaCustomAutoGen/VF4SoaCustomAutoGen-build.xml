@@ -1,0 +1,250 @@
+<!--
+==================================================
+ Copyright 2016
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ ==================================================
+             Auto-generated source
+                 DO NOT EDIT
+ ==================================================
+-->
+
+
+<project name="VF4SoaCustomAutoGen" default="all"  basedir="../../.." >
+    <description> 
+        Service Library Auto Generation. 
+    </description>
+<!--
+    These Properties need to be set by the caller
+    <property name="toolbox.home"                      location="C:/Apps/Siemens/Teamcenter/soa_client/toolbox" />
+    <property name="template.home"                     location="C:/Apps/Siemens/Teamcenter/bmide/templates" />
+    <property name="teamcenter.home"                   location="C:/Apps/Siemens/Teamcenter/tc " />
+    <property name="gen.src.home"                      location="../output/genSrc" />
+
+--> 
+
+   
+    <target name="init" >
+        <!-- Set up directory locations -->
+        <property name="project.directory"                  location="${basedir}" />
+        <property name="library.server.gen.src.home"        location="${gen.src.home}/VF4SoaCustom" />
+        <property name="library.server.gen.impl.home"       location="${gen.src.home}/VF4SoaCustomImpl" />
+        <property name="library.types.gen.src.home"         location="${gen.src.home}/VF4SoaCustomTypes" />
+        <property name="library.client.gen.src.home"        location="${gen.src.home}/VF4SoaCustomClient" />
+        <property name="library.webtier.gen.src.home"       location="${gen.src.home}/VF4SoaCustomWeb" />
+        <property name="project.soa.client.home"            location="${project.soa.client}" />
+        <property name="project.tc.home"                    location="${project.tc}" />      
+        <property name="teamcenter.version"                    value="13000.3.0" />     
+        <property name="teamcenter.version.label"              value="V13000.3.0.16_20220920.00" />    
+        
+        
+        
+        <property name="server.gen.home"                    location="${library.server.gen.src.home}" />
+        <property name="server.src.home"                    location="src\server/VF4SoaCustom" />
+        <property name="client.gen.home"                    location="${library.client.gen.src.home}" />
+        <property name="types.gen.home"                     location="${library.types.gen.src.home}" />
+        <property name="cpp.gen.folder.name"                   value="cpp" />
+        <property name="java.gen.folder.name"                  value="java" />
+        <property name="net.gen.folder.name"                   value="net" />
+        <property name="web.gen.home"                        location="${library.webtier.gen.src.home}" />
+        <property name="bmide.template.home"                 location="${template.home}" />
+        <property name="bmide.project.home"                  location="${project.directory}" />
+        <property name="External.Tools.home"                 location="${toolbox.home}" />
+        <property name="project.folder"                         value="VF4SoaCustom" />
+
+    </target>
+    
+    <target name="define-classpath" depends="init" >
+        <!-- Define the Class-path for the CreateServiceArtifacts task -->  
+        <fileset dir="${toolbox.home}" id="tool.libs">
+            <include name="TcSoaTools.jar" />
+        </fileset>
+        <property name="TcSoaTools.jar.file" location="${toolbox.home}/TcSoaTools.jar" />
+                
+        <fileset dir="${toolbox.home}/Ant/lib" id="ant.libs">
+            <include name="ant.jar" />
+        </fileset>
+     
+        
+        <fileset dir="${toolbox.home}/xerces_j" id="xerces.libs">
+             <include name="resolver.jar" />
+             <include name="xml-apis.jar" />
+             <include name="xercesImpl.jar" />
+        </fileset>       
+            <fileset dir="${teamcenter.home}/bin/bmide" id="bmcodegen.libs">
+            <include name="*.jar" />
+        </fileset> 
+        
+
+        <fileset dir="${toolbox.home}/commons_xmlschema/1.3.2/commons_xmlschema" id="common.xml.libs">
+            <include name="XmlSchema-1.3.2.jar" />
+        </fileset>
+
+        <path id="tool.classpath">
+            <fileset refid="tool.libs"        />
+            <fileset refid="ant.libs"         />
+            <fileset refid="xerces.libs"      />
+            <fileset refid="bmcodegen.libs"   />
+            <fileset refid="common.xml.libs"  />
+        </path>
+        
+
+        <path id="tool.classpath.for.bmide">
+            <fileset refid="tool.libs"        />
+            <fileset refid="xerces.libs"      />
+            <fileset refid="common.xml.libs"  />
+        </path>
+        
+        <!-- These options/properties are for CreateServiceArtifacts task -->
+        <property name="clientJavaBindings.classpath.locations"         location="${TcSoaTools.jar.file}" />    
+        <property name="xsd2JaxbBindings.classpath.locations"           location="${TcSoaTools.jar.file}" />
+        <property name="xsd2JaxbBindings.runtime.package"                  value="com.teamcenter.schemas.soa._2006_03.base.impl.runtime" />
+        <property name="xsd2CppBindings.classpath.locations"            location="${TcSoaTools.jar.file}" />
+        <property name="service.binder.schema.classpath.locations"      location="${TcSoaTools.jar.file}" />
+        <property name="service.binder.schema.referenced.xsd.home"      location="${toolbox.home}/schemas" />
+        <property name="service.binder.xid.classpath.locations"         location="${TcSoaTools.jar.file}" />
+        <property name="service.binder.skeleton.classpath.locations"    location="${TcSoaTools.jar.file}" />
+        <property name="readserviceExceptions.fromDocumentation"           value="true"/> 
+        <property name="tcsoa.commons_xmlschema.home"                   location="${toolbox.home}/commons_xmlschema/1.3.2"/>
+        <property name="tcsoa.xerces_j.home"                            location="${toolbox.home}/xerces_j"/>
+        <property name="cdm.language"                                      value="java,cpp,net"/>
+        <property name="cdm.cpp.managedflag"                               value="true"/>
+        <property name="BMIDE_SCRIPT_PLUGINS"                              value="org.eclipse.emf.common org.eclipse.emf.ecore org.eclipse.emf.ecore.xmi org.eclipse.emf.edit org.eclipse.equinox.common org.eclipse.equinox.registry org.eclipse.osgi org.apache.log4j org.apache.xml.resolver org.apache.xerces antlr commons_xmlschema com.teamcenter.apps.logmanager.logwriter com.teamcenter.bmide.audit.core com.teamcenter.bmide.base.core com.teamcenter.bmide.basemodel com.teamcenter.bmide.codegen com.teamcenter.bmide.datamodel com.teamcenter.bmide.docmgt.core com.teamcenter.bmide.install com.teamcenter.bmide.migration.core com.teamcenter.bmide.options.core com.teamcenter.bmide.server.antlr com.teamcenter.bmide.foundation.core com.teamcenter.bmide.tcplmxml com.teamcenter.bmide.eda.core com.teamcenter.compare.core" />
+        <property name="BMIDE_SCRIPT_PLUGINS_PATH"                      location="${teamcenter.home}/bin/bmide" />
+            
+        <pathconvert dirsep="/" pathsep=";" property="tool.classpath.for.bmide.str" refid="tool.classpath.for.bmide"/>
+        
+    </target>
+    
+    <target name="define-task" depends="init,define-classpath" >
+
+        
+        <taskdef name="CreateServiceArtifacts"     classname="com.teamcenter.soa.tools.ant.CreateServiceArtifacts" >
+            <classpath refid="tool.classpath"/>
+        </taskdef>
+
+        
+
+    </target>
+    
+    
+    
+     <target name="clean" depends="init" >
+        <!-- Delete all of the generated code root folders.  On a 'all' build target this is      -->
+        <!-- only done if the generated code is out-of-date. Since an updated service definition  -->
+        <!-- may have deleted operations or data structures there could be dangling artifacts     -->
+        <delete  dir="${library.server.gen.src.home}" />
+        <delete  dir="${library.server.gen.impl.home}" />
+        <delete  dir="${library.client.gen.src.home}" />
+        <delete  dir="${library.types.gen.src.home}"  />
+        <delete  dir="${library.webtier.gen.src.home}"/>
+        
+        <delete failonerror="false">
+            <fileset dir="${project.soa.client.home}/cpp/includes/cpp/include/vf4/services/custom" />
+        </delete>
+        <delete failonerror="false">
+            <fileset dir="${project.soa.client.home}/cpp/includes/cpp-managed/include/vf4/services/custom" />
+        </delete>
+        
+        
+    </target> 
+    
+    
+    <target name="setup" depends="init,clean" >
+        <!-- Create the generated code root folders so we have something to write too           -->
+        <mkdir  dir="${library.server.gen.src.home}" />
+        <mkdir  dir="${library.server.gen.impl.home}" />
+        <mkdir  dir="${library.client.gen.src.home}" />
+        <mkdir  dir="${library.webtier.gen.src.home}"/>
+        <mkdir  dir="${project.soa.client.home}/cpp/includes/cpp/include" />
+        <mkdir  dir="${project.soa.client.home}/cpp/includes/cpp-managed/include" /> 
+        <mkdir  dir="${project.soa.client.home}/cpp/libs/${platform}" />            
+        <mkdir  dir="${project.soa.client.home}/java/libs" />  
+        <mkdir  dir="${project.soa.client.home}/net/libs" />  
+        <mkdir  dir="${project.tc.home}/bin" />  
+        <mkdir  dir="${project.tc.home}/lib" />  
+    </target>
+    
+    <target name="auto-generation-bmide" depends="init,define-classpath" />  
+        
+   <target name="auto-generation" depends="init,define-task,setup"  > 
+    <!-- Generate all code for the service library. This include the server side skeleton,  -->
+    <!-- the client side stubs (for each selected language), and  the WSDLS.                -->   
+        <CreateServiceArtifacts
+             serverGenHome="${library.server.gen.src.home}"
+             clientGenHome="${library.client.gen.src.home}"
+             typesGenHome="${library.types.gen.src.home}"
+             bindTypes="false"
+             cppFolderName="cpp"
+             javaFolderName="java"
+             netFolderName="net"
+             outWeb="${library.webtier.gen.src.home}"
+             serverSrcHome="${library.server.gen.impl.home}"
+             targetLib="VF4SoaCustom"
+             serviceRegistrationFolder="${library.server.gen.src.home}"
+             templateFile="${template.home}"
+             projectDir="${project.directory}"
+             allStubs="${generated.stubs}" />
+
+
+         <!-- mismatch in folder names from generation from within BMIDE -->
+         <move todir="${library.client.gen.src.home}/strong/cppMngd" failonerror="false" >
+             <fileset dir="${library.client.gen.src.home}/strong/genCppMngd"/>
+         </move>
+                
+    </target>
+    
+    <target name="auto-generation-final" depends="init,net-final" >
+        <delete  dir="${gen.src.home}/../../soa_framework"/>
+    </target>
+         
+    <target name="net-dir-check">
+        <condition property="net.dir.exists">
+            <available file="${library.client.gen.src.home}/strong/net" type="dir"/>
+        </condition>
+    </target>
+    
+    <target name="net-final" depends="init,net-dir-check"  if="net.dir.exists">
+
+
+        <property name="key.file.path" value="${basedir}/build/ServicePublicKey.snk" />   	
+        <loadresource property="key.file.clean.path">
+          <propertyresource name="key.file.path"/>
+          <filterchain>
+            <tokenfilter>
+              <filetokenizer/>
+              <replaceregex pattern="\\" flags="g" replace="/"/>
+            </tokenfilter>
+          </filterchain>
+        </loadresource>
+    	
+
+        <echo file="${library.client.gen.src.home}/strong/net/BuildVersion.cs">  
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+[assembly: AssemblyVersion("${teamcenter.version}")]
+[assembly: AssemblyFileVersion("${teamcenter.version}")]
+#pragma warning disable 1699
+[assembly: AssemblyKeyFileAttribute("${key.file.clean.path}")]
+#pragma warning restore 1699
+
+        </echo>    
+    </target>
+      
+    <target name="packaging" depends="init" > 
+    
+        <copy todir="${project.soa.client.home}/cpp/includes/cpp/include"  failonerror="false"  >
+            <fileset dir="${library.client.gen.src.home}/strong/cpp"          includes="**/*.hxx"/>          
+            <fileset dir="${library.client.gen.src.home}/strong/cpp"          includes="**/*.h"/>          
+        </copy>
+        <copy todir="${project.soa.client.home}/cpp/includes/cpp-managed/include"  failonerror="false"  >
+           <fileset dir="${library.client.gen.src.home}/strong/cppMngd"  includes="**/*.hxx"/>          
+           <fileset dir="${library.client.gen.src.home}/strong/cppMngd"  includes="**/*.h"/>          
+        </copy>
+ 
+    </target>
+        
+    <target name="all" depends="auto-generation,auto-generation-final,packaging" />
+</project>

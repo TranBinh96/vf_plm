@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes currentTemplateVersion="11.2_4" displayName="vinfastextend" enableOpsDataDeploy="true" guid="BA8A0B480C245A0562C0B0519DA0DB4A" isDescriptionMandatory="false" name="vf4vinfastextend" optional="true" prefixes="VF4" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+    <include file="aps0apscore_template.xml"/>
+    <include file="aws2_template.xml"/>
+    <include file="cm_template.xml"/>
+    <include file="integration4catia_template.xml"/>
+    <include file="srh0apsconfiguredsearch_template.xml"/>
+    <include file="translationservice_template.xml"/>
+    <include file="vendormanagement_template.xml"/>
+    <include file="Cm1cmaws_template.xml"/>
+    <include file="bcs0buildconditions_template.xml"/>
+    <include file="issuemgmt_template.xml"/>
+    <include file="qam0qualityactionmgmt_template.xml"/>
+    <include file="sc0suppliercollaboration_template.xml"/>
+    <include file="caw0capaonawc_template.xml"/>
+    <include file="cfg0configurator_template.xml"/>
+    <include file="cpa0capadatamodel_template.xml"/>
+    <include file="smc0psmcfgsupport_template.xml"/>
+    <include file="vf3vinfastcore_template.xml"/>
+</TcBusinessDataIncludes>

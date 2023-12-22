@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Fri Oct 22 11:36:29 AM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_ECU_type_LOV" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="ACM" description="Airbag Control Module" conditionName="isTrue"/>
+      <TcLOVValue value="ADAS" description="Advanced Driver-Assistance System" conditionName="isTrue"/>
+      <TcLOVValue value="AMP" description="" conditionName="isTrue"/>
+      <TcLOVValue value="APM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ASU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ASU_G" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AVAS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BCM" description="Body Control Module" conditionName="isTrue"/>
+      <TcLOVValue value="BCM_BPM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BMS" description="Battery Management System" conditionName="isTrue"/>
+      <TcLOVValue value="BPM" description="Backup Microcontroller Unit" conditionName="isTrue"/>
+      <TcLOVValue value="CCU" description="Climate Control Unit" conditionName="isTrue"/>
+      <TcLOVValue value="CCU_F" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CCU_R" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CPD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CPD_2" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DCDC" description="DC/DC converter" conditionName="isTrue"/>
+      <TcLOVValue value="DCM_APM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="EASC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="EDS_F" description="Electric Drive System Front" conditionName="isTrue"/>
+      <TcLOVValue value="EDS_R" description="" conditionName="isTrue"/>
+      <TcLOVValue value="EKS" description="Electric Knob Shifter (Gear Shifter)" conditionName="isTrue"/>
+      <TcLOVValue value="EPS" description="Electric power steering" conditionName="isTrue"/>
+      <TcLOVValue value="EPS1" description="" conditionName="isTrue"/>
+      <TcLOVValue value="EPS2" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ESC" description="Electronic Stability Control" conditionName="isTrue"/>
+      <TcLOVValue value="ETG" description="Electric Tail Gate" conditionName="isTrue"/>
+      <TcLOVValue value="GS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="POD_GW" description="" conditionName="isTrue"/>
+      <TcLOVValue value="HUD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="IDB" description="" conditionName="isTrue"/>
+      <TcLOVValue value="IPC" description="Instrument Panel Cluster" conditionName="isTrue"/>
+      <TcLOVValue value="LDM_L" description="" conditionName="isTrue"/>
+      <TcLOVValue value="LDM_R" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MHU" description="Media Head Unit" conditionName="isTrue"/>
+      <TcLOVValue value="MRGEN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="OBC" description="On Board Charger" conditionName="isTrue"/>
+      <TcLOVValue value="OBD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="OCS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PSM_D" description="" conditionName="isTrue"/>
+      <TcLOVValue value="RCU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SCAM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SHVU_F" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SHVU_R" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SRR_FL" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SRR_FR" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SRR_RL" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SRR_RR" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TBOX" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TRM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="VCU" description="Vehicle Control Unit" conditionName="isTrue"/>
+      <TcLOVValue value="XGW" description="Gateway" conditionName="isTrue"/>
+      <TcLOVValue value="YSS" description="" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

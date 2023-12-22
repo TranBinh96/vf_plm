@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="PR4D_MS_IT_VINF" parentClassName="Item" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="PR4D_MS_IT_VINFMasterS" parentClassName="ItemMaster" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="PR4D_MS_IT_VINFRevMasterS" parentClassName="ItemVersionMaster"
+       isExportable="true" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="PR4D_MS_IT_VINFRevision" parentClassName="ItemRevision" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="PR4D_documentation" parentClassName="ImanRelation" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="PR4D_image" parentClassName="ImanRelation" isExportable="true"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcAttributeAttach className="ItemRevision">
+     <TcAttribute attributeName="pr4d_3dmaster" description="3D Master" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="pr4d_revdummy1" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcAttributeAttach>
+   <TcAttributeAttach className="UGPartAttrStorage">
+     <TcAttribute attributeName="pr4d_OEM_definition" description="OEM_definition"
+         attributeType="POM_string" maxStringLength="128" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="pr4d_OEM_description" description="OEM_description"
+         attributeType="POM_string" maxStringLength="256" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="pr4d_OEM_dlname" description="OEM_dlname" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="pr4d_OEM_filePath" description="OEM_filePath" attributeType="POM_string"
+         maxStringLength="256" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="pr4d_OEM_nomenclature" description="OEM_nomenclature"
+         attributeType="POM_string" maxStringLength="128" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="pr4d_OEM_partNumber" description="OEM_partNumber"
+         attributeType="POM_string" maxStringLength="128" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         initialValue="" lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="pr4d_OEM_revision" description="OEM_revision" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="pr4d_OEM_Source" description="OEM_Source" attributeType="POM_string"
+         maxStringLength="32" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcAttributeAttach>
+   <OperationInputType typeName="PR4D_MS_IT_VINFCreI" parentTypeName="ItemCreI" typeClassName="PR4D_MS_IT_VINFCreI"
+       description="CreateInput object for &quot;PR4D_MS_IT_VINF&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFCreI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFMasterCreI" parentTypeName="Item MasterCreI"
+       typeClassName="PR4D_MS_IT_VINFMasterCreI" description="CreateInput object for &quot;PR4D_MS_IT_VINFMaster&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFMasterCreI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFMasterSCreI" parentTypeName="ItemMasterCreI"
+       typeClassName="PR4D_MS_IT_VINFMasterSCreI" description="CreateInput object for &quot;PR4D_MS_IT_VINFMasterS&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFMasterSCreI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFMasterSSvAI" parentTypeName="ItemMasterSvAI"
+       typeClassName="PR4D_MS_IT_VINFMasterSSvAI" description="SaveAsInput object for &quot;PR4D_MS_IT_VINFMasterS&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFMasterSSvAI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFMasterSvAI" parentTypeName="Item MasterSvAI"
+       typeClassName="PR4D_MS_IT_VINFMasterSvAI" description="SaveAsInput object for &quot;PR4D_MS_IT_VINFMaster&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFMasterSvAI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFRevMasterSCreI" parentTypeName="ItemVersionMasterCreI"
+       typeClassName="PR4D_MS_IT_VINFRevMasterSCreI" description="CreateInput object for &quot;PR4D_MS_IT_VINFRevMasterS&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFRevMasterSCreI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFRevMasterSSvAI" parentTypeName="ItemVersionMasterSvAI"
+       typeClassName="PR4D_MS_IT_VINFRevMasterSSvAI" description="SaveAsInput object for &quot;PR4D_MS_IT_VINFRevMasterS&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFRevMasterSSvAI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFRevisio_alt0CreI" parentTypeName="ItemRevision MasterCreI"
+       typeClassName="PR4D_MS_IT_VINFRevisio_alt0CreI" description="CreateInput object for &quot;PR4D_MS_IT_VINFRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFRevisio_alt0CreI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFRevisio_alt0SvAI" parentTypeName="ItemRevision MasterSvAI"
+       typeClassName="PR4D_MS_IT_VINFRevisio_alt0SvAI" description="SaveAsInput object for &quot;PR4D_MS_IT_VINFRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFRevisio_alt0SvAI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFRevisionCreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="PR4D_MS_IT_VINFRevisionCreI" description="CreateInput object for &quot;PR4D_MS_IT_VINFRevision&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFRevisionCreI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFRevisionRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="PR4D_MS_IT_VINFRevisionRevI" description="ReviseInput object for &quot;PR4D_MS_IT_VINFRevision&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFRevisionRevI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFRevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="PR4D_MS_IT_VINFRevisionSvAI" description="SaveAsInput object for &quot;PR4D_MS_IT_VINFRevision&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFRevisionSvAI"/>
+   <OperationInputType typeName="PR4D_MS_IT_VINFSvAI" parentTypeName="ItemSvAI" typeClassName="PR4D_MS_IT_VINFSvAI"
+       description="SaveAsInput object for &quot;PR4D_MS_IT_VINF&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFSvAI"/>
+   <OperationInputType typeName="PR4D_documentationCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="PR4D_documentationCreI" description="" isAbstract="false" artifactName="PR4D_documentationCreI"/>
+   <OperationInputType typeName="PR4D_documentationSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="PR4D_documentationSvAI" description="" isAbstract="false" artifactName="PR4D_documentationSvAI"/>
+   <OperationInputType typeName="PR4D_imageCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="PR4D_imageCreI" description="" isAbstract="false" artifactName="PR4D_imageCreI"/>
+   <OperationInputType typeName="PR4D_imageSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="PR4D_imageSvAI" description="" isAbstract="false" artifactName="PR4D_imageSvAI"/>
+   <TcForm typeName="PR4D_MS_IT_VINFMaster" parentTypeName="Item Master" typeClassName="Form"
+       description="MasterForm object for &quot;PR4D_MS_IT_VINF&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFMaster" formStorageClassName="PR4D_MS_IT_VINFMasterS"/>
+   <TcForm typeName="PR4D_MS_IT_VINFRevisionMaster" parentTypeName="ItemRevision Master"
+       typeClassName="Form" description="MasterForm object for &quot;PR4D_MS_IT_VINFRevision&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFRevisionMaster" formStorageClassName="PR4D_MS_IT_VINFRevMasterS"/>
+   <TcStandardType typeName="PR4D_MS_IT_VINF" parentTypeName="Item" typeClassName="PR4D_MS_IT_VINF"
+       description="" isAbstract="false" artifactName="PR4D_MS_IT_VINF"/>
+   <TcStandardType typeName="PR4D_MS_IT_VINFMasterS" parentTypeName="ItemMaster" typeClassName="PR4D_MS_IT_VINFMasterS"
+       description="Form Storage object for &quot;PR4D_MS_IT_VINFMaster&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFMasterS"/>
+   <TcStandardType typeName="PR4D_MS_IT_VINFRevMasterS" parentTypeName="ItemVersionMaster"
+       typeClassName="PR4D_MS_IT_VINFRevMasterS" description="Form Storage object for &quot;PR4D_MS_IT_VINFRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFRevMasterS"/>
+   <TcStandardType typeName="PR4D_MS_IT_VINFRevision" parentTypeName="ItemRevision"
+       typeClassName="PR4D_MS_IT_VINFRevision" description="ItemRevision object for &quot;PR4D_MS_IT_VINF&quot; business object"
+       isAbstract="false" artifactName="PR4D_MS_IT_VINFRevision">
+     <TcProperty propName="PR4D_documentation" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcStandardType>
+   <TcStandardType typeName="PR4D_documentation" parentTypeName="ImanRelation" typeClassName="PR4D_documentation"
+       description="hinzufuegen von nicht cad dokumenten" isAbstract="false" artifactName="PR4D_documentation"/>
+   <TcStandardType typeName="PR4D_image" parentTypeName="ImanRelation" typeClassName="PR4D_image"
+       description="" isAbstract="false" artifactName="PR4D_image"/>
+   <TcPropertyAttach typeName="ItemRevision">
+     <TcProperty propName="PR4D_image" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="Design Revision">
+     <TcProperty propName="PR4D_documentation" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevisionCreI">
+     <OperationInputProperty propName="pr4d_3dmaster" compoundObjectConstant="" srcPropName="pr4d_3dmaster"
+         compoundObjectType="" fieldType="SimpleProperty" description="3D Master"/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="ItemRevisionCreI">
+     <OperationInputProperty propName="pr4d_revdummy1" compoundObjectConstant="" srcPropName="pr4d_revdummy1"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </TcPropertyAttach>
+   <TcDatasetToolActionAttach datasetType="Sheet" tool="Image Viewer" action="Open">
+     <TcToolActionReference export="true" referenceName="Image"/>
+     <TcToolParameter name="$Image"/>
+   </TcDatasetToolActionAttach>
+   <Condition name="PR4D_MS_IT_VINF_DOCgroup" expression="o.fnd0getGroupName() = &quot;DOC.VINFAST&quot; OR o.fnd0getGroupName() = &quot;MAGNA.SnS.Car Program.VINFAST&quot;"
+       secured="false" description="Only DOC Group">
+     <ConditionParameter name="o" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition name="PR4D_MS_IT_VINF_SnSgroup" expression="o.fnd0getGroupName() = &quot;MAGNA.SnS.Car Program.VINFAST&quot;"
+       secured="false" description="">
+     <ConditionParameter name="o" parameterTypeName="UserSession"/>
+   </Condition>
+   <Condition name="PR4D_MS_IT_VINF_allgroup" expression="o.fnd0getGroupName() = &quot;BIW.VINFAST&quot; OR o.fnd0getGroupName() = &quot;CAE.VINFAST&quot; OR o.fnd0getGroupName() = &quot;CHA.VINFAST&quot; OR o.fnd0getGroupName() = &quot;PT.VINFAST&quot; OR o.fnd0getGroupName() = &quot;DC.VINFAST&quot; OR o.fnd0getGroupName() = &quot;EE.VINFAST&quot; OR o.fnd0getGroupName() = &quot;EXT.VINFAST&quot; OR o.fnd0getGroupName() = &quot;INT.VINFAST&quot; OR o.fnd0getGroupName() = &quot;Support.VINFAST&quot; OR o.fnd0getGroupName() = &quot;VIEW.VINFAST&quot; OR o.fnd0getGroupName() = &quot;SCC.VINFAST&quot; OR o.fnd0getGroupName() = &quot;VA.VINFAST&quot; OR o.fnd0getGroupName() = &quot;Styling.VINFAST&quot; OR o.fnd0getGroupName() = &quot;PM.VINFAST&quot;"
+       secured="false" description="All Groups without DOC">
+     <ConditionParameter name="o" parameterTypeName="UserSession"/>
+   </Condition>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="en_US"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="PR4D_documentation"
+       value="PR4D_documentationCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="PR4D_image" value="PR4D_imageCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="PR4D_MS_IT_VINF" value="PR4D_MS_IT_VINFCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="PR4D_MS_IT_VINFMaster"
+       value="PR4D_MS_IT_VINFMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="PR4D_MS_IT_VINFMasterS"
+       value="PR4D_MS_IT_VINFMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="PR4D_MS_IT_VINFRevision"
+       value="PR4D_MS_IT_VINFRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="PR4D_MS_IT_VINFRevisionMaster"
+       value="PR4D_MS_IT_VINFRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="PR4D_MS_IT_VINFRevMasterS"
+       value="PR4D_MS_IT_VINFRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="DisplayName" typeName="PR4D_MS_IT_VINFRevision"
+       value="$item_id+&quot;/&quot;+$item_revision_id+&quot;-&quot;+$object_name"/>
+   <TcTypeConstantAttach constantName="Fnd0EnableSubmitToWorkflow" typeName="ItemCreI"
+       value="false"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="Sheet" value="PR4Dtiff16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="Zip" value="PR4Dzip.png"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="PR4D_MS_IT_VINF" value="PR4D_MS_IT_VINFRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="PR4D_MS_IT_VINF" value="PR4D_MS_IT_VINFMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="PR4D_MS_IT_VINFRevision"
+       value="PR4D_MS_IT_VINFRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MaxAllowedWorkRevsForItemCopyRev" typeName="PR4D_MS_IT_VINFRevision"
+       value="1"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="PR4D_MS_IT_VINFRevision"
+       value="PR4D_MS_IT_VINFRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="PR4D_documentation"
+       value="PR4D_documentationSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="PR4D_image" value="PR4D_imageSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="PR4D_MS_IT_VINF" value="PR4D_MS_IT_VINFSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="PR4D_MS_IT_VINFMaster"
+       value="PR4D_MS_IT_VINFMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="PR4D_MS_IT_VINFMasterS"
+       value="PR4D_MS_IT_VINFMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="PR4D_MS_IT_VINFRevision"
+       value="PR4D_MS_IT_VINFRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="PR4D_MS_IT_VINFRevisionMaster"
+       value="PR4D_MS_IT_VINFRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="PR4D_MS_IT_VINFRevMasterS"
+       value="PR4D_MS_IT_VINFRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="bl_rev_pr4d_CATIA_ref_list"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="bl_rev_pr4d_JT_DATASET_NAME"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="bl_rev_pr4d_OEMFilePath_CATPart"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="bl_rev_pr4d_OEMFilePath_CATProduct"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="bl_rev_pr4d_revdummy1"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="bl_rev_pr4d_V4_DATASET_NAME"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="bl_rev_pr4d_V5_DATASET_NAME"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="bl_rev_pr4d_V5_ref_list"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="pr4d_V4_DATASET_NAME_VINF"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Design Revision" propertyName="PR4D_documentation"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="pr4d_3dmaster"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="pr4d_CATIA_ref_list"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="pr4d_CATIA_ref_list_VINF"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="PR4D_image"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="pr4d_JT_DATASET_NAME"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="pr4d_OEMFilePath_CATPart"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="pr4d_OEMFilePath_CATProduct"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="pr4d_PRODUCT_DATASET_NAME"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="pr4d_revdummy1"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="pr4d_V4_DATASET_NAME"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="pr4d_V5_DATASET_NAME"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="ItemRevision" propertyName="pr4d_V5_ref_list"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="PR4D_MS_IT_VINFRevision"
+       propertyName="PR4D_documentation" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="bl_rev_pr4d_CATIA_ref_list"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="bl_rev_pr4d_JT_DATASET_NAME"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="bl_rev_pr4d_OEMFilePath_CATPart"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="bl_rev_pr4d_OEMFilePath_CATProduct"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="bl_rev_pr4d_revdummy1"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="bl_rev_pr4d_V4_DATASET_NAME"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="bl_rev_pr4d_V5_DATASET_NAME"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="bl_rev_pr4d_V5_ref_list"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="pr4d_V4_DATASET_NAME_VINF"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Design Revision"
+       propertyName="PR4D_documentation" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="pr4d_3dmaster"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="PR4D_cad"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="pr4d_CATIA_ref_list"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="pr4d_CATIA_ref_list_VINF"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="PR4D_image"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="pr4d_JT_DATASET_NAME"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="pr4d_OEMFilePath_CATPart"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="pr4d_OEMFilePath_CATProduct"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="pr4d_PRODUCT_DATASET_NAME"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="pr4d_revdummy1"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="pr4d_V4_DATASET_NAME"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="pr4d_V5_DATASET_NAME"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="ItemRevision" propertyName="pr4d_V5_ref_list"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="PR4D_MS_IT_VINFRevision"
+       propertyName="PR4D_documentation" value="Write"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="ItemRevision Master"
+       propertyName="item_comment" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="ItemRevision Master"
+       propertyName="previous_version_id" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="ItemRevision Master"
+       propertyName="project_id" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="ItemRevision Master"
+       propertyName="serial_number" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="ItemRevision Master"
+       propertyName="user_data_1" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="ItemRevision Master"
+       propertyName="user_data_2" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="ItemRevision Master"
+       propertyName="user_data_3" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="PR4D_MS_IT_VINFCreI"
+       propertyName="IMAN_master_form" value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="PR4D_MS_IT_VINFRevisionCreI"
+       propertyName="IMAN_master_form_rev" value="false"/>
+   <TcCompoundPropertyRule destTypeName="BOMLine" destPropertyName="pr4d_V4_DATASET_NAME_VINF"
+       sourceTypeName="catia" sourcePropertyName="object_name" isReadOnly="false"
+       pathToSource="REF(bl_revision,PR4D_MS_IT_VINFRevision).GRM(catia_alternateShapeRep,catia).object_name"
+       description=""/>
+   <TcCompoundPropertyRule destTypeName="ItemRevision" destPropertyName="pr4d_CATIA_ref_list"
+       sourceTypeName="catia" sourcePropertyName="ref_list" isReadOnly="false" pathToSource="GRM(catia_componentShapeRep,catia).ref_list"
+       description=""/>
+   <TcCompoundPropertyRule destTypeName="ItemRevision" destPropertyName="pr4d_CATIA_ref_list_VINF"
+       sourceTypeName="catia" sourcePropertyName="ref_list" isReadOnly="false" pathToSource="GRM(catia_alternateShapeRep,catia).ref_list"
+       description=""/>
+   <TcCompoundPropertyRule destTypeName="ItemRevision" destPropertyName="pr4d_JT_DATASET_NAME"
+       sourceTypeName="DirectModel" sourcePropertyName="object_name" isReadOnly="false"
+       pathToSource="GRM(IMAN_Rendering,DirectModel).object_name" description=""/>
+   <TcCompoundPropertyRule destTypeName="ItemRevision" destPropertyName="pr4d_OEMFilePath_CATPart"
+       sourceTypeName="catImport_attributes" sourcePropertyName="OEM_filePath" isReadOnly="false"
+       pathToSource="GRM(IMAN_specification,CATPart).GRM(catia_importform_link,catImport_attributes).OEM_filePath"
+       description=""/>
+   <TcCompoundPropertyRule destTypeName="ItemRevision" destPropertyName="pr4d_OEMFilePath_CATProduct"
+       sourceTypeName="catImport_attributes" sourcePropertyName="OEM_filePath" isReadOnly="false"
+       pathToSource="GRM(IMAN_specification,CATProduct).GRM(catia_importform_link,catImport_attributes).OEM_filePath"
+       description=""/>
+   <TcCompoundPropertyRule destTypeName="ItemRevision" destPropertyName="pr4d_PRODUCT_DATASET_NAME"
+       sourceTypeName="CATProduct" sourcePropertyName="object_name" isReadOnly="false"
+       pathToSource="GRM(IMAN_specification,CATProduct).object_name" description=""/>
+   <TcCompoundPropertyRule destTypeName="ItemRevision" destPropertyName="pr4d_V4_DATASET_NAME"
+       sourceTypeName="catia" sourcePropertyName="object_name" isReadOnly="false"
+       pathToSource="GRM(catia_componentShapeRep,catia).object_name" description=""/>
+   <TcCompoundPropertyRule destTypeName="ItemRevision" destPropertyName="pr4d_V5_DATASET_NAME"
+       sourceTypeName="CATPart" sourcePropertyName="object_name" isReadOnly="false"
+       pathToSource="GRM(IMAN_specification,CATPart).object_name" description=""/>
+   <TcCompoundPropertyRule destTypeName="ItemRevision" destPropertyName="pr4d_V5_ref_list"
+       sourceTypeName="CATPart" sourcePropertyName="ref_list" isReadOnly="false" pathToSource="GRM(IMAN_specification,CATPart).ref_list"
+       description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="PR4D_image" propertyType="Relation"
+       objectTypeName="JPEG" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="PR4D_MS_IT_VINFRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="*" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="PR4D_MS_IT_VINFRevision" relRefPropName="PR4D_documentation"
+       propertyType="Relation" objectTypeName="MSExcelX" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="PR4D_MS_IT_VINFRevision" relRefPropName="PR4D_documentation"
+       propertyType="Relation" objectTypeName="MSPowerPointX" conditionName="isTrue"
+       operationName="ITEM_copy_rev" copyType="CopyAsObject" isTargetPrimary="true"
+       secured="true" copyRelationAttributes="true" isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="PR4D_MS_IT_VINFRevision" relRefPropName="PR4D_documentation"
+       propertyType="Relation" objectTypeName="MSWordX" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="PR4D_MS_IT_VINFRevision" relRefPropName="PR4D_documentation"
+       propertyType="Relation" objectTypeName="PDF" conditionName="isTrue" operationName="ITEM_copy_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="ItemRevision" relRefPropName="PR4D_image" propertyType="Relation"
+       objectTypeName="JPEG" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="PR4D_MS_IT_VINFRevision" relRefPropName="IMAN_specification"
+       propertyType="Relation" objectTypeName="*" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="CopyAsObject" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="PR4D_MS_IT_VINFRevision" relRefPropName="PR4D_documentation"
+       propertyType="Relation" objectTypeName="MSExcelX" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="PR4D_MS_IT_VINFRevision" relRefPropName="PR4D_documentation"
+       propertyType="Relation" objectTypeName="MSPowerPointX" conditionName="isTrue"
+       operationName="ITEM_create_from_rev" copyType="NoCopy" isTargetPrimary="true"
+       secured="true" copyRelationAttributes="true" isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="PR4D_MS_IT_VINFRevision" relRefPropName="PR4D_documentation"
+       propertyType="Relation" objectTypeName="MSWordX" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcDeepCopyRule typeName="PR4D_MS_IT_VINFRevision" relRefPropName="PR4D_documentation"
+       propertyType="Relation" objectTypeName="PDF" conditionName="isTrue" operationName="ITEM_create_from_rev"
+       copyType="NoCopy" isTargetPrimary="true" secured="true" copyRelationAttributes="true"
+       isRequired="false" description=""/>
+   <TcGRMRule primaryTypeName="PR4D_MS_IT_VINF" secondaryTypeName="Dataset" relationTypeName="IMAN_reference"
+       conditionName="isTrue" primaryCardinality="0" secondaryCardinality="0" secured="false"
+       attachability="Unrestricted" changeability="Changeable" detachability="Unrestricted"
+       description=""/>
+   <TcGRMRule primaryTypeName="PR4D_MS_IT_VINF" secondaryTypeName="PR4D_MS_IT_VINF"
+       relationTypeName="IMAN_reference" conditionName="isTrue" primaryCardinality="0"
+       secondaryCardinality="0" secured="false" attachability="Unrestricted" changeability="Changeable"
+       detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="PR4D_MS_IT_VINFRevision" secondaryTypeName="CATDrawing"
+       relationTypeName="IMAN_specification" conditionName="isTrue" primaryCardinality="-1"
+       secondaryCardinality="1" secured="false" attachability="Unrestricted" changeability="Changeable"
+       detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="PR4D_MS_IT_VINFRevision" secondaryTypeName="CATPart"
+       relationTypeName="IMAN_specification" conditionName="isTrue" primaryCardinality="-1"
+       secondaryCardinality="1" secured="false" attachability="Unrestricted" changeability="Changeable"
+       detachability="Unrestricted" description=""/>
+   <TcGRMRule primaryTypeName="PR4D_MS_IT_VINFRevision" secondaryTypeName="CATProduct"
+       relationTypeName="IMAN_specification" conditionName="isTrue" primaryCardinality="-1"
+       secondaryCardinality="1" secured="false" attachability="Unrestricted" changeability="Changeable"
+       detachability="Unrestricted" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="AllocationMap" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="AllocationMap" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Architecture" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Architecture" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ArcWeld" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ArcWeld" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEAnalysis" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEAnalysis" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEBCItem" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEBCItem" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEConnItem" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEConnItem" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEGeometry" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEGeometry" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEItem" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAELoadItem" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAELoadItem" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEModel" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEModel" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEResult" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CAEResult" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Company" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Company" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CondValAgent" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CondValAgent" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CondValData" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CondValData" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Connection" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Connection" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Constituent" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPBrief" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPBrief" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPMarketingBrief" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPMarketingBrief" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPProductRough" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPProductRough" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPThemeBoard" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="CPThemeBoard" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DatumPoint" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DatumPoint" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Design" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Design" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DesignReq" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DesignReq" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DMTemplate" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="DMTemplate" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Document" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Document" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Drawing" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Drawing" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Email" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Email" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="EngChange" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ExcelTemplate" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ExcelTemplate" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ExportTemplate" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0AbstractNote" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0AbstractNote" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0CustomNote" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0CustomNote" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0DelegateConn" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0DelegateConn" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0Diagram" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0Diagram" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0DiagramTmpl" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0DiagramTmpl" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0DocPageTmpl" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0DocPageTmpl" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0EffectvtyGrp" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0EffectvtyGrp" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0HTMLObjTmpl" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0HTMLObjTmpl" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0LogicalBlock" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0LogicalBlock" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0LogicConn" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0LogicConn" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0ParamReqment" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0ParamReqment" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0SEBlock" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0SEBlock" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0SystemModel" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0SystemModel" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0VisioDiagram" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0VisioDiagram" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0VisioTmpl" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Fnd0VisioTmpl" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Functionality" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Functionality" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP_Plug" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP_Plug" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP_Socket" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GCS_CP_Socket" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GPA" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GPA" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Graphic" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="GraphicOption" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Item" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Item" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MaterialBase" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEActivity" accessorName="VINFAST" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEContext" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEContext" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEDepartment" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEDepartment" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEDrill" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEDrill" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEEDM" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEEDM" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEGenericBOP" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEGenericBOP" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MELine" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MELine" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEMilling" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEMilling" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEMillTurn" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEMillTurn" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MENCMachining" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MENCMachining" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MENCProgram" accessorName="VINFAST" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MENCToolActivity" accessorName="VINFAST" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEOP" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEOP" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEPlant" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEPlant" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProcess" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProcess" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProductBOP" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProductBOP" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProductLocation" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEProductLocation" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MESite" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MESite" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Message" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Message" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEStation" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEStation" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="METurning" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="METurning" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEWEDM" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEWEDM" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEWorkarea" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="MEWorkarea" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0CMMInspect" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0CMMInspect" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0Conveyor" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0Conveyor" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MECompOP" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MECompOP" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEContJoinOP" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEContJoinOP" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEDiscreteOP" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEDiscreteOP" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEEquipment" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEEquipment" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MENCMachine" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MENCMachine" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MENCTool" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MENCTool" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEPlantBOP" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEPlantBOP" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEPLC" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEPLC" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProcArea" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProcArea" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProcLine" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProcLine" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProcStatn" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProcStatn" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProdPrg" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProdPrg" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProdPrgCol" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProdPrgCol" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProdPrgDef" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProdPrgDef" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProdVarian" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEProdVarian" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEResource" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEResource" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MERobot" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MERobot" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MESensor" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MESensor" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEShdStudy" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEShdStudy" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MESimStudy" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MESimStudy" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEStep" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEStep" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEStudy" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0MEStudy" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0ProcResource" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0ProcResource" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0RefFrame" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Mfg0RefFrame" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ModelReq" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ModelReq" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Network" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Network" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXAgent" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXCheckMate" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXCMValData" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXRDDV" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXRDDVValData" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="NXValData" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ObjectTemplate" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ObjectTemplate" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Paragraph" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Paragraph" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Part" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Part" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="PR4D_MS_IT_VINF" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="PSConnection" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="PSConnection" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="PSSignal" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="PSSignal" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="RawMaterial" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Requirement" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Requirement" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="RequirementSpec" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="RequirementSpec" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="RouteLocation" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="RouteLocation" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Signal" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Signal" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="SpecElement" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Specification" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="SpecTemplate" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="SpecTemplate" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="StdFolder" accessorName="VINFAST" accessorType="Group"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="StructureMap" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="StructureMap" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="Template" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="TranslationOrder" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="TranslationOrder" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="TranslatnDelvry" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="TransltnOffice" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="TransltnOffice" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValData" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValData" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValidationAgent" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValidationAgent" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValidationReq" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValidationReq" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValToolAgent" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="ValToolAgent" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="WeldPoint" accessorName="dba" accessorType="Group"
+       conditionName="isFalse" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="WeldPoint" accessorName="Organization" accessorType="Organization"
+       conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="checkLatestReleased" operationName="ITEM_copy_rev"
+       isActive="true" extendableElementName="PR4D_MS_IT_VINFRevision" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcNamingRule name="PR4D_MSF_ITEM_ID_OPEN">
+     <TcPattern generateCounters="false" patternString="%^[a-zA-Z0-9_\-\.]{0,128}$"
+         description="no blanks or special characters allowed"/>
+   </TcNamingRule>
+   <TcNamingRule name="PR4D_MSF_STD_DESC">
+     <TcPattern generateCounters="false" patternString="%^[a-zA-Z0-9_\-\.\ ]{0,240}$"/>
+   </TcNamingRule>
+   <TcNamingRule name="PR4D_MS_IT_BASE_MSF_ID">
+     <TcPattern generateCounters="true" patternString="&quot;P&quot;NNNNNNNNNNN" description="ItemID based on N10664-3">
+       <TcCounter initialValue="P20000000000" maximumValue="P99999999999"/>
+     </TcPattern>
+     <TcPattern generateCounters="false" patternString="&quot;P&quot;NNNNNNNNNNN&quot;_G&quot;NN"/>
+     <TcPattern generateCounters="false" patternString="&quot;P&quot;NNNNNNNNNNN&quot;_VT&quot;NN"/>
+     <TcPattern generateCounters="false" patternString="&quot;P&quot;NNNNNNNNNNN&quot;_FP&quot;NN"/>
+   </TcNamingRule>
+   <TcNamingRule name="PR4D_MS_IT_BASE_MSF_Rev">
+     <TcPattern generateCounters="true" patternString="&quot;.&quot;NNN" description="based on N10664-3">
+       <TcCounter initialValue=".001" maximumValue=".999"/>
+     </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="PR4D_MS_IT_Rev_Rule">
+     <TcPattern generateCounters="true" patternString="NNN">
+       <TcCounter initialValue="001" maximumValue="999"/>
+     </TcPattern>
+     <TcPattern generateCounters="false" patternString="NNN&quot;.&quot;NNN"/>
+   </TcNamingRule>
+   <TcNamingRule name="PR4D_MS_IT_STD_NAMING_LENGTH40">
+     <TcPattern generateCounters="false" patternString="%^[a-zA-Z0-9_\-\.]{0,40}$"/>
+   </TcNamingRule>
+   <TcNamingRuleAttach ruleName="PR4D_MSF_ITEM_ID_OPEN" typeName="PR4D_MS_IT_VINF"
+       propertyName="item_id" case="Upper" conditionName="isTrue" override="false"
+       ruleType="NamingRule" description=""/>
+   <TcNamingRuleAttach ruleName="PR4D_MSF_ITEM_ID_OPEN" typeName="PR4D_MS_IT_VINF"
+       propertyName="object_name" case="Upper" conditionName="isTrue" override="false"
+       ruleType="NamingRule" description=""/>
+   <TcNamingRuleAttach ruleName="PR4D_MS_IT_BASE_MSF_Rev" typeName="PR4D_MS_IT_VINFPDR"
+       propertyName="item_revision_id" case="Mix" conditionName="isTrue" override="false"
+       ruleType="NamingRule" description=""/>
+   <TcNamingRuleAttach ruleName="PR4D_MS_IT_Rev_Rule" typeName="PR4D_MS_IT_VINF" propertyName="item_revision_id"
+       case="Mix" conditionName="isTrue" override="false" ruleType="NamingRule" description=""/>
+   <TcLOV name="PR4D_MSF_STD_YN" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="Y" description="Yes" conditionName="isTrue"/>
+     <TcLOVValue value="N" description="No" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="PR4D_MS_IT_VINF_Filename" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Fieldname.OEM_partNumber" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Item.item_id" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fieldname.OEM_revision" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rev.item_revision_id" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fieldname.OEM_nomenclature" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Item.object_name" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fieldname.OEM_filePath" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Item.item_id~1" description="xxxxxxxxxxxx" conditionName="isTrue"/>
+     <TcLOVValue value="&quot;_&quot;" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rev.revonly" description="" conditionName="isTrue"/>
+     <TcLOVValue value="&quot;_&quot;1" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rev.PDI" description="000" conditionName="isTrue"/>
+     <TcLOVValue value="&quot;_&quot;2" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MSF_COUNTER" description="__" conditionName="isTrue"/>
+     <TcLOVValue value="&quot;_&quot;3" description="" conditionName="isTrue"/>
+     <TcLOVValue value="MSF_TYP" description="___" conditionName="isTrue"/>
+     <TcLOVValue value="&quot;_&quot;4" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Item.object_name~1" description="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+         conditionName="isTrue"/>
+     <TcLOVValue value="&quot;.&quot;" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ds.object_type" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="PR4D_WF_Item" lovType="ListOfValuesString" usage="Exhaustive" description="Attache everything below an item">
+     <TcLOVValue value="$TARGET.(Item).Revisions.*" description="" conditionName="isTrue"/>
+     <TcLOVValue value="$TARGET.(Item).PSBOMView.*" description="" conditionName="isTrue"/>
+     <TcLOVValue value="$TARGET.(Item).Revisions.*.PSBOMViewRevision.*" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="$TARGET.(Item).Revisions.*.IMAN_specification, IMAN_Rendering, catia_cache_link.*"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="$TARGET.(Item).Revisions.*.IMAN_specification.*.catia_importform_link.*"
+         description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="PR4D_WF_STD" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="$TARGET.(ItemRevision).IMAN_specification, IMAN_Rendering, catia_cache_link.*"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="$TARGET.(ItemRevision).IMAN_specification.*.catia_importform_link.*"
+         description="" conditionName="isTrue"/>
+     <TcLOVValue value="$TARGET.(ItemRevision).PSBOMViewRevision.*" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="$TARGET.(ItemRevision).IMAN_manifestation.*" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="$TARGET.(ItemRevision).PR4D_documentation.*" description=""
+         conditionName="isTrue"/>
+     <TcLOVValue value="$TARGET.(ItemRevision).IMAN_UG_altrep.*" description="" conditionName="isTrue"/>
+     <TcLOVValue value="$TARGET.(ItemRevision).PR4D_image.*" description="" conditionName="isTrue"/>
+     <TcLOVValue value="$TARGET.(ItemRevision).catia_alternateShapeRep.*" description=""
+         conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="PR4D_MSF_STD_YN" typeName="ItemRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="pr4d_3dmaster" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcStatus statusName="PR4D_BASE_Imp" description="Status for Base Imports from OEM"/>
+   <TcStatus statusName="PR4D_BASE_Imp2" description=""/>
+   <TcStatus statusName="PR4D_BASE_Imp3" description=""/>
+   <TcStatus statusName="PR4D_BASE_Imp4" description=""/>
+   <TcStatus statusName="PR4D_C_1" description="neuer C Status"/>
+   <TcStatus statusName="PR4D_Class_A" description=""/>
+   <TcStatus statusName="PR4D_Class_A_WiP" description="Styling Class A Work in Progress"/>
+   <TcStatus statusName="PR4D_Class_B" description=""/>
+   <TcStatus statusName="PR4D_Class_B_WiP" description="Styling Class B Work in Progress"/>
+   <TcStatus statusName="PR4D_Class_C" description=""/>
+   <TcStatus statusName="PR4D_Class_C_WiP" description="Styling Class C Work in Progress"/>
+   <TcStatus statusName="PR4D_E" description=""/>
+   <TcStatus statusName="PR4D_Invalid" description=""/>
+   <TcStatus statusName="PR4D_P" description=""/>
+   <TcStatus statusName="PR4D_PR" description=""/>
+   <TcStatus statusName="PR4D_PR_STRUCT" description=""/>
+   <TcStatus statusName="PR4D_P_STRUCT" description=""/>
+   <TcStatus statusName="PR4D_PreP" description=""/>
+   <TcStatus statusName="PR4D_RC" description=""/>
+   <TcStatus statusName="PR4D_Released" description=""/>
+   <TcStatus statusName="PR4D_VPT-01" description=""/>
+   <TcStatus statusName="PR4D_VPT-02" description=""/>
+   <TcStatus statusName="PR4D_VPT-FC" description="Data Freeze"/>
+   <TcStatus statusName="PR4D_VPT-PV" description=""/>
+   <TcStatus statusName="PR4D_VPT-TA" description=""/>
+   <TcStatus statusName="PR4D_X" description=""/>
+   <TcViewType viewTypeName="PR4D_cad" description="View Type for CATIA Structures"/>
+   <PropagationRule sourceType="Dataset" relRefPropName="catia_importform_link" referenceType="Relation"
+       destinationType="Dataset" operation="All" traversalCondition="isTrue" actionCondition="isTrue"
+       propagationGroup="No Group" direction="Forward" propagationStyle="Fill" background="false"
+       secured="false"/>
+   <PropagationRule sourceType="Dataset" relRefPropName="catia_importform_link" referenceType="Relation"
+       destinationType="Dataset" operation="All" traversalCondition="isTrue" actionCondition="isTrue"
+       propagationGroup="Security Group III" direction="Forward" propagationStyle="Ordered"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="Dataset" relRefPropName="catia_importform_link" referenceType="Relation"
+       destinationType="Dataset" operation="All" traversalCondition="isTrue" actionCondition="isTrue"
+       propagationGroup="Security Group II" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="Dataset" relRefPropName="catia_importform_link" referenceType="Relation"
+       destinationType="Dataset" operation="All" traversalCondition="isTrue" actionCondition="isTrue"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="ItemRevision" relRefPropName="structure_revisions"
+       referenceType="ReferenceProperty" destinationType="PSBOMViewRevision" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="ItemRevision" relRefPropName="structure_revisions"
+       referenceType="ReferenceProperty" destinationType="PSBOMViewRevision" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="ItemRevision" relRefPropName="structure_revisions"
+       referenceType="ReferenceProperty" destinationType="PSBOMViewRevision" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="ItemRevision" relRefPropName="structure_revisions"
+       referenceType="ReferenceProperty" destinationType="PSBOMViewRevision" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="Item" relRefPropName="bom_view_tags" referenceType="ReferenceProperty"
+       destinationType="PSBOMView" operation="All" traversalCondition="isTrue" actionCondition="isTrue"
+       propagationGroup="No Group" direction="Forward" propagationStyle="Fill" background="false"
+       secured="false"/>
+   <PropagationRule sourceType="Item" relRefPropName="bom_view_tags" referenceType="ReferenceProperty"
+       destinationType="PSBOMView" operation="All" traversalCondition="isTrue" actionCondition="isTrue"
+       propagationGroup="Security Group III" direction="Forward" propagationStyle="Ordered"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="Item" relRefPropName="bom_view_tags" referenceType="ReferenceProperty"
+       destinationType="PSBOMView" operation="All" traversalCondition="isTrue" actionCondition="isTrue"
+       propagationGroup="Security Group II" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="Item" relRefPropName="bom_view_tags" referenceType="ReferenceProperty"
+       destinationType="PSBOMView" operation="All" traversalCondition="isTrue" actionCondition="isTrue"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="IMAN_Rendering" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="No Group" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="IMAN_Rendering" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group III" direction="Forward"
+       propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="IMAN_Rendering" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group II" direction="Forward"
+       propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="IMAN_Rendering" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group I" direction="Forward"
+       propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_DWGLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_DWGLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_DWGLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_DWGLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MMLAssy"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MMLAssy"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MMLAssy"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MMLAssy"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MML" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="No Group" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MML" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group III" direction="Forward"
+       propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MML" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group II" direction="Forward"
+       propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MML" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group I" direction="Forward"
+       propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_CgmLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="No Group" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_CgmLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group III" direction="Forward"
+       propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_CgmLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group II" direction="Forward"
+       propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_CgmLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group I" direction="Forward"
+       propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_MFGLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="No Group" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_MFGLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group III" direction="Forward"
+       propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_MFGLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group II" direction="Forward"
+       propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_MFGLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="All" traversalCondition="isTrue"
+       actionCondition="isTrue" propagationGroup="Security Group I" direction="Forward"
+       propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_alternateShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_alternateShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_alternateShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_alternateShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisFilesLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisFilesLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisFilesLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisFilesLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_auxiliaryLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_auxiliaryLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_auxiliaryLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_auxiliaryLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_cache_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_cache_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_cache_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_cache_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_componentShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_componentShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_componentShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_componentShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_config_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_config_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_config_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_config_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_context_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_context_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_context_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_context_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_importform_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_importform_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_importform_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_importform_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_secondary_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_secondary_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_secondary_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_secondary_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_shapeProperties_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_shapeProperties_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group III"
+       direction="Forward" propagationStyle="Ordered" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_shapeProperties_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_shapeProperties_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="All"
+       traversalCondition="isTrue" actionCondition="isTrue" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="Dataset" relRefPropName="catia_importform_link" referenceType="Relation"
+       destinationType="Dataset" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="Fnd0PropagationCondition" propagationGroup="No Group" direction="Forward"
+       propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="Dataset" relRefPropName="catia_importform_link" referenceType="Relation"
+       destinationType="Dataset" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="No Group" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="Dataset" relRefPropName="catia_importform_link" referenceType="Relation"
+       destinationType="Dataset" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="Security Group II" direction="Forward"
+       propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="Dataset" relRefPropName="catia_importform_link" referenceType="Relation"
+       destinationType="Dataset" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="Fnd0PropagationCondition" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="ItemRevision" relRefPropName="structure_revisions"
+       referenceType="ReferenceProperty" destinationType="PSBOMViewRevision" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="ItemRevision" relRefPropName="structure_revisions"
+       referenceType="ReferenceProperty" destinationType="PSBOMViewRevision" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="ItemRevision" relRefPropName="structure_revisions"
+       referenceType="ReferenceProperty" destinationType="PSBOMViewRevision" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="Item" relRefPropName="bom_view_tags" referenceType="ReferenceProperty"
+       destinationType="PSBOMView" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="No Group" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="Item" relRefPropName="bom_view_tags" referenceType="ReferenceProperty"
+       destinationType="PSBOMView" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="Security Group II" direction="Forward"
+       propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="Item" relRefPropName="bom_view_tags" referenceType="ReferenceProperty"
+       destinationType="PSBOMView" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="Fnd0PropagationCondition" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="IMAN_Rendering" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="No Group" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="IMAN_Rendering" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="Security Group II" direction="Forward"
+       propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="IMAN_Rendering" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="Fnd0PropagationCondition" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_DWGLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_DWGLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_DWGLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MMLAssy"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MMLAssy"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MMLAssy"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MML" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="No Group" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MML" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="Security Group II" direction="Forward"
+       propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catiaV5_MML" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="Fnd0PropagationCondition" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_CgmLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="No Group" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_CgmLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="Security Group II" direction="Forward"
+       propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_CgmLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="Fnd0PropagationCondition" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_MFGLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="No Group" direction="Forward" propagationStyle="Fill"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_MFGLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="isTrue" propagationGroup="Security Group II" direction="Forward"
+       propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_MFGLink" referenceType="Relation"
+       destinationType="WorkspaceObject" operation="SaveAs" traversalCondition="Fnd0TraversalCondition"
+       actionCondition="Fnd0PropagationCondition" propagationGroup="Security Group I"
+       direction="Forward" propagationStyle="Merge" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_alternateShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_alternateShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_alternateShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisFilesLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisFilesLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisFilesLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_analysisLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_auxiliaryLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_auxiliaryLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_auxiliaryLink"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_cache_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_cache_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_cache_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_componentShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_componentShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_componentShapeRep"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_config_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_config_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_config_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_context_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_context_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_context_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_designtable_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_importform_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_importform_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_importform_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_secondary_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_secondary_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_secondary_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_shapeProperties_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="No Group"
+       direction="Forward" propagationStyle="Fill" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_shapeProperties_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="isTrue" propagationGroup="Security Group II"
+       direction="Forward" propagationStyle="Overwrite" background="false" secured="false"/>
+   <PropagationRule sourceType="WorkspaceObject" relRefPropName="catia_shapeProperties_link"
+       referenceType="Relation" destinationType="WorkspaceObject" operation="SaveAs"
+       traversalCondition="Fnd0TraversalCondition" actionCondition="Fnd0PropagationCondition"
+       propagationGroup="Security Group I" direction="Forward" propagationStyle="Merge"
+       background="false" secured="false"/>
+</Add>
+<Delete>
+   <TcDatasetToolAttach datasetType="Sheet">
+      <TcDSViewTool name="Image Editor"/>
+   </TcDatasetToolAttach>
+   <TcDatasetToolAttach datasetType="Sheet">
+      <TcDSViewTool name="MarkUp Tool"/>
+   </TcDatasetToolAttach>
+   <TcDatasetToolAttach datasetType="Sheet">
+      <TcDSEditTool name="Image Editor"/>
+   </TcDatasetToolAttach>
+   <TcDatasetToolAttach datasetType="Sheet">
+      <TcDSEditTool name="MarkUp Tool"/>
+   </TcDatasetToolAttach>
+   <TcDatasetToolAttach datasetType="JPEG">
+      <TcDSViewTool name="Netscape_Tool"/>
+   </TcDatasetToolAttach>
+   <TcDatasetToolAttach datasetType="JPEG">
+      <TcDSEditTool name="Netscape_Tool"/>
+   </TcDatasetToolAttach>
+</Delete>
+</TcBusinessData>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="VF7_service_chpt" parentClassName="C3D_Item" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="vf7_don_vehicle" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf7_vehicle_category" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="VF7_service_chptMasterS" parentClassName="C3D_ItemMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF7_service_chptRevMasterS" parentClassName="C3D_ItemRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF7_service_chptRevision" parentClassName="C3D_ItemRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF7_service_kit" parentClassName="C3D_Item" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF7_service_kitMasterS" parentClassName="C3D_ItemMasterS" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF7_service_kitRevMasterS" parentClassName="C3D_ItemRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF7_service_kitRevision" parentClassName="C3D_ItemRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF7_service_part" parentClassName="Item" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF7_service_partMasterS" parentClassName="ItemMaster" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF7_service_partRevMasterS" parentClassName="ItemVersionMaster"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF7_service_partRevision" parentClassName="ItemRevision" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF7_spare_part_for" parentClassName="ImanRelation" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <OperationInputType typeName="VF7_sbom_idCreI" parentTypeName="Fnd0BaseIdGeneratorCreI"
+       typeClassName="VF7_sbom_idCreI" description="CreateInput object for &quot;VF7_sbom_id&quot; business object"
+       isAbstract="false" artifactName="VF7_sbom_idCreI">
+     <OperationInputProperty propName="vf7_vehicle_type" compoundObjectConstant=""
+         srcPropName="vf7_vehicle_type" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="VF7_sbom_idSvAI" parentTypeName="Fnd0BaseIdGeneratorSvAI"
+       typeClassName="VF7_sbom_idSvAI" description="SaveAsInput object for &quot;VF7_sbom_id&quot; business object"
+       isAbstract="false" artifactName="VF7_sbom_idSvAI"/>
+   <OperationInputType typeName="VF7_service_chptCreI" parentTypeName="C3D_ItemCreI"
+       typeClassName="VF7_service_chptCreI" description="CreateInput object for &quot;VF7_service_chpt&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptCreI">
+     <OperationInputProperty propName="vf7_don_vehicle" compoundObjectConstant=""
+         srcPropName="vf7_don_vehicle" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf7_vehicle_category" compoundObjectConstant=""
+         srcPropName="vf7_vehicle_category" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="VF7_service_chptMasterCreI" parentTypeName="C3D_ItemMasterCreI"
+       typeClassName="VF7_service_chptMasterCreI" description="CreateInput object for &quot;VF7_service_chptMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptMasterCreI"/>
+   <OperationInputType typeName="VF7_service_chptMasterSCreI" parentTypeName="C3D_ItemMasterSCreI"
+       typeClassName="VF7_service_chptMasterSCreI" description="CreateInput object for &quot;VF7_service_chptMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptMasterSCreI"/>
+   <OperationInputType typeName="VF7_service_chptMasterSSvAI" parentTypeName="C3D_ItemMasterSSvAI"
+       typeClassName="VF7_service_chptMasterSSvAI" description="SaveAsInput object for &quot;VF7_service_chptMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptMasterSSvAI"/>
+   <OperationInputType typeName="VF7_service_chptMasterSvAI" parentTypeName="C3D_ItemMasterSvAI"
+       typeClassName="VF7_service_chptMasterSvAI" description="SaveAsInput object for &quot;VF7_service_chptMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptMasterSvAI"/>
+   <OperationInputType typeName="VF7_service_chptRevMasterSCreI" parentTypeName="C3D_ItemRevMasterSCreI"
+       typeClassName="VF7_service_chptRevMasterSCreI" description="CreateInput object for &quot;VF7_service_chptRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptRevMasterSCreI"/>
+   <OperationInputType typeName="VF7_service_chptRevMasterSSvAI" parentTypeName="C3D_ItemRevMasterSSvAI"
+       typeClassName="VF7_service_chptRevMasterSSvAI" description="SaveAsInput object for &quot;VF7_service_chptRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptRevMasterSSvAI"/>
+   <OperationInputType typeName="VF7_service_chptRevisi_alt0CreI" parentTypeName="C3D_ItemRevisionMasterCreI"
+       typeClassName="VF7_service_chptRevisi_alt0CreI" description="CreateInput object for &quot;VF7_service_chptRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptRevisi_alt0CreI"/>
+   <OperationInputType typeName="VF7_service_chptRevisi_alt0SvAI" parentTypeName="C3D_ItemRevisionMasterSvAI"
+       typeClassName="VF7_service_chptRevisi_alt0SvAI" description="SaveAsInput object for &quot;VF7_service_chptRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptRevisi_alt0SvAI"/>
+   <OperationInputType typeName="VF7_service_chptRevisionCreI" parentTypeName="C3D_ItemRevisionCreI"
+       typeClassName="VF7_service_chptRevisionCreI" description="CreateInput object for &quot;VF7_service_chptRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptRevisionCreI"/>
+   <OperationInputType typeName="VF7_service_chptRevisionRevI" parentTypeName="C3D_ItemRevisionRevI"
+       typeClassName="VF7_service_chptRevisionRevI" description="ReviseInput object for &quot;VF7_service_chptRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptRevisionRevI"/>
+   <OperationInputType typeName="VF7_service_chptRevisionSvAI" parentTypeName="C3D_ItemRevisionSvAI"
+       typeClassName="VF7_service_chptRevisionSvAI" description="SaveAsInput object for &quot;VF7_service_chptRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptRevisionSvAI"/>
+   <OperationInputType typeName="VF7_service_chptSvAI" parentTypeName="C3D_ItemSvAI"
+       typeClassName="VF7_service_chptSvAI" description="SaveAsInput object for &quot;VF7_service_chpt&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptSvAI"/>
+   <OperationInputType typeName="VF7_service_kitCreI" parentTypeName="C3D_ItemCreI"
+       typeClassName="VF7_service_kitCreI" description="CreateInput object for &quot;VF7_service_kit&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitCreI"/>
+   <OperationInputType typeName="VF7_service_kitMasterCreI" parentTypeName="C3D_ItemMasterCreI"
+       typeClassName="VF7_service_kitMasterCreI" description="CreateInput object for &quot;VF7_service_kitMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitMasterCreI"/>
+   <OperationInputType typeName="VF7_service_kitMasterSCreI" parentTypeName="C3D_ItemMasterSCreI"
+       typeClassName="VF7_service_kitMasterSCreI" description="CreateInput object for &quot;VF7_service_kitMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitMasterSCreI"/>
+   <OperationInputType typeName="VF7_service_kitMasterSSvAI" parentTypeName="C3D_ItemMasterSSvAI"
+       typeClassName="VF7_service_kitMasterSSvAI" description="SaveAsInput object for &quot;VF7_service_kitMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitMasterSSvAI"/>
+   <OperationInputType typeName="VF7_service_kitMasterSvAI" parentTypeName="C3D_ItemMasterSvAI"
+       typeClassName="VF7_service_kitMasterSvAI" description="SaveAsInput object for &quot;VF7_service_kitMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitMasterSvAI"/>
+   <OperationInputType typeName="VF7_service_kitRevMasterSCreI" parentTypeName="C3D_ItemRevMasterSCreI"
+       typeClassName="VF7_service_kitRevMasterSCreI" description="CreateInput object for &quot;VF7_service_kitRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitRevMasterSCreI"/>
+   <OperationInputType typeName="VF7_service_kitRevMasterSSvAI" parentTypeName="C3D_ItemRevMasterSSvAI"
+       typeClassName="VF7_service_kitRevMasterSSvAI" description="SaveAsInput object for &quot;VF7_service_kitRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitRevMasterSSvAI"/>
+   <OperationInputType typeName="VF7_service_kitRevisio_alt0CreI" parentTypeName="C3D_ItemRevisionMasterCreI"
+       typeClassName="VF7_service_kitRevisio_alt0CreI" description="CreateInput object for &quot;VF7_service_kitRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitRevisio_alt0CreI"/>
+   <OperationInputType typeName="VF7_service_kitRevisio_alt0SvAI" parentTypeName="C3D_ItemRevisionMasterSvAI"
+       typeClassName="VF7_service_kitRevisio_alt0SvAI" description="SaveAsInput object for &quot;VF7_service_kitRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitRevisio_alt0SvAI"/>
+   <OperationInputType typeName="VF7_service_kitRevisionCreI" parentTypeName="C3D_ItemRevisionCreI"
+       typeClassName="VF7_service_kitRevisionCreI" description="CreateInput object for &quot;VF7_service_kitRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitRevisionCreI"/>
+   <OperationInputType typeName="VF7_service_kitRevisionRevI" parentTypeName="C3D_ItemRevisionRevI"
+       typeClassName="VF7_service_kitRevisionRevI" description="ReviseInput object for &quot;VF7_service_kitRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitRevisionRevI"/>
+   <OperationInputType typeName="VF7_service_kitRevisionSvAI" parentTypeName="C3D_ItemRevisionSvAI"
+       typeClassName="VF7_service_kitRevisionSvAI" description="SaveAsInput object for &quot;VF7_service_kitRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitRevisionSvAI"/>
+   <OperationInputType typeName="VF7_service_kitSvAI" parentTypeName="C3D_ItemSvAI"
+       typeClassName="VF7_service_kitSvAI" description="SaveAsInput object for &quot;VF7_service_kit&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitSvAI"/>
+   <OperationInputType typeName="VF7_service_partCreI" parentTypeName="ItemCreI" typeClassName="VF7_service_partCreI"
+       description="CreateInput object for &quot;VF7_service_part&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partCreI"/>
+   <OperationInputType typeName="VF7_service_partMasterCreI" parentTypeName="Item MasterCreI"
+       typeClassName="VF7_service_partMasterCreI" description="CreateInput object for &quot;VF7_service_partMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partMasterCreI"/>
+   <OperationInputType typeName="VF7_service_partMasterSCreI" parentTypeName="ItemMasterCreI"
+       typeClassName="VF7_service_partMasterSCreI" description="CreateInput object for &quot;VF7_service_partMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partMasterSCreI"/>
+   <OperationInputType typeName="VF7_service_partMasterSSvAI" parentTypeName="ItemMasterSvAI"
+       typeClassName="VF7_service_partMasterSSvAI" description="SaveAsInput object for &quot;VF7_service_partMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partMasterSSvAI"/>
+   <OperationInputType typeName="VF7_service_partMasterSvAI" parentTypeName="Item MasterSvAI"
+       typeClassName="VF7_service_partMasterSvAI" description="SaveAsInput object for &quot;VF7_service_partMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partMasterSvAI"/>
+   <OperationInputType typeName="VF7_service_partRevMasterSCreI" parentTypeName="ItemVersionMasterCreI"
+       typeClassName="VF7_service_partRevMasterSCreI" description="CreateInput object for &quot;VF7_service_partRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partRevMasterSCreI"/>
+   <OperationInputType typeName="VF7_service_partRevMasterSSvAI" parentTypeName="ItemVersionMasterSvAI"
+       typeClassName="VF7_service_partRevMasterSSvAI" description="SaveAsInput object for &quot;VF7_service_partRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partRevMasterSSvAI"/>
+   <OperationInputType typeName="VF7_service_partRevisi_alt0CreI" parentTypeName="ItemRevision MasterCreI"
+       typeClassName="VF7_service_partRevisi_alt0CreI" description="CreateInput object for &quot;VF7_service_partRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partRevisi_alt0CreI"/>
+   <OperationInputType typeName="VF7_service_partRevisi_alt0SvAI" parentTypeName="ItemRevision MasterSvAI"
+       typeClassName="VF7_service_partRevisi_alt0SvAI" description="SaveAsInput object for &quot;VF7_service_partRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partRevisi_alt0SvAI"/>
+   <OperationInputType typeName="VF7_service_partRevisionCreI" parentTypeName="ItemRevisionCreI"
+       typeClassName="VF7_service_partRevisionCreI" description="CreateInput object for &quot;VF7_service_partRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partRevisionCreI">
+     <OperationInputProperty propName="vf7VF7_spare_part_for" compoundObjectConstant=""
+         srcPropName="VF7_spare_part_for" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="VF7_service_partRevisionRevI" parentTypeName="ItemRevisionRevI"
+       typeClassName="VF7_service_partRevisionRevI" description="ReviseInput object for &quot;VF7_service_partRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partRevisionRevI"/>
+   <OperationInputType typeName="VF7_service_partRevisionSvAI" parentTypeName="ItemRevisionSvAI"
+       typeClassName="VF7_service_partRevisionSvAI" description="SaveAsInput object for &quot;VF7_service_partRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partRevisionSvAI"/>
+   <OperationInputType typeName="VF7_service_partSvAI" parentTypeName="ItemSvAI" typeClassName="VF7_service_partSvAI"
+       description="SaveAsInput object for &quot;VF7_service_part&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partSvAI"/>
+   <OperationInputType typeName="VF7_spare_part_forCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="VF7_spare_part_forCreI" description="CreateInput object for &quot;VF7_spare_part_for&quot; business object"
+       isAbstract="false" artifactName="VF7_spare_part_forCreI"/>
+   <OperationInputType typeName="VF7_spare_part_forSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="VF7_spare_part_forSvAI" description="SaveAsInput object for &quot;VF7_spare_part_for&quot; business object"
+       isAbstract="false" artifactName="VF7_spare_part_forSvAI"/>
+   <TcForm typeName="VF7_service_chptMaster" parentTypeName="C3D_ItemMaster" typeClassName="Form"
+       description="MasterForm object for &quot;VF7_service_chpt&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptMaster" functionality="VF7vinfastsbom"
+       formStorageClassName="VF7_service_chptMasterS"/>
+   <TcForm typeName="VF7_service_chptRevisionMaster" parentTypeName="C3D_ItemRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;VF7_service_chptRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptRevisionMaster" functionality="VF7vinfastsbom"
+       formStorageClassName="VF7_service_chptRevMasterS"/>
+   <TcForm typeName="VF7_service_kitMaster" parentTypeName="C3D_ItemMaster" typeClassName="Form"
+       description="MasterForm object for &quot;VF7_service_kit&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitMaster" functionality="VF7vinfastsbom"
+       formStorageClassName="VF7_service_kitMasterS"/>
+   <TcForm typeName="VF7_service_kitRevisionMaster" parentTypeName="C3D_ItemRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;VF7_service_kitRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitRevisionMaster" functionality="VF7vinfastsbom"
+       formStorageClassName="VF7_service_kitRevMasterS"/>
+   <TcForm typeName="VF7_service_partMaster" parentTypeName="Item Master" typeClassName="Form"
+       description="MasterForm object for &quot;VF7_service_part&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partMaster" functionality="VF7vinfastsbom"
+       formStorageClassName="VF7_service_partMasterS"/>
+   <TcForm typeName="VF7_service_partRevisionMaster" parentTypeName="ItemRevision Master"
+       typeClassName="Form" description="MasterForm object for &quot;VF7_service_partRevision&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partRevisionMaster" functionality="VF7vinfastsbom"
+       formStorageClassName="VF7_service_partRevMasterS"/>
+   <TcRuntimeType typeName="VF7_sbom_id" parentTypeName="Fnd0BaseIdGenerator" typeClassName="VF7_sbom_id"
+       description="" isAbstract="false" artifactName="VF7_sbom_id">
+     <TcProperty propName="vf7_vehicle_type" propTypeName="Runtime" propValueType="PROP_string"
+         propMaxStringLength="128" isArray="false" arrayLength="0" description=""
+         referencedTypeConstant="" referencedType=""/>
+   </TcRuntimeType>
+   <TcStandardType typeName="VF7_service_chpt" parentTypeName="C3D_Item" typeClassName="VF7_service_chpt"
+       description="" isAbstract="false" artifactName="VF7_service_chpt" functionality="VF7vinfastsbom"/>
+   <TcStandardType typeName="VF7_service_chptMasterS" parentTypeName="C3D_ItemMasterS"
+       typeClassName="VF7_service_chptMasterS" description="Form Storage object for &quot;VF7_service_chptMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptMasterS" functionality="VF7vinfastsbom"/>
+   <TcStandardType typeName="VF7_service_chptRevMasterS" parentTypeName="C3D_ItemRevMasterS"
+       typeClassName="VF7_service_chptRevMasterS" description="Form Storage object for &quot;VF7_service_chptRevMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_chptRevMasterS" functionality="VF7vinfastsbom"/>
+   <TcStandardType typeName="VF7_service_chptRevision" parentTypeName="C3D_ItemRevision"
+       typeClassName="VF7_service_chptRevision" description="ItemRevision object for &quot;VF7_service_chpt&quot;  business object"
+       isAbstract="false" artifactName="VF7_service_chptRevision" functionality="VF7vinfastsbom"/>
+   <TcStandardType typeName="VF7_service_kit" parentTypeName="C3D_Item" typeClassName="VF7_service_kit"
+       description="" isAbstract="false" artifactName="VF7_service_kit" functionality="VF7vinfastsbom"/>
+   <TcStandardType typeName="VF7_service_kitMasterS" parentTypeName="C3D_ItemMasterS"
+       typeClassName="VF7_service_kitMasterS" description="Form Storage object for &quot;VF7_service_kitMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitMasterS" functionality="VF7vinfastsbom"/>
+   <TcStandardType typeName="VF7_service_kitRevMasterS" parentTypeName="C3D_ItemRevMasterS"
+       typeClassName="VF7_service_kitRevMasterS" description="Form Storage object for &quot;VF7_service_kitRevMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_kitRevMasterS" functionality="VF7vinfastsbom"/>
+   <TcStandardType typeName="VF7_service_kitRevision" parentTypeName="C3D_ItemRevision"
+       typeClassName="VF7_service_kitRevision" description="ItemRevision object for &quot;VF7_service_kit&quot;  business object"
+       isAbstract="false" artifactName="VF7_service_kitRevision" functionality="VF7vinfastsbom"/>
+   <TcStandardType typeName="VF7_service_part" parentTypeName="Item" typeClassName="VF7_service_part"
+       description="" isAbstract="false" artifactName="VF7_service_part" functionality="VF7vinfastsbom"/>
+   <TcStandardType typeName="VF7_service_partMasterS" parentTypeName="ItemMaster"
+       typeClassName="VF7_service_partMasterS" description="Form Storage object for &quot;VF7_service_partMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partMasterS" functionality="VF7vinfastsbom"/>
+   <TcStandardType typeName="VF7_service_partRevMasterS" parentTypeName="ItemVersionMaster"
+       typeClassName="VF7_service_partRevMasterS" description="Form Storage object for &quot;VF7_service_partRevMaster&quot; business object"
+       isAbstract="false" artifactName="VF7_service_partRevMasterS" functionality="VF7vinfastsbom"/>
+   <TcStandardType typeName="VF7_service_partRevision" parentTypeName="ItemRevision"
+       typeClassName="VF7_service_partRevision" description="ItemRevision object for &quot;VF7_service_part&quot;  business object"
+       isAbstract="false" artifactName="VF7_service_partRevision" functionality="VF7vinfastsbom">
+     <TcProperty propName="VF7_spare_part_for" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcStandardType>
+   <TcStandardType typeName="VF7_spare_part_for" parentTypeName="ImanRelation" typeClassName="VF7_spare_part_for"
+       description="" isAbstract="false" artifactName="VF7_spare_part_for"/>
+   <TcPropertyAttach typeName="BOMLine">
+     <TcProperty propName="vf7_ebom_part" propTypeName="Runtime" propValueType="PROP_string"
+         propMaxStringLength="128" isArray="false" arrayLength="0" description=""
+         referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="BOMLine">
+     <TcProperty propName="vf7_spare_part" propTypeName="Runtime" propValueType="PROP_string"
+         propMaxStringLength="128" isArray="false" arrayLength="0" description=""
+         referencedTypeConstant="" referencedType=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="BOMLineCreI">
+     <OperationInputProperty propName="vf7_ebom_part" compoundObjectConstant="" srcPropName="vf7_ebom_part"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </TcPropertyAttach>
+   <TcPropertyAttach typeName="BOMLineCreI">
+     <OperationInputProperty propName="vf7_spare_part" compoundObjectConstant="" srcPropName="vf7_spare_part"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </TcPropertyAttach>
+   <Condition name="VF7_car_service_id" expression="o.vf7_vehicle_type=&quot;S&amp;S&quot;"
+       secured="false" description="">
+     <ConditionParameter name="o" parameterTypeName="VF7_sbom_id"/>
+   </Condition>
+   <Condition name="VF7_escooter_service_id" expression="o.vf7_vehicle_type=&quot;EScooter&quot;"
+       secured="false" description="">
+     <ConditionParameter name="o" parameterTypeName="VF7_sbom_id"/>
+   </Condition>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="en_US"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_sbom_id" value="VF7_sbom_idCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_chpt" value="VF7_service_chptCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_chptMaster"
+       value="VF7_service_chptMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_chptMasterS"
+       value="VF7_service_chptMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_chptRevision"
+       value="VF7_service_chptRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_chptRevisionMaster"
+       value="VF7_service_chptRevisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_chptRevMasterS"
+       value="VF7_service_chptRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_kit" value="VF7_service_kitCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_kitMaster"
+       value="VF7_service_kitMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_kitMasterS"
+       value="VF7_service_kitMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_kitRevision"
+       value="VF7_service_kitRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_kitRevisionMaster"
+       value="VF7_service_kitRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_kitRevMasterS"
+       value="VF7_service_kitRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_part" value="VF7_service_partCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_partMaster"
+       value="VF7_service_partMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_partMasterS"
+       value="VF7_service_partMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_partRevision"
+       value="VF7_service_partRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_partRevisionMaster"
+       value="VF7_service_partRevisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_service_partRevMasterS"
+       value="VF7_service_partRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF7_spare_part_for"
+       value="VF7_spare_part_forCreI"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="VF7_service_chpt" value="VF7ServiceChapter-Item-RC.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="VF7_service_chptRevision"
+       value="VF7ServiceChapter-Item-Revision-RC.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="VF7_service_kit" value="VF7service-kit-item-rc.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="VF7_service_kitRevision"
+       value="VF7service-kit-item-revision-rc.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="VF7_service_part" value="VF7Spare_Part_Item.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="VF7_service_partRevision"
+       value="VF7Spare_Part_Rev.png"/>
+   <TcTypeConstantAttach constantName="Fnd0IdGenerator" typeName="VF7_service_kit"
+       value="VF7_sbom_id"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="VF7_service_chpt" value="VF7_service_chptRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="VF7_service_kit" value="VF7_service_kitRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="VF7_service_part" value="VF7_service_partRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF7_service_chpt" value="VF7_service_chptMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF7_service_chptRevision"
+       value="VF7_service_chptRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF7_service_kit" value="VF7_service_kitMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF7_service_kitRevision"
+       value="VF7_service_kitRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF7_service_part" value="VF7_service_partMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF7_service_partRevision"
+       value="VF7_service_partRevisionMaster"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="VF7_service_chptRevision"
+       value="VF7_service_chptRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="VF7_service_kitRevision"
+       value="VF7_service_kitRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="VF7_service_partRevision"
+       value="VF7_service_partRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_sbom_id" value="VF7_sbom_idSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_chpt" value="VF7_service_chptSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_chptMaster"
+       value="VF7_service_chptMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_chptMasterS"
+       value="VF7_service_chptMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_chptRevision"
+       value="VF7_service_chptRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_chptRevisionMaster"
+       value="VF7_service_chptRevisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_chptRevMasterS"
+       value="VF7_service_chptRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_kit" value="VF7_service_kitSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_kitMaster"
+       value="VF7_service_kitMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_kitMasterS"
+       value="VF7_service_kitMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_kitRevision"
+       value="VF7_service_kitRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_kitRevisionMaster"
+       value="VF7_service_kitRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_kitRevMasterS"
+       value="VF7_service_kitRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_part" value="VF7_service_partSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_partMaster"
+       value="VF7_service_partMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_partMasterS"
+       value="VF7_service_partMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_partRevision"
+       value="VF7_service_partRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_partRevisionMaster"
+       value="VF7_service_partRevisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_service_partRevMasterS"
+       value="VF7_service_partRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF7_spare_part_for"
+       value="VF7_spare_part_forSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="vf7_ebom_part"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="vf7_spare_part"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF7_sbom_id" propertyName="vf7_vehicle_type"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF7_service_chpt" propertyName="vf7_don_vehicle"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF7_service_chpt" propertyName="vf7_vehicle_category"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF7_service_partRevision"
+       propertyName="VF7_spare_part_for" value="true"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="vf7_ebom_part"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="vf7_spare_part"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF7_sbom_id" propertyName="vf7_vehicle_type"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF7_service_chpt"
+       propertyName="vf7_don_vehicle" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF7_service_chpt"
+       propertyName="vf7_vehicle_category" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF7_service_partRevision"
+       propertyName="VF7_spare_part_for" value="Write"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="VF7_service_kitCreI"
+       propertyName="fnd0IdGenerator" value="true"/>
+   <TcTypeDisplayRule hiddenTypeName="VF7_service_kit" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcTypeDisplayRule hiddenTypeName="VF7_service_part" accessorName="Organization"
+       accessorType="Organization" conditionName="isTrue" description=""/>
+   <TcNamingRule name="VF7_service_chapter">
+     <TcPattern generateCounters="true" patternString="&quot;VFSC&quot;NNNNNNN">
+       <TcCounter initialValue="VFSC0000001" maximumValue="VFSC9999999"/>
+     </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="VF7_service_kit">
+     <TcPattern generateCounters="true" patternString="&quot;SVC&quot;NNNNNNNN">
+       <TcCounter initialValue="SVC80000001" maximumValue="SVC99999999"/>
+     </TcPattern>
+   </TcNamingRule>
+   <TcNamingRule name="VF7_service_part">
+     <TcPattern generateCounters="true" patternString="&quot;SVC&quot;NNNNNNNN">
+       <TcCounter initialValue="SVC00000001" maximumValue="SVC79999999"/>
+     </TcPattern>
+     <TcPattern generateCounters="false" patternString="@@@NNNNNNNN@@@"/>
+     <TcPattern generateCounters="false" patternString="@@@NNNNNNNN"/>
+   </TcNamingRule>
+   <TcNamingRuleAttach ruleName="VF7_service_chapter" typeName="VF7_service_chpt"
+       propertyName="item_id" case="Mix" conditionName="isTrue" override="false" ruleType="NamingRule"
+       description=""/>
+   <TcNamingRuleAttach ruleName="VF7_service_part" typeName="VF7_service_part" propertyName="item_id"
+       case="Mix" conditionName="isTrue" override="false" ruleType="NamingRule" description=""/>
+   <TcLOV name="VF7_donor_vehicle_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF7_es_vehicle_category" lovType="ListOfValuesString" usage="Exhaustive"
+       description="donor vehicle for escooter lov" isManagedExternally="true"/>
+   <TcLOV name="VF7_vehicle_category_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Automobile" description="" conditionName="isTrue"/>
+     <TcLOVValue value="E-scooter" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF7_vehicle_type" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="S&amp;S" description="SUV/SEDAN" conditionName="isTrue"/>
+     <TcLOVValue value="EScooter" description="EScooter" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVValueSubLOVAttach targetLOVName="VF7_vehicle_category_lov" targetValue="Automobile"
+       subLOVName="VF7_donor_vehicle_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF7_vehicle_category_lov" targetValue="E-scooter"
+       subLOVName="VF7_es_vehicle_category" conditionName="isTrue"/>
+   <TcLOVAttach lovName="VF7_vehicle_category_lov" typeName="VF7_service_chpt">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf7_vehicle_category" conditionName="isTrue"
+         override="false" level="1"/>
+     <TcLOVAttachPropertyInfo valuePropertyName="vf7_don_vehicle" conditionName="isTrue"
+         override="false" level="2" parentPropertyName="vf7_vehicle_category"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="VF7_vehicle_type" typeName="VF7_sbom_id">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf7_vehicle_type" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcStatus statusName="VF7_SR" description=""/>
+   <Functionality name="VF7vinfastsbom" displayName="Vinfast SBOM" enabledForVerificationRules="false"
+       description="Component for the template - vf7vinfastsbom"/>
+   <IdGenerationRule name="VF7_sbom_id_rule" idGenerationConfig="VF7_sbom_id" description="">
+     <ConcatenationRule name="VF7_scooter_rule" conditionName="VF7_escooter_service_id">
+       <TcPattern generateCounters="true" patternString="&quot;SVK&quot;NNNNNNNN">
+         <TcCounter initialValue="SVK00000001" maximumValue="SVK09999999"/>
+       </TcPattern>
+     </ConcatenationRule>
+     <ConcatenationRule name="VF7_car_rule" conditionName="VF7_car_service_id">
+       <TcPattern generateCounters="true" patternString="&quot;SVK&quot;NNNNNNNN">
+         <TcCounter initialValue="SVK10000001" maximumValue="SVK19999999"/>
+       </TcPattern>
+     </ConcatenationRule>
+   </IdGenerationRule>
+   <IdGenerationRuleAttach typeName="VF7_service_kit" propertyName="item_id" idGenerationRule="VF7_sbom_id_rule"
+       condition="isTrue"/>
+</Add>
+</TcBusinessData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+  batchXSDVersion="1.0" Date="Tue Nov 29 02:56:30 PM 2022">
+  <Add>
+    <key locale="en_US" id="LOVValue{::}VF4_supersession_code{::}1" status="Approved">Fully interchangeable, old stock (old part) OK to use for any vehicle</key>
+	 <key locale="en_US" id="LOVValue{::}VF4_supersession_code{::}2" status="Approved">New for old only, old stock (old part) OK to service old vehicles</key>
+    <key locale="en_US" id="LOVValue{::}VF4_supersession_code{::}3" status="Approved">New for old only, do not use old stock (old part)</key>
+    <key locale="en_US" id="LOVValue{::}VF4_supersession_code{::}4" status="Approved">Not interchangeable, old stock (old part) OK to service old vehicles</key>
+    <key locale="en_US" id="LOVValue{::}VF4_supersession_code{::}5" status="Approved">Not interchangeable, do not use old stock (old part) (Should not be used inSBOM or EPC)</key>
+    <key locale="en_US" id="LOVValue{::}VF4_supersession_code{::}6" status="Approved">Multiple/Selective Replacement (1 PN is replaced by many PNs, sample: Battery A is replaced by Battery B + Adapter C)</key>
+    <key locale="en_US" id="LOVValue{::}VF4_supersession_code{::}7" status="Approved">Not Replaced - No Longer Serviced</key>
+    <key locale="en_US" id="LOVValue{::}VF4_supersession_code{::}8" status="Approved">Replaced by an Assembly</key>
+    <key locale="en_US" id="LOVValue{::}VF4_supersession_code{::}9" status="Approved">Assembly Replaced by Detail</key>
+  </Add>
+</TcBusinessDataLocalization>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Thu Dec 24 09:55:06 AM 2020">
+	<Add/>
+	<Change>
+		<TcLOV name="VF4_EE_Model_LOV" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+			<TcLOVValue value="A1" description="" conditionName="isTrue"/>
+			<TcLOVValue value="A2" description="" conditionName="isTrue"/>
+			<TcLOVValue value="AMP_3IN1" description="" conditionName="isTrue"/>
+			<TcLOVValue value="CPDU" description="" conditionName="isTrue"/>
+			<TcLOVValue value="E-Car Portable Charger 3.5KW" description="" conditionName="isTrue"/>
+			<TcLOVValue value="E-Car Home Charger 7.4KW" description="" conditionName="isTrue"/>
+			<TcLOVValue value="E-Car charging Station 11KW" description="" conditionName="isTrue"/>
+			<TcLOVValue value="E-Car charging Station 30KW" description="" conditionName="isTrue"/>
+			<TcLOVValue value="E-Car charging Station 60KW" description="" conditionName="isTrue"/>
+			<TcLOVValue value="E-Scooter Charging Station 2 sockets" description="" conditionName="isTrue"/>
+			<TcLOVValue value="E-Scooter Charging Station 4 sockets" description="" conditionName="isTrue"/>
+			<TcLOVValue value="EDS" description="" conditionName="isTrue"/>
+			<TcLOVValue value="IPDU" description="" conditionName="isTrue"/>
+			<TcLOVValue value="Klara A2 2020" description="" conditionName="isTrue"/>
+			<TcLOVValue value="Platform (A1&amp;A2)" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V5 CITY" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V5 CITY 2020" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V5 CITY CARGO" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V5 CITY CARGO EVN" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V5 City LFP" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V5 LITE" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V5 Lite LFP" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V7 CITY" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V7 SPORT" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V7 Sport LFP" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V9 SPORT 2020" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V9 SPORT LFP" description="" conditionName="isTrue"/>
+			<TcLOVValue value="VF New" description="" conditionName="isTrue"/>
+			<TcLOVValue value="VK 2021" description="" conditionName="isTrue"/>
+			<TcLOVValue value="VK CITY" description="" conditionName="isTrue"/>
+			<TcLOVValue value="VK CITY 2021 Limited" description="" conditionName="isTrue"/>
+			<TcLOVValue value="VK SPORT" description="" conditionName="isTrue"/>
+			<TcLOVValue value="VK Sport 2021 Limited" description="" conditionName="isTrue"/>
+			<TcLOVValue value="Ventilator" description="" conditionName="isTrue"/>
+			<TcLOVValue value="VCCU" description="Vehicle Charging Control Unit" conditionName="isTrue"/>
+		</TcLOV>
+	</Change>
+</TcBusinessData>

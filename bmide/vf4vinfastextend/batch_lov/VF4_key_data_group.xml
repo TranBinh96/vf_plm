@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Wed Apr 08 10:39:30 AM 2020">
+    <Add/>
+    <Change>
+        <TcLOV name="VF4_key_data_group" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+            <TcLOVValue value="K001" description="ENGINE" conditionName="isTrue"/>
+            <TcLOVValue value="K011" description="TRANSMISSION" conditionName="isTrue"/>
+            <TcLOVValue value="K021" description="KEY HOUSING (CYLINDER UNIT LOCK)" conditionName="isTrue"/>
+            <TcLOVValue value="K031" description="ABS MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="K041" description="ECM (ENGINE CONTROL MODULE)" conditionName="isTrue"/>
+            <TcLOVValue value="K051" description="SDM (MODULE ASM-AIRBAG SEN&amp;DIAGN)" conditionName="isTrue"/>
+            <TcLOVValue value="K061" description="CCM(FCM FUEL CONTROL MODULE)" conditionName="isTrue"/>
+            <TcLOVValue value="K071" description="PTR (POWER TRANSFER UNIT)" conditionName="isTrue"/>
+            <TcLOVValue value="K081" description="BCM DUE TO CONTROL OF HEAD LAMP" conditionName="isTrue"/>
+            <TcLOVValue value="K091" description="PARKING ASSIST MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="K101" description="TPMS MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="K111" description="STEERING WHEEL" conditionName="isTrue"/>
+            <TcLOVValue value="K121" description="STEERING COLUMN" conditionName="isTrue"/>
+            <TcLOVValue value="K131" description="AXLE" conditionName="isTrue"/>
+            <TcLOVValue value="K141" description="DRIVER AIRBAG" conditionName="isTrue"/>
+            <TcLOVValue value="K151" description="ROOF RAIL AIRBAG LH" conditionName="isTrue"/>
+            <TcLOVValue value="K152" description="ROOF RAIL AIRBAG RH" conditionName="isTrue"/>
+            <TcLOVValue value="K161" description="INSTRUMENT PANEL" conditionName="isTrue"/>
+            <TcLOVValue value="K171" description="SEAT - DRIVER" conditionName="isTrue"/>
+            <TcLOVValue value="K172" description="SEAT - PASSENGER" conditionName="isTrue"/>
+            <TcLOVValue value="K181" description="SEATBELT FRONT DRIVER" conditionName="isTrue"/>
+            <TcLOVValue value="K182" description="SEATBELT FRONT PASSENGER" conditionName="isTrue"/>
+            <TcLOVValue value="K191" description="SEATBELT SECOND ROW SUV LH" conditionName="isTrue"/>
+            <TcLOVValue value="K192" description="SEATBELT SECOND ROW SUV RH" conditionName="isTrue"/>
+            <TcLOVValue value="K201" description="SEATBELT THIRD ROW SUV LH" conditionName="isTrue"/>
+            <TcLOVValue value="K202" description="SEATBELT THIRD ROW SUV RH" conditionName="isTrue"/>
+            <TcLOVValue value="K211" description="SEATBELT SECOND ROW SEDAN LH TOP" conditionName="isTrue"/>
+            <TcLOVValue value="K212" description="SEATBELT SECOND ROW SEDAN RH TOP" conditionName="isTrue"/>
+            <TcLOVValue value="K213" description="SEATBELT SECOND ROW SEDAN CENTRE TOP" conditionName="isTrue"/>
+            <TcLOVValue value="K221" description="BELT BUCKLE CENTRE EXT SEDAN" conditionName="isTrue"/>
+            <TcLOVValue value="K231" description="SEATBELT RR LOCK LH" conditionName="isTrue"/>
+            <TcLOVValue value="K232" description="SEATBELT RR LOCK RH" conditionName="isTrue"/>
+            <TcLOVValue value="K233" description="SEATBELT RR LOCK CENTER" conditionName="isTrue"/>
+            <TcLOVValue value="K241" description="AIRBAG IMPACT SENSOR SUV FRT" conditionName="isTrue"/>
+            <TcLOVValue value="K242" description="AIRBAG IMPACT SESONR LHS" conditionName="isTrue"/>
+            <TcLOVValue value="K243" description="AIRBAG IMPACT SESONR RHS" conditionName="isTrue"/>
+            <TcLOVValue value="K244" description="AIRBAG IMPACT SESONR LH DOOR" conditionName="isTrue"/>
+            <TcLOVValue value="K245" description="AIRBAG IMPACT SESONR RH DOOR" conditionName="isTrue"/>
+            <TcLOVValue value="K246" description="AIRBAG IMPACT SENSOR SEDAN FRTL" conditionName="isTrue"/>
+            <TcLOVValue value="K247" description="AIRBAG IMPACT SENSOR SEDAN FRTR" conditionName="isTrue"/>
+            <TcLOVValue value="K251" description="HOOD ACTUATOR LH (DUE TO PEDPRO)" conditionName="isTrue"/>
+            <TcLOVValue value="K252" description="HOOD ACTUATOR RH (DUE TO PEDPRO)" conditionName="isTrue"/>
+            <TcLOVValue value="K261" description="ACTIV LOCK LH (DUE TO PEDPRO)" conditionName="isTrue"/>
+            <TcLOVValue value="K262" description="ACTIV LOCK RH (DUE TO PEDPRO)" conditionName="isTrue"/>
+            <TcLOVValue value="K271" description="CLIMATE CONTROL UNIT (CCU)" conditionName="isTrue"/>
+            <TcLOVValue value="K281" description="SOLAR SENSOR (SOSE)" conditionName="isTrue"/>
+            <TcLOVValue value="K291" description="RAIN LIGHT SENSOR (RLS)" conditionName="isTrue"/>
+            <TcLOVValue value="K301" description="FOOT KICK SENSOR (FKS)" conditionName="isTrue"/>
+            <TcLOVValue value="K311" description="TRAILER MODULE (TRM)" conditionName="isTrue"/>
+            <TcLOVValue value="K321" description="SEAT HEATING AND VENTILATION UNIT (SHVU)" conditionName="isTrue"/>
+            <TcLOVValue value="K331" description="BODY CONTROL MODULE (BCM)" conditionName="isTrue"/>
+            <TcLOVValue value="K341" description="ELECTRIC TAILGATE (ETG)" conditionName="isTrue"/>
+            <TcLOVValue value="K351" description="BATTERY SENSOR (BAS)" conditionName="isTrue"/>
+            <TcLOVValue value="K361" description="GATEWAY (XGW)" conditionName="isTrue"/>
+            <TcLOVValue value="K371" description="ANTI PINCH MODULE (APM)" conditionName="isTrue"/>
+            <TcLOVValue value="K381" description="INSTRUMENT PANEL CLUSTER (IPC)" conditionName="isTrue"/>
+            <TcLOVValue value="K391" description="MULTIMEDIA HEADUNIT (MHU)" conditionName="isTrue"/>
+            <TcLOVValue value="K401" description="MULTIMEDIA DISPLAY UNIT (MDU)" conditionName="isTrue"/>
+            <TcLOVValue value="K411" description="STEERING COLUMN MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="K421" description="WIRE LESS CHARGING (WLC)" conditionName="isTrue"/>
+            <TcLOVValue value="K431" description="MULTI FUNCTION SWITCHES (MFS)" conditionName="isTrue"/>
+            <TcLOVValue value="K441" description="INTELLIGENT VEHICLE DIAGNOSTICS SYSTEM" conditionName="isTrue"/>
+            <TcLOVValue value="K451" description="DOOR CONTROL MODULE ANTIPINCH(DCM)" conditionName="isTrue"/>
+            <TcLOVValue value="K461" description="BLIND SPOT MONITORING INCL. PDC (BSM)" conditionName="isTrue"/>
+            <TcLOVValue value="K471" description="SURROUND VIEW MONITORING (SVM)" conditionName="isTrue"/>
+            <TcLOVValue value="K481" description="PARK DISTANCE CONTROL (PDC)" conditionName="isTrue"/>
+            <TcLOVValue value="K491" description="ENGINE MANAGEMENT SYSTEM (EMS)" conditionName="isTrue"/>
+            <TcLOVValue value="K501" description="ALL WHEEL DRIVE (AWD)" conditionName="isTrue"/>
+            <TcLOVValue value="K511" description="TRANSMISSION CONTROL UNIT (TCU)" conditionName="isTrue"/>
+            <TcLOVValue value="K521" description="ELECTRIC STABILTIY CONTROL (ESC)" conditionName="isTrue"/>
+            <TcLOVValue value="K531" description="ELECTRIC PARK BRAKE (EPB)" conditionName="isTrue"/>
+            <TcLOVValue value="K541" description="ELECTRIC HYDRAULIC POWER STEERING (EHPS)" conditionName="isTrue"/>
+            <TcLOVValue value="K551" description="SENSOR ASM-AIRBAG SI IMP CTR PLR 1" conditionName="isTrue"/>
+            <TcLOVValue value="K561" description="SENSOR ASM-AIRBAG SI IMP CTR PLR 2" conditionName="isTrue"/>
+            <TcLOVValue value="K571" description="SENSOR ASM-AIRBAG F/END DISCRM" conditionName="isTrue"/>
+            <TcLOVValue value="K581" description="MODULE ASM-BODY CONT" conditionName="isTrue"/>
+            <TcLOVValue value="K591" description="PEDAL ASM-BRK &amp; ACCEL (W/BRKT)" conditionName="isTrue"/>
+            <TcLOVValue value="K601" description="CAMERA ASM-RR VIEW DRVR INFO" conditionName="isTrue"/>
+            <TcLOVValue value="K611" description="CLUSTER ASM-INST" conditionName="isTrue"/>
+            <TcLOVValue value="K621" description="CONTROL ASM-HTR &amp; A/C (W/ CBL CONT)" conditionName="isTrue"/>
+            <TcLOVValue value="K631" description="MODULE ASM-ENG CONT (W/ 2ND MPU) &amp; (W/O CALN)" conditionName="isTrue"/>
+            <TcLOVValue value="K641" description="CONVERTER ASM-W/UP 3WAY CTLTC" conditionName="isTrue"/>
+            <TcLOVValue value="K651" description="IP WIRING HARNESS" conditionName="isTrue"/>
+            <TcLOVValue value="K671" description="CYLINDER UNIT-LK" conditionName="isTrue"/>
+            <TcLOVValue value="K681" description="CYLINDER ASM-BRK MAS" conditionName="isTrue"/>
+            <TcLOVValue value="K691" description="MODULE ASM-AIRBAG SEN &amp; DIAGN" conditionName="isTrue"/>
+            <TcLOVValue value="K701" description="MODULE ASM-ELEK BRK CONT" conditionName="isTrue"/>
+            <TcLOVValue value="K711" description="CONTROL ASM-HTR &amp; A/C REM" conditionName="isTrue"/>
+            <TcLOVValue value="K721" description="RADIO ASM-RCVR &amp; CONT ECCN=5A992" conditionName="isTrue"/>
+            <TcLOVValue value="K731" description="MODULE ASM-SERIAL DATA GATEWAY" conditionName="isTrue"/>
+            <TcLOVValue value="K741" description="HEAD ASM-RR SUSP" conditionName="isTrue"/>
+            <TcLOVValue value="K751" description="SHAFT ASM-FRT WHL DRV HALF_LH" conditionName="isTrue"/>
+            <TcLOVValue value="K761" description="SHAFT ASM-FRT WHL DRV HALF_RH" conditionName="isTrue"/>
+            <TcLOVValue value="K771" description="HARNESS ASM-ENG WRG" conditionName="isTrue"/>
+            <TcLOVValue value="K781" description="HEAD ASM-FRT HORIZ SUSP" conditionName="isTrue"/>
+            <TcLOVValue value="K772" description="HARNESS_MAIN_BASE_INFO_HIGH_SVM_ETG" conditionName="isTrue"/>
+            <TcLOVValue value="K392" description="AUDIO_AMPLIFIER" conditionName="isTrue"/>
+            <TcLOVValue value="K682" description="ASSY_PWR_BRKE_UNIT" conditionName="isTrue"/>
+            <TcLOVValue value="K522" description="ACCELERATOR_MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="K352" description="BATTERY_80_AH" conditionName="isTrue"/>
+            <TcLOVValue value="K173" description="ASSY_SEAT_3SR" conditionName="isTrue"/>
+            <TcLOVValue value="K174" description="ASSY_SEAT_2SR" conditionName="isTrue"/>
+            <TcLOVValue value="K132" description="ASSY_FRT_AXLE_DIFF" conditionName="isTrue"/>
+            <TcLOVValue value="K492" description="ASSY_ENGINE_CATALYSTE" conditionName="isTrue"/>
+            <TcLOVValue value="K133" description="ASSY_REAR_AXLE" conditionName="isTrue"/>
+            <TcLOVValue value="K773" description="HARNESS_COCKPIT_BASE" conditionName="isTrue"/>
+            <TcLOVValue value="K524" description="SESAM_ECU" conditionName="isTrue"/>
+            <TcLOVValue value="K523" description="CLIMATE_CONTROL_UNIT_CCU" conditionName="isTrue"/>
+            <TcLOVValue value="K683" description="ASM_STRG_ANGLE_SENSOR_BOSCH" conditionName="isTrue"/>
+            <TcLOVValue value="K042" description="ECU_SERVOTRONIC" conditionName="isTrue"/>
+            <TcLOVValue value="K412" description="ASSY STEERING PUMP" conditionName="isTrue"/>
+            <TcLOVValue value="A101" description="AIRBAG ASM-FRT &amp; RR ROW R/RL" conditionName="isTrue"/>
+            <TcLOVValue value="A111" description="AIRBAG ASM-FRT &amp; LR ROW R/RL" conditionName="isTrue"/>
+            <TcLOVValue value="A121" description="RETRACTOR ASM-F/SEAT BELT - LH" conditionName="isTrue"/>
+            <TcLOVValue value="A131" description="RETRACTOR ASM-F/SEAT BELT - RH" conditionName="isTrue"/>
+            <TcLOVValue value="A141" description="RETRACTOR ASM-R/SEAT BELT - LH" conditionName="isTrue"/>
+            <TcLOVValue value="A151" description="RETRACTOR ASM-R/SEAT BELT - RH" conditionName="isTrue"/>
+            <TcLOVValue value="A161" description="BUCKLE ASM-R/SEAT BELT" conditionName="isTrue"/>
+            <TcLOVValue value="A171" description="MODULE ASM-ELEK BRK CONT" conditionName="isTrue"/>
+            <TcLOVValue value="A181" description="COLUMN ASM-STRG" conditionName="isTrue"/>
+            <TcLOVValue value="A191" description="AIRBAG ASM-STRG WHL" conditionName="isTrue"/>
+            <TcLOVValue value="A201" description="TANK ASM-FUEL (W/ SDR)" conditionName="isTrue"/>
+            <TcLOVValue value="A211" description="TRANSAXLE ASM-AUTO" conditionName="isTrue"/>
+            <TcLOVValue value="A221" description="TRANSAXLE ASM-MAN" conditionName="isTrue"/>
+            <TcLOVValue value="A231" description="AIRBAG ASM-IP (PASSENGER AIRBAG)" conditionName="isTrue"/>
+            <TcLOVValue value="E001" description="STATOR" conditionName="isTrue"/>
+            <TcLOVValue value="E101" description="Crankcase ID" conditionName="isTrue"/>
+            <TcLOVValue value="E111" description="Crankshaft ID" conditionName="isTrue"/>
+            <TcLOVValue value="E121" description="Print and scan engine barcode" conditionName="isTrue"/>
+            <TcLOVValue value="E131" description="Piston 1" conditionName="isTrue"/>
+            <TcLOVValue value="E141" description="Cylinder head gasket ID" conditionName="isTrue"/>
+            <TcLOVValue value="E151" description="Cylinder head RAW ID" conditionName="isTrue"/>
+            <TcLOVValue value="E161" description="Exhaust Camshaft ID" conditionName="isTrue"/>
+            <TcLOVValue value="E171" description="Intake Camshaft ID" conditionName="isTrue"/>
+            <TcLOVValue value="E181" description="Assy vibration damper ID" conditionName="isTrue"/>
+            <TcLOVValue value="E191" description="Assy camphaser exhaust ID" conditionName="isTrue"/>
+            <TcLOVValue value="E201" description="Assy camphaser intake ID" conditionName="isTrue"/>
+            <TcLOVValue value="E211" description="Cylinder head cover ID" conditionName="isTrue"/>
+            <TcLOVValue value="E221" description="Fuel Injector 1" conditionName="isTrue"/>
+            <TcLOVValue value="E231" description="High pressure fuel pump ID" conditionName="isTrue"/>
+            <TcLOVValue value="E241" description="Assy fuel rail ID" conditionName="isTrue"/>
+            <TcLOVValue value="E251" description="Assy oil pan 4WD ID" conditionName="isTrue"/>
+            <TcLOVValue value="E261" description="Assy oil pan 2WD ID" conditionName="isTrue"/>
+            <TcLOVValue value="E271" description="Assy balance shaft module ID" conditionName="isTrue"/>
+            <TcLOVValue value="E281" description="ASSY MAP/CONTROL OIL PUMP ID" conditionName="isTrue"/>
+            <TcLOVValue value="E291" description="Assy turbocharger module ID" conditionName="isTrue"/>
+            <TcLOVValue value="E301" description="Waterpump ID" conditionName="isTrue"/>
+            <TcLOVValue value="E311" description="ASSY M-HARNESS SENSORS ID" conditionName="isTrue"/>
+            <TcLOVValue value="E321" description="M-HARNESS PENCIL COILS/INJECT" conditionName="isTrue"/>
+            <TcLOVValue value="E331" description="Assy Intake Manifold ID" conditionName="isTrue"/>
+            <TcLOVValue value="E341" description="Assy electric throttle valve" conditionName="isTrue"/>
+            <TcLOVValue value="E351" description="Assy tank vent valve ID" conditionName="isTrue"/>
+            <TcLOVValue value="E361" description="VACUUM PMP W PLATE VLV W/O NV" conditionName="isTrue"/>
+            <TcLOVValue value="E371" description="Thermostat ID" conditionName="isTrue"/>
+            <TcLOVValue value="E381" description="Ignition Coil 1" conditionName="isTrue"/>
+            <TcLOVValue value="E391" description="Assy oil filter ID" conditionName="isTrue"/>
+            <TcLOVValue value="E401" description="Assy generator ID" conditionName="isTrue"/>
+            <TcLOVValue value="E411" description="A/C compressor ID" conditionName="isTrue"/>
+            <TcLOVValue value="E222" description="Fuel Injector 2" conditionName="isTrue"/>
+            <TcLOVValue value="E223" description="Fuel Injector 3" conditionName="isTrue"/>
+            <TcLOVValue value="E224" description="Fuel Injector 4" conditionName="isTrue"/>
+            <TcLOVValue value="E382" description="Ignition Coil 2" conditionName="isTrue"/>
+            <TcLOVValue value="E383" description="Ignition Coil 3" conditionName="isTrue"/>
+            <TcLOVValue value="E384" description="Ignition Coil 4" conditionName="isTrue"/>
+            <TcLOVValue value="E132" description="Piston 2" conditionName="isTrue"/>
+            <TcLOVValue value="E133" description="Piston 3" conditionName="isTrue"/>
+            <TcLOVValue value="E134" description="Piston 4" conditionName="isTrue"/>
+            <TcLOVValue value="S101" description="Motor 1200W" conditionName="isTrue"/>
+            <TcLOVValue value="S102" description="Motor 800W" conditionName="isTrue"/>
+            <TcLOVValue value="S103" description="ECU 1200W" conditionName="isTrue"/>
+            <TcLOVValue value="S104" description="ECU 800W" conditionName="isTrue"/>
+            <TcLOVValue value="S105" description="Communication Box Set" conditionName="isTrue"/>
+            <TcLOVValue value="S106" description="HMI A1" conditionName="isTrue"/>
+            <TcLOVValue value="S107" description="HMI A2" conditionName="isTrue"/>
+            <TcLOVValue value="S108" description="Swing arm left" conditionName="isTrue"/>
+            <TcLOVValue value="S109" description="Swing arm right" conditionName="isTrue"/>
+            <TcLOVValue value="S110" description="Front Fork" conditionName="isTrue"/>
+            <TcLOVValue value="S111" description="Rear Absorber" conditionName="isTrue"/>
+            <TcLOVValue value="S112" description="Front brake" conditionName="isTrue"/>
+            <TcLOVValue value="S113" description="Rear brake" conditionName="isTrue"/>
+            <TcLOVValue value="S114" description="Rim" conditionName="isTrue"/>
+            <TcLOVValue value="S115" description="VK Sport ECU 1200W assy" conditionName="isTrue"/>
+            <TcLOVValue value="S116" description="VK Sport HMI" conditionName="isTrue"/>
+            <TcLOVValue value="S117" description="VK Sport FR Rim assy" conditionName="isTrue"/>
+            <TcLOVValue value="S118" description="VK Sport Motor 1200W" conditionName="isTrue"/>
+            <TcLOVValue value="S119" description="VK Sport Front fork" conditionName="isTrue"/>
+            <TcLOVValue value="S120" description="VK Sport RR absorber" conditionName="isTrue"/>
+            <TcLOVValue value="S121" description="VK Sport FR Brake Assy" conditionName="isTrue"/>
+            <TcLOVValue value="S122" description="VK Sport RR Swing arm" conditionName="isTrue"/>
+            <TcLOVValue value="S123" description="VK City ECU 500W assy" conditionName="isTrue"/>
+            <TcLOVValue value="S124" description="VK City HMI" conditionName="isTrue"/>
+            <TcLOVValue value="S125" description="VK City FR Brake Assy" conditionName="isTrue"/>
+            <TcLOVValue value="S126" description="VK City FR Rim assy" conditionName="isTrue"/>
+            <TcLOVValue value="S127" description="VK City Front fork" conditionName="isTrue"/>
+            <TcLOVValue value="S128" description="VK City Motor 500W" conditionName="isTrue"/>
+            <TcLOVValue value="S129" description="VK City RR absorber" conditionName="isTrue"/>
+            <TcLOVValue value="S130" description="VK City RR Swing arm" conditionName="isTrue"/>
+            <TcLOVValue value="S131" description="Abox" conditionName="isTrue"/>
+            <TcLOVValue value="S132" description="V5 City Swing Arm LH" conditionName="isTrue"/>
+            <TcLOVValue value="S133" description="V5 City Swing Arm RH" conditionName="isTrue"/>
+            <TcLOVValue value="S134" description="V5 City Motor 1200W" conditionName="isTrue"/>
+            <TcLOVValue value="S135" description="V5 City Rim assy" conditionName="isTrue"/>
+            <TcLOVValue value="S136" description="V5 City Front Brake" conditionName="isTrue"/>
+            <TcLOVValue value="S137" description="V5 City Rear Brake" conditionName="isTrue"/>
+            <TcLOVValue value="S138" description="V5 City HMI" conditionName="isTrue"/>
+            <TcLOVValue value="S139" description="V5 City ECU" conditionName="isTrue"/>
+            <TcLOVValue value="S140" description="V5 Cbox" conditionName="isTrue"/>
+            <TcLOVValue value="S141" description="SCU Mini assy" conditionName="isTrue"/>
+            <TcLOVValue value="S142" description="VK Sport Frame" conditionName="isTrue"/>
+            <TcLOVValue value="S143" description="VK City Frame" conditionName="isTrue"/>
+            <TcLOVValue value="S144" description="V5 City Frame" conditionName="isTrue"/>
+            <TcLOVValue value="S145" description="V5 City Rear absorber" conditionName="isTrue"/>
+            <TcLOVValue value="S146" description="V5 Front Fork" conditionName="isTrue"/>
+            <TcLOVValue value="B010" description="FOOT_OPERATED_ACCELERATION_CONTROL" conditionName="isTrue"/>
+            <TcLOVValue value="B020" description="PUM_062" conditionName="isTrue"/>
+            <TcLOVValue value="B021" description="PUM_063" conditionName="isTrue"/>
+            <TcLOVValue value="B030" description="Radiator" conditionName="isTrue"/>
+            <TcLOVValue value="B040" description="TRANSFER_DRIVE" conditionName="isTrue"/>
+            <TcLOVValue value="B050" description="BODY_CONTROL_UNIT_A26" conditionName="isTrue"/>
+            <TcLOVValue value="B051" description="BODY_CONTROL_UNIT_A27" conditionName="isTrue"/>
+            <TcLOVValue value="B060" description="ASM_RFID_READER" conditionName="isTrue"/>
+            <TcLOVValue value="B070" description="ASM_EVCU_M580" conditionName="isTrue"/>
+            <TcLOVValue value="B080" description="CHARGING_CONTROL_MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="B090" description="TRACTION_INVERTER" conditionName="isTrue"/>
+            <TcLOVValue value="B100" description="PEM_MOTOR" conditionName="isTrue"/>
+            <TcLOVValue value="B110" description="LI-ION_BATTERY_PACK" conditionName="isTrue"/>
+            <TcLOVValue value="B120" description="ALL_IN_ONE" conditionName="isTrue"/>
+            <TcLOVValue value="B130" description="12V Battery" conditionName="isTrue"/>
+            <TcLOVValue value="B140" description="Horn" conditionName="isTrue"/>
+            <TcLOVValue value="B150" description="WINDSHIELD" conditionName="isTrue"/>
+            <TcLOVValue value="B160" description="IP Console" conditionName="isTrue"/>
+            <TcLOVValue value="B170" description="Driver seat" conditionName="isTrue"/>
+            <TcLOVValue value="B180" description="Radio" conditionName="isTrue"/>
+            <TcLOVValue value="B190" description="Amplifier" conditionName="isTrue"/>
+            <TcLOVValue value="B200" description="CONTROLLER_FIRE_DETECTION" conditionName="isTrue"/>
+            <TcLOVValue value="B210" description="ASM rear door" conditionName="isTrue"/>
+            <TcLOVValue value="B220" description="Front door" conditionName="isTrue"/>
+            <TcLOVValue value="B230" description="Manual ramp" conditionName="isTrue"/>
+            <TcLOVValue value="B240" description="FOOT_BRAKE_MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="B250" description="1C_ELECTRO_PNEUMATIC_MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="B260" description="ELECTRONIC_LEVELING_CONTROL_KLNEELING_VALVE_BLOCK" conditionName="isTrue"/>
+            <TcLOVValue value="B270" description="HAND_BRAKE_VALVE" conditionName="isTrue"/>
+            <TcLOVValue value="B280" description="PRESSURE_CONTROL_VALVE" conditionName="isTrue"/>
+            <TcLOVValue value="B290" description="SELENOID_VALVE" conditionName="isTrue"/>
+            <TcLOVValue value="B300" description="2C_ELECTRO_PNEUMATIC_MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="B310" description="2_CHANNEL_VALVE_BLOCK" conditionName="isTrue"/>
+            <TcLOVValue value="B320" description="ANTI_COMPOUND_RELAY_VALVE" conditionName="isTrue"/>
+            <TcLOVValue value="B330" description="INTELLIGENT_AIR_PROCESSING_UNIT" conditionName="isTrue"/>
+            <TcLOVValue value="B340" description="EBS ECU 5x Full" conditionName="isTrue"/>
+            <TcLOVValue value="B350" description="ECU - ELC" conditionName="isTrue"/>
+            <TcLOVValue value="B360" description="BEVEL_BOX" conditionName="isTrue"/>
+            <TcLOVValue value="B370" description="ELECTRIC_AIR_COMPRESSOR" conditionName="isTrue"/>
+            <TcLOVValue value="B380" description="ELECTROHYDRAULIC_STEERING_PUMP" conditionName="isTrue"/>
+            <TcLOVValue value="B390" description="FRONT_AXLE_RL_82EC_FOR_2500MM_VEHICLE_WIDTH" conditionName="isTrue"/>
+            <TcLOVValue value="B400" description="REAR_AXLE_ZF_AV133" conditionName="isTrue"/>
+            <TcLOVValue value="B410" description="I_SHAFT_STEERING_COLUMN" conditionName="isTrue"/>
+            <TcLOVValue value="B420" description="CHS40000019+C51" conditionName="isTrue"/>
+            <TcLOVValue value="B430" description="STEERING_BOX" conditionName="isTrue"/>
+            <TcLOVValue value="B440" description="PITMAN_ARM" conditionName="isTrue"/>
+            <TcLOVValue value="B450" description="AIR_TANK_30L_D310_L470" conditionName="isTrue"/>
+            <TcLOVValue value="B451" description="AIR_TANK_40L_D310_L607" conditionName="isTrue"/>
+            <TcLOVValue value="B452" description="AIR_TANK_30L_D206_L978" conditionName="isTrue"/>
+
+            <TcLOVValue value="P001" description="BATTERY CELL" conditionName="isTrue"/>
+            <TcLOVValue value="P002" description="Module label" conditionName="isTrue"/>
+            <TcLOVValue value="P003" description="Cooling pipe" conditionName="isTrue"/>
+            <TcLOVValue value="P004" description="FPC" conditionName="isTrue"/>
+            <TcLOVValue value="P005" description="MODULE FPC ACQUISITION CONVERSION HARNESS" conditionName="isTrue"/>
+            <TcLOVValue value="P006" description="SLAVE BMS 10S" conditionName="isTrue"/>
+            <TcLOVValue value="P007" description="HOUSING COMP" conditionName="isTrue"/>
+            <TcLOVValue value="P008" description="HVIL harness" conditionName="isTrue"/>
+            <TcLOVValue value="P009" description="LOW VOLTAGE COMMUNICATION HARNESS OF BMS" conditionName="isTrue"/>
+            <TcLOVValue value="P010" description="LOW VOLTAGE SIGNAL HARNESS OF BMS" conditionName="isTrue"/>
+            <TcLOVValue value="P011" description="SLAVE COMMUNICATION HARNESS 1" conditionName="isTrue"/>
+            <TcLOVValue value="P012" description="SLAVE COMMUNICATION HARNESS 2" conditionName="isTrue"/>
+            <TcLOVValue value="P013" description="SLAVE COMMUNICATION HARNESS 3" conditionName="isTrue"/>
+            <TcLOVValue value="P014" description="BMS GROUND HARNESS" conditionName="isTrue"/>
+            <TcLOVValue value="P015" description="COOLING SYSTEM UPPER RH COMP." conditionName="isTrue"/>
+            <TcLOVValue value="P016" description="COOLING SYSTEM UPPER LH COMP." conditionName="isTrue"/>
+            <TcLOVValue value="P017" description="COOLING SYSTEM LOWER LH COMP." conditionName="isTrue"/>
+            <TcLOVValue value="P018" description="COOLING SYSTEM LOWER RH COMP." conditionName="isTrue"/>
+            <TcLOVValue value="P019" description="BDU" conditionName="isTrue"/>
+            <TcLOVValue value="P020" description="BCU" conditionName="isTrue"/>
+            <TcLOVValue value="P021" description="LABEL PACK VF31" conditionName="isTrue"/>
+            <TcLOVValue value="C101" description="LOCK_BELT_IN_FRONT_ASSY_L" conditionName="isTrue"/>
+            <TcLOVValue value="C102" description="SAB_L" conditionName="isTrue"/>
+            <TcLOVValue value="C103" description="DR_BACKREST_ASSY_DRIVER_SEAT_LEATHER_SIDE_AIRBAG" conditionName="isTrue"/>
+            <TcLOVValue value="C104" description="DR_BACK_SEAT_WELDING_ASSY" conditionName="isTrue"/>
+            <TcLOVValue value="C105" description="CUSHION_ASSY_DRIVER_SEAT_LEATHER" conditionName="isTrue"/>
+            <TcLOVValue value="C106" description="REAR_SEAT_CUSHION_BODY_ASSY_LEATHER" conditionName="isTrue"/>
+            <TcLOVValue value="C107" description="LOCK_BELT_IN_FRONT_ASSY_R" conditionName="isTrue"/>
+            <TcLOVValue value="C108" description="SAB_R" conditionName="isTrue"/>
+            <TcLOVValue value="C109" description="PA_BACK_SEAT_WELDING_ASSY_LEATHER" conditionName="isTrue"/>
+            <TcLOVValue value="C110" description="BACKREST_ASSY_PASSENGER_SEAT_LEATHER_SIDE_AIRBAG" conditionName="isTrue"/>
+            <TcLOVValue value="C111" description="CUSHION_ASSY_PASSENGER_SEAT_LEATHER" conditionName="isTrue"/>
+            <TcLOVValue value="C112" description="SBR_SENSOR" conditionName="isTrue"/>
+            <TcLOVValue value="C113" description="40_REAR_BACK_TRIM_ASSY_EATHER_LEATHER" conditionName="isTrue"/>
+            <TcLOVValue value="C114" description="40_BACK_FRAME_ASSY" conditionName="isTrue"/>
+            <TcLOVValue value="C115" description="SEAT_BELT_ASSY_MID_R" conditionName="isTrue"/>
+            <TcLOVValue value="C116" description="60_REAR_BACK_TRIM_ASSY_LEATHER" conditionName="isTrue"/>
+            <TcLOVValue value="C117" description="60_BACK_FRAME_ASSY_LEATHER" conditionName="isTrue"/>
+
+            <TcLOVValue value="F301" description="CCS2_CHARGING_SOCKET_WITH_HARNESS" conditionName="isTrue"/>
+            <TcLOVValue value="F302" description="HIGH_VOLTAGE_HARNESS_POWER_BATTERY" conditionName="isTrue"/>
+            <TcLOVValue value="F303" description="HEADLAMP_LH_LED_ASSY" conditionName="isTrue"/>
+            <TcLOVValue value="F304" description="HEADLAMP_RH_LED_ASSY" conditionName="isTrue"/>
+            <TcLOVValue value="F305" description="HARNESS_FR_DR" conditionName="isTrue"/>
+            <TcLOVValue value="F306" description="HARNESS_FL_DR" conditionName="isTrue"/>
+            <TcLOVValue value="F307" description="HARNESS_RR_DR" conditionName="isTrue"/>
+            <TcLOVValue value="F308" description="HARNESS_RL_DR" conditionName="isTrue"/>
+            <TcLOVValue value="F309" description="LEFT_MOUNT_BRACKET" conditionName="isTrue"/>
+            <TcLOVValue value="F310" description="RIGHT_MOUNT_BRACKET" conditionName="isTrue"/>
+            <TcLOVValue value="F311" description="VACUUM_TANK" conditionName="isTrue"/>
+            <TcLOVValue value="F312" description="VACUUM_PUMP" conditionName="isTrue"/>
+            <TcLOVValue value="F313" description="VEHICLE_CONTROL_UNIT_ASSEMBLY" conditionName="isTrue"/>
+            <TcLOVValue value="F314" description="BRAKE_ASSY_FL" conditionName="isTrue"/>
+            <TcLOVValue value="F315" description="BRAKE_ASSY_FR" conditionName="isTrue"/>
+            <TcLOVValue value="F316" description="RIGHT_FRONT_SHOCK_ABSORBER" conditionName="isTrue"/>
+            <TcLOVValue value="F317" description="LEFT_FRONT_SHOCK_ABSORBER" conditionName="isTrue"/>
+            <TcLOVValue value="F318" description="FRONT_FRAME_ASSY" conditionName="isTrue"/>
+            <TcLOVValue value="F319" description="LOWER_CONTROL_ARM _LH" conditionName="isTrue"/>
+            <TcLOVValue value="F320" description="LOWER_CONTROL_ARM _RH" conditionName="isTrue"/>
+            <TcLOVValue value="F321" description="REAR_MOUNT" conditionName="isTrue"/>
+            <TcLOVValue value="F322" description="STEERING_GEAR" conditionName="isTrue"/>
+            <TcLOVValue value="F323" description="HVAC_AUTO" conditionName="isTrue"/>
+            <TcLOVValue value="F324" description="PAB" conditionName="isTrue"/>
+            <TcLOVValue value="F325" description="RIGHT_DRIVE_SHAFT" conditionName="isTrue"/>
+            <TcLOVValue value="F326" description="LEFT_DRIVE_SHAFT" conditionName="isTrue"/>
+            <TcLOVValue value="F327" description="BRAKE_ASSY_RL" conditionName="isTrue"/>
+            <TcLOVValue value="F328" description="BRAKE_ASSY_RR" conditionName="isTrue"/>
+            <TcLOVValue value="F329" description="HARNESS_BK_DR" conditionName="isTrue"/>
+            <TcLOVValue value="F330" description="REAR_SHOCK_ABSORBER _LH" conditionName="isTrue"/>
+            <TcLOVValue value="F331" description="REAR_SHOCK_ABSORBER _RH" conditionName="isTrue"/>
+            <TcLOVValue value="F332" description="ADAS_ECU" conditionName="isTrue"/>
+            <TcLOVValue value="F333" description="HARNESS_FRONT" conditionName="isTrue"/>
+            <TcLOVValue value="F334" description="LEFT_MOUNT" conditionName="isTrue"/>
+            <TcLOVValue value="F335" description="RIGHT_MOUNT" conditionName="isTrue"/>
+            <TcLOVValue value="F336" description="CHILLER" conditionName="isTrue"/>
+            <TcLOVValue value="F337" description="WATER_PUMP_I" conditionName="isTrue"/>
+            <TcLOVValue value="F338" description="A/C_COMPRESSOR" conditionName="isTrue"/>
+            <TcLOVValue value="F339" description="WATER_PUMP_II" conditionName="isTrue"/>
+            <TcLOVValue value="F340" description="POWER_BATTERY" conditionName="isTrue"/>
+            <TcLOVValue value="F341" description="MULTI_STALK_SWITCH" conditionName="isTrue"/>
+            <TcLOVValue value="F342" description="PDU_MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="F343" description="SHIFTER" conditionName="isTrue"/>
+            <TcLOVValue value="F344" description="HIGH_VOLTAGE_HARNESS_AC" conditionName="isTrue"/>
+            <TcLOVValue value="F345" description="RADIATOR_MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="F346" description="ALUMINUM_WHEEL" conditionName="isTrue"/>
+            <TcLOVValue value="F347" description="CONDENSER_MODULE" conditionName="isTrue"/>
+            <TcLOVValue value="F348" description="ELE_HORN" conditionName="isTrue"/>
+
+            <TcLOVValue value="S152" description="Vehicle Control Unit" conditionName="isTrue"/>
+            <TcLOVValue value="S150" description="ABS ECU" conditionName="isTrue"/>
+            <TcLOVValue value="S148" description="DC - DC Converter" conditionName="isTrue"/>
+            <TcLOVValue value="S151" description="Seatlock controler" conditionName="isTrue"/>
+            <TcLOVValue value="S149" description="Battery Charger" conditionName="isTrue"/>
+            <TcLOVValue value="S153" description="Smart key 1" conditionName="isTrue"/>
+            <TcLOVValue value="S154" description="Smart key 2" conditionName="isTrue"/>
+
+            <TcLOVValue value="BATTERY_SR1" description="Battery serial number 1" conditionName="isTrue"/>
+            <TcLOVValue value="BATTERY_SR2" description="Battery serial number 2" conditionName="isTrue"/>
+            <TcLOVValue value="BATTERY_SR3" description="Battery serial number 3" conditionName="isTrue"/>
+            <TcLOVValue value="BATTERY_SR4" description="Battery serial number 4" conditionName="isTrue"/>
+            <TcLOVValue value="BATTERY_SR5" description="Battery serial number 5" conditionName="isTrue"/>
+            <TcLOVValue value="BATTERY_SR6" description="Battery serial number 6" conditionName="isTrue"/>
+
+            <TcLOVValue value="B453" description="SCAN BATTERY 1" conditionName="isTrue"/>
+            <TcLOVValue value="B454" description="SCAN BATTERY 2" conditionName="isTrue"/>
+            <TcLOVValue value="B455" description="SCAN BATTERY 3" conditionName="isTrue"/>
+            <TcLOVValue value="B456" description="SCAN BATTERY 4" conditionName="isTrue"/>
+            <TcLOVValue value="B457" description="SCAN BATTERY 5" conditionName="isTrue"/>
+            <TcLOVValue value="B458" description="SCAN BATTERY 6" conditionName="isTrue"/>
+            <TcLOVValue value="B459" description="SCAN BATTERY 7" conditionName="isTrue"/>
+            <TcLOVValue value="MOTOR" description="MOTOR" conditionName="isTrue"/>
+
+            <TcLOVValue value="F350" description="APM" conditionName="isTrue"/>
+            <TcLOVValue value="F351" description="WINDSHEILD" conditionName="isTrue"/>
+            <TcLOVValue value="F352" description="ADAS_ECU" conditionName="isTrue"/>
+            <TcLOVValue value="F353" description="SHORT_RANGE_RADAR" conditionName="isTrue"/>
+            <TcLOVValue value="F354" description="HARNESS_ROOF" conditionName="isTrue"/>
+            <TcLOVValue value="F355" description="SPIRAL_CABLE_SUB" conditionName="isTrue"/>
+            <TcLOVValue value="F356" description="3-WAY_E-VALVE_WITH_BRAKCET" conditionName="isTrue"/>
+            <TcLOVValue value="F357" description="HAND_OPERATED_PARKING_BRAKE" conditionName="isTrue"/>
+            <TcLOVValue value="F358" description="SLOW_CHARGING_HANDLE" conditionName="isTrue"/>
+            <TcLOVValue value="F359" description="OUTER_REARVIEW_MIRROR_ASSY_R_LED_ELECTRI" conditionName="isTrue"/>
+            <TcLOVValue value="F360" description="OUTER_REARVIEW_MIRROR_ASSY_L_LED_ELECTRI" conditionName="isTrue"/>
+            <TcLOVValue value="F361" description="DOOR_CONTROL_MODULE_DCM" conditionName="isTrue"/>
+            <TcLOVValue value="F362" description="HARNESS_BMS" conditionName="isTrue"/>
+            <TcLOVValue value="F363" description="TAIL_LAMP_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F364" description="TAIL_LAMP_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F365" description="E_MOTOR_110KW_FRONT" conditionName="isTrue"/>
+            <TcLOVValue value="F366" description="INNER_REARVIEW_MIRROR_ELECTRIC" conditionName="isTrue"/>
+            <TcLOVValue value="F367" description="HARNESS_UNDERBODY" conditionName="isTrue"/>
+            <TcLOVValue value="F368" description="INS_GPS_IMU" conditionName="isTrue"/>
+            <TcLOVValue value="F369" description="HARNESS_BK_DR_II" conditionName="isTrue"/>
+
+            <TcLOVValue value="F370" description="INS_ANTENNA" conditionName="isTrue"/>
+            <TcLOVValue value="F371" description="SHORT_RANGE_RADAR_II" conditionName="isTrue"/>
+            <TcLOVValue value="F372" description="BRAKE_PEDAL_ASSY_AT_BEV" conditionName="isTrue"/>
+            <TcLOVValue value="F373" description="3SR_PVC_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F374" description="ASSY_CCUV_I_SHAFT" conditionName="isTrue"/>
+            <TcLOVValue value="F375" description="HEAD_UP_DISPLAY" conditionName="isTrue"/>
+            <TcLOVValue value="F376" description="KNEE_AIRBAG_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F377" description="KNEE_AIRBAG_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F378" description="AVAS_US" conditionName="isTrue"/>
+            <TcLOVValue value="F379" description="HV_HARNESS_FR_PDU_HV_BATTERY" conditionName="isTrue"/>
+            <TcLOVValue value="F380" description="PDU_BMW" conditionName="isTrue"/>
+            <TcLOVValue value="F381" description="HV_HEATER_7KW" conditionName="isTrue"/>
+            <TcLOVValue value="F382" description="HORN_DUAL_LOW TONE" conditionName="isTrue"/>
+            <TcLOVValue value="F383" description="HORN_DUAL_HIGH TONE" conditionName="isTrue"/>
+            <TcLOVValue value="F384" description="ALTERNATOR" conditionName="isTrue"/>
+            <TcLOVValue value="F385" description="INTERMEDIATE_DRIVE_SHAFT_ED" conditionName="isTrue"/>
+            <TcLOVValue value="F386" description="SHARK_FIN_ANTENNA" conditionName="isTrue"/>
+            <TcLOVValue value="F387" description="HARNESS_DC_NEGATIVE" conditionName="isTrue"/>
+
+            <TcLOVValue value="F389" description="ANTENNA_IMMOBILIZER" conditionName="isTrue"/>
+            <TcLOVValue value="F390" description="AIR_CONDITIONER_CUT_OFF_VALVE" conditionName="isTrue"/>
+            <TcLOVValue value="F391" description="HIGH_PRESSURE_TUBE_II" conditionName="isTrue"/>
+            <TcLOVValue value="F392" description="USB_CABLE_DATA" conditionName="isTrue"/>
+            <TcLOVValue value="F393" description="HIGH_PRESSURE_TUBE_I" conditionName="isTrue"/>
+            <TcLOVValue value="F394" description="AIR_CONDITIONING_HIGH_AND_LOW_PRESSURE_PIPE" conditionName="isTrue"/>
+
+            <TcLOVValue value="F395" description="SIDE_MARKER_REFLEX_REFLECTOR_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F396" description="SIDE_MARKER_REFLEX_REFLECTOR_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F397" description="FRONT_ASSY_BUMPER" conditionName="isTrue"/>
+            <TcLOVValue value="F398" description="REAR_ASSY_BUMPER" conditionName="isTrue"/>
+            <TcLOVValue value="F399" description="FRONT_ASSY_CONSOLE" conditionName="isTrue"/>
+            <TcLOVValue value="F400" description="ASSY_SPOILER" conditionName="isTrue"/>
+            <TcLOVValue value="F401" description="2SR_5SEATER_RSC_100P_EPP_ASSY_VN" conditionName="isTrue"/>
+            <TcLOVValue value="F402" description="2SR_5SEATER_RSC_100P_FOAM_ASSY" conditionName="isTrue"/>
+            <TcLOVValue value="F403" description="2SR_5SEATER_RSB_60P_COMPLETE_ASSY" conditionName="isTrue"/>
+            <TcLOVValue value="F404" description="2SR_5SEATER_RSB_40P_COMPLETE_ASSY" conditionName="isTrue"/>
+
+            <TcLOVValue value="F405" description="E_PUMP_PIGTAIL" conditionName="isTrue"/>
+            <TcLOVValue value="F406" description="HARNESS_CHMSL_BEV_ECO_PLUS" conditionName="isTrue"/>
+            <TcLOVValue value="F407" description="HV_BATTERY_GROUND_CABLE" conditionName="isTrue"/>
+            <TcLOVValue value="F408" description="FR_EDS_GROUND_CABLE" conditionName="isTrue"/>
+            <TcLOVValue value="F409" description="3IN1_PDU_GROUND_CABLE" conditionName="isTrue"/>
+            <TcLOVValue value="F410" description="CRADLE_STRAP_PE_GND_CABLE" conditionName="isTrue"/>
+            <TcLOVValue value="F411" description="ANTENNA_VN_US" conditionName="isTrue"/>
+            <TcLOVValue value="F412" description="ANTENNA_EU" conditionName="isTrue"/>
+            <TcLOVValue value="F413" description="HV_HARNESS_FR_PDU-HEATER" conditionName="isTrue"/>
+            <TcLOVValue value="F414" description="HV_HARNESS_FR_PDU_AIR_COMP" conditionName="isTrue"/>
+            <TcLOVValue value="F415" description="HV_HARNESS_PDU-FR_EDS" conditionName="isTrue"/>
+            <TcLOVValue value="F416" description="HV_HARNESS_PDU-RR_EDS" conditionName="isTrue"/>
+            <TcLOVValue value="F417" description="E-PUMP_E-MOTOR" conditionName="isTrue"/>
+            <TcLOVValue value="F418" description="INS_GPS_IMU" conditionName="isTrue"/>
+
+            <TcLOVValue value="F421" description="ASSY_PAINTED_RCU_BRACKET_ASSY_BEV" conditionName="isTrue"/>
+            <TcLOVValue value="F422" description="REAR_LAMPS_TAILGATE" conditionName="isTrue"/>
+            <TcLOVValue value="F423" description="USB_REAR_SOCKET_TRIPPLE" conditionName="isTrue"/>
+            <TcLOVValue value="F424" description="USB_FRONT_SOCKET_DUAL" conditionName="isTrue"/>
+            <TcLOVValue value="F426" description="EMC_FILTER_GROUND_CABLE" conditionName="isTrue"/>
+            <TcLOVValue value="F427" description="HV_CABLE_EMC_FILTER_TO_PDU_US_CA" conditionName="isTrue"/>
+            <TcLOVValue value="F428" description="REAR_BRACKET" conditionName="isTrue"/>
+            <TcLOVValue value="F429" description="SEAT_ASSY_2R_40%RH_PLUS_US" conditionName="isTrue"/>
+            <TcLOVValue value="F430" description="SEAT_ASSY_40%_LH_SMART_US" conditionName="isTrue"/>
+            <TcLOVValue value="F431" description="SEAT_ASSY_2R_CTR_20%_SMART_US" conditionName="isTrue"/>
+
+            <TcLOVValue value="F432" description="CPD_CHILD_PRESENCE_DETECTION_BEV" conditionName="isTrue"/>
+            <TcLOVValue value="F433" description="REAR_COIL_SPRING_BEV_176_4" conditionName="isTrue"/>
+            <TcLOVValue value="F434" description="RH_BRACKET" conditionName="isTrue"/>
+            <TcLOVValue value="F435" description="LH_BRACKET" conditionName="isTrue"/>
+            <TcLOVValue value="F436" description="REAR_BRACKET" conditionName="isTrue"/>
+            <TcLOVValue value="F437" description="FRONT_IMPACT_SENSOR_PIGTAIL_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F438" description="FRONT_IMPACT_SENSOR_PIGTAIL_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F439" description="Rear Glass" conditionName="isTrue"/>
+            <TcLOVValue value="F440" description="ASSEMBLY REAR LIGHT TAILGATE" conditionName="isTrue"/>
+            <TcLOVValue value="F441" description="FRONT_DOME_LAMPS_WITH_MIC_SOS" conditionName="isTrue"/>
+            <TcLOVValue value="F442" description="Windshiled" conditionName="isTrue"/>
+            <TcLOVValue value="F443" description="LATCH_ASSY_FR_DR_ASSY" conditionName="isTrue"/>
+            <TcLOVValue value="F444" description="LATCH_ASSY_RR_DR_ASSY" conditionName="isTrue"/>
+            <TcLOVValue value="F445" description="REGULATOR_ANTI_PINCH_ASSY_FR_DR_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F446" description="REGULATOR_ANTI_PINCH_ASSY_FR_DR_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F447" description="REGULATOR_ANTI_PINCH_ASSY_RR_DR_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F448" description="REGULATOR_ANTI_PINCH_ASSY_RR_DR_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F449" description="HANDLE_OUTER_FIX_ASSY_WITH_BOLT_RR_DOOR_R" conditionName="isTrue"/>
+            <TcLOVValue value="F450" description="GRIP_COVER_HANDLE_OUTER_SIDE_DOOR_UNPAINTING" conditionName="isTrue"/>
+            <TcLOVValue value="F451" description="GRIP_BODY_HANDLE_OUTER_SIDE_DOOR" conditionName="isTrue"/>
+            <TcLOVValue value="F452" description="HANDLE_OUTER_FIX_ASSY_WITH_BOLT_FR_DOOR_L" conditionName="isTrue"/>
+            <TcLOVValue value="F453" description="GRIP_COVER_HANDLE_OUTER_FR_DOOR_PASSIVE_ENTRY_UNPAINTING" conditionName="isTrue"/>
+            <TcLOVValue value="F454" description="HANDLE_OUTER_FIX_ASSY_WITH_BOLT_RR_DOOR_L" conditionName="isTrue"/>
+            <TcLOVValue value="F455" description="HOOD_LATCH" conditionName="isTrue"/>
+            <TcLOVValue value="F456" description="STRIKER_HOOD" conditionName="isTrue"/>
+            <TcLOVValue value="F457" description="LATCH_TAILGATE_BASE" conditionName="isTrue"/>
+            <TcLOVValue value="F458" description="LATCH_TAILGATE_POWER" conditionName="isTrue"/>
+            <TcLOVValue value="F459" description="LATCH_TAILGATE_STRIKER" conditionName="isTrue"/>
+            <TcLOVValue value="F460" description="TAILGATE_ANTI_PINCH_SENSOR_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F461" description="TAILGATE_ANTI_PINCH_SENSOR_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F462" description="SUNROOF_INSTALL_ASSY" conditionName="isTrue"/>
+            <TcLOVValue value="F463" description="TAILGATE_POWER_STRUT_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F464" description="TAILGATE_POWER_STRUT_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F465" description="EMI_FILTER" conditionName="isTrue"/>
+            <TcLOVValue value="F466" description="TUBE_AIR_SPRING_EXTENDED_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F467" description="TUBE_AIR_SPRING_EXTENDED_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F468" description="REAR EMOTOR" conditionName="isTrue"/>
+            <TcLOVValue value="F469" description="FRONT_CORNER_MODULE_CHS_AXLE_PRE-ASSY_RHS" conditionName="isTrue"/>
+            <TcLOVValue value="F470" description="FRONT_CORNER_MODULE_CHS_AXLE_PRE-ASSY_LHS" conditionName="isTrue"/>
+            <TcLOVValue value="F471" description="FRONT_DAMPER_MODULE_CHS_AXLE_PRE-ASSY_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F472" description="FRONT_DAMPER_MODULE_CHS_AXLE_PRE-ASSY_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F473" description="SOFT_CLOSE_SYSTEM_LOCK_FR_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F474" description="SOFT_CLOSE_SYSTEM_LOCK_RR_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F475" description="SOFT_CLOSE_SYSTEM_LOCK_FR_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F476" description="SOFT_CLOSE_SYSTEM_LOCK_RR_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F477" description="WH_BATTERY_NEGATIVE_BEV" conditionName="isTrue"/>
+            <TcLOVValue value="F478" description="SVM_CAMERA_FRONT" conditionName="isTrue"/>
+            <TcLOVValue value="F479" description="SCAM_FRONT_CAMERA" conditionName="isTrue"/>
+
+            <TcLOVValue value="F780" description="POWER_INVERTER_US" conditionName="isTrue"/>
+            <TcLOVValue value="F781" description="POWER_INVERTER" conditionName="isTrue"/>
+            <TcLOVValue value="F782" description="REDUNDANCY_CONTROL_UNIT_ASSY" conditionName="isTrue"/>
+            <TcLOVValue value="F784" description="FRONT_DOME_LAMPS_WITH_MIC_SOS" conditionName="isTrue"/>
+            <TcLOVValue value="F785" description="CPD_CHILD_PRESENCE_DETECTION_BEV" conditionName="isTrue"/>
+            <TcLOVValue value="F786" description="LH_THRUST_ROD_FRT_COATING" conditionName="isTrue"/>
+            <TcLOVValue value="F787" description="RH_THRUST_ROD_FRT_COATING" conditionName="isTrue"/>
+            
+            <TcLOVValue value="F789" description="RSC_HEATER_ECU_ASSEMBLY" conditionName="isTrue"/>
+            <TcLOVValue value="F790" description="EDU_TO_HEATER_EDS1.1/150kw" conditionName="isTrue"/>
+            <TcLOVValue value="F791" description="EDU_TO_HEATER_EDS_2.0/130kw" conditionName="isTrue"/>
+            <TcLOVValue value="F792" description="COMPRESSOR_MTG_BRKT" conditionName="isTrue"/>
+            <TcLOVValue value="F793" description="REAR_SIGNATURE_POSITION_BODY_SIDE_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F794" description="REAR_SIGNATURE_POSITION_BODY_SIDE_RH" conditionName="isTrue"/>
+
+            <TcLOVValue value="F795" description="OS Flush Assy FR_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F796" description="OS Flush Assy RR_LH" conditionName="isTrue"/>
+            <TcLOVValue value="F797" description="OS Flush Assy RR_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F798" description="OS Flush Assy FR_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F799" description="DOOR RELEASE SWITCH FR/RR_RH" conditionName="isTrue"/>
+            <TcLOVValue value="F800" description="DOOR RELEASE SWITCH FR/RR_LH" conditionName="isTrue"/>
+        </TcLOV>
+    </Change>
+</TcBusinessData>

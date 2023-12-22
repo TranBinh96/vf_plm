@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}PR4D_MS_IT_VINFMasterS" status="Approved">MS IT VINF Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}PR4D_MS_IT_VINFMaster" status="Approved">MS IT VINF Master</key>
+   <key locale="en_US" id="BusinessObject{::}PR4D_MS_IT_VINFRevMasterS" status="Approved">MS IT VINF Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}PR4D_MS_IT_VINFRevisionMaster" status="Approved">MS IT VINF Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}PR4D_MS_IT_VINFRevision" status="Approved">MS_IT_VINFRevision</key>
+   <key locale="en_US" id="BusinessObject{::}PR4D_MS_IT_VINF" status="Approved">MS_IT_VINF</key>
+   <key locale="en_US" id="BusinessObject{::}PR4D_documentation" status="Approved">01_Documentation</key>
+   <key locale="en_US" id="BusinessObject{::}PR4D_image" status="Approved">02_Image</key>
+   <key locale="en_US" id="ConditionDescription{::}PR4D_MS_IT_VINF_DOCgroup" status="Approved">Only DOC Group</key>
+   <key locale="en_US" id="ConditionDescription{::}PR4D_MS_IT_VINF_allgroup" status="Approved">All Groups without DOC</key>
+   <key locale="en_US" id="LOVValueDescription{::}PR4D_MSF_STD_YN{::}N" status="Approved">No</key>
+   <key locale="en_US" id="LOVValueDescription{::}PR4D_MSF_STD_YN{::}Y" status="Approved">Yes</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_MSF_STD_YN{::}N" status="Approved">N</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_MSF_STD_YN{::}Y" status="Approved">Y</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_Item{::}$TARGET.(Item).PSBOMView.*"
+       status="Approved">$TARGET.(Item).PSBOMView.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_Item{::}$TARGET.(Item).Revisions.*.IMAN_specification, IMAN_Rendering, catia_cache_link.*"
+       status="Approved">$TARGET.(Item).Revisions.*.IMAN_specification, IMAN_Rendering, catia_cache_link.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_Item{::}$TARGET.(Item).Revisions.*.IMAN_specification.*.catia_importform_link.*"
+       status="Approved">$TARGET.(Item).Revisions.*.IMAN_specification.*.catia_importform_link.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_Item{::}$TARGET.(Item).Revisions.*.PSBOMViewRevision.*"
+       status="Approved">$TARGET.(Item).Revisions.*.PSBOMViewRevision.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_Item{::}$TARGET.(Item).Revisions.*"
+       status="Approved">$TARGET.(Item).Revisions.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_STD{::}$TARGET.(ItemRevision).IMAN_UG_altrep.*"
+       status="Approved">$TARGET.(ItemRevision).IMAN_UG_altrep.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_STD{::}$TARGET.(ItemRevision).IMAN_manifestation.*"
+       status="Approved">$TARGET.(ItemRevision).IMAN_manifestation.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_STD{::}$TARGET.(ItemRevision).IMAN_specification, IMAN_Rendering, catia_cache_link.*"
+       status="Approved">$TARGET.(ItemRevision).IMAN_specification, IMAN_Rendering, catia_cache_link.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_STD{::}$TARGET.(ItemRevision).IMAN_specification.*.catia_importform_link.*"
+       status="Approved">$TARGET.(ItemRevision).IMAN_specification.*.catia_importform_link.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_STD{::}$TARGET.(ItemRevision).PR4D_documentation.*"
+       status="Approved">$TARGET.(ItemRevision).PR4D_documentation.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_STD{::}$TARGET.(ItemRevision).PR4D_image.*"
+       status="Approved">$TARGET.(ItemRevision).PR4D_image.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_STD{::}$TARGET.(ItemRevision).PSBOMViewRevision.*"
+       status="Approved">$TARGET.(ItemRevision).PSBOMViewRevision.*</key>
+   <key locale="en_US" id="LOVValue{::}PR4D_WF_STD{::}$TARGET.(ItemRevision).catia_alternateShapeRep.*"
+       status="Approved">$TARGET.(ItemRevision).catia_alternateShapeRep.*</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}pr4d_V4_DATASET_NAME_VINF" status="Approved">V4_DATASET_NAME_VINF</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}pr4d_3dmaster" status="Approved">3D_Master</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}pr4d_CATIA_ref_list_VINF" status="Approved">CATIA_ref_list_VINF</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}pr4d_CATIA_ref_list" status="Approved">CATIA_ref_list</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}pr4d_JT_DATASET_NAME" status="Approved">JT_DATASET_NAME</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}pr4d_OEMFilePath_CATPart" status="Approved">OEMFilePath_CATPart</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}pr4d_OEMFilePath_CATProduct"
+       status="Approved">OEMFilePath_CATProduct</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}pr4d_PRODUCT_DATASET_NAME"
+       status="Approved">PRODUCT_DATASET_NAME</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}pr4d_V4_DATASET_NAME" status="Approved">V4_DATASET_NAME</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}pr4d_V5_DATASET_NAME" status="Approved">V5_DATASET_NAME</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}pr4d_V5_ref_list" status="Approved">V5_ref_list</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}pr4d_revdummy1" status="Approved">Change Number</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_BASE_Imp2" status="Approved">BASE_Imp2</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_BASE_Imp3" status="Approved">BASE_Imp3</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_BASE_Imp4" status="Approved">BASE_Imp4</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_BASE_Imp" status="Approved">BASE_Imp</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_C_1" status="Approved">C</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_Class_A_WiP" status="Approved">Class_A_WiP</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_Class_A" status="Approved">Class_A</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_Class_B_WiP" status="Approved">Class_B_WiP</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_Class_B" status="Approved">Class_B</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_Class_C_WiP" status="Approved">Class_C_WiP</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_Class_C" status="Approved">Class_C</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_E" status="Approved">E</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_Invalid" status="Approved">INVALID</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_PR_STRUCT" status="Approved">PR_STRUCT</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_PR" status="Approved">PR</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_P_STRUCT" status="Approved">P_STRUCT</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_PreP" status="Approved">PreP</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_P" status="Approved">P</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_RC" status="Approved">RC</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_Released" status="Approved">Released</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_VPT-01" status="Approved">VPT-01</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_VPT-02" status="Approved">VPT-02</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_VPT-FC" status="Approved">VPT-FC</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_VPT-PV" status="Approved">VPT-PV</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_VPT-TA" status="Approved">VPT-TA</key>
+   <key locale="en_US" id="ReleaseStatus{::}PR4D_X" status="Approved">X</key>
+   <key locale="en_US" id="View{::}PR4D_cad" status="Approved">PR4D_cad</key>
+</Add>
+</TcBusinessDataLocalization>

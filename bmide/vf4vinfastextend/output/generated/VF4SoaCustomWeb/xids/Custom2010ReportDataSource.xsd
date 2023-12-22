@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://vf4.com/Schemas/Custom/2020-10/ReportDataSource"
+    xmlns:tns="http://vf4.com/Schemas/Custom/2020-10/ReportDataSource" 
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+     
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xsd:import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"           schemaLocation="SoaBase.xsd" />
+    
+    
+    <xsd:simpleType name="PartChangeType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="old_part" />
+            <xsd:enumeration value="new_part" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+
+
+    <xsd:complexType name="EcrsAndPartsCost"> 
+        <xsd:annotation>
+                <xsd:appinfo>
+                     <xjb4c-hashmap>
+                          <key>key</key>
+                          <value>value</value>
+                     </xjb4c-hashmap>
+                </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="key" type="soa:ModelObject" >
+            </xsd:element>
+            <xsd:element name="value" type="tns:VFPartChange"  minOccurs="0" maxOccurs="unbounded">
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType> 
+
+
+    <xsd:complexType name="VFPartCostCalcMap"> 
+        <xsd:annotation>
+                <xsd:appinfo>
+                     <xjb4c-hashmap>
+                          <key>key</key>
+                          <value>value</value>
+                     </xjb4c-hashmap>
+                </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="value" type="tns:VFPartCost" >
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="key" type="xsd:string" use="required">
+       </xsd:attribute>
+    </xsd:complexType> 
+
+
+
+    <xsd:complexType name="FGValidationInput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="itemId" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Top BOM Item ID
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="revId" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Top BOM Revision ID
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="itemType" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Item Type
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="program" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Program name
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="revisionRule" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Revision Rule
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="savedVariant2LoadBom" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Saved-variant to load BOM
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="variant2Validate" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Variant to validate BOM
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:element name="FGValidationOutput">
+    <xsd:complexType>
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="input" type="tns:FGValidationInput" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Input
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="validationResults" type="tns:FGValidationResult"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        List of validation results
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="errorMessages" type="xsd:string"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        error messages
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element ref="soa:ServiceData" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Returning errors
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="finalValidationResult" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Final validation result
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:complexType name="FGValidationPartInfo">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="partRev" type="soa:ModelObject" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Part Revision of the validating part
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="quantity" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Total of the part in validating BOM
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="FGValidationResult">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="relevantPartsInfo" type="tns:FGValidationPartInfo"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Relevant parts information
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="fgCode" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Family Group Code
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="fgDescription" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Family group description
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="minQuantity" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Min quantity
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="maxQuantity" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Max quantity
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="fgCountInBom" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Total parts belongs to the Family Group in BOM
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="validationResult" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Validation result for the current Family Group
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="fgValidationType" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Family Group Validation Type
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="VFCost">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="toolingCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Tooling Cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="edndCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    EDnD Cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="pieceCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Piece Cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="logisticCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Logistic Cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="packingCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Packing Cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="labourCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Labour Cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="tax" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Tax
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="totalPieceCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Total Piece Cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="totalPieceCostStatus" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Total Piece Cost Status
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="costType" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Cost Type
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="approvalDate" type="xsd:dateTime" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Approval date
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="VFCostElement">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="cost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Cost Value
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="costType" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Cost Type
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="approvalDate" type="xsd:dateTime" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Approval Date
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="VFCostHistory">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="sapPieceCost" type="tns:VFCost" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        SAP cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="sapToolingCost" type="tns:VFCost" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        SAP cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="sapEdndCost" type="tns:VFCost" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        SAP cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="stCost" type="tns:VFCost" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Sourcing cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="ecrCost" type="tns:VFCost" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        ECR cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="engCost" type="tns:VFCost" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        ENG cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="targetCost" type="tns:VFCost" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Target cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="approvalDate" type="xsd:dateTime" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    approvalDate
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:element name="VFEcrCostResponse">
+    <xsd:complexType>
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element ref="soa:ServiceData" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Service Data
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="ecrAndPartsCost" type="tns:EcrsAndPartsCost"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:appinfo>
+                        <xjb4c-type>hashmap</xjb4c-type>
+                    </xsd:appinfo>
+                    <xsd:documentation><![CDATA[
+                        Map of ecrs and part costs
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:complexType name="VFPartChange">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="partChanges" type="tns:VFPartCost"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        partChanges
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="deltaPartCost" type="tns:VFCost" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Delta Part Cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="VFPartCost">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="partCost" type="tns:VFCost" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Part Cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="pieceCost" type="tns:VFCostElement" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Piece Cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="packingCost" type="tns:VFCostElement" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Packing Cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="logisticCost" type="tns:VFCostElement" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Logistic Cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="labourCost" type="tns:VFCostElement" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Labour Cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="tax" type="tns:VFCostElement" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Tax
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="toolingCost" type="tns:VFCostElement" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Tooling Cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="edndCost" type="tns:VFCostElement" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        EDnD Cost
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="costHistory" type="tns:VFCostHistory" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Cost history
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="partNumber" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Part Number
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="partChangeType" type="tns:PartChangeType" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Part Change Type
+                ]]></xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:element name="VFPartCostCalcResponse">
+    <xsd:complexType>
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="result" type="tns:VFPartCostCalcMap"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:appinfo>
+                        <xjb4c-type>hashmap</xjb4c-type>
+                    </xsd:appinfo>
+                    <xsd:documentation><![CDATA[
+                        Part Number and Cost Result
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="errorMessages" type="xsd:string"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Error messages
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element ref="soa:ServiceData" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Service Data
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+
+
+
+    <xsd:element name="CalculatePartsCostInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="partNumbers" type="xsd:string"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Part Numbers list
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="programName" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Program name for the parts
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="isDryrun" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    If &quot;true&quot; or &quot;TRUE&quot;, calculated cost are NOT set into cost object<br />Default value is false,  calculated cost are set into cost object
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+    </xsd:element>
+    <!--  VFPartCostCalcResponse is used as the calculatePartsCost output element -->
+
+
+    <xsd:element name="GetEcrsCostInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="ecrs" type="soa:ModelObject"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        List of input ECRs
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <!--  VFEcrCostResponse is used as the getEcrsCost output element -->
+
+
+    <xsd:element name="ValidateFamilyGroupInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="input" type="tns:FGValidationInput" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Validation input
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <!--  FGValidationOutput is used as the validateFamilyGroup output element -->
+
+
+
+</xsd:schema>

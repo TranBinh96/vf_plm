@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Thu Oct 21 03:06:13 PM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="Vf6_change_type_lov1" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="New" description="Adding new part" conditionName="isTrue"/>
+      <TcLOVValue value="Change" description="Revision change, design change without changing the part number" conditionName="isTrue"/>
+      <TcLOVValue value="Swap" description="Changing part number due to FIT/FORM/FUNCTION change, replace a part by another part" conditionName="isTrue"/>
+      <TcLOVValue value="Remove" description="Deleting part" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="13.0_0" displayName="VINFAST" enableOpsDataDeploy="true" guid="E5CDA9B24B1CFFB86ED0248ED8EA02B5" isDescriptionMandatory="false" name="pr4dvinfast" optional="true" prefixes="PR4D" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+    <include file="integration4catia_template.xml"/>
+    <include file="translationservice_template.xml"/>
+</TcBusinessDataIncludes>

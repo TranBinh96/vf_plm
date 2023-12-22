@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="0ADAFA77AC7826709F00CE00B755867D" packageId="vf3vinfastcore">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies>
+        <dependency id="aps0apscore" type="requires"/>
+        <dependency id="integration4catia" type="requires"/>
+        <dependency id="srh0apsconfiguredsearch" type="requires"/>
+        <dependency id="translationservice" type="requires"/>
+        <dependency id="bcs0buildconditions" type="requires"/>
+        <dependency id="cfg0configurator" type="requires"/>
+        <dependency id="smc0psmcfgsupport" type="requires"/>
+    </dependencies>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="9635C5C80070209E5D9EF837A94665D0">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf3vinfastcore_path}/artifacts/vf3vinfastcore_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf3vinfastcore_path}/artifacts/vf3vinfastcore_install.zip"/>
+                    <copy file="${Teamcenter_vf3vinfastcore_path}/artifacts/vf3vinfastcore_icons.zip" todir="${Teamcenter_root_path}/install/vf3vinfastcore"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="vf3vinfastcore"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf3vinfastcore_path}/artifacts/vf3vinfastcore_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf3vinfastcore_path}/artifacts/vf3vinfastcore_install.zip"/>
+                    <copy file="${Teamcenter_vf3vinfastcore_path}/artifacts/vf3vinfastcore_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/vf3vinfastcore"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="vf3vinfastcore"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+</package>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Sat Oct 23 05:44:25 AM 2021">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_VinES_Product_LOV" lovType="ListOfValuesString" usage="Exhaustive"
+      description="" isManagedExternally="true">
+      <TcLOVValue value="VFe32" description="" conditionName="isTrue" />
+      <TcLOVValue value="VFe34" description="" conditionName="isTrue" />
+      <TcLOVValue value="VFe33" description="" conditionName="isTrue" />
+      <TcLOVValue value="VFe34S" description="" conditionName="isTrue" />
+      <TcLOVValue value="VFe35" description="" conditionName="isTrue" />
+      <TcLOVValue value="VFe36" description="" conditionName="isTrue" />
+      <TcLOVValue value="VF8NP" description="" conditionName="isTrue" />
+      <TcLOVValue value="VF9NP" description="" conditionName="isTrue" />
+      <TcLOVValue value="E-scooter KLN" description="" conditionName="isTrue" />
+      <TcLOVValue value="E-scooter 72V" description="" conditionName="isTrue" />
+      <TcLOVValue value="E-scooter 48V" description="" conditionName="isTrue" />
+      <TcLOVValue value="E-scooter LFP" description="" conditionName="isTrue" />
+      <TcLOVValue value="ESS" description="" conditionName="isTrue" />
+      <TcLOVValue value="ESS PowerWall" description="" conditionName="isTrue" />
+      <TcLOVValue value="ESS 20FT" description="" conditionName="isTrue" />
+      <TcLOVValue value="ESS Megellan" description="" conditionName="isTrue" />
+      <TcLOVValue value="Golfcart" description="" conditionName="isTrue" />
+      <TcLOVValue value="Cell Gen 1.6" description="" conditionName="isTrue" />
+      <TcLOVValue value="Cell Gen 1.8" description="" conditionName="isTrue" />
+      <TcLOVValue value="Cell Gen 2" description="" conditionName="isTrue" />
+      <TcLOVValue value="Cell Gen 5.1" description="" conditionName="isTrue" />
+      <TcLOVValue value="Cell Gen 5.2" description="" conditionName="isTrue" />
+      <TcLOVValue value="Cell Gen PT_Cylyndrical" description="" conditionName="isTrue" />
+      <TcLOVValue value="Battery Pack 12V" description="" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

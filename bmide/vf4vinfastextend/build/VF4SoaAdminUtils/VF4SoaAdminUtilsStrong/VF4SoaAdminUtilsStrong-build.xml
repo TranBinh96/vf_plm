@@ -1,0 +1,96 @@
+<!--
+==================================================
+ Copyright 2013.
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ ==================================================
+             Auto-generated source
+                 DO NOT EDIT
+ ==================================================
+ -->
+
+
+<project name="VF4SoaAdminUtilsStrong" default="all"  basedir="../../.." >
+      <description> 
+         Service Strong Library Build. 
+      </description>
+<!--
+    These Properties need to be set by the caller
+    
+    <property name="soa.client.home"                   location="C:/Apps/Siemens/Teamcenter/soa_client" />
+    <property name="toolbox.home"                      location="C:/Apps/Siemens/Teamcenter/soa_client/toolbox" />
+    <property name="gen.src.home"                      location="../output/genSrc />
+    <property name="classes.home"                      location="../output/wnti32/classes />
+    <property name="jars.home"                         location="../output/wnti32/jars />
+
+--> 
+    <import file="../../targets.xml"/>
+
+    <target name="init" >
+        <!-- Set up directory locations -->
+        <property name="project.directory"       location="${basedir}" />
+        <property name="library.source.home"     location="${gen.src.home}/VF4SoaAdminUtilsClient/strong/java" />
+        <property name="library.classes.home"    location="${classes.home}" />
+        <property name="jar.folder.home"         location="${jars.home}" />
+        <property name="teamcenter.version"         value="13000.3.0" />       
+        <property name="teamcenter.version.label"   value="V13000.3.0.16_20220920.00" />       
+        <property name="library.jar.name"           value="VF4SoaAdminUtilsStrong_${teamcenter.version}.jar" />
+        <property name="implementation.title"       value="Teamcenter Services VF4SoaAdminUtils Strong Client Library"/>
+        <property name="bundle.name"                value="Teamcenter Services VF4SoaAdminUtils Strong Client Library"/>
+        <property name="bundle.symbolic.name"       value="VF4SoaAdminUtilsStrong"/>
+        <property name="required.bundles"           value="com.teamcenter.rac.external,TcSoaCommon,TcSoaClient,TcSoaStrongModel,Aps0SoaStrongModelApsCore,TcSoaStrongModelCm,TcSoaStrongModelMaterialMgmt,Srh0SoaStrongModelApsConfiguredSearch,TcSoaStrongModelVendorManagement,TcSoaStrongModelIssuemgmt,Cfg0SoaStrongModelConfigurator,CPA0SoaStrongModelCapaDataModel,Smc0SoaStrongModelPsMcfgSupport,TcSoaStrongModelVf4vinfastextend" />
+           
+
+        <fileset dir="${soa.client.home}/java/libs" id="soa.libs">
+            <include name="TcSoaCommon_13000.3.0.jar"     />
+            <include name="TcSoaClient_13000.3.0.jar"     />
+            <include name="TcSoaStrongModel_13000.3.0.jar" />
+            <include name="Aps0SoaStrongModelApsCore_13000.3.0.jar" />
+            <include name="TcSoaStrongModelCm_13000.3.0.jar" />
+            <include name="TcSoaStrongModelMaterialMgmt_13000.3.0.jar" />
+            <include name="Srh0SoaStrongModelApsConfiguredSearch_13000.3.0.jar" />
+            <include name="TcSoaStrongModelVendorManagement_13000.3.0.jar" />
+            <include name="TcSoaStrongModelIssuemgmt_13000.3.0.jar" />
+            <include name="Cfg0SoaStrongModelConfigurator_13000.3.0.jar" />
+            <include name="CPA0SoaStrongModelCapaDataModel_13000.3.0.jar" />
+            <include name="Smc0SoaStrongModelPsMcfgSupport_13000.3.0.jar" />
+
+        </fileset>
+ 
+         <fileset dir="${jar.folder.home}" id="project.libs">
+            <include name="TcSoaStrongModelVf4vinfastextend_13000.3.0.jar" />
+        </fileset> 
+        
+        <path id="build.classpath">
+            <fileset refid="soa.libs"     />
+            <fileset refid="project.libs" />
+        </path>           
+        
+    </target>
+    
+    
+
+ 
+
+           
+     <target name="clean" depends="init" unless="compile.not.required">
+         <!-- Delete all of the compiled code root folders.  On a 'all' build target this is       -->
+         <!-- only done if the compiled code is out-of-date. Since an updated service definition   -->
+         <!-- may have deleted operations or data structures there could be dangling artifacts     -->
+         <delete   dir="${library.classes.home}" />
+         <delete  file="${jar.folder.home}/${library.jar.name}" />
+     </target> 
+       
+    
+     <target name="setup" depends="init,clean" unless="compile.not.required">
+         <mkdir  dir="${library.classes.home}" />
+         <mkdir  dir="${jar.folder.home}" />
+     </target>    
+    
+    
+    <target name="all" depends="init,setup,compile,debugJar,releaseJar" />
+
+
+    
+</project>

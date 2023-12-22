@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Trùng với LOV VF4_Cell_Model ==> lần deploy tới sẽ merge thành 1 LOV -->
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization" batchXSDVersion="1.0" Date="Thu Oct 21 03:06:53 PM 2021">
+  <Add>
+    <key locale="en_US" id="LOVValue{::}VF4_VES_Model_ME_Part_LOV{::}Battery Escooter C1.6" status="Approved">Battery Escooter C1.6</key>
+    <key locale="en_US" id="LOVValue{::}VF4_VES_Model_ME_Part_LOV{::}Battery VFe33" status="Approved">Battery VFe33</key>
+    <key locale="en_US" id="LOVValue{::}VF4_VES_Model_ME_Part_LOV{::}Gen 1/1.5" status="Approved">Gen 1/1.5</key>
+    <key locale="en_US" id="LOVValue{::}VF4_VES_Model_ME_Part_LOV{::}Gen 1.6" status="Approved">Gen 1.6</key>
+    <key locale="en_US" id="LOVValue{::}VF4_VES_Model_ME_Part_LOV{::}Gen 1.8" status="Approved">Gen 1.8</key>
+    <key locale="en_US" id="LOVValue{::}VF4_VES_Model_ME_Part_LOV{::}Gen 2" status="Approved">Gen 2</key>
+    <key locale="en_US" id="LOVValue{::}VF4_VES_Model_ME_Part_LOV{::}Gen 5.1_Prismatic" status="Approved">Gen 5.1_Prismatic</key>
+    <key locale="en_US" id="LOVValue{::}VF4_VES_Model_ME_Part_LOV{::}Gen 5.2_Prismatic" status="Approved">Gen 5.2_Prismatic</key>
+    <!-- <key locale="en_US" id="LOVValue{::}VF4_VES_Model_ME_Part_LOV{::}Gen 6" status="Approved">Gen 6</key> -->
+    <key locale="en_US" id="LOVValue{::}VF4_VES_Model_ME_Part_LOV{::}Battery ESC 1.2/2.0 KWH" status="Approved">Battery ESC 1.2/2.0 KWH</key>
+  </Add>
+</TcBusinessDataLocalization>

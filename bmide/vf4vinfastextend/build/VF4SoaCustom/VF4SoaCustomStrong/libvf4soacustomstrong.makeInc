@@ -1,0 +1,86 @@
+# ==================================================
+# Copyright 2013.
+# Siemens Product Lifecycle Management Software Inc.
+# All Rights Reserved.
+# ==================================================
+# ==================================================
+#             Auto-generated source
+#                 DO NOT EDIT
+# ==================================================
+
+
+
+# ==================================================
+# Define macros for Strong C++ Binding libraries
+# ==================================================
+VF4SOACUSTOMSTRONG_DRV        = $(PROJECT_DRV)$(PS)VF4SoaCustomClient$(PS)strong$(PS)cpp
+VF4SOACUSTOMSTRONG_OBJ        = $(PROJECT_OBJ)$(PS)libvf4soacustomstrong
+VF4SOACUSTOMSTRONG_CXXS       = $(VF4SOACUSTOMSTRONG_DRV)$(PS)*.cxx
+VF4SOACUSTOMSTRONG_CXX_FLAGS  = $(CXX_FLAGS) -DIPLIB=libvf4soacustomstrong
+VF4SOACUSTOMSTRONG_LINK_FLAGS = $(LINK_FLAGS)
+VF4SOACUSTOMSTRONG_INCLUDES   = $(CPP_INCLUDES) -I$(VF4SOACUSTOMSTRONG_DRV) \
+                                  -I$(PROJECT_DRV)$(PS)TcSoaStrongModelVf4vinfastextend$(PS)cpp$(PS)strong
+VF4SOACUSTOMSTRONG_LIB_PATH   = $(LP)$(PROJECT_BIN) $(LIB_PATH)
+VF4SOACUSTOMSTRONG_LIBS       =   $(LIB_PREFIX)aps0soamodelapscore$(LIB_SUFFIX)  $(LIB_PREFIX)tcsoamodelcm$(LIB_SUFFIX)  $(LIB_PREFIX)tcsoamodelmaterialmgmt$(LIB_SUFFIX)  $(LIB_PREFIX)srh0soamodelapsconfiguredsearch$(LIB_SUFFIX)  $(LIB_PREFIX)tcsoamodelvendormanagement$(LIB_SUFFIX)  $(LIB_PREFIX)tcsoamodelissuemgmt$(LIB_SUFFIX)  $(LIB_PREFIX)cfg0soamodelconfigurator$(LIB_SUFFIX)  $(LIB_PREFIX)cpa0soamodelcapadatamodel$(LIB_SUFFIX)  $(LIB_PREFIX)smc0soamodelpsmcfgsupport$(LIB_SUFFIX) \
+                                  $(SYSLIBS)   $(LIB_PREFIX)tcsoamodelvf4vinfastextend$(LIB_SUFFIX) \
+                                  $(LIB_PREFIX)tcsoacommon$(LIB_SUFFIX)  $(LIB_PREFIX)tcsoaclient$(LIB_SUFFIX)
+VF4SOACUSTOMSTRONG_LD_FLAGS   = $(VF4SOACUSTOMSTRONG_LINK_FLAGS) $(VF4SOACUSTOMSTRONG_LIB_PATH)
+VF4SOACUSTOMSTRONG_TARGET     = $(PROJECT_BIN)$(PS)libvf4soacustomstrong
+
+
+
+libvf4soacustomstrong_allNoOp:
+libvf4soacustomstrong_all:   $(VF4SOACUSTOMSTRONG_OBJ)  $(VF4SOACUSTOMSTRONG_TARGET).$(LIB_EXT)
+
+
+$(VF4SOACUSTOMSTRONG_OBJ) :
+	@echo Creating: $(VF4SOACUSTOMSTRONG_OBJ)
+	-@$(MAKE_DIR) $(VF4SOACUSTOMSTRONG_OBJ)
+
+$(VF4SOACUSTOMSTRONG_CXXS) :
+
+# ==================================================
+# Windows Build Target
+# ==================================================
+$(VF4SOACUSTOMSTRONG_TARGET).dll : $(VF4SOACUSTOMSTRONG_CXXS)
+	@echo ________________________________________________________________________________
+	@echo Building C++ Client libvf4soacustomstrong
+	@echo Compiling Source...
+	@$(COMPILE)  $(VF4SOACUSTOMSTRONG_CXX_FLAGS) $(VF4SOACUSTOMSTRONG_INCLUDES) -c $(**)   $(CARG_OUT)$(VF4SOACUSTOMSTRONG_OBJ)$(PS)
+	@echo.
+	@$(LINK) $(VF4SOACUSTOMSTRONG_LD_FLAGS) $(VF4SOACUSTOMSTRONG_OBJ)$(PS)*.$(OBJ_EXT)  $(VF4SOACUSTOMSTRONG_LIBS)  $(LARG_OUT)$(VF4SOACUSTOMSTRONG_TARGET).dll
+	$(COPY_FILE)  $(PROJECT_BIN)$(PS)libvf4soacustomstrong.dll $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)
+	$(COPY_FILE)  $(PROJECT_BIN)$(PS)libvf4soacustomstrong.lib $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)
+	@echo ________________________________________________________________________________
+
+
+# ==================================================
+# UNIX Build Target
+# ==================================================
+$(VF4SOACUSTOMSTRONG_TARGET).so : $(VF4SOACUSTOMSTRONG_CXXS)
+	@echo ________________________________________________________________________________
+	@echo Building C++ Client libvf4soacustomstrong
+	@-rm *.$(OBJ_EXT)
+	@echo Compiling $(VF4SOACUSTOMSTRONG_CXXS)
+	@$(COMPILE)  $(VF4SOACUSTOMSTRONG_CXX_FLAGS) $(VF4SOACUSTOMSTRONG_INCLUDES) -c $(VF4SOACUSTOMSTRONG_CXXS) 
+	@mv *.$(OBJ_EXT) $(VF4SOACUSTOMSTRONG_OBJ)
+	@echo Linking $(VF4SOACUSTOMSTRONG_TARGET).so
+	@$(LINK) $(VF4SOACUSTOMSTRONG_LD_FLAGS) $(VF4SOACUSTOMSTRONG_OBJ)$(PS)*.$(OBJ_EXT)  $(VF4SOACUSTOMSTRONG_LIBS)  $(LARG_OUT) $(VF4SOACUSTOMSTRONG_TARGET).so
+	$(COPY_FILE)  $(PROJECT_BIN)$(PS)libvf4soacustomstrong.so $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)
+	@echo ________________________________________________________________________________
+	
+
+
+
+libvf4soacustomstrong_cleanNoOp:	
+libvf4soacustomstrong_clean:
+	@echo ________________________________________________________________________________
+	@echo Cleaning C++ Client libvf4soacustomstrong
+	-$(DELETE_DIR)  $(VF4SOACUSTOMSTRONG_OBJ)
+	-$(DELETE_FILE) $(PROJECT_BIN)$(PS)libvf4soacustomstrong.*	
+	-$(DELETE_FILE) $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)$(PS)libvf4soacustomstrong.so
+	-$(DELETE_FILE) $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)$(PS)libvf4soacustomstrong.dll
+	-$(DELETE_FILE) $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)$(PS)libvf4soacustomstrong.lib
+	@echo ________________________________________________________________________________
+	
+

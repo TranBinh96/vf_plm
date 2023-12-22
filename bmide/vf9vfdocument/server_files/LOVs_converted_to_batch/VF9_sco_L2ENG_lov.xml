@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Jun 17 10:31:45 PM 2019">
+  <Add/>
+  <Change>
+    <TcLOV name="VF9_sco_L2ENG_lov" lovType="ListOfValuesString" usage="Exhaustive"
+        description="" isManagedExternally="true">
+      <TcLOVValue value="default" description="" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

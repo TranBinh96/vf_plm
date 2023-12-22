@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Thu Oct 21 03:06:13 PM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="Vf6_maturity_level" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="P" description="" conditionName="isTrue"/>
+      <TcLOVValue value="I" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PR" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Not Released" description="" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

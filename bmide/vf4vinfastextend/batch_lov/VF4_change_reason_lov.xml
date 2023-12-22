@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Sat Oct 23 05:44:25 AM 2021">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_change_reason_lov" lovType="ListOfValuesString" usage="Exhaustive"
+      description="" isManagedExternally="true">
+      <TcLOVValue value="Initial Release" description="" conditionName="isTrue" />
+      <TcLOVValue value="Issue Resolution" description="" conditionName="isTrue" />
+      <TcLOVValue value="Cost Saving" description="" conditionName="isTrue" />
+      <TcLOVValue value="Marketing request" description="" conditionName="isTrue" />
+      <TcLOVValue value="Product Competitive" description="" conditionName="isTrue" />
+      <TcLOVValue value="Styling Change" description="" conditionName="isTrue" />
+      <TcLOVValue value="Vehicle Platform Request" description="" conditionName="isTrue" />
+      <TcLOVValue value="Supplier/Purchase Request" description="" conditionName="isTrue" />
+      <TcLOVValue value="Manufacturing Request" description="" conditionName="isTrue" />
+      <TcLOVValue value="Service Request" description="" conditionName="isTrue" />
+      <TcLOVValue value="Quality Improvements" description="" conditionName="isTrue" />
+      <TcLOVValue value="Continuous Improvements" description="" conditionName="isTrue" />
+      <TcLOVValue value="Government Regulation" description="" conditionName="isTrue" />
+      <TcLOVValue value="Requirement Change" description="" conditionName="isTrue" />
+      <TcLOVValue value="Deviation Following up" description="" conditionName="isTrue" />
+      <TcLOVValue value="Miscellaneous" description="" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

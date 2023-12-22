@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Wed Aug 12 11:07:04 AM 2020">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_PurchaseLevelSourcing" lovType="ListOfValuesString" usage="Exhaustive"
+      description="" isManagedExternally="true">
+      <TcLOVValue value="AXS" description="" conditionName="isTrue" />
+      <TcLOVValue value="BL" description="" conditionName="isTrue" />
+      <TcLOVValue value="D" description="" conditionName="isTrue" />
+      <TcLOVValue value="DEL" description="" conditionName="isTrue" />
+      <TcLOVValue value="DPT" description="" conditionName="isTrue" />
+      <TcLOVValue value="DPS" description="" conditionName="isTrue" />
+      <TcLOVValue value="H" description="" conditionName="isTrue" />
+      <TcLOVValue value="P" description="" conditionName="isTrue" />
+      <TcLOVValue value="S" description="" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Document   : feature_vf7vinfastsbom.xml
+    Description: This XML is used by TEM to install or upgrade the "vf7vinfastsbom" solution.
+--><feature>
+    <name value="Vinfast SBOM"/>
+    <property name="feature_name" value="vf7vinfastsbom"/>
+    <group value="package"/>
+    <guid value="EEC042DE32AC5E1085A4A7C768C71714"/>
+    <bundle value="${feature_name}Bundle.xml"/>
+    <description value="${feature_name}.description"/>
+    <include file="dataModelDependency.xml"/>
+    <relation>
+        <depends name="cortona3d" value="0A132B438FF50EBD134EEA32668D3535"/>
+        <depends name="cortona3ddita" value="3C381ADAE62A7797346E797DB561D9B9"/>
+        <depends name="cortona3ds1000d" value="1FB61FD3FEF2D0DC34E43262023A60CD"/>
+    </relation>
+    <feature>
+        <!--  Feature: Data Model -->
+        <name value="Data Model"/>
+        <property name="feature_id" value="datamodel"/>
+        <property name="bmide_optional" value="false"/>
+        <property name="template_name" value="${feature_name}"/>
+        <property name="template_file" value="${template_name}_template.xml"/>
+        <root value="true"/>
+        <bundle value="${template_name}Bundle.xml"/>
+        <description value="${template_name}.description"/>
+        <guid value="E5F30ABD087103EDE7AA5895A4C6C3CE"/>
+        <include file="coreDataModel2.xml"/>
+        <include file="generatePlmxmlSchema.xml"/>
+    </feature>
+    <dependencyReferences>
+        <reference name="foundation" value="8C061DD51E13E0CB9DC4687B1A3348BE"/>
+    </dependencyReferences>
+</feature>

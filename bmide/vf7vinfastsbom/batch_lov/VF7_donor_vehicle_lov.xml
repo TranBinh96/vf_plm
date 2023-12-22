@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Mon Jun 17 10:32:07 PM 2019">
+  <Add />
+  <Change>
+    <TcLOV name="VF7_donor_vehicle_lov" lovType="ListOfValuesString" usage="Exhaustive"
+      description="" isManagedExternally="true">
+      <TcLOVValue value="VF3" description="" conditionName="isTrue" />
+      <TcLOVValue value="VF31" description="" conditionName="isTrue" />
+      <TcLOVValue value="VF32" description="" conditionName="isTrue" />
+      <TcLOVValue value="VF33" description="" conditionName="isTrue" />
+      <TcLOVValue value="VFe32" description="" conditionName="isTrue" />
+      <TcLOVValue value="VFe33" description="" conditionName="isTrue" />
+      <TcLOVValue value="VFe34NG" description="" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

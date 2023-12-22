@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+
+<services
+    xmlns="http://teamcenter.com/WebServices/2005-06/schemas/XID"
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+    xmlns:exp="http://teamcenter.com/Schemas/Soa/2006-03/Exceptions"
+    xmlns:svc="http://vf4.com/Schemas/Custom/2017-05/Integration" 
+    
+    >
+    
+    <types>
+        <import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"        schemaLocation="SoaBase.xsd"/>
+        <import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Exceptions"  schemaLocation="SoaExceptions.xsd"/>
+        <import namespace="http://vf4.com/Schemas/Custom/2017-05/Integration"  schemaLocation="Custom1705Integration.xsd"/> 
+           
+         
+    </types>
+    
+    <service name="Custom1705Integration"
+             targetNamespace="http://vf4.com/Services/Custom/2017-05">
+             
+        <port>Custom-2017-05-Integration</port>
+        
+        
+    <operation name="nominateSupplierToSQP" in="svc:NominateSupplierToSQPInput" out="svc:NominateSupplierToSQPOutput">
+        <documentation><![CDATA[
+        Nominate a list of parts to a supplier (SQ portal).
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    <operation name="removeSupplierInfo" in="svc:RemoveSupplierInfoInput" out="svc:RemoveSupplierInfoOutput">
+        <documentation><![CDATA[
+        clean supplier info on source part.
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    <operation name="updateQcheckerProperty" in="svc:UpdateQcheckerPropertyInput" out="svc:UpdateQcheckerPropertyOutput">
+        <documentation><![CDATA[
+        update v4_q_checker without update last modified user.
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    </service>
+</services>

@@ -1,0 +1,264 @@
+<!--
+==================================================
+ Copyright 2013.
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ ==================================================
+             Auto-generated source
+                 DO NOT EDIT
+ ==================================================
+ -->
+
+
+<project name="Vf4vinfastextendWsdl" default="all"  basedir="../.." >
+  	<description> 
+     	Client Data Model Auto Generation. 
+  	</description>
+<!--
+    These Properties need to be set by the caller
+    <property name="toolbox.home"                      location="C:/Apps/Siemens/Teamcenter/soa_client/toolbox" />
+    <property name="bmide.home"                        location="C:/Apps/Siemens/Teamcenter/bmide/client" />
+    <property name="template.home"                     location="C:/Apps/Siemens/Teamcenter/bmide/templates />
+    <property name="gen.src.home" 					   location="../output/genSrc />
+
+--> 
+
+   
+     <target name="init" >
+     	<taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+     	
+        <!-- Set up directory locations -->
+    	<property name="project.directory"                  location="${basedir}" />
+      	<property name="library.gen.home"                   location="${gen.src.home}/Vf4vinfastextendWsdl" />
+        <property name="library.gen.xid.home.1"             location="${gen.src.home}/VF4SoaAdminUtilsWeb/xids" />
+        <property name="library.gen.xid.home.2"             location="${gen.src.home}/VF4SoaCMWeb/xids" />
+        <property name="library.gen.xid.home.3"             location="${gen.src.home}/VF4SoaCustomWeb/xids" />
+        <property name="library.gen.xid.home.4"             location="${gen.src.home}/VF4SoaIntegrationWeb/xids" />
+      	
+    	<property name="library.gen.wsdl.home"              location="${library.gen.home}/wsdls" />
+    	<property name="library.gen.java.home"              location="${library.gen.home}/java" />
+    	<property name="library.webapp.home"                location="${classes.home}/../../webapp" />
+        <property name="library.classes.home"               location="${classes.home}" />
+   
+
+        <property name="project.soa.client.home"            location="${project.soa.client}" />
+        <property name="project.tc.home"                    location="${project.tc}" />      
+        <property name="teamcenter.version"                    value="13000.3.0" />	   
+        <property name="teamcenter.version.label"              value="V13000.3.0.16_20220920.00" />
+        <property name="axis2.home"                         location="${toolbox.home}/Axis2/axis2-1.7.9" />
+        <property name="tools.endpoint"                     location="${toolbox.home}/resources/templates/endpoint"/> 
+        <property name="jar.folder.home"                    location="${jars.home}" />
+        <property name="wsdl.gen.classpath.locations"       location="${toolbox.home}/TcSoaTools.jar" />
+	
+    </target>   
+    
+    <target name="define-classpath" depends="init" >
+    
+        <fileset dir="${toolbox.home}/xerces_j" id="xerces.libs">
+	    <include name="xercesImpl.jar" />
+	    <include name="resolver.jar" />
+	    <include name="xml-apis.jar" />
+	    <include name="xmlParserAPIs.jar" />
+        </fileset>
+
+        <fileset dir="${axis2.home}/lib" id="axis2.tools.libs">
+            <include name="*.jar" />
+        </fileset>
+     
+        <fileset dir="${toolbox.home}/commons_xmlschema/1.3.2/commons_xmlschema" id="commons.xmlschema.libs">
+	         <include name="XmlSchema-1.3.2.jar" />
+        </fileset>
+
+        <fileset dir="${soa.client.home}/java/libs" id="soa.client.libs">
+	        <include name="TcSoaCommon_${teamcenter.version}.jar" />
+        </fileset>
+
+        <fileset dir="${toolbox.home}" id="soa.tools.libs">
+        	   <include name="TcSoaWeb.jar" />
+        	   <include name="TcSoaTools.jar" />
+        </fileset>
+
+        <path id="axis2.classpath">
+            <fileset refid="axis2.tools.libs" />
+            <fileset refid="soa.client.libs"  />
+        </path>     
+       
+        <path id="tool.classpath">
+            <fileset refid="commons.xmlschema.libs" />
+            <fileset refid="xerces.libs"  />
+            <fileset refid="soa.tools.libs"  />
+       </path>
+    </target>
+
+    <target name="define-task" depends="init,define-classpath" >
+
+        <taskdef name="CreateWsdl"
+            classname="com.teamcenter.soa.internal.tools.wswsdl.CreateWsdl">
+            <classpath refid="tool.classpath" />
+        </taskdef>
+
+
+
+        <taskdef name="Axis2Codgen"
+            classname="org.apache.axis2.tool.ant.AntCodegenTask" >
+            <classpath path="${axis2.home}"/>
+            <classpath refid="axis2.classpath"/>
+        </taskdef>
+    	
+        <taskdef name="Axis2Implementation"
+            classname="com.teamcenter.soa.internal.tools.axis2.Axis2Implementation">
+            <classpath refid="tool.classpath" />
+        </taskdef>
+
+
+     </target>   	
+     
+  	
+   	
+     <target name="clean" depends="init" >
+     	<!-- Delete all of the generated code root folders.  On a 'all' build target this is      -->
+     	<!-- only done if the generated code is out-of-date. Since an updated service definition  -->
+     	<!-- may have deleted business objects there could be dangling artifacts     -->
+        <delete  dir="${library.gen.home}"/> 
+        <delete  dir="${library.classes.home}"/>	 
+        <delete  dir="${project.soa.client.home}/wsdls"/>
+        <delete  dir="${library.webapp.home}"/>
+        <delete file="${jar.folder.home}/Vf4vinfastextend_teamcenter_soa_wsdl.jar" />
+        <delete file="${jar.folder.home}/TcSoaVf4vinfastextendWsdl.jar" />
+  		
+    </target> 
+   	
+	
+    <target name="setup" depends="init,clean"  >
+   	<!-- Create the generated code root folders so we have something to write too           -->
+        <mkdir  dir="${library.gen.wsdl.home}"/>
+        <mkdir  dir="${library.gen.java.home}"/>
+        <mkdir  dir="${library.classes.home}"/>	  	
+        <mkdir  dir="${library.webapp.home}" />	       
+   	    <mkdir  dir="${project.soa.client.home}/wsdls" /> 
+   		        
+    </target>
+   	
+
+
+    	
+    <target name="generate-wsdls" depends="init,define-task,setup"  > 
+   	        
+                	
+        <!-- Generate all code for the WSDLs. -->   
+        <CreateWsdl output="${library.gen.wsdl.home}">
+            <interfaceSet dir="${library.gen.xid.home.1}">
+                <include name="*.xid" />
+            </interfaceSet>
+            <interfaceSet dir="${library.gen.xid.home.2}">
+                <include name="*.xid" />
+            </interfaceSet>
+            <interfaceSet dir="${library.gen.xid.home.3}">
+                <include name="*.xid" />
+            </interfaceSet>
+            <interfaceSet dir="${library.gen.xid.home.4}">
+                <include name="*.xid" />
+            </interfaceSet>
+
+        </CreateWsdl>
+    </target>
+
+	
+
+    <macrodef name="compile-skeleton">
+        <attribute name="cmpl.service.name" />
+        <attribute name="cmpl.service.gen.home" />
+        <attribute name="cmpl.service.classes" />
+        <sequential>
+        
+            <!-- Compile the generated code, ignore warnings as we can't fix what Axis generated -->
+            <javac destdir="@{cmpl.service.classes}" nowarn="true" includeantruntime="false" >
+                <src path="@{cmpl.service.gen.home}/src"/>
+                <classpath refid="axis2.classpath"/>
+                <classpath refid="tool.classpath"/>
+            </javac>
+            
+            <!-- Copy the  WSDLs, XSD and service.xml file to the META-INF folder -->
+            <copy toDir="@{cmpl.service.classes}/META-INF" failonerror="false">
+                <fileset dir="@{cmpl.service.gen.home}/resources">
+                    <include name="*.xml"/>
+                    <include name="*.wsdl"/>
+                    <include name="*.xsd"/>
+                 </fileset>
+            </copy>
+           
+            <!-- Zip up the compiled results to an Axis Archive file --> 
+            <if> <equals arg1="${javac.debug}" arg2="true"/>
+            <then> 
+                <jar destfile="${library.webapp.home}/WEB-INF/services/@{cmpl.service.name}.aar">
+                    <fileset  dir="@{cmpl.service.classes}"/>
+                    <fileset  dir="@{cmpl.service.gen.home}/src"/>
+                </jar>
+            </then><else>
+                <jar destfile="${library.webapp.home}/WEB-INF/services/@{cmpl.service.name}.aar">
+                    <fileset  dir="@{cmpl.service.classes}"/>
+                </jar>
+            </else></if>
+        </sequential>
+    </macrodef>
+
+ 	<target name="process-a-wsdl"  depends="init,define-classpath,define-task" >
+	    
+        <!-- Get the name of the port (service name) out of the WSDL file -->
+        <loadfile property="wsdl.text" srcFile="${wsdl.file}"/>  
+        <propertyregex 
+            property="service.name"
+            input="${wsdl.text}"
+            regexp="wsdl\:port .* name=&quot;([\w0-9\-]*)&quot;"
+            select="\1" />
+          
+        <propertyregex 
+            property="service.has.operation"
+            input="${wsdl.text}"
+            regexp="(wsdl\:operation)" 
+            select="\1" />
+                
+       
+        <if> <equals arg1="${service.has.operation}" arg2="wsdl:operation"/>
+        <then> 
+            <property name="service.gen.home" location="${library.gen.java.home}/${service.name}" />
+            <property name="service.classes"  location="${library.classes.home}/${service.name}/classes" />
+               
+            <echo message="" />
+            <echo message="Processing ${service.name}" />
+            <mkdir  dir="${service.gen.home}" />
+            <mkdir  dir="${service.classes}"  />
+
+            <Axis2Codgen          wsdlfilename="${wsdl.file}"         output="${service.gen.home}" serverSide="true"  generateServiceXml="true"  databindingName="jaxbri" unpackClasses="true" />
+            <Axis2Implementation  serviceName="${service.name}"       genHome="${service.gen.home}" />   
+            <compile-skeleton     cmpl.service.name="${service.name}" cmpl.service.gen.home="${service.gen.home}"  cmpl.service.classes="${service.classes}"/>
+        </then><else>            
+            <echo message="" />
+            <echo message="Skipping ${service.name}, it does not contain any operations." />
+        </else></if>
+    </target>
+	
+    <target name="generate-axis2" depends="init,setup">
+
+        <foreach target="process-a-wsdl" param="wsdl.file" > 
+        	<path> <fileset dir="${library.gen.wsdl.home}" includes="*.wsdl"/> </path>
+        </foreach>
+        
+        <touch file="${library.gen.home}/touch.txt"/>
+    </target>	
+	
+    <target name="packaging" depends="init,setup" >
+ 	    <copy todir="${project.soa.client.home}/wsdls"  >
+            <fileset dir="${library.gen.wsdl.home}"          includes="*.xsd"/>          
+            <fileset dir="${library.gen.wsdl.home}"          includes="*.wsdl"/>          
+        </copy>        
+    </target>
+     
+    <target name="archive" depends="init,setup" >
+        <jar basedir="${library.webapp.home}" destfile="${jar.folder.home}/Vf4vinfastextend_teamcenter_soa_wsdl.jar" />
+    </target>
+	
+    <target name="auto-generation" depends="generate-wsdls,generate-axis2" />
+    <target name="all"             depends="auto-generation,archive,packaging" />
+</project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+
+<services
+    xmlns="http://teamcenter.com/WebServices/2005-06/schemas/XID"
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+    xmlns:exp="http://teamcenter.com/Schemas/Soa/2006-03/Exceptions"
+    xmlns:svc="http://vf4.com/Schemas/CM/2020-12/ChangeManagement" 
+    
+    >
+    
+    <types>
+        <import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"        schemaLocation="SoaBase.xsd"/>
+        <import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Exceptions"  schemaLocation="SoaExceptions.xsd"/>
+        <import namespace="http://vf4.com/Schemas/CM/2020-12/ChangeManagement"  schemaLocation="CM2012ChangeManagement.xsd"/> 
+           
+         
+    </types>
+    
+    <service name="CM2012ChangeManagement"
+             targetNamespace="http://vf4.com/Services/CM/2020-12">
+             
+        <port>CM-2020-12-ChangeManagement</port>
+        
+        
+    <operation name="deriveChange" in="svc:DeriveChangeInput" out="svc:DeriveChangeResponse">
+        <documentation><![CDATA[
+        Operation for creating ECN from ECR.
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    <operation name="getImpactedPrograms" in="svc:GetImpactedProgramsInput" out="svc:ImpactedProgramResponse">
+        <documentation><![CDATA[
+        .
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    <operation name="getPartNumberChangeHistory" in="svc:GetPartNumberChangeHistoryInput" out="svc:PartNumberChangeHistoryResponse">
+        <documentation><![CDATA[
+        Return part number change's history which accompanies with relevant ECR.
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    </service>
+</services>

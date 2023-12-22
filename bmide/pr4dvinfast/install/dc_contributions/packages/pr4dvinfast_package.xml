@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="3B64E0E65EE4AB3670C7A4C6A4E99C3B" packageId="pr4dvinfast">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies>
+        <dependency id="integration4catia" type="requires"/>
+        <dependency id="translationservice" type="requires"/>
+    </dependencies>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="E5CDA9B24B1CFFB86ED0248ED8EA02B5">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_pr4dvinfast_path}/artifacts/pr4dvinfast_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_pr4dvinfast_path}/artifacts/pr4dvinfast_install.zip"/>
+                    <copy file="${Teamcenter_pr4dvinfast_path}/artifacts/pr4dvinfast_icons.zip" todir="${Teamcenter_root_path}/install/pr4dvinfast"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="pr4dvinfast"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_pr4dvinfast_path}/artifacts/pr4dvinfast_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_pr4dvinfast_path}/artifacts/pr4dvinfast_install.zip"/>
+                    <copy file="${Teamcenter_pr4dvinfast_path}/artifacts/pr4dvinfast_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/pr4dvinfast"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="pr4dvinfast"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+</package>

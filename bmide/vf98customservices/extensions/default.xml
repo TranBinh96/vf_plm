@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2014.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="Wed Jul 08 10:58:13 PM 2020" TcVersion="tc11000.2.0">
+<Add>
+   <Library name="VF98SoaCustomSrv" createRelease="tc11000.3.0" serviceLibrary="true"
+       namespace="VF98::Soa::CustomSrv" isThirdParty="false" description="Vinfast Custom Service Library"/>
+   <ServiceInterface name="MailSender" namespace="VF98::Soa::CustomSrv" libraryName="VF98SoaCustomSrv"
+       serviceLibraryRef="" dependencies="" createRelease="tc11000.3.0" description="Service to send mail from Teamcenter server with full custom content"/>
+   <OperationTemplate id="bool#VF98::Soa::CustomSrv::MailSender::sendEmail#const,std::string,*$const,std::string,*$const,std::string,*$const,std::string,*$const,std::string,*$const,std::string,*"
+       name="VF98::Soa::CustomSrv::MailSender::sendEmail" returnConst="false" createRelease="tc11000.3.0"
+       description="send a mail from Teamcenter server" const="false" static="false"
+       returnFreeMemory="false" returnDescription="false in case of error">
+     <OperationReturnDataTypeRef dataType="bool" qualifier=""/>
+     <OperationParameter name="mailFrom" description="Alias for Sender of email" const="true"
+         inputOutput="Input" freeOutputMemory="false" defaultValue="">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="*"/>
+     </OperationParameter>
+     <OperationParameter name="mailTo" description="list of users in Send To field, seperated by semicolon (;). ie: abc@example.com;def@google.com"
+         const="true" inputOutput="Input" freeOutputMemory="false" defaultValue="">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="*"/>
+     </OperationParameter>
+     <OperationParameter name="mailCC" description="list of users in CC field, seperated by semicolon (;). ie: abc@example.com;def@google.com"
+         const="true" inputOutput="Input" freeOutputMemory="false" defaultValue="">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="*"/>
+     </OperationParameter>
+     <OperationParameter name="mailSubject" description="mail subject" const="true"
+         inputOutput="Input" freeOutputMemory="false" defaultValue="">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="*"/>
+     </OperationParameter>
+     <OperationParameter name="mailContent" description="content of mail" const="true"
+         inputOutput="Input" freeOutputMemory="false" defaultValue="">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="*"/>
+     </OperationParameter>
+     <OperationParameter name="mailAttachment" description="path to files for attachment. Seperated by semicolon (;). ie: z:\a\file1.txt;z:\b\file2.text"
+         const="true" inputOutput="Input" freeOutputMemory="false" defaultValue="">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="*"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <Operation id="sendEmail#const,std::string,*$const,std::string,*$const,std::string,*$const,std::string,*$const,std::string,*$const,std::string,*"
+       name="sendEmail" createRelease="tc11000.3.0" description="send a mail from Teamcenter server"
+       opTemplate="bool#VF98::Soa::CustomSrv::MailSender::sendEmail#const,std::string,*$const,std::string,*$const,std::string,*$const,std::string,*$const,std::string,*$const,std::string,*"
+       interface="VF98::Soa::CustomSrv::MailSender" isPublished="true" canOverride="false"
+       isPreActionAllowed="false" isPostActionAllowed="false" isPreConditionAllowed="false"
+       returnDescription="false in case of error" component="" useCase="" dependencies=""
+       exceptionCondition="">
+     <ParameterInfo parameterName="mailFrom" description="Alias for Sender of email"/>
+     <ParameterInfo parameterName="mailTo" description="list of users in Send To field, seperated by semicolon (;). ie: abc@example.com;def@google.com"/>
+     <ParameterInfo parameterName="mailCC" description="list of users in CC field, seperated by semicolon (;). ie: abc@example.com;def@google.com"/>
+     <ParameterInfo parameterName="mailSubject" description="mail subject"/>
+     <ParameterInfo parameterName="mailContent" description="content of mail"/>
+     <ParameterInfo parameterName="mailAttachment" description="path to files for attachment. Seperated by semicolon (;). ie: z:\a\file1.txt;z:\b\file2.text"/>
+   </Operation>
+   <OperationTemplate id="bool#VF98::Soa::CustomSrv::MailSender::sendEmail#const,std::string,&amp;$const,std::string,&amp;$const,std::string,&amp;"
+       name="VF98::Soa::CustomSrv::MailSender::sendEmail" returnConst="false" createRelease="tc11000.6.0"
+       description="" const="false" static="false" returnFreeMemory="false" returnDescription="">
+     <OperationReturnDataTypeRef dataType="bool" qualifier=""/>
+     <OperationParameter name="to" description="toEmails separate by semicolon" const="true"
+         inputOutput="Input" freeOutputMemory="false" defaultValue="">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+     </OperationParameter>
+     <OperationParameter name="subject" description="Email subject" const="true" inputOutput="Input"
+         freeOutputMemory="false" defaultValue="">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+     </OperationParameter>
+     <OperationParameter name="content" description="Mail content" const="true" inputOutput="Input"
+         freeOutputMemory="false" defaultValue="">
+       <OperationParameterDataTypeRef dataType="std::string" qualifier="&amp;"/>
+     </OperationParameter>
+   </OperationTemplate>
+   <Operation id="sendEmail#const,std::string,&amp;$const,std::string,&amp;$const,std::string,&amp;"
+       name="sendEmail" createRelease="tc11000.6.0" description="" opTemplate="bool#VF98::Soa::CustomSrv::MailSender::sendEmail#const,std::string,&amp;$const,std::string,&amp;$const,std::string,&amp;"
+       interface="VF98::Soa::CustomSrv::MailSender" isPublished="true" canOverride="false"
+       isPreActionAllowed="false" isPostActionAllowed="false" isPreConditionAllowed="false"
+       returnDescription="" component="" useCase="" dependencies="" exceptionCondition="">
+     <ParameterInfo parameterName="to" description="toEmails separate by semicolon"/>
+     <ParameterInfo parameterName="subject" description="Email subject"/>
+     <ParameterInfo parameterName="content" description="Mail content"/>
+   </Operation>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="en_US"/>
+   <Functionality name="VF98customservices" displayName="Vinfast Custom Services"
+       enabledForVerificationRules="false" description="Component for the template - vf98customservices"/>
+</Add>
+</TcBusinessData>

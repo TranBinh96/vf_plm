@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Mar 30 08:37:29 PM 2020">
+  <Add/>
+  <Change>
+    <TcLOV name="VF3_change_index_lov" lovType="ListOfValuesString" usage="Exhaustive"
+        description="" isManagedExternally="true">
+      <TcLOVValue value="NEW" description="" conditionName="isTrue"/>
+      <TcLOVValue value="MOD" description="" conditionName="isTrue"/>
+      <TcLOVValue value="COP" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NEM" description="" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

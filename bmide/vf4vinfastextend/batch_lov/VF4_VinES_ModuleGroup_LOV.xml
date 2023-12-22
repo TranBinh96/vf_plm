@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Sat Oct 23 05:44:25 AM 2021">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_VinES_ModuleGroup_LOV" lovType="ListOfValuesString" usage="Exhaustive"
+      description="" isManagedExternally="true">
+      <TcLOVValue value="Battery Pack" description="" conditionName="isTrue" />
+      <TcLOVValue value="ME" description="" conditionName="isTrue" />
+      <TcLOVValue value="MD" description="" conditionName="isTrue" />
+      <TcLOVValue value="EE" description="" conditionName="isTrue" />
+      <TcLOVValue value="SW" description="" conditionName="isTrue" />
+      <TcLOVValue value="ESS" description="" conditionName="isTrue" />
+      <TcLOVValue value="CHEMICAL/MATERIAL" description="" conditionName="isTrue" />
+      <TcLOVValue value="CELL" description="" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

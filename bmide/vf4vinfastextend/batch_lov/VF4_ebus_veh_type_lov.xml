@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Mon Jun 17 10:32:07 PM 2019">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_ebus_veh_type_lov" lovType="ListOfValuesString" usage="Exhaustive"
+      description="LOV EBUS Vehicle Type" isManagedExternally="true">
+      <TcLOVValue value="PLATFORM" description="" conditionName="isTrue" />
+      <TcLOVValue value="BUS 10M" description="" conditionName="isTrue" />
+      <TcLOVValue value="BUS 6M" description="" conditionName="isTrue" />
+      <TcLOVValue value="EBUS 12M" description="" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

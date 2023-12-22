@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=======================================================================
+Copyright 2009.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+=======================================================================
+     Filename: ItemCreate.xml
+
+    Style sheet rendering for Item creation.
+=======================================================================
+-->
+
+<rendering>   
+    <page title="VF Standard Document Information" titleKey="tc_xrt_VF9_D_StandardInformation">
+         <section titleKey="tc_xrt_properties">
+            <property name="item_id" />
+           <!-- property name="revision:item_revision_id" enderingHint="textfield" modifiable="false" /-->
+            <property name="object_name" renderingHint="textfield" column="32" />
+			<property name="revision:vf9_module_lev0"/>
+			<property name="revision:vf9_module_lev1"/>
+			<property name="revision:vf9_module_lev2"/>
+			<property name="revision:vf9_keyword"/>
+			<property name="revision:vf9_referenceNumber"/>		
+          <property name="object_desc" />			
+            <separator/>
+            <property name="uom_tag" /> 
+           
+        </section>
+		 
+       
+    </page>
+
+</rendering>

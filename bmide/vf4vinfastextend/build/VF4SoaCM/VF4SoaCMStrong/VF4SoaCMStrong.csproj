@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FA9D474-62A0-4C87-BBB3-63BCF20CB32B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>VF4SoaCMStrong</AssemblyName>
+    <TcProjRoot>..\..\..\</TcProjRoot>
+    <TcGenSrcHome>$(PROJECT_DRV)\VF4SoaCMClient\strong\net</TcGenSrcHome>
+    <OutputPath>$(PROJECT_NET)\</OutputPath>
+    <IntermediateOutDir>$(PROJECT_IOD)\VF4SoaCMStrong</IntermediateOutDir>
+    <IntermediateOutputPath>$(IntermediateOutDir)\</IntermediateOutputPath>
+    <BaseIntermediateOutputPath>$(IntermediateOutDir)</BaseIntermediateOutputPath>
+    <TcSoaKitLibsPath>$(SOA_CLIENT_KIT)\net\libs</TcSoaKitLibsPath>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NoWarn>1574,1607</NoWarn>  <!-- poor XML document formatting, version label -->
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TcSoaCommon">
+      <HintPath>$(TcSoaKitLibsPath)\TcSoaCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="TcSoaClient">
+      <HintPath>$(TcSoaKitLibsPath)\TcSoaClient.dll</HintPath>
+    </Reference>
+    <Reference Include="TcSoaStrongModel">
+      <HintPath>$(TcSoaKitLibsPath)\TcSoaStrongModel.dll</HintPath>
+    </Reference>
+    <Reference Include="TcSoaStrongModelVf4vinfastextend">
+        <HintPath>$(OutputPath)\TcSoaStrongModelVf4vinfastextend.dll</HintPath>
+     </Reference>   
+    <Reference Include="Aps0SoaStrongModelApsCore">
+        <HintPath>$(TcSoaKitLibsPath)\Aps0SoaStrongModelApsCore.dll</HintPath>
+    </Reference>
+    <Reference Include="TcSoaStrongModelCm">
+        <HintPath>$(TcSoaKitLibsPath)\TcSoaStrongModelCm.dll</HintPath>
+    </Reference>
+    <Reference Include="TcSoaStrongModelMaterialMgmt">
+        <HintPath>$(TcSoaKitLibsPath)\TcSoaStrongModelMaterialMgmt.dll</HintPath>
+    </Reference>
+    <Reference Include="Srh0SoaStrongModelApsConfiguredSearch">
+        <HintPath>$(TcSoaKitLibsPath)\Srh0SoaStrongModelApsConfiguredSearch.dll</HintPath>
+    </Reference>
+    <Reference Include="TcSoaStrongModelVendorManagement">
+        <HintPath>$(TcSoaKitLibsPath)\TcSoaStrongModelVendorManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="TcSoaStrongModelIssuemgmt">
+        <HintPath>$(TcSoaKitLibsPath)\TcSoaStrongModelIssuemgmt.dll</HintPath>
+    </Reference>
+    <Reference Include="Cfg0SoaStrongModelConfigurator">
+        <HintPath>$(TcSoaKitLibsPath)\Cfg0SoaStrongModelConfigurator.dll</HintPath>
+    </Reference>
+    <Reference Include="CPA0SoaStrongModelCapaDataModel">
+        <HintPath>$(TcSoaKitLibsPath)\CPA0SoaStrongModelCapaDataModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Smc0SoaStrongModelPsMcfgSupport">
+        <HintPath>$(TcSoaKitLibsPath)\Smc0SoaStrongModelPsMcfgSupport.dll</HintPath>
+    </Reference>
+    
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(TcGenSrcHome)\**\*.cs" />
+  </ItemGroup>
+  <Import Project="$(CHSARP_HOME)\Microsoft.CSharp.targets" /> 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  	<Target Name = "Clean">
+        <Delete Files="$(IntermediateOutDir)\..\VF4SoaCMStrongVF4SoaCMStrong.csproj.FileListAbsolute.txt" />   
+        <RemoveDir Directories="$(IntermediateOutDir)" />       
+        <Delete Files="$(OutputPath)VF4SoaCMStrong.dll" />      
+        <Delete Files="$(OutputPath)VF4SoaCMStrong.pdb" />      
+    </Target>  
+</Project>

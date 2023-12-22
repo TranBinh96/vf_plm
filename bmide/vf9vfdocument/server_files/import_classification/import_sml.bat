@@ -1,0 +1,1 @@
+smlutility -import -u=infodba -p=infodba -g=dba -file=.\STD_document_classify.sml -update

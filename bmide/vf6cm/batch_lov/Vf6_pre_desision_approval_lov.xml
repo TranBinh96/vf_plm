@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Thu Oct 21 03:06:13 PM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="Vf6_pre_desision_approval_lov" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="APPROVED" description="" conditionName="isTrue"/>
+      <TcLOVValue value="APPROVED (COMBINE P RELEASE)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="APPROVED (COMBINE I RELEASE)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="APPROVED (COMBINE PR RELEASE)" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FOLLOW UP" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DECLINED" description="" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

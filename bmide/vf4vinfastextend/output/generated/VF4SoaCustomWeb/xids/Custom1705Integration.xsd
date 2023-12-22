@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://vf4.com/Schemas/Custom/2017-05/Integration"
+    xmlns:tns="http://vf4.com/Schemas/Custom/2017-05/Integration" 
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+     
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xsd:import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"           schemaLocation="SoaBase.xsd" />
+    
+    
+
+
+    <xsd:complexType name="NominateSupplierInput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="vfPartNumbers" type="xsd:string"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        List of VF Part Numbers
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="supplierCode" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Supplier Code
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="manufacturingLocation" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Manufacturing Location present by String
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="isTriggerKarafEvent" type="xsd:boolean" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    If true, Karaf event will be triggerred. If false, it's not triggered.
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+
+    <xsd:element name="NominateSupplierToSQPInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="nominateSupplierInput" type="tns:NominateSupplierInput" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Parts list and nominated supplier code.
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="NominateSupplierToSQPOutput">
+    <xsd:complexType>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="out" type="xsd:boolean" use="required">
+       </xsd:attribute>
+    </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:element name="RemoveSupplierInfoInput">
+    <xsd:complexType>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="sourcePartNo" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Source Part Number
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="RemoveSupplierInfoOutput">
+    <xsd:complexType>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="out" type="xsd:boolean" use="required">
+       </xsd:attribute>
+    </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:element name="UpdateQcheckerPropertyInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="designRevision" type="soa:ModelObject" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Vf4 DesignRevision
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="result" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Qchecker result
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="UpdateQcheckerPropertyOutput">
+    <xsd:complexType>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="out" type="xsd:boolean" use="required">
+       </xsd:attribute>
+    </xsd:complexType>
+    </xsd:element>
+
+
+
+</xsd:schema>

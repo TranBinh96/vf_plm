@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Jun 17 10:31:59 PM 2019">
+  <Add/>
+  <Change>
+    <TcLOV name="VF9_veh_L2PWT_lov" lovType="ListOfValuesString" usage="Exhaustive"
+        description="" isManagedExternally="true">
+
+      <TcLOVValue value="TRANSMISSION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="OUTER SHIFTING SYSTEM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="REAR AXLE DIFFERENTIAL" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ALL-WHEEL-DRIVE SYSTEM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="HEATER /AIR CONDITIONING" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BASIC ENGINE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ENGINE COMPARTMENT" description="" conditionName="isTrue"/>
+      <TcLOVValue value="EXHAUST SYSTEM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ENGINE COOLING" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ASM ENGINE" description="" conditionName="isTrue"/>
+
+    </TcLOV>
+  </Change>
+</TcBusinessData>

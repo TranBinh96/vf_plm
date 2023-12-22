@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Jun 17 10:31:59 PM 2019">
+  <Add/>
+  <Change>
+    <TcLOV name="VF9_veh_L2ENG_lov" lovType="ListOfValuesString" usage="Exhaustive"
+        description="" isManagedExternally="true">
+
+		<TcLOVValue value="CYLINDER" description="" conditionName="isTrue"/>
+		<TcLOVValue value="PISTON SET" description="" conditionName="isTrue"/>
+		<TcLOVValue value="CRANK SHAFT" description="" conditionName="isTrue"/>
+		<TcLOVValue value="CYLINDER BLOCK" description="" conditionName="isTrue"/>
+		<TcLOVValue value="CYLINDER HEAD" description="" conditionName="isTrue"/>
+		<TcLOVValue value="CRANK CASE COVER" description="" conditionName="isTrue"/>
+		<TcLOVValue value="GEAR SHAFT" description="" conditionName="isTrue"/>
+		<TcLOVValue value="BEARING" description="" conditionName="isTrue"/>
+		<TcLOVValue value="GASKET AND SEAL" description="" conditionName="isTrue"/>
+		<TcLOVValue value="COMPLETE EXHAUST" description="" conditionName="isTrue"/>
+		<TcLOVValue value="PIN DOWEL" description="" conditionName="isTrue"/>
+		
+    </TcLOV>
+  </Change>
+</TcBusinessData>
+

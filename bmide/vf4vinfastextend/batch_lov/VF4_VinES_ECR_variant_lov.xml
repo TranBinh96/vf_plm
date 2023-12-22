@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Sat Oct 23 05:44:25 AM 2021">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_VinES_ECR_variant_lov" lovType="ListOfValuesString" usage="Exhaustive"
+      description="" isManagedExternally="true">
+      <!-- <TcLOVValue value="VF - BUS" description="" conditionName="isTrue" />
+      <TcLOVValue value="VF - BUS - JEE" description="" conditionName="isTrue" />
+      <TcLOVValue value="VF - BUS - S" description="" conditionName="isTrue" /> -->
+    </TcLOV>
+  </Change>
+</TcBusinessData>

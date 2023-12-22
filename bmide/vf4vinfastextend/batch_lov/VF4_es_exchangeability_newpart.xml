@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Sat Oct 23 05:44:25 AM 2021">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_es_exchangeability_newpart" lovType="ListOfValuesString" usage="Exhaustive"
+      description="" isManagedExternally="true">
+      <TcLOVValue value="New parts may be used on old models as they are" description="" conditionName="isTrue" />
+      <TcLOVValue value="New parts may be used on old models in combination with other parts" description="" conditionName="isTrue" />
+      <TcLOVValue value="New parts must not be used on old models" description="" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

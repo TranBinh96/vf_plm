@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="VF9_D_Certificat" parentClassName="VF9_VF_Document" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_CertificatMasterS" parentClassName="VF9_VF_DocumentMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_CertificatRevMasterS" parentClassName="VF9_VF_DocumentRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_CertificatRevision" parentClassName="VF9_VF_DocumentRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="vf9_Issuer" description="" attributeType="POM_string"
+         maxStringLength="10" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Issue_Date" description="1st Issue Date" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Effective" description="" attributeType="POM_int"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Valid_Until" description="Valid Until" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="VF9_D_Regulation" parentClassName="VF9_VF_Document" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_RegulationMasterS" parentClassName="VF9_VF_DocumentMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_RegulationRevMasterS" parentClassName="VF9_VF_DocumentRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_RegulationRevision" parentClassName="VF9_VF_DocumentRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="vf9_Application" description="" attributeType="POM_string"
+         maxStringLength="10" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Status" description="" attributeType="POM_string"
+         maxStringLength="10" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_reg_type" description="" attributeType="POM_string"
+         maxStringLength="10" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_reg_title" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_reg_title_vn" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Priority" description="Priority" attributeType="POM_logical"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue="NULL"/>
+     <TcAttribute attributeName="vf9_reg_English" description="English" attributeType="POM_logical"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="vf9_reg_others" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_reg_VN" description="Viet Nam" attributeType="POM_logical"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false"/>
+     <TcAttribute attributeName="vf9_reg_subject" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_issue_date" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_vehicle_cate_app_effect" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_effective_model" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_country_source_of_issue" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_importance" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_urgency" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_enforcement_timing" description="" attributeType="POM_date"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_enforcement_basis" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="VF9_D_Standard" parentClassName="VF9_VF_Document" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_StandardMasterS" parentClassName="VF9_VF_DocumentMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_StandardRevMasterS" parentClassName="VF9_VF_DocumentRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_StandardRevision" parentClassName="VF9_VF_DocumentRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="vf9_module_lev0" description="Module Level 0" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue="VEHICLE STANDARD"
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_module_lev1" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_module_lev2" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_keyword" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue="NULL"
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_referenceNumber" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue="NULL"
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="VF9_D_TestReport" parentClassName="VF9_VF_Document" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_TestReportMasterS" parentClassName="VF9_VF_DocumentMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_TestReportRevMasterS" parentClassName="VF9_VF_DocumentRevMasterS"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_D_TestReportRevision" parentClassName="VF9_VF_DocumentRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="vf9_Tester" description="" attributeType="POM_string"
+         maxStringLength="10" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Tech_Regu" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Result" description="" attributeType="POM_string"
+         maxStringLength="10" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Report_Date" description="Date of results Report"
+         attributeType="POM_date" maxStringLength="0" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Export" description="Name of Exporter" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Motor_No" description="Motor Number" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="VF9_VF_Document" parentClassName="Document" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_VF_DocumentMasterS" parentClassName="IMSProfile" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_VF_DocumentRevMasterS" parentClassName="IMSProfile" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="VF9_VF_DocumentRevision" parentClassName="DocumentRevision"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="vf9_Document_Type" description="" attributeType="POM_string"
+         maxStringLength="30" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Vehicle_Type" description="Vehicle Type/Component Name"
+         attributeType="POM_string" maxStringLength="128" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Trade_Mark" description="Trade Mark" attributeType="POM_string"
+         maxStringLength="10" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Model_Code" description="Model Code" attributeType="POM_string"
+         maxStringLength="20" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Manufacture" description="Name of Manufacture"
+         attributeType="POM_string" maxStringLength="128" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Client" description="Name of Client" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Note" description="Note" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Import" description="Name of Importer" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue=""
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Frame_No" description="Frame No/Component/VIN Code"
+         attributeType="POM_string" maxStringLength="128" isArray="false" followOnExport="false"
+         isNullsAllowed="true" isUnique="false" isPublicRead="true" isPublicWrite="true"
+         isCandidateKey="false" isTransient="false" exportAsString="false" noBackpointer="false"
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf9_Destination" description="Destination" attributeType="POM_string"
+         maxStringLength="128" isArray="true" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         arrayLength="-1" isTransient="false" exportAsString="false" noBackpointer="false"/>
+   </TcClass>
+   <OperationInputType typeName="VF9_D_CertificatCreI" parentTypeName="VF9_VF_DocumentCreI"
+       typeClassName="VF9_D_CertificatCreI" description="CreateInput object for &quot;VF9_D_Certificat&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatCreI"/>
+   <OperationInputType typeName="VF9_D_CertificatMasterCreI" parentTypeName="VF9_VF_DocumentMasterCreI"
+       typeClassName="VF9_D_CertificatMasterCreI" description="CreateInput object for &quot;VF9_D_CertificatMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatMasterCreI"/>
+   <OperationInputType typeName="VF9_D_CertificatMasterSCreI" parentTypeName="VF9_VF_DocumentMasterSCreI"
+       typeClassName="VF9_D_CertificatMasterSCreI" description="CreateInput object for &quot;VF9_D_CertificatMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatMasterSCreI"/>
+   <OperationInputType typeName="VF9_D_CertificatMasterSSvAI" parentTypeName="VF9_VF_DocumentMasterSSvAI"
+       typeClassName="VF9_D_CertificatMasterSSvAI" description="SaveAsInput object for &quot;VF9_D_CertificatMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatMasterSSvAI"/>
+   <OperationInputType typeName="VF9_D_CertificatMasterSvAI" parentTypeName="VF9_VF_DocumentMasterSvAI"
+       typeClassName="VF9_D_CertificatMasterSvAI" description="SaveAsInput object for &quot;VF9_D_CertificatMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatMasterSvAI"/>
+   <OperationInputType typeName="VF9_D_CertificatRevMasterSCreI" parentTypeName="VF9_VF_DocumentRevMasterSCreI"
+       typeClassName="VF9_D_CertificatRevMasterSCreI" description="CreateInput object for &quot;VF9_D_CertificatRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatRevMasterSCreI"/>
+   <OperationInputType typeName="VF9_D_CertificatRevMasterSSvAI" parentTypeName="VF9_VF_DocumentRevMasterSSvAI"
+       typeClassName="VF9_D_CertificatRevMasterSSvAI" description="SaveAsInput object for &quot;VF9_D_CertificatRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatRevMasterSSvAI"/>
+   <OperationInputType typeName="VF9_D_CertificatRevisi_alt0CreI" parentTypeName="VF9_VF_DocumentRevisio_alt0CreI"
+       typeClassName="VF9_D_CertificatRevisi_alt0CreI" description="CreateInput object for &quot;VF9_D_CertificatRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatRevisi_alt0CreI"/>
+   <OperationInputType typeName="VF9_D_CertificatRevisi_alt0SvAI" parentTypeName="VF9_VF_DocumentRevisio_alt0SvAI"
+       typeClassName="VF9_D_CertificatRevisi_alt0SvAI" description="SaveAsInput object for &quot;VF9_D_CertificatRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatRevisi_alt0SvAI"/>
+   <OperationInputType typeName="VF9_D_CertificatRevisionCreI" parentTypeName="VF9_VF_DocumentRevisionCreI"
+       typeClassName="VF9_D_CertificatRevisionCreI" description="CreateInput object for &quot;VF9_D_CertificatRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatRevisionCreI">
+     <OperationInputProperty propName="vf9_Issuer" compoundObjectConstant="" srcPropName="vf9_Issuer"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_Issue_Date" compoundObjectConstant="" srcPropName="vf9_Issue_Date"
+         compoundObjectType="" fieldType="SimpleProperty" description="1st Issue Date"/>
+     <OperationInputProperty propName="vf9_Effective" compoundObjectConstant="" srcPropName="vf9_Effective"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_Valid_Until" compoundObjectConstant=""
+         srcPropName="vf9_Valid_Until" compoundObjectType="" fieldType="SimpleProperty"
+         description="Valid Until"/>
+   </OperationInputType>
+   <OperationInputType typeName="VF9_D_CertificatRevisionRevI" parentTypeName="VF9_VF_DocumentRevisionRevI"
+       typeClassName="VF9_D_CertificatRevisionRevI" description="ReviseInput object for &quot;VF9_D_CertificatRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatRevisionRevI"/>
+   <OperationInputType typeName="VF9_D_CertificatRevisionSvAI" parentTypeName="VF9_VF_DocumentRevisionSvAI"
+       typeClassName="VF9_D_CertificatRevisionSvAI" description="SaveAsInput object for &quot;VF9_D_CertificatRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatRevisionSvAI"/>
+   <OperationInputType typeName="VF9_D_CertificatSvAI" parentTypeName="VF9_VF_DocumentSvAI"
+       typeClassName="VF9_D_CertificatSvAI" description="SaveAsInput object for &quot;VF9_D_Certificat&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatSvAI"/>
+   <OperationInputType typeName="VF9_D_RegulationCreI" parentTypeName="VF9_VF_DocumentCreI"
+       typeClassName="VF9_D_RegulationCreI" description="CreateInput object for &quot;VF9_D_Regulation&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationCreI"/>
+   <OperationInputType typeName="VF9_D_RegulationMasterCreI" parentTypeName="VF9_VF_DocumentMasterCreI"
+       typeClassName="VF9_D_RegulationMasterCreI" description="CreateInput object for &quot;VF9_D_RegulationMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationMasterCreI"/>
+   <OperationInputType typeName="VF9_D_RegulationMasterSCreI" parentTypeName="VF9_VF_DocumentMasterSCreI"
+       typeClassName="VF9_D_RegulationMasterSCreI" description="CreateInput object for &quot;VF9_D_RegulationMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationMasterSCreI"/>
+   <OperationInputType typeName="VF9_D_RegulationMasterSSvAI" parentTypeName="VF9_VF_DocumentMasterSSvAI"
+       typeClassName="VF9_D_RegulationMasterSSvAI" description="SaveAsInput object for &quot;VF9_D_RegulationMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationMasterSSvAI"/>
+   <OperationInputType typeName="VF9_D_RegulationMasterSvAI" parentTypeName="VF9_VF_DocumentMasterSvAI"
+       typeClassName="VF9_D_RegulationMasterSvAI" description="SaveAsInput object for &quot;VF9_D_RegulationMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationMasterSvAI"/>
+   <OperationInputType typeName="VF9_D_RegulationRevMasterSCreI" parentTypeName="VF9_VF_DocumentRevMasterSCreI"
+       typeClassName="VF9_D_RegulationRevMasterSCreI" description="CreateInput object for &quot;VF9_D_RegulationRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationRevMasterSCreI"/>
+   <OperationInputType typeName="VF9_D_RegulationRevMasterSSvAI" parentTypeName="VF9_VF_DocumentRevMasterSSvAI"
+       typeClassName="VF9_D_RegulationRevMasterSSvAI" description="SaveAsInput object for &quot;VF9_D_RegulationRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationRevMasterSSvAI"/>
+   <OperationInputType typeName="VF9_D_RegulationRevisi_alt0CreI" parentTypeName="VF9_VF_DocumentRevisio_alt0CreI"
+       typeClassName="VF9_D_RegulationRevisi_alt0CreI" description="CreateInput object for &quot;VF9_D_RegulationRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationRevisi_alt0CreI"/>
+   <OperationInputType typeName="VF9_D_RegulationRevisi_alt0SvAI" parentTypeName="VF9_VF_DocumentRevisio_alt0SvAI"
+       typeClassName="VF9_D_RegulationRevisi_alt0SvAI" description="SaveAsInput object for &quot;VF9_D_RegulationRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationRevisi_alt0SvAI"/>
+   <OperationInputType typeName="VF9_D_RegulationRevisionCreI" parentTypeName="VF9_VF_DocumentRevisionCreI"
+       typeClassName="VF9_D_RegulationRevisionCreI" description="CreateInput object for &quot;VF9_D_RegulationRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationRevisionCreI">
+     <OperationInputProperty propName="vf9_Application" compoundObjectConstant=""
+         srcPropName="vf9_Application" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_Status" compoundObjectConstant="" srcPropName="vf9_Status"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_reg_type" compoundObjectConstant="" srcPropName="vf9_reg_type"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_reg_title" compoundObjectConstant="" srcPropName="vf9_reg_title"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_reg_title_vn" compoundObjectConstant=""
+         srcPropName="vf9_reg_title_vn" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_Priority" compoundObjectConstant="" srcPropName="vf9_Priority"
+         compoundObjectType="" fieldType="SimpleProperty" description="Priority"/>
+     <OperationInputProperty propName="vf9_reg_English" compoundObjectConstant=""
+         srcPropName="vf9_reg_English" compoundObjectType="" fieldType="SimpleProperty"
+         description="English"/>
+     <OperationInputProperty propName="vf9_reg_others" compoundObjectConstant="" srcPropName="vf9_reg_others"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_reg_VN" compoundObjectConstant="" srcPropName="vf9_reg_VN"
+         compoundObjectType="" fieldType="SimpleProperty" description="Viet Nam"/>
+     <OperationInputProperty propName="vf9_reg_subject" compoundObjectConstant=""
+         srcPropName="vf9_reg_subject" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_issue_date" compoundObjectConstant="" srcPropName="vf9_issue_date"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_vehicle_cate_app_effect" compoundObjectConstant=""
+         srcPropName="vf9_vehicle_cate_app_effect" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_effective_model" compoundObjectConstant=""
+         srcPropName="vf9_effective_model" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_country_source_of_issue" compoundObjectConstant=""
+         srcPropName="vf9_country_source_of_issue" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_importance" compoundObjectConstant="" srcPropName="vf9_importance"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_urgency" compoundObjectConstant="" srcPropName="vf9_urgency"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_enforcement_timing" compoundObjectConstant=""
+         srcPropName="vf9_enforcement_timing" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_enforcement_basis" compoundObjectConstant=""
+         srcPropName="vf9_enforcement_basis" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="VF9_D_RegulationRevisionRevI" parentTypeName="VF9_VF_DocumentRevisionRevI"
+       typeClassName="VF9_D_RegulationRevisionRevI" description="ReviseInput object for &quot;VF9_D_RegulationRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationRevisionRevI"/>
+   <OperationInputType typeName="VF9_D_RegulationRevisionSvAI" parentTypeName="VF9_VF_DocumentRevisionSvAI"
+       typeClassName="VF9_D_RegulationRevisionSvAI" description="SaveAsInput object for &quot;VF9_D_RegulationRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationRevisionSvAI"/>
+   <OperationInputType typeName="VF9_D_RegulationSvAI" parentTypeName="VF9_VF_DocumentSvAI"
+       typeClassName="VF9_D_RegulationSvAI" description="SaveAsInput object for &quot;VF9_D_Regulation&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationSvAI"/>
+   <OperationInputType typeName="VF9_D_StandardCreI" parentTypeName="VF9_VF_DocumentCreI"
+       typeClassName="VF9_D_StandardCreI" description="CreateInput object for &quot;VF9_D_Standard&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardCreI"/>
+   <OperationInputType typeName="VF9_D_StandardMasterCreI" parentTypeName="VF9_VF_DocumentMasterCreI"
+       typeClassName="VF9_D_StandardMasterCreI" description="CreateInput object for &quot;VF9_D_StandardMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardMasterCreI"/>
+   <OperationInputType typeName="VF9_D_StandardMasterSCreI" parentTypeName="VF9_VF_DocumentMasterSCreI"
+       typeClassName="VF9_D_StandardMasterSCreI" description="CreateInput object for &quot;VF9_D_StandardMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardMasterSCreI"/>
+   <OperationInputType typeName="VF9_D_StandardMasterSSvAI" parentTypeName="VF9_VF_DocumentMasterSSvAI"
+       typeClassName="VF9_D_StandardMasterSSvAI" description="SaveAsInput object for &quot;VF9_D_StandardMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardMasterSSvAI"/>
+   <OperationInputType typeName="VF9_D_StandardMasterSvAI" parentTypeName="VF9_VF_DocumentMasterSvAI"
+       typeClassName="VF9_D_StandardMasterSvAI" description="SaveAsInput object for &quot;VF9_D_StandardMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardMasterSvAI"/>
+   <OperationInputType typeName="VF9_D_StandardRevMasterSCreI" parentTypeName="VF9_VF_DocumentRevMasterSCreI"
+       typeClassName="VF9_D_StandardRevMasterSCreI" description="CreateInput object for &quot;VF9_D_StandardRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardRevMasterSCreI"/>
+   <OperationInputType typeName="VF9_D_StandardRevMasterSSvAI" parentTypeName="VF9_VF_DocumentRevMasterSSvAI"
+       typeClassName="VF9_D_StandardRevMasterSSvAI" description="SaveAsInput object for &quot;VF9_D_StandardRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardRevMasterSSvAI"/>
+   <OperationInputType typeName="VF9_D_StandardRevisionCreI" parentTypeName="VF9_VF_DocumentRevisionCreI"
+       typeClassName="VF9_D_StandardRevisionCreI" description="CreateInput object for &quot;VF9_D_StandardRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardRevisionCreI">
+     <OperationInputProperty propName="vf9_module_lev0" compoundObjectConstant=""
+         srcPropName="vf9_module_lev0" compoundObjectType="" fieldType="SimpleProperty"
+         description="Module Level 0"/>
+     <OperationInputProperty propName="vf9_module_lev1" compoundObjectConstant=""
+         srcPropName="vf9_module_lev1" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_module_lev2" compoundObjectConstant=""
+         srcPropName="vf9_module_lev2" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_keyword" compoundObjectConstant="" srcPropName="vf9_keyword"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_referenceNumber" compoundObjectConstant=""
+         srcPropName="vf9_referenceNumber" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="VF9_D_StandardRevisionRevI" parentTypeName="VF9_VF_DocumentRevisionRevI"
+       typeClassName="VF9_D_StandardRevisionRevI" description="ReviseInput object for &quot;VF9_D_StandardRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardRevisionRevI">
+     <OperationInputProperty propName="vf9_module_lev0" compoundObjectConstant=""
+         srcPropName="vf9_module_lev0" compoundObjectType="" fieldType="SimpleProperty"
+         description="Module Level 0"/>
+     <OperationInputProperty propName="vf9_module_lev1" compoundObjectConstant=""
+         srcPropName="vf9_module_lev1" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_module_lev2" compoundObjectConstant=""
+         srcPropName="vf9_module_lev2" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_keyword" compoundObjectConstant="" srcPropName="vf9_keyword"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="VF9_D_StandardRevisionSvAI" parentTypeName="VF9_VF_DocumentRevisionSvAI"
+       typeClassName="VF9_D_StandardRevisionSvAI" description="SaveAsInput object for &quot;VF9_D_StandardRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardRevisionSvAI"/>
+   <OperationInputType typeName="VF9_D_StandardRevision_alt0CreI" parentTypeName="VF9_VF_DocumentRevisio_alt0CreI"
+       typeClassName="VF9_D_StandardRevision_alt0CreI" description="CreateInput object for &quot;VF9_D_StandardRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardRevision_alt0CreI"/>
+   <OperationInputType typeName="VF9_D_StandardRevision_alt0SvAI" parentTypeName="VF9_VF_DocumentRevisio_alt0SvAI"
+       typeClassName="VF9_D_StandardRevision_alt0SvAI" description="SaveAsInput object for &quot;VF9_D_StandardRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardRevision_alt0SvAI"/>
+   <OperationInputType typeName="VF9_D_StandardSvAI" parentTypeName="VF9_VF_DocumentSvAI"
+       typeClassName="VF9_D_StandardSvAI" description="SaveAsInput object for &quot;VF9_D_Standard&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardSvAI"/>
+   <OperationInputType typeName="VF9_D_TestReportCreI" parentTypeName="VF9_VF_DocumentCreI"
+       typeClassName="VF9_D_TestReportCreI" description="CreateInput object for &quot;VF9_D_TestReport&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportCreI"/>
+   <OperationInputType typeName="VF9_D_TestReportMasterCreI" parentTypeName="VF9_VF_DocumentMasterCreI"
+       typeClassName="VF9_D_TestReportMasterCreI" description="CreateInput object for &quot;VF9_D_TestReportMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportMasterCreI"/>
+   <OperationInputType typeName="VF9_D_TestReportMasterSCreI" parentTypeName="VF9_VF_DocumentMasterSCreI"
+       typeClassName="VF9_D_TestReportMasterSCreI" description="CreateInput object for &quot;VF9_D_TestReportMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportMasterSCreI"/>
+   <OperationInputType typeName="VF9_D_TestReportMasterSSvAI" parentTypeName="VF9_VF_DocumentMasterSSvAI"
+       typeClassName="VF9_D_TestReportMasterSSvAI" description="SaveAsInput object for &quot;VF9_D_TestReportMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportMasterSSvAI"/>
+   <OperationInputType typeName="VF9_D_TestReportMasterSvAI" parentTypeName="VF9_VF_DocumentMasterSvAI"
+       typeClassName="VF9_D_TestReportMasterSvAI" description="SaveAsInput object for &quot;VF9_D_TestReportMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportMasterSvAI"/>
+   <OperationInputType typeName="VF9_D_TestReportRevMasterSCreI" parentTypeName="VF9_VF_DocumentRevMasterSCreI"
+       typeClassName="VF9_D_TestReportRevMasterSCreI" description="CreateInput object for &quot;VF9_D_TestReportRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportRevMasterSCreI"/>
+   <OperationInputType typeName="VF9_D_TestReportRevMasterSSvAI" parentTypeName="VF9_VF_DocumentRevMasterSSvAI"
+       typeClassName="VF9_D_TestReportRevMasterSSvAI" description="SaveAsInput object for &quot;VF9_D_TestReportRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportRevMasterSSvAI"/>
+   <OperationInputType typeName="VF9_D_TestReportRevisi_alt0CreI" parentTypeName="VF9_VF_DocumentRevisio_alt0CreI"
+       typeClassName="VF9_D_TestReportRevisi_alt0CreI" description="CreateInput object for &quot;VF9_D_TestReportRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportRevisi_alt0CreI"/>
+   <OperationInputType typeName="VF9_D_TestReportRevisi_alt0SvAI" parentTypeName="VF9_VF_DocumentRevisio_alt0SvAI"
+       typeClassName="VF9_D_TestReportRevisi_alt0SvAI" description="SaveAsInput object for &quot;VF9_D_TestReportRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportRevisi_alt0SvAI"/>
+   <OperationInputType typeName="VF9_D_TestReportRevisionCreI" parentTypeName="VF9_VF_DocumentRevisionCreI"
+       typeClassName="VF9_D_TestReportRevisionCreI" description="CreateInput object for &quot;VF9_D_TestReportRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportRevisionCreI">
+     <OperationInputProperty propName="vf9_Tester" compoundObjectConstant="" srcPropName="vf9_Tester"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_Tech_Regu" compoundObjectConstant="" srcPropName="vf9_Tech_Regu"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_Result" compoundObjectConstant="" srcPropName="vf9_Result"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf9_Report_Date" compoundObjectConstant=""
+         srcPropName="vf9_Report_Date" compoundObjectType="" fieldType="SimpleProperty"
+         description="Date of results Report"/>
+     <OperationInputProperty propName="vf9_Export" compoundObjectConstant="" srcPropName="vf9_Export"
+         compoundObjectType="" fieldType="SimpleProperty" description="Name of Export"/>
+     <OperationInputProperty propName="vf9_Motor_No" compoundObjectConstant="" srcPropName="vf9_Motor_No"
+         compoundObjectType="" fieldType="SimpleProperty" description="Motor No"/>
+   </OperationInputType>
+   <OperationInputType typeName="VF9_D_TestReportRevisionRevI" parentTypeName="VF9_VF_DocumentRevisionRevI"
+       typeClassName="VF9_D_TestReportRevisionRevI" description="ReviseInput object for &quot;VF9_D_TestReportRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportRevisionRevI"/>
+   <OperationInputType typeName="VF9_D_TestReportRevisionSvAI" parentTypeName="VF9_VF_DocumentRevisionSvAI"
+       typeClassName="VF9_D_TestReportRevisionSvAI" description="SaveAsInput object for &quot;VF9_D_TestReportRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportRevisionSvAI"/>
+   <OperationInputType typeName="VF9_D_TestReportSvAI" parentTypeName="VF9_VF_DocumentSvAI"
+       typeClassName="VF9_D_TestReportSvAI" description="SaveAsInput object for &quot;VF9_D_TestReport&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportSvAI"/>
+   <OperationInputType typeName="VF9_VF_DocumentCreI" parentTypeName="DocumentCreI"
+       typeClassName="VF9_VF_DocumentCreI" description="CreateInput object for &quot;VF9_VF_Document&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentCreI"/>
+   <OperationInputType typeName="VF9_VF_DocumentMasterCreI" parentTypeName="Document MasterCreI"
+       typeClassName="VF9_VF_DocumentMasterCreI" description="CreateInput object for &quot;VF9_VF_DocumentMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentMasterCreI"/>
+   <OperationInputType typeName="VF9_VF_DocumentMasterSCreI" parentTypeName="IMSProfileCreI"
+       typeClassName="VF9_VF_DocumentMasterSCreI" description="CreateInput object for &quot;VF9_VF_DocumentMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentMasterSCreI"/>
+   <OperationInputType typeName="VF9_VF_DocumentMasterSSvAI" parentTypeName="IMSProfileSvAI"
+       typeClassName="VF9_VF_DocumentMasterSSvAI" description="SaveAsInput object for &quot;VF9_VF_DocumentMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentMasterSSvAI"/>
+   <OperationInputType typeName="VF9_VF_DocumentMasterSvAI" parentTypeName="Document MasterSvAI"
+       typeClassName="VF9_VF_DocumentMasterSvAI" description="SaveAsInput object for &quot;VF9_VF_DocumentMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentMasterSvAI"/>
+   <OperationInputType typeName="VF9_VF_DocumentRevMasterSCreI" parentTypeName="IMSProfileCreI"
+       typeClassName="VF9_VF_DocumentRevMasterSCreI" description="CreateInput object for &quot;VF9_VF_DocumentRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentRevMasterSCreI"/>
+   <OperationInputType typeName="VF9_VF_DocumentRevMasterSSvAI" parentTypeName="IMSProfileSvAI"
+       typeClassName="VF9_VF_DocumentRevMasterSSvAI" description="SaveAsInput object for &quot;VF9_VF_DocumentRevMasterS&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentRevMasterSSvAI"/>
+   <OperationInputType typeName="VF9_VF_DocumentRevisio_alt0CreI" parentTypeName="DocumentRevision MasterCreI"
+       typeClassName="VF9_VF_DocumentRevisio_alt0CreI" description="CreateInput object for &quot;VF9_VF_DocumentRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentRevisio_alt0CreI"/>
+   <OperationInputType typeName="VF9_VF_DocumentRevisio_alt0SvAI" parentTypeName="DocumentRevision MasterSvAI"
+       typeClassName="VF9_VF_DocumentRevisio_alt0SvAI" description="SaveAsInput object for &quot;VF9_VF_DocumentRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentRevisio_alt0SvAI"/>
+   <OperationInputType typeName="VF9_VF_DocumentRevisionCreI" parentTypeName="DocumentRevisionCreI"
+       typeClassName="VF9_VF_DocumentRevisionCreI" description="CreateInput object for &quot;VF9_VF_DocumentRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentRevisionCreI">
+     <OperationInputProperty propName="vf9_Document_Type" compoundObjectConstant=""
+         srcPropName="vf9_Document_Type" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf9_Vehicle_Type" compoundObjectConstant=""
+         srcPropName="vf9_Vehicle_Type" compoundObjectType="" fieldType="SimpleProperty"
+         description="Vehicle Type/Component Name"/>
+     <OperationInputProperty propName="vf9_Trade_Mark" compoundObjectConstant="" srcPropName="vf9_Trade_Mark"
+         compoundObjectType="" fieldType="SimpleProperty" description="Trade Mark"/>
+     <OperationInputProperty propName="vf9_Model_Code" compoundObjectConstant="" srcPropName="vf9_Model_Code"
+         compoundObjectType="" fieldType="SimpleProperty" description="Model Code"/>
+     <OperationInputProperty propName="vf9_Manufacture" compoundObjectConstant=""
+         srcPropName="vf9_Manufacture" compoundObjectType="" fieldType="SimpleProperty"
+         description="Name of Manufacture"/>
+     <OperationInputProperty propName="vf9_Client" compoundObjectConstant="" srcPropName="vf9_Client"
+         compoundObjectType="" fieldType="SimpleProperty" description="Name of Client"/>
+     <OperationInputProperty propName="vf9_Note" compoundObjectConstant="" srcPropName="vf9_Note"
+         compoundObjectType="" fieldType="SimpleProperty" description="Note"/>
+     <OperationInputProperty propName="vf9_Import" compoundObjectConstant="" srcPropName="vf9_Import"
+         compoundObjectType="" fieldType="SimpleProperty" description="Name of Import"/>
+     <OperationInputProperty propName="vf9_Frame_No" compoundObjectConstant="" srcPropName="vf9_Frame_No"
+         compoundObjectType="" fieldType="SimpleProperty" description="Frame No/Component/VIN Code"/>
+     <OperationInputProperty propName="vf9_Destination" compoundObjectConstant=""
+         srcPropName="vf9_Destination" compoundObjectType="" fieldType="SimpleProperty"
+         description="Destination"/>
+   </OperationInputType>
+   <OperationInputType typeName="VF9_VF_DocumentRevisionRevI" parentTypeName="DocumentRevisionRevI"
+       typeClassName="VF9_VF_DocumentRevisionRevI" description="ReviseInput object for &quot;VF9_VF_DocumentRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentRevisionRevI"/>
+   <OperationInputType typeName="VF9_VF_DocumentRevisionSvAI" parentTypeName="DocumentRevisionSvAI"
+       typeClassName="VF9_VF_DocumentRevisionSvAI" description="SaveAsInput object for &quot;VF9_VF_DocumentRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentRevisionSvAI"/>
+   <OperationInputType typeName="VF9_VF_DocumentSvAI" parentTypeName="DocumentSvAI"
+       typeClassName="VF9_VF_DocumentSvAI" description="SaveAsInput object for &quot;VF9_VF_Document&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentSvAI"/>
+   <TcForm typeName="VF9_D_CertificatMaster" parentTypeName="VF9_VF_DocumentMaster"
+       typeClassName="Form" description="MasterForm object for &quot;VF9_D_Certificat&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatMaster" functionality="VF9vfdocument"
+       formStorageClassName="VF9_D_CertificatMasterS"/>
+   <TcForm typeName="VF9_D_CertificatRevisionMaster" parentTypeName="VF9_VF_DocumentRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;VF9_D_CertificatRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatRevisionMaster" functionality="VF9vfdocument"
+       formStorageClassName="VF9_D_CertificatRevMasterS"/>
+   <TcForm typeName="VF9_D_RegulationMaster" parentTypeName="VF9_VF_DocumentMaster"
+       typeClassName="Form" description="MasterForm object for &quot;VF9_D_Regulation&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationMaster" functionality="VF9vfdocument"
+       formStorageClassName="VF9_D_RegulationMasterS"/>
+   <TcForm typeName="VF9_D_RegulationRevisionMaster" parentTypeName="VF9_VF_DocumentRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;VF9_D_RegulationRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationRevisionMaster" functionality="VF9vfdocument"
+       formStorageClassName="VF9_D_RegulationRevMasterS"/>
+   <TcForm typeName="VF9_D_StandardMaster" parentTypeName="VF9_VF_DocumentMaster"
+       typeClassName="Form" description="MasterForm object for &quot;VF9_D_Standard&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardMaster" formStorageClassName="VF9_D_StandardMasterS"/>
+   <TcForm typeName="VF9_D_StandardRevisionMaster" parentTypeName="VF9_VF_DocumentRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;VF9_D_StandardRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardRevisionMaster" formStorageClassName="VF9_D_StandardRevMasterS"/>
+   <TcForm typeName="VF9_D_TestReportMaster" parentTypeName="VF9_VF_DocumentMaster"
+       typeClassName="Form" description="MasterForm object for &quot;VF9_D_TestReport&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportMaster" functionality="VF9vfdocument"
+       formStorageClassName="VF9_D_TestReportMasterS"/>
+   <TcForm typeName="VF9_D_TestReportRevisionMaster" parentTypeName="VF9_VF_DocumentRevisionMaster"
+       typeClassName="Form" description="MasterForm object for &quot;VF9_D_TestReportRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportRevisionMaster" functionality="VF9vfdocument"
+       formStorageClassName="VF9_D_TestReportRevMasterS"/>
+   <TcForm typeName="VF9_VF_DocumentMaster" parentTypeName="Document Master" typeClassName="Form"
+       description="MasterForm object for &quot;VF9_VF_Document&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentMaster" functionality="VF9vfdocument"
+       formStorageClassName="VF9_VF_DocumentMasterS"/>
+   <TcForm typeName="VF9_VF_DocumentRevisionMaster" parentTypeName="DocumentRevision Master"
+       typeClassName="Form" description="MasterForm object for &quot;VF9_VF_DocumentRevision&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentRevisionMaster" functionality="VF9vfdocument"
+       formStorageClassName="VF9_VF_DocumentRevMasterS"/>
+   <TcStandardType typeName="VF9_D_Certificat" parentTypeName="VF9_VF_Document" typeClassName="VF9_D_Certificat"
+       description="" isAbstract="false" artifactName="VF9_D_Certificat" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_D_CertificatMasterS" parentTypeName="VF9_VF_DocumentMasterS"
+       typeClassName="VF9_D_CertificatMasterS" description="Form Storage object for &quot;VF9_D_CertificatMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatMasterS" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_D_CertificatRevMasterS" parentTypeName="VF9_VF_DocumentRevMasterS"
+       typeClassName="VF9_D_CertificatRevMasterS" description="Form Storage object for &quot;VF9_D_CertificatRevMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_CertificatRevMasterS" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_D_CertificatRevision" parentTypeName="VF9_VF_DocumentRevision"
+       typeClassName="VF9_D_CertificatRevision" description="ItemRevision object for &quot;VF9_D_Certificat&quot;  business object"
+       isAbstract="false" artifactName="VF9_D_CertificatRevision" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_D_Regulation" parentTypeName="VF9_VF_Document" typeClassName="VF9_D_Regulation"
+       description="" isAbstract="false" artifactName="VF9_D_Regulation" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_D_RegulationMasterS" parentTypeName="VF9_VF_DocumentMasterS"
+       typeClassName="VF9_D_RegulationMasterS" description="Form Storage object for &quot;VF9_D_RegulationMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationMasterS" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_D_RegulationRevMasterS" parentTypeName="VF9_VF_DocumentRevMasterS"
+       typeClassName="VF9_D_RegulationRevMasterS" description="Form Storage object for &quot;VF9_D_RegulationRevMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_RegulationRevMasterS" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_D_RegulationRevision" parentTypeName="VF9_VF_DocumentRevision"
+       typeClassName="VF9_D_RegulationRevision" description="ItemRevision object for &quot;VF9_D_Regulation&quot;  business object"
+       isAbstract="false" artifactName="VF9_D_RegulationRevision" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_D_Standard" parentTypeName="VF9_VF_Document" typeClassName="VF9_D_Standard"
+       description="VF Standard Document" isAbstract="false" artifactName="VF9_D_Standard"/>
+   <TcStandardType typeName="VF9_D_StandardMasterS" parentTypeName="VF9_VF_DocumentMasterS"
+       typeClassName="VF9_D_StandardMasterS" description="Form Storage object for &quot;VF9_D_StandardMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardMasterS"/>
+   <TcStandardType typeName="VF9_D_StandardRevMasterS" parentTypeName="VF9_VF_DocumentRevMasterS"
+       typeClassName="VF9_D_StandardRevMasterS" description="Form Storage object for &quot;VF9_D_StandardRevMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_StandardRevMasterS"/>
+   <TcStandardType typeName="VF9_D_StandardRevision" parentTypeName="VF9_VF_DocumentRevision"
+       typeClassName="VF9_D_StandardRevision" description="ItemRevision object for &quot;VF9_D_Standard&quot;  business object"
+       isAbstract="false" artifactName="VF9_D_StandardRevision"/>
+   <TcStandardType typeName="VF9_D_TestReport" parentTypeName="VF9_VF_Document" typeClassName="VF9_D_TestReport"
+       description="" isAbstract="false" artifactName="VF9_D_TestReport" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_D_TestReportMasterS" parentTypeName="VF9_VF_DocumentMasterS"
+       typeClassName="VF9_D_TestReportMasterS" description="Form Storage object for &quot;VF9_D_TestReportMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportMasterS" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_D_TestReportRevMasterS" parentTypeName="VF9_VF_DocumentRevMasterS"
+       typeClassName="VF9_D_TestReportRevMasterS" description="Form Storage object for &quot;VF9_D_TestReportRevMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_D_TestReportRevMasterS" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_D_TestReportRevision" parentTypeName="VF9_VF_DocumentRevision"
+       typeClassName="VF9_D_TestReportRevision" description="ItemRevision object for &quot;VF9_D_TestReport&quot;  business object"
+       isAbstract="false" artifactName="VF9_D_TestReportRevision" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_VF_Document" parentTypeName="Document" typeClassName="VF9_VF_Document"
+       description="" isAbstract="false" artifactName="VF9_VF_Document" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_VF_DocumentMasterS" parentTypeName="IMSProfile" typeClassName="VF9_VF_DocumentMasterS"
+       description="Form Storage object for &quot;VF9_VF_DocumentMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentMasterS" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_VF_DocumentRevMasterS" parentTypeName="IMSProfile"
+       typeClassName="VF9_VF_DocumentRevMasterS" description="Form Storage object for &quot;VF9_VF_DocumentRevMaster&quot; business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentRevMasterS" functionality="VF9vfdocument"/>
+   <TcStandardType typeName="VF9_VF_DocumentRevision" parentTypeName="DocumentRevision"
+       typeClassName="VF9_VF_DocumentRevision" description="ItemRevision object for &quot;VF9_VF_Document&quot;  business object"
+       isAbstract="false" artifactName="VF9_VF_DocumentRevision" functionality="VF9vfdocument"/>
+   <Condition name="VF9IsObjectReleased" expression="o.last_release_status!=NULL"
+       secured="false" description="">
+     <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+   </Condition>
+   <Condition name="VF9IsObjectWorking" expression="o.last_release_status=NULL" secured="false"
+       description="">
+     <ConditionParameter name="o" parameterTypeName="WorkspaceObject"/>
+   </Condition>
+   <TcGlobalConstantAttach constantName="Fnd0SelectedLocales" value="en_US"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_Certificat" value="VF9_D_CertificatCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_CertificatMaster"
+       value="VF9_D_CertificatMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_CertificatMasterS"
+       value="VF9_D_CertificatMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_CertificatRevision"
+       value="VF9_D_CertificatRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_CertificatRevisionMaster"
+       value="VF9_D_CertificatRevisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_CertificatRevMasterS"
+       value="VF9_D_CertificatRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_Regulation" value="VF9_D_RegulationCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_RegulationMaster"
+       value="VF9_D_RegulationMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_RegulationMasterS"
+       value="VF9_D_RegulationMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_RegulationRevision"
+       value="VF9_D_RegulationRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_RegulationRevisionMaster"
+       value="VF9_D_RegulationRevisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_RegulationRevMasterS"
+       value="VF9_D_RegulationRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_Standard" value="VF9_D_StandardCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_StandardMaster"
+       value="VF9_D_StandardMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_StandardMasterS"
+       value="VF9_D_StandardMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_StandardRevision"
+       value="VF9_D_StandardRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_StandardRevisionMaster"
+       value="VF9_D_StandardRevision_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_StandardRevMasterS"
+       value="VF9_D_StandardRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_TestReport" value="VF9_D_TestReportCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_TestReportMaster"
+       value="VF9_D_TestReportMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_TestReportMasterS"
+       value="VF9_D_TestReportMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_TestReportRevision"
+       value="VF9_D_TestReportRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_TestReportRevisionMaster"
+       value="VF9_D_TestReportRevisi_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_D_TestReportRevMasterS"
+       value="VF9_D_TestReportRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_VF_Document" value="VF9_VF_DocumentCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_VF_DocumentMaster"
+       value="VF9_VF_DocumentMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_VF_DocumentMasterS"
+       value="VF9_VF_DocumentMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_VF_DocumentRevision"
+       value="VF9_VF_DocumentRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_VF_DocumentRevisionMaster"
+       value="VF9_VF_DocumentRevisio_alt0CreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="VF9_VF_DocumentRevMasterS"
+       value="VF9_VF_DocumentRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="VF9_VF_Document" value="VF9VFStandard-Item.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="VF9_VF_DocumentRevision"
+       value="VF9VFStandard-ItemRevision.png"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="VF9_D_Certificat" value="VF9_D_CertificatRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="VF9_D_Regulation" value="VF9_D_RegulationRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="VF9_D_Standard" value="VF9_D_StandardRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="VF9_D_TestReport" value="VF9_D_TestReportRevision"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="VF9_VF_Document" value="VF9_VF_DocumentRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF9_D_Certificat" value="VF9_D_CertificatMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF9_D_CertificatRevision"
+       value="VF9_D_CertificatRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF9_D_Regulation" value="VF9_D_RegulationMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF9_D_RegulationRevision"
+       value="VF9_D_RegulationRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF9_D_Standard" value="VF9_D_StandardMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF9_D_StandardRevision"
+       value="VF9_D_StandardRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF9_D_TestReport" value="VF9_D_TestReportMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF9_D_TestReportRevision"
+       value="VF9_D_TestReportRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF9_VF_Document" value="VF9_VF_DocumentMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="VF9_VF_DocumentRevision"
+       value="VF9_VF_DocumentRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MultiFieldKey" typeName="VF9_D_Certificat"
+       value="VF9_D_Certificat{object_name}"/>
+   <TcTypeConstantAttach constantName="MultiFieldKey" typeName="VF9_D_Regulation"
+       value="VF9_D_Regulation{object_name}"/>
+   <TcTypeConstantAttach constantName="MultiFieldKey" typeName="VF9_D_TestReport"
+       value="VF9_D_TestReport{object_name}"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="VF9_D_CertificatRevision"
+       value="VF9_D_CertificatRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="VF9_D_RegulationRevision"
+       value="VF9_D_RegulationRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="VF9_D_StandardRevision"
+       value="VF9_D_StandardRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="VF9_D_TestReportRevision"
+       value="VF9_D_TestReportRevisionRevI"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="VF9_VF_DocumentRevision"
+       value="VF9_VF_DocumentRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_Certificat" value="VF9_D_CertificatSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_CertificatMaster"
+       value="VF9_D_CertificatMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_CertificatMasterS"
+       value="VF9_D_CertificatMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_CertificatRevision"
+       value="VF9_D_CertificatRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_CertificatRevisionMaster"
+       value="VF9_D_CertificatRevisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_CertificatRevMasterS"
+       value="VF9_D_CertificatRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_Regulation" value="VF9_D_RegulationSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_RegulationMaster"
+       value="VF9_D_RegulationMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_RegulationMasterS"
+       value="VF9_D_RegulationMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_RegulationRevision"
+       value="VF9_D_RegulationRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_RegulationRevisionMaster"
+       value="VF9_D_RegulationRevisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_RegulationRevMasterS"
+       value="VF9_D_RegulationRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_Standard" value="VF9_D_StandardSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_StandardMaster"
+       value="VF9_D_StandardMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_StandardMasterS"
+       value="VF9_D_StandardMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_StandardRevision"
+       value="VF9_D_StandardRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_StandardRevisionMaster"
+       value="VF9_D_StandardRevision_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_StandardRevMasterS"
+       value="VF9_D_StandardRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_TestReport" value="VF9_D_TestReportSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_TestReportMaster"
+       value="VF9_D_TestReportMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_TestReportMasterS"
+       value="VF9_D_TestReportMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_TestReportRevision"
+       value="VF9_D_TestReportRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_TestReportRevisionMaster"
+       value="VF9_D_TestReportRevisi_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_D_TestReportRevMasterS"
+       value="VF9_D_TestReportRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_VF_Document" value="VF9_VF_DocumentSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_VF_DocumentMaster"
+       value="VF9_VF_DocumentMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_VF_DocumentMasterS"
+       value="VF9_VF_DocumentMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_VF_DocumentRevision"
+       value="VF9_VF_DocumentRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_VF_DocumentRevisionMaster"
+       value="VF9_VF_DocumentRevisio_alt0SvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="VF9_VF_DocumentRevMasterS"
+       value="VF9_VF_DocumentRevMasterSSvAI"/>
+   <TcPropertyConstantAttach constantName="ComplexProperty" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_Document_Type" value=""/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_CertificatRevision"
+       propertyName="vf9_Effective" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_CertificatRevision"
+       propertyName="vf9_Issue_Date" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_CertificatRevision"
+       propertyName="vf9_Issuer" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_CertificatRevision"
+       propertyName="vf9_Valid_Until" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_Application" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_country_source_of_issue" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_effective_model" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_enforcement_basis" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_enforcement_timing" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_importance" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_issue_date" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_Priority" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_English" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_others" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_subject" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_title" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_title_vn" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_type" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_VN" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_Status" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_urgency" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_vehicle_cate_app_effect" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_keyword" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_module_lev0" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_module_lev1" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_module_lev2" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_referenceNumber" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Export" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Motor_No" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Report_Date" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Result" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Tech_Regu" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Tester" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Client" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Destination" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Document_Type" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Frame_No" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Import" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Manufacture" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Model_Code" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Note" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Trade_Mark" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Vehicle_Type" value="true"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="VF9_D_CertificatRevision"
+       propertyName="vf9_Document_Type" value="CER"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_Document_Type" value="REG"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_Document_Type" value="STD"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Document_Type" value="TRP"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_CertificatRevision"
+       propertyName="vf9_Document_Type" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_CertificatRevision"
+       propertyName="vf9_Effective" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_CertificatRevision"
+       propertyName="vf9_Issue_Date" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_CertificatRevision"
+       propertyName="vf9_Issuer" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_CertificatRevision"
+       propertyName="vf9_Valid_Until" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_Application" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_country_source_of_issue" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_Document_Type" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_effective_model" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_enforcement_basis" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_enforcement_timing" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_importance" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_issue_date" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_Priority" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_English" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_others" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_subject" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_title" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_title_vn" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_type" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_reg_VN" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_Status" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_urgency" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_vehicle_cate_app_effect" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_keyword" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_module_lev0" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_module_lev1" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_module_lev2" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_referenceNumber" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Document_Type" value="Read"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Export" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Motor_No" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Report_Date" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Result" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Tech_Regu" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Tester" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Client" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Destination" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Document_Type" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Frame_No" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Import" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Manufacture" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Model_Code" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Note" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Trade_Mark" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="VF9_VF_DocumentRevision"
+       propertyName="vf9_Vehicle_Type" value="Write"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="VF9_D_CertificatRevision"
+       propertyName="vf9_Document_Type" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="VF9_D_RegulationRevision"
+       propertyName="vf9_Document_Type" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_Document_Type" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_module_lev0" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="VF9_D_StandardRevision"
+       propertyName="vf9_module_lev1" value="true"/>
+   <TcPropertyConstantAttach constantName="Required" typeName="VF9_D_TestReportRevision"
+       propertyName="vf9_Document_Type" value="true"/>
+   <TcNamingRule name="VF9_D_StandardNameRule">
+     <TcPattern generateCounters="true" patternString="&quot;VFDST&quot;nnnnnnnn">
+       <TcCounter initialValue="VFDST00000000" maximumValue="VFDST99999999"/>
+     </TcPattern>
+     <TcPattern generateCounters="false" patternString="%^VES([A-W0-9]{1,9})$"/>
+   </TcNamingRule>
+   <TcNamingRuleAttach ruleName="VF9_D_StandardNameRule" typeName="VF9_D_Standard"
+       propertyName="item_id" case="Mix" conditionName="isTrue" override="false" ruleType="NamingRule"
+       description=""/>
+   <TcLOV name="VF9_LOV_Destination" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Afghanistan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Akrotiri" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Albania" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Algeria" description="" conditionName="isTrue"/>
+     <TcLOVValue value="American Samoa" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Andorra" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Angola" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Anguilla" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Antarctica" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Antigua and Barbuda" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Argentina" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Armenia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Aruba" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Australia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Austria" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Azerbaijan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bahamas" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bahrain" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bangladesh" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Barbados" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Belarus" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Belgium" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Belize" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Benin" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bermuda" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bhutan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bolivia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bosnia and Herzegovina" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Botswana" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brazil" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Brunei" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Bulgaria" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Burkina Faso" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Burma" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Burundi" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cambodia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cameroon" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Canada" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cape Verde" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Central African Republic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Chad" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Chile" description="" conditionName="isTrue"/>
+     <TcLOVValue value="China" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Colombia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Comoros" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Congo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Costa Rica" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Croatia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cuba" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Cyprus" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Czech Republic" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Denmark" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dhekelia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Djibouti" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Dominica" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ecuador" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Egypt" description="" conditionName="isTrue"/>
+     <TcLOVValue value="El Salvador" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Equatorial Guinea" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Eritrea" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Estonia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ethiopia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Fiji" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Finland" description="" conditionName="isTrue"/>
+     <TcLOVValue value="France" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gabon" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gambia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gaza Strip" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Georgia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Germany" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ghana" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Gibraltar" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Greece" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Greenland" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Grenada" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Guadeloupe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Guam" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Guatemala" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Guernsey" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Guinea" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Guyana" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Haiti" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Honduras" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hong Kong" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Hungary" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Iceland" description="" conditionName="isTrue"/>
+     <TcLOVValue value="India" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Indonesia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Iran" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Iraq" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ireland" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Israel" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Italy" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jamaica" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jan Mayen" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Japan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jersey" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Jordan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kazakhstan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kenya" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kiribati" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kuwait" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Kyrgyzstan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Laos" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Latvia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lebanon" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lesotho" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Liberia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Libya" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Liechtenstein" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Lithuania" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Luxembourg" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Macau" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Macedonia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Madagascar" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Malawi" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Malaysia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Maldives" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mali" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Malta" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Martinique" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mauritania" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mauritius" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mayotte" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mexico" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Micronesia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Moldova" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Monaco" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mongolia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Montserrat" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Morocco" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Mozambique" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Namibia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Nauru" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Nepal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Netherlands" description="" conditionName="isTrue"/>
+     <TcLOVValue value="New Caledonia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="New Zealand" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Nicaragua" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Niger" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Nigeria" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Niue" description="" conditionName="isTrue"/>
+     <TcLOVValue value="North Korea" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Norway" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Oman" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Pakistan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Palau" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Panama" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Papua New Guinea" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Paraguay" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Peru" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Philippines" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Poland" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Portugal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Puerto Rico" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Qatar" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Reunion" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Romania" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Russia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Rwanda" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Saint Helena" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Saint Lucia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Samoa" description="" conditionName="isTrue"/>
+     <TcLOVValue value="San Marino" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sao Tome and Principe" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Saudi Arabia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Senegal" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Serbia and Montenegro" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Seychelles" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sierra Leone" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Singapore" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Slovakia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Slovenia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Solomon Islands" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Somalia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="South Africa" description="" conditionName="isTrue"/>
+     <TcLOVValue value="South Korea" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Spain" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sri Lanka" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sudan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Suriname" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Svalbard" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Swaziland" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sweden" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Switzerland" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Syria" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Taiwan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tajikistan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tanzania" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Thailand" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Timor-Leste" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Togo" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tokelau" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tonga" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tunisia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Turkey" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Turkmenistan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Tuvalu" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Uganda" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Ukraine" description="" conditionName="isTrue"/>
+     <TcLOVValue value="United Arab Emirates" description="" conditionName="isTrue"/>
+     <TcLOVValue value="United Kingdom" description="" conditionName="isTrue"/>
+     <TcLOVValue value="United States" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Uruguay" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Uzbekistan" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Vanuatu" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Venezuela" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Vietnam" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Virgin Islands" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wake Island" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Wallis and Futuna" description="" conditionName="isTrue"/>
+     <TcLOVValue value="West Bank" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Western Sahara" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Yemen" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zambia" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Zimbabwe" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF9_LOV_DocType" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="REG" description="Regulation" conditionName="isTrue"/>
+     <TcLOVValue value="TRP" description="Test Report" conditionName="isTrue"/>
+     <TcLOVValue value="CER" description="Certificate" conditionName="isTrue"/>
+     <TcLOVValue value="STD" description="VF Standard Document" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF9_LOV_Reg_Effect_Model" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="New Model" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Existing Model" description="" conditionName="isTrue"/>
+     <TcLOVValue value="All Model" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF9_LOV_Reg_Enforce_Basis" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Production" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Customs Clearance" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Sales" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Registration" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Other" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF9_LOV_Reg_Level_ABC" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="A" description="" conditionName="isTrue"/>
+     <TcLOVValue value="B" description="" conditionName="isTrue"/>
+     <TcLOVValue value="C" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF9_LOV_Reg_Status" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Offcial" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Abolished" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF9_LOV_Reg_Subject" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Create New" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Update" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF9_LOV_Results" lovType="ListOfValuesString" usage="Exhaustive" description="Results">
+     <TcLOVValue value="PASS" description="Pass" conditionName="isTrue"/>
+     <TcLOVValue value="FAIL" description="Fail" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF9_mod_L1SCO_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="GENERAL STANDARD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ENGINE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="FRAME BODY" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ELECTRIC_ELECTRONICS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="STYLING" description="" conditionName="isTrue"/>
+     <TcLOVValue value="TESTING &amp; VALIDATION" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF9_mod_L1VEH_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="BODY IN WHITE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="CHASIS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="DOORS AND CLOSURES" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ELECTRIC_ELECTRONICS" description="" conditionName="isTrue"/>
+     <TcLOVValue value="EXTERIOR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="INTERIOR" description="" conditionName="isTrue"/>
+     <TcLOVValue value="POWERTRAIN" description="" conditionName="isTrue"/>
+     <TcLOVValue value="GENERAL" description="" conditionName="isTrue"/>
+     <TcLOVValue value="VEHICLE COMPLETE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="ENGINE" description="" conditionName="isTrue"/>
+     <TcLOVValue value="BATTERY" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF9_module_levLOV" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Module Level LOV">
+     <TcLOVValue value="VEHICLE STANDARD" description="" conditionName="isTrue"/>
+     <TcLOVValue value="SCOOTER STANDARD" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="VF9_sco_L2BOD_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_sco_L2EEP_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_sco_L2ENG_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_sco_L2STD_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_sco_L2STY_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_sco_L2TEST_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_veh_L2BAT_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_veh_L2BIW_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_veh_L2CHS_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_veh_L2COM_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="Vechicle complete" isManagedExternally="true"/>
+   <TcLOV name="VF9_veh_L2DOOR_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="DOOR n CLOSURES" isManagedExternally="true"/>
+   <TcLOV name="VF9_veh_L2EEP_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_veh_L2ENG_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_veh_L2EXT_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_veh_L2GEN_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_veh_L2INT_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOV name="VF9_veh_L2PWT_lov" lovType="ListOfValuesString" usage="Exhaustive"
+       description="" isManagedExternally="true"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1VEH_lov" targetValue="BATTERY"
+       subLOVName="VF9_veh_L2BAT_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1VEH_lov" targetValue="BODY IN WHITE"
+       subLOVName="VF9_veh_L2BIW_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1VEH_lov" targetValue="CHASIS"
+       subLOVName="VF9_veh_L2CHS_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1VEH_lov" targetValue="DOORS AND CLOSURES"
+       subLOVName="VF9_veh_L2DOOR_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1SCO_lov" targetValue="ELECTRIC_ELECTRONICS"
+       subLOVName="VF9_sco_L2ENG_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1VEH_lov" targetValue="ELECTRIC_ELECTRONICS"
+       subLOVName="VF9_veh_L2EEP_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1SCO_lov" targetValue="ENGINE"
+       subLOVName="VF9_sco_L2ENG_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1VEH_lov" targetValue="ENGINE"
+       subLOVName="VF9_veh_L2ENG_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1VEH_lov" targetValue="EXTERIOR"
+       subLOVName="VF9_veh_L2EXT_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1SCO_lov" targetValue="FRAME BODY"
+       subLOVName="VF9_sco_L2BOD_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1SCO_lov" targetValue="GENERAL STANDARD"
+       subLOVName="VF9_sco_L2STD_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1VEH_lov" targetValue="GENERAL"
+       subLOVName="VF9_veh_L2GEN_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1VEH_lov" targetValue="INTERIOR"
+       subLOVName="VF9_veh_L2INT_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1VEH_lov" targetValue="POWERTRAIN"
+       subLOVName="VF9_veh_L2PWT_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_module_levLOV" targetValue="SCOOTER STANDARD"
+       subLOVName="VF9_mod_L1SCO_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1SCO_lov" targetValue="STYLING"
+       subLOVName="VF9_sco_L2STY_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1SCO_lov" targetValue="TESTING &amp; VALIDATION"
+       subLOVName="VF9_sco_L2TEST_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_mod_L1VEH_lov" targetValue="VEHICLE COMPLETE"
+       subLOVName="VF9_veh_L2COM_lov" conditionName="isTrue"/>
+   <TcLOVValueSubLOVAttach targetLOVName="VF9_module_levLOV" targetValue="VEHICLE STANDARD"
+       subLOVName="VF9_mod_L1VEH_lov" conditionName="isTrue"/>
+   <TcLOVAttach lovName="VF9_LOV_Destination" typeName="VF9_D_RegulationRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_country_source_of_issue" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="VF9_LOV_Destination" typeName="VF9_VF_DocumentRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_Destination" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="VF9_LOV_DocType" typeName="VF9_VF_DocumentRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_Document_Type" conditionName="isTrue"
+         override="true" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="VF9_LOV_Reg_Effect_Model" typeName="VF9_D_RegulationRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_effective_model" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="VF9_LOV_Reg_Enforce_Basis" typeName="VF9_D_RegulationRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_enforcement_basis" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="VF9_LOV_Reg_Level_ABC" typeName="VF9_D_RegulationRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_urgency" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="VF9_LOV_Reg_Level_ABC" typeName="VF9_D_RegulationRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_importance" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="VF9_LOV_Reg_Status" typeName="VF9_D_RegulationRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_Status" conditionName="isTrue"
+         override="true" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="VF9_LOV_Reg_Subject" typeName="VF9_D_RegulationRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_reg_subject" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="VF9_LOV_Results" typeName="VF9_D_TestReportRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_Result" conditionName="isTrue"
+         override="true" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="VF9_module_levLOV" typeName="VF9_D_StandardRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_module_lev0" conditionName="isTrue"
+         override="false" level="1"/>
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_module_lev1" conditionName="isTrue"
+         override="false" level="2" parentPropertyName="vf9_module_lev0"/>
+     <TcLOVAttachPropertyInfo valuePropertyName="vf9_module_lev2" conditionName="isTrue"
+         override="false" level="3" parentPropertyName="vf9_module_lev1"/>
+   </TcLOVAttach>
+   <Functionality name="VF9vfdocument" displayName="vfdocument" enabledForVerificationRules="false"
+       description="Component for the template - vf9vfdocument"/>
+   <SystemStampConfiguration name="VF9PDFDocStamping" businessObj="VF9_VF_DocumentRevision"
+       stampCondition="VF9IsObjectWorking" appliesTo="PDF_Control" includeUserName="true"
+       includeDateTime="true" userStamp="" waterMark="Approved" mdsTemplateName="MDS_VFDoc_0001/ MDS_VFDoc_0001"
+       description=""/>
+   <SystemStampConfiguration name="VF9PDFDocStampingOutdate" businessObj="VF9_VF_DocumentRevision"
+       stampCondition="VF9IsObjectReleased" appliesTo="PDF_Control" includeUserName="true"
+       includeDateTime="true" userStamp="" waterMark="" mdsTemplateName="MDS_VFDoc_0002_Reject/ MDS_VFDoc_0002_Reject"
+       description=""/>
+</Add>
+</TcBusinessData>

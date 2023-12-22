@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Wed Nov 17 09:14:30 AM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF9_veh_L2BAT_lov" lovType="ListOfValuesString" usage="Exhaustive"
+        description="" isManagedExternally="true">
+      <TcLOVValue value="GENERAL_BAT" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BMS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="THERMAL_SYSTEM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="CELL" description="" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

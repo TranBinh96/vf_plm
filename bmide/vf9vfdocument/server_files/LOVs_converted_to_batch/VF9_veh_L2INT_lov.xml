@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Jun 17 10:31:59 PM 2019">
+  <Add/>
+  <Change>
+    <TcLOV name="VF9_veh_L2INT_lov" lovType="ListOfValuesString" usage="Exhaustive"
+        description="" isManagedExternally="true">
+
+      <TcLOVValue value="HEADLINING-MODULE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DOOR TRIMS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="INTERIOR LOWER" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FLOOR CONSOLE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="I-PANEL COMPLETE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FRONT SEATS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="REAR SEATS 2SR" description="" conditionName="isTrue"/>
+      <TcLOVValue value="REAR SEATS 3SR" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BELT IN FRONT /BACK" description="" conditionName="isTrue"/>
+      <TcLOVValue value="AIRBAGS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="HEATER /AIR CONDITIONING" description="" conditionName="isTrue"/>
+
+
+    </TcLOV>
+  </Change>
+</TcBusinessData>

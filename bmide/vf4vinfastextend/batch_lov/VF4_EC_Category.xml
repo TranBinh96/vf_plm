@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Sat Oct 23 05:44:25 AM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_EC_Category" lovType="ListOfValuesString" usage="Exhaustive"
+        description="" isManagedExternally="true">
+      <TcLOVValue value="PCB" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Capacitor" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Common Mode Chokes" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Connectors" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Crystal" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Diode" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Ferrite Beads and Chips" description="" conditionName="isTrue"/>
+      <TcLOVValue value="IC" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Inductors" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Module" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Mosfet" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Oscillator" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Fuse" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Resistors" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Shield" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Sim Card" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Transistor" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TVS - Diodes" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Varistor" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Battery" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Bracket" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Cable" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Case" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Cover" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Fan" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Flange" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Foam" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Front" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Heatsink" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Holder" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Label" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Nut" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Pad" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Rivet" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Screw" description="" conditionName="isTrue"/>
+      <TcLOVValue value="Speaker" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TBD" description="" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

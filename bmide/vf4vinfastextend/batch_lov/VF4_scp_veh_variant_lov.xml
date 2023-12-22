@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Jun 17 10:32:07 PM 2019">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_scp_veh_variant_lov" lovType="ListOfValuesString" usage="Suggestive"
+        description="" isManagedExternally="true">
+		<TcLOVValue value="Base" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Optional 1" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Optional 2" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Optional 3" description="" conditionName="isTrue"/>
+		<TcLOVValue value="Base/Optional" description="" conditionName="isTrue"/>
+		<TcLOVValue value="&lt;blank&gt;" description="" conditionName="isTrue"/>
+
+    </TcLOV>
+  </Change>
+</TcBusinessData>

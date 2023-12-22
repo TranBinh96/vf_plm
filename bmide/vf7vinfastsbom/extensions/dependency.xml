@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="13.0_0" displayName="Vinfast SBOM" enableOpsDataDeploy="true" guid="E5F30ABD087103EDE7AA5895A4C6C3CE" isDescriptionMandatory="false" name="vf7vinfastsbom" optional="true" prefixes="VF7" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+    <include file="cortona3d_template.xml"/>
+    <include file="cortona3ddita_template.xml"/>
+    <include file="cortona3ds1000d_template.xml"/>
+</TcBusinessDataIncludes>

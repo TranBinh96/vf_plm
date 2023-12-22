@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Document   : feature_pr4dvinfast.xml
+    Description: This XML is used by TEM to install or upgrade the "pr4dvinfast" solution.
+--><feature>
+    <name value="VINFAST"/>
+    <property name="feature_name" value="pr4dvinfast"/>
+    <group value="package"/>
+    <guid value="3B64E0E65EE4AB3670C7A4C6A4E99C3B"/>
+    <bundle value="${feature_name}Bundle.xml"/>
+    <description value="${feature_name}.description"/>
+    <include file="dataModelDependency.xml"/>
+    <relation>
+        <depends name="integration4catia" value="59B926EA93441782FB857D63FD203531"/>
+        <depends name="translationservice" value="301F12B06B3EAAB18DC0C2B9444F3B20"/>
+    </relation>
+    <feature>
+        <!--  Feature: Data Model -->
+        <name value="Data Model"/>
+        <property name="feature_id" value="datamodel"/>
+        <property name="bmide_optional" value="false"/>
+        <property name="template_name" value="${feature_name}"/>
+        <property name="template_file" value="${template_name}_template.xml"/>
+        <root value="true"/>
+        <bundle value="${template_name}Bundle.xml"/>
+        <description value="${template_name}.description"/>
+        <guid value="E5CDA9B24B1CFFB86ED0248ED8EA02B5"/>
+        <include file="coreDataModel2.xml"/>
+        <include file="generatePlmxmlSchema.xml"/>
+    </feature>
+    <dependencyReferences>
+        <reference name="foundation" value="8C061DD51E13E0CB9DC4687B1A3348BE"/>
+    </dependencyReferences>
+</feature>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcClass className="Vf8_AcarPart" parentClassName="Part" isExportable="false" isUninstantiable="false"
+       isUninheritable="false" description="">
+     <TcAttribute attributeName="vf8_GmNumber" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="Vf8_AcarPartMasterS" parentClassName="PartMaster" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="Vf8_AcarPartRevMasterS" parentClassName="PartVerMaster" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="Vf8_AcarPartRevision" parentClassName="Part_0_Revision_alt"
+       isExportable="false" isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="vf8_MaterialType" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue="Raw Material"
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf8_TracePartIndicator" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf8_VietnameseDesc" description="" attributeType="POM_long_string"
+         maxStringLength="0" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf8_NetWeight" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+     <TcAttribute attributeName="vf8_Broadcast" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" lowerBoundValue=""
+         upperBoundValue=""/>
+   </TcClass>
+   <TcClass className="Vf8_PlantFormRel" parentClassName="ImanRelation" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description=""/>
+   <TcClass className="Vf8_PlantFormStorage" parentClassName="POM_object" isExportable="false"
+       isUninstantiable="false" isUninheritable="false" description="">
+     <TcAttribute attributeName="vf8_Make_Buy" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue="F"
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf8_Plantcode" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue="3001"
+         lowerBoundValue="" upperBoundValue=""/>
+     <TcAttribute attributeName="vf8_PPAP1" description="" attributeType="POM_string"
+         maxStringLength="128" isArray="false" followOnExport="false" isNullsAllowed="true"
+         isUnique="false" isPublicRead="true" isPublicWrite="true" isCandidateKey="false"
+         isTransient="false" exportAsString="false" noBackpointer="false" initialValue="Y"
+         lowerBoundValue="" upperBoundValue=""/>
+   </TcClass>
+   <OperationInputType typeName="Vf8_AcarPartCreI" parentTypeName="PartCreI" typeClassName="Vf8_AcarPartCreI"
+       description="CreateInput object for &quot;Vf8_AcarPart&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartCreI">
+     <OperationInputProperty propName="vf8_GmNumber" compoundObjectConstant="" srcPropName="vf8_GmNumber"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf8Vf8_PlantFormRel" compoundObjectConstant=""
+         srcPropName="Vf8_PlantFormRel" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="Vf8_AcarPartMasterCreI" parentTypeName="Part MasterCreI"
+       typeClassName="Vf8_AcarPartMasterCreI" description="CreateInput object for &quot;Vf8_AcarPartMaster&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartMasterCreI"/>
+   <OperationInputType typeName="Vf8_AcarPartMasterSCreI" parentTypeName="PartMasterCreI"
+       typeClassName="Vf8_AcarPartMasterSCreI" description="CreateInput object for &quot;Vf8_AcarPartMasterS&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartMasterSCreI"/>
+   <OperationInputType typeName="Vf8_AcarPartMasterSSvAI" parentTypeName="PartMasterSvAI"
+       typeClassName="Vf8_AcarPartMasterSSvAI" description="SaveAsInput object for &quot;Vf8_AcarPartMasterS&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartMasterSSvAI"/>
+   <OperationInputType typeName="Vf8_AcarPartMasterSvAI" parentTypeName="Part MasterSvAI"
+       typeClassName="Vf8_AcarPartMasterSvAI" description="SaveAsInput object for &quot;Vf8_AcarPartMaster&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartMasterSvAI"/>
+   <OperationInputType typeName="Vf8_AcarPartNumberingCreI" parentTypeName="Fnd0BaseIdGeneratorCreI"
+       typeClassName="Vf8_AcarPartNumberingCreI" description="CreateInput object for &quot;Vf8_AcarPartNumbering&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartNumberingCreI">
+     <OperationInputProperty propName="vf8_ColorCode" compoundObjectConstant="" srcPropName="vf8_ColorCode"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf8_AcarMaterialGroup" compoundObjectConstant=""
+         srcPropName="vf8_AcarMaterialGroup" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="Vf8_AcarPartNumberingSvAI" parentTypeName="Fnd0BaseIdGeneratorSvAI"
+       typeClassName="Vf8_AcarPartNumberingSvAI" description="SaveAsInput object for &quot;Vf8_AcarPartNumbering&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartNumberingSvAI"/>
+   <OperationInputType typeName="Vf8_AcarPartRevMasterSCreI" parentTypeName="PartVerMasterCreI"
+       typeClassName="Vf8_AcarPartRevMasterSCreI" description="CreateInput object for &quot;Vf8_AcarPartRevMasterS&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartRevMasterSCreI"/>
+   <OperationInputType typeName="Vf8_AcarPartRevMasterSSvAI" parentTypeName="PartVerMasterSvAI"
+       typeClassName="Vf8_AcarPartRevMasterSSvAI" description="SaveAsInput object for &quot;Vf8_AcarPartRevMasterS&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartRevMasterSSvAI"/>
+   <OperationInputType typeName="Vf8_AcarPartRevisionCreI" parentTypeName="Part RevisionCreI"
+       typeClassName="Vf8_AcarPartRevisionCreI" description="CreateInput object for &quot;Vf8_AcarPartRevision&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartRevisionCreI">
+     <OperationInputProperty propName="vf8_MaterialType" compoundObjectConstant=""
+         srcPropName="vf8_MaterialType" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf8_TracePartIndicator" compoundObjectConstant=""
+         srcPropName="vf8_TracePartIndicator" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf8_VietnameseDesc" compoundObjectConstant=""
+         srcPropName="vf8_VietnameseDesc" compoundObjectType="" fieldType="SimpleProperty"
+         description=""/>
+     <OperationInputProperty propName="vf8_NetWeight" compoundObjectConstant="" srcPropName="vf8_NetWeight"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+     <OperationInputProperty propName="vf8_Broadcast" compoundObjectConstant="" srcPropName="vf8_Broadcast"
+         compoundObjectType="" fieldType="SimpleProperty" description=""/>
+   </OperationInputType>
+   <OperationInputType typeName="Vf8_AcarPartRevisionMasterCreI" parentTypeName="Part Revision MasterCreI"
+       typeClassName="Vf8_AcarPartRevisionMasterCreI" description="CreateInput object for &quot;Vf8_AcarPartRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartRevisionMasterCreI"/>
+   <OperationInputType typeName="Vf8_AcarPartRevisionMasterSvAI" parentTypeName="Part Revision MasterSvAI"
+       typeClassName="Vf8_AcarPartRevisionMasterSvAI" description="SaveAsInput object for &quot;Vf8_AcarPartRevisionMaster&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartRevisionMasterSvAI"/>
+   <OperationInputType typeName="Vf8_AcarPartRevisionRevI" parentTypeName="Part RevisionRevI"
+       typeClassName="Vf8_AcarPartRevisionRevI" description="ReviseInput object for &quot;Vf8_AcarPartRevision&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartRevisionRevI"/>
+   <OperationInputType typeName="Vf8_AcarPartRevisionSvAI" parentTypeName="Part RevisionSvAI"
+       typeClassName="Vf8_AcarPartRevisionSvAI" description="SaveAsInput object for &quot;Vf8_AcarPartRevision&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartRevisionSvAI"/>
+   <OperationInputType typeName="Vf8_AcarPartSvAI" parentTypeName="PartSvAI" typeClassName="Vf8_AcarPartSvAI"
+       description="SaveAsInput object for &quot;Vf8_AcarPart&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartSvAI"/>
+   <OperationInputType typeName="Vf8_PlantFormCreI" parentTypeName="FormCreI" typeClassName="Vf8_PlantFormCreI"
+       description="CreateInput object for &quot;Vf8_PlantForm&quot; business object"
+       isAbstract="false" artifactName="Vf8_PlantFormCreI"/>
+   <OperationInputType typeName="Vf8_PlantFormRelCreI" parentTypeName="ImanRelationCreI"
+       typeClassName="Vf8_PlantFormRelCreI" description="CreateInput object for &quot;Vf8_PlantFormRel&quot; business object"
+       isAbstract="false" artifactName="Vf8_PlantFormRelCreI"/>
+   <OperationInputType typeName="Vf8_PlantFormRelSvAI" parentTypeName="ImanRelationSvAI"
+       typeClassName="Vf8_PlantFormRelSvAI" description="SaveAsInput object for &quot;Vf8_PlantFormRel&quot; business object"
+       isAbstract="false" artifactName="Vf8_PlantFormRelSvAI"/>
+   <OperationInputType typeName="Vf8_PlantFormStorageCreI" parentTypeName="POM_objectCreI"
+       typeClassName="Vf8_PlantFormStorageCreI" description="CreateInput object for &quot;Vf8_PlantFormStorage&quot; business object"
+       isAbstract="false" artifactName="Vf8_PlantFormStorageCreI"/>
+   <OperationInputType typeName="Vf8_PlantFormStorageSvAI" parentTypeName="POM_objectSvAI"
+       typeClassName="Vf8_PlantFormStorageSvAI" description="SaveAsInput object for &quot;Vf8_PlantFormStorage&quot; business object"
+       isAbstract="false" artifactName="Vf8_PlantFormStorageSvAI"/>
+   <OperationInputType typeName="Vf8_PlantFormSvAI" parentTypeName="FormSvAI" typeClassName="Vf8_PlantFormSvAI"
+       description="SaveAsInput object for &quot;Vf8_PlantForm&quot; business object"
+       isAbstract="false" artifactName="Vf8_PlantFormSvAI"/>
+   <TcForm typeName="Vf8_AcarPartMaster" parentTypeName="Part Master" typeClassName="Form"
+       description="MasterForm object for &quot;Vf8_AcarPart&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartMaster" functionality="Vf8vinfastacar"
+       formStorageClassName="Vf8_AcarPartMasterS"/>
+   <TcForm typeName="Vf8_AcarPartRevisionMaster" parentTypeName="Part Revision Master"
+       typeClassName="Form" description="MasterForm object for &quot;Vf8_AcarPartRevision&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartRevisionMaster" functionality="Vf8vinfastacar"
+       formStorageClassName="Vf8_AcarPartRevMasterS"/>
+   <TcForm typeName="Vf8_PlantForm" parentTypeName="Form" typeClassName="Form" description=""
+       isAbstract="false" artifactName="Vf8_PlantForm" functionality="Vf8vinfastacar"
+       formStorageClassName="Vf8_PlantFormStorage">
+     <TcProperty propName="vf8_PPAP" propTypeName="Runtime" propValueType="PROP_string"
+         propMaxStringLength="128" isArray="false" arrayLength="0" description=""
+         referencedTypeConstant="" referencedType=""/>
+   </TcForm>
+   <TcRuntimeType typeName="Vf8_AcarPartNumbering" parentTypeName="Fnd0BaseIdGenerator"
+       typeClassName="Vf8_AcarPartNumbering" description="" isAbstract="false" artifactName="Vf8_AcarPartNumbering"
+       functionality="Vf8vinfastacar">
+     <TcProperty propName="vf8_ColorCode" propTypeName="Runtime" propValueType="PROP_string"
+         propMaxStringLength="128" isArray="false" arrayLength="0" description=""
+         referencedTypeConstant="" referencedType=""/>
+     <TcProperty propName="vf8_AcarMaterialGroup" propTypeName="Runtime" propValueType="PROP_string"
+         propMaxStringLength="128" isArray="false" arrayLength="0" description=""
+         referencedTypeConstant="" referencedType=""/>
+   </TcRuntimeType>
+   <TcStandardType typeName="Vf8_AcarPart" parentTypeName="Part" typeClassName="Vf8_AcarPart"
+       description="" isAbstract="false" artifactName="Vf8_AcarPart" functionality="Vf8vinfastacar">
+     <TcProperty propName="Vf8_PlantFormRel" propTypeName="Relation" propValueType="PROP_untyped_relation"
+         propMaxStringLength="0" isArray="true" arrayLength="-1" description="" referencedTypeConstant=""
+         referencedType=""/>
+   </TcStandardType>
+   <TcStandardType typeName="Vf8_AcarPartMasterS" parentTypeName="PartMaster" typeClassName="Vf8_AcarPartMasterS"
+       description="Form Storage object for &quot;Vf8_AcarPartMaster&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartMasterS" functionality="Vf8vinfastacar"/>
+   <TcStandardType typeName="Vf8_AcarPartRevMasterS" parentTypeName="PartVerMaster"
+       typeClassName="Vf8_AcarPartRevMasterS" description="Form Storage object for &quot;Vf8_AcarPartRevMaster&quot; business object"
+       isAbstract="false" artifactName="Vf8_AcarPartRevMasterS" functionality="Vf8vinfastacar"/>
+   <TcStandardType typeName="Vf8_AcarPartRevision" parentTypeName="Part Revision"
+       typeClassName="Vf8_AcarPartRevision" description="ItemRevision object for &quot;Vf8_AcarPart&quot;  business object"
+       isAbstract="false" artifactName="Vf8_AcarPartRevision" functionality="Vf8vinfastacar"/>
+   <TcStandardType typeName="Vf8_PlantFormRel" parentTypeName="ImanRelation" typeClassName="Vf8_PlantFormRel"
+       description="" isAbstract="false" artifactName="Vf8_PlantFormRel" functionality="Vf8vinfastacar"/>
+   <TcStandardType typeName="Vf8_PlantFormStorage" parentTypeName="POM_object" typeClassName="Vf8_PlantFormStorage"
+       description="Form Storage object for &quot;Vf8_PlantForm&quot; business object"
+       isAbstract="false" artifactName="Vf8_PlantFormStorage" functionality="Vf8vinfastacar"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Vf8_AcarPart" value="Vf8_AcarPartCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Vf8_AcarPartMaster"
+       value="Vf8_AcarPartMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Vf8_AcarPartMasterS"
+       value="Vf8_AcarPartMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Vf8_AcarPartNumbering"
+       value="Vf8_AcarPartNumberingCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Vf8_AcarPartRevision"
+       value="Vf8_AcarPartRevisionCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Vf8_AcarPartRevisionMaster"
+       value="Vf8_AcarPartRevisionMasterCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Vf8_AcarPartRevMasterS"
+       value="Vf8_AcarPartRevMasterSCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Vf8_PlantForm" value="Vf8_PlantFormCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Vf8_PlantFormRel" value="Vf8_PlantFormRelCreI"/>
+   <TcTypeConstantAttach constantName="CreateInput" typeName="Vf8_PlantFormStorage"
+       value="Vf8_PlantFormStorageCreI"/>
+   <TcTypeConstantAttach constantName="DisplayName" typeName="Vf8_AcarPartRevision"
+       value="$item_id+&quot;/&quot;+$item_revision_id+&quot;-&quot;+$object_name"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="Vf8_AcarPart" value="Vf8CAR_16x16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="Vf8_AcarPartRevision" value="Vf8Car_Rev1_16x16.png"/>
+   <TcTypeConstantAttach constantName="Fnd0Icon" typeName="Vf8_PlantForm" value="Vf8_Plant_Form.png"/>
+   <TcTypeConstantAttach constantName="Fnd0IdGenerator" typeName="Vf8_AcarPart" value="Vf8_AcarPartNumbering"/>
+   <TcTypeConstantAttach constantName="ItemRevision" typeName="Vf8_AcarPart" value="Vf8_AcarPartRevision"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="Vf8_AcarPart" value="Vf8_AcarPartMaster"/>
+   <TcTypeConstantAttach constantName="MasterForm" typeName="Vf8_AcarPartRevision"
+       value="Vf8_AcarPartRevisionMaster"/>
+   <TcTypeConstantAttach constantName="MaxAllowedWorkRevsForItemCopyRev" typeName="Vf8_AcarPartRevision"
+       value="1"/>
+   <TcTypeConstantAttach constantName="ReviseInput" typeName="Vf8_AcarPartRevision"
+       value="Vf8_AcarPartRevisionRevI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Vf8_AcarPart" value="Vf8_AcarPartSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Vf8_AcarPartMaster"
+       value="Vf8_AcarPartMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Vf8_AcarPartMasterS"
+       value="Vf8_AcarPartMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Vf8_AcarPartNumbering"
+       value="Vf8_AcarPartNumberingSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Vf8_AcarPartRevision"
+       value="Vf8_AcarPartRevisionSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Vf8_AcarPartRevisionMaster"
+       value="Vf8_AcarPartRevisionMasterSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Vf8_AcarPartRevMasterS"
+       value="Vf8_AcarPartRevMasterSSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Vf8_PlantForm" value="Vf8_PlantFormSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Vf8_PlantFormRel" value="Vf8_PlantFormRelSvAI"/>
+   <TcTypeConstantAttach constantName="SaveAsInput" typeName="Vf8_PlantFormStorage"
+       value="Vf8_PlantFormStorageSvAI"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="Vf8_EWO"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="Vf8_FamilyAddress"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="Vf8_gm_color_code"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="vf8_GMNumber"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="Vf8_Hand"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="Vf8_ModelCode"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="Vf8_Number Of Units"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="Vf8_NumberOfUnits"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="Vf8_PlantformCode"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="BOMLine" propertyName="Vf8_Product"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_AcarPart" propertyName="vf8_GmNumber"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_AcarPart" propertyName="Vf8_PlantFormRel"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_AcarPartNumbering"
+       propertyName="vf8_AcarMaterialGroup" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_AcarPartNumbering"
+       propertyName="vf8_ColorCode" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_AcarPartRevision"
+       propertyName="vf8_Broadcast" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_AcarPartRevision"
+       propertyName="vf8_MaterialType" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_AcarPartRevision"
+       propertyName="vf8_NetWeight" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_AcarPartRevision"
+       propertyName="vf8_TracePartIndicator" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_AcarPartRevision"
+       propertyName="vf8_VietnameseDesc" value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_PlantForm" propertyName="vf8_Make_Buy"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_PlantForm" propertyName="vf8_Plantcode"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_PlantForm" propertyName="vf8_PPAP"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Enabled" typeName="Vf8_PlantForm" propertyName="vf8_PPAP1"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="InitialValue" typeName="Vf8_PlantForm"
+       propertyName="vf8_Make_Buy" value="F"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="Vf8_EWO"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="Vf8_FamilyAddress"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="Vf8_gm_color_code"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="vf8_GMNumber"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="Vf8_Hand"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="Vf8_ModelCode"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="Vf8_Number Of Units"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="Vf8_NumberOfUnits"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="Vf8_PlantformCode"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="BOMLine" propertyName="Vf8_Product"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_AcarPart" propertyName="vf8_GmNumber"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_AcarPart" propertyName="Vf8_PlantFormRel"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_AcarPartNumbering"
+       propertyName="vf8_AcarMaterialGroup" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_AcarPartNumbering"
+       propertyName="vf8_ColorCode" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_AcarPartRevision"
+       propertyName="vf8_Broadcast" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_AcarPartRevision"
+       propertyName="vf8_MaterialType" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_AcarPartRevision"
+       propertyName="vf8_NetWeight" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_AcarPartRevision"
+       propertyName="vf8_TracePartIndicator" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_AcarPartRevision"
+       propertyName="vf8_VietnameseDesc" value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_PlantForm" propertyName="vf8_Make_Buy"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_PlantForm" propertyName="vf8_Plantcode"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_PlantForm" propertyName="vf8_PPAP"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Modifiable" typeName="Vf8_PlantForm" propertyName="vf8_PPAP1"
+       value="Write"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="BOMLine" propertyName="Vf8_Number Of Units"
+       value="false"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="Vf8_AcarPartCreI" propertyName="fnd0IdGenerator"
+       value="true"/>
+   <TcPropertyConstantAttach constantName="Visible" typeName="Vf8_PlantForm" propertyName="vf8_PPAP"
+       value="false"/>
+   <TcCompoundPropertyRule destTypeName="BOMLine" destPropertyName="vf8_GMNumber"
+       sourceTypeName="Vf8_AcarPart" sourcePropertyName="vf8_GmNumber" isReadOnly="false"
+       pathToSource="REF(bl_item,Vf8_AcarPart).vf8_GmNumber" description=""/>
+   <TcExtensionAttach extensionName="checkLatestReleased" operationName="ITEM_copy_rev"
+       isActive="true" extendableElementName="Vf8_AcarPartRevision" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="createObjects" operationName="ITEM_create" isActive="true"
+       extendableElementName="Vf8_AcarPart" extendableElementType="Type" extensionPointType="PostAction"
+       conditionName="isTrue" description="">
+     <TcExtensionArguments parameter="Vf8_PlantForm::Vf8_PlantFormRel"/>
+   </TcExtensionAttach>
+   <TcLOV name="Vf8_LRHand" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="L" description="Left Hand" conditionName="isTrue"/>
+     <TcLOVValue value="R" description="Right Hand" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Vf8_MakeBuy" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="E" description="" conditionName="isTrue"/>
+     <TcLOVValue value="F" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Vf8_MaterialGroup" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="RAW" description="Raw Material" conditionName="isTrue"/>
+     <TcLOVValue value="CLP" description="Color Part" conditionName="isTrue"/>
+     <TcLOVValue value="BIW" description="Body In White" conditionName="isTrue"/>
+     <TcLOVValue value="CHS" description="Chassis" conditionName="isTrue"/>
+     <TcLOVValue value="BEX" description="Body Exterior" conditionName="isTrue"/>
+     <TcLOVValue value="BIN" description="Body Interior" conditionName="isTrue"/>
+     <TcLOVValue value="PWT" description="Powertrain" conditionName="isTrue"/>
+     <TcLOVValue value="BLA" description="Book and Label" conditionName="isTrue"/>
+     <TcLOVValue value="STD" description="Standard Part" conditionName="isTrue"/>
+     <TcLOVValue value="SOW" description="Software" conditionName="isTrue"/>
+     <TcLOVValue value="ACC" description="Accessory" conditionName="isTrue"/>
+     <TcLOVValue value="FLU" description="Fluid, Glues, Oils, Paint" conditionName="isTrue"/>
+     <TcLOVValue value="EEP" description="Electrical and Electronics Part" conditionName="isTrue"/>
+     <TcLOVValue value="ENG" description="Engine" conditionName="isTrue"/>
+     <TcLOVValue value="BLN" description="Blank" conditionName="isTrue"/>
+     <TcLOVValue value="TWB" description="Tailor Welded Blank" conditionName="isTrue"/>
+     <TcLOVValue value="CVC" description="Complete Vehicle" conditionName="isTrue"/>
+     <TcLOVValue value="DCL" description="Doors Closures" conditionName="isTrue"/>
+     <TcLOVValue value="GNR" description="General" conditionName="isTrue"/>
+     <TcLOVValue value="SVC" description="Service Part" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Vf8_MaterialType" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Finished" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Semi Finished" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Vehicle" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Software" description="" conditionName="isTrue"/>
+     <TcLOVValue value="Raw Material" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Vf8_ModelYear" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="2020" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Vf8_Product" lovType="ListOfValuesString" usage="Exhaustive" description="">
+     <TcLOVValue value="CD" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Vf8_TraceablePartIndicator" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="Yes" description="" conditionName="isTrue"/>
+     <TcLOVValue value="No" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOV name="Vf8_plantformcode" lovType="ListOfValuesString" usage="Exhaustive"
+       description="">
+     <TcLOVValue value="IA15" description="" conditionName="isTrue"/>
+   </TcLOV>
+   <TcLOVAttach lovName="Vf8_LRHand" typeName="BOMLine">
+     <TcLOVAttachPropertyInfo valuePropertyName="Vf8_Hand" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="Vf8_MakeBuy" typeName="Vf8_PlantForm">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf8_Make_Buy" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="Vf8_MaterialGroup" typeName="Vf8_AcarPartNumbering">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf8_AcarMaterialGroup" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="Vf8_MaterialType" typeName="Vf8_AcarPartRevision">
+     <TcLOVAttachPropertyInfo valuePropertyName="vf8_MaterialType" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="Vf8_Product" typeName="BOMLine">
+     <TcLOVAttachPropertyInfo valuePropertyName="Vf8_Product" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcLOVAttach lovName="Vf8_plantformcode" typeName="BOMLine">
+     <TcLOVAttachPropertyInfo valuePropertyName="Vf8_PlantformCode" conditionName="isTrue"
+         override="false" level="0"/>
+   </TcLOVAttach>
+   <TcNoteType noteTypeName="Vf8_EWO" description="EWO"/>
+   <TcNoteType noteTypeName="Vf8_FamilyAddress" description="Family Address"/>
+   <TcNoteType noteTypeName="Vf8_Hand" lovName="Vf8_LRHand" description="L\R Hand"/>
+   <TcNoteType noteTypeName="Vf8_ModelCode" description="Model Code"/>
+   <TcNoteType noteTypeName="Vf8_Number Of Units" description="Number Of Units"/>
+   <TcNoteType noteTypeName="Vf8_NumberOfUnits" description="Number Of Units"/>
+   <TcNoteType noteTypeName="Vf8_PlantformCode" lovName="Vf8_plantformcode" noteTypeDefaultValue="IA15"
+       description="Plantform Code"/>
+   <TcNoteType noteTypeName="Vf8_Product" lovName="Vf8_Product" noteTypeDefaultValue="CD"
+       description="Product"/>
+   <TcNoteType noteTypeName="Vf8_acar_body" description="Acar Body(Styles)"/>
+   <TcNoteType noteTypeName="Vf8_acar_series" description="Acar Series"/>
+   <TcNoteType noteTypeName="Vf8_acar_veh_mkg" description="Acar Veh/Mktg Div"/>
+   <TcNoteType noteTypeName="Vf8_gm_color_code" description="GM COLOR CODE"/>
+   <TcNoteType noteTypeName="Vf8_upc" description="UPC"/>
+   <IdGenerationRule name="Vf8_AcarIdGenration" idGenerationConfig="Vf8_AcarPartNumbering"
+       description="">
+     <ConcatenationRule name="Vf8_AcarPartConcatenation" conditionName="isTrue">
+       <ConcatenationProperty propName="vf8_AcarMaterialGroup"/>
+       <TcPattern generateCounters="true" patternString="NNNNNNNN">
+         <TcCounter initialValue="60000000" maximumValue="69999999"/>
+       </TcPattern>
+       <ConcatenationProperty propName="vf8_ColorCode"/>
+     </ConcatenationRule>
+   </IdGenerationRule>
+   <IdGenerationRuleAttach typeName="Vf8_AcarPart" propertyName="item_id" idGenerationRule="Vf8_AcarIdGenration"
+       condition="isTrue"/>
+</Add>
+</TcBusinessData>

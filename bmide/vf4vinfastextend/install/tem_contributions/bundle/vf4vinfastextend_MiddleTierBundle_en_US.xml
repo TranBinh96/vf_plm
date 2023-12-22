@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+==================================================
+ Copyright 2013.
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ -->
+ 
+
+
+<IDMap>
+    <TextID name="wtn.description" text="Installs the middle tier process that communicate with the Teamcenter server processes."/>
+    
+    <TextID name="wtn.instruction" text="Installs .NET Web Tier for 4-tier Teamcenter deployment." />
+    <TextID name="wtn.instruction2" text="Configure .Net Web Tier client integrations." />
+    <TextID name="wtn.configuration" text="Configuration" />
+    <TextID name="wtn.webAppName" text="Virtual Directory Name" />
+    <TextID name="wtn.cluster" text="TreeCache Cluster Name" />
+    <TextID name="wtn.sessionTimeOut" text="Session Time Out" />
+    <TextID name="wtn.compressionThreshold" text="Response Compression Threshold" />
+    <TextID name="wtn.clientCacheTimeOut" text="Client Cache Time Out" />
+    <TextID name="wtn.checkBox" text="SSO Is Enabled" />
+    <TextID name="wtn.ssoAppID" text="SSO Application ID" />
+    <TextID name="wtn.ssoServerUrl" text="SSO Login Service URL" />
+    <TextID name="wtn.eventNotifyCheckBox" text="Critical System Events Notification" />
+    <TextID name="wtn.adminEmail" text="Administrator Email" />
+    <TextID name="wtn.smtpHost" text="SMTP Host" />
+    <TextID name="wtn.clusterCheckBox" text="Cluster Deployment" />
+    <TextID name="wtn.stateServerHost" text="State Server Host" />
+    <TextID name="wtn.stateServerPort" text="State Server Port" />
+    <TextID name="wtn.serverMgrPeer" text="Server Manager Peers" />
+    <TextID name="wtn.host" text="Host" />
+    <TextID name="wtn.port" text="Port" />
+    <TextID name="wtn.add" text="Add" />
+    <TextID name="wtn.delete" text="Delete" />
+    <TextID name="wtn.errorPeersEmpty" text="Server Manager Peer list is empty."/>
+    <TextID name="wtn.needOnePeer" text="You must enter at least one valid host and port value."/>
+    <TextID name="wtn.peerHost" text="Server Manager Peer Host"/>
+    <TextID name="wtn.peerPort" text="Server Manager Peer Port"/>    
+    <TextID name="wtn.cantResolveHost" text="Unable to resolve hostname {0}"/>
+    <TextID name="wtn.errorBadPort" text="Valid input is any integer value between 1 and 65535."/>
+    <TextID name="wtn.peers" text="Server Manager Peers" />
+    <TextID name="wtn.errorDupePeerHost" text="Duplicate Peer host and port found. Entries must be unique"/>
+    <TextID name="wtn.webdav" text="WebDAV (Tc Office Integration)" />
+    <TextID name="wtn.aiws" text="AIWS (Tc Linking Integration)" />
+    <TextID name="wtn.useaiws" text="Use AIWS" />
+    <TextID name="wtn.hybrid" text="Use Hybrid Authentication" />
+    <TextID name="wtn.iistitle" text="Internet Information Services (IIS) settings"/>
+    <TextID name="wtn.instructioniis" text="Configure IIS server for Web Tier deployment." />
+    <TextID name="wtn.webconfig" text="IIS Web Site Configuration"/>
+    <TextID name="wtn.apppoolconfig" text="IIS Web Application Pool Configuration"/>
+    <TextID name="wtn.webappconfig" text="IIS Virtual Directory Configuration"/>
+    <TextID name="wtn.existweb" text="Use Existing Web Site"/>
+    <TextID name="wtn.newweb" text="Create New Web Site"/>
+    <TextID name="wtn.existpool" text="Use Existing Application Pool"/>
+    <TextID name="wtn.newpool" text="Create New Application Pool"/>
+    <TextID name="wtn.webname" text="Web Site Name"/>
+    <TextID name="wtn.webroot" text="Web Site Root Path"/>
+    <TextID name="wnt.webport" text="Web Site Port"/>
+    <TextID name="wtn.apppool" text="Application Pool Name"/>
+    <TextID name="wtn.weblang" text="Web Tier Language"/>
+    <TextID name="wtn.vdirPath" text="Virtual Directory Path"/>
+    <TextID name="wtn.listening" text="There is a service listening on the specified port. Please stop and remove the service or select another port."/>
+    <TextID name="wtn.username" text="User Name"/>
+    <TextID name="wtn.password" text="Password"/>
+    <TextID name="wtn.checkiis" text="The .NET Web Tier requires Microsoft IIS (Internet Information Services) 6.0. Please quit TEM and install IIS 6.0 first. Then run TEM again to install .NET Wet Tier." />
+    <TextID name="wtn.checkiishead" text="IIS 6.0 is required"/>
+
+    <TextID name="sm.errorUnique" text="The JMX HTTP Adaptor Port and TreeCache Cluster Port must be unique." />
+    <TextID name="sm.errorUnique2" text="The JMX HTTP Adaptor Port and Local Service Port must be unique." />
+    <TextID name="sm.errorPeersEmpty" text="TreeCache Peer list is empty."/>
+    <TextID name="sm.needOnePeer" text="You must enter at least one valid host and port value."/>
+    <TextID name="sm.peerHost" text="TreeCache Peer Host"/>
+    
+    <TextID name="sm.peerPortEmpty" text="This field cannot be empty."/>
+    <TextID name="sm.errorBadPort" text="Valid input is any integer value between 1 and 65535."/>
+    
+    <TextID name="sm.communication" text="Communication mode: {0}"/>
+    <TextID name="wtn.title" text=".NET Web Tier"/>
+    <TextID name="wtn.title2" text=".NET Web Tier Client Integration"/>
+    <TextID name="sm.peerHost" text="TreeCache Peer Host"/>
+    <TextID name="sm.peerPort" text="TreeCache Peer Port"/>
+    <TextID name="sm.peerPortEmpty" text="This field cannot be empty."/>
+    
+    <TextID name="sm.errorDupePeerHost" text="Duplicate Peer host and port found. Entries must be unique"/>
+    <TextID name="sm.communication" text="Communication mode: {0}"/>
+ 
+</IDMap>
+ 

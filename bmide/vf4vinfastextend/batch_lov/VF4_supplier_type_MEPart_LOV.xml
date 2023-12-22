@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Thu Oct 21 03:06:52 PM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_supplier_type_MEPart_LOV" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue conditionName="isTrue" description="No value" value="NONE"/>
+      <TcLOVValue conditionName="isTrue" description="Build to Print" value="B2P"/>
+      <TcLOVValue conditionName="isTrue" description="Full Source Supplier" value="FSS"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

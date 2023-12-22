@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Jun 17 10:31:59 PM 2019">
+  <Add/>
+  <Change>
+    <TcLOV name="VF9_veh_L2DOOR_lov" lovType="ListOfValuesString" usage="Exhaustive"
+        description="DOOR n CLOSURES" isManagedExternally="true">
+		
+      <TcLOVValue value="HOOD SYSTEM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TRUNKLID" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FUEL LID" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DOOR FRONT LL /RR" description="" conditionName="isTrue"/>
+      <TcLOVValue value="DOOR REAR BACK LL/RR" description="" conditionName="isTrue"/>
+
+    </TcLOV>
+  </Change>
+</TcBusinessData>

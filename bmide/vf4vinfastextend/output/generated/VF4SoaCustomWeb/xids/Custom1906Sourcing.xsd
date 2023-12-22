@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://vf4.com/Schemas/Custom/2019-06/Sourcing"
+    xmlns:tns="http://vf4.com/Schemas/Custom/2019-06/Sourcing" 
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+     
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xsd:import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"           schemaLocation="SoaBase.xsd" />
+    
+    
+
+    <xsd:complexType name="BodyAttributeValues"> 
+        <xsd:annotation>
+                <xsd:appinfo>
+                     <xjb4c-hashmap>
+                          <key>key</key>
+                          <value>value</value>
+                     </xjb4c-hashmap>
+                </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="value" type="xsd:string"  minOccurs="0" maxOccurs="unbounded">
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="key" type="xsd:string" use="required">
+       </xsd:attribute>
+    </xsd:complexType> 
+
+
+    <xsd:complexType name="HeaderDisplayNames"> 
+        <xsd:annotation>
+                <xsd:appinfo>
+                     <xjb4c-hashmap>
+                          <key>key</key>
+                          <value>value</value>
+                     </xjb4c-hashmap>
+                </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="key" type="xsd:integer" use="required">
+       </xsd:attribute>
+        <xsd:attribute name="value" type="xsd:string" use="required">
+       </xsd:attribute>
+    </xsd:complexType> 
+
+
+
+    <xsd:element name="STResponse">
+    <xsd:complexType>
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="attrDisplayNames" type="tns:HeaderDisplayNames"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:appinfo>
+                        <xjb4c-type>hashmap</xjb4c-type>
+                    </xsd:appinfo>
+                    <xsd:documentation><![CDATA[
+                        First Row of the excel(Display Names)
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="attrActualValues" type="tns:BodyAttributeValues"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:appinfo>
+                        <xjb4c-type>hashmap</xjb4c-type>
+                    </xsd:appinfo>
+                    <xsd:documentation><![CDATA[
+                        Get the Attributes Values for the body of the excel
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element ref="soa:ServiceData" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Get the servicedata Object
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+
+
+
+    <xsd:element name="GetSourceTrackerDetailsInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="selecetdUIDs" type="xsd:string"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Selected UID
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="sourcingProgram" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Give the Sourcing Program as Input
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="isDELRequiredInPurchaseLevel" type="xsd:boolean" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Is DEL attributes required, make it true
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="isCostAttributesRequired" type="xsd:boolean" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    If cost attributes required, make it true
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+    </xsd:element>
+    <!--  STResponse is used as the getSourceTrackerDetails output element -->
+
+
+
+</xsd:schema>

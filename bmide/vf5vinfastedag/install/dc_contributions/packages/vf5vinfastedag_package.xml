@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="EBCB254B060DA33253C2ECC96D099385" packageId="vf5vinfastedag">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies>
+        <dependency id="integration4catia" type="requires"/>
+    </dependencies>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="6EC1BCDD18288559D70695991B569A89">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf5vinfastedag_path}/artifacts/vf5vinfastedag_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf5vinfastedag_path}/artifacts/vf5vinfastedag_install.zip"/>
+                    <copy file="${Teamcenter_vf5vinfastedag_path}/artifacts/vf5vinfastedag_icons.zip" todir="${Teamcenter_root_path}/install/vf5vinfastedag"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="vf5vinfastedag"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf5vinfastedag_path}/artifacts/vf5vinfastedag_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf5vinfastedag_path}/artifacts/vf5vinfastedag_install.zip"/>
+                    <copy file="${Teamcenter_vf5vinfastedag_path}/artifacts/vf5vinfastedag_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/vf5vinfastedag"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="vf5vinfastedag"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+</package>

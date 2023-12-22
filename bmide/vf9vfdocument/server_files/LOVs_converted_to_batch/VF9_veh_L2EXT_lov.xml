@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Jun 17 10:31:59 PM 2019">
+  <Add/>
+  <Change>
+    <TcLOV name="VF9_veh_L2EXT_lov" lovType="ListOfValuesString" usage="Exhaustive"
+        description="" isManagedExternally="true">
+
+      <TcLOVValue value="CRASH MANAGEMENT SYSTEM REAR" description="" conditionName="isTrue"/>
+      <TcLOVValue value="EXTERIOR TRIM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SOUND INSULATIONS OUTER, MOUNTED ON BODY" description="" conditionName="isTrue"/>
+      <TcLOVValue value="GLAZING, WIPER AND WASH SYSTEMS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="LIGHTING" description="" conditionName="isTrue"/>
+
+                         
+    </TcLOV>
+  </Change>
+</TcBusinessData>

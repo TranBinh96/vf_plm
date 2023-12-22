@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+bcprt
+==================================================
+ Copyright 2013.
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ ecprt
+ -->
+ 
+
+
+<feature>
+
+    <name value="Web Tier for .NET : vf4vinfastextend"/>
+    <size value="21"/>
+    <root value="true"/>
+    <os value="windows" version="5.2"/>
+    <group value="middletier"/>
+    <bundle value="vf4vinfastextend_MiddleTierBundle.xml"/>
+    <description value="wtn.description"/>
+    <guid value="5c6ad2bef0f74c08a2d03cf2c5e073e1"/>
+	  
+	  	    
+    <files>
+        <code>
+            <unzip file="vf4vinfastextend_net_webtier.zip"/>
+        </code>
+    </files>
+    
+    <depends  value="6A55016BDB3EA53E8051B1EA0DC91A44"/>
+
+    <componentmap>
+	<component guid="8C76C4DBB326EF5AF27D7698456BF3F0" tag="wtnet"
+	 classname="com.teamcenter.install.dotnetmt.dc.WebTierNetComponent"/>
+    </componentmap>
+    
+</feature>
+ 

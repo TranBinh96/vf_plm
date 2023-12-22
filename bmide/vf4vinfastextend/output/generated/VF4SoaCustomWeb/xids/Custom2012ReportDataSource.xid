@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+
+<services
+    xmlns="http://teamcenter.com/WebServices/2005-06/schemas/XID"
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+    xmlns:exp="http://teamcenter.com/Schemas/Soa/2006-03/Exceptions"
+    xmlns:svc="http://vf4.com/Schemas/Custom/2020-12/ReportDataSource" 
+    
+    >
+    
+    <types>
+        <import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"        schemaLocation="SoaBase.xsd"/>
+        <import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Exceptions"  schemaLocation="SoaExceptions.xsd"/>
+        <import namespace="http://vf4.com/Schemas/Custom/2020-12/ReportDataSource"  schemaLocation="Custom2012ReportDataSource.xsd"/> 
+           
+         
+    </types>
+    
+    <service name="Custom2012ReportDataSource"
+             targetNamespace="http://vf4.com/Services/Custom/2020-12">
+             
+        <port>Custom-2020-12-ReportDataSource</port>
+        
+        
+    <operation name="get150BomWithVariantsDS" in="svc:Get150BomWithVariantsDSInput" out="svc:Get150BomWithVariantsDSResponse">
+        <documentation><![CDATA[
+        .
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    <operation name="getPFEPReport" in="svc:GetPFEPReportInput" out="svc:PFEPReportResponse">
+        <documentation><![CDATA[
+        .
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    <operation name="getProcessStatusReport" in="svc:GetProcessStatusReportInput" out="svc:ProcessStatusReportResponse">
+        <documentation><![CDATA[
+        .
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    </service>
+</services>

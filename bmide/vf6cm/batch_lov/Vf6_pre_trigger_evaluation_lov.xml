@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Wed Jul 28 10:55:50 AM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="Vf6_pre_trigger_evaluation_lov" lovType="ListOfValuesString" usage="Exhaustive" description="LOV dung cho danh gia ECR truoc khi chay" isManagedExternally="true">
+      <TcLOVValue value="0" description="OK Roburst" conditionName="isTrue"/>
+      <TcLOVValue value="1" description="Modification risk/ 1: Minor" conditionName="isTrue"/>
+      <TcLOVValue value="2" description="Modification risk/ 2: Major" conditionName="isTrue"/>
+      <TcLOVValue value="3" description="3: Not Confom/ Item not taken into account" conditionName="isTrue"/>
+      <TcLOVValue value="N/A" description="Item not applicable for the project/ component concerned" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

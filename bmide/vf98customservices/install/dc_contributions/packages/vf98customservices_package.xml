@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="4B71431A4DA1678384CE8AEEFA34A173" packageId="vf98customservices">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies/>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="6619B35718562BFA9F5D508C491220E0">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf98customservices_path}/artifacts/vf98customservices_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf98customservices_path}/artifacts/vf98customservices_install.zip"/>
+                    <copy file="${Teamcenter_vf98customservices_path}/artifacts/vf98customservices_icons.zip" todir="${Teamcenter_root_path}/install/vf98customservices"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="vf98customservices"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf98customservices_path}/artifacts/vf98customservices_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf98customservices_path}/artifacts/vf98customservices_install.zip"/>
+                    <copy file="${Teamcenter_vf98customservices_path}/artifacts/vf98customservices_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/vf98customservices"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="vf98customservices"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+    <artifact artifactType="fnd0_serverArtifact" guid="E95C2B5A78E7827D220C172C669BF8C8">        
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <property name="template_rtserver" value="false"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${product_id_application_id_path}/tc/vf98customservices_rtserver.zip"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/emh_text.xml" includefile="vf98customservices_errors.xml"/>
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/tc_text.xml" includefile="vf98customservices_text.xml"/>
+                </target>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <property name="template_rtserver" value="false"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${product_id_application_id_path}/tc/vf98customservices_rtserver.zip"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/emh_text.xml" includefile="vf98customservices_errors.xml"/>
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/tc_text.xml" includefile="vf98customservices_text.xml"/>
+                </target>
+            </update>
+        </deploymentActions>
+     </artifact>
+</package>

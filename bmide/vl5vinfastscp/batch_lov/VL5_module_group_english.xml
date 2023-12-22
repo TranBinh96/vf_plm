@@ -1,0 +1,9 @@
+<TcBusinessData Date="Tue Jan 26 14:21:55 2021" batchXSDVersion="1.0"
+ xmlns="http://teamcenter.com/BusinessModel/TcBusinessData">
+ <Add/>
+ <Change>
+   <TcLOV isManagedExternally="true" lovType="ListOfValuesString" name="VL5_module_group_english" usage="Exhaustive">
+     <TcLOVValue description="" conditionName="isTrue" value="3_IN_1_PDU_DCDC_OBC"/><TcLOVValue description="" conditionName="isTrue" value="BATTERY_PACK"/><TcLOVValue description="" conditionName="isTrue" value="BODY_IN_WHITE"/><TcLOVValue description="" conditionName="isTrue" value="CHASSIS"/><TcLOVValue description="" conditionName="isTrue" value="DOORS_AND_CLOSURES"/><TcLOVValue description="" conditionName="isTrue" value="ELECTRIC_ELECTRONICS"/><TcLOVValue description="" conditionName="isTrue" value="EMOTOR"/><TcLOVValue description="" conditionName="isTrue" value="EXTERIOR"/><TcLOVValue description="" conditionName="isTrue" value="HVAC"/><TcLOVValue description="" conditionName="isTrue" value="INTERIOR"/><TcLOVValue description="" conditionName="isTrue" value="POWERTRAIN"/><TcLOVValue description="" conditionName="isTrue" value="SEATS_AND_RESTRAINTS"/><TcLOVValue description="" conditionName="isTrue" value="VEHICLE_COMPLETE"/>
+   </TcLOV>
+ </Change>
+</TcBusinessData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  VF4_MCR_Shop_LOV same as Vf6_plant_code
+  When updating, make sure to update both LOVs, if different, please confirm with the administrator
+-->
+
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Wed Jul 28 10:55:50 AM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="Vf6_VES_plant_list" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="3051" description="Ha Tinh Battery Packing" conditionName="isTrue"/>
+      <TcLOVValue value="3087" description="Cell Factory" conditionName="isTrue"/>
+      <TcLOVValue value="3094" description="Pack Factory" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

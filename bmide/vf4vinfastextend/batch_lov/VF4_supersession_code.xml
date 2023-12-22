@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Tue Nov 29 02:56:30 PM 2022">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_supersession_code" lovType="ListOfValuesString" usage="Exhaustive"
+      description=""
+      isManagedExternally="true">
+      <TcLOVValue value="1" description="" conditionName="isTrue" />
+      <TcLOVValue value="2" description="" conditionName="isTrue" />
+      <TcLOVValue value="3" description="" conditionName="isTrue" />
+      <TcLOVValue value="4" description="" conditionName="isTrue" />
+      <TcLOVValue value="5" description="" conditionName="isTrue" />
+      <TcLOVValue value="6" description="" conditionName="isTrue" />
+      <TcLOVValue value="7" description="" conditionName="isTrue" />
+      <TcLOVValue value="8" description="" conditionName="isTrue" />
+      <TcLOVValue value="9" description="" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

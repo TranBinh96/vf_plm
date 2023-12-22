@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Document   : feature_vf3vinfastcore.xml
+    Description: This XML is used by TEM to install or upgrade the "vf3vinfastcore" solution.
+--><feature>
+            
+    
+    <name value="VinfastCore"/>
+            
+    
+    <property name="feature_name" value="vf3vinfastcore"/>
+            
+    
+    <group value="package"/>
+            
+    
+    <guid value="0ADAFA77AC7826709F00CE00B755867D"/>
+            
+    
+    <bundle value="${feature_name}Bundle.xml"/>
+            
+    
+    <description value="${feature_name}.description"/>
+            
+    
+    <include file="dataModelDependency.xml"/>
+        
+    <relation>
+        <depends name="aps0apscore" value="C48D31DEEAB44695153AEBF6FF96864D"/>
+        <depends name="integration4catia" value="59B926EA93441782FB857D63FD203531"/>
+        <depends name="srh0apsconfiguredsearch" value="B021413FCA884F4CA074016F279FCEE8"/>
+        <depends name="translationservice" value="301F12B06B3EAAB18DC0C2B9444F3B20"/>
+        <depends name="bcs0buildconditions" value="BF1DC0AB2E00C422EC2DB63F3B960562"/>
+        <depends name="cfg0configurator" value="0B0888D6D9955ACA4F9B6B51C3EF2063"/>
+        <depends name="smc0psmcfgsupport" value="01BA0C24064341C0079FE9A560C1B935"/>
+    </relation>
+    <feature>
+                        
+        
+        <!--  Feature: Data Model -->
+                        
+        
+        <name value="Data Model"/>
+                        
+        
+        <property name="feature_id" value="datamodel"/>
+                        
+        
+        <property name="bmide_optional" value="false"/>
+                        
+        
+        <property name="template_name" value="${feature_name}"/>
+                        
+        
+        <property name="template_file" value="${template_name}_template.xml"/>
+                        
+        
+        <root value="true"/>
+                        
+        
+        <bundle value="${template_name}Bundle.xml"/>
+                        
+        
+        <description value="${template_name}.description"/>
+                        
+        
+        <guid value="9635C5C80070209E5D9EF837A94665D0"/>
+                        
+        
+        <include file="coreDataModel2.xml"/>
+                        
+        
+        <include file="generatePlmxmlSchema.xml"/>
+    </feature>
+        
+    <dependencyReferences>
+        <reference name="foundation" value="8C061DD51E13E0CB9DC4687B1A3348BE"/>
+    </dependencyReferences>
+</feature>

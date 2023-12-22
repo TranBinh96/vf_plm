@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="AAE37B1CE2CE74B2061B53FB28E7CBF1" packageId="vf8vinfastacar">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies/>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="49BDE9079DD35481FBC14ACC6DDF47DB">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf8vinfastacar_path}/artifacts/vf8vinfastacar_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf8vinfastacar_path}/artifacts/vf8vinfastacar_install.zip"/>
+                    <copy file="${Teamcenter_vf8vinfastacar_path}/artifacts/vf8vinfastacar_icons.zip" todir="${Teamcenter_root_path}/install/vf8vinfastacar"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="vf8vinfastacar"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf8vinfastacar_path}/artifacts/vf8vinfastacar_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf8vinfastacar_path}/artifacts/vf8vinfastacar_install.zip"/>
+                    <copy file="${Teamcenter_vf8vinfastacar_path}/artifacts/vf8vinfastacar_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/vf8vinfastacar"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="vf8vinfastacar"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+</package>

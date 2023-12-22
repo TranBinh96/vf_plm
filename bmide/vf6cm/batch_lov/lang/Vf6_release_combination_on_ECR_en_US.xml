@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+  batchXSDVersion="1.0" Date="Thu Oct 21 03:06:13 PM 2021">
+  <Add>
+    <key locale="en_US" id="LOVValue{::}Vf6_release_combination_on_ECR{::}P Release"
+      status="Approved">P Release</key>
+    <key locale="en_US" id="LOVValue{::}Vf6_release_combination_on_ECR{::}I Release"
+      status="Approved">I Release</key>
+    <key locale="en_US" id="LOVValue{::}Vf6_release_combination_on_ECR{::}PR Release"
+      status="Approved">PR Release</key>
+    <key locale="en_US" id="LOVValue{::}Vf6_release_combination_on_ECR{::}PPR Release"
+      status="Approved">PPR Release</key>
+    <key locale="en_US" id="LOVValue{::}Vf6_release_combination_on_ECR{::}P Release &amp; I Release"
+      status="Approved">P Release &amp; I Release</key>
+    <key locale="en_US"
+      id="LOVValue{::}Vf6_release_combination_on_ECR{::}I Release &amp; PR Release"
+      status="Approved">I Release &amp; PR Release</key>
+    <key locale="en_US"
+      id="LOVValue{::}Vf6_release_combination_on_ECR{::}P Release &amp; I Release &amp; PR Release &amp; PPR Release"
+      status="Approved">P Release &amp; I Release &amp; PR Release &amp; PPR Release</key>
+  </Add>
+</TcBusinessDataLocalization>

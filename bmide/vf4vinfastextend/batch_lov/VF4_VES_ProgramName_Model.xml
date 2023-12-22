@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  VF4_MCR_Shop_LOV same as Vf6_plant_code
+  When updating, make sure to update both LOVs, if different, please confirm with the administrator
+-->
+
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Wed Jul 28 10:55:50 AM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_VES_ProgramName_Model" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="BAT_LFP" description="Battery LFP" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_VFe33" description="Battery VFe33" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_VFe34" description="Battery VFe34" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_VF8" description="Battery VF8" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_VF8P" description="Battery VF8 Premium" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_VF8ROW" description="Battery VF8 ROW" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_VF8V" description="Battery VF8V" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_VF9" description="Battery VF9" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_VF9PRE" description="Battery VF9 Premium" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_VF9ROW" description="Battery VF9 ROW" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_VF9V" description="Battery VF9V" conditionName="isTrue"/>
+      
+      <TcLOVValue value="BAT_ESC 1.2 KWH" description="BAT_ESC 1.2 KWH" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_ESC 2.0 KWH" description="BAT_ESC 2.0 KWH" conditionName="isTrue"/>
+      
+      <TcLOVValue value="BAT_ESC_3.5KHW_C1.6" description="BAT_ESC_3.5KHW_C1.6" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_ESC 48V-B2" description="BAT_ESC 48V-B2" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_ESC KLN" description="BAT_ESC KLN" conditionName="isTrue"/>
+      <TcLOVValue value="BAT_GOLFCART" description="BAT_GOLFCART" conditionName="isTrue"/>
+      <TcLOVValue value="CELL_GEN1.5" description="Cell Gen 1.5" conditionName="isTrue"/>
+      <TcLOVValue value="CELL_GEN1.6" description="Cell Gen 1.6" conditionName="isTrue"/>
+      <TcLOVValue value="CELL_GEN_1.8" description="CELL_GEN_1.8" conditionName="isTrue"/>
+      <TcLOVValue value="CELL_GEN5.1_Prismatic" description="Cell Gen 5.1_Prismatic" conditionName="isTrue"/>
+      <TcLOVValue value="CELL_GEN5.2_Prismatic" description="Cell Gen 5.2_Prismatic" conditionName="isTrue"/>
+      <TcLOVValue value="C6" description="Cell Gen-PT_Cylindrical" conditionName="isTrue"/>
+      <TcLOVValue value="VinES Project" description="VinES Project" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

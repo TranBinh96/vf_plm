@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Fri Oct 22 11:36:29 AM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_EPC_Variant_LOV" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="ALL" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BASE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ECO" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PLUS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TAXI" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ALL VN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ALL NA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ALL EU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ECO VN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ECO NA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ECO EU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PLUS VN" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PLUS NA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PLUS EU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="VN &amp; NA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="VN &amp; EU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="NA &amp; EU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ECO VN &amp; NA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ECO VN &amp; EU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ECO NA &amp; EU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PLUS VN &amp; NA" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PLUS VN &amp; EU" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PLUS NA &amp; EU" description="" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

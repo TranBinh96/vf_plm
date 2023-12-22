@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Wed Aug 12 11:21:28 AM 2020">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_vffs_module_ADAS_P" lovType="ListOfValuesString" usage="Exhaustive"
+      description="" isManagedExternally="true">
+      <TcLOVValue value="ADCU-Parking" description="" conditionName="isTrue" />
+      <TcLOVValue value="FAPA" description="" conditionName="isTrue" />
+      <TcLOVValue value="RP" description="" conditionName="isTrue" />
+      <TcLOVValue value="SM" description="" conditionName="isTrue" />
+      <TcLOVValue value="RAEB" description="" conditionName="isTrue" />
+      <TcLOVValue value="RCTA" description="" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

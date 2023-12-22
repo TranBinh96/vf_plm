@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://vf4.com/Schemas/Custom/2017-05/ReportDataSource"
+    xmlns:tns="http://vf4.com/Schemas/Custom/2017-05/ReportDataSource" 
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+     
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xsd:import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"           schemaLocation="SoaBase.xsd" />
+    
+    
+
+    <xsd:complexType name="CostReportDSResponse"> 
+        <xsd:annotation>
+                <xsd:appinfo>
+                     <xjb4c-hashmap>
+                          <key>key</key>
+                          <value>value</value>
+                     </xjb4c-hashmap>
+                </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="value" type="tns:CostInfo" >
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="key" type="xsd:string" use="required">
+       </xsd:attribute>
+    </xsd:complexType> 
+
+
+
+    <xsd:complexType name="SourcePartCostInfo">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                Source Part Cost Info
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="vf4SupplierPieceCostExw" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Source-part vf4_supplier_piece_cost_exw
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="vf4ToolingOrder" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Source-part vf4_tooling_order
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="vf4EddorderValue" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Source-part vf4_eddorder_value
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="vf4PieceCost" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Source-part vf4_piece_cost
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="CostInfo">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="sourcePart" type="tns:SourcePartCostInfo" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Source-Part Cost-Info
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="ecrs" type="tns:ECRCostInfo"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        ECRs Cost Info
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="CostReportDSInput">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="partRevs" type="xsd:string"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        List of part revision IDs &lt;itemID/revisionID&gt; e.g. PLM12345678/01
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="sourcingProgram" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    Sourcing program
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+    <xsd:element name="CostReportDSOutput">
+    <xsd:complexType>
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="response" type="tns:CostReportDSResponse"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:appinfo>
+                        <xjb4c-type>hashmap</xjb4c-type>
+                    </xsd:appinfo>
+                    <xsd:documentation><![CDATA[
+                        Cost Report DS response
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+            <xsd:element ref="soa:ServiceData" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Service Data
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+
+
+    <xsd:complexType name="ECRCostInfo">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[
+                ECR Cost Info
+            ]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="vf6MaterialCosts" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECR vf6_material_costs
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="vf6ToolingCosts" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECR vf6_tooling_costs
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="vf6Fixtures" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECR vf6_fixtures
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="vf6SupplierEngCosts" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECR vf6_supplier_eng_costs
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="vf6ScrapCosts" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECR vf6_scrap_costs
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="vf6LeadTimeP" type="xsd:double" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECR vf6_lead_time_p
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="ecrName" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECR Name
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="ecrNumber" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECR Number
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="vf6VehicleGroup" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    ECR Vehicle Group
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+        <xsd:attribute name="vf6ModuleGroup" type="xsd:string" use="required">
+            <xsd:annotation>
+                <xsd:documentation><![CDATA[
+                    vf6ModuleGroup
+                ]]></xsd:documentation>
+            </xsd:annotation>
+       </xsd:attribute>
+    </xsd:complexType>
+
+
+
+    <xsd:element name="GetCostReportDSInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="input" type="tns:CostReportDSInput" >
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Cost Report DS Input
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <!--  CostReportDSOutput is used as the getCostReportDS output element -->
+
+
+
+</xsd:schema>

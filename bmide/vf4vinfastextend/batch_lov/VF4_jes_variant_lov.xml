@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Thu Oct 21 03:06:52 PM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_jes_variant_lov" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue conditionName="isTrue" value="VF5_LHD" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF5_RHD" description="" />
+      <TcLOVValue conditionName="isTrue" value="VFe34_Base" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF6_PLUS" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF6_ECO" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF7_ECO" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF7_PLUS" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF8_CCW_PLUS_ROW" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF8_CW_PLUS_ROW" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF8_CCW_ECO_ROW" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF8_CW_ECO_ROW" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF8_CCW_PLUS_VN" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF8_CW_PLUS_VN" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF8_CCW_ECO_VN" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF8_CW_ECO_VN" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF9_CCW_PLUS_ROW" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF9_CW_PLUS_ROW" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF9_CCW_PLUS_VN" description="" />
+      <TcLOVValue conditionName="isTrue" value="VF9_CW_PLUS_VN" description="" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

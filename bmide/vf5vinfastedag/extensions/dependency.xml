@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2020.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+--><TcBusinessDataIncludes currentTemplateVersion="13.0_0" displayName="vinfastedag" enableOpsDataDeploy="true" guid="6EC1BCDD18288559D70695991B569A89" isDescriptionMandatory="false" name="vf5vinfastedag" optional="true" prefixes="VF5" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+    <include file="integration4catia_template.xml"/>
+</TcBusinessDataIncludes>

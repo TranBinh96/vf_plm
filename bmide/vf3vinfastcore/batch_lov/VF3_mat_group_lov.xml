@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Tue Dec 07 02:20:50 PM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF3_mat_group_lov" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="ACP" description="Accessory" conditionName="isTrue"/>
+      <TcLOVValue value="APP" description="Application" conditionName="isTrue"/>
+      <TcLOVValue value="ASY" description="Assembly drawing" conditionName="isTrue"/>
+      <TcLOVValue value="BDP" description="Body plastic" conditionName="isTrue"/>
+      <TcLOVValue value="BOL" description="Book, label,..." conditionName="isTrue"/>
+      <TcLOVValue value="BRA" description="Brake" conditionName="isTrue"/>
+      <TcLOVValue value="BTP" description="Battery Pack" conditionName="isTrue"/>
+      <TcLOVValue value="CHG" description="Charging Station" conditionName="isTrue"/>
+      <TcLOVValue value="CNI" description="Connectivity" conditionName="isTrue"/>
+      <TcLOVValue value="CVC" description="Complete vehicle" conditionName="isTrue"/>
+      <TcLOVValue value="DRT" description="Drivertrain" conditionName="isTrue"/>
+      <TcLOVValue value="ELE" description="Basic EL" conditionName="isTrue"/>
+      <TcLOVValue value="FIR" description="Firmware" conditionName="isTrue"/>
+      <TcLOVValue value="FRA" description="Frame assy." conditionName="isTrue"/>
+      <TcLOVValue value="FWH" description="Front wheel assy." conditionName="isTrue"/>
+      <TcLOVValue value="LID" description="Light/ Display" conditionName="isTrue"/>
+      <TcLOVValue value="LIQ" description="Fluid, liquid,..." conditionName="isTrue"/>
+      <TcLOVValue value="MEC" description="Another mechanical" conditionName="isTrue"/>
+      <TcLOVValue value="PBA" description="Printed Board Accessory" conditionName="isTrue"/>
+      <TcLOVValue value="PCB" description="Printed Circuit Board" conditionName="isTrue"/>
+      <TcLOVValue value="RWH" description="Rear wheel assy." conditionName="isTrue"/>
+      <TcLOVValue value="RWT" description="Raw material" conditionName="isTrue"/>
+      <TcLOVValue value="SAE" description="Saddle" conditionName="isTrue"/>
+      <TcLOVValue value="SOF" description="Software" conditionName="isTrue"/>
+      <TcLOVValue value="SST" description="Service Kit" conditionName="isTrue"/>
+      <TcLOVValue value="SUS" description="Suspension" conditionName="isTrue"/>
+      <TcLOVValue value="SVC" description="Service Part" conditionName="isTrue"/>
+      <TcLOVValue value="SVK" description="Service Kit" conditionName="isTrue"/>
+      <TcLOVValue value="TRS" description="Transmission" conditionName="isTrue"/>
+      <TcLOVValue value="UG3" description="MUH GEN3(LW)" conditionName="isTrue"/>
+      <TcLOVValue value="UNT" description="MUH Non TI" conditionName="isTrue"/>
+      <TcLOVValue value="UTI" description="MUH TI" conditionName="isTrue"/>
+      <TcLOVValue value="WRO" description="XGW ROW" conditionName="isTrue"/>
+      <TcLOVValue value="WVN" description="XGW VN" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

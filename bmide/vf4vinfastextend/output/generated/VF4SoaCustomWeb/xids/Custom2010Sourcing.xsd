@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://vf4.com/Schemas/Custom/2020-10/Sourcing"
+    xmlns:tns="http://vf4.com/Schemas/Custom/2020-10/Sourcing" 
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+     
+    elementFormDefault="qualified" attributeFormDefault="unqualified">
+    
+    <xsd:import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"           schemaLocation="SoaBase.xsd" />
+    
+    
+
+
+
+    <xsd:element name="PlanDateCalculationInput">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="sourceparts" type="xsd:string"  minOccurs="0" maxOccurs="unbounded">
+               <xsd:annotation>
+                    <xsd:documentation><![CDATA[
+                        Input: list of source parts
+                    ]]></xsd:documentation>
+               </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="PlanDateCalculationOutput">
+    <xsd:complexType>
+        <xsd:sequence>
+        </xsd:sequence>
+        <xsd:attribute name="out" type="xsd:boolean" use="required">
+       </xsd:attribute>
+    </xsd:complexType>
+    </xsd:element>
+
+
+
+</xsd:schema>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+	Date="Mon Oct 14 02:03:37 PM 2019">
+	<Add />
+	<Change>
+		<TcLOV name="VF4_progress_lov" lovType="ListOfValuesString" usage="Exhaustive"
+			description="lov dung cho vfte test report table" isManagedExternally="true">
+			<TcLOVValue value="0%" description="" conditionName="isTrue" />
+			<TcLOVValue value="50%" description="" conditionName="isTrue" />
+			<TcLOVValue value="90%" description="" conditionName="isTrue" />
+			<TcLOVValue value="100%" description="" conditionName="isTrue" />
+		</TcLOV>
+	</Change>
+</TcBusinessData>

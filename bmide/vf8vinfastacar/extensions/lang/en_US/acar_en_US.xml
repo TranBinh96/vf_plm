@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}Vf8_AcarPartMasterS" status="Approved">Acar Part Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf8_AcarPartMaster" status="Approved">Acar Part Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf8_AcarPartNumbering" status="Approved">Acar Part Numbering</key>
+   <key locale="en_US" id="BusinessObject{::}Vf8_AcarPartRevMasterS" status="Approved">Acar Part Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf8_AcarPartRevisionMaster" status="Approved">Acar Part Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf8_AcarPartRevision" status="Approved">Acar Part Revision</key>
+   <key locale="en_US" id="BusinessObject{::}Vf8_AcarPart" status="Approved">Acar Part</key>
+   <key locale="en_US" id="BusinessObject{::}Vf8_PlantFormRel" status="Approved">Acar Plant Form</key>
+   <key locale="en_US" id="BusinessObject{::}Vf8_PlantFormStorage" status="Approved">Vf8_PlantFormStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf8_PlantForm" status="Approved">Acar Plant Form</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_LRHand{::}L" status="Approved">Left Hand</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_LRHand{::}R" status="Approved">Right Hand</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}ACC" status="Approved">Accessory</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}BEX" status="Approved">Body Exterior</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}BIN" status="Approved">Body Interior</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}BIW" status="Approved">Body In White</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}BLA" status="Approved">Book and Label</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}BLN" status="Approved">Blank</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}CHS" status="Approved">Chassis</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}CLP" status="Approved">Color Part</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}CVC" status="Approved">Complete Vehicle</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}DCL" status="Approved">Doors Closures</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}EEP" status="Approved">Electrical and Electronics Part</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}ENG" status="Approved">Engine</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}FLU" status="Approved">Fluid, Glues, Oils, Paint</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}GNR" status="Approved">General</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}PWT" status="Approved">Powertrain</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}RAW" status="Approved">Raw Material</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}SOW" status="Approved">Software</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}STD" status="Approved">Standard Part</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}SVC" status="Approved">Service Part</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf8_MaterialGroup{::}TWB" status="Approved">Tailor Welded Blank</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_LRHand{::}L" status="Approved">L</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_LRHand{::}R" status="Approved">R</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MakeBuy{::}E" status="Approved">MAKE (E)</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MakeBuy{::}F" status="Approved">PURCHASE (F)</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}ACC" status="Approved">ACC</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}BEX" status="Approved">BEX</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}BIN" status="Approved">BIN</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}BIW" status="Approved">BIW</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}BLA" status="Approved">BLA</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}BLN" status="Approved">BLN</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}CHS" status="Approved">CHS</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}CLP" status="Approved">CLP</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}CVC" status="Approved">CVC</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}DCL" status="Approved">DCL</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}EEP" status="Approved">EEP</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}ENG" status="Approved">ENG</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}FLU" status="Approved">FLU</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}GNR" status="Approved">GNR</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}PWT" status="Approved">PWT</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}RAW" status="Approved">RAW</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}SOW" status="Approved">SOW</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}STD" status="Approved">STD</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}SVC" status="Approved">SVC</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialGroup{::}TWB" status="Approved">TWB</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialType{::}Finished" status="Approved">Finished</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialType{::}Raw Material" status="Approved">Raw Material</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialType{::}Semi Finished" status="Approved">Semi Finished</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialType{::}Software" status="Approved">Software</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_MaterialType{::}Vehicle" status="Approved">Vehicle</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_ModelYear{::}2020" status="Approved">2020</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_Product{::}CD" status="Approved">CD</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_TraceablePartIndicator{::}No" status="Approved">No</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_TraceablePartIndicator{::}Yes" status="Approved">Yes</key>
+   <key locale="en_US" id="LOVValue{::}Vf8_plantformcode{::}IA15" status="Approved">IA15</key>
+   <key locale="en_US" id="Note{::}Vf8_EWO" status="Approved">EWO</key>
+   <key locale="en_US" id="Note{::}Vf8_FamilyAddress" status="Approved">Family Address</key>
+   <key locale="en_US" id="Note{::}Vf8_Hand" status="Approved">Hand</key>
+   <key locale="en_US" id="Note{::}Vf8_ModelCode" status="Approved">Model Code</key>
+   <key locale="en_US" id="Note{::}Vf8_Number Of Units" status="Approved">Number Of Units</key>
+   <key locale="en_US" id="Note{::}Vf8_NumberOfUnits" status="Approved">Number Of Units</key>
+   <key locale="en_US" id="Note{::}Vf8_PlantformCode" status="Approved">Plantform Code</key>
+   <key locale="en_US" id="Note{::}Vf8_Product" status="Approved">Product</key>
+   <key locale="en_US" id="Note{::}Vf8_acar_body" status="Approved">Acar Body(Styles)</key>
+   <key locale="en_US" id="Note{::}Vf8_acar_series" status="Approved">Acar Series</key>
+   <key locale="en_US" id="Note{::}Vf8_acar_veh_mkg" status="Approved">Acar Veh/Mktg Div</key>
+   <key locale="en_US" id="Note{::}Vf8_gm_color_code" status="Approved">GM COLOR CODE</key>
+   <key locale="en_US" id="Note{::}Vf8_upc" status="Approved">UPC</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_EWO" status="Approved">EWO</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_FamilyAddress" status="Approved">Family Address</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_Hand" status="Approved">L/R Hand</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_ModelCode" status="Approved">Model Code</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_Number Of Units" status="Approved">Number Of Units</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_NumberOfUnits" status="Approved">Number Of Units</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_PlantformCode" status="Approved">Plantform Code</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_Product" status="Approved">Product</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_acar_body" status="Approved">Acar Body(Styles)</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_acar_series" status="Approved">Acar Series</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_acar_veh_mkg" status="Approved">Acar Veh/Mktg Div</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_gm_color_code" status="Approved">GM COLOR CODE</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf8_upc" status="Approved">UPC</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf8_GMNumber" status="Approved">GM Part Number</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_EWO" status="Approved">EWO</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_FamilyAddress" status="Approved">Family Address</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_Hand" status="Approved">Hand</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_ModelCode" status="Approved">Model Code</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_Number Of Units" status="Approved">Number Of Units</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_NumberOfUnits" status="Approved">Number Of Units</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_PlantformCode" status="Approved">Plantform Code</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_Product" status="Approved">Product</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_acar_body" status="Approved">Acar Body(Styles)</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_acar_series" status="Approved">Acar Series</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_acar_veh_mkg" status="Approved">Acar Veh/Mktg Div</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_gm_color_code" status="Approved">GM COLOR CODE</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf8_upc" status="Approved">UPC</key>
+   <key locale="en_US" id="Property{::}Vf8_AcarPartNumbering{::}vf8_AcarMaterialGroup"
+       status="Approved">Acar Material Group</key>
+   <key locale="en_US" id="Property{::}Vf8_AcarPartNumbering{::}vf8_ColorCode" status="Approved">Acar Color Code</key>
+   <key locale="en_US" id="Property{::}Vf8_AcarPartRevision{::}vf8_Broadcast" status="Approved">Broadcast</key>
+   <key locale="en_US" id="Property{::}Vf8_AcarPartRevision{::}vf8_MaterialType" status="Approved">Material Type</key>
+   <key locale="en_US" id="Property{::}Vf8_AcarPartRevision{::}vf8_NetWeight" status="Approved">Net Weight</key>
+   <key locale="en_US" id="Property{::}Vf8_AcarPartRevision{::}vf8_TracePartIndicator"
+       status="Approved">Trace Part Indicator</key>
+   <key locale="en_US" id="Property{::}Vf8_AcarPartRevision{::}vf8_VietnameseDesc"
+       status="Approved">Vietnamese Desciption</key>
+   <key locale="en_US" id="Property{::}Vf8_AcarPart{::}vf8_GmNumber" status="Approved">GM Part Number</key>
+   <key locale="en_US" id="Property{::}Vf8_PlantFormStorage{::}vf8_Make_Buy" status="Approved">Make/Buy</key>
+   <key locale="en_US" id="Property{::}Vf8_PlantFormStorage{::}vf8_PPAP1" status="Approved">PPAP</key>
+   <key locale="en_US" id="Property{::}Vf8_PlantFormStorage{::}vf8_Plantcode" status="Approved">Plant Code</key>
+   <key locale="en_US" id="Property{::}Vf8_PlantForm{::}vf8_Make_Buy" status="Approved">Make/Buy</key>
+   <key locale="en_US" id="Property{::}Vf8_PlantForm{::}vf8_PPAP1" status="Approved">PPAP</key>
+   <key locale="en_US" id="Property{::}Vf8_PlantForm{::}vf8_PPAP" status="Approved">PPAP</key>
+   <key locale="en_US" id="Property{::}Vf8_PlantForm{::}vf8_Plantcode" status="Approved">Plant Code</key>
+</Add>
+</TcBusinessDataLocalization>

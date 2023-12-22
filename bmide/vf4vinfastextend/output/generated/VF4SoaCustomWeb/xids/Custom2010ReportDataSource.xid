@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+
+<services
+    xmlns="http://teamcenter.com/WebServices/2005-06/schemas/XID"
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+    xmlns:exp="http://teamcenter.com/Schemas/Soa/2006-03/Exceptions"
+    xmlns:svc="http://vf4.com/Schemas/Custom/2020-10/ReportDataSource" 
+    
+    >
+    
+    <types>
+        <import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"        schemaLocation="SoaBase.xsd"/>
+        <import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Exceptions"  schemaLocation="SoaExceptions.xsd"/>
+        <import namespace="http://vf4.com/Schemas/Custom/2020-10/ReportDataSource"  schemaLocation="Custom2010ReportDataSource.xsd"/> 
+           
+         
+    </types>
+    
+    <service name="Custom2010ReportDataSource"
+             targetNamespace="http://vf4.com/Services/Custom/2020-10">
+             
+        <port>Custom-2020-10-ReportDataSource</port>
+        
+        
+    <operation name="calculatePartsCost" in="svc:CalculatePartsCostInput" out="svc:VFPartCostCalcResponse">
+        <documentation><![CDATA[
+        .
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    <operation name="getEcrsCost" in="svc:GetEcrsCostInput" out="svc:VFEcrCostResponse">
+        <documentation><![CDATA[
+        .
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    <operation name="validateFamilyGroup" in="svc:ValidateFamilyGroupInput" out="svc:FGValidationOutput">
+        <documentation><![CDATA[
+        .
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    </service>
+</services>

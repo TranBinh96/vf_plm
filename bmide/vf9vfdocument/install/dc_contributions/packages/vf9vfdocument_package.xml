@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="90BA63B61911ED019B507492CE2032D5" packageId="vf9vfdocument">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies/>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="C22C430106733D95B596E53A003494C4">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf9vfdocument_path}/artifacts/vf9vfdocument_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf9vfdocument_path}/artifacts/vf9vfdocument_install.zip"/>
+                    <copy file="${Teamcenter_vf9vfdocument_path}/artifacts/vf9vfdocument_icons.zip" todir="${Teamcenter_root_path}/install/vf9vfdocument"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="vf9vfdocument"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf9vfdocument_path}/artifacts/vf9vfdocument_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf9vfdocument_path}/artifacts/vf9vfdocument_install.zip"/>
+                    <copy file="${Teamcenter_vf9vfdocument_path}/artifacts/vf9vfdocument_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/vf9vfdocument"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="vf9vfdocument"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+</package>

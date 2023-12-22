@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Thu Oct 21 03:06:52 PM 2021">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_model_FRS_LOV" lovType="ListOfValuesString" usage="Exhaustive" description=""
+      isManagedExternally="true">
+      <TcLOVValue description="" conditionName="isTrue" value="ECO" />
+      <TcLOVValue description="" conditionName="isTrue" value="PLUS" />
+      <TcLOVValue description="" conditionName="isTrue" value="PREMIUM" />
+      <TcLOVValue description="" conditionName="isTrue" value="RHD" />
+      <TcLOVValue description="" conditionName="isTrue" value="LHD" />
+
+      <TcLOVValue description="" conditionName="isTrue" value="8PACKS" />
+      <TcLOVValue description="" conditionName="isTrue" value="12PACKS" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

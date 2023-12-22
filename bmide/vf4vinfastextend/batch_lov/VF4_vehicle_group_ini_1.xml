@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Thu Oct 21 03:06:52 PM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_vehicle_group_ini_1" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue conditionName="isTrue" value="EBUS" description="E-Bus 10M" />
+      <TcLOVValue conditionName="isTrue" value="EBUS12" description="E-Bus 12M" />
+      <TcLOVValue conditionName="isTrue" value="EScooter" description="EScooter" />
+      <TcLOVValue conditionName="isTrue" value="A-car" description="FADIL" />
+      <TcLOVValue conditionName="isTrue" value="S&amp;S" description="SUV/SEDAN" />
+      <TcLOVValue conditionName="isTrue" value="VF3" description="VF 3" />
+      <TcLOVValue conditionName="isTrue" value="VFe32" description="VF 5" />
+      <TcLOVValue conditionName="isTrue" value="VFe33" description="VF 6" />
+      <TcLOVValue conditionName="isTrue" value="SCP" description="Small Car Program - VFe34" />
+      <TcLOVValue conditionName="isTrue" value="VFe34NG" description="VF 7" />
+      <TcLOVValue conditionName="isTrue" value="VFe35" description="VF 8" />
+      <TcLOVValue conditionName="isTrue" value="VFe36" description="VF 9" />
+      <TcLOVValue conditionName="isTrue" value="VF8NP" description="VF8 New Platform" />
+      <TcLOVValue conditionName="isTrue" value="VF9NP" description="VF9 New Platform" />
+      <TcLOVValue conditionName="isTrue" value="V8" description="" />
+      <TcLOVValue conditionName="isTrue" value="BP - Car" description="BP" />
+      <TcLOVValue conditionName="isTrue" value="BP - Escooter" description="BP" />
+      <TcLOVValue conditionName="isTrue" value="BP - Other" description="BP" />
+      <TcLOVValue conditionName="isTrue" value="ESS" description="BP" />
+      <TcLOVValue conditionName="isTrue" value="CELL" description="CELL" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

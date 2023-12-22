@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Sat Oct 23 05:46:57 AM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_EC_Part_ID_Prefix" lovType="ListOfValuesString" usage="Exhaustive"
+        description="" isManagedExternally="true">
+      <TcLOVValue value="MHU" description="Multimedia Head Unit" conditionName="isTrue"/>
+      <TcLOVValue value="EEP" description="Electrical and Electronic Part" conditionName="isTrue"/>
+      <TcLOVValue value="PCB" description="PCB" conditionName="isTrue"/>
+      <TcLOVValue value="HOU" description="Housing assembly (Housing, cover,..)" conditionName="isTrue"/>
+      <TcLOVValue value="ACC" description="Accessory" conditionName="isTrue"/>
+	  <TcLOVValue value="XGW" description="Gateway" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

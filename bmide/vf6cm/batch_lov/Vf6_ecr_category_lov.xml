@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Wed Jul 28 10:55:50 AM 2021">
+  <Add/>
+  <Change>
+    <TcLOV name="Vf6_ecr_category_lov" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="Gate release" description="All P, I, PR release or combine release" conditionName="isTrue"/>
+      <TcLOVValue value="Design change" description="All change, revise, improve design, 2D/3D update" conditionName="isTrue"/>
+      <TcLOVValue value="Software" description="All software, firmware update or release" conditionName="isTrue"/>
+      <TcLOVValue value="Data BOM" description="All change related to BOM data, not cost impact" conditionName="isTrue"/>
+      <TcLOVValue value="Document" description="All update, release related to specbook, DFMEA, DVP, report…" conditionName="isTrue"/>
+      <TcLOVValue value="Aftersales" description="ECR for aftersales spare parts" conditionName="isTrue"/>
+      <TcLOVValue value="Capture cost" description="Add cost information only" conditionName="isTrue"/>
+      <TcLOVValue value="Others" description="Not belong to all category above" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

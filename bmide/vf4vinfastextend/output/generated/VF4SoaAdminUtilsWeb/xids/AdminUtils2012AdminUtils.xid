@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ @<COPYRIGHT>@
+ ==================================================
+ Copyright 2012
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ @<COPYRIGHT>@
+
+ ==================================================
+
+   Auto-generated source from service interface.
+                 DO NOT EDIT
+
+ ==================================================
+-->
+
+
+<services
+    xmlns="http://teamcenter.com/WebServices/2005-06/schemas/XID"
+    xmlns:soa="http://teamcenter.com/Schemas/Soa/2006-03/Base"
+    xmlns:exp="http://teamcenter.com/Schemas/Soa/2006-03/Exceptions"
+    xmlns:svc="http://vf4.com/Schemas/AdminUtils/2020-12/AdminUtils" 
+    
+    >
+    
+    <types>
+        <import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Base"        schemaLocation="SoaBase.xsd"/>
+        <import namespace="http://teamcenter.com/Schemas/Soa/2006-03/Exceptions"  schemaLocation="SoaExceptions.xsd"/>
+        <import namespace="http://vf4.com/Schemas/AdminUtils/2020-12/AdminUtils"  schemaLocation="AdminUtils2012AdminUtils.xsd"/> 
+           
+         
+    </types>
+    
+    <service name="AdminUtils2012AdminUtils"
+             targetNamespace="http://vf4.com/Services/AdminUtils/2020-12">
+             
+        <port>AdminUtils-2020-12-AdminUtils</port>
+        
+        
+    <operation name="changeUOM" in="svc:ChangeUOMInput" out="svc:ChangeUOMResponse">
+        <documentation><![CDATA[
+        .
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    <operation name="reassignWFTask" in="svc:ReassignWFTaskInput" out="svc:ReassignWFTaskResponse">
+        <documentation><![CDATA[
+        .
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    <operation name="setProperties" in="svc:SetPropertiesInput" out="svc:SetPropertyResponse">
+        <documentation><![CDATA[
+        .
+        ]]></documentation>
+
+        <fault name="InternalServerFault"     type="exp:InternalServerFault"/>
+        
+        <fault name="InvalidUserFault"        type="exp:InvalidUserFault"/>        
+    </operation>
+    </service>
+</services>

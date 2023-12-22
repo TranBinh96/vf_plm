@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+  Date="Sat Oct 23 05:44:25 AM 2021">
+  <Add />
+  <Change>
+    <TcLOV name="VF4_VinES_ECR_new_part_status" lovType="ListOfValuesString" usage="Exhaustive"
+      description="" isManagedExternally="true">
+      <TcLOVValue value="VL5_P" description="" conditionName="isTrue" />
+      <TcLOVValue value="Vl5_I" description="" conditionName="isTrue" />
+      <TcLOVValue value="PR4D_PR" description="" conditionName="isTrue" />
+      <TcLOVValue value="Vf6_PPR" description="" conditionName="isTrue" />
+      <TcLOVValue value="VF4_PECR" description="" conditionName="isTrue" />
+      <TcLOVValue value="VF4_IECR" description="" conditionName="isTrue" />
+      <TcLOVValue value="VF4_SCR" description="" conditionName="isTrue" />
+      <TcLOVValue value="VF4_Sourcing" description="" conditionName="isTrue" />
+      <TcLOVValue value="A SAMPLE" description="" conditionName="isTrue" />
+      <TcLOVValue value="B SAMPLE" description="" conditionName="isTrue" />
+      <TcLOVValue value="C SAMPLE" description="" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

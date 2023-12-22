@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Wed Dec 16 11:57:09 AM 2020">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_AFS_Sourcing_Status" lovType="ListOfValuesString" usage="Exhaustive"
+        description="" isManagedExternally="true">
+		<TcLOVValue conditionName="isTrue" value="None"/>
+		<TcLOVValue conditionName="isTrue" value="Sourcing is not required"/>
+		<TcLOVValue conditionName="isTrue" value="Unsourced"/>
+		<TcLOVValue conditionName="isTrue" value="Pending at AFS"/>
+		<TcLOVValue conditionName="isTrue" value="Pending at Engineer"/>
+		<TcLOVValue conditionName="isTrue" value="SA/PO is under progress"/>
+		<TcLOVValue conditionName="isTrue" value="Completed"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

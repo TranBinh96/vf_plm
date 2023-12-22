@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}VF7_sbom_id" status="Approved">SBOM ID</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_chptMasterS" status="Approved">service chpt Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_chptMaster" status="Approved">service chpt Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_chptRevMasterS" status="Approved">service chpt Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_chptRevisionMaster" status="Approved">service chpt Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_chptRevision" status="Approved">service chpt Revision</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_chpt" status="Approved">Service Chapter</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_kitMasterS" status="Approved">service kit Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_kitMaster" status="Approved">service kit Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_kitRevMasterS" status="Approved">service kit Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_kitRevisionMaster" status="Approved">service kit Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_kitRevision" status="Approved">Deprecated - VF7_service_kitRevision</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_kit" status="Approved">Deprecated - VF7_service_kit</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_partMasterS" status="Approved">service part Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_partMaster" status="Approved">service part Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_partRevMasterS" status="Approved">service part Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_partRevisionMaster" status="Approved">service part Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_partRevision" status="Approved">service part Revision</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_service_part" status="Approved">Service Part</key>
+   <key locale="en_US" id="BusinessObject{::}VF7_spare_part_for" status="Approved">Spare Part For</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF7_vehicle_type{::}EScooter" status="Approved">EScooter</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF7_vehicle_type{::}S&amp;S" status="Approved">SUV/SEDAN</key>
+   <key locale="en_US" id="LOVValue{::}VF7_vehicle_category_lov{::}Automobile" status="Approved">Automobile</key>
+   <key locale="en_US" id="LOVValue{::}VF7_vehicle_category_lov{::}E-scooter" status="Approved">E-scooter</key>
+   <key locale="en_US" id="LOVValue{::}VF7_vehicle_type{::}EScooter" status="Approved">EScooter</key>
+   <key locale="en_US" id="LOVValue{::}VF7_vehicle_type{::}S&amp;S" status="Approved">S&amp;S</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf7_ebom_part" status="Approved">EBOM Part</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf7_spare_part" status="Approved">Spare Part</key>
+   <key locale="en_US" id="Property{::}VF7_sbom_id{::}vf7_vehicle_type" status="Approved">Vehicle Type</key>
+   <key locale="en_US" id="Property{::}VF7_service_chpt{::}vf7_don_vehicle" status="Approved">Donor Vehicle</key>
+   <key locale="en_US" id="Property{::}VF7_service_chpt{::}vf7_vehicle_category" status="Approved">Vehicle Category</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF7_SR" status="Approved">SR</key>
+</Add>
+</TcBusinessDataLocalization>

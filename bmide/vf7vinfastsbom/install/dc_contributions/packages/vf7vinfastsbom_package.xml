@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="EEC042DE32AC5E1085A4A7C768C71714" packageId="vf7vinfastsbom">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies>
+        <dependency id="cortona3d" type="requires"/>
+        <dependency id="cortona3ddita" type="requires"/>
+        <dependency id="cortona3ds1000d" type="requires"/>
+    </dependencies>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="E5F30ABD087103EDE7AA5895A4C6C3CE">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf7vinfastsbom_path}/artifacts/vf7vinfastsbom_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf7vinfastsbom_path}/artifacts/vf7vinfastsbom_install.zip"/>
+                    <copy file="${Teamcenter_vf7vinfastsbom_path}/artifacts/vf7vinfastsbom_icons.zip" todir="${Teamcenter_root_path}/install/vf7vinfastsbom"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="vf7vinfastsbom"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf7vinfastsbom_path}/artifacts/vf7vinfastsbom_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf7vinfastsbom_path}/artifacts/vf7vinfastsbom_install.zip"/>
+                    <copy file="${Teamcenter_vf7vinfastsbom_path}/artifacts/vf7vinfastsbom_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/vf7vinfastsbom"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="vf7vinfastsbom"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+</package>

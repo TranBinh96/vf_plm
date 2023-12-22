@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes currentTemplateVersion="13.0_0" displayName="VinfastCore" enableOpsDataDeploy="true" guid="9635C5C80070209E5D9EF837A94665D0" isDescriptionMandatory="false" name="vf3vinfastcore" optional="true" prefixes="VF3" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+    <include file="aps0apscore_template.xml"/>
+    <include file="integration4catia_template.xml"/>
+    <include file="srh0apsconfiguredsearch_template.xml"/>
+    <include file="translationservice_template.xml"/>
+    <include file="bcs0buildconditions_template.xml"/>
+    <include file="cfg0configurator_template.xml"/>
+    <include file="smc0psmcfgsupport_template.xml"/>
+</TcBusinessDataIncludes>

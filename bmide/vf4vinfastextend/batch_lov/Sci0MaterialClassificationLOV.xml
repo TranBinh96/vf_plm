@@ -1,0 +1,54 @@
+<TcBusinessData Date="Sun May 23 19:34:15 2021" batchXSDVersion="1.0" xmlns="http://teamcenter.com/BusinessModel/TcBusinessData">
+	<Add/>
+	<Change>
+		<TcLOV description="This holds the Material Classification list from IMDS.IMDS provides the Material classfication list in MCAll.dat file as a part of initial data file." isManagedExternally="true" lovType="ListOfValuesString" name="Sci0MaterialClassificationLOV" usage="Exhaustive">
+			<TcLOVValue conditionName="isTrue" description="Steels / cast steel / sintered steel" value="1.1"/>
+			<TcLOVValue conditionName="isTrue" description="unalloyed, low alloyed" value="1.1.1"/>
+			<TcLOVValue conditionName="isTrue" description="highly alloyed" value="1.1.2"/>
+			<TcLOVValue conditionName="isTrue" description="Cast iron" value="1.2"/>
+			<TcLOVValue conditionName="isTrue" description="Cast iron with lamellar graphite / tempered cast iron" value="1.2.1"/>
+			<TcLOVValue conditionName="isTrue" description="Cast iron with nodular graphite / vermicular cast iron" value="1.2.2"/>
+			<TcLOVValue conditionName="isTrue" description="Highly alloyed cast iron" value="1.2.3"/>
+			<TcLOVValue conditionName="isTrue" description="Aluminium and aluminium alloys" value="2.1"/>
+			<TcLOVValue conditionName="isTrue" description="Cast aluminium alloys" value="2.1.1"/>
+			<TcLOVValue conditionName="isTrue" description="Wrought aluminium alloys" value="2.1.2"/>
+			<TcLOVValue conditionName="isTrue" description="Magnesium and magnesium alloys" value="2.2"/>
+			<TcLOVValue conditionName="isTrue" description="Cast magnesium alloys" value="2.2.1"/>
+			<TcLOVValue conditionName="isTrue" description="Wrought magnesium alloys" value="2.2.2"/>
+			<TcLOVValue conditionName="isTrue" description="Titanium and titanium alloys" value="2.3"/>
+			<TcLOVValue conditionName="isTrue" description="Copper (e.g. copper amounts in cable harnesses)" value="3.1"/>
+			<TcLOVValue conditionName="isTrue" description="Copper alloys" value="3.2"/>
+			<TcLOVValue conditionName="isTrue" description="Zinc alloys" value="3.3"/>
+			<TcLOVValue conditionName="isTrue" description="Nickel alloys" value="3.4"/>
+			<TcLOVValue conditionName="isTrue" description="Lead" value="3.5"/>
+			<TcLOVValue conditionName="isTrue" description="Platinum / rhodium" value="4.1"/>
+			<TcLOVValue conditionName="isTrue" description="Other special metals" value="4.2"/>
+			<TcLOVValue conditionName="isTrue" description="filled Thermoplastics" value="5.1.a"/>
+			<TcLOVValue conditionName="isTrue" description="unfilled Thermoplastics" value="5.1.b"/>
+			<TcLOVValue conditionName="isTrue" description="Thermoplastic elastomers" value="5.2"/>
+			<TcLOVValue conditionName="isTrue" description="Elastomers / elastomeric compounds" value="5.3"/>
+			<TcLOVValue conditionName="isTrue" description="Duromers" value="5.4"/>
+			<TcLOVValue conditionName="isTrue" description="Polyurethane" value="5.4.1"/>
+			<TcLOVValue conditionName="isTrue" description="Unsaturated polyester" value="5.4.2"/>
+			<TcLOVValue conditionName="isTrue" description="Other duromers" value="5.4.3"/>
+			<TcLOVValue conditionName="isTrue" description="Plastics (in polymeric compounds)" value="5.5.1"/>
+			<TcLOVValue conditionName="isTrue" description="Textiles (in polymeric compounds)" value="5.5.2"/>
+			<TcLOVValue conditionName="isTrue" description="Lacquers" value="6.1"/>
+			<TcLOVValue conditionName="isTrue" description="Adhesives, sealants" value="6.2"/>
+			<TcLOVValue conditionName="isTrue" description="Underseal" value="6.3"/>
+			<TcLOVValue conditionName="isTrue" description="Modified organic natural materials (e.g. leather, wood, cardboard, cotton fleece)" value="7.1"/>
+			<TcLOVValue conditionName="isTrue" description="Ceramics / glass" value="7.2"/>
+			<TcLOVValue conditionName="isTrue" description="Other compounds (e.g. friction linings)" value="7.3"/>
+			<TcLOVValue conditionName="isTrue" description="Electronics (e.g. pc boards, displays)" value="8.1"/>
+			<TcLOVValue conditionName="isTrue" description="Electrics" value="8.2"/>
+			<TcLOVValue conditionName="isTrue" description="Fuels" value="9.1"/>
+			<TcLOVValue conditionName="isTrue" description="Lubricants" value="9.2"/>
+			<TcLOVValue conditionName="isTrue" description="Brake fluid" value="9.3"/>
+			<TcLOVValue conditionName="isTrue" description="Coolant / other glycols" value="9.4"/>
+			<TcLOVValue conditionName="isTrue" description="Refrigerant" value="9.5"/>
+			<TcLOVValue conditionName="isTrue" description="Washing water, battery acids" value="9.6"/>
+			<TcLOVValue conditionName="isTrue" description="Preservative" value="9.7"/>
+			<TcLOVValue conditionName="isTrue" description="Other fuels and auxiliary means" value="9.8"/>
+		</TcLOV>
+	</Change>
+</TcBusinessData>

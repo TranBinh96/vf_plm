@@ -1,0 +1,2156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}Vf6_CoordinatedChange" status="Approved">Coordinated Change</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_CustomMasterS" status="Approved">Custom Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_CustomMaster" status="Approved">Custom Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_CustomRevMasterS" status="Approved">Custom Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_CustomRevisionMaster" status="Approved">Custom Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_CustomRevision" status="Approved">Custom Revision</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_Custom" status="Approved">Custom</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_DDE_store_table" status="Approved">DDE store table</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_DMU_Relation" status="Approved">DMU Relation</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECNMasterS" status="Approved">ECN Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECNMaster" status="Approved">ECN Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECNRevMasterS" status="Approved">ECN Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECNRevisionMaster" status="Approved">ECN Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECNRevision" status="Approved">Engineering Change Notice Revision</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECN" status="Approved">Engineering Change Notice</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECRMasterS" status="Approved">ECR Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECRMaster" status="Approved">ECR Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECRRevMasterS" status="Approved">ECR Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECRRevisionMaster" status="Approved">ECR Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECRRevision" status="Approved">Engineering Change Request Revision</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECR_gate_reviewStorage" status="Approved">Vf6_ECR_gate_reviewStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECR_gate_review" status="Approved">ECR Gate Review Form</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECR_related" status="Approved">ECR Related</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ECR" status="Approved">Engineering Change Request</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_MCNMasterS" status="Approved">MCN Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_MCNMaster" status="Approved">MCN Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_MCNRevMasterS" status="Approved">MCN Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_MCNRevisionMaster" status="Approved">MCN Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_MCNRevision" status="Approved">Manufacturing Change Notice Revision</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_MCN" status="Approved">Manufacturing Change Notice</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_PreCAB_pkgMasterS" status="Approved">Pre CAB pkg Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_PreCAB_pkgMaster" status="Approved">Pre CAB pkg Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_PreCAB_pkgRevMasterS" status="Approved">Pre CAB pkg Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_PreCAB_pkgRevisionMaster" status="Approved">Pre CAB pkg Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_PreCAB_pkgRevision" status="Approved">Pre-CAB Package Revision</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_PreCAB_pkg" status="Approved">Pre-CAB Package</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_VES_BaseID_Gen_MCN" status="Approved">VES Base ID Gen MCN</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_VES_MCNMasterS" status="Approved">VES MCN Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_VES_MCNMaster" status="Approved">VES MCN Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_VES_MCNRevMasterS" status="Approved">VES MCN Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_VES_MCNRevisionMaster" status="Approved">VES MCN Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_VES_MCNRevision" status="Approved">VinES MCN Revision</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_VES_MCN" status="Approved">VinES MCN</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_archive_sap_transfer" status="Approved">Archive SAP Transfer</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_bom_infomation" status="Approved">BOM Infomation</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_change_formStorage" status="Approved">Vf6_change_formStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_change_forms" status="Approved">Cost Impact</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_change_form" status="Approved">Cost Impact</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_cost_impactedStorage" status="Approved">Vf6_cost_impactedStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_cost_impacted" status="Approved">Testing and Validation - Cost Impacted</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_current_sap_transfer" status="Approved">Current SAP Transfer</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_detail_changes" status="Approved">Detail Changes</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ecn_data_exchange" status="Approved">ECN Data Exchange</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ecr_id" status="Approved">ecr id</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ecr_info_relation" status="Approved">VF ECR Infomation Relation</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ecr_informationStorage" status="Approved">Vf6_ecr_informationStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_ecr_information" status="Approved">VF ECR Information</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_engineeringStorage" status="Approved">Vf6_engineeringStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_engineering" status="Approved">Engineering</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_folder_gate_review" status="Approved">Checklist</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_func_safety_grStorage" status="Approved">Vf6_func_safety_grStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_func_safety_gr" status="Approved">Function Safety Gate Review Form</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_impacted_shop" status="Approved">Impacted Shop</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_individual_parts_in_ecr" status="Approved">Individual Parts</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_logisticsStorage" status="Approved">Vf6_logisticsStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_logistics" status="Approved">Logistics</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_manu_quality_grStorage" status="Approved">Vf6_manu_quality_grStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_manu_quality_gr" status="Approved">Manufacturing Quality Gate Review Form</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_manufacturingStorage" status="Approved">Vf6_manufacturingStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_manufacturing_grStorage" status="Approved">Vf6_manufacturing_grStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_manufacturing_gr" status="Approved">Manufacturing Gate Review Form</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_manufacturing" status="Approved">Manufacturing</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_module_group_grStorage" status="Approved">Vf6_module_group_grStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_module_group_gr" status="Approved">Module Group Leader Gate Review Form</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_pre_evaluationStorage" status="Approved">Vf6_pre_evaluationStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_pre_evaluation" status="Approved">Pre Trigger Evaluation</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_purchasingStorage" status="Approved">Vf6_purchasingStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_purchasing" status="Approved">Purchasing</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_styling_color_grStorage" status="Approved">Vf6_styling_color_grStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_styling_color_gr" status="Approved">Styling and Color &amp; Trim Gate Review Form</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_test_validate_grStorage" status="Approved">Vf6_test_validate_grStorage</key>
+   <key locale="en_US" id="BusinessObject{::}Vf6_test_validate_gr" status="Approved">Testing and Validation Gate Review Form</key>
+   <key locale="en_US" id="ConditionDescription{::}Vf6_is_C6" status="Approved">Create MCN for Cell Gen-PT_Cylindrical</key>
+   <key locale="en_US" id="ConditionDescription{::}Vf6_is_ESS_Project" status="Approved">Generate ID Rule for ESS Project</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ECR_Category_LOV_LV1{::}Aftersales"
+       status="Approved">ECR for aftersales spare parts</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ECR_Category_LOV_LV1{::}Commercial &amp; Procurement relevant"
+       status="Approved">Commercial &amp; Procurement relevant</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ECR_Category_LOV_LV1{::}Data BOM"
+       status="Approved">All change related to BOM data, not cost impact</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ECR_Category_LOV_LV1{::}Design change"
+       status="Approved">All change, revise, improve design, 2D/3D update</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ECR_Category_LOV_LV1{::}Document"
+       status="Approved">All update, release related to specbook, DFMEA, DVP, report,etc</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ECR_Category_LOV_LV1{::}Gate release"
+       status="Approved">All P, I, PR release or combine release</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ECR_Category_LOV_LV1{::}M/C Release"
+       status="Approved">For Cell + Pack</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ECR_Category_LOV_LV1{::}Others"
+       status="Approved">Not belong to all category above</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ECR_Category_LOV_LV1{::}Product strategy"
+       status="Approved">Product strategy</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ECR_Category_LOV_LV1{::}Software"
+       status="Approved">All software, firmware update or release</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ecn_es_classification{::}BOM &amp; DWG"
+       status="Approved">Parts and (or)  drawing change (Revision /substitution / cancellation/ following a Revision of BOM) through the Item ID changes</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ecn_es_classification{::}BOM only"
+       status="Approved">Revision BOM (by changing the Item ID &amp; Properties)</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ecn_es_classification{::}Drawing only"
+       status="Approved">Drawing Revision</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ecn_es_classification{::}Manual process"
+       status="Approved">Design/ Operation  process (cancellation/ substitution / restoration) for the items that are not existing in BOM.</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ecn_es_priority{::}A - Critical"
+       status="Approved">ECN Before SOP; ECN After SOP (highest priority): In case of Recall campain or Market claim (critical product defect), Relate to Safety issues &amp; Regulation non compliance</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ecn_es_priority{::}B - Urgent"
+       status="Approved">Significant quality problems (except problems in A priority). Require clear details for management of stock and spare parts</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ecn_es_priority{::}C - Running change"
+       status="Approved">Improvements in the product, cost reduction, alternative supplies, etc. Using new part after all the stocks of old part have run out</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_ecn_es_priority{::}D - Already done"
+       status="Approved">Regularize BOM/Drawing to be same as actual production</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}ACP" status="Approved">Accessory part</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}APP" status="Approved">Application</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}ASY" status="Approved">Assembly drawing</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}BDP" status="Approved">Body plastic</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}BOL" status="Approved">Book and Label</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}BRA" status="Approved">Brake system</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}BTP" status="Approved">Battery Pack</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}CHG" status="Approved">Charging Station</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}CNI" status="Approved">Connectivity and Interface</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}DRT" status="Approved">Drive train</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}ELE" status="Approved">Electric and Electronic</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}FIR" status="Approved">Firmware</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}FRA" status="Approved">Frame assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}FWH" status="Approved">Front wheel assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}LID" status="Approved">Light and Display</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}LIQ" status="Approved">Liquid</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}MEC" status="Approved">Another mechanical</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}PBA" status="Approved">Printed Board Accessory</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}PCB" status="Approved">Printed Circuit Board</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}RWH" status="Approved">Rear wheel assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}RWT" status="Approved">Raw material</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}SAE" status="Approved">Saddle assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}SOF" status="Approved">Software</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}SPC" status="Approved">Specification document</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}SUS" status="Approved">Suspension system</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}SVC" status="Approved">Service Part</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module_es{::}TRS" status="Approved">Transmission</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}3_IN_1_PDU_DCDC_OBC"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}BP - EE"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}BP - MD"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}BP - SW"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}BP/CELL - ME"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}Battery Pack"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}Body in White"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}CELL - Chemical/Material"
+       status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}CELL" status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}Chassis"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}Doors Closures"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}E-MOTOR"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}ESS" status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}Electrics/Electronics"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}Exterior"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}Interior"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}Powertrain"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}Seat and Restraint"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_impacted_module{::}Vehicle Complete"
+       status="Approved">CAR</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_model_lov{::}VF8NP" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_model_lov{::}VF9NP" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}ACP" status="Approved">Accessory part</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}APP" status="Approved">Application</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}ASY" status="Approved">Assembly drawing</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}BDP" status="Approved">Body plastic</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}BOL" status="Approved">Book and Label</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}BRA" status="Approved">Brake system</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}BTP" status="Approved">Battery Pack</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}CHG" status="Approved">Charging Station</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}CNI" status="Approved">Connectivity and Interface</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}DRT" status="Approved">Drive train</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}ELE" status="Approved">Electric and Electronic</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}FIR" status="Approved">Firmware</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}FRA" status="Approved">Frame assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}FWH" status="Approved">Front wheel assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}LID" status="Approved">Light and Display</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}LIQ" status="Approved">Liquid</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}MEC" status="Approved">Another mechanical</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}PBA" status="Approved">Printed Board Accessory</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}PCB" status="Approved">Printed Circuit Board</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}RWH" status="Approved">Rear wheel assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}RWT" status="Approved">Raw material</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}SAE" status="Approved">Saddle assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}SOF" status="Approved">Software</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}SPC" status="Approved">Specification document</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}SUS" status="Approved">Suspension system</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}SVC" status="Approved">Service Part</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es_in{::}TRS" status="Approved">Transmission</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}ACP" status="Approved">Accessory part</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}APP" status="Approved">Application</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}ASY" status="Approved">Assembly drawing</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}BDP" status="Approved">Body plastic</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}BOL" status="Approved">Book and Label</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}BRA" status="Approved">Brake system</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}BTP" status="Approved">Battery Pack</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}CHG" status="Approved">Charging Station</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}CNI" status="Approved">Connectivity and Interface</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}DRT" status="Approved">Drive train</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}ELE" status="Approved">Electric and Electronic</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}FIR" status="Approved">Firmware</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}FRA" status="Approved">Frame assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}FWH" status="Approved">Front wheel assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}LID" status="Approved">Light and Display</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}LIQ" status="Approved">Liquid</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}MEC" status="Approved">Another mechanical</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}PBA" status="Approved">Printed Board Accessory</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}PCB" status="Approved">Printed Circuit Board</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}RWH" status="Approved">Rear wheel assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}RWT" status="Approved">Raw material</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}SAE" status="Approved">Saddle assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}SOF" status="Approved">Software</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}SPC" status="Approved">Specification document</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}SUS" status="Approved">Suspension system</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}SVC" status="Approved">Service Part</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_es{::}TRS" status="Approved">Transmission</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_vines_ini{::}BP - EE"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_vines_ini{::}BP - MD"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_vines_ini{::}BP - SW"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_vines_ini{::}BP/CELL - ME"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_vines_ini{::}CELL - Chemical/Material"
+       status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_vines_ini{::}CELL"
+       status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_module_group_vines_ini{::}ESS"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_sap_plant_es{::}2001" status="Approved">Escooter</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}BP - Car"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}BP - Escooter"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}BP - Other"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}C-SUV"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}CELL"
+       status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}Car"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}D-SUV"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}EBUS12"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}EBUS"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}ESS"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}S&amp;S"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}SCP"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}V8" status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}VF35"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}VF36"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}VF3"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}VF8NP"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}VF9NP"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}VFe32"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}VFe33"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}VFe34NG"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}VFe35"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_ini_1{::}VFe36"
+       status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}BP - Car"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}BP - Escooter"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}BP - Other"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}C-SUV"
+       status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}CELL" status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}Car" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}D-SUV"
+       status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}EBUS12"
+       status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}EBUS" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}ESS" status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}S&amp;S"
+       status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}SCP" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}V8" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}VF35" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}VF36" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}VF3" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}VF8NP"
+       status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}VF9NP"
+       status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}VFe32"
+       status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}VFe33"
+       status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}VFe34NG"
+       status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}VFe35"
+       status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_group_lov{::}VFe36"
+       status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}A-car" status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}BP - Car" status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}BP - Escooter"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}BP - Other"
+       status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}C-SUV" status="Approved">C SUV</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}CELL" status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}D-SUV" status="Approved">D SUV</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}EBUS12" status="Approved">E-Bus 12M</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}EBUS" status="Approved">E-Bus 10M</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}ESS" status="Approved">BP</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}EScooter" status="Approved">EScooter</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}S&amp;S" status="Approved">SUV/SEDAN</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}SCP" status="Approved">Small Car Program</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}VF8NP" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}VF9NP" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}Vf6_vehicle_type{::}VinES Project"
+       status="Approved">A program using for all project in Vines as finish good (excepted scooter and automotive project)</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECN_New_Part_Status{::}PR4D_PR" status="Approved">PR</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECN_New_Part_Status{::}VF4_IECR" status="Approved">ICR</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECN_New_Part_Status{::}VF4_PECR" status="Approved">PCR</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECN_New_Part_Status{::}VF4_SCR" status="Approved">SCR</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECN_New_Part_Status{::}VF4_Sourcing" status="Approved">Sourcing</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECN_New_Part_Status{::}VL5_P" status="Approved">P</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECN_New_Part_Status{::}Vf6_PPR" status="Approved">PPR</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECN_New_Part_Status{::}Vl5_I" status="Approved">I</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV1{::}Aftersales" status="Approved">Aftersales</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV1{::}Commercial &amp; Procurement relevant"
+       status="Approved">Commercial &amp; Procurement relevant</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV1{::}Data BOM" status="Approved">Data BOM</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV1{::}Design change"
+       status="Approved">Design change</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV1{::}Document" status="Approved">Document</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV1{::}Gate release" status="Approved">Gate release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV1{::}M/C Release" status="Approved">M/C Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV1{::}Others" status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV1{::}Product strategy"
+       status="Approved">Product strategy</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV1{::}Software" status="Approved">Software</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_MCRelease{::}Material/Chemical Release"
+       status="Approved">Material/Chemical Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_Aftersale{::}Design change for spare parts"
+       status="Approved">Design change for spare parts</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_Commercial{::}Changes to capture cost impact"
+       status="Approved">Changes to capture cost impact</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_Commercial{::}Cost optimization driven"
+       status="Approved">Cost optimization driven</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_Commercial{::}Supplier changes or localization"
+       status="Approved">Supplier changes or localization</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_DataBOM{::}All change related with BOM key attributes"
+       status="Approved">All change related with BOM key attributes</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_Document{::}DFMEA/FMEA"
+       status="Approved">DFMEA/FMEA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_Document{::}DVP, DVP &amp; R"
+       status="Approved">DVP, DVP &amp; R</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_Document{::}Specbooks /Vehicle Technical&#x0A;Specification/ Color &amp; Trim"
+       status="Approved">Specbooks /Vehicle Technical&#x0A;Specification/ Color &amp; Trim</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_Document{::}Standard requirement"
+       status="Approved">Standard requirement</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_GateRelease{::}Combine HTK01"
+       status="Approved">Combine HTK01</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_GateRelease{::}Combine HTK02"
+       status="Approved">Combine HTK02</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_GateRelease{::}I Release &amp; PR Release"
+       status="Approved">I Release &amp; PR Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_GateRelease{::}I Release"
+       status="Approved">I Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_GateRelease{::}P Release &amp; I Release &amp; PR Release &amp; PPR Release"
+       status="Approved">P Release &amp; I Release &amp; PR Release &amp; PPR Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_GateRelease{::}P Release &amp; I Release"
+       status="Approved">P Release &amp; I Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_GateRelease{::}P Release"
+       status="Approved">P Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_GateRelease{::}PPR Release"
+       status="Approved">PPR Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_GateRelease{::}PR Release"
+       status="Approved">PR Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_Other{::}Others"
+       status="Approved">Others</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_ProductStrategy{::}Changes on feature list changes"
+       status="Approved">Changes on feature list changes</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_Software{::}All software, firmware changes,&#x0A;release FRS relevant"
+       status="Approved">All software, firmware changes,&#x0A;release FRS relevant</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_{::}Build phase issues"
+       status="Approved">Build phase issues</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_{::}CAE requirement"
+       status="Approved">CAE requirement</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_{::}Combine advanced HTK01"
+       status="Approved">Combine advanced HTK01</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_{::}Combine advanced HTK02"
+       status="Approved">Combine advanced HTK02</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_{::}DMU requirement"
+       status="Approved">DMU requirement</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_{::}DVP and T&amp;V Testing results"
+       status="Approved">DVP and T&amp;V Testing results</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_{::}Engineering / Manufacturing&#x0A;quality improvement"
+       status="Approved">Engineering / Manufacturing&#x0A;quality improvement</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ECR_Category_LOV_LV2_Sub_{::}Homologation or standard&#x0A;regulation requirement"
+       status="Approved">Homologation or standard&#x0A;regulation requirement</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe32_model{::}VFe32_ECO_VN" status="Approved">VFe32_ECO_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe32_model{::}VFe32_Plus_VN" status="Approved">VFe32_Plus_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe33_model{::}VFe33_ECO_EU" status="Approved">VFe33_ECO_EU</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe33_model{::}VFe33_ECO_US/CA" status="Approved">VFe33_ECO_US/CA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe33_model{::}VFe33_ECO_VN" status="Approved">VFe33_ECO_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe33_model{::}VFe33_Plus_EU" status="Approved">VFe33_Plus_EU</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe33_model{::}VFe33_Plus_US/CA" status="Approved">VFe33_Plus_US/CA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe33_model{::}VFe33_Plus_VN" status="Approved">VFe33_Plus_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe34NG_model{::}VFe34NG _ECO_VN" status="Approved">VFe34NG _ECO_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe34NG_model{::}VFe34NG _Plus_EU" status="Approved">VFe34NG _Plus_EU</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe34NG_model{::}VFe34NG _Plus_US/CA" status="Approved">VFe34NG _Plus_US/CA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe34NG_model{::}VFe34NG _Plus_VN" status="Approved">VFe34NG _Plus_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe34NG_model{::}VFe34NG_ECO_EU" status="Approved">VFe34NG_ECO_EU</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VFe34NG_model{::}VFe34NG_ECO_US/CA" status="Approved">VFe34NG_ECO_US/CA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VinES_Impacted_Module_lov{::}ESS" status="Approved">ESS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_VinES_Module_Group_lov{::}ESS" status="Approved">ESS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_c_suv_model{::}BEV" status="Approved">BEV</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_c_suv_model{::}Common" status="Approved">Common</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_c_suv_model{::}ICE" status="Approved">ICE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_c_suv_model{::}N/A" status="Approved">N/A</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_c_suv_model{::}US_Plus_BEV" status="Approved">US_Plus_BEV</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_c_suv_model{::}US_Plus_ICE" status="Approved">US_Plus_ICE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_c_suv_model{::}VN_Plus_BEV" status="Approved">VN_Plus_BEV</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_c_suv_model{::}VN_Plus_ICE" status="Approved">VN_Plus_ICE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_c_suv_model{::}VN_Smart_BEV" status="Approved">VN_Smart_BEV</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_c_suv_model{::}VN_Smart_ICE" status="Approved">VN_Smart_ICE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_car_model{::}Platform" status="Approved">Platform</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_car_model{::}SEDAN" status="Approved">SEDAN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_car_model{::}SUV" status="Approved">SUV</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Continuous Improvements"
+       status="Approved">Continuous Improvements</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Cost Saving" status="Approved">Cost Saving</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Deviation Following up"
+       status="Approved">Deviation Following up</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Government Regulation"
+       status="Approved">Government Regulation</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Initial Release" status="Approved">Initial Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Issue Resolution"
+       status="Approved">Issue Resolution</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Manufacturing Request"
+       status="Approved">Manufacturing Request</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Marketing request"
+       status="Approved">Marketing request</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Miscellaneous" status="Approved">Miscellaneous</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Product Competitive"
+       status="Approved">Product Competitive</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Quality Improvements"
+       status="Approved">Quality Improvements</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Requirement Change"
+       status="Approved">Requirement Change</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Service Request" status="Approved">Service Request</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Styling Change" status="Approved">Styling Change</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Supplier/Purchase Request"
+       status="Approved">Supplier/Purchase Request</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_reason_lov{::}Vehicle Platform Request"
+       status="Approved">Vehicle Platform Request</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_type_lov{::}Normal" status="Approved">Normal</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_change_type_lov{::}Urgent" status="Approved">Urgent</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_disposal_code{::}Re-Work" status="Approved">Re-Work</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_disposal_code{::}Scrap" status="Approved">Scrap</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_disposal_code{::}Transfer To After Sales"
+       status="Approved">Transfer To After Sales</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_dsuv_model{::}BEV" status="Approved">BEV</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_dsuv_model{::}Common" status="Approved">Common</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_dsuv_model{::}ICE" status="Approved">ICE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_dsuv_model{::}N/A" status="Approved">N/A</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_dsuv_model{::}US_Plus_BEV" status="Approved">US_Plus_BEV</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_dsuv_model{::}VN_Plus_BEV" status="Approved">VN_Plus_BEV</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_dsuv_model{::}VN_Plus_ICE" status="Approved">VN_Plus_ICE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_dsuv_model{::}VN_Smart_BEV" status="Approved">VN_Smart_BEV</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_dsuv_model{::}VN_Smart_ICE" status="Approved">VN_Smart_ICE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_es_classification{::}BOM &amp; DWG"
+       status="Approved">BOM &amp; DWG</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_es_classification{::}BOM only" status="Approved">BOM only</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_es_classification{::}Drawing only"
+       status="Approved">Drawing only</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_es_classification{::}Manual process"
+       status="Approved">Manual process</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_es_priority{::}A - Critical" status="Approved">A - Critical</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_es_priority{::}B - Urgent" status="Approved">B - Urgent</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_es_priority{::}C - Running change"
+       status="Approved">C - Running change</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_es_priority{::}D - Already done" status="Approved">D - Already done</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_type_lov{::}Drawing Release" status="Approved">Drawing Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_type_lov{::}Production Change" status="Approved">Production Change</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_type_lov{::}Production Release" status="Approved">Production Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_type_lov{::}Service Change" status="Approved">Service Change</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_ecn_type_lov{::}Service Release" status="Approved">Service Release</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}A SAMPLE" status="Approved">A SAMPLE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}B SAMPLE" status="Approved">B SAMPLE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}C SAMPLE" status="Approved">C SAMPLE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}D SAMPLE" status="Approved">D SAMPLE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}EP" status="Approved">EP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}IMMEDIATE CHANGE"
+       status="Approved">IMMEDIATE CHANGE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}LS_CAN" status="Approved">LS_CAN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}LS_EU" status="Approved">LS_EU</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}LS_RUS" status="Approved">LS_RUS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}LS_US" status="Approved">LS_US</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}LS_V8" status="Approved">LS_V8</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}LS_VN" status="Approved">LS_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}PP_CAN" status="Approved">PP_CAN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}PP_EU" status="Approved">PP_EU</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}PP_RUS" status="Approved">PP_RUS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}PP_US" status="Approved">PP_US</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}PP_VN" status="Approved">PP_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}PT1" status="Approved">PT1</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}PT2" status="Approved">PT2</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}PTO 1" status="Approved">PTO 1</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}PTO 2" status="Approved">PTO 2</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}PT" status="Approved">PT</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}RUNNING CHANGE" status="Approved">RUNNING CHANGE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}SOP_CAN" status="Approved">SOP_CAN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}SOP_EU" status="Approved">SOP_EU</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}SOP_RUS" status="Approved">SOP_RUS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}SOP_US" status="Approved">SOP_US</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}SOP_V8" status="Approved">SOP_V8</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_disposal{::}SOP_VN" status="Approved">SOP_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_proposal_es{::}IMMEDIATELY CHANGE"
+       status="Approved">IMMEDIATELY CHANGE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_proposal_es{::}PP" status="Approved">PP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_proposal_es{::}PTO" status="Approved">PTO</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_proposal_es{::}RUNNING CHANGE"
+       status="Approved">RUNNING CHANGE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_effective_proposal_es{::}SOP" status="Approved">SOP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_es_exchangeability_newpart{::}New parts may be used on old models as they are"
+       status="Approved">New parts may be used on old models as they are</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_es_exchangeability_newpart{::}New parts may be used on old models in combination with other parts"
+       status="Approved">New parts may be used on old models in combination with other parts</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_es_exchangeability_newpart{::}New parts must not be used on old models"
+       status="Approved">New parts must not be used on old models</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_es_exchangeability_oldpart{::}Old parts may be used on new models as they are"
+       status="Approved">Old parts may be used on new models as they are</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_es_exchangeability_oldpart{::}Old parts may be used on new models in combination with other parts"
+       status="Approved">Old parts may be used on new models in combination with other parts</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_es_exchangeability_oldpart{::}Old parts must not be used either on old models or new models"
+       status="Approved">Old parts must not be used either on old models or new models</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_es_exchangeability_oldpart{::}Old parts must not be used on new models"
+       status="Approved">Old parts must not be used on new models</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_escooter_model{::}A Model" status="Approved">A Model</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_escooter_model{::}V5 LITE" status="Approved">V5 LITE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_escooter_model{::}V7 LITE" status="Approved">V7 LITE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_escooter_model{::}V9 SPORT" status="Approved">V9 SPORT</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_escooter_model{::}VK CITY" status="Approved">VK CITY</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_escooter_model{::}VK LITE" status="Approved">VK LITE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_escooter_model{::}VK SPORT" status="Approved">VK SPORT</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}ACP" status="Approved">ACP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}APP" status="Approved">APP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}ASY" status="Approved">ASY</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}BDP" status="Approved">BDP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}BOL" status="Approved">BOL</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}BRA" status="Approved">BRA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}BTP" status="Approved">BTP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}CHG" status="Approved">CHG</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}CNI" status="Approved">CNI</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}DRT" status="Approved">DRT</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}ELE" status="Approved">ELE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}FIR" status="Approved">FIR</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}FRA" status="Approved">FRA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}FWH" status="Approved">FWH</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}LID" status="Approved">LID</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}LIQ" status="Approved">LIQ</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}MEC" status="Approved">MEC</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}PBA" status="Approved">PBA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}PCB" status="Approved">PCB</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}RWH" status="Approved">RWH</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}RWT" status="Approved">RWT</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}SAE" status="Approved">SAE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}SOF" status="Approved">SOF</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}SPC" status="Approved">SPC</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}SUS" status="Approved">SUS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}SVC" status="Approved">SVC</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module_es{::}TRS" status="Approved">TRS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}3_IN_1_PDU_DCDC_OBC"
+       status="Approved">3_IN_1_PDU_DCDC_OBC</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}BP - EE" status="Approved">BP - EE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}BP - MD" status="Approved">BP - MD</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}BP - SW" status="Approved">BP - SW</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}BP/CELL - ME" status="Approved">BP/CELL - ME</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}Battery Pack" status="Approved">Battery Pack</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}Body in White" status="Approved">Body in White</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}CELL - Chemical/Material"
+       status="Approved">CELL - Chemical/Material</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}CELL" status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}Chassis" status="Approved">Chassis</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}Doors Closures" status="Approved">Doors Closures</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}E-MOTOR" status="Approved">E-MOTOR</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}ESS" status="Approved">ESS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}Electrics/Electronics"
+       status="Approved">Electrics/Electronics</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}Exterior" status="Approved">Exterior</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}Interior" status="Approved">Interior</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}Powertrain" status="Approved">Powertrain</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}Seat and Restraint"
+       status="Approved">Seat and Restraint</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_impacted_module{::}Vehicle Complete" status="Approved">Vehicle Complete</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}A SAMPLE" status="Approved">A SAMPLE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}B SAMPLE" status="Approved">B SAMPLE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}C SAMPLE" status="Approved">C SAMPLE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}D SAMPLE" status="Approved">D SAMPLE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}EP" status="Approved">EP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}IMMEDIATE CHANGE"
+       status="Approved">IMMEDIATE CHANGE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}LS_CAN" status="Approved">LS_CAN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}LS_EU" status="Approved">LS_EU</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}LS_RUS" status="Approved">LS_RUS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}LS_US" status="Approved">LS_US</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}LS_V8" status="Approved">LS_V8</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}LS_VN" status="Approved">LS_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}LS" status="Approved">LS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PP_CAN" status="Approved">PP_CAN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PP_EU" status="Approved">PP_EU</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PP_RUS" status="Approved">PP_RUS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PP_US" status="Approved">PP_US</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PP_VN" status="Approved">PP_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PP" status="Approved">PP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PT1" status="Approved">PT1</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PT2" status="Approved">PT2</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PTO1" status="Approved">PTO1</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PTO2" status="Approved">PTO2</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PTO" status="Approved">PTO</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}PT" status="Approved">PT</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}RUNNING CHANGE"
+       status="Approved">RUNNING CHANGE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}SOP_CAN" status="Approved">SOP_CAN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}SOP_EU" status="Approved">SOP_EU</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}SOP_RUS" status="Approved">SOP_RUS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}SOP_US" status="Approved">SOP_US</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}SOP_V8" status="Approved">SOP_V8</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}SOP_VN" status="Approved">SOP_VN</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_implementation_date{::}SOP" status="Approved">SOP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_model_lov{::}C-SUV" status="Approved">VF35/VFe35</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_model_lov{::}Car" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_model_lov{::}D-SUV" status="Approved">VF36/VFe36</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_model_lov{::}E-Scooter" status="Approved">E-Scooter</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_model_lov{::}EBUS" status="Approved">EBUS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_model_lov{::}SCP" status="Approved">VFe34</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_model_lov{::}VF8NP" status="Approved">VF8 New Platform</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_model_lov{::}VF9NP" status="Approved">VF9 New Platform</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_model_lov{::}VFe32" status="Approved">VFe32</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_model_lov{::}VFe33" status="Approved">VFe33</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_model_lov{::}VFe34NG" status="Approved">VFe34NG</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}3_IN_1_PDU_DCDC_OBC"
+       status="Approved">3_IN_1_PDU_DCDC_OBC</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}Battery Pack" status="Approved">Battery Pack</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}Body in White"
+       status="Approved">Body in White</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}Chassis" status="Approved">Chassis</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}Doors Closures"
+       status="Approved">Doors Closures</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}E-MOTOR" status="Approved">E-MOTOR</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}Electrics/Electronics"
+       status="Approved">Electrics/Electronics</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}Exterior" status="Approved">Exterior</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}Interior" status="Approved">Interior</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}Powertrain" status="Approved">Powertrain</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}Seat and Restraint"
+       status="Approved">Seat and Restraint</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_car_ini{::}Vehicle Complete"
+       status="Approved">Vehicle Complete</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}ACP" status="Approved">ACP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}APP" status="Approved">APP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}ASY" status="Approved">ASY</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}BDP" status="Approved">BDP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}BOL" status="Approved">BOL</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}BRA" status="Approved">BRA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}BTP" status="Approved">BTP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}CHG" status="Approved">CHG</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}CNI" status="Approved">CNI</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}DRT" status="Approved">DRT</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}ELE" status="Approved">ELE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}FIR" status="Approved">FIR</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}FRA" status="Approved">FRA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}FWH" status="Approved">FWH</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}LID" status="Approved">LID</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}LIQ" status="Approved">LIQ</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}MEC" status="Approved">MEC</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}PBA" status="Approved">PBA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}PCB" status="Approved">PCB</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}RWH" status="Approved">RWH</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}RWT" status="Approved">RWT</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}SAE" status="Approved">SAE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}SOF" status="Approved">SOF</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}SPC" status="Approved">SPC</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}SUS" status="Approved">SUS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}SVC" status="Approved">SVC</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es_in{::}TRS" status="Approved">TRS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}ACP" status="Approved">ACP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}APP" status="Approved">APP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}ASY" status="Approved">ASY</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}BDP" status="Approved">BDP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}BOL" status="Approved">BOL</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}BRA" status="Approved">BRA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}BTP" status="Approved">BTP</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}CHG" status="Approved">CHG</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}CNI" status="Approved">CNI</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}DRT" status="Approved">DRT</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}ELE" status="Approved">ELE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}FIR" status="Approved">FIR</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}FRA" status="Approved">FRA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}FWH" status="Approved">FWH</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}LID" status="Approved">LID</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}LIQ" status="Approved">LIQ</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}MEC" status="Approved">MEC</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}PBA" status="Approved">PBA</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}PCB" status="Approved">PCB</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}RWH" status="Approved">RWH</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}RWT" status="Approved">RWT</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}SAE" status="Approved">SAE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}SOF" status="Approved">SOF</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}SPC" status="Approved">SPC</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}SUS" status="Approved">SUS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}SVC" status="Approved">SVC</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_es{::}TRS" status="Approved">TRS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}Battery Pack" status="Approved">Battery Pack</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}Body in White" status="Approved">Body in White</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}Chassis" status="Approved">Chassis</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}Doors Closures" status="Approved">Doors Closures</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}E-MOTOR" status="Approved">E-MOTOR</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}Electrics/Electronics"
+       status="Approved">Electrics/Electronics</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}Engine" status="Approved">Engine</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}Exterior" status="Approved">Exterior</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}Interior" status="Approved">Interior</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}Powertrain" status="Approved">Powertrain</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}Seat and Restraint"
+       status="Approved">Seat and Restraint</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_lov{::}Vehicle Complete" status="Approved">Vehicle Complete</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_vines_ini{::}BP - EE" status="Approved">BP - EE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_vines_ini{::}BP - MD" status="Approved">BP - MD</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_vines_ini{::}BP - SW" status="Approved">BP - SW</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_vines_ini{::}BP/CELL - ME"
+       status="Approved">BP/CELL - ME</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_vines_ini{::}CELL - Chemical/Material"
+       status="Approved">CELL - Chemical/Material</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_vines_ini{::}CELL" status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_module_group_vines_ini{::}ESS" status="Approved">ESS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_production_trial{::}KO" status="Approved">KO</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_production_trial{::}OK" status="Approved">OK</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_sap_plant_es{::}2001" status="Approved">2001</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_scp_model{::}A-BEV" status="Approved">A-BEV</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_scp_model{::}A-ICE" status="Approved">A-ICE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_scp_model{::}A-TAXI" status="Approved">A-TAXI</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_scp_model{::}B-BEV" status="Approved">B-BEV</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_scp_model{::}B-ICE" status="Approved">B-ICE</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_severity{::}High" status="Approved">High</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_severity{::}Low" status="Approved">Low</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_severity{::}Medium" status="Approved">Medium</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}BP - Car" status="Approved">BP - Car</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}BP - Escooter" status="Approved">BP - Escooter</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}BP - Other" status="Approved">BP - Other</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}C-SUV" status="Approved">VF35/VFe35</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}CELL" status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}Car" status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}D-SUV" status="Approved">VF36/VFe36</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}EBUS12" status="Approved">EBUS12</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}EBUS" status="Approved">EBUS10</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}ESS" status="Approved">ESS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}S&amp;S" status="Approved">S&amp;S</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}SCP" status="Approved">VFe34</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}Scooter" status="Approved">Scooter</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}V8" status="Approved">V8</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}VF35" status="Approved">VF35</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}VF36" status="Approved">VF36</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}VF3" status="Approved">VF3</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}VF8NP" status="Approved">VF8 New Platform</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}VF9NP" status="Approved">VF9 New Platform</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}VFe32" status="Approved">VFe32</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}VFe33" status="Approved">VFe33</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}VFe34NG" status="Approved">VFe34S</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}VFe35" status="Approved">VFe35</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}VFe36" status="Approved">VFe36</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_ini_1{::}VinES Project" status="Approved">VinES Project</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}BP - Car" status="Approved">BP - Car</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}BP - Escooter" status="Approved">BP - Escooter</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}BP - Other" status="Approved">BP - Other</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}C-SUV" status="Approved">VF35/VFe35</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}CELL" status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}Car" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}D-SUV" status="Approved">VF36/VFe36</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}EBUS12" status="Approved">EBUS12</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}EBUS" status="Approved">EBUS10</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}ESS" status="Approved">ESS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}S&amp;S" status="Approved">S&amp;S</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}SCP" status="Approved">VFe34</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}V8" status="Approved">V8</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}VF35" status="Approved">VF35</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}VF36" status="Approved">VF36</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}VF3" status="Approved">VF3</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}VF8NP" status="Approved">VF8 New Platform</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}VF9NP" status="Approved">VF9 New Platform</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}VFe32" status="Approved">VFe32</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}VFe33" status="Approved">VFe33</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}VFe34NG" status="Approved">VFe34S</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}VFe35" status="Approved">VFe35</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}VFe36" status="Approved">VFe36</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_group_lov{::}VinES Project" status="Approved">VinES Project</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}A-car" status="Approved">FADIL</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}BP - Car" status="Approved">BP - Car</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}BP - Escooter" status="Approved">BP - Escooter</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}BP - Other" status="Approved">BP - Other</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}C-SUV" status="Approved">VF35/VFe35</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}CELL" status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}D-SUV" status="Approved">VF36/VFe36</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}EBUS12" status="Approved">EBUS12</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}EBUS" status="Approved">EBUS10</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}ESS" status="Approved">ESS</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}EScooter" status="Approved">EScooter</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}S&amp;S" status="Approved">S&amp;S</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}SCP" status="Approved">VFe34</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}V8" status="Approved">V8</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}VF35" status="Approved">VF35</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}VF36" status="Approved">VF36</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}VF3" status="Approved">VF3</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}VF8NP" status="Approved">VF8 New Platform</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}VF9NP" status="Approved">VF9 New Platform</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}VFe32" status="Approved">VFe32</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}VFe33" status="Approved">VFe33</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}VFe34NG" status="Approved">VFe34S</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}VFe35" status="Approved">VFe35</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}VFe36" status="Approved">VFe36</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_vehicle_type{::}VinES Project" status="Approved">VinES Project</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_yes_no_lov{::}No" status="Approved">No</key>
+   <key locale="en_US" id="LOVValue{::}Vf6_yes_no_lov{::}Yes" status="Approved">Yes</key>
+   <key locale="en_US" id="Note{::}Vf6_ecn_number" status="Approved">ECN Number</key>
+   <key locale="en_US" id="Note{::}Vf6_ecn_release_date" status="Approved">ECN Release Date</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf6_ecn_number" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}Vf6_ecn_release_date" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ChangeItem{::}vf6_module_group" status="Approved">Module Group</key>
+   <key locale="en_US" id="Property{::}ChangeItem{::}vf6_vehicle_group" status="Approved">Vehicle Group</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_action" status="Approved">Action</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_actual_breakpoint"
+       status="Approved">Actual Breakpoint</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_change_reason"
+       status="Approved">Change Reason</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_change_type" status="Approved">Change Type</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_comments" status="Approved">Comments</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_coordination_code_cm"
+       status="Approved">Coordination Code</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_disposal_code"
+       status="Approved">Disposal Code</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_effectivity_date"
+       status="Approved">Effectivity Date</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_is_MCN_required"
+       status="Approved">Is MCN Required</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_model_year" status="Approved">Model Year</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_planned_breakpoint"
+       status="Approved">Planned Breakpoint</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_po_pr_number" status="Approved">PO/PR Number</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_ppap" status="Approved">PPAP</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_sap_plant" status="Approved">SAP Plant</key>
+   <key locale="en_US" id="Property{::}ChangeNoticeRevision{::}vf6_vin_number" status="Approved">VIN Number</key>
+   <key locale="en_US" id="Property{::}ChangeNotice{::}vf6_action" status="Approved">Action</key>
+   <key locale="en_US" id="Property{::}ChangeNotice{::}vf6_change_reason" status="Approved">Change Reason</key>
+   <key locale="en_US" id="Property{::}ChangeNotice{::}vf6_change_type" status="Approved">Change Type</key>
+   <key locale="en_US" id="Property{::}ChangeNotice{::}vf6_comments" status="Approved">Comments</key>
+   <key locale="en_US" id="Property{::}ChangeNotice{::}vf6_coordination_code_cm" status="Approved">Coordination Code</key>
+   <key locale="en_US" id="Property{::}ChangeNotice{::}vf6_disposal_code" status="Approved">Disposal Code</key>
+   <key locale="en_US" id="Property{::}ChangeNotice{::}vf6_effectivity_date" status="Approved">Effectivity Date</key>
+   <key locale="en_US" id="Property{::}ChangeNotice{::}vf6_model_year" status="Approved">Model Year</key>
+   <key locale="en_US" id="Property{::}ChangeNotice{::}vf6_sap_plant" status="Approved">Shop</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf6_ecn_number" status="Approved">ECN Number</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}Vf6_ecn_release_date" status="Approved">ECN Release Date</key>
+   <key locale="en_US" id="Property{::}Vf6_DDE_store_table{::}vf6_is_send" status="Approved">Is Send Data</key>
+   <key locale="en_US" id="Property{::}Vf6_DDE_store_table{::}vf6_object_reference"
+       status="Approved">Part</key>
+   <key locale="en_US" id="Property{::}Vf6_DDE_store_table{::}vf6_vendor_code" status="Approved">Vendor Code</key>
+   <key locale="en_US" id="Property{::}Vf6_DDE_store_table{::}vf6_vendor_name" status="Approved">Vendor Name</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_apply_timming_proposal"
+       status="Approved">Apply Timing Proposal</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_coordinated_change"
+       status="Approved">Coordinated Change</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_dde_store_table" status="Approved">DDE Store Table</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_deviation_number" status="Approved">Deviation Number</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_effective_proposal"
+       status="Approved">Effective Proposal</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_es_classification" status="Approved">ECN Classification</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_es_exchange_newpart"
+       status="Approved">Exchangeability New Part</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_es_exchange_oldpart"
+       status="Approved">Exchangeability Old Part</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_es_priority" status="Approved">ECN Priority</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_homologation_affected"
+       status="Approved">Homologation Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_implementation_date_arr"
+       status="Approved">Implementation Date (s)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_implementation_date"
+       status="Approved">Implementation Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_initiator" status="Approved">Initiator</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_is_requireDataTransfer"
+       status="Approved">Is Require Data Transfer</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_is_sendAllPartToSupp"
+       status="Approved">Send All Parts To Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_model_es" status="Approved">Model</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_model" status="Approved">Model</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_module_group" status="Approved">Module Group</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_new_parts_status" status="Approved">New Parts Status</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_severity" status="Approved">Severity</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_shop" status="Approved">Shop</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_styling_affected" status="Approved">Styling Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_target_release_date"
+       status="Approved">Target Release Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_vehicle_group" status="Approved">Vehicle Group</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_vehicle_type" status="Approved">Vehicle Type</key>
+   <key locale="en_US" id="Property{::}Vf6_ECNRevision{::}vf6_vehicle_weight_affected"
+       status="Approved">Vehicle Weight Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_apply_timing_proposal" status="Approved">Apply Timing Proposal</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_change_title" status="Approved">Change Title</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_coordinated_change" status="Approved">Coordinated Change</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_data_exchange_reference" status="Approved">Data Exchange Reference Number</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_deviation_number" status="Approved">Deviation Number</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_ecn_type" status="Approved">ECN Type</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_effective_proposal" status="Approved">Effective Proposal</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_es_classification" status="Approved">ECN Classification</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_es_exchange_newpart" status="Approved">Exchangeability New Part</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_es_exchange_oldpart" status="Approved">Exchangeability Old Part</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_es_priority" status="Approved">ECN Priority</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_homologation_affected" status="Approved">Homologation Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_implementation_date_arr" status="Approved">Implementation Date (s)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_implementation_date" status="Approved">Implementation Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_initiator" status="Approved">Initiator</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_model" status="Approved">Model</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_severity" status="Approved">Severity</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_styling_affected" status="Approved">Styling Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_target_release_date" status="Approved">Target Release Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_vehicle_type" status="Approved">Vehicle Type</key>
+   <key locale="en_US" id="Property{::}Vf6_ECN{::}vf6_vehicle_weight_affected" status="Approved">Vehicle Weight Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}Vf6_ecn_data_exchange" status="Approved">ECR Data Exchange</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_10_clearance_check"
+       status="Approved">10-2. Clearance check</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_10_interface_component"
+       status="Approved">10-1. Interface component with related items</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_11_adas_system" status="Approved">11-4. ADAS Functions system</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_11_basic_functions"
+       status="Approved">11-3. Basic Software Functions</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_11_can_matrix" status="Approved">11-1. CAN Matrix</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_11_cds" status="Approved">11-2. CDS ( Component Data Sheet be full filled )</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_12_durab_meet_target"
+       status="Approved">12-4. Durability be meet target</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_12_dynamics" status="Approved">12-2. Dynamics</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_12_nvh" status="Approved">12-1. NVH</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_12_power_consumtion"
+       status="Approved">12-5. Power consumption &amp; Energy Management meet target</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_12_weig_meet_target"
+       status="Approved">12-3. Weight be meet target</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_1_consist_betw_cas_part"
+       status="Approved">1-1. Consistence between correct CAS and part</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_2_patents_check_all_mar"
+       status="Approved">2-1. Patents Checked for all the markets ( Intellectual property - IP )</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_2_regulation_check_all"
+       status="Approved">2-2. Regulation Checked for all the markets</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_3_ee_related_fusa" status="Approved">3-2. For all E/E related systems, VinFast and supplier agreed RASI for FuSa (e.g. Development Interface Agreement, Safety Plan).</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_3_ee_related_sup_safety"
+       status="Approved">3-3. For all E/E related systems, Supplier Safety Case is available (reporting status, risk,ect...)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_3_ee_related_sys_sor"
+       status="Approved">3-1. For all E/E related systems, SOR contains(ISO 26262 compliance requirement, Safety Goals and/or Functional Safety ...etc)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_3_list_of_safety" status="Approved">3-4. List of safety-related deviations and mitigation/resolution plan in place.</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_4_commercial_confirm"
+       status="Approved">4-1. Commercial Confirmation- Supplier quote obtained, within allowable cost and Finance confirm appropriation available</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_corrosion" status="Approved">5-11. Corrosion</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_crash" status="Approved">5-10. Crash</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_durability" status="Approved">5-4. Durability</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_dvp_for_single_part"
+       status="Approved">5-1. Validation ( DVP) plan for Single Parts, Component , Assembly Sub-system, System</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_hard_points_c_plat"
+       status="Approved">5-6. Hard Points Platform</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_hard_points_c_suv"
+       status="Approved">5-5. Hard Points C-SUV</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_heat_protection" status="Approved">5-12. heat protection</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_model_analisys" status="Approved">5-7. Modal Analysis</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_nvh" status="Approved">5-8. NVH ( Noise, Vibration and Harshness )</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_operating_loads" status="Approved">5-9. Operating Loads</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_simulation_progress"
+       status="Approved">5-2. Simulation progress (including supplier)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_5_strength" status="Approved">5-3. Strength</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_6_cad_pro_match_bom"
+       status="Approved">6-2. CAD Product structure matches the BOM structure for CAD product</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_6_part_match_bom" status="Approved">6-1. Part Number &amp; Part Name match the BOM &amp; TC?</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_6_q_checker" status="Approved">6-4. Q-Checker</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_6_stard_part_match_bom"
+       status="Approved">6-3. (Standard/Fixing part only) quantity match with BOM quantity?</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_7_assy_parts" status="Approved">7-7. Assymetrical parts in 3D (Title general note in 3D (Catalog file- Quality &amp; Srandard center)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_7_color_define" status="Approved">7-2. Color define for mating area, assembly surface (BIW)/Mating Surfaces with one-sided/ asymmetrical tolerance ranges (All)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_7_cutting_tolerance"
+       status="Approved">7-9. Cutting tolerance</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_7_format" status="Approved">7-1. 3D model format catia/Part Number format, Naming format</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_7_material_thickness"
+       status="Approved">7-3. Material and thickness respected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_7_part_marking_3d" status="Approved">7-6. Part marking area on 3D</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_7_rps_desc" status="Approved">7-5. RPS description define</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_7_toleran_special_hole"
+       status="Approved">7-8. Tolerance for special hole</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_7_weight_desity" status="Approved">7-4. Weight &amp; density definition</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_coordinate_system"
+       status="Approved">8-6. Coordinate system</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_edge" status="Approved">8-3. Edge</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_gdnt" status="Approved">8-19. GD&amp;T DMU (Hole, flange, gap &amp; flush)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_have_view_view" status="Approved">8-12. Have 3D view</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_joining" status="Approved">8-15. Joining: stud, welding, Electrical connection,...</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_material_specifi"
+       status="Approved">8-8. Material specifications</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_mating_surface" status="Approved">8-13. Mating surface</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_measurement_point"
+       status="Approved">8-17. Measurement points coordinate with tolerance table</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_part_label_mark_sys"
+       status="Approved">8-10. Part marking, label,traceability marking requirement on part, system</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_product_charac" status="Approved">8-14. Product characteristic (AS/AH/B)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_represent_grid_lines"
+       status="Approved">8-2. Representation of grid lines</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_represent_parts_assem"
+       status="Approved">8-7. Representation of parts on assembly drawings</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_represent_stand_parts"
+       status="Approved">8-5. Representation of standard parts</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_rps_table" status="Approved">8-18. RPS table</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_supplier_DWG" status="Approved">8-11. Supplier DWG</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_surface_treatment"
+       status="Approved">8-16. Surface treatment, surface protection</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_symetric_parts" status="Approved">8-4. Symetric part, Opposite-hand parts</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_title_block" status="Approved">8-1. Title block</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_8_tolerance_specifi"
+       status="Approved">8-9. Tolerance specifications</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_9_after_Sales" status="Approved">9-6. After Sales</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_9_assembly_ability"
+       status="Approved">9-2. Assembly ability</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_9_assembly" status="Approved">9-4. Assembly ( GA , Sub-Assembly )</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_9_logistic" status="Approved">9-5. Logistic</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_9_painting_e_coating"
+       status="Approved">9-3. Painting and E coating</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_9_part_feasibility"
+       status="Approved">9-1. Part feasibility</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_DFMEA_doc" status="Approved">DFMEA Document</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_DVP_doc" status="Approved">DVP Document</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_MFG_decide_cost_prepare"
+       status="Approved">MFG Quality Decided Cost Prepare</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_MFG_decided_tryout"
+       status="Approved">MFG Quality Decided Tryout</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_MGL_decided_tryout"
+       status="Approved">MGL Decided Tryout</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_PFMEA_doc" status="Approved">PFMEA Document</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_SOR_doc" status="Approved">SOR Document</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_acknowledge_coordinated"
+       status="Approved">Acknowledge Co-ordinated Change</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_apply_timing_proposal"
+       status="Approved">Apply Timing Proposal</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_build_time_impact" status="Approved">Build Phase Time Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_capa_number" status="Approved">CAPA Number</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_change_reason" status="Approved">Change Reason</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_change_title" status="Approved">Change Title</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_chief_engineer" status="Approved">Chief Engineer</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_combine_release" status="Approved">Combine Release</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_coor_change_module"
+       status="Approved">Coordinated Change Module</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_coordinated_change"
+       status="Approved">Coordinated Change</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_cop_impacted_prog_user"
+       status="Approved">COP Impacted Programs (User-input)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_cop_impacted_program"
+       status="Approved">COP Impacted Programs (auto)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_dde_store_table" status="Approved">DDE Store Table</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_delta_edd_cost" status="Approved">Total Delta ED&amp;D Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_delta_piece_cost" status="Approved">Total Delta Piece Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_delta_tooling_cost"
+       status="Approved">Total Delta Tooling Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_deviation_number" status="Approved">Deviation Number</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_drwg_number_level" status="Approved">Drwg Number/ Level</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_ecr_category_lv2" status="Approved">ECR Category Level 2</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_ecr_category" status="Approved">ECR Category</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_ecr_status" status="Approved">ECR Status</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_effective_proposal"
+       status="Approved">Deprecated Implement Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_es_classification" status="Approved">ECN Classification</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_es_exchange_newpart"
+       status="Approved">Exchangeability New Part</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_es_exchange_oldpart"
+       status="Approved">Exchangeability Old Part</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_es_priority" status="Approved">ECN Priority</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_evalu_beginning_date"
+       status="Approved">Evaluation Beginning Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_evalu_ending_date" status="Approved">Evaluation Ending Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_has_aftersales_parts"
+       status="Approved">Has AfterSales Parts</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_has_traceable_parts"
+       status="Approved">Has Traceable Parts</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_have_DFMEA" status="Approved">Is DFMEA Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_have_DMU_check_result"
+       status="Approved">Have DMU Check Result</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_have_DVP" status="Approved">Is DVP Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_have_PFMEA" status="Approved">Is PFMEA Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_have_SOR" status="Approved">Is SOR Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_have_spec_book" status="Approved">Is Spec Book Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_homologation_affected"
+       status="Approved">Homologation Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_impacted_module_comp"
+       status="Approved">Impacted Module</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_impacted_programs" status="Approved">Impacted Programs</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_implementation_date"
+       status="Approved">Implementation Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_individual_parts_in_ecr"
+       status="Approved">Individual Parts</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_init_edd_cost_delta"
+       status="Approved">Initial  ED&amp;D Cost Delta</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_init_other_cost" status="Approved">Initial Other Cost (tax, logistic, advance payment...) Delta</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_init_piece_cost_delta"
+       status="Approved">Initial Piece Cost Delta (parts)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_init_plant_equip_cost"
+       status="Approved">Initial Plant Equip Cost Delta</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_init_scrap_cost" status="Approved">Initial Scrap Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_init_sunk_cost" status="Approved">Initial Sunk Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_init_testing_validate_c"
+       status="Approved">Initial Testing &amp; Validate Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_init_tooling_cost_delta"
+       status="Approved">Initial Tooling Cost Delta</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_init_veh_cost_delta"
+       status="Approved">Initial Vehicle Cost Delta</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_initiator" status="Approved">Initiator</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_BPIChief_required"
+       status="Approved">Is BPI Chief Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_BPILeader_required"
+       status="Approved">Is BPI Leader Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_DMU_required" status="Approved">Is Vehicle Architecture/DMU Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_EMotorChief_required"
+       status="Approved">Is E-Motor Chief Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_EMotorLeaderRequired"
+       status="Approved">Is E-Motor Leader Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_FUSA_regu_required"
+       status="Approved">Is FUSA Regulator Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_PQ_QA_required" status="Approved">Is Plant Quality -  QA Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_aftersale_required"
+       status="Approved">Is After Sale Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_cae_required" status="Approved">Is CAE Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_chairman_appr_req"
+       status="Approved">Is Chairman Approval Required?</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_color_trim_required"
+       status="Approved">Is Color &amp; Trim Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_compon_test_required"
+       status="Approved">Is Component Testing Manager Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_coor_module_require"
+       status="Approved">Is Coordinated Change Module Require</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_coord_change_require"
+       status="Approved">Is Coordinated Change Require</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_cop_impact_require"
+       status="Approved">Is COP Impacted Require</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_cv_review_required"
+       status="Approved">Is CV Review Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_dcr_required" status="Approved">Is DCR Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_edd_cost_Required"
+       status="Approved">Is ED&amp;D Cost Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_ee_component" status="Approved">Is EE Component?</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_ee_tv_manager_requir"
+       status="Approved">Is EE T&amp;V Manager Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_eng_review_req" status="Approved">Is Engineering Review Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_finance_review_req"
+       status="Approved">Is Finance Review Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_functional_safety"
+       status="Approved">Is Functional Safety Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_gate1_required" status="Approved">Is Gate1 Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_gate2_required" status="Approved">Is Gate2 Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_gate3_required" status="Approved">Is Gate3 Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_gate4_required" status="Approved">Is Gate4 Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_gate5_required" status="Approved">Is Gate5 Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_homo_required" status="Approved">Is Homologation Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_htko1_required" status="Approved">Is HTKO1 Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_htko2_required" status="Approved">Is HTKO2 Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_indirectPur_required"
+       status="Approved">Is Indirect Purchase Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_input_weight_require"
+       status="Approved">Is Input Weight Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_leadtime_impact_req"
+       status="Approved">Is Leadtime Impact Required?</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_logistics_review_req"
+       status="Approved">Is Logistics Review Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_manuf_review_req"
+       status="Approved">Is Manufacturing Review Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_mark_featur_required"
+       status="Approved">Is Marketing - Feature List Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_marketing_afs" status="Approved">Is Marketing/After Sale Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_mcn_required" status="Approved">Is MCN Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_other_cost_required"
+       status="Approved">Is Other Cost (tax, logistic, advance payment, etc) Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_piece_cost_require"
+       status="Approved">Is Piece Cost Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_plant_equipment_cost"
+       status="Approved">Is Plant &amp; Equipment Cost Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_pto_sop_timeImpact"
+       status="Approved">Is Build Phase Time Impact Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_pur_biz_req" status="Approved">Is Purchasing Business Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_purchase_review_req"
+       status="Approved">Is Purchase Review Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_sale_and_marketin"
+       status="Approved">Is Sale &amp; Product Marketing Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_scrap_cost_required"
+       status="Approved">Is Scrap Cost Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_sendAllPartToSupp"
+       status="Approved">Send All Parts To Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_send_data_to_supp"
+       status="Approved">Is Send Data To Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_sil_no_required"
+       status="Approved">Is SIL/IMS Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_sq_review_required"
+       status="Approved">Is SQ Review Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_standard_part" status="Approved">Is Standard Part Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_std_part_review_req"
+       status="Approved">Is Std Part Review Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_sunk_cost_require"
+       status="Approved">Is Sunk Cost Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_supplier_qual_manage"
+       status="Approved">Is Supplier Quality Manager Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_test_n_vali_required"
+       status="Approved">Is Testing &amp; Validation Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_tooling_cost_require"
+       status="Approved">Is Tooling Cost Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_va_check_required"
+       status="Approved">Is VA Check Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_veh_cost_required"
+       status="Approved">Is Vehicle Cost Delta Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_is_vehicle_tv_manager"
+       status="Approved">Is Vehicle T&amp;V Manager Required</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_manuf_decided_tryout"
+       status="Approved">Manufacturing Decided Tryout</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_model_es" status="Approved">Model</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_model" status="Approved">Model</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_module_group_comp" status="Approved">Module Group</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_module_group_leader"
+       status="Approved">Module Group Leader</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_new_parts_status" status="Approved">New Part Status</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_other_cost" status="Approved">Total Delta Other Cost (tax, logistic, advance payment,...)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_part_name" status="Approved">Part Name</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_part_number" status="Approved">Part Number</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_plant_equipment_cost"
+       status="Approved">Total Delta Plant &amp; Equipment Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_pmo" status="Approved">PMO</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_reason_not_send_data"
+       status="Approved">Reason For Not Sending Data To Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_refer_cas_styling" status="Approved">Reference/ CAS Styling</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_release_combination"
+       status="Approved">Release Combination</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_scrap_cost" status="Approved">Total Scrap Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_severity" status="Approved">Severity</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_sil_severity" status="Approved">SIL severity</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_spec_doc" status="Approved">Spec Document</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_styling_affected" status="Approved">Styling Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_sunk_cost" status="Approved">Total Sunk Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_supplier" status="Approved">Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_target_release_date"
+       status="Approved">Target Release Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_testing_validate_cost"
+       status="Approved">Total Delta Testing &amp; Validate Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_tooli_kick_off_date"
+       status="Approved">Tooling Kick Off Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_total_cost" status="Approved">Total Purchasing Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_vehic_variant" status="Approved">Vehicle/ Variant</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_vehicle_cost_delta"
+       status="Approved">Total Delta Vehicle Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_vehicle_group" status="Approved">Vehicle Group</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6_vehicle_weight_affected"
+       status="Approved">Vehicle Weight Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6co_system_2" status="Approved">System 2</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_base_or_premium" status="Approved">ECR of Premium Variant</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_bom_information" status="Approved">BOM Information</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_cost_impact" status="Approved">PreCAB Cost Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_current_material"
+       status="Approved">Current Material</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_current_weight" status="Approved">Current Weight</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_dcr_no" status="Approved">DCR No</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_ecr_contact_email"
+       status="Approved">ECR Contact Email</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_ecr_contact_person"
+       status="Approved">ECR Contact Person</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_leadtime_impact" status="Approved">Leadtime Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_lhd_rhd" status="Approved">LHD/RHD</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_market" status="Approved">Market</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_new_material" status="Approved">New Material</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_new_weight" status="Approved">New Weight</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_pre_approval_date"
+       status="Approved">Pre-cab Approval Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_pre_decision_approval"
+       status="Approved">Pre-cab Decision Approval</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_pre_leadtime_impact"
+       status="Approved">PreCAB Leadtime Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_pre_pto_pso_impact"
+       status="Approved">PreCAB Build Phase Time Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_precab_dec_comment"
+       status="Approved">Pre-cab decision comments</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_problem" status="Approved">Problem</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_pto_sop_timeimpact"
+       status="Approved">MRP Late Time (week)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_purchase_involve"
+       status="Approved">PreCAB Purchase Involve</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_root_cause" status="Approved">Root Cause</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_seat_configuration"
+       status="Approved">Seat Configuration</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_sil_no" status="Approved">SIL/IMS No</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_solution" status="Approved">Solution</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_supplier" status="Approved">Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_system_1" status="Approved">System 1</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_system_3" status="Approved">System 3</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_variant" status="Approved">Variant</key>
+   <key locale="en_US" id="Property{::}Vf6_ECRRevision{::}vf6cp_vehicle_type" status="Approved">Vehicle Type</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_acknowledge_coordinated" status="Approved">Acknowledge Co-ordinated Change</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_capa_number" status="Approved">CAPA Number</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_change_reason" status="Approved">Change Reason</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_change_title" status="Approved">Change Title</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_coordinated_change" status="Approved">Coordinated Change</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_deviation_number" status="Approved">Deviation Number</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_effective_proposal" status="Approved">Deprecated Implement Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_homologation_affected" status="Approved">Homologation Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_impacted_module_arr" status="Approved">Impacted Module</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_impacted_module" status="Approved">Impacted Module (Single value)</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_implementation_date_arr" status="Approved">Implementation Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_implementation_date" status="Approved">Deprecated Implementation Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_initiator" status="Approved">Initiator</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_model" status="Approved">Model</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_severity" status="Approved">Severity</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_styling_affected" status="Approved">Styling Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_target_release_date" status="Approved">Target Release Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ECR{::}vf6_vehicle_weight_affected" status="Approved">Vehicle Weight Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_MCNRevision{::}item_id" status="Approved">MCN Number</key>
+   <key locale="en_US" id="Property{::}Vf6_MCNRevision{::}vf6CP_change_request_type"
+       status="Approved">Change Request Type</key>
+   <key locale="en_US" id="Property{::}Vf6_MCNRevision{::}vf6_CMImplements" status="Approved">Implements (VF)</key>
+   <key locale="en_US" id="Property{::}Vf6_MCNRevision{::}vf6_FRS_Number" status="Approved">FRS Number</key>
+   <key locale="en_US" id="Property{::}Vf6_MCNRevision{::}vf6_Released_DCR_Number"
+       status="Approved">Change Request Description</key>
+   <key locale="en_US" id="Property{::}Vf6_MCNRevision{::}vf6_detail_changes" status="Approved">Detail Changes</key>
+   <key locale="en_US" id="Property{::}Vf6_MCNRevision{::}vf6_is_revert" status="Approved">Is Revert</key>
+   <key locale="en_US" id="Property{::}Vf6_MCN{::}item_id" status="Approved">MCN Number</key>
+   <key locale="en_US" id="Property{::}Vf6_MCN{::}vf6_breakpoint_car_number" status="Approved">Breakpoint Car Number (VIN)</key>
+   <key locale="en_US" id="Property{::}Vf6_MCN{::}vf6_change_request_type" status="Approved">Change Request Type</key>
+   <key locale="en_US" id="Property{::}Vf6_MCN{::}vf6_effective_proposal" status="Approved">Effective Proposal</key>
+   <key locale="en_US" id="Property{::}Vf6_MCN{::}vf6_is_production_trial_req" status="Approved">Is Production Trial Required</key>
+   <key locale="en_US" id="Property{::}Vf6_MCN{::}vf6_physical_breakpoint" status="Approved">Physical Breakpoint Date</key>
+   <key locale="en_US" id="Property{::}Vf6_MCN{::}vf6_production_trial_req" status="Approved">Production Trial Required Week</key>
+   <key locale="en_US" id="Property{::}Vf6_MCN{::}vf6_program_model_name" status="Approved">Programs/Model Names</key>
+   <key locale="en_US" id="Property{::}Vf6_MCN{::}vf6_result_of_production" status="Approved">Results of Production Trial Required</key>
+   <key locale="en_US" id="Property{::}Vf6_MCN{::}vf6_sap_plant" status="Approved">Plant code</key>
+   <key locale="en_US" id="Property{::}Vf6_MCN{::}vf6_shop" status="Approved">Shop</key>
+   <key locale="en_US" id="Property{::}Vf6_VES_BaseID_Gen_MCN{::}vf6_program_name_model"
+       status="Approved">Program Name/Model</key>
+   <key locale="en_US" id="Property{::}Vf6_VES_MCNRevision{::}item_id" status="Approved">MCM Number</key>
+   <key locale="en_US" id="Property{::}Vf6_VES_MCN{::}vf6_program_name_model" status="Approved">Program Name/Model</key>
+   <key locale="en_US" id="Property{::}Vf6_VES_MCN{::}vf6_sap_plant" status="Approved">Shop</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_3d_data_affected"
+       status="Approved">3D Data Affected</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_cad_coating" status="Approved">CAD Coating</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_change_description"
+       status="Approved">Change Description</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_change_point" status="Approved">Change Point</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_change_type" status="Approved">Change Type</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_cop_impacted_program"
+       status="Approved">COP Impacted Program</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_designator" status="Approved">Designator</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_disposal_material"
+       status="Approved">Disposal Material</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_donor_vehicle" status="Approved">Donor Vehicle</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_ednd_delta_cost"
+       status="Approved">ED&amp;D [Delta Cost]</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_estimate_piece_price"
+       status="Approved">Estimate Piece Price [Delta Cost]</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_estimate_tooling"
+       status="Approved">Estimate Tooling [Delta Cost]</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_exchangeability"
+       status="Approved">Exchangeability</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_frozen_revision"
+       status="Approved">Frozen Revision</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_is_aftersale_relevaant"
+       status="Approved">Is Aftersale Relevaant</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_item_is_traceable"
+       status="Approved">Part Tracability Indicator</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_lead_time" status="Approved">Lead Time [weeks after order]</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_material" status="Approved">Material</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_maturity_level" status="Approved">Maturity Level</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_mpn" status="Approved">MPN</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_new_revision" status="Approved">New Revision</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_old_designator" status="Approved">Old Designator</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_old_mpn" status="Approved">Old MPN</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_old_part_name" status="Approved">Old Part Name</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_old_part_number"
+       status="Approved">Old Part Number</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_old_quantity" status="Approved">Old Quantity</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_old_substitute" status="Approved">Old Substitute</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_old_version" status="Approved">Old Version</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_original_base_part"
+       status="Approved">Original Base Part Number</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_other_cost" status="Approved">Other Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_part_name" status="Approved">Part Name</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_part_number" status="Approved">Part Number</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_part_tracebility"
+       status="Approved">Part Tracebility</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_posid" status="Approved">POSID</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_purchase_level" status="Approved">Purchase Level</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_quantity2" status="Approved">Quantity</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_quantity" status="Approved">Deprecated Quantity</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_revision" status="Approved">Revision</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_scrap_cost" status="Approved">Scrap Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_specbook" status="Approved">Specbook</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_steering" status="Approved">Steering</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_structure_level"
+       status="Approved">Structure Level</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_substitute" status="Approved">Substitute</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_sunk_cost" status="Approved">Sunk Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_supplier_contact"
+       status="Approved">Supplier Contact</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_supplier" status="Approved">Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_tool_change_request"
+       status="Approved">Tool change request</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_top_part" status="Approved">Top Part</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_torque_information"
+       status="Approved">Torque Information</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_variant_formula"
+       status="Approved">Variant Formula</key>
+   <key locale="en_US" id="Property{::}Vf6_bom_infomation{::}vf6_weight" status="Approved">Weight (g)</key>
+   <key locale="en_US" id="Property{::}Vf6_change_formStorage{::}vf6_feasibility_confirmed"
+       status="Approved">Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_change_formStorage{::}vf6_lead_time" status="Approved">Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_change_form{::}vf6_feasibility_confirmed"
+       status="Approved">Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_change_form{::}vf6_lead_time" status="Approved">Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_cost_impactedStorage{::}vf6_test_n_validation_cost"
+       status="Approved">Testing &amp; Validation Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_cost_impactedStorage{::}vf6_tv_feasibility_confirm"
+       status="Approved">Testing &amp; Validation Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_cost_impactedStorage{::}vf6_tv_lead_time"
+       status="Approved">Testing &amp; Validation Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_cost_impactedStorage{::}vf6_tv_remarks"
+       status="Approved">Testing &amp; Validation Remarks</key>
+   <key locale="en_US" id="Property{::}Vf6_cost_impacted{::}vf6_test_n_validation_cost"
+       status="Approved">Testing &amp; Validation Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_cost_impacted{::}vf6_tv_feasibility_confirm"
+       status="Approved">Testing &amp; Validation Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_cost_impacted{::}vf6_tv_lead_time" status="Approved">Testing &amp; Validation Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_cost_impacted{::}vf6_tv_remarks" status="Approved">Testing &amp; Validation Remarks</key>
+   <key locale="en_US" id="Property{::}Vf6_detail_changes{::}vf6_action" status="Approved">Action</key>
+   <key locale="en_US" id="Property{::}Vf6_detail_changes{::}vf6_bomline_id" status="Approved">BomLine ID</key>
+   <key locale="en_US" id="Property{::}Vf6_detail_changes{::}vf6_breakpoint_date"
+       status="Approved">breakpoint date</key>
+   <key locale="en_US" id="Property{::}Vf6_detail_changes{::}vf6_is_transferred" status="Approved">Is Transferred</key>
+   <key locale="en_US" id="Property{::}Vf6_detail_changes{::}vf6_main_group_str" status="Approved">Main Group</key>
+   <key locale="en_US" id="Property{::}Vf6_detail_changes{::}vf6_new_part_number"
+       status="Approved">New Part Number</key>
+   <key locale="en_US" id="Property{::}Vf6_detail_changes{::}vf6_part_number" status="Approved">Part Number</key>
+   <key locale="en_US" id="Property{::}Vf6_detail_changes{::}vf6_quantity" status="Approved">Quantity</key>
+   <key locale="en_US" id="Property{::}Vf6_detail_changes{::}vf6_replaced_part_number"
+       status="Approved">Replaced Part Number</key>
+   <key locale="en_US" id="Property{::}Vf6_detail_changes{::}vf6_sub_group_str" status="Approved">Sub Group</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_id{::}vf6_vehicle_type" status="Approved">Program/Model Name</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_base_or_premium"
+       status="Approved">ECR of Premium variant</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_cost_impact"
+       status="Approved">PreCAB Cost Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_current_material"
+       status="Approved">Current Material</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_current_weight"
+       status="Approved">Current Weight</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_dcr_no" status="Approved">DCR No</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_ecr_contact_email"
+       status="Approved">ECR Contact Email</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_ecr_contact_person"
+       status="Approved">ECR Contact Person</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_leadtime_impact1"
+       status="Approved">Leadtime Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_leadtime_impact"
+       status="Approved">Deprecated Leadtime Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_lhd_rhd"
+       status="Approved">LHD/RHD</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_market" status="Approved">Market</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_new_material"
+       status="Approved">New Material</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_new_weight"
+       status="Approved">New Weight</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_pre_decision_approval"
+       status="Approved">Pre-cab Decision Approval</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_precab_approval_date"
+       status="Approved">Pre-cab Approval Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_precab_decision_comment"
+       status="Approved">Pre-cab Decision Comments</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_precab_leadtime_impact1"
+       status="Approved">Precab Leadtime Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_precab_leadtime_impact"
+       status="Approved">Deprecated Precab Leadtime Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_precab_pto_pso_impact1"
+       status="Approved">Pre-cab Build Phase Time Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_precab_pto_pso_impact"
+       status="Approved">Deprecated Pre-cab PTO/PSO Time Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_problem"
+       status="Approved">Problem</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_pto_sop_time_impact1"
+       status="Approved">MRP Late Time (week)</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_pto_sop_time_impact"
+       status="Approved">Deprecated PTO/SOP Time Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_purchase_involve"
+       status="Approved">PreCAB Purchase Involve</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_root_cause"
+       status="Approved">Root Cause</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_seat_configuration"
+       status="Approved">Seat Configuration</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_sil_no" status="Approved">SIL/IMS No</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_solution"
+       status="Approved">Solution</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_supplier"
+       status="Approved">Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_system_1"
+       status="Approved">System 1</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_system_2"
+       status="Approved">System 2</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_system_3"
+       status="Approved">System 3</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_variant"
+       status="Approved">Variant</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_informationStorage{::}vf6_vehicle_type"
+       status="Approved">Vehicle Type</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_base_or_premium"
+       status="Approved">ECR of Premium variant</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_bom_information"
+       status="Approved">BOM Information</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_cost_impact" status="Approved">PreCAB Cost Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_current_material"
+       status="Approved">Current Material</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_current_weight"
+       status="Approved">Current Weight</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_dcr_no" status="Approved">DCR No</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_ecr_contact_email"
+       status="Approved">ECR Contact Email</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_ecr_contact_person"
+       status="Approved">ECR Contact Person</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_ecr_item_id" status="Approved">ECR Item ID</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_leadtime_impact1"
+       status="Approved">Leadtime Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_leadtime_impact"
+       status="Approved">Deprecated Leadtime Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_lhd_rhd" status="Approved">LHD/RHD</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_market" status="Approved">Market</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_new_material" status="Approved">New Material</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_new_weight" status="Approved">New Weight</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_pre_decision_approval"
+       status="Approved">Pre-cab Decision Approval</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_precab_approval_date"
+       status="Approved">Pre-cab Approval Date</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_precab_decision_comment"
+       status="Approved">Pre-cab Decision Comments</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_precab_leadtime_impact1"
+       status="Approved">Precab Leadtime Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_precab_leadtime_impact"
+       status="Approved">Deprecated Precab Leadtime Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_precab_pto_pso_impact1"
+       status="Approved">Pre-cab Build Phase Time Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_precab_pto_pso_impact"
+       status="Approved">Deprecated Pre-cab PTO/PSO Time Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_problem" status="Approved">Problem</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_pto_sop_time_impact1"
+       status="Approved">MRP Late Time (week)</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_pto_sop_time_impact"
+       status="Approved">Deprecated PTO/SOP Time Impact</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_purchase_involve"
+       status="Approved">PreCAB Purchase Involve</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_root_cause" status="Approved">Root Cause</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_seat_configuration"
+       status="Approved">Seat Configuration</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_sil_no" status="Approved">SIL/IMS No</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_solution" status="Approved">Solution</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_supplier" status="Approved">Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_system_1" status="Approved">System 1</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_system_2" status="Approved">System 2</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_system_3" status="Approved">System 3</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_variant" status="Approved">Variant</key>
+   <key locale="en_US" id="Property{::}Vf6_ecr_information{::}vf6_vehicle_type" status="Approved">Vehicle Type</key>
+   <key locale="en_US" id="Property{::}Vf6_engineeringStorage{::}vf6_engineering_costs_str"
+       status="Approved">Engineering Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_engineeringStorage{::}vf6_engineering_costs"
+       status="Approved">Engineering Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_engineeringStorage{::}vf6_engineering_remarks"
+       status="Approved">Engineering Remarks</key>
+   <key locale="en_US" id="Property{::}Vf6_engineeringStorage{::}vf6_feasibility_confirmed_e"
+       status="Approved">Engineering Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_engineeringStorage{::}vf6_lead_time_e"
+       status="Approved">Engineering Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_engineering{::}vf6_engineering_costs_str"
+       status="Approved">Engineering Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_engineering{::}vf6_engineering_costs" status="Approved">Engineering Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_engineering{::}vf6_engineering_remarks"
+       status="Approved">Engineering Remarks</key>
+   <key locale="en_US" id="Property{::}Vf6_engineering{::}vf6_feasibility_confirmed_e"
+       status="Approved">Engineering Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_engineering{::}vf6_lead_time_e" status="Approved">Engineering Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_func_safety_grStorage{::}vf6_is_ECR_impact_to_FS"
+       status="Approved">Is ECR have impact to Functional Safety?</key>
+   <key locale="en_US" id="Property{::}Vf6_func_safety_gr{::}vf6_is_ECR_impact_to_FS"
+       status="Approved">Is ECR have impact to Functional Safety?</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_current_material"
+       status="Approved">Current Material</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_current_weight"
+       status="Approved">Current Weight (g)</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_detail_image"
+       status="Approved">Detail Image</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_new_material"
+       status="Approved">New Material</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_new_weight"
+       status="Approved">New Weight (g)</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_part_name"
+       status="Approved">Part Name</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_part_number"
+       status="Approved">Part Number</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_precab_ednd_cost_delta"
+       status="Approved">[PreCAB] ED&amp;D Cost Delta</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_precab_other_cost"
+       status="Approved">[PreCAB]  Other cost</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_precab_piece_cost_delta"
+       status="Approved">PreCAB] Piece Cost Delta</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_precab_timing"
+       status="Approved">[PreCAB]  Timing</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_precab_tooling_cost_del"
+       status="Approved">[PreCAB] Tooling Cost Delta</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_precab_veh_cost_delta"
+       status="Approved">[PreCAB] Vehicle Cost Delta</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_problem"
+       status="Approved">Problem</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_released_status"
+       status="Approved">Released Status</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_root_cause"
+       status="Approved">Root Cause</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_solution"
+       status="Approved">Solution</key>
+   <key locale="en_US" id="Property{::}Vf6_individual_parts_in_ecr{::}vf6_supplier"
+       status="Approved">Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_logisticsStorage{::}vf6_carrier_costs_str"
+       status="Approved">Carrier Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_logisticsStorage{::}vf6_carrier_costs"
+       status="Approved">Carrier Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_logisticsStorage{::}vf6_feasibility_confirmed_l"
+       status="Approved">Logistics Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_logisticsStorage{::}vf6_lead_time_l" status="Approved">Logistics Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_logisticsStorage{::}vf6_logistics_remarks"
+       status="Approved">Logistics Remarks</key>
+   <key locale="en_US" id="Property{::}Vf6_logistics{::}vf6_carrier_costs_str" status="Approved">Carrier Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_logistics{::}vf6_carrier_costs" status="Approved">Carrier Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_logistics{::}vf6_feasibility_confirmed_l"
+       status="Approved">Logistics Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_logistics{::}vf6_lead_time_l" status="Approved">Logistics Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_logistics{::}vf6_logistics_remarks" status="Approved">Logistics Remarks</key>
+   <key locale="en_US" id="Property{::}Vf6_manu_quality_grStorage{::}vf6_is_any_cubing"
+       status="Approved">Is Any Cubing, Tool And Cost Be Prepared For Applicable The Changes?</key>
+   <key locale="en_US" id="Property{::}Vf6_manu_quality_grStorage{::}vf6_is_trialout_required"
+       status="Approved">Is Any Trial-out required?</key>
+   <key locale="en_US" id="Property{::}Vf6_manu_quality_gr{::}vf6_is_any_cubing" status="Approved">Is Any Cubing, Tool And Cost Be Prepared For Applicable The Changes?</key>
+   <key locale="en_US" id="Property{::}Vf6_manu_quality_gr{::}vf6_is_trialout_required"
+       status="Approved">Is Any Trial-out required?</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_assembly" status="Approved">Manufacturing Assembly</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_feasibility_confirmed_m"
+       status="Approved">Manufacturing Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_lead_time_m"
+       status="Approved">Manufacturing Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manu_piece_costs"
+       status="Approved">Material Costs (Piece Costs)</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manu_scrap_costs"
+       status="Approved">Scrap Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manu_sunk_costs"
+       status="Approved">Sunk Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manu_supplier_eng_costs"
+       status="Approved">Supplier Eng Costs (ED&amp;D)</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manu_tooling_costs"
+       status="Approved">Tooling Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manuf_delta_piece_cost"
+       status="Approved">Delta Piece Cost (vehicle)</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manuf_logistic_cost"
+       status="Approved">Logistic Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manuf_packing_cost"
+       status="Approved">Packing Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manuf_quantity_after"
+       status="Approved">Quantity After</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manuf_quantity_before"
+       status="Approved">Quantity Before</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manuf_total_piece_cost"
+       status="Approved">Total Piece Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manuf_transfer_edd_cost"
+       status="Approved">Transfer ED&amp;D Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manuf_transfer_toolCost"
+       status="Approved">Transfer Tooling Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manufacturing_invest"
+       status="Approved">Manufacturing Invest</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manufacturing_remark"
+       status="Approved">Manufacturing Remark</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manufacturing_time"
+       status="Approved">Manufacturing Time (Sec)</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_manufacturing_tooling"
+       status="Approved">Manufacturing Tooling</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_plant_equipment_str"
+       status="Approved">Plant And Equipment Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturingStorage{::}vf6_plant_equipment"
+       status="Approved">Plant And Equipment Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing_grStorage{::}vf6_ecr_impact_shop_manu"
+       status="Approved">Have Impact of Change to Shop and Manufacturing Side?</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing_gr{::}vf6_ecr_impact_shop_manu"
+       status="Approved">Have Impact of Change to Shop and Manufacturing Side?</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_assembly" status="Approved">Manufacturing Assembly</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_feasibility_confirmed_m"
+       status="Approved">Manufacturing Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_lead_time_m" status="Approved">Manufacturing Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manu_piece_costs"
+       status="Approved">Material Costs (Piece Costs)</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manu_scrap_costs"
+       status="Approved">Scrap Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manu_sunk_costs" status="Approved">Sunk Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manu_supplier_eng_costs"
+       status="Approved">Supplier Eng Costs (ED&amp;D)</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manu_tooling_costs"
+       status="Approved">Tooling Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manuf_delta_piece_cost"
+       status="Approved">Delta Piece Cost (vehicle)</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manuf_logistic_cost"
+       status="Approved">Logistic Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manuf_packing_cost"
+       status="Approved">Packing Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manuf_quantity_after"
+       status="Approved">Quantity After</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manuf_quantity_before"
+       status="Approved">Quantity Before</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manuf_total_piece_cost"
+       status="Approved">Total Piece Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manuf_transfer_edd_cost"
+       status="Approved">Transfer ED&amp;D Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manuf_transfer_toolCost"
+       status="Approved">Transfer Tooling Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manufacturing_invest"
+       status="Approved">Manufacturing Invest</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manufacturing_remark"
+       status="Approved">Manufacturing Remark</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manufacturing_time"
+       status="Approved">Manufacturing Time (Sec)</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_manufacturing_tooling"
+       status="Approved">Manufacturing Tooling</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_plant_equipment_str"
+       status="Approved">Plant And Equipment Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_manufacturing{::}vf6_plant_equipment" status="Approved">Plant And Equipment Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_module_group_grStorage{::}vf6_have_coordinated_change"
+       status="Approved">Have Coordinated Changes Or Not?</key>
+   <key locale="en_US" id="Property{::}Vf6_module_group_gr{::}vf6_have_coordinated_change"
+       status="Approved">Have Coordinated Changes Or Not?</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_10_clearance_check"
+       status="Approved">2.Clearance check</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_10_interface_component"
+       status="Approved">1.Interface component with related items</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_11_adas_system"
+       status="Approved">4.ADAS Functions system</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_11_basic_functions"
+       status="Approved">3.Basic Software Functions</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_11_can_matrix"
+       status="Approved">1.CAN Matrix</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_11_cds" status="Approved">2.CDS (Component Data Sheet be full filled)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_12_durab_meet_target"
+       status="Approved">4.Durability be meet target</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_12_dynamics"
+       status="Approved">2.Dynamics</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_12_nvh" status="Approved">1.NVH</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_12_power_consumtion"
+       status="Approved">5.Power consumption &amp; Energy Management meet target</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_12_weig_meet_target"
+       status="Approved">3.Weight be meet target</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_1_consist_betw_cas_part"
+       status="Approved">1.Consistence between correct CAS and part</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_2_patents_check_all_mar"
+       status="Approved">1.Patents Checked for all the markets ( Intellectual property - IP )</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_2_regulation_check_all"
+       status="Approved">2.Regulation Checked for all the markets</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_3_ee_related_fusa"
+       status="Approved">2.For all E/E related systems, VinFast and supplier agreed RASI for FuSa (e.g. Development Interface Agreement, Safety Plan)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_3_ee_related_sup_safety"
+       status="Approved">3.For all E/E related systems, Supplier Safety Case is available (reporting status, risk,ect...)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_3_ee_related_sys_sor"
+       status="Approved">1.For all E/E related systems, SOR contains(ISO 26262 compliance requirement, Safety Goals and/or Functional Safety ...etc)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_3_list_of_safety"
+       status="Approved">3- 4 List of safety-related deviations and mitigation/resolution plan in place.</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_4_commercial_confirm"
+       status="Approved">1.Commercial Confirmation- Supplier quote obtained, within allowable cost and Finance confirm appropriation available</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_corrosion"
+       status="Approved">11.Corrosion</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_crash" status="Approved">10.Crash</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_durability"
+       status="Approved">4.Durability</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_dvp_for_single_part"
+       status="Approved">1.Validation ( DVP) plan for Single Parts, Component , Assembly Sub-system, System</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_hard_points_c_plat"
+       status="Approved">6.Hard Points Platform</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_hard_points_c_suv"
+       status="Approved">5.Hard Points C-SUV</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_heat_protection"
+       status="Approved">12.Heat Protection</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_model_analisys"
+       status="Approved">7.Modal Analysis</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_nvh" status="Approved">8.NVH (Noise, Vibration and Harshness)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_operating_loads"
+       status="Approved">9.Operating Loads</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_simulation_progress"
+       status="Approved">2.Simulation progress (including supplier)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_5_strength"
+       status="Approved">3.Strength</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_6_cad_pro_match_bom"
+       status="Approved">2.CAD Product structure matches the BOM structure for CAD product</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_6_part_match_bom"
+       status="Approved">1.Part Number &amp; Part Name match the BOM &amp; TC?</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_6_q_checker"
+       status="Approved">4.Q Checker</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_6_stard_part_match_bom"
+       status="Approved">3.(Standard/Fixing part only) quantity match with BOM quantity?</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_7_assy_parts"
+       status="Approved">-7.Assymetrical parts in 3D (Title general note in 3D (Catalog file- Quality &amp; Srandard center)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_7_color_define"
+       status="Approved">2.Color define for mating area, assembly surface (BIW)/Mating Surfaces with one-sided/ asymmetrical tolerance ranges (All parts)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_7_cutting_tolerance"
+       status="Approved">9.Cutting tolerance</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_7_format"
+       status="Approved">1.3D model format catia/Part Number format, Naming format</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_7_material_thickness"
+       status="Approved">3.Material and thickness respected</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_7_part_marking_3d"
+       status="Approved">6.Part marking area on 3D</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_7_rps_desc"
+       status="Approved">5.RPS description define</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_7_toleran_special_hole"
+       status="Approved">8.Tolerance for special hole</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_7_weight_desity"
+       status="Approved">4.Weight &amp; density definition</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_coordinate_system"
+       status="Approved">6.Coordinate system</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_edge" status="Approved">3.Edge</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_gdnt" status="Approved">19.GD&amp;T DMU (Hole, flange, gap &amp; flush)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_have_view_view"
+       status="Approved">12.Have 3D view</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_joining"
+       status="Approved">15.Joining: stud, welding, Electrical connection,...</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_material_specifi"
+       status="Approved">8.Material specifications</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_mating_surface"
+       status="Approved">13.Mating surface</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_measurement_point"
+       status="Approved">17.Measurement points coordinate with tolerance table</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_part_label_mark_sys"
+       status="Approved">10.Part marking, label,traceability marking requirement on part, system</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_product_charac"
+       status="Approved">14.Product characteristic (AS/AH/B)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_represent_grid_lines"
+       status="Approved">2.Representation of grid lines</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_represent_parts_assem"
+       status="Approved">7.Representation of parts on assembly drawings</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_represent_stand_parts"
+       status="Approved">5.Representation of standard parts</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_rps_table"
+       status="Approved">18.RPS table</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_supplier_DWG"
+       status="Approved">11.Supplier DWG</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_surface_treatment"
+       status="Approved">16.Surface treatment, surface protection</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_symetric_parts"
+       status="Approved">4.Symetric part, Opposite-hand parts</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_title_block"
+       status="Approved">1.Title block</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_8_tolerance_specifi"
+       status="Approved">9.Tolerance specifications</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_9_after_Sales"
+       status="Approved">6.After Sales</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_9_assembly_ability"
+       status="Approved">2.Assembly ability</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_9_assembly"
+       status="Approved">4.Assembly (GA , Sub-Assembly)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_9_logistic"
+       status="Approved">5.Logistic</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_9_painting_e_coating"
+       status="Approved">3.Painting and E coating</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_9_part_feasibility"
+       status="Approved">1.Part feasibility</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_chief_engineer"
+       status="Approved">Chief Engineer</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_drwg_number_level"
+       status="Approved">Drwg Number/ Level</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_ecr_status"
+       status="Approved">ECR Status</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_evalu_beginning_date"
+       status="Approved">Evaluation Beginning Date</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_evalu_ending_date"
+       status="Approved">Evaluation Ending Date</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_module_group_leader"
+       status="Approved">Module Group Leader</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_part_name"
+       status="Approved">Part Name</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_part_number"
+       status="Approved">Part Number</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_pmo" status="Approved">PMO</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_refer_cas_styling"
+       status="Approved">Reference/ CAS Styling</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_supplier"
+       status="Approved">Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_tooli_kick_off_date"
+       status="Approved">Tooling Kick Off Date</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluationStorage{::}vf6_vehic_variant"
+       status="Approved">Vehicle/ Variant</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_10_clearance_check"
+       status="Approved">2.Clearance check</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_10_interface_component"
+       status="Approved">1.Interface component with related items</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_11_adas_system" status="Approved">4.ADAS Functions system</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_11_basic_functions"
+       status="Approved">3.Basic Software Functions</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_11_can_matrix" status="Approved">1.CAN Matrix</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_11_cds" status="Approved">2.CDS (Component Data Sheet be full filled)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_12_durab_meet_target"
+       status="Approved">4.Durability be meet target</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_12_dynamics" status="Approved">2.Dynamics</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_12_nvh" status="Approved">1.NVH</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_12_power_consumtion"
+       status="Approved">5.Power consumption &amp; Energy Management meet target</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_12_weig_meet_target"
+       status="Approved">3.Weight be meet target</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_1_consist_betw_cas_part"
+       status="Approved">1.Consistence between correct CAS and part</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_2_patents_check_all_mar"
+       status="Approved">1.Patents Checked for all the markets ( Intellectual property - IP )</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_2_regulation_check_all"
+       status="Approved">2.Regulation Checked for all the markets</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_3_ee_related_fusa"
+       status="Approved">2.For all E/E related systems, VinFast and supplier agreed RASI for FuSa (e.g. Development Interface Agreement, Safety Plan)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_3_ee_related_sup_safety"
+       status="Approved">3.For all E/E related systems, Supplier Safety Case is available (reporting status, risk,ect...)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_3_ee_related_sys_sor"
+       status="Approved">1.For all E/E related systems, SOR contains(ISO 26262 compliance requirement, Safety Goals and/or Functional Safety ...etc)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_3_list_of_safety"
+       status="Approved">3- 4 List of safety-related deviations and mitigation/resolution plan in place.</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_4_commercial_confirm"
+       status="Approved">1.Commercial Confirmation- Supplier quote obtained, within allowable cost and Finance confirm appropriation available</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_corrosion" status="Approved">11.Corrosion</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_crash" status="Approved">10.Crash</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_durability" status="Approved">4.Durability</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_dvp_for_single_part"
+       status="Approved">1.Validation ( DVP) plan for Single Parts, Component , Assembly Sub-system, System</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_hard_points_c_plat"
+       status="Approved">6.Hard Points Platform</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_hard_points_c_suv"
+       status="Approved">5.Hard Points C-SUV</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_heat_protection"
+       status="Approved">12.Heat Protection</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_model_analisys"
+       status="Approved">7.Modal Analysis</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_nvh" status="Approved">8.NVH (Noise, Vibration and Harshness)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_operating_loads"
+       status="Approved">9.Operating Loads</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_simulation_progress"
+       status="Approved">2.Simulation progress (including supplier)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_5_strength" status="Approved">3.Strength</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_6_cad_pro_match_bom"
+       status="Approved">2.CAD Product structure matches the BOM structure for CAD product</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_6_part_match_bom"
+       status="Approved">1.Part Number &amp; Part Name match the BOM &amp; TC?</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_6_q_checker" status="Approved">4.Q Checker</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_6_stard_part_match_bom"
+       status="Approved">3.(Standard/Fixing part only) quantity match with BOM quantity?</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_7_assy_parts" status="Approved">-7.Assymetrical parts in 3D (Title general note in 3D (Catalog file- Quality &amp; Srandard center)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_7_color_define" status="Approved">2.Color define for mating area, assembly surface (BIW)/Mating Surfaces with one-sided/ asymmetrical tolerance ranges (All parts)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_7_cutting_tolerance"
+       status="Approved">9.Cutting tolerance</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_7_format" status="Approved">1.3D model format catia/Part Number format, Naming format</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_7_material_thickness"
+       status="Approved">3.Material and thickness respected</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_7_part_marking_3d"
+       status="Approved">6.Part marking area on 3D</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_7_rps_desc" status="Approved">5.RPS description define</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_7_toleran_special_hole"
+       status="Approved">8.Tolerance for special hole</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_7_weight_desity"
+       status="Approved">4.Weight &amp; density definition</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_coordinate_system"
+       status="Approved">6.Coordinate system</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_edge" status="Approved">3.Edge</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_gdnt" status="Approved">19.GD&amp;T DMU (Hole, flange, gap &amp; flush)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_have_view_view"
+       status="Approved">12.Have 3D view</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_joining" status="Approved">15.Joining: stud, welding, Electrical connection,...</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_material_specifi"
+       status="Approved">8.Material specifications</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_mating_surface"
+       status="Approved">13.Mating surface</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_measurement_point"
+       status="Approved">17.Measurement points coordinate with tolerance table</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_part_label_mark_sys"
+       status="Approved">10.Part marking, label,traceability marking requirement on part, system</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_product_charac"
+       status="Approved">14.Product characteristic (AS/AH/B)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_represent_grid_lines"
+       status="Approved">2.Representation of grid lines</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_represent_parts_assem"
+       status="Approved">7.Representation of parts on assembly drawings</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_represent_stand_parts"
+       status="Approved">5.Representation of standard parts</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_rps_table" status="Approved">18.RPS table</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_supplier_DWG" status="Approved">11.Supplier DWG</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_surface_treatment"
+       status="Approved">16.Surface treatment, surface protection</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_symetric_parts"
+       status="Approved">4.Symetric part, Opposite-hand parts</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_title_block" status="Approved">1.Title block</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_8_tolerance_specifi"
+       status="Approved">9.Tolerance specifications</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_9_after_Sales" status="Approved">6.After Sales</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_9_assembly_ability"
+       status="Approved">2.Assembly ability</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_9_assembly" status="Approved">4.Assembly (GA , Sub-Assembly)</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_9_logistic" status="Approved">5.Logistic</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_9_painting_e_coating"
+       status="Approved">3.Painting and E coating</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_9_part_feasibility"
+       status="Approved">1.Part feasibility</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_chief_engineer" status="Approved">Chief Engineer</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_drwg_number_level"
+       status="Approved">Drwg Number/ Level</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_ecr_id" status="Approved">ECR ID</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_ecr_status" status="Approved">ECR Status</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_evalu_beginning_date"
+       status="Approved">Evaluation Beginning Date</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_evalu_ending_date"
+       status="Approved">Evaluation Ending Date</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_module_group_leader"
+       status="Approved">Module Group Leader</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_part_name" status="Approved">Part Name</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_part_number" status="Approved">Part Number</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_pmo" status="Approved">PMO</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_refer_cas_styling"
+       status="Approved">Reference/ CAS Styling</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_supplier" status="Approved">Supplier</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_tooli_kick_off_date"
+       status="Approved">Tooling Kick Off Date</key>
+   <key locale="en_US" id="Property{::}Vf6_pre_evaluation{::}vf6_vehic_variant" status="Approved">Vehicle/ Variant</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_feasibility_confirmed_p"
+       status="Approved">Purchasing Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_fixtures_str"
+       status="Approved">Fixtures</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_fixtures" status="Approved">Fixtures</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_lead_time_p" status="Approved">Purchasing Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_material_costs_str"
+       status="Approved">Material Costs (Piece Costs)</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_material_costs"
+       status="Approved">Material Costs (Piece Costs)</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_parent_part_for_edd"
+       status="Approved">Parent Part For ED&amp;D</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_parent_part_for_tooling"
+       status="Approved">Parent Part For Tooling</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_pu_sunk_costs"
+       status="Approved">Sunk Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_pur_delta_piece_cost"
+       status="Approved">Delta Piece Cost (vehicle)</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_pur_logistic_cost"
+       status="Approved">Logistic Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_pur_packing_cost"
+       status="Approved">Packing Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_pur_quantity_after"
+       status="Approved">Quantity After</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_pur_quantity_before"
+       status="Approved">Quantity Before</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_pur_total_piece_cost"
+       status="Approved">Total Piece Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_pur_transfer_edd_cost"
+       status="Approved">Transfer ED&amp;D Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_pur_transfer_tool_cost"
+       status="Approved">Transfer Tooling Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_purchasing_remarks"
+       status="Approved">Purchasing Remarks</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_scrap_costs_str"
+       status="Approved">Scrap Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_scrap_costs" status="Approved">Scrap Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_supplier_eng_costs_str"
+       status="Approved">Supplier Eng Costs (ED&amp;D Costs)</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_supplier_eng_costs"
+       status="Approved">Supplier Eng Costs (ED&amp;D Costs)</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_tooling_costs_str"
+       status="Approved">Tooling Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasingStorage{::}vf6_tooling_costs"
+       status="Approved">Tooling Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_feasibility_confirmed_p"
+       status="Approved">Purchasing Feasibility confirmed?</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_fixtures_str" status="Approved">Fixtures</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_fixtures" status="Approved">Fixtures</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_lead_time_p" status="Approved">Purchasing Lead Time [weeks]</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_material_costs_str" status="Approved">Material Costs (Piece Costs)</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_material_costs" status="Approved">Material Costs (Piece Costs)</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_parent_part_for_edd"
+       status="Approved">Parent Part For ED&amp;D</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_parent_part_for_tooling"
+       status="Approved">Parent Part For Tooling</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_pu_sunk_costs" status="Approved">Sunk Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_pur_delta_piece_cost"
+       status="Approved">Delta Piece Cost (vehicle)</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_pur_logistic_cost" status="Approved">Logistic Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_pur_packing_cost" status="Approved">Packing Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_pur_quantity_after" status="Approved">Quantity After</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_pur_quantity_before"
+       status="Approved">Quantity Before</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_pur_total_piece_cost"
+       status="Approved">Total Piece Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_pur_transfer_edd_cost"
+       status="Approved">Transfer ED&amp;D Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_pur_transfer_tool_cost"
+       status="Approved">Transfer Tooling Cost</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_purchasing_remarks" status="Approved">Purchasing Remarks</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_scrap_costs_str" status="Approved">Scrap Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_scrap_costs" status="Approved">Scrap Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_supplier_eng_costs_str"
+       status="Approved">Supplier Eng Costs (ED&amp;D Costs)</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_supplier_eng_costs" status="Approved">Supplier Eng Costs (ED&amp;D Costs)</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_tooling_costs_str" status="Approved">Tooling Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_purchasing{::}vf6_tooling_costs" status="Approved">Tooling Costs</key>
+   <key locale="en_US" id="Property{::}Vf6_styling_color_grStorage{::}vf6_is_ecr_impact_styling"
+       status="Approved">Evaluate The Styling Impact of ECR have or not?</key>
+   <key locale="en_US" id="Property{::}Vf6_styling_color_gr{::}vf6_is_ecr_impact_styling"
+       status="Approved">Evaluate The Styling Impact of ECR have or not?</key>
+   <key locale="en_US" id="Property{::}Vf6_test_validate_grStorage{::}vf6_is_confirm_test_result"
+       status="Approved">Confirm Test Results Must Be Verify Before Implementation Or Not?</key>
+   <key locale="en_US" id="Property{::}Vf6_test_validate_gr{::}vf6_is_confirm_test_result"
+       status="Approved">Confirm Test Results Must Be Verify Before Implementation Or Not?</key>
+   <key locale="en_US" id="ReleaseStatus{::}Vf6_PPR" status="Approved">PPR</key>
+</Add>
+</TcBusinessDataLocalization>

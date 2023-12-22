@@ -1,0 +1,86 @@
+# ==================================================
+# Copyright 2013.
+# Siemens Product Lifecycle Management Software Inc.
+# All Rights Reserved.
+# ==================================================
+# ==================================================
+#             Auto-generated source
+#                 DO NOT EDIT
+# ==================================================
+
+
+
+# ==================================================
+# Define macros for Strong C++ Binding libraries
+# ==================================================
+VF4SOAINTEGRATIONSTRONGMNGD_DRV        = $(PROJECT_DRV)$(PS)VF4SoaIntegrationClient$(PS)strong$(PS)cppMngd
+VF4SOAINTEGRATIONSTRONGMNGD_OBJ        = $(PROJECT_OBJ)$(PS)libvf4soaintegrationstrongmngd
+VF4SOAINTEGRATIONSTRONGMNGD_CXXS       = $(VF4SOAINTEGRATIONSTRONGMNGD_DRV)$(PS)*.cxx
+VF4SOAINTEGRATIONSTRONGMNGD_CXX_FLAGS  = $(CXX_FLAGS) -DIPLIB=libvf4soaintegrationstrongmngd
+VF4SOAINTEGRATIONSTRONGMNGD_LINK_FLAGS = $(LINK_FLAGS)
+VF4SOAINTEGRATIONSTRONGMNGD_INCLUDES   = $(CPPMNGD_INCLUDES) -I$(VF4SOAINTEGRATIONSTRONGMNGD_DRV) \
+                                  -I$(PROJECT_DRV)$(PS)TcSoaStrongModelVf4vinfastextend$(PS)cppmngd$(PS)strong
+VF4SOAINTEGRATIONSTRONGMNGD_LIB_PATH   = $(LP)$(PROJECT_BIN) $(LIB_PATH)
+VF4SOAINTEGRATIONSTRONGMNGD_LIBS       =   $(LIB_PREFIX)aps0soamodelapscore$(LIB_SUFFIX)  $(LIB_PREFIX)tcsoamodelcm$(LIB_SUFFIX)  $(LIB_PREFIX)tcsoamodelmaterialmgmt$(LIB_SUFFIX)  $(LIB_PREFIX)srh0soamodelapsconfiguredsearch$(LIB_SUFFIX)  $(LIB_PREFIX)tcsoamodelvendormanagement$(LIB_SUFFIX)  $(LIB_PREFIX)tcsoamodelissuemgmt$(LIB_SUFFIX)  $(LIB_PREFIX)cfg0soamodelconfigurator$(LIB_SUFFIX)  $(LIB_PREFIX)cpa0soamodelcapadatamodel$(LIB_SUFFIX)  $(LIB_PREFIX)smc0soamodelpsmcfgsupport$(LIB_SUFFIX) \
+                                  $(SYSLIBS)   $(LIB_PREFIX)tcsoamodelvf4vinfastextendmngd$(LIB_SUFFIX) \
+                                  $(LIB_PREFIX)tcsoacommon$(LIB_SUFFIX)  $(LIB_PREFIX)tcsoaclientmngd$(LIB_SUFFIX)
+VF4SOAINTEGRATIONSTRONGMNGD_LD_FLAGS   = $(VF4SOAINTEGRATIONSTRONGMNGD_LINK_FLAGS) $(VF4SOAINTEGRATIONSTRONGMNGD_LIB_PATH)
+VF4SOAINTEGRATIONSTRONGMNGD_TARGET     = $(PROJECT_BIN)$(PS)libvf4soaintegrationstrongmngd
+
+
+
+libvf4soaintegrationstrongmngd_allNoOp:
+libvf4soaintegrationstrongmngd_all:   $(VF4SOAINTEGRATIONSTRONGMNGD_OBJ)  $(VF4SOAINTEGRATIONSTRONGMNGD_TARGET).$(LIB_EXT)
+
+
+$(VF4SOAINTEGRATIONSTRONGMNGD_OBJ) :
+	@echo Creating: $(VF4SOAINTEGRATIONSTRONGMNGD_OBJ)
+	-@$(MAKE_DIR) $(VF4SOAINTEGRATIONSTRONGMNGD_OBJ)
+
+$(VF4SOAINTEGRATIONSTRONGMNGD_CXXS) :
+
+# ==================================================
+# Windows Build Target
+# ==================================================
+$(VF4SOAINTEGRATIONSTRONGMNGD_TARGET).dll : $(VF4SOAINTEGRATIONSTRONGMNGD_CXXS)
+	@echo ________________________________________________________________________________
+	@echo Building C++ Client libvf4soaintegrationstrongmngd
+	@echo Compiling Source...
+	@$(COMPILE)  $(VF4SOAINTEGRATIONSTRONGMNGD_CXX_FLAGS) $(VF4SOAINTEGRATIONSTRONGMNGD_INCLUDES) -c $(**)   $(CARG_OUT)$(VF4SOAINTEGRATIONSTRONGMNGD_OBJ)$(PS)
+	@echo.
+	@$(LINK) $(VF4SOAINTEGRATIONSTRONGMNGD_LD_FLAGS) $(VF4SOAINTEGRATIONSTRONGMNGD_OBJ)$(PS)*.$(OBJ_EXT)  $(VF4SOAINTEGRATIONSTRONGMNGD_LIBS)  $(LARG_OUT)$(VF4SOAINTEGRATIONSTRONGMNGD_TARGET).dll
+	$(COPY_FILE)  $(PROJECT_BIN)$(PS)libvf4soaintegrationstrongmngd.dll $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)
+	$(COPY_FILE)  $(PROJECT_BIN)$(PS)libvf4soaintegrationstrongmngd.lib $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)
+	@echo ________________________________________________________________________________
+
+
+# ==================================================
+# UNIX Build Target
+# ==================================================
+$(VF4SOAINTEGRATIONSTRONGMNGD_TARGET).so : $(VF4SOAINTEGRATIONSTRONGMNGD_CXXS)
+	@echo ________________________________________________________________________________
+	@echo Building C++ Client libvf4soaintegrationstrongmngd
+	@-rm *.$(OBJ_EXT)
+	@echo Compiling $(VF4SOAINTEGRATIONSTRONGMNGD_CXXS)
+	@$(COMPILE)  $(VF4SOAINTEGRATIONSTRONGMNGD_CXX_FLAGS) $(VF4SOAINTEGRATIONSTRONGMNGD_INCLUDES) -c $(VF4SOAINTEGRATIONSTRONGMNGD_CXXS) 
+	@mv *.$(OBJ_EXT) $(VF4SOAINTEGRATIONSTRONGMNGD_OBJ)
+	@echo Linking $(VF4SOAINTEGRATIONSTRONGMNGD_TARGET).so
+	@$(LINK) $(VF4SOAINTEGRATIONSTRONGMNGD_LD_FLAGS) $(VF4SOAINTEGRATIONSTRONGMNGD_OBJ)$(PS)*.$(OBJ_EXT)  $(VF4SOAINTEGRATIONSTRONGMNGD_LIBS)  $(LARG_OUT) $(VF4SOAINTEGRATIONSTRONGMNGD_TARGET).so
+	$(COPY_FILE)  $(PROJECT_BIN)$(PS)libvf4soaintegrationstrongmngd.so $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)
+	@echo ________________________________________________________________________________
+	
+
+
+
+libvf4soaintegrationstrongmngd_cleanNoOp:	
+libvf4soaintegrationstrongmngd_clean:
+	@echo ________________________________________________________________________________
+	@echo Cleaning C++ Client libvf4soaintegrationstrongmngd
+	-$(DELETE_DIR)  $(VF4SOAINTEGRATIONSTRONGMNGD_OBJ)
+	-$(DELETE_FILE) $(PROJECT_BIN)$(PS)libvf4soaintegrationstrongmngd.*	
+	-$(DELETE_FILE) $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)$(PS)libvf4soaintegrationstrongmngd.so
+	-$(DELETE_FILE) $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)$(PS)libvf4soaintegrationstrongmngd.dll
+	-$(DELETE_FILE) $(PROJECT_SOA_CLIENT)$(PS)cpp$(PS)libs$(PS)$(PLAT)$(PS)libvf4soaintegrationstrongmngd.lib
+	@echo ________________________________________________________________________________
+	
+

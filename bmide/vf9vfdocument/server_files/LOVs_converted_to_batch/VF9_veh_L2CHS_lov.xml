@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Jun 17 10:31:14 PM 2019">
+  <Add/>
+  <Change>
+    <TcLOV name="VF9_veh_L2CHS_lov" lovType="ListOfValuesString" usage="Exhaustive"
+        description="" isManagedExternally="true">
+      <TcLOVValue value="REINFORCEMENT CHASSIS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FRONT AXLE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="REAR AXLE COMPLETE" description="" conditionName="isTrue"/>
+      <TcLOVValue value="STEERING SYSTEM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="WHEELS / TIRES" description="" conditionName="isTrue"/>
+      <TcLOVValue value="BRAKING SYSTEM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PEDALS, CONTROLS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="FUEL SYSTEM" description="" conditionName="isTrue"/>
+      <TcLOVValue value="ENGINE / TRANSMISSION MOUNTING" description="" conditionName="isTrue"/>
+      <TcLOVValue value="JOINT SHAFTS" description="" conditionName="isTrue"/>
+      <TcLOVValue value="LINES AND VALVES" description="" conditionName="isTrue"/>
+
+    </TcLOV>
+  </Change>
+</TcBusinessData>

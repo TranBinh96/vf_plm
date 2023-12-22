@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="654DFA526BDB4025E7899AE0034139B4" packageId="vf4vinfastextend">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies>
+        <dependency id="aps0apscore" type="requires"/>
+        <dependency id="aws2" type="requires"/>
+        <dependency id="cm" type="requires"/>
+        <dependency id="integration4catia" type="requires"/>
+        <dependency id="materialmgmt" type="requires"/>
+        <dependency id="srh0apsconfiguredsearch" type="requires"/>
+        <dependency id="translationservice" type="requires"/>
+        <dependency id="vendormanagement" type="requires"/>
+        <dependency id="activeworkspacebom" type="requires"/>
+        <dependency id="bcs0buildconditions" type="requires"/>
+        <dependency id="issuemgmt" type="requires"/>
+        <dependency id="qam0qualityactionmgmt" type="requires"/>
+        <dependency id="sc0suppliercollaboration" type="requires"/>
+        <dependency id="subscmpl" type="requires"/>
+        <dependency id="Cm1cmaws" type="requires"/>
+        <dependency id="caw0capaonawc" type="requires"/>
+        <dependency id="cfg0configurator" type="requires"/>
+        <dependency id="cpa0capadatamodel" type="requires"/>
+        <dependency id="sci0imdsintegration" type="requires"/>
+        <dependency id="vl5vinfastscp" type="requires"/>
+        <dependency id="smc0psmcfgsupport" type="requires"/>
+        <dependency id="vf3vinfastcore" type="requires"/>
+    </dependencies>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="BA8A0B480C245A0562C0B0519DA0DB4A">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf4vinfastextend_path}/artifacts/vf4vinfastextend_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf4vinfastextend_path}/artifacts/vf4vinfastextend_install.zip"/>
+                    <copy file="${Teamcenter_vf4vinfastextend_path}/artifacts/vf4vinfastextend_icons.zip" todir="${Teamcenter_root_path}/install/vf4vinfastextend"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="vf4vinfastextend"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf4vinfastextend_path}/artifacts/vf4vinfastextend_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_vf4vinfastextend_path}/artifacts/vf4vinfastextend_install.zip"/>
+                    <copy file="${Teamcenter_vf4vinfastextend_path}/artifacts/vf4vinfastextend_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/vf4vinfastextend"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="vf4vinfastextend"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+    <artifact artifactType="fnd0_serverArtifact" guid="EA5CB4E06378EDEDFFC4D94227699CD7">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <property name="template_rtserver" value="false"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${product_id_application_id_path}/tc/vf4vinfastextend_rtserver.zip"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/emh_text.xml" includefile="vf4vinfastextend_errors.xml"/>
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/tc_text.xml" includefile="vf4vinfastextend_text.xml"/>
+                </target>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <property name="template_rtserver" value="false"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${product_id_application_id_path}/tc/vf4vinfastextend_rtserver.zip"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/emh_text.xml" includefile="vf4vinfastextend_errors.xml"/>
+                    <XInclude destfile="${Teamcenter_root_path}/lang/textserver/no_translation/tc_text.xml" includefile="vf4vinfastextend_text.xml"/>
+                </target>
+            </update>
+        </deploymentActions>
+    </artifact>
+</package>

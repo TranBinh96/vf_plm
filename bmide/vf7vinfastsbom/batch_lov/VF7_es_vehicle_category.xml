@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Tue Feb 18 05:04:47 PM 2020">
+	<Add/>
+	<Change>
+		<TcLOV name="VF7_es_vehicle_category" lovType="ListOfValuesString" usage="Exhaustive" description="donor vehicle for escooter lov" isManagedExternally="true">
+			<TcLOVValue value="V5 City" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V5 City 2020" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V5 City Cargo" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V5 Cargo EVN" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V5 Lite" description="" conditionName="isTrue"/>
+			<TcLOVValue value="VK Sport" description="" conditionName="isTrue"/>
+			<TcLOVValue value="VK City" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V7 Sport" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V7 City" description="" conditionName="isTrue"/>
+			<TcLOVValue value="V9 Sport 2020" description="" conditionName="isTrue"/>
+		</TcLOV>
+	</Change>
+</TcBusinessData>

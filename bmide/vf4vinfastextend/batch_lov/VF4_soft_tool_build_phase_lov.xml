@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Fri Dec 16 04:47:33 PM 2022">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_soft_tool_build_phase_lov" lovType="ListOfValuesString" usage="Suggestive"
+        description="Build Phase requires Soft Tool LOV" isManagedExternally="true">
+      <TcLOVValue value="PT" description="PT" conditionName="isTrue" />
+      <TcLOVValue value="PTO" description="PTO" conditionName="isTrue" />
+      <TcLOVValue value="PP" description="PP" conditionName="isTrue" />
+      <TcLOVValue value="LS" description="LS" conditionName="isTrue" />
+    </TcLOV>
+  </Change>
+</TcBusinessData>

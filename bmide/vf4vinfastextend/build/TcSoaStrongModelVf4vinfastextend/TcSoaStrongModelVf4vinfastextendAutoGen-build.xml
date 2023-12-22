@@ -1,0 +1,228 @@
+<!--
+==================================================
+ Copyright 2013.
+ Siemens Product Lifecycle Management Software Inc.
+ All Rights Reserved.
+ ==================================================
+ ==================================================
+             Auto-generated source
+                 DO NOT EDIT
+ ==================================================
+ -->
+
+
+<project name="TcSoaStrongModelVf4vinfastextend" default="all"  basedir="../.." >
+  	<description> 
+     	Client Data Model Auto Generation. 
+  	</description>
+<!--
+    These Properties need to be set by the caller
+    <property name="toolbox.home"                      location="C:/Apps/Siemens/Teamcenter/soa_client/toolbox" />
+    <property name="template.home"                     location="C:/Apps/Siemens/Teamcenter/bmide/templates" />
+    <property name="teamcenter.home"                   location="C:/Apps/Siemens/Teamcenter/tc" />   
+    <property name="gen.src.home" 		               location="./output/wnti32/generated" />
+
+--> 
+
+   
+     <target name="init" >
+
+		<!-- Set up directory locations -->
+    	<property name="project.directory"                  location="${basedir}" />
+     	<property name="library.gen.java.home"              location="${gen.src.home}/TcSoaStrongModelVf4vinfastextend/java/" />
+    	<property name="library.gen.cpp.home"               location="${gen.src.home}/TcSoaStrongModelVf4vinfastextend/cpp" />
+    	<property name="library.gen.cppmngd.home"           location="${gen.src.home}/TcSoaStrongModelVf4vinfastextend/cppmngd" />
+    	<property name="library.gen.net.home"               location="${gen.src.home}/TcSoaStrongModelVf4vinfastextend/net" />
+        <property name="library.gen.template.home"          location="${gen.src.home}/TcSoaStrongModelVf4vinfastextend/templates" />
+        <property name="project.soa.client.home"            location="${project.soa.client}" />
+        <property name="project.tc.home"                    location="${project.tc}" />      
+        <property name="teamcenter.version"                    value="13000.3.0" />	   
+        <property name="teamcenter.version.label"              value="V13000.3.0.16_20220920.00" />
+        
+        <property name="bmide.template.home"                location="${template.home}" />
+        <property name="tcsoa.model.extension"                 value="vf4vinfastextend" />
+        <property name="cdm.language"                          value="cpp,java,net" />		
+        <property name="cdm.cpp.managedflag"                   value="true" />
+        <property name="model.gen.home"                     location="${gen.src.home}/TcSoaStrongModelVf4vinfastextend" />
+        <property name="bmide.project.home"                 location="${project.directory}" />
+        <property name="cpp.gen.folder.name"                   value="cpp" />
+        <property name="cppMngd.gen.folder.name"               value="cppmngd" />
+        <property name="java.gen.folder.name"                  value="java" />
+        <property name="net.gen.folder.name"                   value="net"  />       	
+    </target>   
+    
+    <target name="define-classpath" depends="init" >
+    
+        <!-- Define the Class-path for the CreateServiceArtifacts task -->	
+        <fileset dir="${toolbox.home}" id="tool.libs">
+            <include name="TcSoaTools.jar" />
+        </fileset>
+        <property name="TcSoaTools.jar.file" location="${toolbox.home}/TcSoaTools.jar" />
+                
+        <fileset dir="${toolbox.home}/Ant/lib" id="ant.libs">
+            <include name="ant.jar" />
+        </fileset>
+
+        
+        <fileset dir="${toolbox.home}/xerces_j" id="xerces.libs">
+             <include name="resolver.jar" />
+             <include name="xml-apis.jar" />
+             <include name="xercesImpl.jar" />
+        </fileset>       
+        
+		<fileset dir="${teamcenter.home}/bin/bmide" id="bmcodegen.libs">
+             <include name="*.jar" />
+        </fileset> 
+
+        <fileset dir="${toolbox.home}/commons_xmlschema/1.3.2/commons_xmlschema" id="common.xml.libs">
+            <include name="XmlSchema-1.3.2.jar" />
+        </fileset>
+
+        <path id="tool.classpath">
+            <fileset refid="tool.libs"        />
+            <fileset refid="ant.libs"         /> 
+            <fileset refid="xerces.libs"      />
+            <fileset refid="bmcodegen.libs"   /> 
+            <fileset refid="common.xml.libs"  />
+        </path>
+        <path id="tool.classpath.for.bmide">
+            <fileset refid="tool.libs"        />
+            <fileset refid="xerces.libs"      />
+            <fileset refid="common.xml.libs"  />
+        </path>
+        
+        <!-- These options/properties are for CreateClientModel task -->
+        <property name="clientJavaBindings.classpath.locations" location="${TcSoaTools.jar.file}" />
+        <property name="BMIDE_SCRIPT_PLUGINS"                      value="org.eclipse.emf.common org.eclipse.emf.ecore org.eclipse.emf.ecore.xmi org.eclipse.emf.edit org.eclipse.equinox.common org.eclipse.equinox.registry org.eclipse.osgi org.apache.log4j org.apache.xml.resolver org.apache.xerces antlr commons_xmlschema com.teamcenter.apps.logmanager.logwriter com.teamcenter.bmide.audit.core com.teamcenter.bmide.base.core com.teamcenter.bmide.basemodel com.teamcenter.bmide.codegen com.teamcenter.bmide.datamodel com.teamcenter.bmide.docmgt.core com.teamcenter.bmide.install com.teamcenter.bmide.migration.core com.teamcenter.bmide.options.core com.teamcenter.bmide.server.antlr com.teamcenter.bmide.foundation.core com.teamcenter.bmide.tcplmxml com.teamcenter.bmide.eda.core com.teamcenter.compare.core" />
+        <property name="BMIDE_SCRIPT_PLUGINS_PATH"              location="${teamcenter.home}/bin/bmide" />
+        
+        <pathconvert dirsep="/" pathsep=";" property="tool.classpath.for.bmide.str" refid="tool.classpath.for.bmide"/>	
+    </target>
+
+    <target name="define-task" depends="init,define-classpath" >
+        <taskdef name="CreateClientModel"     classname="com.teamcenter.soa.tools.ant.CreateClientModel">
+            <classpath refid="tool.classpath"/>
+        </taskdef>
+    </target>   	
+     
+  	
+   	
+    <target name="clean" depends="init" >
+     	<!-- Delete all of the generated code root folders.  On a 'all' build target this is      -->
+     	<!-- only done if the generated code is out-of-date. Since an updated service definition  -->
+     	<!-- may have deleted business objects there could be dangling artifacts     -->
+   		<delete  dir="${model.gen.home}" />
+
+  		
+   		<delete failonerror="false">
+    		<fileset dir="${project.soa.client.home}/cpp/includes/cpp/include"         includes="teamcenter/soa/client/model/*.*"/>
+  		</delete>
+   		<delete failonerror="false">
+    		<fileset dir="${project.soa.client.home}/cpp/includes/cpp-managed/include" includes="teamcenter/soa/client/model/*.*"/>
+  		</delete>
+  		
+    </target> 
+   	
+	
+    <target name="setup" depends="init,clean"  >
+        <!-- Create the generated code root folders so we have something to write too           -->
+        <mkdir  dir="${library.gen.java.home}" />
+        <mkdir  dir="${library.gen.net.home}" />
+        <mkdir  dir="${library.gen.cpp.home}" />
+        <mkdir  dir="${library.gen.cppmngd.home}" />
+        <mkdir  dir="${library.gen.template.home}" />
+        <mkdir  dir="${project.soa.client.home}/cpp/includes/cpp/include" />
+        <mkdir  dir="${project.soa.client.home}/cpp/includes/cpp-managed/include" /> 
+        <mkdir  dir="${project.soa.client.home}/cpp/libs/${platform}" />    		
+        <mkdir  dir="${project.soa.client.home}/java/libs" />  
+        <mkdir  dir="${project.soa.client.home}/net/libs" /> 
+        <mkdir  dir="${project.tc.home}/bin" />  
+        <mkdir  dir="${project.tc.home}/lib" />  		  		  		       
+        
+    </target>
+   	
+    <target name="auto-generation-bmide" depends="init,define-classpath" /> 
+
+    	
+   	<target name="auto-generation" depends="init,define-task,setup"  > 
+   	
+        <copy todir="${library.gen.template.home}" flatten="true">
+            <fileset dir="${template.home}"          includes="foundation_template.xml"/> 
+            <fileset dir="${template.home}"          includes="aps0apscore_template.xml"/>
+            <fileset dir="${template.home}"          includes="aws2_template.xml"/>
+            <fileset dir="${template.home}"          includes="cm_template.xml"/>
+            <fileset dir="${template.home}"          includes="integration4catia_template.xml"/>
+            <fileset dir="${template.home}"          includes="materialmgmt_template.xml"/>
+            <fileset dir="${template.home}"          includes="srh0apsconfiguredsearch_template.xml"/>
+            <fileset dir="${template.home}"          includes="translationservice_template.xml"/>
+            <fileset dir="${template.home}"          includes="vendormanagement_template.xml"/>
+            <fileset dir="${template.home}"          includes="activeworkspacebom_template.xml"/>
+            <fileset dir="${template.home}"          includes="bcs0buildconditions_template.xml"/>
+            <fileset dir="${template.home}"          includes="issuemgmt_template.xml"/>
+            <fileset dir="${template.home}"          includes="qam0qualityactionmgmt_template.xml"/>
+            <fileset dir="${template.home}"          includes="sc0suppliercollaboration_template.xml"/>
+            <fileset dir="${template.home}"          includes="subscmpl_template.xml"/>
+            <fileset dir="${template.home}"          includes="Cm1cmaws_template.xml"/>
+            <fileset dir="${template.home}"          includes="caw0capaonawc_template.xml"/>
+            <fileset dir="${template.home}"          includes="cfg0configurator_template.xml"/>
+            <fileset dir="${template.home}"          includes="cpa0capadatamodel_template.xml"/>
+            <fileset dir="${template.home}"          includes="sci0imdsintegration_template.xml"/>
+            <fileset dir="${template.home}"          includes="vl5vinfastscp_template.xml"/>
+            <fileset dir="${template.home}"          includes="smc0psmcfgsupport_template.xml"/>
+            <fileset dir="${template.home}"          includes="vf3vinfastcore_template.xml"/>
+       </copy>
+        <copy file="${project.directory}/extensions/dependency.xml" tofile="${library.gen.template.home}/vf4vinfastextend_dependency.xml" />
+        
+        <exec executable="${teamcenter.home}/bin/bmide_consolidator${script.ext}">
+            <arg value="-dir=extensions" />
+            <arg value="-file=${library.gen.template.home}/vf4vinfastextend_template.xml"/>
+            <arg value="-consolidate=template"/>
+        </exec>
+        
+      	
+        <!-- Generate all code for the client data model library. -->   
+      	<CreateClientModel 
+                modelTypes="${library.gen.template.home}/vf4vinfastextend_template.xml"
+                typesPerCxx="100" 
+                outJava="${library.gen.java.home}/strong"
+                outNet="${library.gen.net.home}/strong"
+                outCpp="${library.gen.cpp.home}/strong"
+                outCppMngd="${library.gen.cppmngd.home}/strong"
+                language="cpp,java,net"
+                managed="true"
+     	/>
+         
+
+        <delete dir="${library.gen.template.home}" />
+		    
+    </target>
+    
+    <target name="auto-generation-final" depends="init" > 
+        <touch file="${model.gen.home}/touch.txt"/>
+       
+        <echo file="${library.gen.net.home}/strong/BuildVersion.cs">	 
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+[assembly: AssemblyVersion("${teamcenter.version}")]
+[assembly: AssemblyFileVersion("${teamcenter.version}")]
+ 		
+        </echo>   
+    </target>
+    
+    <target name="packaging" depends="init" > 
+    
+        <copy todir="${project.soa.client.home}/cpp/includes/cpp/include"  >
+            <fileset dir="${library.gen.cpp.home}/strong"          includes="**/*.hxx"/>          
+            <fileset dir="${library.gen.cpp.home}/strong"          includes="**/*.h"/>          
+        </copy>
+        <copy todir="${project.soa.client.home}/cpp/includes/cpp-managed/include"  >
+            <fileset dir="${library.gen.cppmngd.home}/strong"      includes="**/*.hxx"/>          
+            <fileset dir="${library.gen.cppmngd.home}/strong"      includes="**/*.h"/>          
+        </copy>
+ 
+    </target>
+     
+    
+    <target name="all" depends="auto-generation,auto-generation-final,packaging" />
+</project>

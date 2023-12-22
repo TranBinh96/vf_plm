@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    batchXSDVersion="1.0" Date="Mon Oct 17 11:20:00 AM 2022">
+  <Add>
+    <key locale="en_US" id="LOVValue{::}VF4_SCDDE_Status{::}REQUEST" status="Approved">REQUEST</key>
+    <key locale="en_US" id="LOVValue{::}VF4_SCDDE_Status{::}PROCESSING" status="Approved">PROCESSING</key>
+    <key locale="en_US" id="LOVValue{::}VF4_SCDDE_Status{::}PACKAGING" status="Approved">PACKAGING</key>
+    <key locale="en_US" id="LOVValue{::}VF4_SCDDE_Status{::}SENDING" status="Approved">SENDING</key>
+    <key locale="en_US" id="LOVValue{::}VF4_SCDDE_Status{::}COMPLETED" status="Approved">COMPLETED</key>
+    <key locale="en_US" id="LOVValue{::}VF4_SCDDE_Status{::}SYSTEM_RETRY" status="Approved">SYSTEM_RETRY</key>
+    <key locale="en_US" id="LOVValue{::}VF4_SCDDE_Status{::}TERMINATED" status="Approved">TERMINATED</key>
+    <key locale="en_US" id="LOVValue{::}VF4_SCDDE_Status{::}REQUEST_EXPORT_CAD" status="Approved">REQUEST_EXPORT_CAD</key>
+  </Add>
+</TcBusinessDataLocalization>

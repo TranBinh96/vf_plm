@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0" Date="Tue Mar 24 09:38:58 PM 2020">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_es_group_vehicle" lovType="ListOfValuesString" usage="Exhaustive" description="" isManagedExternally="true">
+      <TcLOVValue value="DRT" description="Drive train" conditionName="isTrue"/>
+      <TcLOVValue value="CNI" description="Connectivity and Interface" conditionName="isTrue"/>
+      <TcLOVValue value="ELE" description="Electric and Electronic" conditionName="isTrue"/>
+      <TcLOVValue value="LID" description="Light and Display" conditionName="isTrue"/>
+      <TcLOVValue value="FRA" description="Frame assembly" conditionName="isTrue"/>
+      <TcLOVValue value="TRS" description="Transmission" conditionName="isTrue"/>
+      <TcLOVValue value="SUS" description="Suspension system" conditionName="isTrue"/>
+      <TcLOVValue value="BRA" description="Brake system" conditionName="isTrue"/>
+      <TcLOVValue value="SAE" description="Saddle assembly" conditionName="isTrue"/>
+      <TcLOVValue value="BDP" description="Body plastic" conditionName="isTrue"/>
+      <TcLOVValue value="FWH" description="Front wheel assembly" conditionName="isTrue"/>
+      <TcLOVValue value="RWH" description="Rear wheel assembly" conditionName="isTrue"/>
+      <TcLOVValue value="MEC" description="Another mechanical" conditionName="isTrue"/>
+      <TcLOVValue value="BOL" description="Book and Label" conditionName="isTrue"/>
+      <TcLOVValue value="LIQ" description="Liquid" conditionName="isTrue"/>
+      <TcLOVValue value="RWT" description="Raw material" conditionName="isTrue"/>
+      <TcLOVValue value="ASY" description="Assembly drawing" conditionName="isTrue"/>
+      <TcLOVValue value="ACP" description="Accessory part" conditionName="isTrue"/>
+      <TcLOVValue value="SVC" description="Service part" conditionName="isTrue"/>
+      <TcLOVValue value="PCB" description="Printed Circuit Board" conditionName="isTrue"/>
+      <TcLOVValue value="SOF" description="Software" conditionName="isTrue"/>
+      <TcLOVValue value="PBA" description="Printed Board Accessory" conditionName="isTrue"/>
+      <TcLOVValue value="CHG" description="Charging Station" conditionName="isTrue"/>
+      <TcLOVValue value="FIR" description="Firmware" conditionName="isTrue"/>
+      <TcLOVValue value="APP" description="Application" conditionName="isTrue"/>
+      <TcLOVValue value="SPC" description="Specification document" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

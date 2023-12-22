@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="en_US" id="BusinessObject{::}VF5_affected_item" status="Approved">Affected Items</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_bom_change_formStorage" status="Approved">VF5_bom_change_formStorage</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_bom_change_form" status="Approved">BOM Change Form</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_change_itemMasterS" status="Approved">change item Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_change_itemMaster" status="Approved">change item Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_change_itemRevMasterS" status="Approved">change item Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_change_itemRevisionMaster" status="Approved">change item Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_change_itemRevision" status="Approved">ECO_EDAG Revision</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_change_item" status="Approved">ECO_EDAG</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_designMasterS" status="Approved">e design Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_designMaster" status="Approved">e design Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_designRevMasterS" status="Approved">e design Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_designRevisionMaster" status="Approved">e design Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_designRevision" status="Approved">E Design Revision</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_design" status="Approved">E Design</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_epartMasterS" status="Approved">e epart Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_epartMaster" status="Approved">e epart Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_epartRevMasterS" status="Approved">e epart Revision Master Storage</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_epartRevisionMaster" status="Approved">e epart Revision Master</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_epartRevision" status="Approved">E Epart Revision</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_e_epart" status="Approved">E Epart</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_plant_formStorage" status="Approved">VF5_plant_formStorage</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_plant_form" status="Approved">Plant Form</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_plant_rel" status="Approved">Plant Information</key>
+   <key locale="en_US" id="BusinessObject{::}VF5_solution_items" status="Approved">Solution Items</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_category_lov{::}CD" status="Approved">Co-Design</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_category_lov{::}SD" status="Approved">Supplier Drawing</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_category_lov{::}ST" status="Approved">Standard</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_category_lov{::}VD" status="Approved">Vinfast Drawing</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}ACC" status="Approved">Accessory</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}BEX" status="Approved">Body Exterior</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}BIN" status="Approved">Body Interior</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}BIW" status="Approved">Body In White</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}BLA" status="Approved">Book and Label</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}CHS" status="Approved">Chassis</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}CLP" status="Approved">Color Part</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}EEP" status="Approved">Electrical and Electronics Part</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}ENG" status="Approved">Engine</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}FLU" status="Approved">Fluid, Glues, Oils, Paint</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}PWT" status="Approved">Power Train</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}RAW" status="Approved">Raw Material</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}SOW" status="Approved">Software</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_material_group{::}STD" status="Approved">Standard Part (Screw, Bolt, Nut etc)</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_part_class_lov{::}LL" status="Approved">Long Lead</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_part_class_lov{::}ML" status="Approved">Medium Lead</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_part_class_lov{::}SL" status="Approved">Short Lead</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_plant{::}2001" status="Approved">E-Scooter</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_plant{::}3001" status="Approved">Car</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_plant{::}3002" status="Approved">Engine</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_plant{::}3003" status="Approved">Press</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_plant{::}3004" status="Approved">Sub Assembly</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_plant{::}4001" status="Approved">E-Scooter Trading Shipping Yard</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_plant{::}4002" status="Approved">Car Trading Shipping Yard</key>
+   <key locale="en_US" id="LOVValueDescription{::}VF5_plant{::}5000" status="Approved">Product Engineering</key>
+   <key locale="en_US" id="LOVValue{::}VF5_A_NA{::}Approved" status="Approved">Approved</key>
+   <key locale="en_US" id="LOVValue{::}VF5_A_NA{::}Not Approved" status="Approved">Not Approved</key>
+   <key locale="en_US" id="LOVValue{::}VF5_apprvl_code{::}K" status="Approved">K</key>
+   <key locale="en_US" id="LOVValue{::}VF5_apprvl_code{::}N" status="Approved">N</key>
+   <key locale="en_US" id="LOVValue{::}VF5_apprvl_code{::}V" status="Approved">V</key>
+   <key locale="en_US" id="LOVValue{::}VF5_apprvl_code{::}W" status="Approved">W</key>
+   <key locale="en_US" id="LOVValue{::}VF5_category_lov{::}CD" status="Approved">CD</key>
+   <key locale="en_US" id="LOVValue{::}VF5_category_lov{::}SD" status="Approved">SD</key>
+   <key locale="en_US" id="LOVValue{::}VF5_category_lov{::}ST" status="Approved">ST</key>
+   <key locale="en_US" id="LOVValue{::}VF5_category_lov{::}VD" status="Approved">VD</key>
+   <key locale="en_US" id="LOVValue{::}VF5_change_index{::}COP" status="Approved">COP</key>
+   <key locale="en_US" id="LOVValue{::}VF5_change_index{::}MOD" status="Approved">MOD</key>
+   <key locale="en_US" id="LOVValue{::}VF5_change_index{::}NEM" status="Approved">NEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_change_index{::}NEW" status="Approved">NEW</key>
+   <key locale="en_US" id="LOVValue{::}VF5_function_code{::}FC1" status="Approved">FC1</key>
+   <key locale="en_US" id="LOVValue{::}VF5_function_code{::}FC2" status="Approved">FC2</key>
+   <key locale="en_US" id="LOVValue{::}VF5_function_code{::}FC3" status="Approved">FC3</key>
+   <key locale="en_US" id="LOVValue{::}VF5_function_code{::}FC4" status="Approved">FC4</key>
+   <key locale="en_US" id="LOVValue{::}VF5_line_sm{::}CalButton" status="Approved">CalButton</key>
+   <key locale="en_US" id="LOVValue{::}VF5_line_sm{::}JIS" status="Approved">JIS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_line_sm{::}JIT" status="Approved">JIT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_line_sm{::}Kanban" status="Approved">Kanban</key>
+   <key locale="en_US" id="LOVValue{::}VF5_line_sm{::}Kitting" status="Approved">Kitting</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}AIR CONDITIONING"
+       status="Approved">AIR CONDITIONING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}AIRBAGS" status="Approved">AIRBAGS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}ALL-WHEEL-DRIVE SYSTEM"
+       status="Approved">ALL-WHEEL-DRIVE SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}BASIC ENGINE" status="Approved">BASIC ENGINE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}BELT 2SR" status="Approved">BELT 2SR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}BELT 3SR" status="Approved">BELT 3SR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}BELT IN BACK" status="Approved">BELT IN BACK</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}BELT IN FRONT /BACK"
+       status="Approved">BELT IN FRONT /BACK</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}BELT IN FRONT" status="Approved">BELT IN FRONT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}BODY ASSY PAINTING"
+       status="Approved">BODY ASSY PAINTING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}BODY ASSY" status="Approved">BODY ASSY</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}BRAKING SYSTEM"
+       status="Approved">BRAKING SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}BUMPER, CMS, FRONTEND CARRIER"
+       status="Approved">BUMPER, CMS, FRONTEND CARRIER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}CELL" status="Approved">CELL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}CHASSIS MIDDLE / FLOOR CENTER"
+       status="Approved">CHASSIS MIDDLE / FLOOR CENTER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}COMFORT ELECTRONICS"
+       status="Approved">COMFORT ELECTRONICS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}DOOR FRONT" status="Approved">DOOR FRONT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}DOOR REAR" status="Approved">DOOR REAR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}DOOR TRIMS" status="Approved">DOOR TRIMS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}DRIVER ASSISTANCE SYSTEMS"
+       status="Approved">DRIVER ASSISTANCE SYSTEMS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}ELECTROMECHANICS"
+       status="Approved">ELECTROMECHANICS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}ELECTRONICS- BASIC COMPONENTS"
+       status="Approved">ELECTRONICS- BASIC COMPONENTS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}END BODY" status="Approved">END BODY</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}ENGINE / TRANSMISSION MOUNTING"
+       status="Approved">ENGINE / TRANSMISSION MOUNTING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}ENGINE COMPARTMENT"
+       status="Approved">ENGINE COMPARTMENT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}ENGINE COOLING"
+       status="Approved">ENGINE COOLING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}ENGINE MOUNTING"
+       status="Approved">ENGINE MOUNTING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}EXHAUST SYSTEM"
+       status="Approved">EXHAUST SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}EXTERIOR TRIM" status="Approved">EXTERIOR TRIM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}FLOOR CONSOLE" status="Approved">FLOOR CONSOLE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}FLUIDS" status="Approved">FLUIDS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}FRONT AXLE" status="Approved">FRONT AXLE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}FRONT END" status="Approved">FRONT END</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}FRONT SEATS  DS/PS"
+       status="Approved">FRONT SEATS  DS/PS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}FRONT SEATS DS"
+       status="Approved">FRONT SEATS DS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}FRONT SEATS PS"
+       status="Approved">FRONT SEATS PS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}FUEL LID" status="Approved">FUEL LID</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}FUEL SYSTEM" status="Approved">FUEL SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}GLAZING, WIPER AND WASH SYSTEMS"
+       status="Approved">GLAZING, WIPER AND WASH SYSTEMS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}HEADLINING MODULE"
+       status="Approved">HEADLINING MODULE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}HEATER /AIR CONDITIONING"
+       status="Approved">HEATER /AIR CONDITIONING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}HEATER; AIR CONDITIONING"
+       status="Approved">HEATER; AIR CONDITIONING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}HEATER" status="Approved">HEATER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}HOOD SYSTEM" status="Approved">HOOD SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}I-PANEL COMPLETE"
+       status="Approved">I-PANEL COMPLETE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}INSTRUMENTATION"
+       status="Approved">INSTRUMENTATION</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}INTERIOR LOWER"
+       status="Approved">INTERIOR LOWER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}JOINT SHAFTS" status="Approved">JOINT SHAFTS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}LIFTGATE" status="Approved">LIFTGATE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}LIGHTING" status="Approved">LIGHTING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}MANUALS" status="Approved">MANUALS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}MULTI-MEDIA" status="Approved">MULTI-MEDIA</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}ON-BOARD NET" status="Approved">ON-BOARD NET</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}OUTER SHIFTING SYSTEM"
+       status="Approved">OUTER SHIFTING SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}PEDALS, CONTROLS"
+       status="Approved">PEDALS, CONTROLS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}REAR AXLE DIFFERENTIAL"
+       status="Approved">REAR AXLE DIFFERENTIAL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}REAR AXLE" status="Approved">REAR AXLE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}REAR SEATS 2SR"
+       status="Approved">REAR SEATS 2SR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}REAR SEATS 3SR"
+       status="Approved">REAR SEATS 3SR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}REINFORCEMENT CHASSIS"
+       status="Approved">REINFORCEMENT CHASSIS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}SAFETY ELECTRONICS"
+       status="Approved">SAFETY ELECTRONICS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}SOUND-, HEAT INSULATION"
+       status="Approved">SOUND-, HEAT INSULATION</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}STEERING SYSTEM"
+       status="Approved">STEERING SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}SWITCHES" status="Approved">SWITCHES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}TOOL KIT (VEHICLE TOOLS), CAR JACK"
+       status="Approved">TOOL KIT (VEHICLE TOOLS), CAR JACK</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}TRANSMISSION COOLING"
+       status="Approved">TRANSMISSION COOLING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}TRANSMISSION MOUNTING"
+       status="Approved">TRANSMISSION MOUNTING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}TRANSMISSION" status="Approved">TRANSMISSION</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}UNDERBODYSHIELDS, WHEEL ARCH LINER"
+       status="Approved">UNDERBODYSHIELDS, WHEEL ARCH LINER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}VEHICLE COMPLETE DOCUMENTATION"
+       status="Approved">VEHICLE COMPLETE DOCUMENTATION</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}WASH SYSTEM" status="Approved">WASH SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}WHEELS / TIRES"
+       status="Approved">WHEELS / TIRES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}WIPER SYSTEM" status="Approved">WIPER SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_main_module_english{::}WIRING HARNESS"
+       status="Approved">WIRING HARNESS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_make_buy{::}Finished Good" status="Approved">Finished Good</key>
+   <key locale="en_US" id="LOVValue{::}VF5_make_buy{::}Make" status="Approved">Make</key>
+   <key locale="en_US" id="LOVValue{::}VF5_make_buy{::}Purchase" status="Approved">Purchase</key>
+   <key locale="en_US" id="LOVValue{::}VF5_mat_type{::}FINISHED" status="Approved">FINISHED</key>
+   <key locale="en_US" id="LOVValue{::}VF5_mat_type{::}RAW MATERIAL" status="Approved">RAW MATERIAL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_mat_type{::}SEMI-FINISHED" status="Approved">SEMI-FINISHED</key>
+   <key locale="en_US" id="LOVValue{::}VF5_mat_type{::}SOFTWARE" status="Approved">SOFTWARE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_mat_type{::}VEHICLE" status="Approved">VEHICLE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}ACC" status="Approved">ACC</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}BEX" status="Approved">BEX</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}BIN" status="Approved">BIN</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}BIW" status="Approved">BIW</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}BLA" status="Approved">BLA</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}CHS" status="Approved">CHS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}CLP" status="Approved">CLP</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}EEP" status="Approved">EEP</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}ENG" status="Approved">ENG</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}FLU" status="Approved">FLU</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}PWT" status="Approved">PWT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}RAW" status="Approved">RAW</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}SOW" status="Approved">SOW</key>
+   <key locale="en_US" id="LOVValue{::}VF5_material_group{::}STD" status="Approved">STD</key>
+   <key locale="en_US" id="LOVValue{::}VF5_maturity_level{::}C" status="Approved">C</key>
+   <key locale="en_US" id="LOVValue{::}VF5_maturity_level{::}PR" status="Approved">PR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_maturity_level{::}P" status="Approved">P</key>
+   <key locale="en_US" id="LOVValue{::}VF5_maturity_level{::}S" status="Approved">S</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}3RD STOP LIGHT" status="Approved">3RD STOP LIGHT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}A-PILLAR TRIMS LOWER"
+       status="Approved">A-PILLAR TRIMS LOWER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}A-PILLAR TRIMS UPPER"
+       status="Approved">A-PILLAR TRIMS UPPER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AC-SYSTEM (ENGINE COMPARTM)"
+       status="Approved">AC-SYSTEM (ENGINE COMPARTM)</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ACCOUSTIC BAFFLES" status="Approved">ACCOUSTIC BAFFLES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ADJUSTMENT/CONTROL CAMPHASER"
+       status="Approved">ADJUSTMENT/CONTROL CAMPHASER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AGGREGATES" status="Approved">AGGREGATES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AID FOR PARKING, PARKTRONIC SYSTEM"
+       status="Approved">AID FOR PARKING, PARKTRONIC SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AIR DUCTS PASSENGER AREA"
+       status="Approved">AIR DUCTS PASSENGER AREA</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AIR GUIDES" status="Approved">AIR GUIDES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AIR OUTLETS" status="Approved">AIR OUTLETS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AIR-CONDITIONER, CONTROL ELEMENT"
+       status="Approved">AIR-CONDITIONER, CONTROL ELEMENT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AIRBAG SENSORY SYSTEM, SWITCH"
+       status="Approved">AIRBAG SENSORY SYSTEM, SWITCH</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AIRBAG-RELEASING DEVICE, AIRBAG CONTROL DEVICE"
+       status="Approved">AIRBAG-RELEASING DEVICE, AIRBAG CONTROL DEVICE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AIRBAGS" status="Approved">AIRBAGS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ALL-WHEEL-DRIVE SYSTEM"
+       status="Approved">ALL-WHEEL-DRIVE SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ALTERNATOR HV WITH DRIVE AND MOUNTING"
+       status="Approved">ALTERNATOR HV WITH DRIVE AND MOUNTING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AMPLIFIER" status="Approved">AMPLIFIER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}APSS SENSOR" status="Approved">APSS SENSOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ASSY BULKHEAD" status="Approved">ASSY BULKHEAD</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ASSY COMPARTMENT INFLATABLE SPARE TIRE"
+       status="Approved">ASSY COMPARTMENT INFLATABLE SPARE TIRE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ASSY FENDER" status="Approved">ASSY FENDER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ASSY WHEELHOUSE FRONT"
+       status="Approved">ASSY WHEELHOUSE FRONT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ASSY WHEELHOUSE LONGITUDINAL MEMBERS"
+       status="Approved">ASSY WHEELHOUSE LONGITUDINAL MEMBERS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ASSY WHEELHOUSE REAR"
+       status="Approved">ASSY WHEELHOUSE REAR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ATTACHING ELEMENTS CABLE GUIDES, GROMMETS, CHIPS"
+       status="Approved">ATTACHING ELEMENTS CABLE GUIDES, GROMMETS, CHIPS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ATTACHMENT OF BATTERY"
+       status="Approved">ATTACHMENT OF BATTERY</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}AUTOMATIC GEARBOX" status="Approved">AUTOMATIC GEARBOX</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}B-PILLAR TRIMS LOWER"
+       status="Approved">B-PILLAR TRIMS LOWER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}B-PILLAR TRIMS UPPER"
+       status="Approved">B-PILLAR TRIMS UPPER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BADGES" status="Approved">BADGES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BASIC ENGINE" status="Approved">BASIC ENGINE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BATTERY CABLING" status="Approved">BATTERY CABLING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BATTERY CONTROL DEVICE"
+       status="Approved">BATTERY CONTROL DEVICE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BATTERY" status="Approved">BATTERY</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BELT 2SR" status="Approved">BELT 2SR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BELT 3SR" status="Approved">BELT 3SR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BELT IN FRONT /BACK"
+       status="Approved">BELT IN FRONT /BACK</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BELT IN FRONT" status="Approved">BELT IN FRONT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BELT IN REAR" status="Approved">BELT IN REAR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BLIND SPOT WARNING" status="Approved">BLIND SPOT WARNING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BODY ASSY PAINTING" status="Approved">BODY ASSY PAINTING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BODY ASSY" status="Approved">BODY ASSY</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BRAKE BOOSTER" status="Approved">BRAKE BOOSTER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BRAKE CALIPER" status="Approved">BRAKE CALIPER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BRAKE COOLING" status="Approved">BRAKE COOLING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BRAKE DISCS" status="Approved">BRAKE DISCS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BRAKE LINES AND HOSES"
+       status="Approved">BRAKE LINES AND HOSES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BRAKING SYSTEM" status="Approved">BRAKING SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BREAK SHIELD" status="Approved">BREAK SHIELD</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BUMPER FASCIA FRONT / PED-PRO FOAM"
+       status="Approved">BUMPER FASCIA FRONT / PED-PRO FOAM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BUMPER FASCIA FRONT"
+       status="Approved">BUMPER FASCIA FRONT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BUMPER FASCIA REAR" status="Approved">BUMPER FASCIA REAR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}BUMPER, CMS, FRONTENDCARRIER"
+       status="Approved">BUMPER, CMS, FRONTENDCARRIER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}C-PILLAR TRIMS LOWER"
+       status="Approved">C-PILLAR TRIMS LOWER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}C-PILLAR TRIMS UPPER"
+       status="Approved">C-PILLAR TRIMS UPPER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CAMSHAFT" status="Approved">CAMSHAFT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CAR JACK" status="Approved">CAR JACK</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CARPET" status="Approved">CARPET</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CENTER CONSOLE" status="Approved">CENTER CONSOLE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CENTRAL ELECTRICAL SYSTEM"
+       status="Approved">CENTRAL ELECTRICAL SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CHARGING" status="Approved">CHARGING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CHECK STRAPS, GAS SPRING / PNEUMATIC SPRING"
+       status="Approved">CHECK STRAPS, GAS SPRING / PNEUMATIC SPRING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CLADDINGS / TRIM OUTER"
+       status="Approved">CLADDINGS / TRIM OUTER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CLOSING COVER FLOOR"
+       status="Approved">CLOSING COVER FLOOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}COMBI-INSTRUMENT" status="Approved">COMBI-INSTRUMENT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}COMFORT ELECTRONICS"
+       status="Approved">COMFORT ELECTRONICS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CONNECTING ROD/BEARING"
+       status="Approved">CONNECTING ROD/BEARING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CONTROL DEVICE  MULTI-MEDIA"
+       status="Approved">CONTROL DEVICE  MULTI-MEDIA</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CONTROL SYSTEMS ENGINE OIL"
+       status="Approved">CONTROL SYSTEMS ENGINE OIL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CONTROL UNIT- LIGHT"
+       status="Approved">CONTROL UNIT- LIGHT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CONTROL UNITS, SENSORS"
+       status="Approved">CONTROL UNITS, SENSORS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CONTROL UNITS" status="Approved">CONTROL UNITS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}COOLANT PUMP / MECHANICAL"
+       status="Approved">COOLANT PUMP / MECHANICAL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}COOLER" status="Approved">COOLER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}COUNTERBALANCE SHAFT"
+       status="Approved">COUNTERBALANCE SHAFT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}COVER POT" status="Approved">COVER POT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}COWL COVER" status="Approved">COWL COVER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}COWL UPPER" status="Approved">COWL UPPER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CRANKCASE" status="Approved">CRANKCASE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CRANKSHAFT/BEARING/SPROCKET WHEEL"
+       status="Approved">CRANKSHAFT/BEARING/SPROCKET WHEEL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CRASH MANAGEMENT SYSTEM FRONT"
+       status="Approved">CRASH MANAGEMENT SYSTEM FRONT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CRASH MANAGEMENT SYSTEM REAR"
+       status="Approved">CRASH MANAGEMENT SYSTEM REAR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CRASH SYSTEM" status="Approved">CRASH SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CURTAIN AIRBAG" status="Approved">CURTAIN AIRBAG</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}CYLINDER HEAD/CYLINDER HEAD GASKET"
+       status="Approved">CYLINDER HEAD/CYLINDER HEAD GASKET</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}D-PILLAR TRIMS LOWER"
+       status="Approved">D-PILLAR TRIMS LOWER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}D-PILLAR TRIMS UPPER"
+       status="Approved">D-PILLAR TRIMS UPPER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DAMPER / SPRING / STABILIZER"
+       status="Approved">DAMPER / SPRING / STABILIZER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DIFF GEARBOX FF" status="Approved">DIFF GEARBOX FF</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DIFF GEARBOX RR" status="Approved">DIFF GEARBOX RR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DOOR FRONT" status="Approved">DOOR FRONT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DOOR MODULE / DOOR CONTROL DEVICE / WINDOW REGULATOR"
+       status="Approved">DOOR MODULE / DOOR CONTROL DEVICE / WINDOW REGULATOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DOOR REAR" status="Approved">DOOR REAR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DOOR TRIMS FRT LH" status="Approved">DOOR TRIMS FRT LH</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DOOR TRIMS FRT RH" status="Approved">DOOR TRIMS FRT RH</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DOOR TRIMS RR LH" status="Approved">DOOR TRIMS RR LH</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DOOR TRIMS RR RH" status="Approved">DOOR TRIMS RR RH</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DOOR TRIMS" status="Approved">DOOR TRIMS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DRIVE LOCKING AND RELEASE"
+       status="Approved">DRIVE LOCKING AND RELEASE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DRIVER AIRBAG" status="Approved">DRIVER AIRBAG</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}DRIVER ASSISTANCE SYSTEMS"
+       status="Approved">DRIVER ASSISTANCE SYSTEMS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ELECTROMECHANICS" status="Approved">ELECTROMECHANICS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ELECTRONIC DRIVING LOCKS"
+       status="Approved">ELECTRONIC DRIVING LOCKS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ELECTRONICS- BASIC COMPONENTS"
+       status="Approved">ELECTRONICS- BASIC COMPONENTS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}EMERGENCY EQUIPMENT"
+       status="Approved">EMERGENCY EQUIPMENT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ENGINE / TRANSMISSION MOUNTING"
+       status="Approved">ENGINE / TRANSMISSION MOUNTING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ENGINE COMPARTMENT" status="Approved">ENGINE COMPARTMENT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ENGINE COOLING" status="Approved">ENGINE COOLING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ENGINE PERIPHERY" status="Approved">ENGINE PERIPHERY</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}EXHAUST SYSTEM" status="Approved">EXHAUST SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}EXTERIOR TRIM" status="Approved">EXTERIOR TRIM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FLOOR CONSOLE" status="Approved">FLOOR CONSOLE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FLOOR PANELS" status="Approved">FLOOR PANELS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FLUIDS" status="Approved">FLUIDS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FLYWHEEL AUTOMATIC TRANSMISSION"
+       status="Approved">FLYWHEEL AUTOMATIC TRANSMISSION</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FOG LAMP" status="Approved">FOG LAMP</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FRAME CROSS MEMBERS"
+       status="Approved">FRAME CROSS MEMBERS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FRONT AXLE" status="Approved">FRONT AXLE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FRONT END" status="Approved">FRONT END</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FRONT SEATS DS" status="Approved">FRONT SEATS DS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FRONT SEATS PS" status="Approved">FRONT SEATS PS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FRONTEND CARRIER" status="Approved">FRONTEND CARRIER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FUEL FEED/RETURN LINES ENGINES"
+       status="Approved">FUEL FEED/RETURN LINES ENGINES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FUEL LID" status="Approved">FUEL LID</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FUEL SYSTEM" status="Approved">FUEL SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FUEL TANK VENT VALVE/LINES"
+       status="Approved">FUEL TANK VENT VALVE/LINES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}FUSE BOXES, SAFETY BOX"
+       status="Approved">FUSE BOXES, SAFETY BOX</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}GAS SPRING" status="Approved">GAS SPRING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}GLAZING, WIPER AND WASH SYSTEMS"
+       status="Approved">GLAZING, WIPER AND WASH SYSTEMS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}GRAB HANDLE" status="Approved">GRAB HANDLE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HALTER MULTI-MEDIA" status="Approved">HALTER MULTI-MEDIA</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HAND-FREE DEVICE, MICROPHONE AND ANTENNA"
+       status="Approved">HAND-FREE DEVICE, MICROPHONE AND ANTENNA</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HEAD LAMPS" status="Approved">HEAD LAMPS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HEADLINING-MODULE" status="Approved">HEADLINING-MODULE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HEADREST" status="Approved">HEADREST</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HEATER /AIR CONDITIONING"
+       status="Approved">HEATER /AIR CONDITIONING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HEATER; AIR CONDITIONING"
+       status="Approved">HEATER; AIR CONDITIONING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HEATSHIELDS MOUNTED ON BODY"
+       status="Approved">HEATSHIELDS MOUNTED ON BODY</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HINGE SYSTEM" status="Approved">HINGE SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HOOD INSULATION" status="Approved">HOOD INSULATION</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HOOD SYSTEM" status="Approved">HOOD SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HOUSING VENTILATION/PRESSURE REDUCER/OIL SEPARATOR"
+       status="Approved">HOUSING VENTILATION/PRESSURE REDUCER/OIL SEPARATOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HVAC UNIT" status="Approved">HVAC UNIT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}HYDRAULIC LASH ADJUSTER"
+       status="Approved">HYDRAULIC LASH ADJUSTER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}I-PANEL COMPLETE" status="Approved">I-PANEL COMPLETE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}IGNITION COIL" status="Approved">IGNITION COIL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}INDOOR LIGHT / AMBIENTLIGHT"
+       status="Approved">INDOOR LIGHT / AMBIENTLIGHT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}INJECTION PUMP/HIGH-PRESSURE PUMP"
+       status="Approved">INJECTION PUMP/HIGH-PRESSURE PUMP</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}INJECTION VALVES" status="Approved">INJECTION VALVES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}INNER MIRROR" status="Approved">INNER MIRROR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}INSTRUMENTATION" status="Approved">INSTRUMENTATION</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}INSULATIONS INTERIOR (MOUNTING PARTS AFTER PAINT SHOP)"
+       status="Approved">INSULATIONS INTERIOR (MOUNTING PARTS AFTER PAINT SHOP)</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}INSULATIONS INTERIOR"
+       status="Approved">INSULATIONS INTERIOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}INTAKE MANIFOLD/INTAKE SYSTEM/MANIFOLD"
+       status="Approved">INTAKE MANIFOLD/INTAKE SYSTEM/MANIFOLD</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}INTERIOR COVERS" status="Approved">INTERIOR COVERS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}INTERIOR LOWER" status="Approved">INTERIOR LOWER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}IP - PANEL" status="Approved">IP - PANEL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}JOINT SHAFTS" status="Approved">JOINT SHAFTS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}KEYLESS ENTRY / KEYLESS GO"
+       status="Approved">KEYLESS ENTRY / KEYLESS GO</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}KEY" status="Approved">KEY</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}LABELS" status="Approved">LABELS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}LICENCE PLATE LAMP" status="Approved">LICENCE PLATE LAMP</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}LID / CAP PLASTICS (PAINTED)"
+       status="Approved">LID / CAP PLASTICS (PAINTED)</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}LIGHTING" status="Approved">LIGHTING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}LINES AND VALVES" status="Approved">LINES AND VALVES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}LINES" status="Approved">LINES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}LOCKING SYSTEM" status="Approved">LOCKING SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}LONGITUDINAL MEMBERS"
+       status="Approved">LONGITUDINAL MEMBERS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}LOUDSPEAKER" status="Approved">LOUDSPEAKER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}LOW-VOLTAGE WIRING HARNESS"
+       status="Approved">LOW-VOLTAGE WIRING HARNESS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}MAIN CABLE HARNESS" status="Approved">MAIN CABLE HARNESS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}MNTNG/CVRNG WIRING HARNESS"
+       status="Approved">MNTNG/CVRNG WIRING HARNESS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}MOUNTING PARTS" status="Approved">MOUNTING PARTS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}MOUNTING" status="Approved">MOUNTING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}MULTI-MEDIA" status="Approved">MULTI-MEDIA</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}OIL FILTER/HEAT EXCHANGER/LINES"
+       status="Approved">OIL FILTER/HEAT EXCHANGER/LINES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}OIL PUMP/DRIVE/TENSIONER"
+       status="Approved">OIL PUMP/DRIVE/TENSIONER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}OIL SUMP/OIL LINES/VALVES/ BAFFLE PLATE"
+       status="Approved">OIL SUMP/OIL LINES/VALVES/ BAFFLE PLATE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ON-BOARD NET" status="Approved">ON-BOARD NET</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}OUTER HANDLE, LOCKING SYSTEM"
+       status="Approved">OUTER HANDLE, LOCKING SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}OUTER HANDLES" status="Approved">OUTER HANDLES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}OUTER MIRRORS" status="Approved">OUTER MIRRORS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}OUTER SHIFTING SYSTEM"
+       status="Approved">OUTER SHIFTING SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}OXYGEN SENSOR/CONTROL"
+       status="Approved">OXYGEN SENSOR/CONTROL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PANEL LUGGAGE COMPARTMENT"
+       status="Approved">PANEL LUGGAGE COMPARTMENT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PARCEL SHELF" status="Approved">PARCEL SHELF</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PASSENGER AIRBAG" status="Approved">PASSENGER AIRBAG</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PEDALS, CONTROLS" status="Approved">PEDALS, CONTROLS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PEDALS" status="Approved">PEDALS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PILLAR TRIMS UPPER" status="Approved">PILLAR TRIMS UPPER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PILLAR TRIM" status="Approved">PILLAR TRIM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PISTON/PISTON RINGS/PISTON PINS"
+       status="Approved">PISTON/PISTON RINGS/PISTON PINS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PLUG SOCKETS" status="Approved">PLUG SOCKETS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PNEUMTATIC SPRING" status="Approved">PNEUMTATIC SPRING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}POSITION LIGHTS" status="Approved">POSITION LIGHTS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}POWER DISTRIBUTION" status="Approved">POWER DISTRIBUTION</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}POWER LIFT GATE" status="Approved">POWER LIFT GATE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PROP SHAFTS FF" status="Approved">PROP SHAFTS FF</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PROP SHAFTS" status="Approved">PROP SHAFTS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PTO POWER TAKE OFF" status="Approved">PTO POWER TAKE OFF</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}PULSE GENERATOR/SENSORS ENGINE CONTROL"
+       status="Approved">PULSE GENERATOR/SENSORS ENGINE CONTROL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}RACK-AND-PINION STEERING"
+       status="Approved">RACK-AND-PINION STEERING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}RAIN-LIGHT-SENSOR" status="Approved">RAIN-LIGHT-SENSOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}REAR AXLE COMPLETE" status="Approved">REAR AXLE COMPLETE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}REAR AXLE DIFFERENTIAL"
+       status="Approved">REAR AXLE DIFFERENTIAL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}REAR END" status="Approved">REAR END</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}REAR QUATER WINDOW" status="Approved">REAR QUATER WINDOW</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}REAR SEATS 2SR" status="Approved">REAR SEATS 2SR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}REAR SEATS 3SR" status="Approved">REAR SEATS 3SR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}REAR VIEW CAMERA (RVC)"
+       status="Approved">REAR VIEW CAMERA (RVC)</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}REAR WINDOW" status="Approved">REAR WINDOW</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}REFLECTOR" status="Approved">REFLECTOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}REINFORCEMENT CHASSIS"
+       status="Approved">REINFORCEMENT CHASSIS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}RESERVOIRS, PUMPS" status="Approved">RESERVOIRS, PUMPS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ROCKER ARM/FINGER/MOUNTING"
+       status="Approved">ROCKER ARM/FINGER/MOUNTING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ROOF BOW / ROOF CROSSRAIL / ROOF CROSS MEMBER"
+       status="Approved">ROOF BOW / ROOF CROSSRAIL / ROOF CROSS MEMBER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ROOF RAIL" status="Approved">ROOF RAIL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ROOF TRIM" status="Approved">ROOF TRIM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}ROOF" status="Approved">ROOF</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SAFETY ELECTRONICS" status="Approved">SAFETY ELECTRONICS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SCREEN" status="Approved">SCREEN</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SEALING" status="Approved">SEALING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SEAT ELECTRONIC SYSTEM, SEAT DISPLACEMENT, HEATING, VENTILATION ECU"
+       status="Approved">SEAT ELECTRONIC SYSTEM, SEAT DISPLACEMENT, HEATING, VENTILATION ECU</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SEAT FINISHER, - COVERS"
+       status="Approved">SEAT FINISHER, - COVERS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SEAT FRAME" status="Approved">SEAT FRAME</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SEAT RAILS" status="Approved">SEAT RAILS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SEAT STRUCTURE" status="Approved">SEAT STRUCTURE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SERVICE MANUAL" status="Approved">SERVICE MANUAL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SHAFTS" status="Approved">SHAFTS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SHIFT MODUL" status="Approved">SHIFT MODUL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SIDE FRAME INNER" status="Approved">SIDE FRAME INNER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SIDE FRAME OUTER" status="Approved">SIDE FRAME OUTER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SIDE WINDOWS" status="Approved">SIDE WINDOWS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SIGNAL LIGHT" status="Approved">SIGNAL LIGHT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SILL COVER INNER" status="Approved">SILL COVER INNER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SILL COVER" status="Approved">SILL COVER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SOUND INSULATIONS OUTER, MOUNTED ON BODY"
+       status="Approved">SOUND INSULATIONS OUTER, MOUNTED ON BODY</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SOUND-, HEAT INSULATION"
+       status="Approved">SOUND-, HEAT INSULATION</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SPARK PLUGS" status="Approved">SPARK PLUGS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SPEAKER" status="Approved">SPEAKER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SPOILER PARTS" status="Approved">SPOILER PARTS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SPOILER" status="Approved">SPOILER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}STARTER CABLE/GENERATOR CABLE"
+       status="Approved">STARTER CABLE/GENERATOR CABLE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}STEERING COLUMN" status="Approved">STEERING COLUMN</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}STEERING SYSTEM" status="Approved">STEERING SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}STEERING WHEEL" status="Approved">STEERING WHEEL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}STRUCTURE PARTS" status="Approved">STRUCTURE PARTS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}STRUT" status="Approved">STRUT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SUN VISOR" status="Approved">SUN VISOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SUNROOF" status="Approved">SUNROOF</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SUPPORTING TUBE" status="Approved">SUPPORTING TUBE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SURROUND VIEW MONITORING"
+       status="Approved">SURROUND VIEW MONITORING</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SWITCH CENTRE CONSOLE, COCKPIT"
+       status="Approved">SWITCH CENTRE CONSOLE, COCKPIT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SWITCH DOORS" status="Approved">SWITCH DOORS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SWITCH ELECTRONIC SYSTEM"
+       status="Approved">SWITCH ELECTRONIC SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SWITCH SEATS" status="Approved">SWITCH SEATS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SWITCH STEERING COLUMN"
+       status="Approved">SWITCH STEERING COLUMN</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SWITCH STEERING WHEEL"
+       status="Approved">SWITCH STEERING WHEEL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SWITCHES, SENSORS" status="Approved">SWITCHES, SENSORS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SWITCHES" status="Approved">SWITCHES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}SYSTEM WINDOW LIFTER"
+       status="Approved">SYSTEM WINDOW LIFTER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TAIL LAMP" status="Approved">TAIL LAMP</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TAILGATE TRIM" status="Approved">TAILGATE TRIM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TELEMATIC" status="Approved">TELEMATIC</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TEMPERATURE SENSOR" status="Approved">TEMPERATURE SENSOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}THERMOSTAT/ENGINE MOUNTED COOLANT LINES"
+       status="Approved">THERMOSTAT/ENGINE MOUNTED COOLANT LINES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}THROTTLE VALVE" status="Approved">THROTTLE VALVE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TIRE REPAIR KIT" status="Approved">TIRE REPAIR KIT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TORAX AIRBAG" status="Approved">TORAX AIRBAG</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TOWING EYES" status="Approved">TOWING EYES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TOWING HITCH" status="Approved">TOWING HITCH</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TRAILER ELECTRICS / CONTROL SYSTEM"
+       status="Approved">TRAILER ELECTRICS / CONTROL SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TRANSMISSION WIRING HARNESS"
+       status="Approved">TRANSMISSION WIRING HARNESS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TRANSMISSION" status="Approved">TRANSMISSION</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TRIM INSTRUMENTS" status="Approved">TRIM INSTRUMENTS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TRIMS, COVERS, FINISHER"
+       status="Approved">TRIMS, COVERS, FINISHER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TRIMS, TRAYS, BRACKETS"
+       status="Approved">TRIMS, TRAYS, BRACKETS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TRUNKLID" status="Approved">TRUNKLID</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TUBES" status="Approved">TUBES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TURBOCHARGER/SUPERCHARGER/OIL SUPPLY"
+       status="Approved">TURBOCHARGER/SUPERCHARGER/OIL SUPPLY</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}TYRE-PRESSURE CONTROL"
+       status="Approved">TYRE-PRESSURE CONTROL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}UNDERBODYSHIELDS  MOUNTED ON BODY"
+       status="Approved">UNDERBODYSHIELDS  MOUNTED ON BODY</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}UNDERBODYSHIELDS" status="Approved">UNDERBODYSHIELDS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}UPHOLSTERY MATERIAL"
+       status="Approved">UPHOLSTERY MATERIAL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}V-RIBBED BELT/TENSIONER W BASIC DRIVE/GENERATOR"
+       status="Approved">V-RIBBED BELT/TENSIONER W BASIC DRIVE/GENERATOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}VACUUM PUMP FOR BRAKE BOOST"
+       status="Approved">VACUUM PUMP FOR BRAKE BOOST</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}VALVES/VALVE SPRINGS"
+       status="Approved">VALVES/VALVE SPRINGS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}VEHICLE COMPLETE DOCUMENTATION"
+       status="Approved">VEHICLE COMPLETE DOCUMENTATION</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}VEHILCE TOOLS" status="Approved">VEHILCE TOOLS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}VENTIALTION, AIR DUCT"
+       status="Approved">VENTIALTION, AIR DUCT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}VENTILATION, AIR DUCT"
+       status="Approved">VENTILATION, AIR DUCT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}VIBRATION DAMPER" status="Approved">VIBRATION DAMPER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WASH SYSTEM" status="Approved">WASH SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WASHER NOZZLES" status="Approved">WASHER NOZZLES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WASHER SYSTEM" status="Approved">WASHER SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WHEEL ARCH LINER" status="Approved">WHEEL ARCH LINER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WHEEL COMPLETE" status="Approved">WHEEL COMPLETE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WHEEL COVER" status="Approved">WHEEL COVER</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WHEELS / TIRES" status="Approved">WHEELS / TIRES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WINDOW FRAMES" status="Approved">WINDOW FRAMES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WINDOW GUIDE SYSTEM"
+       status="Approved">WINDOW GUIDE SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WINDOW REGULATOR" status="Approved">WINDOW REGULATOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WINDSCREEN" status="Approved">WINDSCREEN</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WIPER SYSTEM FRONT" status="Approved">WIPER SYSTEM FRONT</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WIPER SYSTEM REAR" status="Approved">WIPER SYSTEM REAR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WIPER SYSTEM" status="Approved">WIPER SYSTEM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_english{::}WIRING HARNESS" status="Approved">WIRING HARNESS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_group_english{::}BODY_IN_WHITE"
+       status="Approved">BODY_IN_WHITE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_group_english{::}CHASSIS" status="Approved">CHASSIS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_group_english{::}DOORS_AND_CLOSURES"
+       status="Approved">DOORS_AND_CLOSURES</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_group_english{::}ELECTRIC_ELECTRONICS"
+       status="Approved">ELECTRIC_ELECTRONICS</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_group_english{::}EXTERIOR" status="Approved">EXTERIOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_group_english{::}INTERIOR" status="Approved">INTERIOR</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_group_english{::}POWERTRAIN" status="Approved">POWERTRAIN</key>
+   <key locale="en_US" id="LOVValue{::}VF5_module_group_english{::}VEHICLE COMPLETE"
+       status="Approved">VEHICLE COMPLETE</key>
+   <key locale="en_US" id="LOVValue{::}VF5_part_class_lov{::}LL" status="Approved">LL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_part_class_lov{::}ML" status="Approved">ML</key>
+   <key locale="en_US" id="LOVValue{::}VF5_part_class_lov{::}SL" status="Approved">SL</key>
+   <key locale="en_US" id="LOVValue{::}VF5_plant{::}2001" status="Approved">2001</key>
+   <key locale="en_US" id="LOVValue{::}VF5_plant{::}3001" status="Approved">3001</key>
+   <key locale="en_US" id="LOVValue{::}VF5_plant{::}3002" status="Approved">3002</key>
+   <key locale="en_US" id="LOVValue{::}VF5_plant{::}3003" status="Approved">3003</key>
+   <key locale="en_US" id="LOVValue{::}VF5_plant{::}3004" status="Approved">3004</key>
+   <key locale="en_US" id="LOVValue{::}VF5_plant{::}4001" status="Approved">4001</key>
+   <key locale="en_US" id="LOVValue{::}VF5_plant{::}4002" status="Approved">4002</key>
+   <key locale="en_US" id="LOVValue{::}VF5_plant{::}5000" status="Approved">5000</key>
+   <key locale="en_US" id="LOVValue{::}VF5_purchase_indicator{::}DP" status="Approved">DP</key>
+   <key locale="en_US" id="LOVValue{::}VF5_purchase_indicator{::}D" status="Approved">D</key>
+   <key locale="en_US" id="LOVValue{::}VF5_purchase_indicator{::}H" status="Approved">H</key>
+   <key locale="en_US" id="LOVValue{::}VF5_purchase_indicator{::}P" status="Approved">P</key>
+   <key locale="en_US" id="LOVValue{::}VF5_symmetry_lov{::}Symmetrical" status="Approved">Symmetrical</key>
+   <key locale="en_US" id="LOVValue{::}VF5_symmetry_lov{::}Undefined" status="Approved">Undefined</key>
+   <key locale="en_US" id="LOVValue{::}VF5_symmetry_lov{::}Unsymmetrical" status="Approved">Unsymmetrical</key>
+   <key locale="en_US" id="LOVValue{::}VF5_true_false{::}False" status="Approved">False</key>
+   <key locale="en_US" id="LOVValue{::}VF5_true_false{::}True" status="Approved">True</key>
+   <key locale="en_US" id="LOVValue{::}VF5_type_of_design_lov{::}Cast Part" status="Approved">Cast Part</key>
+   <key locale="en_US" id="LOVValue{::}VF5_type_of_design_lov{::}Metal Part" status="Approved">Metal Part</key>
+   <key locale="en_US" id="LOVValue{::}VF5_type_of_design_lov{::}Plastic Part" status="Approved">Plastic Part</key>
+   <key locale="en_US" id="LOVValue{::}VF5_type_of_design_lov{::}Profil Part" status="Approved">Profil Part</key>
+   <key locale="en_US" id="LOVValue{::}VF5_type_of_design_lov{::}Sheet Metal Part"
+       status="Approved">Sheet Metal Part</key>
+   <key locale="en_US" id="LOVValue{::}VF5_type_of_design_lov{::}Steel Part" status="Approved">Steel Part</key>
+   <key locale="en_US" id="LOVValue{::}VF5_vehicle_lov{::}BEV" status="Approved">BEV</key>
+   <key locale="en_US" id="LOVValue{::}VF5_vehicle_lov{::}PLATFORM" status="Approved">PLATFORM</key>
+   <key locale="en_US" id="LOVValue{::}VF5_vehicle_lov{::}SEDAN" status="Approved">SEDAN</key>
+   <key locale="en_US" id="LOVValue{::}VF5_vehicle_lov{::}SUV" status="Approved">SUV</key>
+   <key locale="en_US" id="Note{::}VF5_after_sale_page" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_after_sales_pict" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_bom_comment" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_change_index" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_eco_rel_plan" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_impl_with" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_main_module" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_manuf_strategy" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_maturity_lvl_bom" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_module_group" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_module_name" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_mounting_comment" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_part_class" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_pos_id" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_purchase_lvl_vf" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_purchase_lvl_vg" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_supp_pkg" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_torque_inf" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_usage_bl" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Note{::}VF5_vehicle_type" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_after_sale_page" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_after_sales_pict" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_bom_comment" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_change_index" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_eco_rel_plan" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_impl_with" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_main_module" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_manuf_strategy" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_maturity_lvl_bom" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_module_group" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_module_name" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_mounting_comment" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_part_class" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_pos_id" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_purchase_lvl_vf" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_purchase_lvl_vg" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_supp_pkg" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_torque_inf" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_usage_bl" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}VF5_vehicle_type" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}bl_item_vf5_vehicle_group" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}bl_rev_vf5_erm" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}bl_rev_vf5_net_weight" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}bl_rev_vf5_viet_description" status="Approved">Vietnamese Description (OP)</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_after_sale_relevant_bl" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_aftersale_comment" status="Approved">Aftersales Comment</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_certification_relev_bl" status="Approved">Certification Relevant</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_colored_part_bl" status="Approved">Colored Part</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_eco_invalid_date" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_eco_invalid_num" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_eco_number" status="Approved">ECR Number</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_eco_release_date" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_ee_relv_bl" status="Approved">EE Relevant</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_erm_bl" status="Approved">ERM</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_initial_usage" status="Approved">Initial Usage</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_make_buy" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_material_bl" status="Approved">Material</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_material_group_bl" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_maturity_level_bl" status="Approved">Maturity Level</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_mod_pos_key" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_mounting_comm_bl" status="Approved">Mounting Comments</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_part_name_english" status="Approved">Part Name English</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_part_name_german_bl" status="Approved">Part Name German</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_part_owner_bl" status="Approved">Part Owner</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_purchasing_name" status="Approved">Purchasing Name</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_ref_num_bl" status="Approved">Reference Number</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_ref_version_bl" status="Approved">Reference Version</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_replacement_by_bl" status="Approved">Replacement By</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_replacement_code" status="Approved">Replacement Code</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_replacement_for" status="Approved">Replacement For</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_safety_relv_bl" status="Approved">Safety Relevant</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_see_draw_bl" status="Approved">See Drawing</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_serviceability_bl" status="Approved">Serviceable</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_spare_part_bl" status="Approved">Spare Part</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_specbook_num_bl" status="Approved">SpecBook Number</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_std_part_bl" status="Approved">Standard Part</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_styling_relv_bl" status="Approved">Styling Relevant</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_supplier_date_bl" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_supplier_name_bl" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_supplier_package_bl" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_supplier_type_bl" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_supplierboard_bl" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_sw_flashable" status="Approved">SW_Flashable</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_viet_name_bl" status="Approved">Part Name Vietnamese</key>
+   <key locale="en_US" id="Property{::}BOMLine{::}vf5_weight_bl" status="Approved">WEIGHT [g]/Part</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_3dmaster" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_EDAG_startpart_mo_ver"
+       status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_Type_of_design" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_after_sale_relevant" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_aftersales_comment" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_approval_class" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_approval_code" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_certification_relevant"
+       status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_colored_part" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_comment" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_coordination_code" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_ecn" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_eco_num" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_eco_release_date" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_ee_relevant" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_erm" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_func_class" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_gross_weight" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_initial_usage" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_kitting_code" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_line_supply_method" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_make_buy" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_material_thickness" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_material_type" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_material" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_maturity_level" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_model_year" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_mounting_comments_p" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_net_weight" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_part_name_english" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_part_name_german" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_part_owner" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_plant_code" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_ppap" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_purchasing_name" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_ref_num" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_ref_version" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_replacement_by" status="Approved">Predecessor</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_replacement_code" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_replacement_for" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_revdummy1" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_safety_relevant" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_sap_plant" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_see_drawing" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_serviceability" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_spare_part" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_specbook_num" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_standard_part" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_styling_relevant" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_supplier_board" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_supplier_date_d" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_supplier_name" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_supplier_packages" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_supplier_type" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_sw_flashable" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_symmetry" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_viet_description" status="Approved">Vietnamese Description (OP)</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_vietnamese_name" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_weight_c" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}ItemRevision{::}vf5_weight" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}Item{::}vf5_Right_hand_Partnumber" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}Item{::}vf5_category" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}Item{::}vf5_color_code" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}Item{::}vf5_mat_group" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}Item{::}vf5_vehicle_group" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_after_sale_page" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_after_sales_pict" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_bom_comment" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_change_index" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_eco_rel_plan" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_impl_with" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_main_module" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_manuf_strategy" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_maturity_lvl_bom" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_module_group" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_module_name" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_mounting_comment" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_part_class" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_pos_id" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_purchase_lvl_vf" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_purchase_lvl_vg" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_supp_pkg" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_torque_inf" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_usage_bl" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}MEViewLine{::}VF5_vehicle_type" status="Approved">Deprecated</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_formStorage{::}vf5_ec_number"
+       status="Approved">EC Number</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_formStorage{::}vf5_ed_context_change_info"
+       status="Approved">Context Change Info</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_formStorage{::}vf5_ed_pos_id"
+       status="Approved">POS ID</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_formStorage{::}vf5_ed_string_property1"
+       status="Approved">String Property 1</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_formStorage{::}vf5_ed_string_property2"
+       status="Approved">String Property 2</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_formStorage{::}vf5_ed_string_property3"
+       status="Approved">String Property 3</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_formStorage{::}vf5_ed_string_property4"
+       status="Approved">String Property 4</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_formStorage{::}vf5_ed_string_property5"
+       status="Approved">String Property 5</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_formStorage{::}vf5_ed_type_of_change"
+       status="Approved">Change Type</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_formStorage{::}vf5_parent_part"
+       status="Approved">Parent Part</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_form{::}vf5_ec_number" status="Approved">EC Number</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_form{::}vf5_ed_context_change_info"
+       status="Approved">Context Change Info</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_form{::}vf5_ed_pos_id" status="Approved">POS ID</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_form{::}vf5_ed_string_property1"
+       status="Approved">String Property 1</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_form{::}vf5_ed_string_property2"
+       status="Approved">String Property 2</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_form{::}vf5_ed_string_property3"
+       status="Approved">String Property 3</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_form{::}vf5_ed_string_property4"
+       status="Approved">String Property 4</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_form{::}vf5_ed_string_property5"
+       status="Approved">String Property 5</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_form{::}vf5_ed_type_of_change"
+       status="Approved">Change Type</key>
+   <key locale="en_US" id="Property{::}VF5_bom_change_form{::}vf5_parent_part" status="Approved">Parent Part</key>
+   <key locale="en_US" id="Property{::}VF5_change_itemRevision{::}vf5_eco_number"
+       status="Approved">ECO Number</key>
+   <key locale="en_US" id="Property{::}VF5_change_itemRevision{::}vf5_owner" status="Approved">Owner</key>
+   <key locale="en_US" id="Property{::}VF5_plant_formStorage{::}vf5_ED_approval_code"
+       status="Approved">Approval Code</key>
+   <key locale="en_US" id="Property{::}VF5_plant_formStorage{::}vf5_ED_make_buy" status="Approved">Make/Buy</key>
+   <key locale="en_US" id="Property{::}VF5_plant_formStorage{::}vf5_ED_plant" status="Approved">Plant</key>
+   <key locale="en_US" id="Property{::}VF5_plant_formStorage{::}vf5_ED_ppap" status="Approved">PPAP</key>
+   <key locale="en_US" id="Property{::}VF5_plant_formStorage{::}vf5_ED_purchase_indicator"
+       status="Approved">Purchase Indicator</key>
+   <key locale="en_US" id="Property{::}VF5_plant_form{::}vf5_ED_approval_code" status="Approved">Approval Code</key>
+   <key locale="en_US" id="Property{::}VF5_plant_form{::}vf5_ED_make_buy" status="Approved">Make/Buy</key>
+   <key locale="en_US" id="Property{::}VF5_plant_form{::}vf5_ED_plant" status="Approved">Plant</key>
+   <key locale="en_US" id="Property{::}VF5_plant_form{::}vf5_ED_ppap" status="Approved">PPAP</key>
+   <key locale="en_US" id="Property{::}VF5_plant_form{::}vf5_ED_purchase_indicator"
+       status="Approved">Purchase Indicator</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_BASE_Imp2" status="Approved">BASE Imp2</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_BASE_Imp3" status="Approved">BASE Imp3</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_BASE_Imp4" status="Approved">BASE Imp4</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_BASE_Imp" status="Approved">BASE Imp</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_C_1" status="Approved">C 1</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_Class_A_WiP" status="Approved">Class A Wi P</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_Class_A" status="Approved">Class A</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_Class_B_WiP" status="Approved">Class B Wi P</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_Class_B" status="Approved">Class B</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_Class_C_WiP" status="Approved">Class C Wi P</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_Class_C" status="Approved">Class C</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_E" status="Approved">E</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_Invalid" status="Approved">Invalid</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_PR_STRUCT" status="Approved">PR STRUCT</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_PR" status="Approved">PR</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_P_STRUCT" status="Approved">P STRUCT</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_PreP" status="Approved">Pre P</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_P" status="Approved">P</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_RC" status="Approved">RC</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_Released" status="Approved">Released</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_VPT-PV" status="Approved">VPT-PV</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_VPT-TA" status="Approved">VPT-TA</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_VPT0" status="Approved">VPT-0</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_VPT1" status="Approved">VPT-1</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_VPT2" status="Approved">VPT-2</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_VPT3" status="Approved">VPT-3</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_VPT4" status="Approved">VPT-4</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_VPT5" status="Approved">VPT-5</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_VPT6" status="Approved">VPT-6</key>
+   <key locale="en_US" id="ReleaseStatus{::}VF5_X" status="Approved">X</key>
+</Add>
+</TcBusinessDataLocalization>

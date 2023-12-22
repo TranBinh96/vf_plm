@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Jun 17 10:31:14 PM 2019">
+  <Add/>
+  <Change>
+    <TcLOV name="VF9_veh_L2COM_lov" lovType="ListOfValuesString" usage="Exhaustive"
+        description="Vechicle complete" isManagedExternally="true">
+      <TcLOVValue value="VEHICLE COMPLETE DOCUMENTATION" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TOOL KIT" description="" conditionName="isTrue"/>
+	  <TcLOVValue value="MANUALS" description="" conditionName="isTrue"/>
+	  <TcLOVValue value="FLUIDS" description="" conditionName="isTrue"/>
+
+    </TcLOV>
+  </Change>
+</TcBusinessData>
+

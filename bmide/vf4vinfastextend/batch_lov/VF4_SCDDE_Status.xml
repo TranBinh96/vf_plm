@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" batchXSDVersion="1.0"
+    Date="Mon Oct 17 11:20:00 AM 2022">
+  <Add/>
+  <Change>
+    <TcLOV name="VF4_SCDDE_Status" lovType="ListOfValuesString" usage="Suggestive"
+        description="" isManagedExternally="true">
+      <TcLOVValue value="REQUEST" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PROCESSING" description="" conditionName="isTrue"/>
+      <TcLOVValue value="PACKAGING" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SENDING" description="" conditionName="isTrue"/>
+      <TcLOVValue value="COMPLETED" description="" conditionName="isTrue"/>
+      <TcLOVValue value="SYSTEM_RETRY" description="" conditionName="isTrue"/>
+      <TcLOVValue value="TERMINATED" description="" conditionName="isTrue"/>
+      <TcLOVValue value="REQUEST_EXPORT_CAD" description="" conditionName="isTrue"/>
+    </TcLOV>
+  </Change>
+</TcBusinessData>

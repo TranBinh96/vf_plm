@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>vf4vinfastextend</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.teamcenter.bmide.server.ui.TcBusinessDataProjectNature</nature>
+		<nature>com.teamcenter.bmide.server.ui.FileRepositoryProjectNature</nature>
+		<nature>com.teamcenter.bmide.server.ui.ExternalProjectNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Generated Source (VF4SoaAdminUtils)</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/output/generated/VF4SoaAdminUtils</locationURI>
+		</link>
+		<link>
+			<name>Generated Source (VF4SoaCM)</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/output/generated/VF4SoaCM</locationURI>
+		</link>
+		<link>
+			<name>Generated Source (VF4SoaCustom)</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/output/generated/VF4SoaCustom</locationURI>
+		</link>
+		<link>
+			<name>Generated Source (VF4_VinFastExtend)</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/output/generated/VF4_VinFastExtend</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
