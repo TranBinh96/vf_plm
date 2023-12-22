@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="VinFast - Welding Tool" Language="1033" Version="1.0.0.0"
+			 Manufacturer="VinFast IT PLM" UpgradeCode="b08f6a48-625d-4910-9f39-175f92927249">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes"/>
+
+		<Feature Id="ProductFeature" Title="VinFast_Welding_Tool_Setup" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+
+		<UI>
+			<UIRef Id="WixUI_Minimal" />
+			<Publish Dialog="ExitDialog" Control="Finish" Event="DoAction" Value="LaunchApplication">
+				WIXUI_EXITDIALOGOPTIONALCHECKBOX = 1 and NOT Installed
+			</Publish>
+		</UI>
+		<Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOXTEXT" Value="Launch VinFast - Welding Tool" />
+		<Property Id="WixShellExecTarget" Value="[INSTALLFOLDER]Welding Tool.exe" />
+		<CustomAction Id="LaunchApplication" BinaryKey="WixCA" DllEntry="WixShellExec" Impersonate="yes" />
+
+		<!--To set icon in Add/Remove programs Control panel-->
+		<Icon Id="Icon" SourceFile="C:\Users\thienbq2\Source\Repos\VF PLM OPS\CATIA\Macro\Source code\Resources\Welding.ico"/>
+		<Property Id="ARPPRODUCTICON" Value="Icon" />
+
+		<!--Set user aggreement-->
+		<WixVariable Id="WixUILicenseRtf" Value="C:\Users\thienbq2\Source\Repos\VF PLM OPS\CATIA\Macro\Source code\Resources\LicenseAgreement.rtf" />
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			
+			<Directory Id="ProgramMenuFolder">
+				<Directory Id="ApplicationProgramsFolder" Name="VinFast - Welding Tool"/>
+			</Directory>
+			
+			<Directory Id="DesktopFolder" Name="Desktop">
+				<Component Id="ApplicationShortcutDesktop" Guid="9ab3687d-24d4-43a5-8171-15ac584c65fe">
+					<Shortcut Id="ApplicationDesktopShortcut"
+						Name="VinFast - Welding Tool"
+						Description="VinFast - Welding Tool desktop shortcut"
+						Target="[INSTALLFOLDER]Welding Tool.exe"
+						WorkingDirectory="INSTALLFOLDER"/>
+					<RemoveFolder Id="DesktopFolder" On="uninstall"/>
+					<RegistryValue Root="HKCU" Key="Software\VinFast\WeldingTool"
+								Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+				</Component>
+			</Directory>
+			
+			<Directory Id="ProgramFilesFolder">
+                <Directory Id="VinFast" Name="VinFast">
+					<Directory Id="INSTALLFOLDER" Name="VinFast - Welding Tool" >
+						<Directory Id="DllsFolder" Name="CATIA Libraries" />
+						<Directory Id="ResourceFolder" Name="Resources" />
+					</Directory>
+                </Directory>
+			</Directory>
+            
+		</Directory>
+
+        <!-- Step 2: Add the shortcut to your installer package -->
+        <DirectoryRef Id="ApplicationProgramsFolder">
+            <Component Id="ApplicationShortcut" Guid="e6ce4110-62a2-4da0-b026-25109d210942">
+                <Shortcut Id="ApplicationStartMenuShortcut"
+                            Name="VinFast - Welding Tool"
+                            Description="VinFast - Welding Tool startmenu shortcut"
+                            Target="[INSTALLFOLDER]Welding Tool.exe"
+                            WorkingDirectory="INSTALLFOLDER"/>
+                <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
+                <RegistryValue Root="HKCU" Key="Software\VinFast\WeldingTool"
+                               Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+            </Component>
+        </DirectoryRef>
+        
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<Component>
+				<File Id="myExcutable" Source="$(var.Welding Tool.TargetDir)Welding Tool.exe"/>
+			</Component>
+		</ComponentGroup>
+
+		<ComponentGroup Id="ResourceFile" Directory="ResourceFolder"
+						Source="C:\Users\thienbq2\Source\Repos\VF PLM OPS\CATIA\Macro\Source code\bin\Release\Resources">
+			<Component Id="ReportTemplate">
+				<File Name="TemplateReportFile.xlsx"/>
+			</Component>
+            <Component Id="ConfigParameters">
+                <File Name="ConfigParameters.ini"/>
+            </Component>
+		</ComponentGroup>
+
+		<ComponentGroup Id="Configs" Directory="INSTALLFOLDER"
+						Source="C:\Users\thienbq2\Source\Repos\VF PLM OPS\CATIA\Macro\Source code\bin\Release">
+			<Component Id="log4net.config">
+				<File Name="log4net.config" />
+			</Component>
+			<Component Id="Welding_Tool.exe.config">
+				<File Name="Welding Tool.exe.config" />
+			</Component>
+		</ComponentGroup>
+		
+		<ComponentGroup Id="DocumentationComponents" Directory="DllsFolder"
+						Source="C:\Users\thienbq2\Source\Repos\VF PLM OPS\CATIA\Macro\Source code\bin\Release">
+            <Component Id="INIFileParser">
+                <File Name="INIFileParser.dll" />
+            </Component>
+			<Component Id="log4net">
+				<File Name="log4net.dll" />
+			</Component>
+			<Component Id="Interop.AnnotationTypeLib">
+				<File Name="Interop.AnnotationTypeLib.dll" />
+			</Component>
+			<Component Id="Interop.CATIA_APP_ITF">
+				<File Name="Interop.CATIA_APP_ITF.dll" />
+			</Component>
+			<Component Id="Interop.CATMat">
+				<File Name="Interop.CATMat.dll" />
+			</Component>
+			<Component Id="Interop.CATRma">
+				<File Name="Interop.CATRma.dll" />
+			</Component>
+			<Component Id="Interop.CATRsc2">
+				<File Name="Interop.CATRsc2.dll" />
+			</Component>
+			<Component Id="Interop.ComponentsCatalogsTypeLib">
+				<File Name="Interop.ComponentsCatalogsTypeLib.dll" />
+			</Component>
+			<Component Id="Interop.CATStiWIPBridgeSurrogateCOMExeLib">
+				<File Name="Interop.CATStiWIPBridgeSurrogateCOMExeLib.dll" />
+			</Component>
+			<Component Id="Interop.CATStrSettingsTypeLib">
+				<File Name="Interop.CATStrSettingsTypeLib.dll" />
+			</Component>
+			<Component Id="Interop.CD5Integ">
+				<File Name="Interop.CD5Integ.dll" />
+			</Component>
+			<Component Id="Interop.DRAFTINGITF">
+				<File Name="Interop.DRAFTINGITF.dll" />
+			</Component>
+			<Component Id="Interop.GenKwe">
+				<File Name="Interop.GenKwe.dll" />
+			</Component>
+			<Component Id="Interop.HybridShapeTypeLib">
+				<File Name="Interop.HybridShapeTypeLib.dll" />
+			</Component>
+			<Component Id="Interop.INFITF">
+				<File Name="Interop.INFITF.dll" />
+			</Component>
+			<Component Id="Interop.KnowledgewareTypeLib">
+				<File Name="Interop.KnowledgewareTypeLib.dll" />
+			</Component>
+			<Component Id="Interop.LAYOUT2DITF">
+				<File Name="Interop.LAYOUT2DITF.dll" />
+			</Component>
+			<Component Id="Interop.MANUFACTURING">
+				<File Name="Interop.MANUFACTURING.dll" />
+			</Component>
+			<Component Id="Interop.MECMOD">
+				<File Name="Interop.MECMOD.dll" />
+			</Component>
+			<Component Id="Interop.NavigatorTypeLib">
+				<File Name="Interop.NavigatorTypeLib.dll" />
+			</Component>
+			<Component Id="Interop.PARTITF">
+				<File Name="Interop.PARTITF.dll" />
+			</Component>
+			<Component Id="Interop.PROCESSITF">
+				<File Name="Interop.PROCESSITF.dll" />
+			</Component>
+			<Component Id="Interop.ProductStructureTypeLib">
+				<File Name="Interop.ProductStructureTypeLib.dll" />
+			</Component>
+			<Component Id="Interop.SIM">
+				<File Name="Interop.SIM.dll" />
+			</Component>
+			<Component Id="Interop.SimulationTypeLib">
+				<File Name="Interop.SimulationTypeLib.dll" />
+			</Component>
+			<Component Id="Interop.SMTypeLib">
+				<File Name="Interop.SMTypeLib.dll" />
+			</Component>
+			<Component Id="Interop.SPATypeLib">
+				<File Name="Interop.SPATypeLib.dll" />
+			</Component>
+			<Component Id="Interop.StrTypeLib">
+				<File Name="Interop.StrTypeLib.dll" />
+			</Component>
+			<Component Id="Interop.SURFACEMACHINING">
+				<File Name="Interop.SURFACEMACHINING.dll" />
+			</Component>
+			<Component Id="Interop.V6Integ">
+				<File Name="Interop.V6Integ.dll" />
+			</Component>
+			<Component Id="Microsoft.Expression.Interactions">
+				<File Name="Microsoft.Expression.Interactions.dll" />
+			</Component>
+			<Component Id="Microsoft.Xaml.Behaviors">
+				<File Name="Microsoft.Xaml.Behaviors.dll" />
+			</Component>
+			<Component Id="System.Windows.Interactivity">
+				<File Name="System.Windows.Interactivity.dll" />
+			</Component>
+		</ComponentGroup>
+		
+		<Feature Id="MainApplication" Title="Main Application" Level="1">
+			<ComponentRef Id="myExcutable" />
+            
+			<ComponentRef Id="log4net" />
+			<ComponentRef Id="log4net.config" />
+			<ComponentRef Id="Welding_Tool.exe.config" />
+
+            <ComponentRef Id="INIFileParser"/>
+            
+			<ComponentRef Id="Interop.SIM" />
+			<ComponentRef Id="Interop.SimulationTypeLib" />
+			<ComponentRef Id="Interop.SMTypeLib" />
+			<ComponentRef Id="Interop.SPATypeLib" />
+			<ComponentRef Id="Interop.StrTypeLib" />
+			<ComponentRef Id="Interop.SURFACEMACHINING" />
+			<ComponentRef Id="Interop.V6Integ" />
+			<ComponentRef Id="Microsoft.Expression.Interactions" />
+			<ComponentRef Id="Microsoft.Xaml.Behaviors" />
+			<ComponentRef Id="System.Windows.Interactivity" />
+			<ComponentRef Id="Interop.GenKwe" />
+			<ComponentRef Id="Interop.HybridShapeTypeLib" />
+			<ComponentRef Id="Interop.INFITF" />
+			<ComponentRef Id="Interop.KnowledgewareTypeLib" />
+			<ComponentRef Id="Interop.LAYOUT2DITF" />
+			<ComponentRef Id="Interop.MANUFACTURING" />
+			<ComponentRef Id="Interop.MECMOD" />
+			<ComponentRef Id="Interop.NavigatorTypeLib" />
+			<ComponentRef Id="Interop.PARTITF" />
+			<ComponentRef Id="Interop.PROCESSITF" />
+			<ComponentRef Id="Interop.ProductStructureTypeLib" />
+			<ComponentRef Id="Interop.DRAFTINGITF" />
+			<ComponentRef Id="Interop.CATStiWIPBridgeSurrogateCOMExeLib" />
+			<ComponentRef Id="Interop.CATStrSettingsTypeLib" />
+			<ComponentRef Id="Interop.CD5Integ" />
+			<ComponentRef Id="Interop.ComponentsCatalogsTypeLib" />
+			<ComponentRef Id="Interop.CATRsc2" />
+			<ComponentRef Id="Interop.CATMat" />
+			<ComponentRef Id="Interop.CATRma" />
+			<ComponentRef Id="Interop.AnnotationTypeLib" />
+			<ComponentRef Id="Interop.CATIA_APP_ITF" />
+			
+			<ComponentRef Id="ApplicationShortcut" />
+			<ComponentRef Id="ApplicationShortcutDesktop" />
+            
+			<ComponentRef Id="ReportTemplate" />
+			<ComponentRef Id="ConfigParameters" />
+		</Feature>
+	</Fragment>
+</Wix>

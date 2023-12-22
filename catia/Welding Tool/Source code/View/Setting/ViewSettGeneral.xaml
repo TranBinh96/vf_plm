@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="Welding_Tool.View.Setting.ViewSettGeneral"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Welding_Tool.View.Setting"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="380">
+    <DockPanel LastChildFill="False">
+        <DockPanel DockPanel.Dock="Top" Margin="3">
+            <CheckBox Content="Remove temporary construction data." Margin="4, 3, 0, 3"
+                      IsChecked="{Binding IsClearTemp}"/>
+        </DockPanel>
+        <DockPanel DockPanel.Dock="Top" Margin="3">
+            <CheckBox Content="Arrange created Welding features by&#x0a;categories." Margin="4, 3, 0, 3"
+                      IsChecked="{Binding IsRearrange}"/>
+        </DockPanel>
+        <DockPanel DockPanel.Dock="Top" Margin="3">
+            <CheckBox Content="Mark points which successfully created&#x0a;Welding feature." Margin="4, 3, 0, 3"
+                      IsChecked="{Binding IsMarkPointDone}"/>
+        </DockPanel>
+        <DockPanel DockPanel.Dock="Top" Margin="3">
+            <CheckBox Content="Automatically create report file after&#x0a;created Welding feature." Margin="4, 3, 0, 3"
+                      IsChecked="{Binding IsAutoCreReport}"/>
+        </DockPanel>
+    </DockPanel>
+</UserControl>

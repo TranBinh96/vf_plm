@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="Welding_Tool.View.ViewSpotWeld"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Welding_Tool.View"
+             xmlns:ui="clr-namespace:Welding_Tool.View.SpotWeld"
+             xmlns:vm="clr-namespace:Welding_Tool.ViewModel.SpotWeld"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="400">
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type vm:VMSpotWeldOnSurface}">
+            <ui:ViewSpotWeldOnSurface/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:VMSpotWeldByPoints}">
+            <ui:ViewSpotWeldByPoints/>
+        </DataTemplate>
+    </UserControl.Resources>
+    <DockPanel>
+        <DockPanel LastChildFill="False" DockPanel.Dock="Top"
+                    Margin="7, 4, 7, 3">
+            <Label Content="Select the Support Surface:"/>
+            <Button Width="{StaticResource SelBtnWidth}"
+                        Margin="0, 0, 6, 0"
+                        Command="{Binding CmdSelSur}"
+                        Content="{Binding BtnSelSurContent}"
+                        x:Name="BtnSelSurface" DockPanel.Dock="Right"
+                    ToolTip="{StaticResource TtBtnSelSur}">
+                <Button.Style>
+                    <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding JFData.IsSurfaceSelected}" Value="True">
+                                <Setter Property="Background" Value="{StaticResource BtnSelOK}"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding IsSelectingSur}" Value="True">
+                                <Setter Property="Background" Value="Blue"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </DockPanel>
+
+        <DockPanel DockPanel.Dock="Top" LastChildFill="False" Margin="7, 4, 7, 9">
+            <Label Content=""/>
+            <ComboBox DockPanel.Dock="Right" ItemsSource="{Binding ListSpotWeldMode}"
+                      SelectedItem="{Binding SelectedSpotWeld}"
+                      Margin="0, 0, 6, 0"
+                      Text="-- Select mode --"
+                      Width="168" x:Name="CbxWeldMode"
+                      ToolTip="{StaticResource TtCbxSpotWeldMode}">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </DockPanel>
+
+        <ContentControl DockPanel.Dock="Top" Content="{Binding SelectedSpotWeld}" Focusable="False"/>
+
+        <!--DataContext="{Binding Path=DataContext, RelativeSource={RelativeSource AncestorType=Window}}"-->
+        <!--<TabControl DockPanel.Dock="Top" Margin="0, 5, 0, 0" Background="White"
+                    SelectedIndex="{Binding SelectedTab, Mode=TwoWay}">
+            <TabItem Header="Spot Weld by Points">
+                <local:UCSpotWeldByPoints/>
+            </TabItem>
+            <TabItem Header="Spot Weld on Surface">
+                <local:UCSpotWeldOnSurface/>
+            </TabItem>
+        </TabControl>-->
+    </DockPanel>
+</UserControl>

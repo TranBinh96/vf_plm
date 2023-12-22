@@ -1,0 +1,220 @@
+﻿<UserControl x:Class="Welding_Tool.View.SpotWeld.ViewSpotWeldOnSurface"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Welding_Tool.View.SpotWeld"
+             xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" Background="{StaticResource BackgrUILight2}"
+             BorderThickness="0, 1, 0, 1" BorderBrush="Transparent"
+             d:DesignHeight="380" d:DesignWidth="600">
+    <UserControl.Resources>
+        <sys:Int16 x:Key="IntZero">0</sys:Int16>
+    </UserControl.Resources>
+    <DockPanel Margin="5, 8, 5, 0">
+        <DockPanel DockPanel.Dock="Top" LastChildFill="False" Margin="2">
+            <Label Content="Select an Edge to Offset:"/>
+            <Button Width="{StaticResource SelBtnWidth}"
+                    Name="BtnSelEdge" Command="{Binding CmdSelEdge}"
+                    DockPanel.Dock="Right" Margin="{StaticResource SelBtnMargin}"
+                    Content="{Binding BtnSelEdgeContent}"
+                    ToolTip="{StaticResource TtBtnSelEdge}">
+                <Button.Style>
+                    <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding JFData.IsEdgeSelected}" Value="True">
+                                <Setter Property="Background" Value="{StaticResource BtnSelOK}"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding IsSelectingEdge}" Value="True">
+                                <Setter Property="Background" Value="Blue"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </DockPanel>
+
+
+        <DockPanel LastChildFill="False" DockPanel.Dock="Top"
+                   Margin="0, 3, 0, 0" Height="26">
+            <CheckBox DockPanel.Dock="Left" Margin="6, 0, 0, 10" FontSize="11.5"
+                          Content="Multiple selection" IsChecked="{Binding IsMultiSelEdge}"
+                          ToolTip="{StaticResource TtChbxMulSel}" Foreground="#16456a"/>
+
+            <Grid DockPanel.Dock="Right" Width="10"/>
+            <DockPanel DockPanel.Dock="Right" IsEnabled="{Binding ElementName=BtnSelEdge, Path=IsEnabled}">
+                <DockPanel.Resources>
+                    <Style TargetType="Label">
+                        <Setter Property="Foreground" Value="Gray"/>
+                        <Setter Property="FontStyle" Value="Italic"/>
+                        <Setter Property="FontSize" Value="11.5"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Foreground" Value="{StaticResource ForegrDisab}"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </DockPanel.Resources>
+                <Label Content="mm)" DockPanel.Dock="Right"/>
+                <Label Content="{Binding SelEdgeLen, Mode=OneWay}"
+                                        ContentStringFormat="F2"
+                                        DockPanel.Dock="Right" Margin="-8, 0"
+                                        ToolTip="{StaticResource TtLblEdgeLen}"/>
+                <Label Content="(Length =" DockPanel.Dock="Right"/>
+            </DockPanel>
+        </DockPanel>
+
+        <Line X1="15" X2="399" Y1="0.5" Y2="0.5" Stroke="Black" Opacity="0.15"
+              Height="2" Margin="0, 7"
+              StrokeThickness="1" DockPanel.Dock="Top" SnapsToDevicePixels="True"/>
+
+        <DockPanel DockPanel.Dock="Top" LastChildFill="False"
+                   Margin="2, 5, 2, 6" Name="DPnOffset">
+            <Label Content="Offset from the Edge:"/>
+            <!--IsEnabled="{Binding ElementName=BtnCreateWeldLine, Path=IsEnabled}"-->
+            <TextBox Width="50" x:Name="TbxOffset"
+                     Text="{Binding Offset, UpdateSourceTrigger=PropertyChanged}"
+                     ToolTip="{StaticResource TtTbxOffset}">
+                <TextBox.Style>
+                    <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding JFData.Offset}" Value="{x:Null}">
+                                <Setter Property="Background" Value="LightPink"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
+            <Label Content="(mm)" Style="{StaticResource StyleAnnotateLbl}"/>
+            <Button Width="140" Content="Preview Welding Line" x:Name="BtnCreateWeldLine"
+                    Margin="{StaticResource SelBtnMargin}"
+                    DockPanel.Dock="Right"
+                    Command="{Binding CmdPreviewOffset}"
+                    ToolTip="{StaticResource TtBtnPreviewWeldLine}"/>
+        </DockPanel>
+
+        <Line X1="15" X2="399" Y1="0.5" Y2="0.5" Stroke="Black" Opacity="0.15"
+              Height="2" Margin="0, 7"
+              StrokeThickness="1" DockPanel.Dock="Top" SnapsToDevicePixels="True"/>
+
+        <DockPanel DockPanel.Dock="Top">
+            <StackPanel Margin="5, 5, 0, 0" DockPanel.Dock="Top">
+                <CheckBox Content="Option 1" FontWeight="Bold" x:Name="ChbxOpt1"
+                          HorizontalAlignment="Left"
+                          IsChecked="{Binding IsOption1}" ToolTip="{StaticResource TtChbxOpt1}"/>
+                <StackPanel Margin="5, 6, 0, 0" Orientation="Horizontal"
+                            IsEnabled="{Binding ElementName=ChbxOpt1, Path=IsChecked}">
+                    <Label Content="Number of Weld points to create:" Width="220"/>
+                    <TextBox Width="50" x:Name="TbxPointCount"
+                                Text="{Binding PointCount, UpdateSourceTrigger=PropertyChanged}"
+                                ToolTip="{StaticResource TtTbxPtCnt}">
+                        <TextBox.Style>
+                            <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding JFData.PointsCount}" Value="{x:Null}">
+                                        <Setter Property="Background" Value="LightPink"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBox.Style>
+                    </TextBox>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Margin="5, 12, 2, 0" DockPanel.Dock="Top">
+                <CheckBox Content="Option 2" FontWeight="Bold" x:Name="ChbxOpt2"
+                          HorizontalAlignment="Left"
+                          IsChecked="{Binding IsOption2}" ToolTip="{StaticResource TtChbxOpt2}"/>
+                <StackPanel IsEnabled="{Binding ElementName=ChbxOpt2, Path=IsChecked}">
+                    <DockPanel LastChildFill="False" Margin="5, 5, 0, 0">
+                        <Label Content="Select a Start Reference:"/>
+                        <Button Width="{StaticResource SelBtnWidth}" DockPanel.Dock="Right"
+                                Content="{Binding BtnSelRefStartContent}"
+                                Command="{Binding CmdSelRefSt}" x:Name="BtnSelStartObj"
+                                Margin="{StaticResource SelBtnMargin}"
+                                ToolTip="{StaticResource TtBtnSelStRef}">
+                            <Button.Style>
+                                <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding JFData.IsRefStartObjSelected}" Value="True">
+                                            <Setter Property="Background" Value="{StaticResource BtnSelOK}"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding IsSelectingRefStart}" Value="True">
+                                            <Setter Property="Background" Value="Blue"/>
+                                            <Setter Property="Foreground" Value="White"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </DockPanel>
+
+                    <StackPanel Margin="5, 6, 0, 0" Orientation="Horizontal">
+                        <Label Content="Distance from 1st Point to the Start:" Width="220"/>
+                        <TextBox Width="50" x:Name="TbxDistance"
+                                 Text="{Binding Distance, UpdateSourceTrigger=PropertyChanged}"
+                                 ToolTip="{StaticResource TtTbxDisFr1st}">
+                            <TextBox.Style>
+                                <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding JFData.DistFromSt}" Value="{x:Null}">
+                                            <Setter Property="Background" Value="LightPink"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                        </TextBox>
+                        <Label Content="(mm)" Style="{StaticResource StyleAnnotateLbl}"/>
+                    </StackPanel>
+                    <StackPanel Margin="5, 5, 0, 0" Orientation="Horizontal">
+                        <Label Content="Spacing between weld points:" Width="220"/>
+                        <TextBox Width="50" x:Name="TbxSpacing"
+                                 Text="{Binding Spacing, UpdateSourceTrigger=PropertyChanged}"
+                                 ToolTip="{StaticResource TtTbxSpace}">
+                            <TextBox.Style>
+                                <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding JFData.Spacing}" Value="{x:Null}">
+                                            <Setter Property="Background" Value="LightPink"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBox.Style>
+                        </TextBox>
+                        <Label Content="(mm)"  Style="{StaticResource StyleAnnotateLbl}"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel DockPanel.Dock="Top">
+                <CheckBox Content="Preserve the created Weld Points" Margin="5, 10, 5, 0"
+                          HorizontalAlignment="Left"
+                          IsChecked="{Binding IsMultiPointCre}" ToolTip="{StaticResource TtChbxPreserve}"/>
+                <Grid>
+                    <StackPanel HorizontalAlignment="Right" Orientation="Horizontal"
+                                VerticalAlignment="Center" FlowDirection="LeftToRight"
+                                Margin="0, 3, 3, 0"
+                                IsEnabled="{Binding ElementName=BtnCreateWeldPoints, Path=IsEnabled}">
+                        <StackPanel.Resources>
+                            <Style TargetType="Label" BasedOn="{StaticResource StyleAnnotateLbl}">
+                                <Setter Property="FontStyle" Value="Italic"/>
+                                <Setter Property="FontSize" Value="11.5"/>
+                            </Style>
+                        </StackPanel.Resources>
+                        <Label Content="(" Margin="0, 0, 0, 0"/>
+                        <Label Content="{Binding JFData.LstPointOnLineCount}" Margin="-10, 0, -8, 0"
+                               ToolTip="{StaticResource TtLblPtCnt}"/>
+                        <Label Content="points created)"/>
+                    </StackPanel>
+                    <Button Width="180" Content="Create Welding Points"
+                            Command="{Binding CmdCreWeldPoints}"
+                            Margin="0, 10, 0, 0" x:Name="BtnCreateWeldPoints"
+                            ToolTip="{StaticResource TtBtnCreWeldPt}"/>
+                </Grid>
+            </StackPanel>
+        </DockPanel>
+
+    </DockPanel>
+</UserControl>

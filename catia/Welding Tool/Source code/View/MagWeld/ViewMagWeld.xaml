@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Welding_Tool.View.ViewMagWeld"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Welding_Tool.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Border Height="463" BorderThickness="1" Margin="5, 0" BorderBrush="DarkGray">
+        <Label Content="This feature is under development."
+               HorizontalAlignment="Center" VerticalAlignment="Center"
+               Foreground="OrangeRed" FontSize="18"
+               FontWeight="SemiBold"/>
+    </Border>
+</UserControl>

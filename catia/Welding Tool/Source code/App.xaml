@@ -1,0 +1,44 @@
+﻿<Application x:Class="Welding_Tool.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Welding_Tool"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             StartupUri="View/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources\TooltipResouce.xaml"/>
+                <ResourceDictionary Source="Resources\DictionaryControls.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="BorderBrush" Value="#909090"/>
+            </Style>
+
+            <sys:Double x:Key="SelBtnWidth">216</sys:Double>
+            <Thickness x:Key="SelBtnMargin" Right="6"/>
+            <Brush x:Key="BtnDefaultBackgroud">White</Brush>
+            <!--<Brush x:Key="BtnSelOK">#ffe6c2</Brush>-->
+            <Brush x:Key="BtnSelOK">#fbddc6</Brush>
+            
+            <Style TargetType="ToolTip">
+                <Style.Resources>
+                    <Style TargetType="ContentPresenter">
+                        <Style.Resources>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="TextWrapping" Value="Wrap" />
+                            </Style>
+                        </Style.Resources>
+                    </Style>
+                </Style.Resources>
+                <Setter Property="MaxWidth" Value="300" />
+                <Setter Property="Background" Value="#292a2d"/>
+                <Setter Property="Foreground" Value="#cfd1d4"/>
+                <Setter Property="BorderBrush" Value="#cfd1d4"/>
+                <Setter Property="VerticalOffset" Value="-15"/>
+                <Setter Property="HorizontalOffset" Value="-28"/>
+            </Style>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

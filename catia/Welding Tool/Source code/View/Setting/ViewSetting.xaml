@@ -1,0 +1,91 @@
+﻿<Window x:Class="Welding_Tool.View.ViewSetting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Welding_Tool.View"
+        xmlns:vm="clr-namespace:Welding_Tool.ViewModel"
+        xmlns:vms="clr-namespace:Welding_Tool.ViewModel.Setting"
+        xmlns:ui="clr-namespace:Welding_Tool.View.Setting"
+        mc:Ignorable="d" ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner"
+        Title="Setting" Height="380" Width="420"
+        x:Name="ViewSettingWD">
+    <Window.DataContext>
+        <vm:VMSetting/>
+    </Window.DataContext>
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vms:VMSettGeneral}">
+            <ui:ViewSettGeneral/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vms:VMSettSpotWeld}">
+            <ui:ViewSettSpotWeld/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vms:VMSettMagWeld}">
+            <ui:ViewSettMagWeld/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="128"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <DockPanel>
+            <Grid>
+                <Border Name="Border" BorderThickness="0, 1, 1, 0" Background="White"
+                        BorderBrush="LightGray" CornerRadius="5, 5, 5, 0">
+                    <Border.Effect>
+                        <DropShadowEffect Opacity="0.1" ShadowDepth="2"
+                                          Direction="0" BlurRadius="20"/>
+                    </Border.Effect>
+                </Border>
+                <DockPanel>
+                    <!--Back button-->
+                    <Button DockPanel.Dock="Top" Width="28"
+                            BorderThickness="0" HorizontalAlignment="Left"
+                            Margin="6, 10, 10, 6" Command="{Binding CmdPreView}">
+                        <Button.Content>
+                            <TextBlock FontFamily="Segoe Fluent Icons" Text="&#xe830;"/>
+                        </Button.Content>
+                    </Button>
+                    <!--Left side Navigation bar-->
+                    <ListView ItemsSource="{Binding ListViewSetting}"
+                              SelectedItem="{Binding SelectedView}"/>
+                </DockPanel>
+            </Grid>
+        </DockPanel>
+
+        <DockPanel Grid.Column="1" LastChildFill="True">
+            <!--OK and Cancel button-->
+            <DockPanel DockPanel.Dock="Bottom" LastChildFill="False"
+                       Margin="5">
+                <Button Content="Cancel" Width="80" DockPanel.Dock="Right" Margin="6, 2"
+                        Command="{Binding CmdCancel}" CommandParameter="{Binding ElementName=ViewSettingWD}"/>
+                <Button Content="Save" Width="80" DockPanel.Dock="Right" Margin="6, 2"
+                        Command="{Binding CmdSave}" CommandParameter="{Binding ElementName=ViewSettingWD}">
+                    <!--<Button.Style>
+                        <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+                            <Setter Property="IsEnabled" Value="True"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=ViewCurrentSetting, Path=(Validation.HasError)}"
+                                             Value="True">
+                                    <Setter Property="IsEnabled" Value="False"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>-->
+                </Button>
+            </DockPanel>
+            <!--Main View-->
+            <Border Background="Transparent" CornerRadius="0, 0, 0, 0"
+                    BorderBrush="#eaeaea" BorderThickness="0, 1, 0, 0"
+                    Margin="-3, 0, 0, 0" DockPanel.Dock="Top">
+                <Label Content="{Binding SelectedView.Name}" DockPanel.Dock="Top"
+                       FontSize="20" Margin="10, 10"/>
+            </Border>
+            <ContentControl Margin="5, 2, 10, 0" Content="{Binding SelectedView}" Focusable="False"
+                            x:Name="ViewCurrentSetting"/>
+        </DockPanel>
+    </Grid>
+</Window>

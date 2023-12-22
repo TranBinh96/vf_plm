@@ -1,0 +1,36 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ToolTip x:Key="TtCbxWeldMode" Content="Select Welding mode"/>
+    <ToolTip x:Key="TtCbxSpotWeldMode" Content="Select Spot Welding mode"/>
+
+    <ToolTip x:Key="TtBtnCreJFPart" Content="Create a new JF Part in the Specification tree, or to find an existed one."/>
+    <ToolTip x:Key="TtBtnSelSur" Content="Select a surface in CATIA environment which the spot weld will be created on it."/>
+
+    <ToolTip x:Key="TtBtnSelGeoPt" Content="Select a geometrical set in CATIA which contains points to create Spot Weld."/>
+    
+    <ToolTip x:Key="TtBtnSelEdge" Content="Select an Edge of the selected Surface on CATIA environment."/>
+    <ToolTip x:Key="TtChbxMulSel" Content="Select multiple Edges in a single selection."/>
+    <ToolTip x:Key="TtLblEdgeLen" Content="Length of the selected Edge. If there are multiple edge selected, total length will be shown."/>
+
+    <ToolTip x:Key="TtTbxOffset" Content="Offset value from the welding line to the selected edge."/>
+    <ToolTip x:Key="TtBtnPreviewWeldLine" Content="Create the welding line by offset the edge on surface."/>
+    
+    <ToolTip x:Key="TtChbxOpt1" Content="Create welding points by number of points."/>
+    <ToolTip x:Key="TtChbxOpt2" Content="Create welding points by define start reference, distance and spacing."/>
+    
+    <ToolTip x:Key="TtTbxPtCnt" Content="Number of weld points will be created."/>
+    
+    <ToolTip x:Key="TtBtnSelStRef" Content="Select a start reference to define which end point of the weld line will be the start end to create weld points."/>
+    <ToolTip x:Key="TtTbxDisFr1st" Content="Offset value from the 1st created weld point to the start end of the weld line."/>
+    <ToolTip x:Key="TtTbxSpace" Content="Spacing distance between 2 side-by-side weld points."/>
+
+    <ToolTip x:Key="TtChbxPreserve" Content="Keep old weld points not deleted when new weld points be created."/>
+    <ToolTip x:Key="TtBtnCreWeldPt" Content="Create weld points on the weld line."/>
+    <ToolTip x:Key="TtLblPtCnt" Content="Number of created weld points."/>
+
+    <ToolTip x:Key="TtBtnCreSpotWeld" Content="Create the Spot Weld from defined weld points."/>
+    
+    <ToolTip x:Key="TtBtnCreReport" Content="Create the report for created Spot Weld."/>
+    
+</ResourceDictionary>
